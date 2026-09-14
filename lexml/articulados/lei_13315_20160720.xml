@@ -1,0 +1,211 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:2016-07-20;13315"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">LEI Nº 13.315, DE 20 DE JULHO DE 2016 </Epigrafe>
+		  <Ementa id="ementa">Altera as <span xlink:href="urn:lex:br:federal:lei:2010-06-11;12249">Leis nºs 12.249, de 11 de junho de 2010</span>, <span xlink:href="urn:lex:br:federal:lei:1999-01-19;9779">9.779, de 19 de janeiro de 1999</span>, e <span xlink:href="urn:lex:br:federal:lei:1997-08-13;9481">9.481, de 13 de agosto de 1997</span>, para dispor sobre a incidência do imposto de renda retido na fonte sobre remessas ao exterior de valores destinados à cobertura de gastos pessoais, à promoção de produtos, serviços e destinos turísticos brasileiros e de rendimentos provenientes de aposentadoria e pensão.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O VICE-PRESIDENTE DA REPÚBLICA, no exercício do cargo de PRESIDENTE DA REPÚBLICA
+  </p><p>
+    Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            <!--Link: urn:lex:br:federal:lei:2010-06-11;12249!art60-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:2010-06-11;12249!art60">art. 60 da Lei nº 12.249, de 11 de junho de 2010</span>, passa a vigorar com as seguintes alterações:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:2010-06-11;12249" id="art1_cpt_alt1">              
+              <Artigo xlink:href="art60" id="art1_cpt_alt1_art60" abreAspas="s">
+            
+            
+            <Rotulo>Art. 60.</Rotulo>
+            
+            <Caput xlink:href="art60_cpt" id="art1_cpt_alt1_art60_cpt">
+            <!--Link: urn:lex:br:federal:lei:2010-06-11;12249--><!--Link: urn:lex:br:federal:medida.provisoria:2022-09-21;1138-->
+            
+            
+            <p>
+    (Revogado na parte em que altera o “caput” da <span xlink:href="urn:lex:br:federal:lei:2010-06-11;12249">Lei nº 12.249, de 11.6.2010</span>, pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-09-21;1138">Medida Provisória nº 1.138, de 21.9.2022</span>)
+
+  </p>
+            
+          </Caput><Omissis id="art1_cpt_alt1_art60_omi1"/><Paragrafo xlink:href="art60_par2" id="art1_cpt_alt1_art60_par2">
+            <!--Link: urn:lex:br:federal:lei:1996-12-27;9430!art24--><!--Link: urn:lex:br:federal:lei:1996-12-27;9430!art24-1-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Salvo se atendidas as condições previstas no art. 26, a redução da alíquota prevista no caput não se aplica ao caso de beneficiário residente ou domiciliado em país ou dependência com tributação favorecida ou de pessoa física ou jurídica submetida a regime fiscal privilegiado, de que tratam os <span xlink:href="urn:lex:br:federal:lei:1996-12-27;9430!art24">arts. 24</span> e <span xlink:href="urn:lex:br:federal:lei:1996-12-27;9430!art24-1">24-A da Lei nº 9.430, de 27 de dezembro de 1996</span>.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art60_par3" id="art1_cpt_alt1_art60_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    As operadoras e agências de viagem, na hipótese de cumprimento da ressalva constante do § 2º, sujeitam-se ao limite de R$ 10.000,00 (dez mil reais) ao mês por passageiro, obedecida a regulamentação do Poder Executivo quanto a limites, quantidade de passageiros e condições para utilização da redução, conforme o tipo de gasto custeado.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art60_par4" id="art1_cpt_alt1_art60_par4" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Para fins de cumprimento das condições para utilização da alíquota reduzida de que trata este artigo, as operadoras e agências de viagem deverão ser cadastradas no Ministério do Turismo, e suas operações deverão ser realizadas por intermédio de instituição financeira domiciliada no País.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    Não estão sujeitas à retenção na fonte do imposto sobre a renda:
+
+  </p>
+            <Inciso id="art2_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    as remessas destinadas ao exterior para fins educacionais, científicos ou culturais, inclusive para pagamento de taxas escolares, de taxas de inscrição em congressos, conclaves, seminários ou assemelhados e de taxas de exames de proficiência; e
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    as remessas efetuadas por pessoas físicas residentes no País para cobertura de despesas médico-hospitalares com tratamento de saúde, no exterior, do remetente ou de seus dependentes.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            <!--Link: urn:lex:br:federal:lei:1999-01-19;9779!art7-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1999-01-19;9779!art7">art. 7º da Lei nº 9.779, de 19 de janeiro de 1999</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1999-01-19;9779" id="art3_cpt_alt1">              
+              <Artigo xlink:href="art7" id="art3_cpt_alt1_art7" abreAspas="s">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput xlink:href="art7_cpt" id="art3_cpt_alt1_art7_cpt">
+            
+            
+            
+            <p>
+    Os rendimentos do trabalho, com ou sem vínculo empregatício, de aposentadoria, de pensão e os da prestação de serviços, pagos, creditados, entregues, empregados ou remetidos a residentes ou domiciliados no exterior, sujeitam-se à incidência do imposto de renda na fonte à alíquota de 25% (vinte e cinco por cento).
+
+  </p>
+            
+          </Caput><Paragrafo xlink:href="art7_par1" id="art3_cpt_alt1_art7_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    (VETADO).
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art7_par2" id="art3_cpt_alt1_art7_par2" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    (VETADO).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    Esta Lei entra em vigor:
+
+  </p>
+            <Inciso id="art5_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a partir de 1º de janeiro de 2017, em relação ao art. 3º;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    na data de sua publicação, em relação aos demais artigos.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 20 de julho de 2016; 195º da Independência e 128º da República.</p></LocalDataFecho><Assinatura><NomePessoa>MICHEL TEMER</NomePessoa><NomePessoa>Henrique Meirelles</NomePessoa><NomePessoa>Guilherme Estrada Rodrigues</NomePessoa></Assinatura></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>

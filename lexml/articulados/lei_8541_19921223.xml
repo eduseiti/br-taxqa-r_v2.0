@@ -1,0 +1,2492 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:1992-12-23;8541"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">LEI Nº 8.541, DE 23 DE DEZEMBRO DE 1992 </Epigrafe>
+		  <Ementa id="ementa">Altera a legislação o Imposto de Renda e dá outras providências.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O VICE-PRESIDENTE DA REPÚBLICA, no exercício do cargo de PRESIDENTE DA REPÚBLICA
+  </p><p>
+    Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Titulo id="tit1">
+            
+            
+            <Rotulo>TÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DO IMPOSTO DE RENDA DAS PESSOAS JURÍDICAS
+
+  </NomeAgrupador>
+            <Capitulo id="tit1_cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DO IMPOSTO SOBRE A RENDA MENSAL
+
+  </NomeAgrupador>
+            <Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    A partir do mês de janeiro de 1993, o imposto sobre a renda e adicional das pessoas jurídicas, inclusive das equiparadas, das sociedades civis em geral, das sociedades cooperativas, em relação aos resultados obtidos em suas operações ou atividades estranhas a sua finalidade, nos termos da legislação em vigor, e, por opção, o das sociedades civis de prestação de serviços relativos às profissões regulamentadas, será devido mensalmente, à medida em que os lucros forem sendo auferidos.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    A base de cálculo do imposto será o lucro real, presumido ou arbitrado, apurada mensalmente, convertida em quantidade de Unidade Fiscal de Referência - UFIR (Lei n° 8.383), de 30 de dezembro de 1991, art. 1° diária pelo valor desta no último dia do período-base.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Secao id="tit1_cap1_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Imposto Sobre a Renda Mensal Calculado com Base no Lucro Real
+
+  </NomeAgrupador>
+            <Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    A pessoa jurídica, tributada com base no lucro real, deverá apurar mensalmente os seus resultados, com observância da legislação comercial e fiscal.
+
+  </p>
+            
+          </Caput><Paragrafo id="art3_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O imposto será calculado mediante a aplicação da alíquota de 25% sobre o lucro real expresso em quantidade de UFIR diária.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Do imposto apurado na forma do parágrafo anterior a pessoa jurídica poderá excluir o valor:
+
+  </p>
+            <Alinea id="art3_par2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    dos incentivos fiscais de dedução do imposto, podendo o valor excedente ser compensado nos meses subseqüentes, observados os limites e prazos fixados na legislação específica;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_par2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    dos incentivos fiscais de redução e isenção do imposto, calculados com base no lucro da exploração apurado mensalmente;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_par2_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    do Imposto de Renda retido na fonte e incidente sobre receitas computadas na base de cálculo do imposto.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo><Paragrafo id="art3_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Os valores de que trata o parágrafo anterior serão convertidos em quantidade de UFIR diária pelo valor desta no último dia do período-base.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O valor do imposto a pagar, em cada mês, será recolhido até o último dia útil do mês subseqüente ao de apuração, reconvertido para cruzeiro com base na expressão monetária da UFIR diária vigente no dia anterior ao do pagamento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Nos casos em que o Imposto de Renda retido na fonte, de que trata o § 2°, alínea c, deste artigo, seja superior ao devido, a diferença, corrigida monetariamente, poderá ser compensada com o imposto mensal a pagar relativo aos meses subseqüentes.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    Para os efeitos fiscais, os resultados apurados no encerramento de cada período-base mensal serão corrigidos monetariamente.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            <!--Link: urn:lex:br:federal:medida.provisoria:1997-11-14;1602--><!--Link: urn:lex:br:federal:lei:1997-12-10;9532-->
+            
+            
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:medida.provisoria:1997-11-14;1602">Medida Provisória nº 1.602, de 14.11.1997</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:1997-12-10;9532">Lei nº 9.532, de 10.12.1997</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Subsecao id="tit1_cap1_sec1_sub1">
+            
+            
+            <Rotulo>Subseção I</Rotulo>
+            <NomeAgrupador>
+    Das Pessoas Jurídicas Obrigadas à Apuração do Lucro Real
+
+  </NomeAgrupador>
+            <Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    Sem prejuízo do pagamento mensal do imposto sobre a renda, de que trata o art. 3°, desta Lei, a partir de 1° de janeiro de 1993, ficarão obrigadas à apuração do lucro real as pessoas jurídicas:
+
+  </p>
+            <Inciso id="art5_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    cuja receita bruta total, acrescida das demais receitas e dos ganhos de capital, no ano-calendário anterior, tiver ultrapassado o limite correspondente a 9.600.000 UFIR, ou o proporcional ao número de meses do período quando inferior a doze meses;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    constituídas sob a forma de sociedade por ações, de capital aberto;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    cujas atividades sejam de bancos comerciais, bancos de investimentos, bancos de desenvolvimento, caixas econômicas, sociedades de crédito, financiamento e investimento, sociedades de crédito imobiliário, sociedades corretoras, distribuidoras de títulos e valores mobiliários, empresas de arrendamento mercantil, cooperativas de crédito, empresas de seguros privados e de capitalização e entidades de previdência privada aberta;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    que se dediquem à compra e à venda, ao loteamento, à incorporação ou à construção de imóveis e à execução de obras da construção civil;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    que tenham sócio ou acionista residente ou domiciliado no exterior;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    que sejam sociedades controladoras, controladas e coligadas, na forma da legislação vigente;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    constituídas sob qualquer forma societária, e que de seu capital participem entidades da administração pública, direta ou indireta, federal, estadual ou municipal;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    que sejam filiais, sucursais, agências ou representações, no País, de pessoas jurídicas com sede no exterior.
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    que forem incorporadas, fusionadas, ou cindidas no ano-calendário em que ocorrerem as respectivas incorporações, fusões ou cisões;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc10">
+            
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    que gozem de incentivos fiscais calculados com base no lucro da exploração.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Subsecao><Subsecao id="tit1_cap1_sec1_sub2">
+            
+            
+            <Rotulo>Subseção II</Rotulo>
+            <NomeAgrupador>
+    Das Alterações na Apuração do Lucro Real
+
+  </NomeAgrupador>
+            <Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    (Vetado)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    As obrigações referentes a tributos ou contribuições somente serão dedutíveis, para fins de apuração do lucro real, quando pagas.
+
+  </p>
+            
+          </Caput><Paragrafo id="art7_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os valores das provisões, constituídas com base nas obrigações de que trata o caput deste artigo, registrados como despesas indedutíveis, serão adicionados ao lucro líquido, para efeito de apuração do lucro real, e excluído no período-base em que a obrigação provisionada for efetivamente paga.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art7_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Na determinação do lucro real, a pessoa jurídica não poderá deduzir como custo ou despesa o imposto sobre a renda de que for sujeito passivo como contribuinte ou como responsável em substituição ao contribuinte.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art7_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A dedutibilidade, como custo ou despesa, de rendimentos pagos ou creditados a terceiros abrange o imposto sobre os rendimentos que o contribuinte, como fonte pagadora, tiver o dever legal de reter e recolher, ainda que o contribuinte assuma o ônus do imposto.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art7_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Os impostos pagos pela pessoa jurídica na aquisição de bens do ativo permanente poderão, a seu critério, ser registrados como custo de aquisição ou deduzidos como despesas operacionais, salvo os pagos na importação de bens que se acrescerão ao custo de aquisição.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art7_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Não são dedutíveis como custo ou despesas operacionais as multas por infrações fiscais, salvo as de natureza compensatória e as impostas por infrações de que não resultem falta ou insuficiência de pagamento de tributo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1977-12-26;1598!par5--><!--Link: urn:lex:br:federal:decreto.lei:1977-12-26;1598!ali2--><!--Link: urn:lex:br:federal:lei:1966-10-25;5172!art151-->
+            
+            
+            <p>
+    Serão consideradas como redução indevida do lucro real, de conformidade com as disposições contidas no art. 6°, <span xlink:href="urn:lex:br:federal:decreto.lei:1977-12-26;1598!par5">§ 5°</span>, <span xlink:href="urn:lex:br:federal:decreto.lei:1977-12-26;1598!ali2">alínea b , do Decreto-Lei n° 1.598, de 26 de dezembro de 1977</span>, as importâncias contabilizadas como custo ou despesa, relativas a tributos ou contribuições, sua respectiva atualização monetária e as multas, juros e outros encargos, cuja exigibilidade esteja suspensa nos termos do <span xlink:href="urn:lex:br:federal:lei:1966-10-25;5172!art151">art. 151 da Lei n° 5.172, de 25 de outubro de 1966</span>, haja ou não depósito judicial em garantia.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            <!--Link: urn:lex:br:federal:lei:1964-11-30;4506!art61_par2-->
+            
+            
+            <p>
+    O percentual admitido para a determinação do valor da provisão para créditos de liquidação duvidosa, previsto no <span xlink:href="urn:lex:br:federal:lei:1964-11-30;4506!art61_par2">art. 61, § 2°, da Lei n° 4.506, de 30 de novembro de 1964</span>, passa a ser de até 1,5%.
+
+  </p>
+            
+          </Caput><Paragrafo id="art9_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O percentual a que se refere este artigo será de até 0,5% para as pessoas jurídicas referidas no art. 5°, inciso III, desta Lei.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>
+    A partir de 1° de janeiro de 1993, a pessoa jurídica estará sujeita a um adicional do Imposto de Renda à alíquota de dez por cento sobre a parcela do lucro real ou arbitrado que ultrapassar:
+
+  </p>
+            <Inciso id="art10_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    25.000 UFIR, para as pessoas jurídicas que apurarem a base de cálculo mensalmente;
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    300.000 UFIR, para as pessoas jurídicas que apurarem o lucro real anualmente.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art10_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A alíquota de adicional de que trata este artigo será de quinze por cento para os bancos comerciais, bancos de investimento, bancos de desenvolvimento, caixas econômicas, sociedades de crédito, financiamento e investimento, sociedades de crédito imobiliário, sociedades corretoras, distribuidoras de títulos e valores mobiliários e empresas de arrendamento mercantil.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O valor do adicional será recolhido integralmente, não sendo permitidas quaisquer deduções.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O limite previsto no inciso II do caput deste artigo será proporcional ao número de meses do ano-calendário, no caso de período-base inferior a doze meses.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1974-12-12;1376-->
+            
+            
+            <p>
+    O valor dos impostos recolhidos na forma dos arts. 29, 31 e 36, desta Lei, mantidas as demais disposições sobre a matéria, integrará o cálculo dos incentivos fiscais de que trata o <span xlink:href="urn:lex:br:federal:decreto.lei:1974-12-12;1376">Decreto-Lei n° 1.376, de 12 de dezembro de 1974</span> (FINOR/FINAM/FUNRES).
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Subsecao><Subsecao id="tit1_cap1_sec1_sub3">
+            
+            
+            <Rotulo>Subseção III</Rotulo>
+            <NomeAgrupador>
+    Dos Prejuízos Fiscais
+
+  </NomeAgrupador>
+            <Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            <!--Link: urn:lex:br:federal:lei:1995-01-20;8981-->
+            
+            
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:1995-01-20;8981">Lei nº 8.981, de 20.1.1995</span>, produzindo efeitos a partir de 1.1.1995)
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Subsecao>
+          </Secao><Secao id="tit1_cap1_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Imposto Sobre a Renda Mensal Calculado com Base no Lucro Presumido
+
+  </NomeAgrupador>
+            <Subsecao id="tit1_cap1_sec2_sub1">
+            
+            
+            <Rotulo>Subseção I</Rotulo>
+            <NomeAgrupador>
+    Disposições Gerais
+
+  </NomeAgrupador>
+            <Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>
+    Poderão optar pela tributação com base no lucro presumido as pessoas jurídicas cuja receita bruta total, acrescida das demais receitas e ganhos de capital, tenha sido igual ou inferior a 9.600.000 UFIR no ano-calendário anterior.
+
+  </p>
+            
+          </Caput><Paragrafo id="art13_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O limite será calculado tomando-se por base as receitas mensais, divididas pelos valores da UFIR do último dia, dos meses correspondentes.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art13_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Sem prejuízo do recolhimento do imposto sobre a renda mensal de que trata esta seção, a opção pela tributação com base no lucro presumido será exercida e considerada definitiva pela entrega da declaração prevista no art. 18, inciso IV, desta Lei.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art13_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A pessoa jurídica que iniciar atividade ou que resultar de qualquer das operações relacionadas no art. 5°, inciso IX, desta Lei, que não esteja obrigada a tributação pelo lucro real poderá optar pela tributação com base no lucro presumido, no respectivo ano-calendário.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art13_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    A pessoa jurídica que não exercer a opção prevista no § 2° deste artigo deverá apurar o lucro real em 31 de dezembro de cada ano ou na data de encerramento de sua atividade, com base na legislação em vigor e com as alterações desta Lei, e deduzir do imposto apurado com base no lucro real o imposto recolhido na forma desta seção.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art13_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    A diferença do imposto apurada na forma do parágrafo anterior será paga em cota única, até a data fixada para a entrega da declaração, quando positiva; e compensada com imposto devido nos meses subseqüentes ao fixado para a entrega da declaração anual, ou restituída, se negativa.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Subsecao><Subsecao id="tit1_cap1_sec2_sub2">
+            
+            
+            <Rotulo>Subseção II</Rotulo>
+            <NomeAgrupador>
+    Da tributação com Base no Lucro Presumido
+
+  </NomeAgrupador>
+            <Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            <p>
+    A base de cálculo do imposto será determinada mediante a aplicação do percentual de 3,5% sobre a receita bruta mensal auferida na atividade, expressa em cruzeiros.
+
+  </p>
+            
+          </Caput><Paragrafo id="art14_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Nas seguintes atividades o percentual de que trata este artigo será de:
+
+  </p>
+            <Alinea id="art14_par1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    três por cento sobre a receita bruta mensal auferida na revenda de combustível;
+
+  </p>
+            
+          </Alinea><Alinea id="art14_par1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    oito por cento sobre a receita bruta mensal auferida sobre a prestação de serviços em geral, inclusive sobre os serviços de transporte, exceto o de cargas;
+
+  </p>
+            
+          </Alinea><Alinea id="art14_par1_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    vinte por cento sobre a receita bruta mensal auferida com as atividades de: c.1) prestação de serviços, cuja receita remunere essencialmente o exercício pessoal, por parte dos sócios, de profissões que dependam de habilitação profissional legalmente exigida; e c.2) intermediação de negócios, da administração de imóveis, locação ou administração de bens móveis;
+
+  </p>
+            
+          </Alinea><Alinea id="art14_par1_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    3,5% sobre a receita bruta mensal auferida na prestação de serviços hospitalares.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo><Paragrafo id="art14_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    No caso de atividades diversificadas, será aplicado o percentual correspondente a cada atividade.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art14_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Para os efeitos desta Lei, a receita bruta das vendas e serviços compreende o produto da venda de bens nas operações de conta própria, o preço dos serviços prestados e o resultado auferido nas operações de conta alheia.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art14_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Na receita bruta não se incluem as vendas canceladas, os descontos incondicionais concedidos e os impostos não cumulativos cobrados destacadamente do comprador ou contratante, e do qual o vendedor dos bens ou prestador dos serviços seja mero depositário.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art14_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    A base de cálculo será convertida em quantidade de UFIR diária pelo valor desta no último dia do mês a que se referir.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>
+    O imposto sobre a renda mensal será calculado mediante a aplicação da alíquota de 25% sobre a base de cálculo expressa em quantidade de UFIR diária.
+
+  </p>
+            
+          </Caput><Paragrafo id="art15_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Do imposto apurado na forma do caput deste artigo a pessoa jurídica poderá excluir o valor dos incentivos fiscais de dedução do imposto, podendo o valor excedente ser compensado nos meses subseqüentes, observados os limites e prazos fixados na legislação específica.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O imposto sobre a renda na fonte, pago ou retido, sobre as receitas incluídas na base de cálculo de que trata o art. 14, desta Lei, será compensado com o valor do imposto devido mensalmente e apurado nos termos deste artigo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Para os efeitos do parágrafo anterior, o imposto pago ou retido, constante de documento hábil, e os incentivos de que trata o § 1° deste artigo, serão convertidos em quantidade de UFIR diária pelo valor desta no último dia do mês a que se referir o pagamento ou a retenção.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Nos casos em que o imposto sobre a renda pago ou retido na fonte seja superior ao devido, a diferença, corrigida, monetariamente, poderá ser compensada com o imposto mensal dos meses subseqüentes.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            
+            
+            
+            <p>
+    O imposto será pago até o último dia útil do mês subseqüente ao de apuração, reconvertido para cruzeiro com base na expressão monetária da UFIR diária vigente no dia anterior ao do pagamento.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Subsecao><Subsecao id="tit1_cap1_sec2_sub3">
+            
+            
+            <Rotulo>Subseção III</Rotulo>
+            <NomeAgrupador>
+    Da Tributação Mensal dos Demais Resultados e Ganhos de Capital
+
+  </NomeAgrupador>
+            <Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            
+            
+            
+            <p>
+    Os resultados positivos decorrentes de receitas não compreendidas na base de cálculo do art. 14, § 3°, desta Lei, inclusive os ganhos de capital, serão tributados mensalmente, a partir de 1° de janeiro de 1993, à alíquota de 25 %.
+
+  </p>
+            
+          </Caput><Paragrafo id="art17_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Entre os resultados a que alude o caput deste artigo, não se incluem os valores tributados na forma dos arts. 29 e 36, desta Lei, bem como as variações monetárias ativas decorrentes das operações mencionadas nos referidos artigos.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art17_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O ganho de capital, nas alienações de bens do ativo permanente e das aplicações em ouro não tributadas na forma do art. 29 desta Lei, corresponderá à diferença positiva verificada, no mês, entre o valor da alienação e o respectivo custo de aquisição, corrigido monetariamente, até a data da operação.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art17_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A base de cálculo do imposto de que trata este artigo será a soma dos resultados positivos e dos ganhos de capital, convertida em quantidade de UFIR diária pelo valor desta no último dia do período-base.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art17_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O imposto será pago até o último dia útil do mês subseqüente ao de apuração, reconvertido para cruzeiro com base na expressão monetária da UFIR diária vigente no dia anterior ao do pagamento.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Subsecao><Subsecao id="tit1_cap1_sec2_sub4">
+            
+            
+            <Rotulo>Subseção IV</Rotulo>
+            <NomeAgrupador>
+    Das Demais Obrigações das Pessoas Jurídicas Optantes pela Tributação com Base no Lucro presumido
+
+  </NomeAgrupador>
+            <Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            
+            
+            
+            <p>
+    A pessoa jurídica que optar pela tributação com base no lucro presumido deverá adotar os seguintes procedimentos:
+
+  </p>
+            <Inciso id="art18_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    escriturar os recebimentos e pagamentos ocorridos em cada mês, em Livro-Caixa, exceto se mantiver escrituração contábil nos termos da legislação comercial;
+
+  </p>
+            
+          </Inciso><Inciso id="art18_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:1947-11-25;154!art2-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    escriturar, ao término do ano-calendário, o Livro Registro de Inventário de seus estoques, exigido pelo <span xlink:href="urn:lex:br:federal:lei:1947-11-25;154!art2">art. 2°, da Lei n° 154, de 25 de novembro de 1947</span>;
+
+  </p>
+            
+          </Inciso><Inciso id="art18_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    apresentar, até o último dia útil do mês de abril do ano-calendário seguinte ou no mês subseqüente ao de encerramento da atividade, Declaração Simplificada de Rendimentos e Informações, em modelo próprio aprovado pela Secretaria da Receita Federal;
+
+  </p>
+            
+          </Inciso><Inciso id="art18_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    manter em boa guarda e ordem, enquanto não decorrido o prazo decadencial e não prescritas eventuais ações que lhes sejam pertinentes, todos os livros de escrituração obrigatórios, por legislação fiscal específica, bem como os documentos e demais papéis que serviram de base para apurar os valores indicados na Declaração Anual Simplificada de Rendimentos e Informações.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            
+            
+            
+            <p>
+    A pessoa jurídica que obtiver, no decorrer do ano-calendário, receita excedente ao limite previsto no art. 13 desta Lei, a partir do ano-calendário seguinte pagará o imposto sobre a renda com base no lucro real.
+
+  </p>
+            
+          </Caput><Paragrafo id="art19_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A pessoa jurídica que não mantiver escrituração comercial ficará obrigada a realizar, no dia 1° de janeiro do ano-calendário seguinte, levantamento patrimonial, a fim de elaborar balanço de abertura e iniciar escrituração contábil.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            
+            
+            
+            <p>
+    Os rendimentos, efetivamente pagos a sócios ou titular de empresa individual e escriturados nos livros indicados no art. 18, inciso I, desta Lei, que ultrapassarem o valor do lucro presumido deduzido do imposto sobre a renda correspondente serão tributados na fonte e na declaração anual dos referidos beneficiários.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Subsecao>
+          </Secao><Secao id="tit1_cap1_sec3">
+            
+            
+            <Rotulo>Seção III</Rotulo>
+            <NomeAgrupador>
+    Imposto Sobre a Renda Mensal Calculado com Base no Lucro Arbitrado
+
+  </NomeAgrupador>
+            <Subsecao id="tit1_cap1_sec3_sub1">
+            
+            
+            <Rotulo>Subseção I</Rotulo>
+            <NomeAgrupador>
+    Disposições Gerais
+
+  </NomeAgrupador>
+            <Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            <!--Link: urn:lex:br:federal:lei:1995-01-20;8981-->
+            
+            
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:1995-01-20;8981">Lei nº 8.981, de 20.1.1995</span>, produzindo efeitos a partir de 1.1.1995)
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Subsecao><Subsecao id="tit1_cap1_sec3_sub2">
+            
+            
+            <Rotulo>Subseção II</Rotulo>
+            <NomeAgrupador>
+    Da Tributação com Base no Lucro Arbitrado
+
+  </NomeAgrupador>
+            <Artigo id="art22">
+            
+            
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            <!--Link: urn:lex:br:federal:lei:1994-01-28;8849!art2-->
+            
+            
+            <p>
+    Presume-se, para os efeitos legais, rendimento pago aos sócios ou acionistas das pessoas jurídicas, na proporção da participação no capital social, ou integralmente ao titular da empresa individual, o lucro arbitrado deduzido do Imposto de Renda da pessoa jurídica e da contribuição social sobre o lucro. (Vide <span xlink:href="urn:lex:br:federal:lei:1994-01-28;8849!art2">art. 2º da Lei nº 8.849, de 28.01.1994</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art22_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O rendimento referido no caput deste artigo será tributado, exclusivamente na fonte, à alíquota de 25%, devendo o imposto ser recolhido até o último dia útil do mês seguinte ao do arbitramento.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Subsecao>
+          </Secao><Secao id="tit1_cap1_sec4">
+            
+            
+            <Rotulo>Seção IV</Rotulo>
+            <NomeAgrupador>
+    Imposto Sobre a Renda Mensal Calculado por Estimativa
+
+  </NomeAgrupador>
+            <Subsecao id="tit1_cap1_sec4_sub1">
+            
+            
+            <Rotulo>Subseção I</Rotulo>
+            <NomeAgrupador>
+    Disposições Gerais
+
+  </NomeAgrupador>
+            <Artigo id="art23">
+            
+            
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            
+            
+            
+            <p>
+    As pessoas jurídicas tributadas com base no lucro real poderão optar pelo pagamento do imposto mensal calculado por estimativa.
+
+  </p>
+            
+          </Caput><Paragrafo id="art23_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A opção será formalizada mediante o pagamento espontâneo do imposto relativo ao mês de janeiro ou do mês de início de atividade.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art23_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A opção de que trata o caput deste artigo poderá ser exercida em qualquer dos outros meses do ano-calendário uma única vez, vedada a prerrogativa prevista no art. 26 desta Lei.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art23_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A pessoa jurídica que optar pelo disposto no caput , deste artigo, poderá alterar sua opção e passar a recolher o imposto com base no lucro real mensal, desde que cumpra o disposto no art. 3° desta Lei.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art23_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O imposto recolhido por estimativa, exercida a opção prevista no § 3° deste artigo, será deduzido do apurado com base no lucro real dos meses correspondentes e os eventuais excessos serão compensados, corrigidos, monetariamente, nos meses subseqüentes.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art23_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Se do cálculo previsto no § 4° deste artigo resultar saldo de imposto a pagar, este será recolhido, corrigido, monetariamente, na forma da legislação aplicável.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Subsecao><Subsecao id="tit1_cap1_sec4_sub2">
+            
+            
+            <Rotulo>Subseção II</Rotulo>
+            <NomeAgrupador>
+    Da Tributação por Estimativa
+
+  </NomeAgrupador>
+            <Artigo id="art24">
+            
+            
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput id="art24_cpt">
+            
+            
+            
+            <p>
+    No cálculo do imposto mensal por estimativa aplicar-se-ão as disposições pertinentes à apuração do lucro presumido e dos demais resultados positivos e ganhos de capital, previstas nos arts. 13 a 17 desta Lei, observado o seguinte:
+
+  </p>
+            <Alinea id="art24_cpt_ali1">
+            <!--Link: urn:lex:br:federal:medida.provisoria:1995-06-20;1027--><!--Link: urn:lex:br:federal:lei:1995-06-29;9069-->
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:medida.provisoria:1995-06-20;1027">Medida Provisória nº 1.027, de 20.6.1995</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:1995-06-29;9069">Lei nº 9.069, de 29.6.1995</span>)
+
+  </p>
+            
+          </Alinea><Alinea id="art24_cpt_ali2">
+            <!--Link: urn:lex:br:federal:lei:1976-12-15;6404-->
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    as pessoas jurídicas e equiparadas que explorem atividades imobiliárias, tais como loteamento de terrenos, incorporação imobiliária ou construção de prédios destinados à venda, deverão considerar como receita bruta o montante efetivamente recebido, não gravado com cláusula de efeito suspensivo, relativo às unidades imobiliárias vendidas, inclusive as receitas transferidas da conta de &quot;Resultado de Exercícios Futuros&quot; (<span xlink:href="urn:lex:br:federal:lei:1976-12-15;6404">Lei n° 6.404, de 15 de dezembro de 1976</span>, art. 181) e os custos recuperados de períodos anteriores.
+
+  </p>
+            
+          </Alinea><Alinea id="art24_cpt_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    no caso das pessoas jurídicas a que se refere o art. 5°, inciso III, desta Lei, a base de cálculo do imposto será determinada mediante a aplicação do percentual de seis por cento sobre a receita bruta mensal;
+
+  </p>
+            
+          </Alinea><Alinea id="art24_cpt_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    as pessoas jurídicas obrigadas à tributação pelo lucro real, beneficiárias dos incentivos fiscais de isenção e redução calculados com base no lucro da exploração, deverão: d.1) aplicar as disposições pertinentes à apuração do lucro presumido, segregando as receitas brutas mensais de suas diversas atividades; d.2) considerar os incentivos de redução e isenção no cálculo do imposto incidente sobre o lucro presumido das atividades incentivadas.
+
+  </p>
+            
+          </Alinea>
+          </Caput><Paragrafo id="art24_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O Imposto de Renda retido na fonte sobre receitas computadas na determinação da base de cálculo poderá ser deduzido do imposto devido em cada mês (art. 15, § 2°, desta Lei).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art24_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    (Vetado)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art25">
+            
+            
+            <Rotulo>Art. 25.</Rotulo>
+            
+            <Caput id="art25_cpt">
+            
+            
+            
+            <p>
+    A pessoa jurídica que exercer a opção prevista no art. 23 desta Lei, deverá apurar o lucro real em 31 de dezembro de cada ano ou na data de encerramento de suas atividades, com base na legislação em vigor e com as alterações desta Lei.
+
+  </p>
+            
+          </Caput><Paragrafo id="art25_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O imposto recolhido por estimativa na forma do art. 24 desta Lei, será deduzido, corrigido, monetariamente, do apurado na declaração anual, e a variação monetária ativa será computada na determinação do lucro real.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art25_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Para efeito de correção monetária das demonstrações financeiras, o resultado apurado no encerramento de cada período-base anual será corrigido monetariamente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art25_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A pessoa jurídica incorporada, fusionada ou cindida deverá determinar o lucro real com base no balanço que serviu para a realização das operações de incorporação, fusão ou cisão.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art25_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O lucro real apurado nos termos deste artigo será convertido em quantidade de UFIR pelo valor desta no último dia do período de apuração.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art26">
+            
+            
+            <Rotulo>Art. 26.</Rotulo>
+            
+            <Caput id="art26_cpt">
+            
+            
+            
+            <p>
+    Se não estiver obrigada à apuração do lucro real nos termos do art. 5° desta Lei, a pessoa jurídica poderá, no ato da entrega da declaração anual ou de encerramento, optar pela tributação com base no lucro presumido, atendidas as disposições previstas no art. 18 desta Lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art27">
+            
+            
+            <Rotulo>Art. 27.</Rotulo>
+            
+            <Caput id="art27_cpt">
+            
+            
+            
+            <p>
+    A pessoa jurídica tributada com base no lucro real e que tiver lucro diferido por permissão legal, cuja realização estiver vinculada ao seu efetivo recebimento, deverá, se optar pelo recolhimento do imposto mensal com base nas regras previstas no art. 23 desta Lei, adicionar à base de cálculo do imposto mensal o lucro contido na parcela efetivamente recebida, ainda que exerça a opção de que trata o art. 26 desta Lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art28">
+            
+            
+            <Rotulo>Art. 28.</Rotulo>
+            
+            <Caput id="art28_cpt">
+            
+            
+            
+            <p>
+    As pessoas jurídicas que optarem pelo disposto no art. 23 desta Lei, deverão apurar o imposto na declaração anual do lucro real, e a diferença verificada entre o imposto devido na declaração e o imposto pago referente aos meses do período-base anual será:
+
+  </p>
+            <Inciso id="art28_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    paga em quota única, até a data fixada para entrega da declaração anual quando positiva;
+
+  </p>
+            
+          </Inciso><Inciso id="art28_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    compensada, corrigida monetariamente, com o imposto mensal a ser pago nos meses subseqüentes ao fixado para a entrega da declaração anual se negativa, assegurada a alternativa de restituição do montante pago a maior corrigido monetariamente.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Subsecao>
+          </Secao><Secao id="tit1_cap1_sec5">
+            
+            
+            <Rotulo>Seção V</Rotulo>
+            <NomeAgrupador>
+    Imposto Sobre a Renda Mensal Calculado Sobre Rendas Variáveis
+
+  </NomeAgrupador>
+            <Artigo id="art29">
+            
+            
+            <Rotulo>Art. 29.</Rotulo>
+            
+            <Caput id="art29_cpt">
+            
+            
+            
+            <p>
+    Ficam sujeitas ao pagamento do imposto sobre a renda, à alíquota de 25%, as pessoas jurídicas, inclusive isentas, que auferirem ganhos líquidos em operações realizadas, a partir de 1° de janeiro de 1993, nas bolsas de valores, de mercadorias, de futuros e assemelhadas.
+
+  </p>
+            
+          </Caput><Paragrafo id="art29_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Considera-se ganho líquido o resultado positivo auferido nas operações ou contratos liquidados em cada mês, admitida a dedução dos custos e despesas efetivamente incorridos, necessários à realização das operações.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art29_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O ganho líquido será:
+
+  </p>
+            <Alinea id="art29_par2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    no caso dos mercados à vista, a diferença positiva entre o valor da transmissão do ativo e o seu custo de aquisição, corrigido monetariamente;
+
+  </p>
+            
+          </Alinea><Alinea id="art29_par2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    no caso do mercado de opções, a diferença positiva apurada na negociação desses ativos ou no exercício das opções de compra ou de venda;
+
+  </p>
+            
+          </Alinea><Alinea id="art29_par2_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    no caso dos mercados a termo, a diferença positiva apurada entre o valor da venda à vista na data da liquidação do contrato a termo e o preço neste estabelecido;
+
+  </p>
+            
+          </Alinea><Alinea id="art29_par2_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    no caso dos mercados futuros, o resultado líquido positivo dos ajustes diários apurados no período.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo><Paragrafo id="art29_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O disposto neste artigo aplica-se também aos ganhos líquidos auferidos na alienação de ouro, ativo financeiro, fora de bolsa, bem como aos ganhos auferidos na alienação de ações no mercado de balcão.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art29_par4">
+            <!--Link: urn:lex:br:federal:lei:1991-12-30;8383!art28-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O resultado decorrente das operações de que trata este artigo será apurado mensalmente, ressalvado o disposto no <span xlink:href="urn:lex:br:federal:lei:1991-12-30;8383!art28">art. 28 da Lei n° 8.383, de 30 de dezembro de 1991</span>, e terá o seguinte tratamento:
+
+  </p>
+            <Inciso id="art29_par4_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    se positivo (ganho líquido), será tributado em separado, devendo ser excluído do lucro líquido para efeito de determinação do lucro real;
+
+  </p>
+            
+          </Inciso><Inciso id="art29_par4_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    se negativo (perda líquida), será indedutível para efeito de determinação do lucro real, admitida sua compensação, corrigido monetariamente pela variação da UFIR diária, com os resultados positivos da mesma natureza em meses subseqüentes.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art29_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    O imposto de que trata este artigo será:
+
+  </p>
+            <Inciso id="art29_par5_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    definitivo, não podendo ser compensado com o imposto sobre a renda apurado com base no lucro real, presumido ou arbitrado;
+
+  </p>
+            
+          </Inciso><Inciso id="art29_par5_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    indedutível na apuração do lucro real;
+
+  </p>
+            
+          </Inciso><Inciso id="art29_par5_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    convertido em quantidade de UFIR diária pelo valor desta no último dia do mês a que se referir;
+
+  </p>
+            
+          </Inciso><Inciso id="art29_par5_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    pago até o último dia útil do mês subseqüente ao da apuração, reconvertido para cruzeiros pelo valor da UFIR diária vigente no dia anterior ao do pagamento.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art29_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    O custo de aquisição dos ativos objeto das operações de que trata este artigo será corrigido monetariamente pela variação acumulada da UFIR diária, da data de aquisição até a data de venda, sendo que, no caso de várias aquisições da mesma espécie de ativo, no mesmo dia, será considerado como custo de aquisição o valor médio pago.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art29_par7">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    A partir de 1° de janeiro de 1993, a variação monetária do custo de aquisição dos ativos, a que se refere o § 6° deste artigo, será apropriada segundo o regime de competência.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art29_par8">
+            
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    Nos casos dos mercados de opções e a termo, o disposto neste artigo aplica-se às operações iniciadas a partir de 1° de janeiro de 1993.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art29_par9">
+            
+            
+            <Rotulo>§ 9º</Rotulo>
+            <p>
+    Excluem-se do disposto neste artigo os ganhos líquidos nas alienações de participações societárias permanentes em sociedades coligadas e controladas e os resultantes da alienação de participações societárias que permaneceram no ativo da pessoa jurídica até o término do ano-calendário seguinte ao de suas aquisições.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art29_par10">
+            
+            
+            <Rotulo>§ 10.</Rotulo>
+            <p>
+    (Vetado)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="tit1_cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DO IMPOSTO CALCULADO SOBRE O LUCRO INFLACIONÁRIO ACUMULADO
+
+  </NomeAgrupador>
+            <Artigo id="art30">
+            
+            
+            <Rotulo>Art. 30.</Rotulo>
+            
+            <Caput id="art30_cpt">
+            <!--Link: urn:lex:br:federal:lei:1991-06-28;8200-->
+            
+            
+            <p>
+    A pessoa jurídica deverá considerar realizado mensalmente, no mínimo, 1/240, ou o valor efetivamente realizado, nos termos da legislação em vigor, do lucro inflacionário acumulado e do saldo credor da diferença de correção monetária complementar IPC/BTNF (<span xlink:href="urn:lex:br:federal:lei:1991-06-28;8200">Lei n° 8.200, de 28 de junho de 1991</span>, art. 3°).
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art31">
+            
+            
+            <Rotulo>Art. 31.</Rotulo>
+            
+            <Caput id="art31_cpt">
+            <!--Link: urn:lex:br:federal:lei:1991-06-28;8200-->
+            
+            
+            <p>
+    À opção da pessoa jurídica, o lucro inflacionário acumulado e o saldo credor da diferença de correção monetária complementar IPC/BTNF (<span xlink:href="urn:lex:br:federal:lei:1991-06-28;8200">Lei n° 8.200, de 28 de junho de 1991</span>, art. 3°) existente em 31 de dezembro de 1992, corrigidos monetariamente, poderão ser considerados realizados mensalmente e tributados da seguinte forma:
+
+  </p>
+            <Inciso id="art31_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    1/120 à alíquota de vinte por cento; ou
+
+  </p>
+            
+          </Inciso><Inciso id="art31_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    1/60 à alíquota de dezoito por cento; ou
+
+  </p>
+            
+          </Inciso><Inciso id="art31_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    1/36 à alíquota de quinze por cento; ou
+
+  </p>
+            
+          </Inciso><Inciso id="art31_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    1/12 à alíquota de dez por cento, ou
+
+  </p>
+            
+          </Inciso><Inciso id="art31_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    em cota única à alíquota de cinco por cento.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Capitulo>
+          </Titulo><p>(Vide <span xlink:href="urn:lex:br:federal:lei:1995-12-26;9249!art7_par4">art. 7º, § 4º, da Lei nº 9.249, de 26.12.1995</span>)
+</p><p>(Vide art. 14, I, da <span xlink:href="urn:lex:br:federal:lei:2002-07-19;10522">Lei nº 10.522, de 19.7.2002</span>)
+</p><Paragrafo id="par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O lucro inflacionário acumulado realizado na forma deste artigo será convertido em quantidade de UFIR diária pelo valor desta no último dia do período-base.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O imposto calculado nos termos deste artigo será pago até o último dia útil do mês subseqüente ao da realização, reconvertido para cruzeiro, com base na expressão monetária da UFIR diária vigente no dia anterior ao do pagamento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O imposto de que trata este artigo será considerado como de tributação exclusiva.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    A opção de que trata o caput deste artigo, que deverá ser feita até o dia 31 de dezembro de 1994, será irretratável e manifestada através do pagamento do imposto sobre o lucro inflacionário acumulado, cumpridas as instruções baixadas pela Secretaria da Receita Federal.
+
+  </p>
+            
+          </Paragrafo><p>(Vide <span xlink:href="urn:lex:br:federal:lei:1995-01-20;8981!art93">art. 93 da Lei nº 8.981, de 20.1.1995</span>)
+</p><p>(Vide <span xlink:href="urn:lex:br:federal:lei:1995-01-20;8981!art96">art. 96 da Lei nº 8.981, de 20.1.1995</span>)
+</p><Artigo id="art32">
+            
+            
+            <Rotulo>Art. 32.</Rotulo>
+            
+            <Caput id="art32_cpt">
+            
+            
+            
+            <p>
+    A partir do exercício financeiro de 1995, a parcela de realização mensal do lucro inflacionário acumulado, a que se refere o art. 30 desta Lei, será de, no mínimo, 1/120.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art33">
+            
+            
+            <Rotulo>Art. 33.</Rotulo>
+            
+            <Caput id="art33_cpt">
+            
+            
+            
+            <p>
+    A pessoa jurídica optante pela tributação com base no lucro presumido, que possuir saldo de lucro inflacionário acumulado anterior à opção, deverá tributar mensalmente o correspondente a 1/240 deste saldo até 31 de dezembro de 1994 e 1/120 a partir do exercício financeiro de 1995.
+
+  </p>
+            
+          </Caput><Paragrafo id="art33_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Poderá a pessoa jurídica de que trata este artigo fazer a opção pela tributação prevista no art. 31 desta Lei.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art34">
+            
+            
+            <Rotulo>Art. 34.</Rotulo>
+            
+            <Caput id="art34_cpt">
+            
+            
+            
+            <p>
+    A pessoa jurídica que optar pelo disposto no art. 31 desta Lei poderá quitar, com títulos da Dívida Pública Mobiliária Federal, nos termos e condições definidos pelo Poder Executivo, o imposto incidente sobre a parcela que exceder o valor de realização, mínima ou efetiva, do lucro inflacionário, conforme prevista pela legislação vigente.
+
+  </p>
+            
+          </Caput><Paragrafo id="art34_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Para os efeitos deste artigo, o imposto será calculado à alíquota de 25%.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art35">
+            
+            
+            <Rotulo>Art. 35.</Rotulo>
+            
+            <Caput id="art35_cpt">
+            
+            
+            
+            <p>
+    Nos casos de incorporação, fusão, cisão total ou encerramento de atividades, a pessoa jurídica incorporada, fusionada, cindida ou extinta deverá considerar integralmente realizado o valor total do lucro inflacionário acumulado, corrigido monetariamente. Na cisão parcial, a realização será proporcional à parcela do ativo, sujeito à correção monetária que tiver sido vertida.
+
+  </p>
+            
+          </Caput><Paragrafo id="art35_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A pessoa jurídica, que tiver realizado o lucro inflacionário nos termos do caput deste artigo deverá recolher o saldo remanescente do imposto até o décimo dia subseqüente à data do evento, não se lhes aplicando as reduções de alíquotas mencionadas no art. 31 desta Lei.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Titulo id="tit2">
+            
+            
+            <Rotulo>TÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DO IMPOSTO DE RENDA RETIDO NA FONTE
+
+  </NomeAgrupador>
+            <Capitulo id="tit2_cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    IMPOSTO SOBRE A RENDA CALCULADO SOBRE APLICAÇÕES FINANCEIRAS DE RENDA FIXA
+
+  </NomeAgrupador>
+            <Artigo id="art36">
+            
+            
+            <Rotulo>Art. 36.</Rotulo>
+            
+            <Caput id="art36_cpt">
+            
+            
+            
+            <p>
+    Os rendimentos auferidos pelas pessoas jurídicas, inclusive isentas, em aplicações financeiras de renda fixa iniciadas a partir de 1° de janeiro de 1993 serão tributadas, exclusivamente na fonte, na forma da legislação vigente, com as alterações introduzidas por esta Lei.
+
+  </p>
+            
+          </Caput><Paragrafo id="art36_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O valor que servir de base de cálculo do imposto de que trata este artigo será excluído do lucro líquido para efeito de determinação do lucro real.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art36_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O valor das aplicações de que trata este artigo deve ser corrigido monetariamente pela variação acumulada da UFIR diária da data da aplicação até a data da cessão, resgate, repactuação ou liquidação da operação.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art36_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A variação monetária ativa de que trata o parágrafo anterior comporá o lucro real mensal ou anual, devendo ser apropriada pelo regime de competência.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art36_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O imposto retido na fonte lançado como despesa será indedutível na apuração do lucro real.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art36_par5">
+            <!--Link: urn:lex:br:federal:lei:1991-12-30;8383!art25-->
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    O disposto neste artigo contempla as aplicações efetuadas nos fundos de investimento de que trata o <span xlink:href="urn:lex:br:federal:lei:1991-12-30;8383!art25">art. 25 da Lei n° 8.383, de 30 de dezembro de 1991</span>.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art36_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    O disposto neste artigo se aplica às operações de renda fixa iniciadas e encerradas no mesmo dia ( day - trade ).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art36_par7">
+            <!--Link: urn:lex:br:federal:lei:1991-12-30;8383-->
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    Fica mantida a tributação sobre as aplicações em Fundo de Aplicação Financeira (FAF) (<span xlink:href="urn:lex:br:federal:lei:1991-12-30;8383">Lei n° 8.383, de 30 de dezembro de 1991</span>, art. 21, § 4°), nos termos previstos na referida Lei .
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art36_par8">
+            
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    O disposto neste artigo não se aplica aos ganhos nas operações de mútuo entre pessoas jurídicas controladoras, controladas ou coligadas.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art37">
+            
+            
+            <Rotulo>Art. 37.</Rotulo>
+            
+            <Caput id="art37_cpt">
+            <!--Link: urn:lex:br:federal:lei:1991-12-30;8383!art21_par4-->
+            
+            
+            <p>
+    Não incidirá o imposto de renda na fonte de que trata o art. 36 desta Lei sobre os rendimentos auferidos por instituição financeira, inclusive sociedades de seguro, previdência e capitalização, sociedade corretora de títulos e valores mobiliários e sociedade distribuidora de títulos e valores mobiliários, ressalvadas as aplicações de que trata o <span xlink:href="urn:lex:br:federal:lei:1991-12-30;8383!art21_par4">art. 21, § 4°, da Lei n° 8.383, de 30 de dezembro de 1991</span>.
+
+  </p>
+            
+          </Caput><Paragrafo id="art37_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os rendimentos auferidos pelas entidades de que trata este artigo em aplicações financeiras de renda fixa deverão compor o lucro real.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art37_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Excluem-se do disposto neste artigo os rendimentos auferidos pelas associações de poupança e empréstimo em aplicações financeiras de renda fixa.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo>
+          </Titulo><Titulo id="tit3">
+            
+            
+            <Rotulo>TÍTULO III</Rotulo>
+            <NomeAgrupador>
+    DA CONTRIBUIÇÃO SOCIAL
+
+  </NomeAgrupador>
+            <Capitulo id="tit3_cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DA APURAÇÃO E PAGAMENTO DA CONTRIBUIÇÃO SOCIAL
+
+  </NomeAgrupador>
+            <Artigo id="art38">
+            
+            
+            <Rotulo>Art. 38.</Rotulo>
+            
+            <Caput id="art38_cpt">
+            <!--Link: urn:lex:br:federal:lei:1988-12-15;7689-->
+            
+            
+            <p>
+    Aplicam-se à contribuição social sobre o lucro (<span xlink:href="urn:lex:br:federal:lei:1988-12-15;7689">Lei n° 7.689, de 15 de dezembro de 1988</span>) as mesmas normas de pagamento estabelecidas por esta Lei para o Imposto de Renda das pessoas jurídicas, mantida a base de cálculo e alíquotas previstas na legislação em vigor, com as alterações introduzidas por esta Lei.
+
+  </p>
+            
+          </Caput><Paragrafo id="art38_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A base de cálculo da contribuição social para as empresas que exercerem a opção a que se refere o art. 23 desta Lei será o valor correspondente a dez por cento da receita bruta mensal, acrescido dos demais resultados e ganhos de capital.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art38_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A base de cálculo da contribuição social será convertida em quantidade de UFIR diária pelo valor desta no último dia do período-base.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art38_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A contribuição será paga até o último dia útil do mês subseqüente ao de apuração, reconvertida para cruzeiro com base na expressão monetária da UFIR diária vigente no dia anterior ao do pagamento.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art39">
+            
+            
+            <Rotulo>Art. 39.</Rotulo>
+            
+            <Caput id="art39_cpt">
+            
+            
+            
+            <p>
+    A base de cálculo da contribuição social sobre o lucro, apurada no encerramento do ano-calendário, pelas empresas referidas no art. 38, § 1°, desta Lei, será convertida em UFIR diária, tomando-se por base o valor desta no último dia do período.
+
+  </p>
+            
+          </Caput><Paragrafo id="art39_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A contribuição social, determinada e recolhida na forma do art. 38 desta Lei, será reduzida da contribuição apurada no encerramento do ano-calendário.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art39_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A diferença entre a contribuição devida, apurada na forma deste artigo, e a importância paga nos termos do art. 38, §1°, desta Lei, será:
+
+  </p>
+            <Alinea id="art39_par2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    paga em quota única, até a data fixada para entrega da declaração anual, quando positiva;
+
+  </p>
+            
+          </Alinea><Alinea id="art39_par2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    compensada, corrigida monetariamente, com a contribuição mensal a ser paga nos meses subseqüentes ao fixado para entrega da declaração anual, se negativa, assegurada a alternativa de restituição do montante pago a maior.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo>
+          </Artigo>
+          </Capitulo>
+          </Titulo><Titulo id="tit4">
+            
+            
+            <Rotulo>TÍTULO IV</Rotulo>
+            <NomeAgrupador>
+    DAS PENALIDADES
+
+  </NomeAgrupador>
+            <Capitulo id="tit4_cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DISPOSIÇÕES GERAIS
+
+  </NomeAgrupador>
+            <Artigo id="art40">
+            
+            
+            <Rotulo>Art. 40.</Rotulo>
+            
+            <Caput id="art40_cpt">
+            
+            
+            
+            <p>
+    A falta ou insuficiência de pagamento do imposto e contribuição social sobre o lucro previsto nesta Lei implicará o lançamento, de ofício, dos referidos valores com acréscimos e penalidades legais.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art41">
+            
+            
+            <Rotulo>Art. 41.</Rotulo>
+            
+            <Caput id="art41_cpt">
+            
+            
+            
+            <p>
+    A falta ou insuficiência de recolhimento do imposto sobre a renda mensal, no ano-calendário, implicará o lançamento, de ofício, observados os seguintes procedimentos:
+
+  </p>
+            <Inciso id="art41_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    para as pessoas jurídicas de que trata o art. 5° desta Lei o imposto será exigido com base no lucro real ou arbitrado;
+
+  </p>
+            
+          </Inciso><Inciso id="art41_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    para as demais pessoas jurídicas, o imposto será exigido com base no lucro presumido ou arbitrado.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art42">
+            
+            
+            <Rotulo>Art. 42.</Rotulo>
+            
+            <Caput id="art42_cpt">
+            
+            
+            
+            <p>
+    A suspensão ou a redução indevida do recolhimento do imposto decorrente do exercício da opção prevista no art. 23 desta Lei sujeitará a pessoa jurídica ao seu recolhimento integral com os acréscimos legais.
+
+  </p>
+            
+          </Caput><Paragrafo id="art42_par1u">
+            <!--Link: urn:lex:br:federal:lei:1995-01-20;8981-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:1995-01-20;8981">Lei nº 8.981, de 20.1.1995</span>, produzindo efeitos a partir de 1.1.1995)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="tit4_cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DA OMISSÃO DE RECEITA
+
+  </NomeAgrupador>
+            <Artigo id="art43">
+            
+            
+            <Rotulo>Art. 43.</Rotulo>
+            
+            <Caput id="art43_cpt">
+            <!--Link: urn:lex:br:federal:lei:1995-12-26;9249-->
+            
+            
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:1995-12-26;9249">Lei nº 9.249, de 26.12.1995</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art44">
+            
+            
+            <Rotulo>Art. 44.</Rotulo>
+            
+            <Caput id="art44_cpt">
+            <!--Link: urn:lex:br:federal:lei:1995-12-26;9249-->
+            
+            
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:1995-12-26;9249">Lei nº 9.249, de 26.12.1995</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo>
+          </Titulo><Titulo id="tit5">
+            
+            
+            <Rotulo>TÍTULO V</Rotulo>
+            <NomeAgrupador>
+    DO IMPOSTO SOBRE A RENDA DAS PESSOAS FÍSICAS
+
+  </NomeAgrupador>
+            <Artigo id="art45">
+            
+            
+            <Rotulo>Art. 45.</Rotulo>
+            
+            <Caput id="art45_cpt">
+            <!--Link: urn:lex:br:federal:lei:1995-01-20;8981-->
+            
+            
+            <p>
+    Estão sujeitas à incidência do Imposto de Renda na fonte, à alíquota de 1,5%, as importâncias pagas ou creditadas por pessoas jurídicas a cooperativas de trabalho, associações de profissionais ou assemelhadas, relativas a serviços pessoais que lhes forem prestados por associados destas ou colocados à disposição. (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1995-01-20;8981">Lei nº 8.981, de 20.1.1995</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art45_par1">
+            <!--Link: urn:lex:br:federal:lei:1995-01-20;8981-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O imposto retido será compensado pelas cooperativas de trabalho, associações ou assemelhadas com o imposto retido por ocasião do pagamento dos rendimentos aos associados. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1995-01-20;8981">Lei nº 8.981, de 20.1.1995</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art45_par2">
+            <!--Link: urn:lex:br:federal:lei:1995-01-20;8981-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O imposto retido na forma deste artigo poderá ser objeto de pedido de restituição, desde que a cooperativa, associação ou assemelhada comprove, relativamente a cada ano-calendário, a impossibilidade de sua compensação, na forma e condições definidas em ato normativo do Ministro da Fazenda. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1995-01-20;8981">Lei nº 8.981, de 20.1.1995</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art46">
+            
+            
+            <Rotulo>Art. 46.</Rotulo>
+            
+            <Caput id="art46_cpt">
+            <!--Link: urn:lex:br:federal:lei:2003-12-29;10833!art28-->
+            
+            
+            <p>
+    O imposto sobre a renda incidente sobre os rendimentos pagos em cumprimento de decisão judicial será retido na fonte pela pessoa física ou jurídica obrigada ao pagamento, no momento em que, por qualquer forma, o rendimento se torne disponível para o beneficiário. (Vide <span xlink:href="urn:lex:br:federal:lei:2003-12-29;10833!art28">art. 28 da Lei nº 10.833, de 29.12.2003</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art46_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Fica dispensada a soma dos rendimentos pagos no mês, para aplicação da alíquota correspondente, nos casos de:
+
+  </p>
+            <Inciso id="art46_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    juros e indenizações por lucros cessantes;
+
+  </p>
+            
+          </Inciso><Inciso id="art46_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    honorários advocatícios;
+
+  </p>
+            
+          </Inciso><Inciso id="art46_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    remuneração pela prestação de serviços de engenheiro, médico, contador, leiloeiro, perito, assistente técnico, avaliador, síndico, testamenteiro e liquidante.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art46_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Quando se tratar de rendimento sujeito à aplicação da tabela progressiva, deverá ser utilizada a tabela vigente no mês de pagamento.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art47">
+            
+            
+            <Rotulo>Art. 47.</Rotulo>
+            
+            <Caput id="art47_cpt">
+            <!--Link: urn:lex:br:federal:lei:1988-12-22;7713!art6-->
+            
+            
+            <p>
+    No <span xlink:href="urn:lex:br:federal:lei:1988-12-22;7713!art6">art. 6° da Lei n° 7.713, de 22 de dezembro de 1988</span>, dê-se ao inciso XIV nova redação e acrescente-se um novo inciso de número XXI, tudo nos seguintes termos:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1988-12-22;7713" id="art47_cpt_alt1">              
+              <Artigo xlink:href="art6" id="art47_cpt_alt1_art6" abreAspas="s">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput xlink:href="art6_cpt" id="art47_cpt_alt1_art6_cpt" textoOmitido="s">
+            
+            
+            
+            
+            <Omissis id="art47_cpt_alt1_art6_cpt_omi1"/><Inciso xlink:href="art6_cpt_inc14" id="art47_cpt_alt1_art6_cpt_inc14">
+            
+            
+            <Rotulo>XIV –</Rotulo>
+            <p>
+    os proventos de aposentadoria ou reforma, desde que motivadas por acidente sem serviços, e os percebidos pelos portadores de moléstia profissional, tuberculose ativa, alienação mental, esclerose-múltipla, neoplasia maligna, cegueira, hanseníase, paralisia irreversível e incapacitante, cardiopatia grave, doença de Parkinson, espondiloartrose anquilosante, nefropatia grave, estados avançados da doença de Paget (osteíte deformante), contaminação por radiação, síndrome da imunodeficiência adquirida, com base em conclusão da medicina especializada, mesmo que a doença tenha sido contraída depois da aposentadoria ou reforma; ................................................................................................
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art6_cpt_inc21" id="art47_cpt_alt1_art6_cpt_inc21" fechaAspas="s">
+            
+            
+            <Rotulo>XXI –</Rotulo>
+            <p>
+    os valores recebidos a título de pensão quando o beneficiário desse rendimento for portador das doenças relacionadas no inciso XIV deste artigo, exceto as decorrentes de moléstia profissional, com base em conclusão da medicina especializada, mesmo que a doença tenha sido contraída após a concessão da pensão.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art48">
+            
+            
+            <Rotulo>Art. 48.</Rotulo>
+            
+            <Caput id="art48_cpt">
+            <!--Link: urn:lex:br:federal:lei:1995-12-26;9250-->
+            
+            
+            <p>
+    Ficam isentos do imposto de renda os rendimentos percebidos pelas pessoas físicas decorrentes de seguro-desemprego, auxílio-natalidade, auxílio-doença, auxílio-funeral e auxílio-acidente, pagos pela previdência oficial da União, dos Estados, do Distrito Federal e dos Municípios e pelas entidades de previdência privada. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1995-12-26;9250">Lei nº 9.250, de 26.12.1995</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Titulo><Titulo id="tit6">
+            
+            
+            <Rotulo>TÍTULO VI</Rotulo>
+            <NomeAgrupador>
+    DAS DISPOSIÇÕES FINAIS E TRANSITÓRIAS
+
+  </NomeAgrupador>
+            <Artigo id="art49">
+            
+            
+            <Rotulo>Art. 49.</Rotulo>
+            
+            <Caput id="art49_cpt">
+            
+            
+            
+            <p>
+    A pessoa jurídica estará obrigada à apuração do lucro real, no ano-calendário de 1993, se, no ano-calendário de 1992, a soma da receita bruta anual, acrescida das demais receitas e ganhos de capital, for igual ou superior a 9.600.000 UFIR.
+
+  </p>
+            
+          </Caput><Paragrafo id="art49_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Para fins de apuração no limite previsto neste artigo, as receitas serão convertidas, mês a mês, em quantidade de UFIR, pelo valor desta no último dia do mês em que forem auferidas.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art49_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O limite deste artigo será reduzido proporcionalmente ao número de meses do período, nos casos de início de atividade, no ano-calendário de 1992.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art50">
+            
+            
+            <Rotulo>Art. 50.</Rotulo>
+            
+            <Caput id="art50_cpt">
+            
+            
+            
+            <p>
+    Não será admitido pedido de reconsideração de julgamento dos Conselhos de Contribuintes.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art51">
+            
+            
+            <Rotulo>Art. 51.</Rotulo>
+            
+            <Caput id="art51_cpt">
+            
+            
+            
+            <p>
+    As pessoas jurídicas tributadas com base no lucro real, no ano-calendário de 1992, poderão, excepcionalmente, no ano-calendário de 1993, efetuar o pagamento do imposto de renda mensal, da seguinte forma:
+
+  </p>
+            <Alinea id="art51_cpt_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    em abril de 1993, o imposto e adicional dos meses de janeiro e fevereiro;
+
+  </p>
+            
+          </Alinea><Alinea id="art51_cpt_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    em maio de 1993, o imposto e adicional dos meses de março e abril;
+
+  </p>
+            
+          </Alinea><Alinea id="art51_cpt_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    a partir de junho de 1993, o imposto e adicional referente aos respectivos meses imediatamente anteriores.
+
+  </p>
+            
+          </Alinea>
+          </Caput>
+          </Artigo><Artigo id="art52">
+            
+            
+            <Rotulo>Art. 52.</Rotulo>
+            
+            <Caput id="art52_cpt">
+            <!--Link: urn:lex:br:federal:lei:1984-11-27;7256-->
+            
+            
+            <p>
+    As pessoas jurídicas de que trata a <span xlink:href="urn:lex:br:federal:lei:1984-11-27;7256">Lei n° 7.256, de 27 de novembro de 1984</span> (microempresas), deverão apresentar, até o último dia útil do mês de abril do ano calendário seguinte, a Declaração Anual Simplificada de Rendimentos e Informações, em modelo aprovado pela Secretaria da Receita Federal.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art53">
+            
+            
+            <Rotulo>Art. 53.</Rotulo>
+            
+            <Caput id="art53_cpt">
+            
+            
+            
+            <p>
+    O Ministro da Fazenda fica autorizado a baixar as instruções necessárias para a simplificação da apuração do imposto sobre a renda das pessoas jurídicas, bem como alterar os limites previstos nos arts. 5°, I, e 13, desta Lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art54">
+            
+            
+            <Rotulo>Art. 54.</Rotulo>
+            
+            <Caput id="art54_cpt">
+            
+            
+            
+            <p>
+    O Ministro da Fazenda expedirá os atos necessários para permitir que as pessoas jurídicas sujeitas à apuração do lucro real apresentem declarações de rendimentos através de meios magnéticos ou de transmissão de dados, assim como para disciplinar o cumprimento das obrigações tributárias principais, mediante débito em conta corrente bancária.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art55">
+            
+            
+            <Rotulo>Art. 55.</Rotulo>
+            
+            <Caput id="art55_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1977-12-26;1589!art14_par2--><!--Link: urn:lex:br:federal:lei:1989-12-21;7959!art2-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:decreto.lei:1977-12-26;1589!art14_par2">art. 14, § 2°, do Decreto-Lei n° 1.589, de 26 de dezembro de 1977</span>, alterado pelo <span xlink:href="urn:lex:br:federal:lei:1989-12-21;7959!art2">art. 2° da Lei n° 7.959, de 21 de dezembro de 1989</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:decreto.lei:1977-12-26;1589" id="art55_cpt_alt1">              
+              <Artigo xlink:href="art14" id="art55_cpt_alt1_art14" abreAspas="s">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput xlink:href="art14_cpt" id="art55_cpt_alt1_art14_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Omissis id="art55_cpt_alt1_art14_omi1"/><Paragrafo xlink:href="art14_par2" id="art55_cpt_alt1_art14_par2" fechaAspas="s">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O valor dos bens existentes no encerramento do período poderá ser o custo médio ou o dos bens adquiridos ou produzidos mais recentemente, admitida, ainda a avaliação com base no preço de venda, subtraída a margem de lucro.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art56">
+            
+            
+            <Rotulo>Art. 56.</Rotulo>
+            
+            <Caput id="art56_cpt">
+            
+            
+            
+            <p>
+    Fica o Ministro da Fazenda autorizado a convocar para a segunda etapa do concurso público para o cargo de Auditor Fiscal do Tesouro Nacional, a que se refere o Edital n° 18, de 16 de outubro de 1991, da Escola de Administração Fazendária, conforme as necessidades dos serviços de tributação, arrecadação e fiscalização, os candidatos habilitados de acordo com os critérios mínimos exigidos na 1ª etapa e classificados além do qüingentésimo selecionado, dentro do número de vagas do cargo na referida carreira.
+
+  </p>
+            
+          </Caput><Paragrafo id="art56_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A autorização de que trata este artigo estende-se até 16 de outubro de 1993.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art56_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O prazo previsto no parágrafo anterior poderá, a critério do Ministro da Fazenda, ser prorrogado por período não superior a um ano.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art57">
+            
+            
+            <Rotulo>Art. 57.</Rotulo>
+            
+            <Caput id="art57_cpt">
+            
+            
+            
+            <p>
+    Esta Lei entra em vigor na data de sua publicação e produzirá efeitos a partir de 1° de janeiro de 1993, revogando-se as disposições em contrário e, especificamente, os:
+
+  </p>
+            <Inciso id="art57_cpt_inc1">
+            <!--Link: urn:lex:br:federal:decreto.lei:1977-12-26;1598!art16-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    <span xlink:href="urn:lex:br:federal:decreto.lei:1977-12-26;1598!art16">art. 16 do Decreto-Lei n° 1.598, de 26 de dezembro de 1977</span>;
+
+  </p>
+            
+          </Inciso><Inciso id="art57_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:1989-07-10;7799!art26-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    <span xlink:href="urn:lex:br:federal:lei:1989-07-10;7799!art26">art. 26 da Lei n° 7.799, de 10 de julho de 1989</span>;
+
+  </p>
+            
+          </Inciso><Inciso id="art57_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:1991-08-29;8218!art19--><!--Link: urn:lex:br:federal:lei:1991-08-29;8218!art27-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    <span xlink:href="urn:lex:br:federal:lei:1991-08-29;8218!art19">arts. 19</span> e <span xlink:href="urn:lex:br:federal:lei:1991-08-29;8218!art27">27, da Lei n° 8.218, de 29 de agosto de 1991</span>;
+
+  </p>
+            
+          </Inciso><Inciso id="art57_cpt_inc4">
+            <!--Link: urn:lex:br:federal:lei:1991-12-30;8383!art87_cpt_inc3--><!--Link: urn:lex:br:federal:lei:1991-12-30;8383!art88--><!--Link: urn:lex:br:federal:lei:1991-12-30;8383!art87_par1_inc2--><!--Link: urn:lex:br:federal:lei:1991-12-30;8383!art86_par8--><!--Link: urn:lex:br:federal:lei:1991-12-30;8383!art94_par1u--><!--Link: urn:lex:br:federal:lei:1991-12-30;8383!art86_par3-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    inciso I do art. 20, art. 24, art. 40, inciso III, e <span xlink:href="urn:lex:br:federal:lei:1991-12-30;8383!art86_par3">§§ 3°</span> e <span xlink:href="urn:lex:br:federal:lei:1991-12-30;8383!art86_par8">8° do art. 86</span>, <span xlink:href="urn:lex:br:federal:lei:1991-12-30;8383!art87_cpt_inc3">inciso III do caput</span> e <span xlink:href="urn:lex:br:federal:lei:1991-12-30;8383!art87_par1_inc2">inciso II do § 1° do art. 87</span>, <span xlink:href="urn:lex:br:federal:lei:1991-12-30;8383!art88">art. 88</span> e <span xlink:href="urn:lex:br:federal:lei:1991-12-30;8383!art94_par1u">parágrafo único do art. 94, da Lei n° 8.383, de 30 de dezembro de 1991</span>.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Titulo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 23 de dezembro de 1992; 171° da Independência e 104° da República.</p></LocalDataFecho><Assinatura><NomePessoa>ITAMAR FRANCO</NomePessoa><NomePessoa>Paulo Roberto Haddad</NomePessoa></Assinatura></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>

@@ -1,0 +1,1454 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:1998-11-27;9718"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">LEI Nº 9.718, DE 27 DE NOVEMBRO DE 1998 </Epigrafe>
+		  <Ementa id="ementa">Altera a Legislação Tributária Federal.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA
+  </p><p>
+    Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art239--><!--Link: urn:lex:br:federal:lei.complementar:1991-12-30;70-->
+            
+            
+            <p>
+    Esta Lei aplica-se no âmbito da legislação tributária federal, relativamente às contribuições para os Programas de Integração Social e de Formação do Patrimônio do Servidor Público - PIS/PASEP e à Contribuição para o Financiamento da Seguridade Social - COFINS, de que tratam o <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art239">art. 239 da Constituição</span> e a <span xlink:href="urn:lex:br:federal:lei.complementar:1991-12-30;70">Lei Complementar nº 70, de 30 de dezembro de 1991</span>, ao Imposto sobre a Renda e ao Imposto sobre Operações de Crédito, Câmbio e Seguro, ou relativos a Títulos ou Valores Mobiliários - IOF.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Capitulo id="cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DA CONTRIBUIÇÃO PARA O PIS/PASEP E COFINS
+
+  </NomeAgrupador>
+            <Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            <!--Link: urn:lex:br:federal:lei.complementar:2025-01-16;214-->
+            
+            
+            <p>
+    As contribuições para o PIS/PASEP e a COFINS, devidas pelas pessoas jurídicas de direito privado, serão calculadas com base no seu faturamento, observadas a legislação vigente e as alterações introduzidas por esta Lei. (Vide <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1977-12-26;1598!art12--><!--Link: urn:lex:br:federal:medida.provisoria:2013-11-11;627--><!--Link: urn:lex:br:federal:lei:2014-05-13;12973--><!--Link: urn:lex:br:federal:lei.complementar:2025-01-16;214-->
+            
+            
+            <p>
+    O faturamento a que se refere o art. 2º compreende a receita bruta de que trata o <span xlink:href="urn:lex:br:federal:decreto.lei:1977-12-26;1598!art12">art. 12 do Decreto-Lei nº 1.598, de 26 de dezembro de 1977</span>. (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2013-11-11;627">Medida Provisória nº 627, de 11.11.2013</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2014-05-13;12973">Lei nº 12.973, de 13.5.2014</span>, em vigor a partir de 1.1.2015) (Vide <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art3_par1">
+            <!--Link: urn:lex:br:federal:lei:2009-05-27;11941-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2009-05-27;11941">Lei nº 11.941, de 27.5.2009</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Para fins de determinação da base de cálculo das contribuições a que se refere o art. 2º, excluem-se da receita bruta:
+
+  </p>
+            <Inciso id="art3_par2_inc1">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2013-11-11;627--><!--Link: urn:lex:br:federal:lei:2014-05-13;12973-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    as vendas canceladas e os descontos incondicionais concedidos; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2013-11-11;627">Medida Provisória nº 627, de 11.11.2013</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2014-05-13;12973">Lei nº 12.973, de 13.5.2014</span>, em vigor a partir de 1.1.2015)
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par2_inc2">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2013-11-11;627--><!--Link: urn:lex:br:federal:lei:2014-05-13;12973-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    as reversões de provisões e recuperações de créditos baixados como perda, que não representem ingresso de novas receitas, o resultado positivo da avaliação de investimento pelo valor do patrimônio líquido e os lucros e dividendos derivados de participações societárias, que tenham sido computados como receita bruta; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2013-11-11;627">Medida Provisória nº 627, de 11.11.2013</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2014-05-13;12973">Lei nº 12.973, de 13.5.2014</span>, em vigor a partir de 1.1.2015)
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par2_inc3">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2001-08-24;2158-35-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-08-24;2158-35">Medida Provisória nº 2.158-35, de 24.8.2001</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par2_inc4">
+            <!--Link: urn:lex:br:federal:lei:1976-12-15;6404!art187_cpt_inc4--><!--Link: urn:lex:br:federal:medida.provisoria:2014-07-09;651--><!--Link: urn:lex:br:federal:lei:2014-11-13;13043-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    as receitas de que trata o <span xlink:href="urn:lex:br:federal:lei:1976-12-15;6404!art187_cpt_inc4">inciso IV do caput do art. 187 da Lei nº 6.404, de 15 de dezembro de 1976</span>, decorrentes da venda de bens do ativo não circulante, classificado como investimento, imobilizado ou intangível; e (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2014-07-09;651">Medida Provisória nº 651, de 9.7.2014</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2014-11-13;13043">Lei nº 13.043, de 13.11.2014</span>, em vigor a partir de 1º de janeiro de 2015)
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par2_inc5">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2008-12-15;451--><!--Link: urn:lex:br:federal:lei:2009-06-04;11945--><!--Link: urn:lex:br:federal:medida.provisoria:2013-11-11;627--><!--Link: urn:lex:br:federal:lei:2014-05-13;12973-->
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2008-12-15;451">Medida Provisória nº 451, de 15.12.2008</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2009-06-04;11945">Lei nº 11.945, de 4.6.2009</span>, e revogado pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2013-11-11;627">Medida Provisória nº 627, de 11.11.2013</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2014-05-13;12973">Lei nº 12.973, de 13.5.2014</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par2_inc6">
+            <!--Link: urn:lex:br:federal:lei:2014-05-13;12973-->
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    a receita reconhecida pela construção, recuperação, ampliação ou melhoramento da infraestrutura, cuja contrapartida seja ativo intangível representativo de direito de exploração, no caso de contratos de concessão de serviços públicos. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2014-05-13;12973">Lei nº 12.973, de 13.5.2014</span>, em vigor a partir de 1.1.2015)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art3_par3">
+            <!--Link: urn:lex:br:federal:lei:2004-12-29;11051-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2004-12-29;11051">Lei nº 11.051, de 29.12.2004</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Nas operações de câmbio, realizadas por instituição autorizada pelo Banco Central do Brasil, considera-se receita bruta a diferença positiva entre o preço de venda e o preço de compra da moeda estrangeira.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par5">
+            <!--Link: urn:lex:br:federal:lei:1991-07-24;8212!art22_par1-->
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Na hipótese das pessoas jurídicas referidas no <span xlink:href="urn:lex:br:federal:lei:1991-07-24;8212!art22_par1">§ 1º do art. 22 da Lei nº 8.212, de 24 de julho de 1991</span>, serão admitidas, para os efeitos da COFINS, as mesmas exclusões e deduções facultadas para fins de determinação da base de cálculo da contribuição para o PIS/PASEP.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par6">
+            <!--Link: urn:lex:br:federal:lei:1991;8212!art22_par1-->
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    Na determinação da base de cálculo das contribuições para o PIS/PASEP e COFINS, as pessoas jurídicas referidas no <span xlink:href="urn:lex:br:federal:lei:1991;8212!art22_par1">§ 1º do art. 22 da Lei nº 8.212, de 1991</span>, além das exclusões e deduções mencionadas no § 5º, poderão excluir ou deduzir:
+
+  </p>
+            <Inciso id="art3_par6_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    no caso de bancos comerciais, bancos de investimentos, bancos de desenvolvimento, caixas econômicas, sociedades de crédito, financiamento e investimento, sociedades de crédito imobiliário, sociedades corretoras, distribuidoras de títulos e valores mobiliários, empresas de arrendamento mercantil e cooperativas de crédito:
+
+  </p>
+            <Alinea id="art3_par6_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    despesas incorridas nas operações de intermediação financeira;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_par6_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    despesas de obrigações por empréstimos, para repasse, de recursos de instituições de direito privado;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_par6_inc1_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    deságio na colocação de títulos;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_par6_inc1_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    perdas com títulos de renda fixa e variável, exceto com ações;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_par6_inc1_ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    perdas com ativos financeiros e mercadorias, em operações de &quot;hedge&quot;;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art3_par6_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    no caso de empresas de seguros privados, o valor referente às indenizações correspondentes aos sinistros ocorridos, efetivamente pago, deduzido das importâncias recebidas a título de cosseguro e resseguro, salvados e outros ressarcimentos.
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par6_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    no caso de entidades de previdência privada, abertas e fechadas, os rendimentos auferidos nas aplicações financeiras destinadas ao pagamento de benefícios de aposentadoria, pensão, pecúlio e de resgates;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par6_inc4">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2001-08-24;2158-35-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    no caso de empresas de capitalização, os rendimentos auferidos nas aplicações financeiras destinadas ao pagamento de resgate de títulos. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-08-24;2158-35">Medida Provisória nº 2.158-35, de 24.8.2001</span>)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art3_par7">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2001-08-24;2158-35-->
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    As exclusões previstas nos incisos III e IV do § 6º restringem-se aos rendimentos de aplicações financeiras proporcionados pelos ativos garantidores das provisões técnicas, limitados esses ativos ao montante das referidas provisões. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-08-24;2158-35">Medida Provisória nº 2.158-35, de 24.8.2001</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par8">
+            <!--Link: urn:lex:br:federal:lei:2005-11-21;11196--><!--Link: urn:lex:br:federal:lei:2022-08-03;14430-->
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    Na determinação da base de cálculo da Contribuição para o PIS/Pasep e a Cofins, poderão ser deduzidas as despesas de captação de recursos incorridas pelas pessoas jurídicas que tenham por objeto a securitização de créditos. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2005-11-21;11196">Lei nº 11.196, de 21.11.2005</span>, e com nova redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-08-03;14430">Lei nº 14.430, de 3.8.2022</span>)
+
+  </p>
+            <Inciso id="art3_par8_inc1">
+            <!--Link: urn:lex:br:federal:lei:2005-11-21;11196--><!--Link: urn:lex:br:federal:lei:2022-08-03;14430-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2005-11-21;11196">Lei nº 11.196, de 21.11.2005</span>, e revogado pela <span xlink:href="urn:lex:br:federal:lei:2022-08-03;14430">Lei nº 14.430, de 3.8.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par8_inc2">
+            <!--Link: urn:lex:br:federal:lei:2005-11-21;11196--><!--Link: urn:lex:br:federal:lei:2022-08-03;14430-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2005-11-21;11196">Lei nº 11.196, de 21.11.2005</span>, e revogado pela <span xlink:href="urn:lex:br:federal:lei:2022-08-03;14430">Lei nº 14.430, de 3.8.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par8_inc3">
+            <!--Link: urn:lex:br:federal:lei:2005-11-21;11196--><!--Link: urn:lex:br:federal:lei:2022-08-03;14430-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2005-11-21;11196">Lei nº 11.196, de 21.11.2005</span>, e revogado pela <span xlink:href="urn:lex:br:federal:lei:2022-08-03;14430">Lei nº 14.430, de 3.8.2022</span>)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art3_par9">
+            
+            
+            <Rotulo>§ 9º</Rotulo>
+            <p>
+    Na determinação da base de cálculo da contribuição para o PIS/PASEP e COFINS, as operadoras de planos de assistência à saúde poderão deduzir:
+
+  </p>
+            <Inciso id="art3_par9_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    co-responsabilidades cedidas;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par9_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a parcela das contraprestações pecuniárias destinada à constituição de provisões técnicas;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par9_inc3">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2001-08-24;2158-35-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    o valor referente às indenizações correspondentes aos eventos ocorridos, efetivamente pago, deduzido das importâncias recebidas a título de transferência de responsabilidades. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-08-24;2158-35">Medida Provisória nº 2.158-35, de 24.8.2001</span>)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art3_par9-1">
+            <!--Link: urn:lex:br:federal:lei:2013-10-24;12873-->
+            
+            <Rotulo>§ 9º-A.</Rotulo>
+            <p>
+    Para efeito de interpretação, o valor referente às indenizações correspondentes aos eventos ocorridos de que trata o inciso III do § 9º entende-se o total dos custos assistenciais decorrentes da utilização pelos beneficiários da cobertura oferecida pelos planos de saúde, incluindo-se neste total os custos de beneficiários da própria operadora e os beneficiários de outra operadora atendidos a título de transferência de responsabilidade assumida. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2013-10-24;12873">Lei nº 12.873, de 24.10.2013</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par9-2">
+            <!--Link: urn:lex:br:federal:lei:2014-06-18;12995-->
+            
+            <Rotulo>§ 9º-B.</Rotulo>
+            <p>
+    Para efeitos de interpretação do caput, não são considerados receita bruta das administradoras de benefícios os valores devidos a outras operadoras de planos de assistência à saúde. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2014-06-18;12995">Lei nº 12.995, de 18.6.2014</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par10">
+            <!--Link: urn:lex:br:federal:lei:2003-05-30;10684!art18--><!--Link: urn:lex:br:federal:lei:2013-07-19;12844-->
+            
+            <Rotulo>§ 10.</Rotulo>
+            <p>
+    Em substituição à remuneração por meio do pagamento de tarifas, as pessoas jurídicas que prestem serviços de arrecadação de receitas federais poderão excluir da base de cálculo da Cofins o valor a elas devido em cada período de apuração como remuneração por esses serviços, dividido pela alíquota referida no <span xlink:href="urn:lex:br:federal:lei:2003-05-30;10684!art18">art. 18 da Lei nº 10.684, de 30 de maio de 2003</span>. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2013-07-19;12844">Lei nº 12.844, de 19.7.2013</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par11">
+            <!--Link: urn:lex:br:federal:lei:2013-07-19;12844-->
+            
+            <Rotulo>§ 11.</Rotulo>
+            <p>
+    Caso não seja possível fazer a exclusão de que trata o § 10 na base de cálculo da Cofins referente ao período em que auferida remuneração, o montante excedente poderá ser excluído da base de cálculo da Cofins dos períodos subsequentes. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2013-07-19;12844">Lei nº 12.844, de 19.7.2013</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par12">
+            <!--Link: urn:lex:br:federal:lei:2013-07-19;12844-->
+            
+            <Rotulo>§ 12.</Rotulo>
+            <p>
+    A Secretaria da Receita Federal do Brasil do Ministério da Fazenda disciplinará o disposto nos §§ 10 e 11, inclusive quanto à definição do valor devido como remuneração dos serviços de arrecadação de receitas federais. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2013-07-19;12844">Lei nº 12.844, de 19.7.2013</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par13">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2013-11-11;627--><!--Link: urn:lex:br:federal:lei:2014-05-13;12973-->
+            
+            <Rotulo>§ 13.</Rotulo>
+            <p>
+    A contribuição incidente na hipótese de contratos, com prazo de execução superior a 1 (um) ano, de construção por empreitada ou de fornecimento, a preço predeterminado, de bens ou serviços a serem produzidos será calculada sobre a receita apurada de acordo com os critérios de reconhecimento adotados pela legislação do imposto sobre a renda, previstos para a espécie de operação. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2013-11-11;627">Medida Provisória nº 627, de 11.11.2013</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2014-05-13;12973">Lei nº 12.973, de 13.5.2014</span>, em vigor a partir de 1.1.2015)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par14">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2014-07-09;651--><!--Link: urn:lex:br:federal:lei:2014-11-13;13043-->
+            
+            <Rotulo>§ 14.</Rotulo>
+            <p>
+    A pessoa jurídica poderá excluir da base de cálculo da Contribuição para o PIS/Pasep e da Cofins incidentes sobre a receita decorrente da alienação de participação societária o valor despendido para aquisição dessa participação, desde que a receita de alienação não tenha sido excluída da base de cálculo das mencionadas contribuições na forma do inciso IV do § 2º do art. 3º. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2014-07-09;651">Medida Provisória nº 651, de 9.7.2014</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2014-11-13;13043">Lei nº 13.043, de 13.11.2014</span>, em vigor a partir de 1º de janeiro de 2015)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            <!--Link: urn:lex:br:federal:lei:2004-04-30;10865--><!--Link: urn:lex:br:federal:lei.complementar:2025-01-16;214-->
+            
+            
+            <p>
+    As contribuições para os Programas de Integração Social e de Formação do Patrimônio do Servidor Público - PIS/PASEP e para o Financiamento da Seguridade Social - COFINS devidas pelos produtores e importadores de derivados de petróleo serão calculadas, respectivamente, com base nas seguintes alíquotas: (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2004-04-30;10865">Lei nº 10.865, de 30.4.2004</span>) (Vide <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>)
+
+  </p>
+            <Inciso id="art4_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:2000-07-21;9990--><!--Link: urn:lex:br:federal:lei:2004-04-30;10865-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    5,08% (cinco inteiros e oito centésimos por cento) e 23,44% (vinte inteiros e quarenta e quatro centésimos por cento), incidentes sobre a receita bruta decorrente da venda de gasolinas e suas correntes, exceto gasolina de aviação; (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2000-07-21;9990">Lei nº 9.990, de 21.7.2000</span> e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2004-04-30;10865">Lei nº 10.865, de 30.4.2004</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:2000-07-21;9990--><!--Link: urn:lex:br:federal:lei:2004-04-30;10865--><!--Link: urn:lex:br:federal:lei:2023-05-30;14592-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    4,21% (quatro inteiros e vinte e um centésimos por cento) e 19,42% (dezenove inteiros e quarenta e dois centésimos por cento), incidentes sobre a receita bruta decorrente da venda de óleo diesel e suas correntes; (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2000-07-21;9990">Lei nº 9.990, de 21.7.2000</span> e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2004-04-30;10865">Lei nº 10.865, de 30.4.2004</span>) (Vide <span xlink:href="urn:lex:br:federal:lei:2023-05-30;14592">Lei nº 14.592, de 30.5.2023</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:2000-07-21;9990--><!--Link: urn:lex:br:federal:lei:2004-12-29;11051--><!--Link: urn:lex:br:federal:lei:2023-05-30;14592-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    10,2% (dez inteiros e dois décimos por cento) e 47,4% (quarenta e sete inteiros e quatro décimos por cento) incidentes sobre a receita bruta decorrente da venda de gás liquefeito de petróleo - GLP derivado de petróleo e de gás natural; (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2000-07-21;9990">Lei nº 9.990, de 21.7.2000</span> e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2004-12-29;11051">Lei nº 11.051, de 29.12.2004</span>) (Vide <span xlink:href="urn:lex:br:federal:lei:2023-05-30;14592">Lei nº 14.592, de 30.5.2023</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc4">
+            <!--Link: urn:lex:br:federal:lei:2000-07-21;9990-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    sessenta e cinco centésimos por cento e três por cento incidentes sobre a receita bruta decorrente das demais atividades. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2000-07-21;9990">Lei nº 9.990, de 21.7.2000</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art4_par1u">
+            <!--Link: urn:lex:br:federal:lei:2000-07-21;9990-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2000-07-21;9990">Lei nº 9.990, de 21.7.2000</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            <!--Link: urn:lex:br:federal:lei.complementar:2025-01-16;214-->
+            
+            
+            <p>
+    A Contribuição para o PIS/Pasep e a Cofins incidentes sobre a receita bruta auferida pelo produtor ou importador nas operações com etanol, inclusive para fins carburantes, serão calculadas com base nas alíquotas, respectivamente, de 5,25% (cinco inteiros e vinte e cinco centésimos por cento) e 24,15% (vinte e quatro inteiros e quinze centésimos por cento). (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>, publicada no DOU, Edição Extra – B, de 16.1.2025, produzindo efeitos a partir do primeiro dia do quarto mês subsequente ao da sua publicação) (Vide <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>)
+
+  </p>
+            <Inciso id="art5_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei.complementar:2025-01-16;214-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>, publicada no DOU, Edição Extra – B, de 16.1.2025, produzindo efeitos a partir do primeiro dia do quarto mês subsequente ao da sua publicação)
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei.complementar:2025-01-16;214-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>, publicada no DOU, Edição Extra – B, de 16.1.2025, produzindo efeitos a partir do primeiro dia do quarto mês subsequente ao da sua publicação)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art5_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Ficam reduzidas a 0% (zero por cento) as alíquotas da Contribuição para o PIS/Pasep e da Cofins incidentes sobre a receita bruta de venda de álcool, inclusive para fins carburantes, quando auferida:
+
+  </p>
+            <Inciso id="art5_par1_inc1">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2021-08-11;1063--><!--Link: urn:lex:br:federal:lei:2022-01-03;14292-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2021-08-11;1063">Medida Provisória nº 1.063, de 11.8.2021</span>, publicada no DOU de 12.8.2021, produzindo efeitos no 1º dia do 4º mês subsequente ao de sua publicação, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-01-03;14292">Lei nº 14.292, de 3.1.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art5_par1_inc2">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2021-08-11;1063--><!--Link: urn:lex:br:federal:lei:2022-01-03;14292-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    por comerciante varejista, exceto na hipótese prevista no inciso II do § 4ºB deste artigo; e (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2021-08-11;1063">Medida Provisória nº 1.063, de 11.8.2021</span>, publicada no DOU de 12.8.2021, produzindo efeitos no 1º dia do 4º mês subsequente ao de sua publicação, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-01-03;14292">Lei nº 14.292, de 3.1.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art5_par1_inc3">
+            <!--Link: urn:lex:br:federal:lei:2008-06-23;11727-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    nas operações realizadas em bolsa de mercadorias e futuros. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2008-06-23;11727">Lei nº 11.727, de 23.6.2008</span>, publicada no DOU de 24.6.2008, produzindo efeitos a partir do 1º dia do 4º mês subsequente ao da publicação)
+
+  </p>
+            
+          </Inciso><Inciso id="art5_par1_inc4">
+            <!--Link: urn:lex:br:federal:lei.complementar:2025-01-16;214-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    por distribuidor, no caso de venda de etanol combustível. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>, publicada no DOU, Edição Extra – B, de 16.1.2025, produzindo efeitos a partir do primeiro dia do quarto mês subsequente ao da sua publicação)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art5_par2">
+            <!--Link: urn:lex:br:federal:lei:2008-06-23;11727-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A redução a 0 (zero) das alíquotas previstas no inciso III do § 1º deste artigo não se aplica às operações em que ocorra liquidação física do contrato. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2008-06-23;11727">Lei nº 11.727, de 23.6.2008</span>, publicada no DOU de 24.6.2008, produzindo efeitos a partir do 1º dia do 4º mês subsequente ao da publicação)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par3">
+            <!--Link: urn:lex:br:federal:lei:2008-06-23;11727--><!--Link: urn:lex:br:federal:medida.provisoria:2021-08-11;1063--><!--Link: urn:lex:br:federal:lei:2022-01-03;14292-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2008-06-23;11727">Lei nº 11.727, de 23.6.2008</span>, e revogado pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2021-08-11;1063">Medida Provisória nº 1.063, de 11.8.2021</span>, publicada no DOU de 12.8.2021, produzindo efeitos no 1º dia do 4º mês subsequente ao de sua publicação, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-01-03;14292">Lei nº 14.292, de 3.1.2022</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par4">
+            <!--Link: urn:lex:br:federal:lei:2008-06-23;11727--><!--Link: urn:lex:br:federal:lei.complementar:2025-01-16;214-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O produtor e o importador de que trata o caput deste artigo poderão optar por regime especial de apuração e pagamento da Contribuição para o PIS/Pasep e da Cofins, com incidência única, no qual as alíquotas específicas das contribuições são fixadas, respectivamente, em R$ 34,33 (trinta e quatro reais e trinta e três centavos) e R$ 157,87 (cento e cinquenta e sete reais e oitenta e sete centavos) por metro cúbico de etanol combustível. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2008-06-23;11727">Lei nº 11.727, de 23.6.2008</span>, e com redação dada pela <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>, publicada no DOU, Edição Extra – B, de 16.1.2025, produzindo efeitos a partir do primeiro dia do quarto mês subsequente ao da sua publicação)
+
+  </p>
+            <Inciso id="art5_par4_inc1">
+            <!--Link: urn:lex:br:federal:lei:2008-06-23;11727--><!--Link: urn:lex:br:federal:lei.complementar:2025-01-16;214-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2008-06-23;11727">Lei nº 11.727, de 23.6.2008</span>, e revogado pela <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>, publicada no DOU, Edição Extra – B, de 16.1.2025, produzindo efeitos a partir do primeiro dia do quarto mês subsequente ao da sua publicação)
+
+  </p>
+            
+          </Inciso><Inciso id="art5_par4_inc2">
+            <!--Link: urn:lex:br:federal:lei:2008-06-23;11727--><!--Link: urn:lex:br:federal:lei.complementar:2025-01-16;214-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2008-06-23;11727">Lei nº 11.727, de 23.6.2008</span>, e revogado pela <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>, publicada no DOU, Edição Extra – B, de 16.1.2025, produzindo efeitos a partir do primeiro dia do quarto mês subsequente ao da sua publicação)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art5_par4-1">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2021-08-11;1063--><!--Link: urn:lex:br:federal:lei:2022-01-03;14292--><!--Link: urn:lex:br:federal:medida.provisoria:2022-02-14;1100--><!--Link: urn:lex:br:federal:lei:2022-06-14;14367-->
+            
+            <Rotulo>§ 4º-A.</Rotulo>
+            <p>
+    Na hipótese de venda efetuada diretamente do produtor ou do importador para as pessoas jurídicas comerciantes varejistas, a alíquota aplicável, conforme o caso, será aquela resultante do somatório das alíquotas previstas: (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2021-08-11;1063">Medida Provisória nº 1.063, de 11.8.2021</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-01-03;14292">Lei nº 14.292, de 3.1.2022</span>, e com nova redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-02-14;1100">Medida Provisória nº 1.100, de 14.2.2022</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-06-14;14367">Lei nº 14.367, de 14.6.2022</span>)
+
+  </p>
+            <Inciso id="art5_par4-1_inc1">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2021-08-11;1063--><!--Link: urn:lex:br:federal:lei:2022-01-03;14292--><!--Link: urn:lex:br:federal:lei.complementar:2025-01-16;214-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2021-08-11;1063">Medida Provisória nº 1.063, de 11.8.2021</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-01-03;14292">Lei nº 14.292, de 3.1.2022</span>, e revogado pela <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>, publicada no DOU, Edição Extra – B, de 16.1.2025, produzindo efeitos a partir do primeiro dia do quarto mês subsequente ao da sua publicação)
+
+  </p>
+            
+          </Inciso><Inciso id="art5_par4-1_inc2">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2021-08-11;1063--><!--Link: urn:lex:br:federal:lei:2022-01-03;14292--><!--Link: urn:lex:br:federal:lei.complementar:2025-01-16;214-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2021-08-11;1063">Medida Provisória nº 1.063, de 11.8.2021</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-01-03;14292">Lei nº 14.292, de 3.1.2022</span>, e revogado pela <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>, publicada no DOU, Edição Extra – B, de 16.1.2025, produzindo efeitos a partir do primeiro dia do quarto mês subsequente ao da sua publicação)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art5_par4-2">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2021-08-11;1063--><!--Link: urn:lex:br:federal:lei:2022-01-03;14292-->
+            
+            <Rotulo>§ 4º-B.</Rotulo>
+            <p>
+    As alíquotas de que trata o § 4º-A deste artigo aplicam-se, também, nas seguintes hipóteses: (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2021-08-11;1063">Medida Provisória nº 1.063, de 11.8.2021</span>, publicada no DOU de 12.8.2021, produzindo efeitos no 1º dia do 4º mês subsequente ao de sua publicação, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-01-03;14292">Lei nº 14.292, de 3.1.2022</span>)
+
+  </p>
+            <Inciso id="art5_par4-2_inc1">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2021-08-11;1063--><!--Link: urn:lex:br:federal:lei:2022-01-03;14292-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    de o importador exercer também a função de distribuidor; (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2021-08-11;1063">Medida Provisória nº 1.063, de 11.8.2021</span>, publicada no DOU de 12.8.2021, produzindo efeitos no 1º dia do 4º mês subsequente ao de sua publicação, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-01-03;14292">Lei nº 14.292, de 3.1.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art5_par4-2_inc2">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2021-08-11;1063--><!--Link: urn:lex:br:federal:lei:2022-01-03;14292--><!--Link: urn:lex:br:federal:medida.provisoria:2022-02-14;1100--><!--Link: urn:lex:br:federal:lei:2022-06-14;14367-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    de as vendas serem efetuadas pelas pessoas jurídicas comerciantes varejistas, quando elas efetuarem a importação; e (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2021-08-11;1063">Medida Provisória nº 1.063, de 11.8.2021</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-01-03;14292">Lei nº 14.292, de 3.1.2022</span>, e com nova redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-02-14;1100">Medida Provisória nº 1.100, de 14.2.2022</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-06-14;14367">Lei nº 14.367, de 14.6.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art5_par4-2_inc3">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2021-08-11;1063--><!--Link: urn:lex:br:federal:lei:2022-01-03;14292-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    de as vendas serem efetuadas pelas demais pessoas jurídicas não enquadradas como produtor, importador, distribuidor ou varejista. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2021-08-11;1063">Medida Provisória nº 1.063, de 11.8.2021</span>, publicada no DOU de 12.8.2021, produzindo efeitos no 1º dia do 4º mês subsequente ao de sua publicação, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-01-03;14292">Lei nº 14.292, de 3.1.2022</span>)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art5_par4-3">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2021-08-11;1063--><!--Link: urn:lex:br:federal:lei:2022-01-03;14292--><!--Link: urn:lex:br:federal:lei.complementar:2025-01-16;214-->
+            
+            <Rotulo>§ 4º-C.</Rotulo>
+            <p>
+    Na hipótese de venda de gasolina pelo distribuidor, em relação ao percentual de álcool anidro a ela adicionado, ficam reduzidas a zero as alíquotas da Contribuição para o PIS/Pasep e da Cofins. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2021-08-11;1063">Medida Provisória nº 1.063, de 11.8.2021</span>, publicada no DOU de 12.8.2021, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-01-03;14292">Lei nº 14.292, de 3.1.2022</span>, e com redação dada pela <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>, publicada no DOU, Edição Extra – B, de 16.1.2025, produzindo efeitos a partir do primeiro dia do quarto mês subsequente ao da sua publicação)
+
+  </p>
+            <Inciso id="art5_par4-3_inc1">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2021-08-11;1063--><!--Link: urn:lex:br:federal:lei:2022-01-03;14292--><!--Link: urn:lex:br:federal:lei.complementar:2025-01-16;214-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2021-08-11;1063">Medida Provisória nº 1.063, de 11.8.2021</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-01-03;14292">Lei nº 14.292, de 3.1.2022</span>, e revogado pela <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>, publicada no DOU, Edição Extra – B, de 16.1.2025, produzindo efeitos a partir do primeiro dia do quarto mês subsequente ao da sua publicação)
+
+  </p>
+            
+          </Inciso><Inciso id="art5_par4-3_inc2">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2021-08-11;1063--><!--Link: urn:lex:br:federal:lei:2022-01-03;14292--><!--Link: urn:lex:br:federal:lei.complementar:2025-01-16;214-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2021-08-11;1063">Medida Provisória nº 1.063, de 11.8.2021</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-01-03;14292">Lei nº 14.292, de 3.1.2022</span>, e revogado pela <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>, publicada no DOU, Edição Extra – B, de 16.1.2025, produzindo efeitos a partir do primeiro dia do quarto mês subsequente ao da sua publicação)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art5_par4-4">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2022-02-14;1100--><!--Link: urn:lex:br:federal:lei:2022-06-14;14367-->
+            
+            <Rotulo>§ 4º-D.</Rotulo>
+            <p>
+    Na hipótese de venda de etanol hidratado combustível efetuada diretamente de cooperativa para as pessoas jurídicas comerciantes varejistas: (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-02-14;1100">Medida Provisória nº 1.100, de 14.2.2022</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-06-14;14367">Lei nº 14.367, de 14.6.2022</span>)
+
+  </p>
+            <Inciso id="art5_par4-4_inc1">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2022-02-14;1100--><!--Link: urn:lex:br:federal:lei:2022-06-14;14367--><!--Link: urn:lex:br:federal:lei.complementar:2025-01-16;214-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    no caso de cooperativa não optante pelo regime especial de que trata o § 4º deste artigo, os valores da Contribuição para o PIS/Pasep e da Cofins devidos serão obtidos pela aplicação da alíquota prevista no caput do art. 5º. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-02-14;1100">Medida Provisória nº 1.100, de 14.2.2022</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-06-14;14367">Lei nº 14.367, de 14.6.2022</span>, e com redação dada pela <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>, publicada no DOU, Edição Extra – B, de 16.1.2025, produzindo efeitos a partir do primeiro dia do quarto mês subsequente ao da sua publicação)
+
+  </p>
+            <Alinea id="art5_par4-4_inc1_ali1">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2022-02-14;1100--><!--Link: urn:lex:br:federal:lei:2022-06-14;14367--><!--Link: urn:lex:br:federal:lei.complementar:2025-01-16;214-->
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-02-14;1100">Medida Provisória nº 1.100, de 14.2.2022</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-06-14;14367">Lei nº 14.367, de 14.6.2022</span>, e revogada pela <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>, publicada no DOU, Edição Extra – B, de 16.1.2025, produzindo efeitos a partir do primeiro dia do quarto mês subsequente ao da sua publicação)
+
+  </p>
+            
+          </Alinea><Alinea id="art5_par4-4_inc1_ali2">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2022-02-14;1100--><!--Link: urn:lex:br:federal:lei:2022-06-14;14367--><!--Link: urn:lex:br:federal:lei.complementar:2025-01-16;214-->
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-02-14;1100">Medida Provisória nº 1.100, de 14.2.2022</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-06-14;14367">Lei nº 14.367, de 14.6.2022</span>, e revogada pela <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>, publicada no DOU, Edição Extra – B, de 16.1.2025, produzindo efeitos a partir do primeiro dia do quarto mês subsequente ao da sua publicação)
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art5_par4-4_inc2">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2022-02-14;1100--><!--Link: urn:lex:br:federal:lei:2022-06-14;14367--><!--Link: urn:lex:br:federal:lei.complementar:2025-01-16;214-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-02-14;1100">Medida Provisória nº 1.100, de 14.2.2022</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-06-14;14367">Lei nº 14.367, de 14.6.2022</span>, e revogado pela <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>, publicada no DOU, Edição Extra – B, de 16.1.2025, produzindo efeitos a partir do primeiro dia do quarto mês subsequente ao da sua publicação)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art5_par5">
+            <!--Link: urn:lex:br:federal:lei:2008-06-23;11727-->
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    A opção prevista no § 4º deste artigo será exercida, segundo normas e condições estabelecidas pela Secretaria da Receita Federal do Brasil, até o último dia útil do mês de novembro de cada ano-calendário, produzindo efeitos, de forma irretratável, durante todo o ano-calendário subseqüente ao da opção. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2008-06-23;11727">Lei nº 11.727, de 23.6.2008</span>, publicada no DOU de 24.6.2008, produzindo efeitos a partir do 1º dia do 4º mês subsequente ao da publicação)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par6">
+            <!--Link: urn:lex:br:federal:lei:2008-06-23;11727-->
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    No caso da opção efetuada nos termos dos §§ 4º e 5º deste artigo, a Secretaria da Receita Federal do Brasil divulgará o nome da pessoa jurídica optante e a data de início da opção. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2008-06-23;11727">Lei nº 11.727, de 23.6.2008</span>, publicada no DOU de 24.6.2008, produzindo efeitos a partir do 1º dia do 4º mês subsequente ao da publicação)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par7">
+            <!--Link: urn:lex:br:federal:lei:2008-06-23;11727-->
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    A opção a que se refere este artigo será automaticamente prorrogada para o ano-calendário seguinte, salvo se a pessoa jurídica dela desistir, nos termos e condições estabelecidos pela Secretaria da Receita Federal do Brasil, até o último dia útil do mês de novembro do ano-calendário, hipótese em que a produção de efeitos se dará a partir do dia 1º de janeiro do ano calendário subseqüente. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2008-06-23;11727">Lei nº 11.727, de 23.6.2008</span>, publicada no DOU de 24.6.2008, produzindo efeitos a partir do 1º dia do 4º mês subsequente ao da publicação)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par8">
+            <!--Link: urn:lex:br:federal:lei:2008-06-23;11727-->
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    Fica o Poder Executivo autorizado a fixar coeficientes para redução das alíquotas previstas no caput e no § 4º deste artigo, as quais poderão ser alteradas, para mais ou para menos, em relação a classe de produtores, produtos ou sua utilização. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2008-06-23;11727">Lei nº 11.727, de 23.6.2008</span>, publicada no DOU de 24.6.2008, produzindo efeitos a partir do 1º dia do 4º mês subsequente ao da publicação) (Vide ADI nº 5.277/2015)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par9">
+            <!--Link: urn:lex:br:federal:lei:2008-06-23;11727--><!--Link: urn:lex:br:federal:lei.complementar:2025-01-16;214-->
+            
+            <Rotulo>§ 9º</Rotulo>
+            <p>
+    (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2008-06-23;11727">Lei nº 11.727, de 23.6.2008</span>, e revogado pela <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>, publicada no DOU, Edição Extra – B, de 16.1.2025, produzindo efeitos a partir do primeiro dia do quarto mês subsequente ao da sua publicação)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par10">
+            <!--Link: urn:lex:br:federal:lei:2008-06-23;11727--><!--Link: urn:lex:br:federal:lei.complementar:2025-01-16;214-->
+            
+            <Rotulo>§ 10.</Rotulo>
+            <p>
+    A aplicação dos coeficientes de que trata o § 8º deste artigo não poderá resultar em alíquotas da Contribuição para o PIS/Pasep e da Cofins superiores a, respectivamente, a 1,65% (um inteiro e sessenta e cinco centésimos por cento) e 7,6% (sete inteiros e seis décimos por cento) do preço médio de venda no varejo. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2008-06-23;11727">Lei nº 11.727, de 23.6.2008</span>, e com redação dada pela <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>, publicada no DOU, Edição Extra – B, de 16.1.2025, produzindo efeitos a partir do primeiro dia do quarto mês subsequente ao da sua publicação)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par11">
+            <!--Link: urn:lex:br:federal:lei:2008-06-23;11727--><!--Link: urn:lex:br:federal:lei.complementar:2025-01-16;214-->
+            
+            <Rotulo>§ 11.</Rotulo>
+            <p>
+    O preço médio a que se refere o § 10 deste artigo será determinado a partir de dados colhidos por instituições idônea, de forma ponderada com base nos volumes de etanol comercializados nos Estados e no Distrito Federal nos 12 (doze) meses anteriores ao da fixação dos coeficientes de trata o § 8º deste artigo. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2008-06-23;11727">Lei nº 11.727, de 23.6.2008</span>, e com redação dada pela <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>, publicada no DOU, Edição Extra – B, de 16.1.2025, produzindo efeitos a partir do primeiro dia do quarto mês subsequente ao da sua publicação)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par12">
+            <!--Link: urn:lex:br:federal:lei:2008-06-23;11727--><!--Link: urn:lex:br:federal:lei.complementar:2025-01-16;214-->
+            
+            <Rotulo>§ 12.</Rotulo>
+            <p>
+    No ano-calendário em que a pessoa jurídica iniciar atividades de produção ou importação de álcool a opção pelo regime especial poderá ser exercida em qualquer data, produzindo efeitos a partir do primeiro dia do mês em que for exercida. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2008-06-23;11727">Lei nº 11.727, de 23.6.2008</span>, e com redação dada pela <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>, publicada no DOU, Edição Extra – B, de 16.1.2025, produzindo efeitos a partir do primeiro dia do quarto mês subsequente ao da sua publicação)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par13">
+            <!--Link: urn:lex:br:federal:lei:2008-06-23;11727--><!--Link: urn:lex:br:federal:medida.provisoria:2013-05-07;613--><!--Link: urn:lex:br:federal:lei:2013-09-10;12859-->
+            
+            <Rotulo>§ 13.</Rotulo>
+            <p>
+    O produtor e o importador de álcool, inclusive para fins carburantes, sujeitos ao regime de apuração não cumulativa da Contribuição para o PIS/Pasep e da Cofins podem descontar créditos relativos à aquisição do produto para revenda de outro produtor ou de outro importador. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2008-06-23;11727">Lei nº 11.727, de 23.6.2008</span>, com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2013-05-07;613">Medida Provisória nº 613, de 7.5.2013</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2013-09-10;12859">Lei nº 12.859, de 10.9.2013</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par13-1">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2021-08-11;1063--><!--Link: urn:lex:br:federal:lei:2022-01-03;14292--><!--Link: urn:lex:br:federal:lei.complementar:2025-01-16;214-->
+            
+            <Rotulo>§ 13-A.</Rotulo>
+            <p>
+    (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2021-08-11;1063">Medida Provisória nº 1.063, de 11.8.2021</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-01-03;14292">Lei nº 14.292, de 3.1.2022</span>, e revogado pela <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>, publicada no DOU, Edição Extra – B, de 16.1.2025, produzindo efeitos a partir do primeiro dia do quarto mês subsequente ao da sua publicação)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par14">
+            <!--Link: urn:lex:br:federal:lei:2008-06-23;11727-->
+            
+            <Rotulo>§ 14.</Rotulo>
+            <p>
+    Os créditos de que trata o § 13 deste artigo correspondem aos valores da Contribuição para o PIS/Pasep e da Cofins devidos pelo vendedor em decorrência da operação. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2008-06-23;11727">Lei nº 11.727, de 23.6.2008</span>, publicada no DOU de 24.6.2008, produzindo efeitos a partir do 1º dia do 4º mês subsequente ao da publicação)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par14-1">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2021-08-11;1063--><!--Link: urn:lex:br:federal:lei:2022-01-03;14292--><!--Link: urn:lex:br:federal:lei.complementar:2025-01-16;214-->
+            
+            <Rotulo>§ 14-A.</Rotulo>
+            <p>
+    (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2021-08-11;1063">Medida Provisória nº 1.063, de 11.8.2021</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-01-03;14292">Lei nº 14.292, de 3.1.2022</span>, e revogado pela <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>, publicada no DOU, Edição Extra – B, de 16.1.2025, produzindo efeitos a partir do primeiro dia do quarto mês subsequente ao da sua publicação)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par15">
+            <!--Link: urn:lex:br:federal:lei:2008-06-23;11727--><!--Link: urn:lex:br:federal:lei:2022-01-03;14292-->
+            
+            <Rotulo>§ 15.</Rotulo>
+            <p>
+    (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2008-06-23;11727">Lei nº 11.727, de 23.6.2008</span> e revogado pela <span xlink:href="urn:lex:br:federal:lei:2022-01-03;14292">Lei nº 14.292, de 3.1.2022</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par16">
+            <!--Link: urn:lex:br:federal:lei:2002-12-30;10637!art3_cpt_inc1_ali2--><!--Link: urn:lex:br:federal:lei:2003-12-29;10833!art3_cpt_inc1_ali2--><!--Link: urn:lex:br:federal:lei:2008-06-23;11727--><!--Link: urn:lex:br:federal:lei:2022-01-03;14292-->
+            
+            <Rotulo>§ 16.</Rotulo>
+            <p>
+    Observado o disposto nos §§ 14 e 14-A deste artigo, não se aplica às aquisições de que tratam os §§ 13 e 13-A deste artigo o disposto na <span xlink:href="urn:lex:br:federal:lei:2002-12-30;10637!art3_cpt_inc1_ali2">alínea &quot;b&quot; do inciso I do caput do art. 3º da Lei nº 10.637, de 30 de dezembro de 2002</span>, e na <span xlink:href="urn:lex:br:federal:lei:2003-12-29;10833!art3_cpt_inc1_ali2">alínea &quot;b&quot; do inciso I do caput do art. 3º da Lei nº 10.833, de 29 de dezembro de 2003</span>. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2008-06-23;11727">Lei nº 11.727, de 23.6.2008</span>, publicada no DOU de 24.6.2008, produzindo efeitos a partir do 1º dia do 4º mês subsequente ao da publicação, com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-01-03;14292">Lei nº 14.292, de 3.1.2022</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par17">
+            <!--Link: urn:lex:br:federal:lei:2008-06-23;11727--><!--Link: urn:lex:br:federal:medida.provisoria:2010-07-27;497--><!--Link: urn:lex:br:federal:lei:2010-12-20;12350-->
+            
+            <Rotulo>§ 17.</Rotulo>
+            <p>
+    Na hipótese de o produtor ou importador efetuar a venda de álcool, inclusive para fins carburantes, para pessoa jurídica com a qual mantenha relação de interdependência, o valor tributável não poderá ser inferior a 32,43% (trinta e dois inteiros e quarenta e três centésimos por cento) do preço corrente de venda desse produto aos consumidores na praça desse produtor ou importador. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2008-06-23;11727">Lei nº 11.727, de 23.6.2008</span>, publicada no DOU de 24.6.2008, produzindo efeitos a partir do 1º dia do 4º mês subsequente ao da publicação) (Vide <span xlink:href="urn:lex:br:federal:medida.provisoria:2010-07-27;497">Medida Provisória nº 497, de 27.7.2010</span>, e <span xlink:href="urn:lex:br:federal:lei:2010-12-20;12350">Lei nº 12.350, de 20.12.2010</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par18">
+            <!--Link: urn:lex:br:federal:lei:1964-11-30;4502!art42--><!--Link: urn:lex:br:federal:lei:2008-06-23;11727--><!--Link: urn:lex:br:federal:medida.provisoria:2010-07-27;497--><!--Link: urn:lex:br:federal:lei:2010-12-20;12350-->
+            
+            <Rotulo>§ 18.</Rotulo>
+            <p>
+    Para os efeitos do § 17 deste artigo, na verificação da existência de interdependência entre 2 (duas) pessoas jurídicas, aplicar-se-ão as disposições do <span xlink:href="urn:lex:br:federal:lei:1964-11-30;4502!art42">art. 42 da Lei no 4.502, de 30 de novembro de 1964</span>. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2008-06-23;11727">Lei nº 11.727, de 23.6.2008</span>, publicada no DOU de 24.6.2008, produzindo efeitos a partir do 1º dia do 4º mês subsequente ao da publicação) (Vide <span xlink:href="urn:lex:br:federal:medida.provisoria:2010-07-27;497">Medida Provisória nº 497, de 27.7.2010</span>, e <span xlink:href="urn:lex:br:federal:lei:2010-12-20;12350">Lei nº 12.350, de 20.12.2010</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par19">
+            <!--Link: urn:lex:br:federal:lei:2009-06-04;11945--><!--Link: urn:lex:br:federal:medida.provisoria:2021-08-11;1063--><!--Link: urn:lex:br:federal:lei:2022-01-03;14292-->
+            
+            <Rotulo>§ 19.</Rotulo>
+            <p>
+    (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2009-06-04;11945">Lei nº 11.945, de 4.6.2009</span>, e revogado pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2021-08-11;1063">Medida Provisória nº 1.063, de 11.8.2021</span>, publicada no DOU de 12.8.2021, produzindo efeitos no 1º dia do 4º mês subsequente ao de sua publicação, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-01-03;14292">Lei nº 14.292, de 3.1.2022</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par20">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2001-08-24;2158-35!art15--><!--Link: urn:lex:br:federal:medida.provisoria:2001-08-24;2158-35!art16--><!--Link: urn:lex:br:federal:lei:2022-01-03;14292-->
+            
+            <Rotulo>§ 20.</Rotulo>
+            <p>
+    A cooperativa de produção ou comercialização de etanol e a pessoa jurídica comercializadora de etanol controlada por produtores de etanol ou interligada a produtores de etanol, diretamente ou por intermédio de cooperativas de produtores, ficam sujeitas às disposições da legislação da Contribuição para o PIS/Pasep e da Cofins aplicáveis à pessoa jurídica produtora, observadas as disposições dos <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-08-24;2158-35!art15">arts. 15</span> e <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-08-24;2158-35!art16">16 da Medida Provisória nº 2.158-35, de 24 de agosto de 2001</span>. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2022-01-03;14292">Lei nº 14.292, de 3.1.2022</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par21">
+            <!--Link: urn:lex:br:federal:lei:2022-06-14;14367--><!--Link: urn:lex:br:federal:lei.complementar:2025-01-16;214-->
+            
+            <Rotulo>§ 21.</Rotulo>
+            <p>
+    (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2022-06-14;14367">Lei nº 14.367, de 14.6.2022</span>, e revogado pela <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>, publicada no DOU, Edição Extra – B, de 16.1.2025, produzindo efeitos a partir do primeiro dia do quarto mês subsequente ao da sua publicação)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par22">
+            <!--Link: urn:lex:br:federal:lei:2022-06-14;14367--><!--Link: urn:lex:br:federal:medida.provisoria:1902;14--><!--Link: urn:lex:br:federal:lei.complementar:2025-01-16;214--><!--Link: urn:lex:br:federal:medida.provisoria:1902;1100--><!--Link: urn:lex:br:federal:medida.provisoria:2021-09-13;1069-->
+            
+            <Rotulo>§ 22.</Rotulo>
+            <p>
+    (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2021-09-13;1069">Medida Provisória nº 1.069, de 13.9.2021</span>, e revogado pela <span xlink:href="urn:lex:br:federal:medida.provisoria:1902;1100">Medida Provisória nº 1.100</span>, <span xlink:href="urn:lex:br:federal:medida.provisoria:1902;14">14.2.2022</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-06-14;14367">Lei nº 14.367, de 14.6.2022</span>) (Revogado pela <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>, publicada no DOU, Edição Extra – B, de 16.1.2025, produzindo efeitos a partir do primeiro dia do quarto mês subsequente ao da sua publicação)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            <!--Link: urn:lex:br:federal:lei:2000-07-21;9990--><!--Link: urn:lex:br:federal:lei.complementar:2025-01-16;214-->
+            
+            
+            <p>
+    O disposto no art. 4º desta Lei aplica-se, também, aos demais produtores e importadores dos produtos ali referidos. (&quot;Caput&quot; do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2000-07-21;9990">Lei nº 9.990, de 21.7.2000</span>) (Vide <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art6_par1u">
+            <!--Link: urn:lex:br:federal:lei:2008-06-23;11727-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2008-06-23;11727">Lei nº 11.727, de 23.6.2008</span>, publicada no DOU de 24.6.2008, a partir do 1º dia do 4º mês subsequente ao da publicação)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            <!--Link: urn:lex:br:federal:lei.complementar:2025-01-16;214-->
+            
+            
+            <p>
+    No caso de construção por empreitada ou de fornecimento a preço predeterminado de bens ou serviços, contratados por pessoa jurídica de direito público, empresa pública, sociedade de economia mista ou suas subsidiárias, o pagamento das contribuições de que trata o art. 2º desta Lei poderá ser diferido, pelo contratado, até a data do recebimento do preço. (Vide <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art7_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A utilização do tratamento tributário previsto no caput deste artigo é facultada ao subempreiteiro ou subcontratado, na hipótese de subcontratação parcial ou total da empreitada ou do fornecimento.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            <!--Link: urn:lex:br:federal:lei.complementar:2025-01-16;214-->
+            
+            
+            <p>
+    Fica elevada para três por cento a alíquota da COFINS. (Vide <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art8_par1">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2001-08-24;2158-35-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-08-24;2158-35">Medida Provisória nº 2.158-35, de 24.8.2001</span>, a partir de 1.3.2000)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8_par2">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2001-08-24;2158-35-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-08-24;2158-35">Medida Provisória nº 2.158-35, de 24.8.2001</span>, a partir de 1.3.2000)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8_par3">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2001-08-24;2158-35-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-08-24;2158-35">Medida Provisória nº 2.158-35, de 24.8.2001</span>, a partir de 1.3.2000)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8_par4">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2001-08-24;2158-35-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-08-24;2158-35">Medida Provisória nº 2.158-35, de 24.8.2001</span>, a partir de 1.3.2000)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art8-1">
+            
+            
+            <Rotulo>Art. 8º-A.</Rotulo>
+            
+            <Caput id="art8-1_cpt">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2013-06-06;619--><!--Link: urn:lex:br:federal:lei:2013-10-24;12873--><!--Link: urn:lex:br:federal:lei.complementar:2025-01-16;214-->
+            
+            
+            <p>
+    Fica elevada para 4% (quatro por cento) a alíquota da Contribuição para o Financiamento da Seguridade Social - COFINS devida pelas pessoas jurídicas referidas no § 9º do art. 3º desta Lei, observada a norma de interpretação do § 9º-A, produzindo efeitos a partir do 1º (primeiro) dia do 4º (quarto) mês subsequente ao da publicação da lei decorrente da conversão da <span xlink:href="urn:lex:br:federal:medida.provisoria:2013-06-06;619">Medida Provisória nº 619, de 6 de junho de 2013</span>, exclusivamente quanto à alíquota(Artigo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2013-10-24;12873">Lei nº 12.873, de 24.10.2013</span>)(Vide <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art8-2">
+            
+            
+            <Rotulo>Art. 8º-B.</Rotulo>
+            
+            <Caput id="art8-2_cpt">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2014-07-09;651--><!--Link: urn:lex:br:federal:lei:2014-11-13;13043--><!--Link: urn:lex:br:federal:lei.complementar:2025-01-16;214-->
+            
+            
+            <p>
+    A Cofins incidente sobre as receitas decorrentes da alienação de participações societárias deve ser apurada mediante a aplicação da alíquota de 4 % (quatro por cento). (Artigo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2014-07-09;651">Medida Provisória nº 651, de 9.7.2014</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2014-11-13;13043">Lei nº 13.043, de 13.11.2014</span>, em vigor a partir de 1º de janeiro de 2015) (Vide <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DO IMPOSTO SOBRE A RENDA
+
+  </NomeAgrupador>
+            <Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            <!--Link: urn:lex:br:federal:lei.complementar:2025-01-16;214-->
+            
+            
+            <p>
+    As variações monetárias dos direitos de crédito e das obrigações do contribuinte, em função da taxa de câmbio ou de índices ou coeficientes aplicáveis por disposição legal ou contratual serão consideradas, para efeitos da legislação do imposto de renda, da contribuição social sobre o lucro líquido, da contribuição PIS/PASEP e da COFINS, como receitas ou despesas financeiras, conforme o caso. (Vide <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            <!--Link: urn:lex:br:federal:lei:1997-12-10;9532-->
+            
+            
+            <p>
+    Os dispositivos abaixo enumerados da <span xlink:href="urn:lex:br:federal:lei:1997-12-10;9532">Lei nº 9.532, de 10 de dezembro de 1997</span>, passam a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1997-12-10;9532" id="art10_cpt_alt1">              
+              <Artigo xlink:href="art7" id="art10_cpt_alt1_art7" abreAspas="s">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput xlink:href="art7_cpt" id="art10_cpt_alt1_art7_cpt" textoOmitido="s">
+            
+            
+            
+            
+            <Omissis id="art10_cpt_alt1_art7_cpt_omi1"/><Inciso xlink:href="art7_cpt_inc3" id="art10_cpt_alt1_art7_cpt_inc3">
+            <!--Link: urn:lex:br:federal:decreto.lei:1977;1598!art20_par2_ali2-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    poderá amortizar o valor do ágio cujo fundamento seja o de que trata a <span xlink:href="urn:lex:br:federal:decreto.lei:1977;1598!art20_par2_ali2">alínea b do § 2º do art. 20 do Decreto-lei nº 1.598, de 1977</span>, nos balanços correspondentes à apuração de lucro real, levantados posteriormente à incorporação, fusão ou cisão, à razão de um sessenta avos, no máximo, para cada mês do período de apuração;
+
+  </p>
+            
+          </Inciso>
+          </Caput><Omissis id="art10_cpt_alt1_art7_omi1" fechaAspas="s"/>
+          </Artigo><Artigo xlink:href="art12" id="art10_cpt_alt1_art12" abreAspas="s">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput xlink:href="art12_cpt" id="art10_cpt_alt1_art12_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Omissis id="art10_cpt_alt1_art12_omi1"/><Paragrafo xlink:href="art12_par3" id="art10_cpt_alt1_art12_par3" fechaAspas="s">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Considera-se entidade sem fins lucrativos a que não apresente superávit em suas contas ou, caso o apresente em determinado exercício, destine referido resultado, integralmente, à manutenção e ao desenvolvimento dos seus objetivos sociais.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            <!--Link: urn:lex:br:federal:lei:1997;9532!art7_cpt_inc3--><!--Link: urn:lex:br:federal:lei:1997;9532!art7_cpt_inc4-->
+            
+            
+            <p>
+    Sem prejuízo do disposto nos <span xlink:href="urn:lex:br:federal:lei:1997;9532!art7_cpt_inc3">incisos III</span> e <span xlink:href="urn:lex:br:federal:lei:1997;9532!art7_cpt_inc4">IV do art. 7º da Lei nº 9.532, de 1997</span>, a pessoa jurídica sucessora poderá classificar, no patrimônio líquido, alternativamente ao disposto no § 2º do mencionado artigo, a conta que registrar o ágio ou deságio nele mencionado.
+
+  </p>
+            
+          </Caput><Paragrafo id="art11_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O disposto neste artigo aplica-se aos fatos geradores ocorridos a partir de 1º de janeiro de 1998.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            
+            
+            
+            <p>
+    Sem prejuízo das normas de tributação aplicáveis aos não-residentes no País, sujeitar-se-á à tributação pelo imposto de renda, como residente, a pessoa física que ingressar no Brasil:
+
+  </p>
+            <Inciso id="art12_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    com visto temporário:
+
+  </p>
+            <Alinea id="art12_cpt_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    para trabalhar com vínculo empregatício, em relação aos fatos geradores ocorridos a partir da data de sua chegada;
+
+  </p>
+            
+          </Alinea><Alinea id="art12_cpt_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    por qualquer outro motivo, e permanecer por período superior a cento e oitenta e três dias, consecutivos ou não, contado, dentro de um intervalo de doze meses, da data de qualquer chegada, em relação aos fatos geradores ocorridos a partir do dia subseqüente àquele em que se completar referido período de permanência;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art12_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    com visto permanente, em relação aos fatos geradores ocorridos a partir de sua chegada.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art12_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A Secretaria da Receita Federal expedirá normas quanto às obrigações acessórias decorrentes da aplicação do disposto neste artigo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            <!--Link: urn:lex:br:federal:lei:1905;12814--><!--Link: urn:lex:br:federal:lei:1905;16-->
+            
+            
+            <p>
+    A pessoa jurídica cuja receita bruta total no ano-calendário anterior tenha sido igual ou inferior a R$ 78.000.000,00 (setenta e oito milhões de reais) ou a R$ 6.500.000,00 (seis milhões e quinhentos mil reais) multiplicado pelo número de meses de atividade do ano-calendário anterior, quando inferior a 12 (doze) meses, poderá optar pelo regime de tributação com base no lucro presumido. (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1905;12814">Lei nº 12.814</span>, <span xlink:href="urn:lex:br:federal:lei:1905;16">16.5.2013</span>, em vigor a partir de 1.1.2014)
+
+  </p>
+            
+          </Caput><Paragrafo id="art13_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A opção pela tributação com base no lucro presumido será definitiva em relação a todo o ano-calendário.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art13_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Relativamente aos limites estabelecidos neste artigo, a receita bruta auferida no ano anterior será considerada segundo o regime de competência ou de caixa, observado o critério adotado pela pessoa jurídica, caso tenha, naquele ano, optado pela tributação com base no lucro presumido.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            <p>
+    Estão obrigadas à apuração do lucro real as pessoas jurídicas:
+
+  </p>
+            <Inciso id="art14_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:1905;12814--><!--Link: urn:lex:br:federal:lei:1905;16-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    cuja receita total no ano-calendário anterior seja superior ao limite de R$ 78.000.000,00 (setenta e oito milhões de reais) ou proporcional ao número de meses do período, quando inferior a 12 (doze) meses; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1905;12814">Lei nº 12.814</span>, <span xlink:href="urn:lex:br:federal:lei:1905;16">16.5.2013</span>, em vigor a partir de 1.1.2014)
+
+  </p>
+            
+          </Inciso><Inciso id="art14_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    cujas atividades sejam de bancos comerciais, bancos de investimentos, bancos de desenvolvimento, caixas econômicas, sociedades de crédito, financiamento e investimento, sociedades de crédito imobiliário, sociedades corretoras de títulos, valores mobiliários e câmbio, distribuidoras de títulos e valores mobiliários, empresas de arrendamento mercantil, cooperativas de crédito, empresas de seguros privados e de capitalização e entidades de previdência privada aberta;
+
+  </p>
+            
+          </Inciso><Inciso id="art14_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    que tiverem lucros, rendimentos ou ganhos de capital oriundos do exterior;
+
+  </p>
+            
+          </Inciso><Inciso id="art14_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    que, autorizadas pela legislação tributária, usufruam de benefícios fiscais relativos à isenção ou redução do imposto;
+
+  </p>
+            
+          </Inciso><Inciso id="art14_cpt_inc5">
+            <!--Link: urn:lex:br:federal:lei:1996;9430!art2-->
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    que, no decorrer do ano-calendário, tenham efetuado pagamento mensal pelo regime de estimativa, na forma do <span xlink:href="urn:lex:br:federal:lei:1996;9430!art2">art. 2º da Lei nº 9.430, de 1996</span>;
+
+  </p>
+            
+          </Inciso><Inciso id="art14_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    que explorem as atividades de prestação cumulativa e contínua de serviços de assessoria creditícia, mercadológica, gestão de crédito, seleção e riscos, administração de contas a pagar e a receber, compras de direitos creditórios resultantes de vendas mercantis a prazo ou de prestação de serviços (factoring).
+
+  </p>
+            
+          </Inciso><Inciso id="art14_cpt_inc7">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2009-12-15;472--><!--Link: urn:lex:br:federal:lei:2010-06-11;12249--><!--Link: urn:lex:br:federal:lei:2022-08-03;14430-->
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    que explorem as atividades de securitização de crédito. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2009-12-15;472">Medida Provisória nº 472, de 15.12.2009</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2010-06-11;12249">Lei nº 12.249, de 11.6.2010</span>, e com nova redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-08-03;14430">Lei nº 14.430, de 3.8.2022</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap3">
+            
+            
+            <Rotulo>CAPÍTULO III</Rotulo>
+            <NomeAgrupador>
+    DO IMPOSTO SOBRE OPERAÇÕES DE CRÉDITO, CÂMBIO E SEGURO, OU RELATIVAS A TÍTULOS OU VALORES MOBILIÁRIOS
+
+  </NomeAgrupador>
+            <Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>
+    A alíquota do Imposto sobre Operações de Crédito, Câmbio e Seguro, ou relativas a Títulos ou Valores Mobiliários - IOF nas operações de seguro será de vinte e cinco por cento.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap4">
+            
+            
+            <Rotulo>CAPÍTULO IV</Rotulo>
+            <NomeAgrupador>
+    DAS DISPOSIÇÕES GERAIS E FINAIS
+
+  </NomeAgrupador>
+            <Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            
+            
+            
+            <p>
+    A pessoa jurídica que, obrigada a apresentar, à Secretaria da Receita Federal, declaração de informações, deixar de fazê-lo ou fizer após o prazo fixado para sua apresentação, sujeitar-se-á à multa de um por cento ao mês ou fração, incidente sobre o imposto de renda devido, ainda que integralmente pago, relativo ao ano-calendário a que corresponderem as respectivas informações.
+
+  </p>
+            
+          </Caput><Paragrafo id="art16_par1u">
+            <!--Link: urn:lex:br:federal:lei:1995-01-20;8981!art88_par1--><!--Link: urn:lex:br:federal:lei:1995-01-20;8981!art88_par3--><!--Link: urn:lex:br:federal:lei:1997;9532!art27-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Ao disposto neste artigo aplicam-se as normas constantes dos <span xlink:href="urn:lex:br:federal:lei:1995-01-20;8981!art88_par1">§§ 1º</span> a <span xlink:href="urn:lex:br:federal:lei:1995-01-20;8981!art88_par3">3º do art. 88 da Lei nº 8.981, de 20 de janeiro de 1995</span>, e do <span xlink:href="urn:lex:br:federal:lei:1997;9532!art27">art. 27 da Lei nº 9.532, de 1997</span>.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            
+            
+            
+            <p>
+    Esta Lei entra em vigor na data de sua publicação, produzindo efeitos:
+
+  </p>
+            <Inciso id="art17_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    em relação aos arts. 2º a 8º, para os fatos geradores ocorridos a partir de 1º de fevereiro de 1999;
+
+  </p>
+            
+          </Inciso><Inciso id="art17_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    em relação aos arts. 9º e 12 a 15, a partir de 1º de janeiro de 1999.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            
+            
+            
+            <p>
+    Ficam revogados, a partir de 1º de janeiro de 1999:
+
+  </p>
+            <Inciso id="art18_cpt_inc1">
+            <!--Link: urn:lex:br:federal:decreto.lei:1974-05-13;1330!art1_par2-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o <span xlink:href="urn:lex:br:federal:decreto.lei:1974-05-13;1330!art1_par2">§ 2º do art. 1º do Decreto-lei nº 1.330, de 13 de maio de 1974</span>;
+
+  </p>
+            
+          </Inciso><Inciso id="art18_cpt_inc2">
+            <!--Link: urn:lex:br:federal:decreto.lei:1976-12-23;1506!art4_par2-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o <span xlink:href="urn:lex:br:federal:decreto.lei:1976-12-23;1506!art4_par2">§ 2º do art. 4º do Decreto-lei nº 1.506, de 23 de dezembro de 1976</span>;
+
+  </p>
+            
+          </Inciso><Inciso id="art18_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:1995;8981!art47_cpt_inc6-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    o art. 36 e o <span xlink:href="urn:lex:br:federal:lei:1995;8981!art47_cpt_inc6">inciso VI do art. 47 da Lei nº 8.981, de 1995</span>;
+
+  </p>
+            
+          </Inciso><Inciso id="art18_cpt_inc4">
+            <!--Link: urn:lex:br:federal:lei:1997;9532!art15_par4-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    o <span xlink:href="urn:lex:br:federal:lei:1997;9532!art15_par4">§ 4º do art. 15 da Lei nº 9.532, de 1997</span>.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Capitulo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 27 de novembro de 1998; 177º da Independência e 110º da República.</p></LocalDataFecho><Assinatura><NomePessoa>FERNANDO HENRIQUE CARDOSO</NomePessoa><NomePessoa>Pedro Malan</NomePessoa></Assinatura></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>

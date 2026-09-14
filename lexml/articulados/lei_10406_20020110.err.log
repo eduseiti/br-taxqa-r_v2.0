@@ -1,0 +1,8 @@
+# CMD: java -jar ../lexml-parser-projeto-lei/target/lexml-parser-projeto-lei-1.15.0-onejar.jar parse -m application/vnd.openxmlformats-officedocument.wordprocessingml.document -i original/articulados/lei_10406_20020110.docx -o lexml/lei_10406_20020110.xml --write-errors-to-file lexml/lei_10406_20020110.err.log -a federal -t lei -n 10406 --data 2002-01-10 --linker /usr/local/bin/linkertool
+# ---
+Problem type = [5: Rótulo repetido, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Parágrafo único. do Art. 1.052. (na Seção I do CAPÍTULO IV do SUBTÍTULO II do TÍTULO II do LIVRO II da PARTE ESPECIAL)), msg = None, context=ArraySeq(Art. 1.052., Seção I, CAPÍTULO IV, SUBTÍTULO II, TÍTULO II, LIVRO II, PARTE ESPECIAL, CAPÍTULO IV, SUBTÍTULO II, TÍTULO II, LIVRO II, PARTE ESPECIAL, SUBTÍTULO II, TÍTULO II, LIVRO II, PARTE ESPECIAL, TÍTULO II, LIVRO II, PARTE ESPECIAL, LIVRO II, PARTE ESPECIAL, PARTE ESPECIAL)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Parágrafo único. do Art. 1.052. (na Seção I do CAPÍTULO IV do SUBTÍTULO II do TÍTULO II do LIVRO II da PARTE ESPECIAL), § 1º do Art. 1.052. (na Seção I do CAPÍTULO IV do SUBTÍTULO II do TÍTULO II do LIVRO II da PARTE ESPECIAL)), msg = None, context=List()
+
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 1.052. do Parágrafo único.), msg = None, context=ArraySeq(Parágrafo único.:Art. 1.052., § 1º:Art. 1.052.)
+

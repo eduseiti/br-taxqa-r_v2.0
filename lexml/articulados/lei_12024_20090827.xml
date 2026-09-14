@@ -1,0 +1,1311 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:2009-08-27;12024"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">LEI Nº 12.024, DE 27 DE AGOSTO DE 2009 </Epigrafe>
+		  <Ementa id="ementa">Dá nova redação aos <span xlink:href="urn:lex:br:federal:lei:2004-08-02;10931!art4">arts. 4º</span>, <span xlink:href="urn:lex:br:federal:lei:2004-08-02;10931!art5">5º</span> e <span xlink:href="urn:lex:br:federal:lei:2004-08-02;10931!art8">8º da Lei nº 10.931, de 2 de agosto de 2004</span>, que tratam de patrimônio de afetação de incorporações imobiliárias; dispõe sobre o tratamento tributário a ser dado às receitas mensais auferidas pelas empresas construtoras nos contratos de construção de moradias firmados dentro do Programa Minha Casa, Minha Vida - PMCMV, atribui à Agência Nacional de Telecomunicações - ANATEL as atribuições de apurar, constituir, fiscalizar e arrecadar a Contribuição para o Fomento da Radiodifusão Pública; altera as <span xlink:href="urn:lex:br:federal:lei:2005-11-21;11196">Leis nºs 11.196, de 21 de novembro de 2005</span>, <span xlink:href="urn:lex:br:federal:lei:2008-04-07;11652">11.652, de 7 de abril de 2008</span>, <span xlink:href="urn:lex:br:federal:lei:2003-12-29;10833">10.833, de 29 de dezembro de 2003</span>, <span xlink:href="urn:lex:br:federal:lei:1999-08-23;9826">9.826, de 23 de agosto de 1999</span>, <span xlink:href="urn:lex:br:federal:lei:1974-09-12;6099">6.099, de 12 de setembro de 1974</span>, <span xlink:href="urn:lex:br:federal:lei:2004-12-30;11079">11.079, de 30 de dezembro de 2004</span>, <span xlink:href="urn:lex:br:federal:lei:1993-06-25;8668">8.668, de 25 de junho de 1993</span>, <span xlink:href="urn:lex:br:federal:lei:1993-12-09;8745">8.745, de 9 de dezembro de 1993</span>, <span xlink:href="urn:lex:br:federal:lei:2004-04-30;10865">10.865, de 30 de abril de 2004</span>, <span xlink:href="urn:lex:br:federal:lei:1995-02-24;8989">8.989, de 24 de fevereiro de 1995</span>, e <span xlink:href="urn:lex:br:federal:lei:2009-05-27;11941">11.941, de 27 de maio de 2009</span>; e dá outras providências.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA
+  </p><p>
+    Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            <!--Link: urn:lex:br:federal:lei:2004-08-02;10931!art4--><!--Link: urn:lex:br:federal:lei:2004-08-02;10931!art5--><!--Link: urn:lex:br:federal:lei:2004-08-02;10931!art8-->
+            
+            
+            <p>
+    Os <span xlink:href="urn:lex:br:federal:lei:2004-08-02;10931!art4">arts. 4º</span>, <span xlink:href="urn:lex:br:federal:lei:2004-08-02;10931!art5">5º</span> e <span xlink:href="urn:lex:br:federal:lei:2004-08-02;10931!art8">8º da Lei nº 10.931, de 2 de agosto de 2004</span>, passam a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:2004-08-02;10931" id="art1_cpt_alt1">              
+              <Artigo xlink:href="art4" id="art1_cpt_alt1_art4" abreAspas="s">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput xlink:href="art4_cpt" id="art1_cpt_alt1_art4_cpt">
+            
+            
+            
+            <p>
+    Para cada incorporação submetida ao regime especial de tributação, a incorporadora ficará sujeita ao pagamento equivalente a 6% (seis por cento) da receita mensal recebida, o qual corresponderá ao pagamento mensal unificado dos seguintes impostos e contribuições:
+
+  </p>
+            
+          </Caput><Omissis id="art1_cpt_alt1_art4_omi1"/><Paragrafo xlink:href="art4_par6" id="art1_cpt_alt1_art4_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    Até 31 de dezembro de 2013, para os projetos de incorporação de imóveis residenciais de interesse social, cuja construção tenha sido iniciada ou contratada a partir de 31 de março de 2009, o percentual correspondente ao pagamento unificado dos tributos de que trata o caput será equivalente a 1% (um por cento) da receita mensal recebida.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art4_par7" id="art1_cpt_alt1_art4_par7">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2009-03-25;459-->
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    Para efeito do disposto no § 6º, consideram-se projetos de incorporação de imóveis de interesse social os destinados à construção de unidades residenciais de valor comercial de até R$ 60.000,00 (sessenta mil reais) no âmbito do Programa Minha Casa, Minha Vida - PMCMV, de que trata a <span xlink:href="urn:lex:br:federal:medida.provisoria:2009-03-25;459">Medida Provisória nº 459, de 25 de março de 2009</span>.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art4_par8" id="art1_cpt_alt1_art4_par8">
+            
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    As condições para utilização do benefício de que trata o
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art4_par6" id="art1_cpt_alt1_art4_par6" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    serão definidas em regulamento.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo xlink:href="art5" id="art1_cpt_alt1_art5" abreAspas="s">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput xlink:href="art5_cpt" id="art1_cpt_alt1_art5_cpt">
+            
+            
+            
+            <p>
+    O pagamento unificado de impostos e contribuições efetuado na forma do art. 4º deverá ser feito até o 20º (vigésimo) dia do mês subsequente àquele em que houver sido auferida a receita.
+
+  </p>
+            
+          </Caput><Omissis id="art1_cpt_alt1_art5_omi1" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo><Artigo xlink:href="art8" id="art1_cpt_alt1_art8" abreAspas="s">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput xlink:href="art8_cpt" id="art1_cpt_alt1_art8_cpt">
+            
+            
+            
+            <p>
+    Para fins de repartição de receita tributária e do disposto no § 2º do art. 4º, o percentual de 6% (seis por cento) de que trata o caput do art. 4º será considerado:
+
+  </p>
+            <Inciso xlink:href="art8_cpt_inc1" id="art1_cpt_alt1_art8_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    2,57% (dois inteiros e cinquenta e sete centésimos por cento) como Cofins;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art8_cpt_inc2" id="art1_cpt_alt1_art8_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    0,56% (cinquenta e seis centésimos por cento) como Contribuição para o PIS/Pasep;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art8_cpt_inc3" id="art1_cpt_alt1_art8_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    1,89% (um inteiro e oitenta e nove centésimos por cento) como IRPJ; e
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art8_cpt_inc4" id="art1_cpt_alt1_art8_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    0,98% (noventa e oito centésimos por cento) como CSLL.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo xlink:href="art8_par1u" id="art1_cpt_alt1_art8_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O percentual de 1% (um por cento) de que trata o § 6º do art. 4º será considerado para os fins do caput:
+
+  </p>
+            <Inciso xlink:href="art8_par1u_inc1" id="art1_cpt_alt1_art8_par1u_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    0,44% (quarenta e quatro centésimos por cento) como Cofins;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art8_par1u_inc2" id="art1_cpt_alt1_art8_par1u_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    0,09% (nove centésimos por cento) como Contribuição para o PIS/Pasep;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art8_par1u_inc3" id="art1_cpt_alt1_art8_par1u_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    0,31% (trinta e um centésimos por cento) como IRPJ; e
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art8_par1u_inc4" id="art1_cpt_alt1_art8_par1u_inc4" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    0,16% (dezesseis centésimos por cento) como CSLL.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            <!--Link: urn:lex:br:federal:lei:2009-07-07;11977--><!--Link: urn:lex:br:federal:medida.provisoria:2014-10-07;656--><!--Link: urn:lex:br:federal:lei:2015-01-19;13097--><!--Link: urn:lex:br:federal:lei:2019-12-27;13970-->
+            
+            
+            <p>
+    A empresa construtora que tenha sido contratada ou tenha obras iniciadas até 31 de dezembro de 2018 para construir unidades habitacionais de valor de até R$ 100.000,00 (cem mil reais) no âmbito do Programa Minha Casa, Minha Vida (PMCMV), de que trata a <span xlink:href="urn:lex:br:federal:lei:2009-07-07;11977">Lei nº 11.977, de 7 de julho de 2009</span>, fica autorizada, em caráter opcional, a efetuar o pagamento unificado de tributos equivalente a 1% (um por cento) da receita mensal auferida pelo contrato de construção até a extinção do respectivo contrato celebrado e, no caso de comercialização da unidade, até a quitação plena do preço do imóvel. (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2014-10-07;656">Medida Provisória nº 656, de 7.10.2014</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2015-01-19;13097">Lei nº 13.097, de 19.1.2015</span> e com nova redação dada pela <span xlink:href="urn:lex:br:federal:lei:2019-12-27;13970">Lei nº 13.970, de 27.12.2019</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art2_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O pagamento mensal unificado de que trata o caput corresponderá aos seguintes tributos:
+
+  </p>
+            <Inciso id="art2_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Imposto de Renda das Pessoas Jurídicas - IRPJ;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Contribuição para o PIS/Pasep;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Contribuição Social sobre o Lucro Líquido - CSLL; e
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par1_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    Contribuição para Financiamento da Seguridade Social - COFINS.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art2_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O pagamento dos impostos e contribuições na forma do disposto no caput será considerado definitivo, não gerando, em qualquer hipótese, direito à restituição ou à compensação com o que for apurado pela construtora.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    As receitas, custos e despesas próprios da construção sujeita a tributação na forma deste artigo não deverão ser computados na apuração das bases de cálculo dos impostos e contribuições de que trata o § 1º, devidos pela construtora em virtude de suas outras atividades empresariais.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Para fins de repartição de receita tributária, o percentual de 1% (um por cento) de que trata o caput será considerado:
+
+  </p>
+            <Inciso id="art2_par4_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    0,44% (quarenta e quatro centésimos por cento) como Cofins;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par4_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    0,09% (nove centésimos por cento) como Contribuição para o PIS/Pasep;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par4_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    0,31% (trinta e um centésimos por cento) como IRPJ; e
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par4_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    0,16% (dezesseis centésimos por cento) como CSLL.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art2_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    O disposto neste artigo somente se aplica às construções iniciadas ou contratadas a partir de 31 de março de 2009.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    O pagamento unificado de tributos efetuado na forma do caput deverá ser feito até o 20º (vigésimo) dia do mês subsequente àquele em que houver sido auferida a receita.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par7">
+            <!--Link: urn:lex:br:federal:lei:2015-06-19;13137-->
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    Na hipótese em que a empresa construa unidades habitacionais para vendê-las prontas, o pagamento unificado de tributos a que se refere o caput será equivalente a 1% (um por cento) da receita mensal auferida pelo contrato de alienação. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2015-06-19;13137">Lei nº 13.137, de 19.6.2015</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art2-1">
+            
+            
+            <Rotulo>Art. 2º-A.</Rotulo>
+            
+            <Caput id="art2-1_cpt">
+            <!--Link: urn:lex:br:federal:lei:2009-07-07;11977--><!--Link: urn:lex:br:federal:medida.provisoria:2020-08-25;996--><!--Link: urn:lex:br:federal:lei:2019-12-27;13970--><!--Link: urn:lex:br:federal:lei:2021-01-12;14118-->
+            
+            
+            <p>
+    A partir de 1º de janeiro de 2020, a empresa construtora que tenha sido contratada ou tenha obras iniciadas para construir unidades habitacionais de valor de até R$ 124.000,00 (cento e vinte e quatro mil reais) no âmbito do Programa Minha Casa, Minha Vida (PMCMV), de que trata a <span xlink:href="urn:lex:br:federal:lei:2009-07-07;11977">Lei nº 11.977, de 7 de julho de 2009</span>, ou no âmbito do Programa Casa Verde e Amarela, de que trata a Lei de Conversão da <span xlink:href="urn:lex:br:federal:medida.provisoria:2020-08-25;996">Medida Provisória nº 996, de 25 de agosto de 2020</span>, fica autorizada, em caráter opcional, a efetuar o pagamento unificado de tributos equivalente a 4% (quatro por cento) da receita mensal auferida pelo contrato de construção. (“Caput” do artigo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2019-12-27;13970">Lei nº 13.970, de 27.12.2019</span>, e com nova redação dada pela <span xlink:href="urn:lex:br:federal:lei:2021-01-12;14118">Lei nº 14.118, de 12.1.2021</span>, vetada pelo Presidente da República, mantida pelo Congresso Nacional e publicada na Edição Extra D do DOU de 26.3.2021)
+
+  </p>
+            
+          </Caput><Paragrafo id="art2-1_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O pagamento mensal unificado de que trata o caput deste artigo corresponderá aos seguintes tributos:
+
+  </p>
+            <Inciso id="art2-1_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Imposto sobre a Renda das Pessoas Jurídicas (IRPJ);
+
+  </p>
+            
+          </Inciso><Inciso id="art2-1_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    contribuição para os Programas de Integração Social e de Formação do Patrimônio do Servidor Público (PIS/Pasep);
+
+  </p>
+            
+          </Inciso><Inciso id="art2-1_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Contribuição Social sobre o Lucro Líquido (CSLL); e
+
+  </p>
+            
+          </Inciso><Inciso id="art2-1_par1_inc4">
+            <!--Link: urn:lex:br:federal:lei:2019-12-27;13970-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    Contribuição para Financiamento da Seguridade Social (Cofins). (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2019-12-27;13970">Lei nº 13.970, de 27.12.2019</span>)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art2-1_par2">
+            <!--Link: urn:lex:br:federal:lei:2019-12-27;13970-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Para fins do disposto no caput deste artigo, considera-se receita mensal a totalidade das receitas auferidas pela construtora na venda das unidades imobiliárias que compõem a construção, bem como as receitas financeiras e as variações monetárias decorrentes dessa operação. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2019-12-27;13970">Lei nº 13.970, de 27.12.2019</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2-1_par3">
+            <!--Link: urn:lex:br:federal:lei:2019-12-27;13970-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O pagamento do imposto e das contribuições na forma do disposto no caput deste artigo será considerado definitivo, não gerando, em hipótese alguma, direito a restituição ou a compensação com o que for apurado pela construtora. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2019-12-27;13970">Lei nº 13.970, de 27.12.2019</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2-1_par4">
+            <!--Link: urn:lex:br:federal:lei:2019-12-27;13970-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    As receitas, os custos e as despesas próprios da construção sujeita à tributação na forma deste artigo não deverão ser computados na apuração das bases de cálculo do imposto e das contribuições de que trata o § 1º deste artigo devidos pela construtora em virtude de suas outras atividades empresariais. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2019-12-27;13970">Lei nº 13.970, de 27.12.2019</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2-1_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Para fins de repartição de receita tributária, do percentual de 4% (quatro por cento) de que trata o caput deste artigo, serão considerados:
+
+  </p>
+            <Inciso id="art2-1_par5_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    1,71% (um inteiro e setenta e um centésimos por cento) como Cofins;
+
+  </p>
+            
+          </Inciso><Inciso id="art2-1_par5_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    0,37% (trinta e sete centésimos por cento) como contribuição para o PIS/Pasep;
+
+  </p>
+            
+          </Inciso><Inciso id="art2-1_par5_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    1,26% (um inteiro e vinte e seis centésimos por cento) como IRPJ; e
+
+  </p>
+            
+          </Inciso><Inciso id="art2-1_par5_inc4">
+            <!--Link: urn:lex:br:federal:lei:2019-12-27;13970-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    0,66% (sessenta e seis centésimos por cento) como CSLL. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2019-12-27;13970">Lei nº 13.970, de 27.12.2019</span>)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art2-1_par6">
+            <!--Link: urn:lex:br:federal:lei:2019-12-27;13970-->
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    O pagamento unificado de tributos efetuado na forma do caput deste artigo deverá ser feito até o 20º (vigésimo) dia do mês subsequente àquele em que houver sido auferida a receita. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2019-12-27;13970">Lei nº 13.970, de 27.12.2019</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2-1_par7">
+            <!--Link: urn:lex:br:federal:lei:2009-07-07;11977--><!--Link: urn:lex:br:federal:medida.provisoria:2020-08-25;996--><!--Link: urn:lex:br:federal:lei:2019-12-27;13970--><!--Link: urn:lex:br:federal:lei:2021-01-12;14118-->
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    Caso a empresa construa unidades habitacionais para vendê-las prontas, seja no âmbito do Programa Minha Casa, Minha Vida (PMCMV), de que trata a <span xlink:href="urn:lex:br:federal:lei:2009-07-07;11977">Lei nº 11.977, de 7 de julho de 2009</span>, seja no âmbito do Programa Casa Verde e Amarela, de que trata a Lei de Conversão da <span xlink:href="urn:lex:br:federal:medida.provisoria:2020-08-25;996">Medida Provisória nº 996, de 25 de agosto de 2020</span>, o pagamento unificado de tributos a que se refere o caput deste artigo será equivalente a 4% (quatro por cento) da receita mensal auferida pelo contrato de alienação, aplicado o disposto nos §§ 1º, 2º, 3º, 4º e 5º deste artigo. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2019-12-27;13970">Lei nº 13.970, de 27.12.2019</span>, e com nova redação dada pela <span xlink:href="urn:lex:br:federal:lei:2021-01-12;14118">Lei nº 14.118, de 12.1.2021</span>, vetada pelo Presidente da República, mantida pelo Congresso Nacional e publicada na Edição Extra D do DOU de 26.3.2021)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2-1_par8">
+            <!--Link: urn:lex:br:federal:lei:2019-12-27;13970-->
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    O disposto no art. 2º desta Lei e neste artigo será aplicado, no caso de contratos de construção, até o recebimento integral do valor do respectivo contrato. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2019-12-27;13970">Lei nº 13.970, de 27.12.2019</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2-1_par9">
+            <!--Link: urn:lex:br:federal:lei:2021-01-12;14118-->
+            
+            <Rotulo>§ 9º</Rotulo>
+            <p>
+    Para os fins do regime de pagamento unificado de tributos sobre a receita mensal auferida pelo contrato de construção de que trata este artigo, o Programa Casa Verde e Amarela, na forma de sua legislação federal específica, é sucessor do Programa Minha Casa, Minha Vida (PMCMV). (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2021-01-12;14118">Lei nº 14.118, de 12.1.2021</span>, vetado pelo Presidente da República, mantido pelo Congresso Nacional e publicado na Edição Extra D do DOU de 26.3.2021)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            <!--Link: urn:lex:br:federal:lei:1973-12-31;6015-->
+            
+            
+            <p>
+    Até o exercício de 2014, ano-calendário de 2013, para fins de implementação dos serviços de registros públicos, previstos na <span xlink:href="urn:lex:br:federal:lei:1973-12-31;6015">Lei nº 6.015, de 31 de dezembro de 1973</span>, em meio eletrônico, os investimentos e demais gastos efetuados com informatização, que compreende a aquisição de hardware , aquisição e desenvolvimento de software e a instalação de redes pelos titulares dos referidos serviços, poderão ser deduzidos da base de cálculo mensal e da anual do Imposto sobre a Renda da Pessoa Física.
+
+  </p>
+            
+          </Caput><Paragrafo id="art3_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os investimentos e gastos efetuados deverão estar devidamente escriturados no livro Caixa e comprovados com documentação idônea, a qual será mantida em poder dos titulares dos serviços de registros públicos de que trata o caput, à disposição da fiscalização, enquanto não ocorrer a decadência ou a prescrição.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Na hipótese de alienação dos bens de que trata o caput, o valor da alienação deverá integrar o rendimento bruto da atividade.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O excesso de deduções apurado no mês pode ser compensado nos meses seguintes, até dezembro, não podendo ser transposto para o ano seguinte.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    Fica reduzida a 0 (zero) a alíquota da Cofins incidente sobre a receita bruta da venda, no mercado interno, de motocicletas de cilindrada inferior ou igual a 150cm3, efetuada por importadores e fabricantes, classificadas nos códigos 8711.10.00, 8711.20.10 e 8711.20.20 da Tabela de Incidência do Imposto sobre Produtos Industrializados - TIPI.
+
+  </p>
+            
+          </Caput><Paragrafo id="art4_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O disposto no caput não se aplica às receitas auferidas pela pessoa jurídica revendedora, na revenda de mercadorias em relação às quais a contribuição seja exigida da empresa vendedora, na condição de substituta tributária.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par2">
+            <!--Link: urn:lex:br:federal:lei:2010-12-30;12375-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O disposto neste artigo aplica-se aos fatos geradores ocorridos nos meses de janeiro a março de 2010. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2010-12-30;12375">Lei nº 12.375, de 30.12.2010</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            <!--Link: urn:lex:br:federal:lei:2005-11-21;11196!art62-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:2005-11-21;11196!art62">art. 62 da Lei nº 11.196, de 21 de novembro de 2005</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:2005-11-21;11196" id="art5_cpt_alt1">              
+              <Artigo xlink:href="art62" id="art5_cpt_alt1_art62" abreAspas="s">
+            
+            
+            <Rotulo>Art. 62.</Rotulo>
+            
+            <Caput xlink:href="art62_cpt" id="art5_cpt_alt1_art62_cpt" fechaAspas="s" notaAlteracao="NR">
+            <!--Link: urn:lex:br:federal:lei.complementar:1991-12-30;70!art3--><!--Link: urn:lex:br:federal:lei:1998-11-25;9715!art5-->
+            
+            
+            <p>
+    O percentual e o coeficiente multiplicadores a que se referem o <span xlink:href="urn:lex:br:federal:lei.complementar:1991-12-30;70!art3">art. 3º da Lei Complementar nº 70, de 30 de dezembro de 1991</span>, e o <span xlink:href="urn:lex:br:federal:lei:1998-11-25;9715!art5">art. 5º da Lei nº 9.715, de 25 de novembro de 1998</span>, passam a ser de 291,69% (duzentos e noventa e um inteiros e sessenta e nove centésimos por cento) e 3,42 (três inteiros e quarenta e dois centésimos), respectivamente.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            <!--Link: urn:lex:br:federal:lei:2008-04-07;11652!art32-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:2008-04-07;11652!art32">art. 32 da Lei nº 11.652, de 7 de abril de 2008</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:2008-04-07;11652" id="art6_cpt_alt1">              
+              <Artigo xlink:href="art32" id="art6_cpt_alt1_art32" abreAspas="s">
+            
+            
+            <Rotulo>Art. 32.</Rotulo>
+            
+            <Caput xlink:href="art32_cpt" id="art6_cpt_alt1_art32_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Omissis id="art6_cpt_alt1_art32_omi1"/><Paragrafo xlink:href="art32_par7" id="art6_cpt_alt1_art32_par7">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    À Agência Nacional de Telecomunicações - ANATEL compete planejar, executar, acompanhar e avaliar as atividades relativas a tributação, fiscalização, arrecadação, cobrança e recolhimento da contribuição prevista neste artigo, cabendo-lhe promover as demais atividades necessárias à sua administração.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art32_par8" id="art6_cpt_alt1_art32_par8">
+            
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    A retribuição à Anatel pelos serviços referidos no § 7º será de 2,5% (dois inteiros e cinco décimos por cento) do montante arrecadado.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art32_par9" id="art6_cpt_alt1_art32_par9">
+            
+            
+            <Rotulo>§ 9º</Rotulo>
+            <p>
+    O percentual e a forma de repasse à Empresa Brasil de Comunicação - EBC dos recursos arrecadados com a contribuição deste artigo serão definidos em regulamento, respeitados o mínimo estabelecido no inciso III do art. 11 desta Lei e o disposto no § 8º deste artigo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art32_par10" id="art6_cpt_alt1_art32_par10">
+            
+            
+            <Rotulo>§ 10.</Rotulo>
+            <p>
+    Enquanto não editado o decreto a que se refere o § 9º, deverá a Anatel repassar integralmente à EBC toda a arrecadação da contribuição deste artigo, observado o disposto no § 8º deste artigo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art32_par11" id="art6_cpt_alt1_art32_par11">
+            
+            
+            <Rotulo>§ 11.</Rotulo>
+            <p>
+    Excepcionalmente, no ano de 2009, a contribuição anual prevista no § 2º poderá ser paga até o dia 31 de maio de 2009, nos valores constantes do Anexo desta Lei.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art32_par12" id="art6_cpt_alt1_art32_par12" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 12.</Rotulo>
+            <p>
+    O decreto a que se refere o § 9º regulamentará o percentual e a forma de repasse de parte do produto da arrecadação da contribuição prevista no caput, para o financiamento dos Serviços de Televisão e de Retransmissão de Televisão Pública Digital explorada por entes e órgãos integrantes dos Poderes da União, no âmbito do Sistema Brasileiro de Televisão Digital Terrestre - SBTVD, respeitado o mínimo estabelecido no inciso III do art. 11 desta Lei e o disposto no § 8º deste artigo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            <!--Link: urn:lex:br:federal:lei:2003-12-29;10833!art61_cpt-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:2003-12-29;10833!art61_cpt">caput do art. 61 da Lei nº 10.833, de 29 de dezembro de 2003</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:2003-12-29;10833" id="art7_cpt_alt1">              
+              <Artigo xlink:href="art61" id="art7_cpt_alt1_art61" abreAspas="s">
+            
+            
+            <Rotulo>Art. 61.</Rotulo>
+            
+            <Caput xlink:href="art61_cpt" id="art7_cpt_alt1_art61_cpt">
+            
+            
+            
+            <p>
+    Nas operações de exportação sem saída do produto do território nacional, com pagamento a prazo, os efeitos fiscais e cambiais, quando reconhecidos pela legislação vigente, serão produzidos no momento da contratação, sob condição resolutória, aperfeiçoando-se pelo recebimento integral em moeda nacional ou estrangeira de livre conversibilidade.
+
+  </p>
+            
+          </Caput><Omissis id="art7_cpt_alt1_art61_omi1" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            <!--Link: urn:lex:br:federal:lei:1999-08-23;9826!art6_cpt-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1999-08-23;9826!art6_cpt">caput do art. 6º da Lei nº 9.826, de 23 de agosto de 1999</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1999-08-23;9826" id="art8_cpt_alt1">              
+              <Artigo xlink:href="art6" id="art8_cpt_alt1_art6" abreAspas="s">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput xlink:href="art6_cpt" id="art8_cpt_alt1_art6_cpt">
+            
+            
+            
+            <p>
+    A exportação de produtos nacionais sem que tenha ocorrido sua saída do território brasileiro somente será admitida, produzindo todos os efeitos fiscais e cambiais, quando o pagamento for efetivado em moeda nacional ou estrangeira de livre conversibilidade e a venda for realizada para:
+
+  </p>
+            
+          </Caput><Omissis id="art8_cpt_alt1_art6_omi1" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            <!--Link: urn:lex:br:federal:lei:1974-09-12;6099!art20_par2-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1974-09-12;6099!art20_par2">§ 2º do art. 20 da Lei nº 6.099, de 12 de setembro de 1974</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1974-09-12;6099" id="art9_cpt_alt1">              
+              <Artigo xlink:href="art20" id="art9_cpt_alt1_art20" abreAspas="s">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput xlink:href="art20_cpt" id="art9_cpt_alt1_art20_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Omissis id="art9_cpt_alt1_art20_omi1"/><Paragrafo xlink:href="art20_par2" id="art9_cpt_alt1_art20_par2" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Para os fins do disposto no § 1º, a equivalência em moeda nacional será determinada pela maior taxa de câmbio do dia da utilização dos benefícios fiscais, quando o pagamento das contraprestações do arrendamento contratado for efetivado em moeda estrangeira de livre conversibilidade.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            <!--Link: urn:lex:br:federal:lei:2004-12-30;11079-->
+            
+            
+            <p>
+    A <span xlink:href="urn:lex:br:federal:lei:2004-12-30;11079">Lei nº 11.079, de 30 de dezembro de 2004</span>, passa a vigorar com a seguinte alteração:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:2004-12-30;11079" id="art10_cpt_alt1">              
+              <Artigo xlink:href="art28" id="art10_cpt_alt1_art28" abreAspas="s">
+            
+            
+            <Rotulo>Art. 28.</Rotulo>
+            
+            <Caput xlink:href="art28_cpt" id="art10_cpt_alt1_art28_cpt">
+            
+            
+            
+            <p>
+    A União não poderá conceder garantia e realizar transferência voluntária aos Estados, Distrito Federal e Municípios se a soma das despesas de caráter continuado derivadas do conjunto das parcerias já contratadas por esses entes tiver excedido, no ano anterior, a 3% (três por cento) da receita corrente líquida do exercício ou se as despesas anuais dos contratos vigentes nos 10 (dez) anos subsequentes excederem a 3% (três por cento) da receita corrente líquida projetada para os respectivos exercícios.
+
+  </p>
+            
+          </Caput><Omissis id="art10_cpt_alt1_art28_omi1"/><Paragrafo xlink:href="art28_par2" id="art10_cpt_alt1_art28_par2" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Na aplicação do limite previsto no caput deste artigo, serão computadas as despesas derivadas de contratos de parceria celebrados pela administração pública direta, autarquias, fundações públicas, empresas públicas, sociedades de economia mista e demais entidades controladas, direta ou indiretamente, pelo respectivo ente, excluídas as empresas estatais não dependentes.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            <p>
+    O Poder Executivo divulgará anualmente o percentual de unidades habitacionais destinadas a pessoas com deficiência e fabricadas de acordo com as normas de acessibilidade da Associação Brasileira de Normas Técnicas - ABNT, no âmbito do Programa Minha Casa, Minha Vida - PMCMV.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            <!--Link: urn:lex:br:federal:lei:1991-07-24;8212!art41--><!--Link: urn:lex:br:federal:lei:2009-05-27;11941-->
+            
+            
+            <p>
+    São anistiados os agentes públicos e os dirigentes de órgãos públicos da União, dos Estados, do Distrito Federal e dos Municípios a quem foram impostas penalidades pecuniárias pessoais, até a data de publicação desta Lei, com base no <span xlink:href="urn:lex:br:federal:lei:1991-07-24;8212!art41">art. 41 da Lei nº 8.212, de 24 de julho de 1991</span>, revogado pela <span xlink:href="urn:lex:br:federal:lei:2009-05-27;11941">Lei nº 11.941, de 27 de maio de 2009</span>.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>
+    Fica a União autorizada a convalidar o encontro de contas, por meio da compensação de créditos e débitos recíprocos vencidos, entre o Fundo de Compensação de Variações Salariais - FCVS, a Caixa Econômica Federal, o Fundo de Garantia de Depósitos e Letras Imobiliárias - FGDLI e as entidades repassadoras, na forma adotada pelo Conselho Curador do FCVS.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            <!--Link: urn:lex:br:federal:lei:1993-06-25;8668-->
+            
+            
+            <p>
+    A <span xlink:href="urn:lex:br:federal:lei:1993-06-25;8668">Lei nº 8.668, de 25 de junho de 1993</span>, passa a vigorar com a seguinte alteração:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1993-06-25;8668" id="art15_cpt_alt1">              
+              <Artigo xlink:href="art16-1" id="art15_cpt_alt1_art16-1" abreAspas="s">
+            
+            
+            <Rotulo>Art. 16-A.</Rotulo>
+            
+            <Caput xlink:href="art16-1_cpt" id="art15_cpt_alt1_art16-1_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Paragrafo xlink:href="art16-1_par1" id="art15_cpt_alt1_art16-1_par1">
+            <!--Link: urn:lex:br:federal:lei:2004-12-21;11033!art3_cpt_inc2--><!--Link: urn:lex:br:federal:lei:2004-12-21;11033!art3_cpt_inc3-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Não estão sujeitas à incidência do imposto de renda na fonte prevista no caput as aplicações efetuadas pelos Fundos de Investimento Imobiliário nos ativos de que tratam os <span xlink:href="urn:lex:br:federal:lei:2004-12-21;11033!art3_cpt_inc2">incisos II</span> e <span xlink:href="urn:lex:br:federal:lei:2004-12-21;11033!art3_cpt_inc3">III do art. 3º da Lei nº 11.033, de 21 de dezembro de 2004</span>.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art16-1_par2" id="art15_cpt_alt1_art16-1_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O imposto de que trata o caput poderá ser compensado com o retido na fonte pelo Fundo de Investimento Imobiliário, por ocasião da distribuição de rendimentos e ganhos de capital.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art16-1_par3" id="art15_cpt_alt1_art16-1_par3">
+            <!--Link: urn:lex:br:federal:lei:2004-12-21;11033!art3_cpt_inc3-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A compensação de que trata o § 2º será efetuada proporcionalmente à participação do cotista pessoa jurídica ou pessoa física não sujeita à isenção prevista no <span xlink:href="urn:lex:br:federal:lei:2004-12-21;11033!art3_cpt_inc3">inciso III do art. 3º da Lei nº 11.033, de 21 de dezembro de 2004</span>.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art16-1_par4" id="art15_cpt_alt1_art16-1_par4" fechaAspas="s" notaAlteracao="NR">
+            <!--Link: urn:lex:br:federal:lei:2004-12-21;11033!art3_cpt_inc3-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    A parcela do imposto não compensada relativa à pessoa física sujeita à isenção nos termos do <span xlink:href="urn:lex:br:federal:lei:2004-12-21;11033!art3_cpt_inc3">inciso III do art. 3º da Lei nº 11.033, de 21 de dezembro de 2004</span>, será considerada exclusiva de fonte.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            
+            
+            
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            
+            
+            
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            
+            
+            
+            <p>
+    As áreas públicas rurais localizadas no Distrito Federal poderão ser regularizadas, por meio de alienação e/ou concessão de direito real de uso, diretamente àqueles que as estejam ocupando há pelo menos 5 (cinco) anos, com cultura agrícola e/ou pecuária efetiva, contados da data da publicação desta Lei.
+
+  </p>
+            
+          </Caput><Paragrafo id="art18_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O valor de referência para avaliação da área de que trata o caput, para fins de alienação, terá como base o valor mínimo estabelecido em planilha referencial de preços mínimos para terra nua do Incra.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art18_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Ao valor de referência para alienação previsto no § 1º serão acrescidos os custos relativos à execução dos serviços topográficos, se executados pelo poder público, salvo em áreas onde as ocupações não excedam a 4 (quatro) módulos fiscais.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art18_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    ( VETADO)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art18_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Perderá o título da terra, com a consequente reversão da área em favor do poder público, o proprietário que alterar a destinação rural da área definida no caput deste artigo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art18_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    ( VETADO)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            
+            
+            
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            
+            
+            
+            <p>
+    Ficam criados 200 (duzentos) cargos de Analista Técnico e 50 (cinquenta) cargos de Agente Executivo no Quadro de Pessoal da Superintendência de Seguros Privados - SUSEP.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            
+            
+            
+            <p>
+    Ficam criados, no âmbito do Poder Executivo, 34 (trinta e quatro) cargos em comissão do Grupo Direção e Assessoramento Superiores - DAS, sendo 4 (quatro) DAS-4, 13 (treze) DAS-3 e 17 (dezessete) DAS-2, destinados à reestruturação da Superintendência de Seguros Privados - SUSEP.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art22">
+            
+            
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            <!--Link: urn:lex:br:federal:lei:2009-05-27;11941!art10_cpt-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:2009-05-27;11941!art10_cpt">caput do art. 10 da Lei nº 11.941, de 27 de maio de 2009</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:2009-05-27;11941" id="art22_cpt_alt1">              
+              <Artigo xlink:href="art10" id="art22_cpt_alt1_art10" abreAspas="s">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput xlink:href="art10_cpt" id="art22_cpt_alt1_art10_cpt">
+            
+            
+            
+            <p>
+    Os depósitos existentes vinculados aos débitos a serem pagos ou parcelados nos termos desta Lei serão automaticamente convertidos em renda da União, após aplicação das reduções para pagamento a vista ou parcelamento.
+
+  </p>
+            
+          </Caput><Omissis id="art22_cpt_alt1_art10_omi1" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art23">
+            
+            
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            
+            
+            
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art24">
+            
+            
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput id="art24_cpt">
+            
+            
+            
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art25">
+            
+            
+            <Rotulo>Art. 25.</Rotulo>
+            
+            <Caput id="art25_cpt">
+            
+            
+            
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art26">
+            
+            
+            <Rotulo>Art. 26.</Rotulo>
+            
+            <Caput id="art26_cpt">
+            
+            
+            
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art27">
+            
+            
+            <Rotulo>Art. 27.</Rotulo>
+            
+            <Caput id="art27_cpt">
+            
+            
+            
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art28">
+            
+            
+            <Rotulo>Art. 28.</Rotulo>
+            
+            <Caput id="art28_cpt">
+            
+            
+            
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art29">
+            
+            
+            <Rotulo>Art. 29.</Rotulo>
+            
+            <Caput id="art29_cpt">
+            
+            
+            
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art30">
+            
+            
+            <Rotulo>Art. 30.</Rotulo>
+            
+            <Caput id="art30_cpt">
+            
+            
+            
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art31">
+            
+            
+            <Rotulo>Art. 31.</Rotulo>
+            
+            <Caput id="art31_cpt">
+            
+            
+            
+            <p>
+    Esta Lei entra em vigor na data de sua publicação, produzindo efeitos:
+
+  </p>
+            <Inciso id="art31_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a partir de 1º de julho de 2009 com relação ao art. 5º;
+
+  </p>
+            
+          </Inciso><Inciso id="art31_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a partir da data de sua publicação, em relação aos demais dispositivos.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art32">
+            
+            
+            <Rotulo>Art. 32.</Rotulo>
+            
+            <Caput id="art32_cpt">
+            
+            
+            
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 27 de agosto de 2009; 188º da Independência e 121º da República.</p></LocalDataFecho><Assinatura><NomePessoa>LUIZ INÁCIO LULA DA SILVA</NomePessoa><NomePessoa>Guido Mantega</NomePessoa><NomePessoa>Tarso Genro</NomePessoa><NomePessoa>Paulo Bernardo Silva</NomePessoa><NomePessoa>Carlos Minc</NomePessoa><NomePessoa>Guilherme Cassel</NomePessoa><NomePessoa>José Antonio Dias Toffoli</NomePessoa></Assinatura></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>

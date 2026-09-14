@@ -1,0 +1,4317 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:2003-10-01;10741"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">LEI Nº 10.741, DE 1 DE OUTUBRO DE 2003 </Epigrafe>
+		  <Ementa id="ementa">Dispõe sobre o Estatuto da Pessoa Idosa e dá outras providências. (Ementa com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA,
+  </p><p>
+    Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Titulo id="tit1">
+            
+            
+            <Rotulo>TÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DISPOSIÇÕES PRELIMINARES
+
+  </NomeAgrupador>
+            <Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    É instituído o Estatuto da Pessoa Idosa, destinado a regular os direitos assegurados às pessoas com idade igual ou superior a 60 (sessenta) anos. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    A pessoa idosa goza de todos os direitos fundamentais inerentes à pessoa humana, sem prejuízo da proteção integral de que trata esta Lei, assegurando-se-lhe, por lei ou por outros meios, todas as oportunidades e facilidades, para preservação de sua saúde física e mental e seu aperfeiçoamento moral, intelectual, espiritual e social, em condições de liberdade e dignidade. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    É obrigação da família, da comunidade, da sociedade e do poder público assegurar à pessoa idosa, com absoluta prioridade, a efetivação do direito à vida, à saúde, à alimentação, à educação, à cultura, ao esporte, ao lazer, ao trabalho, à cidadania, à liberdade, à dignidade, ao respeito e à convivência familiar e comunitária. (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art3_par1">
+            <!--Link: urn:lex:br:federal:lei:2017-07-12;13466-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A garantia de prioridade compreende: (Parágrafo único transformado em § 1º pela <span xlink:href="urn:lex:br:federal:lei:2017-07-12;13466">Lei nº 13.466, de 12.7.2017</span>)
+
+  </p>
+            <Inciso id="art3_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    atendimento preferencial imediato e individualizado junto aos órgãos públicos e privados prestadores de serviços à população;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    preferência na formulação e na execução de políticas sociais públicas específicas;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par1_inc3">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    destinação privilegiada de recursos públicos nas áreas relacionadas com a proteção à pessoa idosa; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par1_inc4">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    viabilização de formas alternativas de participação, ocupação e convívio da pessoa idosa com as demais gerações; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par1_inc5">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    priorização do atendimento da pessoa idosa por sua própria família, em detrimento do atendimento asilar, exceto dos que não a possuam ou careçam de condições de manutenção da própria sobrevivência; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par1_inc6">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    capacitação e reciclagem dos recursos humanos nas áreas de geriatria e gerontologia e na prestação de serviços às pessoas idosas; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par1_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    estabelecimento de mecanismos que favoreçam a divulgação de informações de caráter educativo sobre os aspectos biopsicossociais de envelhecimento;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par1_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    garantia de acesso à rede de serviços de saúde e de assistência social locais.
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par1_inc9">
+            <!--Link: urn:lex:br:federal:lei:2008-08-05;11765-->
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    prioridade no recebimento da restituição do Imposto de Renda. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2008-08-05;11765">Lei nº 11.765, de 5.8.2008</span>)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art3_par2">
+            <!--Link: urn:lex:br:federal:lei:2017-07-12;13466--><!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Entre as pessoas idosas, é assegurada prioridade especial aos maiores de 80 (oitenta) anos, atendendo-se suas necessidades sempre preferencialmente em relação às demais pessoas idosas. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2017-07-12;13466">Lei nº 13.466, de 12.7.2017</span>, com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    Nenhuma pessoa idosa será objeto de qualquer tipo de negligência, discriminação, violência, crueldade ou opressão, e todo atentado aos seus direitos, por ação ou omissão, será punido na forma da lei. (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art4_par1">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    É dever de todos prevenir a ameaça ou violação aos direitos da pessoa idosa. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As obrigações previstas nesta Lei não excluem da prevenção outras decorrentes dos princípios por ela adotados.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    A inobservância das normas de prevenção importará em responsabilidade à pessoa física ou jurídica nos termos da lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    Todo cidadão tem o dever de comunicar à autoridade competente qualquer forma de violação a esta Lei que tenha testemunhado ou de que tenha conhecimento.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            <!--Link: urn:lex:br:federal:lei:1994-01-04;8842--><!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    Os Conselhos Nacional, Estaduais, do Distrito Federal e Municipais da Pessoa Idosa, previstos na <span xlink:href="urn:lex:br:federal:lei:1994-01-04;8842">Lei nº 8.842, de 4 de janeiro de 1994</span>, zelarão pelo cumprimento dos direitos da pessoa idosa, definidos nesta Lei. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Titulo><Titulo id="tit2">
+            
+            
+            <Rotulo>TÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DOS DIREITOS FUNDAMENTAIS
+
+  </NomeAgrupador>
+            <Capitulo id="tit2_cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DO DIREITO À VIDA
+
+  </NomeAgrupador>
+            <Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    O envelhecimento é um direito personalíssimo e a sua proteção um direito social, nos termos desta Lei e da legislação vigente.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            
+            
+            
+            <p>
+    É obrigação do Estado, garantir à pessoa idosa a proteção à vida e à saúde, mediante efetivação de políticas sociais públicas que permitam um envelhecimento saudável e em condições de dignidade.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="tit2_cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DO DIREITO À LIBERDADE, AO RESPEITO E À DIGNIDADE
+
+  </NomeAgrupador>
+            <Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988--><!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    É obrigação do Estado e da sociedade assegurar à pessoa idosa a liberdade, o respeito e a dignidade, como pessoa humana e sujeito de direitos civis, políticos, individuais e sociais, garantidos na <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição</span> e nas leis. (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art10_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O direito à liberdade compreende, entre outros, os seguintes aspectos:
+
+  </p>
+            <Inciso id="art10_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    faculdade de ir, vir e estar nos logradouros públicos e espaços comunitários, ressalvadas as restrições legais;
+
+  </p>
+            
+          </Inciso><Inciso id="art10_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    opinião e expressão;
+
+  </p>
+            
+          </Inciso><Inciso id="art10_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    crença e culto religioso;
+
+  </p>
+            
+          </Inciso><Inciso id="art10_par1_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    prática de esportes e de diversões;
+
+  </p>
+            
+          </Inciso><Inciso id="art10_par1_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    participação na vida familiar e comunitária;
+
+  </p>
+            
+          </Inciso><Inciso id="art10_par1_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    participação na vida política, na forma da lei;
+
+  </p>
+            
+          </Inciso><Inciso id="art10_par1_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    faculdade de buscar refúgio, auxílio e orientação.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art10_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O direito ao respeito consiste na inviolabilidade da integridade física, psíquica e moral, abrangendo a preservação da imagem, da identidade, da autonomia, de valores, idéias e crenças, dos espaços e dos objetos pessoais.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par3">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    É dever de todos zelar pela dignidade da pessoa idosa, colocando-a a salvo de qualquer tratamento desumano, violento, aterrorizante, vexatório ou constrangedor. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="tit2_cap3">
+            
+            
+            <Rotulo>CAPÍTULO III</Rotulo>
+            <NomeAgrupador>
+    DOS ALIMENTOS
+
+  </NomeAgrupador>
+            <Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    Os alimentos serão prestados à pessoa idosa na forma da lei civil. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    A obrigação alimentar é solidária, podendo a pessoa idosa optar entre os prestadores. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            <!--Link: urn:lex:br:federal:lei:2008-07-14;11737-->
+            
+            
+            <p>
+    As transações relativas a alimentos poderão ser celebradas perante o Promotor de Justiça ou Defensor Público, que as referendará, e passarão a ter efeito de título executivo extrajudicial nos termos da lei processual civil. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2008-07-14;11737">Lei nº 11.737, de 14.7.2008</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    Se a pessoa idosa ou seus familiares não possuírem condições econômicas de prover o seu sustento, impõe-se ao poder público esse provimento, no âmbito da assistência social. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="tit2_cap4">
+            
+            
+            <Rotulo>CAPÍTULO IV</Rotulo>
+            <NomeAgrupador>
+    DO DIREITO À SAÚDE
+
+  </NomeAgrupador>
+            <Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    É assegurada a atenção integral à saúde da pessoa idosa, por intermédio do Sistema Único de Saúde (SUS), garantindo-lhe o acesso universal e igualitário, em conjunto articulado e contínuo das ações e serviços, para a prevenção, promoção, proteção e recuperação da saúde, incluindo a atenção especial às doenças que afetam preferencialmente as pessoas idosas. (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art15_par1">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A prevenção e a manutenção da saúde da pessoa idosa serão efetivadas por meio de: (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            <Inciso id="art15_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    cadastramento da população idosa em base territorial;
+
+  </p>
+            
+          </Inciso><Inciso id="art15_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    atendimento geriátrico e gerontológico em ambulatórios;
+
+  </p>
+            
+          </Inciso><Inciso id="art15_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    unidades geriátricas de referência, com pessoal especializado nas áreas de geriatria e gerontologia social;
+
+  </p>
+            
+          </Inciso><Inciso id="art15_par1_inc4">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    atendimento domiciliar, incluindo a internação, para a população que dele necessitar e esteja impossibilitada de se locomover, inclusive para as pessoas idosas abrigadas e acolhidas por instituições públicas, filantrópicas ou sem fins lucrativos e eventualmente conveniadas com o poder público, nos meios urbano e rural; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art15_par1_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    reabilitação orientada pela geriatria e gerontologia, para redução das seqüelas decorrentes do agravo da saúde.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art15_par2">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Incumbe ao poder público fornecer às pessoas idosas, gratuitamente, medicamentos, especialmente os de uso continuado, assim como próteses, órteses e outros recursos relativos ao tratamento, habilitação ou reabilitação. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par3">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    É vedada a discriminação da pessoa idosa nos planos de saúde pela cobrança de valores diferenciados em razão da idade. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par4">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    As pessoas idosas com deficiência ou com limitação incapacitante terão atendimento especializado, nos termos da lei. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par5">
+            <!--Link: urn:lex:br:federal:lei:2013-12-18;12896--><!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    É vedado exigir o comparecimento da pessoa idosa enferma perante os órgãos públicos, hipótese na qual será admitido o seguinte procedimento: (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2013-12-18;12896">Lei nº 12.896, de 18.12.2013</span>, com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            <Inciso id="art15_par5_inc1">
+            <!--Link: urn:lex:br:federal:lei:2013-12-18;12896--><!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    quando de interesse do poder público, o agente promoverá o contato necessário com a pessoa idosa em sua residência; ou (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2013-12-18;12896">Lei nº 12.896, de 18.12.2013</span>, com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art15_par5_inc2">
+            <!--Link: urn:lex:br:federal:lei:2013-12-18;12896--><!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    quando de interesse da própria pessoa idosa, esta se fará representar por procurador legalmente constituído. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2013-12-18;12896">Lei nº 12.896, de 18.12.2013</span>, com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art15_par6">
+            <!--Link: urn:lex:br:federal:lei:2013-12-18;12896--><!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    É assegurado à pessoa idosa enferma o atendimento domiciliar pela perícia médica do Instituto Nacional do Seguro Social (INSS), pelo serviço público de saúde ou pelo serviço privado de saúde, contratado ou conveniado, que integre o SUS, para expedição do laudo de saúde necessário ao exercício de seus direitos sociais e de isenção tributária. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2013-12-18;12896">Lei nº 12.896, de 18.12.2013</span>, com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par7">
+            <!--Link: urn:lex:br:federal:lei:2017-07-12;13466--><!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    Em todo atendimento de saúde, os maiores de 80 (oitenta) anos terão preferência especial sobre as demais pessoas idosas, exceto em caso de emergência. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2017-07-12;13466">Lei nº 13.466, de 12.7.2017</span>, com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    À pessoa idosa internada ou em observação é assegurado o direito a acompanhante, devendo o órgão de saúde proporcionar as condições adequadas para a sua permanência em tempo integral, segundo o critério médico. (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art16_par1u">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Caberá ao profissional de saúde responsável pelo tratamento conceder autorização para o acompanhamento da pessoa idosa ou, no caso de impossibilidade, justificá-la por escrito. (Parágrafo único com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    À pessoa idosa que esteja no domínio de suas faculdades mentais é assegurado o direito de optar pelo tratamento de saúde que lhe for reputado mais favorável. (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art17_par1u">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Não estando a pessoa idosa em condições de proceder à opção, esta será feita: (Parágrafo único com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            <Inciso id="art17_par1u_inc1">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    pelo curador, quando a pessoa idosa for interditada; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art17_par1u_inc2">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    pelos familiares, quando a pessoa idosa não tiver curador ou este não puder ser contactado em tempo hábil; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art17_par1u_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    pelo médico, quando ocorrer iminente risco de vida e não houver tempo hábil para consulta a curador ou familiar;
+
+  </p>
+            
+          </Inciso><Inciso id="art17_par1u_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    pelo próprio médico, quando não houver curador ou familiar conhecido, caso em que deverá comunicar o fato ao Ministério Público.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    As instituições de saúde devem atender aos critérios mínimos para o atendimento às necessidades da pessoa idosa, promovendo o treinamento e a capacitação dos profissionais, assim como orientação a cuidadores familiares e grupos de autoajuda. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    Os casos de suspeita ou confirmação de violência praticada contra pessoas idosas serão objeto de notificação compulsória pelos serviços de saúde públicos e privados à autoridade sanitária, bem como serão obrigatoriamente comunicados por eles a quaisquer dos seguintes órgãos: (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            <Inciso id="art19_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    autoridade policial;
+
+  </p>
+            
+          </Inciso><Inciso id="art19_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Ministério Público;
+
+  </p>
+            
+          </Inciso><Inciso id="art19_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Conselho Municipal da Pessoa Idosa; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art19_cpt_inc4">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    Conselho Estadual da Pessoa Idosa; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art19_cpt_inc5">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    Conselho Nacional da Pessoa Idosa. (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art19_par1">
+            <!--Link: urn:lex:br:federal:lei:2011-07-26;12461--><!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Para os efeitos desta Lei, considera-se violência contra a pessoa idosa qualquer ação ou omissão praticada em local público ou privado que lhe cause morte, dano ou sofrimento físico ou psicológico. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2011-07-26;12461">Lei nº 12.461, de 26.7.2011</span>, publicada no DOU de 27.7.2011, em vigor 90 dias após a publicação, com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par2">
+            <!--Link: urn:lex:br:federal:lei:1975-10-30;6259--><!--Link: urn:lex:br:federal:lei:2011-07-26;12461-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Aplica-se, no que couber, à notificação compulsória prevista no caput deste artigo, o disposto na <span xlink:href="urn:lex:br:federal:lei:1975-10-30;6259">Lei nº 6.259, de 30 de outubro de 1975</span>. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2011-07-26;12461">Lei nº 12.461, de 26.7.2011</span>, publicada no DOU de 27.7.2011, em vigor 90 dias após a publicação)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="tit2_cap5">
+            
+            
+            <Rotulo>CAPÍTULO V</Rotulo>
+            <NomeAgrupador>
+    DA EDUCAÇÃO, CULTURA, ESPORTE E LAZER
+
+  </NomeAgrupador>
+            <Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    A pessoa idosa tem direito a educação, cultura, esporte, lazer, diversões, espetáculos, produtos e serviços que respeitem sua peculiar condição de idade. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    O poder público criará oportunidades de acesso da pessoa idosa à educação, adequando currículos, metodologias e material didático aos programas educacionais a ela destinados. (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art21_par1">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os cursos especiais para pessoas idosas incluirão conteúdo relativo às técnicas de comunicação, computação e demais avanços tecnológicos, para sua integração à vida moderna. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art21_par2">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As pessoas idosas participarão das comemorações de caráter cívico ou cultural, para transmissão de conhecimentos e vivências às demais gerações, no sentido da preservação da memória e da identidade culturais. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art22">
+            
+            
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    Nos currículos mínimos dos diversos níveis de ensino formal serão inseridos conteúdos voltados ao processo de envelhecimento, ao respeito e à valorização da pessoa idosa, de forma a eliminar o preconceito e a produzir conhecimentos sobre a matéria. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art23">
+            
+            
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    A participação das pessoas idosas em atividades culturais e de lazer será proporcionada mediante descontos de pelo menos 50% (cinquenta por cento) nos ingressos para eventos artísticos, culturais, esportivos e de lazer, bem como o acesso preferencial aos respectivos locais. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art24">
+            
+            
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput id="art24_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    Os meios de comunicação manterão espaços ou horários especiais voltados às pessoas idosas, com finalidade informativa, educativa, artística e cultural, e ao público sobre o processo de envelhecimento. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art25">
+            
+            
+            <Rotulo>Art. 25.</Rotulo>
+            
+            <Caput id="art25_cpt">
+            <!--Link: urn:lex:br:federal:lei:2017-12-15;13535-->
+            
+            
+            <p>
+    As instituições de educação superior ofertarão às pessoas idosas, na perspectiva da educação ao longo da vida, cursos e programas de extensão, presenciais ou a distância, constituídos por atividades formais e não formais. (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2017-12-15;13535">Lei nº 13.535, de 15.12.2017</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art25_par1u">
+            <!--Link: urn:lex:br:federal:lei:2017-12-15;13535--><!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O poder público apoiará a criação de universidade aberta para as pessoas idosas e incentivará a publicação de livros e periódicos, de conteúdo e padrão editorial adequados à pessoa idosa, que facilitem a leitura, considerada a natural redução da capacidade visual. (Parágrafo único acrescido pela <span xlink:href="urn:lex:br:federal:lei:2017-12-15;13535">Lei nº 13.535, de 15.12.2017</span>, com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="tit2_cap6">
+            
+            
+            <Rotulo>CAPÍTULO VI</Rotulo>
+            <NomeAgrupador>
+    DA PROFISSIONALIZAÇÃO E DO TRABALHO
+
+  </NomeAgrupador>
+            <Artigo id="art26">
+            
+            
+            <Rotulo>Art. 26.</Rotulo>
+            
+            <Caput id="art26_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    A pessoa idosa tem direito ao exercício de atividade profissional, respeitadas suas condições físicas, intelectuais e psíquicas. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art27">
+            
+            
+            <Rotulo>Art. 27.</Rotulo>
+            
+            <Caput id="art27_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    Na admissão da pessoa idosa em qualquer trabalho ou emprego, são vedadas a discriminação e a fixação de limite máximo de idade, inclusive para concursos, ressalvados os casos em que a natureza do cargo o exigir. (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art27_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O primeiro critério de desempate em concurso público será a idade, dando-se preferência ao de idade mais elevada.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art28">
+            
+            
+            <Rotulo>Art. 28.</Rotulo>
+            
+            <Caput id="art28_cpt">
+            
+            
+            
+            <p>
+    O Poder Público criará e estimulará programas de:
+
+  </p>
+            <Inciso id="art28_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    profissionalização especializada para as pessoas idosas, aproveitando seus potenciais e habilidades para atividades regulares e remuneradas; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art28_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    preparação dos trabalhadores para a aposentadoria, com antecedência mínima de 1 (um) ano, por meio de estímulo a novos projetos sociais, conforme seus interesses, e de esclarecimento sobre os direitos sociais e de cidadania;
+
+  </p>
+            
+          </Inciso><Inciso id="art28_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    estímulo às empresas privadas para admissão de pessoas idosas ao trabalho. (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="tit2_cap7">
+            
+            
+            <Rotulo>CAPÍTULO VII</Rotulo>
+            <NomeAgrupador>
+    DA PREVIDÊNCIA SOCIAL
+
+  </NomeAgrupador>
+            <Artigo id="art29">
+            
+            
+            <Rotulo>Art. 29.</Rotulo>
+            
+            <Caput id="art29_cpt">
+            
+            
+            
+            <p>
+    Os benefícios de aposentadoria e pensão do Regime Geral da Previdência Social observarão, na sua concessão, critérios de cálculo que preservem o valor real dos salários sobre os quais incidiram contribuição, nos termos da legislação vigente.
+
+  </p>
+            
+          </Caput><Paragrafo id="art29_par1u">
+            <!--Link: urn:lex:br:federal:lei:1991-07-24;8213-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Os valores dos benefícios em manutenção serão reajustados na mesma data de reajuste do salário-mínimo, pro rata, de acordo com suas respectivas datas de início ou do seu último reajustamento, com base em percentual definido em regulamento, observados os critérios estabelecidos pela <span xlink:href="urn:lex:br:federal:lei:1991-07-24;8213">Lei nº 8.213, de 24 de julho de 1991</span>.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art30">
+            
+            
+            <Rotulo>Art. 30.</Rotulo>
+            
+            <Caput id="art30_cpt">
+            
+            
+            
+            <p>
+    A perda da condição de segurado não será considerada para a concessão da aposentadoria por idade, desde que a pessoa conte com, no mínimo, o tempo de contribuição correspondente ao exigido para efeito de carência na data de requerimento do benefício.
+
+  </p>
+            
+          </Caput><Paragrafo id="art30_par1u">
+            <!--Link: urn:lex:br:federal:lei:1999-11-26;9876!art3_cpt--><!--Link: urn:lex:br:federal:lei:1999-11-26;9876!art3_par2--><!--Link: urn:lex:br:federal:lei:1991;8213!art35-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O cálculo do valor do benefício previsto no caput observará o disposto no <span xlink:href="urn:lex:br:federal:lei:1999-11-26;9876!art3_cpt">caput</span> e <span xlink:href="urn:lex:br:federal:lei:1999-11-26;9876!art3_par2">§ 2º do art. 3º da Lei nº 9.876, de 26 de novembro de 1999</span>, ou, não havendo salários-de-contribuição recolhidos a partir da competência de julho de 1994, o disposto no <span xlink:href="urn:lex:br:federal:lei:1991;8213!art35">art. 35 da Lei nº 8.213, de 1991</span>.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art31">
+            
+            
+            <Rotulo>Art. 31.</Rotulo>
+            
+            <Caput id="art31_cpt">
+            
+            
+            
+            <p>
+    O pagamento de parcelas relativas a benefícios, efetuado com atraso por responsabilidade da Previdência Social, será atualizado pelo mesmo índice utilizado para os reajustamentos dos benefícios do Regime Geral de Previdência Social, verificado no período compreendido entre o mês que deveria ter sido pago e o mês do efetivo pagamento.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art32">
+            
+            
+            <Rotulo>Art. 32.</Rotulo>
+            
+            <Caput id="art32_cpt">
+            
+            
+            
+            <p>
+    O Dia Mundial do Trabalho, 1º de Maio, é a database dos aposentados e pensionistas.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="tit2_cap8">
+            
+            
+            <Rotulo>CAPÍTULO VIII</Rotulo>
+            <NomeAgrupador>
+    DA ASSISTÊNCIA SOCIAL
+
+  </NomeAgrupador>
+            <Artigo id="art33">
+            
+            
+            <Rotulo>Art. 33.</Rotulo>
+            
+            <Caput id="art33_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    A assistência social às pessoas idosas será prestada, de forma articulada, conforme os princípios e diretrizes previstos na Lei Orgânica da Assistência Social (Loas), na Política Nacional da Pessoa Idosa, no SUS e nas demais normas pertinentes. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art34">
+            
+            
+            <Rotulo>Art. 34.</Rotulo>
+            
+            <Caput id="art34_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    Às pessoas idosas, a partir de 65 (sessenta e cinco) anos, que não possuam meios para prover sua subsistência, nem de tê-la provida por sua família, é assegurado o benefício mensal de 1 (um) salário mínimo, nos termos da Loas. (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art34_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O benefício já concedido a qualquer membro da família nos termos do caput não será computado para os fins do cálculo da renda familiar per capita a que se refere a Loas.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art35">
+            
+            
+            <Rotulo>Art. 35.</Rotulo>
+            
+            <Caput id="art35_cpt">
+            
+            
+            
+            <p>
+    Todas as entidades de longa permanência, ou casalar, são obrigadas a firmar contrato de prestação de serviços com a pessoa idosa abrigada.
+
+  </p>
+            
+          </Caput><Paragrafo id="art35_par1">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    No caso de entidade filantrópica, ou casa-lar, é facultada a cobrança de participação da pessoa idosa no custeio da entidade. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art35_par2">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O Conselho Municipal da Pessoa Idosa ou o Conselho Municipal da Assistência Social estabelecerá a forma de participação prevista no § 1º deste artigo, que não poderá exceder a 70% (setenta por cento) de qualquer benefício previdenciário ou de assistência social percebido pela pessoa idosa. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art35_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Se a pessoa idosa for incapaz, caberá a seu representante legal firmar o contrato a que se refere o caput deste artigo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art36">
+            
+            
+            <Rotulo>Art. 36.</Rotulo>
+            
+            <Caput id="art36_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    O acolhimento de pessoas idosas em situação de risco social, por adulto ou núcleo familiar, caracteriza a dependência econômica, para os efeitos legais. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="tit2_cap9">
+            
+            
+            <Rotulo>CAPÍTULO IX</Rotulo>
+            <NomeAgrupador>
+    DA HABITAÇÃO
+
+  </NomeAgrupador>
+            <Artigo id="art37">
+            
+            
+            <Rotulo>Art. 37.</Rotulo>
+            
+            <Caput id="art37_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    A pessoa idosa tem direito a moradia digna, no seio da família natural ou substituta, ou desacompanhada de seus familiares, quando assim o desejar, ou, ainda, em instituição pública ou privada. (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art37_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A assistência integral na modalidade de entidade de longa permanência será prestada quando verificada inexistência de grupo familiar, casa-lar, abandono ou carência de recursos financeiros próprios ou da família.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art37_par2">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Toda instituição dedicada ao atendimento à pessoa idosa fica obrigada a manter identificação externa visível, sob pena de interdição, além de atender toda a legislação pertinente. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art37_par3">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    As instituições que abrigarem pessoas idosas são obrigadas a manter padrões de habitação compatíveis com as necessidades delas, bem como provê-las com alimentação regular e higiene indispensáveis às normas sanitárias e com estas condizentes, sob as penas da lei. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art38">
+            
+            
+            <Rotulo>Art. 38.</Rotulo>
+            
+            <Caput id="art38_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    Nos programas habitacionais, públicos ou subsidiados com recursos públicos, a pessoa idosa goza de prioridade na aquisição de imóvel para moradia própria, observado o seguinte: (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            <Inciso id="art38_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    reserva de pelo menos 3% (três por cento) das unidades habitacionais residenciais para atendimento às pessoas idosas; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art38_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    implantação de equipamentos urbanos comunitários voltados à pessoa idosa; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art38_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    eliminação de barreiras arquitetônicas e urbanísticas, para garantia de acessibilidade à pessoa idosa; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art38_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    critérios de financiamento compatíveis com os rendimentos de aposentadoria e pensão.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art38_par1u">
+            <!--Link: urn:lex:br:federal:lei:2011-06-09;12419--><!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    As unidades residenciais reservadas para atendimento a pessoas idosas devem situar-se, preferencialmente, no pavimento térreo. (Parágrafo único acrescido pela <span xlink:href="urn:lex:br:federal:lei:2011-06-09;12419">Lei nº 12.419, de 9.6.2011</span>, com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="tit2_cap10">
+            
+            
+            <Rotulo>CAPÍTULO X</Rotulo>
+            <NomeAgrupador>
+    DO TRANSPORTE
+
+  </NomeAgrupador>
+            <Artigo id="art39">
+            
+            
+            <Rotulo>Art. 39.</Rotulo>
+            
+            <Caput id="art39_cpt">
+            
+            
+            
+            <p>
+    Aos maiores de 65 (sessenta e cinco) anos fica assegurada a gratuidade dos transportes coletivos públicos urbanos e semi-urbanos, exceto nos serviços seletivos e especiais, quando prestados paralelamente aos serviços regulares.
+
+  </p>
+            
+          </Caput><Paragrafo id="art39_par1">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Para ter acesso à gratuidade, basta que a pessoa idosa apresente qualquer documento pessoal que faça prova de sua idade. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art39_par2">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Nos veículos de transporte coletivo de que trata este artigo, serão reservados 10% (dez por cento) dos assentos para as pessoas idosas, devidamente identificados com a placa de reservado preferencialmente para pessoas idosas. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art39_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    No caso das pessoas compreendidas na faixa etária entre 60 (sessenta) e 65 (sessenta e cinco) anos, ficará a critério da legislação local dispor sobre as condições para exercício da gratuidade nos meios de transporte previstos no caput deste artigo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art40">
+            
+            
+            <Rotulo>Art. 40.</Rotulo>
+            
+            <Caput id="art40_cpt">
+            
+            
+            
+            <p>
+    No sistema de transporte coletivo interestadual observar-se-á, nos termos da legislação específica:
+
+  </p>
+            <Inciso id="art40_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a reserva de 2 (duas) vagas gratuitas por veículo para pessoas idosas com renda igual ou inferior a 2 (dois) salários mínimos; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art40_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    desconto de 50% (cinquenta por cento), no mínimo, no valor das passagens, para as pessoas idosas que excederem as vagas gratuitas, com renda igual ou inferior a 2 (dois) salários mínimos. (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art40_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Caberá aos órgãos competentes definir os mecanismos e os critérios para o exercício dos direitos previstos nos incisos I e II.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art41">
+            
+            
+            <Rotulo>Art. 41.</Rotulo>
+            
+            <Caput id="art41_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    É assegurada a reserva para as pessoas idosas, nos termos da lei local, de 5% (cinco por cento) das vagas nos estacionamentos públicos e privados, as quais deverão ser posicionadas de forma a garantir a melhor comodidade à pessoa idosa. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art42">
+            
+            
+            <Rotulo>Art. 42.</Rotulo>
+            
+            <Caput id="art42_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    São asseguradas a prioridade e a segurança da pessoa idosa nos procedimentos de embarque e desembarque nos veículos do sistema de transporte coletivo. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo>
+          </Titulo><Titulo id="tit3">
+            
+            
+            <Rotulo>TÍTULO III</Rotulo>
+            <NomeAgrupador>
+    DAS MEDIDAS DE PROTEÇÃO
+
+  </NomeAgrupador>
+            <Capitulo id="tit3_cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DAS DISPOSIÇÕES GERAIS
+
+  </NomeAgrupador>
+            <Artigo id="art43">
+            
+            
+            <Rotulo>Art. 43.</Rotulo>
+            
+            <Caput id="art43_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    As medidas de proteção à pessoa idosa são aplicáveis sempre que os direitos reconhecidos nesta Lei forem ameaçados ou violados: (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            <Inciso id="art43_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    por ação ou omissão da sociedade ou do Estado;
+
+  </p>
+            
+          </Inciso><Inciso id="art43_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    por falta, omissão ou abuso da família, curador ou entidade de atendimento;
+
+  </p>
+            
+          </Inciso><Inciso id="art43_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    em razão de sua condição pessoal.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="tit3_cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DAS MEDIDAS ESPECÍFICAS DE PROTEÇÃO
+
+  </NomeAgrupador>
+            <Artigo id="art44">
+            
+            
+            <Rotulo>Art. 44.</Rotulo>
+            
+            <Caput id="art44_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    As medidas de proteção à pessoa idosa previstas nesta Lei poderão ser aplicadas, isolada ou cumulativamente, e levarão em conta os fins sociais a que se destinam e o fortalecimento dos vínculos familiares e comunitários. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art45">
+            
+            
+            <Rotulo>Art. 45.</Rotulo>
+            
+            <Caput id="art45_cpt">
+            
+            
+            
+            <p>
+    Verificada qualquer das hipóteses previstas no art.43, o Ministério Público ou o Poder Judiciário, a requerimento daquele, poderá determinar, dentre outras, as seguintes medidas:
+
+  </p>
+            <Inciso id="art45_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    encaminhamento à família ou curador, mediante termo de responsabilidade;
+
+  </p>
+            
+          </Inciso><Inciso id="art45_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    orientação, apoio e acompanhamento temporários;
+
+  </p>
+            
+          </Inciso><Inciso id="art45_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    requisição para tratamento de sua saúde, em regime ambulatorial, hospitalar ou domiciliar;
+
+  </p>
+            
+          </Inciso><Inciso id="art45_cpt_inc4">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    inclusão em programa oficial ou comunitário de auxílio, orientação e tratamento a usuários dependentes de drogas lícitas ou ilícitas, à própria pessoa idosa ou à pessoa de sua convivência que lhe cause perturbação; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art45_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    abrigo em entidade;
+
+  </p>
+            
+          </Inciso><Inciso id="art45_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    abrigo temporário.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Capitulo>
+          </Titulo><Titulo id="tit4">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>TÍTULO IV</Rotulo>
+            <NomeAgrupador>
+    DA POLÍTICA DE ATENDIMENTO À PESSOA IDOSA (Denominação do título com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </NomeAgrupador>
+            <Capitulo id="tit4_cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DISPOSIÇÕES GERAIS
+
+  </NomeAgrupador>
+            <Artigo id="art46">
+            
+            
+            <Rotulo>Art. 46.</Rotulo>
+            
+            <Caput id="art46_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    A política de atendimento à pessoa idosa far-se-á por meio do conjunto articulado de ações governamentais e não governamentais da União, dos Estados, do Distrito Federal e dos Municípios. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art47">
+            
+            
+            <Rotulo>Art. 47.</Rotulo>
+            
+            <Caput id="art47_cpt">
+            
+            
+            
+            <p>
+    São linhas de ação da política de atendimento:
+
+  </p>
+            <Inciso id="art47_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:1994-01-04;8842-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    políticas sociais básicas, previstas na <span xlink:href="urn:lex:br:federal:lei:1994-01-04;8842">Lei nº 8.842, de 4 de janeiro de 1994</span>;
+
+  </p>
+            
+          </Inciso><Inciso id="art47_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    políticas e programas de assistência social, em caráter supletivo, para aqueles que necessitarem;
+
+  </p>
+            
+          </Inciso><Inciso id="art47_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    serviços especiais de prevenção e atendimento às vítimas de negligência, maus-tratos, exploração, abuso, crueldade e opressão;
+
+  </p>
+            
+          </Inciso><Inciso id="art47_cpt_inc4">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    serviço de identificação e localização de parentes ou responsáveis por pessoas idosas abandonados em hospitais e instituições de longa permanência; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art47_cpt_inc5">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    proteção jurídico-social por entidades de defesa dos direitos das pessoas idosas; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art47_cpt_inc6">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    mobilização da opinião pública no sentido da participação dos diversos segmentos da sociedade no atendimento da pessoa idosa. (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="tit4_cap2">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DAS ENTIDADES DE ATENDIMENTO À PESSOA IDOSA (Denominação do capítulo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </NomeAgrupador>
+            <Artigo id="art48">
+            
+            
+            <Rotulo>Art. 48.</Rotulo>
+            
+            <Caput id="art48_cpt">
+            <!--Link: urn:lex:br:federal:lei:1994-01-04;8842--><!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    As entidades de atendimento são responsáveis pela manutenção das próprias unidades, observadas as normas de planejamento e execução emanadas do órgão competente da Política Nacional da Pessoa Idosa, conforme a <span xlink:href="urn:lex:br:federal:lei:1994-01-04;8842">Lei nº 8.842, de 4 de janeiro de 1994</span>. (“caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art48_par1u">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    As entidades governamentais e não governamentais de assistência à pessoa idosa ficam sujeitas à inscrição de seus programas perante o órgão competente da Vigilância Sanitária e o Conselho Municipal da Pessoa Idosa e, em sua falta, perante o Conselho Estadual ou Nacional da Pessoa Idosa, especificando os regimes de atendimento, observados os seguintes requisitos: (Parágrafo único com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            <Inciso id="art48_par1u_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    oferecer instalações físicas em condições adequadas de habitabilidade, higiene, salubridade e segurança;
+
+  </p>
+            
+          </Inciso><Inciso id="art48_par1u_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    apresentar objetivos estatutários e plano de trabalho compatíveis com os princípios desta Lei;
+
+  </p>
+            
+          </Inciso><Inciso id="art48_par1u_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    estar regularmente constituída;
+
+  </p>
+            
+          </Inciso><Inciso id="art48_par1u_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    demonstrar a idoneidade de seus dirigentes.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo id="art49">
+            
+            
+            <Rotulo>Art. 49.</Rotulo>
+            
+            <Caput id="art49_cpt">
+            
+            
+            
+            <p>
+    As entidades que desenvolvam programas de institucionalização de longa permanência adotarão os seguintes princípios:
+
+  </p>
+            <Inciso id="art49_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    preservação dos vínculos familiares;
+
+  </p>
+            
+          </Inciso><Inciso id="art49_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    atendimento personalizado e em pequenos grupos;
+
+  </p>
+            
+          </Inciso><Inciso id="art49_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    manutenção da pessoa idosa na mesma instituição, salvo em caso de força maior; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art49_cpt_inc4">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    participação da pessoa idosa nas atividades comunitárias, de caráter interno e externo; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art49_cpt_inc5">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    observância dos direitos e garantias das pessoas idosas; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art49_cpt_inc6">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    preservação da identidade da pessoa idosa e oferecimento de ambiente de respeito e dignidade. (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art49_par1u">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O dirigente de instituição prestadora de atendimento à pessoa idosa responderá civil e criminalmente pelos atos que praticar em detrimento da pessoa idosa, sem prejuízo das sanções administrativas. (Parágrafo único com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art50">
+            
+            
+            <Rotulo>Art. 50.</Rotulo>
+            
+            <Caput id="art50_cpt">
+            
+            
+            
+            <p>
+    Constituem obrigações das entidades de atendimento:
+
+  </p>
+            <Inciso id="art50_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    celebrar contrato escrito de prestação de serviço com a pessoa idosa, especificando o tipo de atendimento, as obrigações da entidade e prestações decorrentes do contrato, com os respectivos preços, se for o caso; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art50_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    observar os direitos e as garantias de que são titulares as pessoas idosas; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art50_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    fornecer vestuário adequado, se for pública, e alimentação suficiente;
+
+  </p>
+            
+          </Inciso><Inciso id="art50_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    oferecer instalações físicas em condições adequadas de habitabilidade;
+
+  </p>
+            
+          </Inciso><Inciso id="art50_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    oferecer atendimento personalizado;
+
+  </p>
+            
+          </Inciso><Inciso id="art50_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    diligenciar no sentido da preservação dos vínculos familiares;
+
+  </p>
+            
+          </Inciso><Inciso id="art50_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    oferecer acomodações apropriadas para recebimento de visitas;
+
+  </p>
+            
+          </Inciso><Inciso id="art50_cpt_inc8">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    proporcionar cuidados à saúde, conforme a necessidade da pessoa idosa; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art50_cpt_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    promover atividades educacionais, esportivas, culturais e de lazer;
+
+  </p>
+            
+          </Inciso><Inciso id="art50_cpt_inc10">
+            
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    propiciar assistência religiosa àqueles que desejarem, de acordo com suas crenças;
+
+  </p>
+            
+          </Inciso><Inciso id="art50_cpt_inc11">
+            
+            
+            <Rotulo>XI –</Rotulo>
+            <p>
+    proceder a estudo social e pessoal de cada caso;
+
+  </p>
+            
+          </Inciso><Inciso id="art50_cpt_inc12">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>XII –</Rotulo>
+            <p>
+    comunicar à autoridade competente de saúde toda ocorrência de pessoa idosa com doenças infectocontagiosas; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art50_cpt_inc13">
+            
+            
+            <Rotulo>XIII –</Rotulo>
+            <p>
+    providenciar ou solicitar que o Ministério Público requisite os documentos necessários ao exercício da cidadania àqueles que não os tiverem, na forma da lei;
+
+  </p>
+            
+          </Inciso><Inciso id="art50_cpt_inc14">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>XIV –</Rotulo>
+            <p>
+    fornecer comprovante de depósito dos bens móveis que receberem das pessoas idosas; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art50_cpt_inc15">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>XV –</Rotulo>
+            <p>
+    manter arquivo de anotações no qual constem data e circunstâncias do atendimento, nome da pessoa idosa, responsável, parentes, endereços, cidade, relação de seus pertences, bem como o valor de contribuições, e suas alterações, se houver, e demais dados que possibilitem sua identificação e a individualização do atendimento; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art50_cpt_inc16">
+            
+            
+            <Rotulo>XVI –</Rotulo>
+            <p>
+    comunicar ao Ministério Público, para as providências cabíveis, a situação de abandono moral ou material por parte dos familiares;
+
+  </p>
+            
+          </Inciso><Inciso id="art50_cpt_inc17">
+            
+            
+            <Rotulo>XVII –</Rotulo>
+            <p>
+    manter no quadro de pessoal profissionais com formação específica.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art51">
+            
+            
+            <Rotulo>Art. 51.</Rotulo>
+            
+            <Caput id="art51_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    As instituições filantrópicas ou sem fins lucrativos prestadoras de serviço às pessoas idosas terão direito à assistência judiciária gratuita. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="tit4_cap3">
+            
+            
+            <Rotulo>CAPÍTULO III</Rotulo>
+            <NomeAgrupador>
+    DA FISCALIZAÇÃO DAS ENTIDADES DE ATENDIMENTO
+
+  </NomeAgrupador>
+            <Artigo id="art52">
+            
+            
+            <Rotulo>Art. 52.</Rotulo>
+            
+            <Caput id="art52_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    As entidades governamentais e não governamentais de atendimento à pessoa idosa serão fiscalizadas pelos Conselhos da Pessoa Idosa, Ministério Público, Vigilância Sanitária e outros previstos em lei. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art53">
+            
+            
+            <Rotulo>Art. 53.</Rotulo>
+            
+            <Caput id="art53_cpt">
+            <!--Link: urn:lex:br:federal:lei:1994;8842!art7-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1994;8842!art7">art. 7º da Lei nº 8.842, de 1994</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1994;8842" id="art53_cpt_alt1">              
+              <Artigo xlink:href="art7" id="art53_cpt_alt1_art7" abreAspas="s">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput xlink:href="art7_cpt" id="art53_cpt_alt1_art7_cpt" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            
+            <p>
+    Compete aos Conselhos de que trata o art. 6º desta Lei a supervisão, o acompanhamento, a fiscalização e a avaliação da política nacional do idoso, no âmbito das respectivas instâncias político-administrativas.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art54">
+            
+            
+            <Rotulo>Art. 54.</Rotulo>
+            
+            <Caput id="art54_cpt">
+            
+            
+            
+            <p>
+    Será dada publicidade das prestações de contas dos recursos públicos e privados recebidos pelas entidades de atendimento.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art55">
+            
+            
+            <Rotulo>Art. 55.</Rotulo>
+            
+            <Caput id="art55_cpt">
+            
+            
+            
+            <p>
+    As entidades de atendimento que descumprirem as determinações desta Lei ficarão sujeitas, sem prejuízo da responsabilidade civil e criminal de seus dirigentes ou prepostos, às seguintes penalidades, observado o devido processo legal:
+
+  </p>
+            <Inciso id="art55_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    as entidades governamentais:
+
+  </p>
+            <Alinea id="art55_cpt_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    advertência;
+
+  </p>
+            
+          </Alinea><Alinea id="art55_cpt_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    afastamento provisório de seus dirigentes;
+
+  </p>
+            
+          </Alinea><Alinea id="art55_cpt_inc1_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    afastamento definitivo de seus dirigentes;
+
+  </p>
+            
+          </Alinea><Alinea id="art55_cpt_inc1_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    fechamento de unidade ou interdição de programa;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art55_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    as entidades não-governamentais:
+
+  </p>
+            <Alinea id="art55_cpt_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    advertência;
+
+  </p>
+            
+          </Alinea><Alinea id="art55_cpt_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    multa;
+
+  </p>
+            
+          </Alinea><Alinea id="art55_cpt_inc2_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    suspensão parcial ou total do repasse de verbas públicas;
+
+  </p>
+            
+          </Alinea><Alinea id="art55_cpt_inc2_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    interdição de unidade ou suspensão de programa;
+
+  </p>
+            
+          </Alinea><Alinea id="art55_cpt_inc2_ali5">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    proibição de atendimento a pessoas idosas a bem do interesse público. (Alínea com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput><Paragrafo id="art55_par1">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Havendo danos às pessoas idosas abrigadas ou qualquer tipo de fraude em relação ao programa, caberá o afastamento provisório dos dirigentes ou a interdição da unidade e a suspensão do programa. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art55_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A suspensão parcial ou total do repasse de verbas públicas ocorrerá quando verificada a má aplicação ou desvio de finalidade dos recursos.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art55_par3">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Na ocorrência de infração por entidade de atendimento que coloque em risco os direitos assegurados nesta Lei, será o fato comunicado ao Ministério Público, para as providências cabíveis, inclusive para promover a suspensão das atividades ou dissolução da entidade, com a proibição de atendimento a pessoas idosas a bem do interesse público, sem prejuízo das providências a serem tomadas pela Vigilância Sanitária. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art55_par4">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Na aplicação das penalidades, serão consideradas a natureza e a gravidade da infração cometida, os danos que dela provierem para a pessoa idosa, as circunstâncias agravantes ou atenuantes e os antecedentes da entidade. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="tit4_cap4">
+            
+            
+            <Rotulo>CAPÍTULO IV</Rotulo>
+            <NomeAgrupador>
+    DAS INFRAÇÕES ADMINISTRATIVAS
+
+  </NomeAgrupador>
+            <Artigo id="art56">
+            
+            
+            <Rotulo>Art. 56.</Rotulo>
+            
+            <Caput id="art56_cpt">
+            
+            
+            
+            <p>
+    Deixar a entidade de atendimento de cumprir as determinações do art. 50 desta Lei:
+
+  </p>
+            <Pena id="art56_cpt_pena">
+            
+            
+            <Rotulo>Pena –</Rotulo>
+            <p>
+    multa de R$ 500,00 (quinhentos reais) a R$ 3.000,00 (três mil reais), se o fato não for caracterizado como crime, podendo haver a interdição do estabelecimento até que sejam cumpridas as exigências legais.
+
+  </p>
+            
+          </Pena>
+          </Caput><Paragrafo id="art56_par1u">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    No caso de interdição do estabelecimento de longa permanência, as pessoas idosas abrigadas serão transferidas para outra instituição, a expensas do estabelecimento interditado, enquanto durar a interdição. (Parágrafo único com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art57">
+            
+            
+            <Rotulo>Art. 57.</Rotulo>
+            
+            <Caput id="art57_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    Deixar o profissional de saúde ou o responsável por estabelecimento de saúde ou instituição de longa permanência de comunicar à autoridade competente os casos de crimes contra pessoa idosa de que tiver conhecimento: (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            <Pena id="art57_cpt_pena">
+            
+            
+            <Rotulo>Pena –</Rotulo>
+            <p>
+    multa de R$ 500,00 (quinhentos reais) a R$ 3.000,00 (três mil reais), aplicada em dobro no caso de reincidência.
+
+  </p>
+            
+          </Pena>
+          </Caput>
+          </Artigo><Artigo id="art58">
+            
+            
+            <Rotulo>Art. 58.</Rotulo>
+            
+            <Caput id="art58_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    Deixar de cumprir as determinações desta Lei sobre a prioridade no atendimento à pessoa idosa: (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            <Pena id="art58_cpt_pena">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>Pena –</Rotulo>
+            <p>
+    multa de R$ 500,00 (quinhentos reais) a R$ 1.000,00 (mil reais) e multa civil a ser estipulada pelo juiz, conforme o dano sofrido pela pessoa idosa. (Pena com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Pena>
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="tit4_cap5">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>CAPÍTULO V</Rotulo>
+            <NomeAgrupador>
+    DA APURAÇÃO ADMINISTRATIVA DE INFRAÇÃO ÀS NORMAS DE PROTEÇÃO À PESSOA IDOSA (Denominação do capítulo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </NomeAgrupador>
+            <Artigo id="art59">
+            
+            
+            <Rotulo>Art. 59.</Rotulo>
+            
+            <Caput id="art59_cpt">
+            
+            
+            
+            <p>
+    Os valores monetários expressos no Capítulo IV serão atualizados anualmente, na forma da lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art60">
+            
+            
+            <Rotulo>Art. 60.</Rotulo>
+            
+            <Caput id="art60_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    O procedimento para a imposição de penalidade administrativa por infração às normas de proteção à pessoa idosa terá início com requisição do Ministério Público ou auto de infração elaborado por servidor efetivo e assinado, se possível, por 2 (duas) testemunhas. (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art60_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    No procedimento iniciado com o auto de infração poderão ser usadas fórmulas impressas, especificando-se a natureza e as circunstâncias da infração.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art60_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Sempre que possível, à verificação da infração seguirse- á a lavratura do auto, ou este será lavrado dentro de 24 (vinte e quatro) horas, por motivo justificado.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art61">
+            
+            
+            <Rotulo>Art. 61.</Rotulo>
+            
+            <Caput id="art61_cpt">
+            
+            
+            
+            <p>
+    O autuado terá prazo de 10 (dez) dias para a apresentação da defesa, contado da data da intimação, que será feita:
+
+  </p>
+            <Inciso id="art61_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    pelo autuante, no instrumento de autuação, quando for lavrado na presença do infrator;
+
+  </p>
+            
+          </Inciso><Inciso id="art61_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    por via postal, com aviso de recebimento.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art62">
+            
+            
+            <Rotulo>Art. 62.</Rotulo>
+            
+            <Caput id="art62_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    Havendo risco para a vida ou à saúde da pessoa idosa, a autoridade competente aplicará à entidade de atendimento as sanções regulamentares, sem prejuízo da iniciativa e das providências que vierem a ser adotadas pelo Ministério Público ou pelas demais instituições legitimadas para a fiscalização. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art63">
+            
+            
+            <Rotulo>Art. 63.</Rotulo>
+            
+            <Caput id="art63_cpt">
+            
+            
+            
+            <p>
+    Nos casos em que não houver risco para a vida ou a saúde da pessoa idosa abrigada, a autoridade competente aplicará à entidade de atendimento as sanções regulamentares, sem prejuízo da iniciativa e das providências que vierem a ser adotadas pelo Ministério Público ou pelas demais instituições legitimadas para a fiscalização.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="tit4_cap6">
+            
+            
+            <Rotulo>CAPÍTULO VI</Rotulo>
+            <NomeAgrupador>
+    DA APURAÇÃO JUDICIAL DE IRREGULARIDADES EM ENTIDADE DE ATENDIMENTO
+
+  </NomeAgrupador>
+            <Artigo id="art64">
+            
+            
+            <Rotulo>Art. 64.</Rotulo>
+            
+            <Caput id="art64_cpt">
+            <!--Link: urn:lex:br:federal:lei:1977-08-20;6437--><!--Link: urn:lex:br:federal:lei:1999-01-29;9784-->
+            
+            
+            <p>
+    Aplicam-se, subsidiariamente, ao procedimento administrativo de que trata este Capítulo as disposições das <span xlink:href="urn:lex:br:federal:lei:1977-08-20;6437">Leis nos 6.437, de 20 de agosto de 1977</span>, e <span xlink:href="urn:lex:br:federal:lei:1999-01-29;9784">9.784, de 29 de janeiro de 1999</span>.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art65">
+            
+            
+            <Rotulo>Art. 65.</Rotulo>
+            
+            <Caput id="art65_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    O procedimento de apuração de irregularidade em entidade governamental e não governamental de atendimento à pessoa idosa terá início mediante petição fundamentada de pessoa interessada ou iniciativa do Ministério Público. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art66">
+            
+            
+            <Rotulo>Art. 66.</Rotulo>
+            
+            <Caput id="art66_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    Havendo motivo grave, poderá a autoridade judiciária, ouvido o Ministério Público, decretar liminarmente o afastamento provisório do dirigente da entidade ou outras medidas que julgar adequadas, para evitar lesão aos direitos da pessoa idosa, mediante decisão fundamentada. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art67">
+            
+            
+            <Rotulo>Art. 67.</Rotulo>
+            
+            <Caput id="art67_cpt">
+            
+            
+            
+            <p>
+    O dirigente da entidade será citado para, no prazo de 10 (dez) dias, oferecer resposta escrita, podendo juntar documentos e indicar as provas a produzir.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art68">
+            
+            
+            <Rotulo>Art. 68.</Rotulo>
+            
+            <Caput id="art68_cpt">
+            
+            
+            
+            <p>
+    Apresentada a defesa, o juiz procederá na conformidade do art. 69 ou, se necessário, designará audiência de instrução e julgamento, deliberando sobre a necessidade de produção de outras provas.
+
+  </p>
+            
+          </Caput><Paragrafo id="art68_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Salvo manifestação em audiência, as partes e o Ministério Público terão 5 (cinco) dias para oferecer alegações finais, decidindo a autoridade judiciária em igual prazo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art68_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Em se tratando de afastamento provisório ou definitivo de dirigente de entidade governamental, a autoridade judiciária oficiará a autoridade administrativa imediatamente superior ao afastado, fixando-lhe prazo de 24 (vinte e quatro) horas para proceder à substituição.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art68_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Antes de aplicar qualquer das medidas, a autoridade judiciária poderá fixar prazo para a remoção das irregularidades verificadas. Satisfeitas as exigências, o processo será extinto, sem julgamento do mérito.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art68_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    A multa e a advertência serão impostas ao dirigente da entidade ou ao responsável pelo programa de atendimento.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo>
+          </Titulo><Titulo id="tit5">
+            
+            
+            <Rotulo>TÍTULO V</Rotulo>
+            <NomeAgrupador>
+    DO ACESSO À JUSTIÇA
+
+  </NomeAgrupador>
+            <Capitulo id="tit5_cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DISPOSIÇÕES GERAIS
+
+  </NomeAgrupador>
+            <Artigo id="art69">
+            
+            
+            <Rotulo>Art. 69.</Rotulo>
+            
+            <Caput id="art69_cpt">
+            
+            
+            
+            <p>
+    Aplica-se, subsidiariamente, às disposições deste Capítulo, o procedimento sumário previsto no Código de Processo Civil, naquilo que não contrarie os prazos previstos nesta Lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art70">
+            
+            
+            <Rotulo>Art. 70.</Rotulo>
+            
+            <Caput id="art70_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    O poder público poderá criar varas especializadas e exclusivas da pessoa idosa. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art71">
+            
+            
+            <Rotulo>Art. 71.</Rotulo>
+            
+            <Caput id="art71_cpt">
+            
+            
+            
+            <p>
+    É assegurada prioridade na tramitação dos processos e procedimentos e na execução dos atos e diligências judiciais em que figure como parte ou interveniente pessoa com idade igual ou superior a 60 (sessenta) anos, em qualquer instância.
+
+  </p>
+            
+          </Caput><Paragrafo id="art71_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O interessado na obtenção da prioridade a que alude este artigo, fazendo prova de sua idade, requererá o benefício à autoridade judiciária competente para decidir o feito, que determinará as providências a serem cumpridas, anotando-se essa circunstância em local visível nos autos do processo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art71_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A prioridade não cessará com a morte do beneficiado, estendendo-se em favor do cônjuge supérstite, companheiro ou companheira, com união estável, maior de 60 (sessenta) anos.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art71_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A prioridade se estende aos processos e procedimentos na Administração Pública, empresas prestadoras de serviços públicos e instituições financeiras, ao atendimento preferencial junto à Defensoria Publica da União, dos Estados e do Distrito Federal em relação aos Serviços de Assistência Judiciária.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art71_par4">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Para o atendimento prioritário, será garantido à pessoa idosa o fácil acesso aos assentos e caixas, identificados com a destinação a pessoas idosas em local visível e caracteres legíveis. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art71_par5">
+            <!--Link: urn:lex:br:federal:lei:2017-07-12;13466--><!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Dentre os processos de pessoas idosas, dar-se-á prioridade especial aos das maiores de 80 (oitenta) anos. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2017-07-12;13466">Lei nº 13.466, de 12.7.2017</span>, com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="tit5_cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DO MINISTÉRIO PÚBLICO
+
+  </NomeAgrupador>
+            <Artigo id="art72">
+            
+            
+            <Rotulo>Art. 72.</Rotulo>
+            
+            <Caput id="art72_cpt">
+            
+            
+            
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art73">
+            
+            
+            <Rotulo>Art. 73.</Rotulo>
+            
+            <Caput id="art73_cpt">
+            
+            
+            
+            <p>
+    As funções do Ministério Público, previstas nesta Lei, serão exercidas nos termos da respectiva Lei Orgânica.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art74">
+            
+            
+            <Rotulo>Art. 74.</Rotulo>
+            
+            <Caput id="art74_cpt">
+            
+            
+            
+            <p>
+    Compete ao Ministério Público:
+
+  </p>
+            <Inciso id="art74_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    instaurar o inquérito civil e a ação civil pública para a proteção dos direitos e interesses difusos ou coletivos, individuais indisponíveis e individuais homogêneos da pessoa idosa; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art74_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    promover e acompanhar as ações de alimentos, de interdição total ou parcial, de designação de curador especial, em circunstâncias que justifiquem a medida e oficiar em todos os feitos em que se discutam os direitos das pessoas idosas em condições de risco; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art74_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    atuar como substituto processual da pessoa idosa em situação de risco, conforme o disposto no art. 43 desta Lei; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art74_cpt_inc4">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    promover a revogação de instrumento procuratório da pessoa idosa, nas hipóteses previstas no art. 43 desta Lei, quando necessário ou o interesse público justificar; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art74_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    instaurar procedimento administrativo e, para instruí-lo:
+
+  </p>
+            <Alinea id="art74_cpt_inc5_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    expedir notificações, colher depoimentos ou esclarecimentos e, em caso de não comparecimento injustificado da pessoa notificada, requisitar condução coercitiva, inclusive pela Polícia Civil ou Militar;
+
+  </p>
+            
+          </Alinea><Alinea id="art74_cpt_inc5_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    requisitar informações, exames, perícias e documentos de autoridade municipais, estaduais e federais, da administração direta e indireta, bem como promover inspeções e diligências investigatórias;
+
+  </p>
+            
+          </Alinea><Alinea id="art74_cpt_inc5_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    requisitar informações e documentos particulares de instituições privadas;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art74_cpt_inc6">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    instaurar sindicâncias, requisitar diligências investigatórias e a instauração de inquérito policial, para a apuração de ilícitos ou infrações às normas de proteção à pessoa idosa; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art74_cpt_inc7">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    zelar pelo efetivo respeito aos direitos e garantias legais assegurados à pessoa idosa, promovendo as medidas judiciais e extrajudiciais cabíveis; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art74_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    inspecionar as entidades públicas e particulares de atendimento e os programas de que trata esta Lei, adotando de pronto as medidas administrativas ou judiciais necessárias à remoção de irregularidades porventura verificadas;
+
+  </p>
+            
+          </Inciso><Inciso id="art74_cpt_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    requisitar força policial, bem como a colaboração dos serviços de saúde, educacionais e de assistência social, públicos, para o desempenho de suas atribuições;
+
+  </p>
+            
+          </Inciso><Inciso id="art74_cpt_inc10">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    referendar transações envolvendo interesses e direitos das pessoas idosas previstos nesta Lei. (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art74_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A legitimação do Ministério Público para as ações cíveis previstas neste artigo não impede a de terceiros, nas mesmas hipóteses, segundo dispuser a lei.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art74_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As atribuições constantes deste artigo não excluem outras, desde que compatíveis com a finalidade e atribuições do Ministério Público.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art74_par3">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O representante do Ministério Público, no exercício de suas funções, terá livre acesso a toda entidade de atendimento à pessoa idosa. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art75">
+            
+            
+            <Rotulo>Art. 75.</Rotulo>
+            
+            <Caput id="art75_cpt">
+            
+            
+            
+            <p>
+    Nos processos e procedimentos em que não for parte, atuará obrigatoriamente o Ministério Público na defesa dos direitos e interesses de que cuida esta Lei, hipóteses em que terá vista dos autos depois das partes, podendo juntar documentos, requerer diligências e produção de outras provas, usando os recursos cabíveis.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art76">
+            
+            
+            <Rotulo>Art. 76.</Rotulo>
+            
+            <Caput id="art76_cpt">
+            
+            
+            
+            <p>
+    A intimação do Ministério Público, em qualquer caso, será feita pessoalmente.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art77">
+            
+            
+            <Rotulo>Art. 77.</Rotulo>
+            
+            <Caput id="art77_cpt">
+            
+            
+            
+            <p>
+    A falta de intervenção do Ministério Público acarreta a nulidade do feito, que será declarada de ofício pelo juiz ou a requerimento de qualquer interessado.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="tit5_cap3">
+            
+            
+            <Rotulo>CAPÍTULO III</Rotulo>
+            <NomeAgrupador>
+    DA PROTEÇÃO JUDICIAL DOS INTERESSES DIFUSOS, COLETIVOS E INDIVIDUAIS INDISPONÍVEIS OU HOMOGÊNEOS
+
+  </NomeAgrupador>
+            <Artigo id="art78">
+            
+            
+            <Rotulo>Art. 78.</Rotulo>
+            
+            <Caput id="art78_cpt">
+            
+            
+            
+            <p>
+    As manifestações processuais do representante do Ministério Público deverão ser fundamentadas.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art79">
+            
+            
+            <Rotulo>Art. 79.</Rotulo>
+            
+            <Caput id="art79_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    Regem-se pelas disposições desta Lei as ações de responsabilidade por ofensa aos direitos assegurados à pessoa idosa, referentes à omissão ou ao oferecimento insatisfatório de: (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            <Inciso id="art79_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    acesso às ações e serviços de saúde;
+
+  </p>
+            
+          </Inciso><Inciso id="art79_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    atendimento especializado à pessoa idosa com deficiência ou com limitação incapacitante; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art79_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    atendimento especializado à pessoa idosa com doença infectocontagiosa; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art79_cpt_inc4">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    serviço de assistência social visando ao amparo da pessoa idosa. (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art79_par1u">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    As hipóteses previstas neste artigo não excluem da proteção judicial outros interesses difusos, coletivos, individuais indisponíveis ou homogêneos, próprios da pessoa idosa, protegidos em lei. (Parágrafo único com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art80">
+            
+            
+            <Rotulo>Art. 80.</Rotulo>
+            
+            <Caput id="art80_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    As ações previstas neste Capítulo serão propostas no foro do domicílio da pessoa idosa, cujo juízo terá competência absoluta para processar a causa, ressalvadas as competências da Justiça Federal e a competência originária dos Tribunais Superiores. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art81">
+            
+            
+            <Rotulo>Art. 81.</Rotulo>
+            
+            <Caput id="art81_cpt">
+            
+            
+            
+            <p>
+    Para as ações cíveis fundadas em interesses difusos, coletivos, individuais indisponíveis ou homogêneos, consideram-se legitimados, concorrentemente:
+
+  </p>
+            <Inciso id="art81_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o Ministério Público;
+
+  </p>
+            
+          </Inciso><Inciso id="art81_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a União, os Estados, o Distrito Federal e os Municípios;
+
+  </p>
+            
+          </Inciso><Inciso id="art81_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    a Ordem dos Advogados do Brasil;
+
+  </p>
+            
+          </Inciso><Inciso id="art81_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    as associações legalmente constituídas há pelo menos 1 (um) ano e que incluam entre os fins institucionais a defesa dos interesses e direitos da pessoa idosa, dispensada a autorização da assembléia, se houver prévia autorização estatutária.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art81_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Admitir-se-á litisconsórcio facultativo entre os Ministérios Públicos da União e dos Estados na defesa dos interesses e direitos de que cuida esta Lei.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art81_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Em caso de desistência ou abandono da ação por associação legitimada, o Ministério Público ou outro legitimado deverá assumir a titularidade ativa.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art82">
+            
+            
+            <Rotulo>Art. 82.</Rotulo>
+            
+            <Caput id="art82_cpt">
+            
+            
+            
+            <p>
+    Para defesa dos interesses e direitos protegidos por esta Lei, são admissíveis todas as espécies de ação pertinentes.
+
+  </p>
+            
+          </Caput><Paragrafo id="art82_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Contra atos ilegais ou abusivos de autoridade pública ou agente de pessoa jurídica no exercício de atribuições de Poder Público, que lesem direito líquido e certo previsto nesta Lei, caberá ação mandamental, que se regerá pelas normas da lei do mandado de segurança.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art83">
+            
+            
+            <Rotulo>Art. 83.</Rotulo>
+            
+            <Caput id="art83_cpt">
+            
+            
+            
+            <p>
+    Na ação que tenha por objeto o cumprimento de obrigação de fazer ou não-fazer, o juiz concederá a tutela específica da obrigação ou determinará providências que assegurem o resultado prático equivalente ao adimplemento.
+
+  </p>
+            
+          </Caput><Paragrafo id="art83_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Sendo relevante o fundamento da demanda e havendo justificado receio de ineficácia do provimento final, é lícito ao juiz conceder a tutela liminarmente ou após justificação prévia, na forma do art. 273 do Código de Processo Civil.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art83_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O juiz poderá, na hipótese do § 1º ou na sentença, impor multa diária ao réu, independentemente do pedido do autor, se for suficiente ou compatível com a obrigação, fixando prazo razoável para o cumprimento do preceito.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art83_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A multa só será exigível do réu após o trânsito em julgado da sentença favorável ao autor, mas será devida desde o dia em que se houver configurado.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art84">
+            
+            
+            <Rotulo>Art. 84.</Rotulo>
+            
+            <Caput id="art84_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    Os valores das multas previstas nesta Lei reverterão ao Fundo da Pessoa Idosa, onde houver, ou na falta deste, ao Fundo Municipal de Assistência Social, ficando vinculados ao atendimento à pessoa idosa. (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art84_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    As multas não recolhidas até 30 (trinta) dias após o trânsito em julgado da decisão serão exigidas por meio de execução promovida pelo Ministério Público, nos mesmos autos, facultada igual iniciativa aos demais legitimados em caso de inércia daquele.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art85">
+            
+            
+            <Rotulo>Art. 85.</Rotulo>
+            
+            <Caput id="art85_cpt">
+            
+            
+            
+            <p>
+    O juiz poderá conferir efeito suspensivo aos recursos, para evitar dano irreparável à parte.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art86">
+            
+            
+            <Rotulo>Art. 86.</Rotulo>
+            
+            <Caput id="art86_cpt">
+            
+            
+            
+            <p>
+    Transitada em julgado a sentença que impuser condenação ao Poder Público, o juiz determinará a remessa de peças à autoridade competente, para apuração da responsabilidade civil e administrativa do agente a que se atribua a ação ou omissão.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art87">
+            
+            
+            <Rotulo>Art. 87.</Rotulo>
+            
+            <Caput id="art87_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    Decorridos 60 (sessenta) dias do trânsito em julgado da sentença condenatória favorável à pessoa idosa sem que o autor lhe promova a execução, deverá fazê-lo o Ministério Público, facultada igual iniciativa aos demais legitimados, como assistentes ou assumindo o polo ativo, em caso de inércia desse órgão. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art88">
+            
+            
+            <Rotulo>Art. 88.</Rotulo>
+            
+            <Caput id="art88_cpt">
+            
+            
+            
+            <p>
+    Nas ações de que trata este Capítulo, não haverá adiantamento de custas, emolumentos, honorários periciais e quaisquer outras despesas.
+
+  </p>
+            
+          </Caput><Paragrafo id="art88_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Não se imporá sucumbência ao Ministério Público.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art89">
+            
+            
+            <Rotulo>Art. 89.</Rotulo>
+            
+            <Caput id="art89_cpt">
+            
+            
+            
+            <p>
+    Qualquer pessoa poderá, e o servidor deverá, provocar a iniciativa do Ministério Público, prestando-lhe informações sobre os fatos que constituam objeto de ação civil e indicando-lhe os elementos de convicção.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art90">
+            
+            
+            <Rotulo>Art. 90.</Rotulo>
+            
+            <Caput id="art90_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    Os agentes públicos em geral, os juízes e tribunais, no exercício de suas funções, quando tiverem conhecimento de fatos que possam configurar crime de ação pública contra a pessoa idosa ou ensejar a propositura de ação para sua defesa, devem encaminhar as peças pertinentes ao Ministério Público, para as providências cabíveis. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art91">
+            
+            
+            <Rotulo>Art. 91.</Rotulo>
+            
+            <Caput id="art91_cpt">
+            
+            
+            
+            <p>
+    Para instruir a petição inicial, o interessado poderá requerer às autoridades competentes as certidões e informações que julgar necessárias, que serão fornecidas no prazo de 10 (dez) dias.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art92">
+            
+            
+            <Rotulo>Art. 92.</Rotulo>
+            
+            <Caput id="art92_cpt">
+            
+            
+            
+            <p>
+    O Ministério Público poderá instaurar sob sua presidência, inquérito civil, ou requisitar, de qualquer pessoa, organismo público ou particular, certidões, informações, exames ou perícias, no prazo que assinalar, o qual não poderá ser inferior a 10 (dez) dias.
+
+  </p>
+            
+          </Caput><Paragrafo id="art92_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Se o órgão do Ministério Público, esgotadas todas as diligências, se convencer da inexistência de fundamento para a propositura da ação civil ou de peças informativas, determinará o seu arquivamento, fazendo-o fundamentadamente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art92_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os autos do inquérito civil ou as peças de informação arquivados serão remetidos, sob pena de se incorrer em falta grave, no prazo de 3 (três) dias, ao Conselho Superior do Ministério Público ou à Câmara de Coordenação e Revisão do Ministério Público.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art92_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Até que seja homologado ou rejeitado o arquivamento, pelo Conselho Superior do Ministério Público ou por Câmara de Coordenação e Revisão do Ministério Público, as associações legitimadas poderão apresentar razões escritas ou documentos, que serão juntados ou anexados às peças de informação.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art92_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Deixando o Conselho Superior ou a Câmara de Coordenação e Revisão do Ministério Público de homologar a promoção de arquivamento, será designado outro membro do Ministério Público para o ajuizamento da ação.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo>
+          </Titulo><Titulo id="tit6">
+            
+            
+            <Rotulo>TÍTULO VI</Rotulo>
+            <NomeAgrupador>
+    DOS CRIMES
+
+  </NomeAgrupador>
+            <Capitulo id="tit6_cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DISPOSIÇÕES GERAIS
+
+  </NomeAgrupador>
+            <Artigo id="art93">
+            
+            
+            <Rotulo>Art. 93.</Rotulo>
+            
+            <Caput id="art93_cpt">
+            <!--Link: urn:lex:br:federal:lei:1985-07-24;7347-->
+            
+            
+            <p>
+    Aplicam-se subsidiariamente, no que couber, as disposições da <span xlink:href="urn:lex:br:federal:lei:1985-07-24;7347">Lei nº 7.347, de 24 de julho de 1985</span>.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art94">
+            
+            
+            <Rotulo>Art. 94.</Rotulo>
+            
+            <Caput id="art94_cpt">
+            <!--Link: urn:lex:br:federal:lei:1995-09-26;9099-->
+            
+            
+            <p>
+    Aos crimes previstos nesta Lei, cuja pena máxima privativa de liberdade não ultrapasse 4 (quatro) anos, aplica-se o procedimento previsto na <span xlink:href="urn:lex:br:federal:lei:1995-09-26;9099">Lei nº 9.099, de 26 de setembro de 1995</span>, e, subsidiariamente, no que couber, as disposições do Código Penal e do Código de Processo Penal.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="tit6_cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DOS CRIMES EM ESPÉCIE
+
+  </NomeAgrupador>
+            <Artigo id="art95">
+            
+            
+            <Rotulo>Art. 95.</Rotulo>
+            
+            <Caput id="art95_cpt">
+            
+            
+            
+            <p>
+    Os crimes definidos nesta Lei são de ação penal pública incondicionada, não se lhes aplicando os arts. 181 e 182 do Código Penal.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art96">
+            
+            
+            <Rotulo>Art. 96.</Rotulo>
+            
+            <Caput id="art96_cpt">
+            
+            
+            
+            <p>
+    Discriminar pessoa idosa, impedindo ou dificultando seu acesso a operações bancárias, aos meios de transporte, ao direito de contratar ou por qualquer outro meio ou instrumento necessário ao exercício da cidadania, por motivo de idade:
+
+  </p>
+            <Pena id="art96_cpt_pena">
+            
+            
+            <Rotulo>Pena –</Rotulo>
+            <p>
+    reclusão de 6 (seis) meses a 1 (um) ano e multa.
+
+  </p>
+            
+          </Pena>
+          </Caput><Paragrafo id="art96_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Na mesma pena incorre quem desdenhar, humilhar, menosprezar ou discriminar pessoa idosa, por qualquer motivo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art96_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A pena será aumentada de 1/3 (um terço) se a vítima se encontrar sob os cuidados ou responsabilidade do agente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art96_par3">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Não constitui crime a negativa de crédito motivada por superendividamento da pessoa idosa. (Parágrafo acrescido pela Lei nº 14.181, de 1º/7/2021, com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art97">
+            
+            
+            <Rotulo>Art. 97.</Rotulo>
+            
+            <Caput id="art97_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    Deixar de prestar assistência à pessoa idosa, quando possível fazê-lo sem risco pessoal, em situação de iminente perigo, ou recusar, retardar ou dificultar sua assistência à saúde, sem justa causa, ou não pedir, nesses casos, o socorro de autoridade pública: (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            <Pena id="art97_cpt_pena">
+            
+            
+            <Rotulo>Pena –</Rotulo>
+            <p>
+    detenção de 6 (seis) meses a 1 (um) ano e multa.
+
+  </p>
+            
+          </Pena>
+          </Caput><Paragrafo id="art97_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A pena é aumentada de metade, se da omissão resulta lesão corporal de natureza grave, e triplicada, se resulta a morte.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art98">
+            
+            
+            <Rotulo>Art. 98.</Rotulo>
+            
+            <Caput id="art98_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    Abandonar a pessoa idosa em hospitais, casas de saúde, entidades de longa permanência, ou congêneres, ou não prover suas necessidades básicas, quando obrigado por lei ou mandado: (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            <Pena id="art98_cpt_pena">
+            
+            
+            <Rotulo>Pena –</Rotulo>
+            <p>
+    detenção de 6 (seis) meses a 3 (três) anos e multa.
+
+  </p>
+            
+          </Pena>
+          </Caput>
+          </Artigo><Artigo id="art99">
+            
+            
+            <Rotulo>Art. 99.</Rotulo>
+            
+            <Caput id="art99_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    Expor a perigo a integridade e a saúde, física ou psíquica, da pessoa idosa, submetendo-a a condições desumanas ou degradantes ou privando-a de alimentos e cuidados indispensáveis, quando obrigado a fazê-lo, ou sujeitando-a a trabalho excessivo ou inadequado: (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            <Pena id="art99_cpt_pena">
+            
+            
+            <Rotulo>Pena –</Rotulo>
+            <p>
+    detenção de 2 (dois) meses a 1 (um) ano e multa.
+
+  </p>
+            
+          </Pena>
+          </Caput><Paragrafo id="art99_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Se do fato resulta lesão corporal de natureza grave:
+
+  </p>
+            <Pena id="art99_par1_pena">
+            
+            
+            <Rotulo>Pena –</Rotulo>
+            <p>
+    reclusão de 1 (um) a 4 (quatro) anos.
+
+  </p>
+            
+          </Pena>
+          </Paragrafo><Paragrafo id="art99_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Se resulta a morte:
+
+  </p>
+            <Pena id="art99_par2_pena">
+            
+            
+            <Rotulo>Pena –</Rotulo>
+            <p>
+    reclusão de 4 (quatro) a 12 (doze) anos.
+
+  </p>
+            
+          </Pena>
+          </Paragrafo>
+          </Artigo><Artigo id="art100">
+            
+            
+            <Rotulo>Art. 100.</Rotulo>
+            
+            <Caput id="art100_cpt">
+            
+            
+            
+            <p>
+    Constitui crime punível com reclusão de 6 (seis) meses a 1 (um) ano e multa:
+
+  </p>
+            <Inciso id="art100_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    obstar o acesso de alguém a qualquer cargo público por motivo de idade;
+
+  </p>
+            
+          </Inciso><Inciso id="art100_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    negar a alguém, por motivo de idade, emprego ou trabalho;
+
+  </p>
+            
+          </Inciso><Inciso id="art100_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    recusar, retardar ou dificultar atendimento ou deixar de prestar assistência à saúde, sem justa causa, a pessoa idosa;
+
+  </p>
+            
+          </Inciso><Inciso id="art100_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    deixar de cumprir, retardar ou frustrar, sem justo motivo, a execução de ordem judicial expedida na ação civil a que alude esta Lei;
+
+  </p>
+            
+          </Inciso><Inciso id="art100_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    recusar, retardar ou omitir dados técnicos indispensáveis à propositura da ação civil objeto desta Lei, quando requisitados pelo Ministério Público.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art101">
+            
+            
+            <Rotulo>Art. 101.</Rotulo>
+            
+            <Caput id="art101_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    Deixar de cumprir, retardar ou frustrar, sem justo motivo, a execução de ordem judicial expedida nas ações em que for parte ou interveniente a pessoa idosa: (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            <Pena id="art101_cpt_pena">
+            
+            
+            <Rotulo>Pena –</Rotulo>
+            <p>
+    detenção de 6 (seis) meses a 1 (um) ano e multa.
+
+  </p>
+            
+          </Pena>
+          </Caput>
+          </Artigo><Artigo id="art102">
+            
+            
+            <Rotulo>Art. 102.</Rotulo>
+            
+            <Caput id="art102_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    Apropriar-se de ou desviar bens, proventos, pensão ou qualquer outro rendimento da pessoa idosa, dando-lhes aplicação diversa da de sua finalidade: (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            <Pena id="art102_cpt_pena">
+            
+            
+            <Rotulo>Pena –</Rotulo>
+            <p>
+    reclusão de 1 (um) a 4 (quatro) anos e multa.
+
+  </p>
+            
+          </Pena>
+          </Caput>
+          </Artigo><Artigo id="art103">
+            
+            
+            <Rotulo>Art. 103.</Rotulo>
+            
+            <Caput id="art103_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    Negar o acolhimento ou a permanência da pessoa idosa, como abrigada, por recusa desta em outorgar procuração à entidade de atendimento: (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            <Pena id="art103_cpt_pena">
+            
+            
+            <Rotulo>Pena –</Rotulo>
+            <p>
+    detenção de 6 (seis) meses a 1 (um) ano e multa.
+
+  </p>
+            
+          </Pena>
+          </Caput>
+          </Artigo><Artigo id="art104">
+            
+            
+            <Rotulo>Art. 104.</Rotulo>
+            
+            <Caput id="art104_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    Reter o cartão magnético de conta bancária relativa a benefícios, proventos ou pensão da pessoa idosa, bem como qualquer outro documento com objetivo de assegurar recebimento ou ressarcimento de dívida: (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            <Pena id="art104_cpt_pena">
+            
+            
+            <Rotulo>Pena –</Rotulo>
+            <p>
+    detenção de 6 (seis) meses a 2 (dois) anos e multa.
+
+  </p>
+            
+          </Pena>
+          </Caput>
+          </Artigo><Artigo id="art105">
+            
+            
+            <Rotulo>Art. 105.</Rotulo>
+            
+            <Caput id="art105_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    Exibir ou veicular, por qualquer meio de comunicação, informações ou imagens depreciativas ou injuriosas à pessoa idosa: (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            <Pena id="art105_cpt_pena">
+            
+            
+            <Rotulo>Pena –</Rotulo>
+            <p>
+    detenção de 1 (um) a 3 (três) anos e multa.
+
+  </p>
+            
+          </Pena>
+          </Caput>
+          </Artigo><Artigo id="art106">
+            
+            
+            <Rotulo>Art. 106.</Rotulo>
+            
+            <Caput id="art106_cpt">
+            
+            
+            
+            <p>
+    Induzir pessoa idosa sem discernimento de seus atos a outorgar procuração para fins de administração de bens ou deles dispor livremente:
+
+  </p>
+            <Pena id="art106_cpt_pena">
+            
+            
+            <Rotulo>Pena –</Rotulo>
+            <p>
+    reclusão de 2 (dois) a 4 (quatro) anos.
+
+  </p>
+            
+          </Pena>
+          </Caput>
+          </Artigo><Artigo id="art107">
+            
+            
+            <Rotulo>Art. 107.</Rotulo>
+            
+            <Caput id="art107_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    Coagir, de qualquer modo, a pessoa idosa a doar, contratar, testar ou outorgar procuração: (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            <Pena id="art107_cpt_pena">
+            
+            
+            <Rotulo>Pena –</Rotulo>
+            <p>
+    reclusão de 2 (dois) a 5 (cinco) anos.
+
+  </p>
+            
+          </Pena>
+          </Caput>
+          </Artigo><Artigo id="art108">
+            
+            
+            <Rotulo>Art. 108.</Rotulo>
+            
+            <Caput id="art108_cpt">
+            
+            
+            
+            <p>
+    Lavrar ato notarial que envolva pessoa idosa sem discernimento de seus atos, sem a devida representação legal:
+
+  </p>
+            <Pena id="art108_cpt_pena">
+            
+            
+            <Rotulo>Pena –</Rotulo>
+            <p>
+    reclusão de 2 (dois) a 4 (quatro) anos.
+
+  </p>
+            
+          </Pena>
+          </Caput>
+          </Artigo>
+          </Capitulo>
+          </Titulo><Titulo id="tit7">
+            
+            
+            <Rotulo>TÍTULO VII</Rotulo>
+            <NomeAgrupador>
+    DISPOSIÇÕES FINAIS E TRANSITÓRIAS
+
+  </NomeAgrupador>
+            <Artigo id="art109">
+            
+            
+            <Rotulo>Art. 109.</Rotulo>
+            
+            <Caput id="art109_cpt">
+            
+            
+            
+            <p>
+    Impedir ou embaraçar ato do representante do Ministério Público ou de qualquer outro agente fiscalizador:
+
+  </p>
+            <Pena id="art109_cpt_pena">
+            
+            
+            <Rotulo>Pena –</Rotulo>
+            <p>
+    reclusão de 6 (seis) meses a 1 (um) ano e multa.
+
+  </p>
+            
+          </Pena>
+          </Caput>
+          </Artigo><Artigo id="art110">
+            
+            
+            <Rotulo>Art. 110.</Rotulo>
+            
+            <Caput id="art110_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1940-12-07;2848-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:decreto.lei:1940-12-07;2848">Decreto-Lei nº 2.848, de 7 de dezembro de 1940</span>, Código Penal, passa a vigorar com as seguintes alterações:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:decreto.lei:1940-12-07;2848" id="art110_cpt_alt1">              
+              <Artigo xlink:href="art61" id="art110_cpt_alt1_art61" abreAspas="s">
+            
+            
+            <Rotulo>Art. 61.</Rotulo>
+            
+            <Caput xlink:href="art61_cpt" id="art110_cpt_alt1_art61_cpt" textoOmitido="s">
+            
+            
+            
+            
+            <Omissis id="art110_cpt_alt1_art61_cpt_omi1"/><Inciso xlink:href="art61_cpt_inc2" id="art110_cpt_alt1_art61_cpt_inc2" textoOmitido="s">
+            
+            
+            <Rotulo>II –</Rotulo>
+            
+            <Omissis id="art110_cpt_alt1_art61_cpt_inc2_omi1"/><Alinea xlink:href="art61_cpt_inc2_ali8" id="art110_cpt_alt1_art61_cpt_inc2_ali8">
+            
+            
+            <Rotulo>h)</Rotulo>
+            <p>
+    contra criança, maior de 60 (sessenta) anos, enfermo ou mulher grávida;
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput><Omissis id="art110_cpt_alt1_art61_omi1" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo><Artigo xlink:href="art121" id="art110_cpt_alt1_art121" abreAspas="s">
+            
+            
+            <Rotulo>Art. 121.</Rotulo>
+            
+            <Caput xlink:href="art121_cpt" id="art110_cpt_alt1_art121_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Omissis id="art110_cpt_alt1_art121_omi1"/><Paragrafo xlink:href="art121_par4" id="art110_cpt_alt1_art121_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    No homicídio culposo, a pena é aumentada de 1/3 (um terço), se o crime resulta de inobservância de regra técnica de profissão, arte ou ofício, ou se o agente deixa de prestar imediato socorro à vítima, não procura diminuir as conseqüências do seu ato, ou foge para evitar prisão em flagrante. Sendo doloso o homicídio, a pena é aumentada de 1/3 (um terço) se o crime é praticado contra pessoa menor de 14 (quatorze) ou maior de 60 (sessenta) anos.
+
+  </p>
+            
+          </Paragrafo><Omissis id="art110_cpt_alt1_art121_omi2" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo><Artigo xlink:href="art133" id="art110_cpt_alt1_art133" abreAspas="s">
+            
+            
+            <Rotulo>Art. 133.</Rotulo>
+            
+            <Caput xlink:href="art133_cpt" id="art110_cpt_alt1_art133_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Omissis id="art110_cpt_alt1_art133_omi1"/><Paragrafo xlink:href="art133_par3" id="art110_cpt_alt1_art133_par3" textoOmitido="s">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            
+            <Omissis id="art110_cpt_alt1_art133_par3_omi1"/><Inciso xlink:href="art133_par3_inc3" id="art110_cpt_alt1_art133_par3_inc3" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    se a vítima é maior de 60 (sessenta) anos.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo xlink:href="art140" id="art110_cpt_alt1_art140" abreAspas="s">
+            
+            
+            <Rotulo>Art. 140.</Rotulo>
+            
+            <Caput xlink:href="art140_cpt" id="art110_cpt_alt1_art140_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Omissis id="art110_cpt_alt1_art140_omi1"/><Paragrafo xlink:href="art140_par3" id="art110_cpt_alt1_art140_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Se a injúria consiste na utilização de elementos referentes a raça, cor, etnia, religião, origem ou a condição de pessoa idosa ou portadora de deficiência:
+
+  </p>
+            
+          </Paragrafo><Omissis id="art110_cpt_alt1_art140_omi2" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo><Artigo xlink:href="art141" id="art110_cpt_alt1_art141" abreAspas="s">
+            
+            
+            <Rotulo>Art. 141.</Rotulo>
+            
+            <Caput xlink:href="art141_cpt" id="art110_cpt_alt1_art141_cpt" textoOmitido="s">
+            
+            
+            
+            
+            <Omissis id="art110_cpt_alt1_art141_cpt_omi1"/><Inciso xlink:href="art141_cpt_inc4" id="art110_cpt_alt1_art141_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    contra pessoa maior de 60 (sessenta) anos ou portadora de deficiência, exceto no caso de injúria.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Omissis id="art110_cpt_alt1_art141_omi1" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo><Artigo xlink:href="art148" id="art110_cpt_alt1_art148" abreAspas="s">
+            
+            
+            <Rotulo>Art. 148.</Rotulo>
+            
+            <Caput xlink:href="art148_cpt" id="art110_cpt_alt1_art148_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Omissis id="art110_cpt_alt1_art148_omi1"/><Paragrafo xlink:href="art148_par1" id="art110_cpt_alt1_art148_par1" textoOmitido="s">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            
+            <Inciso xlink:href="art148_par1_inc1" id="art110_cpt_alt1_art148_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    se a vítima é ascendente, descendente, cônjuge do agente ou maior de 60 (sessenta) anos.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Omissis id="art110_cpt_alt1_art148_omi2" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo><Artigo xlink:href="art159" id="art110_cpt_alt1_art159" abreAspas="s">
+            
+            
+            <Rotulo>Art. 159.</Rotulo>
+            
+            <Caput xlink:href="art159_cpt" id="art110_cpt_alt1_art159_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Omissis id="art110_cpt_alt1_art159_omi1"/><Paragrafo xlink:href="art159_par1" id="art110_cpt_alt1_art159_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Se o seqüestro dura mais de 24 (vinte e quatro) horas, se o seqüestrado é menor de 18 (dezoito) ou maior de 60 (sessenta) anos, ou se o crime é cometido por bando ou quadrilha.
+
+  </p>
+            
+          </Paragrafo><Omissis id="art110_cpt_alt1_art159_omi2" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo><Artigo xlink:href="art183" id="art110_cpt_alt1_art183" abreAspas="s">
+            
+            
+            <Rotulo>Art. 183.</Rotulo>
+            
+            <Caput xlink:href="art183_cpt" id="art110_cpt_alt1_art183_cpt" textoOmitido="s">
+            
+            
+            
+            
+            <Omissis id="art110_cpt_alt1_art183_cpt_omi1"/><Inciso xlink:href="art183_cpt_inc3" id="art110_cpt_alt1_art183_cpt_inc3" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    se o crime é praticado contra pessoa com idade igual ou superior a 60 (sessenta) anos.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo xlink:href="art244" id="art110_cpt_alt1_art244" abreAspas="s">
+            
+            
+            <Rotulo>Art. 244.</Rotulo>
+            
+            <Caput xlink:href="art244_cpt" id="art110_cpt_alt1_art244_cpt">
+            
+            
+            
+            <p>
+    Deixar, sem justa causa, de prover a subsistência do cônjuge, ou de filho menor de 18 (dezoito) anos ou inapto para o trabalho, ou de ascendente inválido ou maior de 60 (sessenta) anos, não lhes proporcionando os recursos necessários ou faltando ao pagamento de pensão alimentícia judicialmente acordada, fixada ou majorada; deixar, sem justa causa, de socorrer descendente ou ascendente, gravemente enfermo:
+
+  </p>
+            
+          </Caput><Omissis id="art110_cpt_alt1_art244_omi1" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art111">
+            
+            
+            <Rotulo>Art. 111.</Rotulo>
+            
+            <Caput id="art111_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1941-10-03;3688!art21-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:decreto.lei:1941-10-03;3688!art21">art. 21 do Decreto-Lei nº 3.688, de 3 de outubro de 1941</span>, Lei das Contravenções Penais, passa a vigorar acrescido do seguinte parágrafo único:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:decreto.lei:1941-10-03;3688" id="art111_cpt_alt1">              
+              <Artigo xlink:href="art21" id="art111_cpt_alt1_art21" abreAspas="s">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput xlink:href="art21_cpt" id="art111_cpt_alt1_art21_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Omissis id="art111_cpt_alt1_art21_omi1"/><Paragrafo xlink:href="art21_par1u" id="art111_cpt_alt1_art21_par1u" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Aumenta-se a pena de 1/3 (um terço) até a metade se a vítima é maior de 60 (sessenta) anos.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art112">
+            
+            
+            <Rotulo>Art. 112.</Rotulo>
+            
+            <Caput id="art112_cpt">
+            <!--Link: urn:lex:br:federal:lei:1997-04-07;9455!art1_par4_inc2-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1997-04-07;9455!art1_par4_inc2">inciso II do § 4º do art. 1º da Lei nº 9.455, de 7 de abril de 1997</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1997-04-07;9455" id="art112_cpt_alt1">              
+              <Artigo xlink:href="art1" id="art112_cpt_alt1_art1" abreAspas="s">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput xlink:href="art1_cpt" id="art112_cpt_alt1_art1_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Omissis id="art112_cpt_alt1_art1_omi1"/><Paragrafo xlink:href="art1_par4" id="art112_cpt_alt1_art1_par4" textoOmitido="s">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            
+            <Inciso xlink:href="art1_par4_inc2" id="art112_cpt_alt1_art1_par4_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    se o crime é cometido contra criança, gestante, portador de deficiência, adolescente ou maior de 60 (sessenta) anos;
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Omissis id="art112_cpt_alt1_art1_omi2" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art113">
+            
+            
+            <Rotulo>Art. 113.</Rotulo>
+            
+            <Caput id="art113_cpt">
+            <!--Link: urn:lex:br:federal:lei:1976-10-21;6368!art18_cpt_inc3-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1976-10-21;6368!art18_cpt_inc3">inciso III do art. 18 da Lei nº 6.368, de 21 de outubro de 1976</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1976-10-21;6368" id="art113_cpt_alt1">              
+              <Artigo xlink:href="art18" id="art113_cpt_alt1_art18" abreAspas="s">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput xlink:href="art18_cpt" id="art113_cpt_alt1_art18_cpt" textoOmitido="s">
+            
+            
+            
+            
+            <Omissis id="art113_cpt_alt1_art18_cpt_omi1"/><Inciso xlink:href="art18_cpt_inc3" id="art113_cpt_alt1_art18_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    se qualquer deles decorrer de associação ou visar a menores de 21 (vinte e um) anos ou a pessoa com idade igual ou superior a 60 (sessenta) anos ou a quem tenha, por qualquer causa, diminuída ou suprimida a capacidade de discernimento ou de autodeterminação:
+
+  </p>
+            
+          </Inciso>
+          </Caput><Omissis id="art113_cpt_alt1_art18_omi1" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art114">
+            
+            
+            <Rotulo>Art. 114.</Rotulo>
+            
+            <Caput id="art114_cpt">
+            <!--Link: urn:lex:br:federal:lei:2000-11-08;10048!art1-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:2000-11-08;10048!art1">art. 1º da Lei nº 10.048, de 8 de novembro de 2000</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:2000-11-08;10048" id="art114_cpt_alt1">              
+              <Artigo xlink:href="art1" id="art114_cpt_alt1_art1" abreAspas="s">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput xlink:href="art1_cpt" id="art114_cpt_alt1_art1_cpt" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            
+            <p>
+    As pessoas portadoras de deficiência, os idosos com idade igual ou superior a 60 (sessenta) anos, as gestantes, as lactantes e as pessoas acompanhadas por crianças de colo terão atendimento prioritário, nos termos desta Lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art115">
+            
+            
+            <Rotulo>Art. 115.</Rotulo>
+            
+            <Caput id="art115_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-22;14423-->
+            
+            
+            <p>
+    O Orçamento da Seguridade Social destinará ao Fundo Nacional de Assistência Social, até que o Fundo Nacional da Pessoa Idosa seja criado, os recursos necessários, em cada exercício financeiro, para aplicação em programas e ações relativos à pessoa idosa. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-22;14423">Lei nº 14.423, de 22.7.2022</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art116">
+            
+            
+            <Rotulo>Art. 116.</Rotulo>
+            
+            <Caput id="art116_cpt">
+            
+            
+            
+            <p>
+    Serão incluídos nos censos demográficos dados relativos à população idosa do País.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art117">
+            
+            
+            <Rotulo>Art. 117.</Rotulo>
+            
+            <Caput id="art117_cpt">
+            
+            
+            
+            <p>
+    O Poder Executivo encaminhará ao Congresso Nacional projeto de lei revendo os critérios de concessão do Benefício de Prestação Continuada previsto na Lei Orgânica da Assistência Social, de forma a garantir que o acesso ao direito seja condizente com o estágio de desenvolvimento sócio-econômico alcançado pelo País.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art118">
+            
+            
+            <Rotulo>Art. 118.</Rotulo>
+            
+            <Caput id="art118_cpt">
+            
+            
+            
+            <p>
+    Esta Lei entra em vigor decorridos 90 (noventa) dias da sua publicação, ressalvado o disposto no caput do art. 36, que vigorará a partir de 1º de janeiro de 2004.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Titulo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 1º de outubro de 2003; 182º da Independência e 115º da República.</p></LocalDataFecho><Assinatura><NomePessoa>LUIZ INÁCIO LULA DA SILVA</NomePessoa><NomePessoa>Márcio Thomaz Bastos</NomePessoa><NomePessoa>Antonio Palocci Filho</NomePessoa><NomePessoa>Rubem Fonseca Filho</NomePessoa><NomePessoa>Humberto Sérgio Costa Lima</NomePessoa><NomePessoa>Guido Mantega</NomePessoa><NomePessoa>Ricardo José Ribeiro Berzoini</NomePessoa><NomePessoa>Benedita Souza da Silva Sampaio</NomePessoa><NomePessoa>Álvaro Augusto Ribeiro Costa</NomePessoa></Assinatura></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>

@@ -1,0 +1,4 @@
+# CMD: java -jar ../lexml-parser-projeto-lei/target/lexml-parser-projeto-lei-1.15.0-onejar.jar parse -m application/vnd.openxmlformats-officedocument.wordprocessingml.document -i original/articulados/decreto_59566_19661114.docx -o lexml/decreto_59566_19661114.xml --write-errors-to-file lexml/decreto_59566_19661114.err.log -a federal -t decreto -n 59566 --data 1966-11-14 --linker /usr/local/bin/linkertool
+# ---
+Problem type = [17: Alteração sem fecha-aspas, categoria: [1: Erro de técnica legislativa]], pos = List(), msg = None, context=List(do inciso iii, do artigo 46 do estatuto da terra, , e de sua regulamentacao no decreto 55.891, de 31-3-65, como tambem art. 13 da lei 4.947, 6-4-66., capitulo ii)
+

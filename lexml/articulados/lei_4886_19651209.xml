@@ -1,0 +1,1830 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:1965-12-09;4886"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">LEI Nº 4.886, DE 9 DE DEZEMBRO DE 1965 </Epigrafe>
+		  <Ementa id="ementa">Regula as atividades dos representantes comerciais autônomos.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA,
+  </p><p>
+    Faço saber que o CONGRESSO NACIONAL decreta e eu sanciono a seguinte Lei:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    Exerce a representação comercial autônoma a pessoa jurídica ou a pessoa física, sem relação de emprego, que desempenha, em caráter não eventual por conta de uma ou mais pessoas, a mediação para a realização de negócios mercantis, agenciando propostas ou pedidos, para, transmiti-los aos representados, praticando ou não atos relacionados com a execução dos negócios.
+
+  </p>
+            
+          </Caput><Paragrafo id="art1_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Quando a representação comercial incluir poderes atinentes ao mandato mercantil, serão aplicáveis, quanto ao exercício deste, os preceitos próprios da legislação comercial.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    É obrigatório o registro dos que exerçam a representação comercial autônoma nos Conselhos Regionais criados pelo art. 6º desta Lei.
+
+  </p>
+            
+          </Caput><Paragrafo id="art2_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    As pessoas que, na data da publicação da presente Lei, estiverem no exercício da atividade, deverão registrar-se nos Conselhos Regionais, no prazo de 90 dias a contar da data em que estes forem instalados.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    O candidato a registro, como representante comercial, deverá apresentar:
+
+  </p>
+            <Alinea id="art3_cpt_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    prova de identidade;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    prova de quitação com o serviço militar, quando a ele obrigado;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    prova de estar em dia com as exigências da legislação eleitoral;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    folha-corrida de antecedentes, expedida pelos cartórios criminais das comarcas em que o registrado houver sido domiciliado nos últimos dez (10) anos;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    quitação com o imposto sindical.
+
+  </p>
+            
+          </Alinea>
+          </Caput><Paragrafo id="art3_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O estrangeiro é desobrigado da apresentação dos documentos constantes das alíneas b e c deste artigo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Nos casos de transferência ou de exercício simultâneo da profissão, em mais de uma região, serão feitas as devidas anotações na carteira profissional do interessado, pelos respectivos Conselhos Regionais.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    As pessoas jurídicas deverão fazer prova de sua existência legal.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    Não pode ser representante comercial:
+
+  </p>
+            <Alinea id="art4_cpt_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    o que não pode ser comerciante;
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    o falido não reabilitado;
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    o que tenha sido condenado por infração penal de natureza infamante, tais como falsidade, estelionato, apropriação indébita, contrabando, roubo, furto, lenocínio ou crimes também punidos com a perda de cargo público;
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    o que estiver com seu registro comercial cancelado como penalidade.
+
+  </p>
+            
+          </Alinea>
+          </Caput>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    Somente será devida remuneração, como mediador de negócios comerciais, a representante comercial devidamente registrado.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    São criados o Conselho Federal e os Conselhos Regionais dos Representantes Comerciais, aos quais incumbirá a fiscalização do exercício da profissão, na forma desta Lei.
+
+  </p>
+            
+          </Caput><Paragrafo id="art6_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    É vedado, aos Conselhos Federal e Regionais dos Representantes Comerciais, desenvolverem quaisquer atividades não compreendidas em suas finalidades previstas nesta Lei, inclusive as de caráter político e partidárias.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    O Conselho Federal instalar-se-á dentro de noventa (90) dias, a contar da vigência da presente Lei, no Estado da Guanabara, onde funcionará provisoriamente, transferindo-se para a Capital da República, quando estiver em condições de fazê-lo, a juízo da maioria dos Conselhos Regionais.
+
+  </p>
+            
+          </Caput><Paragrafo id="art7_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O Conselho Federal será presidido por um dos seus membros, na forma que dispuser o regimento interno do Conselho, cabendo lhe, além do próprio voto, o de qualidade, no caso de empate.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art7_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A renda do Conselho Federal será constituída de vinte por cento (20%) da renda bruta dos Conselhos Regionais.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    O Conselho Federal será composto de representantes comerciais de cada Estado, eleitos pelos Conselhos Regionais, dentre seus membros, cabendo a cada Conselho Regional a escolha de dois (2) delegados.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            
+            
+            
+            <p>
+    Compete ao Conselho Federal determinar o número dos Conselhos Regionais, o qual não poderá ser superior a um por Estado, Território Federal e Distrito Federal, e estabelecer-lhes as bases territoriais.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            <!--Link: urn:lex:br:federal:lei:2010-05-27;12246-->
+            
+            
+            <p>
+    Compete privativamente, ao Conselho Federal: I.- elaborar o seu regimento interno; . (Primitiva alínea “a” renumerada pela <span xlink:href="urn:lex:br:federal:lei:2010-05-27;12246">Lei nº 12.246, de 27.5.2010</span>)
+
+  </p>
+            <Inciso id="art10_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:2010-05-27;12246-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    dirimir as dúvidas suscitadas pelos Conselhos Regionais;. (Primitiva alínea “b” renumerada pela <span xlink:href="urn:lex:br:federal:lei:2010-05-27;12246">Lei nº 12.246, de 27.5.2010</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:2010-05-27;12246-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    aprovar os regimentos internos dos Conselhos Regionais; (Primitiva alínea “c” renumerada pela <span xlink:href="urn:lex:br:federal:lei:2010-05-27;12246">Lei nº 12.246, de 27.5.2010</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc4">
+            <!--Link: urn:lex:br:federal:lei:2010-05-27;12246-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    julgar quaisquer recursos relativos às decisões dos Conselhos Regionais; (Primitiva alínea “d” renumerada pela <span xlink:href="urn:lex:br:federal:lei:2010-05-27;12246">Lei nº 12.246, de 27.5.2010</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc5">
+            <!--Link: urn:lex:br:federal:lei:2010-05-27;12246-->
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    baixar instruções para a fiel observância da presente Lei; (Primitiva alínea “f” renumerada pela <span xlink:href="urn:lex:br:federal:lei:2010-05-27;12246">Lei nº 12.246, de 27.5.2010</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc6">
+            <!--Link: urn:lex:br:federal:lei:2010-05-27;12246-->
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    elaborar o Código de Ética Profissional; (Primitiva alínea “g” renumerada pela <span xlink:href="urn:lex:br:federal:lei:2010-05-27;12246">Lei nº 12.246, de 27.5.2010</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc7">
+            <!--Link: urn:lex:br:federal:lei:2010-05-27;12246-->
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    resolver os casos omissos. (Primitiva alínea “h” renumerada pela <span xlink:href="urn:lex:br:federal:lei:2010-05-27;12246">Lei nº 12.246, de 27.5.2010</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc8">
+            <!--Link: urn:lex:br:federal:lei:2010-05-27;12246-->
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    fixar, mediante resolução, os valores das anuidades e emolumentos devidos pelos representantes comerciais, pessoas físicas e jurídicas, aos Conselhos Regionais dos Representantes Comerciais nos quais estejam registrados, observadas as peculiaridades regionais e demais situações inerentes à capacidade contributiva da categoria profissional nos respectivos Estados e necessidades de cada entidade, e respeitados os seguintes limites máximos: (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2010-05-27;12246">Lei nº 12.246, de 27.5.2010</span>)
+
+  </p>
+            <Alinea id="art10_cpt_inc8_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    anuidade para pessoas físicas - até R$ 300,00 (trezentos reais);
+
+  </p>
+            
+          </Alinea><Alinea id="art10_cpt_inc8_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    (VETADO);
+
+  </p>
+            
+          </Alinea><Alinea id="art10_cpt_inc8_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    anuidade para pessoas jurídicas, de acordo com as seguintes classes de capital social: );
+
+  </p>
+            <Item id="art10_cpt_inc8_ali3_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    de R$ 1,00 (um real) a R$ 10.000,00 (dez mil reais) - até R$ 350,00 (trezentos e cinquenta reais);
+
+  </p>
+            
+          </Item><Item id="art10_cpt_inc8_ali3_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    de R$ 10.000,01 (dez mil reais e um centavo) a R$ 50.000,00 (cinquenta mil reais) - até R$ 420,00 (quatrocentos e vinte reais);
+
+  </p>
+            
+          </Item><Item id="art10_cpt_inc8_ali3_ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    de R$ 50.000,01 (cinquenta mil reais e um centavo) a R$ 100.000,00 (cem mil reais) - até R$ 504,00 (quinhentos e quatro reais);
+
+  </p>
+            
+          </Item><Item id="art10_cpt_inc8_ali3_ite4">
+            
+            
+            <Rotulo>4.</Rotulo>
+            <p>
+    de R$ 100.000,01 (cem mil reais e um centavo) a R$ 300.000,00 (trezentos mil reais) - até R$ 604,00 (seiscentos e quatro reais);
+
+  </p>
+            
+          </Item><Item id="art10_cpt_inc8_ali3_ite5">
+            
+            
+            <Rotulo>5.</Rotulo>
+            <p>
+    de R$ 300.000,01 (trezentos mil reais e um centavo) a R$ 500.000,00 (quinhentos mil reais) - até R$ 920,00 (novecentos e vinte reais);
+
+  </p>
+            
+          </Item><Item id="art10_cpt_inc8_ali3_ite6">
+            
+            
+            <Rotulo>6.</Rotulo>
+            <p>
+    acima de R$ 500.000,00 (quinhentos mil reais) - até R$ 1.370,00 (mil, trezentos e setenta reais);
+
+  </p>
+            
+          </Item>
+          </Alinea><Alinea id="art10_cpt_inc8_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    (VETADO);
+
+  </p>
+            
+          </Alinea><Alinea id="art10_cpt_inc8_ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    (VETADO).
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput><Paragrafo id="art10_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    (Suprimido)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par2">
+            <!--Link: urn:lex:br:federal:lei:2010-05-27;12246-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os valores correspondentes aos limites máximos estabelecidos neste artigo serão corrigidos anualmente pelo índice oficial de preços ao consumidor. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2010-05-27;12246">Lei nº 12.246, de 27.5.2010</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par3">
+            <!--Link: urn:lex:br:federal:lei:2010-05-27;12246-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O pagamento da anuidade será efetuado pelo representante comercial, pessoa física ou jurídica, até o dia 31 de março de cada ano, com desconto de 10% (dez por cento), ou em até 3 (três) parcelas, sem descontos, vencendo-se a primeira em 30 de abril, a segunda em 31 de agosto e a terceira em 31 de dezembro de cada ano. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2010-05-27;12246">Lei nº 12.246, de 27.5.2010</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par4">
+            <!--Link: urn:lex:br:federal:lei:2010-05-27;12246-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Ao pagamento antecipado será concedido desconto de 20% (vinte por cento) até 31 de janeiro e 15% (quinze por cento) até 28 de fevereiro de cada ano. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2010-05-27;12246">Lei nº 12.246, de 27.5.2010</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par5">
+            <!--Link: urn:lex:br:federal:lei:2010-05-27;12246-->
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    As anuidades que forem pagas após o vencimento serão acrescidas de 2% (dois por cento) de multa, 1% (um por cento) de juros de mora por mês de atraso e atualização monetária pelo índice oficial de preços ao consumidor. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2010-05-27;12246">Lei nº 12.246, de 27.5.2010</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par6">
+            <!--Link: urn:lex:br:federal:lei:2010-05-27;12246-->
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    A filial ou representação de pessoa jurídica instalada em jurisdição de outro Conselho Regional que não o da sua sede pagará anuidade em valor que não exceda a 50% (cinquenta por cento) do que for pago pela matriz.. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2010-05-27;12246">Lei nº 12.246, de 27.5.2010</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par7">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    ( VETADO)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par8">
+            
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    ( VETADO)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par9">
+            <!--Link: urn:lex:br:federal:lei:2010-05-27;12246-->
+            
+            <Rotulo>§ 9º</Rotulo>
+            <p>
+    O representante comercial pessoa física, como responsável técnico de pessoa jurídica devidamente registrada no Conselho Regional dos Representantes Comerciais, pagará anuidade em valor correspondente a 50% (cinquenta por cento) da anuidade devida pelos demais profissionais autônomos registrados no mesmo Conselho.. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2010-05-27;12246">Lei nº 12.246, de 27.5.2010</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par1u">
+            <!--Link: urn:lex:br:federal:lei:2010-05-27;12246-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    ( Suprimido pela <span xlink:href="urn:lex:br:federal:lei:2010-05-27;12246">Lei nº 12.246, de 27.5.2010</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            <p>
+    Dentro de sessenta (60) dias, contados da vigência da presente Lei, serão instalados os Conselhos Regionais correspondentes aos Estados onde existirem órgãos sindicais de representação da classe dos representantes comerciais, atualmente reconhecidos pelo Ministério do Trabalho e Previdência Social.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            
+            
+            
+            <p>
+    Os Conselhos Regionais terão a seguinte composição:
+
+  </p>
+            <Alinea id="art12_cpt_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    dois terços (2/3) de seus membros serão constituídos pelo Presidente do mais antigo sindicato da classe do respectivo Estado e por diretores de sindicatos da classe, do mesmo Estado, eleitos estes em assembléia-geral;
+
+  </p>
+            
+          </Alinea><Alinea id="art12_cpt_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    um terço (1/3) formado de representantes comerciais no exercício efetivo da profissão, eleitos em assembléia-geral realizada no sindicato da classe.
+
+  </p>
+            
+          </Alinea>
+          </Caput><Paragrafo id="art12_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A secretaria do sindicato incumbido da realização das eleições organizará cédula única, por ordem alfabética dos candidatos, destinada à votação.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art12_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Se os órgãos sindicais de representação da classe não tomarem as providências previstas quanto à instalação dos Conselhos Regionais, o Conselho Federal determinará, imediatamente, a sua constituição, mediante eleições em assembléia-geral, com a participação dos representantes comerciais no exercício efetivo da profissão no respectivo Estado.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art12_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Havendo, num mesmo Estado, mais de um sindicato de representantes comerciais, as eleições a que se refere este artigo se processarão na sede do sindicato da classe situado na Capital e, na sua falta, na sede do mais antigo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art12_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O Conselho Regional será presidido por um dos seus membros, na forma que dispuser o seu regimento interno, cabendo-lhe, além do próprio voto, o de qualidade, no caso de empate.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art12_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Os Conselhos Regionais terão no máximo trinta (30) membros e, no mínimo, o número que for fixado pelo Conselho Federal.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>
+    Os mandatos dos membros do Conselho Federal e dos Conselhos Regionais serão de três (3) anos.
+
+  </p>
+            
+          </Caput><Paragrafo id="art13_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Todos os mandatos serão exercidos gratuitamente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art13_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A aceitação do cargo de Presidente, Secretário ou Tesoureiro importará na obrigação de residir na localidade em que estiver sediado o respectivo Conselho.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            <p>
+    O Conselho Federal e os Conselhos Regionais serão administrados por uma Diretoria que não poderá exceder a um terço (1/3) dos seus integrantes.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>
+    Os Presidentes dos Conselhos Federal e Regionais completarão o prazo do seu mandato, caso sejam substituídos na presidência do sindicato.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            
+            
+            
+            <p>
+    Constituem renda dos Conselhos Regionais as contribuições e multas devidas pelos representantes comerciais, pessoas físicas ou jurídicas, neles registrados.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            
+            
+            
+            <p>
+    Compete aos Conselhos Regionais:
+
+  </p>
+            <Alinea id="art17_cpt_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    elaborar o seu regimento interno, submetendo-o à apreciação do Conselho Federal;
+
+  </p>
+            
+          </Alinea><Alinea id="art17_cpt_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    decidir sobre os pedidos de registro de representantes comerciais, pessoas físicas ou jurídicas, na conformidade desta Lei;
+
+  </p>
+            
+          </Alinea><Alinea id="art17_cpt_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    manter o cadastro profissional;
+
+  </p>
+            
+          </Alinea><Alinea id="art17_cpt_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    expedir as carteiras profissionais e anotá-las, quando necessário;
+
+  </p>
+            
+          </Alinea><Alinea id="art17_cpt_ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    impor as sanções disciplinares previstas nesta Lei, mediante a feitura de processo adequado, de acordo com o disposto no artigo 18;
+
+  </p>
+            
+          </Alinea><Alinea id="art17_cpt_ali6">
+            <!--Link: urn:lex:br:federal:lei:2010-05-27;12246-->
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    arrecadar, cobrar e executar as anuidades e emolumentos devidos pelos representantes comerciais, pessoas físicas e jurídicas, registrados, servindo como título executivo extrajudicial a certidão relativa aos seus créditos. . (Alínea com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2010-05-27;12246">Lei nº 12.246, de 27.5.2010</span>)
+
+  </p>
+            
+          </Alinea>
+          </Caput><Paragrafo id="art17_par1u">
+            <!--Link: urn:lex:br:federal:lei:2010-05-27;12246-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    (Suprimido). . ( Suprimido pela <span xlink:href="urn:lex:br:federal:lei:2010-05-27;12246">Lei nº 12.246, de 27.5.2010</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            
+            
+            
+            <p>
+    Compete aos Conselhos Regionais aplicar, ao representante comercial faltoso, as seguintes penas disciplinares:
+
+  </p>
+            <Alinea id="art18_cpt_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    advertência, sempre sem publicidade;
+
+  </p>
+            
+          </Alinea><Alinea id="art18_cpt_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    multa até a importância equivalente ao maior salário-mínimo vigente no País;
+
+  </p>
+            
+          </Alinea><Alinea id="art18_cpt_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    suspensão do exercício profissional, até um (1) ano;
+
+  </p>
+            
+          </Alinea><Alinea id="art18_cpt_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    cancelamento do registro, com apreensão da carteira profissional.
+
+  </p>
+            
+          </Alinea>
+          </Caput><Paragrafo id="art18_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    No caso de reincidência ou de falta manifestamente grave, o representante comercial poderá ser suspenso do exercício de sua atividade ou ter cancelado o seu registro.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art18_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As penas disciplinares serão aplicadas após processo regular, sem prejuízo, quando couber, da responsabilidade civil ou criminal.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art18_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O acusado deverá ser citado, inicialmente, dando-se-lhe ciência do inteiro teor da denúncia ou queixa, sendo-lhe assegurado, sempre, o amplo direito de defesa, por si ou por procurador regularmente constituído.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art18_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O processo disciplinar será presidido por um dos membros do Conselho Regional, ao qual incumbirá coligir as provas necessárias.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art18_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Encerradas as provas de iniciativa da autoridade processante, ao acusado será dado requerer e produzir as suas próprias provas, após o que lhe será assegurado o direito de apresentar, por escrito, defesa final e o de sustentar, oralmente, suas razões, na sessão do julgamento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art18_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    Da decisão dos Conselhos Regionais caberá recurso voluntário, com efeito suspensivo, para o Conselho Federal.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            
+            
+            
+            <p>
+    Constituem faltas no exercício da profissão de representante comercial:
+
+  </p>
+            <Alinea id="art19_cpt_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    prejudicar, por dolo ou culpa, os interesses confiados aos seus cuidados;
+
+  </p>
+            
+          </Alinea><Alinea id="art19_cpt_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    auxiliar ou facilitar, por qualquer meio, o exercício da profissão aos que estiverem proibidos, impedidos ou não habilitados a exercê-la;
+
+  </p>
+            
+          </Alinea><Alinea id="art19_cpt_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    promover ou facilitar negócios ilícitos, bem como quaisquer transações que prejudiquem interesse da Fazenda Pública;
+
+  </p>
+            
+          </Alinea><Alinea id="art19_cpt_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    violar o sigilo profissional;
+
+  </p>
+            
+          </Alinea><Alinea id="art19_cpt_ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    negar ao representado as competentes prestações de contas, recibos de quantias ou documentos que lhe tiverem sido entregues, para qualquer fim;
+
+  </p>
+            
+          </Alinea><Alinea id="art19_cpt_ali6">
+            
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    recusar a apresentação da carteira profissional, quando solicitada por quem de direito.
+
+  </p>
+            
+          </Alinea>
+          </Caput>
+          </Artigo><Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            
+            
+            
+            <p>
+    Observados os princípios desta Lei, o Conselho Federal dos Representantes Comerciais, expedirá instruções relativas à aplicação das penalidades em geral e, em particular, aos casos em que couber imposições da pena de multa.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            
+            
+            
+            <p>
+    As repartições federais, estaduais e municipais, ao receberem tributos relativos à atividade do representante comercial, pessoa física ou jurídica, exigirão prova de seu registro no Conselho Regional da respectiva região.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art22">
+            
+            
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            
+            
+            
+            <p>
+    Da propaganda deverá constar, obrigatoriamente, o número da carteira profissional.
+
+  </p>
+            
+          </Caput><Paragrafo id="art22_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    As pessoas jurídicas farão constar também, da propaganda, além do número da carteira do representante comercial responsável, o seu próprio número de registro no Conselho Regional.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art23">
+            
+            
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            
+            
+            
+            <p>
+    O exercício financeiro dos Conselhos Federal e Regionais coincidirá com o ano civil.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art24">
+            
+            
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput id="art24_cpt">
+            <!--Link: urn:lex:br:federal:lei:1992-05-08;8420-->
+            
+            
+            <p>
+    As diretorias dos Conselhos Regionais prestarão contas da sua gestão ao próprio conselho, até o dia 15 de fevereiro de cada ano. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1992-05-08;8420">Lei nº 8.420, de 8.5.1992</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art25">
+            
+            
+            <Rotulo>Art. 25.</Rotulo>
+            
+            <Caput id="art25_cpt">
+            
+            
+            
+            <p>
+    Os Conselhos Regionais prestarão contas até o último dia do mês de fevereiro de cada ano ao Conselho Federal.
+
+  </p>
+            
+          </Caput><Paragrafo id="art25_par1u">
+            <!--Link: urn:lex:br:federal:lei:1992-05-08;8420-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A Diretoria do Conselho Federal prestará contas ao respectivo plenário até o último dia do mês de março de cada ano. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1992-05-08;8420">Lei nº 8.420, de 8.5.1992</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art26">
+            
+            
+            <Rotulo>Art. 26.</Rotulo>
+            
+            <Caput id="art26_cpt">
+            
+            
+            
+            <p>
+    Os sindicatos incumbidos do processamento das eleições, a que se refere o art. 12, deverão tomar, dentro do prazo de trinta (30) dias, a contar da publicação desta Lei, as providências necessárias à instalação dos Conselhos Regionais dentro do prazo previsto no art. 11.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art27">
+            
+            
+            <Rotulo>Art. 27.</Rotulo>
+            
+            <Caput id="art27_cpt">
+            <!--Link: urn:lex:br:federal:lei:1992-05-08;8420-->
+            
+            
+            <p>
+    Do contrato de representação comercial, além dos elementos comuns e outros a juízo dos interessados, constarão obrigatoriamente: (&quot;Caput&quot; do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1992-05-08;8420">Lei nº 8.420, de 8.5.1992</span>)
+
+  </p>
+            <Alinea id="art27_cpt_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    condições e requisitos gerais da representação;
+
+  </p>
+            
+          </Alinea><Alinea id="art27_cpt_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    indicação genérica ou específica dos produtos ou artigos objeto da representação;
+
+  </p>
+            
+          </Alinea><Alinea id="art27_cpt_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    prazo certo ou indeterminado da representação;
+
+  </p>
+            
+          </Alinea><Alinea id="art27_cpt_ali4">
+            <!--Link: urn:lex:br:federal:lei:1992-05-08;8420-->
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    indicação da zona ou zonas em que será exercida a representação; (Alínea com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1992-05-08;8420">Lei nº 8.420, de 8.5.1992</span>)
+
+  </p>
+            
+          </Alinea><Alinea id="art27_cpt_ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    garantia ou não, parcial ou total, ou por certo prazo, da exclusividade de zona ou setor de zona;
+
+  </p>
+            
+          </Alinea><Alinea id="art27_cpt_ali6">
+            
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    retribuição e época do pagamento, pelo exercício da representação, dependente da efetiva realização dos negócios, e recebimento, ou não, pelo representado, dos valores respectivos;
+
+  </p>
+            
+          </Alinea><Alinea id="art27_cpt_ali7">
+            
+            
+            <Rotulo>g)</Rotulo>
+            <p>
+    os casos em que se justifique a restrição de zona concedida com exclusividade;
+
+  </p>
+            
+          </Alinea><Alinea id="art27_cpt_ali8">
+            
+            
+            <Rotulo>h)</Rotulo>
+            <p>
+    obrigações e responsabilidades das partes contratantes;
+
+  </p>
+            
+          </Alinea><Alinea id="art27_cpt_ali9">
+            
+            
+            <Rotulo>i)</Rotulo>
+            <p>
+    exercício exclusivo ou não da representação a favor do representado;
+
+  </p>
+            
+          </Alinea><Alinea id="art27_cpt_ali10">
+            <!--Link: urn:lex:br:federal:lei:1992-05-08;8420-->
+            
+            <Rotulo>j)</Rotulo>
+            <p>
+    indenização devida ao representante pela rescisão do contrato fora dos casos previstos no art. 35, cujo montante não poderá ser inferior a 1/12 (um doze avos) do total da retribuição auferida durante o tempo em que exerceu a representação. (Alínea com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1992-05-08;8420">Lei nº 8.420, de 8.5.1992</span>)
+
+  </p>
+            
+          </Alinea>
+          </Caput><Paragrafo id="art27_par1">
+            <!--Link: urn:lex:br:federal:lei:1992-05-08;8420-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Na hipótese de contrato a prazo certo, a indenização corresponderá à importância equivalente à média mensal da retribuição auferida até a data da rescisão, multiplicada pela metade dos meses resultantes do prazo contratual. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:1992-05-08;8420">Lei nº 8.420, de 8.5.1992</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art27_par2">
+            <!--Link: urn:lex:br:federal:lei:1992-05-08;8420-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O contrato com prazo determinado, uma vez prorrogado o prazo inicial, tácita ou expressamente, torna-se a prazo indeterminado. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:1992-05-08;8420">Lei nº 8.420, de 8.5.1992</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art27_par3">
+            <!--Link: urn:lex:br:federal:lei:1992-05-08;8420-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Considera-se por prazo indeterminado todo contrato que suceder, dentro de seis meses, a outro contrato, com ou sem determinação de prazo. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:1992-05-08;8420">Lei nº 8.420, de 8.5.1992</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art28">
+            
+            
+            <Rotulo>Art. 28.</Rotulo>
+            
+            <Caput id="art28_cpt">
+            
+            
+            
+            <p>
+    O representante comercial fica obrigado a fornecer ao representado, segundo as disposições do contrato ou, sendo este omisso, quando lhe for solicitado, informações detalhadas sobre o andamento dos negócios a seu cargo, devendo dedicar-se à representação, de modo a expandir os negócios do representado e promover os seus produtos.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art29">
+            
+            
+            <Rotulo>Art. 29.</Rotulo>
+            
+            <Caput id="art29_cpt">
+            
+            
+            
+            <p>
+    Salvo autorização expressa, não poderá o representante conceder abatimentos, descontos ou dilações, nem agir em desacordo com as instruções do representado.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art30">
+            
+            
+            <Rotulo>Art. 30.</Rotulo>
+            
+            <Caput id="art30_cpt">
+            
+            
+            
+            <p>
+    Para que o representante possa exercer a representação em Juízo, em nome do representado, requer-se mandato expresso. Incumbir-lhe-á porém, tomar conhecimento das reclamações atinentes aos negócios, transmitindo-as ao representado e sugerindo as providências acauteladoras do interesse deste.
+
+  </p>
+            
+          </Caput><Paragrafo id="art30_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O representante, quanto aos atos que praticar, responde segundo as normas do contrato e, sendo este omisso, na conformidade do direito comum.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art31">
+            
+            
+            <Rotulo>Art. 31.</Rotulo>
+            
+            <Caput id="art31_cpt">
+            
+            
+            
+            <p>
+    Prevendo o contrato de representação a exclusividade de zona ou zonas, ou quando este for omisso, fará jus o representante à comissão pelos negócios aí realizados, ainda que diretamente pelo representado ou por intermédio de terceiros.
+
+  </p>
+            
+          </Caput><Paragrafo id="art31_par1u">
+            <!--Link: urn:lex:br:federal:lei:1992-05-08;8420-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A exclusividade de representação não se presume na ausência de ajustes expressos. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1992-05-08;8420">Lei nº 8.420, de 8.5.1992</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art32">
+            
+            
+            <Rotulo>Art. 32.</Rotulo>
+            
+            <Caput id="art32_cpt">
+            <!--Link: urn:lex:br:federal:lei:1992-05-08;8420-->
+            
+            
+            <p>
+    O representante comercial adquire o direito às comissões quando do pagamento dos pedidos ou propostas. (&quot;Caput&quot; do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1992-05-08;8420">Lei nº 8.420, de 8.5.1992</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art32_par1">
+            <!--Link: urn:lex:br:federal:lei:1992-05-08;8420-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O pagamento das comissões deverá ser efetuado até o dia 15 do mês subseqüente ao da liquidação da fatura, acompanhada das respectivas cópias das notas fiscais. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:1992-05-08;8420">Lei nº 8.420, de 8.5.1992</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art32_par2">
+            <!--Link: urn:lex:br:federal:lei:1992-05-08;8420-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As comissões pagas fora do prazo previsto no parágrafo anterior deverão ser corrigidas monetariamente. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:1992-05-08;8420">Lei nº 8.420, de 8.5.1992</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art32_par3">
+            <!--Link: urn:lex:br:federal:lei:1992-05-08;8420-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    É facultado ao representante comercial emitir títulos de créditos para cobrança de comissões. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:1992-05-08;8420">Lei nº 8.420, de 8.5.1992</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art32_par4">
+            <!--Link: urn:lex:br:federal:lei:1992-05-08;8420-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    As comissões deverão ser calculadas pelo valor total das mercadorias. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:1992-05-08;8420">Lei nº 8.420, de 8.5.1992</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art32_par5">
+            <!--Link: urn:lex:br:federal:lei:1992-05-08;8420-->
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Em caso de rescisão injusta do contrato por parte do representando, a eventual retribuição pendente, gerada por pedidos em carteira ou em fase de execução e recebimento, terá vencimento na data da rescisão. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:1992-05-08;8420">Lei nº 8.420, de 8.5.1992</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art32_par6">
+            <!--Link: urn:lex:br:federal:lei:1992-05-08;8420-->
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    (VETADO na <span xlink:href="urn:lex:br:federal:lei:1992-05-08;8420">Lei nº 8.420, de 8.5.1992</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art32_par7">
+            <!--Link: urn:lex:br:federal:lei:1992-05-08;8420-->
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    São vedadas na representação comercial alterações que impliquem, direta ou indiretamente, a diminuição da média dos resultados auferidos pelo representante nos últimos seis meses de vigência. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:1992-05-08;8420">Lei nº 8.420, de 8.5.1992</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art33">
+            
+            
+            <Rotulo>Art. 33.</Rotulo>
+            
+            <Caput id="art33_cpt">
+            
+            
+            
+            <p>
+    Não sendo previstos, no contrato de representação, os prazos para recusa das propostas ou pedidos, que hajam sido entregues pelo representante, acompanhados dos requisitos exigíveis, ficará o representado obrigado a creditar-lhe a respectiva comissão, se não manifestar a recusa, por escrito, nos prazos de 15, 30, 60 ou 120 dias, conforme se trate de comprador domiciliado, respectivamente, na mesma praça, em outra do mesmo Estado, em outro Estado ou no estrangeiro.
+
+  </p>
+            
+          </Caput><Paragrafo id="art33_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Nenhuma retribuição será devida ao representante comercial, se a falta de pagamento resultar de insolvência do comprador, bem como se o negócio vier a ser por ele desfeito ou for sustada a entrega de mercadorias devido à situação comercial do comprador, capaz de comprometer ou tornar duvidosa a liquidação.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art33_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Salvo ajuste em contrário, as comissões devidas serão pagas mensalmente, expedindo o representado a conta respectiva, conforme cópias das faturas remetidas aos compradores, no respectivo período.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art33_par3">
+            <!--Link: urn:lex:br:federal:lei:1992-05-08;8420-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Os valores das comissões para efeito tanto do pré-aviso como da indenização, prevista nesta Lei, deverão ser corrigidos monetariamente. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:1992-05-08;8420">Lei nº 8.420, de 8.5.1992</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art34">
+            
+            
+            <Rotulo>Art. 34.</Rotulo>
+            
+            <Caput id="art34_cpt">
+            
+            
+            
+            <p>
+    A denúncia, por qualquer das partes, sem causa justificada, do contrato de representação, ajustado por tempo indeterminado e que haja vigorado por mais de seis meses, obriga o denunciante, salvo outra garantia prevista no contrato, à concessão de pré-aviso, com antecedência mínima de trinta dias, ou ao pagamento de importância igual a um terço (1/3) das comissões auferidas pelo representante, nos três meses anteriores.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art35">
+            
+            
+            <Rotulo>Art. 35.</Rotulo>
+            
+            <Caput id="art35_cpt">
+            
+            
+            
+            <p>
+    Constituem motivos justos para rescisão do contrato de representação comercial, pelo representado:
+
+  </p>
+            <Alinea id="art35_cpt_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    a desídia do representante no cumprimento das obrigações decorrentes do contrato;
+
+  </p>
+            
+          </Alinea><Alinea id="art35_cpt_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    a prática de atos que importem em descrédito comercial do representado;
+
+  </p>
+            
+          </Alinea><Alinea id="art35_cpt_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    a falta de cumprimento de quaisquer obrigações inerentes ao contrato de representação comercial;
+
+  </p>
+            
+          </Alinea><Alinea id="art35_cpt_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    a condenação definitiva por crime considerado infamante;
+
+  </p>
+            
+          </Alinea><Alinea id="art35_cpt_ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    força maior.
+
+  </p>
+            
+          </Alinea>
+          </Caput>
+          </Artigo><Artigo id="art36">
+            
+            
+            <Rotulo>Art. 36.</Rotulo>
+            
+            <Caput id="art36_cpt">
+            
+            
+            
+            <p>
+    Constituem motivos justos para rescisão do contrato de representação comercial, pelo representante:
+
+  </p>
+            <Alinea id="art36_cpt_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    redução de esfera de atividade do representante em desacordo com as cláusulas do contrato;
+
+  </p>
+            
+          </Alinea><Alinea id="art36_cpt_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    a quebra, direta ou indireta, da exclusividade, se prevista no contrato;
+
+  </p>
+            
+          </Alinea><Alinea id="art36_cpt_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    a fixação abusiva de preços em relação à zona do representante, com o exclusivo escopo de impossibilitar-lhe ação regular;
+
+  </p>
+            
+          </Alinea><Alinea id="art36_cpt_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    o não-pagamento de sua retribuição na época devida;
+
+  </p>
+            
+          </Alinea><Alinea id="art36_cpt_ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    força maior.
+
+  </p>
+            
+          </Alinea>
+          </Caput>
+          </Artigo><Artigo id="art37">
+            
+            
+            <Rotulo>Art. 37.</Rotulo>
+            
+            <Caput id="art37_cpt">
+            
+            
+            
+            <p>
+    Somente ocorrendo motivo justo para a rescisão do contrato, poderá o representado reter comissões devidas ao representante, com o fim de ressarcir-se de danos por este causados e, bem assim, nas hipóteses previstas no art. 35, a título de compensação.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art38">
+            
+            
+            <Rotulo>Art. 38.</Rotulo>
+            
+            <Caput id="art38_cpt">
+            
+            
+            
+            <p>
+    Não serão prejudicados os direitos dos representantes comerciais quando, a título de cooperação, desempenhem, temporariamente, a pedido do representado, encargos ou atribuições diversos dos previstos no contrato de representação.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art39">
+            
+            
+            <Rotulo>Art. 39.</Rotulo>
+            
+            <Caput id="art39_cpt">
+            <!--Link: urn:lex:br:federal:lei:1992-05-08;8420-->
+            
+            
+            <p>
+    Para julgamento das controvérsias que surgirem entre representante e representado é competente a Justiça Comum e o foro do domicílio do representante, aplicando-se o procedimento sumaríssimo previsto no art. 275 do Código de Processo Civil, ressalvada a competência do Juizado de Pequenas Causas. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1992-05-08;8420">Lei nº 8.420, de 8.5.1992</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art40">
+            
+            
+            <Rotulo>Art. 40.</Rotulo>
+            
+            <Caput id="art40_cpt">
+            
+            
+            
+            <p>
+    Dentro de cento e oitenta (180) dias da publicação da presente Lei, serão formalizadas, entre representado e representantes, em documento escrito, as condições das representações comerciais vigentes.
+
+  </p>
+            
+          </Caput><Paragrafo id="art40_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A indenização devida pela rescisão dos contratos de representação comercial vigentes na data desta Lei, fora dos casos previstos no art. 35, e quando as partes não tenham usado da faculdade prevista neste artigo, será calculada, sobre a retribuição percebida, pelo representante, nos últimos cinco anos anteriores à vigência desta lei.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art41">
+            
+            
+            <Rotulo>Art. 41.</Rotulo>
+            
+            <Caput id="art41_cpt">
+            <!--Link: urn:lex:br:federal:lei:1992-05-08;8420-->
+            
+            
+            <p>
+    Ressalvada expressa vedação contratual, o representante comercial poderá exercer sua atividade para mais de uma empresa e empregá-la em outros mistéres ou ramos de negócios. (Artigo acrescido pela <span xlink:href="urn:lex:br:federal:lei:1992-05-08;8420">Lei nº 8.420, de 8.5.1992</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art42">
+            
+            
+            <Rotulo>Art. 42.</Rotulo>
+            
+            <Caput id="art42_cpt">
+            
+            
+            
+            <p>
+    Observadas as disposições constantes do artigo anterior, é facultado ao representante contratar com outros representantes comerciais a execução dos serviços relacionados com a representação.
+
+  </p>
+            
+          </Caput><Paragrafo id="art42_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    ° Na hipótese deste artigo, o pagamento das comissões a representante comercial contratado dependerá da liquidação da conta de comissão devida pelo representando ao representante contratante.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art42_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Ao representante contratado, no caso de rescisão de representação, será devida pelo representante contratante a participação no que houver recebido da representada a título de indenização e aviso prévio, proporcionalmente às retribuições auferidas pelo representante contratado na vigência do contrato.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art42_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Se o contrato referido no caput deste artigo for rescindido sem motivo justo pelo representante contratante, o representante contratado fará jus ao aviso prévio e indenização na forma da lei.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art42_par4">
+            <!--Link: urn:lex:br:federal:lei:1992-05-08;8420-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Os prazos de que trata o art. 33 desta Lei são aumentados em dez dias quando se tratar de contrato realizado entre representantes comerciais. (Artigo acrescido pela <span xlink:href="urn:lex:br:federal:lei:1992-05-08;8420">Lei nº 8.420, de 8.5.1992</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art43">
+            
+            
+            <Rotulo>Art. 43.</Rotulo>
+            
+            <Caput id="art43_cpt">
+            <!--Link: urn:lex:br:federal:lei:1992-05-08;8420-->
+            
+            
+            <p>
+    É vedada no contrato de representação comercial a inclusão de cláusulas del credere. (Artigo acrescido pela <span xlink:href="urn:lex:br:federal:lei:1992-05-08;8420">Lei nº 8.420, de 8.5.1992</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art44">
+            
+            
+            <Rotulo>Art. 44.</Rotulo>
+            
+            <Caput id="art44_cpt">
+            
+            
+            
+            <p>
+    No caso de falência ou de recuperação judicial do representado, as importâncias por ele devidas ao representante comercial, relacionadas com a representação, inclusive comissões vencidas e vincendas, indenização e aviso prévio, e qualquer outra verba devida ao representante oriunda da relação estabelecida com base nesta Lei, serão consideradas créditos da mesma natureza dos créditos trabalhistas para fins de inclusão no pedido de falência ou plano de recuperação judicial.
+
+  </p>
+            
+          </Caput><Paragrafo id="art44_par1u">
+            <!--Link: urn:lex:br:federal:lei:1992-05-08;8420--><!--Link: urn:lex:br:federal:lei:2021-08-26;14195-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Os créditos devidos ao representante comercial reconhecidos em título executivo judicial transitado em julgado após o deferimento do processamento da recuperação judicial, e a sua respectiva execução, inclusive quanto aos honorários advocatícios, não se sujeitarão à recuperação judicial, aos seus efeitos e à competência do juízo da recuperação, ainda que existentes na data do pedido, e prescreverá em 5 (cinco) anos a ação do representante comercial para pleitear a retribuição que lhe é devida e os demais direitos garantidos por esta Lei. (Artigo acrescido pela <span xlink:href="urn:lex:br:federal:lei:1992-05-08;8420">Lei nº 8.420, de 8.5.1992</span>, e com nova redação dada pela <span xlink:href="urn:lex:br:federal:lei:2021-08-26;14195">Lei nº 14.195, de 26.8.2021</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art45">
+            
+            
+            <Rotulo>Art. 45.</Rotulo>
+            
+            <Caput id="art45_cpt">
+            <!--Link: urn:lex:br:federal:lei:1992-05-08;8420-->
+            
+            
+            <p>
+    Não constitui motivo justo para rescisão do contrato de representação comercial o impedimento temporário do representante comercial que estiver em gozo do benefício de auxílio-doença concedido pela previdência social. (Artigo acrescido pela <span xlink:href="urn:lex:br:federal:lei:1992-05-08;8420">Lei nº 8.420, de 8.5.1992</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art46">
+            
+            
+            <Rotulo>Art. 46.</Rotulo>
+            
+            <Caput id="art46_cpt">
+            <!--Link: urn:lex:br:federal:lei:1992-05-08;8420-->
+            
+            
+            <p>
+    Os valores a que se referem a alínea j do art. 27, o § 5° do art. 32 e o art. 34 desta Lei serão corrigidos monetariamente com base na variação dos BTNs ou por outro indexador que venha a substituí-los e legislação ulterior aplicável à matéria. (Artigo acrescido pela <span xlink:href="urn:lex:br:federal:lei:1992-05-08;8420">Lei nº 8.420, de 8.5.1992</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art47">
+            
+            
+            <Rotulo>Art. 47.</Rotulo>
+            
+            <Caput id="art47_cpt">
+            
+            
+            
+            <p>
+    Compete ao Conselho Federal dos Representantes Comerciais fiscalizar a execução da presente Lei.
+
+  </p>
+            
+          </Caput><Paragrafo id="art47_par1u">
+            <!--Link: urn:lex:br:federal:lei:1992-05-08;8420-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Em caso de inobservância das prescrições legais, caberá intervenção do Conselho Federal nos Conselhos Regionais, por decisão da Diretoria do primeiro ad referendum da reunião plenária, assegurado, em qualquer caso, o direito de defesa. A intervenção cessará quando do cumprimento da lei. (Artigo acrescido pela <span xlink:href="urn:lex:br:federal:lei:1992-05-08;8420">Lei nº 8.420, de 8.5.1992</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art48">
+            
+            
+            <Rotulo>Art. 48.</Rotulo>
+            
+            <Caput id="art48_cpt">
+            <!--Link: urn:lex:br:federal:lei:1992-05-08;8420-->
+            
+            
+            <p>
+    Esta lei entra em vigor na data de sua publicação. (Primitivo art. 42 renumerado em decorrência da inclusão de novos artigos pela <span xlink:href="urn:lex:br:federal:lei:1992-05-08;8420">Lei nº 8.420, de 8.5.1992</span>) Art . 49. Revogam-se as disposições em contrário. (Primitivo art. 42 renumerado em decorrência da inclusão de novos artigos pela <span xlink:href="urn:lex:br:federal:lei:1992-05-08;8420">Lei nº 8.420, de 8.5.1992</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 9 de dezembro de 1965; 144º da Independência e 77º da República.</p></LocalDataFecho><Assinatura><NomePessoa>H. CASTELLO BRANCO</NomePessoa><NomePessoa>Walter Peracchi Barcellos</NomePessoa><NomePessoa>Octávio Bulhões</NomePessoa></Assinatura></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>

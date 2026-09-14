@@ -1,0 +1,2670 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:1999-01-29;9784"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">LEI Nº 9.784, DE 29 DE JANEIRO DE 1999 </Epigrafe>
+		  <Ementa id="ementa">Regula o processo administrativo no âmbito da Administração Pública Federal.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA
+  </p><p>
+    Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Capitulo id="cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DAS DISPOSIÇÕES GERAIS
+
+  </NomeAgrupador>
+            <Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    Esta Lei estabelece normas básicas sobre o processo administrativo no âmbito da Administração Federal direta e indireta, visando, em especial, à proteção dos direitos dos administrados e ao melhor cumprimento dos fins da Administração.
+
+  </p>
+            
+          </Caput><Paragrafo id="art1_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os preceitos desta Lei também se aplicam aos órgãos dos Poderes Legislativo e Judiciário da União, quando no desempenho de função administrativa.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art1_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Para os fins desta Lei, consideram-se:
+
+  </p>
+            <Inciso id="art1_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    órgão - a unidade de atuação integrante da estrutura da Administração direta e da estrutura da Administração indireta;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    entidade - a unidade de atuação dotada de personalidade jurídica;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_par2_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    autoridade - o servidor ou agente público dotado de poder de decisão.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    A Administração Pública obedecerá, dentre outros, aos princípios da legalidade, finalidade, motivação, razoabilidade, proporcionalidade, moralidade, ampla defesa, contraditório, segurança jurídica, interesse público e eficiência.
+
+  </p>
+            
+          </Caput><Paragrafo id="art2_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Nos processos administrativos serão observados, entre outros, os critérios de:
+
+  </p>
+            <Inciso id="art2_par1u_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    atuação conforme a lei e o Direito;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par1u_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    atendimento a fins de interesse geral, vedada a renúncia total ou parcial de poderes ou competências, salvo autorização em lei;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par1u_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    objetividade no atendimento do interesse público, vedada a promoção pessoal de agentes ou autoridades;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par1u_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    atuação segundo padrões éticos de probidade, decoro e boa-fé;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par1u_inc5">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    divulgação oficial dos atos administrativos, ressalvadas as hipóteses de sigilo previstas na <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição</span>;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par1u_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    adequação entre meios e fins, vedada a imposição de obrigações, restrições e sanções em medida superior àquelas estritamente necessárias ao atendimento do interesse público;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par1u_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    indicação dos pressupostos de fato e de direito que determinarem a decisão;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par1u_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    observância das formalidades essenciais à garantia dos direitos dos administrados;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par1u_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    adoção de formas simples, suficientes para propiciar adequado grau de certeza, segurança e respeito aos direitos dos administrados;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par1u_inc10">
+            
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    garantia dos direitos à comunicação, à apresentação de alegações finais, à produção de provas e à interposição de recursos, nos processos de que possam resultar sanções e nas situações de litígio;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par1u_inc11">
+            
+            
+            <Rotulo>XI –</Rotulo>
+            <p>
+    proibição de cobrança de despesas processuais, ressalvadas as previstas em lei;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par1u_inc12">
+            
+            
+            <Rotulo>XII –</Rotulo>
+            <p>
+    impulsão, de ofício, do processo administrativo, sem prejuízo da atuação dos interessados;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par1u_inc13">
+            
+            
+            <Rotulo>XIII –</Rotulo>
+            <p>
+    interpretação da norma administrativa da forma que melhor garanta o atendimento do fim público a que se dirige, vedada aplicação retroativa de nova interpretação.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DOS DIREITOS DOS ADMINISTRADOS
+
+  </NomeAgrupador>
+            <Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    O administrado tem os seguintes direitos perante a Administração, sem prejuízo de outros que lhe sejam assegurados:
+
+  </p>
+            <Inciso id="art3_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    ser tratado com respeito pelas autoridades e servidores, que deverão facilitar o exercício de seus direitos e o cumprimento de suas obrigações;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    ter ciência da tramitação dos processos administrativos em que tenha a condição de interessado, ter vista dos autos, obter cópias de documentos neles contidos e conhecer as decisões proferidas;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    formular alegações e apresentar documentos antes da decisão, os quais serão objeto de consideração pelo órgão competente;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    fazer-se assistir, facultativamente, por advogado, salvo quando obrigatória a representação, por força de lei.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap3">
+            
+            
+            <Rotulo>CAPÍTULO III</Rotulo>
+            <NomeAgrupador>
+    DOS DEVERES DO ADMINISTRADO
+
+  </NomeAgrupador>
+            <Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    São deveres do administrado perante a Administração, sem prejuízo de outros previstos em ato normativo:
+
+  </p>
+            <Inciso id="art4_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    expor os fatos conforme a verdade;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    proceder com lealdade, urbanidade e boa-fé;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    não agir de modo temerário;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    prestar as informações que lhe forem solicitadas e colaborar para o esclarecimento dos fatos.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap4">
+            
+            
+            <Rotulo>CAPÍTULO IV</Rotulo>
+            <NomeAgrupador>
+    DO INÍCIO DO PROCESSO
+
+  </NomeAgrupador>
+            <Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    O processo administrativo pode iniciar-se de ofício ou a pedido de interessado.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    O requerimento inicial do interessado, salvo casos em que for admitida solicitação oral, deve ser formulado por escrito e conter os seguintes dados:
+
+  </p>
+            <Inciso id="art6_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    órgão ou autoridade administrativa a que se dirige;
+
+  </p>
+            
+          </Inciso><Inciso id="art6_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    identificação do interessado ou de quem o represente;
+
+  </p>
+            
+          </Inciso><Inciso id="art6_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    domicílio do requerente ou local para recebimento de comunicações;
+
+  </p>
+            
+          </Inciso><Inciso id="art6_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    formulação do pedido, com exposição dos fatos e de seus fundamentos;
+
+  </p>
+            
+          </Inciso><Inciso id="art6_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    data e assinatura do requerente ou de seu representante.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art6_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    É vedada à Administração a recusa imotivada de recebimento de documentos, devendo o servidor orientar o interessado quanto ao suprimento de eventuais falhas.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    Os órgãos e entidades administrativas deverão elaborar modelos ou formulários padronizados para assuntos que importem pretensões equivalentes.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    Quando os pedidos de uma pluralidade de interessados tiverem conteúdo e fundamentos idênticos, poderão ser formulados em um único requerimento, salvo preceito legal em contrário.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap5">
+            
+            
+            <Rotulo>CAPÍTULO V</Rotulo>
+            <NomeAgrupador>
+    DOS INTERESSADOS
+
+  </NomeAgrupador>
+            <Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            
+            
+            
+            <p>
+    São legitimados como interessados no processo administrativo:
+
+  </p>
+            <Inciso id="art9_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    pessoas físicas ou jurídicas que o iniciem como titulares de direitos ou interesses individuais ou no exercício do direito de representação;
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    aqueles que, sem terem iniciado o processo, têm direitos ou interesses que possam ser afetados pela decisão a ser adotada;
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    as organizações e associações representativas, no tocante a direitos e interesses coletivos;
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    as pessoas ou as associações legalmente constituídas quanto a direitos ou interesses difusos.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>
+    São capazes, para fins de processo administrativo, os maiores de dezoito anos, ressalvada previsão especial em ato normativo próprio.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap6">
+            
+            
+            <Rotulo>CAPÍTULO VI</Rotulo>
+            <NomeAgrupador>
+    DA COMPETÊNCIA
+
+  </NomeAgrupador>
+            <Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            <p>
+    A competência é irrenunciável e se exerce pelos órgãos administrativos a que foi atribuída como própria, salvo os casos de delegação e avocação legalmente admitidos.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            
+            
+            
+            <p>
+    Um órgão administrativo e seu titular poderão, se não houver impedimento legal, delegar parte da sua competência a outros órgãos ou titulares, ainda que estes não lhe sejam hierarquicamente subordinados, quando for conveniente, em razão de circunstâncias de índole técnica, social, econômica, jurídica ou territorial.
+
+  </p>
+            
+          </Caput><Paragrafo id="art12_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O disposto no caput deste artigo aplica-se à delegação de competência dos órgãos colegiados aos respectivos presidentes.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>
+    Não podem ser objeto de delegação:
+
+  </p>
+            <Inciso id="art13_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a edição de atos de caráter normativo;
+
+  </p>
+            
+          </Inciso><Inciso id="art13_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a decisão de recursos administrativos;
+
+  </p>
+            
+          </Inciso><Inciso id="art13_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    as matérias de competência exclusiva do órgão ou autoridade.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            <p>
+    O ato de delegação e sua revogação deverão ser publicados no meio oficial.
+
+  </p>
+            
+          </Caput><Paragrafo id="art14_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O ato de delegação especificará as matérias e poderes transferidos, os limites da atuação do delegado, a duração e os objetivos da delegação e o recurso cabível, podendo conter ressalva de exercício da atribuição delegada.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art14_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O ato de delegação é revogável a qualquer tempo pela autoridade delegante.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art14_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    As decisões adotadas por delegação devem mencionar explicitamente esta qualidade e considerar-se-ão editadas pelo delegado.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>
+    Será permitida, em caráter excepcional e por motivos relevantes devidamente justificados, a avocação temporária de competência atribuída a órgão hierarquicamente inferior.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            
+            
+            
+            <p>
+    Os órgãos e entidades administrativas divulgarão publicamente os locais das respectivas sedes e, quando conveniente, a unidade fundacional competente em matéria de interesse especial.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            
+            
+            
+            <p>
+    Inexistindo competência legal específica, o processo administrativo deverá ser iniciado perante a autoridade de menor grau hierárquico para decidir.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap7">
+            
+            
+            <Rotulo>CAPÍTULO VII</Rotulo>
+            <NomeAgrupador>
+    DOS IMPEDIMENTOS E DA SUSPEIÇÃO
+
+  </NomeAgrupador>
+            <Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            
+            
+            
+            <p>
+    É impedido de atuar em processo administrativo o servidor ou autoridade que:
+
+  </p>
+            <Inciso id="art18_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    tenha interesse direto ou indireto na matéria;
+
+  </p>
+            
+          </Inciso><Inciso id="art18_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    tenha participado ou venha a participar como perito, testemunha ou representante, ou se tais situações ocorrem quanto ao cônjuge, companheiro ou parente e afins até o terceiro grau;
+
+  </p>
+            
+          </Inciso><Inciso id="art18_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    esteja litigando judicial ou administrativamente com o interessado ou respectivo cônjuge ou companheiro.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            
+            
+            
+            <p>
+    A autoridade ou servidor que incorrer em impedimento deve comunicar o fato à autoridade competente, abstendo-se de atuar.
+
+  </p>
+            
+          </Caput><Paragrafo id="art19_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A omissão do dever de comunicar o impedimento constitui falta grave, para efeitos disciplinares.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            
+            
+            
+            <p>
+    Pode ser argüida a suspeição de autoridade ou servidor que tenha amizade íntima ou inimizade notória com algum dos interessados ou com os respectivos cônjuges, companheiros, parentes e afins até o terceiro grau.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            
+            
+            
+            <p>
+    O indeferimento de alegação de suspeição poderá ser objeto de recurso, sem efeito suspensivo.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap8">
+            
+            
+            <Rotulo>CAPÍTULO VIII</Rotulo>
+            <NomeAgrupador>
+    DA FORMA, TEMPO E LUGAR DOS ATOS DO PROCESSO
+
+  </NomeAgrupador>
+            <Artigo id="art22">
+            
+            
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            
+            
+            
+            <p>
+    Os atos do processo administrativo não dependem de forma determinada senão quando a lei expressamente a exigir.
+
+  </p>
+            
+          </Caput><Paragrafo id="art22_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os atos do processo devem ser produzidos por escrito, em vernáculo, com a data e o local de sua realização e a assinatura da autoridade responsável.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art22_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Salvo imposição legal, o reconhecimento de firma somente será exigido quando houver dúvida de autenticidade.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art22_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A autenticação de documentos exigidos em cópia poderá ser feita pelo órgão administrativo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art22_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O processo deverá ter suas páginas numeradas seqüencialmente e rubricadas.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art23">
+            
+            
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            
+            
+            
+            <p>
+    Os atos do processo devem realizar-se em dias úteis, no horário normal de funcionamento da repartição na qual tramitar o processo.
+
+  </p>
+            
+          </Caput><Paragrafo id="art23_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Serão concluídos depois do horário normal os atos já iniciados, cujo adiamento prejudique o curso regular do procedimento ou cause dano ao interessado ou à Administração.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art24">
+            
+            
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput id="art24_cpt">
+            
+            
+            
+            <p>
+    Inexistindo disposição específica, os atos do órgão ou autoridade responsável pelo processo e dos administrados que dele participem devem ser praticados no prazo de cinco dias, salvo motivo de força maior.
+
+  </p>
+            
+          </Caput><Paragrafo id="art24_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O prazo previsto neste artigo pode ser dilatado até o dobro, mediante comprovada justificação.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art25">
+            
+            
+            <Rotulo>Art. 25.</Rotulo>
+            
+            <Caput id="art25_cpt">
+            
+            
+            
+            <p>
+    Os atos do processo devem realizar-se preferencialmente na sede do órgão, cientificando-se o interessado se outro for o local de realização.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap9">
+            
+            
+            <Rotulo>CAPÍTULO IX</Rotulo>
+            <NomeAgrupador>
+    DA COMUNICAÇÃO DOS ATOS
+
+  </NomeAgrupador>
+            <Artigo id="art26">
+            
+            
+            <Rotulo>Art. 26.</Rotulo>
+            
+            <Caput id="art26_cpt">
+            
+            
+            
+            <p>
+    O órgão competente perante o qual tramita o processo administrativo determinará a intimação do interessado para ciência de decisão ou a efetivação de diligências.
+
+  </p>
+            
+          </Caput><Paragrafo id="art26_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A intimação deverá conter:
+
+  </p>
+            <Inciso id="art26_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    identificação do intimado e nome do órgão ou entidade administrativa;
+
+  </p>
+            
+          </Inciso><Inciso id="art26_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    finalidade da intimação;
+
+  </p>
+            
+          </Inciso><Inciso id="art26_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    data, hora e local em que deve comparecer;
+
+  </p>
+            
+          </Inciso><Inciso id="art26_par1_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    se o intimado deve comparecer pessoalmente, ou fazer-se representar;
+
+  </p>
+            
+          </Inciso><Inciso id="art26_par1_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    informação da continuidade do processo independentemente do seu comparecimento;
+
+  </p>
+            
+          </Inciso><Inciso id="art26_par1_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    indicação dos fatos e fundamentos legais pertinentes.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art26_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A intimação observará a antecedência mínima de três dias úteis quanto à data de comparecimento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art26_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A intimação pode ser efetuada por ciência no processo, por via postal com aviso de recebimento, por telegrama ou outro meio que assegure a certeza da ciência do interessado.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art26_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    No caso de interessados indeterminados, desconhecidos ou com domicílio indefinido, a intimação deve ser efetuada por meio de publicação oficial.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art26_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    As intimações serão nulas quando feitas sem observância das prescrições legais, mas o comparecimento do administrado supre sua falta ou irregularidade.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art27">
+            
+            
+            <Rotulo>Art. 27.</Rotulo>
+            
+            <Caput id="art27_cpt">
+            
+            
+            
+            <p>
+    O desatendimento da intimação não importa o reconhecimento da verdade dos fatos, nem a renúncia a direito pelo administrado.
+
+  </p>
+            
+          </Caput><Paragrafo id="art27_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    No prosseguimento do processo, será garantido direito de ampla defesa ao interessado.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art28">
+            
+            
+            <Rotulo>Art. 28.</Rotulo>
+            
+            <Caput id="art28_cpt">
+            
+            
+            
+            <p>
+    Devem ser objeto de intimação os atos do processo que resultem para o interessado em imposição de deveres, ônus, sanções ou restrição ao exercício de direitos e atividades e os atos de outra natureza, de seu interesse.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap10">
+            
+            
+            <Rotulo>CAPÍTULO X</Rotulo>
+            <NomeAgrupador>
+    DA INSTRUÇÃO
+
+  </NomeAgrupador>
+            <Artigo id="art29">
+            
+            
+            <Rotulo>Art. 29.</Rotulo>
+            
+            <Caput id="art29_cpt">
+            
+            
+            
+            <p>
+    As atividades de instrução destinadas a averiguar e comprovar os dados necessários à tomada de decisão realizam-se de ofício ou mediante impulsão do órgão responsável pelo processo, sem prejuízo do direito dos interessados de propor atuações probatórias.
+
+  </p>
+            
+          </Caput><Paragrafo id="art29_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O órgão competente para a instrução fará constar dos autos os dados necessários à decisão do processo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art29_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os atos de instrução que exijam a atuação dos interessados devem realizar-se do modo menos oneroso para estes.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art30">
+            
+            
+            <Rotulo>Art. 30.</Rotulo>
+            
+            <Caput id="art30_cpt">
+            
+            
+            
+            <p>
+    São inadmissíveis no processo administrativo as provas obtidas por meios ilícitos.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art31">
+            
+            
+            <Rotulo>Art. 31.</Rotulo>
+            
+            <Caput id="art31_cpt">
+            
+            
+            
+            <p>
+    Quando a matéria do processo envolver assunto de interesse geral, o órgão competente poderá, mediante despacho motivado, abrir período de consulta pública para manifestação de terceiros, antes da decisão do pedido, se não houver prejuízo para a parte interessada.
+
+  </p>
+            
+          </Caput><Paragrafo id="art31_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A abertura da consulta pública será objeto de divulgação pelos meios oficiais, a fim de que pessoas físicas ou jurídicas possam examinar os autos, fixando-se prazo para oferecimento de alegações escritas.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art31_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O comparecimento à consulta pública não confere, por si, a condição de interessado do processo, mas confere o direito de obter da Administração resposta fundamentada, que poderá ser comum a todas as alegações substancialmente iguais.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art32">
+            
+            
+            <Rotulo>Art. 32.</Rotulo>
+            
+            <Caput id="art32_cpt">
+            
+            
+            
+            <p>
+    Antes da tomada de decisão, a juízo da autoridade, diante da relevância da questão, poderá ser realizada audiência pública para debates sobre a matéria do processo.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art33">
+            
+            
+            <Rotulo>Art. 33.</Rotulo>
+            
+            <Caput id="art33_cpt">
+            
+            
+            
+            <p>
+    Os órgãos e entidades administrativas, em matéria relevante, poderão estabelecer outros meios de participação de administrados, diretamente ou por meio de organizações e associações legalmente reconhecidas.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art34">
+            
+            
+            <Rotulo>Art. 34.</Rotulo>
+            
+            <Caput id="art34_cpt">
+            
+            
+            
+            <p>
+    Os resultados da consulta e audiência pública e de outros meios de participação de administrados deverão ser apresentados com a indicação do procedimento adotado.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art35">
+            
+            
+            <Rotulo>Art. 35.</Rotulo>
+            
+            <Caput id="art35_cpt">
+            
+            
+            
+            <p>
+    Quando necessária à instrução do processo, a audiência de outros órgãos ou entidades administrativas poderá ser realizada em reunião conjunta, com a participação de titulares ou representantes dos órgãos competentes, lavrando-se a respectiva ata, a ser juntada aos autos.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art36">
+            
+            
+            <Rotulo>Art. 36.</Rotulo>
+            
+            <Caput id="art36_cpt">
+            
+            
+            
+            <p>
+    Cabe ao interessado a prova dos fatos que tenha alegado, sem prejuízo do dever atribuído ao órgão competente para a instrução e do disposto no art. 37 desta Lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art37">
+            
+            
+            <Rotulo>Art. 37.</Rotulo>
+            
+            <Caput id="art37_cpt">
+            
+            
+            
+            <p>
+    Quando o interessado declarar que fatos e dados estão registrados em documentos existentes na própria Administração responsável pelo processo ou em outro órgão administrativo, o órgão competente para a instrução proverá, de ofício, à obtenção dos documentos ou das respectivas cópias.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art38">
+            
+            
+            <Rotulo>Art. 38.</Rotulo>
+            
+            <Caput id="art38_cpt">
+            
+            
+            
+            <p>
+    O interessado poderá, na fase instrutória e antes da tomada da decisão, juntar documentos e pareceres, requerer diligências e perícias, bem como aduzir alegações referentes à matéria objeto do processo.
+
+  </p>
+            
+          </Caput><Paragrafo id="art38_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os elementos probatórios deverão ser considerados na motivação do relatório e da decisão.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art38_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Somente poderão ser recusadas, mediante decisão fundamentada, as provas propostas pelos interessados quando sejam ilícitas, impertinentes, desnecessárias ou protelatórias.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art39">
+            
+            
+            <Rotulo>Art. 39.</Rotulo>
+            
+            <Caput id="art39_cpt">
+            
+            
+            
+            <p>
+    Quando for necessária a prestação de informações ou a apresentação de provas pelos interessados ou terceiros, serão expedidas intimações para esse fim, mencionando-se data, prazo, forma e condições de atendimento.
+
+  </p>
+            
+          </Caput><Paragrafo id="art39_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Não sendo atendida a intimação, poderá o órgão competente, se entender relevante a matéria, suprir de ofício a omissão, não se eximindo de proferir a decisão.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art40">
+            
+            
+            <Rotulo>Art. 40.</Rotulo>
+            
+            <Caput id="art40_cpt">
+            
+            
+            
+            <p>
+    Quando dados, atuações ou documentos solicitados ao interessado forem necessários à apreciação de pedido formulado, o não atendimento no prazo fixado pela Administração para a respectiva apresentação implicará arquivamento do processo.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art41">
+            
+            
+            <Rotulo>Art. 41.</Rotulo>
+            
+            <Caput id="art41_cpt">
+            
+            
+            
+            <p>
+    Os interessados serão intimados de prova ou diligência ordenada, com antecedência mínima de três dias úteis, mencionando-se data, hora e local de realização.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art42">
+            
+            
+            <Rotulo>Art. 42.</Rotulo>
+            
+            <Caput id="art42_cpt">
+            
+            
+            
+            <p>
+    Quando deva ser obrigatoriamente ouvido um órgão consultivo, o parecer deverá ser emitido no prazo máximo de quinze dias, salvo norma especial ou comprovada necessidade de maior prazo.
+
+  </p>
+            
+          </Caput><Paragrafo id="art42_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Se um parecer obrigatório e vinculante deixar de ser emitido no prazo fixado, o processo não terá seguimento até a respectiva apresentação, responsabilizando-se quem der causa ao atraso.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art42_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Se um parecer obrigatório e não vinculante deixar de ser emitido no prazo fixado, o processo poderá ter prosseguimento e ser decidido com sua dispensa, sem prejuízo da responsabilidade de quem se omitiu no atendimento.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art43">
+            
+            
+            <Rotulo>Art. 43.</Rotulo>
+            
+            <Caput id="art43_cpt">
+            
+            
+            
+            <p>
+    Quando por disposição de ato normativo devam ser previamente obtidos laudos técnicos de órgãos administrativos e estes não cumprirem o encargo no prazo assinalado, o órgão responsável pela instrução deverá solicitar laudo técnico de outro órgão dotado de qualificação e capacidade técnica equivalentes.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art44">
+            
+            
+            <Rotulo>Art. 44.</Rotulo>
+            
+            <Caput id="art44_cpt">
+            
+            
+            
+            <p>
+    Encerrada a instrução, o interessado terá o direito de manifestar-se no prazo máximo de dez dias, salvo se outro prazo for legalmente fixado.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art45">
+            
+            
+            <Rotulo>Art. 45.</Rotulo>
+            
+            <Caput id="art45_cpt">
+            
+            
+            
+            <p>
+    Em caso de risco iminente, a Administração Pública poderá motivadamente adotar providências acauteladoras sem a prévia manifestação do interessado.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art46">
+            
+            
+            <Rotulo>Art. 46.</Rotulo>
+            
+            <Caput id="art46_cpt">
+            
+            
+            
+            <p>
+    Os interessados têm direito à vista do processo e a obter certidões ou cópias reprográficas dos dados e documentos que o integram, ressalvados os dados e documentos de terceiros protegidos por sigilo ou pelo direito à privacidade, à honra e à imagem.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art47">
+            
+            
+            <Rotulo>Art. 47.</Rotulo>
+            
+            <Caput id="art47_cpt">
+            
+            
+            
+            <p>
+    O órgão de instrução que não for competente para emitir a decisão final elaborará relatório indicando o pedido inicial, o conteúdo das fases do procedimento e formulará proposta de decisão, objetivamente justificada, encaminhando o processo à autoridade competente.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap11">
+            
+            
+            <Rotulo>CAPÍTULO XI</Rotulo>
+            <NomeAgrupador>
+    DO DEVER DE DECIDIR
+
+  </NomeAgrupador>
+            <Artigo id="art48">
+            
+            
+            <Rotulo>Art. 48.</Rotulo>
+            
+            <Caput id="art48_cpt">
+            
+            
+            
+            <p>
+    A Administração tem o dever de explicitamente emitir decisão nos processos administrativos e sobre solicitações ou reclamações, em matéria de sua competência.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art49">
+            
+            
+            <Rotulo>Art. 49.</Rotulo>
+            
+            <Caput id="art49_cpt">
+            
+            
+            
+            <p>
+    Concluída a instrução de processo administrativo, a Administração tem o prazo de até trinta dias para decidir, salvo prorrogação por igual período expressamente motivada.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap11-1">
+            <!--Link: urn:lex:br:federal:lei:2021-09-30;14210-->
+            
+            <Rotulo>CAPÍTULO XI-A</Rotulo>
+            <NomeAgrupador>
+    DA DECISÃO COORDENADA (Capítulo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2021-09-30;14210">Lei nº 14.210, de 30.9.2021</span>)
+
+  </NomeAgrupador>
+            <Artigo id="art49-1">
+            
+            
+            <Rotulo>Art. 49-A.</Rotulo>
+            
+            <Caput id="art49-1_cpt">
+            
+            
+            
+            <p>
+    No âmbito da Administração Pública federal, as decisões administrativas que exijam a participação de 3 (três) ou mais setores, órgãos ou entidades poderão ser tomadas mediante decisão coordenada, sempre que:
+
+  </p>
+            <Inciso id="art49-1_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    for justificável pela relevância da matéria; e
+
+  </p>
+            
+          </Inciso><Inciso id="art49-1_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    houver discordância que prejudique a celeridade do processo administrativo decisório.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art49-1_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Para os fins desta Lei, considera-se decisão coordenada a instância de natureza interinstitucional ou intersetorial que atua de forma compartilhada com a finalidade de simplificar o processo administrativo mediante participação concomitante de todas as autoridades e agentes decisórios e dos responsáveis pela instrução técnico-jurídica, observada a natureza do objeto e a compatibilidade do procedimento e de sua formalização com a legislação pertinente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art49-1_par2">
+            <!--Link: urn:lex:br:federal:lei:2021-09-30;14210-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    (VETADO na <span xlink:href="urn:lex:br:federal:lei:2021-09-30;14210">Lei nº 14.210, de 30.9.2021</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art49-1_par3">
+            <!--Link: urn:lex:br:federal:lei:2021-09-30;14210-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    (VETADO na <span xlink:href="urn:lex:br:federal:lei:2021-09-30;14210">Lei nº 14.210, de 30.9.2021</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art49-1_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    A decisão coordenada não exclui a responsabilidade originária de cada órgão ou autoridade envolvida.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art49-1_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    A decisão coordenada obedecerá aos princípios da legalidade, da eficiência e da transparência, com utilização, sempre que necessário, da simplificação do procedimento e da concentração das instâncias decisórias.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art49-1_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    Não se aplica a decisão coordenada aos processos administrativos:
+
+  </p>
+            <Inciso id="art49-1_par6_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    de licitação;
+
+  </p>
+            
+          </Inciso><Inciso id="art49-1_par6_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    relacionados ao poder sancionador; ou
+
+  </p>
+            
+          </Inciso><Inciso id="art49-1_par6_inc3">
+            <!--Link: urn:lex:br:federal:lei:2021-09-30;14210-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    em que estejam envolvidas autoridades de Poderes distintos. (Artigo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2021-09-30;14210">Lei nº 14.210, de 30.9.2021</span>)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo id="art49-2">
+            
+            
+            <Rotulo>Art. 49-B.</Rotulo>
+            
+            <Caput id="art49-2_cpt">
+            
+            
+            
+            <p>
+    Poderão habilitar-se a participar da decisão coordenada, na qualidade de ouvintes, os interessados de que trata o art. 9º desta Lei.
+
+  </p>
+            
+          </Caput><Paragrafo id="art49-2_par1u">
+            <!--Link: urn:lex:br:federal:lei:2021-09-30;14210-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A participação na reunião, que poderá incluir direito a voz, será deferida por decisão irrecorrível da autoridade responsável pela convocação da decisão coordenada. (Artigo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2021-09-30;14210">Lei nº 14.210, de 30.9.2021</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art49-3">
+            
+            
+            <Rotulo>Art. 49-C.</Rotulo>
+            
+            <Caput id="art49-3_cpt">
+            <!--Link: urn:lex:br:federal:lei:2021-09-30;14210-->
+            
+            
+            <p>
+    (VETADO na <span xlink:href="urn:lex:br:federal:lei:2021-09-30;14210">Lei nº 14.210, de 30.9.2021</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art49-4">
+            
+            
+            <Rotulo>Art. 49-D.</Rotulo>
+            
+            <Caput id="art49-4_cpt">
+            <!--Link: urn:lex:br:federal:lei:2021-09-30;14210-->
+            
+            
+            <p>
+    Os participantes da decisão coordenada deverão ser intimados na forma do art. 26 desta Lei. (Artigo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2021-09-30;14210">Lei nº 14.210, de 30.9.2021</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art49-5">
+            
+            
+            <Rotulo>Art. 49-E.</Rotulo>
+            
+            <Caput id="art49-5_cpt">
+            
+            
+            
+            <p>
+    Cada órgão ou entidade participante é responsável pela elaboração de documento específico sobre o tema atinente à respectiva competência, a fim de subsidiar os trabalhos e integrar o processo da decisão coordenada.
+
+  </p>
+            
+          </Caput><Paragrafo id="art49-5_par1u">
+            <!--Link: urn:lex:br:federal:lei:2021-09-30;14210-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O documento previsto no caput deste artigo abordará a questão objeto da decisão coordenada e eventuais precedentes. (Artigo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2021-09-30;14210">Lei nº 14.210, de 30.9.2021</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art49-6">
+            
+            
+            <Rotulo>Art. 49-F.</Rotulo>
+            
+            <Caput id="art49-6_cpt">
+            
+            
+            
+            <p>
+    Eventual dissenso na solução do objeto da decisão coordenada deverá ser manifestado durante as reuniões, de forma fundamentada, acompanhado das propostas de solução e de alteração necessárias para a resolução da questão.
+
+  </p>
+            
+          </Caput><Paragrafo id="art49-6_par1u">
+            <!--Link: urn:lex:br:federal:lei:2021-09-30;14210-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Não poderá ser arguida matéria estranha ao objeto da convocação. (Artigo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2021-09-30;14210">Lei nº 14.210, de 30.9.2021</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art49-7">
+            
+            
+            <Rotulo>Art. 49-G.</Rotulo>
+            
+            <Caput id="art49-7_cpt">
+            
+            
+            
+            <p>
+    A conclusão dos trabalhos da decisão coordenada será consolidada em ata, que conterá as seguintes informações:
+
+  </p>
+            <Inciso id="art49-7_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    relato sobre os itens da pauta;
+
+  </p>
+            
+          </Inciso><Inciso id="art49-7_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    síntese dos fundamentos aduzidos;
+
+  </p>
+            
+          </Inciso><Inciso id="art49-7_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    síntese das teses pertinentes ao objeto da convocação;
+
+  </p>
+            
+          </Inciso><Inciso id="art49-7_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    registro das orientações, das diretrizes, das soluções ou das propostas de atos governamentais relativos ao objeto da convocação;
+
+  </p>
+            
+          </Inciso><Inciso id="art49-7_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    posicionamento dos participantes para subsidiar futura atuação governamental em matéria idêntica ou similar; e
+
+  </p>
+            
+          </Inciso><Inciso id="art49-7_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    decisão de cada órgão ou entidade relativa à matéria sujeita à sua competência.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art49-7_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Até a assinatura da ata, poderá ser complementada a fundamentação da decisão da autoridade ou do agente a respeito de matéria de competência do órgão ou da entidade representada.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art49-7_par2">
+            <!--Link: urn:lex:br:federal:lei:2021-09-30;14210-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    (VETADO na <span xlink:href="urn:lex:br:federal:lei:2021-09-30;14210">Lei nº 14.210, de 30.9.2021</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art49-7_par3">
+            <!--Link: urn:lex:br:federal:lei:2021-09-30;14210-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A ata será publicada por extrato no Diário Oficial da União, do qual deverão constar, além do registro referido no inciso IV do caput deste artigo, os dados identificadores da decisão coordenada e o órgão e o local em que se encontra a ata em seu inteiro teor, para conhecimento dos interessados. (Artigo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2021-09-30;14210">Lei nº 14.210, de 30.9.2021</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap12">
+            
+            
+            <Rotulo>CAPÍTULO XII</Rotulo>
+            <NomeAgrupador>
+    DA MOTIVAÇÃO
+
+  </NomeAgrupador>
+            <Artigo id="art50">
+            
+            
+            <Rotulo>Art. 50.</Rotulo>
+            
+            <Caput id="art50_cpt">
+            
+            
+            
+            <p>
+    Os atos administrativos deverão ser motivados, com indicação dos fatos e dos fundamentos jurídicos, quando:
+
+  </p>
+            <Inciso id="art50_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    neguem, limitem ou afetem direitos ou interesses;
+
+  </p>
+            
+          </Inciso><Inciso id="art50_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    imponham ou agravem deveres, encargos ou sanções;
+
+  </p>
+            
+          </Inciso><Inciso id="art50_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    decidam processos administrativos de concurso ou seleção pública;
+
+  </p>
+            
+          </Inciso><Inciso id="art50_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    dispensem ou declarem a inexigibilidade de processo licitatório;
+
+  </p>
+            
+          </Inciso><Inciso id="art50_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    decidam recursos administrativos;
+
+  </p>
+            
+          </Inciso><Inciso id="art50_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    decorram de reexame de ofício;
+
+  </p>
+            
+          </Inciso><Inciso id="art50_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    deixem de aplicar jurisprudência firmada sobre a questão ou discrepem de pareceres, laudos, propostas e relatórios oficiais;
+
+  </p>
+            
+          </Inciso><Inciso id="art50_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    importem anulação, revogação, suspensão ou convalidação de ato administrativo.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art50_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A motivação deve ser explícita, clara e congruente, podendo consistir em declaração de concordância com fundamentos de anteriores pareceres, informações, decisões ou propostas, que, neste caso, serão parte integrante do ato.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art50_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Na solução de vários assuntos da mesma natureza, pode ser utilizado meio mecânico que reproduza os fundamentos das decisões, desde que não prejudique direito ou garantia dos interessados.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art50_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A motivação das decisões de órgãos colegiados e comissões ou de decisões orais constará da respectiva ata ou de termo escrito.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap13">
+            
+            
+            <Rotulo>CAPÍTULO XIII</Rotulo>
+            <NomeAgrupador>
+    DA DESISTÊNCIA E OUTROS CASOS DE EXTINÇÃO DO PROCESSO
+
+  </NomeAgrupador>
+            <Artigo id="art51">
+            
+            
+            <Rotulo>Art. 51.</Rotulo>
+            
+            <Caput id="art51_cpt">
+            
+            
+            
+            <p>
+    O interessado poderá, mediante manifestação escrita, desistir total ou parcialmente do pedido formulado ou, ainda, renunciar a direitos disponíveis.
+
+  </p>
+            
+          </Caput><Paragrafo id="art51_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Havendo vários interessados, a desistência ou renúncia atinge somente quem a tenha formulado.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art51_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A desistência ou renúncia do interessado, conforme o caso, não prejudica o prosseguimento do processo, se a Administração considerar que o interesse público assim o exige.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art52">
+            
+            
+            <Rotulo>Art. 52.</Rotulo>
+            
+            <Caput id="art52_cpt">
+            
+            
+            
+            <p>
+    O órgão competente poderá declarar extinto o processo quando exaurida sua finalidade ou o objeto da decisão se tornar impossível, inútil ou prejudicado por fato superveniente.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap14">
+            
+            
+            <Rotulo>CAPÍTULO XIV</Rotulo>
+            <NomeAgrupador>
+    DA ANULAÇÃO, REVOGAÇÃO E CONVALIDAÇÃO
+
+  </NomeAgrupador>
+            <Artigo id="art53">
+            
+            
+            <Rotulo>Art. 53.</Rotulo>
+            
+            <Caput id="art53_cpt">
+            
+            
+            
+            <p>
+    A Administração deve anular seus próprios atos, quando eivados de vício de legalidade, e pode revogá-los por motivo de conveniência ou oportunidade, respeitados os direitos adquiridos.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art54">
+            
+            
+            <Rotulo>Art. 54.</Rotulo>
+            
+            <Caput id="art54_cpt">
+            
+            
+            
+            <p>
+    O direito da Administração de anular os atos administrativos de que decorram efeitos favoráveis para os destinatários decai em cinco anos, contados da data em que foram praticados, salvo comprovada má-fé.
+
+  </p>
+            
+          </Caput><Paragrafo id="art54_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    No caso de efeitos patrimoniais contínuos, o prazo de decadência contar-se-á da percepção do primeiro pagamento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art54_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Considera-se exercício do direito de anular qualquer medida de autoridade administrativa que importe impugnação à validade do ato.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art55">
+            
+            
+            <Rotulo>Art. 55.</Rotulo>
+            
+            <Caput id="art55_cpt">
+            
+            
+            
+            <p>
+    Em decisão na qual se evidencie não acarretarem lesão ao interesse público nem prejuízo a terceiros, os atos que apresentarem defeitos sanáveis poderão ser convalidados pela própria Administração.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap15">
+            
+            
+            <Rotulo>CAPÍTULO XV</Rotulo>
+            <NomeAgrupador>
+    DO RECURSO ADMINISTRATIVO E DA REVISÃO
+
+  </NomeAgrupador>
+            <Artigo id="art56">
+            
+            
+            <Rotulo>Art. 56.</Rotulo>
+            
+            <Caput id="art56_cpt">
+            
+            
+            
+            <p>
+    Das decisões administrativas cabe recurso, em face de razões de legalidade e de mérito.
+
+  </p>
+            
+          </Caput><Paragrafo id="art56_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O recurso será dirigido à autoridade que proferiu a decisão, a qual, se não a reconsiderar no prazo de cinco dias, o encaminhará à autoridade superior.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art56_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Salvo exigência legal, a interposição de recurso administrativo independe de caução.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art56_par3">
+            <!--Link: urn:lex:br:federal:lei:2006-12-19;11417-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Se o recorrente alegar que a decisão administrativa contraria enunciado da súmula vinculante, caberá à autoridade prolatora da decisão impugnada, se não a reconsiderar, explicitar, antes de encaminhar o recurso à autoridade superior, as razões da aplicabilidade ou inaplicabilidade da súmula, conforme o caso. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2006-12-19;11417">Lei nº 11.417, de 19.12.2006</span>, publicada no DOU de 20.12.2006, em vigor 3 (três) meses após a publicação)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art57">
+            
+            
+            <Rotulo>Art. 57.</Rotulo>
+            
+            <Caput id="art57_cpt">
+            
+            
+            
+            <p>
+    O recurso administrativo tramitará no máximo por três instâncias administrativas, salvo disposição legal diversa.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art58">
+            
+            
+            <Rotulo>Art. 58.</Rotulo>
+            
+            <Caput id="art58_cpt">
+            
+            
+            
+            <p>
+    Têm legitimidade para interpor recurso administrativo:
+
+  </p>
+            <Inciso id="art58_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    os titulares de direitos e interesses que forem parte no processo;
+
+  </p>
+            
+          </Inciso><Inciso id="art58_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    aqueles cujos direitos ou interesses forem indiretamente afetados pela decisão recorrida;
+
+  </p>
+            
+          </Inciso><Inciso id="art58_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    as organizações e associações representativas, no tocante a direitos e interesses coletivos;
+
+  </p>
+            
+          </Inciso><Inciso id="art58_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    os cidadãos ou associações, quanto a direitos ou interesses difusos.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art59">
+            
+            
+            <Rotulo>Art. 59.</Rotulo>
+            
+            <Caput id="art59_cpt">
+            
+            
+            
+            <p>
+    Salvo disposição legal específica, é de dez dias o prazo para interposição de recurso administrativo, contado a partir da ciência ou divulgação oficial da decisão recorrida.
+
+  </p>
+            
+          </Caput><Paragrafo id="art59_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Quando a lei não fixar prazo diferente, o recurso administrativo deverá ser decidido no prazo máximo de trinta dias, a partir do recebimento dos autos pelo órgão competente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art59_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O prazo mencionado no parágrafo anterior poderá ser prorrogado por igual período, ante justificativa explícita.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art60">
+            
+            
+            <Rotulo>Art. 60.</Rotulo>
+            
+            <Caput id="art60_cpt">
+            
+            
+            
+            <p>
+    O recurso interpõe-se por meio de requerimento no qual o recorrente deverá expor os fundamentos do pedido de reexame, podendo juntar os documentos que julgar convenientes.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art61">
+            
+            
+            <Rotulo>Art. 61.</Rotulo>
+            
+            <Caput id="art61_cpt">
+            
+            
+            
+            <p>
+    Salvo disposição legal em contrário, o recurso não tem efeito suspensivo.
+
+  </p>
+            
+          </Caput><Paragrafo id="art61_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Havendo justo receio de prejuízo de difícil ou incerta reparação decorrente da execução, a autoridade recorrida ou a imediatamente superior poderá, de ofício ou a pedido, dar efeito suspensivo ao recurso.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art62">
+            
+            
+            <Rotulo>Art. 62.</Rotulo>
+            
+            <Caput id="art62_cpt">
+            
+            
+            
+            <p>
+    Interposto o recurso, o órgão competente para dele conhecer deverá intimar os demais interessados para que, no prazo de cinco dias úteis, apresentem alegações.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art63">
+            
+            
+            <Rotulo>Art. 63.</Rotulo>
+            
+            <Caput id="art63_cpt">
+            
+            
+            
+            <p>
+    O recurso não será conhecido quando interposto:
+
+  </p>
+            <Inciso id="art63_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    fora do prazo;
+
+  </p>
+            
+          </Inciso><Inciso id="art63_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    perante órgão incompetente;
+
+  </p>
+            
+          </Inciso><Inciso id="art63_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    por quem não seja legitimado;
+
+  </p>
+            
+          </Inciso><Inciso id="art63_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    após exaurida a esfera administrativa.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art63_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Na hipótese do inciso II, será indicada ao recorrente a autoridade competente, sendo-lhe devolvido o prazo para recurso.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art63_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O não conhecimento do recurso não impede a Administração de rever de ofício o ato ilegal, desde que não ocorrida preclusão administrativa.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art64">
+            
+            
+            <Rotulo>Art. 64.</Rotulo>
+            
+            <Caput id="art64_cpt">
+            
+            
+            
+            <p>
+    O órgão competente para decidir o recurso poderá confirmar, modificar, anular ou revogar, total ou parcialmente, a decisão recorrida, se a matéria for de sua competência.
+
+  </p>
+            
+          </Caput><Paragrafo id="art64_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Se da aplicação do disposto neste artigo puder decorrer gravame à situação do recorrente, este deverá ser cientificado para que formule suas alegações antes da decisão.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art64-1">
+            
+            
+            <Rotulo>Art. 64-A.</Rotulo>
+            
+            <Caput id="art64-1_cpt">
+            <!--Link: urn:lex:br:federal:lei:2006-12-19;11417-->
+            
+            
+            <p>
+    Se o recorrente alegar violação de enunciado da súmula vinculante, o órgão competente para decidir o recurso explicitará as razões da aplicabilidade ou inaplicabilidade da súmula, conforme o caso. (Artigo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2006-12-19;11417">Lei nº 11.417, de 19.12.2006</span>, publicada no DOU de 20.12.2006, em vigor 3 (três) meses após a publicação)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art64-2">
+            
+            
+            <Rotulo>Art. 64-B.</Rotulo>
+            
+            <Caput id="art64-2_cpt">
+            <!--Link: urn:lex:br:federal:lei:2006-12-19;11417-->
+            
+            
+            <p>
+    Acolhida pelo Supremo Tribunal Federal a reclamação fundada em violação de enunciado da súmula vinculante, dar-se-á ciência à autoridade prolatora e ao órgão competente para o julgamento do recurso, que deverão adequar as futuras decisões administrativas em casos semelhantes, sob pena de responsabilização pessoal nas esferas cível, administrativa e penal. (Artigo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2006-12-19;11417">Lei nº 11.417, de 19.12.2006</span>, publicada no DOU de 20.12.2006, em vigor 3 (três) meses após a publicação)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art65">
+            
+            
+            <Rotulo>Art. 65.</Rotulo>
+            
+            <Caput id="art65_cpt">
+            
+            
+            
+            <p>
+    Os processos administrativos de que resultem sanções poderão ser revistos, a qualquer tempo, a pedido ou de ofício, quando surgirem fatos novos ou circunstâncias relevantes suscetíveis de justificar a inadequação da sanção aplicada.
+
+  </p>
+            
+          </Caput><Paragrafo id="art65_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Da revisão do processo não poderá resultar agravamento da sanção.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap16">
+            
+            
+            <Rotulo>CAPÍTULO XVI</Rotulo>
+            <NomeAgrupador>
+    DOS PRAZOS
+
+  </NomeAgrupador>
+            <Artigo id="art66">
+            
+            
+            <Rotulo>Art. 66.</Rotulo>
+            
+            <Caput id="art66_cpt">
+            
+            
+            
+            <p>
+    Os prazos começam a correr a partir da data da cientificação oficial, excluindo-se da contagem o dia do começo e incluindo-se o do vencimento.
+
+  </p>
+            
+          </Caput><Paragrafo id="art66_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Considera-se prorrogado o prazo até o primeiro dia útil seguinte se o vencimento cair em dia em que não houver expediente ou este for encerrado antes da hora normal.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art66_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os prazos expressos em dias contam-se de modo contínuo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art66_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Os prazos fixados em meses ou anos contam-se de data a data. Se no mês do vencimento não houver o dia equivalente àquele do início do prazo, tem-se como termo o último dia do mês.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art67">
+            
+            
+            <Rotulo>Art. 67.</Rotulo>
+            
+            <Caput id="art67_cpt">
+            
+            
+            
+            <p>
+    Salvo motivo de força maior devidamente comprovado, os prazos processuais não se suspendem.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap17">
+            
+            
+            <Rotulo>CAPÍTULO XVII</Rotulo>
+            <NomeAgrupador>
+    DAS SANÇÕES
+
+  </NomeAgrupador>
+            <Artigo id="art68">
+            
+            
+            <Rotulo>Art. 68.</Rotulo>
+            
+            <Caput id="art68_cpt">
+            
+            
+            
+            <p>
+    As sanções, a serem aplicadas por autoridade competente, terão natureza pecuniária ou consistirão em obrigação de fazer ou de não fazer, assegurado sempre o direito de defesa.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap18">
+            
+            
+            <Rotulo>CAPÍTULO XVIII</Rotulo>
+            <NomeAgrupador>
+    DAS DISPOSIÇÕES FINAIS
+
+  </NomeAgrupador>
+            <Artigo id="art69">
+            
+            
+            <Rotulo>Art. 69.</Rotulo>
+            
+            <Caput id="art69_cpt">
+            
+            
+            
+            <p>
+    Os processos administrativos específicos continuarão a reger-se por lei própria, aplicando-se-lhes apenas subsidiariamente os preceitos desta Lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art69-1">
+            
+            
+            <Rotulo>Art. 69-A.</Rotulo>
+            
+            <Caput id="art69-1_cpt">
+            
+            
+            
+            <p>
+    Terão prioridade na tramitação, em qualquer órgão ou instância, os procedimentos administrativos em que figure como parte ou interessado:
+
+  </p>
+            <Inciso id="art69-1_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    pessoa com idade igual ou superior a 60 (sessenta) anos;
+
+  </p>
+            
+          </Inciso><Inciso id="art69-1_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    pessoa portadora de deficiência, física ou mental;
+
+  </p>
+            
+          </Inciso><Inciso id="art69-1_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Inciso><Inciso id="art69-1_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    pessoa portadora de tuberculose ativa, esclerose múltipla, neoplasia maligna, hanseníase, paralisia irreversível e incapacitante, cardiopatia grave, doença de Parkinson, espondiloartrose anquilosante, nefropatia grave, hepatopatia grave, estados avançados da doença de Paget (osteíte deformante), contaminação por radiação, síndrome de imunodeficiência adquirida, ou outra doença grave, com base em conclusão da medicina especializada, mesmo que a doença tenha sido contraída após o início do processo.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art69-1_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A pessoa interessada na obtenção do benefício, juntando prova de sua condição, deverá requerê-lo à autoridade administrativa competente, que determinará as providências a serem cumpridas.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art69-1_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Deferida a prioridade, os autos receberão identificação própria que evidencie o regime de tramitação prioritária.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art69-1_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art69-1_par4">
+            <!--Link: urn:lex:br:federal:lei:2009-07-29;12008-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    (VETADO) (Artigo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2009-07-29;12008">Lei nº 12.008, de 29.7.2009</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art70">
+            
+            
+            <Rotulo>Art. 70.</Rotulo>
+            
+            <Caput id="art70_cpt">
+            
+            
+            
+            <p>
+    Esta Lei entra em vigor na data de sua publicação. Brasília 29 de janeiro de 1999; 178º da Independência e 111º da República. FERNANDO HENRIQUE CARDOSO Renan Calheiros Paulo Paiva
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo></Articulacao>
+          
+          
+        </Norma></ProjetoNorma>
+    </LexML>

@@ -1,0 +1,32 @@
+<LexML xmlns="http://www.lexml.gov.br/1.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <Metadado>
+    <Identificacao URN="urn:lex:br:procuradoria.geral.fazenda.nacional:ato.declaratorio:2006-11-16;4"/>
+    <MetadadoProprietario fonte="http://www.lexml.gov.br/nonstat">
+      <campo nome="JURISPRUDÊNCIA">REsp nº 808488/AL (DJ 30.06.2006), AgRg no REsp nº 792843/RS (DJ 19.06.2006), REsp nº 828823/SC (DJ 29.05.2006).</campo>
+    </MetadadoProprietario>
+  </Metadado>
+  <DocumentoGenerico>
+    <PartePrincipal id="pp1">
+      <Agrupamento id="pp1_agr1" nome="epigrafe">
+        <p>Ato Declaratório PGFN nº 4, de 16 de novembro de 2006</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agr2" nome="ementa">
+        <p>"Dispensa a apresentação de contestação e a interposição de recursos e autoriza a desistência dos já interpostos nas ações judiciais que especifica."</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agr3" nome="preambulo">
+        <p>O PROCURADOR-GERAL DA FAZENDA NACIONAL, no uso da competência legal que lhe foi conferida, nos termos do <Remissao xlink:href="urn:lex:br:federal:lei:2002-07-19;10522!art19_cpt_inc2">inciso II do art. 19, da Lei nº 10.522, de 19 de julho de 2002</Remissao>, e do <Remissao xlink:href="urn:lex:br:federal:decreto:1997-10-10;2346!art5">art. 5º do Decreto nº 2.346, de 10 de outubro de 1997</Remissao>, tendo em vista a aprovação do Parecer PGFN/CRJ/Nº 2139/2006, desta Procuradoria-Geral da Fazenda Nacional, pelo Senhor Ministro de Estado da Fazenda, conforme despacho publicado no DOU de 16 de novembro de 2006, DECLARA que ficam dispensadas a apresentação de contestação, a interposição de recursos e fica autorizada a desistência dos já interpostos, desde que inexista outro fundamento relevante:</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agr4" nome="texto">
+        <p class="quote">"nas ações judiciais que visem obter a declaração de que não incide imposto de renda sobre a complementação de aposentadoria correspondente às contribuições efetuadas exclusivamente pelo beneficiário no período de 1º de janeiro de 1989 a 31 de dezembro de 1995, até o limite do imposto pago sobre as contribuições deste período, por força da isenção concedida no <Remissao xlink:href="urn:lex:br:federal:lei:1988;7713!art6_cpt_inc7">inciso VII do art. 6º da Lei nº 7.713, de 1988</Remissao>, na redação anterior a que lhe foi dada pela <Remissao xlink:href="urn:lex:br:federal:lei:1995;9250">Lei nº 9.250, de 1995</Remissao>".</p>
+        <p>JURISPRUDÊNCIA: REsp nº 808488/AL (DJ 30.06.2006), AgRg no REsp nº 792843/RS (DJ 19.06.2006), REsp nº 828823/SC (DJ 29.05.2006).</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agrf1" nome="assinatura">
+        <p>LUÍS INÁCIO LUCENA ADAMS</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agrf2" nome="nota">
+        <p>Nota SIJUT: Este ato teve sua data retificada no DOU de 20/11/2006, pág. 12.</p>
+        <p>[Vide o(a) Ato Declaratório PGFN nº 4, de 7 de novembro de 2006]</p>
+      </Agrupamento>
+    </PartePrincipal>
+  </DocumentoGenerico>
+</LexML>

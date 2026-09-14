@@ -1,0 +1,115 @@
+<LexML xmlns="http://www.lexml.gov.br/1.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <Metadado>
+    <Identificacao URN="urn:lex:br:ministerio.fazenda:portaria:1979-03-01;80"/>
+  </Metadado>
+  <DocumentoGenerico>
+    <PartePrincipal id="pp1">
+      <Agrupamento id="pp1_agr1" nome="epigrafe">
+        <p>Portaria MF Nº 80 DE 01/03/1979</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agr2" nome="ementa">
+        <p>Publicado no DOU em 7 mar 1979</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agr3" nome="preliminar">
+        <p>Estabelece normas complementares ao disposto nos artigos 1° a 3° do <Remissao xlink:href="urn:lex:br:federal:decreto.lei:1978-12-07;1641">Decreto-Lei n° 1.641, de 07 de dezembro de 1978</Remissao>.</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agr4" nome="preambulo">
+        <p>O Ministro de Estado da Fazenda, no uso das atribuições que lhe conferem a <Remissao xlink:href="urn:lex:br:federal:decreto.lei:1978-12-07;1641!art2_par3_ali4">alínea "d" do § 3° do artigo 2°</Remissao> e o <Remissao xlink:href="urn:lex:br:federal:decreto.lei:1978-12-07;1641!art4">art. 4° do Decreto-lei n° 1.641, de 07 de dezembro de 1978</Remissao>,</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agr5" nome="formulaPromulgacao">
+        <p>RESOLVE:</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agr6" nome="texto">
+        <p>Baixar as seguintes normas relativas à tributação do lucro na alienação de imóveis por pessoas físicas, prevista no <Remissao xlink:href="urn:lex:br:federal:decreto.lei:1978-12-07;1641">Decreto-lei n° 1.641, de 07 de dezembro de 1978</Remissao>:</p>
+        <p>Para efeitos do disposto na alínea "a" do § 3° do art. 2°, considera-se preço de aquisição de imóvel havido por herança, doação ou legado ou por outras formas de aquisição a título gratuito, o valor que serviu de base para o lançamento do respectivo imposto de transmissão ou, no caso de não ter sido o mesmo fixado, o valor de mercado à época da aquisição.</p>
+      </Agrupamento>
+      <AgrupamentoHierarquico id="pp1_agh1" nome="secao">
+        <Rotulo>2.</Rotulo>
+        <Bloco nome="ordem">0</Bloco>
+        <Agrupamento id="pp1_agh1_txt1" nome="texto">
+          <p>Para fins de apuração do custo referido na alínea "b" do § 3° do art. 2°, aceitar-se-á o valor que constar pela primeira vez, em declaração de bens apresentada tempestivamente, relativa a exercícios anteriores a 1978, inclusive;</p>
+        </Agrupamento>
+      </AgrupamentoHierarquico>
+      <AgrupamentoHierarquico id="pp1_agh2" nome="secao">
+        <Rotulo>3.</Rotulo>
+        <AgrupamentoHierarquico id="pp1_agh2_agh1" nome="subsecao">
+          <Rotulo>3.1 -</Rotulo>
+          <Bloco nome="ordem">0</Bloco>
+          <Agrupamento id="pp1_agh2_agh1_txt1" nome="texto">
+            <p>Quando o "habite-se" não for exigível, mas o contribuinte obteve o alvará de construção, o termo inicial previsto neste item será o mês que corresponder à média do prazo entre a data do alvará e o mês de dezembro do ano-base relativo à declaração de bens em que constar pela primeira vez o custo.</p>
+          </Agrupamento>
+        </AgrupamentoHierarquico>
+        <Bloco nome="ordem">1</Bloco>
+        <Agrupamento id="pp1_agh2_txt1" nome="texto">
+          <p>O termo inicial para a correção monetária do custo de construção, ampliação ou reforma é o mês que corresponde à média do prazo entre a data do alvará de construção e do "habite-se" ou, quando estes não forem exigíveis, o mês de dezembro do ano-base correspondente a declaração de bens em que constar pela primeira vez este valor.</p>
+        </Agrupamento>
+      </AgrupamentoHierarquico>
+      <AgrupamentoHierarquico id="pp1_agh3" nome="secao">
+        <Rotulo>4.</Rotulo>
+        <Bloco nome="ordem">2</Bloco>
+        <Agrupamento id="pp1_agh3_txt1" nome="texto">
+          <p>Integram o custo, quando não transferido o ônus ao adquirente, as despesas com corretagem.</p>
+        </Agrupamento>
+      </AgrupamentoHierarquico>
+      <AgrupamentoHierarquico id="pp1_agh4" nome="secao">
+        <Rotulo>5.</Rotulo>
+        <AgrupamentoHierarquico id="pp1_agh4_agh1" nome="subsecao">
+          <Rotulo>5.1 -</Rotulo>
+          <Bloco nome="ordem">0</Bloco>
+          <Agrupamento id="pp1_agh4_agh1_txt1" nome="texto">
+            <p>Os juros mencionados neste item são tributados à medida em que se tornarem disponíveis para o alienante, mediante inclusão na Cédula "B" da declaração de rendimentos.</p>
+          </Agrupamento>
+        </AgrupamentoHierarquico>
+        <AgrupamentoHierarquico id="pp1_agh4_agh2" nome="subsecao">
+          <Rotulo>5.2 -</Rotulo>
+          <Bloco nome="ordem">1</Bloco>
+          <Agrupamento id="pp1_agh4_agh2_txt1" nome="texto">
+            <p>A correção monetária do preço de alienação convencionada aos Índices fixados para atualização das ORTN, não está sujeita à incidência do imposto.</p>
+          </Agrupamento>
+        </AgrupamentoHierarquico>
+        <Bloco nome="ordem">3</Bloco>
+        <Agrupamento id="pp1_agh4_txt1" nome="texto">
+          <p>Não se incluem no valor referido no § 2° do artigo 2°, em alienações contratadas para pagamento do preço a prazo, os juros convencionados até o montante admitido pela legislação específica.</p>
+        </Agrupamento>
+      </AgrupamentoHierarquico>
+      <AgrupamentoHierarquico id="pp1_agh5" nome="secao">
+        <Rotulo>6.</Rotulo>
+        <Bloco nome="ordem">4</Bloco>
+        <Agrupamento id="pp1_agh5_txt1" nome="texto">
+          <p>A rescisão do contrato de alienação ou a redução de preço não importarão na restituição do imposto pago.</p>
+        </Agrupamento>
+      </AgrupamentoHierarquico>
+      <AgrupamentoHierarquico id="pp1_agh6" nome="secao">
+        <Rotulo>7.</Rotulo>
+        <AgrupamentoHierarquico id="pp1_agh6_agh1" nome="subsecao">
+          <Rotulo>7.1 -</Rotulo>
+          <Bloco nome="ordem">0</Bloco>
+          <Agrupamento id="pp1_agh6_agh1_txt1" nome="texto">
+            <p>Até a data do implemento da condição, o custo do imóvel poderá ser corrigido monetariamente e será computado o prazo para fins de aplicação do perceptual previsto no § 4° do art. 2°</p>
+          </Agrupamento>
+        </AgrupamentoHierarquico>
+        <Bloco nome="ordem">5</Bloco>
+        <Agrupamento id="pp1_agh6_txt1" nome="texto">
+          <p>No caso de alienação contratada sob condição suspensiva, o imposto incidirá com o implemento da condição.</p>
+        </Agrupamento>
+      </AgrupamentoHierarquico>
+      <AgrupamentoHierarquico id="pp1_agh7" nome="secao">
+        <Rotulo>8.</Rotulo>
+        <AgrupamentoHierarquico id="pp1_agh7_agh1" nome="subsecao">
+          <Rotulo>8.1 -</Rotulo>
+          <Bloco nome="ordem">0</Bloco>
+          <Agrupamento id="pp1_agh7_agh1_txt1" nome="texto">
+            <p>No caso deste item, o rendimento tributável é considerado auferido no ano-base em que o alienante do terreno receber as unidades imobiliárias.</p>
+          </Agrupamento>
+        </AgrupamentoHierarquico>
+        <Bloco nome="ordem">6</Bloco>
+        <Agrupamento id="pp1_agh7_txt1" nome="texto">
+          <p>Nas alienações para recebimento do preço em unidades imobiliárias, como na hipótese do art. 39. da <Remissao xlink:href="urn:lex:br:federal:lei:1964;4591">Lei n° 4.591/64</Remissao>, o rendimento tributável será apurado pela diferença entre o valor do custo do terreno, corrigido, e o valor atribuído às unidades.</p>
+        </Agrupamento>
+      </AgrupamentoHierarquico>
+      <Agrupamento id="pp1_agrf1" nome="assinatura">
+        <p>MÁRIO HENRIQUE SIMONSEN</p>
+      </Agrupamento>
+    </PartePrincipal>
+  </DocumentoGenerico>
+</LexML>

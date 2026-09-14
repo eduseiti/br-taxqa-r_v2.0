@@ -1,0 +1,13 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:2015-01-19;13097!anexo3"/>
+    </Metadado>
+      <Anexo>
+        <DocumentoGenerico>
+      <PartePrincipal id="anexo3_pp">
+        <p>ANEXO III</p>
+        <table id="anexo3_tab1"><tr><td>Código da TIPI</td><td>Volume da embalagem</td><td>Percentual de redução</td><td/><td/></tr><tr><td>2015</td><td>2016</td><td>2017</td><td/><td/></tr><tr><td>22.03</td><td>Até 400 ml</td><td>20%</td><td>15%</td><td>10%</td></tr><tr><td>Acima de 400 ml</td><td>10%</td><td>5%</td><td>5%</td><td/></tr><tr><td>21.06.90.10 EX 02.22.01, exceto os Ex 01</td><td>Até 500 ml</td><td>20%</td><td>15%</td><td>10%</td></tr><tr><td>e Ex 02 do código 22.01.10.00 e 22.02,</td><td/><td/><td/><td/></tr><tr><td>exceto os Ex 01 e Ex 02 do código</td><td/><td/><td/><td/></tr><tr><td>22.02.90.00</td><td>Acima de 500 ml</td><td>10%</td><td>5%</td><td>5%</td></tr></table>
+      </PartePrincipal>
+    </DocumentoGenerico>
+      </Anexo>
+    </LexML>

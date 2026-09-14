@@ -1,0 +1,816 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:1989-03-16;7739"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">LEI Nº 7.739, DE 16 DE MARÇO DE 1989 </Epigrafe>
+		  <Ementa id="ementa">1 <span xlink:href="urn:lex:br:federal:lei:1989-03-16;7739">LEI Nº 7.739, DE 16 DE MARÇO DE 1989</span> Dispõe sobre a organização da Presidência da República e dos Ministérios e dá outras providências.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    Faço saber que o Presidente da República adotou a Medida Provisória nº 39, de 1989, que o Congresso Nacional aprovou, e eu, Nelson Carneiro, Presidente do Senado Federal, para os efeitos do disposto no parágrafo único do art. 62 da Constituição Federal, promulgo a seguinte Lei:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    A Presidência da República é constituída, essencialmente, pelo Gabinete Civil e pelo Gabinete Militar.
+
+  </p>
+            
+          </Caput><Paragrafo id="art1_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Também fazem parte da Presidência da República:
+
+  </p>
+            <Alinea id="art1_par1u_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    a Secretaria de Assessoramento da Defesa Nacional;
+
+  </p>
+            
+          </Alinea><Alinea id="art1_par1u_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    o Serviço Nacional de Informações;
+
+  </p>
+            
+          </Alinea><Alinea id="art1_par1u_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    o Alto Comando das Forças Armadas;
+
+  </p>
+            
+          </Alinea><Alinea id="art1_par1u_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    o Estado-Maior das forças Armadas;
+
+  </p>
+            
+          </Alinea><Alinea id="art1_par1u_ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    o Conselho de Desenvolvimento Econômico;
+
+  </p>
+            
+          </Alinea><Alinea id="art1_par1u_ali6">
+            
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    o Conselho de Desenvolvimento Social;
+
+  </p>
+            
+          </Alinea><Alinea id="art1_par1u_ali7">
+            
+            
+            <Rotulo>g)</Rotulo>
+            <p>
+    o Conselho Nacional de Informática e Automação;
+
+  </p>
+            
+          </Alinea><Alinea id="art1_par1u_ali8">
+            
+            
+            <Rotulo>h)</Rotulo>
+            <p>
+    a Secretaria de Planejamento e Coordenação; e
+
+  </p>
+            
+          </Alinea><Alinea id="art1_par1u_ali9">
+            
+            
+            <Rotulo>i)</Rotulo>
+            <p>
+    a Consultoria-Geral da República.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    À Secretaria de Planejamento e Coordenação - SEPLAN incorporam-se os assuntos atribuídos à Secretaria de Administração Pública - SEDAP, ambas da Presidência da República.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    São os seguinte os Ministérios:
+
+  </p>
+            <Inciso id="art3_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    da Justiça;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    da Marinha;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    do Exército;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    das Relações Exteriores;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    da Fazenda;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    dos Transportes;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    da Agricultura;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    da Educação;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    do Trabalho;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc10">
+            
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    da Aeronáutica;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc11">
+            
+            
+            <Rotulo>XI –</Rotulo>
+            <p>
+    da Saúde;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc12">
+            
+            
+            <Rotulo>XII –</Rotulo>
+            <p>
+    do Desenvolvimento Industrial, Ciência e Tecnologia;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc13">
+            
+            
+            <Rotulo>XIII –</Rotulo>
+            <p>
+    das Minas e Energia;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc14">
+            
+            
+            <Rotulo>XIV –</Rotulo>
+            <p>
+    do Interior;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc15">
+            
+            
+            <Rotulo>XV –</Rotulo>
+            <p>
+    das Comunicações;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc16">
+            
+            
+            <Rotulo>XVI –</Rotulo>
+            <p>
+    da Previdência e Assistência Social; e
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc17">
+            
+            
+            <Rotulo>XVII –</Rotulo>
+            <p>
+    da Cultura.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art3_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    São Ministros de Estado os titulares dos Ministérios, bem assim o Chefe do Gabinete Civil, o Chefe do Gabinete Militar, o Chefe do Serviço Nacional de Informações e o Chefe do Estado-Maior da Forças Armadas. O Ministro de Estado do Planejamento chefia a Secretaria de Planejamento e Coordenação.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    São mantidas as competências atuais dos Órgãos da Presidência da República e dos Ministérios, com as seguintes alterações:
+
+  </p>
+            <Inciso id="art4_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    fica transferida para o Ministério da Justiça a Comissão de Defesa dos Direitos do Cidadão - CODICI;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    passam ao Ministério da Fazenda as atividades financeiras do Sistema Financeiro da Habitação - SFH;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    são transferidas para a área de competência do Ministério da Agricultura as matérias relacionadas com a reforma e o desenvolvimento agrário, bem assim o Programa Nacional de Irrigação - PRONI, mantidas as atribuições do Instituto Jurídico das Terras Rurais - INTER;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    ao Ministério do Desenvolvimento Industrial, Ciência e Tecnologia competem os assuntos anteriormente a cargo dos Ministérios da Indústria e do Comércio e da Ciência e Tecnologia; e
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    para o Ministério do Interior são transferidas as matérias atribuídas ao Ministério da Habitação e do Bem-Estar Social pela legislação anterior, observado o disposto no inciso II.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    Ficam extintos os cargos de Ministro de Estado da Indústria e do Comércio, da Habitação e do Bem-Estar Social, da Ciência e Tecnologia e da Reforma e do Desenvolvimento Agrário, bem assim os de Ministros Extraordinários para Assuntos de Administração e para Assunto de Irrigação.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    É criado o cargo de Ministro de Estado do Desenvolvimento Industrial, Ciência e Tecnologia.
+
+  </p>
+            
+          </Caput><Paragrafo id="art6_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O cargo de Ministro-Chefe da Secretaria de Planejamento e Coordenação da Presidência da República passa a denominar-se Ministro de Estado do Planejamento.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    A Secretaria Especial de Ação Comunitária fica transformada em Secretaria Especial da Habitação e Ação Comunitária, permanecendo na estrutura básica do Ministério do Interior.
+
+  </p>
+            
+          </Caput><Paragrafo id="art7_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A Secretaria Especial será dirigida por Secretário Especial, código LT-DAS-101.5, nomeado ou designado, em comissão, pelo Presidente da República.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art7_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O Poder Executivo disporá sobre a organização e o funcionamento da Secretaria Especial.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1983-08-17;2055--><!--Link: urn:lex:br:federal:decreto.lei:1967-02-25;200!art178--><!--Link: urn:lex:br:federal:decreto.lei:1975-09-03;1418--><!--Link: urn:lex:br:federal:lei:1975-11-16;6263--><!--Link: urn:lex:br:federal:decreto.lei:1974-02-15;1312--><!--Link: urn:lex:br:federal:decreto.lei:1983-06-21;2035!art6_par1u--><!--Link: urn:lex:br:federal:decreto.lei:1986-11-21;2299!art1-->
+            
+            
+            <p>
+    À Procuradoria-Geral da Fazenda Nacional, mantidas as atuais organização e atribuições, compete em conjunto com o Ministério a que se vinculem entidades às quais se aplique o disposto no <span xlink:href="urn:lex:br:federal:decreto.lei:1967-02-25;200!art178">art. 178 do Decreto-Lei nº 200, de 25 fevereiro de 1967</span>, com a redação dada pelo <span xlink:href="urn:lex:br:federal:decreto.lei:1986-11-21;2299!art1">art. 1º do Decreto-Lei nº 2.299, de 21 de novembro de 1986</span>, promover a adaptação dos contratos por elas firmados aos preceitos legais que regem os contratos em que seja parte a União, em decorrência da sucessão operada por dissolução, observado o disposto no <span xlink:href="urn:lex:br:federal:decreto.lei:1983-06-21;2035!art6_par1u">parágrafo único do art. 6º do Decreto-Lei nº 2.035, de 21 de junho de 1983</span>, alterado pelo <span xlink:href="urn:lex:br:federal:decreto.lei:1983-08-17;2055">Decreto-Lei nº 2.055, de 17 de agosto de 1983</span>, bem assim, mediante autorização do Presidente da República, a conversão, em participação societária, de créditos provenientes de sub-rogação em contratos celebrados na forma dos <span xlink:href="urn:lex:br:federal:decreto.lei:1974-02-15;1312">Decretos-Leis nºs 1.312, de 15 fevereiro de 1974</span>, e <span xlink:href="urn:lex:br:federal:decreto.lei:1975-09-03;1418">1.418, de 3 de setembro de 1975</span>, e da <span xlink:href="urn:lex:br:federal:lei:1975-11-16;6263">Lei nº 6.263, de 16 de novembro de 1975</span>.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            
+            
+            
+            <p>
+    O pessoal, o acervo patrimonial, os órgãos e as dotações orçamentárias e extra-orçamentárias dos Ministérios extintos em virtudes desta Lei, bem assim da SEDAP e PRONI, são transferidos para os Ministérios e Órgãos que tiverem absorvido as correspondentes atribuições.
+
+  </p>
+            
+          </Caput><Paragrafo id="art9_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    No caso de ocorrer duplicidade ou superposição de atribuições, ficam automaticamente extintos os cargos em comissão, as funções de confiança, de direção superior ou intermediárias, e as funções de Assessoramento Superior, pertencente à estrutura dos Ministérios e Órgão absorvidos.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>
+    Fica o Poder Executivo autorizado a extinguir ou transformar, nos Ministérios que vierem a ser reestruturados, cargos integrantes dos Grupos Direção e Assessoramento Superiores - DAS e Direção e Assessoramento Intermediários - DAI, bem assim Funções de Assessoramento Superior - FAS, de modo que as despesas a esse título fiquem reduzidas em, pelo menos, cinqüenta por cento.
+
+  </p>
+            
+          </Caput><Paragrafo id="art10_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Serão computadas no percentual indicado as reduções decorrentes da aplicação do disposto no parágrafo único do artigo anterior, bem assim das demais normas que determinam a extinção de órgãos e entidades vinculados àqueles Ministérios.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            <p>
+    O quantitativo global das lotações previstas para o conjunto dos órgãos integrantes da Presidência da República deverá ser reduzido em, no mínimo, vinte por cento.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1967;200!art4_par1u--><!--Link: urn:lex:br:federal:decreto.lei:1967;200!art5_par2-->
+            
+            
+            <p>
+    As entidades da Administração Indireta serão vinculadas aos Ministérios de que trata o art. 3º, desta Lei, segundo as normas constantes do <span xlink:href="urn:lex:br:federal:decreto.lei:1967;200!art4_par1u">parágrafo único do art. 4º</span> e do <span xlink:href="urn:lex:br:federal:decreto.lei:1967;200!art5_par2">§ 2º do art. 5º do Decreto-Lei nº 200, de 1967</span>, mantidas as atuais vinculações aos órgãos integrantes da Presidência da República.
+
+  </p>
+            
+          </Caput><Paragrafo id="art12_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Ficam, desde logo, vinculados ao Ministério da Fazenda a Caixa Econômica Federal - CEF, o Banco da Amazônia S.A. - BASA e o Banco do Nordeste do Brasil S.A.- BNB.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>
+    As restituições do imposto de renda serão atualizadas monetariamente com base na variação do Índice de Preços ao Consumidor - IPC, a partir de 1º de fevereiro de 1989.
+
+  </p>
+            
+          </Caput><Paragrafo id="art13_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O Ministro da Fazenda expedirá instruções para a aplicação do disposto neste artigo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            <!--Link: urn:lex:br:federal:lei:1988-12-22;7713-->
+            
+            
+            <p>
+    Não integrarão a base de cálculo para incidência do Imposto de Renda de que trata a <span xlink:href="urn:lex:br:federal:lei:1988-12-22;7713">Lei nº 7.713, de 22 de dezembro de 1988</span>, no caso de aluguéis de imóveis:
+
+  </p>
+            <Inciso id="art14_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o valor dos impostos, taxas e emolumentos incidentes sobre o bem que produzir o rendimento;
+
+  </p>
+            
+          </Inciso><Inciso id="art14_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o aluguel pago pela locação do imóvel sublocado;
+
+  </p>
+            
+          </Inciso><Inciso id="art14_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    as despesas pagas para cobrança ou recebimento do rendimento; e
+
+  </p>
+            
+          </Inciso><Inciso id="art14_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    as despesas de condomínio.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            <!--Link: urn:lex:br:federal:lei:1989-01-31;7730!art30_par2--><!--Link: urn:lex:br:federal:lei:1989-01-31;7730!art30_par3--><!--Link: urn:lex:br:federal:decreto.lei:1987-06-29;2341--><!--Link: urn:lex:br:federal:decreto.lei:1988-04-14;2429-->
+            
+            
+            <p>
+    Ficam revogados os <span xlink:href="urn:lex:br:federal:lei:1989-01-31;7730!art30_par2">§§ 2º</span> e <span xlink:href="urn:lex:br:federal:lei:1989-01-31;7730!art30_par3">3º do art. 30 da Lei nº 7.730, de 31 de janeiro de 1989</span>, ficando restabelecidas as disposições sobre realização do lucro inflacionário, previstas nos <span xlink:href="urn:lex:br:federal:decreto.lei:1987-06-29;2341">Decretos-Leis nºs 2.341, de 29 de junho de 1987</span>, e <span xlink:href="urn:lex:br:federal:decreto.lei:1988-04-14;2429">2.429, de 14 de abril de 1988</span>.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1986-11-21;2295!art2-->
+            
+            
+            <p>
+    Compete à Secretaria da Receita Federal autuar as empresas enquadradas no <span xlink:href="urn:lex:br:federal:decreto.lei:1986-11-21;2295!art2">art. 2º do Decreto-Lei nº 2.295, de 21 de novembro de 1986</span>, pelo não recolhimento da cota de contribuição prevista naquele artigo.
+
+  </p>
+            
+          </Caput><Paragrafo id="art16_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O valor da cota de contribuição, quando não recolhido nos prazos fixados, será atualizado monetariamente na data do efetivo pagamento e recolhido com os seguintes acréscimos:
+
+  </p>
+            <Alinea id="art16_par1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    juros de mora, na via administrativa ou judicial, calculados na forma da legislação aplicável aos tributos federais;
+
+  </p>
+            
+          </Alinea><Alinea id="art16_par1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    multa de mora de trinta por cento sobre o valor monetariamente atualizado, sendo reduzida a quinze por cento se o pagamento for efetuado até o último dia do mês subseqüente àquele em que deveria ter sido pago;
+
+  </p>
+            
+          </Alinea><Alinea id="art16_par1_ali3">
+            <!--Link: urn:lex:br:federal:decreto.lei:1969-10-21;1025!art1--><!--Link: urn:lex:br:federal:decreto.lei:1978-12-11;1645!art3-->
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    encargo legal de cobrança da Dívida Ativa de que tratam o <span xlink:href="urn:lex:br:federal:decreto.lei:1969-10-21;1025!art1">art. 1º do Decreto-Lei nº 1.025, de 21 de outubro de 1969</span>, e o <span xlink:href="urn:lex:br:federal:decreto.lei:1978-12-11;1645!art3">art. 3º do Decreto-Lei nº 1.645, de 11 de dezembro de 1978</span>, quando for o caso.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo><Paragrafo id="art16_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A falta de lançamento ou recolhimento da cota de contribuição, verificada pela fiscalização da Secretaria da Receita Federal, sujeitará o contribuinte às penalidades constantes da legislação do imposto de renda.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par3">
+            <!--Link: urn:lex:br:federal:decreto.lei:1969-09-05;822!art2-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O processo administrativo de determinação e exigência da cota de contribuição, bem assim o de consulta sobre a aplicação da respectiva legislação, serão regidos pelas normas, ora convalidadas, expedidas nos termos do <span xlink:href="urn:lex:br:federal:decreto.lei:1969-09-05;822!art2">art. 2º do Decreto-Lei nº 822, de 5 de setembro de 1969</span>.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1988-09-01;2470!art1-->
+            
+            
+            <p>
+    Para os fins do disposto no <span xlink:href="urn:lex:br:federal:decreto.lei:1988-09-01;2470!art1">art. 1º do Decreto-Lei nº 2.470, de 1º de setembro de 1988</span>, fica o Poder Executivo autorizado a:
+
+  </p>
+            <Inciso id="art17_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    excluir, do Anexo I ali referido, produto ou grupo de produtos cuja permanência se torne irrelevante para a arrecadação do imposto;
+
+  </p>
+            
+          </Inciso><Inciso id="art17_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    fixar os parâmetros para executar a equiparação de estabelecimento comercial atacadista;
+
+  </p>
+            
+          </Inciso><Inciso id="art17_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    suspender, por tempo determinado, o regime instituído no referido artigo, em relação ao produto ou grupo de produtos, tendo em vista as condições de mercado e o controle de preços.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1981-12-16;1894!art1_par1_ali2-->
+            
+            
+            <p>
+    A <span xlink:href="urn:lex:br:federal:decreto.lei:1981-12-16;1894!art1_par1_ali2">alínea b, do § 1° art. 1º do Decreto-Lei n° 1.894, de 16 de dezembro de 1981</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:decreto.lei:1981-12-16;1894" id="art18_cpt_alt1">              
+              <Artigo xlink:href="art1" id="art18_cpt_alt1_art1" abreAspas="s">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput xlink:href="art1_cpt" id="art18_cpt_alt1_art1_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Paragrafo xlink:href="art1_par1" id="art18_cpt_alt1_art1_par1" textoOmitido="s">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            
+            <Alinea xlink:href="art1_par1_ali1" id="art18_cpt_alt1_art1_par1_ali1" textoOmitido="s">
+            
+            
+            <Rotulo>a)</Rotulo>
+            
+            
+          </Alinea><Alinea xlink:href="art1_par1_ali2" id="art18_cpt_alt1_art1_par1_ali2" fechaAspas="s">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    no caso de aquisição a comerciante não contribuinte do Imposto sobre Produtos Industrializados - IPI, até o montante deste tributo que houver incidido na última saída do produto de estabelecimento industrial ou equiparado a industrial, segundo instruções expedidas pelo Ministro da Fazenda.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            <!--Link: urn:lex:br:federal:lei:1989-02-28;7737!art2-->
+            
+            
+            <p>
+    Esta Lei entra em vigor na data de sua publicação, revogados o <span xlink:href="urn:lex:br:federal:lei:1989-02-28;7737!art2">art. 2° da Lei n° 7.737, de 28 de fevereiro de 1989</span>, e demais disposições em contrário.
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Senado Federal, 16 de março de 1989; 168° da Independência e 101° da República.</p></LocalDataFecho><Assinatura><NomePessoa>NELSON CARNEIRO</NomePessoa></Assinatura></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>

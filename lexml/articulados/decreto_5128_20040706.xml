@@ -1,0 +1,72 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:decreto:2004-07-06;5128"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">DECRETO Nº 5.128, DE 6 DE JULHO DE 2004 </Epigrafe>
+		  <Ementa id="ementa">Promulga o Acordo de Sede entre o Governo da República Federativa do Brasil e a Organização dos Estados Ibero-Americanos para a Educação, a Ciência e a Cultura (OEI), celebrado em Brasília, em 30 de janeiro de 2002.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA, no uso da atribuição que lhe confere o art. 84, inciso IV, da Constituição, e
+  </p><p>
+    Considerando que o Governo da República Federativa do Brasil e a Organização dos Estados Ibero-Americanos para a Educação, a Ciência e a Cultura (OEI) celebraram, em Brasília, em 30 de janeiro de 2002, um Acordo de Sede;
+  </p><p>
+    Considerando que o Congresso Nacional aprovou esse Acordo por meio do Decreto Legislativo nº 336, de 24 de julho de 2003;
+  </p><p>
+    Considerando que o Acordo entrou em vigor em 12 de agosto de 2003, nos termos de seu Artigo 34;
+  </p><p>
+    DECRETA:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    O Acordo de Sede entre o Governo da República Federativa do Brasil e, a Organização dos Estados Ibero-Americanos para a Educação, a Ciência e a Cultura (OEI) celebrado em Brasília, em 30 de janeiro de 2002, apenso por cópia ao presente Decreto, será executado e cumprido tão inteiramente como nele se contém.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art49_cpt_inc1-->
+            
+            
+            <p>
+    São sujeitos à aprovação do Congresso Nacional quaisquer atos que possam resultar em revisão do referido Acordo, assim como quaisquer ajustes complementares que, nos termos do <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art49_cpt_inc1">art. 49, inciso I, da Constituição</span>, acarretem encargos ou compromissos gravosos ao patrimônio nacional.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    Este Decreto entra em vigor na data de sua publicação.
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 6 de julho de 2004; 183º da Independência e 116º da República.</p></LocalDataFecho></ParteFinal>
+          <Anexos><ReferenciaAnexo AlvoURN="urn:lex:br:federal:decreto:2004-07-06;5128!anexo1"/></Anexos>
+        </Norma></ProjetoNorma>
+    </LexML>

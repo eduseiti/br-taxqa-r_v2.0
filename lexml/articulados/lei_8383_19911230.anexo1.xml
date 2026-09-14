@@ -1,0 +1,14 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:1991-12-30;8383!anexo1"/>
+    </Metadado>
+      <Anexo>
+        <DocumentoGenerico>
+      <PartePrincipal id="anexo1_pp">
+        <p>ANEXO I</p>
+        <p>(<span xlink:href="urn:lex:br:federal:lei:1991-12-30;8383!art68">Art. 68 da Lei nº 8.383, de 30 de dezembro de 1991</span>)
+</p><table id="anexo1_tab2"><tr><td>CARREIRA AUDITORIA DO TESOURO NACIONAL</td><td/><td/><td/></tr><tr><td>DENOMINAÇÃO</td><td>CLASSE</td><td>PADRÃO</td><td>QUANTIDADE</td></tr><tr><td>Auditor-Fiscal do Tesouro Nacional (Nível Superior)</td><td>Especial1ª2ª3ª</td><td>I a IIII a IV1 a IVI a IV</td><td>1.5003.0004.5006.000</td></tr><tr><td>Técnico do Tesouro Nacional (Nível Médio)</td><td>Especial1ª2ª3ª</td><td>I a IIII a IVI a IV1 a IV</td><td>1.8003.6005.4007.200</td></tr></table>
+      </PartePrincipal>
+    </DocumentoGenerico>
+      </Anexo>
+    </LexML>

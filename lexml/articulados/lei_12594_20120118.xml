@@ -1,0 +1,4729 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:2012-01-18;12594"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">LEI Nº 12.594, DE 18 DE JANEIRO DE 2012 </Epigrafe>
+		  <Ementa id="ementa">Institui o Sistema Nacional de Atendimento Socioeducativo (Sinase), regulamenta a execução das medidas socioeducativas destinadas a adolescente que pratique ato infracional; e altera as <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069">Leis nºs 8.069, de 13 de julho de 1990</span> (Estatuto da Criança e do Adolescente); 7.560, de 19 de dezembro de 1986, 7.998, de 11 de janeiro de 1990, 5.537, de 21 de novembro de 1968, 8.315, de 23 de dezembro de 1991, 8.706, de 14 de setembro de 1993, os <span xlink:href="urn:lex:br:federal:decreto.lei:1942-01-22;4048">Decretos-Leis nºs 4.048, de 22 de janeiro de 1942</span>, <span xlink:href="urn:lex:br:federal:decreto.lei:1946-01-10;8621">8.621, de 10 de janeiro de 1946</span>, e a <span xlink:href="urn:lex:br:federal:decreto.lei:1943-05-01;5452">Consolidação das Leis do Trabalho</span> (<span xlink:href="urn:lex:br:federal:decreto.lei:1943-05-01;5452">CLT</span>), aprovada pelo <span xlink:href="urn:lex:br:federal:decreto.lei:1943-05-01;5452">Decreto- Lei nº 5.452, de 1º de maio de 1943</span>. A P R E S I D E N T A D A R E P Ú B L I C A Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
+</Ementa>
+      <Preambulo id="preambulo"></Preambulo>
+    </ParteInicial>
+          <Articulacao><Titulo id="tit1">
+            
+            
+            <Rotulo>TÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DO SISTEMA NACIONAL DE ATENDIMENTO SOCIOEDUCATIVO (SINASE)
+
+  </NomeAgrupador>
+            <Capitulo id="tit1_cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DISPOSIÇÕES GERAIS
+
+  </NomeAgrupador>
+            <Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    Esta Lei institui o Sistema Nacional de Atendimento Socioeducativo (Sinase) e regulamenta a execução das medidas destinadas a adolescente que pratique ato infracional.
+
+  </p>
+            
+          </Caput><Paragrafo id="art1_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Entende-se por Sinase o conjunto ordenado de princípios, regras e critérios que envolvem a execução de medidas socioeducativas, incluindo-se nele, por adesão, os sistemas estaduais, distrital e municipais, bem como todos os planos, políticas e programas específicos de atendimento a adolescente em conflito com a lei.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art1_par2">
+            <!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art112-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Entendem-se por medidas socioeducativas as previstas no <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art112">art. 112 da Lei nº 8.069, de 13 de julho de 1990</span> (Estatuto da Criança e do Adolescente), as quais têm por objetivos:
+
+  </p>
+            <Inciso id="art1_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a responsabilização do adolescente quanto às conseqüências lesivas do ato infracional, sempre que possível incentivando a sua reparação;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a integração social do adolescente e a garantia de seus direitos individuais e sociais, por meio do cumprimento de seu plano individual de atendimento; e
+
+  </p>
+            
+          </Inciso><Inciso id="art1_par2_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    a desaprovação da conduta infracional, efetivando as disposições da sentença como parâmetro máximo de privação de liberdade ou restrição de direitos, observados os limites previstos em lei.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art1_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Entendem-se por programa de atendimento a organização e o funcionamento, por unidade, das condições necessárias para o cumprimento das medidas socioeducativas.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art1_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Entende-se por unidade a base física necessária para a organização e o funcionamento de programa de atendimento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art1_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Entendem-se por entidade de atendimento a pessoa jurídica de direito público ou privado que instala e mantém a unidade e os recursos humanos e materiais necessários ao desenvolvimento de programas de atendimento.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    O Sinase será coordenado pela União e integrado pelos sistemas estaduais, distrital e municipais responsáveis pela implementação dos seus respectivos programas de atendimento a adolescente ao qual seja aplicada medida socioeducativa, com liberdade de organização e funcionamento, respeitados os termos desta Lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="tit1_cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DAS COMPETÊNCIAS
+
+  </NomeAgrupador>
+            <Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    Compete à União:
+
+  </p>
+            <Inciso id="art3_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    formular e coordenar a execução da política nacional de atendimento socioeducativo;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    elaborar o Plano Nacional de Atendimento Socioeducativo, em parceria com os Estados, o Distrito Federal e os Municípios;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    prestar assistência técnica e suplementação financeira aos Estados, ao Distrito Federal e aos Municípios para o desenvolvimento de seus sistemas;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    instituir e manter o Sistema Nacional de Informações sobre o Atendimento Socioeducativo, seu funcionamento, entidades, programas, incluindo dados relativos a financiamento e população atendida;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    contribuir para a qualificação e ação em rede dos Sistemas de Atendimento Socioeducativo;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    estabelecer diretrizes sobre a organização e funcionamento das unidades e programas de atendimento e as normas de referência destinadas ao cumprimento das medidas socioeducativas de internação e semiliberdade;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    instituir e manter processo de avaliação dos Sistemas de Atendimento Socioeducativo, seus planos, entidades e programas;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    financiar, com os demais entes federados, a execução de programas e serviços do Sinase; e
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    garantir a publicidade de informações sobre repasses de recursos aos gestores estaduais, distrital e municipais, para financiamento de programas de atendimento socioeducativo.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art3_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    São vedados à União o desenvolvimento e a oferta de programas próprios de atendimento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par2">
+            <!--Link: urn:lex:br:federal:lei:1991-10-12;8242-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Ao Conselho Nacional dos Direitos da Criança e do Adolescente (Conanda) competem as funções normativa, deliberativa, de avaliação e de fiscalização do Sinase, nos termos previstos na <span xlink:href="urn:lex:br:federal:lei:1991-10-12;8242">Lei nº 8.242, de 12 de outubro de 1991</span>, que cria o referido Conselho.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O Plano de que trata o inciso II do caput deste artigo será submetido à deliberação do Conanda.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    À Secretaria de Direitos Humanos da Presidência da República (SDH/PR) competem as funções executiva e de gestão do Sinase.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    Compete aos Estados:
+
+  </p>
+            <Inciso id="art4_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    formular, instituir, coordenar e manter Sistema Estadual de Atendimento Socioeducativo, respeitadas as diretrizes fixadas pela União;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    elaborar o Plano Estadual de Atendimento Socioeducativo em conformidade com o Plano Nacional;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    criar, desenvolver e manter programas para a execução das medidas socioeducativas de semiliberdade e internação;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    editar normas complementares para a organização e funcionamento do seu sistema de atendimento e dos sistemas municipais;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    estabelecer com os Municípios formas de colaboração para o atendimento socioeducativo em meio aberto;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    prestar assessoria técnica e suplementação financeira aos Municípios para a oferta regular de programas de meio aberto;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc7">
+            <!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art88_cpt_inc5-->
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    garantir o pleno funcionamento do plantão interinstitucional, nos termos previstos no <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art88_cpt_inc5">inciso V do art. 88 da Lei nº 8.069, de 13 de julho de 1990</span> (Estatuto da Criança e do Adolescente);
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    garantir defesa técnica do adolescente a quem se atribua prática de ato infracional;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    cadastrar-se no Sistema Nacional de Informações sobre o Atendimento Socioeducativo e fornecer regularmente os dados necessários ao povoamento e à atualização do Sistema; e
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc10">
+            
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    cofinanciar, com os demais entes federados, a execução de programas e ações destinados ao atendimento inicial de adolescente apreendido para apuração de ato infracional, bem como aqueles destinados a adolescente a quem foi aplicada medida socioeducativa privativa de liberdade.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art4_par1">
+            <!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art88_cpt_inc2-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Ao Conselho Estadual dos Direitos da Criança e do Adolescente competem as funções deliberativas e de controle do Sistema Estadual de Atendimento Socioeducativo, nos termos previstos no <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art88_cpt_inc2">inciso II do art. 88 da Lei nº 8.069, de 13 de julho de 1990</span> (Estatuto da Criança e do Adolescente), bem como outras definidas na legislação estadual ou distrital.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O Plano de que trata o inciso II do caput deste artigo será submetido à deliberação do Conselho Estadual dos Direitos da Criança e do Adolescente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Competem ao órgão a ser designado no Plano de que trata o inciso II do caput deste artigo as funções executiva e de gestão do Sistema Estadual de Atendimento Socioeducativo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    Compete aos Municípios:
+
+  </p>
+            <Inciso id="art5_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    formular, instituir, coordenar e manter o Sistema Municipal de Atendimento Socioeducativo, respeitadas as diretrizes fixadas pela União e pelo respectivo Estado;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    elaborar o Plano Municipal de Atendimento Socioeducativo, em conformidade com o Plano Nacional e o respectivo Plano Estadual;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    criar e manter programas de atendimento para a execução das medidas socioeducativas em meio aberto;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    editar normas complementares para a organização e funcionamento dos programas do seu Sistema de Atendimento Socioeducativo;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    cadastrar-se no Sistema Nacional de Informações sobre o Atendimento Socioeducativo e fornecer regularmente os dados necessários ao povoamento e à atualização do Sistema; e
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    cofinanciar, conjuntamente com os demais entes federados, a execução de programas e ações destinados ao atendimento inicial de adolescente apreendido para apuração de ato infracional, bem como aqueles destinados a adolescente a quem foi aplicada medida socioeducativa em meio aberto.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art5_par1">
+            <!--Link: urn:lex:br:federal:lei:2005-04-06;11107-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Para garantir a oferta de programa de atendimento socioeducativo de meio aberto, os Municípios podem instituir os consórcios dos quais trata a <span xlink:href="urn:lex:br:federal:lei:2005-04-06;11107">Lei nº 11.107, de 6 de abril de 2005</span>, que dispõe sobre normas gerais de contratação de consórcios públicos e dá outras providências, ou qualquer outro instrumento jurídico adequado, como forma de compartilhar responsabilidades.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par2">
+            <!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art88_cpt_inc2-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Ao Conselho Municipal dos Direitos da Criança e do Adolescente competem as funções deliberativas e de controle do Sistema Municipal de Atendimento Socioeducativo, nos termos previstos no <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art88_cpt_inc2">inciso II do art. 88 da Lei nº 8.069, de 13 de julho de 1990</span> (Estatuto da Criança e do Adolescente), bem como outras definidas na legislação municipal.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O Plano de que trata o inciso II do caput deste artigo será submetido à deliberação do Conselho Municipal dos Direitos da Criança e do Adolescente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Competem ao órgão a ser designado no Plano de que trata o inciso II do caput deste artigo as funções executiva e de gestão do Sistema Municipal de Atendimento Socioeducativo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    Ao Distrito Federal cabem, cumulativamente, as competências dos Estados e dos Municípios.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="tit1_cap3">
+            
+            
+            <Rotulo>CAPÍTULO III</Rotulo>
+            <NomeAgrupador>
+    DOS PLANOS DE ATENDIMENTO SOCIOEDUCATIVO
+
+  </NomeAgrupador>
+            <Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            <!--Link: urn:lex:br:federal:lei:1990-07-13;8069-->
+            
+            
+            <p>
+    O Plano de que trata o inciso II do art. 3º desta Lei deverá incluir um diagnóstico da situação do Sinase, as diretrizes, os objetivos, as metas, as prioridades e as formas de financiamento e gestão das ações de atendimento para os 10 (dez) anos seguintes, em sintonia com os princípios elencados na <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069">Lei nº 8.069, de 13 de julho de 1990</span> (Estatuto da Criança e do Adolescente).
+
+  </p>
+            
+          </Caput><Paragrafo id="art7_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As normas nacionais de referência para o atendimento socioeducativo devem constituir anexo ao Plano de que trata o inciso II do art. 3º desta Lei.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art7_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os Estados, o Distrito Federal e os Municípios deverão,com base no Plano Nacional de Atendimento Socioeducativo, elaborar seus planos decenais correspondentes, em até 360 (trezentos e sessenta) dias a partir da aprovação do Plano Nacional.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            <!--Link: urn:lex:br:federal:lei:1990-07-13;8069-->
+            
+            
+            <p>
+    Os Planos de Atendimento Socioeducativo deverão, obrigatoriamente, prever ações articuladas nas áreas de educação, saúde, assistência social, cultura, capacitação para o trabalho e esporte, para os adolescentes atendidos, em conformidade com os princípios elencados na <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069">Lei nº 8.069, de 13 de julho de 1990</span> (Estatuto da Criança e do Adolescente).
+
+  </p>
+            
+          </Caput><Paragrafo id="art8_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Os Poderes Legislativos federal, estaduais, distrital e municipais, por meio de suas comissões temáticas pertinentes, acompanharão a execução dos Planos de Atendimento Socioeducativo dos respectivos entes federados.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="tit1_cap4">
+            
+            
+            <Rotulo>CAPÍTULO IV</Rotulo>
+            <NomeAgrupador>
+    DOS PROGRAMAS DE ATENDIMENTO
+
+  </NomeAgrupador>
+            <Secao id="tit1_cap4_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Disposições Gerais
+
+  </NomeAgrupador>
+            <Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            
+            
+            
+            <p>
+    Os Estados e o Distrito Federal inscreverão seus programas de atendimento e alterações no Conselho Estadual ou Distrital dos Direitos da Criança e do Adolescente, conforme o caso.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>
+    Os Municípios inscreverão seus programas e alterações, bem como as entidades de atendimento executoras, no Conselho Municipal dos Direitos da Criança e do Adolescente.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            <p>
+    Além da especificação do regime, são requisitos obrigatórios para a inscrição de programa de atendimento:
+
+  </p>
+            <Inciso id="art11_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a exposição das linhas gerais dos métodos e técnicas pedagógicas, com a especificação das atividades de natureza coletiva;
+
+  </p>
+            
+          </Inciso><Inciso id="art11_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a indicação da estrutura material, dos recursos humanos e das estratégias de segurança compatíveis com as necessidades da respectiva unidade;
+
+  </p>
+            
+          </Inciso><Inciso id="art11_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    regimento interno que regule o funcionamento da entidade, no qual deverá constar, no mínimo:
+
+  </p>
+            <Alinea id="art11_cpt_inc3_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    o detalhamento das atribuições e responsabilidades do dirigente, de seus prepostos, dos membros da equipe técnica e dos demais educadores;
+
+  </p>
+            
+          </Alinea><Alinea id="art11_cpt_inc3_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    a previsão das condições do exercício da disciplina e concessão de benefícios e o respectivo procedimento de aplicação; e
+
+  </p>
+            
+          </Alinea><Alinea id="art11_cpt_inc3_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    a previsão da concessão de benefícios extraordinários e enaltecimento, tendo em vista tornar público o reconhecimento ao adolescente pelo esforço realizado na consecução dos objetivos do plano individual;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art11_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    a política de formação dos recursos humanos;
+
+  </p>
+            
+          </Inciso><Inciso id="art11_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    a previsão das ações de acompanhamento do adolescente após o cumprimento de medida socioeducativa;
+
+  </p>
+            
+          </Inciso><Inciso id="art11_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    a indicação da equipe técnica, cuja quantidade e formação devem estar em conformidade com as normas de referência do sistema e dos conselhos profissionais e com o atendimento socioeducativo a ser realizado; e
+
+  </p>
+            
+          </Inciso><Inciso id="art11_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    a adesão ao Sistema de Informações sobre o Atendimento Socioeducativo, bem como sua operação efetiva.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art11_par1u">
+            <!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art97-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O não cumprimento do previsto neste artigo sujeita as entidades de atendimento, os órgãos gestores, seus dirigentes ou prepostos à aplicação das medidas previstas no <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art97">art. 97 da Lei nº 8.069, de 13 de julho de 1990</span> (Estatuto da Criança e do Adolescente).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            
+            
+            
+            <p>
+    A composição da equipe técnica do programa de atendimento deverá ser interdisciplinar, compreendendo, no mínimo, profissionais das áreas de saúde, educação e assistência social, de acordo com as normas de referência.
+
+  </p>
+            
+          </Caput><Paragrafo id="art12_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Outros profissionais podem ser acrescentados às equipes para atender necessidades específicas do programa.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art12_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Regimento interno deve discriminar as atribuições de cada profissional, sendo proibida a sobreposição dessas atribuições na entidade de atendimento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art12_par3">
+            <!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art97-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O não cumprimento do previsto neste artigo sujeita as entidades de atendimento, seus dirigentes ou prepostos à aplicação das medidas previstas no <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art97">art. 97 da Lei nº 8.069, de 13 de julho de 1990</span> (Estatuto da Criança e do Adolescente).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="tit1_cap4_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Dos Programas de Meio Aberto
+
+  </NomeAgrupador>
+            <Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>
+    Compete à direção do programa de prestação de serviços à comunidade ou de liberdade assistida:
+
+  </p>
+            <Inciso id="art13_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    selecionar e credenciar orientadores, designando-os, caso a caso, para acompanhar e avaliar o cumprimento da medida;
+
+  </p>
+            
+          </Inciso><Inciso id="art13_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    receber o adolescente e seus pais ou responsável e orientá-los sobre a finalidade da medida e a organização e funcionamento do programa;
+
+  </p>
+            
+          </Inciso><Inciso id="art13_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    encaminhar o adolescente para o orientador credenciado;
+
+  </p>
+            
+          </Inciso><Inciso id="art13_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    supervisionar o desenvolvimento da medida; e
+
+  </p>
+            
+          </Inciso><Inciso id="art13_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    avaliar, com o orientador, a evolução do cumprimento da medida e, se necessário, propor à autoridade judiciária sua substituição, suspensão ou extinção.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art13_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O rol de orientadores credenciados deverá ser comunicado, semestralmente, à autoridade judiciária e ao Ministério Público.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            <p>
+    Incumbe ainda à direção do programa de medida de prestação de serviços à comunidade selecionar e credenciar entidades assistenciais, hospitais, escolas ou outros estabelecimentos congêneres, bem como os programas comunitários ou governamentais, de acordo com o perfil do socioeducando e o ambiente no qual a medida será cumprida.
+
+  </p>
+            
+          </Caput><Paragrafo id="art14_par1u">
+            <!--Link: urn:lex:br:federal:lei:1990-07-13;8069-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Se o Ministério Público impugnar o credenciamento, ou a autoridade judiciária considerá-lo inadequado, instaurará incidente de impugnação, com a aplicação subsidiária do procedimento de apuração de irregularidade em entidade de atendimento regulamentado na <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069">Lei nº 8.069, de 13 de julho de 1990</span> (Estatuto da Criança e do Adolescente), devendo citar o dirigente do programa e a direção da entidade ou órgão credenciado.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="tit1_cap4_sec3">
+            
+            
+            <Rotulo>Seção III</Rotulo>
+            <NomeAgrupador>
+    Dos Programas de Privação da Liberdade
+
+  </NomeAgrupador>
+            <Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>
+    São requisitos específicos para a inscrição de programas de regime de semiliberdade ou internação:
+
+  </p>
+            <Inciso id="art15_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a comprovação da existência de estabelecimento educacional com instalações adequadas e em conformidade com as normas de referência;
+
+  </p>
+            
+          </Inciso><Inciso id="art15_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a previsão do processo e dos requisitos para a escolha do dirigente;
+
+  </p>
+            
+          </Inciso><Inciso id="art15_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    a apresentação das atividades de natureza coletiva;
+
+  </p>
+            
+          </Inciso><Inciso id="art15_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    a definição das estratégias para a gestão de conflitos, vedada a previsão de isolamento cautelar, exceto nos casos previstos no § 2º do art. 49 desta Lei; e
+
+  </p>
+            
+          </Inciso><Inciso id="art15_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    a previsão de regime disciplinar nos termos do art. 72 desta Lei.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            
+            
+            
+            <p>
+    A estrutura física da unidade deverá ser compatível com as normas de referência do Sinase.
+
+  </p>
+            
+          </Caput><Paragrafo id="art16_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    É vedada a edificação de unidades socioeducacionais em espaços contíguos, anexos, ou de qualquer outra forma integrados a estabelecimentos penais.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A direção da unidade adotará, em caráter excepcional, medidas para proteção do interno em casos de risco à sua integridade física, à sua vida, ou à de outrem, comunicando, de imediato, seu defensor e o Ministério Público.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            
+            
+            
+            <p>
+    Para o exercício da função de dirigente de programa de atendimento em regime de semiliberdade ou de internação, além dos requisitos específicos previstos no respectivo programa de atendimento, é necessário:
+
+  </p>
+            <Inciso id="art17_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    formação de nível superior compatível com a natureza da função;
+
+  </p>
+            
+          </Inciso><Inciso id="art17_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    comprovada experiência no trabalho com adolescentes de, no mínimo, 2 (dois) anos; e
+
+  </p>
+            
+          </Inciso><Inciso id="art17_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    reputação ilibada.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="tit1_cap5">
+            
+            
+            <Rotulo>CAPÍTULO V</Rotulo>
+            <NomeAgrupador>
+    DA AVALIAÇÃO E ACOMPANHAMENTO DA GESTÃO DO ATENDIMENTO SOCIOEDUCATIVO
+
+  </NomeAgrupador>
+            <Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            
+            
+            
+            <p>
+    A União, em articulação com os Estados, o Distrito Federal e os Municípios, realizará avaliações periódicas da implementação dos Planos de Atendimento Socioeducativo em intervalos não superiores a 3 (três) anos.
+
+  </p>
+            
+          </Caput><Paragrafo id="art18_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O objetivo da avaliação é verificar o cumprimento das metas estabelecidas e elaborar recomendações aos gestores e operadores dos Sistemas.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art18_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O processo de avaliação deverá contar com a participação de representantes do Poder Judiciário, do Ministério Público, da Defensoria Pública e dos Conselhos Tutelares, na forma a ser definida em regulamento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art18_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A primeira avaliação do Plano Nacional de Atendimento Socioeducativo realizar-se-á no terceiro ano de vigência desta Lei, cabendo ao Poder Legislativo federal acompanhar o trabalho por meio de suas comissões temáticas pertinentes.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            
+            
+            
+            <p>
+    É instituído o Sistema Nacional de Avaliação e Acompanhamento do Atendimento Socioeducativo, com os seguintes objetivos:
+
+  </p>
+            <Inciso id="art19_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    contribuir para a organização da rede de atendimento socioeducativo;
+
+  </p>
+            
+          </Inciso><Inciso id="art19_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    assegurar conhecimento rigoroso sobre as ações do atendimento socioeducativo e seus resultados;
+
+  </p>
+            
+          </Inciso><Inciso id="art19_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    promover a melhora da qualidade da gestão e do atendimento socioeducativo; e
+
+  </p>
+            
+          </Inciso><Inciso id="art19_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    disponibilizar informações sobre o atendimento socioeducativo.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art19_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A avaliação abrangerá, no mínimo, a gestão, as entidades de atendimento, os programas e os resultados da execução das medidas socioeducativas.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Ao final da avaliação, será elaborado relatório contendo histórico e diagnóstico da situação, as recomendações e os prazos para que essas sejam cumpridas, além de outros elementos a serem definidos em regulamento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O relatório da avaliação deverá ser encaminhado aos respectivos Conselhos de Direitos, Conselhos Tutelares e ao Ministério Público.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Os gestores e entidades têm o dever de colaborar com o processo de avaliação, facilitando o acesso às suas instalações, à documentação e a todos os elementos necessários ao seu efetivo cumprimento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    O acompanhamento tem por objetivo verificar o cumprimento das metas dos Planos de Atendimento Socioeducativo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            
+            
+            
+            <p>
+    O Sistema Nacional de Avaliação e Acompanhamento da Gestão do Atendimento Socioeducativo assegurará, na metodologia a ser empregada:
+
+  </p>
+            <Inciso id="art20_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a realização da autoavaliação dos gestores e das instituições de atendimento;
+
+  </p>
+            
+          </Inciso><Inciso id="art20_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a avaliação institucional externa, contemplando a análise global e integrada das instalações físicas, relações institucionais, compromisso social, atividades e finalidades das instituições de atendimento e seus programas;
+
+  </p>
+            
+          </Inciso><Inciso id="art20_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    o respeito à identidade e à diversidade de entidades e programas;
+
+  </p>
+            
+          </Inciso><Inciso id="art20_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    a participação do corpo de funcionários das entidades de atendimento e dos Conselhos Tutelares da área de atuação da entidade avaliada; e
+
+  </p>
+            
+          </Inciso><Inciso id="art20_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    o caráter público de todos os procedimentos, dados e resultados dos processos avaliativos.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            
+            
+            
+            <p>
+    A avaliação será coordenada por uma comissão permanente e realizada por comissões temporárias, essas compostas, no mínimo, por 3 (três) especialistas com reconhecida atuação na área temática e definidas na forma do regulamento.
+
+  </p>
+            
+          </Caput><Paragrafo id="art21_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    É vedado à comissão permanente designar avaliadores:
+
+  </p>
+            <Inciso id="art21_par1u_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    que sejam titulares ou servidores dos órgãos gestores avaliados ou funcionários das entidades avaliadas;
+
+  </p>
+            
+          </Inciso><Inciso id="art21_par1u_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    que tenham relação de parentesco até o 3º grau com titulares ou servidores dos órgãos gestores avaliados e/ou funcionários das entidades avaliadas; e
+
+  </p>
+            
+          </Inciso><Inciso id="art21_par1u_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    que estejam respondendo a processos criminais.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo id="art22">
+            
+            
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            
+            
+            
+            <p>
+    A avaliação da gestão terá por objetivo:
+
+  </p>
+            <Inciso id="art22_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    verificar se o planejamento orçamentário e sua execução se processam de forma compatível com as necessidades do respectivo Sistema de Atendimento Socioeducativo;
+
+  </p>
+            
+          </Inciso><Inciso id="art22_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    verificar a manutenção do fluxo financeiro, considerando as necessidades operacionais do atendimento socioeducativo, as normas de referência e as condições previstas nos instrumentos jurídicos celebrados entre os órgãos gestores e as entidades de atendimento;
+
+  </p>
+            
+          </Inciso><Inciso id="art22_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    verificar a implementação de todos os demais compromissos assumidos por ocasião da celebração dos instrumentos jurídicos relativos ao atendimento socioeducativo; e
+
+  </p>
+            
+          </Inciso><Inciso id="art22_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    a articulação interinstitucional e intersetorial das políticas.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art23">
+            
+            
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            
+            
+            
+            <p>
+    A avaliação das entidades terá por objetivo identificar o perfil e o impacto de sua atuação, por meio de suas atividades, programas e projetos, considerando as diferentes dimensões institucionais e, entre elas, obrigatoriamente, as seguintes:
+
+  </p>
+            <Inciso id="art23_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o plano de desenvolvimento institucional;
+
+  </p>
+            
+          </Inciso><Inciso id="art23_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a responsabilidade social, considerada especialmente sua contribuição para a inclusão social e o desenvolvimento socioeconômico do adolescente e de sua família;
+
+  </p>
+            
+          </Inciso><Inciso id="art23_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    a comunicação e o intercâmbio com a sociedade;
+
+  </p>
+            
+          </Inciso><Inciso id="art23_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    as políticas de pessoal quanto à qualificação, aperfeiçoamento, desenvolvimento profissional e condições de trabalho;
+
+  </p>
+            
+          </Inciso><Inciso id="art23_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    a adequação da infraestrutura física às normas de referência;
+
+  </p>
+            
+          </Inciso><Inciso id="art23_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    o planejamento e a autoavaliação quanto aos processos, resultados, eficiência e eficácia do projeto pedagógico e da proposta socioeducativa;
+
+  </p>
+            
+          </Inciso><Inciso id="art23_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    as políticas de atendimento para os adolescentes e suas famílias;
+
+  </p>
+            
+          </Inciso><Inciso id="art23_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    a atenção integral à saúde dos adolescentes em conformidade com as diretrizes do art. 60 desta Lei; e
+
+  </p>
+            
+          </Inciso><Inciso id="art23_cpt_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    a sustentabilidade financeira.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art24">
+            
+            
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput id="art24_cpt">
+            <!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art123--><!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art124--><!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art100--><!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art117--><!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art94--><!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art120--><!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art119-->
+            
+            
+            <p>
+    A avaliação dos programas terá por objetivo verificar, no mínimo, o atendimento ao que determinam os <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art94">arts. 94</span>, <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art100">100</span>, <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art117">117</span>, <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art119">119</span>, <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art120">120</span>, <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art123">123</span> e <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art124">124 da Lei nº 8.069, de 13 de julho de 1990</span>(Estatuto da Criança e do Adolescente).
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art25">
+            
+            
+            <Rotulo>Art. 25.</Rotulo>
+            
+            <Caput id="art25_cpt">
+            
+            
+            
+            <p>
+    A avaliação dos resultados da execução de medida socioeducativa terá por objetivo, no mínimo:
+
+  </p>
+            <Inciso id="art25_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    verificar a situação do adolescente após cumprimento da medida socioeducativa, tomando por base suas perspectivas educacionais, sociais, profissionais e familiares; e
+
+  </p>
+            
+          </Inciso><Inciso id="art25_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    verificar reincidência de prática de ato infracional.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art26">
+            
+            
+            <Rotulo>Art. 26.</Rotulo>
+            
+            <Caput id="art26_cpt">
+            
+            
+            
+            <p>
+    Os resultados da avaliação serão utilizados para:
+
+  </p>
+            <Inciso id="art26_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    planejamento de metas e eleição de prioridades do Sistema de Atendimento Socioeducativo e seu financiamento;
+
+  </p>
+            
+          </Inciso><Inciso id="art26_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    reestruturação e/ou ampliação da rede de atendimento socioeducativo, de acordo com as necessidades diagnosticadas;
+
+  </p>
+            
+          </Inciso><Inciso id="art26_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    adequação dos objetivos e da natureza do atendimento socioeducativo prestado pelas entidades avaliadas;
+
+  </p>
+            
+          </Inciso><Inciso id="art26_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    celebração de instrumentos de cooperação com vistas à correção de problemas diagnosticados na avaliação;
+
+  </p>
+            
+          </Inciso><Inciso id="art26_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    reforço de financiamento para fortalecer a rede de atendimento socioeducativo;
+
+  </p>
+            
+          </Inciso><Inciso id="art26_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    melhorar e ampliar a capacitação dos operadores do Sistema de Atendimento Socioeducativo; e
+
+  </p>
+            
+          </Inciso><Inciso id="art26_cpt_inc7">
+            <!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art95-->
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    os efeitos do <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art95">art. 95 da Lei nº 8.069, de 13 de julho de 1990</span> (Estatuto da Criança e do Adolescente).
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art26_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    As recomendações originadas da avaliação deverão indicar prazo para seu cumprimento por parte das entidades de atendimento e dos gestores avaliados, ao fim do qual estarão sujeitos às medidas previstas no art. 28 desta Lei.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art27">
+            
+            
+            <Rotulo>Art. 27.</Rotulo>
+            
+            <Caput id="art27_cpt">
+            
+            
+            
+            <p>
+    As informações produzidas a partir do Sistema Nacional de Informações sobre Atendimento Socioeducativo serão utilizadas para subsidiar a avaliação, o acompanhamento, a gestão e o financiamento dos Sistemas Nacional, Distrital, Estaduais e Municipais de Atendimento Socioeducativo.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="tit1_cap6">
+            
+            
+            <Rotulo>CAPÍTULO VI</Rotulo>
+            <NomeAgrupador>
+    DA RESPONSABILIZAÇÃO DOS GESTORES, OPERADORES E ENTIDADES DE ATENDIMENTO
+
+  </NomeAgrupador>
+            <Artigo id="art28">
+            
+            
+            <Rotulo>Art. 28.</Rotulo>
+            
+            <Caput id="art28_cpt">
+            
+            
+            
+            <p>
+    No caso do desrespeito, mesmo que parcial, ou do não cumprimento integral às diretrizes e determinações desta Lei, em todas as esferas, são sujeitos:
+
+  </p>
+            <Inciso id="art28_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art97_par1_inc1-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    gestores, operadores e seus prepostos e entidades governamentais às medidas previstas no <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art97_par1_inc1">inciso I e no § 1º do art. 97 da Lei nº 8.069, de 13 de julho de 1990</span> (Estatuto da Criança e do Adolescente); e
+
+  </p>
+            
+          </Inciso><Inciso id="art28_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art97_par1_inc2-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    entidades não governamentais, seus gestores, operadores e prepostos às medidas previstas no <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art97_par1_inc2">inciso II e no § 1º do art. 97 da Lei nº 8.069, de 13 de julho de 1990</span> (Estatuto da Criança e do Adolescente).
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art28_par1u">
+            <!--Link: urn:lex:br:federal:lei:1990-07-13;8069-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A aplicação das medidas previstas nesteartigo dar-se-á a partir da análise de relatório circunstanciado elaborado após as avaliações, sem prejuízo do que determinam os arts. 191 a 197, 225 a 227, 230 a 236, 243 e 245 a 247 da <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069">Lei nº 8.069, de 13 de julho de 1990</span> (Estatuto da Criança e do Adolescente).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art29">
+            
+            
+            <Rotulo>Art. 29.</Rotulo>
+            
+            <Caput id="art29_cpt">
+            <!--Link: urn:lex:br:federal:lei:1992-06-02;8429-->
+            
+            
+            <p>
+    Àqueles que, mesmo não sendo agentes públicos, induzam ou concorram, sob qualquer forma, direta ou indireta, para o não cumprimento desta Lei, aplicam-se, no que couber, as penalidades dispostas na <span xlink:href="urn:lex:br:federal:lei:1992-06-02;8429">Lei nº 8.429, de 2 de junho de 1992</span>, que dispõe sobre as sanções aplicáveis aos agentes públicos nos casos de enriquecimento ilícito no exercício de mandato, cargo, emprego ou função na administração pública direta, indireta ou fundacional e dá outras providências (Lei de Improbidade Administrativa).
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="tit1_cap7">
+            
+            
+            <Rotulo>CAPÍTULO VII</Rotulo>
+            <NomeAgrupador>
+    DO FINANCIAMENTO E DAS PRIORIDADES
+
+  </NomeAgrupador>
+            <Artigo id="art30">
+            
+            
+            <Rotulo>Art. 30.</Rotulo>
+            
+            <Caput id="art30_cpt">
+            
+            
+            
+            <p>
+    O Sinase será cofinanciado com recursos dos orçamentos fiscal e da seguridade social, além de outras fontes.
+
+  </p>
+            
+          </Caput><Paragrafo id="art30_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    ( VETADO).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art30_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os entes federados que tenham instituído seus sistemas de atendimento socioeducativo terão acesso aos recursos na forma de transferência adotada pelos órgãos integrantes do Sinase.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art30_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Os entes federados beneficiados com recursos dos orçamentos dos órgãos responsáveis pelas políticas integrantes do Sinase, ou de outras fontes, estão sujeitos às normas e procedimentos de monitoramento estabelecidos pelas instâncias dos órgãos das políticas setoriais envolvidas, sem prejuízo do disposto nos incisos IX e X do art. 4º, nos incisos V e VI do art. 5º e no art. 6º desta Lei.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art31">
+            
+            
+            <Rotulo>Art. 31.</Rotulo>
+            
+            <Caput id="art31_cpt">
+            
+            
+            
+            <p>
+    Os Conselhos de Direitos, nas 3 (três) esferas de governo, definirão, anualmente, o percentual de recursos dos Fundos dos Direitos da Criança e do Adolescente a serem aplicados no financiamento das ações previstas nesta Lei, em especial para capacitação, sistemas de informação e de avaliação.
+
+  </p>
+            
+          </Caput><Paragrafo id="art31_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Os entes federados beneficiados com recursos do Fundo dos Direitos da Criança e do Adolescente para ações de atendimento socioeducativo prestarão informações sobre o desempenho dessas ações por meio do Sistema de Informações sobre Atendimento Socioeducativo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art32">
+            
+            
+            <Rotulo>Art. 32.</Rotulo>
+            
+            <Caput id="art32_cpt">
+            <!--Link: urn:lex:br:federal:lei:1986-12-19;7560-->
+            
+            
+            <p>
+    A <span xlink:href="urn:lex:br:federal:lei:1986-12-19;7560">Lei nº 7.560, de 19 de dezembro de 1986</span>, passa a vigorar com as seguintes alterações:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1986-12-19;7560" id="art32_cpt_alt1">              
+              <Artigo xlink:href="art5" id="art32_cpt_alt1_art5" abreAspas="s">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput xlink:href="art5_cpt" id="art32_cpt_alt1_art5_cpt">
+            
+            
+            
+            <p>
+    Os recursos do Funad serão destinados:
+
+  </p>
+            <Omissis id="art32_cpt_alt1_art5_cpt_omi1"/><Inciso xlink:href="art5_cpt_inc10" id="art32_cpt_alt1_art5_cpt_inc10">
+            
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    às entidades governamentais e não governamentais integrantes do Sistema Nacional de Atendimento Socioeducativo
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><p>(Sinase).
+</p><Omissis id="art32_cpt_alt1_omi1" fechaAspas="s" notaAlteracao="NR"/><Artigo xlink:href="art5-1" id="art32_cpt_alt1_art5-1" abreAspas="s">
+            
+            
+            <Rotulo>Art. 5º-A.</Rotulo>
+            
+            <Caput xlink:href="art5-1_cpt" id="art32_cpt_alt1_art5-1_cpt">
+            
+            
+            
+            <p>
+    A Secretaria Nacional de Políticas sobre Drogas (Senad), órgão gestor do Fundo Nacional Antidrogas (Funad), poderá financiar projetos das entidades do Sinase desde que:
+
+  </p>
+            <Inciso xlink:href="art5-1_cpt_inc1" id="art32_cpt_alt1_art5-1_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o ente federado de vinculação da entidade que solicita o recurso possua o respectivo Plano de Atendimento Socioeducativo aprovado;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art5-1_cpt_inc2" id="art32_cpt_alt1_art5-1_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    as entidades governamentais e não governamentais integrantes do Sinase que solicitem recursos tenham participado da avaliação nacional do atendimento socioeducativo;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art5-1_cpt_inc3" id="art32_cpt_alt1_art5-1_cpt_inc3" fechaAspas="s">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    o projeto apresentado esteja de acordo com os pressupostos da Política Nacional sobre Drogas e legislação específica.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art33">
+            
+            
+            <Rotulo>Art. 33.</Rotulo>
+            
+            <Caput id="art33_cpt">
+            <!--Link: urn:lex:br:federal:lei:1990-01-11;7998-->
+            
+            
+            <p>
+    A <span xlink:href="urn:lex:br:federal:lei:1990-01-11;7998">Lei nº 7.998, de 11 de janeiro de 1990</span>, passa a vigorar acrescida do seguinte art. 19-A:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1990-01-11;7998" id="art33_cpt_alt1">              
+              <Artigo xlink:href="art19-1" id="art33_cpt_alt1_art19-1" abreAspas="s">
+            
+            
+            <Rotulo>Art. 19-A.</Rotulo>
+            
+            <Caput xlink:href="art19-1_cpt" id="art33_cpt_alt1_art19-1_cpt">
+            
+            
+            
+            <p>
+    O Codefat poderá priorizar projetos das entidades integrantes do Sistema Nacional de Atendimento Socioeducativo (Sinase) desde que:
+
+  </p>
+            <Inciso xlink:href="art19-1_cpt_inc1" id="art33_cpt_alt1_art19-1_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o ente federado de vinculação da entidade que solicita o recurso possua o respectivo Plano de Atendimento Socioeducativo aprovado;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art19-1_cpt_inc2" id="art33_cpt_alt1_art19-1_cpt_inc2" fechaAspas="s">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    as entidades governamentais e não governamentais integrantes do Sinase que solicitem recursos tenham se submetido à avaliação nacional do atendimento socioeducativo.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art34">
+            
+            
+            <Rotulo>Art. 34.</Rotulo>
+            
+            <Caput id="art34_cpt">
+            <!--Link: urn:lex:br:federal:lei:1968-11-21;5537!art2-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1968-11-21;5537!art2">art. 2º da Lei nº 5.537, de 21 de novembro de 1968</span>, passa a vigorar acrescido do seguinte § 3º:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1968-11-21;5537" id="art34_cpt_alt1">              
+              <Artigo xlink:href="art2" id="art34_cpt_alt1_art2" abreAspas="s">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput xlink:href="art2_cpt" id="art34_cpt_alt1_art2_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Omissis id="art34_cpt_alt1_art2_omi1"/><Paragrafo xlink:href="art2_par3" id="art34_cpt_alt1_art2_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O fundo de que trata o art. 1º poderá financiar, na forma das resoluções de seu conselho deliberativo, programas e projetos de educação básica relativos ao Sistema Nacional de Atendimento Socioeducativo (Sinase) desde que:
+
+  </p>
+            <Inciso xlink:href="art2_par3_inc1" id="art34_cpt_alt1_art2_par3_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o ente federado que solicitar o recurso possua o respectivo Plano de Atendimento Socioeducativo aprovado;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art2_par3_inc2" id="art34_cpt_alt1_art2_par3_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    as entidades de atendimento vinculadas ao ente federado que solicitar o recurso tenham se submetido à avaliação nacional do atendimento socioeducativo; e
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art2_par3_inc3" id="art34_cpt_alt1_art2_par3_inc3" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    o ente federado tenha assinado o Plano de Metas Compromisso Todos pela Educação e elaborado o respectivo Plano de Ações Articuladas (PAR).
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo>
+          </Capitulo>
+          </Titulo><Titulo id="tit2">
+            
+            
+            <Rotulo>TÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DA EXECUÇÃO DAS MEDIDAS SOCIOEDUCATIVAS
+
+  </NomeAgrupador>
+            <Capitulo id="tit2_cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DISPOSIÇÕES GERAIS
+
+  </NomeAgrupador>
+            <Artigo id="art35">
+            
+            
+            <Rotulo>Art. 35.</Rotulo>
+            
+            <Caput id="art35_cpt">
+            
+            
+            
+            <p>
+    A execução das medidas socioeducativas reger-se-á pelos seguintes princípios:
+
+  </p>
+            <Inciso id="art35_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    legalidade, não podendo o adolescente receber tratamento mais gravoso do que o conferido ao adulto;
+
+  </p>
+            
+          </Inciso><Inciso id="art35_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    excepcionalidade da intervenção judicial e da imposição de medidas, favorecendo-se meios de autocomposição de conflitos;
+
+  </p>
+            
+          </Inciso><Inciso id="art35_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    prioridade a práticas ou medidas que sejam restaurativas e, sempre que possível, atendam às necessidades das vítimas;
+
+  </p>
+            
+          </Inciso><Inciso id="art35_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    proporcionalidade em relação à ofensa cometida;
+
+  </p>
+            
+          </Inciso><Inciso id="art35_cpt_inc5">
+            <!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art122-->
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    brevidade da medida em resposta ao ato cometido, em especial o respeito ao que dispõe o <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art122">art. 122 da Lei nº 8.069, de 13 de julho de 1990</span> (Estatuto da Criança e do Adolescente);
+
+  </p>
+            
+          </Inciso><Inciso id="art35_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    individualização, considerando-se a idade, capacidades e circunstâncias pessoais do adolescente;
+
+  </p>
+            
+          </Inciso><Inciso id="art35_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    mínima intervenção, restrita ao necessário para a realização dos objetivos da medida;
+
+  </p>
+            
+          </Inciso><Inciso id="art35_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    não discriminação do adolescente, notadamente em razão de etnia, gênero, nacionalidade, classe social, orientação religiosa, política ou sexual, ou associação ou pertencimento a qualquer minoria ou status; e
+
+  </p>
+            
+          </Inciso><Inciso id="art35_cpt_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    fortalecimento dos vínculos familiares e comunitários no processo socioeducativo.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="tit2_cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DOS PROCEDIMENTOS
+
+  </NomeAgrupador>
+            <Artigo id="art36">
+            
+            
+            <Rotulo>Art. 36.</Rotulo>
+            
+            <Caput id="art36_cpt">
+            <!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art146-->
+            
+            
+            <p>
+    A competência para jurisdicionar a execução das medidas socioeducativas segue o determinado pelo <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art146">art. 146 da Lei nº 8.069, de 13 de julho de 1990</span> (Estatuto da Criança e do Adolescente).
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art37">
+            
+            
+            <Rotulo>Art. 37.</Rotulo>
+            
+            <Caput id="art37_cpt">
+            <!--Link: urn:lex:br:federal:lei:1990-07-13;8069-->
+            
+            
+            <p>
+    A defesa e o Ministério Público intervirão, sob pena de nulidade, no procedimento judicial de execução de medida socioeducativa, asseguradas aos seus membros as prerrogativas previstas na <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069">Lei nº 8.069, de 13 de julho de 1990</span> (Estatuto da Criança e do Adolescente), podendo requerer as providências necessárias para adequar a execução aos ditames legais e regulamentares.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art38">
+            
+            
+            <Rotulo>Art. 38.</Rotulo>
+            
+            <Caput id="art38_cpt">
+            <!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art143--><!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art144-->
+            
+            
+            <p>
+    As medidas de proteção, de advertência e de reparação do dano, quando aplicadas de forma isolada, serão executadas nos próprios autos do processo de conhecimento, respeitado o disposto nos <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art143">arts. 143</span> e <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art144">144 da Lei nº 8.069, de 13 de julho de 1990</span> (Estatuto da Criança e do Adolescente).
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art39">
+            
+            
+            <Rotulo>Art. 39.</Rotulo>
+            
+            <Caput id="art39_cpt">
+            <!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art143--><!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art144-->
+            
+            
+            <p>
+    Para aplicação das medidas socioeducativas de prestação de serviços à comunidade, liberdade assistida, semiliberdade ou internação, será constituído processo de execução para cada adolescente, respeitado o disposto nos <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art143">arts. 143</span> e <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art144">144 da Lei nº 8.069, de 13 de julho de 1990</span> (Estatuto da Criança e do Adolescente), e com autuação das seguintes peças:
+
+  </p>
+            <Inciso id="art39_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    documentos de caráter pessoal do adolescente existentes no processo de conhecimento, especialmente os que comprovem sua idade; e
+
+  </p>
+            
+          </Inciso><Inciso id="art39_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    as indicadas pela autoridade judiciária, sempre que houver necessidade e, obrigatoriamente:
+
+  </p>
+            <Alinea id="art39_cpt_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    cópia da representação;
+
+  </p>
+            
+          </Alinea><Alinea id="art39_cpt_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    cópia da certidão de antecedentes;
+
+  </p>
+            
+          </Alinea><Alinea id="art39_cpt_inc2_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    cópia da sentença ou acórdão; e
+
+  </p>
+            
+          </Alinea><Alinea id="art39_cpt_inc2_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    cópia de estudos técnicos realizados durante a fase de conhecimento.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput><Paragrafo id="art39_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Procedimento idêntico será observado na hipótese de medida aplicada em sede de remissão, como forma de suspensão do processo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art40">
+            
+            
+            <Rotulo>Art. 40.</Rotulo>
+            
+            <Caput id="art40_cpt">
+            
+            
+            
+            <p>
+    Autuadas as peças, a autoridade judiciária encaminhará, imediatamente, cópia integral do expediente ao órgão gestor do atendimento socioeducativo, solicitando designação do programa ou da unidade de cumprimento da medida.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art41">
+            
+            
+            <Rotulo>Art. 41.</Rotulo>
+            
+            <Caput id="art41_cpt">
+            
+            
+            
+            <p>
+    A autoridade judiciária dará vistas da proposta de plano individual de que trata o art. 53 desta Lei ao defensor e ao Ministério Público pelo prazo sucessivo de 3 (três) dias, contados do recebimento da proposta encaminhada pela direção do programa de atendimento.
+
+  </p>
+            
+          </Caput><Paragrafo id="art41_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O defensor e o Ministério Público poderão requerer, e o Juiz da Execução poderá determinar, de ofício, a realização de qualquer avaliação ou perícia que entenderem necessárias para complementação do plano individual.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art41_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A impugnação ou complementação do plano individual, requerida pelo defensor ou pelo Ministério Público, deverá ser fundamentada, podendo a autoridade judiciária indeferi-la, se entender insuficiente a motivação.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art41_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Admitida a impugnação, ou se entender que o plano é inadequado, a autoridade judiciária designará, se necessário, audiência da qual cientificará o defensor, o Ministério Público, a direção do programa de atendimento, o adolescente e seus pais ou responsável.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art41_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    A impugnação não suspenderá a execução do plano individual, salvo determinação judicial em contrário.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art41_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Findo o prazo sem impugnação, considerar-se-á o plano individual homologado.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art42">
+            
+            
+            <Rotulo>Art. 42.</Rotulo>
+            
+            <Caput id="art42_cpt">
+            
+            
+            
+            <p>
+    As medidas socioeducativas de liberdade assistida, de semiliberdade e de internação deverão ser reavaliadas no máximo a cada 6 (seis) meses, podendo a autoridade judiciária, se necessário, designar audiência, no prazo máximo de 10 (dez) dias, cientificando o defensor, o Ministério Público, a direção do programa de atendimento, o adolescente e seus pais ou responsável.
+
+  </p>
+            
+          </Caput><Paragrafo id="art42_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A audiência será instruída com o relatório da equipe técnica do programa de atendimento sobre a evolução do plano de que trata o art. 52 desta Lei e com qualquer outro parecer técnico requerido pelas partes e deferido pela autoridade judiciária.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art42_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A gravidade do ato infracional, os antecedentes e o tempo de duração da medida não são fatores que, por si, justifiquem a não substituição da medida por outra menos grave.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art42_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Considera-se mais grave a internação, em relação a todas as demais medidas, e mais grave a semiliberdade, em relação às medidas de meio aberto.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art43">
+            
+            
+            <Rotulo>Art. 43.</Rotulo>
+            
+            <Caput id="art43_cpt">
+            
+            
+            
+            <p>
+    A reavaliação da manutenção, da substituição ou da suspensão das medidas de meio aberto ou de privação da liberdade e do respectivo plano individual pode ser solicitada a qualquer tempo, a pedido da direção do programa de atendimento, do defensor, do Ministério Público, do adolescente, de seus pais ou responsável.
+
+  </p>
+            
+          </Caput><Paragrafo id="art43_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Justifica o pedido de reavaliação, entre outros motivos:
+
+  </p>
+            <Inciso id="art43_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o desempenho adequado do adolescente com base no seu plano de atendimento individual, antes do prazo da reavaliação obrigatória;
+
+  </p>
+            
+          </Inciso><Inciso id="art43_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a inadaptação do adolescente ao programa e o reiterado descumprimento das atividades do plano individual; e
+
+  </p>
+            
+          </Inciso><Inciso id="art43_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    a necessidade de modificação das atividades do plano individual que importem em maior restrição da liberdade do adolescente.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art43_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A autoridade judiciária poderá indeferir o pedido, de pronto, se entender insuficiente a motivação.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art43_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Admitido o processamento do pedido, a autoridade judiciária, se necessário, designará audiência, observando o princípio do § 1º do art. 42 desta Lei.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art43_par4">
+            <!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art122_cpt_inc3-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    A substituição por medida mais gravosa somente ocorrerá em situações excepcionais, após o devido processo legal, inclusive na hipótese do <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art122_cpt_inc3">inciso III do art. 122 da Lei nº 8.069, de 13 de julho de 1990</span> (Estatuto da Criança e do Adolescente), e deve ser:
+
+  </p>
+            <Inciso id="art43_par4_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    fundamentada em parecer técnico;
+
+  </p>
+            
+          </Inciso><Inciso id="art43_par4_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    precedida de prévia audiência, e nos termos do § 1º do art. 42 desta Lei.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo id="art44">
+            
+            
+            <Rotulo>Art. 44.</Rotulo>
+            
+            <Caput id="art44_cpt">
+            
+            
+            
+            <p>
+    Na hipótese de substituição da medida ou modificação das atividades do plano individual, a autoridade judiciária remeterá o inteiro teor da decisão à direção do programa de atendimento, assim como as peças que entender relevantes à nova situação jurídica do adolescente.
+
+  </p>
+            
+          </Caput><Paragrafo id="art44_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    No caso de a substituição da medida importar em vinculação do adolescente a outro programa de atendimento, o plano individual e o histórico do cumprimento da medida deverão acompanhar a transferência.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art45">
+            
+            
+            <Rotulo>Art. 45.</Rotulo>
+            
+            <Caput id="art45_cpt">
+            
+            
+            
+            <p>
+    Se, no transcurso da execução, sobrevier sentença de aplicação de nova medida, a autoridade judiciária procederá à unificação, ouvidos, previamente, o Ministério Público e o defensor, no prazo de 3 (três) dias sucessivos, decidindo-se em igual prazo.
+
+  </p>
+            
+          </Caput><Paragrafo id="art45_par1">
+            <!--Link: urn:lex:br:federal:lei:1990-07-13;8069-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    É vedado à autoridade judiciária determinar reinício de cumprimento de medida socioeducativa, ou deixar de considerar os prazos máximos, e de liberação compulsória previstos na <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069">Lei nº 8.069, de 13 de julho de 1990</span> (Estatuto da Criança e do Adolescente), excetuada a hipótese de medida aplicada por ato infracional praticado durante a execução.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art45_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    É vedado à autoridade judiciária aplicar nova medida de internação, por atos infracionais praticados anteriormente, a adolescente que já tenha concluído cumprimento de medida socioeducativa dessa natureza, ou que tenha sido transferido para cumprimento de medida menos rigorosa, sendo tais atos absorvidos por aqueles aos quais se impôs a medida socioeducativa extrema.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art46">
+            
+            
+            <Rotulo>Art. 46.</Rotulo>
+            
+            <Caput id="art46_cpt">
+            
+            
+            
+            <p>
+    A medida socioeducativa será declarada extinta:
+
+  </p>
+            <Inciso id="art46_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    pela morte do adolescente;
+
+  </p>
+            
+          </Inciso><Inciso id="art46_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    pela realização de sua finalidade;
+
+  </p>
+            
+          </Inciso><Inciso id="art46_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    pela aplicação de pena privativa de liberdade, a ser cumprida em regime fechado ou semiaberto, em execução provisória ou definitiva;
+
+  </p>
+            
+          </Inciso><Inciso id="art46_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    pela condição de doença grave, que torne o adolescente incapaz de submeter-se ao cumprimento da medida; e
+
+  </p>
+            
+          </Inciso><Inciso id="art46_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    nas demais hipóteses previstas em lei.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art46_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    No caso de o maior de 18 (dezoito) anos, em cumprimento de medida socioeducativa, responder a processo-crime, caberá à autoridade judiciária decidir sobre eventual extinção da execução, cientificando da decisão o juízo criminal competente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art46_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Em qualquer caso, o tempo de prisão cautelar não convertida em pena privativa de liberdade deve ser descontado do prazo de cumprimento da medida socioeducativa.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art47">
+            
+            
+            <Rotulo>Art. 47.</Rotulo>
+            
+            <Caput id="art47_cpt">
+            
+            
+            
+            <p>
+    O mandado de busca e apreensão do adolescente terá vigência máxima de 6 (seis) meses, a contar da data da expedição, podendo, se necessário, ser renovado, fundamentadamente.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art48">
+            
+            
+            <Rotulo>Art. 48.</Rotulo>
+            
+            <Caput id="art48_cpt">
+            
+            
+            
+            <p>
+    O defensor, o Ministério Público, o adolescente e seus pais ou responsável poderão postular revisão judicial de qualquer sanção disciplinar aplicada, podendo a autoridade judiciária suspender a execução da sanção até decisão final do incidente.
+
+  </p>
+            
+          </Caput><Paragrafo id="art48_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Postulada a revisão após ouvida a autoridade colegiada que aplicou a sanção e havendo provas a produzir em audiência, procederá o magistrado na forma do § 1º do art. 42 desta Lei.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art48_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    É vedada a aplicação de sanção disciplinar de isolamento a adolescente interno, exceto seja essa imprescindível para garantia da segurança de outros internos ou do próprio adolescente a quem seja imposta a sanção, sendo necessária ainda comunicação ao defensor, ao Ministério Público e à autoridade judiciária em até 24 (vinte e quatro) horas.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="tit2_cap3">
+            
+            
+            <Rotulo>CAPÍTULO III</Rotulo>
+            <NomeAgrupador>
+    DOS DIREITOS INDIVIDUAIS
+
+  </NomeAgrupador>
+            <Artigo id="art49">
+            
+            
+            <Rotulo>Art. 49.</Rotulo>
+            
+            <Caput id="art49_cpt">
+            
+            
+            
+            <p>
+    São direitos do adolescente submetido ao cumprimento de medida socioeducativa, sem prejuízo de outros previstos em lei:
+
+  </p>
+            <Inciso id="art49_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    ser acompanhado por seus pais ou responsável e por seu defensor, em qualquer fase do procedimento administrativo ou judicial;
+
+  </p>
+            
+          </Inciso><Inciso id="art49_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    ser incluído em programa de meio aberto quando inexistir vaga para o cumprimento de medida de privação da liberdade, exceto nos casos de ato infracional cometido mediante grave ameaça ou violência à pessoa, quando o adolescente deverá ser internado em Unidade mais próxima de seu local de residência;
+
+  </p>
+            
+          </Inciso><Inciso id="art49_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    ser respeitado em sua personalidade, intimidade, liberdade de pensamento e religião e em todos os direitos não expressamente limitados na sentença;
+
+  </p>
+            
+          </Inciso><Inciso id="art49_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    peticionar, por escrito ou verbalmente, diretamente a qualquer autoridade ou órgão público, devendo, obrigatoriamente, ser respondido em até 15 (quinze) dias;
+
+  </p>
+            
+          </Inciso><Inciso id="art49_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    ser informado, inclusive por escrito, das normas de organização e funcionamento do programa de atendimento e também das previsões de natureza disciplinar;
+
+  </p>
+            
+          </Inciso><Inciso id="art49_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    receber, sempre que solicitar, informações sobre a evolução de seu plano individual, participando, obrigatoriamente, de sua elaboração e, se for o caso, reavaliação;
+
+  </p>
+            
+          </Inciso><Inciso id="art49_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    receber assistência integral à sua saúde, conforme o disposto no art. 60 desta Lei; e
+
+  </p>
+            
+          </Inciso><Inciso id="art49_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    ter atendimento garantido em creche e pré-escola aos filhos de 0 (zero) a 5 (cinco) anos.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art49_par1">
+            <!--Link: urn:lex:br:federal:lei:1990-07-13;8069-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As garantias processuais destinadas a adolescente autor de ato infracional previstas na <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069">Lei nº 8.069, de 13 de julho de 1990</span> (Estatuto da Criança e do Adolescente), aplicam-se integralmente na execução das medidas socioeducativas, inclusive no âmbito administrativo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art49_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A oferta irregular de programas de atendimento socioeducativo em meio aberto não poderá ser invocada como motivo para aplicação ou manutenção de medida de privação da liberdade.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art50">
+            
+            
+            <Rotulo>Art. 50.</Rotulo>
+            
+            <Caput id="art50_cpt">
+            <!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art121_par1-->
+            
+            
+            <p>
+    Sem prejuízo do disposto no <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art121_par1">§ 1º do art. 121 da Lei nº 8.069, de 13 de julho de 1990</span> (Estatuto da Criança e do Adolescente), a direção do programa de execução de medida de privação da liberdade poderá autorizar a saída, monitorada, do adolescente nos casos de tratamento médico, doença grave ou falecimento, devidamente comprovados, de pai, mãe, filho, cônjuge, companheiro ou irmão, com imediata comunicação ao juízo competente.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art51">
+            
+            
+            <Rotulo>Art. 51.</Rotulo>
+            
+            <Caput id="art51_cpt">
+            
+            
+            
+            <p>
+    A decisão judicial relativa à execução de medida socioeducativa será proferida após manifestação do defensor e do Ministério Público.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="tit2_cap4">
+            
+            
+            <Rotulo>CAPÍTULO IV</Rotulo>
+            <NomeAgrupador>
+    DO PLANO INDIVIDUAL DE ATENDIMENTO (PIA)
+
+  </NomeAgrupador>
+            <Artigo id="art52">
+            
+            
+            <Rotulo>Art. 52.</Rotulo>
+            
+            <Caput id="art52_cpt">
+            
+            
+            
+            <p>
+    O cumprimento das medidas socioeducativas, em regime de prestação de serviços à comunidade, liberdade assistida, semiliberdade ou internação, dependerá de Plano Individual de Atendimento (PIA), instrumento de previsão, registro e gestão das atividades a serem desenvolvidas com o adolescente.
+
+  </p>
+            
+          </Caput><Paragrafo id="art52_par1u">
+            <!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art249-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O PIA deverá contemplar a participação dos pais ou responsáveis, os quais têm o dever de contribuir com o processo ressocializador do adolescente, sendo esses passíveis de responsabilização administrativa, nos termos do <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art249">art. 249 da Lei nº 8.069, de 13 de julho de 1990</span> (Estatuto da Criança e do Adolescente), civil e criminal.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art53">
+            
+            
+            <Rotulo>Art. 53.</Rotulo>
+            
+            <Caput id="art53_cpt">
+            
+            
+            
+            <p>
+    O PIA será elaborado sob a responsabilidade da equipe técnica do respectivo programa de atendimento, com a participação efetiva do adolescente e de sua família, representada por seus pais ou responsável.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art54">
+            
+            
+            <Rotulo>Art. 54.</Rotulo>
+            
+            <Caput id="art54_cpt">
+            
+            
+            
+            <p>
+    Constarão do plano individual, no mínimo:
+
+  </p>
+            <Inciso id="art54_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    os resultados da avaliação interdisciplinar;
+
+  </p>
+            
+          </Inciso><Inciso id="art54_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    os objetivos declarados pelo adolescente;
+
+  </p>
+            
+          </Inciso><Inciso id="art54_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    a previsão de suas atividades de integração social e/ou capacitação profissional;
+
+  </p>
+            
+          </Inciso><Inciso id="art54_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    atividades de integração e apoio à família;
+
+  </p>
+            
+          </Inciso><Inciso id="art54_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    formas de participação da família para efetivo cumprimento do plano individual; e
+
+  </p>
+            
+          </Inciso><Inciso id="art54_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    as medidas específicas de atenção à sua saúde.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art55">
+            
+            
+            <Rotulo>Art. 55.</Rotulo>
+            
+            <Caput id="art55_cpt">
+            
+            
+            
+            <p>
+    Para o cumprimento das medidas de semiliberdade ou de internação, o plano individual conterá, ainda:
+
+  </p>
+            <Inciso id="art55_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a designação do programa de atendimento mais adequado para o cumprimento da medida;
+
+  </p>
+            
+          </Inciso><Inciso id="art55_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a definição das atividades internas e externas, individuais ou coletivas, das quais o adolescente poderá participar; e
+
+  </p>
+            
+          </Inciso><Inciso id="art55_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    a fixação das metas para o alcance de desenvolvimento de atividades externas.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art55_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O PIA será elaborado no prazo de até 45 (quarenta e cinco) dias da data do ingresso do adolescente no programa de atendimento.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art56">
+            
+            
+            <Rotulo>Art. 56.</Rotulo>
+            
+            <Caput id="art56_cpt">
+            
+            
+            
+            <p>
+    Para o cumprimento das medidas de prestação de serviços à comunidade e de liberdade assistida, o PIA será elaborado no prazo de até 15 (quinze) dias do ingresso do adolescente no programa de atendimento.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art57">
+            
+            
+            <Rotulo>Art. 57.</Rotulo>
+            
+            <Caput id="art57_cpt">
+            
+            
+            
+            <p>
+    P ara a elaboração do PIA, a direção do respectivoprograma de atendimento, pessoalmente ou por meio de membro da equipe técnica, terá acesso aos autos do procedimento de apuração do ato infracional e aos dos procedimentos de apuração de outros atos infracionais atribuídos ao mesmo adolescente.
+
+  </p>
+            
+          </Caput><Paragrafo id="art57_par1">
+            <!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art143--><!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art144-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O acesso aos documentos de que trata o caput deverá ser realizado por funcionário da entidade de atendimento, devidamente credenciado para tal atividade, ou por membro da direção, em conformidade com as normas a serem definidas pelo Poder Judiciário, de forma a preservar o que determinam os <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art143">arts. 143</span> e <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art144">144 da Lei no 8.069, de 13 de julho de 1990</span> (Estatuto da Criança e do Adolescente).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art57_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A direção poderá requisitar, ainda:
+
+  </p>
+            <Inciso id="art57_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    ao estabelecimento de ensino, o histórico escolar do adolescente e as anotações sobre o seu aproveitamento;
+
+  </p>
+            
+          </Inciso><Inciso id="art57_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    os dados sobre o resultado de medida anteriormente aplicada e cumprida em outro programa de atendimento; e
+
+  </p>
+            
+          </Inciso><Inciso id="art57_par2_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    os resultados de acompanhamento especializado anterior.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo id="art58">
+            
+            
+            <Rotulo>Art. 58.</Rotulo>
+            
+            <Caput id="art58_cpt">
+            
+            
+            
+            <p>
+    Por ocasião da reavaliação da medida, é obrigatória a apresentação pela direção do programa de atendimento de relatório da equipe técnica sobre a evolução do adolescente no cumprimento do plano individual.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art59">
+            
+            
+            <Rotulo>Art. 59.</Rotulo>
+            
+            <Caput id="art59_cpt">
+            
+            
+            
+            <p>
+    O acesso ao plano individual será restrito aos servidores do respectivo programa de atendimento, ao adolescente e a seus pais ou responsável, ao Ministério Público e ao defensor, exceto expressa autorização judicial.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="tit2_cap5">
+            
+            
+            <Rotulo>CAPÍTULO V</Rotulo>
+            <NomeAgrupador>
+    DA ATENÇÃO INTEGRAL À SAÚDE DE ADOLESCENTE EM CUMPRIMENTO DE MEDIDA SOCIOEDUCATIVA
+
+  </NomeAgrupador>
+            <Secao id="tit2_cap5_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Disposições Gerais
+
+  </NomeAgrupador>
+            <Artigo id="art60">
+            
+            
+            <Rotulo>Art. 60.</Rotulo>
+            
+            <Caput id="art60_cpt">
+            
+            
+            
+            <p>
+    A atenção integral à saúde do adolescente no Sistema de Atendimento Socioeducativo seguirá as seguintes diretrizes:
+
+  </p>
+            <Inciso id="art60_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    previsão, nos planos de atendimento socioeducativo, em todas as esferas, da implantação de ações de promoção da saúde, com o objetivo de integrar as ações socioeducativas, estimulando a autonomia, a melhoria das relações interpessoais e o fortalecimento de redes de apoio aos adolescentes e suas famílias;
+
+  </p>
+            
+          </Inciso><Inciso id="art60_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    inclusão de ações e serviços para a promoção, proteção, prevenção de agravos e doenças e recuperação da saúde;
+
+  </p>
+            
+          </Inciso><Inciso id="art60_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    cuidados especiais em saúde mental, incluindo os relacionados ao uso de álcool e outras substâncias psicoativas, e atenção aos adolescentes com deficiências;
+
+  </p>
+            
+          </Inciso><Inciso id="art60_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    disponibilização de ações de atenção à saúde sexual e reprodutiva e à prevenção de doenças sexualmente transmissíveis;
+
+  </p>
+            
+          </Inciso><Inciso id="art60_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    garantia de acesso a todos os níveis de atenção à saúde, por meio de referência e contrarreferência, de acordo com as normas do Sistema Único de Saúde (SUS);
+
+  </p>
+            
+          </Inciso><Inciso id="art60_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    capacitação das equipes de saúde e dos profissionais das entidades de atendimento, bem como daqueles que atuam nas unidades de saúde de referência voltadas às especificidades de saúde dessa população e de suas famílias;
+
+  </p>
+            
+          </Inciso><Inciso id="art60_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    inclusão, nos Sistemas de Informação de Saúde do SUS, bem como no Sistema de Informações sobre Atendimento Socioeducativo, de dados e indicadores de saúde da população de adolescentes em atendimento socioeducativo; e
+
+  </p>
+            
+          </Inciso><Inciso id="art60_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    estruturação das unidades de internação conforme as normas de referência do SUS e do Sinase, visando ao atendimento das necessidades de Atenção Básica.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art61">
+            
+            
+            <Rotulo>Art. 61.</Rotulo>
+            
+            <Caput id="art61_cpt">
+            
+            
+            
+            <p>
+    As entidades que ofereçam programas de atendimento socioeducativo em meio aberto e de semiliberdade deverão prestar orientações aos socioeducandos sobre o acesso aos serviços e às unidades do SUS.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art62">
+            
+            
+            <Rotulo>Art. 62.</Rotulo>
+            
+            <Caput id="art62_cpt">
+            
+            
+            
+            <p>
+    As entidades que ofereçam programas de privação de liberdade deverão contar com uma equipe mínima de profissionais de saúde cuja composição esteja em conformidade com as normas de referência do SUS.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art63">
+            
+            
+            <Rotulo>Art. 63.</Rotulo>
+            
+            <Caput id="art63_cpt">
+            
+            
+            
+            <p>
+    (VETADO).
+
+  </p>
+            
+          </Caput><Paragrafo id="art63_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O filho de adolescente nascido nos estabelecimentos referidos no caput deste artigo não terá tal informação lançada em seu registro de nascimento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art63_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Serão asseguradas as condições necessárias para que a adolescente submetida à execução de medida socioeducativa de privação de liberdade permaneça com o seu filho durante o período de amamentação.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="tit2_cap5_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Do Atendimento a Adolescente com Transtorno Mental e com Dependência de Álcool e de Substância Psicoativa
+
+  </NomeAgrupador>
+            <Artigo id="art64">
+            
+            
+            <Rotulo>Art. 64.</Rotulo>
+            
+            <Caput id="art64_cpt">
+            
+            
+            
+            <p>
+    O adolescente em cumprimento de medida socioeducativa que apresente indícios de transtorno mental, de deficiência mental, ou associadas, deverá ser avaliado por equipe técnica multidisciplinar e multissetorial.
+
+  </p>
+            
+          </Caput><Paragrafo id="art64_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As competências, a composição e a atuação da equipe técnica de que trata o caput deverão seguir, conjuntamente, as normas de referência do SUS e do Sinase, na forma do regulamento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art64_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A avaliação de que trata o caput subsidiará a elaboração e execução da terapêutica a ser adotada, a qual será incluída no PIA do adolescente, prevendo, se necessário, ações voltadas para a família.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art64_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    As informações produzidas na avaliação de que trata o caput são consideradas sigilosas.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art64_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Excepcionalmente, o juiz poderá suspender a execução da medida socioeducativa, ouvidos o defensor e o Ministério Público, com vistas a incluir o adolescente em programa de atenção integral à saúde mental que melhor atenda aos objetivos terapêuticos estabelecidos para o seu caso específico.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art64_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Suspensa a execução da medida socioeducativa, o juiz designará o responsável por acompanhar e informar sobre a evolução do atendimento ao adolescente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art64_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    A suspensão da execução da medida socioeducativa será avaliada, no mínimo, a cada 6 (seis) meses.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art64_par7">
+            <!--Link: urn:lex:br:federal:lei:2001-04-06;10216-->
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    O tratamento a que se submeterá o adolescente deverá observar o previsto na <span xlink:href="urn:lex:br:federal:lei:2001-04-06;10216">Lei nº 10.216, de 6 de abril de 2001</span>, que dispõe sobre a proteção e os direitos das pessoas portadoras de transtornos mentais e redireciona o modelo assistencial em saúde mental.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art64_par8">
+            
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    ( VETADO).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art65">
+            
+            
+            <Rotulo>Art. 65.</Rotulo>
+            
+            <Caput id="art65_cpt">
+            
+            
+            
+            <p>
+    Enquanto não cessada a jurisdição da Infância e Juventude, a autoridade judiciária, nas hipóteses tratadas no art. 64, poderá remeter cópia dos autos ao Ministério Público para eventual propositura de interdição e outras providências pertinentes.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art66">
+            
+            
+            <Rotulo>Art. 66.</Rotulo>
+            
+            <Caput id="art66_cpt">
+            
+            
+            
+            <p>
+    (VETADO).
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="tit2_cap6">
+            
+            
+            <Rotulo>CAPÍTULO VI</Rotulo>
+            <NomeAgrupador>
+    DAS VISITAS A ADOLESCENTE EM CUMPRIMENTO DE MEDIDA DE INTERNAÇÃO
+
+  </NomeAgrupador>
+            <Artigo id="art67">
+            
+            
+            <Rotulo>Art. 67.</Rotulo>
+            
+            <Caput id="art67_cpt">
+            
+            
+            
+            <p>
+    A visita do cônjuge, companheiro, pais ou responsáveis, parentes e amigos a adolescente a quem foi aplicada medida socioeducativa de internação observará dias e horários próprios definidos pela direção do programa de atendimento.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art68">
+            
+            
+            <Rotulo>Art. 68.</Rotulo>
+            
+            <Caput id="art68_cpt">
+            
+            
+            
+            <p>
+    É assegurado ao adolescente casado ou que viva, comprovadamente, em união estável o direito à visita íntima.
+
+  </p>
+            
+          </Caput><Paragrafo id="art68_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O visitante será identificado e registrado pela direção do programa de atendimento, que emitirá documento de identificação, pessoal e intransferível, específico para a realização da visita íntima.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art69">
+            
+            
+            <Rotulo>Art. 69.</Rotulo>
+            
+            <Caput id="art69_cpt">
+            
+            
+            
+            <p>
+    É garantido aos adolescentes em cumprimento de medida socioeducativa de internação o direito de receber visita dos filhos, independentemente da idade desses.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art70">
+            
+            
+            <Rotulo>Art. 70.</Rotulo>
+            
+            <Caput id="art70_cpt">
+            
+            
+            
+            <p>
+    O regulamento interno estabelecerá as hipóteses de proibição da entrada de objetos na unidade de internação, vedando o acesso aos seus portadores.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="tit2_cap7">
+            
+            
+            <Rotulo>CAPÍTULO VII</Rotulo>
+            <NomeAgrupador>
+    DOS REGIMES DISCIPLINARES
+
+  </NomeAgrupador>
+            <Artigo id="art71">
+            
+            
+            <Rotulo>Art. 71.</Rotulo>
+            
+            <Caput id="art71_cpt">
+            
+            
+            
+            <p>
+    Todas as entidades de atendimento socioeducativo deverão, em seus respectivos regimentos, realizar a previsão de regime disciplinar que obedeça aos seguintes princípios:
+
+  </p>
+            <Inciso id="art71_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    tipificação explícita das infrações como leves, médias e graves e determinação das correspondentes sanções;
+
+  </p>
+            
+          </Inciso><Inciso id="art71_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    exigência da instauração formal de processo disciplinar para a aplicação de qualquer sanção, garantidos a ampla defesa e o contraditório;
+
+  </p>
+            
+          </Inciso><Inciso id="art71_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    obrigatoriedade de audiência do socioeducando nos casosem que seja necessária a instauração de processo disciplinar;
+
+  </p>
+            
+          </Inciso><Inciso id="art71_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    sanção de duração determinada;
+
+  </p>
+            
+          </Inciso><Inciso id="art71_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    enumeração das causas ou circunstâncias que eximam, atenuem ou agravem a sanção a ser imposta ao socioeducando, bem como os requisitos para a extinção dessa;
+
+  </p>
+            
+          </Inciso><Inciso id="art71_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    enumeração explícita das garantias de defesa;
+
+  </p>
+            
+          </Inciso><Inciso id="art71_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    garantia de solicitação e rito de apreciação dos recursos cabíveis; e
+
+  </p>
+            
+          </Inciso><Inciso id="art71_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    apuração da falta disciplinar por comissão composta por, no mínimo, 3 (três) integrantes, sendo 1 (um), obrigatoriamente, oriundo da equipe técnica.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art72">
+            
+            
+            <Rotulo>Art. 72.</Rotulo>
+            
+            <Caput id="art72_cpt">
+            
+            
+            
+            <p>
+    O regime disciplinar é independente da responsabilidade civil ou penal que advenha do ato cometido.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art73">
+            
+            
+            <Rotulo>Art. 73.</Rotulo>
+            
+            <Caput id="art73_cpt">
+            
+            
+            
+            <p>
+    Nenhum socioeducando poderá desempenhar função ou tarefa de apuração disciplinar ou aplicação de sanção nas entidades de atendimento socioeducativo.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art74">
+            
+            
+            <Rotulo>Art. 74.</Rotulo>
+            
+            <Caput id="art74_cpt">
+            
+            
+            
+            <p>
+    Não será aplicada sanção disciplinar sem expressa e anterior previsão legal ou regulamentar e o devido processo administrativo.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art75">
+            
+            
+            <Rotulo>Art. 75.</Rotulo>
+            
+            <Caput id="art75_cpt">
+            
+            
+            
+            <p>
+    Não será aplicada sanção disciplinar ao socioeducando que tenha praticado a falta:
+
+  </p>
+            <Inciso id="art75_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    por coação irresistível ou por motivo de força maior;
+
+  </p>
+            
+          </Inciso><Inciso id="art75_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    em legítima defesa, própria ou de outrem.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="tit2_cap8">
+            
+            
+            <Rotulo>CAPÍTULO VIII</Rotulo>
+            <NomeAgrupador>
+    DA CAPACITAÇÃO PARA O TRABALHO
+
+  </NomeAgrupador>
+            <Artigo id="art76">
+            
+            
+            <Rotulo>Art. 76.</Rotulo>
+            
+            <Caput id="art76_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1942-01-22;4048!art2-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:decreto.lei:1942-01-22;4048!art2">art. 2º do Decreto-Lei nº 4.048, de 22 de janeiro de 1942</span>, passa a vigorar acrescido do seguinte § 1º, renumerando-se o atual parágrafo único para § 2º:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:decreto.lei:1942-01-22;4048" id="art76_cpt_alt1">              
+              <Artigo xlink:href="art2" id="art76_cpt_alt1_art2" abreAspas="s">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput xlink:href="art2_cpt" id="art76_cpt_alt1_art2_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Paragrafo xlink:href="art2_par1" id="art76_cpt_alt1_art2_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As escolas do Senai poderão ofertar vagas aos usuários do Sistema Nacional de Atendimento Socioeducativo (Sinase) nas condições a serem dispostas em instrumentos de cooperação celebrados entre os operadores do Senai e os gestores dos Sistemas de Atendimento Socioeducativo locais.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art2_par2" id="art76_cpt_alt1_art2_par2" textoOmitido="s" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art77">
+            
+            
+            <Rotulo>Art. 77.</Rotulo>
+            
+            <Caput id="art77_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1946-01-10;8621!art3-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:decreto.lei:1946-01-10;8621!art3">art. 3º do Decreto-Lei nº 8.621, de 10 de janeiro de 1946</span>, passa a vigorar acrescido do seguinte § 1º, renumerando-se o atual parágrafo único para § 2º:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:decreto.lei:1946-01-10;8621" id="art77_cpt_alt1">              
+              <Artigo xlink:href="art3" id="art77_cpt_alt1_art3" abreAspas="s">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput xlink:href="art3_cpt" id="art77_cpt_alt1_art3_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Paragrafo xlink:href="art3_par1" id="art77_cpt_alt1_art3_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As escolas do Senac poderão ofertar vagas aos usuários do Sistema Nacional de Atendimento Socioeducativo (Sinase) nas condições a serem dispostas em instrumentos de cooperação celebrados entre os operadores do Senac e os gestores dos Sistemas de Atendimento Socioeducativo locais.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art3_par2" id="art77_cpt_alt1_art3_par2" textoOmitido="s" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art78">
+            
+            
+            <Rotulo>Art. 78.</Rotulo>
+            
+            <Caput id="art78_cpt">
+            <!--Link: urn:lex:br:federal:lei:1991-12-23;8315!art1-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1991-12-23;8315!art1">art. 1º da Lei nº 8.315, de 23 de dezembro de 1991</span>, passa a vigorar acrescido do seguinte parágrafo único:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1991-12-23;8315" id="art78_cpt_alt1">              
+              <Artigo xlink:href="art1" id="art78_cpt_alt1_art1" abreAspas="s">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput xlink:href="art1_cpt" id="art78_cpt_alt1_art1_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Paragrafo xlink:href="art1_par1u" id="art78_cpt_alt1_art1_par1u" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Os programas de formação profissional rural do Senar poderão ofertar vagas aos usuários do Sistema Nacional de Atendimento Socioeducativo (Sinase) nas condições a serem dispostas em instrumentos de cooperação celebrados entre os operadores do Senar e os gestores dos Sistemas de Atendimento Socioeducativo locais.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art79">
+            
+            
+            <Rotulo>Art. 79.</Rotulo>
+            
+            <Caput id="art79_cpt">
+            <!--Link: urn:lex:br:federal:lei:1993-09-14;8706!art3-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1993-09-14;8706!art3">art. 3º da Lei nº 8.706, de 14 de setembro de 1993</span>, passa a vigorar acrescido do seguinte parágrafo único:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1993-09-14;8706" id="art79_cpt_alt1">              
+              <Artigo xlink:href="art3" id="art79_cpt_alt1_art3" abreAspas="s">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput xlink:href="art3_cpt" id="art79_cpt_alt1_art3_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Paragrafo xlink:href="art3_par1u" id="art79_cpt_alt1_art3_par1u" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Os programas de formação profissional do Senat poderão ofertar vagas aos usuários do Sistema Nacional de Atendimento Socioeducativo (Sinase) nas condições a serem dispostas em instrumentos de cooperação celebrados entre os operadores do Senat e os gestores dos Sistemas de Atendimento Socioeducativo locais.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art80">
+            
+            
+            <Rotulo>Art. 80.</Rotulo>
+            
+            <Caput id="art80_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1943-05-01;5452!art429-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:decreto.lei:1943-05-01;5452!art429">art. 429 do Decreto-Lei nº 5.452, de 1º de maio de 1943</span>, passa a vigorar acrescido do seguinte § 2º:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:decreto.lei:1943-05-01;5452" id="art80_cpt_alt1">              
+              <Artigo xlink:href="art429" id="art80_cpt_alt1_art429" abreAspas="s">
+            
+            
+            <Rotulo>Art. 429.</Rotulo>
+            
+            <Caput xlink:href="art429_cpt" id="art80_cpt_alt1_art429_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Omissis id="art80_cpt_alt1_art429_omi1"/><Paragrafo xlink:href="art429_par2" id="art80_cpt_alt1_art429_par2" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os estabelecimentos de que trata o caput ofertarão vagas de aprendizes a adolescentes usuários do Sistema Nacional de Atendimento Socioeducativo (Sinase) nas condições a serem dispostas em instrumentos de cooperação celebrados entre os estabelecimentos e os gestores dos Sistemas de Atendimento Socioeducativo locais.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo>
+          </Capitulo>
+          </Titulo><Titulo id="tit3">
+            
+            
+            <Rotulo>TÍTULO III</Rotulo>
+            <NomeAgrupador>
+    DISPOSIÇÕES FINAIS E TRANSITÓRIAS
+
+  </NomeAgrupador>
+            <Artigo id="art81">
+            
+            
+            <Rotulo>Art. 81.</Rotulo>
+            
+            <Caput id="art81_cpt">
+            
+            
+            
+            <p>
+    As entidades que mantenham programas de atendimento têm o prazo de até 6 (seis) meses após a publicação desta Lei para encaminhar ao respectivo Conselho Estadual ou Municipal dos Direitos da Criança e do Adolescente proposta de adequação da sua inscrição, sob pena de interdição.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art82">
+            
+            
+            <Rotulo>Art. 82.</Rotulo>
+            
+            <Caput id="art82_cpt">
+            
+            
+            
+            <p>
+    Os Conselhos dos Direitos da Criança e do Adolescente, em todos os níveis federados, com os órgãos responsáveis pelo sistema de educação pública e as entidades de atendimento, deverão, no prazo de 1 (um) ano a partir da publicação desta Lei, garantir a inserção de adolescentes em cumprimento de medida socioeducativa na rede pública de educação, em qualquer fase do período letivo, contemplando as diversas faixas etárias e níveis de instrução.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art83">
+            
+            
+            <Rotulo>Art. 83.</Rotulo>
+            
+            <Caput id="art83_cpt">
+            
+            
+            
+            <p>
+    Os programas de atendimento socioeducativo sob a responsabilidade do Poder Judiciário serão, obrigatoriamente, transferidos ao Poder Executivo no prazo máximo de 1 (um) ano a partir da publicação desta Lei e de acordo com a política de oferta dos programas aqui definidos.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art84">
+            
+            
+            <Rotulo>Art. 84.</Rotulo>
+            
+            <Caput id="art84_cpt">
+            
+            
+            
+            <p>
+    Os programas de internação e semiliberdade sob a responsabilidade dos Municípios serão, obrigatoriamente, transferidos para o Poder Executivo do respectivo Estado no prazo máximo de 1 (um) ano a partir da publicação desta Lei e de acordo com a política de oferta dos programas aqui definidos.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art85">
+            
+            
+            <Rotulo>Art. 85.</Rotulo>
+            
+            <Caput id="art85_cpt">
+            
+            
+            
+            <p>
+    A não transferência de programas de atendimento para os devidos entes responsáveis, no prazo determinado nesta Lei, importará na interdição do programa e caracterizará ato de improbidade administrativa do agente responsável, vedada, ademais, ao Poder Judiciário e ao Poder Executivo municipal, ao final do referido prazo, a realização de despesas para a sua manutenção.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art86">
+            
+            
+            <Rotulo>Art. 86.</Rotulo>
+            
+            <Caput id="art86_cpt">
+            <!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art97--><!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art122--><!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art90--><!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art208--><!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art198--><!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art121-->
+            
+            
+            <p>
+    Os <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art90">arts. 90</span>, <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art97">97</span>, <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art121">121</span>, <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art122">122</span>, <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art198">198</span> e <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art208">208 da Lei nº 8.069, de 13 de julho de 1990</span> (Estatuto da Criança e do Adolescente), passam a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1990-07-13;8069" id="art86_cpt_alt1">              
+              <Artigo xlink:href="art90" id="art86_cpt_alt1_art90" abreAspas="s">
+            
+            
+            <Rotulo>Art. 90.</Rotulo>
+            
+            <Caput xlink:href="art90_cpt" id="art86_cpt_alt1_art90_cpt" textoOmitido="s">
+            
+            
+            
+            
+            <Omissis id="art86_cpt_alt1_art90_cpt_omi1"/><Inciso xlink:href="art90_cpt_inc5" id="art86_cpt_alt1_art90_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    prestação de serviços à comunidade;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art90_cpt_inc6" id="art86_cpt_alt1_art90_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    liberdade assistida;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art90_cpt_inc7" id="art86_cpt_alt1_art90_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    semiliberdade; e
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art90_cpt_inc8" id="art86_cpt_alt1_art90_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    internação.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Omissis id="art86_cpt_alt1_art90_omi1" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo><Artigo xlink:href="art97" id="art86_cpt_alt1_art97" abreAspas="s">
+            
+            
+            <Rotulo>Art. 97.</Rotulo>
+            
+            <Caput xlink:href="art97_cpt" id="art86_cpt_alt1_art97_cpt" fechaAspas="s">
+            
+            
+            
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo xlink:href="art121" id="art86_cpt_alt1_art121" abreAspas="s">
+            
+            
+            <Rotulo>Art. 121.</Rotulo>
+            
+            <Caput xlink:href="art121_cpt" id="art86_cpt_alt1_art121_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Omissis id="art86_cpt_alt1_art121_omi1"/><Paragrafo xlink:href="art121_par7" id="art86_cpt_alt1_art121_par7" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    A determinação judicial mencionada no § 1º poderá ser revista a qualquer tempo pela autoridade judiciária.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo xlink:href="art122" id="art86_cpt_alt1_art122" abreAspas="s">
+            
+            
+            <Rotulo>Art. 122.</Rotulo>
+            
+            <Caput xlink:href="art122_cpt" id="art86_cpt_alt1_art122_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Omissis id="art86_cpt_alt1_art122_omi1"/><Paragrafo xlink:href="art122_par1" id="art86_cpt_alt1_art122_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O prazo de internação na hipótese do inciso III deste artigo não poderá ser superior a 3 (três) meses, devendo ser decretada judicialmente após o devido processo legal.
+
+  </p>
+            
+          </Paragrafo><Omissis id="art86_cpt_alt1_art122_omi2" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo><Artigo xlink:href="art198" id="art86_cpt_alt1_art198" abreAspas="s">
+            
+            
+            <Rotulo>Art. 198.</Rotulo>
+            
+            <Caput xlink:href="art198_cpt" id="art86_cpt_alt1_art198_cpt">
+            <!--Link: urn:lex:br:federal:lei:1973-01-11;5869-->
+            
+            
+            <p>
+    Nos procedimentos afetos à Justiça da Infância e da Juventude, inclusive os relativos à execução das medidas socioeducativas, adotar-se-á o sistema recursal da <span xlink:href="urn:lex:br:federal:lei:1973-01-11;5869">Lei nº 5.869, de 11 de janeiro de 1973</span> (Código de Processo Civil), com as seguintes adaptações:
+
+  </p>
+            <Omissis id="art86_cpt_alt1_art198_cpt_omi1"/><Inciso xlink:href="art198_cpt_inc2" id="art86_cpt_alt1_art198_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    em todos os recursos, salvo nos embargos de declaração, o prazo para o Ministério Público e para a defesa será sempre de 10 (dez) dias;
+
+  </p>
+            
+          </Inciso>
+          </Caput><Omissis id="art86_cpt_alt1_art198_omi1" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo><Artigo xlink:href="art208" id="art86_cpt_alt1_art208" abreAspas="s">
+            
+            
+            <Rotulo>Art. 208.</Rotulo>
+            
+            <Caput xlink:href="art208_cpt" id="art86_cpt_alt1_art208_cpt" textoOmitido="s">
+            
+            
+            
+            
+            <Omissis id="art86_cpt_alt1_art208_cpt_omi1"/><Inciso xlink:href="art208_cpt_inc10" id="art86_cpt_alt1_art208_cpt_inc10">
+            
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    de programas de atendimento para a execução das medidas socioeducativas e aplicação de medidas de proteção.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Omissis id="art86_cpt_alt1_art208_omi1" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art87">
+            
+            
+            <Rotulo>Art. 87.</Rotulo>
+            
+            <Caput id="art87_cpt">
+            <!--Link: urn:lex:br:federal:lei:1990-07-13;8069-->
+            
+            
+            <p>
+    A <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069">Lei nº 8.069, de 13 de julho de 1990</span> (Estatuto da Criança e do Adolescente), passa a vigorar com as seguintes alterações:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1990-07-13;8069" id="art87_cpt_alt1">              
+              <Artigo xlink:href="art260" id="art87_cpt_alt1_art260" abreAspas="s">
+            
+            
+            <Rotulo>Art. 260.</Rotulo>
+            
+            <Caput xlink:href="art260_cpt" id="art87_cpt_alt1_art260_cpt">
+            
+            
+            
+            <p>
+    Os contribuintes poderão efetuar doações aos Fundos dos Direitos da Criança e do Adolescente nacional, distrital, estaduais ou municipais, devidamente comprovadas, sendo essas integralmente deduzidas do imposto de renda, obedecidos os seguintes limites:
+
+  </p>
+            <Inciso xlink:href="art260_cpt_inc1" id="art87_cpt_alt1_art260_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    1% (um por cento) do imposto sobre a renda devido apurado pelas pessoas jurídicas tributadas com base no lucro real; e
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art260_cpt_inc2" id="art87_cpt_alt1_art260_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:1997-12-10;9532!art22-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    6% (seis por cento) do imposto sobre a renda apurado pelas pessoas físicas na Declaração de Ajuste Anual, observado o disposto no <span xlink:href="urn:lex:br:federal:lei:1997-12-10;9532!art22">art. 22 da Lei nº 9.532, de 10 de dezembro de 1997</span>.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Omissis id="art87_cpt_alt1_art260_omi1"/><Paragrafo xlink:href="art260_par5" id="art87_cpt_alt1_art260_par5">
+            <!--Link: urn:lex:br:federal:lei:1995-12-26;9249!art3_par4-->
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Observado o disposto no <span xlink:href="urn:lex:br:federal:lei:1995-12-26;9249!art3_par4">§ 4º do art. 3º da Lei nº 9.249, de 26 de dezembro de 1995</span>, a dedução de que trata o inciso I do caput:
+
+  </p>
+            <Inciso xlink:href="art260_par5_inc1" id="art87_cpt_alt1_art260_par5_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    será considerada isoladamente, não se submetendo a limite em conjunto com outras deduções do imposto; e
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art260_par5_inc2" id="art87_cpt_alt1_art260_par5_inc2" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    não poderá ser computada como despesa operacional na apuração do lucro real.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo xlink:href="art260-1" id="art87_cpt_alt1_art260-1" abreAspas="s">
+            
+            
+            <Rotulo>Art. 260-A.</Rotulo>
+            
+            <Caput xlink:href="art260-1_cpt" id="art87_cpt_alt1_art260-1_cpt">
+            
+            
+            
+            <p>
+    A partir do exercício de 2010, ano-calendário de 2009, a pessoa física poderá optar pela doação de que trata o inciso II do caput do art. 260 diretamente em sua Declaração de Ajuste Anual.
+
+  </p>
+            
+          </Caput><Paragrafo xlink:href="art260-1_par1" id="art87_cpt_alt1_art260-1_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A doação de que trata o caput poderá ser deduzida até os seguintes percentuais aplicados sobre o imposto apurado na declaração:
+
+  </p>
+            <Inciso xlink:href="art260-1_par1_inc1" id="art87_cpt_alt1_art260-1_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    (VETADO);
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art260-1_par1_inc2" id="art87_cpt_alt1_art260-1_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    (VETADO);
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art260-1_par1_inc3" id="art87_cpt_alt1_art260-1_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    3% (três por cento) a partir do exercício de 2012.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo xlink:href="art260-1_par2" id="art87_cpt_alt1_art260-1_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A dedução de que trata o caput:
+
+  </p>
+            <Inciso xlink:href="art260-1_par2_inc1" id="art87_cpt_alt1_art260-1_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    está sujeita ao limite de 6% (seis por cento) do imposto sobre a renda apurado na declaração de que trata o inciso II do caput do art. 260;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art260-1_par2_inc2" id="art87_cpt_alt1_art260-1_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    não se aplica à pessoa física que:
+
+  </p>
+            <Alinea xlink:href="art260-1_par2_inc2_ali1" id="art87_cpt_alt1_art260-1_par2_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    utilizar o desconto simplificado;
+
+  </p>
+            
+          </Alinea><Alinea xlink:href="art260-1_par2_inc2_ali2" id="art87_cpt_alt1_art260-1_par2_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    apresentar declaração em formulário; ou
+
+  </p>
+            
+          </Alinea><Alinea xlink:href="art260-1_par2_inc2_ali3" id="art87_cpt_alt1_art260-1_par2_inc2_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    entregar a declaração fora do prazo;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso xlink:href="art260-1_par2_inc3" id="art87_cpt_alt1_art260-1_par2_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    só se aplica às doações em espécie; e
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art260-1_par2_inc4" id="art87_cpt_alt1_art260-1_par2_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    não exclui ou reduz outros benefícios ou deduções em vigor.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo xlink:href="art260-1_par3" id="art87_cpt_alt1_art260-1_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O pagamento da doação deve ser efetuado até a data de vencimento da primeira quota ou quota única do imposto, observadas instruções específicas da Secretaria da Receita Federal do Brasil.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art260-1_par4" id="art87_cpt_alt1_art260-1_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O não pagamento da doação no prazo estabelecido no § 3º implica a glosa definitiva desta parcela de dedução, ficando a pessoa física obrigada ao recolhimento da diferença de imposto devido apurado na Declaração de Ajuste Anual com os acréscimos legais previstos na legislação.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art260-1_par5" id="art87_cpt_alt1_art260-1_par5" fechaAspas="s">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    A pessoa física poderá deduzir do imposto apurado na Declaração de Ajuste Anual as doações feitas, no respectivo anocalendário, aos fundos controlados pelos Conselhos dos Direitos da Criança e do Adolescente municipais, distrital, estaduais e nacional concomitantemente com a opção de que trata o caput, respeitado o limite previsto no inciso II do art. 260.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo xlink:href="art260-2" id="art87_cpt_alt1_art260-2" abreAspas="s">
+            
+            
+            <Rotulo>Art. 260-B.</Rotulo>
+            
+            <Caput xlink:href="art260-2_cpt" id="art87_cpt_alt1_art260-2_cpt">
+            
+            
+            
+            <p>
+    A doação de que trata o inciso I do art. 260 poderá ser deduzida:
+
+  </p>
+            <Inciso xlink:href="art260-2_cpt_inc1" id="art87_cpt_alt1_art260-2_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    do imposto devido no trimestre, para as pessoas jurídicas que apuram o imposto trimestralmente; e
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art260-2_cpt_inc2" id="art87_cpt_alt1_art260-2_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    do imposto devido mensalmente e no ajuste anual, para as pessoas jurídicas que apuram o imposto anualmente.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo xlink:href="art260-2_par1u" id="art87_cpt_alt1_art260-2_par1u" fechaAspas="s">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A doação deverá ser efetuada dentro do período a que se refere a apuração do imposto.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo xlink:href="art260-3" id="art87_cpt_alt1_art260-3" abreAspas="s">
+            
+            
+            <Rotulo>Art. 260-C.</Rotulo>
+            
+            <Caput xlink:href="art260-3_cpt" id="art87_cpt_alt1_art260-3_cpt">
+            
+            
+            
+            <p>
+    As doações de que trata o art. 260 desta Lei podem ser efetuadas em espécie ou em bens.
+
+  </p>
+            
+          </Caput><Paragrafo xlink:href="art260-3_par1u" id="art87_cpt_alt1_art260-3_par1u" fechaAspas="s">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    As doações efetuadas em espécie devem ser depositadas em conta específica, em instituição financeira pública, vinculadas aos respectivos fundos de que trata o art. 260.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo xlink:href="art260-4" id="art87_cpt_alt1_art260-4" abreAspas="s">
+            
+            
+            <Rotulo>Art. 260-D.</Rotulo>
+            
+            <Caput xlink:href="art260-4_cpt" id="art87_cpt_alt1_art260-4_cpt">
+            
+            
+            
+            <p>
+    Os órgãos responsáveis pela administração das contas dos Fundos dos Direitos da Criança e do Adolescente nacional, estaduais, distrital e municipais devem emitir recibo em favor do doador, assinado por pessoa competente e pelo presidente do Conselho correspondente, especificando:
+
+  </p>
+            <Inciso xlink:href="art260-4_cpt_inc1" id="art87_cpt_alt1_art260-4_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    número de ordem;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art260-4_cpt_inc2" id="art87_cpt_alt1_art260-4_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    nome, Cadastro Nacional da Pessoa Jurídica (CNPJ) e endereço do emitente;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art260-4_cpt_inc3" id="art87_cpt_alt1_art260-4_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    nome, CNPJ ou Cadastro de Pessoas Físicas (CPF) do doador;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art260-4_cpt_inc4" id="art87_cpt_alt1_art260-4_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    data da doação e valor efetivamente recebido; e
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art260-4_cpt_inc5" id="art87_cpt_alt1_art260-4_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    ano-calendário a que se refere a doação.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo xlink:href="art260-4_par1" id="art87_cpt_alt1_art260-4_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O comprovante de que trata o caput deste artigo pode ser emitido anualmente, desde que discrimine os valores doados mês a mês.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art260-4_par2" id="art87_cpt_alt1_art260-4_par2" fechaAspas="s">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    No caso de doação em bens, o comprovante deve conter a identificação dos bens, mediante descrição em campo próprio ou em relação anexa ao comprovante, informando também se houve avaliação, o nome, CPF ou CNPJ e endereço dos avaliadores.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo xlink:href="art260-5" id="art87_cpt_alt1_art260-5" abreAspas="s">
+            
+            
+            <Rotulo>Art. 260-E.</Rotulo>
+            
+            <Caput xlink:href="art260-5_cpt" id="art87_cpt_alt1_art260-5_cpt">
+            
+            
+            
+            <p>
+    Na hipótese da doação em bens, o doador deverá:
+
+  </p>
+            <Inciso xlink:href="art260-5_cpt_inc1" id="art87_cpt_alt1_art260-5_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    comprovar a propriedade dos bens, mediante documentação hábil;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art260-5_cpt_inc2" id="art87_cpt_alt1_art260-5_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    baixar os bens doados na declaração de bens e direitos, quando se tratar de pessoa física, e na escrituração, no caso de pessoa jurídica; e
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art260-5_cpt_inc3" id="art87_cpt_alt1_art260-5_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    considerar como valor dos bens doados:
+
+  </p>
+            <Alinea xlink:href="art260-5_cpt_inc3_ali1" id="art87_cpt_alt1_art260-5_cpt_inc3_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    para as pessoas físicas, o valor constante da última declaração do imposto de renda, desde que não exceda o valor de mercado;
+
+  </p>
+            
+          </Alinea><Alinea xlink:href="art260-5_cpt_inc3_ali2" id="art87_cpt_alt1_art260-5_cpt_inc3_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    para as pessoas jurídicas, o valor contábil dos bens.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput><Paragrafo xlink:href="art260-5_par1u" id="art87_cpt_alt1_art260-5_par1u" fechaAspas="s">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O preço obtido em caso de leilão não será considerado na determinação do valor dos bens doados, exceto se o leilão for determinado por autoridade judiciária.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo xlink:href="art260-6" id="art87_cpt_alt1_art260-6" abreAspas="s">
+            
+            
+            <Rotulo>Art. 260-F.</Rotulo>
+            
+            <Caput xlink:href="art260-6_cpt" id="art87_cpt_alt1_art260-6_cpt" fechaAspas="s">
+            
+            
+            
+            <p>
+    Os documentos a que se referem os arts. 260-D e 260-E devem ser mantidos pelo contribuinte por um prazo de 5 (cinco) anos para fins de comprovação da dedução perante a Receita Federal do Brasil.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo xlink:href="art260-7" id="art87_cpt_alt1_art260-7" abreAspas="s">
+            
+            
+            <Rotulo>Art. 260-G.</Rotulo>
+            
+            <Caput xlink:href="art260-7_cpt" id="art87_cpt_alt1_art260-7_cpt">
+            
+            
+            
+            <p>
+    Os órgãos responsáveis pela administração das contas dos Fundos dos Direitos da Criança e do Adolescente nacional, estaduais, distrital e municipais devem:
+
+  </p>
+            <Inciso xlink:href="art260-7_cpt_inc1" id="art87_cpt_alt1_art260-7_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    manter conta bancária específica destinada exclusivamente a gerir os recursos do Fundo;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art260-7_cpt_inc2" id="art87_cpt_alt1_art260-7_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    manter controle das doações recebidas; e
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art260-7_cpt_inc3" id="art87_cpt_alt1_art260-7_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    informar anualmente à Secretaria da Receita Federal do Brasil as doações recebidas mês a mês, identificando os seguintes dados por doador:
+
+  </p>
+            <Alinea xlink:href="art260-7_cpt_inc3_ali1" id="art87_cpt_alt1_art260-7_cpt_inc3_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    nome, CNPJ ou CPF;
+
+  </p>
+            
+          </Alinea><Alinea xlink:href="art260-7_cpt_inc3_ali2" id="art87_cpt_alt1_art260-7_cpt_inc3_ali2" fechaAspas="s">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    valor doado, especificando se a doação foi em espécie ou em bens.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo xlink:href="art260-8" id="art87_cpt_alt1_art260-8" abreAspas="s">
+            
+            
+            <Rotulo>Art. 260-H.</Rotulo>
+            
+            <Caput xlink:href="art260-8_cpt" id="art87_cpt_alt1_art260-8_cpt" fechaAspas="s">
+            
+            
+            
+            <p>
+    Em caso de descumprimento das obrigações previstas no art. 260-G, a Secretaria da Receita Federal do Brasil dará conhecimento do fato ao Ministério Público.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo xlink:href="art260-9" id="art87_cpt_alt1_art260-9" abreAspas="s">
+            
+            
+            <Rotulo>Art. 260-I.</Rotulo>
+            
+            <Caput xlink:href="art260-9_cpt" id="art87_cpt_alt1_art260-9_cpt">
+            
+            
+            
+            <p>
+    Os Conselhos dos Direitos da Criança e do Adolescente nacional, estaduais, distrital e municipais divulgarão amplamente à comunidade:
+
+  </p>
+            <Inciso xlink:href="art260-9_cpt_inc1" id="art87_cpt_alt1_art260-9_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o calendário de suas reuniões;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art260-9_cpt_inc2" id="art87_cpt_alt1_art260-9_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    as ações prioritárias para aplicação das políticas de atendimento à criança e ao adolescente;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art260-9_cpt_inc3" id="art87_cpt_alt1_art260-9_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    os requisitos para a apresentação de projetos a serem beneficiados com recursos dos Fundos dos Direitos da Criança e do Adolescente nacional, estaduais, distrital ou municipais;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art260-9_cpt_inc4" id="art87_cpt_alt1_art260-9_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    a relação dos projetos aprovados em cada ano-calendário e o valor dos recursos previstos para implementação das ações, por projeto;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art260-9_cpt_inc5" id="art87_cpt_alt1_art260-9_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    o total dos recursos recebidos e a respectiva destinação, por projeto atendido, inclusive com cadastramento na base de dados do Sistema de Informações sobre a Infância e a Adolescência; e
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art260-9_cpt_inc6" id="art87_cpt_alt1_art260-9_cpt_inc6" fechaAspas="s">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    a avaliação dos resultados dos projetos beneficiados com recursos dos Fundos dos Direitos da Criança e do Adolescente nacional, estaduais, distrital e municipais.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo xlink:href="art260-10" id="art87_cpt_alt1_art260-10" abreAspas="s">
+            
+            
+            <Rotulo>Art. 260-J.</Rotulo>
+            
+            <Caput xlink:href="art260-10_cpt" id="art87_cpt_alt1_art260-10_cpt">
+            
+            
+            
+            <p>
+    O Ministério Público deter minará, em cada Comarca, a forma de fiscalização da aplicação dos incentivos fiscais referidos no art. 260 desta Lei.
+
+  </p>
+            
+          </Caput><Paragrafo xlink:href="art260-10_par1u" id="art87_cpt_alt1_art260-10_par1u" fechaAspas="s">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O descumprimento do disposto nos arts. 260-G e 260-I sujeitará os infratores a responder por ação judicial proposta pelo Ministério Público, que poderá atuar de ofício, a requerimento ou representação de qualquer cidadão.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo xlink:href="art260-11" id="art87_cpt_alt1_art260-11" abreAspas="s">
+            
+            
+            <Rotulo>Art. 260-K.</Rotulo>
+            
+            <Caput xlink:href="art260-11_cpt" id="art87_cpt_alt1_art260-11_cpt" fechaAspas="s">
+            
+            
+            
+            <p>
+    A Secreta ria de Direitos Humanos da Presidênciada República (SDH/PR) encaminhará à Secretaria da Receita Federal do Brasil, até 31 de outubro de cada ano, arquivo eletrônico contendo a relação atualizada dos Fundos dos Direitos da Criança e do Adolescente nacional, distrital, estaduais e municipais, com a indicação dos respectivos números de inscrição no CNPJ e das contas bancárias específicas mantidas em instituições financeiras públicas, destinadas exclusivamente a gerir os recursos dos Fundos.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo xlink:href="art260-12" id="art87_cpt_alt1_art260-12" abreAspas="s">
+            
+            
+            <Rotulo>Art. 260-L.</Rotulo>
+            
+            <Caput xlink:href="art260-12_cpt" id="art87_cpt_alt1_art260-12_cpt" fechaAspas="s">
+            
+            
+            
+            <p>
+    A Secretaria da Receita Federal do Brasil expedirá as instruções necessárias à aplicação do disposto nos arts. 260 a 260-K.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art88">
+            
+            
+            <Rotulo>Art. 88.</Rotulo>
+            
+            <Caput id="art88_cpt">
+            <!--Link: urn:lex:br:federal:lei:2010-01-20;12213!art3_par1u-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:2010-01-20;12213!art3_par1u">parágrafo único do art. 3º da Lei nº 12.213, de 20 de janeiro de 2010</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:2010-01-20;12213" id="art88_cpt_alt1">              
+              <Artigo xlink:href="art3" id="art88_cpt_alt1_art3" abreAspas="s">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput xlink:href="art3_cpt" id="art88_cpt_alt1_art3_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Paragrafo xlink:href="art3_par1u" id="art88_cpt_alt1_art3_par1u" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A dedução a que se refere o caput deste artigo não poderá ultrapassar 1% (um por cento) do imposto devido.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art89">
+            
+            
+            <Rotulo>Art. 89.</Rotulo>
+            
+            <Caput id="art89_cpt">
+            
+            
+            
+            <p>
+    (VETADO).
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art90">
+            
+            
+            <Rotulo>Art. 90.</Rotulo>
+            
+            <Caput id="art90_cpt">
+            
+            
+            
+            <p>
+    Esta Lei entra em vigor após decorridos 90 (noventa) dias de sua publicação oficial.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Titulo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 18 de janeiro de 2012; 191º da Independência e 124º da República.</p></LocalDataFecho><Assinatura><NomePessoa>DILMA ROUSSEFF</NomePessoa><NomePessoa>José Eduardo Cardozo</NomePessoa><NomePessoa>Guido Mantega</NomePessoa><NomePessoa>Alexandre Rocha Santos Padilha</NomePessoa><NomePessoa>Miriam Belchior</NomePessoa><NomePessoa>Mario do Rosário Nunes</NomePessoa></Assinatura></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>

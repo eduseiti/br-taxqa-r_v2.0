@@ -1,0 +1,1350 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:2006-12-28;11437"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">LEI Nº 11.437, DE 28 DE DEZEMBRO DE 2006 </Epigrafe>
+		  <Ementa id="ementa">Altera a destinação de receitas decorrentes da Contribuição para o Desenvolvimento da Indústria Cinematográfica Nacional − CONDECINE, criada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1">Medida Provisória nº 2.228-1, de 6 de setembro de 2001</span>, visando ao financiamento de programas e projetos voltados para o desenvolvimento das atividades audiovisuais; altera a <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1">Medida Provisória nº 2.228-1, de 6 de setembro de 2001</span>, e a <span xlink:href="urn:lex:br:federal:lei:1993-07-20;8685">Lei nº 8.685, de 20 de julho de 1993</span>, prorrogando e instituindo mecanismos de fomento à atividade audiovisual; e dá outras providências.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA
+  </p><p>
+    Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1--><!--Link: urn:lex:br:federal:lei:1986-07-02;7505--><!--Link: urn:lex:br:federal:lei:1991-12-23;8313-->
+            
+            
+            <p>
+    O total dos recursos da Contribuição para o Desenvolvimento da Indústria Cinematográfica Nacional - CONDECINE, criada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1">Medida Provisória nº 2.228-1, de 6 de setembro de 2001</span>, será destinado ao Fundo Nacional da Cultura - FNC, criado pela <span xlink:href="urn:lex:br:federal:lei:1986-07-02;7505">Lei nº 7.505, de 2 de julho de 1986</span>, restabelecido pela <span xlink:href="urn:lex:br:federal:lei:1991-12-23;8313">Lei nº 8.313, de 23 de dezembro de 1991</span>, o qual será alocado em categoria de programação específica, denominada Fundo Setorial do Audiovisual, e utilizado no financiamento de programas e projetos voltados para o desenvolvimento das atividades audiovisuais.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    Constituem receitas do FNC, alocadas na categoria de programação específica, referidas no art. 1º desta Lei:
+
+  </p>
+            <Inciso id="art2_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a Condecine, a que se refere o art. 1º desta Lei;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    as dotações consignadas no Orçamento Geral da União, créditos especiais, transferências e repasses que lhe forem conferidos;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:1993-07-20;8685!art5-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    os recursos a que se refere o <span xlink:href="urn:lex:br:federal:lei:1993-07-20;8685!art5">art. 5º da Lei nº 8.685, de 20 de julho de 1993</span>;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    o produto de rendimento de aplicações dos recursos da categoria de programação específica a que se refere o caput deste artigo;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    o produto da remuneração de recursos repassados aos agentes aplicadores, bem como de multas e juros decorrentes do descumprimento das normas de financiamento;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc7">
+            <!--Link: urn:lex:br:federal:lei:1966-07-07;5070!art2_cpt_ali3--><!--Link: urn:lex:br:federal:lei:1966-07-07;5070!art2_cpt_ali4--><!--Link: urn:lex:br:federal:lei:1966-07-07;5070!art2_cpt_ali5--><!--Link: urn:lex:br:federal:lei:1966-07-07;5070!art2_cpt_ali10-->
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    5% (cinco por cento) dos recursos a que se referem as <span xlink:href="urn:lex:br:federal:lei:1966-07-07;5070!art2_cpt_ali3">alíneas c</span>, <span xlink:href="urn:lex:br:federal:lei:1966-07-07;5070!art2_cpt_ali4">d</span>, <span xlink:href="urn:lex:br:federal:lei:1966-07-07;5070!art2_cpt_ali5">e</span> e <span xlink:href="urn:lex:br:federal:lei:1966-07-07;5070!art2_cpt_ali10">j do caput do art. 2º da Lei nº 5.070, de 7 de julho de 1966</span>;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    as doações, legados, subvenções e outros recursos destinados à categoria de programação específica a que se refere o caput deste artigo;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    recursos provenientes de acordos, convênios ou contratos celebrados com entidades, organismos ou empresas, públicos ou privados, nacionais e internacionais; e
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc10">
+            
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    outras que lhe vierem a ser destinadas.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art2_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Os recursos a que se refere o caput deste artigo não poderão ser utilizados para despesas de manutenção administrativa do Ministério da Cultura ou da Agência Nacional do Cinema - ANCINE.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    Os recursos a que se refere o art. 2º desta Lei poderão ser aplicados:
+
+  </p>
+            <Inciso id="art3_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    por intermédio de investimentos retornáveis em projetos de desenvolvimento da atividade audiovisual e produção de obras audiovisuais brasileiras;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    por meio de empréstimos reembolsáveis; ou
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    por meio de valores não-reembolsáveis em casos específicos, a serem previstos em regulamento.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art47-->
+            
+            
+            <p>
+    Os recursos a que se refere o art. 2º desta Lei apoiarão o desenvolvimento dos seguintes programas, nos termos do <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art47">art. 47 da Medida Provisória nº 2.228-1, de 6 de setembro de 2001</span>:
+
+  </p>
+            <Inciso id="art4_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Programa de Apoio ao Desenvolvimento do Cinema Brasileiro - PRODECINE;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Programa de Apoio ao Desenvolvimento do Audiovisual Brasileiro - PRODAV;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Programa de Apoio ao Desenvolvimento da Infra-Estrutura do Cinema e do Audiovisual - PRÓ-INFRA.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art4_par1">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art1_par1-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os recursos a que se refere o caput deste artigo devem ser destinados prioritariamente ao fomento de empresas brasileiras, conforme definidas no <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art1_par1">§ 1º do art. 1º da Medida Provisória nº 2.228- 1, de 6 de setembro de 2001</span>, que atuem nas áreas de distribuição, exibição e produção de obras audiovisuais, bem como poderão ser utilizados na equalização dos encargos financeiros incidentes nas operações de financiamento de obras audiovisuais e na participação minoritária no capital de empresas que tenham como base o desenvolvimento audiovisual brasileiro, por intermédio de agente financeiro, conforme disposto em regulamento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As despesas com as aplicações referidas no inciso III do caput do art. 3º desta Lei e com a equalização dos encargos financeiros referida no § 1º deste artigo observarão os limites de movimentação e empenho e de pagamento da programação orçamentária e financeira anual.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par3">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art33_cpt_inc3-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    As receitas de que trata o <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art33_cpt_inc3">inciso III do caput do art. 33 da Medida Provisória nº 2.228-1, de 6 de setembro de 2001</span>, deverão ser utilizadas nas seguintes condições:
+
+  </p>
+            <Inciso id="art4_par3_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    no mínimo, 30% (trinta por cento) deverão ser destinadas a produtoras brasileiras estabelecidas nas regiões Norte, Nordeste e Centro-Oeste, nos critérios e condições estabelecidos pela Agência Nacional do Cinema - Ancine, que deverão incluir, entre outros, o local da produção da obra audiovisual, a residência de artistas e técnicos envolvidos na produção e a contratação, na região, de serviços técnicos a ela vinculados;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_par3_inc2">
+            <!--Link: urn:lex:br:federal:lei:2011-09-12;12485-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    no mínimo, 10% (dez por cento) deverão ser destinadas ao fomento da produção de conteúdo audiovisual independente veiculado primeiramente nos canais comunitários, universitários e de programadoras brasileiras independentes de que trata a lei que dispõe sobre a comunicação audiovisual de acesso condicionado. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2011-09-12;12485">Lei nº 12.485, de 12.9.2011</span>, publicada no DOU de 13.9.2011, produzindo efeitos a partir do ano seguinte à sua publicação)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art4_par4">
+            <!--Link: urn:lex:br:federal:lei:2011-09-12;12485-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Para efeito do disposto no § 3º deste artigo, entende-se como produtora brasileira aquela definida nos termos da lei específica que dispõe sobre a comunicação audiovisual de acesso condicionado. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2011-09-12;12485">Lei nº 12.485, de 12.9.2011</span>, publicada no DOU de 13.9.2011, produzindo efeitos a partir do ano seguinte à sua publicação)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    Será constituído o Comitê Gestor dos recursos a que se refere o art. 2º desta Lei, com a finalidade de estabelecer as diretrizes e definir o plano anual de investimentos, acompanhar a implementação das ações e avaliar, anualmente, os resultados alcançados, tendo como secretaria-executiva da categoria de programação específica a que se refere o art. 1º desta Lei a Ancine e como agente financeiro o Banco Nacional de Desenvolvimento Econômico e Social - BNDES ou outras instituições financeiras credenciadas pelo Comitê Gestor.
+
+  </p>
+            
+          </Caput><Paragrafo id="art5_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O Comitê Gestor será constituído por representantes do Ministério da Cultura, da Ancine, das instituições financeiras credenciadas e do setor audiovisual, observada a composição conforme disposto em regulamento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A participação no Comitê Gestor não será remunerada.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    As despesas operacionais de planejamento, prospecção, análise e estruturação de operações, contratação, aplicação de recursos, acompanhamento de operações contratadas e divulgação de resultados, necessários à implantação e manutenção das atividades da categoria de programação específica, previstas no art. 1º desta Lei, não poderão ultrapassar o montante correspondente a 5% (cinco por cento) dos recursos arrecadados anualmente.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    Os recursos a que se refere o art. 2º desta Lei não utilizados até o final do exercício, apurados no balanço anual, serão transferidos como crédito do FNC, alocados na categoria de programação específica, no exercício seguinte.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1-->
+            
+            
+            <p>
+    A <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1">Medida Provisória nº 2.228-1, de 6 de setembro de 2001</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1" id="art7_cpt_alt1">              
+              <Artigo xlink:href="art18" id="art7_cpt_alt1_art18" abreAspas="s">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput xlink:href="art18_cpt" id="art7_cpt_alt1_art18_cpt" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            
+            <p>
+    As empresas distribuidoras, as programadoras de obras audiovisuais para o segmento de mercado de serviços de comunicação eletrônica de massas por assinatura, as programadoras de obras audiovisuais para outros mercados, conforme assinalado na alínea e do Anexo I desta Medida Provisória, assim como as locadoras de vídeo doméstico e as empresas de exibição, devem fornecer relatórios periódicos sobre a oferta e o consumo de obras audiovisuais e as receitas auferidas pela exploração delas no período, conforme normas expedidas pela Ancine.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo xlink:href="art34" id="art7_cpt_alt1_art34" abreAspas="s">
+            
+            
+            <Rotulo>Art. 34.</Rotulo>
+            
+            <Caput xlink:href="art34_cpt" id="art7_cpt_alt1_art34_cpt">
+            
+            
+            
+            <p>
+    O produto da arrecadação da Condecine será destinado ao Fundo Nacional da Cultura - FNC e alocado em categoria de programação específica denominada Fundo Setorial do Audiovisual, para aplicação nas atividades de fomento relativas aos Programas de que trata o art. 47 desta Medida Provisória.
+
+  </p>
+            <Inciso xlink:href="art34_cpt_inc1" id="art7_cpt_alt1_art34_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    (revogado);
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art34_cpt_inc2" id="art7_cpt_alt1_art34_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    (revogado);
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art34_cpt_inc3" id="art7_cpt_alt1_art34_cpt_inc3" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    (revogado).
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo xlink:href="art39" id="art7_cpt_alt1_art39" abreAspas="s">
+            
+            
+            <Rotulo>Art. 39.</Rotulo>
+            
+            <Caput xlink:href="art39_cpt" id="art7_cpt_alt1_art39_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Omissis id="art7_cpt_alt1_art39_omi1"/><Paragrafo xlink:href="art39_par2" id="art7_cpt_alt1_art39_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os valores correspondentes aos 3% (três por cento) previstos no inciso X do caput deste artigo deverão ser depositados na data do pagamento, do crédito, do emprego, da remessa ou da entrega aos produtores, distribuidores ou intermediários no exterior das importâncias relativas a rendimentos decorrentes da exploração de obras cinematográficas e videofonográficas ou por sua aquisição ou importação a preço fixo, em conta de aplicação financeira especial em instituição financeira pública, em nome do contribuinte.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art39_par3" id="art7_cpt_alt1_art39_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Os valores não aplicados na forma do inciso X do caput deste artigo, após 270 (duzentos e setenta) dias de seu depósito na conta de que trata o § 2º deste artigo, destinar-se-ão ao FNC e serão alocados em categoria de programação específica denominada Fundo Setorial do Audiovisual.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art39_par4" id="art7_cpt_alt1_art39_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Os valores previstos no inciso X do caput deste artigo não poderão ser aplicados em obras audiovisuais de natureza publicitária.
+
+  </p>
+            
+          </Paragrafo><Omissis id="art7_cpt_alt1_art39_omi2"/><Paragrafo xlink:href="art39_par6" id="art7_cpt_alt1_art39_par6" fechaAspas="s" notaAlteracao="NR">
+            <!--Link: urn:lex:br:federal:lei:1993-07-20;8685--><!--Link: urn:lex:br:federal:lei:1991-12-23;8313-->
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    Os projetos produzidos com os recursos de que trata o inciso X do caput deste artigo poderão utilizar-se dos incentivos previstos na <span xlink:href="urn:lex:br:federal:lei:1993-07-20;8685">Lei nº 8.685, de 20 de julho de 1993</span>, e na <span xlink:href="urn:lex:br:federal:lei:1991-12-23;8313">Lei nº 8.313, de 23 de dezembro de 1991</span>, limitados a 95% (noventa e cinco por cento) do total do orçamento aprovado pela Ancine para o projeto.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo xlink:href="art41" id="art7_cpt_alt1_art41" abreAspas="s">
+            
+            
+            <Rotulo>Art. 41.</Rotulo>
+            
+            <Caput xlink:href="art41_cpt" id="art7_cpt_alt1_art41_cpt">
+            
+            
+            
+            <p>
+    Os Fundos de Financiamento da Indústria Cinematográfica Nacional - FUNCINES serão constituídos sob a forma de condomínio fechado, sem personalidade jurídica, e administrados por instituição financeira autorizada a funcionar pelo Banco Central do Brasil ou por agências e bancos de desenvolvimento.
+
+  </p>
+            
+          </Caput><Omissis id="art7_cpt_alt1_art41_omi1" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo><Artigo xlink:href="art43" id="art7_cpt_alt1_art43" abreAspas="s">
+            
+            
+            <Rotulo>Art. 43.</Rotulo>
+            
+            <Caput xlink:href="art43_cpt" id="art7_cpt_alt1_art43_cpt" textoOmitido="s">
+            
+            
+            
+            
+            <Inciso xlink:href="art43_cpt_inc1" id="art7_cpt_alt1_art43_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    projetos de produção de obras audiovisuais brasileiras independentes realizadas por empresas produtoras brasileiras;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art43_cpt_inc2" id="art7_cpt_alt1_art43_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    construção, reforma e recuperação das salas de exibição de propriedade de empresas brasileiras;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art43_cpt_inc3" id="art7_cpt_alt1_art43_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    aquisição de ações de empresas brasileiras para produção, comercialização, distribuição e exibição de obras audiovisuais brasileiras de produção independente, bem como para prestação de serviços de infra-estrutura cinematográficos e audiovisuais;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art43_cpt_inc4" id="art7_cpt_alt1_art43_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    projetos de comercialização e distribuição de obras audiovisuais cinematográficas brasileiras de produção independente realizados por empresas brasileiras; e
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art43_cpt_inc5" id="art7_cpt_alt1_art43_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    projetos de infra-estrutura realizados por empresas brasileiras.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo xlink:href="art43_par1" id="art7_cpt_alt1_art43_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Para efeito da aplicação dos recursos dos Funcines, as empresas de radiodifusão de sons e imagens e as prestadoras de serviços de telecomunicações não poderão deter o controle acionário das empresas referidas no inciso III do caput deste artigo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art43_par2" id="art7_cpt_alt1_art43_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os Funcines deverão manter, no mínimo, 90% (noventa por cento) do seu patrimônio aplicados em empreendimentos das espécies enumeradas neste artigo, observados, em relação a cada espécie de destinação, os percentuais mínimos a serem estabelecidos em regulamento.
+
+  </p>
+            
+          </Paragrafo><Omissis id="art7_cpt_alt1_art43_omi1"/><Paragrafo xlink:href="art43_par5" id="art7_cpt_alt1_art43_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    As obras audiovisuais de natureza publicitária, esportiva ou jornalística não podem se beneficiar de recursos dos Funcines ou do FNC alocados na categoria de programação específica Fundo Setorial do Audiovisual.
+
+  </p>
+            
+          </Paragrafo><Omissis id="art7_cpt_alt1_art43_omi2"/><Paragrafo xlink:href="art43_par7" id="art7_cpt_alt1_art43_par7">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    Nos casos do inciso I do caput deste artigo, o projeto deverá contemplar a garantia de distribuição ou difusão das obras.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art43_par8" id="art7_cpt_alt1_art43_par8" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    Para os fins deste artigo, aplica-se a definição de empresa brasileira constante no § 1º do art. 1º desta Medida Provisória.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo xlink:href="art44" id="art7_cpt_alt1_art44" abreAspas="s">
+            
+            
+            <Rotulo>Art. 44.</Rotulo>
+            
+            <Caput xlink:href="art44_cpt" id="art7_cpt_alt1_art44_cpt">
+            
+            
+            
+            <p>
+    Até o período de apuração relativo ao ano-calendário de 2016, inclusive, as pessoas físicas e jurídicas tributadas pelo lucro real poderão deduzir do imposto de renda devido as quantias aplicadas na aquisição de cotas dos Funcines.
+
+  </p>
+            
+          </Caput><Paragrafo xlink:href="art44_par1" id="art7_cpt_alt1_art44_par1">
+            <!--Link: urn:lex:br:federal:lei:1993-07-20;8685!art1--><!--Link: urn:lex:br:federal:lei:1993-07-20;8685!art1-1-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A dedução referida no caput deste artigo pode ser utilizada de forma alternativa ou conjunta com a referida nos <span xlink:href="urn:lex:br:federal:lei:1993-07-20;8685!art1">arts. 1º</span> e <span xlink:href="urn:lex:br:federal:lei:1993-07-20;8685!art1-1">1º-A da Lei nº 8.685, de 20 de julho de 1993</span>.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art44_par2" id="art7_cpt_alt1_art44_par2">
+            <!--Link: urn:lex:br:federal:lei:1997-12-10;9532!art22-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    No caso das pessoas físicas, a dedução prevista no caput deste artigo fica sujeita ao limite de 6% (seis por cento) conjuntamente com as deduções de que trata o <span xlink:href="urn:lex:br:federal:lei:1997-12-10;9532!art22">art. 22 da Lei nº 9.532, de 10 de dezembro de 1997</span>.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art44_par3" id="art7_cpt_alt1_art44_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Somente são dedutíveis do imposto devido as quantias aplicadas na aquisição de cotas dos Funcines:
+
+  </p>
+            <Inciso xlink:href="art44_par3_inc1" id="art7_cpt_alt1_art44_par3_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    pela pessoa física, no ano-calendário a que se referir a declaração de ajuste anual;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art44_par3_inc2" id="art7_cpt_alt1_art44_par3_inc2" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    pela pessoa jurídica, no respectivo período de apuração de imposto.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo xlink:href="art45" id="art7_cpt_alt1_art45" abreAspas="s">
+            
+            
+            <Rotulo>Art. 45.</Rotulo>
+            
+            <Caput xlink:href="art45_cpt" id="art7_cpt_alt1_art45_cpt" textoOmitido="s">
+            
+            
+            
+            
+            <Omissis id="art7_cpt_alt1_art45_cpt_omi1"/><Inciso xlink:href="art45_cpt_inc3" id="art7_cpt_alt1_art45_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    no ano-calendário, conforme ajuste em declaração anual de rendimentos para a pessoa física.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo xlink:href="art45_par1" id="art7_cpt_alt1_art45_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Em qualquer hipótese, não será dedutível a perda apurada na alienação das cotas dos Funcines.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art45_par2" id="art7_cpt_alt1_art45_par2">
+            <!--Link: urn:lex:br:federal:lei:1997-12-10;9532!art6_cpt_inc2-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A dedução prevista neste artigo está limitada a 3% (três por cento) do imposto devido pelas pessoas jurídicas e deverá observar o limite previsto no <span xlink:href="urn:lex:br:federal:lei:1997-12-10;9532!art6_cpt_inc2">inciso II do caput do art. 6º da Lei nº 9.532, de 10 de dezembro de 1997</span>.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art45_par3" id="art7_cpt_alt1_art45_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    (Revogado).
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art45_par4" id="art7_cpt_alt1_art45_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    A pessoa jurídica que alienar as cotas dos Funcines somente poderá considerar como custo de aquisição, na determinação do ganho de capital, os valores deduzidos na forma do caput deste artigo na hipótese em que a alienação ocorra após 5 (cinco) anos da data de sua aquisição.
+
+  </p>
+            
+          </Paragrafo><Omissis id="art7_cpt_alt1_art45_omi1"/><Paragrafo xlink:href="art45_par6" id="art7_cpt_alt1_art45_par6" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    (Revogado).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo xlink:href="art47" id="art7_cpt_alt1_art47" abreAspas="s">
+            
+            
+            <Rotulo>Art. 47.</Rotulo>
+            
+            <Caput xlink:href="art47_cpt" id="art7_cpt_alt1_art47_cpt">
+            
+            
+            
+            <p>
+    Como mecanismos de fomento de atividades audiovisuais, ficam instituídos, conforme normas a serem expedidas pela Ancine:
+
+  </p>
+            <Inciso xlink:href="art47_cpt_inc1" id="art7_cpt_alt1_art47_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o Programa de Apoio ao Desenvolvimento do Cinema Brasileiro - PRODECINE, destinado ao fomento de projetos de produção independente, distribuição, comercialização e exibição por empresas brasileiras;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art47_cpt_inc2" id="art7_cpt_alt1_art47_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o Programa de Apoio ao Desenvolvimento do Audiovisual Brasileiro - PRODAV, destinado ao fomento de projetos de produção, programação, distribuição, comercialização e exibição de obras audiovisuais brasileiras de produção independente;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art47_cpt_inc3" id="art7_cpt_alt1_art47_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    o Programa de Apoio ao Desenvolvimento da Infra- Estrutura do Cinema e do Audiovisual - PRÓ-INFRA, destinado ao fomento de projetos de infra-estrutura técnica para a atividade cinematográfica e audiovisual e de desenvolvimento, ampliação e modernização dos serviços e bens de capital de empresas brasileiras e profissionais autônomos que atendam às necessidades tecnológicas das produções audiovisuais brasileiras.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Omissis id="art7_cpt_alt1_art47_omi1"/><Paragrafo xlink:href="art47_par2" id="art7_cpt_alt1_art47_par2" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A Ancine estabelecerá critérios e diretrizes gerais para a aplicação e a fiscalização dos recursos dos Programas referidos no caput deste artigo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo xlink:href="art48" id="art7_cpt_alt1_art48" abreAspas="s">
+            
+            
+            <Rotulo>Art. 48.</Rotulo>
+            
+            <Caput xlink:href="art48_cpt" id="art7_cpt_alt1_art48_cpt">
+            
+            
+            
+            <p>
+    São fontes de recursos dos Programas de que trata o art. 47 desta Medida Provisória:
+
+  </p>
+            
+          </Caput><Omissis id="art7_cpt_alt1_art48_omi1" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo><Artigo xlink:href="art61" id="art7_cpt_alt1_art61" abreAspas="s">
+            
+            
+            <Rotulo>Art. 61.</Rotulo>
+            
+            <Caput xlink:href="art61_cpt" id="art7_cpt_alt1_art61_cpt">
+            
+            
+            
+            <p>
+    O descumprimento dos projetos executados com recursos recebidos do FNC alocados na categoria de programação específica denominada Fundo Setorial do Audiovisual e dos Funcines, a não-efetivação do investimento ou a sua realização em desacordo com o estatuído implica a devolução dos recursos acrescidos de:
+
+  </p>
+            
+          </Caput><Omissis id="art7_cpt_alt1_art61_omi1" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            <!--Link: urn:lex:br:federal:lei:1993-07-20;8685-->
+            
+            
+            <p>
+    A <span xlink:href="urn:lex:br:federal:lei:1993-07-20;8685">Lei nº 8.685, de 20 de julho de 1993</span>, passa a vigorar com as seguintes alterações:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1993-07-20;8685" id="art8_cpt_alt1">              
+              <Artigo xlink:href="art1" id="art8_cpt_alt1_art1" abreAspas="s">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput xlink:href="art1_cpt" id="art8_cpt_alt1_art1_cpt">
+            
+            
+            
+            <p>
+    Até o exercício fiscal de 2010, inclusive, os contribuintes poderão deduzir do imposto de renda devido as quantias referentes a investimentos feitos na produção de obras audiovisuais cinematográficas brasileiras de produção independente, mediante a aquisição de cotas representativas de direitos de comercialização sobre as referidas obras, desde que estes investimentos sejam realizados no mercado de capitais, em ativos previstos em lei, e autorizados pela Comissão de Valores Mobiliários, e os projetos tenham sido previamente aprovados pela Ancine, na forma do regulamento.
+
+  </p>
+            
+          </Caput><Omissis id="art8_cpt_alt1_art1_omi1" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo><Artigo xlink:href="art3" id="art8_cpt_alt1_art3" abreAspas="s">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput xlink:href="art3_cpt" id="art8_cpt_alt1_art3_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Paragrafo xlink:href="art3_par1" id="art8_cpt_alt1_art3_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A pessoa jurídica responsável pela remessa das importâncias pagas, creditadas, empregadas ou remetidas aos contribuintes de que trata o caput deste artigo terá preferência na utilização dos recursos decorrentes do benefício fiscal de que trata este artigo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art3_par2" id="art8_cpt_alt1_art3_par2" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Para o exercício da preferência prevista no § 1º deste artigo, o contribuinte poderá transferir expressamente ao responsável pelo pagamento ou remessa o benefício de que trata o caput deste artigo em dispositivo do contrato ou por documento especialmente constituído para esses fins.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo xlink:href="art4" id="art8_cpt_alt1_art4" abreAspas="s">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput xlink:href="art4_cpt" id="art8_cpt_alt1_art4_cpt">
+            
+            
+            
+            <p>
+    O contribuinte que optar pelo uso dos incentivos previstos nos arts. 1º, 1º-A, 3º e 3º-A, todos desta Lei, depositará, dentro do prazo legal fixado para o recolhimento do imposto, o valor correspondente ao abatimento em conta de aplicação financeira especial, em instituição financeira pública, cuja movimentação sujeitar-se-á a prévia comprovação pela Ancine de que se destina a investimentos em projetos de produção de obras audiovisuais cinematográficas e videofonográficas brasileiras de produção independente.
+
+  </p>
+            
+          </Caput><Paragrafo xlink:href="art4_par1" id="art8_cpt_alt1_art4_par1" textoOmitido="s">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            
+            <Inciso xlink:href="art4_par1_inc1" id="art8_cpt_alt1_art4_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    em nome do proponente, para cada projeto, no caso do art. 1º e do art. 1º-A, ambos desta Lei;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art4_par1_inc2" id="art8_cpt_alt1_art4_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    em nome do contribuinte, do seu representante legal ou do responsável pela remessa, no caso do art. 3º e do art. 3º-A, ambos desta Lei.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo xlink:href="art4_par2" id="art8_cpt_alt1_art4_par2" textoOmitido="s">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            
+            <Omissis id="art8_cpt_alt1_art4_par2_omi1"/><Inciso xlink:href="art4_par2_inc2" id="art8_cpt_alt1_art4_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    limite do aporte de recursos objeto dos incentivos previstos no art. 1º e no art. 1º-A, ambos desta Lei, somados, é de R$ 4.000.000,00 (quatro milhões de reais) e, para o incentivo previsto no art. 3º e no art. 3º-A, ambos desta Lei, somados, é de R$ 3.000.000,00 (três milhões de reais), podendo esses limites serem utilizados concomitantemente;
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Omissis id="art8_cpt_alt1_art4_omi1" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo><Artigo xlink:href="art5" id="art8_cpt_alt1_art5" abreAspas="s">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput xlink:href="art5_cpt" id="art8_cpt_alt1_art5_cpt" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            
+            <p>
+    Os valores não aplicados na forma dos arts. 1º e 1º-A, ambos desta Lei, no prazo de 48 (quarenta e oito) meses, contado da data do início do 1º (primeiro) depósito na conta de que trata o inciso I do § 1º do art. 4º, e, no caso dos arts. 3º e 3º-A, todos desta Lei, após 180 (cento e oitenta) dias de seu depósito na conta de que trata o inciso II do § 1º do art. 4º desta Lei, destinar-se-ão ao Fundo Nacional da Cultura e serão alocados em categoria de programação específica denominada Fundo Setorial do Audiovisual, para aplicação em projetos de fomento à indústria cinematográfica nacional, conforme normas expedidas pelo Comitê Gestor.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            <!--Link: urn:lex:br:federal:lei:1993-07-20;8685-->
+            
+            
+            <p>
+    Ficam incluídos na <span xlink:href="urn:lex:br:federal:lei:1993-07-20;8685">Lei nº 8.685, de 20 de julho de 1993</span>, os seguintes arts. 1º-A e 3º-A:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1993-07-20;8685" id="art9_cpt_alt1">              
+              <Artigo xlink:href="art1-1" id="art9_cpt_alt1_art1-1" abreAspas="s">
+            
+            
+            <Rotulo>Art. 1º-A.</Rotulo>
+            
+            <Caput xlink:href="art1-1_cpt" id="art9_cpt_alt1_art1-1_cpt">
+            
+            
+            
+            <p>
+    Até o ano-calendário de 2016, inclusive, os contribuintes poderão deduzir do imposto de renda devido as quantias referentes ao patrocínio à produção de obras cinematográficas brasileiras de produção independente, cujos projetos tenham sido previamente aprovados pela Ancine, do imposto de renda devido apurado:
+
+  </p>
+            <Inciso xlink:href="art1-1_cpt_inc1" id="art9_cpt_alt1_art1-1_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    na declaração de ajuste anual pelas pessoas físicas; e
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art1-1_cpt_inc2" id="art9_cpt_alt1_art1-1_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    em cada período de apuração, trimestral ou anual, pelas pessoas jurídicas tributadas com base no lucro real.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo xlink:href="art1-1_par1" id="art9_cpt_alt1_art1-1_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A dedução prevista neste artigo está limitada:
+
+  </p>
+            <Inciso xlink:href="art1-1_par1_inc1" id="art9_cpt_alt1_art1-1_par1_inc1">
+            <!--Link: urn:lex:br:federal:lei:1997-12-10;9532!art6_cpt_inc2-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a 4% (quatro por cento) do imposto devido pelas pessoas jurídicas e deve observar o limite previsto no <span xlink:href="urn:lex:br:federal:lei:1997-12-10;9532!art6_cpt_inc2">inciso II do art. 6º da Lei nº 9.532, de 10 de dezembro de 1997</span>; e
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art1-1_par1_inc2" id="art9_cpt_alt1_art1-1_par1_inc2">
+            <!--Link: urn:lex:br:federal:lei:1997-12-10;9532!art22-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a 6% (seis por cento) do imposto devido pelas pessoas físicas, conjuntamente com as deduções de que trata o <span xlink:href="urn:lex:br:federal:lei:1997-12-10;9532!art22">art. 22 da Lei nº 9.532, de 10 de dezembro de 1997</span>.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo xlink:href="art1-1_par2" id="art9_cpt_alt1_art1-1_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Somente são dedutíveis do imposto devido os valores despendidos a título de patrocínio:
+
+  </p>
+            <Inciso xlink:href="art1-1_par2_inc1" id="art9_cpt_alt1_art1-1_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    pela pessoa física no ano-calendário a que se referir a declaração de ajuste anual; e
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art1-1_par2_inc2" id="art9_cpt_alt1_art1-1_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    pela pessoa jurídica no respectivo período de apuração de imposto.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo xlink:href="art1-1_par3" id="art9_cpt_alt1_art1-1_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    As pessoas jurídicas não poderão deduzir o valor do patrocínio de que trata o caput deste artigo para fins de determinação do lucro real e da base de cálculo da Contribuição Social sobre o Lucro Líquido - CSLL.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art1-1_par4" id="art9_cpt_alt1_art1-1_par4" fechaAspas="s">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Os projetos específicos da área audiovisual, cinematográfica de difusão, preservação, exibição, distribuição e infraestrutura técnica apresentados por empresa brasileira poderão ser credenciados pela Ancine para fruição dos incentivos fiscais de que trata o caput deste artigo, na forma do regulamento.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo xlink:href="art3-1" id="art9_cpt_alt1_art3-1" abreAspas="s">
+            
+            
+            <Rotulo>Art. 3º-A.</Rotulo>
+            
+            <Caput xlink:href="art3-1_cpt" id="art9_cpt_alt1_art3-1_cpt">
+            <!--Link: urn:lex:br:federal:lei:1996-12-27;9430!art72-->
+            
+            
+            <p>
+    Os contribuintes do Imposto de Renda incidente nos termos do <span xlink:href="urn:lex:br:federal:lei:1996-12-27;9430!art72">art. 72 da Lei nº 9.430, de 27 de dezembro de 1996</span>, beneficiários do crédito, emprego, remessa, entrega ou pagamento pela aquisição ou remuneração, a qualquer título, de direitos, relativos à transmissão, por meio de radiodifusão de sons e imagens e serviço de comunicação eletrônica de massa por assinatura, de quaisquer obras audiovisuais ou eventos, mesmo os de competições desportivas das quais faça parte representação brasileira, poderão beneficiar-se de abatimento de 70% (setenta por cento) do imposto devido, desde que invistam no desenvolvimento de projetos de produção de obras cinematográficas brasileira de longa-metragem de produção independente e na coprodução de obras cinematográficas e videofonográficas brasileiras de produção independente de curta, média e longas-metragens, documentários, telefilmes e minisséries.
+
+  </p>
+            
+          </Caput><Paragrafo xlink:href="art3-1_par1" id="art9_cpt_alt1_art3-1_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A pessoa jurídica responsável pela remessa das importâncias pagas, creditadas, empregadas, entregues ou remetidas aos contribuintes de que trata o caput deste artigo terá preferência na utilização dos recursos decorrentes do benefício fiscal de que trata este artigo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art3-1_par2" id="art9_cpt_alt1_art3-1_par2" fechaAspas="s">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Para o exercício da preferência prevista no § 1º deste artigo, o contribuinte poderá transferir expressamente ao responsável pelo crédito, emprego, remessa, entrega ou pagamento o benefício de que trata o caput deste artigo em dispositivo do contrato ou por documento especialmente constituído para esses fins.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>
+    As distribuidoras de obras audiovisuais para o mercado de vídeo doméstico, em qualquer suporte, devem utilizar sistema de controle de receitas sobre as vendas, compatível com as normas expedidas pela Ancine.
+
+  </p>
+            
+          </Caput><Paragrafo id="art10_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O disposto no caput deste artigo estende-se às empresas responsáveis pela fabricação, replicação e importação de unidades pré-gravadas de vídeo doméstico, em qualquer suporte.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            <p>
+    Os exploradores de atividades audiovisuais deverão prestar informações à Ancine quanto aos contratos de co-produção, cessão de direitos de exploração comercial, exibição, veiculação, licenciamento, distribuição, comercialização, importação e exportação de obras audiovisuais realizadas com recursos originários de benefício fiscal ou ações de fomento direto, conforme normas expedidas pela Ancine.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            <!--Link: urn:lex:br:federal:lei:1991-12-23;8313--><!--Link: urn:lex:br:federal:lei:1993-07-20;8685--><!--Link: urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1-->
+            
+            
+            <p>
+    Poderá constar dos orçamentos das obras cinematográficas e audiovisuais nacionais que utilizam os incentivos fiscais previstos nas <span xlink:href="urn:lex:br:federal:lei:1991-12-23;8313">Leis nºs 8.313, de 23 de dezembro de 1991</span>, e <span xlink:href="urn:lex:br:federal:lei:1993-07-20;8685">8.685, de 20 de julho de 1993</span>, na <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1">Medida Provisória nº 2.228-1, de 6 de setembro de 2001</span>, e nesta Lei, no montante de até 10% (dez por cento) do total aprovado, a remuneração dos serviços de gerenciamento e execução do respectivo projeto por empresas produtoras cinematográficas brasileiras.
+
+  </p>
+            
+          </Caput><Paragrafo id="art12_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    No caso de os serviços a que se refere o caput deste artigo serem terceirizados, seus pagamentos deverão ser comprovados nas prestações de contas com notas fiscais ou recibos das empresas contratadas, acompanhados dos comprovantes de recolhimento dos tributos e contribuições correspondentes.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>
+    Para os fins desta Lei, classificam-se as infrações cometidas nas atividades audiovisuais em:
+
+  </p>
+            <Inciso id="art13_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    leves, aquelas em que o infrator seja beneficiado por circunstância atenuante;
+
+  </p>
+            
+          </Inciso><Inciso id="art13_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    graves, aquelas em que for verificada uma circunstância agravante;
+
+  </p>
+            
+          </Inciso><Inciso id="art13_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    gravíssimas, aquelas em que seja verificada a existência de 2 (duas) ou mais circunstâncias agravantes.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art13_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A advertência será aplicada nas hipóteses de infrações consideradas leves, ficando o infrator notificado a fazer cessar a irregularidade, sob pena de imposição de outras sanções previstas em lei.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art13_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A multa simples será aplicada quando o infrator incorrer na prática de infrações leves ou graves e nas hipóteses em que, advertido por irregularidades que tenham sido praticadas, deixar de saná-las no prazo assinalado, devendo o seu valor variar entre R$ 500,00 (quinhentos reais) e R$ 100.000,00 (cem mil reais).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art13_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Nas infrações para as quais não haja sanção específica prevista em lei, a Ancine privilegiará a aplicação de sanção de multa simples.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            <!--Link: urn:lex:br:federal:lei:1993-07-20;8685-->
+            
+            
+            <p>
+    Para os efeitos desta Lei, da <span xlink:href="urn:lex:br:federal:lei:1993-07-20;8685">Lei nº 8.685, de 20 de julho 1993</span>, e dos demais instrumentos normativos aplicáveis às atividades audiovisuais, serão consideradas as seguintes sanções restritivas de direito, sem prejuízo das sanções previstas no art. 13 desta Lei:
+
+  </p>
+            <Inciso id="art14_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    perda ou suspensão de participação nos programas do FNC em categoria de programação específica, conforme art. 1º desta Lei;
+
+  </p>
+            
+          </Inciso><Inciso id="art14_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    perda ou suspensão de participação em linhas de financiamento em estabelecimentos oficiais de crédito;
+
+  </p>
+            
+          </Inciso><Inciso id="art14_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    proibição de contratar com a administração pública, pelo período de até 2 (dois) anos;
+
+  </p>
+            
+          </Inciso><Inciso id="art14_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    suspensão ou proibição de fruir dos benefícios fiscais da legislação audiovisual, pelo período de até 2 (dois) anos.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>
+    O descumprimento ao disposto nos arts. 10 e 11 desta Lei sujeitará o infrator a multa de R$ 100.000,00 (cem mil reais) a R$ 1.000.000,00 (um milhão de reais), na forma do inciso II do caput do art. 13 desta Lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art18--><!--Link: urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art22--><!--Link: urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art23-->
+            
+            
+            <p>
+    O descumprimento ao disposto nos <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art18">arts. 18</span>, <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art22">22</span> e <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art23">23 da Medida Provisória nº 2.228-1, de 6 de setembro de 2001</span>, sujeitará o infrator a multa de R$ 2.000,00 (dois mil reais) a R$ 100.000,00 (cem mil reais).
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1--><!--Link: urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art60-->
+            
+            
+            <p>
+    Nos dispositivos sem previsão de limite específico, a multa aplicada em razão do descumprimento do disposto na <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1">Medida Provisória nº 2.228-1, de 6 de setembro de 2001</span>, e nesta Lei, limitar-se- á a 5% (cinco por cento) da receita bruta mensal da empresa, observado o disposto no <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art60">art. 60 da Medida Provisória nº 2.228-1, de 6 de setembro de 2001</span>.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            
+            
+            
+            <p>
+    O Poder Executivo regulamentará esta Lei no prazo de 90 (noventa) dias, a contar da sua publicação.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            
+            
+            
+            <p>
+    Esta Lei entra em vigor na data de sua publicação.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art11_cpt_inc4--><!--Link: urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art11_cpt_inc13--><!--Link: urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art51--><!--Link: urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art11_cpt_inc2--><!--Link: urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art60_par1--><!--Link: urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art45_par6--><!--Link: urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art11_cpt_inc1--><!--Link: urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art45_par3-->
+            
+            
+            <p>
+    Ficam revogados os <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art11_cpt_inc1">incisos I</span>, <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art11_cpt_inc2">II</span>, <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art11_cpt_inc4">IV</span> e <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art11_cpt_inc13">XIII do caput do art. 11</span>, <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art45_par3">os §§ 3º</span> e <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art45_par6">6º do art. 45</span>, o <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art51">art. 51</span> e o <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art60_par1">§ 1º do art. 60 da Medida Provisória nº 2.228-1, de 6 de setembro de 2001</span>.
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 28 de dezembro de 2006; 185º da Independência e 118º da República.</p></LocalDataFecho><Assinatura><NomePessoa>LUIZ INÁCIO LULA DA SILVA</NomePessoa><NomePessoa>Guido Mantega</NomePessoa><NomePessoa>Gilberto Gil</NomePessoa></Assinatura></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>

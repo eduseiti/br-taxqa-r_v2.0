@@ -1,0 +1,16 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:2000-12-19;10101!anexo1"/>
+    </Metadado>
+      <Anexo>
+        <DocumentoGenerico>
+      <PartePrincipal id="anexo1_pp">
+        <p>ANEXO</p>
+        <p>(Anexo acrescido pelo Anexo à <span xlink:href="urn:lex:br:federal:medida.provisoria:2012-12-26;597">Medida Provisória nº 597, de 26.12.2012</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2013-06-20;12832">Lei nº 12.832, de 20.6.2013</span>, publicada no DOU de 21.6.2013, produzindo efeitos a partir de 1º/1/2013)
+</p><p>PARTICIPAÇÃO NOS LUCROS
+</p><p>TABELA DE TRIBUTAÇÃO EXCLUSIVA NA FONTE
+</p><table id="anexo1_tab4"><tr><td>VALOR DO PLR ANUAL (EM R$)</td><td>ALÍQUOTA</td><td>PARCELA A DEDUZIR DO IR (EM R$)</td></tr><tr><td>de0,00 A 6.000,00</td><td>0%</td><td>-</td></tr><tr><td>de6.000,01 A 9.000,00</td><td>7,5%</td><td>450,00</td></tr><tr><td>de9.000,01 A 12.000,00</td><td>15%</td><td>1.125,00</td></tr><tr><td>de12.000,01 A 15.000,00</td><td>22,5%</td><td>2.025,00</td></tr><tr><td>acima de15.000,00</td><td>27,5%</td><td>2.775,00</td></tr></table>
+      </PartePrincipal>
+    </DocumentoGenerico>
+      </Anexo>
+    </LexML>

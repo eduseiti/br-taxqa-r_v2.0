@@ -1,0 +1,692 @@
+# CMD: java -jar ../lexml-parser-projeto-lei/target/lexml-parser-projeto-lei-1.15.0-onejar.jar parse -m application/vnd.openxmlformats-officedocument.wordprocessingml.document -i original/articulados/decreto_3000_19990326.docx -o lexml/decreto_3000_19990326.xml --write-errors-to-file lexml/decreto_3000_19990326.err.log -a federal -t decreto -n 3000 --data 1999-03-26 --linker /usr/local/bin/linkertool
+# ---
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 27.), msg = None, context=ArraySeq(27., § 1º, Art. 647.)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(CAPÍTULO II do SUBTÍTULO III do TÍTULO VII do LIVRO DE, CAPÍTULO II do SUBTÍTULO III do TÍTULO VII do LIVRO DE), msg = None, context=List()
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 5.), msg = None, context=ArraySeq(5., § 1º, Art. 647.)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 250. do Parágrafo único. da d)), msg = None, context=ArraySeq(d), Parágrafo único., Art. 250.)
+
+Problem type = [5: Rótulo repetido, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção II da Seção II do CAPÍTULO I do TÍTULO I do LIVRO IVADMINISTRACAO), msg = None, context=ArraySeq(Seção II, CAPÍTULO I, TÍTULO I, LIVRO IVADMINISTRACAO, CAPÍTULO I, TÍTULO I, LIVRO IVADMINISTRACAO, TÍTULO I, LIVRO IVADMINISTRACAO, LIVRO IVADMINISTRACAO)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção II do CAPÍTULO I do TÍTULO I do LIVRO IIITRIBUTACAO, Seção II do CAPÍTULO I do TÍTULO I do LIVRO IIITRIBUTACAO), msg = None, context=List()
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção I do CAPÍTULO IV do SUBTÍTULO III do TÍTULO VII do LIVRO DE, Seção III do CAPÍTULO IV do SUBTÍTULO III do TÍTULO VII do LIVRO DE), msg = None, context=List()
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 16.), msg = None, context=ArraySeq(16., § 1º, Art. 647.)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 20.), msg = None, context=ArraySeq(20., § 1º, Art. 647.)
+
+Problem type = [5: Rótulo repetido, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção III do CAPÍTULO I do SUBTÍTULO II do TÍTULO II do LIVRO IIITRIBUTACAO), msg = None, context=ArraySeq(CAPÍTULO I, SUBTÍTULO II, TÍTULO II, LIVRO IIITRIBUTACAO, SUBTÍTULO II, TÍTULO II, LIVRO IIITRIBUTACAO, TÍTULO II, LIVRO IIITRIBUTACAO, LIVRO IIITRIBUTACAO)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 250. do Parágrafo único. da b)), msg = None, context=ArraySeq(b), Parágrafo único., Art. 250.)
+
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(LIVRO IIITRIBUTACAO do TÍTULO I do CAPÍTULO V da Seção II da Subseção III), msg = None, context=ArraySeq(Subseção III:Seção II:CAPÍTULO V:TÍTULO I:LIVRO IIITRIBUTACAO, Subseção III:Seção II:CAPÍTULO V:TÍTULO I:LIVRO IIITRIBUTACAO)
+
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(LIVRO DE do TÍTULO VII do SUBTÍTULO III do CAPÍTULO II da Seção III), msg = None, context=ArraySeq(Seção III:CAPÍTULO II:SUBTÍTULO III:TÍTULO VII:LIVRO DE, Seção III:CAPÍTULO II:SUBTÍTULO III:TÍTULO VII:LIVRO DE, Seção III:CAPÍTULO II:SUBTÍTULO III:TÍTULO VII:LIVRO DE)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção III do CAPÍTULO I do SUBTÍTULO II do TÍTULO II do LIVRO IIITRIBUTACAO, Seção III do CAPÍTULO I do SUBTÍTULO II do TÍTULO II do LIVRO IIITRIBUTACAO), msg = None, context=List()
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção II da Seção II do CAPÍTULO I do TÍTULO I do LIVRO IIITRIBUTACAO), msg = None, context=ArraySeq(Seção II, CAPÍTULO I, TÍTULO I, LIVRO IIITRIBUTACAO, CAPÍTULO I, TÍTULO I, LIVRO IIITRIBUTACAO, TÍTULO I, LIVRO IIITRIBUTACAO, LIVRO IIITRIBUTACAO)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(CAPÍTULO V do SUBTÍTULO III do TÍTULO II do LIVRO IIITRIBUTACAO, CAPÍTULO VII do SUBTÍTULO III do TÍTULO II do LIVRO IIITRIBUTACAO), msg = None, context=List()
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção II da Seção I do CAPÍTULO VII do LIVRO DE), msg = None, context=ArraySeq(Seção I, CAPÍTULO VII, LIVRO DE, CAPÍTULO VII, LIVRO DE, LIVRO DE)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 25.), msg = None, context=ArraySeq(25., § 1º, Art. 647.)
+
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(LIVRO IIITRIBUTACAO do TÍTULO II do SUBTÍTULO I do CAPÍTULO III da Seção IV), msg = None, context=ArraySeq(Seção IV:CAPÍTULO III:SUBTÍTULO I:TÍTULO II:LIVRO IIITRIBUTACAO, Seção IV:CAPÍTULO III:SUBTÍTULO I:TÍTULO II:LIVRO IIITRIBUTACAO)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(SUBTÍTULO V do LIVRO DE, TÍTULO V do LIVRO DE), msg = None, context=List()
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 36.), msg = None, context=ArraySeq(36., § 1º, Art. 647.)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção II da Seção I do CAPÍTULO IV do SUBTÍTULO III do TÍTULO VII do LIVRO DE), msg = None, context=ArraySeq(Seção I, CAPÍTULO IV, SUBTÍTULO III, TÍTULO VII, LIVRO DE, CAPÍTULO IV, SUBTÍTULO III, TÍTULO VII, LIVRO DE, SUBTÍTULO III, TÍTULO VII, LIVRO DE, TÍTULO VII, LIVRO DE, LIVRO DE)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção III do CAPÍTULO III do SUBTÍTULO I do TÍTULO II do LIVRO IIITRIBUTACAO, Seção III do CAPÍTULO III do SUBTÍTULO I do TÍTULO II do LIVRO IIITRIBUTACAO), msg = None, context=List()
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(LIVRO DE do SUBTÍTULO IV), msg = None, context=ArraySeq(SUBTÍTULO IV, LIVRO DE)
+
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(LIVRO DE do TÍTULO VII do SUBTÍTULO III do CAPÍTULO II), msg = None, context=ArraySeq(CAPÍTULO II:SUBTÍTULO III:TÍTULO VII:LIVRO DE, CAPÍTULO II:SUBTÍTULO III:TÍTULO VII:LIVRO DE, CAPÍTULO II:SUBTÍTULO III:TÍTULO VII:LIVRO DE, CAPÍTULO II:SUBTÍTULO III:TÍTULO VII:LIVRO DE)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 480. do § 1º da e)), msg = None, context=ArraySeq(e), § 1º, Art. 480.)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção III do CAPÍTULO II do SUBTÍTULO III do TÍTULO VII do LIVRO DE, Seção III do CAPÍTULO II do SUBTÍTULO III do TÍTULO VII do LIVRO DE), msg = None, context=List()
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 1.), msg = None, context=ArraySeq(1., § 1º, Art. 647.)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção II da Seção II do CAPÍTULO II do SUBTÍTULO I do TÍTULO I do LIVRO II), msg = None, context=ArraySeq(Seção II, CAPÍTULO II, SUBTÍTULO I, TÍTULO I, LIVRO II, CAPÍTULO II, SUBTÍTULO I, TÍTULO I, LIVRO II, SUBTÍTULO I, TÍTULO I, LIVRO II, TÍTULO I, LIVRO II, LIVRO II)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção II do CAPÍTULO VI do SUBTÍTULO II do TÍTULO II do LIVRO IIITRIBUTACAO, Seção II do CAPÍTULO VI do SUBTÍTULO II do TÍTULO II do LIVRO IIITRIBUTACAO), msg = None, context=List()
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 38.), msg = None, context=ArraySeq(38., § 1º, Art. 647.)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção II da Seção III do CAPÍTULO VIII do LIVRO DE), msg = None, context=ArraySeq(Seção III, CAPÍTULO VIII, LIVRO DE, CAPÍTULO VIII, LIVRO DE, LIVRO DE)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção III do LIVRO RAZAO), msg = None, context=ArraySeq(LIVRO RAZAO)
+
+Problem type = [5: Rótulo repetido, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção III do CAPÍTULO II do SUBTÍTULO III do TÍTULO II do LIVRO IIITRIBUTACAO), msg = None, context=ArraySeq(CAPÍTULO II, SUBTÍTULO III, TÍTULO II, LIVRO IIITRIBUTACAO, SUBTÍTULO III, TÍTULO II, LIVRO IIITRIBUTACAO, TÍTULO II, LIVRO IIITRIBUTACAO, LIVRO IIITRIBUTACAO)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 37.), msg = None, context=ArraySeq(37., § 1º, Art. 647.)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 480. do § 1º da d)), msg = None, context=ArraySeq(d), § 1º, Art. 480.)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(CAPÍTULO II do SUBTÍTULO III do TÍTULO II do LIVRO IIITRIBUTACAO), msg = None, context=ArraySeq(SUBTÍTULO III, TÍTULO II, LIVRO IIITRIBUTACAO, TÍTULO II, LIVRO IIITRIBUTACAO, LIVRO IIITRIBUTACAO)
+
+Problem type = [5: Rótulo repetido, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(SUBTÍTULO III do TÍTULO VII do LIVRO DE), msg = None, context=ArraySeq(TÍTULO VII, LIVRO DE, LIVRO DE)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção I do CAPÍTULO III do SUBTÍTULO I do TÍTULO II do LIVRO IIITRIBUTACAO, Seção III do CAPÍTULO III do SUBTÍTULO I do TÍTULO II do LIVRO IIITRIBUTACAO), msg = None, context=List()
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 12.), msg = None, context=ArraySeq(12., § 1º, Art. 647.)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção V do CAPÍTULO II do SUBTÍTULO I do TÍTULO IV do LIVRO II, Seção VII do CAPÍTULO II do SUBTÍTULO I do TÍTULO IV do LIVRO II), msg = None, context=List()
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 24.), msg = None, context=ArraySeq(24., § 1º, Art. 647.)
+
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(LIVRO IIITRIBUTACAO do TÍTULO II do SUBTÍTULO I do CAPÍTULO III da Seção I), msg = None, context=ArraySeq(Seção I:CAPÍTULO III:SUBTÍTULO I:TÍTULO II:LIVRO IIITRIBUTACAO, Seção I:CAPÍTULO III:SUBTÍTULO I:TÍTULO II:LIVRO IIITRIBUTACAO)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção II da Seção II do CAPÍTULO II do TÍTULO III do LIVRO IVADMINISTRACAO), msg = None, context=ArraySeq(Seção II, CAPÍTULO II, TÍTULO III, LIVRO IVADMINISTRACAO, CAPÍTULO II, TÍTULO III, LIVRO IVADMINISTRACAO, TÍTULO III, LIVRO IVADMINISTRACAO, LIVRO IVADMINISTRACAO)
+
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(LIVRO II do TÍTULO IV do SUBTÍTULO I do CAPÍTULO II da Seção VII), msg = None, context=ArraySeq(Seção VII:CAPÍTULO II:SUBTÍTULO I:TÍTULO IV:LIVRO II, Seção VII:CAPÍTULO II:SUBTÍTULO I:TÍTULO IV:LIVRO II)
+
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(LIVRO IIITRIBUTACAO do TÍTULO II do SUBTÍTULO I do CAPÍTULO III), msg = None, context=ArraySeq(CAPÍTULO III:SUBTÍTULO I:TÍTULO II:LIVRO IIITRIBUTACAO, CAPÍTULO III:SUBTÍTULO I:TÍTULO II:LIVRO IIITRIBUTACAO)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção I do CAPÍTULO II do SUBTÍTULO III do TÍTULO II do LIVRO IIITRIBUTACAO, Seção III do CAPÍTULO II do SUBTÍTULO III do TÍTULO II do LIVRO IIITRIBUTACAO), msg = None, context=List()
+
+Problem type = [5: Rótulo repetido, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção III do CAPÍTULO II do SUBTÍTULO III do TÍTULO VII do LIVRO DE), msg = None, context=ArraySeq(CAPÍTULO II, SUBTÍTULO III, TÍTULO VII, LIVRO DE, SUBTÍTULO III, TÍTULO VII, LIVRO DE, TÍTULO VII, LIVRO DE, LIVRO DE)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(CAPÍTULO III do LIVRO DE), msg = None, context=ArraySeq(LIVRO DE)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 9.), msg = None, context=ArraySeq(9., § 1º, Art. 647.)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção II da Seção IV do CAPÍTULO V do LIVRO DE), msg = None, context=ArraySeq(Seção IV, CAPÍTULO V, LIVRO DE, CAPÍTULO V, LIVRO DE, LIVRO DE)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(CAPÍTULO VI do TÍTULO IV do LIVRO IVADMINISTRACAO, CAPÍTULO VI do TÍTULO IV do LIVRO IVADMINISTRACAO), msg = None, context=List()
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(CAPÍTULO IV do TÍTULO IV do LIVRO IVADMINISTRACAO, CAPÍTULO VI do TÍTULO IV do LIVRO IVADMINISTRACAO), msg = None, context=List()
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 23.), msg = None, context=ArraySeq(23., § 1º, Art. 647.)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção II da Seção I do CAPÍTULO III do SUBTÍTULO III do TÍTULO VII do LIVRO DE), msg = None, context=ArraySeq(Seção I, CAPÍTULO III, SUBTÍTULO III, TÍTULO VII, LIVRO DE, CAPÍTULO III, SUBTÍTULO III, TÍTULO VII, LIVRO DE, SUBTÍTULO III, TÍTULO VII, LIVRO DE, TÍTULO VII, LIVRO DE, LIVRO DE)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 7.), msg = None, context=ArraySeq(7., § 1º, Art. 647.)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(LIVRO DE do SUBTÍTULO V), msg = None, context=ArraySeq(SUBTÍTULO V, LIVRO DE)
+
+Problem type = [5: Rótulo repetido, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(CAPÍTULO XIII do LIVRO DE), msg = None, context=ArraySeq(LIVRO DE)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção II da Seção IV do CAPÍTULO III do SUBTÍTULO I do TÍTULO I do LIVRO II), msg = None, context=ArraySeq(Seção IV, CAPÍTULO III, SUBTÍTULO I, TÍTULO I, LIVRO II, CAPÍTULO III, SUBTÍTULO I, TÍTULO I, LIVRO II, SUBTÍTULO I, TÍTULO I, LIVRO II, TÍTULO I, LIVRO II, LIVRO II)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 480. do § 1º da b)), msg = None, context=ArraySeq(b), § 1º, Art. 480.)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(CAPÍTULO IX do TÍTULO VIII do LIVRO IVADMINISTRACAO, CAPÍTULO XC do TÍTULO VIII do LIVRO IVADMINISTRACAO), msg = None, context=List()
+
+Problem type = [5: Rótulo repetido, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(CAPÍTULO VI do TÍTULO IV do LIVRO IVADMINISTRACAO), msg = None, context=ArraySeq(TÍTULO IV, LIVRO IVADMINISTRACAO, LIVRO IVADMINISTRACAO)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 22.), msg = None, context=ArraySeq(22., § 1º, Art. 647.)
+
+Problem type = [5: Rótulo repetido, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(CAPÍTULO II do SUBTÍTULO III do TÍTULO VII do LIVRO DE), msg = None, context=ArraySeq(SUBTÍTULO III, TÍTULO VII, LIVRO DE, TÍTULO VII, LIVRO DE, LIVRO DE)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 18.), msg = None, context=ArraySeq(18., § 1º, Art. 647.)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(CAPÍTULO I do SUBTÍTULO I do TÍTULO II do LIVRO IIITRIBUTACAO, CAPÍTULO III do SUBTÍTULO I do TÍTULO II do LIVRO IIITRIBUTACAO), msg = None, context=List()
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(CAPÍTULO II do SUBTÍTULO III do TÍTULO VII do LIVRO DE), msg = None, context=ArraySeq(SUBTÍTULO III, TÍTULO VII, LIVRO DE, TÍTULO VII, LIVRO DE, LIVRO DE)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 28.), msg = None, context=ArraySeq(28., § 1º, Art. 647.)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 26.), msg = None, context=ArraySeq(26., § 1º, Art. 647.)
+
+Problem type = [5: Rótulo repetido, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção II do CAPÍTULO VI do SUBTÍTULO II do TÍTULO II do LIVRO IIITRIBUTACAO), msg = None, context=ArraySeq(CAPÍTULO VI, SUBTÍTULO II, TÍTULO II, LIVRO IIITRIBUTACAO, SUBTÍTULO II, TÍTULO II, LIVRO IIITRIBUTACAO, TÍTULO II, LIVRO IIITRIBUTACAO, LIVRO IIITRIBUTACAO)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 11.), msg = None, context=ArraySeq(11., § 1º, Art. 647.)
+
+Problem type = [5: Rótulo repetido, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção III do CAPÍTULO VI do TÍTULO IV do LIVRO IVADMINISTRACAO), msg = None, context=ArraySeq(CAPÍTULO VI, TÍTULO IV, LIVRO IVADMINISTRACAO, TÍTULO IV, LIVRO IVADMINISTRACAO, LIVRO IVADMINISTRACAO)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 32.), msg = None, context=ArraySeq(32., § 1º, Art. 647.)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção II da Seção I do CAPÍTULO I do TÍTULO I do LIVRO IVADMINISTRACAO), msg = None, context=ArraySeq(Seção I, CAPÍTULO I, TÍTULO I, LIVRO IVADMINISTRACAO, CAPÍTULO I, TÍTULO I, LIVRO IVADMINISTRACAO, TÍTULO I, LIVRO IVADMINISTRACAO, LIVRO IVADMINISTRACAO)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(CAPÍTULO II do SUBTÍTULO III do TÍTULO II do LIVRO IIITRIBUTACAO, CAPÍTULO II do SUBTÍTULO III do TÍTULO II do LIVRO IIITRIBUTACAO), msg = None, context=List()
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 250. do Parágrafo único. da a)), msg = None, context=ArraySeq(a), Parágrafo único., Art. 250.)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 35.), msg = None, context=ArraySeq(35., § 1º, Art. 647.)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção II da Seção II do CAPÍTULO I do TÍTULO I do LIVRO IVADMINISTRACAO), msg = None, context=ArraySeq(Seção II, CAPÍTULO I, TÍTULO I, LIVRO IVADMINISTRACAO, CAPÍTULO I, TÍTULO I, LIVRO IVADMINISTRACAO, TÍTULO I, LIVRO IVADMINISTRACAO, LIVRO IVADMINISTRACAO)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 29.), msg = None, context=ArraySeq(29., § 1º, Art. 647.)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 250. do Parágrafo único. da c)), msg = None, context=ArraySeq(c), Parágrafo único., Art. 250.)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 13.), msg = None, context=ArraySeq(13., § 1º, Art. 647.)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(§ 1º do Art. 33. (no CAPÍTULO I do TÍTULO III do LIVRO I), § 1º do Art. 33. (no CAPÍTULO I do TÍTULO III do LIVRO I)), msg = None, context=List()
+
+Problem type = [5: Rótulo repetido, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(§ 1º do Art. 33. (no CAPÍTULO I do TÍTULO III do LIVRO I)), msg = None, context=ArraySeq(Art. 33., CAPÍTULO I, TÍTULO III, LIVRO I, TÍTULO III, LIVRO I, LIVRO I)
+
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 33. do § 1º), msg = None, context=ArraySeq(§ 1º:Art. 33., § 1º:Art. 33.)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção II da Seção II do CAPÍTULO II do SUBTÍTULO III do TÍTULO VII do LIVRO DE), msg = None, context=ArraySeq(Seção II, CAPÍTULO II, SUBTÍTULO III, TÍTULO VII, LIVRO DE, CAPÍTULO II, SUBTÍTULO III, TÍTULO VII, LIVRO DE, SUBTÍTULO III, TÍTULO VII, LIVRO DE, TÍTULO VII, LIVRO DE, LIVRO DE)
+
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(LIVRO DE do CAPÍTULO XIII), msg = None, context=ArraySeq(CAPÍTULO XIII:LIVRO DE, CAPÍTULO XIII:LIVRO DE)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção II da Seção IV do CAPÍTULO I do TÍTULO X do LIVRO I), msg = None, context=ArraySeq(Seção IV, CAPÍTULO I, TÍTULO X, LIVRO I, CAPÍTULO I, TÍTULO X, LIVRO I, TÍTULO X, LIVRO I, LIVRO I)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 3.), msg = None, context=ArraySeq(3., § 1º, Art. 647.)
+
+Problem type = [5: Rótulo repetido, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção III do CAPÍTULO III do SUBTÍTULO I do TÍTULO II do LIVRO IIITRIBUTACAO), msg = None, context=ArraySeq(CAPÍTULO III, SUBTÍTULO I, TÍTULO II, LIVRO IIITRIBUTACAO, SUBTÍTULO I, TÍTULO II, LIVRO IIITRIBUTACAO, TÍTULO II, LIVRO IIITRIBUTACAO, LIVRO IIITRIBUTACAO)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 31.), msg = None, context=ArraySeq(31., § 1º, Art. 647.)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção II da Seção II do CAPÍTULO I do TÍTULO I do LIVRO IVADMINISTRACAO, Subseção II da Seção II do CAPÍTULO I do TÍTULO I do LIVRO IVADMINISTRACAO), msg = None, context=List()
+
+Problem type = [2: Dispositivos com ordem invertida., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(CAPÍTULO XC do TÍTULO VIII do LIVRO IVADMINISTRACAO, CAPÍTULO XI do TÍTULO VIII do LIVRO IVADMINISTRACAO), msg = None, context=ArraySeq(TÍTULO VIII, LIVRO IVADMINISTRACAO, LIVRO IVADMINISTRACAO)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 250. do Parágrafo único. da e)), msg = None, context=ArraySeq(e), Parágrafo único., Art. 250.)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 33.), msg = None, context=ArraySeq(33., § 1º, Art. 647.)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(SUBTÍTULO III do TÍTULO VII do LIVRO DE, SUBTÍTULO III do TÍTULO VII do LIVRO DE), msg = None, context=List()
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 40.), msg = None, context=ArraySeq(40., § 1º, Art. 647.)
+
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(LIVRO DE do TÍTULO VII do SUBTÍTULO III do CAPÍTULO III da Seção III), msg = None, context=ArraySeq(Seção III:CAPÍTULO III:SUBTÍTULO III:TÍTULO VII:LIVRO DE, Seção III:CAPÍTULO III:SUBTÍTULO III:TÍTULO VII:LIVRO DE)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção II do CAPÍTULO VI do SUBTÍTULO II do TÍTULO II do LIVRO IIITRIBUTACAO), msg = None, context=ArraySeq(CAPÍTULO VI, SUBTÍTULO II, TÍTULO II, LIVRO IIITRIBUTACAO, SUBTÍTULO II, TÍTULO II, LIVRO IIITRIBUTACAO, TÍTULO II, LIVRO IIITRIBUTACAO, LIVRO IIITRIBUTACAO)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção II da Seção III do CAPÍTULO II do SUBTÍTULO III do TÍTULO VII do LIVRO DE), msg = None, context=ArraySeq(Seção III, CAPÍTULO II, SUBTÍTULO III, TÍTULO VII, LIVRO DE, CAPÍTULO II, SUBTÍTULO III, TÍTULO VII, LIVRO DE, SUBTÍTULO III, TÍTULO VII, LIVRO DE, TÍTULO VII, LIVRO DE, LIVRO DE)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção II da Seção III do CAPÍTULO III do TÍTULO I do LIVRO IIITRIBUTACAO), msg = None, context=ArraySeq(Seção III, CAPÍTULO III, TÍTULO I, LIVRO IIITRIBUTACAO, CAPÍTULO III, TÍTULO I, LIVRO IIITRIBUTACAO, TÍTULO I, LIVRO IIITRIBUTACAO, LIVRO IIITRIBUTACAO)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção IX do CAPÍTULO VI do LIVRO DE, Seção XC do CAPÍTULO VI do LIVRO DE), msg = None, context=List()
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção II da Seção VI do CAPÍTULO I do TÍTULO I do LIVRO IIITRIBUTACAO), msg = None, context=ArraySeq(Seção VI, CAPÍTULO I, TÍTULO I, LIVRO IIITRIBUTACAO, CAPÍTULO I, TÍTULO I, LIVRO IIITRIBUTACAO, TÍTULO I, LIVRO IIITRIBUTACAO, LIVRO IIITRIBUTACAO)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção I do CAPÍTULO I do SUBTÍTULO II do TÍTULO II do LIVRO IIITRIBUTACAO, Seção III do CAPÍTULO I do SUBTÍTULO II do TÍTULO II do LIVRO IIITRIBUTACAO), msg = None, context=List()
+
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(LIVRO IVADMINISTRACAO do TÍTULO VIII do CAPÍTULO VI), msg = None, context=ArraySeq(CAPÍTULO VI:TÍTULO VIII:LIVRO IVADMINISTRACAO, CAPÍTULO VI:TÍTULO VIII:LIVRO IVADMINISTRACAO)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção II do CAPÍTULO III do SUBTÍTULO III do TÍTULO VII do LIVRO DE), msg = None, context=ArraySeq(CAPÍTULO III, SUBTÍTULO III, TÍTULO VII, LIVRO DE, SUBTÍTULO III, TÍTULO VII, LIVRO DE, TÍTULO VII, LIVRO DE, LIVRO DE)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(CAPÍTULO VI do TÍTULO VIII do LIVRO IVADMINISTRACAO, CAPÍTULO VI do TÍTULO VIII do LIVRO IVADMINISTRACAO), msg = None, context=List()
+
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(LIVRO IIITRIBUTACAO do TÍTULO II do SUBTÍTULO III do CAPÍTULO II da Seção III), msg = None, context=ArraySeq(Seção III:CAPÍTULO II:SUBTÍTULO III:TÍTULO II:LIVRO IIITRIBUTACAO, Seção III:CAPÍTULO II:SUBTÍTULO III:TÍTULO II:LIVRO IIITRIBUTACAO)
+
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(LIVRO IIITRIBUTACAO do TÍTULO II do SUBTÍTULO I do CAPÍTULO III da Seção III), msg = None, context=ArraySeq(Seção III:CAPÍTULO III:SUBTÍTULO I:TÍTULO II:LIVRO IIITRIBUTACAO, Seção III:CAPÍTULO III:SUBTÍTULO I:TÍTULO II:LIVRO IIITRIBUTACAO, Seção III:CAPÍTULO III:SUBTÍTULO I:TÍTULO II:LIVRO IIITRIBUTACAO)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(CAPÍTULO IV do TÍTULO VIII do LIVRO IVADMINISTRACAO, CAPÍTULO VI do TÍTULO VIII do LIVRO IVADMINISTRACAO), msg = None, context=List()
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção III da Seção II do CAPÍTULO V do TÍTULO I do LIVRO IIITRIBUTACAO, Subseção III da Seção II do CAPÍTULO V do TÍTULO I do LIVRO IIITRIBUTACAO), msg = None, context=List()
+
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(LIVRO IVADMINISTRACAO do TÍTULO I do CAPÍTULO I da Seção II da Subseção II), msg = None, context=ArraySeq(Subseção II:Seção II:CAPÍTULO I:TÍTULO I:LIVRO IVADMINISTRACAO, Subseção II:Seção II:CAPÍTULO I:TÍTULO I:LIVRO IVADMINISTRACAO)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 15.), msg = None, context=ArraySeq(15., § 1º, Art. 647.)
+
+Problem type = [5: Rótulo repetido, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção II do CAPÍTULO III do SUBTÍTULO III do TÍTULO VII do LIVRO DE), msg = None, context=ArraySeq(CAPÍTULO III, SUBTÍTULO III, TÍTULO VII, LIVRO DE, SUBTÍTULO III, TÍTULO VII, LIVRO DE, TÍTULO VII, LIVRO DE, LIVRO DE)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(CAPÍTULO XIV do LIVRO DE, SUBTÍTULO IV do LIVRO DE), msg = None, context=List()
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 6.), msg = None, context=ArraySeq(6., § 1º, Art. 647.)
+
+Problem type = [5: Rótulo repetido, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção VII do CAPÍTULO II do SUBTÍTULO I do TÍTULO IV do LIVRO II), msg = None, context=ArraySeq(CAPÍTULO II, SUBTÍTULO I, TÍTULO IV, LIVRO II, SUBTÍTULO I, TÍTULO IV, LIVRO II, TÍTULO IV, LIVRO II, LIVRO II)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção II da Seção II do CAPÍTULO VII do LIVRO DE), msg = None, context=ArraySeq(Seção II, CAPÍTULO VII, LIVRO DE, CAPÍTULO VII, LIVRO DE, LIVRO DE)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção III do CAPÍTULO II do SUBTÍTULO III do TÍTULO II do LIVRO IIITRIBUTACAO, Seção III do CAPÍTULO II do SUBTÍTULO III do TÍTULO II do LIVRO IIITRIBUTACAO), msg = None, context=List()
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção III da Seção II do CAPÍTULO V do TÍTULO I do LIVRO IIITRIBUTACAO), msg = None, context=ArraySeq(Seção II, CAPÍTULO V, TÍTULO I, LIVRO IIITRIBUTACAO, CAPÍTULO V, TÍTULO I, LIVRO IIITRIBUTACAO, TÍTULO I, LIVRO IIITRIBUTACAO, LIVRO IIITRIBUTACAO)
+
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(LIVRO IVADMINISTRACAO do TÍTULO IV do CAPÍTULO VI da Seção III), msg = None, context=ArraySeq(Seção III:CAPÍTULO VI:TÍTULO IV:LIVRO IVADMINISTRACAO, Seção III:CAPÍTULO VI:TÍTULO IV:LIVRO IVADMINISTRACAO)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 14.), msg = None, context=ArraySeq(14., § 1º, Art. 647.)
+
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(LIVRO DE do TÍTULO VII do SUBTÍTULO III do CAPÍTULO II da Seção II), msg = None, context=ArraySeq(Seção II:CAPÍTULO II:SUBTÍTULO III:TÍTULO VII:LIVRO DE, Seção II:CAPÍTULO II:SUBTÍTULO III:TÍTULO VII:LIVRO DE, Seção II:CAPÍTULO II:SUBTÍTULO III:TÍTULO VII:LIVRO DE)
+
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(LIVRO IIITRIBUTACAO do TÍTULO I do CAPÍTULO I da Seção II), msg = None, context=ArraySeq(Seção II:CAPÍTULO I:TÍTULO I:LIVRO IIITRIBUTACAO, Seção II:CAPÍTULO I:TÍTULO I:LIVRO IIITRIBUTACAO)
+
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(LIVRO IIITRIBUTACAO do TÍTULO II do SUBTÍTULO III do CAPÍTULO II), msg = None, context=ArraySeq(CAPÍTULO II:SUBTÍTULO III:TÍTULO II:LIVRO IIITRIBUTACAO, CAPÍTULO II:SUBTÍTULO III:TÍTULO II:LIVRO IIITRIBUTACAO)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 2.), msg = None, context=ArraySeq(2., § 1º, Art. 647.)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção II da Seção IV do CAPÍTULO I do TÍTULO I do LIVRO IIITRIBUTACAO), msg = None, context=ArraySeq(Seção IV, CAPÍTULO I, TÍTULO I, LIVRO IIITRIBUTACAO, CAPÍTULO I, TÍTULO I, LIVRO IIITRIBUTACAO, TÍTULO I, LIVRO IIITRIBUTACAO, LIVRO IIITRIBUTACAO)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção II do CAPÍTULO III do SUBTÍTULO III do TÍTULO VII do LIVRO DE, Seção II do CAPÍTULO III do SUBTÍTULO III do TÍTULO VII do LIVRO DE), msg = None, context=List()
+
+Problem type = [5: Rótulo repetido, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(CAPÍTULO II do SUBTÍTULO III do TÍTULO II do LIVRO IIITRIBUTACAO), msg = None, context=ArraySeq(SUBTÍTULO III, TÍTULO II, LIVRO IIITRIBUTACAO, TÍTULO II, LIVRO IIITRIBUTACAO, LIVRO IIITRIBUTACAO)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(SUBTÍTULO IV do LIVRO DE), msg = None, context=ArraySeq(LIVRO DE)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção IV do CAPÍTULO VIII do LIVRO DE), msg = None, context=ArraySeq(CAPÍTULO VIII, LIVRO DE, LIVRO DE)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(CAPÍTULO III do SUBTÍTULO I do TÍTULO II do LIVRO IIITRIBUTACAO, CAPÍTULO III do SUBTÍTULO I do TÍTULO II do LIVRO IIITRIBUTACAO), msg = None, context=List()
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção VII do CAPÍTULO II do SUBTÍTULO I do TÍTULO IV do LIVRO II, Seção VII do CAPÍTULO II do SUBTÍTULO I do TÍTULO IV do LIVRO II), msg = None, context=List()
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção II da Seção I do CAPÍTULO IX do LIVRO DE), msg = None, context=ArraySeq(Seção I, CAPÍTULO IX, LIVRO DE, CAPÍTULO IX, LIVRO DE, LIVRO DE)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção IX do LIVRO DE, CAPÍTULO III do LIVRO DE), msg = None, context=List()
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(CAPÍTULO X do LIVRO DE, CAPÍTULO XII do LIVRO DE), msg = None, context=List()
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 21.), msg = None, context=ArraySeq(21., § 1º, Art. 647.)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(TÍTULO V do LIVRO DE, TÍTULO VII do LIVRO DE), msg = None, context=List()
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção I do CAPÍTULO VI do TÍTULO IV do LIVRO IVADMINISTRACAO, Seção III do CAPÍTULO VI do TÍTULO IV do LIVRO IVADMINISTRACAO), msg = None, context=List()
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 39.), msg = None, context=ArraySeq(39., § 1º, Art. 647.)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 8.), msg = None, context=ArraySeq(8., § 1º, Art. 647.)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção II do CAPÍTULO I do TÍTULO I do LIVRO IIITRIBUTACAO), msg = None, context=ArraySeq(CAPÍTULO I, TÍTULO I, LIVRO IIITRIBUTACAO, TÍTULO I, LIVRO IIITRIBUTACAO, LIVRO IIITRIBUTACAO)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção II da Seção I do CAPÍTULO II do SUBTÍTULO III do TÍTULO VII do LIVRO DE), msg = None, context=ArraySeq(Seção I, CAPÍTULO II, SUBTÍTULO III, TÍTULO VII, LIVRO DE, CAPÍTULO II, SUBTÍTULO III, TÍTULO VII, LIVRO DE, SUBTÍTULO III, TÍTULO VII, LIVRO DE, TÍTULO VII, LIVRO DE, LIVRO DE)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção III da Seção IV do CAPÍTULO V do TÍTULO I do LIVRO IIITRIBUTACAO), msg = None, context=ArraySeq(Seção IV, CAPÍTULO V, TÍTULO I, LIVRO IIITRIBUTACAO, CAPÍTULO V, TÍTULO I, LIVRO IIITRIBUTACAO, TÍTULO I, LIVRO IIITRIBUTACAO, LIVRO IIITRIBUTACAO)
+
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(LIVRO DE do TÍTULO VII do SUBTÍTULO III do CAPÍTULO III da Seção II), msg = None, context=ArraySeq(Seção II:CAPÍTULO III:SUBTÍTULO III:TÍTULO VII:LIVRO DE, Seção II:CAPÍTULO III:SUBTÍTULO III:TÍTULO VII:LIVRO DE, Seção II:CAPÍTULO III:SUBTÍTULO III:TÍTULO VII:LIVRO DE)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 17.), msg = None, context=ArraySeq(17., § 1º, Art. 647.)
+
+Problem type = [5: Rótulo repetido, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(CAPÍTULO VI do TÍTULO VIII do LIVRO IVADMINISTRACAO), msg = None, context=ArraySeq(TÍTULO VIII, LIVRO IVADMINISTRACAO, LIVRO IVADMINISTRACAO)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção IV do LIVRO DE), msg = None, context=ArraySeq(LIVRO DE)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 30.), msg = None, context=ArraySeq(30., § 1º, Art. 647.)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 480. do § 1º da c)), msg = None, context=ArraySeq(c), § 1º, Art. 480.)
+
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(LIVRO IIITRIBUTACAO do TÍTULO II do SUBTÍTULO II do CAPÍTULO I da Seção III), msg = None, context=ArraySeq(Seção III:CAPÍTULO I:SUBTÍTULO II:TÍTULO II:LIVRO IIITRIBUTACAO, Seção III:CAPÍTULO I:SUBTÍTULO II:TÍTULO II:LIVRO IIITRIBUTACAO)
+
+Problem type = [5: Rótulo repetido, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(CAPÍTULO III do SUBTÍTULO I do TÍTULO II do LIVRO IIITRIBUTACAO), msg = None, context=ArraySeq(SUBTÍTULO I, TÍTULO II, LIVRO IIITRIBUTACAO, TÍTULO II, LIVRO IIITRIBUTACAO, LIVRO IIITRIBUTACAO)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 19.), msg = None, context=ArraySeq(19., § 1º, Art. 647.)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção II da Seção II do CAPÍTULO VIII do LIVRO DE), msg = None, context=ArraySeq(Seção II, CAPÍTULO VIII, LIVRO DE, CAPÍTULO VIII, LIVRO DE, LIVRO DE)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(CAPÍTULO XIII do LIVRO DE, CAPÍTULO XIII do LIVRO DE), msg = None, context=List()
+
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(LIVRO IIITRIBUTACAO do TÍTULO II do SUBTÍTULO II do CAPÍTULO VI da Seção II), msg = None, context=ArraySeq(Seção II:CAPÍTULO VI:SUBTÍTULO II:TÍTULO II:LIVRO IIITRIBUTACAO, Seção II:CAPÍTULO VI:SUBTÍTULO II:TÍTULO II:LIVRO IIITRIBUTACAO)
+
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(LIVRO DE do TÍTULO VII do SUBTÍTULO III do CAPÍTULO III), msg = None, context=ArraySeq(CAPÍTULO III:SUBTÍTULO III:TÍTULO VII:LIVRO DE, CAPÍTULO III:SUBTÍTULO III:TÍTULO VII:LIVRO DE)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(TÍTULO V do LIVRO DE), msg = None, context=ArraySeq(LIVRO DE)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção II da Seção I do CAPÍTULO III do TÍTULO I do LIVRO IIITRIBUTACAO), msg = None, context=ArraySeq(Seção I, CAPÍTULO III, TÍTULO I, LIVRO IIITRIBUTACAO, CAPÍTULO III, TÍTULO I, LIVRO IIITRIBUTACAO, TÍTULO I, LIVRO IIITRIBUTACAO, LIVRO IIITRIBUTACAO)
+
+Problem type = [5: Rótulo repetido, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção III da Seção II do CAPÍTULO V do TÍTULO I do LIVRO IIITRIBUTACAO), msg = None, context=ArraySeq(Seção II, CAPÍTULO V, TÍTULO I, LIVRO IIITRIBUTACAO, CAPÍTULO V, TÍTULO I, LIVRO IIITRIBUTACAO, TÍTULO I, LIVRO IIITRIBUTACAO, LIVRO IIITRIBUTACAO)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção II da Seção V do CAPÍTULO V do TÍTULO I do LIVRO IIITRIBUTACAO), msg = None, context=ArraySeq(Seção V, CAPÍTULO V, TÍTULO I, LIVRO IIITRIBUTACAO, CAPÍTULO V, TÍTULO I, LIVRO IIITRIBUTACAO, TÍTULO I, LIVRO IIITRIBUTACAO, LIVRO IIITRIBUTACAO)
+
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(LIVRO DE do TÍTULO VII do SUBTÍTULO III), msg = None, context=ArraySeq(SUBTÍTULO III:TÍTULO VII:LIVRO DE, SUBTÍTULO III:TÍTULO VII:LIVRO DE)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção II da Seção III do CAPÍTULO V do LIVRO DE), msg = None, context=ArraySeq(Seção III, CAPÍTULO V, LIVRO DE, CAPÍTULO V, LIVRO DE, LIVRO DE)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 4.), msg = None, context=ArraySeq(4., § 1º, Art. 647.)
+
+Problem type = [5: Rótulo repetido, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção II do CAPÍTULO I do TÍTULO I do LIVRO IIITRIBUTACAO), msg = None, context=ArraySeq(CAPÍTULO I, TÍTULO I, LIVRO IIITRIBUTACAO, TÍTULO I, LIVRO IIITRIBUTACAO, LIVRO IIITRIBUTACAO)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 480. do § 1º da a)), msg = None, context=ArraySeq(a), § 1º, Art. 480.)
+
+Problem type = [2: Dispositivos com ordem invertida., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção IV do CAPÍTULO VIII do LIVRO DE, Seção II do CAPÍTULO VIII do LIVRO DE), msg = None, context=ArraySeq(CAPÍTULO VIII, LIVRO DE, LIVRO DE)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção III do CAPÍTULO VI do TÍTULO IV do LIVRO IVADMINISTRACAO, Seção III do CAPÍTULO VI do TÍTULO IV do LIVRO IVADMINISTRACAO), msg = None, context=List()
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção II da Seção I do CAPÍTULO II do TÍTULO III do LIVRO IVADMINISTRACAO), msg = None, context=ArraySeq(Seção I, CAPÍTULO II, TÍTULO III, LIVRO IVADMINISTRACAO, CAPÍTULO II, TÍTULO III, LIVRO IVADMINISTRACAO, TÍTULO III, LIVRO IVADMINISTRACAO, LIVRO IVADMINISTRACAO)
+
+Problem type = [2: Dispositivos com ordem invertida., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção XC do CAPÍTULO VI do LIVRO DE, Seção XI do CAPÍTULO VI do LIVRO DE), msg = None, context=ArraySeq(CAPÍTULO VI, LIVRO DE, LIVRO DE)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção II da Seção VI do CAPÍTULO V do TÍTULO I do LIVRO IIITRIBUTACAO), msg = None, context=ArraySeq(Seção VI, CAPÍTULO V, TÍTULO I, LIVRO IIITRIBUTACAO, CAPÍTULO V, TÍTULO I, LIVRO IIITRIBUTACAO, TÍTULO I, LIVRO IIITRIBUTACAO, LIVRO IIITRIBUTACAO)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção II da Seção II do CAPÍTULO XIII do LIVRO DE), msg = None, context=ArraySeq(Seção II, CAPÍTULO XIII, LIVRO DE, CAPÍTULO XIII, LIVRO DE, LIVRO DE)
+
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(LIVRO IVADMINISTRACAO do TÍTULO IV do CAPÍTULO VI), msg = None, context=ArraySeq(CAPÍTULO VI:TÍTULO IV:LIVRO IVADMINISTRACAO, CAPÍTULO VI:TÍTULO IV:LIVRO IVADMINISTRACAO)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Seção II do CAPÍTULO II do SUBTÍTULO III do TÍTULO VII do LIVRO DE), msg = None, context=ArraySeq(CAPÍTULO II, SUBTÍTULO III, TÍTULO VII, LIVRO DE, SUBTÍTULO III, TÍTULO VII, LIVRO DE, TÍTULO VII, LIVRO DE, LIVRO DE)
+
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Subseção II da Seção II do CAPÍTULO III do TÍTULO I do LIVRO IIITRIBUTACAO), msg = None, context=ArraySeq(Seção II, CAPÍTULO III, TÍTULO I, LIVRO IIITRIBUTACAO, CAPÍTULO III, TÍTULO I, LIVRO IIITRIBUTACAO, TÍTULO I, LIVRO IIITRIBUTACAO, LIVRO IIITRIBUTACAO)
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 34.), msg = None, context=ArraySeq(34., § 1º, Art. 647.)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(SUBTÍTULO I do TÍTULO VII do LIVRO DE, SUBTÍTULO III do TÍTULO VII do LIVRO DE), msg = None, context=List()
+
+Problem type = [7: Dispositivo em posição inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 647. do § 1º do 10.), msg = None, context=ArraySeq(10., § 1º, Art. 647.)
+
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(LIVRO DE do TÍTULO VII do SUBTÍTULO III do CAPÍTULO II da Seção I), msg = None, context=ArraySeq(Seção I:CAPÍTULO II:SUBTÍTULO III:TÍTULO VII:LIVRO DE, Seção I:CAPÍTULO II:SUBTÍTULO III:TÍTULO VII:LIVRO DE)
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 23917, column:50, error: cvc-attribute.3: The value 'art480_par1_ali2' of attribute 'id' on element 'Alinea' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 35495, column:57, error: cvc-attribute.3: The value 'liv6_tit2_stt1_cap3' of attribute 'id' on element 'Capitulo' is not valid with respect to its type, 'ID'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31262, column:47, error: cvc-pattern-valid: Value 'art647_par1_ite11' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31235, column:46, error: cvc-pattern-valid: Value 'art647_par1_ite8' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 35947, column:56, error: cvc-id.2: There are multiple occurrences of ID value 'liv6_tit2_stt1_cap3_sec3'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 23908, column:43, error: cvc-attribute.3: The value 'art480_par1_ali1' of attribute 'id' on element 'Alinea' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 35590, column:56, error: cvc-id.2: There are multiple occurrences of ID value 'liv6_tit2_stt1_cap3_sec3'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 14131, column:42, error: cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.lexml.gov.br/1.0":Secao}'. One of '{"http://www.lexml.gov.br/1.0":Artigo, "http://www.lexml.gov.br/1.0":Titulo}' is expected.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 30365, column:51, error: cvc-attribute.3: The value 'liv6_tit1_cap1_sec2' of attribute 'id' on element 'Secao' is not valid with respect to its type, 'ID'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31424, column:47, error: cvc-pattern-valid: Value 'art647_par1_ite29' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31505, column:47, error: cvc-attribute.3: The value 'art647_par1_ite38' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 44921, column:51, error: cvc-attribute.3: The value 'liv7_tit4_cap6_sec3' of attribute 'id' on element 'Secao' is not valid with respect to its type, 'ID'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 24226, column:48, error: cvc-attribute.3: The value 'liv5_cap13' of attribute 'id' on element 'Capitulo' is not valid with respect to its type, 'ID'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31370, column:47, error: cvc-attribute.3: The value 'art647_par1_ite23' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 29554, column:56, error: cvc-attribute.3: The value 'liv5_tit7_stt3_cap3_sec2' of attribute 'id' on element 'Secao' is not valid with respect to its type, 'ID'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31298, column:47, error: cvc-pattern-valid: Value 'art647_par1_ite15' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31523, column:47, error: cvc-pattern-valid: Value 'art647_par1_ite40' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 33868, column:62, error: cvc-attribute.3: The value 'liv6_tit1_cap5_sec2_sub3' of attribute 'id' on element 'Subsecao' is not valid with respect to its type, 'ID'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31244, column:46, error: cvc-attribute.3: The value 'art647_par1_ite9' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 36247, column:56, error: cvc-id.2: There are multiple occurrences of ID value 'liv6_tit2_stt2_cap1_sec3'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 35971, column:56, error: cvc-id.2: There are multiple occurrences of ID value 'liv6_tit2_stt1_cap3_sec4'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 28451, column:48, error: cvc-id.2: There are multiple occurrences of ID value 'liv5_tit7_stt3_cap2'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 23935, column:50, error: cvc-attribute.3: The value 'art480_par1_ali4' of attribute 'id' on element 'Alinea' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31334, column:47, error: cvc-attribute.3: The value 'art647_par1_ite19' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31280, column:47, error: cvc-attribute.3: The value 'art647_par1_ite13' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 12427, column:56, error: cvc-id.2: There are multiple occurrences of ID value 'liv2_tit4_stt1_cap2_sec7'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 27625, column:56, error: cvc-attribute.3: The value 'liv5_tit7_stt3_cap2_sec3' of attribute 'id' on element 'Secao' is not valid with respect to its type, 'ID'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 28459, column:50, error: cvc-attribute.3: The value 'liv5_tit7_stt3_cap2_sec1' of attribute 'id' on element 'Secao' is not valid with respect to its type, 'ID'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 13597, column:51, error: cvc-attribute.3: The value 'art250_par1u_ali4' of attribute 'id' on element 'Alinea' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31208, column:46, error: cvc-attribute.3: The value 'art647_par1_ite5' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31523, column:47, error: cvc-attribute.3: The value 'art647_par1_ite40' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 36247, column:56, error: cvc-attribute.3: The value 'liv6_tit2_stt2_cap1_sec3' of attribute 'id' on element 'Secao' is not valid with respect to its type, 'ID'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 23926, column:50, error: cvc-attribute.3: The value 'art480_par1_ali3' of attribute 'id' on element 'Alinea' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 27835, column:56, error: cvc-id.2: There are multiple occurrences of ID value 'liv5_tit7_stt3_cap2_sec3'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 28781, column:57, error: cvc-id.2: There are multiple occurrences of ID value 'liv5_tit7_stt3_cap2'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31325, column:47, error: cvc-pattern-valid: Value 'art647_par1_ite18' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31397, column:47, error: cvc-pattern-valid: Value 'art647_par1_ite26' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 29554, column:56, error: cvc-id.2: There are multiple occurrences of ID value 'liv5_tit7_stt3_cap3_sec2'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31469, column:47, error: cvc-attribute.3: The value 'art647_par1_ite34' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 27835, column:56, error: cvc-attribute.3: The value 'liv5_tit7_stt3_cap2_sec3' of attribute 'id' on element 'Secao' is not valid with respect to its type, 'ID'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31487, column:47, error: cvc-pattern-valid: Value 'art647_par1_ite36' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31487, column:47, error: cvc-attribute.3: The value 'art647_par1_ite36' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31406, column:47, error: cvc-attribute.3: The value 'art647_par1_ite27' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 33868, column:62, error: cvc-id.2: There are multiple occurrences of ID value 'liv6_tit1_cap5_sec2_sub3'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31226, column:46, error: cvc-attribute.3: The value 'art647_par1_ite7' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31451, column:47, error: cvc-attribute.3: The value 'art647_par1_ite32' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31316, column:47, error: cvc-attribute.3: The value 'art647_par1_ite17' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 29647, column:56, error: cvc-attribute.3: The value 'liv5_tit7_stt3_cap3_sec3' of attribute 'id' on element 'Secao' is not valid with respect to its type, 'ID'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 28781, column:57, error: cvc-attribute.3: The value 'liv5_tit7_stt3_cap2' of attribute 'id' on element 'Capitulo' is not valid with respect to its type, 'ID'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 1417, column:50, error: cvc-attribute.3: The value 'art33_par1' of attribute 'id' on element 'Paragrafo' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 35503, column:50, error: cvc-id.2: There are multiple occurrences of ID value 'liv6_tit2_stt1_cap3_sec1'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31406, column:47, error: cvc-pattern-valid: Value 'art647_par1_ite27' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 12427, column:56, error: cvc-attribute.3: The value 'liv2_tit4_stt1_cap2_sec7' of attribute 'id' on element 'Secao' is not valid with respect to its type, 'ID'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 45648, column:52, error: cvc-attribute.3: The value 'liv7_tit8_cap6' of attribute 'id' on element 'Capitulo' is not valid with respect to its type, 'ID'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31289, column:47, error: cvc-pattern-valid: Value 'art647_par1_ite14' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 13570, column:44, error: cvc-attribute.3: The value 'art250_par1u_ali1' of attribute 'id' on element 'Alinea' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 1417, column:50, error: cvc-id.2: There are multiple occurrences of ID value 'art33_par1'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31235, column:46, error: cvc-attribute.3: The value 'art647_par1_ite8' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 37732, column:56, error: cvc-id.2: There are multiple occurrences of ID value 'liv6_tit2_stt3_cap2_sec3'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31307, column:47, error: cvc-pattern-valid: Value 'art647_par1_ite16' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31478, column:47, error: cvc-attribute.3: The value 'art647_par1_ite35' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 37072, column:56, error: cvc-attribute.3: The value 'liv6_tit2_stt2_cap6_sec2' of attribute 'id' on element 'Secao' is not valid with respect to its type, 'ID'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31361, column:47, error: cvc-pattern-valid: Value 'art647_par1_ite22' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 13606, column:51, error: cvc-pattern-valid: Value 'art250_par1u_ali5' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 27683, column:57, error: cvc-attribute.3: The value 'liv5_tit7_stt3_cap2' of attribute 'id' on element 'Capitulo' is not valid with respect to its type, 'ID'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 13588, column:51, error: cvc-pattern-valid: Value 'art250_par1u_ali3' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 27683, column:57, error: cvc-id.2: There are multiple occurrences of ID value 'liv5_tit7_stt3_cap2'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 44865, column:52, error: cvc-id.2: There are multiple occurrences of ID value 'liv7_tit4_cap6'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 23935, column:50, error: cvc-pattern-valid: Value 'art480_par1_ali4' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31199, column:46, error: cvc-attribute.3: The value 'art647_par1_ite4' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31397, column:47, error: cvc-attribute.3: The value 'art647_par1_ite26' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 37072, column:56, error: cvc-id.2: There are multiple occurrences of ID value 'liv6_tit2_stt2_cap6_sec2'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31379, column:47, error: cvc-pattern-valid: Value 'art647_par1_ite24' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 27715, column:56, error: cvc-id.2: There are multiple occurrences of ID value 'liv5_tit7_stt3_cap2_sec2'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31280, column:47, error: cvc-pattern-valid: Value 'art647_par1_ite13' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 13927, column:42, error: cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.lexml.gov.br/1.0":Secao}'. One of '{"http://www.lexml.gov.br/1.0":Artigo, "http://www.lexml.gov.br/1.0":Titulo}' is expected.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31172, column:41, error: cvc-attribute.3: The value 'art647_par1_ite1' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 44865, column:52, error: cvc-attribute.3: The value 'liv7_tit4_cap6' of attribute 'id' on element 'Capitulo' is not valid with respect to its type, 'ID'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 39589, column:62, error: cvc-attribute.3: The value 'liv7_tit1_cap1_sec2_sub2' of attribute 'id' on element 'Subsecao' is not valid with respect to its type, 'ID'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 24226, column:48, error: cvc-id.2: There are multiple occurrences of ID value 'liv5_cap13'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 30365, column:51, error: cvc-id.2: There are multiple occurrences of ID value 'liv6_tit1_cap1_sec2'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31424, column:47, error: cvc-attribute.3: The value 'art647_par1_ite29' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31460, column:47, error: cvc-attribute.3: The value 'art647_par1_ite33' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31181, column:46, error: cvc-pattern-valid: Value 'art647_par1_ite2' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31298, column:47, error: cvc-attribute.3: The value 'art647_par1_ite15' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31460, column:47, error: cvc-pattern-valid: Value 'art647_par1_ite33' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31199, column:46, error: cvc-pattern-valid: Value 'art647_par1_ite4' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31217, column:46, error: cvc-pattern-valid: Value 'art647_par1_ite6' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31316, column:47, error: cvc-pattern-valid: Value 'art647_par1_ite17' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31343, column:47, error: cvc-pattern-valid: Value 'art647_par1_ite20' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 37732, column:56, error: cvc-attribute.3: The value 'liv6_tit2_stt3_cap2_sec3' of attribute 'id' on element 'Secao' is not valid with respect to its type, 'ID'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 39589, column:62, error: cvc-id.2: There are multiple occurrences of ID value 'liv7_tit1_cap1_sec2_sub2'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 13570, column:44, error: cvc-pattern-valid: Value 'art250_par1u_ali1' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31271, column:47, error: cvc-pattern-valid: Value 'art647_par1_ite12' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 35503, column:50, error: cvc-attribute.3: The value 'liv6_tit2_stt1_cap3_sec1' of attribute 'id' on element 'Secao' is not valid with respect to its type, 'ID'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 13579, column:51, error: cvc-pattern-valid: Value 'art250_par1u_ali2' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31181, column:46, error: cvc-attribute.3: The value 'art647_par1_ite2' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 13597, column:51, error: cvc-pattern-valid: Value 'art250_par1u_ali4' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 13588, column:51, error: cvc-attribute.3: The value 'art250_par1u_ali3' of attribute 'id' on element 'Alinea' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31514, column:47, error: cvc-pattern-valid: Value 'art647_par1_ite39' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31172, column:41, error: cvc-pattern-valid: Value 'art647_par1_ite1' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31253, column:47, error: cvc-pattern-valid: Value 'art647_par1_ite10' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31496, column:47, error: cvc-pattern-valid: Value 'art647_par1_ite37' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 23926, column:50, error: cvc-pattern-valid: Value 'art480_par1_ali3' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 23917, column:50, error: cvc-pattern-valid: Value 'art480_par1_ali2' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 23944, column:50, error: cvc-attribute.3: The value 'art480_par1_ali5' of attribute 'id' on element 'Alinea' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31388, column:47, error: cvc-pattern-valid: Value 'art647_par1_ite25' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31325, column:47, error: cvc-attribute.3: The value 'art647_par1_ite18' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 28459, column:50, error: cvc-id.2: There are multiple occurrences of ID value 'liv5_tit7_stt3_cap2_sec1'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31262, column:47, error: cvc-attribute.3: The value 'art647_par1_ite11' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 23908, column:43, error: cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.lexml.gov.br/1.0":Alinea}'. One of '{"http://www.lexml.gov.br/1.0":p, "http://www.lexml.gov.br/1.0":Alteracao, "http://www.lexml.gov.br/1.0":DispositivoGenerico, "http://www.lexml.gov.br/1.0":Inciso, "http://www.lexml.gov.br/1.0":Pena}' is expected.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 28451, column:48, error: cvc-attribute.3: The value 'liv5_tit7_stt3_cap2' of attribute 'id' on element 'Capitulo' is not valid with respect to its type, 'ID'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 28805, column:57, error: cvc-id.2: There are multiple occurrences of ID value 'liv5_tit7_stt3_cap3'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31469, column:47, error: cvc-pattern-valid: Value 'art647_par1_ite34' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 13606, column:51, error: cvc-attribute.3: The value 'art250_par1u_ali5' of attribute 'id' on element 'Alinea' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31433, column:47, error: cvc-attribute.3: The value 'art647_par1_ite30' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31514, column:47, error: cvc-attribute.3: The value 'art647_par1_ite39' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31442, column:47, error: cvc-attribute.3: The value 'art647_par1_ite31' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 44921, column:51, error: cvc-id.2: There are multiple occurrences of ID value 'liv7_tit4_cap6_sec3'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 35947, column:56, error: cvc-attribute.3: The value 'liv6_tit2_stt1_cap3_sec3' of attribute 'id' on element 'Secao' is not valid with respect to its type, 'ID'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 28756, column:56, error: cvc-attribute.3: The value 'liv5_tit7_stt3_cap2_sec2' of attribute 'id' on element 'Secao' is not valid with respect to its type, 'ID'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 13579, column:51, error: cvc-attribute.3: The value 'art250_par1u_ali2' of attribute 'id' on element 'Alinea' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 27625, column:56, error: cvc-id.2: There are multiple occurrences of ID value 'liv5_tit7_stt3_cap2_sec3'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31217, column:46, error: cvc-attribute.3: The value 'art647_par1_ite6' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 29647, column:56, error: cvc-id.2: There are multiple occurrences of ID value 'liv5_tit7_stt3_cap3_sec3'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31226, column:46, error: cvc-pattern-valid: Value 'art647_par1_ite7' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 28805, column:57, error: cvc-attribute.3: The value 'liv5_tit7_stt3_cap3' of attribute 'id' on element 'Capitulo' is not valid with respect to its type, 'ID'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31370, column:47, error: cvc-pattern-valid: Value 'art647_par1_ite23' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31244, column:46, error: cvc-pattern-valid: Value 'art647_par1_ite9' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31289, column:47, error: cvc-attribute.3: The value 'art647_par1_ite14' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31307, column:47, error: cvc-attribute.3: The value 'art647_par1_ite16' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31478, column:47, error: cvc-pattern-valid: Value 'art647_par1_ite35' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 27715, column:56, error: cvc-attribute.3: The value 'liv5_tit7_stt3_cap2_sec2' of attribute 'id' on element 'Secao' is not valid with respect to its type, 'ID'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 45648, column:52, error: cvc-id.2: There are multiple occurrences of ID value 'liv7_tit8_cap6'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 28443, column:54, error: cvc-id.2: There are multiple occurrences of ID value 'liv5_tit7_stt3'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31352, column:47, error: cvc-attribute.3: The value 'art647_par1_ite21' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 23908, column:43, error: cvc-pattern-valid: Value 'art480_par1_ali1' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31361, column:47, error: cvc-attribute.3: The value 'art647_par1_ite22' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31388, column:47, error: cvc-attribute.3: The value 'art647_par1_ite25' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31190, column:46, error: cvc-pattern-valid: Value 'art647_par1_ite3' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 37586, column:57, error: cvc-id.2: There are multiple occurrences of ID value 'liv6_tit2_stt3_cap2'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31433, column:47, error: cvc-pattern-valid: Value 'art647_par1_ite30' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 37586, column:57, error: cvc-attribute.3: The value 'liv6_tit2_stt3_cap2' of attribute 'id' on element 'Capitulo' is not valid with respect to its type, 'ID'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 35971, column:56, error: cvc-attribute.3: The value 'liv6_tit2_stt1_cap3_sec4' of attribute 'id' on element 'Secao' is not valid with respect to its type, 'ID'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 28318, column:56, error: cvc-attribute.3: The value 'liv5_tit7_stt3_cap3_sec2' of attribute 'id' on element 'Secao' is not valid with respect to its type, 'ID'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31379, column:47, error: cvc-attribute.3: The value 'art647_par1_ite24' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31343, column:47, error: cvc-attribute.3: The value 'art647_par1_ite20' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31190, column:46, error: cvc-attribute.3: The value 'art647_par1_ite3' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 13570, column:44, error: cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.lexml.gov.br/1.0":Alinea}'. One of '{"http://www.lexml.gov.br/1.0":p, "http://www.lexml.gov.br/1.0":Alteracao, "http://www.lexml.gov.br/1.0":DispositivoGenerico, "http://www.lexml.gov.br/1.0":Inciso, "http://www.lexml.gov.br/1.0":Pena}' is expected.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31253, column:47, error: cvc-attribute.3: The value 'art647_par1_ite10' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31442, column:47, error: cvc-pattern-valid: Value 'art647_par1_ite31' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 35495, column:57, error: cvc-id.2: There are multiple occurrences of ID value 'liv6_tit2_stt1_cap3'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31352, column:47, error: cvc-pattern-valid: Value 'art647_par1_ite21' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 35590, column:56, error: cvc-attribute.3: The value 'liv6_tit2_stt1_cap3_sec3' of attribute 'id' on element 'Secao' is not valid with respect to its type, 'ID'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31334, column:47, error: cvc-pattern-valid: Value 'art647_par1_ite19' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31415, column:47, error: cvc-attribute.3: The value 'art647_par1_ite28' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31271, column:47, error: cvc-attribute.3: The value 'art647_par1_ite12' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31415, column:47, error: cvc-pattern-valid: Value 'art647_par1_ite28' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31208, column:46, error: cvc-pattern-valid: Value 'art647_par1_ite5' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31505, column:47, error: cvc-pattern-valid: Value 'art647_par1_ite38' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 23944, column:50, error: cvc-pattern-valid: Value 'art480_par1_ali5' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31451, column:47, error: cvc-pattern-valid: Value 'art647_par1_ite32' is not facet-valid with respect to pattern 'art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3}(_(ali|dpg)\d+(-[0-9]{1,3}){0,3}(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?)?|art(\d+(-[0-9]{1,3}){0,3}|1u)(_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_inc\d+(-[0-9]{1,3}){0,3})?_alt\d+(_art(\d+(-[0-9]{1,3}){0,3}|1u)((_cpt|(_(par|dpg)(\d+(-[0-9]{1,3}){0,3}|1u)))(_(inc|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ali|dpg)\d+(-[0-9]{1,3}){0,3})?(_(ite|dpg)\d+(-[0-9]{1,3}){0,3})?)?)?' for type 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31172, column:41, error: cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.lexml.gov.br/1.0":Item}'. One of '{"http://www.lexml.gov.br/1.0":p, "http://www.lexml.gov.br/1.0":Alteracao, "http://www.lexml.gov.br/1.0":DispositivoGenerico, "http://www.lexml.gov.br/1.0":Inciso, "http://www.lexml.gov.br/1.0":Pena}' is expected.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 28443, column:54, error: cvc-attribute.3: The value 'liv5_tit7_stt3' of attribute 'id' on element 'Subtitulo' is not valid with respect to its type, 'ID'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 31496, column:47, error: cvc-attribute.3: The value 'art647_par1_ite37' of attribute 'id' on element 'Item' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 28756, column:56, error: cvc-id.2: There are multiple occurrences of ID value 'liv5_tit7_stt3_cap2_sec2'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 28318, column:56, error: cvc-id.2: There are multiple occurrences of ID value 'liv5_tit7_stt3_cap3_sec2'.), context=List()
+

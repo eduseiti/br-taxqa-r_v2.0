@@ -1,0 +1,17 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:2006-12-14;123!anexo2"/>
+    </Metadado>
+      <Anexo>
+        <DocumentoGenerico>
+      <PartePrincipal id="anexo2_pp">
+        <p>ANEXO II</p>
+        <p>(Anexo com redação dada pela <span xlink:href="urn:lex:br:federal:lei.complementar:2016-10-27;155">Lei Complementar nº 155, de 27.10.2016</span>, produzindo efeitos a partir de 1.1.2018)
+</p><p>(Vide <span xlink:href="urn:lex:br:federal:lei.complementar:2025-01-16;214">Lei Complementar nº 214, de 16.1.2025</span>)
+</p><p>(Vigência: 01.01.2018)
+</p><p>Alíquotas e Partilha do Simples Nacional – Indústria
+</p><table id="anexo2_tab5"><tr><td>Receita Bruta em 12 Meses (em R$)</td><td>Alíquota</td><td>Valor a Deduzir (em R$)</td><td/></tr><tr><td>1aFaixa</td><td>Até 180.000,00</td><td>4,50%</td><td>-</td></tr><tr><td>2aFaixa</td><td>De 180.000,01 a 360.000,00</td><td>7,80%</td><td>5.940,00</td></tr><tr><td>3aFaixa</td><td>De 360.000,01 a 720.000,00</td><td>10,00%</td><td>13.860,00</td></tr><tr><td>4aFaixa</td><td>De 720.000,01 a 1.800.000,00</td><td>11,20%</td><td>22.500,00</td></tr><tr><td>5aFaixa</td><td>De 1.800.000,01 a 3.600.000,00</td><td>14,70%</td><td>85.500,00</td></tr><tr><td>6aFaixa</td><td>De 3.600.000,01 a 4.800.000,00</td><td>30,00%</td><td>720.000,00</td></tr></table><table id="anexo2_tab6"><tr><td>Faixas</td><td>Percentual de Repartição dos Tributos</td><td/><td/><td/><td/><td/><td/></tr><tr><td>IRPJ</td><td>CSLL</td><td>Cofins</td><td>PIS/Pasep</td><td>CPP</td><td>IPI</td><td>ICMS</td><td/></tr><tr><td>1aFaixa</td><td>5,50%</td><td>3,50%</td><td>11,51%</td><td>2,49%</td><td>37,50%</td><td>7,50%</td><td>32,00%</td></tr><tr><td>2aFaixa</td><td>5,50%</td><td>3,50%</td><td>11,51%</td><td>2,49%</td><td>37,50%</td><td>7,50%</td><td>32,00%</td></tr><tr><td>3aFaixa</td><td>5,50%</td><td>3,50%</td><td>11,51%</td><td>2,49%</td><td>37,50%</td><td>7,50%</td><td>32,00%</td></tr><tr><td>4aFaixa</td><td>5,50%</td><td>3,50%</td><td>11,51%</td><td>2,49%</td><td>37,50%</td><td>7,50%</td><td>32,00%</td></tr><tr><td>5aFaixa</td><td>5,50%</td><td>3,50%</td><td>11,51%</td><td>2,49%</td><td>37,50%</td><td>7,50%</td><td>32,00%</td></tr><tr><td>6aFaixa</td><td>8,50%</td><td>7,50%</td><td>20,96%</td><td>4,54%</td><td>23,50%</td><td>35,00%</td><td>-</td></tr></table>
+      </PartePrincipal>
+    </DocumentoGenerico>
+      </Anexo>
+    </LexML>

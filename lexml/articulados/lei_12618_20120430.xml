@@ -1,0 +1,1766 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:2012-04-30;12618"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">LEI Nº 12.618, DE 30 DE ABRIL DE 2012 </Epigrafe>
+		  <Ementa id="ementa">Institui o regime de previdência complementar para os servidores públicos federais titulares de cargo efetivo, inclusive os membros dos órgãos que menciona; fixa o limite máximo para a concessão de aposentadorias e pensões pelo regime de previdência de que trata o <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art40">art. 40 da Constituição Federal</span>; autoriza a criação de 3 (três) entidades fechadas de previdência complementar, denominadas Fundação de Previdência Complementar do Servidor Público Federal do Poder Executivo (Funpresp-Exe), Fundação de Previdência Complementar do Servidor Público Federal do Poder Legislativo (Funpresp-Leg) e Fundação de Previdência Complementar do Servidor Público Federal do Poder Judiciário (Funpresp-Jud); altera dispositivos da <span xlink:href="urn:lex:br:federal:lei:2004-06-18;10887">Lei nº 10.887, de 18 de junho de 2004</span>; e dá outras providências.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    A PRESIDENTA DA REPÚBLICA
+  </p><p>
+    Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Capitulo id="cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DO REGIME DE PREVIDÊNCIA COMPLEMENTAR
+
+  </NomeAgrupador>
+            <Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art40_par14--><!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art40_par15--><!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art40_par16-->
+            
+            
+            <p>
+    É instituído, nos termos desta Lei, o regime de previdência complementar a que se referem os <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art40_par14">§§ 14</span>, <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art40_par15">15</span> e <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art40_par16">16 do art. 40 da Constituição Federal</span> para os servidores públicos titulares de cargo efetivo da União, suas autarquias e fundações, inclusive para os membros do Poder Judiciário, do Ministério Público da União e do Tribunal de Contas da União.
+
+  </p>
+            
+          </Caput><Paragrafo id="art1_par1">
+            <!--Link: urn:lex:br:federal:lei:2015-11-04;13183-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os servidores e os membros referidos no caput deste artigo que tenham ingressado no serviço público até a data anterior ao início da vigência do regime de previdência complementar poderão, mediante prévia e expressa opção, aderir ao regime de que trata este artigo, observado o disposto no art. 3º desta Lei. (Parágrafo único renumerado para § 1º pela <span xlink:href="urn:lex:br:federal:lei:2015-11-04;13183">Lei nº 13.183, de 4.11.2015</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art1_par2">
+            <!--Link: urn:lex:br:federal:lei:2015-11-04;13183-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os servidores e os membros referidos no caput deste artigo com remuneração superior ao limite máximo estabelecido para os benefícios do Regime Geral de Previdência Social, que venham a ingressar no serviço público a partir do início da vigência do regime de previdência complementar de que trata esta Lei, serão automaticamente inscritos no respectivo plano de previdência complementar desde a data de entrada em exercício. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2015-11-04;13183">Lei nº 13.183, de 4.11.2015</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art1_par3">
+            <!--Link: urn:lex:br:federal:lei:2015-11-04;13183-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Fica assegurado ao participante o direito de requerer, a qualquer tempo, o cancelamento de sua inscrição, nos termos do regulamento do plano de benefícios. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2015-11-04;13183">Lei nº 13.183, de 4.11.2015</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art1_par4">
+            <!--Link: urn:lex:br:federal:lei:2015-11-04;13183-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Na hipótese do cancelamento ser requerido no prazo de até noventa dias da data da inscrição, fica assegurado o direito à restituição integral das contribuições vertidas, a ser paga em até sessenta dias do pedido de cancelamento, corrigidas monetariamente. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2015-11-04;13183">Lei nº 13.183, de 4.11.2015</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art1_par5">
+            <!--Link: urn:lex:br:federal:lei:2015-11-04;13183-->
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    O cancelamento da inscrição previsto no § 4º não constitui resgate. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2015-11-04;13183">Lei nº 13.183, de 4.11.2015</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art1_par6">
+            <!--Link: urn:lex:br:federal:lei:2015-11-04;13183-->
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    A contribuição aportada pelo patrocinador será devolvida à respectiva fonte pagadora no mesmo prazo da devolução da contribuição aportada pelo participante. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2015-11-04;13183">Lei nº 13.183, de 4.11.2015</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    Para os efeitos desta Lei, entende-se por:
+
+  </p>
+            <Inciso id="art2_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    patrocinador: a União, suas autarquias e fundações, em decorrência da aplicação desta Lei;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    participante: o servidor público titular de cargo efetivo da União, inclusive o membro do Poder Judiciário, do Ministério Público e do Tribunal de Contas da União, que aderir aos planos de benefícios administrados pelas entidades a que se refere o art. 4º desta Lei;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    assistido: o participante ou o seu beneficiário em gozo de benefício de prestação continuada.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art40--><!--Link: urn:lex:br:federal:lei:2004-06-18;10887-->
+            
+            
+            <p>
+    Aplica-se o limite máximo estabelecido para os benefícios do regime geral de previdência social às aposentadorias e pensões a serem concedidas pelo regime de previdência da União de que trata o <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art40">art. 40 da Constituição Federal</span>, observado o disposto na <span xlink:href="urn:lex:br:federal:lei:2004-06-18;10887">Lei nº 10.887, de 18 de junho de 2004</span>, aos servidores e membros referidos no caput do art. 1º desta Lei que tiverem ingressado no serviço público:
+
+  </p>
+            <Inciso id="art3_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a partir do início da vigência do regime de previdência complementar de que trata o art. 1º desta Lei, independentemente de sua adesão ao plano de benefícios; e
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc2">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art40_par16-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    até a data anterior ao início da vigência do regime de previdência complementar de que trata o art. 1º desta Lei, e nele tenham permanecido sem perda do vínculo efetivo, e que exerçam a opção prevista no <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art40_par16">§ 16 do art. 40 da Constituição Federal</span>.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art3_par1">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art40--><!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art201_par9-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    É assegurado aos servidores e membros referidos no inciso II do caput deste artigo o direito a um benefício especial calculado com base nas contribuições recolhidas ao regime de previdência da União, dos Estados, do Distrito Federal ou dos Municípios de que trata o <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art40">art. 40 da Constituição Federal</span>, observada a sistemática estabelecida nos §§ 2º a 3º deste artigo e o direito à compensação financeira de que trata o <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art201_par9">§ 9º do art. 201 da Constituição Federal</span>, nos termos da lei.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par2">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2022-05-25;1119--><!--Link: urn:lex:br:federal:lei:2022-10-26;14463-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O benefício especial terá como referência as remunerações anteriores à data de mudança do regime, utilizadas como base para as contribuições do servidor ao regime próprio de previdência da União, e, na hipótese de opção do servidor por averbação para fins de contagem recíproca, as contribuições decorrentes de regimes próprios de previdência dos Estados, do Distrito Federal e dos Municípios, atualizadas pelo Índice Nacional de Preços ao Consumidor Amplo (IPCA), divulgado pela Fundação Instituto Brasileiro de Geografia e Estatística (IBGE), ou pelo índice que vier a substituí-lo, e será equivalente a: (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-05-25;1119">Medida Provisória nº 1.119, de 25.5.2022</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-10-26;14463">Lei nº 14.463, de 26.10.2022</span>)
+
+  </p>
+            <Inciso id="art3_par2_inc1">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2022-05-25;1119--><!--Link: urn:lex:br:federal:lei:2022-10-26;14463-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    para os termos de opção firmados até 30 de novembro de 2022, inclusive na vigência da <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-05-25;1119">Medida Provisória nº 1.119, de 25 de maio de 2022</span>: a diferença entre a média aritmética simples das maiores remunerações referidas neste parágrafo correspondentes a 80% (oitenta por cento) de todo o período contributivo desde a competência de julho de 1994 ou desde a do início da contribuição, se posterior àquela competência, e o limite máximo a que se refere o caput deste artigo, multiplicada pelo fator de conversão; ou (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-05-25;1119">Medida Provisória nº 1.119, de 25.5.2022</span>, convertida e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-10-26;14463">Lei nº 14.463, de 26.10.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par2_inc2">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2022-05-25;1119--><!--Link: urn:lex:br:federal:lei:2022-10-26;14463-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    para os termos de opção firmados a partir de 1º de dezembro de 2022, em novas aberturas de prazo de migração, se houver: a diferença entre a média aritmética simples das remunerações referidas neste parágrafo correspondentes a 100% (cem por cento) de todo o período contributivo desde a competência de julho de 1994 ou desde a do início da contribuição, se posterior àquela competência, e o limite máximo a que se refere o caput, multiplicada pelo fator de conversão. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-05-25;1119">Medida Provisória nº 1.119, de 25.5.2022</span>, convertida e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-10-26;14463">Lei nº 14.463, de 26.10.2022</span>)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art3_par3">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2022-05-25;1119--><!--Link: urn:lex:br:federal:lei:2022-10-26;14463-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O fator de conversão a que se refere o § 2º deste artigo, cujo resultado é limitado ao máximo de 1 (um), será calculado pela fórmula FC = Tc/Tt, na qual: (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-05-25;1119">Medida Provisória nº 1.119, de 25.5.2022</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-10-26;14463">Lei nº 14.463, de 26.10.2022</span>)
+
+  </p>
+            <Inciso id="art3_par3_inc1">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2022-05-25;1119--><!--Link: urn:lex:br:federal:lei:2022-10-26;14463-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    FC = fator de conversão; (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-05-25;1119">Medida Provisória nº 1.119, de 25.5.2022</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-10-26;14463">Lei nº 14.463, de 26.10.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par3_inc2">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art40--><!--Link: urn:lex:br:federal:medida.provisoria:2022-05-25;1119--><!--Link: urn:lex:br:federal:lei:2022-10-26;14463-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Tc: quantidade de contribuições mensais efetuadas para o regime próprio de previdência social da União, dos Estados, do Distrito Federal e dos Municípios de que trata o <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art40">art. 40 da Constituição Federal</span>, efetivamente pagas pelo servidor titular de cargo efetivo da União ou por membro do Poder Judiciário da União, do Tribunal de Contas da União, do Ministério Público da União ou da Defensoria Pública da União até a data da opção; e (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-05-25;1119">Medida Provisória nº 1.119, de 25.5.2022</span>, convertida e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-10-26;14463">Lei nº 14.463, de 26.10.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par3_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Tt:
+
+  </p>
+            <Alinea id="art3_par3_inc3_ali1">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2022-05-25;1119-->
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    para os termos de opção firmados até 30 de novembro de 2022, inclusive na vigência da <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-05-25;1119">Medida Provisória nº 1.119, de 25 de maio de 2022</span>:
+
+  </p>
+            <Item id="art3_par3_inc3_ali1_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    igual a 455 (quatrocentos e cinquenta e cinco), quando se tratar de servidor titular de cargo efetivo da União ou membro do Poder Judiciário da União, do Tribunal de Contas da União, do Ministério Público da União ou da Defensoria Pública da União, se homem;
+
+  </p>
+            
+          </Item><Item id="art3_par3_inc3_ali1_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    igual a 390 (trezentos e noventa), quando se tratar de servidor titular de cargo efetivo da União ou membro do Poder Judiciário da União, do Tribunal de Contas da União, do Ministério Público da União ou da Defensoria Pública da União, se mulher, ou servidor da União titular de cargo efetivo de professor da educação infantil ou do ensino fundamental; ou
+
+  </p>
+            
+          </Item><Item id="art3_par3_inc3_ali1_ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    igual a 325 (trezentos e vinte e cinco), quando se tratar de servidor titular de cargo efetivo da União de professor da educação infantil ou do ensino fundamental, se mulher; e
+
+  </p>
+            
+          </Item>
+          </Alinea><Alinea id="art3_par3_inc3_ali2">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2022-05-25;1119--><!--Link: urn:lex:br:federal:lei:2022-10-26;14463-->
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    para os termos de opção firmados a partir de 1º de dezembro de 2022, em novas aberturas de prazo de migração, se houver: igual a 520 (quinhentos e vinte). (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-05-25;1119">Medida Provisória nº 1.119, de 25.5.2022</span>, convertida e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-10-26;14463">Lei nº 14.463, de 26.10.2022</span>)
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Paragrafo><Paragrafo id="art3_par4">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2022-05-25;1119--><!--Link: urn:lex:br:federal:lei:2022-10-26;14463-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Para os termos de opção firmados até 30 de novembro de 2022, inclusive na vigência da <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-05-25;1119">Medida Provisória nº 1.119, de 25 de maio de 2022</span>, o fator de conversão será ajustado pelo órgão competente para a concessão do benefício quando, na forma prevista nas respectivas leis complementares, o tempo de contribuição exigido para concessão da aposentadoria de servidor com deficiência, ou que exerça atividade de risco, ou cujas atividades sejam exercidas sob condições especiais que prejudiquem a saúde ou a integridade física, for inferior ao Tt de que trata a alínea &quot;a&quot; do inciso III do § 3º deste artigo. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-05-25;1119">Medida Provisória nº 1.119, de 25.5.2022</span>, convertida e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-10-26;14463">Lei nº 14.463, de 26.10.2022</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par5">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art40-->
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    O benefício especial será pago pelo órgão competente da União, por ocasião da concessão de aposentadoria, inclusive por invalidez, ou pensão por morte pelo regime próprio de previdência da União, de que trata o <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art40">art. 40 da Constituição Federal</span>, enquanto perdurar o benefício pago por esse regime, inclusive junto com a gratificação natalina.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par6">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2022-05-25;1119--><!--Link: urn:lex:br:federal:lei:2022-10-26;14463-->
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    O benefício especial: (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-05-25;1119">Medida Provisória nº 1.119, de 25.5.2022</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-10-26;14463">Lei nº 14.463, de 26.10.2022</span>)
+
+  </p>
+            <Inciso id="art3_par6_inc1">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2022-05-25;1119--><!--Link: urn:lex:br:federal:lei:2022-10-26;14463-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    é opção que importa ato jurídico perfeito; (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-05-25;1119">Medida Provisória nº 1.119, de 25.5.2022</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-10-26;14463">Lei nº 14.463, de 26.10.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par6_inc2">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art40_par16--><!--Link: urn:lex:br:federal:medida.provisoria:2022-05-25;1119--><!--Link: urn:lex:br:federal:lei:2022-10-26;14463-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    será calculado de acordo com as regras vigentes no momento do exercício da opção de que trata o <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art40_par16">§ 16 do art. 40 da Constituição Federal</span>; (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-05-25;1119">Medida Provisória nº 1.119, de 25.5.2022</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-10-26;14463">Lei nº 14.463, de 26.10.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par6_inc3">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2022-05-25;1119--><!--Link: urn:lex:br:federal:lei:2022-10-26;14463-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    será atualizado pelo mesmo índice aplicável ao benefício de aposentadoria ou pensão mantido pelo Regime Geral de Previdência Social; (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-05-25;1119">Medida Provisória nº 1.119, de 25.5.2022</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-10-26;14463">Lei nº 14.463, de 26.10.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par6_inc4">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2022-05-25;1119--><!--Link: urn:lex:br:federal:lei:2022-10-26;14463-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    não está sujeito à incidência de contribuição previdenciária; e (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-05-25;1119">Medida Provisória nº 1.119, de 25.5.2022</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-10-26;14463">Lei nº 14.463, de 26.10.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par6_inc5">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2022-05-25;1119--><!--Link: urn:lex:br:federal:lei:2022-10-26;14463-->
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    está sujeito à incidência de imposto sobre a renda. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-05-25;1119">Medida Provisória nº 1.119, de 25.5.2022</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-10-26;14463">Lei nº 14.463, de 26.10.2022</span>)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art3_par7">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2018-09-25;853--><!--Link: urn:lex:br:federal:lei:2019-02-21;13809-->
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    O prazo para a opção de que trata o inciso II do caput deste artigo será de 24 (vinte e quatro) meses, contados a partir do início da vigência do regime de previdência complementar instituído no caput do art. 1º desta Lei. (Prazo reaberto até 29.3.2019 pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2018-09-25;853">Medida Provisória nº 853, de 25.9.2018</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2019-02-21;13809">Lei nº 13.809, de 21.2.2019</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par8">
+            
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    O exercício da opção a que se refere o inciso II do caput é irrevogável e irretratável, não sendo devida pela União e suas autarquias e fundações públicas qualquer contrapartida referente ao valor dos descontos já efetuados sobre a base de contribuição acima do limite previsto no caput deste artigo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DAS ENTIDADES FECHADAS DE PREVIDÊNCIA COMPLEMENTAR
+
+  </NomeAgrupador>
+            <Secao id="cap2_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Da Criação das Entidades
+
+  </NomeAgrupador>
+            <Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            <!--Link: urn:lex:br:federal:lei.complementar:2001-05-29;108--><!--Link: urn:lex:br:federal:lei.complementar:2001-05-29;109-->
+            
+            
+            <p>
+    É a União autorizada a criar, observado o disposto no art. 26 e no art. 31, as seguintes entidades fechadas de previdência complementar, com a finalidade de administrar e executar planos de benefícios de caráter previdenciário nos termos das <span xlink:href="urn:lex:br:federal:lei.complementar:2001-05-29;108">Leis Complementares nºs 108</span> e <span xlink:href="urn:lex:br:federal:lei.complementar:2001-05-29;109">109, de 29 de maio de 2001</span>:
+
+  </p>
+            <Inciso id="art4_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a Fundação de Previdência Complementar do Servidor Público Federal do Poder Executivo (Funpresp-Exe), para os servidores públicos titulares de cargo efetivo do Poder Executivo, por meio de ato do Presidente da República;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a Fundação de Previdência Complementar do Servidor Público Federal do Poder Legislativo (Funpresp-Leg), para os servidores públicos titulares de cargo efetivo do Poder Legislativo e do Tribunal de Contas da União e para os membros deste Tribunal, por meio de ato conjunto dos Presidentes da Câmara dos Deputados e do Senado Federal; e
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    a Fundação de Previdência Complementar do Servidor Público Federal do Poder Judiciário (Funpresp-Jud), para os servidores públicos titulares de cargo efetivo e para os membros do Poder Judiciário, por meio de ato do Presidente do Supremo Tribunal Federal.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art4_par1">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2022-05-25;1119--><!--Link: urn:lex:br:federal:lei:2022-10-26;14463-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A Funpresp-Exe, a Funpresp-Leg e a Funpresp-Jud: (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-05-25;1119">Medida Provisória nº 1.119, de 25.5.2022</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-10-26;14463">Lei nº 14.463, de 26.10.2022</span>)
+
+  </p>
+            <Inciso id="art4_par1_inc1">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2022-05-25;1119--><!--Link: urn:lex:br:federal:lei:2022-10-26;14463-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    serão estruturadas na forma de fundação, com personalidade jurídica de direito privado; (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-05-25;1119">Medida Provisória nº 1.119, de 25.5.2022</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-10-26;14463">Lei nº 14.463, de 26.10.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art4_par1_inc2">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2022-05-25;1119--><!--Link: urn:lex:br:federal:lei:2022-10-26;14463-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    gozarão de autonomia administrativa, financeira e gerencial; e (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-05-25;1119">Medida Provisória nº 1.119, de 25.5.2022</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-10-26;14463">Lei nº 14.463, de 26.10.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art4_par1_inc3">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2022-05-25;1119--><!--Link: urn:lex:br:federal:lei:2022-10-26;14463-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    terão sede e foro no Distrito Federal. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-05-25;1119">Medida Provisória nº 1.119, de 25.5.2022</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-10-26;14463">Lei nº 14.463, de 26.10.2022</span>)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art4_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Por ato conjunto das autoridades competentes para a criação das fundações previstas nos incisos I a III, poderá ser criada fundação que contemple os servidores públicos de 2 (dois) ou dos 3 (três) Poderes.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par3">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art73_par4-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Consideram-se membros do Tribunal de Contas da União, para os efeitos desta Lei, os Ministros, os Auditores de que trata o <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art73_par4">§ 4º do art. 73 da Constituição Federal</span> e os Subprocuradores- Gerais e Procuradores do Ministério Público junto ao Tribunal de Contas da União.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap2_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Da Organização das Entidades
+
+  </NomeAgrupador>
+            <Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            <!--Link: urn:lex:br:federal:lei.complementar:2001-05-29;108-->
+            
+            
+            <p>
+    A estrutura organizacional das entidades de que trata esta Lei será constituída de conselho deliberativo, conselho fiscal e diretoria executiva, observadas as disposições da <span xlink:href="urn:lex:br:federal:lei.complementar:2001-05-29;108">Lei Complementar nº 108, de 29 de maio de 2001</span>.
+
+  </p>
+            
+          </Caput><Paragrafo id="art5_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os Conselhos Deliberativos terão composição paritária e cada um será integrado por 6 (seis) membros.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os Conselhos Fiscais terão composição paritária e cada um deles será integrado por 4 (quatro) membros.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Os membros dos conselhos deliberativos e dos conselhos fiscais das entidades fechadas serão designados pelos Presidentes da República e do Supremo Tribunal Federal e por ato conjunto dos Presidentes da Câmara dos Deputados e do Senado Federal, respectivamente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par3-1">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2024-12-31;1286-->
+            
+            <Rotulo>§ 3º-A.</Rotulo>
+            <p>
+    A designação dos membros dos conselhos deliberativos e dos conselhos fiscais das entidades fechadas representantes dos participantes e dos assistidos poderá ser delegada pelas autoridades de que trata o § 3º. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2024-12-31;1286">Medida Provisória nº 1.286, de 31.12.2024</span>, produzindo efeitos financeiros a partir de 1º/1/2025)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    A presidência dos conselhos deliberativos será exercida pelos membros indicados pelos patrocinadores, na forma prevista no estatuto das entidades fechadas de previdência complementar.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    A presidência dos conselhos fiscais será exercida pelos membros indicados pelos participantes e assistidos, na forma prevista no estatuto das entidades fechadas de previdência complementar.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    As diretorias executivas serão compostas, no máximo, por 4 (quatro) membros, nomeados pelos conselhos deliberativos das entidades fechadas de previdência complementar.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par7">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    VETADO.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par8">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2022-05-25;1119--><!--Link: urn:lex:br:federal:lei:2022-10-26;14463-->
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    A remuneração e as vantagens de qualquer natureza dos membros das diretorias executivas das entidades fechadas de previdência complementar serão estabelecidas pelos seus conselhos deliberativos, em valores compatíveis com os níveis prevalecentes no mercado de trabalho para profissionais de graus equivalentes de formação profissional e de especialização. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-05-25;1119">Medida Provisória nº 1.119, de 25.5.2022</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-10-26;14463">Lei nº 14.463, de 26.10.2022</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par9">
+            
+            
+            <Rotulo>§ 9º</Rotulo>
+            <p>
+    A remuneração dos membros dos conselhos deliberativo e fiscal é limitada a 10% (dez por cento) do valor da remuneração dos membros da diretoria executiva.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par10">
+            <!--Link: urn:lex:br:federal:lei.complementar:2001-05-29;108!art20_cpt_inc1--><!--Link: urn:lex:br:federal:lei.complementar:2001-05-29;108!art20_cpt_inc4-->
+            
+            <Rotulo>§ 10.</Rotulo>
+            <p>
+    Os requisitos previstos nos <span xlink:href="urn:lex:br:federal:lei.complementar:2001-05-29;108!art20_cpt_inc1">incisos I</span> a <span xlink:href="urn:lex:br:federal:lei.complementar:2001-05-29;108!art20_cpt_inc4">IV do art. 20 da Lei Complementar nº 108, de 29 de maio de 2001</span>, estendem-se aos membros dos conselhos deliberativos e fiscais das entidades fechadas de previdência complementar.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par11">
+            
+            
+            <Rotulo>§ 11.</Rotulo>
+            <p>
+    As entidades fechadas de previdência complementar poderão criar, observado o disposto no estatuto e regimento interno, comitês de assessoramento técnico, de caráter consultivo, para cada plano de benefícios por elas administrado, com representação paritária entre os patrocinadores e os participantes e assistidos, sendo estes eleitos pelos seus pares, com as atribuições de apresentar propostas e sugestões quanto à gestão da entidade e sua política de investimentos e à situação financeira e atuarial dos respectivos planos de benefícios e de formular recomendações prudenciais a elas relacionadas.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par12">
+            
+            
+            <Rotulo>§ 12.</Rotulo>
+            <p>
+    VETADO.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap2_sec3">
+            
+            
+            <Rotulo>Seção III</Rotulo>
+            <NomeAgrupador>
+    Disposições Gerais
+
+  </NomeAgrupador>
+            <Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    É exigida a instituição de código de ética e de conduta, inclusive com regras para prevenir conflito de interesses e proibir operações dos dirigentes com partes relacionadas, que terá ampla divulgação, especialmente entre os participantes e assistidos e as partes relacionadas, cabendo aos conselhos fiscais das entidades fechadas de previdência complementar assegurar o seu cumprimento.
+
+  </p>
+            
+          </Caput><Paragrafo id="art6_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Compete ao órgão fiscalizador das entidades fechadas de previdência complementar definir o universo das partes relacionadas a que se refere o caput deste artigo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    O regime jurídico de pessoal das entidades fechadas de previdência complementar referidas no art. 4º desta Lei será o previsto na legislação trabalhista.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            <!--Link: urn:lex:br:federal:lei.complementar:2001-05-29;108--><!--Link: urn:lex:br:federal:lei.complementar:2001-05-29;109--><!--Link: urn:lex:br:federal:medida.provisoria:2022-05-25;1119--><!--Link: urn:lex:br:federal:lei:2022-10-26;14463-->
+            
+            
+            <p>
+    As entidades fechadas de que trata o art. 4º desta Lei, observado o disposto nesta Lei e nas <span xlink:href="urn:lex:br:federal:lei.complementar:2001-05-29;108">Leis Complementares nºs 108, de 29 de maio de 2001</span>, e <span xlink:href="urn:lex:br:federal:lei.complementar:2001-05-29;109">109, de 29 de maio de 2001</span>, submetem-se às demais normas de direito público exclusivamente no que se refere à: (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-05-25;1119">Medida Provisória nº 1.119, de 25.5.2022</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-10-26;14463">Lei nº 14.463, de 26.10.2022</span>)
+
+  </p>
+            <Inciso id="art8_cpt_inc1">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2022-05-25;1119--><!--Link: urn:lex:br:federal:lei:2022-10-26;14463-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    submissão à legislação federal sobre licitação e contratos administrativos aplicável às empresas públicas e às sociedades de economia mista; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-05-25;1119">Medida Provisória nº 1.119, de 25.5.2022</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-10-26;14463">Lei nº 14.463, de 26.10.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art8_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:1993-12-09;8745-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    realização de concurso público para a contratação de pessoal, no caso de empregos permanentes, ou de processo seletivo, em se tratando de contrato temporário, conforme a <span xlink:href="urn:lex:br:federal:lei:1993-12-09;8745">Lei nº 8.745, de 9 de dezembro de 1993</span>;
+
+  </p>
+            
+          </Inciso><Inciso id="art8_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei.complementar:2001-05-29;108--><!--Link: urn:lex:br:federal:lei.complementar:2001-05-29;109-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    publicação anual, na imprensa oficial ou em sítio oficial da administração pública certificado digitalmente por autoridade para esse fim credenciada no âmbito da Infraestrutura de Chaves Públicas Brasileira (ICP Brasil), de seus demonstrativos contábeis, atuariais, financeiros e de benefícios, sem prejuízo do fornecimento de informações aos participantes e assistidos dos planos de benefícios e ao órgão fiscalizador das entidades fechadas de previdência complementar, na forma das <span xlink:href="urn:lex:br:federal:lei.complementar:2001-05-29;108">Leis Complementares nºs 108</span> e <span xlink:href="urn:lex:br:federal:lei.complementar:2001-05-29;109">109, de 29 de maio de 2001</span>.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            
+            
+            
+            <p>
+    A administração das entidades fechadas de previdência complementar referidas no art. 4º desta Lei observará os princípios que regem a administração pública, especialmente os da eficiência e da economicidade, devendo adotar mecanismos de gestão operacional que maximizem a utilização de recursos, de forma a otimizar o atendimento aos participantes e assistidos e diminuir as despesas administrativas.
+
+  </p>
+            
+          </Caput><Paragrafo id="art9_par1">
+            <!--Link: urn:lex:br:federal:lei.complementar:2001-05-29;108!art7_cpt-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As despesas administrativas referidas no caput deste artigo serão custeadas na forma dos regulamentos dos planos de benefícios, observado o disposto no <span xlink:href="urn:lex:br:federal:lei.complementar:2001-05-29;108!art7_cpt">caput do art. 7º da Lei Complementar nº 108, de 29 de maio de 2001</span>, e ficarão limitadas aos valores estritamente necessários à sustentabilidade do funcionamento das entidades fechadas de previdência complementar.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O montante de recursos destinados à cobertura das despesas administrativas será revisto ao final de cada ano, com vistas ao atendimento do disposto neste artigo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art202_par3-->
+            
+            
+            <p>
+    As entidades fechadas de previdência complementar referidas no art. 4º desta Lei serão mantidas integralmente por suas receitas, oriundas das contribuições de patrocinadores, participantes e assistidos, dos resultados financeiros de suas aplicações e de doações e legados de qualquer natureza, observado o disposto no <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art202_par3">§ 3º do art. 202 da Constituição Federal</span>.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            <p>
+    A União, suas autarquias e fundações são responsáveis, na qualidade de patrocinadores, pelo aporte de contribuições e pelas transferências às entidades fechadas de previdência complementar das contribuições descontadas dos seus servidores, observado o disposto nesta Lei e nos estatutos respectivos das entidades.
+
+  </p>
+            
+          </Caput><Paragrafo id="art11_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As contribuições devidas pelos patrocinadores deverão ser pagas de forma centralizada pelos respectivos Poderes da União, pelo Ministério Público da União e pelo Tribunal de Contas da União.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art11_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O pagamento ou a transferência das contribuições após o dia 10 (dez) do mês seguinte ao da competência:
+
+  </p>
+            <Inciso id="art11_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    enseja a aplicação dos acréscimos de mora previstos para os tributos federais; e
+
+  </p>
+            
+          </Inciso><Inciso id="art11_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    sujeita o responsável às sanções penais e administrativas cabíveis.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art11_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    As transferências referidas no caput deste artigo incluirão:
+
+  </p>
+            <Inciso id="art11_par3_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    as contratadas pelo servidor para cobertura de riscos de invalidez ou morte; e
+
+  </p>
+            
+          </Inciso><Inciso id="art11_par3_inc2">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2022-05-25;1119--><!--Link: urn:lex:br:federal:lei:2022-10-26;14463-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    as referidas no § 4º do art. 16 desta Lei. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-05-25;1119">Medida Provisória nº 1.119, de 25.5.2022</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-10-26;14463">Lei nº 14.463, de 26.10.2022</span>)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="cap3">
+            
+            
+            <Rotulo>CAPÍTULO III</Rotulo>
+            <NomeAgrupador>
+    DOS PLANOS DE BENEFÍCIOS
+
+  </NomeAgrupador>
+            <Secao id="cap3_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Das Linhas Gerais dos Planos de Benefícios
+
+  </NomeAgrupador>
+            <Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            <!--Link: urn:lex:br:federal:lei.complementar:2001-05-29;109!art18--><!--Link: urn:lex:br:federal:lei.complementar:2001-05-29;108-->
+            
+            
+            <p>
+    Os planos de benefícios da Funpresp-Exe, da Funpresp- Leg e da Funpresp-Jud serão estruturados na modalidade de contribuição definida, nos termos da regulamentação estabelecida pelo órgão regulador das entidades fechadas de previdência complementar, e financiados de acordo com os planos de custeio definidos nos termos do <span xlink:href="urn:lex:br:federal:lei.complementar:2001-05-29;109!art18">art. 18 da Lei Complementar nº 109, de 29 de maio de 2001</span>, observadas as demais disposições da <span xlink:href="urn:lex:br:federal:lei.complementar:2001-05-29;108">Lei Complementar nº 108, de 29 de maio de 2001</span>.
+
+  </p>
+            
+          </Caput><Paragrafo id="art12_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A distribuição das contribuições nos planos de benefícios e nos planos de custeio será revista sempre que necessário, para manter o equilíbrio permanente dos planos de benefícios.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art12_par2">
+            <!--Link: urn:lex:br:federal:lei.complementar:2001-05-29;109!art18_par3-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Sem prejuízo do disposto no <span xlink:href="urn:lex:br:federal:lei.complementar:2001-05-29;109!art18_par3">§ 3º do art. 18 da Lei Complementar nº 109, de 29 de maio de 2001</span>, o valor do benefício programado será calculado de acordo com o montante do saldo da conta acumulado pelo participante, devendo o valor do benefício estar permanentemente ajustado ao referido saldo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art12_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Os benefícios não programados serão definidos nos regulamentos dos planos, observado o seguinte:
+
+  </p>
+            <Inciso id="art12_par3_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    devem ser assegurados, pelo menos, os benefícios decorrentes dos eventos invalidez e morte e, se for o caso, a cobertura de outros riscos atuariais; e
+
+  </p>
+            
+          </Inciso><Inciso id="art12_par3_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    terão custeio específico para sua cobertura.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art12_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Na gestão dos benefícios de que trata o § 3º deste artigo, as entidades fechadas de previdência complementar referidas no art. 4º desta Lei poderão contratá-los externamente ou administrá-los em seus próprios planos de benefícios.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art12_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    A concessão dos benefícios de que trata o § 3º aos participantes ou assistidos pela entidade fechada de previdência social é condicionada à concessão do benefício pelo regime próprio de previdência social.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            <!--Link: urn:lex:br:federal:lei.complementar:2001-05-29;108--><!--Link: urn:lex:br:federal:lei.complementar:2001-05-29;109-->
+            
+            
+            <p>
+    Os requisitos para aquisição, manutenção e perda da qualidade de participante, assim como os requisitos de elegibilidade e a forma de concessão, cálculo e pagamento dos benefícios, deverão constar dos regulamentos dos planos de benefícios, observadas as disposições das <span xlink:href="urn:lex:br:federal:lei.complementar:2001-05-29;108">Leis Complementares nºs 108</span> e <span xlink:href="urn:lex:br:federal:lei.complementar:2001-05-29;109">109, de 29 de maio de 2001</span>, e a regulamentação do órgão regulador das entidades fechadas de previdência complementar.
+
+  </p>
+            
+          </Caput><Paragrafo id="art13_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O servidor com remuneração inferior ao limite máximo estabelecido para os benefícios do regime geral de previdência social poderá aderir aos planos de benefícios administrados pelas entidades fechadas de previdência complementar de que trata esta Lei, sem contrapartida do patrocinador, cuja base de cálculo será definida nos regulamentos.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            <p>
+    Poderá permanecer filiado aos respectivos planos de benefícios o participante:
+
+  </p>
+            <Inciso id="art14_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    cedido a outro órgão ou entidade da administração pública direta ou indireta da União, Estados, Distrito Federal e Municípios, inclusive suas empresas públicas e sociedades de economia mista;
+
+  </p>
+            
+          </Inciso><Inciso id="art14_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    afastado ou licenciado do cargo efetivo temporariamente, com ou sem recebimento de remuneração;
+
+  </p>
+            
+          </Inciso><Inciso id="art14_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    que optar pelo benefício proporcional diferido ou autopatrocínio, na forma do regulamento do plano de benefícios.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art14_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os regulamentos dos planos de benefícios disciplinarão as regras para a manutenção do custeio do plano de benefícios, observada a legislação aplicável.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art14_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os patrocinadores arcarão com as suas contribuições somente quando a cessão, o afastamento ou a licença do cargo efetivo implicar ônus para a União, suas autarquias e fundações.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art14_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Havendo cessão com ônus para o cessionário, este deverá recolher às entidades fechadas de previdência complementar referidas no art. 4º desta Lei a contribuição aos planos de benefícios, nos mesmos níveis e condições que seria devida pelos patrocinadores, na forma definida nos regulamentos dos planos.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap3_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Dos Recursos Garantidores
+
+  </NomeAgrupador>
+            <Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>
+    A aplicação dos recursos garantidores correspondentes às reservas, às provisões e aos fundos dos planos de benefícios da Funpresp-Exe, da Funpresp-Leg e da Funpresp-Jud obedecerá às diretrizes e aos limites prudenciais estabelecidos pelo Conselho Monetário Nacional (CMN).
+
+  </p>
+            
+          </Caput><Paragrafo id="art15_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A gestão dos recursos garantidores dos planos de benefícios administrados pelas entidades referidas no caput poderá ser realizada por meio de carteira própria, carteira administrada ou fundos de investimento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As entidades referidas no caput contratarão, para a gestão dos recursos garantidores prevista neste artigo, somente instituições, administradores de carteiras ou fundos de investimento que estejam autorizados e registrados na Comissão de Valores Mobiliários (CVM).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A contratação das instituições a que se refere o § 2º deste artigo será feita mediante licitação, cujos contratos terão prazo total máximo de execução de 5 (cinco) anos.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O edital da licitação prevista no § 3º estabelecerá, entre outras, disposições relativas aos limites de taxa de administração e de custos que poderão ser imputados aos fundos, bem como, no que concerne aos administradores, a solidez, o porte e a experiência em gestão de recursos.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Cada instituição contratada na forma deste artigo poderá administrar, no máximo, 20% (vinte por cento) dos recursos garantidores correspondentes às reservas técnicas, aos fundos e às provisões.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    As instituições referidas no § 5º deste artigo não poderão ter qualquer ligação societária com outra instituição que esteja concorrendo na mesma licitação ou que já administre reservas, provisões e fundos da mesma entidade fechada de previdência complementar.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap3_sec3">
+            
+            
+            <Rotulo>Seção III</Rotulo>
+            <NomeAgrupador>
+    Das Contribuições
+
+  </NomeAgrupador>
+            <Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art37_cpt_inc11-->
+            
+            
+            <p>
+    As contribuições do patrocinador e do participante incidirão sobre a parcela da base de contribuição que exceder o limite máximo a que se refere o art. 3º desta Lei, observado o disposto no <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art37_cpt_inc11">inciso XI do art. 37 da Constituição Federal</span>.
+
+  </p>
+            
+          </Caput><Paragrafo id="art16_par1">
+            <!--Link: urn:lex:br:federal:lei:2004-06-18;10887!art4_par1-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Para efeitos desta Lei, considera-se base de contribuição aquela definida pelo <span xlink:href="urn:lex:br:federal:lei:2004-06-18;10887!art4_par1">§ 1º do art. 4º da Lei nº 10.887, de 18 de junho de 2004</span>, podendo o participante optar pela inclusão de parcelas remuneratórias percebidas em decorrência do local de trabalho e do exercício de cargo em comissão ou função de confiança.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A alíquota da contribuição do participante será por ele definida anualmente, observado o disposto no regulamento do plano de benefícios.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A alíquota da contribuição do patrocinador será igual à do participante, observado o disposto no regulamento do plano de benefícios, e não poderá exceder o percentual de 8,5% (oito inteiros e cinco décimos por cento).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Além da contribuição normal, o participante poderá contribuir facultativamente, sem contrapartida do patrocinador, na forma do regulamento do plano.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    A remuneração do servidor, quando devida durante afastamentos considerados por lei como de efetivo exercício, será integralmente coberta pelo ente público, continuando a incidir a contribuição para o regime instituído por esta Lei.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap3_sec4">
+            
+            
+            <Rotulo>Seção IV</Rotulo>
+            <NomeAgrupador>
+    Disposições Especiais
+
+  </NomeAgrupador>
+            <Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            <!--Link: urn:lex:br:federal:lei.complementar:2001-05-29;109!art18--><!--Link: urn:lex:br:federal:lei.complementar:2001-05-29;108!art6-->
+            
+            
+            <p>
+    O plano de custeio previsto no <span xlink:href="urn:lex:br:federal:lei.complementar:2001-05-29;109!art18">art. 18 da Lei Complementar nº 109, de 29 de maio de 2001</span>, discriminará o percentual da contribuição do participante e do patrocinador, conforme o caso, para cada um dos benefícios previstos no plano de benefícios, observado o disposto no <span xlink:href="urn:lex:br:federal:lei.complementar:2001-05-29;108!art6">art. 6º da Lei Complementar nº 108, de 29 de maio de 2001</span>.
+
+  </p>
+            
+          </Caput><Paragrafo id="art17_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O plano de custeio referido no caput deverá prever parcela da contribuição do participante e do patrocinador com o objetivo de compor o Fundo de Cobertura de Benefícios Extraordinários (FCBE), do qual serão vertidos montantes, a título de contribuições extraordinárias, à conta mantida em favor do participante, nas hipóteses e na forma prevista nesta Lei.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art17_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As contribuições extraordinárias a que se refere o § 1º serão vertidas nas seguintes hipóteses:
+
+  </p>
+            <Inciso id="art17_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    morte do participante;
+
+  </p>
+            
+          </Inciso><Inciso id="art17_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    invalidez do participante;
+
+  </p>
+            
+          </Inciso><Inciso id="art17_par2_inc3">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art40_par4--><!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art40_par5--><!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art40_par1_inc3_ali1-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    aposentadoria nas hipóteses dos <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art40_par4">§§ 4º</span> e <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art40_par5">5º do art. 40 da Constituição Federal</span>; IV - aposentadoria das mulheres, na hipótese da <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art40_par1_inc3_ali1">alínea &quot;a&quot; do inciso III do § 1º do art. 40 da Constituição Federal</span>; e
+
+  </p>
+            
+          </Inciso><Inciso id="art17_par2_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    sobrevivência do assistido.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art17_par3">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art40-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O montante do aporte extraordinário de que tratam os incisos III e IV do § 2º será equivalente à diferença entre a reserva acumulada pelo participante e o produto desta mesma reserva multiplicado pela razão entre 35 (trinta e cinco) e o número de anos de contribuição exigido para a concessão do benefício pelo regime próprio de previdência social de que trata o <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art40">art. 40 da Constituição Federal</span>.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            
+            
+            
+            <p>
+    As entidades fechadas de previdência complementar referidas no art. 4º desta Lei manterão controles das reservas constituídas em nome do participante, registrando contabilmente as contribuições deste e as dos patrocinadores.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="cap4">
+            
+            
+            <Rotulo>CAPÍTULO IV</Rotulo>
+            <NomeAgrupador>
+    DO CONTROLE E DA FISCALIZAÇÃO
+
+  </NomeAgrupador>
+            <Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            
+            
+            
+            <p>
+    A constituição, o funcionamento e a extinção da Funpresp-Exe, da Funpresp-Leg e da Funpresp-Jud, a aplicação de seus estatutos, regulamentos dos planos de benefícios, convênios de adesão e suas respectivas alterações, assim como as retiradas de patrocínios, dependerão de prévia e expressa autorização do órgão fiscalizador das entidades fechadas de previdência complementar.
+
+  </p>
+            
+          </Caput><Paragrafo id="art19_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Serão submetidas ao órgão fiscalizador das entidades fechadas de previdência complementar:
+
+  </p>
+            <Inciso id="art19_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    as propostas de aprovação do estatuto e de instituição de planos de benefícios da entidade fechada de previdência complementar, bem como suas alterações; e
+
+  </p>
+            
+          </Inciso><Inciso id="art19_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a proposta de adesão de novos patrocinadores a planos de benefícios em operação na entidade fechada de previdência complementar.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art19_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    No caso da Funpresp-Exe, as propostas de aprovação do estatuto, de adesão de novos patrocinadores e de instituição de planos devem estar acompanhadas de manifestação favorável do Ministério do Planejamento, Orçamento e Gestão e do Ministério da Fazenda.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    No caso da Funpresp-Leg, as propostas de aprovação do estatuto, de adesão de novos patrocinadores e de instituição de planos devem estar acompanhadas de manifestação favorável das Mesas Diretoras da Câmara dos Deputados e do Senado Federal.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    No caso da Funpresp-Jud, as propostas de aprovação do estatuto, de adesão de novos patrocinadores e de instituição de planos devem estar acompanhadas de manifestação favorável:
+
+  </p>
+            <Inciso id="art19_par4_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    do Supremo Tribunal Federal;
+
+  </p>
+            
+          </Inciso><Inciso id="art19_par4_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    VETADO.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            
+            
+            
+            <p>
+    A supervisão e a fiscalização da Funpresp-Exe, da Funpresp-Leg e da Funpresp-Jud e dos seus planos de benefícios competem ao órgão fiscalizador das entidades fechadas de previdência complementar.
+
+  </p>
+            
+          </Caput><Paragrafo id="art20_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A competência exercida pelo órgão referido no caput deste artigo não exime os patrocinadores da responsabilidade pela supervisão e fiscalização sistemática das atividades das entidades fechadas de previdência complementar.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art20_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os resultados da supervisão e da fiscalização exercidas pelos patrocinadores serão encaminhados ao órgão mencionado no caput deste artigo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            <!--Link: urn:lex:br:federal:lei.complementar:2001-05-29;109-->
+            
+            
+            <p>
+    Aplica-se, no âmbito da Funpresp-Exe, da Funpresp-Leg e da Funpresp-Jud, o regime disciplinar previsto no Capítulo VII da <span xlink:href="urn:lex:br:federal:lei.complementar:2001-05-29;109">Lei Complementar nº 109, de 29 de maio de 2001</span>.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap5">
+            
+            
+            <Rotulo>CAPÍTULO V</Rotulo>
+            <NomeAgrupador>
+    DISPOSIÇÕES FINAIS E TRANSITÓRIAS
+
+  </NomeAgrupador>
+            <Artigo id="art22">
+            
+            
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art201_par9-->
+            
+            
+            <p>
+    Aplica-se o benefício especial de que tratam os §§ 1º a 8º do art. 3º ao servidor público titular de cargo efetivo da União, inclusive ao membro do Poder Judiciário, do Ministério Público e do Tribunal de Contas da União, oriundo, sem quebra de continuidade, de cargo público estatutário de outro ente da federação que não tenha instituído o respectivo regime de previdência complementar e que ingresse em cargo público efetivo federal a partir da instituição do regime de previdência complementar de que trata esta Lei, considerando- se, para esse fim, o tempo de contribuição estadual, distrital ou municipal, assegurada a compensação financeira de que trata o <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art201_par9">§ 9º do art. 201 da Constituição Federal</span>.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art23">
+            
+            
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            
+            
+            
+            <p>
+    Após a autorização de funcionamento da Funpresp- Exe, da Funpresp-Jud e da Funpresp-Leg, nos termos desta Lei, os servidores que deverão compor provisoriamente os conselhos deliberativos e os conselhos fiscais, dispensados da exigência da condição de participante ou assistido dos planos de benefícios das entidades fechadas de previdência complementar, serão nomeados, respectivamente, pelo Presidente da República, pelo Presidente do Supremo Tribunal Federal e por ato conjunto dos Presidentes da Câmara dos Deputados e do Senado Federal.
+
+  </p>
+            
+          </Caput><Paragrafo id="art23_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O mandato dos conselheiros de que trata o caput deste artigo será de 2 (dois) anos, durante os quais será realizada eleição direta para que os participantes e assistidos escolham os seus representantes, e os patrocinadores indicarão os seus representantes.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art24">
+            
+            
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput id="art24_cpt">
+            <!--Link: urn:lex:br:federal:lei:1993-12-09;8745!art1-->
+            
+            
+            <p>
+    Para fins de implantação, ficam a Funpresp-Exe, a Funpresp-Leg e a Funpresp-Jud equiparadas às pessoas jurídicas a que se refere o <span xlink:href="urn:lex:br:federal:lei:1993-12-09;8745!art1">art. 1º da Lei nº 8.745, de 9 de dezembro de 1993</span>, com vistas à contratação de pessoal técnico e administrativo por tempo determinado.
+
+  </p>
+            
+          </Caput><Paragrafo id="art24_par1">
+            <!--Link: urn:lex:br:federal:lei:1993-12-09;8745-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Considera-se como necessidade temporária de excepcional interesse público, para os efeitos da <span xlink:href="urn:lex:br:federal:lei:1993-12-09;8745">Lei nº 8.745, de 9 de dezembro de 1993</span>, a contratação de pessoal técnico e administrativo, por tempo determinado, imprescindível ao funcionamento inicial da Funpresp-Exe, da Funpresp-Leg e da Funpresp-Jud.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art24_par2">
+            <!--Link: urn:lex:br:federal:lei:1993-12-09;8745!art7_cpt_inc2--><!--Link: urn:lex:br:federal:lei:1993-12-09;8745!art6--><!--Link: urn:lex:br:federal:lei:1993-12-09;8745!art12--><!--Link: urn:lex:br:federal:lei:1993-12-09;8745!art3_cpt--><!--Link: urn:lex:br:federal:lei:1993-12-09;8745!art9-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As contratações observarão o disposto no <span xlink:href="urn:lex:br:federal:lei:1993-12-09;8745!art3_cpt">caput do art. 3º</span>, no <span xlink:href="urn:lex:br:federal:lei:1993-12-09;8745!art6">art. 6º</span>, no <span xlink:href="urn:lex:br:federal:lei:1993-12-09;8745!art7_cpt_inc2">inciso II do art. 7º</span> e <span xlink:href="urn:lex:br:federal:lei:1993-12-09;8745!art9">nos arts. 9º</span> e <span xlink:href="urn:lex:br:federal:lei:1993-12-09;8745!art12">12 da Lei nº 8.745, de 9 de dezembro de 1993</span>, e não poderão exceder o prazo de 24 (vinte e quatro) meses.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art25">
+            
+            
+            <Rotulo>Art. 25.</Rotulo>
+            
+            <Caput id="art25_cpt">
+            
+            
+            
+            <p>
+    É a União autorizada, em caráter excepcional, no ato de criação das entidades fechadas de previdência complementar referidas no art. 4º, a promover aporte a título de adiantamento de contribuições futuras, necessário ao regular funcionamento inicial, no valor de:
+
+  </p>
+            <Inciso id="art25_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Funpresp-Exe: até R$ 50.000.000,00 (cinquenta milhões de reais);
+
+  </p>
+            
+          </Inciso><Inciso id="art25_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Funpresp-Leg: até R$ 25.000.000,00 (vinte e cinco milhões de reais); e
+
+  </p>
+            
+          </Inciso><Inciso id="art25_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Funpresp-Jud: até R$ 25.000.000,00 (vinte e cinco milhões de reais).
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art26">
+            
+            
+            <Rotulo>Art. 26.</Rotulo>
+            
+            <Caput id="art26_cpt">
+            
+            
+            
+            <p>
+    A Funpresp-Exe, a Funpresp-Leg e a Funpresp-Jud deverão entrar em funcionamento em até 240 (duzentos e quarenta) dias após a publicação da autorização de funcionamento concedida pelo órgão fiscalizador das entidades fechadas de previdência complementar.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art27">
+            
+            
+            <Rotulo>Art. 27.</Rotulo>
+            
+            <Caput id="art27_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art40_par15--><!--Link: urn:lex:br:federal:lei.complementar:2001-05-29;109--><!--Link: urn:lex:br:federal:lei.complementar:2001-05-29;108--><!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art40_par14--><!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art40_par16-->
+            
+            
+            <p>
+    Aplicam-se ao regime de previdência complementar a que se referem os <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art40_par14">§§ 14</span>, <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art40_par15">15</span> e <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art40_par16">16 do art. 40 da Constituição Federal</span> as disposições das <span xlink:href="urn:lex:br:federal:lei.complementar:2001-05-29;108">Leis Complementares nºs 108</span> e <span xlink:href="urn:lex:br:federal:lei.complementar:2001-05-29;109">109, de 29 de maio de 2001</span>.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art28">
+            
+            
+            <Rotulo>Art. 28.</Rotulo>
+            
+            <Caput id="art28_cpt">
+            
+            
+            
+            <p>
+    Até que seja promovida a contratação na forma prevista no § 3º do art. 15 desta Lei, a totalidade dos recursos garantidores correspondentes às reservas técnicas, aos fundos e às provisões dos planos de benefícios da Funpresp-Exe, da Funpresp- Leg e da Funpresp-Jud será administrada por instituição financeira federal, mediante taxa de administração praticada a preço de mercado, vedada a cobrança de taxas de performance.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art29">
+            
+            
+            <Rotulo>Art. 29.</Rotulo>
+            
+            <Caput id="art29_cpt">
+            <!--Link: urn:lex:br:federal:lei:2004-06-18;10887!art4_cpt-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:2004-06-18;10887!art4_cpt">caput do art. 4º da Lei nº 10.887, de 18 de junho de 2004</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:2004-06-18;10887" id="art29_cpt_alt1">              
+              <Artigo xlink:href="art4" id="art29_cpt_alt1_art4" abreAspas="s">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput xlink:href="art4_cpt" id="art29_cpt_alt1_art4_cpt">
+            
+            
+            
+            <p>
+    A contribuição social do servidor público ativo de qualquer dos Poderes da União, incluídas suas autarquias e fundações, para a manutenção do respectivo regime próprio de previdência social, será de 11% (onze por cento), incidentes sobre:
+
+  </p>
+            <Inciso xlink:href="art4_cpt_inc1" id="art29_cpt_alt1_art4_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a totalidade da base de contribuição, em se tratando de servidor que tiver ingressado no serviço público até a data da publicação do ato de instituição do regime de previdência complementar para os servidores públicos federais titulares de cargo efetivo e não tiver optado por aderir a ele;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art4_cpt_inc2" id="art29_cpt_alt1_art4_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a parcela da base de contribuição que não exceder ao limite máximo estabelecido para os benefícios do regime geral de previdência social, em se tratando de servidor:
+
+  </p>
+            <Alinea xlink:href="art4_cpt_inc2_ali1" id="art29_cpt_alt1_art4_cpt_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    que tiver ingressado no serviço público até a data a que se refere o inciso I e tenha optado por aderir ao regime de previdência complementar ali referido; ou
+
+  </p>
+            
+          </Alinea><Alinea xlink:href="art4_cpt_inc2_ali2" id="art29_cpt_alt1_art4_cpt_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    que tiver ingressado no serviço público a partir da data a que se refere o inciso I, independentemente de adesão ao regime de previdência complementar ali referido.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput><Omissis id="art29_cpt_alt1_art4_omi1" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art30">
+            
+            
+            <Rotulo>Art. 30.</Rotulo>
+            
+            <Caput id="art30_cpt">
+            
+            
+            
+            <p>
+    Para os fins do exercício do direito de opção de que trata o parágrafo único do art. 1o, considera-se instituído o regime de previdência complementar de que trata esta Lei a partir da data da publicação pelo órgão fiscalizador da autorização de aplicação dos regulamentos dos planos de benefícios de qualquer das entidades de que trata o art. 4º desta Lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art31">
+            
+            
+            <Rotulo>Art. 31.</Rotulo>
+            
+            <Caput id="art31_cpt">
+            
+            
+            
+            <p>
+    A Funpresp-Exe, a Funpresp-Leg e a Funpresp-Jud deverão ser criadas pela União no prazo de 180 (cento e oitenta) dias, contado da publicação desta Lei, e iniciar o seu funcionamento nos termos do art. 26.
+
+  </p>
+            
+          </Caput><Paragrafo id="art31_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Ultrapassados os prazos de que trata o caput, considera-se vigente, para todos os fins, o regime de previdência complementar de que trata esta Lei.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art31_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Ultrapassados os prazos de que trata o caput sem o início do funcionamento de alguma das entidades referidas no art. 4º, os servidores e membros do respectivo Poder poderão aderir ao plano de benefícios da entidade que primeiro entrou em funcionamento até a regularização da situação.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art32">
+            
+            
+            <Rotulo>Art. 32.</Rotulo>
+            
+            <Caput id="art32_cpt">
+            <!--Link: urn:lex:br:federal:lei:1992-06-02;8429!art10-->
+            
+            
+            <p>
+    Considera-se ato de improbidade, nos termos do <span xlink:href="urn:lex:br:federal:lei:1992-06-02;8429!art10">art. 10 da Lei nº 8.429, de 2 de junho de 1992</span>, o descumprimento injustificado dos prazos de que trata o art. 31.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art33">
+            
+            
+            <Rotulo>Art. 33.</Rotulo>
+            
+            <Caput id="art33_cpt">
+            
+            
+            
+            <p>
+    Esta Lei entra em vigor:
+
+  </p>
+            <Inciso id="art33_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    quanto ao disposto no Capítulo I, na data em que forem criadas quaisquer das entidades de que trata o art. 4º, observado o disposto no art. 31; e
+
+  </p>
+            
+          </Inciso><Inciso id="art33_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    quanto aos demais dispositivos, na data de sua publicação.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Capitulo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 30 de abril de 2012; 191º da Independência e 124º da República.</p></LocalDataFecho><Assinatura><NomePessoa>DILMA ROUSSEFF</NomePessoa><NomePessoa>Guido Mantega</NomePessoa><NomePessoa>Miriam Belchior</NomePessoa><NomePessoa>Garibaldi Alves Filho</NomePessoa><NomePessoa>Luís Inácio Lucena Adams</NomePessoa></Assinatura></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>

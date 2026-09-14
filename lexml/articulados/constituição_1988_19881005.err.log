@@ -1,0 +1,30 @@
+# CMD: java -jar ../lexml-parser-projeto-lei/target/lexml-parser-projeto-lei-1.15.0-onejar.jar parse -m application/vnd.openxmlformats-officedocument.wordprocessingml.document -i 'original/articulados/constituição_1988_19881005.docx' -o 'lexml/constituição_1988_19881005.xml' --write-errors-to-file 'lexml/constituição_1988_19881005.err.log' -a federal -t constituicao --data 1988-10-05 --linker /usr/local/bin/linkertool
+# ---
+Problem type = [6: Rótulo único não aparece sozinho., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Parágrafo único. do Art. 178. (no CAPÍTULO I do TÍTULO VII), Caput do Art. 178. (no CAPÍTULO I do TÍTULO VII)), msg = None, context=ArraySeq(Art. 178., CAPÍTULO I, TÍTULO VII, TÍTULO VII)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(§ 3º do Art. 100. (na Seção I do CAPÍTULO III do TÍTULO IV), § 8º do Art. 100. (na Seção I do CAPÍTULO III do TÍTULO IV)), msg = None, context=List()
+
+Problem type = [2: Dispositivos com ordem invertida., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(§ 8º do Art. 100. (na Seção I do CAPÍTULO III do TÍTULO IV), § 1º do Art. 100. (na Seção I do CAPÍTULO III do TÍTULO IV)), msg = None, context=ArraySeq(Art. 100., Seção I, CAPÍTULO III, TÍTULO IV, CAPÍTULO III, TÍTULO IV, TÍTULO IV)
+
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 100. do § 1º), msg = None, context=ArraySeq(§ 1º:Art. 100., § 1º:Art. 100.)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(§ 1º do Art. 53. (na Seção V do CAPÍTULO I do TÍTULO IV), § 3º do Art. 53. (na Seção V do CAPÍTULO I do TÍTULO IV)), msg = None, context=List()
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(§ 7º do Art. 100. (na Seção I do CAPÍTULO III do TÍTULO IV), § 9º do Art. 100. (na Seção I do CAPÍTULO III do TÍTULO IV)), msg = None, context=List()
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(§ 1º do Art. 100. (na Seção I do CAPÍTULO III do TÍTULO IV), § 7º do Art. 100. (na Seção I do CAPÍTULO III do TÍTULO IV)), msg = None, context=List()
+
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 178. do § 1º), msg = None, context=ArraySeq(§ 1º:Art. 178., Parágrafo único.:Art. 178.)
+
+Problem type = [5: Rótulo repetido, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(§ 1º do Art. 178. (no CAPÍTULO I do TÍTULO VII)), msg = None, context=ArraySeq(Art. 178., CAPÍTULO I, TÍTULO VII, TÍTULO VII)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(§ 2º do Art. 177. (no CAPÍTULO I do TÍTULO VII), § 4º do Art. 177. (no CAPÍTULO I do TÍTULO VII)), msg = None, context=List()
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(§ 1º do Art. 178. (no CAPÍTULO I do TÍTULO VII), Parágrafo único. do Art. 178. (no CAPÍTULO I do TÍTULO VII)), msg = None, context=List()
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(VII – do Caput do Art. 29. (no CAPÍTULO IV do TÍTULO III), X – do Caput do Art. 29. (no CAPÍTULO IV do TÍTULO III)), msg = None, context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 11067, column:51, error: cvc-id.2: There are multiple occurrences of ID value 'art100_par1'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 11067, column:51, error: cvc-attribute.3: The value 'art100_par1' of attribute 'id' on element 'Paragrafo' is not valid with respect to its type, 'idArtigo'.), context=List()
+

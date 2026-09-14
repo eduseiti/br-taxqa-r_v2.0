@@ -1,0 +1,3193 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:decreto:1970-11-12;67542"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">DECRETO Nº 67.542, DE 12 DE NOVEMBRO DE 1970 </Epigrafe>
+		  <Ementa id="ementa">Promulga a Carta da Organização dos Estados Americanos reformada pelo Protocolo de Buenos Aires de 1967.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA,
+  </p><p>
+    HAVENDO o Congresso Nacional aprovado pelo Decreto Legislativo número 64, de 7 de dezembro de 1949, a Carta da Organização dos Estados Americanos, firmada em Bogotá, a 30 de abril de 1948, por ocasião da IX Conferência Internacional Americana;
+  </p><p>
+    E HAVENDO sido depositada na União Pan-Americana, a 13 de março de 1950, o Instrumento brasileiro de ratificação da mencionada Carta, a qual entrou em vigor, nos têrmos do seu artigo 109, a 13 de dezembro de 1951;
+  </p><p>
+    E HAVENDO sido a Carta promulgada pelo Decreto nº 30.544, de 14 de fevereiro de 1952;
+  </p><p>
+    E HAVENDO o Congresso Nacional aprovado, pelo Decreto Legislativo nº 2, de 29 de janeiro de 1968, o Protocolo de Reforma da Carta, assinado em Buenos Aires a 27 de fevereiro de 1967;
+  </p><p>
+    E HAVENDO sido depositado na União Pan-Americana, a 11 de dezembro de 1968, o Instrumento brasileiro de ratificação do mencionado Protocolo, o qual entrou em vigor nos têrmos do seu artigo XXV, a 27 de fevereiro de 1970.
+  </p><p>
+    E HAVENDO sido o Protocolo promulgado pelo Decreto nº 66.774, de 24 de junho de 1970;
+  </p><p>
+    DECRETA que a Carta da Organização dos Estados Americanos, reformada pelo Protocolo de Buenos Aires de 1967, e, apensa por cópia ao presente Decreto seja executada e cumprida tão inteiramente como nela se contém.
+  </p><p>
+    Brasília, 12 de novembro de 1970; 149º da Independência e 82º da República.
+  </p><p>
+    emílio g. médici
+  </p><p>
+    Mário Gibson Barboza
+  </p><p>
+    CARTA DA ORGANIZAÇÃO DOS ESTADOS AMERICANOS (*)
+  </p><p>
+    Em nome dos seus povos, os Estados represntados na IX Conferência Internacional Americana
+  </p><p>
+    Convencidos de que a missão historica da América é oferecer ao homem uma terra de liberdade e uma ambiente favorável ao desenvolvimento de sua pensonalidade e à realização de suas justas aspirações;
+  </p><p>
+    Conscientes de que esta missão já inspirou numerosos convênios e acordos cuja virtude essencial se origina de seu desejo de conviver em paz e de promover, mediante sua mútua compreensão e seu respeito pela soberania de cada um, o melhoramento de todos na independência, na igualdade e no direito;
+  </p><p>
+    Certos de que o verdadeiro sentido da solidariedade americana e da boa vizinhança não poder se outro senão o de consolidar neste Continente dentro do quadro das instituições democráticas um regime de liberdade individual e de justiça social, fundado no respeito dos direitos essenciais do homem;
+  </p><p>
+    Persuadidos de que o bem-estar de todos eles, assim como sua contribuição ao progresso e à civilização do mundo exigirá, cada vez mais, uma intensa cooperação continental;
+  </p><p>
+    Resolvidos a preservar na nobre empresa que a Humanidade confiou às Nações Unidas, cujos princípios propositos reafirmam solenemente; e
+  </p><p>
+    Converncidos de que a organização jurídica é uma condição necessária à segurança e à paz baseada na ordem moral e na justiça; e
+  </p><p>
+    De acordo com a Resolução Ixda Conferência sobre Problemas da Guerra e da Paz, reunida na cidade do México, resolveram assinar a seguinte.
+  </p><p>
+    CARTA DA ORGANIZAÇÃO DOS ESTADO AMÉRICANOS PRIMEIRA PARTE
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Capitulo id="cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    Natureza e Propósitos
+
+  </NomeAgrupador>
+            <Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><p>Os Estados Americanos consagram nesta, Carta a Organização Internacional que vêm desenvolvendo para conseguir uma ordem de paz e de justiça, para promover sua solidariedade, intensificar sua colaboração e defender sua soberania, sua integridade territorial e suas independência. Dentro das Nações Unidas a Organização dos Estados Americanos constitui um organismo regional.
+</p><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Para realizar os princípios em que se baseia e para cumprir com suas obrigações regionais, de acordo com a Carta das Nações Unidas, a Organização dos Estados Americanos estabelece como propósitos essenciais, os seguintes:
+</p><Alinea id="ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    Garantir a paz e a segurança continentais;
+
+  </p>
+            
+          </Alinea><Alinea id="ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    Prevenir as possíveis causas de dificuldades e assegurar a solução pacifíca das controvérsias que surjam entre seus membros;
+
+  </p>
+            
+          </Alinea><Alinea id="ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    Organizar a ação solidária destes em caso de agressão;
+
+  </p>
+            
+          </Alinea><Alinea id="ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    Procurar a solução dos problemas políticos, jurídicos e econômicos, que surgirem entre os Estados Membros; e
+
+  </p>
+            
+          </Alinea><Alinea id="ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    Promover, por meio da ação cooperativa, seu desenvolvimento econômico, social e cultural.
+
+  </p>
+            
+          </Alinea><p>(*) Emendada pelo Protocolo de Reforma da Carta da Organização dos Estados Americanos, “Protocolo de Buenos Aries”, assinado na Terceira Conferência Interamericana Extraordinária, Buenos Aires, 1967.
+</p><Capitulo id="cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    Principios
+
+  </NomeAgrupador>
+            <Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><p>Os Estados Americanos reafirman os seguintes princípios:
+</p><Alinea id="ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    O Direito internacional é a norma de conduta dos Estados em suas relações recíprocas;
+
+  </p>
+            
+          </Alinea><Alinea id="ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    A ordem internacional é constituida essencialmente pelo respeito à personalidade, soberaria e independência dos Estados e pelo Cumprimento fiel das obrigações emanadas dos tratados e de outra fontes do direito internacional;
+
+  </p>
+            
+          </Alinea><Alinea id="ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    A boa fé deve reger as relações dos Estado entre si;
+
+  </p>
+            
+          </Alinea><Alinea id="ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    A solidariedade dos Estados Americanos e os altos fins que ela visa requerem a organização politica dos mesmos com base no exercicio efetivo da democracia representativa;
+
+  </p>
+            
+          </Alinea><Alinea id="ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    Os Estados Americanos condenam a guerra de agresso: a vitória não dá direitos;
+
+  </p>
+            
+          </Alinea><Alinea id="ali6">
+            
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    A agressão a um Estado Americano constitui uma agressão a todos os demais Estados Americanos;
+
+  </p>
+            
+          </Alinea><Alinea id="ali7">
+            
+            
+            <Rotulo>g)</Rotulo>
+            <p>
+    A controvérsias de caráter internacional que surgirem entre dois Estados Americanos deverão ser resolvidas por meio de processos pacíficos;
+
+  </p>
+            
+          </Alinea><Alinea id="ali8">
+            
+            
+            <Rotulo>h)</Rotulo>
+            <p>
+    A justiça e a segurança sociais são bases de uma paz duradoura;
+
+  </p>
+            
+          </Alinea><Alinea id="ali9">
+            
+            
+            <Rotulo>i)</Rotulo>
+            <p>
+    A cooperação econômica é essencial para o bem-estar e para a prosperidade comuns dos povos do Contintes;
+
+  </p>
+            
+          </Alinea><Alinea id="ali10">
+            
+            
+            <Rotulo>j)</Rotulo>
+            <p>
+    Os Estados Americanos prociamam os direitos fundamentais da pessoa humana, sem fazer distinção de raça, nacionalidade, credo ou sexo;
+
+  </p>
+            
+          </Alinea><Alinea id="ali11">
+            
+            
+            <Rotulo>k)</Rotulo>
+            <p>
+    A unidade espiritual do Continente baseia-se no respeito à pessonalidade cultural dos países americanos e exige a sua estreita colaboração nas altas finalidades da cultura humana;
+
+  </p>
+            
+          </Alinea><Alinea id="ali12">
+            
+            
+            <Rotulo>l)</Rotulo>
+            <p>
+    A educação dos povos deve orientar-se para a justiça a liberdade e a paz.
+
+  </p>
+            
+          </Alinea><Capitulo id="cap3">
+            
+            
+            <Rotulo>CAPÍTULO III</Rotulo>
+            <NomeAgrupador>
+    Membros
+
+  </NomeAgrupador>
+            <Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><p>São Membros da Organização todos os Estados Americanos que ratificarem a presente Carta.
+</p><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Na Organização será admitida toda nova entidade política que nasça da união de seus Estados Membros e que, como tal, ratifique esta Carta o ingresso da nvoa entidade política na Organização redundará para cada um dos Estados que a constituam em perda da qualidade de Membro da Organização.
+</p><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Qualquer outro Estado Americano independente que queira ser membro da Organização deverá manisfestá-lo mediante nota dirigida ao Secretário Geral, na qual seja consignado que está disposto a assinar e ratificar a Carta da Organização, bem como a aceitar todas as obrigações inerentes á condição de Membro, em especial as referentes à segurança coletiva, mencionadas expressamente nos Artigos 27 e 28.
+</p><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A Assembléia Geral, após recomendação do Conselho Permanente da Orgnização, determinará se é procedente autorizar o Secretário-Geral a permitir que o Estado solicietante assine a Carta e aceite o depósito do respectivo instrumento de ratificação. Tanto a recomendação do Conselho Permanente como a decisão da Assembléia Geral requererão o voto afirmativo de dois terços dos Estados Membros.
+</p><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>O Conselho Permanente não formulará nenhuma recomendação, nem a Assembleia Geral tomará decisão alguma sobre pedido de admissão apresentado por entidade política cujo território esteja sujeito, total ou parcialmente e em epoca anterior à data de 18 de dezembro de 1964, fixada pela Primeira Conferência Interramericana Extraordinária, a litígio ou reclamação entre país extracontinental e um ou mais Estados Membros da Organização, enquanto não se houver posto fim à controvérsia mediante processo pacífico.
+</p><Capitulo id="cap4">
+            
+            
+            <Rotulo>CAPÍTULO IV</Rotulo>
+            <NomeAgrupador>
+    Direitos e Deveres Fundamentais dos Estados
+
+  </NomeAgrupador>
+            <Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><p>Os Estados são juridicamente iguais, desfrutam de iguais direitos e de igual capacidade para exerce-los, e tem deveres iguais. Os direitos de cada um não dependem do poder de que dispõem para assegurar o seu exercício, mas sim do simples fato da sua existência como personalidade jurídica internacional.
+</p><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Todo Estado Americano tem o dever de respeitor os direitos dos demais Estdos de acordo com o direito internacional.
+</p><Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Os direitos fundamentais dos Estados não podem ser restringidos de maneira alguma.
+</p><Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A existência política do Estado é independente do seu reconhecimento pelos outros Estados. Mesmo antes de ser reconhecido, o Estado tem o direito de defender a sua integridade e indendência, de promover a sua conservação e prosperidade, e, por conseguinte, de se organizar como melhor entender, de legislar sobre os seus interesses, de administrar os seus serviços e determinar a jurisdição e a competência dos seus tribunais. O exercício desses direitos não tem outros limites senão o do exercício dos direitos de outros Estados conforme o direito internacional.
+</p><Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>O reconhecimento significa que o Estado que o outorga aceita a personalidade do novo Estado com todos os direitos e deveres que, para um e outro, determina o direito internacional.
+</p><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>O direito que tem o Estado de proteger e desenvolver a sua existência não o autoriza a praticar atos injustos contra outro Estado.
+</p><Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A jurisdição dos Estado nos limites do território nacional exercesse igualmente sobre todos os habitantes, quer sejam nacional ou estrangeiros.
+</p><Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Cada Estado tem o direito de desenvolver, livre e espontâneamente, a sua vida cultural, política e econômica. No seu livre desenvolvimento, o Estado respeitará os direitos da pessoal humana e os princípios da moral universal.
+</p><Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>O respeito e a observância fiel dos tratados constituem norma para o desenvolvimento das relações pacíficas entre os Estados, Os tratados e acordos internacionais devem ser públicos.
+</p><Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Nenhuma Estado ou grupo de Estados têm o direito de intervir, direta ou indiretamente, seja qual for o motivo, nos assuntos internos ou externos de qualquer outro. Este princípio exclui não somente a força armada, mas também qualquer outra forma de interferência ou de tendência atentatória à personalidade do Estado e dos elementos políticcos, econômicos e culturais que o cinstituem.
+</p><Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Nenhum Estado poderá aplicar ou estimular medidas coercitivas de caráter econômico e político, para forçar a vontade soberana de outro Estado e obter deste vantagens de qualquer natureza.
+</p><Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>O território de um Estado é inviolável; não poder ser objeto de ocupação militar, nem de outras medidas de força tomadas por outro Estado, direta ou indiretamente, qualquer que seja o motivo, embora de maneira temporária. Não se reconhecerão as aquisição territóriais ou as vantagens especiais obtidas pela força ou por qualquer outro meio de coação.
+</p><Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Os Estados Americanos se comprometem, em suas relações internacionais, a não recorrer ao uso da força, salvo em conformidade com os tratados vigentes, ou em cumprimento dos mesmos tratados.
+</p><Artigo id="art22">
+            
+            
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>As medidas adotadas para a menutenção da paz e da segurança , de acordo com os tratados vigentes, não constituem violação aos princípios enunciados nos Artigo 18 e 20.
+</p><Capitulo id="cap5">
+            
+            
+            <Rotulo>CAPÍTULO V</Rotulo>
+            <NomeAgrupador>
+    Solução Pacífica de Controvérsias
+
+  </NomeAgrupador>
+            <Artigo id="art23">
+            
+            
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><p>Todos as controvérsias internacionais que surjam entre os Estados Americanos serão submetidas aos processos pacíficos indicados nesta Carta, antes de ser levadas ao Conselho de Segurança das Nações Unidas.
+</p><Artigo id="art24">
+            
+            
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput id="art24_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>São processos pacíficos: a negociação direta, os bons ofícios, a mediação, a investigação e conciliação, o processo judicial, a arbitragem e os que sejam especialmente combinados, em qualquer momento, pelas partes.
+</p><Artigo id="art25">
+            
+            
+            <Rotulo>Art. 25.</Rotulo>
+            
+            <Caput id="art25_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Quando entre dois ou mais Estados Americanos surgir uma controvérsia que, na opinião de uma deles, não possa ser resolvida pelos meios diplomáticos comuns, as Partes deverão convir em qualquer outros processo pacífico que lhes permita chegar a uma colução.
+</p><Artigo id="art26">
+            
+            
+            <Rotulo>Art. 26.</Rotulo>
+            
+            <Caput id="art26_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Um tratado especial estabelecerá os meios adequados para solução das controvérsias e determinará os processos pertinentes a cada um dos meios pacíficos, de forma a não permitir que nenhuma controvérsia que surja entre os Estados Americanos possa falar sem solução definitiva, dentro de um prazo razoável.
+</p><Capitulo id="cap6">
+            
+            
+            <Rotulo>CAPÍTULO VI</Rotulo>
+            <NomeAgrupador>
+    Segurança Coletiva
+
+  </NomeAgrupador>
+            <Artigo id="art27">
+            
+            
+            <Rotulo>Art. 27.</Rotulo>
+            
+            <Caput id="art27_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><p>Toda agressão de um Estado contra a integridade ou a inviolabilidade do território, ou contra a soberania ou a independência política de um Estado Americano, será considerada como um ato de agressão contra todos os demais Estados Americanos.
+</p><Artigo id="art28">
+            
+            
+            <Rotulo>Art. 28.</Rotulo>
+            
+            <Caput id="art28_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Se a inviolabilidade, ou a integridade do território, ou a soberania, ou a independência política de qualquer Estado Americano forem atingidas por um ataque armado, ou por uma agressão que não seja ataque armado, ou por um conflito extracontinental, ou por um conflito entre dois ou mais Estados Americanos, ou por qualquer outro fato ou situação que possa por em perigo a paz da América, os Estado Americanos, em obediência aos princípios de solidariedade continental, ou de legitima defesa coletiva, aplicarão as medidas e processos estabelecidos nos Tratados especiais existentes sobre a matéria.
+</p><Capitulo id="cap7">
+            
+            
+            <Rotulo>CAPÍTULO VII</Rotulo>
+            <NomeAgrupador>
+    Normas Econômica
+
+  </NomeAgrupador>
+            <Artigo id="art29">
+            
+            
+            <Rotulo>Art. 29.</Rotulo>
+            
+            <Caput id="art29_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><p>Os Estados Membros, inspirados nos princípios de solidariedade e cooperação interamericanas, comprometem se a unir seus esforços no sentido de que impere no Continente a justiça social e de que seus povos consigam um desenvolvimento econômico dinâmico e harmônio, como condições indispensáveis para a paz e a segurança.
+</p><Artigo id="art30">
+            
+            
+            <Rotulo>Art. 30.</Rotulo>
+            
+            <Caput id="art30_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Os Estados Membros comprometem-se a mobilizar seus próprios recursos nacionais humanos e materiais, mediante programação adequada, e reconhecem que é importante agir dentro de uma estrutura interna eficiente, como condições fundamentais para seu progresso econômico e social e a fim de alcançar uma cooperação interamericana eficaz.
+</p><Artigo id="art31">
+            
+            
+            <Rotulo>Art. 31.</Rotulo>
+            
+            <Caput id="art31_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A fim de acelerar seu desenvolvimento econômico e social, de acordo com suas próprias peculiaridades e processos e dentro da estrutura dos princípios democráticos e das instituições do Sistema Interamericano, os Estados Membros convêm em envidar seus maiores esforços no sentido de alcançar as seguintes metas básicas:
+</p><Alinea id="ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    Aumento substancial e auto-sustentado do produto nacional per-capita;
+
+  </p>
+            
+          </Alinea><Alinea id="ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    Distribuição equiatativa da renda nacional;
+
+  </p>
+            
+          </Alinea><Alinea id="ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    Sistemas tributários adequados e equitativos;
+
+  </p>
+            
+          </Alinea><Alinea id="ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    Modernização da vida rural e reformas que conduzam a regimes equitativos e eficazes de posse da terra, maior produtividade agricola, expansão do uso da terra, diversificação da produção e melhores sistemas para a industrialização e comercialização de produtos agrícolas, e fortalecimento e apliação dos meios para alcançar esses fins;
+
+  </p>
+            
+          </Alinea><Alinea id="ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    Industrialização acelerada e diverificada, especialmente de bens de capital e intermédios;
+
+  </p>
+            
+          </Alinea><Alinea id="ali6">
+            
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    Estabelidade do nível dos preços internos em harmonia com o desenvolvimento econômico sustentado e com a consecução da justiça social;
+
+  </p>
+            
+          </Alinea><Alinea id="ali7">
+            
+            
+            <Rotulo>g)</Rotulo>
+            <p>
+    Salários justos, oportunidades de emprego e condições de trabalho aceitáveis para todos;
+
+  </p>
+            
+          </Alinea><Alinea id="ali8">
+            
+            
+            <Rotulo>h)</Rotulo>
+            <p>
+    Rápida erradicação do analfabetismo e ampliação, para todos das oportunidades no campo da educação;
+
+  </p>
+            
+          </Alinea><Alinea id="ali9">
+            
+            
+            <Rotulo>i)</Rotulo>
+            <p>
+    Defesa do potencial humano mediante ampliação e aplicação dos modernos conhecimento da ciência médica;
+
+  </p>
+            
+          </Alinea><Alinea id="ali10">
+            
+            
+            <Rotulo>j)</Rotulo>
+            <p>
+    Alimentação adequada, especialmente mediante aceleração dos esforços nacionais no sentido de aumentar a produção e disponibilidade de alimentos;
+
+  </p>
+            
+          </Alinea><Alinea id="ali11">
+            
+            
+            <Rotulo>k)</Rotulo>
+            <p>
+    Habitação adequada para todos os setores da população;
+
+  </p>
+            
+          </Alinea><Alinea id="ali12">
+            
+            
+            <Rotulo>l)</Rotulo>
+            <p>
+    Condiçõe urbanas que proporcionem oportunidades de vida sadia, produtiva e digna;
+
+  </p>
+            
+          </Alinea><Alinea id="ali13">
+            
+            
+            <Rotulo>m)</Rotulo>
+            <p>
+    Promoção da iniciativa e dos investimentos privados em harmonia com a ação dos setor público; e
+
+  </p>
+            
+          </Alinea><Alinea id="ali14">
+            
+            
+            <Rotulo>n)</Rotulo>
+            <p>
+    Expansão e diversificação das exportações.
+
+  </p>
+            
+          </Alinea><Artigo id="art32">
+            
+            
+            <Rotulo>Art. 32.</Rotulo>
+            
+            <Caput id="art32_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A fim de alcançar os objetivos estabelecidos neste capítulo, os Estados Membros comprometem-se a cooperar entre si com o mais amplo espírito de solidariedade interamericana, na medida em que o permitam seus recursos e de acordo com suas leis.
+</p><Artigo id="art33">
+            
+            
+            <Rotulo>Art. 33.</Rotulo>
+            
+            <Caput id="art33_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Para alcançar o mais breve possível um desenvolvimento equilibrado e sustentado os Estados Membros convêm em que os recursos postos à disposição, periodicamente, por cada um deles, de acordo com o artigo anterio, devem ser fornecidos em condições flexíveis e em apoio aos programas e aos esforços nacionais e multinacionais empreendidos com o objetivo de atender às necessidades do país que receba a assistência, dispensando-se especial atenção aos países relativamente menos desenvolvidos.
+</p><p>Procurarão também em condições semelhantes e para fins semelhantes, cooperação financeira e técnica de fontes extracontinentais e das instituições internacionais.
+</p><Artigo id="art34">
+            
+            
+            <Rotulo>Art. 34.</Rotulo>
+            
+            <Caput id="art34_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Os Estados Membros devem envidar todos os esforços no sentido de evitar políticas, ações ou medidas que tenham sérios efeitos adversos sobre o desenvolvimento econômico e social de outro Estado Membro.
+</p><Artigo id="art35">
+            
+            
+            <Rotulo>Art. 35.</Rotulo>
+            
+            <Caput id="art35_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Os Estados Membros convêm em buscar, coletivamente, solução para os problemas urgentes ou graves que possam apresentar-se quando o desenvolvimento ou estabelidade econômicos de qualquer Estado Membro se virem seriamente afetados por situações que não puderem ser solucionadas pelos esforço desse Estado.
+</p><Artigo id="art36">
+            
+            
+            <Rotulo>Art. 36.</Rotulo>
+            
+            <Caput id="art36_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Os Estados Membros difundirão entre si os benefícios da ciência e da tecnologia, promovendo , de acordo com os tratados vigentes e as elis nacionais, o intercâmbio e o aproveitamento dos conhecimentos científicos e técnicos.
+</p><Artigo id="art37">
+            
+            
+            <Rotulo>Art. 37.</Rotulo>
+            
+            <Caput id="art37_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Os Estados Membros, reconhecendo a estreita interdependência que há entre o comércio exterior e o desenvolvimento econômico e social, devem enviada esforços, individuais e coletivos, a fim de conseguir:
+</p><Alinea id="ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    a redução ou abolição, por parte dos países importadores, das barreiras alfandegárias e não-alfandegárias que afetam as exportações dos Membros da Organização, salvo quando tais barreiras a estrutura economica, acelerar o desenvolvimento dos Estados Membros menos desnevolvidos e intensificar seu processo de integração econômica, ou quando se relacionarem com a seguranaça na nacional ou com as necessidades do equilibrio econômico:
+
+  </p>
+            
+          </Alinea><Alinea id="ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    a manutenção dá continuidade do seu desenvolvimento econômico e social, mediante:
+
+  </p>
+            
+          </Alinea><Inciso id="inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Melhores condições para o comércio de produtos básicos por meio de convênios internacionais, quando forem adequados; de processos ordenados de comercialização que evitem a pertubação dos mercados; e de outras medidas destinadas a promover a expansão de mercados e a obter receitas seguras para os consumidores, e preços estáveis que sejam ao mesmo tempo recompensadores para os produtores e equitativos para os consumidores;
+
+  </p>
+            
+          </Inciso><Inciso id="inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Melhor cooperação internacional no setor financeiro e adoção de outros meios para atenuar os efeitos adversos das acentuadas flutuações das receitas de exportação que experimentem os países exportadores de produtos básicos; e
+
+  </p>
+            
+          </Inciso><Inciso id="inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Diversificação das exportações e ampliação das oportunidades de exportação do produtos manufaturados e semimanufaturados de países em desenvolvimento, mediante a produção e o fortalecimento das instituições e medidas nacionais e multinacionais estabelecidos para esse efeito.
+
+  </p>
+            
+          </Inciso><Artigo id="art38">
+            
+            
+            <Rotulo>Art. 38.</Rotulo>
+            
+            <Caput id="art38_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Os Estados Membros reafirmam o princípio de que os países de maior desenvolvimento econômico, que em acordos internacionais de comércio façam concessões em benefício dos países de menor desenvolvimento econômico no tocante à redução e abolição de tarifas ou outras barreiras ao comércio exterior não devem solicitar a estes países concessções recíprocas que sejam incompatíveis com seu desenvolvimento econômico e com suas necessidades financeiras e comerciais.
+</p><Artigo id="art39">
+            
+            
+            <Rotulo>Art. 39.</Rotulo>
+            
+            <Caput id="art39_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Os Estados Membros com o objetivo de acelerar o desenvolvimento econômico, a integração regional, a expansão e a melhoria das condições do seu comércio, promoverão a modernização e a coordenação dos transportes e comunicações nos países em desenvolvimento e entre os Estados-Membros.
+</p><Artigo id="art40">
+            
+            
+            <Rotulo>Art. 40.</Rotulo>
+            
+            <Caput id="art40_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Os Estados Membros reconhecem que a integração dos países em desenvolvimento do Continente constitui um dos objetivos do Sistema Interamericano e, portanto, orientarão seus esforços e tomarão as medidas necessárias no sentido de acelerar o processo de integração com vistas à consecução, no mais breve prazo, de um mercado comum latino-americano.
+</p><Artigo id="art41">
+            
+            
+            <Rotulo>Art. 41.</Rotulo>
+            
+            <Caput id="art41_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Com o objetivo de fortalecer e acelerar a integração em todos os seus aspectos, os Estados Membros comprometem-se a dar adequada prioridade à elaboração e execução de projetos multinacionais e a seu financiamento, bem como a estimular as instituições econômicos e financeiras do Sistema Interamericano a que continuem dando seu mais amplo apoio às instituições e aos programas de integração regional.
+</p><Artigo id="art42">
+            
+            
+            <Rotulo>Art. 42.</Rotulo>
+            
+            <Caput id="art42_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Os Estados Membros convêm em que a cooperação técnica e financeira, tendente a estimular os processos de integração econômica regional, deve basear-se no princípio do desenvolvimento harmônico, equilibrado e eficiente, dispensando especial atenção aos países de menor desnevolvimento relativo, de modo que constitua um fator decisivo que os habilita a promover, com seus próprios esforços, o melhor desenvolvimento de seus programas de infra-estrutura, novas linhas de produção e a diversificação da suas exportações.
+</p><Capitulo id="cap8">
+            
+            
+            <Rotulo>CAPÍTULO VIII</Rotulo>
+            <NomeAgrupador>
+    Normas sociais
+
+  </NomeAgrupador>
+            <Artigo id="art43">
+            
+            
+            <Rotulo>Art. 43.</Rotulo>
+            
+            <Caput id="art43_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><p>Os Estados Membros, convencidos de que o homem somente pode alcançar a plena realização de suas aspirações dentro de uma ordem social justa, acompanhada de desenvolvimento econômico e de verdadeira paz, convêm em evidar os seus maiores esforços na aplicação dos seguintes princípios e mecanismos;
+</p><Alinea id="ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    todos os seres humanos, sem distinção de raça, sexo, nacionalidade, credo ou condição social, tem direito ao bem-estar material e a sue desenvolvimento espiritual em cojdições de liberdade, dignidade, igualdade de oportunidade e segurança econômica;
+
+  </p>
+            
+          </Alinea><Alinea id="ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    o trabalho é um direito e um dever social; confere dignidade a quem o realiza e deve ser exercido em condições que, compreendendo uma regime de salários justos, assegurem a vida, a saude e um nivel econômico digno ao trabalhador e sua família, sendo durante os anos de atividade como na velhice, ou quando qualquer circunstância o prive da possibilidade de trabalho;
+
+  </p>
+            
+          </Alinea><Alinea id="ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    os empregadores e os trabalhores, tanto rurais como urbanos, tem o direito de se associarem livremente para a defesa e promoção de seus interesses, inclusive o direito de negociação coletiva e o de greve por parte dos trabalhadores, o reconhecimetno da personalidade jurídica das associações e a proteção de sua liberdade e independência, tudo de acordo com a respectiva legislação;
+
+  </p>
+            
+          </Alinea><Alinea id="ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    sistemas e processos e colaboração eficientes de consulta e colaboração entre os setores da produção, levada em conta a proteção dos interesses de toda a sociedade;
+
+  </p>
+            
+          </Alinea><Alinea id="ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    o funcionamento dos sistemas de administração pública, bancário e de acrédito, de empres, e de distribuição e vendas, de forma que, em harmonia com o setor privado, atendam à necessidades e interesses da comunidade;
+
+  </p>
+            
+          </Alinea><Alinea id="ali6">
+            
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    a incorporação e crescente participação dos setores marginais da população, tanto das zonas rurais como dos centros urbanos, na vida econômica, social, cívica, cultural e política da nação, a fim de conseguir a plena integração da comunidade nacional, o aceleramento do processo de mobilidade social e a consolidação do regime democrático. O estímulo a todo esforço de promoção e cooperação populares que tenha por fim o desenvolvimento e o progresso da comunidade;
+
+  </p>
+            
+          </Alinea><Alinea id="ali7">
+            
+            
+            <Rotulo>g)</Rotulo>
+            <p>
+    o reconhecimento da importância da contribuição das orgnaizações tais como os sindicatos, as cooperativas e as associações colturrais, profissionais de negócios vicinais e comunais para a vida da sociedade e para o processo de desenvolvimento;
+
+  </p>
+            
+          </Alinea><Alinea id="ali8">
+            
+            
+            <Rotulo>h)</Rotulo>
+            <p>
+    desenvolvimento de uma política eficiente de providência social; e
+
+  </p>
+            
+          </Alinea><Alinea id="ali9">
+            
+            
+            <Rotulo>i)</Rotulo>
+            <p>
+    disposições adequadas a fim de que todas as pessoas tenham a devida assistência legal para fazer valer seus direitos.
+
+  </p>
+            
+          </Alinea><Artigo id="art44">
+            
+            
+            <Rotulo>Art. 44.</Rotulo>
+            
+            <Caput id="art44_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Os Estados Membros reconhecem que, para facilitar o processo da integração regional latino-americano, é necessário harmonizar a legislção social dos países em desenvolvimento, especialmente no setor trabalhista e no da previdência social, a fim de que os direitos dos trabalhadores sejam igualmente protegidos, e convem em envidar os maiores esforços com o objetivo de alcançar essa finalidade.
+</p><Capitulo id="cap9">
+            
+            
+            <Rotulo>CAPÍTULO IX</Rotulo>
+            <NomeAgrupador>
+    Normas sobre a educçaão, a ciência e a cultura
+
+  </NomeAgrupador>
+            <Artigo id="art45">
+            
+            
+            <Rotulo>Art. 45.</Rotulo>
+            
+            <Caput id="art45_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><p>Os Estados Membros darão primordial importância dentro dos seus planos de desenvolvimento, ao estímulo da educação, da ciência e da cultura, orientadas no sentido do melhoramento integral da pessoa humana e como fundamento da democracia, da justiça social e do progresso.
+</p><Artigo id="art46">
+            
+            
+            <Rotulo>Art. 46.</Rotulo>
+            
+            <Caput id="art46_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Os Estados Membros cooperarão entre si, a fim de atender à s suas necessidades no tocante à educação, promover a pesquisa científica e impulsionar o progresso tecnológico. Consideram-se individual e solidáriamente comprometidos a preservar e enriquer o patrimônio cultural dos povos americanos.
+</p><Artigo id="art47">
+            
+            
+            <Rotulo>Art. 47.</Rotulo>
+            
+            <Caput id="art47_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Os Estados Membros empreenderão os maiores esforços para assegurar, de acordo com suas normas constitucionais, o exercício efetivo do direito à educação, observados os seguintes principios:
+</p><Alinea id="ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    o ensino primário, obrigatório para a população em idade escolar, será estendido também a todas as outras pessoas a quem possa aproveitar. Quando ministrado pelo Estado, será gratuito;
+
+  </p>
+            
+          </Alinea><Alinea id="ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    o ensino médio deverá ser estendido progressivamente, com criterio de promoçao social, à maior parte possível da população. Será diversificado de maneira que, sem prejuízo da formação geral dos educandos, atenda às necessidades do desenvolvimento de cada país; e
+
+  </p>
+            
+          </Alinea><Alinea id="ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    a educação de grau superior será acessível a todos, desde que, a fim de manter seu alto nível se cumpram as normas regulamentares ou acadêmicas respectivas.
+
+  </p>
+            
+          </Alinea><Artigo id="art48">
+            
+            
+            <Rotulo>Art. 48.</Rotulo>
+            
+            <Caput id="art48_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Os Estados Membros dispensarão especial atenção à erradicação do analfabetismo, fortalecerão os sistemas de educação de adultos e de habilitação para o trabalho, assegurarão a toda a população o gozo dos bens da cultura e promoverão o emprego de todos os meios de divulgação para o cumprimento de tais propósitos.
+</p><Artigo id="art49">
+            
+            
+            <Rotulo>Art. 49.</Rotulo>
+            
+            <Caput id="art49_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Os Estados Membros promoverão o desenvolvimento da ciência e da tecnologia por meio de instituições de pesquisa e de ensino, bem como de programas ampliados de divulgação. Concentarão de maneira eficaz sua cooperação nesses campos e ampliarão substancialmente o intercâmbio de conhecimentos, de acordo com os objetivos e elis nacionai e os tratados vigentes.
+</p><Artigo id="art50">
+            
+            
+            <Rotulo>Art. 50.</Rotulo>
+            
+            <Caput id="art50_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Os Estados Membros, dentro do respeito devido à personalidade de cada um deles, convêm em promover o intercâmbio cultural como meio eficaz para consolidar a compreensão interamericana e reconhecem que os programas de integração regional devem ser fortalecidos mediante estreita vinculação nos setores da educação, da ciência e da cultura.
+</p><Capitulo id="cap10">
+            
+            
+            <Rotulo>CAPÍTULO X</Rotulo>
+            <NomeAgrupador>
+    Dos Órgãos
+
+  </NomeAgrupador>
+            <Artigo id="art51">
+            
+            
+            <Rotulo>Art. 51.</Rotulo>
+            
+            <Caput id="art51_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><p>A Organização dos Estados Americanos realiza os seus fins por intermédio:?
+</p><Alinea id="ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    Da Assembléia Geral;
+
+  </p>
+            
+          </Alinea><Alinea id="ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    Da Reunião de Consulta dos Ministros das Relações Exteriores;
+
+  </p>
+            
+          </Alinea><Alinea id="ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    Dos Conselhos;
+
+  </p>
+            
+          </Alinea><Alinea id="ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    Da Comissão Juridica Interamericana;
+
+  </p>
+            
+          </Alinea><Alinea id="ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    Da Comissão Interamericana de Direitos Humanos;
+
+  </p>
+            
+          </Alinea><Alinea id="ali6">
+            
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    Da Secretária Geral;
+
+  </p>
+            
+          </Alinea><Alinea id="ali7">
+            
+            
+            <Rotulo>g)</Rotulo>
+            <p>
+    Das Confer~encias Especializadas; e
+
+  </p>
+            
+          </Alinea><Alinea id="ali8">
+            
+            
+            <Rotulo>h)</Rotulo>
+            <p>
+    Dos Organismos Especializados. Poderão ser criados, além dos previstos na Carta e de acordo com sua disposições, o órgãos subsidiários, organísmos e outras entidade sque forem julgados necessários.
+
+  </p>
+            
+          </Alinea><Capitulo id="cap11">
+            
+            
+            <Rotulo>CAPÍTULO XI</Rotulo>
+            <NomeAgrupador>
+    A Assembléia Geral
+
+  </NomeAgrupador>
+            <Artigo id="art52">
+            
+            
+            <Rotulo>Art. 52.</Rotulo>
+            
+            <Caput id="art52_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><p>A Assembléia Geral é o órgão supremo da Organização dos Estados Americanos. Tem por princípais atribuições, além da soutra que lhe confere a Carta as seguinte:
+</p><Alinea id="ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    Decidir a ação e a politica gerais da Organização, detemrinar a estrutura e funções de seus órgãos e considerar qualquer assunto relativo à convivência dos Estados Americanos;
+
+  </p>
+            
+          </Alinea><Alinea id="ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    Estabelecer normas para a coordenção das atividades dos órgãos, organismos e entidades da Organização entre si e de tais atividades com as das outra instituições do Sistema Interamericano:
+
+  </p>
+            
+          </Alinea><Alinea id="ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    Fortalecer e harmonizar a cooperação com as Nações Unidas e seus organismos especializados;
+
+  </p>
+            
+          </Alinea><Alinea id="ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    Promover a colaboração especialmente nos setores econômico, social e cultural, com outra sorganizações internacionais cujos objetivos sejam análogos aos da Organização dos Estados Americanos;
+
+  </p>
+            
+          </Alinea><Alinea id="ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    Aprovar o orçamento-programas da Organização e fixar as quotas dos Estados Membros;
+
+  </p>
+            
+          </Alinea><Alinea id="ali6">
+            
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    Considerar o relatórios anuais e especiais que lhe deverãos er apresetnados pelos órgãos, organismos e entidades do Sistema Interamericano;
+
+  </p>
+            
+          </Alinea><Alinea id="ali7">
+            
+            
+            <Rotulo>g)</Rotulo>
+            <p>
+    Adotar as normas gerais que devem reger o funcionamento de Secretaria Geral; e
+
+  </p>
+            
+          </Alinea><Alinea id="ali8">
+            
+            
+            <Rotulo>h)</Rotulo>
+            <p>
+    Aprovar seu regulamento e pelo voto de dois terços, sua agenda. A Assembleía Geral exercerá suas atribuições de acordo com o disposto na Carta e em outros tratados interamericanos.
+
+  </p>
+            
+          </Alinea><Artigo id="art53">
+            
+            
+            <Rotulo>Art. 53.</Rotulo>
+            
+            <Caput id="art53_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A Assembléia Geral estabelece as bases para a fixação da quota com que deve cada um dos Governos contribuir para a manutenção da Organização, levando em conta a capacidade de pagamento dos respectivos países e a determinação dos mesmos de contribuir de forma equitativa. Para que possam ser tomadas decisões sobre assuntos orçamentários, é necessária a aprovação de dois terços dos Estados Membros.
+</p><Artigo id="art54">
+            
+            
+            <Rotulo>Art. 54.</Rotulo>
+            
+            <Caput id="art54_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Todos os Estados Membros tem direito a fazer-se representar na Assembléia Geral. Cada Estado tem direito a um voto.
+</p><Artigo id="art55">
+            
+            
+            <Rotulo>Art. 55.</Rotulo>
+            
+            <Caput id="art55_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A Assembléia Geral reunir-se-á anualmente na época que determinar o regulamento e em sede escolhida consoante o princípio do rodízio. Em cada período ordinário de sessões serão determinadas, de acordo com o regulamento, a data e a sede do periodo ordinário seguinte.
+</p><p>Se, por qualquer motivo, a Assembléia Geral não se puder reunir na sde escolhida, reunir-se-á na Secretária Geral, sem prejuízo de que, se algum dos Estados Membros oferecer oportunamente sede em seu território, possa o Conselho Permanente da Organização acordar que a Assembléia Geral se reúna nessa sede.
+</p><Artigo id="art56">
+            
+            
+            <Rotulo>Art. 56.</Rotulo>
+            
+            <Caput id="art56_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Em circustâncias especiais e com aprovação de dois terços dos Estados Membros, o Conselho Permanente convocará um periodo extraordinário de sessões da Assembléia Geral.
+</p><Artigo id="art57">
+            
+            
+            <Rotulo>Art. 57.</Rotulo>
+            
+            <Caput id="art57_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>As decisões da Assembléia Geral serão adotadas pelo voto da maioria absoluta dos Estados Membros, salvo nos caos em que é exigido o veto de dois terços, de acordo com o disposto na Carta, ou naqueles que determinar a Assembléia Geral, pelos processos regulamentares.
+</p><Artigo id="art58">
+            
+            
+            <Rotulo>Art. 58.</Rotulo>
+            
+            <Caput id="art58_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Haverá uma comissão Prepartória da Assembléia Geral, composta de representantes de todos os Estados Membros, a qual desempenhará as seguinte funções:
+</p><Alinea id="ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    Elaborar o projeto de agenda de cada período de sessões da Assembléia Geral.
+
+  </p>
+            
+          </Alinea><Alinea id="ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    Examinar o projeto de orçamento-programa e o de resolução sobre quotas e apresntar à Assembléia Geral um relatório sobre os mesmos, com as recomendações que julgar pertinentes; e
+
+  </p>
+            
+          </Alinea><Alinea id="ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    As outra que lhe forem atribuidas pela Assembléia Geral. O projeto de agenda e o relatório serão oportunamente encaminhados aos Governos dos Estados Membros.
+
+  </p>
+            
+          </Alinea><Capitulo id="cap12">
+            
+            
+            <Rotulo>CAPÍTULO XII</Rotulo>
+            <NomeAgrupador>
+    A Reunião de Consulta dos Ministros das Relações Exteriores
+
+  </NomeAgrupador>
+            <Artigo id="art59">
+            
+            
+            <Rotulo>Art. 59.</Rotulo>
+            
+            <Caput id="art59_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><p>A reunião de Consulta dos Ministros das Relações deverá ser convocada a fim de considerar problemas de natureza urgente e de interesse comum para os Estados Americanos, e para servir de órgão de Consulta.
+</p><Artigo id="art60">
+            
+            
+            <Rotulo>Art. 60.</Rotulo>
+            
+            <Caput id="art60_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Qualquer Estado Membro pode solicitar a convocação de uma Reunião de Consulta. A solicitaçãod eve ser dirigida ao Conselho Permanente da Organização, o qual decidirá, por maioria absoluta de votos, se é aportuna a reunião.
+</p><Artigo id="art61">
+            
+            
+            <Rotulo>Art. 61.</Rotulo>
+            
+            <Caput id="art61_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A agenda e o regimento da Reunião de Consulta serão preparados pelo Conselho Permanente da Organização e submetidos à consideração dos Estados Membros.
+</p><Artigo id="art62">
+            
+            
+            <Rotulo>Art. 62.</Rotulo>
+            
+            <Caput id="art62_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Se, em caso excepcional, o Ministro das Relações Exteriores de qualquer país não puder assistir à reunião far-se-á representar por um Delegado espcial.
+</p><Artigo id="art63">
+            
+            
+            <Rotulo>Art. 63.</Rotulo>
+            
+            <Caput id="art63_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Em caso de ataque armado, dentro do território de um Estado Americano ou dentro da zona de segurança, demarcada pelos tratados em vigor, a Reunião de Consulta efetuar-se-á sem demora, mediante convocação imediata, emanada do Presidente do Conselho Permanente da Organização, o qual convocará, simultâneamente, o próprio Conselho.
+</p><Artigo id="art64">
+            
+            
+            <Rotulo>Art. 64.</Rotulo>
+            
+            <Caput id="art64_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Fica estabelecida uma Comissão Consultiva de Defesa para aconselhar o Órgão de Consulta a respeito dos problemas de colaboração militar, que possam surgir da aplicação dos tratados especiais existentes sobre matéria de segurança coletiva.
+</p><Artigo id="art65">
+            
+            
+            <Rotulo>Art. 65.</Rotulo>
+            
+            <Caput id="art65_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A Comissão Consultiva de Defesa será integrada pelas mais altas autoridades militares dos Estados Americanos que participem da Reunião de Consulta. Excepcionamente, os Governos poderão designa substitutos. Cada Estado terá direito a um voto.
+</p><Artigo id="art66">
+            
+            
+            <Rotulo>Art. 66.</Rotulo>
+            
+            <Caput id="art66_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A Comissão Consultiva de Defesa será convocada nos mesmos termos que o Órgão de Consulta quando este tenha que tratar de assuntos relacionados com a defesa contra agressão.
+</p><Artigo id="art67">
+            
+            
+            <Rotulo>Art. 67.</Rotulo>
+            
+            <Caput id="art67_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Quando a Assembléia Geral ou a Reunião de Consulta ou os Governos lhe cometerem, por maioria de dois terços dos Estados Membros, estudos técnicos ou relatórios sobre temas específicos, a Comissão também se reunirá para esse fim.
+</p><Capitulo id="cap13">
+            
+            
+            <Rotulo>CAPÍTULO XIII</Rotulo>
+            <NomeAgrupador>
+    Os Conselhos da Organização Disposições Comuns
+
+  </NomeAgrupador>
+            <Artigo id="art68">
+            
+            
+            <Rotulo>Art. 68.</Rotulo>
+            
+            <Caput id="art68_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><p>O Conselho Permanente da Organização, o Conselho Interamericano pendem diretamente da Assembléia a cada um delas pelas Carta e por outros instrumentos interamericanos, bem como as funções que lhes forem confiadas pela Assembléia Geral é pela Reunião de Consulta dos Ministros das Relações Exteriores.
+</p><Artigo id="art69">
+            
+            
+            <Rotulo>Art. 69.</Rotulo>
+            
+            <Caput id="art69_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Todos os Estados Membros tem direito a fazer-se representar em cada um dos Conselhos. Cada Estudo tem direito a um voto.
+</p><Artigo id="art70">
+            
+            
+            <Rotulo>Art. 70.</Rotulo>
+            
+            <Caput id="art70_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Dentro dos limites da Carta e dos demais instrumentos interamericanos, os Conselhos poderão fazer recomendações no ambito de suas atribuições.
+</p><Artigo id="art71">
+            
+            
+            <Rotulo>Art. 71.</Rotulo>
+            
+            <Caput id="art71_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Os Conselhos, em assuntos de sua respectiva competência, poderão apresentar estudos e propostas à Assembléia Geral e submeter-lhe projetos de instrumentos internacionais e proposições com referência à realização de conferências, especializadas e à criação, modificação ou extinção de organismos especializados e outras sobre a cooordenação des suas atividades. Os Conselhos poderão também apresentar estudos, porpostas e projetos de instrumentos internacionais às Conferências Especializadas.
+</p><Artigo id="art72">
+            
+            
+            <Rotulo>Art. 72.</Rotulo>
+            
+            <Caput id="art72_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Cada Conselho, em casos urgentes, poderá convocar, em matéria de sua competência, Conferências Especializadas, mediante consulta prévia com os Estados Membros e sem ter de recorrer aos processo previsto no Artigo 128.
+</p><Artigo id="art73">
+            
+            
+            <Rotulo>Art. 73.</Rotulo>
+            
+            <Caput id="art73_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Os Conselhos, na medida de suas possibilidades e com a cooperação da Secretária Geral, prestarão aos Governos os serviços especializados que estes solicitarem.
+</p><Artigo id="art74">
+            
+            
+            <Rotulo>Art. 74.</Rotulo>
+            
+            <Caput id="art74_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Cada Conselho tem faculdades para requerer dos outros, bem como dos órgãos subsidiários e dos organismos a eles subordinados, a prestação, nas respectivas esferas de competência, de informações e assessoramento. Poderá, também, cada um deles, solicitar os mesmos serviços às demais entidades do Sistema Interamericano.
+</p><Artigo id="art75">
+            
+            
+            <Rotulo>Art. 75.</Rotulo>
+            
+            <Caput id="art75_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Com a prévia aprovação da Assembléia Geral, os Conselhos poderão criar os órgãos subsidiários e os organismos que julgarem convientes para o melhor exercício de suas funções. Se a Assembléia Geral não estiver reunida, os referidos órgãos e organismos poderão ser estabelecidos provisóriamente pelo Conselho respectivo. Na composição dessas entidades os Conselhos observarão na medida do possível, os princípios do rodízio e da representação geográfica equitativa.
+</p><Artigo id="art76">
+            
+            
+            <Rotulo>Art. 76.</Rotulo>
+            
+            <Caput id="art76_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Os Conselhos poderão realizar reuniões no território de qualquer Estado Membro, quando o julgarem conviniente e com aquiescência prévia do respectivo Governo.
+</p><Artigo id="art77">
+            
+            
+            <Rotulo>Art. 77.</Rotulo>
+            
+            <Caput id="art77_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Cada Conselho elaborará seu estatuto, submetê-lo-á à aprovação da Assembléia Geral e aprovará seu regulamento e os de seus órgãos subsidiários, organismos e omissões.
+</p><Capitulo id="cap14">
+            
+            
+            <Rotulo>CAPÍTULO XIV</Rotulo>
+            <NomeAgrupador>
+    O Conselho Permanente da Organização
+
+  </NomeAgrupador>
+            <Artigo id="art78">
+            
+            
+            <Rotulo>Art. 78.</Rotulo>
+            
+            <Caput id="art78_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><p>Os Conselho Permanente da Organização compõe-se de uma representante de cada Estado membro, nomeado especialmente pelo respectivo Governo, com a categoria de embaixador. Cada Governo poderá acreditar um representante interino, bem como os suplentes e assessores que julgar conveniente.
+</p><Artigo id="art79">
+            
+            
+            <Rotulo>Art. 79.</Rotulo>
+            
+            <Caput id="art79_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A Presidência do Conselho Permanente será exercida sucessivamente pelos representantes, na ordem alfabetica dos nomes em espanhol de seus respectivos países, e a Vice-Presidência, de modo idêntico, seguida a ordem alfabética inversa.
+</p><p>O Presidente e o Vice-Presidente exercerão suas funções por um período não superior a seis meses que será determinado pelo estatuto.
+</p><Artigo id="art80">
+            
+            
+            <Rotulo>Art. 80.</Rotulo>
+            
+            <Caput id="art80_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>O Conselho Permanente tomará conhecimento, dentro dos limites da Carta e dos tratados e acordos interamericanos de qualquer assunto de que o encarreguem a Assembléia Geral ou a Reunião de Consulta dos Ministros das Relações Exteriores.
+</p><Artigo id="art81">
+            
+            
+            <Rotulo>Art. 81.</Rotulo>
+            
+            <Caput id="art81_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>O Conselho Permanente agirá provisoriamente como órgão de Consulta, quando sobrevenham as circunstâncias previstas no Artigo 63 desta Carta.
+</p><Artigo id="art82">
+            
+            
+            <Rotulo>Art. 82.</Rotulo>
+            
+            <Caput id="art82_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>O Conselho Permanente velará pela manutenção das relações de amizade entre os Estados Membros e, com tal objetivo, ajudá-los-á de maneira efetiva na solução pacífica de suas controvérsias, de acord com as disposições que se seguem.
+</p><Artigo id="art83">
+            
+            
+            <Rotulo>Art. 83.</Rotulo>
+            
+            <Caput id="art83_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Para auxiliar o Conselho Permanente no exercício de tais faculdades, será estabelecida uma Comossão Interamericana de Soluções Pacíficas, a qual funcionará como órgão subsdiário do Conselho. O estatuto da referida Comissão será elaborado pelo Conselho e aprovado pela Assembléia Geral.
+</p><Artigo id="art84">
+            
+            
+            <Rotulo>Art. 84.</Rotulo>
+            
+            <Caput id="art84_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>As partes em uma controvérsia poderão recorrer ao Conselho Permanente no sentido de obter seus bons ofícios. Nesse caso, o Conselho terá a faculdade de assistir as partes e recomendar os processos que considerar adequadros para a solução pacífica da controvérsia.
+</p><p>Se a partes o desejarem o Presidente do Conselho referirá diretamente a controvérsia à Comissão Interamericana de Soluções Pacíficas.
+</p><Artigo id="art85">
+            
+            
+            <Rotulo>Art. 85.</Rotulo>
+            
+            <Caput id="art85_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>No exercício dessas faculdades, o Conselho Permanente, por intermédio da Comissão Interamericana de Soluções Pacíficas ou por qualquer outro meio, poderá averiguar os fatos relacionados com a controvérsia, inclusive no território de qualquer das partes após consentimento do respectivo Governo.
+</p><Artigo id="art86">
+            
+            
+            <Rotulo>Art. 86.</Rotulo>
+            
+            <Caput id="art86_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Qualquer parte em uma controvérsia no tocante à qual nãos e ache em tramitação nenhum dos processos pacíficos previstos no Artigo 24 da Carta, poderá recorrer ao Conselho Parmanente no sentido de que tome conhecimento da controvérsia.
+</p><p>O Conselho referirá imediatamente a solicitação à Comissão Interamericana de Soluções Pacíficas, a qual examinará se a mesma se enquadra na sua competência e se o considerar pertinente, oferecerá seus bons ofícios à outra ou às outras partes. Aceitos estes, a Comissão Interamericana de Soluções Pacíficas poderá assistir as partes e recomendar os processos que considerar adequados para a solução pacífica da controvérsia.
+</p><p>No exercício dessa faculdades, a Comissão poderá averiguar os fatos realcionados com a controvérsias, inclusive no território de qualquer das partes após consentimento do respectivo Governo.
+</p><Artigo id="art87">
+            
+            
+            <Rotulo>Art. 87.</Rotulo>
+            
+            <Caput id="art87_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Caso uma das partes recuse o oferecimento, a comissão Interamericana de Soluções Pacíficas limitar-se-á a informar o Conselho Permanente, sem prejuízo de que proceda a gestões para o reatamento das redações entre as partes, se estiverem interrompidas, ou para o restabelecimento da concórdia entre elas.
+</p><p>Uma vez recordas as referidas informações, o Conselho Permanente poderá formular sugestões de reaproximação entre as partes para fins do Artigo 87 e, se o julgar necessário, exortá-las a que evitem a prática de atos que possama agravar a controvérsia.
+</p><p>Se uma das partes mantiver sua recusa dos bons ofícios da Comissão Interamericana de Soluções Pacificas ou do Conselho, este limitar-se á a apresentar um relatório à Assembleia Geral.
+</p><Artigo id="art89">
+            
+            
+            <Rotulo>Art. 89.</Rotulo>
+            
+            <Caput id="art89_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>O Conselho Permanente no exercício de tais funções, tomará suas decisões pelo voto afirmativo de dois terços dos seus membros, excluídas as partes, salvo as decisões que o regulamento autorize a aprovar por maioria simples.
+</p><Artigo id="art90">
+            
+            
+            <Rotulo>Art. 90.</Rotulo>
+            
+            <Caput id="art90_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>No desempenho das funções relativas à solução pacífica de controvérsias, o Conselho Permanete e a Comissão Interamericana de Soluções Pacíficas deverão observar as disposições da Carta e os princípios e normas do direito internacional, bem como levar em conta a existência dos tratados vigentes entre as partes.
+</p><Artigo id="art91">
+            
+            
+            <Rotulo>Art. 91.</Rotulo>
+            
+            <Caput id="art91_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Compete também ao Conselho Permanente:
+</p><Alinea id="ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    Executar as decisões da Assmbléia-Geral ou da Reunião de Consulta dos Ministros das Relações Exteriores cujo cumprimento não haja sido confiado a nenhuma outra entidade;
+
+  </p>
+            
+          </Alinea><Alinea id="ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    Velar pela observância das normas que regulam o funcionamento da Secretária Geral e, quando a Assembleía-Geral não estiver reunida, adotar as disposições de natureza regulamentar que habilitem a Secretária Geral para o cumprimento de suas funções administrativas;
+
+  </p>
+            
+          </Alinea><Alinea id="ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    Atuar como Comissão Preparatória da Assembléia-Geral nas condições estabelecidas pelo Artigo 58 da Carta, a não ser que a Assembleia-Geral decida de maneira diferente;
+
+  </p>
+            
+          </Alinea><Alinea id="ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    Preparar, a pedido dos Estados Membro se com a cooperação dos órgãos pertinentes da Organização, projetos de acordos destinados a promover e facilitar a colaboração entre a Organização dos Estados Americanos e as Nações Unidas, ou entre a Organização e outros organismos americanos de reconhecida autoridade internacional. Esses projetos serão submetidos à aprovação da Assembléia Geral:
+
+  </p>
+            
+          </Alinea><Alinea id="ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    Formular recomendações à Assembléia-Geral sobre o funcionamento da Organização e sobre a coordenação dos seus órgãos subsidiários, organismos e comissões;
+
+  </p>
+            
+          </Alinea><Alinea id="ali6">
+            
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    Apresentar observações à Assembléia-Geral, se julgar convenientes, sobre os relatórios da Comissão Jurídica Interamericana e da Comissão Interamericana de Direitos Humanos; e
+
+  </p>
+            
+          </Alinea><Alinea id="ali7">
+            
+            
+            <Rotulo>g)</Rotulo>
+            <p>
+    Execer as demais funções que lhe atribui a Carta.
+
+  </p>
+            
+          </Alinea><Artigo id="art92">
+            
+            
+            <Rotulo>Art. 92.</Rotulo>
+            
+            <Caput id="art92_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>O Conselho Permanente e a Secretária Geral terão a mesma sede.
+</p><Capitulo id="cap15">
+            
+            
+            <Rotulo>CAPÍTULO XV</Rotulo>
+            <NomeAgrupador>
+    O Consleho Interamericano Economico e Social
+
+  </NomeAgrupador>
+            <Artigo id="art93">
+            
+            
+            <Rotulo>Art. 93.</Rotulo>
+            
+            <Caput id="art93_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><p>O Conselho Interamericano Econômico e Social compõe-se de um representante titular, da mais alta hierarquia, de cada Estado-Membro, nomeado especialmente pelo respectivo Governo.
+</p><Artigo id="art94">
+            
+            
+            <Rotulo>Art. 94.</Rotulo>
+            
+            <Caput id="art94_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>O Conselho Interamericano Econômico e Social tem por finalidade promover a cooperação entre os apíeses americanos com o objetivo de conseguir seu desenvolvimento econômico e social acelerado, de acordo com as normas consignadas nos Capítulos VII e VIII.
+</p><Artigo id="art95">
+            
+            
+            <Rotulo>Art. 95.</Rotulo>
+            
+            <Caput id="art95_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Para realizar os seus fins, o Conselho Interamericano Econômico e Social deverá:
+</p><Alinea id="ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    Reocmendar progrmas e medidas de ação, bem como e avaliar periodicamente os esforços realizados pelos Estados-Membros;
+
+  </p>
+            
+          </Alinea><Alinea id="ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    Promover e coordenar todas as atividades de caráter econômico e social da Organização;
+
+  </p>
+            
+          </Alinea><Alinea id="ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    Coordenar sua atividades com as dos outros Conselho da Organização;
+
+  </p>
+            
+          </Alinea><Alinea id="ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    Estabelecer relações de cooperação com os órgãos correspondentes das Nações Unidas e com outras entidades nacionais e internacionais, especialmente no que diz respeito à coordenação dos programas interamericanos de assistência tecnica; e
+
+  </p>
+            
+          </Alinea><Alinea id="ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    Promover a solução dos casos previstos no Artigo 35 da Carta e estabelecer o precesso correspondente.
+
+  </p>
+            
+          </Alinea><Artigo id="art96">
+            
+            
+            <Rotulo>Art. 96.</Rotulo>
+            
+            <Caput id="art96_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>O Conselho Interamericano Econômico e Social realizará, pelo menos, uma reunião por ano, no nível ministerial. Reunir-se-á, além disso, quando for convocado pela Assembléia-Geral, pela Reunião de Consulta dos Ministros das Relações Exteriores, por iniciativa própria, ou para os casos previsto no Artigo 35 da Carta.
+</p><Artigo id="art97">
+            
+            
+            <Rotulo>Art. 97.</Rotulo>
+            
+            <Caput id="art97_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>O Conselho Interamericano Econômico e Social terá uma Comissão Executiva Permanente; composta de um Presidente e, no mínimo, sete outros membros, eleitos pelos próprio Conselho, por períodos que serão fixados no seu estaturo. Cada membro terá direito a um voto. Na eleição dos membros, serão levados em conta, no que for possível, os princípios da representação geográfica equitativa e do rodízio. A Comissão executiva Permanente representa o conjunto dos Estados-Membros da Organização.
+</p><Artigo id="art98">
+            
+            
+            <Rotulo>Art. 98.</Rotulo>
+            
+            <Caput id="art98_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A Comissão Executiva Permanente exercerá as atividades que lhe forem confiadas pelo Conselho Interamericano Economico e Social, de acordo com as normas gerais que forem por este estabelecidas.
+</p><Capitulo id="cap16">
+            
+            
+            <Rotulo>CAPÍTULO XVI</Rotulo>
+            <NomeAgrupador>
+    O Conselho Interamericano de Educação, Ciência e Cultura
+
+  </NomeAgrupador>
+            <Artigo id="art99">
+            
+            
+            <Rotulo>Art. 99.</Rotulo>
+            
+            <Caput id="art99_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><p>O Conselho Interamericano de Educação, Ciência e Cultrua compões-se um representante titular, da amis alta hierarquia, de cada Estado-Membro, nomeado especialmente pelo respectivo Governo.
+</p><Artigo id="art100">
+            
+            
+            <Rotulo>Art. 100.</Rotulo>
+            
+            <Caput id="art100_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>O Conselho Interamericano de Educação, Ciência e Cultura tem por finalidade promover relações amistosas e entendimento mutuo entre os povos da América, mediante a cooperação e o intercâmbio educacionais, científicos e culturais entre os Estados-Membros, com o objetivo de elevar o nível cultura de seus habitantes; reafirmar sua dignidade como pessoas; habilitá-los plenamente para as tarefas do progresso; e fortalecer os sentimentos de paz, democracia e justiça social que tem caracterizado sua evolução.
+</p><Artigo id="art101">
+            
+            
+            <Rotulo>Art. 101.</Rotulo>
+            
+            <Caput id="art101_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Para realizar os seus fins. O Conselho Interamericano de Educação, Ciência e Cultura deverá:
+</p><Alinea id="ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    Promover e coordenar as atividades da Organização relativas à educação à ciência e à cultura.
+
+  </p>
+            
+          </Alinea><Alinea id="ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    Adotar ou recomendar as medidas pertinentes a fim de dar cumprimento ás normas consignadas no Capitulo IX da Carta;
+
+  </p>
+            
+          </Alinea><Alinea id="ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    Apoiar os esforços individuais ou coletivos dos Estados-Membros para o melhoramento e e a extensão do ensino em todos os seus níveis, dedicando especial atenção aos esforços destinados ao desenvolvimento da comunidade;
+
+  </p>
+            
+          </Alinea><Alinea id="ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    Recomendar e favorecer a adoçãod e programas educacionais especiais orientados no sentido da intregração de todos os setores da população nas respectivas culturas nacionais;
+
+  </p>
+            
+          </Alinea><Alinea id="ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    Estimular e apoiar a educação ea pesquisa cientifica e tecnológicas, especialmente se se relacionarem com os planos nacionais de desenvolvimento;
+
+  </p>
+            
+          </Alinea><Alinea id="ali6">
+            
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    Estimular o intercarbio de professores, pesquisadores, tecnicos e estudantes, bem como de materiais de estudo, e propiciar a celebração de convênios bilaterais ou multilareais sobre a hormonização progressiva dos planos de estudo em todos os niveis do ensino e sobre a validade e equivalência de titulos e diplomas;
+
+  </p>
+            
+          </Alinea><Alinea id="ali7">
+            
+            
+            <Rotulo>g)</Rotulo>
+            <p>
+    Promover a educação dos povos americanos para a convivêninternacional e para o melhor conhecimento das fontes histórico-culturais da América a fim de realçar e preservar sua comunhão de espírito e de destino;
+
+  </p>
+            
+          </Alinea><Alinea id="ali8">
+            
+            
+            <Rotulo>h)</Rotulo>
+            <p>
+    Estimular de formas sistemática a criação intelectual e artística e o intercâmbio de trabalhos culturais e de manifestações do folclore, bem como as relações recíprocas entre as diferentes regiões culturais americanas;
+
+  </p>
+            
+          </Alinea><Alinea id="ali9">
+            
+            
+            <Rotulo>i)</Rotulo>
+            <p>
+    Patrocinar a cooperação e a assistência técnica para a proteção, conservação e ampliação do patrimônio cultural do Continente;
+
+  </p>
+            
+          </Alinea><Alinea id="ali10">
+            
+            
+            <Rotulo>j)</Rotulo>
+            <p>
+    Coordenar suas atividades com as dos outros Conselhos. Em harmonia com o Conselho Interamericano Economico e Social, estimular a articulação dos programas de desenvolvimento da educação, da ciência e da cultura com os de desenvolvimento nacional e de integração regional;
+
+  </p>
+            
+          </Alinea><Alinea id="ali11">
+            
+            
+            <Rotulo>k)</Rotulo>
+            <p>
+    Estabelecer relações de cooperação com os órgãos correspondentes das nações Unidas e com outras entidades nacionais e internacionais;
+
+  </p>
+            
+          </Alinea><Alinea id="ali12">
+            
+            
+            <Rotulo>l)</Rotulo>
+            <p>
+    Fortalecer a consciência, civica dos povos americanos como um dos fundamentos da prática efetiva da democracia e do respeito aos direitos e deveres da pessoa humana;
+
+  </p>
+            
+          </Alinea><Alinea id="ali13">
+            
+            
+            <Rotulo>m)</Rotulo>
+            <p>
+    Recomendar os processos pertinentes para intersificar a integraçãod os países em desenvolvimento do Continente, mediante esforços e programas nos setores da educação, da ciência e da cultura; e
+
+  </p>
+            
+          </Alinea><Alinea id="ali14">
+            
+            
+            <Rotulo>n)</Rotulo>
+            <p>
+    Examinar e avaliar periodicamente os esforços realizados pelos Estados-Membros nos setores da educação, da ciência e da cultura.
+
+  </p>
+            
+          </Alinea><Artigo id="art102">
+            
+            
+            <Rotulo>Art. 102.</Rotulo>
+            
+            <Caput id="art102_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>O Conselho Interamericano de Educação, Ciência e Cultura realizará, pelo menos, uma reunião por ano, no nível ministerial. Reunir-se-á, além disso, quando for convocado pela Assembléia Geral, pela rEunião de Consulta dos Ministros das Relações Exteriores, ou por iniciativa própria.
+</p><Artigo id="art103">
+            
+            
+            <Rotulo>Art. 103.</Rotulo>
+            
+            <Caput id="art103_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>O Conselho Interamericano de Educação, Ciência e Cultura tera uma Comissão Executiva Permanente, composta de um Presidente e, no minimo, sete outros membros, eleitos pelo próprio Conselho, por periodos que serão fixados no seu estatuto. Cada mebmro terá direito a um voto. Na eleição dos membros, serão levados em conta, no que for possível os princípios da representação geográfica equitativa e do rodízio. A Comissão executiva Pemanente representa o conjunto dos Estados-Membrosda Oganização.
+</p><Artigo id="art104">
+            
+            
+            <Rotulo>Art. 104.</Rotulo>
+            
+            <Caput id="art104_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A Comissão Executiva Permanente exercerá as atividades que lhe forem confiadas pelo Conselho Interamericano de Educação, Ciência e Cultura de acordo com as normas gerais que forem por este estabelecidos.
+</p><Capitulo id="cap17">
+            
+            
+            <Rotulo>CAPÍTULO XVII</Rotulo>
+            <NomeAgrupador>
+    A Comissão Jurídica Interamericana
+
+  </NomeAgrupador>
+            <Artigo id="art105">
+            
+            
+            <Rotulo>Art. 105.</Rotulo>
+            
+            <Caput id="art105_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><p>A Comissão Jurídica Interamerica tem por finalidade servir de corpo consultivo da Organização em assuntos jurídicos; promover o desenvolvimento progressivo e a codificação do direito internacionalo; e estudar os problemas jurídicos referntes à integração dos países em desenvolvimento do Continente, bem como a possibilidade de uniformizar sua legislações no que parecer convienente.
+</p><Artigo id="art106">
+            
+            
+            <Rotulo>Art. 106.</Rotulo>
+            
+            <Caput id="art106_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A Comissão Jurídica Interamericana empreenderá os estudos e trabalhos preparatórios de que for encarregada pela Assembléia-Geral, pela Reunião de Consulta dos Ministérios da Relações Exteriores e pelos Conselho da Organização. Pode, além disso, levar a efeito, por sua própria iniciativa, os que julgar convenientes, bem como sugerir a realização de conferência jurídicas especializadas.
+</p><Artigo id="art107">
+            
+            
+            <Rotulo>Art. 107.</Rotulo>
+            
+            <Caput id="art107_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A Comissão Juridica Interamericana será composta de onze juristas nacionais dos Estados-Membros, eleitos, de listas de três candidatos apresentadas pelos referidos Estados, para um período de quatro anos. A Assembleia-Geral procederá á eleição, de acordo com um regime que leve em conta a renovação parcial e procure, na medida do possível, uma representação geográfica equitativa. Não poderá haver na Comissão mais de um membro da mesma nacionalidade. As vagas que ocorrerem serão preenchidas de acordo com o mesmo processo.
+</p><Artigo id="art108">
+            
+            
+            <Rotulo>Art. 108.</Rotulo>
+            
+            <Caput id="art108_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A Comissão Juridica Interamericana representa o conjunto dos Estados-Membros da Organização, e tem a mais ampla autonomia técnica.
+</p><Artigo id="art109">
+            
+            
+            <Rotulo>Art. 109.</Rotulo>
+            
+            <Caput id="art109_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A Comissão Juridica interamericana estabelecerá relações de cooperação com a universidades, institutos e centros de ensino e com as comissões e entidades nacionais e internacionais dedicadas ao estudo, pesquisa, ensino ou divulgação dos assuntos jurídicos de interesse internacional.
+</p><Artigo id="art110">
+            
+            
+            <Rotulo>Art. 110.</Rotulo>
+            
+            <Caput id="art110_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A Comissão Juridica Interamericana elaborará seu estatuto, o qual será submetido à aprovação da Assembleia.
+</p><p>A Comissão adotará seu prório regulamento.
+</p><Artigo id="art111">
+            
+            
+            <Rotulo>Art. 111.</Rotulo>
+            
+            <Caput id="art111_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A Comissão Jurídica Interamericana terá sua sede na cidade do Rio de Janeiro mas, em casos especiais, poderá realizar reuniões em qualquer outro lugar que seja oportunamente designado, após consulta ao Estado membro correspondente.
+</p><Capitulo id="cap18">
+            
+            
+            <Rotulo>CAPÍTULO XVIII</Rotulo>
+            <NomeAgrupador>
+    A Comissão Interamericana de Direitos Humanos
+
+  </NomeAgrupador>
+            <Artigo id="art112">
+            
+            
+            <Rotulo>Art. 112.</Rotulo>
+            
+            <Caput id="art112_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><p>Haverá uma Comissão Interamericana de Direitos Humanos que terá por principal função promover o repeito e a defesa dos direitos humanos e servir como órgão consultivo da Organização em tal matéria.
+</p><p>Uma convenção interamericana sobre direitos humanos estabelecerá a estrutura, a competência e as normas de funcionamento da referida Comissão, bem como as dos outros órgãos encarregados de tal matéria.
+</p><Capitulo id="cap19">
+            
+            
+            <Rotulo>CAPÍTULO XIX</Rotulo>
+            <NomeAgrupador>
+    A Secretária Geral
+
+  </NomeAgrupador>
+            <Artigo id="art113">
+            
+            
+            <Rotulo>Art. 113.</Rotulo>
+            
+            <Caput id="art113_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><p>A Secretaria-Gera é o órgão central e permanente da Organização dos Estados Americanos. Exercerá as funções que lhe atribuam a Carta, outros tratados e acordos interamericanos e a Assembléia Geral, e cumprirá os encargos de que for incumbida pela Assembléia Geral, pela Reunião de Consulta dos Ministros das Relações Exteriores e pelos Conselhos.
+</p><Artigo id="art114">
+            
+            
+            <Rotulo>Art. 114.</Rotulo>
+            
+            <Caput id="art114_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>O Secretário-Geral da Organização será eleita pela Assembléia Geral para um período de cinco anos e não poderá ser reeleito mais de uma vez, num poderá suceder-lhe pessoa da mesma nacionalidade. Vagando o cargo de Secretário-Geral, o Secretário-Geral Adjunto assumirá as funções dquela até que a Assembléia Geral proceda à eleição de novo titular para um período completo.
+</p><Artigo id="art115">
+            
+            
+            <Rotulo>Art. 115.</Rotulo>
+            
+            <Caput id="art115_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>O Secretário-Geral dirige a Secretária-Geral é o representante legal da mesma e, sem prejuízo do estabelecido no Artigo 91, alínea “b”, reponde perante a Assembléia Geral pelo cumprimento adequado das atribuições e funções da Secretária-Geral.
+</p><Artigo id="art116">
+            
+            
+            <Rotulo>Art. 116.</Rotulo>
+            
+            <Caput id="art116_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>O Secretario-Geral ou seu representante participa, com direito à palavra, mas seu voto, de todas as reuniões da Organização.
+</p><Artigo id="art117">
+            
+            
+            <Rotulo>Art. 117.</Rotulo>
+            
+            <Caput id="art117_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>De acordo com a ação e a política decididas pela Assembléia-Geral e com as resoluções pertinentes dos Conselho, a Secretária-Geral promoverá relações econômicas, sociais, juridicas, educacionais, científicas e culturais entre todos os Estados Membros da Organização.
+</p><Artigo id="art118">
+            
+            
+            <Rotulo>Art. 118.</Rotulo>
+            
+            <Caput id="art118_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A Secretária-Geral desempanha também as seguintes funções:
+</p><Alinea id="ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    Encaminhar “ex officio” aos Estados Membros a convocatoria da Assembleia Geral, da Reunião de Consulta dos Ministros das Relações Exteriores, do Conselho Interamericano Econômico e Social, do Conselho Interamericano de Educação, Ciência e Cultura e das Conferências Especializadas;
+
+  </p>
+            
+          </Alinea><Alinea id="ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    Assessorar os outros órgãos, quando cabível, na elaboração das agendas e regulamentos;
+
+  </p>
+            
+          </Alinea><Alinea id="ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    Preparar o projeto de orçamento-programa da Organização com base nos programas aprovados pelo Conselho, organismos e entidades cujas despesas devam ser incluidas no orçamento-programa e, após consulta com esses Conselhos ou suas Comissões Permanentes, submetê-lo à Comissão Preparatória da Assembleia Geral e em seguida a propria Assesmbleia.
+
+  </p>
+            
+          </Alinea><Alinea id="ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    Proporcionar à Assembléia Geral e aos demais órgãos serviços de secretaria permanente e adequados bem como dar cumprimentoa seus mandatos e encargos. Dentro de suas possibilidades atender as outras reuniões da Organização;
+
+  </p>
+            
+          </Alinea><Alinea id="ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    Custodiar os documentos e arquivos das Conferências-Geral, das Reuniões de Consulta dos Ministros da Relações Exteriores, dos Conselhos e das Conferências Especializadas;
+
+  </p>
+            
+          </Alinea><Alinea id="ali6">
+            
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    Servir de depositária dos tratados e acordos interamericanos, bem como dos instrumentos de ratificação dos mesmos.
+
+  </p>
+            
+          </Alinea><Alinea id="ali7">
+            
+            
+            <Rotulo>g)</Rotulo>
+            <p>
+    Apresentar à Assembleia Geral, em cada período ordinário de sessões, um relatório anual sobre as atividades e a situação financeira da Organização; e
+
+  </p>
+            
+          </Alinea><Alinea id="ali8">
+            
+            
+            <Rotulo>h)</Rotulo>
+            <p>
+    Estabelecer relações de cooperação, consoante o que for decidido pela Assembléia Geral ou pelos Conselhos, com os Organismos Especializados e com outros organismos nacionais e internacionais.
+
+  </p>
+            
+          </Alinea><Artigo id="art119">
+            
+            
+            <Rotulo>Art. 119.</Rotulo>
+            
+            <Caput id="art119_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Compete ao Secretário-Geral:
+</p><Alinea id="ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    Estabelecer as dependências da Secretária-Geral que sejam necessárias para a realização de seus fins; e
+
+  </p>
+            
+          </Alinea><Alinea id="ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    Determinar o número de funcionários e empregados da Secretário-Geral, nomeá-los, regulamentar suas atribuições e deveres e fixar sua retribuição. O Secretário-Geral exercerá essas atribuições de acordo com as normas gerais e as disposições orçamentárias que forem estabelecidas pela Assembléia-Geral.
+
+  </p>
+            
+          </Alinea><Artigo id="art120">
+            
+            
+            <Rotulo>Art. 120.</Rotulo>
+            
+            <Caput id="art120_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>O Secretário-Geral Adjunto será eleito pela Assembléia Geral para um período de cinco anos e não pdoerá ser reeleito amsi de uma vez, nem poderá suceder-lhe pessoa da mesma nacionalidade. Vagando o cargo de Secretário-Geral Adjunto, o Conselho Permenente elegerá um substituto, o qual exercerá o referido cargo até que a Assembleia-Geral proceda à eleição de novo titular para um periodo completo.
+</p><Artigo id="art121">
+            
+            
+            <Rotulo>Art. 121.</Rotulo>
+            
+            <Caput id="art121_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>O Secretário-Geral Adjunto é o Secretário do Conselho Permanente. Tem o caráter de funcionário consultivo do Secretário-Geral e atuará como delegado seu em tudo aquilo de que for por ela incumbido. Na ausêrcia temporária ou no impedimeto do Secretário-Geral, exercerá as funções deste.
+</p><p>O Secretário-Geral e o Secretário-GeralAdjunto deverão se de nacionalidade diferentes.
+</p><Artigo id="art122">
+            
+            
+            <Rotulo>Art. 122.</Rotulo>
+            
+            <Caput id="art122_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A Assembleia Geral, com o voto de dois terços do Estados Membros, pode destituir o Secretário-Geral ou o Secretário-Geral adjunto, ou ambos, quando o exigir o bom duncionamento da Organizização.
+</p><Artigo id="art123">
+            
+            
+            <Rotulo>Art. 123.</Rotulo>
+            
+            <Caput id="art123_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>O Secretário-Geral designará, com a aprovação do Conselho correspondente, o Secretário Executivo de Assuntos Executivo de Educação, Ciência e Cultura, os quais serão também os Secretários dos respectivos Conselhos.
+</p><Artigo id="art124">
+            
+            
+            <Rotulo>Art. 124.</Rotulo>
+            
+            <Caput id="art124_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>No cumprimento de seus deveres, o Secretário Geral e o pessoal da Secretária não solicitárão nem receberão instruções de Governo algum nem de autoridade alguma estranha à Organização, e abster-se-ão de agir de maneira incompatível com sua condiçãod e funcionários internacionais, responsáveis únicamente perante a Organização.
+</p><Artigo id="art125">
+            
+            
+            <Rotulo>Art. 125.</Rotulo>
+            
+            <Caput id="art125_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Os Estados Membros comprometem-se a respeitar o caráter exclusivamente internacional das responsabilidades do Secretário Geral e do pessoal da Secretária Geral e a não tentar influir sobre eles no desempenho de suas funções.
+</p><Artigo id="art126">
+            
+            
+            <Rotulo>Art. 126.</Rotulo>
+            
+            <Caput id="art126_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Na seleção do pessoal da Secretária Geral levar-se-ão em conta, em primeiro lugar, a eficiência, a competência e a probidade; mas ao mesmo tempo, dever-se-á dar importância à necessidade de ser o pessoal escolhido, em todas as hierarquias, de acordo com um critério de representação geográfica tão amplo quando possível.
+</p><Artigo id="art127">
+            
+            
+            <Rotulo>Art. 127.</Rotulo>
+            
+            <Caput id="art127_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A sede da Secretária Geral é a cidade de Washington.
+</p><Capitulo id="cap20">
+            
+            
+            <Rotulo>CAPÍTULO XX</Rotulo>
+            <NomeAgrupador>
+    As Conferências Especializadas
+
+  </NomeAgrupador>
+            <Artigo id="art128">
+            
+            
+            <Rotulo>Art. 128.</Rotulo>
+            
+            <Caput id="art128_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><p>As Conferências Especializadas são reuniões intergovernamentais destinadas a tratar de assuntos técnicos especiais ou a desenvolver aspectos específicos da cooperação interamericana e são realizadas quando o determine a Assembléia Geral ou a Reunião de Consulta dos Ministros das Relações Exteriores, por iniciativa própria ou a pedido de algum dos Conselhos ou Organismos Especializados.
+</p><Artigo id="art129">
+            
+            
+            <Rotulo>Art. 129.</Rotulo>
+            
+            <Caput id="art129_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A agenda e o regulamento da Conferências Especializadas serão elaborados pelos Conselhos competentes, ou pelos Organismos Especializados interessados, e submetidos à consideração dos Governo dos Estados Membros.
+</p><Capitulo id="cap21">
+            
+            
+            <Rotulo>CAPÍTULO XXI</Rotulo>
+            <NomeAgrupador>
+    Organismos Especializados
+
+  </NomeAgrupador>
+            <Artigo id="art130">
+            
+            
+            <Rotulo>Art. 130.</Rotulo>
+            
+            <Caput id="art130_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><p>Consideram-se como Organismos Especializados Interamericanos para os efeitos desta Carta, os Organismos intergovernamentais estabelecidos por acordos multilaterais, que tenham determinadas funções em matérias técnicos de interesse comum para os Estados Americanos.
+</p><Artigo id="art131">
+            
+            
+            <Rotulo>Art. 131.</Rotulo>
+            
+            <Caput id="art131_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A Secretária Geral manterá um registro dos organismos que satisfaçam as condições estabelecidas no artigo anterior, de acordo com as determinações da Assembleia Geral e à vista de relatório do Conselho correspondente.
+</p><Artigo id="art132">
+            
+            
+            <Rotulo>Art. 132.</Rotulo>
+            
+            <Caput id="art132_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Os Organismos Especializados gozam da mais ampla autonomia técnica. Mas deverão levar em conta as recomendações da Assembléia Geral e dos conselho de acordo com as disposições da Carta.
+</p><Artigo id="art133">
+            
+            
+            <Rotulo>Art. 133.</Rotulo>
+            
+            <Caput id="art133_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Os Organismos Especializados apresentarão à Assembléia Geral relatórios anuais sobre o desenvolvimento de suas atividades, bem como sobre seus orçamentos e contas anuais.
+</p><Artigo id="art134">
+            
+            
+            <Rotulo>Art. 134.</Rotulo>
+            
+            <Caput id="art134_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>As relações que devem existir entre os Organismos Especializados e a Organização serão definidas mediante acordos celebrados entre cada Organismo e o Secretário Geral com a autorização da Assembléia Geral.
+</p><Artigo id="art135">
+            
+            
+            <Rotulo>Art. 135.</Rotulo>
+            
+            <Caput id="art135_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Os Organismos Especializados devem estabelecer relações de cooperação com os Organismos mundiais do mesmo caráter, a fim de coordenar suas atividades. Ao entrarem em acordo com os Organismos internacionais de carater mundial, os Organismos Especializados Interamericanos devem manter a sua identidade e posição como parte integrante da Organização dos Estados Americanos, mesmos quando desempenhem funções reginais dos Organismos Internacionais.
+</p><Artigo id="art136">
+            
+            
+            <Rotulo>Art. 136.</Rotulo>
+            
+            <Caput id="art136_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Na localização dos Organismos Especializados, levar-se-ão em conta os interesses de todos os Estados Membros e a conveniencia de que as sedes dos mesmos sejam escolhidas mediante critério de distribuição geografica tão equitativa quanto possivel.
+</p><Capitulo id="cap22">
+            
+            
+            <Rotulo>CAPÍTULO XXII</Rotulo>
+            <NomeAgrupador>
+    Nações Unidas
+
+  </NomeAgrupador>
+            <Artigo id="art137">
+            
+            
+            <Rotulo>Art. 137.</Rotulo>
+            
+            <Caput id="art137_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><p>Nenhuma das estipulações desta Carta se interpretará no sentido de prejudicar os direitos e obrigações dos Estados Membros, de acordo com a Carta das Nações Unidas.
+</p><Capitulo id="cap23">
+            
+            
+            <Rotulo>CAPÍTULO XXIII</Rotulo>
+            <NomeAgrupador>
+    Disposições Diversas
+
+  </NomeAgrupador>
+            <Artigo id="art138">
+            
+            
+            <Rotulo>Art. 138.</Rotulo>
+            
+            <Caput id="art138_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><p>A assintência às reuniões dos órgãos permanente da Organização dos Estados Americanos ou às conferências e reuniões previstas na Carta, ou realizadas sob os auspícios da Organização, abedece ao caráter multilateral dos referidos órgãos, conferencias e reuniões e não depende das relações bilateriais entre o Governo de qualquer Estado Membro e o Governo do pais-sede.
+</p><Artigo id="art139">
+            
+            
+            <Rotulo>Art. 139.</Rotulo>
+            
+            <Caput id="art139_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A Organização dos Estados Americanos gozará no território de cada um de seus Membros da capacidade jurídica, dos privilégios e das imunidades que forem necessários para o exercício das suas funções e a realização dos seus propósitos.
+</p><Artigo id="art140">
+            
+            
+            <Rotulo>Art. 140.</Rotulo>
+            
+            <Caput id="art140_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Os repesentantes dos Estados Membros nos órgãos da Organização, o pessoal das suas representações, o Secretário Geral e o Secretário Geral Adjunto gozarão dos privilégios e imunidades correspondentes a seus cargos e necessários para desempenhar com independência suas funções.
+</p><Artigo id="art141">
+            
+            
+            <Rotulo>Art. 141.</Rotulo>
+            
+            <Caput id="art141_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A situação jurídica dos Organismos Especializados e os privilégios e imunidades que devem ser concedidos aos mesmos e ao seu pessoal, bem como os funcionários da Secretária Geral, serãod eterinados em acordo multilateral. O disposto neste artigo não impede que se celebrem acordos bilaterais, quando julgados necessários.
+</p><Artigo id="art142">
+            
+            
+            <Rotulo>Art. 142.</Rotulo>
+            
+            <Caput id="art142_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A correspondência da Organização dos Estados Americanos, incluive impressos e pacotes, sempre que for marcada com o seu selo de franquia, circulará isenta de porte pelos correios dos Estados Membros.
+</p><Artigo id="art143">
+            
+            
+            <Rotulo>Art. 143.</Rotulo>
+            
+            <Caput id="art143_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A Organização dos Estados Americanos não admite restrição alguma, por motivo de raça, credo ou sexo, à capacidade para exercer cargos na Orgnaização e participar de sua atividades.
+</p><Capitulo id="cap24">
+            
+            
+            <Rotulo>CAPÍTULO XXIV</Rotulo>
+            <NomeAgrupador>
+    Ratificação e Vigência
+
+  </NomeAgrupador>
+            <Artigo id="art144">
+            
+            
+            <Rotulo>Art. 144.</Rotulo>
+            
+            <Caput id="art144_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><p>A presente Carta fica aberta à assinatura dos Estados Americanos e será ratificada conforme seus respectivos processos constitucionais. O Instrumento original, cujos textos em espanhol, inglês, portugues e frances são igualmente autênticos será depositado na Secretária Geral, a qual enviará cópias autenticadas aos Govenros, para fins de ratificação. Os instrumentos de ratificação serão depositados na Secretária Geral e esta notificará os Governos signatários do dito depósito.
+</p><Artigo id="art145">
+            
+            
+            <Rotulo>Art. 145.</Rotulo>
+            
+            <Caput id="art145_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A presente Carta entrará em vigor entre os Estados que a ratificarem, quando dois terços dos Estados signatários tiverem depositado suas ratificações. Quando aos Estados restantes, entrará em vigor na ordem em que eles depositarem as suas ratificações.
+</p><Artigo id="art146">
+            
+            
+            <Rotulo>Art. 146.</Rotulo>
+            
+            <Caput id="art146_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A presente Carta será registrada na Secretaria geral das Nações Unidas por intermédio da Secretária Geral.
+</p><Artigo id="art147">
+            
+            
+            <Rotulo>Art. 147.</Rotulo>
+            
+            <Caput id="art147_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>As reformas da presente Carta so poderão ser adotadas numa Conferência Interamericana convocada para tal fim. As reformas entrarão em vigor nos mesmos termos e segundo o processo estabelecido no Artigo 145.
+</p><Artigo id="art148">
+            
+            
+            <Rotulo>Art. 148.</Rotulo>
+            
+            <Caput id="art148_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Esta Carta vigorará indefinidamente, mas poderá ser denunciada por qualquer dos Estados Membro, mediante uma notificação escrita à Secretária Geral, a qual comunicará em cada caso a todos os outros estados as notificações de denúncia que receber. Transcorridos dois anos a partir da data em que a Secretária Geral receber uma notificação de denúncia, a presente Carta cessará seus efeitos em relações ao dito Estado denunciante e este ficará desligado da Organização, depois de ter cumprido as obrigações ornundas da presnte Carta.
+</p><Capitulo id="cap25">
+            
+            
+            <Rotulo>CAPÍTULO XXV</Rotulo>
+            <NomeAgrupador>
+    Disposições Transitórias
+
+  </NomeAgrupador>
+            <Artigo id="art149">
+            
+            
+            <Rotulo>Art. 149.</Rotulo>
+            
+            <Caput id="art149_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><p>O Comite Interamericano da Aliança para o Progresso atuará como comissão executiva permanente do Conselho Interamericano Econômico e Social enquanto estiver em vigor a Aliança para o Progresso.
+</p><Artigo id="art150">
+            
+            
+            <Rotulo>Art. 150.</Rotulo>
+            
+            <Caput id="art150_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Enquato não entrar em vigor a convenção interamericana sobre direitos humanos a que se refere o Capitulo XVIII, a atual Comissão Interamericana de Direitos Humanos velará pela observância de tais direitos.
+</p><p>RESERVAS FEITAS NO ATO DA RATIFICAÇÃO DA CARTA ASSINADA EM 1948
+</p><p>GUATEMALA
+</p><p>Nenhuma das disposições da presente Carta da Organização dos Estados Americanos poderá se considerada como impedimento para que a Guatemala possa fazer valer seus direitos ao territorio de Belice pelos meios que, em qualquer momento considere conviniente 1.
+</p><p>PERU
+</p><p>Com a reserva de que os princípios de solidariedade e cooperação interamericano e especialmente os enunciados nos considerandos e declarações da Ata de Chapultepee constituem normas das relações mútuas entre os Estados americanos e base jurídica do sistems interamericano.
+</p><p>ESTADOS UNIDOS
+</p><p>O Senado dos Estados Unidos aprova a ratificação da Carta com a reserva de que nenhuma de suas disposições se considerará no sentido de ampliar os poderes do Governo Federal dos Estados Unidos ou de limitar as atribuições dos diversos Estados da União Federal a respeito de qualquer matéria qua a <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição</span> reconheça como compreendida dentro das funções reservadas aos diferentes Estados.
+</p><Item id="ite1">
+            <!--Link: urn:lex:br:federal:decreto:1970-11-12;67542-->
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    Em relação com esta reserva, a Secretaria Geral, ao Consultar os Estados Signatários se a achavam aceitavel ou não, em cumprimento do processo estabelecido no parágrafo 2 da Resolução XXIX da Oitava Conferência Internacional Americana, realizada em Lima em 1938, comunicou-lhes, a pedido do Governo da Guatemala, a declaração formal deste governo de que tal reserva não pretende constituir alteração alguma na Carta da Organização dos Estados Americanos e de que a Guatemala esta disposta a atuar sempre dentro das limitações dos acordos internacionais que tenha aceito. A luz dessa declaração, os Estados que no começo não achavam aceitável a reserva, expressaram sua aceitação. DECLARAÇÕES FEITAS AO SER FIRMADO O PROTOCOLO EQUADOR A Delegação equatoriana, inspirada nas convicções de paz e de direito do povo e do Governo do Equador, deixa consigando que as disposições aprovadas sobre solução pacífica de controvérsias não satisfazem o proposito estabelecido na Resolução XIII DA Segunda Conferência Interamericana Extraordinária e que não foram conferidas ao Conselho Permanente faculdades suficientes para auxiliar de maneira eficaz os Estados Membros na solução pacífica de suas controvérsias. A Delegação do Equador subscreve este Protocolo de Reforma da Carta da Organização dos Estados Americanos no entendimento de que nenhuma de suas disposições limita, de forma alguma, o direito dos Estados Membros de levar suas controvérsias, qualquer que seja sua natureza ou a matéria sobre que versem, ao conhecimento da Organização, para que lhes recomende os processos adequados para a solução pacífica das mesmas. PANMÁ A Delegação do Panamá, no momento de subscrever o Protocolo de Reforma da Carta da Organização dos Estados Americanos, declara que o faz no entendimento de que nenhuma de suas disposições limita ou impede, de forma alguma, o direito do Panamá de levar ao conhecimento da Organização qualquer conflito ou controvérsia surgida com outro Estado Membro, que não tenha tido solução justa dentro de um prazo razoável, depois de haver sido aplicado sem resultados positivos algum dos processos de solução pacifica previstos no Artigo 21 da Carta atual. ARGENTINA Ao assinar o presente Protocolo a República Argentina ratifica sua firme convicção de que as emendas introduzidas na Carta da OEA não atendem devidamente a todas as necessidades da Organização, visto que seu instrumento fundamenta deve conter, além das normas orgânicas econômicas, sociais e culturais as indispensáveis disposições que tornem efetivo o sistema de segurança do Continente. RETIFICAÇÃO <span xlink:href="urn:lex:br:federal:decreto:1970-11-12;67542">decreto nº 67.542, de 12 de novembro de 1970</span>. Promulga a Carta da Organização dos Estados Americanos reformada pelo Protocolo de Buenos Aires de 1967.
+
+  </p>
+            
+          </Item><p>(Publicado no Diário Oficial, Seção I, Parte I, de 16 de novembro de 1970)
+</p><p>Na página 9.707, 1 ª coluna, na ementa,
+</p><p>onde se lê:
+</p><p>:...Protocolo de Buenos de 1967. ...
+</p><p>Leia-se:
+</p><p>... Protocolo de Buenos Aires de 1967...
+</p><p>Na página 9.712, 4ª coluna, nas Declarações anexas ao Decreto,
+</p><p>onde se lê:
+</p><p>... Panmá ...
+</p><p>Leia-se:
+</p><p>... Panamá ...
+</p><p>Na mesma coluna, na parte correspondente à Argentina,
+</p><p>onde se lê:
+</p><p>... Normas Orgaânicas...
+</p><p>Leia-se:
+</p><p>... Normas Orgânicas...
+</p><p>Este texto não substitui o publicado no D.O.U.
+</p></Articulacao>
+          
+          
+        </Norma></ProjetoNorma>
+    </LexML>

@@ -1,0 +1,8 @@
+# CMD: java -jar ../lexml-parser-projeto-lei/target/lexml-parser-projeto-lei-1.15.0-onejar.jar parse -m application/vnd.openxmlformats-officedocument.wordprocessingml.document -i original/articulados/lei_9249_19951226.docx -o lexml/lei_9249_19951226.xml --write-errors-to-file lexml/lei_9249_19951226.err.log -a federal -t lei -n 9249 --data 1995-12-26 --linker /usr/local/bin/linkertool
+# ---
+Problem type = [16: Elemento da articulação não reconhecido, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(), msg = Some(Elementos não reconhecidos na articulação: Text Paragraph: (acrescido pela medida provisoria nº 627, de 11.11.2013,), context=List()
+
+Problem type = [16: Elemento da articulação não reconhecido, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(), msg = Some(Elementos não reconhecidos na articulação: Text Paragraph: convertida na lei nº 12.973, de 13.5.2014, em vigor a partir de 1º/1/2015)), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 1258, column:23, error: cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.lexml.gov.br/1.0":p}'. One of '{"http://www.lexml.gov.br/1.0":_Parte, "http://www.lexml.gov.br/1.0":_Livro, "http://www.lexml.gov.br/1.0":_Titulo, "http://www.lexml.gov.br/1.0":_Subtitulo, "http://www.lexml.gov.br/1.0":_Capitulo, "http://www.lexml.gov.br/1.0":_Secao, "http://www.lexml.gov.br/1.0":_Artigo, "http://www.lexml.gov.br/1.0":AgrupamentoHierarquico}' is expected.), context=List()
+

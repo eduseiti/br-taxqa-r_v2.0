@@ -1,0 +1,430 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:decreto.lei:1976-12-07;1493"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">DECRETO-LEI Nº 1.493, DE 7 DE DEZEMBRO DE 1976 </Epigrafe>
+		  <Ementa id="ementa">Altera a legislação do Imposto de Renda e dá outras providências.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA, no uso da atribuição que lhe confere o artigo 55, inciso II, da Constituição.
+  </p><p>
+    DECRETA:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    A pessoa física com rendimentos brutos anuais classificados na cédula C, não superiores a Cr$ 200.000,00 (duzentos mil cruzeiros), poderá utilizar formulário simplificado de declaração de rendimentos, e efetuar desconto-padrão de até 25% (vinte e cinco por cento) dos rendimentos brutos da referida cédula, independentemente de comprovação e de indicação da espécie de despesa.
+
+  </p>
+            
+          </Caput><Paragrafo id="art1_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O desconto padrão substitui todas as deduções, assim como os abatimentos da renda bruta, exceto os relativos a encargos de família e os equiparados a estes, os pagamentos a médicos e dentistas, as despesas com hospitalização, e a despesa de aluguel a que se refere o artigo 3º deste Decreto-Lei.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art1_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O contribuinte com rendimentos classificados em outras cédulas ou com rendimentos brutos na cédula C superiores a Cr$ 200.000,00 (duzentos mil cruzeiros), também poderá se utilizar do formulário simplificado calculando o desconto padrão exclusivamente sobre o rendimento bruto da cédula C respeitado o limite máximo de Cr$ 50.000,00 (cinquenta mil cruzeiros).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art1_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O Ministro da Fazenda poderá fixar condições ao exercício da opção mencionada neste artigo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art1_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    A Secretaria da Receita Federal fica autorizada a instituir formulário simplificado de declaração de rendimentos para as pessoas que possam optar pelo desconto-padrão.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    O contribuinte poderá considerar como seu dependente, para os efeitos do imposto de renda pessoa com quem viva no mínimo há 5 (cinco) anos, e com quem esteja legalmente impedido de se casar em virtude do estado civil de desquitado de um deles ou de ambos desde que a tenha incluído entre seus beneficiários.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1977-11-29;1584!art1--><!--Link: urn:lex:br:federal:decreto.lei:1981-10-29;1887!art4-->
+            
+            
+            <p>
+    As pessoas físicas poderão abater da renda bruta as despesas realizadas com aluguel ou em razão de contrato normalmente distinto do de locação desde que em pagamento pelo uso ou ocupação de um imóvel utilizado como sua residência, até o limite anual de Cr$ 7.200,00 (sete mil e duzentos cruzeiros). (Vide <span xlink:href="urn:lex:br:federal:decreto.lei:1977-11-29;1584!art1">art. 1º Decreto-Lei nº 1.584, de 29.11.1977</span>) (Vide <span xlink:href="urn:lex:br:federal:decreto.lei:1981-10-29;1887!art4">art. 4º do Decreto-Lei nº 1.887, de 29.10.1981</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art3_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O abatimento de que trata este artigo não é computado para efeito do limite máximo global para abatimento da renda bruta auferida no ano-base, na forma da legislação em vigor.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1977-11-29;1584!art1--><!--Link: urn:lex:br:federal:decreto.lei:1984-12-11;2182!art2-->
+            
+            
+            <p>
+    Poderão ser abatidas da renda bruta, até o limite individual de Cr$ 8.000,00 (oito mil cruzeiros) ou limite global correspondente a esse valor multiplicado pelo número das pessoas com quem sejam realizadas, as despesas feitas com a instrução do contribuinte, de seus dependentes e dos menores que crie e eduque, desde que não apresentem declaração em separado. (Vide <span xlink:href="urn:lex:br:federal:decreto.lei:1977-11-29;1584!art1">art. 1º Decreto-Lei nº 1.584, de 29.11.1977</span> ) (Vide <span xlink:href="urn:lex:br:federal:decreto.lei:1984-12-11;2182!art2">art. 2º do Decreto-Lei nº 2.182, de 11.12.1984</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    O cônjuge viúvo poderá computar, como rendimentos não tributáveis, as pensões, meios soldos e quaisquer outros rendimentos de igual natureza, relativo aos 12 (doze) meses subsequentes à data em que ocorreu o óbito do cônjuge falecido recebidos de antigo empregador de instituições de previdência de caixa de aposentadoria ou de entidades governamentais, em virtude de empregos, cargos ou funções exercidos no passado.
+
+  </p>
+            
+          </Caput><Paragrafo id="art5_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Os filhos e outros beneficiários, menores ou incapazes, poderão, igualmente usufruir do disposto neste artigo com relação aos rendimentos nele enumerados, recebidos em conseqüência do falecimento de ascendente, descendente ou pessoa da qual eram dependentes e relativo ao mesmo período de 12 (doze) meses.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1978-05-09;1625-->
+            
+            
+            <p>
+    (Revogado pelo <span xlink:href="urn:lex:br:federal:decreto.lei:1978-05-09;1625">Decreto-Lei nº 1.625, de 9.5.1978</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    Os prêmios pagos aos proprietários e criadores de cavalo de corrida estarão sujeitos à retenção do imposto de renda na fonte, à alíquota de 5% (cinco por cento).
+
+  </p>
+            
+          </Caput><Paragrafo id="art7_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O imposto de que trata este artigo poderá ser compensado com o devido na declaração pelas pessoas jurídicas.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art7_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os rendimentos tributados de acordo com este artigo quando percebidos por pessoas físicas, serão classificados na cédula H, facultada a compensação do imposto descontado na fonte com o devido na declaração.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art7_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Opcionalmente, os rendimentos de que trata este artigo poderão ser tributados exclusivamente na fonte, quando o beneficiário for pessoa física.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    Os rendimentos do trabalho assalariado estão sujeitos, a partir de 1 de janeiro de 1977 à retenção do imposto de renda na fonte, como antecipação mediante aplicação de alíquotas progressivas de acordo com a seguinte tabela:
+
+  </p>
+            <table id="art8_cpt_tab1"><tr><td>Classe de Renda</td><td colspan="2">Renda Líquida Mensal Cr$</td><td>Alíquota (%)</td></tr><tr><td>1</td><td>Até</td><td>4.100,00</td><td>Isento</td></tr><tr><td>2</td><td>De 4.101,00 a</td><td>4.600,00</td><td>5</td></tr><tr><td>3</td><td>De 4.601,00 a</td><td>6.000,00</td><td>8</td></tr><tr><td>4</td><td>De 6.001,00 a</td><td>8.500,00</td><td>10</td></tr><tr><td>5</td><td>De 8.501,00 a</td><td>11.500,00</td><td>12</td></tr><tr><td>6</td><td>De 11.501,00 a</td><td>16.000,00</td><td>16</td></tr><tr><td>7</td><td>De 16.001,00 a</td><td>25.000,00</td><td>20</td></tr><tr><td>8</td><td>De 25.001,00 a</td><td>40.000,00</td><td>25</td></tr><tr><td>9</td><td>Acima de</td><td>40.000,00</td><td>30</td></tr></table>
+          </Caput><Paragrafo id="art8_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O disposto neste artigo aplica-se também aos titulares, administradores ou diretores da fonte pagadora dos rendimentos quando corresponderem a remuneração mensal por prestação de serviços.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            
+            
+            
+            <p>
+    As importâncias pagas ou creditadas por pessoas jurídicas a pessoas físicas a título de comissões, corretagens, gratificações, honorários, direitos autorais e de remuneração por quaisquer outros serviços prestados, bem como os rendimentos pagos ou creditados a vendedores, viajantes comerciais, corretores ou representantes comerciais autônomos, sem vínculo empregatício com a fonte pagadora, ficam sujeitas à retenção do imposto de renda na fonte, como antecipação, mediante aplicação de alíquotas progressivas indicadas na seguinte tabela:
+
+  </p>
+            <table id="art9_cpt_tab1"><tr><td>Classe de Renda</td><td colspan="2">Rendimentos Mensais (Cr$)</td><td>Alíquota (%)</td></tr><tr><td>1</td><td>Até</td><td>1.000,00</td><td>Isento</td></tr><tr><td>2</td><td>De 1.001,00 a</td><td>2.000,00</td><td>5</td></tr><tr><td>3</td><td>De 2.001,00 a</td><td>4.000,00</td><td>6</td></tr><tr><td>4</td><td>De 4.001,00 a</td><td>8.000,00</td><td>8</td></tr><tr><td>5</td><td>De 8.001,00 a</td><td>12.000,00</td><td>10</td></tr><tr><td>6</td><td>De 12.001,00 a</td><td>20.000,00</td><td>15</td></tr><tr><td>7</td><td>De 20.001,00 a</td><td>30.000,00</td><td>20</td></tr><tr><td>8</td><td>De 30.001,00 a</td><td>40.000,00</td><td>25</td></tr><tr><td>9</td><td>Acima de</td><td>40.000,00</td><td>30</td></tr></table>
+          </Caput><Paragrafo id="art9_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Ficam também sujeitos ao imposto de renda na fonte, como antecipação com base na tabela constante deste artigo, os rendimentos atribuídos aos dirigentes e administradores de pessoa jurídica a título de gratificação ou participações no resultado, pagas ou creditadas a partir de 1 de janeiro de 1977.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            <!--Link: urn:lex:br:federal:lei:1964-11-30;4506!art14-->
+            
+            
+            <p>
+    O Imposto de Renda de que trata o <span xlink:href="urn:lex:br:federal:lei:1964-11-30;4506!art14">artigo 14 da Lei nº 4.506, de 30 de novembro de 1964</span>, incide sobre os prêmios em concursos de prognósticos desportivos seja qual for o valor do rateio atribuído a cada ganhador.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1971-07-06;1179!art6-->
+            
+            
+            <p>
+    Fica prorrogado até o exercício financeiro de 1980 inclusive, o prazo de vigência do <span xlink:href="urn:lex:br:federal:decreto.lei:1971-07-06;1179!art6">artigo 6º do Decreto-Lei nº 1.179, de 6 de julho de 1971</span>.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            
+            
+            
+            <p>
+    O prejuízo verificado num exercício a partir do período-base relativo ao exercício de 1977 poderá ser compensado total ou parcialmente, com os lucros contábeis apurados dentro dos 4 (quatro) exercícios subseqüentes.
+
+  </p>
+            
+          </Caput><Paragrafo id="art12_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Entende-se como prejuízo, para os fins de Imposto de Renda o verificado na apuração contábil da pessoa jurídica no período-base, diminuído dos custos despesas operacionais e encargos não dedutíveis.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art12_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Decorridos 4 (quatro) exercícios, não será permitida a dedução, nos seguintes de prejuízos porventura não compensados.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1973-02-26;1260!art1_cpt-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:decreto.lei:1973-02-26;1260!art1_cpt">caput do artigo 1º do Decreto-Lei nº 1.260, de 26 de fevereiro de 1973</span>, passa a vigorar com a seguinte redação mantidos, sem alteração, os seus parágrafos:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:decreto.lei:1973-02-26;1260" id="art13_cpt_alt1">              
+              <Artigo xlink:href="art1" id="art13_cpt_alt1_art1" abreAspas="s">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput xlink:href="art1_cpt" id="art13_cpt_alt1_art1_cpt" fechaAspas="s">
+            
+            
+            
+            <p>
+    Os resultados decorrentes das alienações de imóveis que integram o ativo imobilizado realizadas até o exercício financeiro de 1978 inclusive serão excluídos do lucro real da pessoa jurídica ou da empresa individual, desde que sejam incorporados ao capital
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1970-03-23;1096!art1_par6-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:decreto.lei:1970-03-23;1096!art1_par6">§ 6º do artigo 1º do Decreto-Lei nº 1.096, de 23 de março de 1970</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:decreto.lei:1970-03-23;1096" id="art14_cpt_alt1">              
+              <Paragrafo xlink:href="art1_par6" id="art14_cpt_alt1_art1_par6" abreAspas="s" fechaAspas="s">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    A cota de exaustão, que também pode ser excluída do lucro real constituirá reserva a ser incorporada ao capital social da empresa de mineração independentemente do pagamento do imposto de renda, quer pela pessoa jurídica, quer pelos seus titulares, sócios ou acionistas
+
+  </p>
+            
+          </Paragrafo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            <!--Link: urn:lex:br:federal:lei:1962-11-28;4154!art5-->
+            
+            
+            <p>
+    Será aplicada a alíquota de 20% (vinte por cento) sobre o valor das remessas, dispensado o reajustamento de que trata o <span xlink:href="urn:lex:br:federal:lei:1962-11-28;4154!art5">artigo 5º da Lei nº 4.154, de 28 de novembro de 1962</span>, em pagamento dos direitos de transmissão para o Brasil, através de rádio e televisão dos jogos referentes ao campeonato mundial de futebol que se realizará no ano de 1978.
+
+  </p>
+            
+          </Caput><Paragrafo id="art15_par1u">
+            <!--Link: urn:lex:br:federal:decreto.lei:1978-05-09;1625-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O disposto neste artigo aplica-se também ás remessas de importâncias destinadas ao pagamento de outras despesas necessárias à realização da referida transmissão. (Parágrafo único acrescido pelo <span xlink:href="urn:lex:br:federal:decreto.lei:1978-05-09;1625">Decreto-Lei nº 1.625, de 9.5.1978</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1975-11-03;1424!art2-->
+            
+            
+            <p>
+    Fica revogado o <span xlink:href="urn:lex:br:federal:decreto.lei:1975-11-03;1424!art2">artigo 2º do Decreto-Lei nº 1.424, de 3 de novembro de 1975</span>.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            
+            
+            
+            <p>
+    Este Decreto-Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário.
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 7 de dezembro de 1976; 155º da Independência e 88º da República.</p></LocalDataFecho><Assinatura><NomePessoa>ERNESTO GEISEL</NomePessoa><NomePessoa>Mário Henrique Simonsen</NomePessoa></Assinatura></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>

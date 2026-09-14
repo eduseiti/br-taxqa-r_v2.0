@@ -1,0 +1,1164 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:1990-12-27;8134"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">LEI Nº 8.134, DE 27 DE DEZEMBRO DE 1990 </Epigrafe>
+		  <Ementa id="ementa">Altera a legislação do Imposto de Renda e dá outras providências.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    Faço saber que o PRESIDENTE DA REPÚBLICA adotou a Medida Provisória n° 284, de 1990, que o Congresso Nacional aprovou, e eu, NELSON CARNEIRO, Presidente do Senado Federal, para os efeitos do disposto no parágrafo único do art. 62 da Constituição Federal, promulgo a seguinte Lei:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    A partir do exercício financeiro de 1991, os rendimentos e ganhos de capital percebidos por pessoas físicas residentes ou domiciliadas no Brasil serão tributados pelo Imposto de Renda na forma da legislação vigente, com as modificações introduzidas por esta Lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    O Imposto de Renda das pessoas físicas será devido à medida em que os rendimentos e ganhos de capital forem percebidos, sem prejuízo do ajuste estabelecido no art. 11.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            <!--Link: urn:lex:br:federal:lei:1988-12-22;7713!art7--><!--Link: urn:lex:br:federal:lei:1988-12-22;7713!art12-->
+            
+            
+            <p>
+    O Imposto de Renda na Fonte, de que tratam os <span xlink:href="urn:lex:br:federal:lei:1988-12-22;7713!art7">arts. 7°</span> e <span xlink:href="urn:lex:br:federal:lei:1988-12-22;7713!art12">12 da Lei n° 7.713, de 22 de dezembro de 1988</span>, incidirá sobre os valores efetivamente pagos no mês.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            <!--Link: urn:lex:br:federal:lei:1988;7713!art8-->
+            
+            
+            <p>
+    Em relação aos rendimentos percebidos a partir de 1° de janeiro de 1991, o imposto de que trata o <span xlink:href="urn:lex:br:federal:lei:1988;7713!art8">art. 8° da Lei n° 7.713, de 1988</span>:
+
+  </p>
+            <Inciso id="art4_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    será calculado sobre os rendimentos efetivamente recebidos no mês;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    deverá ser pago até o último dia útil da primeira quinzena do mês subseqüente ao da percepção dos rendimentos.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    Salvo disposição em contrário, o imposto retido na fonte (art. 3°) ou pago pelo contribuinte (art. 4°), será considerado redução do apurado na forma do art. 11, inciso I.
+
+  </p>
+            
+          </Caput><Paragrafo id="art5_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Pagamentos não obrigatórios do imposto, efetuados durante o ano-base, não poderão ser deduzidos do imposto apurado na declaração (art. 11, I).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art236-->
+            
+            
+            <p>
+    O contribuinte que perceber rendimentos do trabalho não assalariado, inclusive os titulares dos serviços notariais e de registro, a que se refere o <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art236">art. 236 da Constituição</span>, e os leiloeiros, poderão deduzir, da receita decorrente do exercício da respectiva atividade:
+
+  </p>
+            <Inciso id="art6_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a remuneração paga a terceiros, desde que com vínculo empregatício, e os encargos trabalhistas e previdenciários;
+
+  </p>
+            
+          </Inciso><Inciso id="art6_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    os emolumentos pagos a terceiros;
+
+  </p>
+            
+          </Inciso><Inciso id="art6_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    as despesas de custeio pagas, necessárias à percepção da receita e à manutenção da fonte produtora.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art6_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O disposto neste artigo não se aplica:
+
+  </p>
+            <Alinea id="art6_par1_ali1">
+            <!--Link: urn:lex:br:federal:lei:1995-12-26;9250-->
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    a quotas de depreciação de instalações, máquinas e equipamentos, bem como a despesas de arrendamento; (Alínea com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1995-12-26;9250">Lei nº 9.250, de 26.12.1995</span>)
+
+  </p>
+            
+          </Alinea><Alinea id="art6_par1_ali2">
+            <!--Link: urn:lex:br:federal:lei:1995-12-26;9250-->
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    a despesas de locomoção e transporte, salvo no caso de representante comercial autônomo. (Alínea com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1995-12-26;9250">Lei nº 9.250, de 26.12.1995</span>)
+
+  </p>
+            
+          </Alinea><Alinea id="art6_par1_ali3">
+            <!--Link: urn:lex:br:federal:lei:1988;7713!art9--><!--Link: urn:lex:br:federal:lei:1988;7713!art10-->
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    em relação aos rendimentos a que se referem os <span xlink:href="urn:lex:br:federal:lei:1988;7713!art9">arts. 9°</span> e <span xlink:href="urn:lex:br:federal:lei:1988;7713!art10">10 da Lei n° 7.713, de 1988</span>.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo><Paragrafo id="art6_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O contribuinte deverá comprovar a veracidade das receitas e das despesas, mediante documentação idônea, escrituradas em livro-caixa, que serão mantidos em seu poder, a disposição da fiscalização, enquanto não ocorrer a prescrição ou decadência.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art6_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    As deduções de que trata este artigo não poderão exceder à receita mensal da respectiva atividade, permitido o cômputo do excesso de deduções nos meses seguintes, até dezembro, mas o excedente de deduções, porventura existente no final do ano-base, não será transposto para o ano seguinte.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art6_par4">
+            <!--Link: urn:lex:br:federal:lei:1988;7713!art11--><!--Link: urn:lex:br:federal:lei:1989-12-26;7975-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Sem prejuízo do disposto no <span xlink:href="urn:lex:br:federal:lei:1988;7713!art11">art. 11 da Lei n° 7.713, de 1988</span>, e na <span xlink:href="urn:lex:br:federal:lei:1989-12-26;7975">Lei n° 7.975, de 26 de dezembro de 1989</span>, as deduções de que tratam os incisos I a III deste artigo somente serão admitidas em relação aos pagamentos efetuados a partir de 1° de janeiro de 1991.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    Na determinação da base de cálculo sujeita à incidência mensal do imposto de renda, poderão ser deduzidas:
+
+  </p>
+            <Inciso id="art7_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a soma dos valores referidos no art. 6°, observada a vigência estabelecida no § 4° do mesmo artigo;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    as contribuições para a Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    as demais deduções admitidas na legislação em vigor, ressalvado o disposto no artigo seguinte.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art7_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A dedução de que trata o inciso II deste artigo somente será admitida em relação à base de cálculo a ser determinada a partir de janeiro de 1991.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    Na declaração anual (art. 9°), poderão ser deduzidos:
+
+  </p>
+            <Inciso id="art8_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    os pagamentos feitos, no ano-base, a médicos, dentistas, psicólogos, fisioterapeutas, fonoaudiólogos, terapeutas ocupacionais e hospitais, bem como as despesas provenientes de exames laboratoriais e serviços radiológicos;
+
+  </p>
+            
+          </Inciso><Inciso id="art8_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:1960-11-25;3830!art1-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    as contribuições e doações efetuadas a entidades de que trata o <span xlink:href="urn:lex:br:federal:lei:1960-11-25;3830!art1">art. 1° da Lei n° 3.830, de 25 de novembro de 1960</span>, observadas as condições estabelecidas no art. 2° da mesma lei;
+
+  </p>
+            
+          </Inciso><Inciso id="art8_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art260-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    as doações de que trata o <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art260">art. 260 da Lei n° 8.069, de 13 de julho de 1990</span>;
+
+  </p>
+            
+          </Inciso><Inciso id="art8_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    a soma dos valores referidos no art. 7°, observada a vigência estabelecida no parágrafo único do mesmo artigo.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art8_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O disposto no inciso I deste artigo:
+
+  </p>
+            <Alinea id="art8_par1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    aplica-se também aos pagamentos feitos a empresas brasileiras, ou autorizadas a funcionar no País, destinados à cobertura de despesas com hospitalização e cuidados médicos e dentários, e a entidades que assegurem direito de atendimento ou ressarcimento de despesas de natureza médica, odontológica e hospitalar;
+
+  </p>
+            
+          </Alinea><Alinea id="art8_par1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    restringe-se aos pagamentos feitos pelo contribuinte relativo ao seu próprio tratamento e ao de seus dependentes;
+
+  </p>
+            
+          </Alinea><Alinea id="art8_par1_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    é condicionado a que os pagamentos sejam especificados e comprovados, com indicação do nome, endereço e número de inscrição no Cadastro de Pessoas Físicas ou no cadastro de Pessoas Jurídicas, de quem os recebeu, podendo, na falta de documentação, ser feita indicação do cheque nominativo pelo qual foi efetuado o pagamento.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo><Paragrafo id="art8_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Não se incluem entre as deduções de que trata o inciso I deste artigo as despesas cobertas por apólices de seguro ou quando ressarcidas por entidades de qualquer espécie.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    As deduções previstas nos incisos II e III deste artigo estão limitadas, respectivamente, a cinco por cento e dez por cento de todos os rendimentos computados na base de cálculo do imposto, na declaração anual (art. 10, I), diminuídos das despesas mencionadas nos incisos I a III do art. 6° e no inciso II do art. 7°.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8_par4">
+            <!--Link: urn:lex:br:federal:lei:1990-04-12;8023!art7_cpt_inc3-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    A dedução das despesas previstas no <span xlink:href="urn:lex:br:federal:lei:1990-04-12;8023!art7_cpt_inc3">art. 7°, inciso III, da Lei n° 8.023, de 12 de abril de 1990</span>, poderá ser efetuada pelo valor integral, observado o disposto neste artigo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            
+            
+            
+            <p>
+    As pessoas físicas deverão apresentar anualmente declaração de rendimentos, na qual se determinará o saldo do imposto a pagar ou a restituir.
+
+  </p>
+            
+          </Caput><Paragrafo id="art9_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A declaração, em modelo aprovado pelo Departamento da Receita Federal, deverá ser apresentada até o dia vinte e cinco do mês de abril do ano subseqüente ao da percepção dos rendimentos ou ganhos de capital.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>
+    A base de cálculo do imposto, na declaração anual, será a diferença entre as somas dos seguintes valores:
+
+  </p>
+            <Inciso id="art10_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    de todos os rendimentos percebidos pelo contribuinte durante o ano-base, exceto os isentos, os não tributáveis e os tributados exclusivamente na fonte; e
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    das deduções de que trata o art. 8°
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            <p>
+    O saldo do imposto a pagar ou a restituir na declaração anual (art. 9°) será determinado com observância das seguintes normas:
+
+  </p>
+            <Inciso id="art11_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    será apurado o imposto progressivo mediante aplicação da tabela (art. 12) sobre a base de cálculo (art. 10);
+
+  </p>
+            
+          </Inciso><Inciso id="art11_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    será deduzido o valor original, excluída a correção monetária do imposto pago ou retido na fonte durante o ano-base, correspondente a rendimentos incluídos na base de cálculo (art. 10);
+
+  </p>
+            
+          </Inciso><Inciso id="art11_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:1991-12-30;8383-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:1991-12-30;8383">Lei nº 8.383, de 30.12.1991</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art11_par1u">
+            <!--Link: urn:lex:br:federal:lei:1991-12-30;8383-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:1991-12-30;8383">Lei nº 8.383, de 30.12.1991</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            <!--Link: urn:lex:br:federal:lei:1988;7713!art25-->
+            
+            
+            <p>
+    Para fins do ajuste de que trata o artigo anterior, o imposto de renda será calculado mediante aplicação, sobre a base de cálculo (art. 10), de alíquotas progressivas, previstas no <span xlink:href="urn:lex:br:federal:lei:1988;7713!art25">art. 25 da Lei n° 7.713, de 1988</span>, constantes da tabela anual.
+
+  </p>
+            
+          </Caput><Paragrafo id="art12_par1u">
+            <!--Link: urn:lex:br:federal:lei:1988;7713-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A tabela anual de que trata este artigo corresponderá à soma dos valores, em cruzeiros, constantes das doze tabelas mensais de incidência do imposto de renda na fonte (<span xlink:href="urn:lex:br:federal:lei:1988;7713">Lei n° 7.713, de 1988</span>, art. 25), que tiveram vigorado durante o respectivo ano-base.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>
+    O saldo do imposto a pagar ou a restituir (art. 11, III) será convertido em quantidade de BTN pelo valor deste no mês de janeiro do exercício financeiro correspondente.
+
+  </p>
+            
+          </Caput><Paragrafo id="art13_par1">
+            <!--Link: urn:lex:br:federal:lei:1990;8023-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O imposto de renda relativo à atividade rural será apurado, em quantidade de BTN, segundo o disposto na <span xlink:href="urn:lex:br:federal:lei:1990;8023">Lei n° 8.023, de 1990</span>, e será adicionado ao saldo do imposto de que trata este artigo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art13_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Resultando fração na apuração da quantidade de BTN, considerar-se-ão as duas primeiras casas decimais, desprezando-se as outras.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            <p>
+    O saldo do imposto (art. 13) poderá ser pago em até seis quotas iguais, mensais e sucessivas, observado o seguinte:
+
+  </p>
+            <Inciso id="art14_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    nenhuma quota será inferior a trinta e cinco BTN e o imposto de valor inferior a setenta BTN será pago de uma só vez;
+
+  </p>
+            
+          </Inciso><Inciso id="art14_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a primeira quota ou quota única será paga no mês de abril do ano subseqüente ao da percepção dos rendimentos;
+
+  </p>
+            
+          </Inciso><Inciso id="art14_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    as quotas vencerão no dia vinte e cinco de cada mês;
+
+  </p>
+            
+          </Inciso><Inciso id="art14_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    fica facultado ao contribuinte, após o encerramento do ano-base antecipar o pagamento do imposto ou de quotas.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art14_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A quantidade de BTN de que trata este artigo será reconvertida em cruzeiros pelo valor do BTN no mês do pagamento do imposto ou quota.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>
+    Para efeito de cálculo do imposto, os valores, em cruzeiros, constantes das tabelas progressivas mensais, serão somados, relativamente ao número de meses do período abrangido pela tributação, no ano-calendário, nos casos de declaração apresentada:
+
+  </p>
+            <Inciso id="art15_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    em nome do espólio, no exercício em que for homologada a partilha ou feita a adjudicação dos bens;
+
+  </p>
+            
+          </Inciso><Inciso id="art15_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    por contribuinte, residente ou domiciliado no Brasil, no exercício em que se retirar em caráter definitivo do território nacional.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            <!--Link: urn:lex:br:federal:lei:1988;7713!art26--><!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            
+            <p>
+    O imposto de renda previsto no <span xlink:href="urn:lex:br:federal:lei:1988;7713!art26">art. 26 da Lei n° 7.713, de 1988</span>, incidente sobre o décimo terceiro salário (art. 7°, VIII, da <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição</span>), será calculado de acordo com as seguintes normas:
+
+  </p>
+            <Inciso id="art16_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    não haverá retenção na fonte, pelo pagamento de antecipações;
+
+  </p>
+            
+          </Inciso><Inciso id="art16_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    será devido, sobre o valor integral, no mês de sua quitação;
+
+  </p>
+            
+          </Inciso><Inciso id="art16_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    a tributação ocorrerá exclusivamente na fonte e separadamente dos demais rendimentos do beneficiário;
+
+  </p>
+            
+          </Inciso><Inciso id="art16_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    serão admitidas as deduções autorizadas pelo art. 7° desta Lei, observada a vigência estabelecida no parágrafo único do mesmo artigo;
+
+  </p>
+            
+          </Inciso><Inciso id="art16_cpt_inc5">
+            <!--Link: urn:lex:br:federal:lei:1988;7713!art25--><!--Link: urn:lex:br:federal:lei:1989-12-21;7959!art1-->
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    a apuração do imposto far-se-á na forma do <span xlink:href="urn:lex:br:federal:lei:1988;7713!art25">art. 25 da Lei n° 7.713, de 1988</span>, com a alteração procedida pelo <span xlink:href="urn:lex:br:federal:lei:1989-12-21;7959!art1">art. 1° da Lei n° 7.959, de 21 de dezembro de 1989</span>.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            
+            
+            
+            <p>
+    O imposto de renda retido na fonte sobre aplicações financeiras de renda fixa será considerado:
+
+  </p>
+            <Inciso id="art17_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    antecipação do devido na declaração, quando o beneficiário for pessoa jurídica tributada com base no lucro real;
+
+  </p>
+            
+          </Inciso><Inciso id="art17_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    devido exclusivamente na fonte, nos demais casos.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art17_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Aplica-se aos juros produzidos pelas letras hipotecárias emitidas sob a forma exclusivamente escritural ou nominativa não transferível por endosso, o mesmo regime de tributação, pelo Imposto de Renda, dos depósitos de poupança.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            
+            
+            
+            <p>
+    É sujeita ao pagamento do Imposto de Renda, à alíquota de vinte e cinco por cento, a pessoa física que perceber;
+
+  </p>
+            <Inciso id="art18_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:1988;7713!art3_par2--><!--Link: urn:lex:br:federal:lei:1988;7713!art3_par3-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    ganhos de capital na alienação de bens ou direitos de qualquer natureza, de que tratam os <span xlink:href="urn:lex:br:federal:lei:1988;7713!art3_par2">§§ 2°</span> e <span xlink:href="urn:lex:br:federal:lei:1988;7713!art3_par3">3° do art. 3° da Lei n° 7.713, de 1988</span>, observado o disposto no art. 21 da mesma Lei;
+
+  </p>
+            
+          </Inciso><Inciso id="art18_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:1989-07-10;7799!art55--><!--Link: urn:lex:br:federal:lei:1990-04-06;8014-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    ganhos líquidos nas operações realizadas em bolsas de valores, de mercadorias, de futuros e assemelhadas, de que tratam o <span xlink:href="urn:lex:br:federal:lei:1989-07-10;7799!art55">art. 55 da Lei n° 7.799, de 10 de julho de 1989</span>, e a <span xlink:href="urn:lex:br:federal:lei:1990-04-06;8014">Lei n° 8.014, de 6 de abril de 1990</span>.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art18_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O imposto de que trata este artigo deverá ser pago até o último dia útil da primeira quinzena do mês subseqüente ao da percepção dos mencionados ganhos.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art18_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os ganhos a que se referem os incisos I e II deste artigo serão apurados e tributados em separado e não integrarão a base de cálculo do Imposto de Renda, na declaração anual, e o imposto pago não poderá ser deduzido do devido na declaração.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            
+            
+            
+            <p>
+    As pessoas físicas ou jurídicas que efetuarem pagamentos com retenção do Imposto de Renda na fonte deverão fornecer à pessoa física beneficiária, até o dia 28 de fevereiro, documento comprobatório, em duas vias, com indicação da natureza e montante do pagamento, das deduções e do Imposto de Renda retido no ano anterior.
+
+  </p>
+            
+          </Caput><Paragrafo id="art19_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Tratando-se de rendimentos sobre os quais não tenha havido retenção do Imposto de Renda na Fonte, o comprovante de que trata este artigo deverá ser fornecido, no mesmo prazo, ao beneficiário que o tenha solicitado até o dia 31 de janeiro.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As pessoas físicas ou jurídicas que deixarem de fornecer aos beneficiários, dentro do prazo, ou fornecerem com inexatidão, o documento a que se refere este artigo ficarão sujeitas ao pagamento de multa de trinta e cinco BTN por documento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A fonte pagadora que prestar informação falsa sobre pagamento ou imposto retido na fonte será aplicada multa de cento e cinqüenta por cento sobre o valor que for indevidamente utilizado como redução do Imposto de Renda devido, independentemente de outras penalidades administrativas ou criminais cabíveis.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Na mesma penalidade incorrerá aquele que se beneficiar da informação, sabendo da falsidade.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            <!--Link: urn:lex:br:federal:lei:1988;7713!art9--><!--Link: urn:lex:br:federal:lei:1988;7713!art10-->
+            
+            
+            <p>
+    Para efeito de justificar acréscimo patrimonial dos contribuintes a que se referem os <span xlink:href="urn:lex:br:federal:lei:1988;7713!art9">arts. 9°</span> e <span xlink:href="urn:lex:br:federal:lei:1988;7713!art10">10 da Lei n° 7.713, de 1988</span>, somente será considerado o valor correspondente à parcela sobre a qual houver incidido o Imposto de Renda, em cada ano-base.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            <!--Link: urn:lex:br:federal:lei:1988;7713!art8--><!--Link: urn:lex:br:federal:lei:1988;7713!art23-->
+            
+            
+            <p>
+    Para efeito de redução do imposto (art. 11, II) na declaração de rendimentos relativa ao exercício financeiro de 1991, ano-base de 1990, os valores, correspondentes ao imposto, pagos pelo contribuinte nos termos dos <span xlink:href="urn:lex:br:federal:lei:1988;7713!art8">arts. 8°</span> e <span xlink:href="urn:lex:br:federal:lei:1988;7713!art23">23 da Lei n° 7.713, de 1988</span>, serão considerados pelos seus valores originais, excluída a correção monetária.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art22">
+            
+            
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            
+            
+            
+            <p>
+    Os ganhos percebidos pelo contribuinte, no ano-base de 1990, na alienação de bens e direitos e nas operações em bolsas de valores, de mercadorias, de futuros e assemelhadas, não integrarão a base de cálculo do imposto na declaração do exercício financeiro de 1991 e o imposto pago não poderá ser deduzido do devido na declaração.
+
+  </p>
+            
+          </Caput><Paragrafo id="art22_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O contribuinte que não houver efetuado o pagamento do imposto, relativo aos ganhos a que se refere este artigo, deverá adicioná-lo ao apurado na declaração.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art22_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Na hipótese do parágrafo anterior, o imposto deverá ser calculado segundo as normas da legislação vigente na data da ocorrência do fato gerador.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art23">
+            
+            
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            
+            
+            
+            <p>
+    A falta ou insuficiência de pagamento do imposto ou de quota deste, nos prazos fixados nesta Lei, apresentada ou não a declaração, sujeitará o contribuinte às multas e acréscimos previstos na legislação em vigor e a correção monetária com base na variação do valor do BTN.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art24">
+            
+            
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput id="art24_cpt">
+            <!--Link: urn:lex:br:federal:lei:1986-07-02;7505--><!--Link: urn:lex:br:federal:lei:1989-04-14;7752-->
+            
+            
+            <p>
+    A partir do exercício financeiro de 1991, não serão admitidas as deduções, para efeito do Imposto de Renda, previstas nas <span xlink:href="urn:lex:br:federal:lei:1986-07-02;7505">Leis n°s 7.505, de 2 de julho de 1986</span>, e <span xlink:href="urn:lex:br:federal:lei:1989-04-14;7752">7.752, de 14 de abril de 1989</span>.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art25">
+            
+            
+            <Rotulo>Art. 25.</Rotulo>
+            
+            <Caput id="art25_cpt">
+            
+            
+            
+            <p>
+    A partir de 1° de janeiro de 1991, o rendimento real auferido no resgate de quotas de fundos mútuos de ações ou clubes de investimento, constituídos com observância da legislação pertinente, auferido por beneficiário pessoa física e pessoa jurídica não tributada pelo lucro real, inclusive isenta, sujeita-se à tributação exclusiva na fonte à alíquota de vinte e cinco por cento.
+
+  </p>
+            
+          </Caput><Paragrafo id="art25_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Considera-se rendimento real para os fins deste artigo a diferença positiva entre o valor de resgate da quota e o valor médio das aplicações atualizado monetariamente pela variação do BTN Fiscal.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art25_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Em relação às aplicações realizadas pelo quotista, anteriormente a 1° de janeiro de 1991, é facultado considerar com valor médio das aplicações, de que trata o § 1°, o valor ajustado da quota em 31 de dezembro de 1990, para cuja determinação a carteira do fundo de ações ou clube de investimento, naquela data, será valorizada mediante multiplicação da quantidade de ações pelos respectivos preços médios ponderados, calculados com base nas transações realizadas em bolsas de valores no mês de dezembro de 1990.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art25_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O imposto será retido pelo administrador do fundo ou clube de investimento na data do resgate e recolhido na forma e prazos da legislação vigente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art25_par4">
+            <!--Link: urn:lex:br:federal:lei:1989;7799!art55-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Os ganhos líquidos a que se refere o <span xlink:href="urn:lex:br:federal:lei:1989;7799!art55">art. 55 da Lei n° 7.799, de 1989</span>, e o rendimento real das aplicações financeiras de renda fixa, auferidos pelos fundos e clubes de investimento de que trata este artigo, não estão sujeitos à incidência do Imposto de Renda.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art25_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    O disposto no parágrafo anterior aplica-se aos resgates de títulos e aplicações de renda fixa realizados a partir de 1° de janeiro de 1991 e aos ganhos líquidos de operações liquidadas ou encerradas a partir da mesma data.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art26">
+            
+            
+            <Rotulo>Art. 26.</Rotulo>
+            
+            <Caput id="art26_cpt">
+            
+            
+            
+            <p>
+    O disposto no artigo anterior não se aplica:
+
+  </p>
+            <Inciso id="art26_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:1989;7799!art47-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    aos resgates de quotas dos fundos de renda fixa, que continuam tributados na forma do <span xlink:href="urn:lex:br:federal:lei:1989;7799!art47">art. 47 da Lei n° 7.799, de 1989</span>;
+
+  </p>
+            
+          </Inciso><Inciso id="art26_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:1989;7799!art48--><!--Link: urn:lex:br:federal:lei:1989-10-24;7856!art1-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    aos resgates de quotas dos fundos de aplicação de curto prazo, que continuam tributados na forma do <span xlink:href="urn:lex:br:federal:lei:1989;7799!art48">art. 48 da Lei n° 7.799, de 1989</span>, com as alterações do <span xlink:href="urn:lex:br:federal:lei:1989-10-24;7856!art1">art. 1° da Lei n° 7.856, de 24 de outubro de 1989</span>.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art27">
+            
+            
+            <Rotulo>Art. 27.</Rotulo>
+            
+            <Caput id="art27_cpt">
+            
+            
+            
+            <p>
+    Na determinação do ganho líquido de operações realizadas no mercado à vista de bolsas de valores é facultado ao contribuinte, relativamente às ações adquiridas anteriormente a 1° de janeiro de 1991, considerar como custo médio de aquisição o preço médio ponderado da ação no mês de dezembro de 1990, calculado com base nas transações realizadas em bolsas de valores.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art28">
+            
+            
+            <Rotulo>Art. 28.</Rotulo>
+            
+            <Caput id="art28_cpt">
+            
+            
+            
+            <p>
+    O Poder Executivo fica autorizado a estabelecer critério alternativo para a determinação de valores e custos médios, em relação aos constantes dos arts. 25 e 27, quando não ocorrerem transações em bolsa no mês de dezembro de 1990 ou quando as transações não refletirem condições normais de mercado.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art29">
+            
+            
+            <Rotulo>Art. 29.</Rotulo>
+            
+            <Caput id="art29_cpt">
+            <!--Link: urn:lex:br:federal:lei:1990;8023-->
+            
+            
+            <p>
+    Para efeito de determinação do Imposto de Renda da atividade rural, de que trata a <span xlink:href="urn:lex:br:federal:lei:1990;8023">Lei n° 8.023, de 1990</span>, o contribuinte, pessoa física ou jurídica, poderá, excepcionalmente, no exercício financeiro de 1991, ano-base de 1990, reduzir em até quarenta por cento o valor da base de cálculo para a cobrança do tributo.
+
+  </p>
+            
+          </Caput><Paragrafo id="art29_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A parcela de redução que exceder a dez por cento do valor da base de cálculo do imposto será adicionada ao resultado da atividade para compor a base de cálculo do imposto, relativa ao ano-base de 1991, exercício financeiro de 1992.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art30">
+            
+            
+            <Rotulo>Art. 30.</Rotulo>
+            
+            <Caput id="art30_cpt">
+            <!--Link: urn:lex:br:federal:lei:1988;7713!art22_cpt_inc1-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1988;7713!art22_cpt_inc1">inciso I do art. 22 da Lei n° 7.713, de 1988</span>, passa a vigorar com a seguinte redação;
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1988;7713" id="art30_cpt_alt1">              
+              <Inciso xlink:href="art22_cpt_inc1" id="art30_cpt_alt1_art22_cpt_inc1" abreAspas="s" fechaAspas="s">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+     o ganho de capital decorrente da alienação do único imóvel que o titular possua, desde que não tenha realizado outra operação nos últimos cinco anos e o valor da alienação não seja superior ao equivalente a trezentos mil BTN no mês da operação
+
+  </p>
+            
+          </Inciso>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art31">
+            
+            
+            <Rotulo>Art. 31.</Rotulo>
+            
+            <Caput id="art31_cpt">
+            
+            
+            
+            <p>
+    O Poder Executivo promoverá, mediante decreto, a consolidação da legislação relativa ao Imposto de Renda e proventos de qualquer natureza.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art32">
+            
+            
+            <Rotulo>Art. 32.</Rotulo>
+            
+            <Caput id="art32_cpt">
+            
+            
+            
+            <p>
+    Esta Lei entra em vigor na data de sua publicação.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art33">
+            
+            
+            <Rotulo>Art. 33.</Rotulo>
+            
+            <Caput id="art33_cpt">
+            <!--Link: urn:lex:br:federal:lei:1988;7713!art24--><!--Link: urn:lex:br:federal:lei:1988;7713!art28--><!--Link: urn:lex:br:federal:lei:1988;7713!art45--><!--Link: urn:lex:br:federal:lei:1989-07-10;7797!art2_par1u--><!--Link: urn:lex:br:federal:lei:1990;8023!art10_par2--><!--Link: urn:lex:br:federal:lei:1988;7713!art42--><!--Link: urn:lex:br:federal:lei:1988;7713!art14_par1--><!--Link: urn:lex:br:federal:lei:1988;7713!art14_par7--><!--Link: urn:lex:br:federal:lei:1990;8023!art11--><!--Link: urn:lex:br:federal:lei:1989;7799!art55_par5--><!--Link: urn:lex:br:federal:lei:1990;8012!art5--><!--Link: urn:lex:br:federal:lei:1988;7713!art23--><!--Link: urn:lex:br:federal:lei:1988;7713!art29--><!--Link: urn:lex:br:federal:lei:1990;8023!art10_par1--><!--Link: urn:lex:br:federal:lei:1989;7799!art55_par4--><!--Link: urn:lex:br:federal:lei:1989;7959!art5-->
+            
+            
+            <p>
+    Revogam-se o inciso I e os <span xlink:href="urn:lex:br:federal:lei:1988;7713!art14_par1">§§ 1°</span> a <span xlink:href="urn:lex:br:federal:lei:1988;7713!art14_par7">7° do art. 14</span>, <span xlink:href="urn:lex:br:federal:lei:1988;7713!art23">os arts. 23</span>, <span xlink:href="urn:lex:br:federal:lei:1988;7713!art24">24</span>, <span xlink:href="urn:lex:br:federal:lei:1988;7713!art28">28</span>, <span xlink:href="urn:lex:br:federal:lei:1988;7713!art29">29</span>, <span xlink:href="urn:lex:br:federal:lei:1988;7713!art42">42</span> e <span xlink:href="urn:lex:br:federal:lei:1988;7713!art45">45 da Lei n° 7.713, de 1988</span>, o <span xlink:href="urn:lex:br:federal:lei:1989-07-10;7797!art2_par1u">parágrafo único do art. 2° da Lei n° 7.797, de 10 de julho de 1989</span>, os <span xlink:href="urn:lex:br:federal:lei:1989;7799!art55_par4">§§ 4°</span> e <span xlink:href="urn:lex:br:federal:lei:1989;7799!art55_par5">5° do art. 55 da Lei n° 7.799, de 1989</span>, o <span xlink:href="urn:lex:br:federal:lei:1989;7959!art5">art. 5° da Lei n° 7.959, de 1989</span>, o <span xlink:href="urn:lex:br:federal:lei:1990;8012!art5">art. 5° da Lei n° 8.012, de 1990</span>, os <span xlink:href="urn:lex:br:federal:lei:1990;8023!art10_par1">§§ 1°</span> e <span xlink:href="urn:lex:br:federal:lei:1990;8023!art10_par2">2° do art. 10</span> e o <span xlink:href="urn:lex:br:federal:lei:1990;8023!art11">art. 11 da Lei n° 8.023, de 1990</span>, e demais disposições em contrário.
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Senado Federal, 27 de dezembro de 1990; 169° da Independência e 102° da República.</p></LocalDataFecho><Assinatura><NomePessoa>NELSON CARNEIRO</NomePessoa><NomePessoa>Presidente</NomePessoa></Assinatura></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>

@@ -1,0 +1,184 @@
+<LexML xmlns="http://www.lexml.gov.br/1.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <Metadado>
+    <Identificacao URN="urn:lex:br:federal:resolucao.tse:2006-05-23;22205"/>
+    <MetadadoProprietario fonte="http://www.lexml.gov.br/nonstat">
+      <campo nome="Ementa">Regulamenta a Lei nº 11.300, de 10 de maio de</campo>
+    </MetadadoProprietario>
+  </Metadado>
+  <DocumentoGenerico>
+    <PartePrincipal id="pp1">
+      <Agrupamento id="pp1_agr1" nome="epigrafe">
+        <p>RESOLUÇÃO TSE Nº 22.205.</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agr2" nome="preliminar">
+        <p>Relator Ministro Gerardo Grossi.</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agr3" nome="ementa">
+        <p>Ementa:Regulamenta a Lei nº 11.300, de 10 de maio de</p>
+        <p>2006, que dispõe sobre propaganda, financiamento e</p>
+        <p>prestação de contas das despesas com campanhas</p>
+        <p>eleitorais, alterando a <Remissao xlink:href="urn:lex:br:federal:lei:1997-09-30;9504">Lei nº 9.504, de 30 de setembro de 1997</Remissao>.</p>
+        <p>O Tribunal Superior Eleitoral, usando das atribuições que lhe</p>
+        <p>confere o <Remissao xlink:href="urn:lex:br:federal:lei:2006-05-10;11300!art2">artigo 2º da Lei nº 11.300, de 10 de maio de 2006</Remissao>, e</p>
+        <p>Considerando a necessidade de exame da constitucionalidade</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agr4" nome="texto">
+        <p>das normas aplicáveis às eleições,</p>
+        <p>Considerando que o <Remissao xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art16">art. 16 da Constituição Federal</Remissao> não se</p>
+        <p>dirige à edição de normas que não afetem o processo eleitoral,</p>
+        <p>Considerando, por fim, os vetos aos artigos 40-A, 54, 90-A e</p>
+        <p>94-B, ainda não apreciados pelo Congresso Nacional, e dada a necessidade de regulamentar, com a devida celeridade, a matéria visando ao pleito de 1º de outubro de 2006,</p>
+        <p>Resolve serem aplicáveis às eleições de 2006 os seguintes</p>
+        <p>dispositivos da <Remissao xlink:href="urn:lex:br:federal:lei:2006-05-10;11300">Lei nº 11.300, de 10 de maio de 2006</Remissao>:</p>
+        <p class="quote">“Art. 21. O candidato é solidariamente responsável com a</p>
+        <p class="quote">pessoa indicada na forma do art. 20 desta Lei pela veracidade das</p>
+        <p class="quote">informações financeiras e contábeis de sua campanha, devendo ambos</p>
+        <p class="quote">assinar a respectiva prestação de contas.</p>
+        <p class="quote">Art. 22. [...]</p>
+        <p class="omissis">[...]</p>
+        <p class="quote">§ 3º O uso de recursos financeiros para pagamentos de gastos</p>
+        <p class="quote">eleitorais que não provenham da conta específica de que trata o caputdeste artigo implicará a desaprovação da prestação de contas do</p>
+        <p class="quote">partido ou candidato; comprovado abuso de poder econômico, será</p>
+        <p class="quote">cancelado o registro da candidatura ou cassado o diploma, se já</p>
+        <p class="quote">houver sido outorgado.</p>
+        <p class="quote">§ 4º Rejeitadas as contas, a Justiça Eleitoral remeterá cópia</p>
+        <p class="quote">de todo o processo ao Ministério Público Eleitoral para os fins previstos no art. 22 da Lei Complementar nº 64, de 18 de maio de</p>
+        <p class="quote">1990.</p>
+        <p class="quote">Art. 23. [...]</p>
+        <p class="omissis">[...]</p>
+        <p class="quote">§ 4º As doações de recursos financeiros somente poderão ser</p>
+        <p class="quote">efetuadas na conta mencionada no art. 22 desta Lei por meio de:</p>
+        <p class="quote">I - cheques cruzados e nominais ou transferência eletrônica</p>
+        <p class="quote">de depósitos;</p>
+        <p class="quote">II - depósitos em espécie devidamente identificados até o</p>
+        <p class="quote">limite fixado no inciso I do § 1º deste artigo.</p>
+        <p class="quote">§ 5º Ficam vedadas quaisquer doações em dinheiro, bem</p>
+        <p class="quote">como de troféus, prêmios, ajudas de qualquer espécie feitas por candidato, entre o registro e a eleição, a pessoas físicas ou jurídicas.</p>
+        <p class="quote">Art. 24. [...]</p>
+        <p class="omissis">[...]</p>
+        <p class="quote">VIII - entidades beneficentes e religiosas;</p>
+        <p class="quote">IX - entidades esportivas que recebam recursos públicos;</p>
+      </Agrupamento>
+      <AgrupamentoHierarquico id="pp1_agh1" nome="inciso">
+        <Rotulo>X -</Rotulo>
+        <NomeAgrupador>organizações não-governamentais que recebam recursos</NomeAgrupador>
+        <Bloco nome="ordem">0</Bloco>
+        <Agrupamento id="pp1_agh1_txt1" nome="texto">
+          <p>públicos;</p>
+        </Agrupamento>
+      </AgrupamentoHierarquico>
+      <AgrupamentoHierarquico id="pp1_agh2" nome="inciso">
+        <Rotulo>XI -</Rotulo>
+        <Bloco nome="ordem">1</Bloco>
+        <Agrupamento id="pp1_agh2_txt1" nome="texto">
+          <p>organizações da sociedade civil de interesse público.</p>
+          <p class="omissis">[...]</p>
+          <p class="quote">Art. 26. São considerados gastos eleitorais, sujeitos a registro</p>
+          <p class="quote">e aos limites fixados nesta Lei:</p>
+          <p class="omissis">[...]</p>
+          <p class="quote">IV - despesas com transporte ou deslocamento de candidato</p>
+          <p class="quote">e de pessoal a serviço das candidaturas;</p>
+          <p class="omissis">[...]</p>
+          <p class="quote">IX - a realização de comícios ou eventos destinados à promoção de candidatura;</p>
+          <p class="omissis">[...]</p>
+          <p class="quote">XVII - produção de jingles, vinhetas e slogans para propaganda eleitoral.</p>
+          <p class="omissis">[...]</p>
+          <p class="quote">Art. 28. [...]</p>
+          <p class="omissis">[...]</p>
+          <p class="quote">§ 4º Os partidos políticos, as coligações e os candidatos são</p>
+          <p class="quote">obrigados, durante a campanha eleitoral, a divulgar, pela rede mundial</p>
+          <p class="quote">de computadores (Internet), nos dias 6 de agosto e 6 de setembro,</p>
+          <p class="quote">relatório discriminando os recursos em dinheiro ou estimáveis em</p>
+          <p class="quote">dinheiro que tenham recebido para financiamento da campanha eleitoral, e os gastos que realizarem, em sítio criado pela Justiça Eleitoral</p>
+          <p class="quote">para esse fim, exigindo-se a indicação dos nomes dos doadores e os</p>
+          <p class="quote">respectivos valores doados somente na prestação de contas final de</p>
+          <p class="quote">que tratam os incisos III e IV do art. 29 desta Lei.</p>
+          <p class="omissis">[...]</p>
+          <p class="quote">Art. 30. [...]</p>
+          <p class="quote">§ 1º A decisão que julgar as contas dos candidatos eleitos</p>
+          <p class="quote">será publicada em sessão até 8 (oito) dias antes da diplomação.</p>
+          <p class="omissis">[...]</p>
+          <p class="quote">Art. 30-A. Qualquer partido político ou coligação poderá</p>
+          <p class="quote">representar à Justiça Eleitoral relatando fatos e indicando provas e</p>
+          <p class="quote">pedir a abertura de investigação judicial para apurar condutas em</p>
+          <p class="quote">desacordo com as normas desta Lei, relativas à arrecadação e gastos</p>
+          <p class="quote">de recursos.</p>
+          <p class="quote">§ 1º Na apuração de que trata este artigo, aplicar-se-á o</p>
+          <p class="quote">procedimento previsto no art. 22 da Lei Complementar nº 64, de 18</p>
+          <p class="quote">de maio de 1990, no que couber.</p>
+          <p class="quote">§ 2º Comprovados captação ou gastos ilícitos de recursos,</p>
+          <p class="quote">para fins eleitorais, será negado diploma ao candidato, ou cassado, se</p>
+          <p class="quote">já houver sido outorgado.</p>
+          <p class="omissis">[...]</p>
+          <p class="quote">Art. 37. Nos bens cujo uso dependa de cessão ou permissão</p>
+          <p class="quote">do Poder Público, ou que a ele pertençam, e nos de uso comum,</p>
+          <p class="quote">inclusive postes de iluminação pública e sinalização de tráfego, viadutos, passarelas, pontes, paradas de ônibus e outros equipamentos</p>
+          <p class="quote">urbanos, é vedada a veiculação de propaganda de qualquer natureza,</p>
+          <p class="quote">inclusive pichação, inscrição a tinta, fixação de placas, estandartes,</p>
+          <p class="quote">faixas e assemelhados.</p>
+          <p class="quote">§ 1º A veiculação de propaganda em desacordo com o disposto no caput deste artigo sujeita o responsável, após a notificação e</p>
+          <p class="quote">comprovação, à restauração do bem e, caso não cumprida no prazo, à</p>
+          <p class="quote">multa no valor de R$ 2.000,00 (dois mil reais) a R$ 8.000,00 (oito</p>
+          <p class="quote">mil reais).</p>
+          <p class="omissis">[...]</p>
+          <p class="quote">Art. 39. [...]</p>
+          <p class="omissis">[...]</p>
+          <p class="quote">§ 4º A realização de comícios e a utilização de aparelhagem</p>
+          <p class="quote">de sonorização fixa são permitidas no horário compreendido entre as</p>
+          <p class="quote">8 (oito) e as 24 (vinte e quatro) horas.</p>
+          <p class="quote">§ 5º [...]</p>
+          <p class="omissis">[...]</p>
+          <p class="quote">II - A arregimentação de eleitor ou a propaganda de boca de</p>
+          <p class="quote">urna;</p>
+          <p class="quote">III - A divulgação de qualquer espécie de propaganda de</p>
+          <p class="quote">partidos políticos ou de seus candidatos, mediante publicações, cartazes, camisas, bonés, broches ou dísticos em vestuário.</p>
+          <p class="quote">§ 6º É vedada na campanha eleitoral a confecção, utilização,</p>
+          <p class="quote">distribuição por comitê, candidato, ou com a sua autorização, de</p>
+          <p class="quote">camisetas, chaveiros, bonés, canetas, brindes, cestas básicas ou quaisquer outros bens ou materiais que possam proporcionar vantagem ao</p>
+          <p class="quote">e l e i t o r.</p>
+          <p class="quote">§ 7º É proibida a realização de showmício e de evento assemelhado para promoção de candidatos, bem como a apresentação,</p>
+          <p class="quote">remunerada ou não, de artistas com a finalidade de animar comício e</p>
+          <p class="quote">reunião eleitoral.</p>
+          <p class="quote">§ 8º É vedada a propaganda eleitoral mediante outdoors,</p>
+          <p class="quote">sujeitando-se a empresa responsável, os partidos, coligações e candidatos à imediata retirada da propaganda irregular e ao pagamento de</p>
+          <p class="quote">multa no valor de 5.000 (cinco mil) a 15.000 (quinze mil) Ufirs.</p>
+          <p class="omissis">[...]</p>
+          <p class="quote">Art. 43. É permitida, até a antevéspera das eleições, a divulgação paga, na imprensa escrita, de propaganda eleitoral, no espaço máximo, por edição, para cada candidato, partido ou coligação,</p>
+          <p class="quote">de um oitavo de página de jornal padrão e um quarto de página de</p>
+          <p class="quote">revista ou tablóide.</p>
+          <p class="quote">Parágrafo único. A inobservância do disposto neste artigo</p>
+          <p class="quote">sujeita os responsáveis pelos veículos de divulgação e os partidos,</p>
+          <p class="quote">coligações ou candidatos beneficiados a multa no valor de</p>
+          <p class="quote">R$1.000,00 (mil reais) a R$10.000,00 (dez mil reais) ou equivalente</p>
+          <p class="quote">ao da divulgação da propaganda paga, se este for maior.</p>
+          <p class="omissis">[...]</p>
+          <p class="quote">Art. 45. [...]</p>
+          <p class="omissis">[...]</p>
+          <p class="quote">§ 1º A partir do resultado da convenção, é vedado, ainda, às</p>
+          <p class="quote">emissoras transmitir programa apresentado ou comentado por candidato escolhido em convenção.</p>
+          <p class="omissis">[...]</p>
+          <p class="quote">Art. 73. [...]</p>
+          <p class="omissis">[...]</p>
+          <p class="quote">§ 10. No ano em que se realizar eleição, fica proibida a</p>
+          <p class="quote">distribuição gratuita de bens, valores ou benefícios por parte da Administração Pública, exceto nos casos de calamidade pública, de estado de emergência ou de programas sociais autorizados em lei e já</p>
+          <p class="quote">em execução orçamentária no exercício anterior, casos em que o</p>
+          <p class="quote">Ministério Público poderá promover o acompanhamento de sua execução financeira e administrativa.</p>
+          <p class="omissis">[...]</p>
+          <p class="quote">Art. 94-A. Os órgãos e entidades da Administração Pública</p>
+          <p class="quote">direta e indireta poderão, quando solicitados, em casos específicos e</p>
+          <p class="quote">de forma motivada, pelos Tribunais Eleitorais:</p>
+          <p class="quote">I - fornecer informações na área de sua competência;</p>
+          <p class="quote">II - ceder funcionários no período de 3 (três) meses antes a 3</p>
+          <p class="quote">(três) meses depois de cada eleição”.</p>
+          <p class="quote">Esta Resolução entrará em vigor na data de sua publicação.</p>
+          <p class="quote">Marco Aurélio - Presidente. Gerardo Grossi - Relator. Cezar</p>
+          <p class="quote">Peluso. Carlos Ayres Britto. Cesar Asfor Rocha. José Delgado. Caputo Bastos.</p>
+          <p class="quote">Sala de Sessões do Tribunal Superior Eleitoral.</p>
+        </Agrupamento>
+      </AgrupamentoHierarquico>
+      <Agrupamento id="pp1_agrf1" nome="localDataFecho">
+        <p>Brasília, 23 de maio de 2006.</p>
+      </Agrupamento>
+    </PartePrincipal>
+  </DocumentoGenerico>
+</LexML>

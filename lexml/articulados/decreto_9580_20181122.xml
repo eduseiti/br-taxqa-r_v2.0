@@ -1,0 +1,96 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:decreto:2018-11-22;9580"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">DECRETO Nº 9.580, DE 22 DE NOVEMBRO DE 2018 </Epigrafe>
+		  <Ementa id="ementa">Regulamenta a tributação, a fiscalização, a arrecadação e a administração do Imposto sobre a Renda e Proventos de Qualquer Natureza.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA , no uso da atribuição que lhe confere o art. 84, caput , inciso IV, da Constituição, e tendo em vista o disposto nas leis do Imposto sobre a Renda e Proventos de Qualquer Natureza,
+  </p><p>
+    DECRETA:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    Fica aprovado o Regulamento do Imposto sobre a Renda e Proventos de Qualquer Natureza, anexo a este Decreto.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    O Imposto sobre a Renda e Proventos de Qualquer Natureza será cobrado, fiscalizado, arrecadado e administrado em conformidade com o disposto neste Regulamento.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    Este Regulamento consolida a legislação referente ao Imposto sobre a Renda e Proventos de Qualquer Natureza publicada até 31 de dezembro de 2016.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            <!--Link: urn:lex:br:federal:decreto:1999-03-26;3000-->
+            
+            
+            <p>
+    Fica revogado o <span xlink:href="urn:lex:br:federal:decreto:1999-03-26;3000">Decreto nº 3.000, de 26 de março de 1999</span> .
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    Este Decreto entra em vigor na data de sua publicação.
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 22 de novembro de 2018; 197º da Independência e 130º da República.</p></LocalDataFecho><Assinatura><NomePessoa>MICHEL TEMER</NomePessoa><NomePessoa>Eduardo Refinetti Guardia</NomePessoa><NomePessoa>Este texto não substitui o publicado no DOU de 23.11.2018</NomePessoa></Assinatura></ParteFinal>
+          <Anexos><ReferenciaAnexo AlvoURN="urn:lex:br:federal:decreto:2018-11-22;9580!anexo1"/></Anexos>
+        </Norma></ProjetoNorma>
+    </LexML>

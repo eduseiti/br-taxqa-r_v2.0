@@ -1,0 +1,2724 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:1972-10-10;5809"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">LEI Nº 5.809, DE 10 DE OUTUBRO DE 1972 </Epigrafe>
+		  <Ementa id="ementa">Dispõe sobre a retribuição e direitos do pessoal civil e militar em serviço da União no exterior, e dá outras providências.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA,
+  </p><p>
+    Faço saber que o CONGRESSO NACIONAL decreta e eu sanciono a Lei:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Capitulo id="cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DISPOSIÇÕES PRELIMINARES
+
+  </NomeAgrupador>
+            <Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            
+            <p>
+    Esta Lei regula a retribuição no exterior e dispõe sobre outros direitos dos servidores públicos e dos militares, em serviço da União no exterior. (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art1_par1">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Considera-se servidor, para os efeitos desta Lei, o servidor público, o empregado público e o militar das Forças Armadas. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art1_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O disposto nesta Lei se aplica:
+
+  </p>
+            <Alinea id="art1_par2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    aos servidores da Administração Federal Direta, regidos pela legislação trabalhista, da Administração Federal Indireta e das Fundações sob supervisão ministerial;
+
+  </p>
+            
+          </Alinea><Alinea id="art1_par2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    aos servidores do Poder Legislativo, do Poder Judiciário e do Tribunal de Contas da União;
+
+  </p>
+            
+          </Alinea><Alinea id="art1_par2_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    no que couber, aos servidores do Distrito Federal, dos Estados e dos Municípios, bem como às pessoas sem vínculo com o serviço público, designados pelo Presidente da República.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo><Paragrafo id="art1_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Os servidores de Empresa Pública e de Sociedade de Economia Mista são excluídos das disposições do § 2º, quando em serviço específico do órgão no exterior.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art1_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    É vedado ao pessoal referido nos parágrafos 1º e 2º deste artigo o pagamento, pelos cofres públicos, por motivo de serviço da União no exterior, de qualquer forma de retribuição, remuneração e outras vantagens ou indenizações não previstas nesta Lei.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art1_par5">
+            <!--Link: urn:lex:br:federal:lei:2004-08-12;10937-->
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    A tropa brasileira em missão de paz, definida como sendo os militares das Forças Armadas e os militares dos Estados, Distrito Federal e dos Territórios integrantes de contingente armado de força multinacional empregado em operações de paz, reunidos em módulo de emprego operacional, com comando único, empregada no exterior, em cumprimento de compromissos assumidos pelo Brasil como membro de organismo internacional ou em virtude de tratados, convenções, acordos, resoluções de consulta, planos de defesa, ou quaisquer outros entendimentos diplomáticos ou militares, autorizados pelo Congresso Nacional, terá sua remuneração fixada em legislação específica. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2004-08-12;10937">Lei nº 10.937, de 12.8.2004</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    Considera-se sede no exterior:
+
+  </p>
+            <Inciso id="art2_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    no caso dos servidores do Ministério das Relações Exteriores, diplomatas ou não, e dos Adidos Militares e seus Adjuntos ou auxiliares, a cidade onde está localizada a sede da missão diplomática ou da repartição consular de sua lotação;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    nas comissões exercidas a bordo, o navio; e
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    nos demais casos, a cidade, o município ou unidade correspondente da divisão territorial político-administrativa do país em que se situa a organização para a qual haja sido nomeado ou designado o servidor.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    O servidor em serviço no exterior - assim considerado aquele que se encontra em missão fora do País por ter sido nomeado ou designado para o desempenho ou exercício de cargo, função ou atividade no exterior - pode ser enquadrado em uma das seguintes missões ou atividades:
+
+  </p>
+            <Inciso id="art3_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    quanto ao tipo:
+
+  </p>
+            <Alinea id="art3_cpt_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    missão permanente;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    missão transitória; e
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_inc1_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    missão eventual.
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art3_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    quanto à natureza:
+
+  </p>
+            <Alinea id="art3_cpt_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    diplomática;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    militar; e
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_inc2_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    administrativa.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    Considera-se permanente a missão na qual o servidor deve permanecer em serviço, no exterior, por prazo igual ou superior a 2 (dois) anos, em missão diplomática, em repartição consular ou em outra organização, militar ou civil, no desempenho ou exercício de cargo, função ou atividade, considerados permanentes em decreto do Poder Executivo.
+
+  </p>
+            
+          </Caput><Paragrafo id="art4_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A designação para o exercício de missão permanente determina:
+
+  </p>
+            <Alinea id="art4_par1u_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    a mudança de sede, do País para o exterior, ou de uma para outra sede no exterior; e
+
+  </p>
+            
+          </Alinea><Alinea id="art4_par1u_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    para o servidor do Ministério das Relações Exteriores, também a alteração de sua lotação.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    Reputa-se transitória a missão na qual o servidor tem de permanecer em serviço no exterior, com ou sem mudança de sede, em uma das seguintes situações:
+
+  </p>
+            <Inciso id="art5_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    designado para o exercício, em caráter provisório de missão considerada permanente;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    professor, assessor, instrutor ou monitor, por prazo inferior a 2 (dois) anos, em estabelecimento de ensino ou técnico-científico e, por qualquer prazo, estagiário ou aluno naqueles estabelecimentos ou organizações industriais;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    participante de viagem ou cruzeiro de instrução;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    em missão de representação, de observação ou em organismo ou reuniões internacionais;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    comandante ou integrante de tripulação, contingente ou força, em missão operativa ou de adestramento, em país estrangeiro; e
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    em encargos especiais.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art5_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A missão transitória, com mudança de sede, pode ser:
+
+  </p>
+            <Alinea id="art5_par1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    igual ou superior a 6 (seis) meses;
+
+  </p>
+            
+          </Alinea><Alinea id="art5_par1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    inferior a 6 (seis) meses e superior ou igual a 3 (três) meses; e
+
+  </p>
+            
+          </Alinea><Alinea id="art5_par1_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    inferior a 3 (três) meses.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo><Paragrafo id="art5_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As missões transitórias, sem mudança de sede, têm duração variável e, em princípio, inferior a 1 (um) ano.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    É eventual a missão na qual o servidor tem de permanecer em serviço, no exterior, em uma das seguintes situações, por período limitado a 90 (noventa) dias, sem mudança de sede ou alteração de sua lotação, sejam estas em território nacional, no exterior ou em navio:
+
+  </p>
+            <Inciso id="art6_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Designado para o exercício, em caráter provisório, de missão considerada permanente ou transitória;
+
+  </p>
+            
+          </Inciso><Inciso id="art6_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Membro de delegação de comitiva ou de representação oficial;
+
+  </p>
+            
+          </Inciso><Inciso id="art6_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Em missão de representação, de observação ou em organismo ou reuniões internacionais;
+
+  </p>
+            
+          </Inciso><Inciso id="art6_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    Comandante ou integrante de tripulação, contingente ou força, em missão operativa ou de adestramento, em país estrangeiro;
+
+  </p>
+            
+          </Inciso><Inciso id="art6_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    Em serviço especial de natureza diplomática, administrativa ou militar; e
+
+  </p>
+            
+          </Inciso><Inciso id="art6_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    Em encargos especiais.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DA RETRIBUIÇÃO NO EXTERIOR
+
+  </NomeAgrupador>
+            <Secao id="cap2_sec1">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Da <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição</span> e do Pagamento da Retribuição no Exterior
+
+  </NomeAgrupador>
+            <Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            
+            <p>
+    Considera-se retribuição no exterior o vencimento de cargo efetivo para o servidor público ou o soldo para o militar, acrescido da gratificação e das indenizações previstas nesta Lei. (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art7_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    No caso de servidor regido pela legislação trabalhista, considera-se retribuição no exterior o salário, acrescido das indenizações e, se for o caso, da gratificação, previstas nesta Lei.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art7_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Salvo os casos previstos nesta Lei, a retribuição no exterior:
+
+  </p>
+            <Inciso id="art7_par2_inc1">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    é fixada e paga em moeda estrangeira; e (Alínea “a” transformada em inciso e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art7_par2_inc2">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    elimina o direito do servidor à percepção de subsídio, vencimento, salário, soldo e quaisquer indenizações ou vantagens, em moeda nacional, que lhe possam ser devidos relativamente ao período em que fizer jus àquela retribuição. (Alínea “b” transformada em inciso e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    A retribuição no exterior é constituída de:
+
+  </p>
+            <Inciso id="art8_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Retribuição Básica; Vencimento ou Salário, no Exterior, para o servidor civil, e Soldo no Exterior, para o militar;
+
+  </p>
+            
+          </Inciso><Inciso id="art8_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Gratificação: Gratificação no Exterior por Tempo de Serviço;
+
+  </p>
+            
+          </Inciso><Inciso id="art8_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Indenizações:
+
+  </p>
+            <Alinea id="art8_cpt_inc3_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    Indenização de Representação no Exterior;
+
+  </p>
+            
+          </Alinea><Alinea id="art8_cpt_inc3_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    Auxílio-Familiar;
+
+  </p>
+            
+          </Alinea><Alinea id="art8_cpt_inc3_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    Ajuda de Custo de Exterior;
+
+  </p>
+            
+          </Alinea><Alinea id="art8_cpt_inc3_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    Diárias no Exterior; e
+
+  </p>
+            
+          </Alinea><Alinea id="art8_cpt_inc3_ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    Auxílio-Funeral no Exterior.
+
+  </p>
+            
+          </Alinea><Alinea id="art8_cpt_inc3_ali6">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    Auxílio-Moradia no Exterior; (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art8_cpt_inc4">
+            <!--Link: urn:lex:br:federal:lei:1989-07-10;7795-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    décimo terceiro salário com base na retribuição integral; (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:1989-07-10;7795">Lei nº 7.795, de 10.7.1989</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art8_cpt_inc5">
+            <!--Link: urn:lex:br:federal:lei:1989-07-10;7795-->
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    acréscimo de 1/3 (um terço) da retribuição na remuneração do mês em que gozar férias. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:1989-07-10;7795">Lei nº 7.795, de 10.7.1989</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art8_par1u">
+            <!--Link: urn:lex:br:federal:lei:1989-07-10;7795-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Aplica-se no caso dos incisos IV e V a legislação específica, no Brasil, para o pagamento daqueles valores. (Parágrafo único acrescido pela <span xlink:href="urn:lex:br:federal:lei:1989-07-10;7795">Lei nº 7.795, de 10.7.1989</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>, em vigor em 1.8.2016)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>
+    O direito do servidor à retribuição no exterior se inicia na data do embarque para o exterior e cessa na data do desligamento de sua sede no exterior ou da partida da última localidade no exterior, relacionada com sua missão.
+
+  </p>
+            
+          </Caput><Paragrafo id="art10_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As datas de partida e de desligamento são determinadas ou aprovadas, conforme o caso, pela autoridade competente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O pagamento da retribuição no exterior não se interrompe:
+
+  </p>
+            <Alinea id="art10_par2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    quando se tratar de missão permanente, em virtude de viagem ao Brasil a serviço, em férias, por motivo de núpcias, luto ou de licença para tratamento de saúde até 90 (noventa) dias e, para a funcionária pública, licença para gestante, e
+
+  </p>
+            
+          </Alinea><Alinea id="art10_par2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    quando se tratar de missão transitória, em virtude de viagem ao Brasil a serviço.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo>
+          </Artigo><Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            <p>
+    O servidor em serviço no exterior, em missão eventual, continua a perceber a retribuição ou remuneração a que faz jus, em moeda nacional ou estrangeira, conforme o caso, na organização civil ou militar a que pertence.
+
+  </p>
+            
+          </Caput><Paragrafo id="art11_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Cabe, ainda, ao servidor, o direito ao transporte e a diárias no exterior, na forma desta Lei.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            
+            
+            
+            <p>
+    Em casos especiais, o servidor pode ser designado para missão transitória, sem mudança de sede para o exterior, de duração até 60 (sessenta) dias, sem direito à retribuição no exterior.
+
+  </p>
+            
+          </Caput><Paragrafo id="art12_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Na hipótese deste artigo, o servidor recebe em moeda nacional:
+
+  </p>
+            <Alinea id="art12_par1u_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    retribuição ou remuneração e demais vantagens a que faz jus;
+
+  </p>
+            
+          </Alinea><Alinea id="art12_par1u_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    indenização diária em valor equivalente ao de uma diária de alimentação devida no País, além da alimentação e pousada que for assegurada pela União;
+
+  </p>
+            
+          </Alinea><Alinea id="art12_par1u_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    ajuda de custo correspondente a 1 (um) mês de vencimento, salário ou soldo, no País, quando em missão de representação, decorrente de compromissos internacionais.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap2_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Do Vencimento ou Salário e do Soldo, no Exterior
+
+  </NomeAgrupador>
+            <Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>
+    Vencimento, Salário ou Soldo, no Exterior, é a retribuição básica mensal devida ao servidor em serviço no exterior, em missão permanente, ou transitória, obedecido seu nível ou grau hierárquico.
+
+  </p>
+            
+          </Caput><Paragrafo id="art13_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Aplicam-se ao vencimento e ao soldo no exterior as disposições legais e peculiares ao servidor quanto à penhora, seqüestro e arresto, suspensão temporária ou cessação de direito previstas para o vencimento ou soldo, no País.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            <p>
+    O vencimento, salário ou soldo no exterior são calculados com base nas tabelas de Escalonamento Vertical da Retribuição Básica e de Fatores de Conversão da Retribuição Básica, constantes dos Anexos I e II desta Lei.
+
+  </p>
+            
+          </Caput><Paragrafo id="art14_par1u">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O valor do vencimento, salário ou soldo de que trata o caput é encontrado multiplicando-se o índice da retribuição básica correspondente ao nível hierárquico de cada cargo ou carreira, previsto no Anexo I desta Lei, pelo fator de conversão da retribuição básica, expresso em unidades da moeda padrão utilizada nas transações financeiras internacionais do governo brasileiro, na forma do Anexo II desta Lei. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art14-1">
+            
+            
+            <Rotulo>Art. 14-A.</Rotulo>
+            
+            <Caput id="art14-1_cpt">
+            
+            
+            
+            <p>
+    Na hipótese de a tabela de Fatores de Conversão da Retribuição Básica, constante do Anexo II desta Lei, não indicar fator de conversão para a sede do servidor, será adotado o fator de conversão atribuído à localidade no território do país que esteja assinalado na tabela como fator de conversão geral.
+
+  </p>
+            
+          </Caput><Paragrafo id="art14-1_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Caso não exista indicação de fator de conversão geral na tabela constante do Anexo II desta Lei, será adotado o fator de conversão previsto para a capital do país onde se localiza a sede do servidor.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art14-1_par2">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2022-12-16;1146--><!--Link: urn:lex:br:federal:lei:2023-05-04;14566-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Caso não exista indicação de fator de conversão geral nem fator de conversão para a capital do país na tabela constante do Anexo II desta Lei, será aplicado o fator de conversão de 96,72 (noventa e seis inteiros e setenta e dois centésimos). (Artigo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-12-16;1146">Medida Provisória nº 1.146, de 16.12.2022</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2023-05-04;14566">Lei nº 14.566, de 4.5.2023</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap2_sec3">
+            
+            
+            <Rotulo>Seção III</Rotulo>
+            <NomeAgrupador>
+    Da Gratificação no Exterior por Tempo de Serviço
+
+  </NomeAgrupador>
+            <Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>
+    Gratificação no Exterior por Tempo de Serviço é o quantitativo devido ao servidor em serviço no exterior, em missão permanente ou transitória, por anos de efetivo serviço prestado, já computados na forma da legislação pertinente.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap2_sec4">
+            
+            
+            <Rotulo>Seção IV</Rotulo>
+            <NomeAgrupador>
+    Da Indenização de Representação no Exterior
+
+  </NomeAgrupador>
+            <Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            
+            
+            
+            <p>
+    Indenização de Representação no Exterior é o quantitativo devido ao servidor em serviço no exterior, em missão permanente ou transitória, destinado a compensar as despesas inerentes à missão de forma compatível com suas responsabilidades e encargos.
+
+  </p>
+            
+          </Caput><Paragrafo id="art16_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O valor dessa indenização é calculado com base em índices e fatores de conversão variáveis, estabelecidos em razão:
+
+  </p>
+            <Alinea id="art16_par1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    do grau de representatividade da missão;
+
+  </p>
+            
+          </Alinea><Alinea id="art16_par1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    do tipo e natureza da missão;
+
+  </p>
+            
+          </Alinea><Alinea id="art16_par1_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    da correspondênda entre cargos, missões e funções;
+
+  </p>
+            
+          </Alinea><Alinea id="art16_par1_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    da hierarquia funcional ou militar;
+
+  </p>
+            
+          </Alinea><Alinea id="art16_par1_ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    do custo de vida local;
+
+  </p>
+            
+          </Alinea><Alinea id="art16_par1_ali6">
+            
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    das condições peculiares de vida da sede no exterior; e
+
+  </p>
+            
+          </Alinea><Alinea id="art16_par1_ali7">
+            
+            
+            <Rotulo>g)</Rotulo>
+            <p>
+    do desempenho cumulativo de cargos.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo><Paragrafo id="art16_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Para as missões a bordo de navios ou aeronaves militares, são considerados fatores de conversão regionais, com base nos estabelecidos para as localidades-sede ou localidades visitadas.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            
+            
+            
+            <p>
+    Ocorrendo afastamento igual ou superior a 30 (trinta) dias do Chefe efetivo da Missão Diplomática, do Adido Militar, do Chefe da Repartição consular e do Delegado do Tesouro Brasileiro no Exterior, os respectivos substitutos têm direito a um suplemento mensal equivalente a 30% (trinta por cento), da indenização de representação no exterior atribuída ao titular.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art17-1">
+            
+            
+            <Rotulo>Art. 17-A.</Rotulo>
+            
+            <Caput id="art17-1_cpt">
+            
+            
+            
+            <p>
+    É o Ministro das Relações Exteriores autorizado a, em casos de grave alteração repentina de algum dos elementos de fixação, alterar, de ofício ou por provocação dos demais órgãos interessados, os fatores de conversão da indenização de representação no exterior, por meio de ato devidamente justificado e pelo prazo máximo de 90 (noventa) dias, prorrogável uma única vez por até igual período.
+
+  </p>
+            
+          </Caput><Paragrafo id="art17-1_par1u">
+            <!--Link: urn:lex:br:federal:lei.complementar:2000-05-04;101--><!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A alteração extraordinária prevista no caput não poderá acarretar modificação superior a 20% (vinte por cento) do valor da indenização de representação no exterior e estará condicionada à observância das determinações da <span xlink:href="urn:lex:br:federal:lei.complementar:2000-05-04;101">Lei Complementar nº 101, de 4 de maio de 2000</span>, e à disponibilidade orçamentária do órgão. (Artigo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            
+            
+            
+            <p>
+    O servidor perde o direito à indenização de representação no exterior quando:
+
+  </p>
+            <Inciso id="art18_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Passa o cargo ou encerra suas atividades, por término de missão;
+
+  </p>
+            
+          </Inciso><Inciso id="art18_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Ultrapassa 30 (trinta) dias afastado do desempenho ou exercício do cargo, função ou atividade, ressalvados os casos previstos no parágrafo 2º do artigo 10;
+
+  </p>
+            
+          </Inciso><Inciso id="art18_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Entra em licença especial, e
+
+  </p>
+            
+          </Inciso><Inciso id="art18_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    Cessa ou é suspenso seu direito ao vencimento ou ao soldo, nos casos previstos na parte final do parágrafo único do artigo 13.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            
+            
+            
+            <p>
+    Os índices da indenização de representação no exterior e seus fatores de conversão serão estabelecidos em tabelas, na regulamentação desta Lei.
+
+  </p>
+            
+          </Caput><Paragrafo id="art19_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os fatores de conversão serão expressos em unidades da moeda-padrão utilizada nas transações financeiras internacionais do governo brasiLeiro.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O Poder Executivo, em decreto aplicável a todos os servidores abrangidos por esta Lei, modificará as tabelas a que se refere este artigo quando se verificarem alterações dos elementos de fixação dos índices e seus fatores de conversão.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap2_sec5">
+            
+            
+            <Rotulo>Seção V</Rotulo>
+            <NomeAgrupador>
+    Do Auxílio-Familiar
+
+  </NomeAgrupador>
+            <Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            
+            
+            
+            <p>
+    Auxílio-Familiar é o quantitativo mensal devido ao servidor, em serviço no exterior, a título de indenização para atender, em parte, à manutenção e às despesas de educação e assistência, no exterior, a seus dependentes.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            
+            
+            
+            <p>
+    O auxílio-familiar é calculado em função da indenização de representação no exterior recebida pelo servidor à razão de:
+
+  </p>
+            <Inciso id="art21_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    10% (dez por cento) de seu valor, para a esposa; e
+
+  </p>
+            
+          </Inciso><Inciso id="art21_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    5% (cinco por cento) de seu valor, para cada um dos seguintes dependentes:
+
+  </p>
+            <Alinea id="art21_cpt_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    filho, menor de 21 (vinte e um) anos ou estudante menor de 24 (vinte e quatro) anos que não receba remuneração ou inválido ou interdito;
+
+  </p>
+            
+          </Alinea><Alinea id="art21_cpt_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    filha solteira, que não receba remuneração;
+
+  </p>
+            
+          </Alinea><Alinea id="art21_cpt_inc2_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    mãe viúva, que não receba remuneração;
+
+  </p>
+            
+          </Alinea><Alinea id="art21_cpt_inc2_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    enteados, adotivos, tutelados e curatelados, nas mesmas condições das letras anteriores; e
+
+  </p>
+            
+          </Alinea><Alinea id="art21_cpt_inc2_ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    a mulher solteira, desquitada ou viúva, que viva, no mínimo há cinco anos, sob a dependência econômica do servidor solteiro, desquitado ou viúvo, e enquanto persistir o impedimento legal de qualquer das partes para se casar.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput><Paragrafo id="art21_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O auxílio-familiar será acrescido de um quantitativo igual a 1/30 (um trinta avos) do maior valor de indenização de representação no exterior atribuído a Chefe de Missão Diplomática quando o servidor tiver de educar, fora do país onde estiver em serviço, os dependentes referidos nas letras a, b e d do item II.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art21_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O Poder Executivo, na regulamentação desta Lei, estabelecerá:
+
+  </p>
+            <Alinea id="art21_par2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    o limite mínimo por dependente a ser observado no pagamento do auxílio-familiar; e
+
+  </p>
+            
+          </Alinea><Alinea id="art21_par2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    os casos especiais que justifiquem o quantitativo referido no parágrafo 1º e a forma de seu pagamento.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap2_sec6">
+            
+            
+            <Rotulo>Seção VI</Rotulo>
+            <NomeAgrupador>
+    Da Ajuda de Custo de Exterior
+
+  </NomeAgrupador>
+            <Artigo id="art22">
+            
+            
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            
+            
+            
+            <p>
+    Ajuda de Custo de Exterior é a indenização paga adiantadamente ao servidor para custeio das despesas de viagem, de mudança e da nova instalação.
+
+  </p>
+            
+          </Caput><Paragrafo id="art22_par1u">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    É vedado o pagamento de indenização, a qualquer tempo, para o cônjuge ou companheiro que detenha também a condição de servidor e que venha a ter exercício simultâneo na mesma sede. (Parágrafo único acrescido pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art23">
+            
+            
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            
+            
+            
+            <p>
+    O servidor tem direito à ajuda de custo de exterior:
+
+  </p>
+            <Inciso id="art23_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Em missão permanente: quando a remoção ou a movimentação importarem em mudança de sede concomitante ao desligamento da organização onde exerce suas atividades;
+
+  </p>
+            
+          </Inciso><Inciso id="art23_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Em missão permanente ou transitória: quando deslocado com a sua organização ao ser esta transferida de sede, desde que não seja em caráter periódico; e
+
+  </p>
+            
+          </Inciso><Inciso id="art23_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Em missão transitória: quando a remoção ou a movimentação importarem em mudança de sede:
+
+  </p>
+            <Alinea id="art23_cpt_inc3_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    com desligamento de sua organização, por prazo igual ou superior a 6 (seis) meses;
+
+  </p>
+            
+          </Alinea><Alinea id="art23_cpt_inc3_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    com ou sem desligamento de sua organização, por prazo inferior a 6 (seis) meses e superior ou igual a 3 (três) meses; e
+
+  </p>
+            
+          </Alinea><Alinea id="art23_cpt_inc3_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    com ou sem desligamento de sua organização, por prazo inferior a 3 (três) meses.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput><Paragrafo id="art23_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O servidor em serviço no exterior que, por motivo alheio à sua vontade, for afastado definitivamente da missão para a qual foi designado, sem decorrer o prazo previsto de sua duração, tem direito à ajuda de custo de exterior, no valor estabelecido para aquela missão.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art23_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os dependentes do servidor falecido em serviço no exterior com direito à ajuda de custo fazem jus a seu recebimento para regresso ao Brasil, nos valores previstos no artigo 25.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art24">
+            
+            
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput id="art24_cpt">
+            
+            
+            
+            <p>
+    A ajuda de custo de exterior tem o valor de 2 (duas) vezes a retribuição básica e 2 (duas) vezes o auxílio-familiar, acrescido o total de 1 (uma) indenização de representação no exterior a que o servidor tiver direito na nova sede no exterior, observados os valores em vigor à data determinada para a partida.
+
+  </p>
+            
+          </Caput><Paragrafo id="art24_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Na remoção ou movimentação para o Brasil, a ajuda de custo é calculada, na forma deste artigo, com base nos valores relativos à sede no exterior.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art25">
+            
+            
+            <Rotulo>Art. 25.</Rotulo>
+            
+            <Caput id="art25_cpt">
+            
+            
+            
+            <p>
+    A ajuda de custo de exterior é paga:
+
+  </p>
+            <Inciso id="art25_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Integralmente, nos casos dos itens I, II e letra a, do item III, do artigo 23;
+
+  </p>
+            
+          </Inciso><Inciso id="art25_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Pela metade de seu valor, no início da missão, e pela quarta parte de seu valor, no término, nos casos:
+
+  </p>
+            <Alinea id="art25_cpt_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    do item I, do artigo 23, quando já tiver recebido ajuda de custo de exterior em seu valor integral há menos de 2 (dois) anos; e
+
+  </p>
+            
+          </Alinea><Alinea id="art25_cpt_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    da letra b, do item III, do artigo 23;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art25_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Pela quarta parte de seu valor, no início da missão, e pela oitava parte de seu valor, no término, nos casos da letra c, do item III, do artigo 23.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art26">
+            
+            
+            <Rotulo>Art. 26.</Rotulo>
+            
+            <Caput id="art26_cpt">
+            
+            
+            
+            <p>
+    Não tem direito à ajuda de custo de exterior o servidor:
+
+  </p>
+            <Inciso id="art26_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Removido ou movimentado:
+
+  </p>
+            <Alinea id="art26_cpt_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    a pedido; e
+
+  </p>
+            
+          </Alinea><Alinea id="art26_cpt_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    de sede no exterior para o Brasil, a fim de entrar em licença, a qualquer título; e
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art26_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Desligado de curso ou estabelecimento de ensino, por trancamento voluntário de matrícula.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art27">
+            
+            
+            <Rotulo>Art. 27.</Rotulo>
+            
+            <Caput id="art27_cpt">
+            
+            
+            
+            <p>
+    O servidor restitui, de uma só vez, a ajuda de custo de exterior:
+
+  </p>
+            <Inciso id="art27_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Integralmente, quando deixar de seguir destino, a pedido;
+
+  </p>
+            
+          </Inciso><Inciso id="art27_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Com redução das despesas que comprove já ter realizado quando deixar de seguir destino por motivo independente de sua vontade; e
+
+  </p>
+            
+          </Inciso><Inciso id="art27_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    pela metade do seu valor, quando, até 6 (seis) meses após ter seguido destino: (“Caput” do inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            <Alinea id="art27_cpt_inc3_ali1">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    for, a pedido, dispensado, exonerado, demitido, aposentado ou transferido para a reserva; ou (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Alinea><Alinea id="art27_cpt_inc3_ali2">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    entrar em licença ou afastamento a qualquer título, salvo nos casos considerados como de efetivo exercício, na forma da lei. (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput><Paragrafo id="art27_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A ajuda de custo de exterior não é restituída:
+
+  </p>
+            <Alinea id="art27_par1u_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    pelo servidor, se, após ter seguido destino, for mandado regressar; e
+
+  </p>
+            
+          </Alinea><Alinea id="art27_par1u_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    pelos herdeiros do servidor, quando ocorrer seu falecimento, após tê-la recebido.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap2_sec7">
+            
+            
+            <Rotulo>Seção VII</Rotulo>
+            <NomeAgrupador>
+    Do Transporte
+
+  </NomeAgrupador>
+            <Artigo id="art28">
+            
+            
+            <Rotulo>Art. 28.</Rotulo>
+            
+            <Caput id="art28_cpt">
+            
+            
+            
+            <p>
+    O servidor designado para serviço no exterior tem direito a transporte por conta do Estado.
+
+  </p>
+            
+          </Caput><Paragrafo id="art28_par1u">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O transporte compreende a passagem e, conforme o caso, translação da bagagem do servidor e dos dependentes que o acompanhem. (Parágrafo único com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art29">
+            
+            
+            <Rotulo>Art. 29.</Rotulo>
+            
+            <Caput id="art29_cpt">
+            
+            
+            
+            <p>
+    O transporte é assegurado na forma e condições que se seguem:
+
+  </p>
+            <Inciso id="art29_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Passagem via aérea, para o servidor e seus dependentes, e translação da bagagem, quando designado para:
+
+  </p>
+            <Alinea id="art29_cpt_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    missão permanente ou missão transitória de duração superior a 6 (seis) meses, com mudança de sede; e
+
+  </p>
+            
+          </Alinea><Alinea id="art29_cpt_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    missão transitória, com mudança de sede, de duração inferior a 6 (seis) meses e igual ou superior a 3 (três) meses, com dependentes;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art29_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Passagem via aérea para o servidor, sua esposa e dependentes menores quando for designado para o exercício, em caráter provisório, de missão considerada permanente e cuja duração seja superior a 30 (trinta) dias; e
+
+  </p>
+            
+          </Inciso><Inciso id="art29_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Passagem via aérea para o servidor, quando designado para:
+
+  </p>
+            <Alinea id="art29_cpt_inc3_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    missão transitória, com mudança de sede, de duração inferior a 6 (seis) meses e igual ou superior a 3 (três) meses, sem dependentes;
+
+  </p>
+            
+          </Alinea><Alinea id="art29_cpt_inc3_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    missão transitória, sem mudança de sede e de duração igual ou superior a 3 (três) meses;
+
+  </p>
+            
+          </Alinea><Alinea id="art29_cpt_inc3_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    missão transitória, com ou sem mudança da sede, de duração inferior a 3 (três) meses; e
+
+  </p>
+            
+          </Alinea><Alinea id="art29_cpt_inc3_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    missão eventual.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput><Paragrafo id="art29_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O transporte é assegurado, ainda, na forma e condições que se seguem:
+
+  </p>
+            <Alinea id="art29_par1_ali1">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>, em vigor em 1.8.2016)
+
+  </p>
+            
+          </Alinea><Alinea id="art29_par1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    anualmente, no período mais longo de férias escolares, passagens via aérea que possibilitem aos dependentes reunirem-se à família na sede no exterior onde o servidor se encontrar em missão permanente ou transitória, quando estiver amparado pelo § 1º do art. 21;
+
+  </p>
+            
+          </Alinea><Alinea id="art29_par1_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    passagem via aérea, para o servidor e seus dependentes, quando:
+
+  </p>
+            
+          </Alinea><Alinea id="art29_par1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    em área de condições peculiares, tiver direito, na forma da legislação aplicável, à vinda periódica ao Brasil; e
+
+  </p>
+            
+          </Alinea><Alinea id="art29_par1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    diplomata da classe final ou semifinal da carreira, vier ao Brasil em gozo de férias extraordinárias;
+
+  </p>
+            
+          </Alinea><Alinea id="art29_par1_ali4">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    2 (duas) passagens via aérea, quando a sede no exterior não dispuser de assistência médico-hospitalar apropriada e, comprovadamente, dela necessitar, em caráter urgente, o servidor ou seus dependentes; (Alínea com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Alinea><Alinea id="art29_par1_ali5">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    passagens via aérea para o servidor, quando chamado a serviço ao Brasil; (Alínea com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Alinea><Alinea id="art29_par1_ali6">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    passagem aérea para o regresso antecipado de dependente; e (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Alinea><Alinea id="art29_par1_ali7">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            <Rotulo>g)</Rotulo>
+            <p>
+    excepcionalmente, em caso de situação de grave instabilidade pública ou de catástrofe natural, passagens aéreas para o servidor e seus dependentes, assim como a translação da bagagem, na forma da regulamentação desta Lei. (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo><Paragrafo id="art29_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Caso seja necessário utilizar transporte diferente do aéreo, no todo ou em parte, para alcançar o local de destino, são fornecidas as correspondentes passagens por ferrovia, rodovia ou aquavia.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art29_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    No caso da letra a, do item I, o servidor pode optar por outro meio de transporte, desde que o valor das passagens não ultrapasse o das por via aérea.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art29_par4">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O transporte só é assegurado àqueles que constarem dos assentamentos funcionais do servidor. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art29_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Falecendo o servidor, os dependentes a que se refere o parágrafo anterior fazem jus a transporte para regresso ao Brasil, na forma da regulamentação desta Lei.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art30">
+            
+            
+            <Rotulo>Art. 30.</Rotulo>
+            
+            <Caput id="art30_cpt">
+            
+            
+            
+            <p>
+    Não tem direito a transporte o servidor:
+
+  </p>
+            <Inciso id="art30_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Removido ou movimentado:
+
+  </p>
+            <Alinea id="art30_cpt_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    a pedido; e
+
+  </p>
+            
+          </Alinea><Alinea id="art30_cpt_inc1_ali2">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    de sede no exterior para o Brasil, a fim de entrar de licença, a qualquer título; (Alínea com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art30_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    compreendido nos incisos III e V do caput do art. 5º e no inciso IV do caput do art. 6º; e (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art30_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    quando o traslado for assegurado pela União ou, gratuitamente, por terceiro. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art31">
+            
+            
+            <Rotulo>Art. 31.</Rotulo>
+            
+            <Caput id="art31_cpt">
+            
+            
+            
+            <p>
+    O Ministério a que pertence o servidor designado para missão no exterior providencia as passagens e translação da bagagem:
+
+  </p>
+            <Inciso id="art31_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    De ida e de volta, com pagamento em moeda nacional, se a missão é de duração igual ou inferior a 6 (seis) meses;
+
+  </p>
+            
+          </Inciso><Inciso id="art31_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    De ida, com pagamento em moeda nacional, e de volta, em moeda estrangeira, se a missão é de duração superior a 6 (seis) meses;
+
+  </p>
+            
+          </Inciso><Inciso id="art31_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Com pagamento em moeda estrangeira, quando já se encontra o servidor em outra missão no exterior.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art32">
+            
+            
+            <Rotulo>Art. 32.</Rotulo>
+            
+            <Caput id="art32_cpt">
+            
+            
+            
+            <p>
+    O Poder Executivo estabelecerá os limites de cubagem e de peso da bagagem do servidor que podem ser compreendidos no transporte.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap2_sec8">
+            
+            
+            <Rotulo>Seção VIII</Rotulo>
+            <NomeAgrupador>
+    Das Diárias no Exterior
+
+  </NomeAgrupador>
+            <Artigo id="art33">
+            
+            
+            <Rotulo>Art. 33.</Rotulo>
+            
+            <Caput id="art33_cpt">
+            
+            
+            
+            <p>
+    Diária no Exterior é a indenização paga adiantadamente ao servidor para custeio das despesas de alimentação, de pousada e outras decorrentes do afastamento de sua sede, por motivo de serviço no exterior.
+
+  </p>
+            
+          </Caput><Paragrafo id="art33_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    As diárias no exterior são devidas, na forma da regulamentação desta Lei, computando-se, também, os dias de partida e de chegada.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art34">
+            
+            
+            <Rotulo>Art. 34.</Rotulo>
+            
+            <Caput id="art34_cpt">
+            
+            
+            
+            <p>
+    O servidor não tem direito à diária no exterior:
+
+  </p>
+            <Inciso id="art34_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Quando a alimentação e a pousada forem asseguradas pelo Estado;
+
+  </p>
+            
+          </Inciso><Inciso id="art34_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Cumulativamente com a ajuda de custo de exterior.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art34_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Em serviço no exterior, percebe o servidor diárias em moeda nacional, na forma da legislação específica, no período em que permanecer no Brasil em objeto de serviço.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art35">
+            
+            
+            <Rotulo>Art. 35.</Rotulo>
+            
+            <Caput id="art35_cpt">
+            
+            
+            
+            <p>
+    O servidor restitui as diárias no exterior:
+
+  </p>
+            <Inciso id="art35_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Integralmente, quando não ocorrer o afastamento da sede; e
+
+  </p>
+            
+          </Inciso><Inciso id="art35_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Correspondentes aos dias:
+
+  </p>
+            <Alinea id="art35_cpt_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    que ultrapassarem o período de afastamento da sede, a serviço, quando este afastamento for menor que o previsto; e
+
+  </p>
+            
+          </Alinea><Alinea id="art35_cpt_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    em que a alimentação e a pousada forem asseguradas pelo Estado.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput><Paragrafo id="art35_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    As diárias no exterior não são restituídas pelos herdeiros do servidor falecido.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art36">
+            
+            
+            <Rotulo>Art. 36.</Rotulo>
+            
+            <Caput id="art36_cpt">
+            
+            
+            
+            <p>
+    O Poder Executivo fixará o valor das diárias no exterior, em decreto aplicável a todos os servidores abrangidos por esta Lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap2_sec9">
+            
+            
+            <Rotulo>Seção IX</Rotulo>
+            <NomeAgrupador>
+    Do Funeral no Exterior
+
+  </NomeAgrupador>
+            <Artigo id="art37">
+            
+            
+            <Rotulo>Art. 37.</Rotulo>
+            
+            <Caput id="art37_cpt">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            
+            <p>
+    É assegurado funeral ao servidor em missão no exterior. (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art37_par1">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Considera-se funeral o sepultamento ou a cremação. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art37_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    São responsáveis pelas providências do funeral, pagamento de auxílio-funeral no exterior e traslado dos restos mortais, conforme o caso e na sequência a seguir:
+
+  </p>
+            <Inciso id="art37_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a organização brasileira em que estava em serviço o servidor;
+
+  </p>
+            
+          </Inciso><Inciso id="art37_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a repartição consular em cuja jurisdição ocorrer o óbito; ou
+
+  </p>
+            
+          </Inciso><Inciso id="art37_par2_inc3">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    a Missão Diplomática no país, na inexistência das outras duas responsáveis. (Parágrafo único transformado em § 2º e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo id="art38">
+            
+            
+            <Rotulo>Art. 38.</Rotulo>
+            
+            <Caput id="art38_cpt">
+            
+            
+            
+            <p>
+    O auxílio-funeral no Exterior é o quantitativo destinado a atender às despesas com o funeral do servidor em serviço no exterior, em missão permanente ou transitória.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art39">
+            
+            
+            <Rotulo>Art. 39.</Rotulo>
+            
+            <Caput id="art39_cpt">
+            
+            
+            
+            <p>
+    O auxílio-funeral no exterior tem o valor da retribuição mensal que o servidor recebia normalmente, no exterior.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art40">
+            
+            
+            <Rotulo>Art. 40.</Rotulo>
+            
+            <Caput id="art40_cpt">
+            
+            
+            
+            <p>
+    O auxílio-funeral no exterior é pago, imediatamente, a quem de direito, mediante simples apresentação do atestado de óbito.
+
+  </p>
+            
+          </Caput><Paragrafo id="art40_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Decorrido o prazo de 30 (trinta) dias sem reclamação do auxílio-funeral no exterior por quem haja custeado o sepultamento do servidor, o auxílio será pago aos beneficiários da pensão, mediante requerimento à autoridade competente.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art41">
+            
+            
+            <Rotulo>Art. 41.</Rotulo>
+            
+            <Caput id="art41_cpt">
+            
+            
+            
+            <p>
+    No caso de falecimento de servidor em serviço no exterior, em missão eventual, a União custeia e promove o sepultamento ou traslada o corpo para o Brasil.
+
+  </p>
+            
+          </Caput><Paragrafo id="art41_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Transladando-se o corpo para o Brasil, o auxílio-funeral, devido no País, é pago em moeda nacional, observadas as disposições legais aplicáveis.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art42">
+            
+            
+            <Rotulo>Art. 42.</Rotulo>
+            
+            <Caput id="art42_cpt">
+            
+            
+            
+            <p>
+    Em casos especiais, a critério do Poder Executivo, a União pode custear diretamente o sepultamento do servidor falecido em serviço no exterior.
+
+  </p>
+            
+          </Caput><Paragrafo id="art42_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Nesta hipótese, não cabe direito a qualquer tipo de auxílio-funeral por parte dos beneficiários do falecido.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art43">
+            
+            
+            <Rotulo>Art. 43.</Rotulo>
+            
+            <Caput id="art43_cpt">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            
+            <p>
+    Ocorrendo o falecimento de servidor em missão no exterior que não esteja acompanhado de cônjuge, companheiro ou parente civilmente capaz, é assegurado a 1 (um) membro de sua família o transporte de ida e volta até o local onde se encontra o corpo. (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art43_par1u">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Trasladando-se o corpo para o Brasil, é assegurado ao cônjuge ou companheiro, ou a dependente civilmente capaz que acompanhe o servidor falecido, transporte do local onde se encontra o corpo até o Brasil, para o funeral, e de regresso à sede no exterior, para tomar as providências relativas ao transporte dos bens e ao fechamento de sua residência. (Parágrafo único acrescido pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art44">
+            
+            
+            <Rotulo>Art. 44.</Rotulo>
+            
+            <Caput id="art44_cpt">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            
+            <p>
+    Ocorrendo, no exterior, o falecimento de dependente, o traslado do corpo para o Brasil será custeado pelo órgão a que está vinculado o servidor. (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art44_par1u">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Na hipótese prevista no caput, é assegurado ao servidor passagem por via aérea até o Brasil e de regresso à sede no exterior, para acompanhar o traslado do corpo e o funeral. (Parágrafo único acrescido pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art45">
+            
+            
+            <Rotulo>Art. 45.</Rotulo>
+            
+            <Caput id="art45_cpt">
+            
+            
+            
+            <p>
+    Os dependentes do servidor, falecido quando em serviço no exterior, têm direito ao mesmo tratamento aduaneiro para desembaraço de bagagem que lhe era assegurado ao término de sua missão.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap2_sec10">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            <Rotulo>Seção X</Rotulo>
+            <NomeAgrupador>
+    Do Auxílio-Moradia no Exterior (Seção acrescida pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </NomeAgrupador>
+            <Artigo id="art45-1">
+            
+            
+            <Rotulo>Art. 45-A.</Rotulo>
+            
+            <Caput id="art45-1_cpt">
+            
+            
+            
+            <p>
+    Auxílio-Moradia no Exterior é o quantitativo devido ao servidor, em missão permanente ou transitória no exterior, a título de indenização, para custeio de locação de residência, desde que satisfeitos os seguintes requisitos:
+
+  </p>
+            <Inciso id="art45-1_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    não exista imóvel funcional disponível na sede no exterior, para uso pelo servidor;
+
+  </p>
+            
+          </Inciso><Inciso id="art45-1_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o cônjuge ou companheiro do servidor não ocupe imóvel funcional localizado na sede no exterior;
+
+  </p>
+            
+          </Inciso><Inciso id="art45-1_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    o servidor ou seu cônjuge ou companheiro não seja proprietário, promitente comprador, cessionário ou promitente cessionário de qualquer imóvel na sede no exterior. (Artigo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art45-2">
+            
+            
+            <Rotulo>Art. 45-B.</Rotulo>
+            
+            <Caput id="art45-2_cpt">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            
+            <p>
+    (VETADO na <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            <Inciso id="art45-2_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    (VETADO na <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art45-2_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    (VETADO na <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art45-2_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    (VETADO na <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art45-2_par1">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    É vedado o pagamento de mais de um auxílio-moradia no exterior a servidores casados ou em união estável com exercício simultâneo na mesma sede. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art45-2_par2">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    É vedado o pagamento de auxílio-moradia no exterior para custeio de locação de imóvel que seja propriedade de servidor, de seu cônjuge, companheiro ou parente até o segundo grau civil ou de empresa da qual sejam titulares ou sócios. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art45-2_par3">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O auxílio-moradia no exterior será concedido na forma de ressarcimento por despesa comprovada pelo servidor. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art45-2_par4">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    (VETADO na <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art45-3">
+            
+            
+            <Rotulo>Art. 45-C.</Rotulo>
+            
+            <Caput id="art45-3_cpt">
+            <!--Link: urn:lex:br:federal:lei:2016-07-29;13328-->
+            
+            
+            <p>
+    Em nenhuma hipótese o auxílio-moradia no exterior poderá ser empregado no financiamento da compra de imóvel, em leasing com opção de compra ou em qualquer outra forma de aquisição total ou parcial de imóvel pelo servidor, por seus dependentes ou por empresa da qual sejam titulares ou sócios. (Artigo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2016-07-29;13328">Lei nº 13.328, de 29.7.2016</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="cap3">
+            
+            
+            <Rotulo>CAPÍTULO III</Rotulo>
+            <NomeAgrupador>
+    DISPOSIÇÕES GERAIS
+
+  </NomeAgrupador>
+            <Artigo id="art46">
+            
+            
+            <Rotulo>Art. 46.</Rotulo>
+            
+            <Caput id="art46_cpt">
+            
+            
+            
+            <p>
+    Os proventos de aposentadoria do funcionário público e os de inatividade do militar continuam a ser calculados de acordo com a respectiva legislação específica, baseados unicamente na retribuição ou remuneração no País, neles não devendo ser computadas as somas recebidas, a qualquer título, quando em serviço no exterior.
+
+  </p>
+            
+          </Caput><Paragrafo id="art46_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As contribuições para benefício de família continuarão a ser calculadas de acordo com a legislação específica, considerando-se, para esse fim, os valores dos descontos efetuados no País.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art46_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As pensões devidas aos beneficiários dos servidores que prestem ou hajam prestado serviço no exterior são calculadas de acordo com as normas estabelecidas neste artigo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art47">
+            
+            
+            <Rotulo>Art. 47.</Rotulo>
+            
+            <Caput id="art47_cpt">
+            
+            
+            
+            <p>
+    Os descontos ou consignações, obrigatórios ou facultativos, que incidam sobre a retribuição do servidor em serviço no exterior, em missão permanente ou transitória, são processados na forma estabelecida na regulamentação.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art48">
+            
+            
+            <Rotulo>Art. 48.</Rotulo>
+            
+            <Caput id="art48_cpt">
+            
+            
+            
+            <p>
+    São assegurados, de acordo com a Lei de Remuneração dos Militares:
+
+  </p>
+            <Inciso id="art48_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Ao militar em serviço no exterior que realizar exercícios ou cumprir missões previstas, no todo ou em parte, nos planos de provas das atividades especiais de vôo em aeronave militar, salto em para-quedas, imersão em submarino ou mergulho com escafandro ou com aparelho o registro e a apreciação, para fins de homologação, de percepção ou de atualização de quotas de indenização de compensação orgânica a serem consideradas para pagamento, em moeda nacional, a partir da data de regresso ao território nacional; e
+
+  </p>
+            
+          </Inciso><Inciso id="art48_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Ao militar em campanha no exterior, a remuneração e demais direitos previstos naquela Lei.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art49">
+            
+            
+            <Rotulo>Art. 49.</Rotulo>
+            
+            <Caput id="art49_cpt">
+            
+            
+            
+            <p>
+    A retribuição básica dos Embaixadores não integrantes da carreira diplomática, dos Ministros para Assuntos Comerciais de primeira e segunda classes e Cônsules Privativos é fixada de acordo com os índices da Tabela de Escalonamento Vertical - Servidores Civis, que acompanha esta Lei.
+
+  </p>
+            
+          </Caput><Paragrafo id="art49_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A retribuição básica das pessoas sem vínculo com o serviço público, designadas pelo Presidente da República, é fixada, dentro dos índices da Tabela a que se refere este artigo, observando-se os fatores estabelecidos, para a indenização de representação no exterior, nas letras a, b, c e d do § 1º do artigo 16.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art49_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Aplica-se o disposto no parágrafo anterior ao funcionário público, cujo cargo não tenha nível de vencimento previsto no atual Sistema de Classificação de Cargos do Serviço Civil do Poder Executivo, bem assim ao empregado público.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art50">
+            
+            
+            <Rotulo>Art. 50.</Rotulo>
+            
+            <Caput id="art50_cpt">
+            
+            
+            
+            <p>
+    É assegurada ao servidor público em serviço no exterior, enquanto permanecer na atual missão, retribuição mensal, no mínimo, igual à retribuição ou remuneração a que tinha direito na data da entrada em vigor desta Lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art50-1">
+            
+            
+            <Rotulo>Art. 50-A.</Rotulo>
+            
+            <Caput id="art50-1_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art37_cpt_inc11--><!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art37_par9--><!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art37_par12--><!--Link: urn:lex:br:federal:lei:2023-05-04;14566-->
+            
+            
+            <p>
+    Os pagamentos feitos em moeda estrangeira aos servidores públicos e militares em serviço no exterior que não tenham caráter indenizatório serão submetidos ao limite remuneratório estabelecido no <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art37_cpt_inc11">inciso XI do caput</span> e <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art37_par9">nos §§ 9º</span> e <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art37_par12">12 do art. 37 da Constituição Federal</span>, calculado pelo critério de paridade do poder de compra entre a moeda nacional e a moeda-padrão utilizada nas transações financeiras internacionais do governo brasileiro, nos termos de decreto regulamentar. (Artigo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2023-05-04;14566">Lei nº 14.566, de 4.5.2023</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art51">
+            
+            
+            <Rotulo>Art. 51.</Rotulo>
+            
+            <Caput id="art51_cpt">
+            
+            
+            
+            <p>
+    A despesa decorrente da aplicação desta Lei correrá à conta dos recursos previstos na Lei de Orçamento para 1973.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art52">
+            
+            
+            <Rotulo>Art. 52.</Rotulo>
+            
+            <Caput id="art52_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1945-03-23;7410--><!--Link: urn:lex:br:federal:decreto.lei:1972-06-28;1227--><!--Link: urn:lex:br:federal:lei:1961-07-14;3917!art50--><!--Link: urn:lex:br:federal:decreto.lei:1946-04-26;9202!art19--><!--Link: urn:lex:br:federal:decreto.lei:1969-10-21;995--><!--Link: urn:lex:br:federal:decreto.lei:1946-04-26;9202!art18--><!--Link: urn:lex:br:federal:lei:1963-07-17;4242--><!--Link: urn:lex:br:federal:decreto.lei:1946-04-26;9202!art17--><!--Link: urn:lex:br:federal:lei:1948-11-15;488!art43--><!--Link: urn:lex:br:federal:decreto.lei:1967-02-28;310!par1u--><!--Link: urn:lex:br:federal:decreto.lei:1946-04-26;9202!art15--><!--Link: urn:lex:br:federal:lei:1952-10-28;1711!art120_par1u-->
+            
+            
+            <p>
+    São revogados os <span xlink:href="urn:lex:br:federal:decreto.lei:1945-03-23;7410">Decretos Leis nº 7.410, de 23 de março de 1945</span>; nº <span xlink:href="urn:lex:br:federal:decreto.lei:1969-10-21;995">995, de 21 de outubro de 1969</span> e nº <span xlink:href="urn:lex:br:federal:decreto.lei:1972-06-28;1227">1.227, de 28 de junho de 1972</span>; os § 2º e 3º do <span xlink:href="urn:lex:br:federal:decreto.lei:1946-04-26;9202!art15">artigo 15</span> e os <span xlink:href="urn:lex:br:federal:decreto.lei:1946-04-26;9202!art17">artigos 17</span>,<span xlink:href="urn:lex:br:federal:decreto.lei:1946-04-26;9202!art18">18</span> e <span xlink:href="urn:lex:br:federal:decreto.lei:1946-04-26;9202!art19">19 do Decreto-Lei nº 9.202, de 26 de abril de 1946</span>; o <span xlink:href="urn:lex:br:federal:lei:1948-11-15;488!art43">artigo 43, da Lei nº 488, de 15 de novembro de 1948</span>; o <span xlink:href="urn:lex:br:federal:lei:1952-10-28;1711!art120_par1u">parágrafo único do artigo 120, da Lei nº 1.711, de 28 de outubro de 1952</span>; o artigo 40, o parágrafo único do 41 e o <span xlink:href="urn:lex:br:federal:lei:1961-07-14;3917!art50">artigo 50, da Lei nº 3.917, de 14 de julho de 1961</span>; o artigo 19 e seus parágrafos, da <span xlink:href="urn:lex:br:federal:lei:1963-07-17;4242">Lei nº 4.242, de 17 de julho de 1963</span> e o artigo 9º e seu <span xlink:href="urn:lex:br:federal:decreto.lei:1967-02-28;310!par1u">parágrafo único do Decreto-Lei nº 310, de 28 de fevereiro de 1967</span>, e demais dispositivos legais que contrariem a matéria regulada nesta Lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art53">
+            
+            
+            <Rotulo>Art. 53.</Rotulo>
+            
+            <Caput id="art53_cpt">
+            
+            
+            
+            <p>
+    Esta Lei entra em vigor em 1º de janeiro de 1973.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 10 de outubro de 1972; 151º da Independência e 84º da República.</p></LocalDataFecho><Assinatura><NomePessoa>EMÍLIO G. MÉDICI</NomePessoa><NomePessoa>Alfredo Buzaid</NomePessoa><NomePessoa>Adalberto de Barros Nunes</NomePessoa><NomePessoa>Orlando Geisel</NomePessoa><NomePessoa>Mário Gibson Barboza</NomePessoa><NomePessoa>Antônio Delfim Netto</NomePessoa><NomePessoa>Mário David Andreazza</NomePessoa><NomePessoa>L. F. Cirne Lima</NomePessoa><NomePessoa>Jarbas G. Passarinho</NomePessoa><NomePessoa>Júlio Barata</NomePessoa><NomePessoa>J. Araripe Macêdo</NomePessoa><NomePessoa>Walter Joaquim dos Santos</NomePessoa><NomePessoa>Marcus Vinicius Pratini de Moraes</NomePessoa><NomePessoa>Antônio Dias Leite Júnior</NomePessoa><NomePessoa>João Paulo dos Reis Velloso</NomePessoa><NomePessoa>José Costa Cavalcanti</NomePessoa><NomePessoa>Hygino C. Corsetti</NomePessoa></Assinatura></ParteFinal>
+          <Anexos><ReferenciaAnexo AlvoURN="urn:lex:br:federal:lei:1972-10-10;5809!anexo1"/><ReferenciaAnexo AlvoURN="urn:lex:br:federal:lei:1972-10-10;5809!anexo2"/><ReferenciaAnexo AlvoURN="urn:lex:br:federal:lei:1972-10-10;5809!anexo3"/></Anexos>
+        </Norma></ProjetoNorma>
+    </LexML>

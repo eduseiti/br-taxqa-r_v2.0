@@ -1,0 +1,2431 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:2013-10-22;12871"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">LEI Nº 12.871, DE 22 DE OUTUBRO DE 2013 </Epigrafe>
+		  <Ementa id="ementa">Institui o Programa Mais Médicos, altera as <span xlink:href="urn:lex:br:federal:lei:1993-12-09;8745">Leis nº 8.745, de 9 de dezembro de 1993</span>, e nº <span xlink:href="urn:lex:br:federal:lei:1981-07-07;6932">6.932, de 7 de julho de 1981</span>, e dá outras providências.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    A PRESIDENTA DA REPÚBLICA
+  </p><p>
+    Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Capitulo id="cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DISPOSIÇÕES GERAIS
+
+  </NomeAgrupador>
+            <Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    É instituído o Programa Mais Médicos, com a finalidade de formar recursos humanos na área médica para o Sistema Único de Saúde (SUS) e com os seguintes objetivos:
+
+  </p>
+            <Inciso id="art1_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    diminuir a carência de médicos nas regiões prioritárias para o SUS, a fim de reduzir as desigualdades regionais na área da saúde;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc2">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    fortalecer a prestação de serviços na atenção primária à saúde no País, de modo a promover o acesso de primeiro contato, a integralidade, a continuidade e a coordenação do cuidado, e qualificar a abordagem familiar e comunitária capaz de reconhecer as características culturais e tradicionais de cada território atendido e com elas interagir; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    aprimorar a formação médica no País e proporcionar maior experiência no campo de prática médica durante o processo de formação;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    ampliar a inserção do médico em formação nas unidades de atendimento do SUS, desenvolvendo seu conhecimento sobre a realidade da saúde da população brasileira;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    fortalecer a política de educação permanente com a integração ensino-serviço, por meio da atuação das instituições de educação superior na supervisão acadêmica das atividades desempenhadas pelos médicos;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    promover a troca de conhecimentos e experiências entre profissionais da saúde brasileiros e médicos formados em instituições estrangeiras;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc7">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    aperfeiçoar médicos para atuação nas políticas públicas de saúde do País e na organização e no funcionamento do SUS; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc8">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    estimular a realização de pesquisas aplicadas ao SUS; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc9">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    garantir a integralidade com transversalidade do cuidado no âmbito dos ciclos de vida, por meio da integração entre educação e saúde, com vistas a qualificar a assistência especializada em todos os níveis de atenção do SUS; e (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc10">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    ampliar a oferta de especialização profissional nas áreas estratégicas para o SUS. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    Para a consecução dos objetivos do Programa Mais Médicos, serão adotadas, entre outras, as seguintes ações:
+
+  </p>
+            <Inciso id="art2_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    reordenação da oferta de cursos de Medicina e de vagas para residência médica, priorizando regiões de saúde com menor relação de vagas e médicos por habitante e com estrutura de serviços de saúde em condições de ofertar campo de prática suficiente e de qualidade para os alunos;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc2">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    estabelecimento de novos parâmetros para a formação médica no País; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc3">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    promoção, nas regiões prioritárias do SUS, de aperfeiçoamento de médicos na área de atenção básica em saúde, mediante integração ensino serviço, inclusive por meio de intercâmbio internacional; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc4">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    instituição de programa próprio de bolsas de estudo e pesquisa para projetos e programas de educação pelo trabalho desenvolvidos no âmbito do Programa Mais Médicos; (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc5">
+            <!--Link: urn:lex:br:federal:lei:1990-09-19;8080--><!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    uso de recursos de telessaúde, quando necessário, nos termos da <span xlink:href="urn:lex:br:federal:lei:1990-09-19;8080">Lei nº 8.080, de 19 de setembro de 1990</span>. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art2-1">
+            
+            
+            <Rotulo>Art. 2º-A.</Rotulo>
+            
+            <Caput id="art2-1_cpt">
+            <!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            
+            <p>
+    Para fins do disposto no inciso I do art. 1º e no inciso III do art. 2º desta Lei, serão consideradas regiões prioritárias, com base nos critérios de vulnerabilidade, os Distritos Sanitários Especiais Indígenas, as comunidades remanescentes de quilombos e as comunidades ribeirinhas. (Artigo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DA AUTORIZAÇÃO PARA O FUNCIONAMENTO DE CURSOS DE MEDICINA
+
+  </NomeAgrupador>
+            <Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    A autorização para o funcionamento de curso de graduação em Medicina, por instituição de educação superior privada, será precedida de chamamento público, e caberá ao Ministro de Estado da Educação dispor sobre:
+
+  </p>
+            <Inciso id="art3_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    pré-seleção dos Municípios para a autorização de funcionamento de cursos de Medicina, ouvido o Ministério da Saúde;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    procedimentos para a celebração do termo de adesão ao chamamento público pelos gestores locais do SUS;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    critérios para a autorização de funcionamento de instituição de educação superior privada especializada em cursos na área de saúde;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    critérios do edital de seleção de propostas para obtenção de autorização de funcionamento de curso de Medicina; e
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    periodicidade e metodologia dos procedimentos avaliatórios necessários ao acompanhamento e monitoramento da execução da proposta vencedora do chamamento público.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art3_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Na pré-seleção dos Municípios de que trata o inciso I do caput deste artigo, deverão ser consideradas, no âmbito da região de saúde:
+
+  </p>
+            <Inciso id="art3_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a relevância e a necessidade social da oferta de curso de Medicina; e
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a existência, nas redes de atenção à saúde do SUS, de equipamentos públicos adequados e suficientes para a oferta do curso de Medicina, incluindo, no mínimo, os seguintes serviços, ações e programas:
+
+  </p>
+            <Alinea id="art3_par1_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    atenção básica;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_par1_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    urgência e emergência;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_par1_inc2_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    atenção psicossocial;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_par1_inc2_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    atenção ambulatorial especializada e hospitalar; e
+
+  </p>
+            
+          </Alinea><Alinea id="art3_par1_inc2_ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    vigilância em saúde.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Paragrafo><Paragrafo id="art3_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Por meio do termo de adesão de que trata o inciso II do caput deste artigo, o gestor local do SUS compromete-se a oferecer à instituição de educação superior vencedora do chamamento público, mediante contrapartida a ser disciplinada por ato do Ministro de Estado da Educação, a estrutura de serviços, ações e programas de saúde necessários para a implantação e para o funcionamento do curso de graduação em Medicina.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par3">
+            <!--Link: urn:lex:br:federal:lei:1993-06-21;8666!art87_cpt_inc2-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O edital previsto no inciso IV do caput deste artigo observará, no que couber, a legislação sobre licitações e contratos administrativos e exigirá garantia de proposta do participante e multa por inexecução total ou parcial do contrato, conforme previsto, respectivamente, no art. 56 e no <span xlink:href="urn:lex:br:federal:lei:1993-06-21;8666!art87_cpt_inc2">inciso II do caput do art. 87 da Lei nº 8.666, de 21 de junho de 1993</span>.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O disposto neste artigo não se aplica aos pedidos de autorização para funcionamento de curso de Medicina protocolados no Ministério da Educação até a data de publicação desta Lei.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    O Ministério da Educação, sem prejuízo do atendimento aos requisitos previstos no inciso II do § 1º deste artigo, disporá sobre o processo de autorização de cursos de Medicina em unidades hospitalares que:
+
+  </p>
+            <Inciso id="art3_par5_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    possuam certificação como hospitais de ensino;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par5_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    possuam residência médica em no mínimo 10 (dez) especialidades; ou
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par5_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    mantenham processo permanente de avaliação e certificação da qualidade de seus serviços.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art3_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    O Ministério da Educação, conforme regulamentação própria, poderá aplicar o procedimento de chamamento público de que trata este artigo aos outros cursos de graduação na área de saúde.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par7">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    A autorização e a renovação de autorização para funcionamento de cursos de graduação em Medicina deverão considerar sem prejuízo de outras exigências estabelecidas no Sistema Nacional de Avaliação da Educação Superior (Sinaes):
+
+  </p>
+            <Inciso id="art3_par7_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    os seguintes critérios de qualidade:
+
+  </p>
+            <Alinea id="art3_par7_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    exigência de infraestrutura adequada, incluindo bibliotecas, laboratórios, ambulatórios, salas de aula dotadas de recursos didático-pedagógicos e técnicos especializados, equipamentos especiais e de informática e outras instalações indispensáveis à formação dos estudantes de Medicina;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_par7_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    acesso a serviços de saúde, clínicas ou hospitais com as especialidades básicas indispensáveis à formação dos alunos;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_par7_inc1_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    possuir metas para corpo docente em regime de tempo integral e para corpo docente com titulação acadêmica de mestrado ou doutorado;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_par7_inc1_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    possuir corpo docente e técnico com capacidade para desenvolver pesquisa de boa qualidade, nas áreas curriculares em questão, aferida por publicações científicas;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art3_par7_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a necessidade social do curso para a cidade e para a região em que se localiza, demonstrada por indicadores demográficos, sociais, econômicos e concernentes à oferta de serviços de saúde, incluindo dados relativos à:
+
+  </p>
+            <Alinea id="art3_par7_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    relação número de habitantes por número de profissionais no Município em que é ministrado o curso e nos Municípios de seu entorno;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_par7_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    descrição da rede de cursos análogos de nível superior, públicos e privados, de serviços de saúde, ambulatoriais e hospitalares e de programas de residência em funcionamento na região;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_par7_inc2_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    inserção do curso em programa de extensão que atenda a população carente da cidade e da região em que a instituição se localiza.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap3">
+            
+            
+            <Rotulo>CAPÍTULO III</Rotulo>
+            <NomeAgrupador>
+    DA FORMAÇÃO MÉDICA NO BRASIL
+
+  </NomeAgrupador>
+            <Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    O funcionamento dos cursos de Medicina é sujeito à efetiva implantação das diretrizes curriculares nacionais definidas pelo Conselho Nacional de Educação (CNE).
+
+  </p>
+            
+          </Caput><Paragrafo id="art4_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Ao menos 30% (trinta por cento) da carga horária do internato médico na graduação serão desenvolvidos na Atenção Básica e em Serviço de Urgência e Emergência do SUS, respeitando-se o tempo mínimo de 2 (dois) anos de internato, a ser disciplinado nas diretrizes curriculares nacionais.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As atividades de internato na Atenção Básica e em Serviço de Urgência e Emergência do SUS e as atividades de Residência Médica serão realizadas sob acompanhamento acadêmico e técnico, observado o art. 27 desta Lei.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O cumprimento do disposto no caput e nos §§ 1º e 2º deste artigo constitui ponto de auditoria nos processos avaliativos do Sinaes.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            <!--Link: urn:lex:br:federal:lei:1981-07-07;6932-->
+            
+            
+            <p>
+    Os Programas de Residência Médica de que trata a <span xlink:href="urn:lex:br:federal:lei:1981-07-07;6932">Lei nº 6.932, de 7 de julho de 1981</span>, ofertarão anualmente vagas equivalentes ao número de egressos dos cursos de graduação em Medicina do ano anterior.
+
+  </p>
+            
+          </Caput><Paragrafo id="art5_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A regra de que trata o caput é meta a ser implantada progressivamente até 31 de dezembro de 2018.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            <!--Link: urn:lex:br:federal:lei:2019-12-18;13958-->
+            
+            
+            <p>
+    (Revogado pela Medida Provisória nº 890, de 1º/8/2019, convertida na <span xlink:href="urn:lex:br:federal:lei:2019-12-18;13958">Lei nº 13.958, de 18.12.2019</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            <!--Link: urn:lex:br:federal:lei:2019-12-18;13958-->
+            
+            
+            <p>
+    (Revogado pela Medida Provisória nº 890, de 1º/8/2019, convertida na <span xlink:href="urn:lex:br:federal:lei:2019-12-18;13958">Lei nº 13.958, de 18.12.2019</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    As bolsas de Residência em Medicina Geral de Família e Comunidade poderão receber complementação financeira a ser estabelecida e custeada pelos Ministérios da Saúde e da Educação.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            <!--Link: urn:lex:br:federal:lei:2017-12-07;13530-->
+            
+            
+            <p>
+    É instituída a avaliação específica para curso de graduação em Medicina, com instrumentos e métodos que avaliem conhecimentos, habilidades e atitudes, conforme ato do Ministro de Estado da Educação. (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2017-12-07;13530">Lei nº 13.530, de 7.12.2017</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art9_par1">
+            <!--Link: urn:lex:br:federal:lei:2017-12-07;13530-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2017-12-07;13530">Lei nº 13.530, de 7.12.2017</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par2">
+            <!--Link: urn:lex:br:federal:lei:2017-12-07;13530-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2017-12-07;13530">Lei nº 13.530, de 7.12.2017</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>
+    Os cursos de graduação em Medicina promoverão a adequação da matriz curricular para atendimento ao disposto nesta Lei, nos prazos e na forma definidos em resolução do CNE, aprovada pelo Ministro de Estado da Educação.
+
+  </p>
+            
+          </Caput><Paragrafo id="art10_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O CNE terá o prazo de 180 (cento e oitenta) dias, contado da data de publicação desta Lei, para submeter a resolução de que trata o caput ao Ministro de Estado da Educação.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            <p>
+    A regulamentação das mudanças curriculares dos diversos programas de residência médica será realizada por meio de ato do Ministério da Educação, ouvidos a CNRM e o Ministério da Saúde.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Secao id="cap3_sec1u">
+            
+            
+            <Rotulo>Seção Única</Rotulo>
+            <NomeAgrupador>
+    Do Contrato Organizativo da Ação Pública Ensino-Saúde
+
+  </NomeAgrupador>
+            <Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            
+            
+            
+            <p>
+    As instituições de educação superior responsáveis pela oferta dos cursos de Medicina e dos Programas de Residência Médica poderão firmar Contrato Organizativo da Ação Pública Ensino-Saúde com os Secretários Municipais e Estaduais de Saúde, na qualidade de gestores, com a finalidade de viabilizar a reordenação da oferta de cursos de Medicina e de vagas de Residência Médica e a estrutura de serviços de saúde em condições de ofertar campo de prática suficiente e de qualidade, além de permitir a integração ensino-serviço na área da Atenção Básica.
+
+  </p>
+            
+          </Caput><Paragrafo id="art12_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O Contrato Organizativo poderá estabelecer:
+
+  </p>
+            <Inciso id="art12_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    garantia de acesso a todos os estabelecimentos assistenciais sob a responsabilidade do gestor da área de saúde como cenário de práticas para a formação no âmbito da graduação e da residência médica; e
+
+  </p>
+            
+          </Inciso><Inciso id="art12_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    outras obrigações mútuas entre as partes relacionadas ao funcionamento da integração ensino-serviço, cujos termos serão levados à deliberação das Comissões Intergestores Regionais, Comissões Intergestores Bipartite e Comissão Intergestores Tripartite, ouvidas as Comissões de Integração Ensino-Serviço.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art12_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    No âmbito do Contrato Organizativo, caberão às autoridades mencionadas no caput, em acordo com a instituição de educação superior e os Programas de Residência Médica, designar médicos preceptores da rede de serviços de saúde e regulamentar a sua relação com a instituição responsável pelo curso de Medicina ou pelo Programa de Residência Médica.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art12_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Os Ministérios da Educação e da Saúde coordenarão as ações necessárias para assegurar a pactuação de Contratos Organizativos da Ação Pública Ensino-Saúde.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="cap4">
+            
+            
+            <Rotulo>CAPÍTULO IV</Rotulo>
+            <NomeAgrupador>
+    DO PROJETO MAIS MÉDICOS PARA O BRASIL
+
+  </NomeAgrupador>
+            <Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>
+    É instituído, no âmbito do Programa Mais Médicos, o Projeto Mais Médicos para o Brasil, que será oferecido:
+
+  </p>
+            <Inciso id="art13_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    aos médicos formados em instituições de educação superior brasileiras ou com diploma revalidado no País; e
+
+  </p>
+            
+          </Inciso><Inciso id="art13_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    aos médicos formados em instituições de educação superior estrangeiras, por meio de intercâmbio médico internacional.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art13_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A seleção e a ocupação das vagas ofertadas no âmbito do Projeto Mais Médicos para o Brasil observarão a seguinte ordem de prioridade:
+
+  </p>
+            <Inciso id="art13_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    médicos formados em instituições de educação superior brasileiras ou com diploma revalidado no País, inclusive os aposentados;
+
+  </p>
+            
+          </Inciso><Inciso id="art13_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    médicos brasileiros formados em instituições estrangeiras com habilitação para exercício da Medicina no exterior; e
+
+  </p>
+            
+          </Inciso><Inciso id="art13_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    médicos estrangeiros com habilitação para exercício da Medicina no exterior.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art13_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Para fins do Projeto Mais Médicos para o Brasil, considera-se:
+
+  </p>
+            <Inciso id="art13_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    médico participante: médico intercambista ou médico formado em instituição de educação superior brasileira ou com diploma revalidado; e
+
+  </p>
+            
+          </Inciso><Inciso id="art13_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    médico intercambista: médico formado em instituição de educação superior estrangeira com habilitação para exercício da Medicina no exterior.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art13_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A coordenação do Projeto Mais Médicos para o Brasil ficará a cargo dos Ministérios da Educação e da Saúde, que disciplinarão, por meio de ato conjunto dos Ministros de Estado da Educação e da Saúde, a forma de participação das instituições públicas de educação superior e as regras de funcionamento do Projeto, incluindo a carga horária, as hipóteses de afastamento e os recessos.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art13_par4">
+            <!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Para fins de preenchimento das vagas disponíveis no Projeto Mais Médicos para o Brasil, o regulamento estabelecerá os percentuais de vagas reservadas para médicos com deficiência e para médicos pertencentes a grupos étnico-raciais, bem como os critérios e normas pertinentes. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            <!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            
+            <p>
+    No contexto da educação permanente, a formação dos profissionais participantes ocorrerá por meio de cursos de aperfeiçoamento ou de pós-graduação lato ou stricto sensu, ofertados por instituições de ensino e pesquisa, como atividade de integração ensino-serviço. (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art14_par1">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A formação de que trata o caput deste artigo terá prazo de até 4 (quatro) anos, prorrogável por igual período, conforme definido em ato conjunto do Ministro de Estado da Saúde e do Ministro de Estado da Educação. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art14_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A aprovação do médico participante no curso de especialização será condicionada ao cumprimento de todos os requisitos do Projeto Mais Médicos para o Brasil e à sua aprovação nas avaliações periódicas.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art14_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O primeiro módulo, designado acolhimento, terá duração de 4 (quatro) semanas, será executado na modalidade presencial, com carga horária mínima de 160 (cento e sessenta) horas, e contemplará conteúdo relacionado à legislação referente ao sistema de saúde brasileiro, ao funcionamento e às atribuições do SUS, notadamente da Atenção Básica em saúde, aos protocolos clínicos de atendimentos definidos pelo Ministério da Saúde, à língua portuguesa e ao código de ética médica.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art14_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    As avaliações serão periódicas, realizadas ao final de cada módulo, e compreenderão o conteúdo específico do respectivo módulo, visando a identificar se o médico participante está apto ou não a continuar no Projeto.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art14_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    A coordenação do Projeto Mais Médicos para o Brasil, responsável pelas avaliações de que tratam os §§ 1º a 4º, disciplinará, acompanhará e fiscalizará a programação em módulos do aperfeiçoamento dos médicos participantes, a adoção de métodos transparentes para designação dos avaliadores e os resultados e índices de aprovação e reprovação da avaliação, zelando pelo equilíbrio científico, pedagógico e profissional.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>
+    Integram o Projeto Mais Médicos para o Brasil:
+
+  </p>
+            <Inciso id="art15_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o médico participante, que será submetido ao aperfeiçoamento profissional supervisionado;
+
+  </p>
+            
+          </Inciso><Inciso id="art15_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o supervisor, profissional médico responsável pela supervisão profissional contínua e permanente do médico; e
+
+  </p>
+            
+          </Inciso><Inciso id="art15_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    o tutor acadêmico, docente médico que será responsável pela orientação acadêmica.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art15_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    São condições para a participação do médico intercambista no Projeto Mais Médicos para o Brasil, conforme disciplinado em ato conjunto dos Ministros de Estado da Educação e da Saúde:
+
+  </p>
+            <Inciso id="art15_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    apresentar diploma expedido por instituição de educação superior estrangeira;
+
+  </p>
+            
+          </Inciso><Inciso id="art15_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    apresentar habilitação para o exercício da Medicina no país de sua formação; e
+
+  </p>
+            
+          </Inciso><Inciso id="art15_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    possuir conhecimento em língua portuguesa, regras de organização do SUS e protocolos e diretrizes clínicas no âmbito da Atenção Básica.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art15_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os documentos previstos nos incisos I e II do § 1º sujeitam-se à legalização consular gratuita, dispensada a tradução juramentada, nos termos de ato conjunto dos Ministros de Estado da Educação e da Saúde.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A atuação e a responsabilidade do médico supervisor e do tutor acadêmico, para todos os efeitos de direito, são limitadas, respectiva e exclusivamente, à atividade de supervisão médica e à tutoria acadêmica.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            <!--Link: urn:lex:br:federal:lei:1996-12-20;9394!art48_par2--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            
+            <p>
+    O médico intercambista exercerá a Medicina exclusivamente no âmbito das atividades de ensino, pesquisa e extensão do Projeto Mais Médicos para o Brasil, dispensada, para esse fim, apenas durante os primeiros 4 (quatro) anos de sua participação, a revalidação de seu diploma nos termos do <span xlink:href="urn:lex:br:federal:lei:1996-12-20;9394!art48_par2">§ 2º do art. 48 da Lei nº 9.394, de 20 de dezembro de 1996</span>. (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art16_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    (VETADO).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par2">
+            <!--Link: urn:lex:br:federal:lei:1957-09-30;3268!art17-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A participação do médico intercambista no Projeto Mais Médicos para o Brasil, atestada pela coordenação do Projeto, é condição necessária e suficiente para o exercício da Medicina no âmbito do Projeto Mais Médicos para o Brasil, não sendo aplicável o <span xlink:href="urn:lex:br:federal:lei:1957-09-30;3268!art17">art. 17 da Lei nº 3.268, de 30 de setembro de 1957</span>.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O Ministério da Saúde emitirá número de registro único para cada médico intercambista participante do Projeto Mais Médicos para o Brasil e a respectiva carteira de identificação, que o habilitará para o exercício da Medicina nos termos do § 2.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    A coordenação do Projeto comunicará ao Conselho Regional de Medicina (CRM) que jurisdicionar na área de atuação a relação de médicos intercambistas participantes do Projeto Mais Médicos para o Brasil e os respectivos números de registro único.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    O médico intercambista estará sujeito à fiscalização pelo CRM.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par6">
+            <!--Link: urn:lex:br:federal:lei:1996-12-20;9394!art48_par2--><!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    A prorrogação da participação do médico intercambista no Projeto Mais Médicos para o Brasil, conforme o disposto no § 1º do art. 14 desta Lei, fica condicionada à apresentação de diploma revalidado nos termos do <span xlink:href="urn:lex:br:federal:lei:1996-12-20;9394!art48_par2">§ 2º do art. 48 da Lei nº 9.394, de 20 de dezembro de 1996</span>. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par7">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    Fica autorizada a recontratação dos médicos participantes do Projeto Mais Médicos para o Brasil nos ciclos efetivados até o mês de dezembro de 2022, independentemente do período de atuação desses profissionais no Projeto, desde que o acesso a ele ocorra por meio dos editais vigentes a partir da data de entrada em vigor da <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20 de março de 2023</span>, observado o disposto no caput e no § 6º deste artigo. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art16-1">
+            
+            
+            <Rotulo>Art. 16-A.</Rotulo>
+            
+            <Caput id="art16-1_cpt">
+            
+            
+            
+            <p>
+    Para fins de inscrição em prova de título de especialista em Medicina Geral de Família e Comunidade, o médico intercambista que tiver o diploma revalidado no País terá considerado o tempo de atuação no âmbito do Projeto Mais Médicos para o Brasil.
+
+  </p>
+            
+          </Caput><Paragrafo id="art16-1_par1u">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Para fins de cumprimento de requisitos de provas de concurso público, exames de título de especialista ou quaisquer outros processos seletivos que exijam comprovação de experiência em serviço no âmbito da atenção primária à saúde, será reconhecido o tempo de exercício nos programas de provimento federais dos profissionais que tenham tido seus diplomas revalidados. (Artigo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            
+            
+            
+            <p>
+    As atividades desempenhadas no âmbito do Projeto Mais Médicos para o Brasil não criam vínculo empregatício de qualquer natureza.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            
+            <p>
+    O médico intercambista estrangeiro inscrito no Projeto Mais Médicos para o Brasil fará jus ao visto temporário de aperfeiçoamento médico pelo prazo de 4 (quatro) anos, prorrogável por igual período, conforme o disposto no § 1º do art. 14 desta Lei, mediante apresentação de declaração da coordenação do Projeto. (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art18_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O Ministério das Relações Exteriores poderá conceder o visto temporário de que trata o caput aos dependentes legais do médico intercambista estrangeiro, incluindo companheiro ou companheira, pelo prazo de validade do visto do titular.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art18_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os dependentes legais do médico intercambista estrangeiro poderão exercer atividades remuneradas, com emissão de Carteira de Trabalho e Previdência Social (CTPS) pelo Ministério do Trabalho e Emprego.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art18_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    É vedada a transformação do visto temporário previsto neste artigo em permanente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art18_par4">
+            <!--Link: urn:lex:br:federal:lei:1980-08-19;6815!art30--><!--Link: urn:lex:br:federal:lei:1980-08-19;6815!art31--><!--Link: urn:lex:br:federal:lei:1980-08-19;6815!art33-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Aplicam-se os <span xlink:href="urn:lex:br:federal:lei:1980-08-19;6815!art30">arts. 30</span>, <span xlink:href="urn:lex:br:federal:lei:1980-08-19;6815!art31">31</span> e <span xlink:href="urn:lex:br:federal:lei:1980-08-19;6815!art33">33 da Lei nº 6.815, de 19 de agosto de 1980</span>, ao disposto neste artigo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            
+            
+            
+            <p>
+    Os médicos integrantes do Projeto Mais Médicos para o Brasil poderão perceber bolsas nas seguintes modalidades:
+
+  </p>
+            <Inciso id="art19_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    bolsa-formação;
+
+  </p>
+            
+          </Inciso><Inciso id="art19_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    bolsa-supervisão; e
+
+  </p>
+            
+          </Inciso><Inciso id="art19_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    bolsa-tutoria.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art19_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Além do disposto no caput, a União concederá ajuda de custo destinada a compensar as despesas de instalação do médico participante, que não poderá exceder a importância correspondente ao valor de 3 (três) bolsas-formação.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    É a União autorizada a custear despesas com deslocamento dos médicos participantes e seus dependentes legais, conforme dispuser ato conjunto dos Ministros de Estado do Planejamento, Orçamento e Gestão e da Saúde.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Os valores das bolsas e da ajuda de custo a serem concedidas e suas condições de pagamento serão definidos em ato conjunto dos Ministros de Estado da Educação e da Saúde.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art19-1">
+            
+            
+            <Rotulo>Art. 19-A.</Rotulo>
+            
+            <Caput id="art19-1_cpt">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            
+            <p>
+    O médico participante que atuar no Projeto Mais Médicos para o Brasil de forma ininterrupta em área de difícil fixação, a ser definida em ato do Ministério da Saúde, fará jus a indenização equivalente a: (“Caput” do artigo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            <Inciso id="art19-1_cpt_inc1">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    20% (vinte por cento) do valor total das bolsas percebidas pelo médico participante no período de 48 (quarenta e oito) meses, se atuar em área de vulnerabilidade indicada em ato do Ministério da Saúde; e (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art19-1_cpt_inc2">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    10% (dez por cento) do valor total das bolsas percebidas pelo médico participante no período de 48 (quarenta e oito) meses, se atuar nas demais áreas de difícil fixação. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida e com redação dada <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art19-1_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    No ato de adesão ao Projeto Mais Médicos para o Brasil, o médico participante poderá optar por uma das seguintes condições de recebimento da indenização prevista no caput deste artigo:
+
+  </p>
+            <Inciso id="art19-1_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    em 2 (duas) parcelas, da seguinte forma:
+
+  </p>
+            <Alinea id="art19-1_par1_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    30% (trinta por cento) do total da indenização após 36 (trinta e seis) meses de permanência no Projeto, contados da data de sua entrada em exercício; e
+
+  </p>
+            
+          </Alinea><Alinea id="art19-1_par1_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    70% (setenta por cento) do total da indenização após 48 (quarenta e oito) meses de permanência no Projeto, contados da data de sua entrada em exercício; ou
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art19-1_par1_inc2">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    em parcela única, após 48 (quarenta e oito) meses de permanência no Projeto, contados da data de sua entrada em exercício. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art19-1_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O médico participante fará jus ao recebimento da indenização de que trata o caput deste artigo quando atendidos os seguintes requisitos:
+
+  </p>
+            <Inciso id="art19-1_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    cumprimento dos prazos estabelecidos nesta Lei;
+
+  </p>
+            
+          </Inciso><Inciso id="art19-1_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    aprovação em todas as atividades educacionais oferecidas pelo Projeto; e
+
+  </p>
+            
+          </Inciso><Inciso id="art19-1_par2_inc3">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    cumprimento dos deveres estabelecidos em ato do Ministério da Saúde. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art19-1_par3">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Será dado ao médico, antes de sua adesão ao Projeto Mais Médicos para o Brasil, o conhecimento sobre os deveres de que trata o inciso III do § 2º deste artigo. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art19-2">
+            
+            
+            <Rotulo>Art. 19-B.</Rotulo>
+            
+            <Caput id="art19-2_cpt">
+            <!--Link: urn:lex:br:federal:lei:2001-07-12;10260--><!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            
+            <p>
+    O médico participante do Projeto Mais Médicos para o Brasil que tiver realizado graduação em Medicina financiada pelo Fundo de Financiamento Estudantil (Fies), nos termos da <span xlink:href="urn:lex:br:federal:lei:2001-07-12;10260">Lei nº 10.260, de 12 de julho de 2001</span>, poderá requerer indenização diferenciada por atuação em área de difícil fixação, em substituição à indenização prevista no art. 19-A desta Lei. (“Caput” do artigo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art19-2_par1">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O valor total da indenização diferenciada de que trata o caput deste artigo corresponderá a: (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            <Inciso id="art19-2_par1_inc1">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    80% (oitenta por cento) da quantia a ser percebida pelo médico participante no período de 48 (quarenta e oito) meses, se atuar em área de vulnerabilidade indicada em ato do Ministério da Saúde; ou (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art19-2_par1_inc2">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    40% (quarenta por cento) da quantia a ser percebida pelo médico participante no período de 48 (quarenta e oito) meses, se atuar nas demais áreas de difícil fixação. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art19-2_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A indenização diferenciada de que trata o caput deste artigo será paga em 4 (quatro) parcelas, da seguinte forma:
+
+  </p>
+            <Inciso id="art19-2_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    10% (dez por cento) do total da indenização após 12 (doze) meses de exercício contínuo no Projeto, contados da data de sua entrada em exercício;
+
+  </p>
+            
+          </Inciso><Inciso id="art19-2_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    10% (dez por cento) do total da indenização após 24 (vinte e quatro) meses de exercício contínuo no Projeto, contados da data de sua entrada em exercício;
+
+  </p>
+            
+          </Inciso><Inciso id="art19-2_par2_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    10% (dez por cento) do total da indenização após 36 (trinta e seis) meses de exercício contínuo no Projeto, contados da data de sua entrada em exercício; e
+
+  </p>
+            
+          </Inciso><Inciso id="art19-2_par2_inc4">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    70% (setenta por cento) do total da indenização após 48 (quarenta e oito) meses de exercício contínuo no Projeto, contados da data de sua entrada em exercício. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art19-2_par3">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O número de vagas disponíveis anualmente para adesão à indenização de que trata o caput deste artigo será estabelecido em ato do Ministério da Saúde. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19-2_par4">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O recebimento da indenização de que trata o caput deste artigo está condicionado a requerimento do interessado, de acordo com o disposto no regulamento. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19-2_par5">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    A indenização de que trata o caput deste artigo, considerado o seu valor total, poderá ser recebida somente 1 (uma) vez por participante. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19-2_par6">
+            <!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    Será dado ao médico, previamente à sua adesão ao Projeto Mais Médicos para o Brasil, conhecimento sobre o número de vagas disponíveis para a indenização de que trata o caput deste artigo e as regras dispostas no regulamento referido no § 4º deste artigo. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art19-3">
+            
+            
+            <Rotulo>Art. 19-C.</Rotulo>
+            
+            <Caput id="art19-3_cpt">
+            <!--Link: urn:lex:br:federal:lei:2006-08-07;11340!art9_par2_inc2--><!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            
+            <p>
+    Para fins de gozo dos benefícios de que tratam os arts. 19-A e 19-B, os períodos de licença-maternidade, de licença-paternidade e o de afastamento do local de trabalho por até 6 (seis) meses assegurado no <span xlink:href="urn:lex:br:federal:lei:2006-08-07;11340!art9_par2_inc2">inciso II do § 2º do art. 9º da Lei nº 11.340, de 7 de agosto de 2006</span>, serão computados no prazo de participação dos médicos no Projeto Mais Médicos para o Brasil, excluídos os demais afastamentos. (Artigo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art19-4">
+            
+            
+            <Rotulo>Art. 19-D.</Rotulo>
+            
+            <Caput id="art19-4_cpt">
+            
+            
+            
+            <p>
+    As bolsas e as indenizações estabelecidas no âmbito do Projeto Mais Médicos para o Brasil:
+
+  </p>
+            <Inciso id="art19-4_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    não representam vínculo empregatício com a União; II - não implicam incorporação aos vencimentos dos profissionais para quaisquer efeitos legais;
+
+  </p>
+            
+          </Inciso><Inciso id="art19-4_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    caracterizam doação com encargos;
+
+  </p>
+            
+          </Inciso><Inciso id="art19-4_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    não podem ser utilizadas como base de cálculo para recebimento de outros benefícios, inclusive para fins previdenciários;
+
+  </p>
+            
+          </Inciso><Inciso id="art19-4_cpt_inc5">
+            <!--Link: urn:lex:br:federal:lei:1995-12-26;9250!art26-->
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    não caracterizam contraprestação de serviços nem vantagem para o doador nos termos do <span xlink:href="urn:lex:br:federal:lei:1995-12-26;9250!art26">art. 26 da Lei nº 9.250, de 26 de dezembro de 1995</span>; e
+
+  </p>
+            
+          </Inciso><Inciso id="art19-4_cpt_inc6">
+            <!--Link: urn:lex:br:federal:lei:1991-07-24;8212!art22--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    não caracterizam contraprestação de serviços nos termos do <span xlink:href="urn:lex:br:federal:lei:1991-07-24;8212!art22">art. 22 da Lei nº 8.212, de 24 de julho de 1991</span>. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>, em vigor em 1º/1/2024)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art19-4_par1u">
+            <!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    As bolsas e as indenizações a que se refere o caput deste artigo serão pagas em igual valor e de forma direta a todos os médicos participantes. (Artigo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            <!--Link: urn:lex:br:federal:lei:1991-07-24;8212-->
+            
+            
+            <p>
+    O médico participante enquadra-se como segurado obrigatório do Regime Geral de Previdência Social (RGPS), na condição de contribuinte individual, na forma da <span xlink:href="urn:lex:br:federal:lei:1991-07-24;8212">Lei nº 8.212, de 24 de julho de 1991</span>.
+
+  </p>
+            
+          </Caput><Paragrafo id="art20_par1u">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art20_par1">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A médica participante que estiver em gozo de licença-maternidade fará jus à complementação, pelo Projeto Mais Médicos para o Brasil, do benefício concedido pelo Instituto Nacional do Seguro Social (INSS), no valor correspondente à diferença entre a bolsa e o benefício previdenciário recebido, durante o período de 6 (seis) meses. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art20_par2">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Será concedida licença-paternidade de 20 (vinte) dias consecutivos ao médico participante, pelo nascimento ou pela adoção de filho. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art20_par3">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O disposto no caput deste artigo não se aplica a médicos intercambistas que aderirem a regime de seguridade social em seu país de origem caso esse país mantenha acordo internacional de seguridade social com a República Federativa do Brasil. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art20_par4">
+            <!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Será concedido horário especial, definido em ato do Ministério da Saúde, ao médico participante com deficiência ou que tenha cônjuge, filho ou dependente com deficiência, comprovada a necessidade por junta médica oficial, sem exigência de compensação de horário. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            
+            
+            
+            <p>
+    Poderão ser aplicadas as seguintes penalidades aos médicos participantes do Projeto Mais Médicos para o Brasil que descumprirem o disposto nesta Lei e nas normas complementares:
+
+  </p>
+            <Inciso id="art21_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    advertência;
+
+  </p>
+            
+          </Inciso><Inciso id="art21_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    suspensão; e
+
+  </p>
+            
+          </Inciso><Inciso id="art21_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    desligamento das ações de aperfeiçoamento.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art21_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Na hipótese do inciso III do caput, poderá ser exigida a restituição dos valores recebidos a título de bolsa, ajuda de custo e aquisição de passagens, acrescidos de atualização monetária, conforme definido em ato conjunto dos Ministros de Estado da Educação e da Saúde.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art21_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Na aplicação das penalidades previstas neste artigo, serão consideradas a natureza e a gravidade da infração cometida, assegurados o contraditório e a ampla defesa.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art21_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    No caso de médico intercambista, o desligamento do Programa implicará o cancelamento do registro único no Ministério da Saúde e do registro de estrangeiro.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art21_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Para fins do disposto no § 3º, a coordenação do Projeto Mais Médicos para o Brasil comunicará o desligamento do médico participante ao CRM e ao Ministério da Justiça.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art22">
+            
+            
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            
+            
+            
+            <p>
+    As demais ações de aperfeiçoamento na área de Atenção Básica em saúde em regiões prioritárias para o SUS, voltadas especificamente para os médicos formados em instituições de educação superior brasileiras ou com diploma revalidado, serão desenvolvidas por meio de projetos e programas dos Ministérios da Saúde e da Educação.
+
+  </p>
+            
+          </Caput><Paragrafo id="art22_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As ações de aperfeiçoamento de que trata o caput serão realizadas por meio de instrumentos de incentivo e mecanismos de integração ensino-serviço.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art22_par2">
+            <!--Link: urn:lex:br:federal:lei:2025-10-07;15233-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2025-10-07;15233">Lei nº 15.233, de 7.10.2025</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art22_par3">
+            <!--Link: urn:lex:br:federal:lei:2025-10-07;15233-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2025-10-07;15233">Lei nº 15.233, de 7.10.2025</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art22_par4">
+            <!--Link: urn:lex:br:federal:lei:2025-10-07;15233-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2025-10-07;15233">Lei nº 15.233, de 7.10.2025</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art22_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Aplica-se o disposto nos arts. 17, 19, 20 e 21 aos projetos e programas de que trata o caput.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art22_par6">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    A Residência em Medicina de Família e Comunidade em instituição devidamente credenciada pela Comissão Nacional de Residência Médica, em conformidade com a matriz de competência da especialidade, corresponde a uma das ações de aperfeiçoamento da Atenção Básica previstas no caput deste artigo. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art22-1">
+            
+            
+            <Rotulo>Art. 22-A.</Rotulo>
+            
+            <Caput id="art22-1_cpt">
+            <!--Link: urn:lex:br:federal:lei:2001-07-12;10260--><!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            
+            <p>
+    Ao médico participante de Programa de Residência em Medicina de Família e Comunidade que cumprir, de forma ininterrupta, os 24 (vinte e quatro) meses de formação com aprovação para obtenção de título de especialista e que tiver realizado a graduação em Medicina financiada pelo Fies, nos termos da <span xlink:href="urn:lex:br:federal:lei:2001-07-12;10260">Lei nº 10.260, de 12 de julho de 2001</span>, será concedida indenização por formação em especialidades estratégicas para o SUS, de valor monetário correspondente ao seu saldo devedor do Fies no momento de ingresso no Programa de Residência. (“Caput” do artigo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art22-1_par1">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O número de vagas disponíveis anualmente para adesão à indenização de que trata o caput deste artigo será estabelecido em ato conjunto do Ministro de Estado da Saúde e do Ministro de Estado da Educação. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art22-1_par2">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O recebimento da indenização de que trata o caput deste artigo é condicionado ao requerimento do interessado, de acordo com o disposto no regulamento. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art22-1_par3">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2023-03-20;1165--><!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A indenização de que trata o caput deste artigo, considerado o seu valor total, poderá ser recebida somente 1 (uma) vez por participante. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2023-03-20;1165">Medida Provisória nº 1.165, de 20.3.2023</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art22-1_par4">
+            <!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Será dado ao médico, previamente à sua adesão ao Projeto Mais Médicos para o Brasil, conhecimento sobre o número de vagas disponíveis para a indenização de que trata o caput deste artigo e sobre as regras dispostas no regulamento referido no § 2º deste artigo. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art22-2">
+            
+            
+            <Rotulo>Art. 22-B.</Rotulo>
+            
+            <Caput id="art22-2_cpt">
+            
+            
+            
+            <p>
+    Serão desenvolvidos processos de monitoramento e de avaliação sobre a efetividade do Projeto Mais Médicos para o Brasil na formação dos médicos participantes, na alocação e fixação dos profissionais em áreas de difícil acesso e na melhoria dos indicadores de saúde da população.
+
+  </p>
+            
+          </Caput><Paragrafo id="art22-2_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A coordenação do Programa Mais Médicos manterá sítio na internet em que divulgará dados e informações sobre o Projeto Mais Médicos para o Brasil, entre os quais:
+
+  </p>
+            <Inciso id="art22-2_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    dados e indicadores atualizados, definidos em regulamento, nacionais e por localidade, sobre a implementação e a efetividade do Projeto Mais Médicos para o Brasil;
+
+  </p>
+            
+          </Inciso><Inciso id="art22-2_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    relatório circunstanciado anual com os resultados dos processos de monitoramento e de avaliação.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art22-2_par2">
+            <!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Inclui-se nos processos de monitoramento e de avaliação dispostos no caput deste artigo a pesquisa de satisfação dos usuários do SUS acerca da disponibilidade de médicos e da humanização da atenção à saúde. (Artigo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art22-3">
+            
+            
+            <Rotulo>Art. 22-C.</Rotulo>
+            
+            <Caput id="art22-3_cpt">
+            <!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            
+            <p>
+    A fim de conferir agilidade na alocação de médicos, o Ministério da Saúde poderá implantar critério de seleção para redistribuição de médicos inscritos no mesmo Estado onde houver vagas não preenchidas. (Artigo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art22-4">
+            
+            
+            <Rotulo>Art. 22-D.</Rotulo>
+            
+            <Caput id="art22-4_cpt">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2025-05-30;1301--><!--Link: urn:lex:br:federal:lei:2025-10-07;15233-->
+            
+            
+            <p>
+    Fica instituído, no âmbito do Programa Mais Médicos, o Projeto Mais Médicos Especialistas, destinado ao provimento de profissionais com vistas à redução no tempo de espera de atendimento ao usuário do SUS, nas regiões prioritárias estabelecidas pelo Ministério da Saúde no âmbito da atenção especializada à saúde. (“Caput” do artigo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2025-05-30;1301">Medida Provisória nº 1.301, de 30.5.2025</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2025-10-07;15233">Lei nº 15.233, de 7.10.2025</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art22-4_par1">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2025-05-30;1301--><!--Link: urn:lex:br:federal:lei:2025-10-07;15233-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A participação no Projeto Mais Médicos Especialistas é exclusiva a médicos formados em instituições de ensino superior brasileiras ou com diploma revalidado no País, certificados como especialistas, que deverão ser selecionados por meio de editais públicos. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2025-05-30;1301">Medida Provisória nº 1.301, de 30.5.2025</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2025-10-07;15233">Lei nº 15.233, de 7.10.2025</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art22-4_par2">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2025-05-30;1301--><!--Link: urn:lex:br:federal:lei:2025-10-07;15233-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os participantes do Projeto Mais Médicos Especialistas poderão fazer jus a bolsa-formação e demais benefícios do Projeto Mais Médicos para o Brasil. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2025-05-30;1301">Medida Provisória nº 1.301, de 30.5.2025</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2025-10-07;15233">Lei nº 15.233, de 7.10.2025</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art22-4_par3">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2025-05-30;1301--><!--Link: urn:lex:br:federal:lei:2025-10-07;15233-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Ato do Ministro de Estado da Saúde disporá sobre as normas para o funcionamento do Projeto Mais Médicos Especialistas. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2025-05-30;1301">Medida Provisória nº 1.301, de 30.5.2025</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2025-10-07;15233">Lei nº 15.233, de 7.10.2025</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art22-4_par4">
+            <!--Link: urn:lex:br:federal:lei:2025-10-07;15233-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Os profissionais que optarem por atuar em Municípios situados na Amazônia Legal, em territórios indígenas ou em áreas com classificação socioeconômica de alta vulnerabilidade farão jus a adicional sobre a bolsa-formação, conforme regulamentação do Ministério da Saúde e disponibilidade orçamentária. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2025-10-07;15233">Lei nº 15.233, de 7.10.2025</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art22-5">
+            
+            
+            <Rotulo>Art. 22-E.</Rotulo>
+            
+            <Caput id="art22-5_cpt">
+            <!--Link: urn:lex:br:federal:lei:1981-07-07;6932!art2--><!--Link: urn:lex:br:federal:lei:2025-10-07;15233-->
+            
+            
+            <p>
+    O profissional que tiver concluído a Residência em Medicina de Família e Comunidade em instituição devidamente credenciada pela Comissão Nacional de Residência Médica, em conformidade com a matriz de competência da especialidade receberá pontuação adicional de 10% (dez por cento) na nota de todas as fases ou da fase única do processo de seleção pública dos Programas de Residência Médica a que se refere o <span xlink:href="urn:lex:br:federal:lei:1981-07-07;6932!art2">art. 2º da Lei nº 6.932, de 7 de julho de 1981</span>. (Artigo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2025-10-07;15233">Lei nº 15.233, de 7.10.2025</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art22-6">
+            
+            
+            <Rotulo>Art. 22-F.</Rotulo>
+            
+            <Caput id="art22-6_cpt">
+            <!--Link: urn:lex:br:federal:lei:1981-07-07;6932!art2--><!--Link: urn:lex:br:federal:lei:2025-10-07;15233-->
+            
+            
+            <p>
+    Compete ao Ministério da Educação regulamentar os critérios de utilização das bonificações concedidas por programas de provimento e por demais ações governamentais, inclusive para fins do <span xlink:href="urn:lex:br:federal:lei:1981-07-07;6932!art2">art. 2º da Lei nº 6.932, de 7 de julho de 1981</span>. (Artigo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2025-10-07;15233">Lei nº 15.233, de 7.10.2025</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap5">
+            
+            
+            <Rotulo>CAPÍTULO V</Rotulo>
+            <NomeAgrupador>
+    DISPOSIÇÕES FINAIS
+
+  </NomeAgrupador>
+            <Artigo id="art23">
+            
+            
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            
+            
+            
+            <p>
+    Para execução das ações previstas nesta Lei, os Ministérios da Educação e da Saúde poderão firmar acordos e outros instrumentos de cooperação com organismos internacionais, instituições de educação superior nacionais e estrangeiras, órgãos e entidades da administração pública direta e indireta da União, dos Estados, do Distrito Federal e dos Municípios, consórcios públicos e entidades privadas, inclusive com transferência de recursos.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art23-1">
+            
+            
+            <Rotulo>Art. 23-A.</Rotulo>
+            
+            <Caput id="art23-1_cpt">
+            
+            
+            
+            <p>
+    Será reincorporado ao Projeto Mais Médicos para o Brasil, na forma do inciso II do caput do art. 13 desta Lei, pelo prazo improrrogável de 2 (dois) anos, o médico intercambista que atender cumulativamente aos seguintes requisitos:
+
+  </p>
+            <Inciso id="art23-1_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    estar no exercício de suas atividades, no dia 13 de novembro de 2018, no âmbito do Projeto Mais Médicos para o Brasil, em razão do 80º Termo de Cooperação Técnica para implementação do Projeto Ampliação do Acesso da População Brasileira à Atenção Básica em Saúde, firmado entre o Governo da República Federativa do Brasil e a Organização Pan-Americana da Saúde/Organização Mundial da Saúde;
+
+  </p>
+            
+          </Inciso><Inciso id="art23-1_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    ter sido desligado do Projeto Mais Médicos para o Brasil em virtude da ruptura do acordo de cooperação entre o Ministério da Saúde Pública de Cuba e a Organização Pan-Americana da Saúde/Organização Mundial da Saúde para a oferta de médicos para esse Projeto; e
+
+  </p>
+            
+          </Inciso><Inciso id="art23-1_cpt_inc3">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2019-08-01;890--><!--Link: urn:lex:br:federal:lei:2019-12-18;13958-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    ter permanecido no território nacional até a data de publicação da <span xlink:href="urn:lex:br:federal:medida.provisoria:2019-08-01;890">Medida Provisória nº 890, de 1º de agosto de 2019</span>, na condição de naturalizado, residente ou com pedido de refúgio. (Artigo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2019-12-18;13958">Lei nº 13.958, de 18.12.2019</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art24">
+            
+            
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput id="art24_cpt">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2001-09-06;2229-43!art58-->
+            
+            
+            <p>
+    São transformadas, no âmbito do Poder Executivo, sem aumento de despesa, 117 (cento e dezessete) Funções Comissionadas Técnicas (FCTs), criadas pelo <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2229-43!art58">art. 58 da Medida Provisória nº 2.229-43, de 6 de setembro de 2001</span>, do nível FCT-13, em 10 (dez) cargos em comissão do Grupo-Direção e Assessoramento Superiores (DAS), sendo 2 (dois) DAS-5 e 8 (oito) DAS-4.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art25">
+            
+            
+            <Rotulo>Art. 25.</Rotulo>
+            
+            <Caput id="art25_cpt">
+            <!--Link: urn:lex:br:federal:lei:2023-07-14;14621-->
+            
+            
+            <p>
+    São os Ministérios da Saúde e da Educação autorizados a contratar, mediante dispensa de licitação, instituição financeira oficial federal para realizar atividades relacionadas aos pagamentos das bolsas, das ajudas de custo e das indenizações de que trata esta Lei. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2023-07-14;14621">Lei nº 14.621, de 14.7.2023</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art26">
+            
+            
+            <Rotulo>Art. 26.</Rotulo>
+            
+            <Caput id="art26_cpt">
+            <!--Link: urn:lex:br:federal:lei:2011-12-15;12550-->
+            
+            
+            <p>
+    São a Empresa Brasileira de Serviços Hospitalares (EBSERH) e o Hospital de Clínicas de Porto Alegre (HCPA) autorizados a conceder bolsas para ações de saúde, a ressarcir despesas, a adotar outros mecanismos de incentivo a suas atividades institucionais e a promover as ações necessárias ao desenvolvimento do Programa Mais Médicos, observada a <span xlink:href="urn:lex:br:federal:lei:2011-12-15;12550">Lei nº 12.550, de 15 de dezembro de 2011</span>.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art27">
+            
+            
+            <Rotulo>Art. 27.</Rotulo>
+            
+            <Caput id="art27_cpt">
+            
+            
+            
+            <p>
+    Será concedida bolsa para atividades de preceptoria nas ações de formação em serviço nos cursos de graduação e residência médica ofertados pelas instituições federais de educação superior ou pelo Ministério da Saúde.
+
+  </p>
+            
+          </Caput><Paragrafo id="art27_par1">
+            <!--Link: urn:lex:br:federal:lei:2012-12-28;12772!art12_par4-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Integram as diretrizes gerais para o processo de avaliação de desempenho para fins de progressão e de promoção de que trata o <span xlink:href="urn:lex:br:federal:lei:2012-12-28;12772!art12_par4">§ 4º do art. 12 da Lei nº 12.772, de 28 de dezembro de 2012</span>, a serem estabelecidas em ato do Ministério da Educação, o exercício profissional no SUS, na área de docência do professor, a preceptoria de que trata esta Lei e o exercício de atividade nos programas definidos como prioritários pelo Ministério da Saúde.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art27_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Com vistas a assegurar a universalização dos programas de residência médica prevista no art. 5º desta Lei, poderão ser adotadas medidas que ampliem a formação de preceptores de residência médica.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art28">
+            
+            
+            <Rotulo>Art. 28.</Rotulo>
+            
+            <Caput id="art28_cpt">
+            <!--Link: urn:lex:br:federal:lei:1980-08-19;6815!art20--><!--Link: urn:lex:br:federal:lei:1980-08-19;6815!art33--><!--Link: urn:lex:br:federal:lei:1980-08-19;6815!art131--><!--Link: urn:lex:br:federal:decreto.lei:1985-01-23;2236-->
+            
+            
+            <p>
+    Os médicos participantes e seus dependentes legais são isentos do pagamento das taxas e dos emolumentos previstos nos <span xlink:href="urn:lex:br:federal:lei:1980-08-19;6815!art20">arts. 20</span>, <span xlink:href="urn:lex:br:federal:lei:1980-08-19;6815!art33">33</span> e <span xlink:href="urn:lex:br:federal:lei:1980-08-19;6815!art131">131 da Lei nº 6.815, de 19 de agosto de 1980</span>, e no <span xlink:href="urn:lex:br:federal:decreto.lei:1985-01-23;2236">Decreto-Lei nº 2.236, de 23 de janeiro de 1985</span>.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art29">
+            
+            
+            <Rotulo>Art. 29.</Rotulo>
+            
+            <Caput id="art29_cpt">
+            <!--Link: urn:lex:br:federal:lei:1995-12-26;9250!art26--><!--Link: urn:lex:br:federal:lei:2005-06-30;11129-->
+            
+            
+            <p>
+    Para os efeitos do <span xlink:href="urn:lex:br:federal:lei:1995-12-26;9250!art26">art. 26 da Lei nº 9.250, de 26 de dezembro de 1995</span>, os valores percebidos a título de bolsa previstos nesta Lei e na <span xlink:href="urn:lex:br:federal:lei:2005-06-30;11129">Lei nº 11.129, de 30 de junho de 2005</span>, não caracterizam contraprestação de serviços.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art30">
+            
+            
+            <Rotulo>Art. 30.</Rotulo>
+            
+            <Caput id="art30_cpt">
+            
+            
+            
+            <p>
+    O quantitativo dos integrantes dos projetos e programas de aperfeiçoamento de que trata esta Lei observará os limites dos recursos orçamentários disponíveis.
+
+  </p>
+            
+          </Caput><Paragrafo id="art30_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O quantitativo de médicos estrangeiros no Projeto Mais Médicos para o Brasil não poderá exceder o patamar máximo de 10% (dez por cento) do número de médicos brasileiros com inscrição definitiva nos CRMs.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art30_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O SUS terá o prazo de 5 (cinco) anos para dotar as unidades básicas de saúde com qualidade de equipamentos e infraestrutura, a serem definidas nos planos plurianuais.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art30_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    As despesas decorrentes da execução dos projetos e programas previstos nesta Lei correrão à conta de dotações orçamentárias destinadas aos Ministérios da Educação, da Defesa e da Saúde, consignadas no orçamento geral da União.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art31">
+            
+            
+            <Rotulo>Art. 31.</Rotulo>
+            
+            <Caput id="art31_cpt">
+            
+            
+            
+            <p>
+    Os Ministros de Estado da Educação e da Saúde poderão editar normas complementares para o cumprimento do disposto nesta Lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art32">
+            
+            
+            <Rotulo>Art. 32.</Rotulo>
+            
+            <Caput id="art32_cpt">
+            <!--Link: urn:lex:br:federal:lei:1995-04-12;9028!art22-->
+            
+            
+            <p>
+    A Advocacia-Geral da União atuará, nos termos do <span xlink:href="urn:lex:br:federal:lei:1995-04-12;9028!art22">art. 22 da Lei nº 9.028, de 12 de abril de 1995</span>, na representação judicial e extrajudicial dos profissionais designados para a função de supervisor médico e de tutor acadêmico prevista nos incisos II e III do art. 15.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art33">
+            
+            
+            <Rotulo>Art. 33.</Rotulo>
+            
+            <Caput id="art33_cpt">
+            <!--Link: urn:lex:br:federal:lei:1993-12-09;8745-->
+            
+            
+            <p>
+    A <span xlink:href="urn:lex:br:federal:lei:1993-12-09;8745">Lei nº 8.745, de 9 de dezembro de 1993</span>, passa a vigorar com as seguintes alterações:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1993-12-09;8745" id="art33_cpt_alt1">              
+              <Artigo xlink:href="art2" id="art33_cpt_alt1_art2" abreAspas="s">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput xlink:href="art2_cpt" id="art33_cpt_alt1_art2_cpt" textoOmitido="s">
+            
+            
+            
+            
+            <Omissis id="art33_cpt_alt1_art2_cpt_omi1"/><Inciso xlink:href="art2_cpt_inc11" id="art33_cpt_alt1_art2_cpt_inc11">
+            
+            
+            <Rotulo>XI –</Rotulo>
+            <p>
+    admissão de professor para suprir demandas excepcionais decorrentes de programas e projetos de aperfeiçoamento de médicos na área de Atenção Básica em saúde em regiões prioritárias para o Sistema Único de Saúde (SUS), mediante integração ensino-serviço, respeitados os limites e as condições fixados em ato conjunto dos Ministros de Estado do Planejamento, Orçamento e Gestão, da Saúde e da Educação.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Omissis id="art33_cpt_alt1_art2_omi1" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo><Artigo xlink:href="art4" id="art33_cpt_alt1_art4" abreAspas="s">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput xlink:href="art4_cpt" id="art33_cpt_alt1_art4_cpt" textoOmitido="s">
+            
+            
+            
+            
+            <Omissis id="art33_cpt_alt1_art4_cpt_omi1"/><Inciso xlink:href="art4_cpt_inc4" id="art33_cpt_alt1_art4_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    3 (três) anos, nos casos das alíneas &quot;h&quot; e &quot;l&quot; do inciso VI e dos incisos VII, VIII e XI do caput do art. 2º desta Lei;
+
+  </p>
+            
+          </Inciso>
+          </Caput><Omissis id="art33_cpt_alt1_art4_omi1"/><Paragrafo xlink:href="art4_par1u" id="art33_cpt_alt1_art4_par1u" textoOmitido="s">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            
+            <Omissis id="art33_cpt_alt1_art4_par1u_omi1"/><Inciso xlink:href="art4_par1u_inc5" id="art33_cpt_alt1_art4_par1u_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    no caso dos incisos VII e XI do caput do art. 2º, desde que o prazo total não exceda 6 (seis) anos; e
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Omissis id="art33_cpt_alt1_art4_omi2" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art34">
+            
+            
+            <Rotulo>Art. 34.</Rotulo>
+            
+            <Caput id="art34_cpt">
+            <!--Link: urn:lex:br:federal:lei:1981-07-07;6932!art1-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1981-07-07;6932!art1">art. 1º da Lei nº 6.932, de 7 de julho de 1981</span>, passa a vigorar acrescido dos seguintes §§ 3º, 4º e 5º:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1981-07-07;6932" id="art34_cpt_alt1">              
+              <Artigo xlink:href="art1" id="art34_cpt_alt1_art1" abreAspas="s">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput xlink:href="art1_cpt" id="art34_cpt_alt1_art1_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Omissis id="art34_cpt_alt1_art1_omi1"/><Paragrafo xlink:href="art1_par3" id="art34_cpt_alt1_art1_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A Residência Médica constitui modalidade de certificação das especialidades médicas no Brasil.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art1_par4" id="art34_cpt_alt1_art1_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    As certificações de especialidades médicas concedidas pelos Programas de Residência Médica ou pelas associações médicas submetem-se às necessidades do Sistema Único de Saúde (SUS).
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art1_par5" id="art34_cpt_alt1_art1_par5" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    As instituições de que tratam os §§ 1º a 4º deste artigo deverão encaminhar, anualmente, o número de médicos certificados como especialistas, com vistas a possibilitar o Ministério da Saúde a formar o Cadastro Nacional de Especialistas e parametrizar as ações de saúde pública.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art35">
+            
+            
+            <Rotulo>Art. 35.</Rotulo>
+            
+            <Caput id="art35_cpt">
+            <!--Link: urn:lex:br:federal:lei:1981;6932!art1_par5-->
+            
+            
+            <p>
+    As entidades ou as associações médicas que até a data de publicação desta Lei ofertam cursos de especialização não caracterizados como Residência Médica encaminharão as relações de registros de títulos de especialistas para o Ministério da Saúde, para os fins previstos no <span xlink:href="urn:lex:br:federal:lei:1981;6932!art1_par5">§ 5º do art. 1º da Lei nº 6.932, de 1981</span>.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art36">
+            
+            
+            <Rotulo>Art. 36.</Rotulo>
+            
+            <Caput id="art36_cpt">
+            
+            
+            
+            <p>
+    Esta Lei entra em vigor na data de sua publicação.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 22 de outubro de 2013; 192º da Independência e 125º da República.</p></LocalDataFecho><Assinatura><NomePessoa>DILMA ROUSSEFF</NomePessoa><NomePessoa>Aloizio Mercadante</NomePessoa><NomePessoa>Alexandre Rocha Santos Padilha</NomePessoa><NomePessoa>Miriam Belchior</NomePessoa><NomePessoa>Luís Inácio Lucena Adams</NomePessoa></Assinatura></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>

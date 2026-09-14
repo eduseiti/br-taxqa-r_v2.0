@@ -1,0 +1,492 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:1994-02-04;8852"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">LEI Nº 8.852, DE 4 DE FEVEREIRO DE 1994 </Epigrafe>
+		  <Ementa id="ementa">CÂMARA DOS DEPUTADOS Centro de Documentação e Informação <span xlink:href="urn:lex:br:federal:lei:1994-02-04;8852">LEI Nº 8.852, DE 4 DE FEVEREIRO DE 1994</span> Dispõe sobre a aplicação dos <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art37_cpt_inc11">arts. 37, incisos XI</span> e <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art37_cpt_inc12">XII</span> e <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art39_par1">39, § 1º, da Constituição Federal</span>, e dá outras providências.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA
+  </p><p>
+    Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte lei:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    Para os efeitos desta lei, a retribuição pecuniária devida na administração pública direta, indireta e fundacional de qualquer dos Poderes da União compreende:
+
+  </p>
+            <Inciso id="art1_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    como vencimento básico:
+
+  </p>
+            <Alinea id="art1_cpt_inc1_ali1">
+            <!--Link: urn:lex:br:federal:lei:1990-12-11;8112!art40-->
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    a retribuição a que se refere o <span xlink:href="urn:lex:br:federal:lei:1990-12-11;8112!art40">art. 40 da Lei nº 8.112, de 11 de dezembro de 1990</span>, devida pelo efetivo exercício do cargo, para os servidores civis por ela regidos;
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc1_ali2">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2001-08-31;2215-10-->
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    (Revogada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-08-31;2215-10">Medida Provisória nº 2.215-10, de 31.8.2001</span>)
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc1_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    o salário básico estipulado em planos ou tabelas de retribuição ou nos contratos de trabalho, convenções, acordos ou dissídios coletivos, para os empregados de empresas públicas, de sociedades de economia mista, de suas subsidiárias, controladas ou coligadas, ou de quaisquer empresas ou entidades de cujo capital ou patrimônio o poder público tenha o controle direto ou indireto, inclusive em virtude de incorporação ao patrimônio público;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art1_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    como vencimentos, a soma do vencimento básico com as vantagens permanentes relativas ao cargo, emprego, posto ou graduação;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:1990;8112!art62-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    como remuneração, a soma dos vencimentos com os adicionais de caráter individual e demais vantagens, nestas compreendidas as relativas à natureza ou ao local de trabalho e a prevista no <span xlink:href="urn:lex:br:federal:lei:1990;8112!art62">art. 62 da Lei nº 8.112, de 1990</span>, ou outra paga sob o mesmo fundamento, sendo excluídas:
+
+  </p>
+            <Alinea id="art1_cpt_inc3_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    diárias;
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc3_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    ajuda-de-custo em razão de mudança de sede ou indenização de transporte;
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc3_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    auxílio-fardamento;
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc3_ali4">
+            <!--Link: urn:lex:br:federal:lei:1991;8237!art18-->
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    gratificação de compensação orgânica, a que se refere o <span xlink:href="urn:lex:br:federal:lei:1991;8237!art18">art. 18 da Lei nº 8.237, de 1991</span>;
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc3_ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    salário-família;
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc3_ali6">
+            
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    gratificação ou adicional natalino, ou décimo terceiro salário;
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc3_ali7">
+            
+            
+            <Rotulo>g)</Rotulo>
+            <p>
+    abono pecuniário resultante da conversão de até 1/3 (um terço) das férias;
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc3_ali8">
+            
+            
+            <Rotulo>h)</Rotulo>
+            <p>
+    adicional ou auxílio-natalidade;
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc3_ali9">
+            
+            
+            <Rotulo>i)</Rotulo>
+            <p>
+    adicional ou auxílio-funeral;
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc3_ali10">
+            
+            
+            <Rotulo>j)</Rotulo>
+            <p>
+    adicional de férias, até o limite de 1/3 (um terço) sobre a retribuição habitual;
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc3_ali12">
+            
+            
+            <Rotulo>l)</Rotulo>
+            <p>
+    adicional pela prestação de serviço extraordinário, para atender situações excepcionais e temporárias, obedecidos os limites de duração, previstos em lei, contratos, regulamentos, convenções, acordos ou dissídios coletivos e desde que o valor pago não exceda em mais de 50% (cinqüenta por cento) o estipulado para a hora de trabalho na jornada normal;
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc3_ali13">
+            
+            
+            <Rotulo>m)</Rotulo>
+            <p>
+    adicional noturno, enquanto o serviço permanecer sendo prestado em horário que fundamente sua concessão;
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc3_ali14">
+            
+            
+            <Rotulo>n)</Rotulo>
+            <p>
+    adicional por tempo de serviço;
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc3_ali15">
+            
+            
+            <Rotulo>o)</Rotulo>
+            <p>
+    conversão de licença-prêmio em pecúnia facultada para os empregados de empresa pública ou sociedade de economia mista por ato normativo, estatutário ou regulamentar anterior a 1º de fevereiro de 1994;
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc3_ali16">
+            
+            
+            <Rotulo>p)</Rotulo>
+            <p>
+    adicional de insalubridade, de periculosidade ou pelo exercício de atividades penosas percebido durante o período em que o beneficiário estiver sujeito às condições ou aos riscos que deram causa à sua concessão;
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc3_ali17">
+            <!--Link: urn:lex:br:federal:lei:1972-10-11;5811!art3_cpt_inc2--><!--Link: urn:lex:br:federal:lei:1972-10-11;5811!art6_cpt_inc2-->
+            
+            <Rotulo>q)</Rotulo>
+            <p>
+    hora repouso e alimentação e adicional de sobreaviso, a que se referem, respectivamente, o <span xlink:href="urn:lex:br:federal:lei:1972-10-11;5811!art3_cpt_inc2">inciso II do art. 3º</span> e o <span xlink:href="urn:lex:br:federal:lei:1972-10-11;5811!art6_cpt_inc2">inciso II do art. 6º da Lei nº 5.811, de 11 de outubro de 1972</span>,
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc3_ali18">
+            
+            
+            <Rotulo>r)</Rotulo>
+            <p>
+    outras parcelas cujo caráter indenizatório esteja definido em lei, ou seja reconhecido, no âmbito das empresas públicas e sociedades de economia mista, por ato do Poder Executivo. (Alínea vetada pelo Presidente da República e mantida pelo Congresso Nacional, em 5.4.1994)
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput><Paragrafo id="art1_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O disposto no inciso III abrange adiantamentos desprovidos de natureza indenizatória.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art1_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As parcelas de retribuição excluídas do alcance do inciso III não poderão ser calculadas sobre base superior ao limite estabelecido no art. 3º.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art37_cpt_inc12--><!--Link: urn:lex:br:federal:lei:1998-04-02;9624!art10-->
+            
+            
+            <p>
+    Para os fins do <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art37_cpt_inc12">inciso XII do art. 37 da Constituição Federal</span>, o maior valor de vencimentos corresponderá, no Poder Executivo, a no máximo 90% (noventa por cento) da remuneração devida a Ministro de Estado. (Vide <span xlink:href="urn:lex:br:federal:lei:1998-04-02;9624!art10">art. 10 da Lei nº 9.624, de 2.4.1998</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art37_cpt_inc11-->
+            
+            
+            <p>
+    O limite máximo de remuneração, para os efeitos do <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art37_cpt_inc11">inciso XI do art. 37 da Constituição Federal</span>, corresponde aos valores percebidos, em espécie, a qualquer título, por membros do Congresso Nacional, Ministros de Estado e Ministros do Supremo Tribunal Federal.
+
+  </p>
+            
+          </Caput><Paragrafo id="art3_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    (Vetado).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    O disposto nos arts. 1º a 3º aplica-se também:
+
+  </p>
+            <Inciso id="art4_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    ao somatório das retribuições pecuniárias percebidas por servidores ou empregados cedidos ou requisitados provenientes de todas as fontes;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    à retribuição pecuniária dos dirigentes dos órgãos e entidades da administração direta e indireta;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    à retribuição pecuniária dos servidores do Distrito Federal, quando oficiais ou praças da Polícia Militar e do Corpo de Bombeiros Militar ou ocupantes de cargos da Polícia Civil;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    aos proventos da inatividade e às pensões decorrentes do falecimento de servidor público federal.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    O Poder Legislativo, o Poder Judiciário e, no âmbito do Poder Executivo, os dirigentes de órgãos da administração direta e os responsáveis pela direção ou presidência de entidade integrante da administração federal indireta, bem como o Ministério Público da União, adotarão as medidas indispensáveis à adequação das situações que se encontrem em desacordo com o disposto nos arts. 2º e 3º, procedendo:
+
+  </p>
+            <Inciso id="art5_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    ao ajuste dos planos ou tabelas de retribuição a que se refere a alínea c do inciso I do art. 1º, ou das normas que disciplinam a concessão de vantagem permanente relativa ao cargo, emprego, posto ou graduação;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    à transformação em vantagem pessoal, nominalmente identificada, sujeita ao limite previsto no art. 3º, das parcelas que excederem o montante a que se refere o art. 2º, aplicando-se a essa vantagem os mesmos percentuais de reajuste por ocasião das revisões ou antecipações de vencimento, soldo ou salário básico, observado o disposto no § 3º do art. 6º; (Inciso vetado pelo Presidente da República e mantido pelo Congresso Nacional, em 5.4.1994)
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc3">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art37_cpt--><!--Link: urn:lex:br:federal:ato.disposicoes.constitucionais.transitorias:1988-10-05;1988!art17-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    à redução das remunerações ou dos proventos de aposentadoria que ultrapassarem o limite estabelecido no art. 3º, atendendo-se ao que determinam o <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art37_cpt">caput do art. 37 da Constituição Federal</span> e o <span xlink:href="urn:lex:br:federal:ato.disposicoes.constitucionais.transitorias:1988-10-05;1988!art17">art. 17 do Ato das Disposições Constitucionais Transitórias</span>.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art5_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Cumpre ao órgão ou entidade cessionário ou requisitante a adoção das providências a que se refere este artigo para os servidores ou empregados incluídos na hipótese do inciso I do art. 4º.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As providências necessárias ao cumprimento do disposto neste artigo serão adotadas no prazo máximo de 60 (sessenta) dias, contados da publicação desta lei, com efeitos financeiros a partir de 1º de fevereiro de 1994, ficando os responsáveis por sua execução sujeitos às sanções previstas na legislação.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    Fica instituída comissão com a finalidade de propor definições e especificações das atribuições dos cargos efetivos e comissionados, inclusive os de livre nomeação e exoneração, na Administração Pública Federal, no âmbito de cada Poder, visando criar condições para que seja alcançada a isonomia de vencimentos.
+
+  </p>
+            
+          </Caput><Paragrafo id="art6_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A comissão, além do presidente, será composta por 11 (onze) membros e sua composição respeitará a autonomia e a harmonia entre os Poderes da União, mediante indicação de representantes do Executivo (dois), do Legislativo (dois), do Judiciário (dois), do Tribunal de Contas da União (um), do Ministério Público da União (um) e dos servidores (três), sendo cada um destes representantes de entidade sindical dos servidores do respectivo Poder.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art6_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A comissão será presidida pelo Ministro de Estado Chefe da Secretaria da Administração Federal, a quem serão feitas as indicações para sua composição.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art6_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Sem prejuízo do que determina o caput, cumpre à Comissão de que cuida este artigo examinar as situações decorrentes da aplicação do inciso II do art. 5º e propor soluções de caráter definitivo para seu equacionamento. (Parágrafo vetado pelo Presidente da República e mantido pelo Congresso Nacional, em 5.4.1994)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art6_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    A comissão iniciará suas atividades no prazo de 10 (dez) dias, contados da publicação desta lei, e concluirá os trabalhos em 90 (noventa) dias, contados do início de suas atividades.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    No âmbito da administração direta e indireta do Poder Executivo, as Secretarias de Planejamento, Coordenação e Orçamento e da Administração Federal da Presidência da República e o Estado-Maior das Forças Armadas emitirão instruções para o cumprimento do estabelecido no art. 5º e exercerão a coordenação e fiscalização das providências necessárias à execução do disposto nesta lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    Esta lei entra em vigor na data de sua publicação.
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 4 de fevereiro de 1994; 173º da Independência e 106º da República.</p></LocalDataFecho><Assinatura><NomePessoa>ITAMAR FRANCO</NomePessoa><NomePessoa>Fernando Henrique Cardoso</NomePessoa><NomePessoa>Alexis Stepanenko</NomePessoa><NomePessoa>Arnaldo Leite Pereira</NomePessoa><NomePessoa>Romildo Canhim</NomePessoa></Assinatura></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>

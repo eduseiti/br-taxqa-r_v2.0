@@ -1,0 +1,1144 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:1997-09-30;9504!anexo1"/>
+    </Metadado>
+      <Anexo>
+        <DocumentoGenerico>
+      <PartePrincipal id="anexo1_pp">
+        <p>ANEXO</p>
+        <table id="anexo1_tab1"><tr><td>Sigla e nº do Partido/sérieRecebemos deEndereço:Mun.CEPCPF ou CGC nºa quantia de R$correspondente aUFIRData //Nome do ResponsávelCPF nº</td><td>Nome do PartidoRecibo EleitoralU.F.|R$|Município| UFIR|Valor por extensoem moeda correntedoação para campanha eleitoral das eleições municipaisData//(Assinatura do responsável)Nome do Resp.CPF NºSérie: sigla e nº do partido/ numeração seqüencial</td></tr></table><p>FICHA DE QUALIFICAÇÃO DO CANDIDATO (Modelo 1)
+</p><p>Nome:___________________________________________________________
+</p><p>Nº do CPF:______________________ Nº da Identidade: ______________Órgão Expedidor:______________
+</p><p>Endereço Residencial: _______________________Telefone: ________________
+</p><p>Endereço Comercial: ____________________________ Telefone: ___________
+</p><p>Partido Político:_________________ Comitê Financeiro: ___________________
+</p><p>Eleição: __________________Circunscrição:_____________________________
+</p><p>Conta Bancária nº: ____________Banco: ______________Agência:________
+</p><p>Limite de Gastos em REAL: ________________________________________________________________
+</p><p>DADOS PESSOAIS DO RESPONSÁVEL PELA ADMINISTRAÇÃO FINANCEIRA DA CAMPANHA
+</p><p>Nome: ________________________________________Nº_________________
+</p><p>Nº do CPF:__________ Nº da Identidade: _________ Órgão Expedidor: ________
+</p><p>Endereço Residencial:_______________________ Telefone: ________________
+</p><p>Endereço Comercial: _______________________Telefone:________________
+</p><p>LOCAL__________________DATA_____/_____/_____
+</p><p>ASSINATURA_________________ASSINATURA_________________________
+</p><p>LOCAL______________________DATA_____/_____/_____
+</p><p>____________________________ _________________________
+</p><p>ASSINATURA______________________________ASSINATURA_________________
+</p><p>LOCAL________________________DATA_____/_____/_____
+</p><p>ASSINATURA__________________ASSINATURA____________________
+</p><p>LOCAL__________________________DATA_____/_____/_____
+</p><p>ASSINATURA______________________________ASSINATURA_________________
+</p><p>Obs.: As Obrigações a Pagar deverão ser deduzidas dos saldos financeiros (caixa e banco), sendo demonstradas mediante Demonstração de Obrigações a Pagar (Modelo 11) devidamente assinada pelo Tesoureiro.
+</p><p>FICHA DE QUALIFICAÇÃO DO COMITÊ FINANCEIRO (MODELO 6)
+</p><p>Partido:__________________________________________________________________
+</p><p>Direção/Comitê Financeiro/Candidato: ___________Único? Sim: ______Não :____
+</p><p>Eleição:___________________________________UF/Município:_____________
+</p><p>Número da Conta Bancária: ___________Banco: _______Agência _______
+</p><p>Endereço: _________________________________________________________________
+</p><table id="anexo1_tab32"><tr><td>NOME DOS MEMBROS</td><td>FUNÇÕES</td></tr></table><p>LOCAL______________________________DATA_____/_____/_____
+</p><p>ASSINATURA______________________________ASSINATURA_________________
+</p><p>LOCAL________________ DATA_____/____/_____
+</p><p>ASSINATURA______________________________ASSINATURA_________________
+</p><p>LOCAL_____________________________________ DATA_____/_____/_____
+</p><p>ASSINATURA______________________________ASSINATURA_________________________
+</p><p>LOCAL________________ DATA_____/____/_____
+</p><p>ASSINATURA___________________ASSINATURA_____________________
+</p><p>LOCAL___________________________ DATA_____/_____/_____
+</p><p>ASSINATURA______________________ASSINATURA_________________
+</p><p>LOCAL___________________________ DATA_____/_____/_____
+</p><p>ASSINATURA_________________ASSINATURA__________________
+</p><Alinea id="ali1">
+            
+            <TituloDispositivo>INSTRUÇÕES DE PREENCHIMENTO</TituloDispositivo>
+            <Rotulo>a)</Rotulo>
+            <p>
+    DADOS DO CANDIDATO
+
+  </p>
+            <Item id="ali1_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    Nome - informar o nome completo do candidato;
+
+  </p>
+            
+          </Item><Item id="ali1_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    Nº - informar o número atribuído ao candidato para concorrer às eleições;
+
+  </p>
+            
+          </Item><Item id="ali1_ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    Nº do CPF - informar o número do documento de identificação do candidato no Cadastro de Pessoas Físicas;
+
+  </p>
+            
+          </Item><Item id="ali1_ite4">
+            
+            
+            <Rotulo>4.</Rotulo>
+            <p>
+    N º da Identidade - informar o número da carteira de identidade do candidato;
+
+  </p>
+            
+          </Item><Item id="ali1_ite5">
+            
+            
+            <Rotulo>5.</Rotulo>
+            <p>
+    Órgão Expedidor - informar o órgão expedidor da Carteira de Identidade;
+
+  </p>
+            
+          </Item><Item id="ali1_ite6">
+            
+            
+            <Rotulo>6.</Rotulo>
+            <p>
+    Endereço Residencial - informar o endereço residencial completo do candidato;
+
+  </p>
+            
+          </Item><Item id="ali1_ite7">
+            
+            
+            <Rotulo>7.</Rotulo>
+            <p>
+    Telefone - informar o número do telefone residencial do candidato, inclusive DDD;
+
+  </p>
+            
+          </Item><Item id="ali1_ite8">
+            
+            
+            <Rotulo>8.</Rotulo>
+            <p>
+    Endereço Comercial - informar o endereço comercial completo do candidato;
+
+  </p>
+            
+          </Item><Item id="ali1_ite9">
+            
+            
+            <Rotulo>9.</Rotulo>
+            <p>
+    Telefone - informar o número do telefone comercial do candidato, inclusive DDD;
+
+  </p>
+            
+          </Item><Item id="ali1_ite10">
+            
+            
+            <Rotulo>10.</Rotulo>
+            <p>
+    Partido Político - informar o nome do partido político pelo qual concorre às eleições;
+
+  </p>
+            
+          </Item><Item id="ali1_ite11">
+            
+            
+            <Rotulo>11.</Rotulo>
+            <p>
+    Comitê Financeiro - informar o nome do comitê financeiro ao qual está vinculado o candidato;
+
+  </p>
+            
+          </Item><Item id="ali1_ite12">
+            
+            
+            <Rotulo>12.</Rotulo>
+            <p>
+    Eleição - informar a eleição para a qual o candidato concorre (cargo eletivo);
+
+  </p>
+            
+          </Item><Item id="ali1_ite13">
+            
+            
+            <Rotulo>13.</Rotulo>
+            <p>
+    Circunscrição - informar a circunscrição à qual está jurisdicionado o Comitê;
+
+  </p>
+            
+          </Item><Item id="ali1_ite14">
+            
+            
+            <Rotulo>14.</Rotulo>
+            <p>
+    Conta Bancária Nº - informar o número da conta-corrente da campanha, caso tenha sido aberta pelo Candidato;
+
+  </p>
+            
+          </Item><Item id="ali1_ite15">
+            
+            
+            <Rotulo>15.</Rotulo>
+            <p>
+    Banco - se o campo anterior foi preenchido, informar o banco onde abriu a conta-corrente;
+
+  </p>
+            
+          </Item><Item id="ali1_ite16">
+            
+            
+            <Rotulo>16.</Rotulo>
+            <p>
+    Agência - informar a agência bancária onde foi aberta a conta-corrente;
+
+  </p>
+            
+          </Item><Item id="ali1_ite17">
+            
+            
+            <Rotulo>17.</Rotulo>
+            <p>
+    Limite de Gastos em REAL - informar, em REAL, o limite de gastos estabelecidos pelo Partido;
+
+  </p>
+            
+          </Item>
+          </Alinea><Alinea id="ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    DADOS DO RESPONSÁVEL PELA ADMINISTRAÇÃO FINANCEIRA DA CAMPANHA
+
+  </p>
+            <Item id="ali2_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    Nome - informar o nome do Responsável indicado pelo candidato para administrar os recursos de sua campanha;
+
+  </p>
+            
+          </Item><Item id="ali2_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    Nº do CPF - informar o número do documento de identificação do Responsável no Cadastro de Pessoas Físicas;
+
+  </p>
+            
+          </Item><Item id="ali2_ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    Nº da Identidade - informar o número da carteira de identidade do Responsável;
+
+  </p>
+            
+          </Item><Item id="ali2_ite4">
+            
+            
+            <Rotulo>4.</Rotulo>
+            <p>
+    Órgão Expedidor - informar o órgão expedidor da Carteira de Identidade;
+
+  </p>
+            
+          </Item><Item id="ali2_ite5">
+            
+            
+            <Rotulo>5.</Rotulo>
+            <p>
+    Endereço Residencial - informar o endereço residencial completo do Responsável;
+
+  </p>
+            
+          </Item><Item id="ali2_ite6">
+            
+            
+            <Rotulo>6.</Rotulo>
+            <p>
+    Telefone - informar o número do telefone residencial, inclusive DDD;
+
+  </p>
+            
+          </Item><Item id="ali2_ite7">
+            
+            
+            <Rotulo>7.</Rotulo>
+            <p>
+    Endereço Comercial - informar o endereço comercial completo do Responsável;
+
+  </p>
+            
+          </Item><Item id="ali2_ite8">
+            
+            
+            <Rotulo>8.</Rotulo>
+            <p>
+    Telefone - informar o número do telefone comercial, inclusive DDD;
+
+  </p>
+            
+          </Item><Item id="ali2_ite9">
+            
+            
+            <Rotulo>9.</Rotulo>
+            <p>
+    indicar local e data do preenchimento;
+
+  </p>
+            
+          </Item><Item id="ali2_ite10">
+            
+            
+            <Rotulo>10.</Rotulo>
+            <p>
+    assinaturas do Candidato e do Responsável pela Administração Financeira da Campanha. DEMONSTRAÇÃO DOS RECIBOS ELEITORAIS RECEBIDOS (Modelo 2) Direção Nacional/Estadual do Partido/Comitê Financeiro/Candidato___________________ Eleição: __________________________ UF/MUNICÍPIO__________
+
+  </p>
+            <table id="ali2_ite10_tab1"><tr><td>DATA</td><td>NUMERAÇÃO</td><td>QUANTIDADE</td><td>RECEBIDOS DE</td></tr></table>
+          </Item>
+          </Alinea><Item id="ite1">
+            
+            <TituloDispositivo>INSTRUÇÕES DE PREENCHIMENTO</TituloDispositivo>
+            <Rotulo>1.</Rotulo>
+            <p>
+    DIREÇÃO NACIONAL/ESTADUAL DO PARTIDO/COMITÊ FINANCEIRO/CANDIDATO - informar o nome de quem está apresentando a Demonstração: se Direção Nacional do partido político, Direção Estadual, Comitê Financeiro ou Candidato;
+
+  </p>
+            
+          </Item><Item id="ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    ELEIÇÃO - informar a eleição de que se trata (cargo eletivo);
+
+  </p>
+            
+          </Item><Item id="ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    UF/MUNICÍPIO - informar a Unidade da Federação e Município;
+
+  </p>
+            
+          </Item><Item id="ite4">
+            
+            
+            <Rotulo>4.</Rotulo>
+            <p>
+    DATA - informar a data em que os Recibos Eleitorais foram recebidos, no formato dia, mês e ano;
+
+  </p>
+            
+          </Item><Item id="ite5">
+            
+            
+            <Rotulo>5.</Rotulo>
+            <p>
+    NUMERAÇÃO - informar a numeração e série dos Recibos Eleitorais Recebidos;
+
+  </p>
+            
+          </Item><Item id="ite6">
+            
+            
+            <Rotulo>6.</Rotulo>
+            <p>
+    QUANTIDADE - informar a quantidade de Recibos Eleitorais Recebidos;
+
+  </p>
+            
+          </Item><Item id="ite7">
+            
+            
+            <Rotulo>7.</Rotulo>
+            <p>
+    RECEBIDOS DE - informar o nome do Órgão repassador dos Recibos;
+
+  </p>
+            
+          </Item><Item id="ite8">
+            
+            
+            <Rotulo>8.</Rotulo>
+            <p>
+    indicar local e data do preenchimento;
+
+  </p>
+            
+          </Item><Item id="ite9">
+            
+            
+            <Rotulo>9.</Rotulo>
+            <p>
+    assinatura dos responsáveis. DEMONSTRAÇÃO DOS RECURSOS ARRECADADOS (Modelo 3) Direção Nacional do Partido/Estadual/Comitê/Candidato __________________ Eleição _________________________________UF/MUNICÍPIO __________
+
+  </p>
+            <table id="ite9_tab1"><tr><td>DATA</td><td>NÚMERODOS RECIBOS</td><td>ESPÉCIE DO RECURSO</td><td>DOADOR/CONTRIBUINTE</td><td>CGC/CPF</td><td>VALORES</td></tr><tr><td>UFIR</td><td>R$</td><td/><td/><td/><td/></tr><tr><td>TOTAL/TRANSPORTAR</td><td/><td/><td/><td/><td/></tr></table>
+          </Item><Item id="ite1">
+            
+            <TituloDispositivo>INSTRUÇÕES DE PREENCHIMENTO</TituloDispositivo>
+            <Rotulo>1.</Rotulo>
+            <p>
+    Direção Nacional do Partido/Comitê Financeiro/Candidato - informar o nome de quem está apresentando a Demonstração: se Direção Nacional/Estadual do partido político, Comitê ou Candidato;
+
+  </p>
+            
+          </Item><Item id="ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    Eleição - informar a eleição de que se trata (cargo eletivo);
+
+  </p>
+            
+          </Item><Item id="ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    UF/MUNICÍPIO - informar a Unidade da Federação e Município;
+
+  </p>
+            
+          </Item><Item id="ite4">
+            
+            
+            <Rotulo>4.</Rotulo>
+            <p>
+    DATA - informar a data em que a doação/contribuição foi recebida, no formato dia, mês e ano;
+
+  </p>
+            
+          </Item><Item id="ite5">
+            
+            
+            <Rotulo>5.</Rotulo>
+            <p>
+    NÚMERO DOS RECIBOS - informar a numeração e série dos Recibos Eleitorais entregues aos doadores/contribuintes;
+
+  </p>
+            
+          </Item><Item id="ite6">
+            
+            
+            <Rotulo>6.</Rotulo>
+            <p>
+    ESPÉCIE DO RECURSO - informar o tipo de recurso recebido, se em moeda corrente ou estimável em dinheiro;
+
+  </p>
+            
+          </Item><Item id="ite7">
+            
+            
+            <Rotulo>7.</Rotulo>
+            <p>
+    DOADOR/CONTRIBUINTE - informar o nome completo de quem doou os recursos, inclusive no caso de recursos próprios do candidato;
+
+  </p>
+            
+          </Item><Item id="ite8">
+            
+            
+            <Rotulo>8.</Rotulo>
+            <p>
+    CGC/CPF - informar o número do CGC ou do CPF do doador/contribuinte, conforme seja pessoa jurídica ou pessoa física;
+
+  </p>
+            
+          </Item><Item id="ite9">
+            
+            
+            <Rotulo>9.</Rotulo>
+            <p>
+    VALORES
+
+  </p>
+            
+          </Item><Item id="ite9-1">
+            
+            
+            <Rotulo>9.</Rotulo>
+            <p>
+    UFIR - informar o valor das arrecadações em UFIR, dividindo o valor em R$ pelo valor da UFIR do mês da doação em moeda corrente;
+
+  </p>
+            
+          </Item><Item id="ite9-2">
+            
+            
+            <Rotulo>9.</Rotulo>
+            <p>
+    R$ - informar o valor da doação em moeda corrente;
+
+  </p>
+            
+          </Item><Item id="ite10">
+            
+            
+            <Rotulo>10.</Rotulo>
+            <p>
+    TOTAL/TRANSPORTAR - informar o total em UFIR e R$ dos valores arrecadados;
+
+  </p>
+            
+          </Item><Item id="ite11">
+            
+            
+            <Rotulo>11.</Rotulo>
+            <p>
+    indicar local e data do preenchimento;
+
+  </p>
+            
+          </Item><Item id="ite12">
+            
+            
+            <Rotulo>12.</Rotulo>
+            <p>
+    assinatura dos responsáveis. RELAÇÃO DE CHEQUES RECEBIDOS (Modelo 4) Direção Nacional/Estadual do Partido/Comitê/Candidato ________________ Eleição _________________________________UF/MUNICÍPIO _________
+
+  </p>
+            <table id="ite12_tab1"><tr><td>DATA DO RECEBIMENTO</td><td>IDENTIFICAÇÃO EMITENTE/DOADOR</td><td>IDENTIFICAÇÃO DO CHEQUE</td><td>VALORES</td><td/><td/><td/></tr><tr><td>NOME</td><td>CGC/CPF</td><td>DATA DA EMISSÃO</td><td>Nº BCO</td><td>Nº AG.</td><td>Nº CHEQUE</td><td>R$</td></tr><tr><td>TOTAL/TRANSPORTAR</td><td/><td/><td/><td/><td/><td/></tr></table>
+          </Item><Item id="ite1">
+            
+            <TituloDispositivo>INSTRUÇÕES DE PREENCHIMENTO</TituloDispositivo>
+            <Rotulo>1.</Rotulo>
+            <p>
+    DIREÇÃO NACIONAL/ESTADUAL DO PARTIDO/COMITÊ FINANCEIRO/CANDIDATO - informar o nome de quem está apresentando a Demonstração: se Direção Nacional/Estadual do Partido Político, Comitê ou Candidato;
+
+  </p>
+            
+          </Item><Item id="ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    ELEIÇÃO - informar a eleição de que se trata (cargo eletivo);
+
+  </p>
+            
+          </Item><Item id="ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    UF/MUNICÍPIO - informar a Unidade da Federação e Município;
+
+  </p>
+            
+          </Item><Item id="ite4">
+            
+            
+            <Rotulo>4.</Rotulo>
+            <p>
+    DATA DO RECEBIMENTO - informar a data em que os cheques foram recebidos, no formato dia, mês e ano;
+
+  </p>
+            
+          </Item><Item id="ite5">
+            
+            
+            <Rotulo>5.</Rotulo>
+            <p>
+    IDENTIFICAÇÃO DO EMITENTE/DOADOR
+
+  </p>
+            
+          </Item><Item id="ite5-1">
+            
+            
+            <Rotulo>5.</Rotulo>
+            <p>
+    NOME - informar o nome do emitente do cheque;
+
+  </p>
+            
+          </Item><Item id="ite5-2">
+            
+            
+            <Rotulo>5.</Rotulo>
+            <p>
+    CGC/CPF - informar o número do CGC ou CPF do emitente do cheque, conforme seja pessoa jurídica ou pessoa física;
+
+  </p>
+            
+          </Item><Item id="ite6">
+            
+            
+            <Rotulo>6.</Rotulo>
+            <p>
+    IDENTIFICAÇÃO DO CHEQUE
+
+  </p>
+            
+          </Item><Item id="ite6-1">
+            
+            
+            <Rotulo>6.</Rotulo>
+            <p>
+    DATA DA EMISSÃO - informar a data em que o cheque foi emitido pelo doador, no formato dia, mês e ano;
+
+  </p>
+            
+          </Item><Item id="ite6-2">
+            
+            
+            <Rotulo>6.</Rotulo>
+            <p>
+    Nº DO BANCO - informar o número do Banco sacado;
+
+  </p>
+            
+          </Item><Item id="ite6-3">
+            
+            
+            <Rotulo>6.</Rotulo>
+            <p>
+    Nº DA AGÊNCIA - informar o número da Agência;
+
+  </p>
+            
+          </Item><Item id="ite6-4">
+            
+            
+            <Rotulo>6.</Rotulo>
+            <p>
+    Nº DO CHEQUE - informar o número do cheque;
+
+  </p>
+            
+          </Item><Item id="ite7">
+            
+            
+            <Rotulo>7.</Rotulo>
+            <p>
+    VALORES - R$ - informar o valor dos cheques em moeda corrente;
+
+  </p>
+            
+          </Item><Item id="ite8">
+            
+            
+            <Rotulo>8.</Rotulo>
+            <p>
+    TOTAL/TRANSPORTAR - informar o total em R$ dos Cheques recebidos.
+
+  </p>
+            
+          </Item><Item id="ite9">
+            
+            
+            <Rotulo>9.</Rotulo>
+            <p>
+    indicar local e data do preenchimento;
+
+  </p>
+            
+          </Item><Item id="ite10">
+            
+            
+            <Rotulo>10.</Rotulo>
+            <p>
+    assinatura dos responsáveis. MODELO 5 DEMONSTRAÇÃO DAS ORIGENS E APLICAÇÕES DOS RECURSOS
+
+  </p>
+            <table id="ite10_tab1"><tr><td>PARTIDO/COMITÊ/CANDIDATO:</td><td/><td/></tr><tr><td>ELEIÇÃO:</td><td>UF/MUNICÍPIO</td><td/></tr><tr><td>TÍTULO DA CONTA</td><td>TOTAL -R$</td><td/></tr><tr><td>1 - RECEITAS</td><td/><td/></tr><tr><td>DOAÇÕES E CONTRIBUIÇÕES</td><td/><td/></tr><tr><td>Recursos Próprios</td><td/><td/></tr><tr><td>Recursos de Pessoas Físicas</td><td/><td/></tr><tr><td>Recursos de Pessoas Jurídicas</td><td/><td/></tr><tr><td>Transferências Financeiras Recebidas</td><td/><td/></tr><tr><td>FUNDO PARTIDÁRIO</td><td/><td/></tr><tr><td>Cotas Recebidas</td><td/><td/></tr><tr><td>RECEITAS FINANCEIRAS</td><td/><td/></tr><tr><td>Variações Monetárias Ativas</td><td/><td/></tr><tr><td>Rendas de Aplicações</td><td/><td/></tr><tr><td>OUTRAS RECEITAS</td><td/><td/></tr><tr><td>Vendas de Bens de Uso</td><td/><td/></tr><tr><td>F.PARTIDÁRIO</td><td>O. RECURSOS</td><td>TOTAL - R$</td></tr><tr><td>2 - DESPESAS</td><td/><td/></tr><tr><td>Despesas com Pessoal</td><td/><td/></tr><tr><td>Encargos Sociais</td><td/><td/></tr><tr><td>Impostos</td><td/><td/></tr><tr><td>Aluguéis</td><td/><td/></tr><tr><td>Despesas de Viagens</td><td/><td/></tr><tr><td>Honorários Profissionais</td><td/><td/></tr><tr><td>Locações de Bens Móveis</td><td/><td/></tr><tr><td>Despesas Postais</td><td/><td/></tr><tr><td>Materiais de Expediente</td><td/><td/></tr><tr><td>Despesas com Veículos</td><td/><td/></tr><tr><td>Propagandas e Publicidade</td><td/><td/></tr><tr><td>Serviços Prestados por Terceiros</td><td/><td/></tr><tr><td>Cachês de Artistas ou Animadores</td><td/><td/></tr><tr><td>Materiais Impressos</td><td/><td/></tr><tr><td>Lanches e Refeições</td><td/><td/></tr><tr><td>Energia Elétrica</td><td/><td/></tr><tr><td>Despesas de Manutenção e Reparo</td><td/><td/></tr><tr><td>Montagem de Palanques e Equipamentos</td><td/><td/></tr><tr><td>Despesas com Pesquisas ou Testes Eleitorais</td><td/><td/></tr><tr><td>Despesas de Eventos Promocionais</td><td/><td/></tr><tr><td>Despesas Financeiras</td><td/><td/></tr><tr><td>Produção Audiovisuais</td><td/><td/></tr><tr><td>Outras Despesas</td><td/><td/></tr><tr><td>3 - TRANSFERÊNCIAS FINANCEIRAS EFETUADAS</td><td/><td/></tr><tr><td>4- IMOBILIZAÇÕES - TOTAL</td><td/><td/></tr><tr><td>Bens Móveis</td><td/><td/></tr><tr><td>Bens Imóveis</td><td/><td/></tr><tr><td>SALDO (+1-2-3-4=5) TOTAL</td><td/><td/></tr><tr><td>Saldo em Caixa</td><td/><td/></tr><tr><td>Saldo em Banco</td><td/><td/></tr><tr><td>Banco (...)</td><td/><td/></tr></table>
+          </Item><Item id="ite1">
+            
+            <TituloDispositivo>INSTRUÇÕES DE PREENCHIMENTO</TituloDispositivo>
+            <Rotulo>1.</Rotulo>
+            <p>
+    NOME DO PARTIDO - informar o nome do partido político;
+
+  </p>
+            
+          </Item><Item id="ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    DIREÇÃO/COMITÊ/CANDIDATO - informar se é da Direção Nacional/Estadual/ Comitê Financeiro ou Candidato;
+
+  </p>
+            
+          </Item><Item id="ite2-1">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    ÚNICO? SIM? NÃO? - marcar um X no campo correspondente, conforme se trate, no caso de Comitê Estadual/Municipal, de Comitê Único do Partido para as eleições de toda a circunscrição ou de Comitê específico para determinada eleição;
+
+  </p>
+            
+          </Item><Item id="ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    ELEIÇÃO - informar a eleição de que se trata (cargo eletivo);
+
+  </p>
+            
+          </Item><Item id="ite4">
+            
+            
+            <Rotulo>4.</Rotulo>
+            <p>
+    UF/MUNICÍPIO - informar a Unidade da Federação e Município;
+
+  </p>
+            
+          </Item><Item id="ite5">
+            
+            
+            <Rotulo>5.</Rotulo>
+            <p>
+    CONTA BANCÁRIA - informar o número da conta-corrente do Comitê Financeiro;
+
+  </p>
+            
+          </Item><Item id="ite6">
+            
+            
+            <Rotulo>6.</Rotulo>
+            <p>
+    BANCO - informar o banco onde foi aberta a conta-corrente do Comitê;
+
+  </p>
+            
+          </Item><Item id="ite7">
+            
+            
+            <Rotulo>7.</Rotulo>
+            <p>
+    AGÊNCIA - informar a agência bancária;
+
+  </p>
+            
+          </Item><Item id="ite8">
+            
+            
+            <Rotulo>8.</Rotulo>
+            <p>
+    NOMES DOS MEMBROS - informar o nome completo dos membros do Comitê Financeiro;
+
+  </p>
+            
+          </Item><Item id="ite9">
+            
+            
+            <Rotulo>9.</Rotulo>
+            <p>
+    FUNÇÕES - informar as funções (tipo de responsabilidade) por eles exercidas, na mesma ordem da citação dos nomes;
+
+  </p>
+            
+          </Item><Item id="ite10">
+            
+            
+            <Rotulo>10.</Rotulo>
+            <p>
+    indicar local e data do preenchimento;
+
+  </p>
+            
+          </Item><Item id="ite11">
+            
+            
+            <Rotulo>11.</Rotulo>
+            <p>
+    assinatura dos responsáveis. DEMONSTRAÇÃO DO LIMITE DE GASTOS (Modelo 7) Nome do Partido: ____________________________________________________________ Direção/Comitê Financeiro/Candidato:____________________________________________ ELEIÇÃO
+
+  </p>
+            <table id="ite11_tab1"><tr><td>CANDIDATO</td><td>LIMITE EM R$</td></tr><tr><td>NOME</td><td>NÚMERO</td></tr><tr><td>TOTAL / TRANSPORTAR</td><td/></tr></table>
+          </Item><Item id="ite1">
+            
+            <TituloDispositivo>INSTRUÇÕES DE PREENCHIMENTO</TituloDispositivo>
+            <Rotulo>1.</Rotulo>
+            <p>
+    NOME DO PARTIDO - informar o nome do partido político;
+
+  </p>
+            
+          </Item><Item id="ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    COMITÊ FINANCEIRO/DIREÇÃO/CANDIDATO - informar o nome: se da direção Nacional/Estadual, do Comitê e Candidato que está apresentando a Demonstração;
+
+  </p>
+            
+          </Item><Item id="ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    ELEIÇÃO - informar a eleição de que se trata (cargo eletivo);
+
+  </p>
+            
+          </Item><Item id="ite4">
+            
+            
+            <Rotulo>4.</Rotulo>
+            <p>
+    CANDIDATO
+
+  </p>
+            
+          </Item><Item id="ite4-1">
+            
+            
+            <Rotulo>4.</Rotulo>
+            <p>
+    NOME - informar o nome completo do Candidato;
+
+  </p>
+            
+          </Item><Item id="ite4-2">
+            
+            
+            <Rotulo>4.</Rotulo>
+            <p>
+    NÚMERO - informar o número atribuído ao candidato, com o qual concorre à eleição;
+
+  </p>
+            
+          </Item><Item id="ite5">
+            
+            
+            <Rotulo>5.</Rotulo>
+            <p>
+    LIMITE EM R$ - informar o valor em Real do limite de gastos atribuído ao Candidato, pelo partido;
+
+  </p>
+            
+          </Item><Item id="ite6">
+            
+            
+            <Rotulo>6.</Rotulo>
+            <p>
+    TOTAL / TRANSPORTAR - informar o total em REAL;
+
+  </p>
+            
+          </Item><Item id="ite7">
+            
+            
+            <Rotulo>7.</Rotulo>
+            <p>
+    indicar o local e a data do preenchimento;
+
+  </p>
+            
+          </Item><Item id="ite8">
+            
+            
+            <Rotulo>8.</Rotulo>
+            <p>
+    assinatura dos responsáveis. DEMONSTRAÇÃO DOS RECIBOS ELEITORAIS DISTRIBUÍDOS (Modelo 8) Direção Nacional/Estadual/Comitê Financeiro:____________________________________ Eleição:___________________________________________________________________
+
+  </p>
+            <table id="ite8_tab1"><tr><td>DATA</td><td>NUMERAÇÃO</td><td>QUANTIDADE</td><td>DISTRIBUÍDO A</td></tr></table>
+          </Item><Item id="ite1">
+            
+            <TituloDispositivo>INSTRUÇÕES DE PREENCHIMENTO</TituloDispositivo>
+            <Rotulo>1.</Rotulo>
+            <p>
+    DIREÇÃO NACIONAL/ESTADUAL DO PARTIDO/COMITÊ FINANCEIRO - informar o nome de quem está apresentando a Demonstração: se Direção Nacional/Estadual do Partido Político ou Comitê Financeiro;
+
+  </p>
+            
+          </Item><Item id="ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    ELEIÇÃO - informar a eleição de que se trata (cargo eletivo);
+
+  </p>
+            
+          </Item><Item id="ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    DATA - informar a data da entrega dos Recibos Eleitorais, no formato dia, mês e ano;
+
+  </p>
+            
+          </Item><Item id="ite4">
+            
+            
+            <Rotulo>4.</Rotulo>
+            <p>
+    NUMERAÇÃO - informar a numeração dos Recibos Eleitorais Distribuídos, inclusive com a sua série;
+
+  </p>
+            
+          </Item><Item id="ite5">
+            
+            
+            <Rotulo>5.</Rotulo>
+            <p>
+    QUANTIDADE - informar a quantidade de Recibos Eleitorais Distribuídos, separados por valor de face;
+
+  </p>
+            
+          </Item><Item id="ite6">
+            
+            
+            <Rotulo>6.</Rotulo>
+            <p>
+    DISTRIBUÍDO A - informar o nome da Direção (Nacional/Estadual) ou do Comitê ou Candidato que recebeu os Recibos Eleitorais;
+
+  </p>
+            
+          </Item><Item id="ite7">
+            
+            
+            <Rotulo>7.</Rotulo>
+            <p>
+    indicar local e data do preenchimento;
+
+  </p>
+            
+          </Item><Item id="ite8">
+            
+            
+            <Rotulo>8.</Rotulo>
+            <p>
+    assinatura dos responsáveis. DEMONSTRAÇÃO DE TRANSFERÊNCIAS FINANCEIRAS (Modelo 9) Direção Nacional/Estadual do Partido / Comitê Financeiro:____________________________
+
+  </p>
+            <table id="ite8_tab1"><tr><td>DATA</td><td>NOME DO PARTIDO/COMITÊ/CANDIDATOBENEFICIÁRIO</td><td>VALORESR$</td></tr><tr><td>TOTAL / TRANSPORTAR</td><td/><td/></tr></table>
+          </Item><Item id="ite1">
+            
+            <TituloDispositivo>INSTRUÇÕES DE PREENCHIMENTO</TituloDispositivo>
+            <Rotulo>1.</Rotulo>
+            <p>
+    DIREÇÃO NACIONAL/ESTADUAL DO PARTIDO / COMITÊ FINANCEIRO - informar o nome de quem realizou as transferências: se Direção Nacional/Estadual do Partido ou Comitê Financeiro, inclusive no caso de coligações;
+
+  </p>
+            
+          </Item><Item id="ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    DATA - informar a data em que ocorreu a transferência financeira, no formato dia, mês e ano;
+
+  </p>
+            
+          </Item><Item id="ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    NOME DO PARTIDO / COMITÊ / CANDIDATO - informar o nome do Partido (Direção Nacional/Estadual) do Comitê ou do Candidato beneficiário da transferência dos recursos, inclusive no caso de coligações;
+
+  </p>
+            
+          </Item><Item id="ite4">
+            
+            
+            <Rotulo>4.</Rotulo>
+            <p>
+    VALORES - R$ - informar o valor das transferências em moeda corrente;
+
+  </p>
+            
+          </Item><Item id="ite5">
+            
+            
+            <Rotulo>5.</Rotulo>
+            <p>
+    TOTAL / TRANSPORTAR - informar o total e em R$ das transferências efetuadas;
+
+  </p>
+            
+          </Item><Item id="ite6">
+            
+            
+            <Rotulo>6.</Rotulo>
+            <p>
+    indicar local e data do preenchimento;
+
+  </p>
+            
+          </Item><Item id="ite7">
+            
+            
+            <Rotulo>7.</Rotulo>
+            <p>
+    assinatura dos responsáveis. DEMONSTRAÇÃO FINANCEIRA CONSOLIDADA (Modelo 10) Nome do Partido:___________________________________________________________ Direção Nacional:___________________________________________________________
+
+  </p>
+            <table id="ite7_tab1"><tr><td>COMITÊSFINANCEIROS VINCULADOS</td><td>VALORES R$</td><td/></tr><tr><td>ARRECADADOS</td><td>APLICADOS</td><td>SALDOS</td></tr><tr><td>TOTAIS/TRANSPORTAR</td><td/><td/></tr></table>
+          </Item><Item id="ite1">
+            
+            <TituloDispositivo>INSTRUÇÕES DE PREENCHIMENTO</TituloDispositivo>
+            <Rotulo>1.</Rotulo>
+            <p>
+    NOME DO PARTIDO - informar o nome do partido político;
+
+  </p>
+            
+          </Item><Item id="ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    COMITÊS FINANCEIROS VINCULADOS - informar o nome da Direção Estadual ou Comitês Estadual ou Municipal vinculados à Campanha para Prefeito;
+
+  </p>
+            
+          </Item><Item id="ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    VALORES/R$
+
+  </p>
+            
+          </Item><Item id="ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    a - ARRECADADOS - informar o total, em moeda corrente, dos valores arrecadados para cada Comitê;
+
+  </p>
+            
+          </Item><Item id="ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    b - APLICADOS - informar o total, em moeda corrente, dos valores aplicados para cada comitê;
+
+  </p>
+            
+          </Item><Item id="ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    c - SALDOS - informar os saldos financeiros apresentados, de cada Comitê.
+
+  </p>
+            
+          </Item><Item id="ite4">
+            
+            
+            <Rotulo>4.</Rotulo>
+            <p>
+    TOTAIS/TRANSPORTAR - informar os totais dos recursos arrecadados, aplicados e dos respectivos saldos, representando o movimento financeiro de toda a campanha para Prefeito;
+
+  </p>
+            
+          </Item><Item id="ite5">
+            
+            
+            <Rotulo>5.</Rotulo>
+            <p>
+    indicar o local e data do preenchimento;
+
+  </p>
+            
+          </Item><Item id="ite6">
+            
+            
+            <Rotulo>6.</Rotulo>
+            <p>
+    assinatura dos responsáveis. DEMONSTRAÇÃO CONSOLIDADA DO LIMITE DE GASTOS (Modelo 11) Direção Nacional do Partido Político:___________________________________________
+
+  </p>
+            <table id="ite6_tab1"><tr><td>CIRCUNSCRIÇÃO</td><td>VALORES EM R$</td></tr><tr><td>TOTAL/TRANSPORTAR</td><td/></tr></table>
+          </Item><Item id="ite1">
+            
+            <TituloDispositivo>INSTRUÇÕES DE PREENCHIMENTO</TituloDispositivo>
+            <Rotulo>1.</Rotulo>
+            <p>
+    DIREÇÃO NACIONAL DO PARTIDO POLÍTICO - informar o nome do partido político;
+
+  </p>
+            
+          </Item><Item id="ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    Nº - informar o número com o qual o Partido Político concorreu às eleições;
+
+  </p>
+            
+          </Item><Item id="ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    CIRCUNSCRIÇÃO - informar a circunscrição em relação à qual foi estabelecido o limite de gastos;
+
+  </p>
+            
+          </Item><Item id="ite4">
+            
+            
+            <Rotulo>4.</Rotulo>
+            <p>
+    VALORES REAL - informar o valor em REAL do limite de gastos atribuído pelo Partido, para cada circunscrição;
+
+  </p>
+            
+          </Item><Item id="ite5">
+            
+            
+            <Rotulo>5.</Rotulo>
+            <p>
+    TOTAL / TRANSPORTAR - informar o total em REAL;
+
+  </p>
+            
+          </Item><Item id="ite6">
+            
+            
+            <Rotulo>6.</Rotulo>
+            <p>
+    indicar local e data do preenchimento;
+
+  </p>
+            
+          </Item><Item id="ite7">
+            
+            
+            <Rotulo>7.</Rotulo>
+            <p>
+    assinaturas dos responsáveis.
+
+  </p>
+            
+          </Item>
+      </PartePrincipal>
+    </DocumentoGenerico>
+      </Anexo>
+    </LexML>

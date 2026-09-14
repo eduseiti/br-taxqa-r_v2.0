@@ -1,0 +1,4596 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:1991-12-30;8383"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">LEI Nº 8.383, DE 30 DE DEZEMBRO DE 1991 </Epigrafe>
+		  <Ementa id="ementa">Institui a Unidade Fiscal de Referência, altera a legislação do imposto de renda, e dá outras providências.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA
+  </p><p>
+    Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Capitulo id="cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DA UNIDADE DE REFERÊNCIA - UFIR
+
+  </NomeAgrupador>
+            <Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            <!--Link: urn:lex:br:federal:lei:1995-06-29;9069!art36--><!--Link: urn:lex:br:federal:lei:1996-12-27;9430!art75-->
+            
+            
+            <p>
+    Fica instituída a Unidade Fiscal de Referência - UFIR, como medida de valor e parâmetro de atualização monetária de tributos e de valores expressos em cruzeiros na legislação tributária federal, bem como os relativos a multas e penalidades de qualquer natureza. (Vide <span xlink:href="urn:lex:br:federal:lei:1995-06-29;9069!art36">art. 36 da Lei nº 9.069, de 29.6.1995</span>) (Vide <span xlink:href="urn:lex:br:federal:lei:1996-12-27;9430!art75">art. 75 da Lei nº 9.430, de 27.12.1996</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art1_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O disposto neste capítulo aplica-se a tributos e contribuições sociais, inclusive previdenciárias, de intervenção no domínio econômico e de interesse de categorias profissionais ou econômicas.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art1_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    É vedada a utilização da UFIR em negócio jurídico como referencial de correção monetária do preço de bens ou serviços e de salários, aluguéis ou royalties .
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            <!--Link: urn:lex:br:federal:lei:1995-06-29;9069!art43--><!--Link: urn:lex:br:federal:lei:1995-01-20;8981!art1-->
+            
+            
+            <p>
+    A expressão monetária da UFIR mensal será fixa em cada mês-calendário; e da UFIR diária ficará sujeita à variação em cada dia e a do primeiro dia do mês será igual à da UFIR do mesmo mês. (Vide <span xlink:href="urn:lex:br:federal:lei:1995-06-29;9069!art43">art. 43 da Lei nº 9.069, de 29.6.1995</span>) (Vide <span xlink:href="urn:lex:br:federal:lei:1995-01-20;8981!art1">art. 1º da Lei nº 8.981, de 20.1.1995</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art2_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O Ministério da Economia, Fazenda e Planejamento, por intermédio do Departamento da Receita Federal, divulgará a expressão monetária da UFIR mensal;
+
+  </p>
+            <Alinea id="art2_par1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    até o dia 1° de janeiro de 1992, para esse mês, mediante a aplicação, sobre Cr$ 126,8621, do Índice Nacional de Preços ao Consumidor - INPC acumulado desde fevereiro até novembro de 1991, e do Índice de Preços ao Consumidor Ampliado - IPCA de dezembro de 1991, apurados pelo Instituto Brasileiro de Geografia e Estatística - I BGE;
+
+  </p>
+            
+          </Alinea><Alinea id="art2_par1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    até o primeiro dia de cada mês, a partir de 1° de fevereiro de 1992, com base no IPCA.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo><Paragrafo id="art2_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O IPCA, a que se refere o parágrafo anterior, será constituído por série especial cuja apuração compreenderá o período entre o dia 16 do mês anterior e o dia 15 do mês de referência.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Interrompida a apuração ou divulgação da série especial do IPCA, a expressão monetária da UFIR será estabelecida com base nos indicadores disponíveis, observada precedência em relação àqueles apurados por instituições oficiais de pesquisa.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    No caso do parágrafo anterior, o Departamento da Receita Federal divulgará a metodologia adotada para a determinação da expressão monetária da UFIR.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par5">
+            <!--Link: urn:lex:br:federal:lei:1995-06-29;9096-->
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:1995-06-29;9096">Lei nº 9.096, de 29.6.1995</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par6">
+            <!--Link: urn:lex:br:federal:lei:1991-06-28;8200-->
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    A expressão monetária do Fator de Atualização Patrimonial - FAP, instituído em decorrência da <span xlink:href="urn:lex:br:federal:lei:1991-06-28;8200">Lei n° 8.200, de 28 de junho de 1991</span>, será igual, no mês de dezembro de 1991, à expressão monetária da UFIR apurada conforme a alínea a do § 1° deste artigo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par7">
+            <!--Link: urn:lex:br:federal:lei:1991-08-29;8218-->
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    A expressão monetária do coeficiente utilizado na apuração do ganho de capital, de que trata a <span xlink:href="urn:lex:br:federal:lei:1991-08-29;8218">Lei n° 8.218, de 29 de agosto de 1991</span>, corresponderá, a partir de janeiro de 1992, à expressão monetária da UFIR mensal.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    Os valores expressos em cruzeiros na legislação tributária ficam convertidos em quantidade de UFIR, utilizando-se como divisores:
+
+  </p>
+            <Inciso id="art3_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o valor de Cr$ 215,6656, se relativos a multas e penalidades de qualquer natureza;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:1995-06-29;9069-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o valor de Cr$ 126,8621, nos demais casos. (Vide <span xlink:href="urn:lex:br:federal:lei:1995-06-29;9069">Lei nº 9.069, de 29.6.1995</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DO IMPOSTO DE RENDA DAS PESSOAS FÍSICAS
+
+  </NomeAgrupador>
+            <Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    A renda e os proventos de qualquer natureza, inclusive os rendimentos e ganhos de capital, percebidos por pessoas físicas residentes ou domiciliadas no Brasil, serão tributados pelo imposto de renda na forma da legislação vigente, com as modificações introduzidas por esta Lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            <!--Link: urn:lex:br:federal:lei:1988-12-22;7713!art7--><!--Link: urn:lex:br:federal:lei:1988-12-22;7713!art8--><!--Link: urn:lex:br:federal:lei:1988-12-22;7713!art12--><!--Link: urn:lex:br:federal:lei:1994-01-01;8848-->
+            
+            
+            <p>
+    A partir de 1° de janeiro do ano-calendário de 1992, o imposto de renda incidente sobre os rendimentos de que tratam os <span xlink:href="urn:lex:br:federal:lei:1988-12-22;7713!art7">arts. 7°</span>, <span xlink:href="urn:lex:br:federal:lei:1988-12-22;7713!art8">8°</span> e <span xlink:href="urn:lex:br:federal:lei:1988-12-22;7713!art12">12 da Lei n° 7.713, de 22 de dezembro de 1988</span>, será calculado de acordo com a seguinte tabela progressiva: (Vide <span xlink:href="urn:lex:br:federal:lei:1994-01-01;8848">Lei nº 8.848, de 1.1.1994</span>)
+
+  </p>
+            <table id="art5_cpt_tab1"><tr><td>Base de Cálculo (em Ufir)</td><td>Parcela a Deduzir da Base de Cálculo (em Ufir)</td><td>Alíquota</td></tr><tr><td>Acima de 1.000</td><td>------</td><td>Isento</td></tr><tr><td>Acima de 1.000 até 1.950</td><td>1.000</td><td>15%</td></tr><tr><td>Acima de 1.950</td><td>1.380</td><td>25%</td></tr></table>
+          </Caput><Paragrafo id="art5_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O imposto de que trata este artigo será calculado sobre os rendimentos efetivamente recebidos em cada mês.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            <!--Link: urn:lex:br:federal:lei:1988;7713!art8-->
+            
+            
+            <p>
+    O imposto sobre os rendimentos de que trata o <span xlink:href="urn:lex:br:federal:lei:1988;7713!art8">art. 8° da Lei n° 7.713, de 1988</span>:
+
+  </p>
+            <Inciso id="art6_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    será convertido em quantidade de UFIR pelo valor desta no mês em que os rendimentos forem recebidos;
+
+  </p>
+            
+          </Inciso><Inciso id="art6_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    deverá ser pago até o último dia útil do mês subseqüente ao da percepção dos rendimentos.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art6_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A quantidade de UFIR de que trata o inciso I será reconvertida em cruzeiros pelo valor da UFIR no mês do pagamento do imposto.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    Sem prejuízo dos pagamentos obrigatórios estabelecidos na legislação, fica facultado ao contribuinte efetuar, no curso do ano, complementação do imposto que for devido sobre os rendimentos recebidos.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    O imposto retido na fonte ou pago pelo contribuinte, salvo disposição em contrário, será deduzido do apurado na forma do inciso I do art. 15 desta Lei.
+
+  </p>
+            
+          </Caput><Paragrafo id="art8_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Para efeito da redução, o imposto retido ou pago será convertido em quantidade de UFIR pelo valor desta:
+
+  </p>
+            <Alinea id="art8_par1u_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    no mês em que os rendimentos forem pagos ao beneficiário, no caso de imposto retido na fonte;
+
+  </p>
+            
+          </Alinea><Alinea id="art8_par1u_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    no mês do pagamento do imposto, nos demais casos.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo>
+          </Artigo><Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            <!--Link: urn:lex:br:federal:lei:1990-12-27;8134!art6-->
+            
+            
+            <p>
+    As receitas e despesas a que se refere o <span xlink:href="urn:lex:br:federal:lei:1990-12-27;8134!art6">art. 6° da Lei n° 8.134, de 27 de dezembro de 1990</span>, serão convertidas em quantidade de UFIR pelo valor desta no mês em que forem recebidas ou pagas, respectivamente.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>
+    Na determinação da base de cálculo sujeita à incidência mensal do imposto de renda poderão ser deduzidas:
+
+  </p>
+            <Inciso id="art10_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:1990;8134!art6-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a soma dos valores referidos nos incisos do <span xlink:href="urn:lex:br:federal:lei:1990;8134!art6">art. 6° da Lei n° 8.134, de 1990</span>;
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    as importâncias pagas em dinheiro a título de alimentos ou pensões, em cumprimento de acordo ou decisão judicial, inclusive a prestação de alimentos provisionais;
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:1995-06-29;9069--><!--Link: urn:lex:br:federal:lei:1995-06-29;9069!art83-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    a quantia equivalente a cem UFIR por dependente; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1995-06-29;9069">Lei nº 9.069, de 29.6.1995</span>) (Vide <span xlink:href="urn:lex:br:federal:lei:1995-06-29;9069!art83">art. 83 da Lei nº 9.069, de 29.6.1995</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    as contribuições para a Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios;
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    o valor de mil UFIR, correspondente à parcela isenta dos rendimentos provenientes de aposentadoria e pensão, transferência para reserva remunerada ou reforma pagos pela Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios, ou por qualquer pessoa jurídica de direito público interno, a partir do mês em que o contribuinte completar sessenta e cinco anos de idade.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            <p>
+    Na declaração de ajuste anual (art. 12) poderão ser deduzidos:
+
+  </p>
+            <Inciso id="art11_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    os pagamentos feitos, no ano-calendário, a médicos, dentistas, psicólogos, fisioterapeutas, fonoaudiólogos, terapeutas ocupacionais e hospitais, bem como as despesas provenientes de exames laboratoriais e serviços radiológicos;
+
+  </p>
+            
+          </Inciso><Inciso id="art11_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:1960-11-25;3830!art1-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    as contribuições e doações efetuadas a entidades de que trata o <span xlink:href="urn:lex:br:federal:lei:1960-11-25;3830!art1">art. 1° da Lei n° 3.830, de 25 de novembro de 1960</span>, observadas as condições estabelecidas no art. 2° da mesma lei;
+
+  </p>
+            
+          </Inciso><Inciso id="art11_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:1990-07-13;8069!art260-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    as doações de que trata o <span xlink:href="urn:lex:br:federal:lei:1990-07-13;8069!art260">art. 260 da Lei n° 8.069, de 13 de julho de 1990</span>;
+
+  </p>
+            
+          </Inciso><Inciso id="art11_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    a soma dos valores referidos no art. 10 desta Lei;
+
+  </p>
+            
+          </Inciso><Inciso id="art11_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    as despesas feitas com instrução do contribuinte e seus dependentes até o limite anual individual de seiscentos e cinqüenta UFIR.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art11_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O disposto no inciso I:
+
+  </p>
+            <Alinea id="art11_par1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    aplica-se, também, aos pagamentos feitos a empresas brasileiras ou autorizadas a funcionar no País, destinados à cobertura de despesas com hospitalização e cuidados médicos e dentários, bem como a entidades que assegurem direito de atendimento ou ressarcimento de despesas de natureza médica, odontológica e hospitalar;
+
+  </p>
+            
+          </Alinea><Alinea id="art11_par1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    restringe-se aos pagamentos feitos pelo contribuinte, relativos ao seu próprio tratamento e ao de seus dependentes;
+
+  </p>
+            
+          </Alinea><Alinea id="art11_par1_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    é condicionado a que os pagamentos sejam especificados e comprovados, com indicação do nome, endereço e número de inscrição no Cadastro de Pessoas Físicas ou no Cadastro de Pessoas Jurídicas de quem os recebeu, podendo, na falta de documentação, ser feita indicação do cheque nominativo pelo qual foi efetuado o pagamento.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo><Paragrafo id="art11_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Não se incluem entre as deduções de que trata o inciso I deste artigo as despesas ressarcidas por entidade de qualquer espécie.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art11_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A soma das deduções previstas nos incisos II e III está limitada a dez por cento da base de cálculo do imposto, na declaração de ajuste anual.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art11_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    As deduções de que trata este artigo serão convertidas em quantidade de UFIR pelo valor desta no mês do pagamento ou no mês em que tiverem sido consideradas na base de cálculo sujeita à incidência do imposto.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            
+            
+            
+            <p>
+    As pessoas físicas deverão apresentar anualmente declaração de ajuste, na qual se determinará o saldo do imposto a pagar ou valor a ser restituído.
+
+  </p>
+            
+          </Caput><Paragrafo id="art12_par1">
+            <!--Link: urn:lex:br:federal:lei:1990;8134!art18_cpt_inc1-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os ganhos a que se referem o art. 26 desta Lei e o <span xlink:href="urn:lex:br:federal:lei:1990;8134!art18_cpt_inc1">inciso I do art. 18 da Lei n° 8.134, de 1990</span>, serão apurados e tributados em separado, não integrarão a base de cálculo do imposto de renda na declaração de ajuste anual e o imposto pago não poderá ser deduzido na declaração.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art12_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A declaração de ajuste anual, em modelo aprovado pelo Departamento da Receita Federal, deverá ser apresentada até o último dia útil do mês de abril do ano subseqüente ao da percepção dos rendimentos ou ganhos de capital.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art12_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Ficam dispensadas da apresentação de declaração:
+
+  </p>
+            <Alinea id="art12_par3_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    as pessoas físicas cujos rendimentos do trabalho assalariado, no ano-calendário, inclusive Gratificação de Natal ou Gratificação Natalina, conforme o caso, acrescidos dos demais rendimentos recebidos, exceto os não tributados ou tributados exclusivamente na fonte, sejam iguais ou inferiores a treze mil UFIR;
+
+  </p>
+            
+          </Alinea><Alinea id="art12_par3_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    os aposentados, inativos e pensionistas da Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios ou dos respectivos tesouros, cujos proventos e pensões no ano-calendário, acrescidos dos demais rendimentos recebidos, exceto os não tributados ou tributados exclusivamente na fonte, sejam iguais ou inferiores a treze mil UFIR;
+
+  </p>
+            
+          </Alinea><Alinea id="art12_par3_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    outras pessoas físicas declaradas em ato do Ministro da Economia, Fazenda e Planejamento, cuja qualificação fiscal assegure a preservação dos controles fiscais pela administração tributária.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo>
+          </Artigo><Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>
+    Para efeito de cálculo do imposto a pagar ou do valor a ser restituído, os rendimentos serão convertidos em quantidade de UFIR pelo valor desta no mês em que forem recebidos pelo beneficiário.
+
+  </p>
+            
+          </Caput><Paragrafo id="art13_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A base de cálculo do imposto, na declaração de ajuste anual, será a diferença entre as somas, em quantidade de UFIR:
+
+  </p>
+            <Alinea id="art13_par1u_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    de todos os rendimentos percebidos durante o ano-calendário, exceto os isentos, os não tributáveis e os tributados exclusivamente na fonte; e
+
+  </p>
+            
+          </Alinea><Alinea id="art13_par1u_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    das deduções de que trata o art. 11 desta Lei.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo>
+          </Artigo><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            <!--Link: urn:lex:br:federal:lei:1990-04-12;8023-->
+            
+            
+            <p>
+    O resultado da atividade rural será apurado segundo o disposto na <span xlink:href="urn:lex:br:federal:lei:1990-04-12;8023">Lei n° 8.023, de 12 de abril de 1990</span>, e, quando positivo, integrará a base de cálculo do imposto definida no artigo anterior.
+
+  </p>
+            
+          </Caput><Paragrafo id="art14_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O resultado da atividade rural e a base de cálculo do imposto serão expressos em quantidade de UFIR.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art14_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As receitas, despesas e demais valores, que integram o resultado e a base de cálculo, serão convertidos em UFIR pelo valor desta no mês do efetivo pagamento ou recebimento.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>
+    O saldo do imposto a pagar ou o valor a ser restituído na declaração de ajuste anual (art. 12) será determinado com observância das seguintes normas:
+
+  </p>
+            <Inciso id="art15_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    será calculado o imposto progressivo de acordo com a tabela (art. 16);
+
+  </p>
+            
+          </Inciso><Inciso id="art15_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    será deduzido o imposto pago ou retido na fonte, correspondente a rendimentos incluídos na base de cálculo;
+
+  </p>
+            
+          </Inciso><Inciso id="art15_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    o montante assim determinado, expresso em quantidade de UFIR, constituirá, se positivo, o saldo do imposto a pagar e, se negativo, o valor a ser restituído.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            <!--Link: urn:lex:br:federal:lei:1994-01-01;8848!art2--><!--Link: urn:lex:br:federal:lei:2005-05-25;11119!art1-->
+            
+            
+            <p>
+    Para fins do ajuste de que trata o artigo anterior, o imposto de renda progressivo será calculado de acordo com a seguinte tabela: (Vide <span xlink:href="urn:lex:br:federal:lei:1994-01-01;8848!art2">art. 2º Lei nº 8.848, de 1.1.1994</span>) (Vide <span xlink:href="urn:lex:br:federal:lei:2005-05-25;11119!art1">art. 1º da Lei nº 11.119, de 25.5.2005</span>)
+
+  </p>
+            <table id="art16_cpt_tab1"><tr><td>Base de Cálculo(em UFIR)</td><td>Parcela a Deduzir da Basede Cálculo (em UFIR)</td><td>Alíquota</td></tr><tr><td>Até 12.000</td><td>------</td><td>Isento</td></tr><tr><td>Acima de 12.000 até 23.400</td><td>12.000</td><td>15%</td></tr><tr><td>Acima de 23.400</td><td>16.560</td><td>25%</td></tr></table>
+          </Caput>
+          </Artigo><Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            
+            
+            
+            <p>
+    O saldo do imposto (art. 15, III) poderá ser pago em até seis quotas iguais, mensais e sucessivas, observado o seguinte:
+
+  </p>
+            <Inciso id="art17_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    nenhuma quota será inferior a cinqüenta UFIR e o imposto de valor inferior a cem UFIR será pago de uma só vez;
+
+  </p>
+            
+          </Inciso><Inciso id="art17_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a primeira quota ou quota única deverá ser paga no mês de abril do ano subseqüente ao da percepção dos rendimentos;
+
+  </p>
+            
+          </Inciso><Inciso id="art17_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    as quotas vencerão no último dia útil de cada mês;
+
+  </p>
+            
+          </Inciso><Inciso id="art17_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    é facultado ao contribuinte antecipar, total ou parcialmente, o pagamento do imposto ou das quotas.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art17_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A quantidade de UFIR será reconvertida em cruzeiros pelo valor da UFIR no mês do pagamento do imposto ou da respectiva quota.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            
+            
+            
+            <p>
+    Para cálculo do imposto, os valores da tabela progressiva anual (art. 16) serão divididos proporcionalmente ao número de meses do período abrangido pela tributação, em relação ao ano-calendário, nos casos de declaração apresentada:
+
+  </p>
+            <Inciso id="art18_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    em nome do espólio, no exercício em que for homologada a partilha ou feita a adjudicação dos bens;
+
+  </p>
+            
+          </Inciso><Inciso id="art18_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    pelo contribuinte, residente ou domiciliado no Brasil, que se retirar em caráter definitivo do território nacional.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            
+            
+            
+            <p>
+    As pessoas físicas ou jurídicas que efetuarem pagamentos com retenção do imposto de renda na fonte deverão fornecer à pessoa física beneficiária, até o dia 28 de fevereiro, documento comprobatório, em duas vias, com indicação da natureza e do montante do pagamento, das deduções e do imposto de renda retido no ano anterior.
+
+  </p>
+            
+          </Caput><Paragrafo id="art19_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Tratando-se de rendimentos pagos por pessoas jurídicas, quando não tenha havido retenção do imposto de renda na fonte, o comprovante deverá ser fornecido no mesmo prazo ao contribuinte que o tenha solicitado até o dia 15 de janeiro do ano subseqüente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    No documento de que trata este artigo, o imposto retido na fonte, as deduções e os rendimentos deverão ser informados por seus valores em cruzeiros e em quantidade de UFIR, convertidos segundo o disposto na alínea a do parágrafo único do art. 8°, no § 4° do art. 11 e no art. 13 desta lei.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    As pessoas físicas ou jurídicas que deixarem de fornecer aos beneficiários, dentro do prazo, ou fornecerem com inexatidão, o documento a que se refere este artigo ficarão sujeitas ao pagamento de multa de trinta e cinco UFIR por documento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    À fonte pagadora que prestar informação falsa sobre rendimentos pagos, deduções, ou imposto retido na fonte será aplicada a multa de cento e cinqüenta por cento sobre o valor que for indevidamente utilizável como redução do imposto de renda devido, independentemente de outras penalidades administrativas ou criminais.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Na mesma penalidade incorrerá aquele que se beneficiar da informação sabendo ou devendo saber da falsidade.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap3">
+            
+            
+            <Rotulo>CAPÍTULO III</Rotulo>
+            <NomeAgrupador>
+    DA TRIBUTAÇÃO DAS OPERAÇÕES FINANCEIRAS
+
+  </NomeAgrupador>
+            <Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            
+            
+            
+            <p>
+    O rendimento produzido por aplicação financeira de renda fixa iniciada a partir de 1° de janeiro de 1992, auferido por qualquer beneficiário, inclusive pessoa jurídica isenta, sujeita-se à incidência do imposto sobre a renda na fonte às alíquotas seguintes:
+
+  </p>
+            <Inciso id="art20_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:1992-12-23;8541-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:1992-12-23;8541">Lei nº 8.541, de 23.12.1992</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art20_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    demais operações: trinta por cento.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art20_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O disposto neste artigo aplica-se, inclusive, às operações de financiamento realizadas em bolsa de valores, de mercadorias, de futuros e assemelhadas na forma da legislação em vigor.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art20_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Fica dispensada a retenção do imposto de renda na fonte em relação à operação iniciada e encerrada no mesmo dia quando o alienante for instituição financeira, sociedade de arrendamento mercantil, sociedade corretora de títulos e valores mobiliários ou sociedade distribuidora de títulos e valores mobiliários.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art20_par3">
+            <!--Link: urn:lex:br:federal:lei:1990-10-31;8088!art18-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A base de cálculo do imposto é constituída pela diferença positiva entre o valor da alienação, líquido do imposto sobre operações de crédito, câmbio e seguro, e sobre operações relativas a títulos e valores mobiliários - IOF (<span xlink:href="urn:lex:br:federal:lei:1990-10-31;8088!art18">art. 18 da Lei n° 8.088, de 31 de outubro de 1990</span>) e o valor da aplicação financeira de renda fixa, atualizado com base na variação acumulada da UFIR diária, desde a data inicial da operação até a da alienação.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art20_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Serão adicionados ao valor de alienação, para fins de composição da base de cálculo do imposto, os rendimentos periódicos produzidos pelo título ou aplicação, bem como qualquer remuneração adicional aos rendimentos prefixados, pagos ou creditados ao alienante e não submetidos à incidência do imposto de renda na fonte, atualizados com base na variação acumulada da UFIR diária, desde a data do crédito ou pagamento até a da alienação.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art20_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Para fins da incidência do imposto de renda na fonte, a alienação compreende qualquer forma de transmissão da propriedade, bem como a liquidação, resgate ou repactuação do título ou aplicação.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art20_par6">
+            <!--Link: urn:lex:br:federal:lei:2022-03-29;14317-->
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    (Revogado pela Medida Provisória nº 1.072, de 1º/10/2021, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-03-29;14317">Lei nº 14.317, de 29.3.2022</span>, produzindo efeitos financeiros a partir de 1º/1/2022)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            
+            
+            
+            <p>
+    Nas aplicações de fundo de renda fixa, resgatadas a partir de 1º de janeiro de 1992, a base de cálculo do imposto de renda na fonte será constituída pela diferença positiva entre o valor do resgate, líquido de IOF, e o custo de aquisição da quota, atualizado com base na variação acumulada da UFIR diária, desde a data da conversão da aplicação em quotas até a reconversão das quotas em cruzeiros.
+
+  </p>
+            
+          </Caput><Paragrafo id="art21_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Na determinação do custo de aquisição da quota, quando atribuída a remuneração ao valor resgatado, observar-se-á a precedência segundo a ordem seqüencial direta das aplicações realizadas pelo beneficiário.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art21_par2">
+            <!--Link: urn:lex:br:federal:lei:1994-06-21;8894-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os rendimentos auferidos pelos fundos de renda fixa e as alienações de títulos ou aplicações por eles realizadas ficam excluídos respectivamente, da incidência do imposto de renda na fonte e do IOF. (Parágrafo com isenções revogadas pela <span xlink:href="urn:lex:br:federal:lei:1994-06-21;8894">Lei nº 8.894, de 21.6.1994</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art21_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O imposto de renda na fonte, calculado à alíquota de trinta por cento, e o IOF serão retidos pelo administrador do fundo de renda fixa na data do resgate.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art21_par4">
+            <!--Link: urn:lex:br:federal:lei:1995-06-29;9069!art53_par1-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Excluem-se do disposto neste artigo as aplicações em Fundo de Aplicação Financeira - FAF, que continuam sujeitas à tributação pelo imposto de renda na fonte à alíquota de cinco por cento sobre o rendimento bruto apropriado diariamente ao quotista. (Vide <span xlink:href="urn:lex:br:federal:lei:1995-06-29;9069!art53_par1">art. 53, § 1º, da Lei nº 9.069, de 29.6.1995</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art21_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Na determinação da base de cálculo do imposto em relação ao resgate de quota existente em 31 de dezembro de 1991, adotar-se-á, a título de custo de aquisição, o valor da quota da mesma data.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art22">
+            
+            
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            
+            
+            
+            <p>
+    São isentos do imposto de renda na fonte:
+
+  </p>
+            <Inciso id="art22_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:1995-06-29;9069!art53_par1-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    os rendimentos creditados ao quotista pelo Fundo de Investimento em Quotas de Fundos de Aplicação, correspondente aos créditos apropriados por FAF; (Vide <span xlink:href="urn:lex:br:federal:lei:1995-06-29;9069!art53_par1">art. 53, § 1º, da Lei nº 9.069, de 29.6.1995</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art22_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    os rendimentos auferidos por FAF, tributados quando da apropriação ao quotista.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art23">
+            
+            
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            
+            
+            
+            <p>
+    A operação de mútuo e a operação de compra vinculada à revenda, no mercado secundário, tendo por objeto ouro, ativo financeiro, iniciadas a partir de 1° de janeiro de 1992, ficam equiparadas à operação de renda fixa para fins de incidência do imposto de renda na fonte.
+
+  </p>
+            
+          </Caput><Paragrafo id="art23_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Constitui fato gerador do imposto a liquidação da operação de mútuo ou a revenda de ouro, ativo financeiro.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art23_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A base de cálculo do imposto nas operações de mútuo será constituída:
+
+  </p>
+            <Alinea id="art23_par2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    pelo valor do rendimento em moeda corrente, atualizado entre a data do recebimento e a data de liquidação do contrato; ou
+
+  </p>
+            
+          </Alinea><Alinea id="art23_par2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    quando o rendimento for fixado em quantidade de ouro, pelo valor da conversão do ouro em moeda corrente, estabelecido com base nos preços médios das operações realizadas no mercado à vista da bolsa em que ocorrer o maior volume de ouro transacionado na data de liquidação do contrato.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo><Paragrafo id="art23_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A base de cálculo nas operações de revenda e de compra de ouro, quando vinculadas, será constituída pela diferença positiva entre o valor de revenda e o de compra do ouro, atualizada com base na variação acumulada da UFIR diária, entre a data de início e de encerramento da operação.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art23_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O valor da operação de que trata a alínea a do § 2° será atualizado com base na UFIR diária.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art23_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    O imposto de renda na fonte será calculado aplicando-se alíquotas previstas no art. 20, de acordo com o prazo de operação.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art23_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    Fica o Poder Executivo autorizado a baixar normas com vistas a definir as características da operação de compra vinculada à revenda, bem como a equiparar às operações de que trata este artigo outras que, pelas suas características produzam os mesmos efeitos das operações indicadas.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art23_par7">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    O Conselho Monetário Nacional poderá estabelecer prazo mínimo para as operações de que trata este artigo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art24">
+            
+            
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput id="art24_cpt">
+            <!--Link: urn:lex:br:federal:lei:1992-12-23;8541-->
+            
+            
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:1992-12-23;8541">Lei nº 8.541, de 23.12.1992</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art25">
+            
+            
+            <Rotulo>Art. 25.</Rotulo>
+            
+            <Caput id="art25_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1986-11-21;2292-->
+            
+            
+            <p>
+    O rendimento auferido no resgate, a partir de 1° de janeiro de 1992, de quota de fundo mútuo de ações, clube de investimento e outros fundos da espécie, inclusive Plano de Poupança e Investimentos - PAIT, de que trata o <span xlink:href="urn:lex:br:federal:decreto.lei:1986-11-21;2292">Decreto-Lei n° 2.292, de 21 de novembro de 1986</span>, constituídos segundo a legislação aplicável, quando o beneficiário for pessoa física ou pessoa jurídica não tributada com base no lucro real, inclusive isenta, sujeita-se à incidência do imposto de renda na fonte à alíquota de vinte e cinco por cento.
+
+  </p>
+            
+          </Caput><Paragrafo id="art25_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A base de cálculo do imposto é constituída pela diferença positiva entre o valor de resgate e o custo médio de aquisição da quota, atualizado com base na variação acumulada da UFIR diária da data da conversão em quotas até a de reconversão das quotas em cruzeiros.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art25_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os ganhos líquidos a que se refere o artigo seguinte e os rendimentos produzidos por aplicações financeiras de renda fixa, auferidos por fundo mútuo de ações, clube de investimentos e outros fundos da espécie, não estão sujeitos à incidência do imposto de renda na fonte.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art25_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O imposto será retido pelo administrador do fundo ou clube de investimento na data do resgate.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art25_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Fica o Poder Executivo autorizado a permitir a compensação de perdas ocorridas em aplicações de que trata este artigo .
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art26">
+            
+            
+            <Rotulo>Art. 26.</Rotulo>
+            
+            <Caput id="art26_cpt">
+            
+            
+            
+            <p>
+    Ficam sujeitas ao pagamento do imposto de renda, à alíquota de vinte e cinco por cento, a pessoa física e a pessoa jurídica não tributada com base no lucro real, inclusive isenta, que auferirem ganhos líquidos nas operações realizadas nas bolsas de valores, de mercadorias, de futuros e assemelhadas, encerradas a partir de 1° de janeiro de 1992.
+
+  </p>
+            
+          </Caput><Paragrafo id="art26_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os custos de aquisição, os preços de exercício e os prêmios serão considerados pelos valores médios pagos, atualizados com base na variação acumulada da UFIR diária da data da aquisição até a data da alienação do ativo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art26_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O Poder Executivo poderá baixar normas para apuração e demonstração dos ganhos líquidos, bem como autorizar a compensação de perdas em um mesmo ou entre dois ou mais mercados ou modalidades operacionais, previstos neste artigo, ressalvado o disposto no art. 28 desta Lei.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art26_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O disposto neste artigo aplica-se, também, aos ganhos líquidos decorrentes da alienação de ouro, ativo financeiro, fora da bolsa, com a interveniência de instituições integrantes do Sistema Financeiro Nacional.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art26_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O imposto de que trata este artigo será apurado mensalmente.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art27">
+            
+            
+            <Rotulo>Art. 27.</Rotulo>
+            
+            <Caput id="art27_cpt">
+            
+            
+            
+            <p>
+    As deduções de despesas, bem como a compensação de perdas na forma prevista no § 2° do artigo precedente, são admitidas exclusivamente para as operações realizadas nos mercados organizados, geridos ou sob responsabilidade de instituição credenciada pelo Poder Executivo e com objetivos semelhantes ao das bolsas de valores, de mercadorias ou de futuros.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art28">
+            
+            
+            <Rotulo>Art. 28.</Rotulo>
+            
+            <Caput id="art28_cpt">
+            
+            
+            
+            <p>
+    Os prejuízos decorrentes de operações financeiras de compra e subseqüente venda ou de venda e subseqüente compra, realizadas no mesmo dia (day-trade), tendo por objeto ativo, título, valor mobiliário ou direito de natureza e características semelhantes, somente podem ser compensados com ganhos auferidos em operações da mesma espécie ou em operações de cobertura (hedge) à qual estejam vinculadas nos termos admitidos pelo Poder Executivo.
+
+  </p>
+            
+          </Caput><Paragrafo id="art28_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O ganho líquido mensal corresponde às operações day-trade, quando auferido por beneficiário dentre os referidos no art. 26, integra a base de cálculo do imposto de renda de que trata o mesmo artigo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art28_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os prejuízos decorrentes de operações realizadas fora de mercados organizados, geridos ou sob responsabilidade de instituição credenciada pelo Poder Público, não podem ser deduzidos da base de cálculo do imposto de renda e da apuração do ganho líquido de que trata o art. 26, bem como não podem ser compensados com ganhos auferidos em operações de espécie, realizadas em qualquer mercado.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art29">
+            
+            
+            <Rotulo>Art. 29.</Rotulo>
+            
+            <Caput id="art29_cpt">
+            
+            
+            
+            <p>
+    Os residentes ou domiciliados no exterior sujeitam-se às mesmas normas de tributação pelo imposto de renda, previstas para os residentes ou domiciliados no País, em relação aos:
+
+  </p>
+            <Inciso id="art29_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    rendimentos decorrentes de aplicações financeiras de renda fixa;
+
+  </p>
+            
+          </Inciso><Inciso id="art29_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    ganhos líquidos auferidos em operações realizadas em bolsas de valores, de mercadorias, de futuros e assemelhadas;
+
+  </p>
+            
+          </Inciso><Inciso id="art29_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    rendimentos obtidos em aplicações em fundos e clubes de investimentos de renda variável.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art29_par1u">
+            <!--Link: urn:lex:br:federal:lei:1994-01-28;8849-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Sujeitam-se à tributação pelo imposto de renda, nos termos dos arts. 31 a 33, os rendimentos e ganhos de capital decorrentes de aplicações financeiras, auferidos por fundos, sociedades de investimento e carteiras de valores mobiliários de que participem, exclusivamente, pessoas físicas ou jurídicas, fundos ou outras entidades de investimento coletivo residentes, domiciliadas ou com sede no exterior. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1994-01-28;8849">Lei nº 8.849, de 28.1.1994</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art30">
+            
+            
+            <Rotulo>Art. 30.</Rotulo>
+            
+            <Caput id="art30_cpt">
+            <!--Link: urn:lex:br:federal:lei:1966-10-25;5172-->
+            
+            
+            <p>
+    O investimento estrangeiro nos mercados financeiros e de valores mobiliários somente poderá ser realizado no País por intermédio de representante legal, previamente designado dentre as instituições autorizadas pelo Poder Executivo a prestar tal serviço e que será responsável, nos termos do art. 128 do Código Tributário Nacional (<span xlink:href="urn:lex:br:federal:lei:1966-10-25;5172">Lei n° 5.172, de 25 de outubro de 1966</span>), pelo cumprimento das obrigações tributárias decorrentes das operações que realizar por conta e ordem do representado.
+
+  </p>
+            
+          </Caput><Paragrafo id="art30_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O representante legal não será responsável pela retenção e recolhimento do imposto de renda na fonte sobre aplicações financeiras quando, nos termos da legislação pertinente tal responsabilidade for atribuída a terceiro.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art30_par2">
+            <!--Link: urn:lex:br:federal:lei:1994-01-28;8849-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O Poder Executivo poderá excluir determinadas categorias de investidores da obrigatoriedade prevista neste artigo. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1994-01-28;8849">Lei nº 8.849, de 28.1.1994</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art31">
+            
+            
+            <Rotulo>Art. 31.</Rotulo>
+            
+            <Caput id="art31_cpt">
+            <!--Link: urn:lex:br:federal:lei:1965-07-14;4728!art50--><!--Link: urn:lex:br:federal:lei:1995-01-20;8981!art80-->
+            
+            
+            <p>
+    Sujeitam-se à tributação pelo imposto de renda, à alíquota de vinte e cinco por cento, os rendimentos e ganhos de capital auferidos no resgate pelo quotista, quando distribuídos, sob qualquer forma e a qualquer título, por fundos em condomínio, a que se refere o <span xlink:href="urn:lex:br:federal:lei:1965-07-14;4728!art50">art. 50 da Lei nº 4.728, de 14 de julho de 1965</span>, constituídos na forma prescrita pelo Conselho Monetário Nacional e mantidos com recursos provenientes de conversão de débitos externos brasileiros, e de que participem, exclusivamente, pessoas físicas ou jurídicas, fundos ou outras entidades de investimentos coletivos, residente, domiciliados, ou com sede no exterior. (Vide <span xlink:href="urn:lex:br:federal:lei:1995-01-20;8981!art80">art. 80 da Lei nº 8.981, de 20.1.1995</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art31_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A base de cálculo do imposto é constituída pela diferença positiva entre o valor de resgate e o custo médio de aquisição da quota, atualizados com base na variação acumulada da Ufir diária da data da aplicação até a data da distribuição ao exterior.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art31_par2">
+            <!--Link: urn:lex:br:federal:lei:1994-01-28;8849--><!--Link: urn:lex:br:federal:lei:1995-01-20;8981!art80-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os rendimentos e ganhos de capital auferidos pelas carteiras dos fundos em condomínio de que trata este artigo, ficam excluídos da retenção do imposto de renda na fonte e do imposto de renda sobre o ganho líquido mensal. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1994-01-28;8849">Lei nº 8.849, de 28.1.1994</span>) (Vide <span xlink:href="urn:lex:br:federal:lei:1995-01-20;8981!art80">art. 80 da Lei nº 8.981, de 20.1.1995</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art32">
+            
+            
+            <Rotulo>Art. 32.</Rotulo>
+            
+            <Caput id="art32_cpt">
+            
+            
+            
+            <p>
+    Ressalvados os rendimentos de Fundos de Aplicação Financeira -FAF, que continuam tributados de acordo com o disposto no art. 21, § 4º, ficam sujeitos ao imposto de renda na fonte, à alíquota de quinze por cento, os rendimentos auferidos:
+
+  </p>
+            <Inciso id="art32_cpt_inc1">
+            <!--Link: urn:lex:br:federal:decreto.lei:1986-07-23;2285!art1--><!--Link: urn:lex:br:federal:decreto.lei:1986-07-23;2285!art2--><!--Link: urn:lex:br:federal:lei:1995-01-20;8981!art81-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    pelas entidades mencionadas nos <span xlink:href="urn:lex:br:federal:decreto.lei:1986-07-23;2285!art1">arts. 1º</span> e <span xlink:href="urn:lex:br:federal:decreto.lei:1986-07-23;2285!art2">2º do Decreto-Lei nº 2.285, de 23 de julho de 1986</span>; (Vide <span xlink:href="urn:lex:br:federal:lei:1995-01-20;8981!art81">art. 81, da Lei nº 8.981, de 20.1.1995</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art32_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:1965;4728!art49-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    pelas sociedades de investimentos a que se refere o <span xlink:href="urn:lex:br:federal:lei:1965;4728!art49">art. 49 da Lei nº 4.728, de 1965</span>, de que participem investidores estrangeiros;
+
+  </p>
+            
+          </Inciso><Inciso id="art32_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    pelas carteiras de valores mobiliários, inclusive vinculadas à emissão, no exterior, de certificados representativos de ações, mantidas por investidores estrangeiros.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art32_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os ganhos de capital ficam excluídos da incidência do imposto de renda quando auferidos e distribuídos, sob qualquer forma e a qualquer título, inclusive em decorrência de liquidação parcial ou total do investimento pelos fundos, sociedades ou carteiras referidos no caput deste artigo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art32_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Para os efeitos deste artigo, consideram-se: a - rendimentos: quaisquer valores que constituam remuneração de capital aplicado, inclusive aquela produzida por títulos de renda variável, tais como juros, prêmios, comissões, ágio, deságio, dividendos, bonificações em dinheiro e participações nos lucros, bem como os resultados positivos auferidos em aplicações nos fundos e clubes de investimento de que trata o art. 25; b - ganhos de capital, os resultados positivos auferidos: b.1 - nas operações realizadas em bolsas de valores, de mercadorias, de futuros e assemelhadas; b.2 - nas operações com ouro, ativo financeiro, fora de bolsa, intermediadas por instituições integrantes do Sistema Financeiro Nacional.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art32_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A base de cálculo do imposto de renda sobre os rendimentos auferidos pelas entidades de que trata este artigo será apurada:
+
+  </p>
+            <Alinea id="art32_par3_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    de acordo com os critérios previstos no § 3º do art. 20 e no art. 21, no caso de aplicações de renda fixa;
+
+  </p>
+            
+          </Alinea><Alinea id="art32_par3_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    de acordo com o tratamento previsto no § 4º do art. 20, no caso de rendimentos periódicos ou qualquer remuneração adicional não submetidos à incidência do imposto de renda na fonte;
+
+  </p>
+            
+          </Alinea><Alinea id="art32_par3_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    pelo valor do respectivo rendimento ou resultado positivo nos demais casos.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo><Paragrafo id="art32_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Na apuração do imposto de que trata este artigo serão indedutíveis os prejuízos apurados em operações de renda fixa e de renda variável.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art32_par5">
+            <!--Link: urn:lex:br:federal:lei:1994-01-28;8849-->
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    O disposto neste artigo alcança, exclusivamente, as entidades que atenderem às normas e condições estabelecidas pelo Conselho Monetário Nacional, não se aplicando, entretanto, aos fundos em condomínio referidos no art. 31. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1994-01-28;8849">Lei nº 8.849, de 28.1.1994</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art33">
+            
+            
+            <Rotulo>Art. 33.</Rotulo>
+            
+            <Caput id="art33_cpt">
+            <!--Link: urn:lex:br:federal:lei:1995-01-20;8981!art82-->
+            
+            
+            <p>
+    O imposto de renda na fonte sobre os rendimentos auferidos pelas entidades de que trata o art. 32, será devido por ocasião da cessão, resgate, repactuação ou liquidação de cada operação de renda fixa, ou do recebimento ou crédito, o que primeiro ocorrer, de outros rendimentos, inclusive dividendos e bonificações em dinheiro. (Vide <span xlink:href="urn:lex:br:federal:lei:1995-01-20;8981!art82">art. 82, da Lei nº 8.981, de 20.1.1995</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art33_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Com exceção do imposto sobre aplicações no FAF, o imposto sobre os demais rendimentos será retido pela instituição administradora do fundo, sociedade de investimento ou carteira, e pelo banco custodiante, no caso de certificados representativos de ações, sendo considerado, mesmo no caso do FAF, como exclusivo de fonte.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art33_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    No caso de rendimentos auferidos em operações realizadas antes de 1º de janeiro de 1994 e ainda não distribuídos, a base de cálculo do imposto de renda de que trata este artigo será determinada de acordo com as normas da legislação aplicável às operações de renda fixa realizadas por residentes no País, ressalvado o disposto no art. 34, devendo o imposto ser calculado à alíquota de quinze por cento e recolhido pelos administradores dos fundos, sociedades ou carteiras até 31 de janeiro de 1994 ou na data da distribuição dos rendimentos, se ocorrer primeiro, sem atualização monetária.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art33_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Os dividendos que foram atribuídos às ações integrantes do patrimônio do fundo, sociedade ou carteira, serão registrados, na data em que as ações foram cotadas sem os respectivos direitos (ex-dividendos), em conta representativa de rendimentos a receber, em contrapartida à diminuição de idêntico valor da parcela do ativo correspondente às ações as quais se vinculam, acompanhados de transferência para a receita de dividendos de igual valor a débito da conta de resultado de variação da carteira de ações.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art33_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Os rendimentos submetidos à sistemática de tributação de que trata este artigo não se sujeitam à nova incidência do imposto de renda quando distribuídos.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art33_par5">
+            <!--Link: urn:lex:br:federal:lei:1994-01-28;8849-->
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    O imposto deverá ser convertido em quantidade de UFIR diária pelo valor desta no dia da ocorrência do fato gerador, e pago no prazo previsto no art. 52, inciso II, alínea d. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1994-01-28;8849">Lei nº 8.849, de 28.1.1994</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art34">
+            
+            
+            <Rotulo>Art. 34.</Rotulo>
+            
+            <Caput id="art34_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1982-12-28;1986!art3-->
+            
+            
+            <p>
+    As disposições dos arts. 31 a 33 desta Lei abrangem as operações compreendidas no período entre 15 de junho de 1989, inclusive, e 1° de janeiro de 1992, exceto em relação ao imposto de que trata o <span xlink:href="urn:lex:br:federal:decreto.lei:1982-12-28;1986!art3">art. 3° do Decreto-Lei n° 1.986, de 28 de dezembro de 1982</span>, vedada a restituição ou compensação de imposto pago no mesmo período.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art35">
+            
+            
+            <Rotulo>Art. 35.</Rotulo>
+            
+            <Caput id="art35_cpt">
+            
+            
+            
+            <p>
+    Na cessão, liquidação ou resgate, será apresentada a nota de aquisição do título ou o documento relativo à aplicação, que identifique as partes envolvidas na operação.
+
+  </p>
+            
+          </Caput><Paragrafo id="art35_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Quando não apresentado o documento de que trata este artigo, considerar-se-á como preço de aquisição o valor da emissão ou o da primeira colocação do título, prevalecendo o menor.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art35_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Não comprovado o valor a que se refere o § 1°, a base de cálculo do imposto de renda na fonte será arbitrada em cinqüenta por cento do valor bruto da alienação.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art35_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Fica dispensada a exigência prevista neste artigo relativamente a título ou aplicação revestidos, exclusivamente, da forma escritural.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art36">
+            
+            
+            <Rotulo>Art. 36.</Rotulo>
+            
+            <Caput id="art36_cpt">
+            
+            
+            
+            <p>
+    O imposto de renda retido na fonte sobre aplicações financeiras ou pago sobre ganhos líquidos mensais de que trata o art. 26 será considerado:
+
+  </p>
+            <Inciso id="art36_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    se o beneficiário for pessoa jurídica tributada com base no lucro real: antecipação do devido na declaração;
+
+  </p>
+            
+          </Inciso><Inciso id="art36_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    se o beneficiário for pessoa física ou pessoa jurídica não tributada com base no lucro real, inclusive isenta: tributação definitiva, vedada a compensação na declaração de ajuste anual.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art37">
+            
+            
+            <Rotulo>Art. 37.</Rotulo>
+            
+            <Caput id="art37_cpt">
+            
+            
+            
+            <p>
+    A alíquota do imposto de renda na fonte sobre rendimentos produzidos por títulos ou aplicações integrantes do patrimônio do fundo de renda fixa de que trata o art. 21 desta Lei será de vinte e cinco por cento e na base de cálculo será considerado como valor de alienação aquele pelo qual o título ou aplicação constar da carteira no dia 31 de dezembro de 1991.
+
+  </p>
+            
+          </Caput><Paragrafo id="art37_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O recolhimento do imposto será efetuado pelo administrador do fundo, sem correção monetária, até o dia seguinte ao da alienação do título ou resgate da aplicação.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap4">
+            
+            
+            <Rotulo>CAPÍTULO IV</Rotulo>
+            <NomeAgrupador>
+    DO IMPOSTO DE RENDA DAS PESSOAS JURÍDICAS
+
+  </NomeAgrupador>
+            <Artigo id="art38">
+            
+            
+            <Rotulo>Art. 38.</Rotulo>
+            
+            <Caput id="art38_cpt">
+            
+            
+            
+            <p>
+    A partir do mês de janeiro de 1992, o imposto de renda das pessoas jurídicas será devido mensalmente, à medida em que os lucros forem auferidos.
+
+  </p>
+            
+          </Caput><Paragrafo id="art38_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Para efeito do disposto neste artigo, as pessoas jurídicas deverão apurar, mensalmente, a base de cálculo do imposto e o imposto devido.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art38_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A base de cálculo do imposto será convertida em quantidade de UFIR diária pelo valor desta no último dia do mês a que corresponder.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art38_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O imposto devido será calculado mediante a aplicação da alíquota sobre a base de cálculo expressa em UFIR.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art38_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Do imposto apurado na forma do parágrafo anterior a pessoa jurídica poderá diminuir:
+
+  </p>
+            <Alinea id="art38_par4_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    os incentivos fiscais de dedução do imposto devido, podendo o valor excedente ser compensado nos meses subseqüentes, observados os limites e prazos fixados na legislação específica;
+
+  </p>
+            
+          </Alinea><Alinea id="art38_par4_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    os incentivos fiscais de redução e isenção do imposto, calculados com base no lucro da exploração apurado mensalmente;
+
+  </p>
+            
+          </Alinea><Alinea id="art38_par4_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    o imposto de renda retido na fonte sobre receitas computadas na base de cálculo do imposto.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo><Paragrafo id="art38_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Os valores de que tratam as alíneas do parágrafo anterior serão convertidos em quantidade de UFIR diária pelo valor desta no último dia do mês a que corresponderem.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art38_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    O saldo do imposto devido em cada mês será pago até o último dia útil do mês subseqüente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art38_par7">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    O prejuízo apurado na demonstração do lucro real em um mês poderá ser compensado com o lucro real dos meses subseqüentes.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art38_par8">
+            
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    Para efeito de compensação, o prejuízo será corrigido monetariamente com base na variação acumulada da UFIR diária.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art38_par9">
+            <!--Link: urn:lex:br:federal:lei:1991;8200-->
+            
+            <Rotulo>§ 9º</Rotulo>
+            <p>
+    Os resultados apurados em cada mês serão corrigidos monetariamente (<span xlink:href="urn:lex:br:federal:lei:1991;8200">Lei n° 8.200, de 1991</span>).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art39">
+            
+            
+            <Rotulo>Art. 39.</Rotulo>
+            
+            <Caput id="art39_cpt">
+            
+            
+            
+            <p>
+    As pessoas jurídicas tributadas com base no lucro real poderão optar pelo pagamento, até o último dia útil do mês subseqüente, do imposto devido mensalmente, calculado por estimativa, observado o seguinte:
+
+  </p>
+            <Inciso id="art39_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    nos meses de janeiro a abril, o imposto estimado corresponderá, em cada mês, a um duodécimo do imposto e adicional apurados em balanço ou balancete anual levantado em 31 de dezembro do ano anterior ou, na inexistência deste, a um sexto do imposto e adicional apurados no balanço ou balancete semestral levantado em 30 de junho do ano anterior;
+
+  </p>
+            
+          </Inciso><Inciso id="art39_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    nos meses de maio a agosto, o imposto estimado corresponderá, em cada mês, a um duodécimo do imposto e adicional apurados no balanço anual de 31 de dezembro do ano anterior;
+
+  </p>
+            
+          </Inciso><Inciso id="art39_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    nos meses de setembro a dezembro, o imposto estimado corresponderá, em cada mês, a um sexto do imposto e adicional apurados em balanço ou balancete semestral levantado em 30 de junho do ano em curso.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art39_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A opção será efetuada na data do pagamento do imposto correspondente ao mês de janeiro e só poderá ser alterada em relação ao imposto referente aos meses do ano subseqüente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art39_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A pessoa jurídica poderá suspender ou reduzir o pagamento do imposto mensal estimado, enquanto balanços ou balancetes mensais demonstrarem que o valor acumulado já pago excede o valor do imposto calculado com base no lucro real do período em curso.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art39_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O imposto apurado nos balanços ou balancetes será convertido em quantidade de UFIR diária pelo valor desta no último dia do mês a que se referir.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art39_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O imposto de renda retido na fonte sobre rendimentos computados na determinação do lucro real poderá ser deduzido do imposto estimado de cada mês.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art39_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    A diferença entre o imposto devido, apurado na declaração de ajuste anual (art. 43), e a importância paga nos termos deste artigo será:
+
+  </p>
+            <Alinea id="art39_par5_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    paga em quota única, até a data fixada para a entrega da declaração de ajuste anual, se positiva;
+
+  </p>
+            
+          </Alinea><Alinea id="art39_par5_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    compensada, corrigida monetariamente, com o imposto mensal a ser pago nos meses subseqüentes ao fixado para a entrega da declaração de ajuste anual, se negativa, assegurada a alternativa de requerer a restituição do montante pago indevidamente .
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo>
+          </Artigo><Artigo id="art40">
+            
+            
+            <Rotulo>Art. 40.</Rotulo>
+            
+            <Caput id="art40_cpt">
+            <!--Link: urn:lex:br:federal:lei:1992-12-23;8541-->
+            
+            
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:1992-12-23;8541">Lei nº 8.541, de 23.12.1992</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art41">
+            
+            
+            <Rotulo>Art. 41.</Rotulo>
+            
+            <Caput id="art41_cpt">
+            
+            
+            
+            <p>
+    A tributação com base no lucro arbitrado somente será admitida em caso de lançamento de ofício, observadas a legislação vigente e as alterações introduzidas por esta Lei.
+
+  </p>
+            
+          </Caput><Paragrafo id="art41_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O lucro arbitrado e a contribuição social serão apurados mensalmente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art41_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O lucro arbitrado, diminuído do imposto de renda da pessoa jurídica e da contribuição social, será considerado distribuído aos sócios ou ao titular da empresa e tributado exclusivamente na fonte à alíquota de vinte e cinco por cento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art41_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A contribuição social sobre o lucro das pessoas jurídicas tributadas com base no lucro arbitrado será devida mensalmente.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art42">
+            
+            
+            <Rotulo>Art. 42.</Rotulo>
+            
+            <Caput id="art42_cpt">
+            <!--Link: urn:lex:br:federal:lei:1996-12-05;9317-->
+            
+            
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:1996-12-05;9317">Lei nº 9.317, de 5.12.1996</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art43">
+            
+            
+            <Rotulo>Art. 43.</Rotulo>
+            
+            <Caput id="art43_cpt">
+            
+            
+            
+            <p>
+    As pessoas jurídicas deverão apresentar, em cada ano, declaração de ajuste anual consolidando os resultados mensais auferidos nos meses de janeiro a dezembro do ano anterior, nos seguintes prazos:
+
+  </p>
+            <Inciso id="art43_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    até o último dia útil do mês de março, as tributadas com base no lucro presumido;
+
+  </p>
+            
+          </Inciso><Inciso id="art43_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    até o último dia útil do mês de abril, as tributadas com base no lucro real;
+
+  </p>
+            
+          </Inciso><Inciso id="art43_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    até o último dia útil do mês de junho, as demais.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art43_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Os resultados mensais serão apurados, ainda que a pessoa jurídica tenha optado pela forma de pagamento do imposto e adicional referida no art. 39.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art44">
+            
+            
+            <Rotulo>Art. 44.</Rotulo>
+            
+            <Caput id="art44_cpt">
+            <!--Link: urn:lex:br:federal:lei:1988;7689--><!--Link: urn:lex:br:federal:lei:1988;7713-->
+            
+            
+            <p>
+    Aplicam-se à contribuição social sobre o lucro (<span xlink:href="urn:lex:br:federal:lei:1988;7689">Lei n.° 7.689, de 1988</span>) e ao imposto incidente na fonte sobre o lucro líquido (<span xlink:href="urn:lex:br:federal:lei:1988;7713">Lei n° 7.713, de 1988</span>, art. 35) as mesmas normas de pagamento estabelecidas para o imposto de renda das pessoas jurídicas.
+
+  </p>
+            
+          </Caput><Paragrafo id="art44_par1u">
+            <!--Link: urn:lex:br:federal:lei:1995-01-20;8981-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:1995-01-20;8981">Lei nº 8.981, de 20.1.1995</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art45">
+            
+            
+            <Rotulo>Art. 45.</Rotulo>
+            
+            <Caput id="art45_cpt">
+            
+            
+            
+            <p>
+    O valor em cruzeiros do imposto ou contribuição será determinado mediante a multiplicação da sua quantidade em UFIR pelo valor da UFIR diária na data do pagamento.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art46">
+            
+            
+            <Rotulo>Art. 46.</Rotulo>
+            
+            <Caput id="art46_cpt">
+            <!--Link: urn:lex:br:federal:lei:1993-03-31;8643-->
+            
+            
+            <p>
+    As pessoas jurídicas tributadas com base no lucro real poderão depreciar, em vinte e quatro quotas mensais, o custo de aquisição ou construção de máquinas e equipamentos novos, adquiridos entre 1º de janeiro de 1992 e 31 de dezembro de 1994, utilizados em processo industrial da adquirente. (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1993-03-31;8643">Lei nº 8.643, de 31.3.1993</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art46_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A parcela da depreciação acelerada que exceder à depreciação normal constituirá exclusão do lucro líquido e será escriturada no livro de apuração do lucro real.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art46_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O total da depreciação acumulada, incluída a normal e a parcela excedente, não poderá ultrapassar o custo de aquisição do bem, corrigido monetariamente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art46_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A partir do mês em que for atingido o limite de que trata o parágrafo anterior, a depreciação normal, corrigida monetariamente, registrada na escrituração comercial, deverá ser adicionada ao lucro líquido para determinar o lucro real.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art46_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Para efeito do disposto nos §§ 2° e 3° deste artigo, a conta de depreciação excedente à normal, registrada no livro de apuração do lucro real, será corrigida monetariamente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art46_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    As disposições contidas neste artigo aplicam-se às máquinas e equipamentos objeto de contratos de arrendamento mercantil.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art47">
+            
+            
+            <Rotulo>Art. 47.</Rotulo>
+            
+            <Caput id="art47_cpt">
+            <!--Link: urn:lex:br:federal:lei:1995-01-20;8981-->
+            
+            
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:1995-01-20;8981">Lei nº 8.981, de 20.1.1995</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art48">
+            
+            
+            <Rotulo>Art. 48.</Rotulo>
+            
+            <Caput id="art48_cpt">
+            
+            
+            
+            <p>
+    A partir de 1° de janeiro de 1992, a correção monetária das demonstrações financeiras será efetuada com base na UFIR diária.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art49">
+            
+            
+            <Rotulo>Art. 49.</Rotulo>
+            
+            <Caput id="art49_cpt">
+            <!--Link: urn:lex:br:federal:lei:1985-12-23;7450!art25-->
+            
+            
+            <p>
+    A partir do mês de janeiro de 1992, o adicional de que trata o <span xlink:href="urn:lex:br:federal:lei:1985-12-23;7450!art25">art. 25 da Lei n° 7.450, de 23 de dezembro de 1985</span>, incidirá à alíquota de dez por cento sobre a parcela do lucro real ou arbitrado, apurado mensalmente, que exceder a vinte e cinco mil UFIR.
+
+  </p>
+            
+          </Caput><Paragrafo id="art49_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A alíquota será de quinze por cento para os bancos comerciais, bancos de investimento, bancos de desenvolvimento, caixas econômicas, sociedades de crédito, financiamento e investimento, sociedades de crédito imobiliário, sociedades corretoras, distribuidora de títulos e valores mobiliários e empresas de arrendamento mercantil.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art50">
+            
+            
+            <Rotulo>Art. 50.</Rotulo>
+            
+            <Caput id="art50_cpt">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2022-12-28;1152--><!--Link: urn:lex:br:federal:lei:2023-06-14;14596-->
+            
+            
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-12-28;1152">Medida Provisória nº 1.152, de 28.12.2022</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2023-06-14;14596">Lei nº 14.596, de 14.6.2023</span>, em vigor em 1º/1/2024)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art51">
+            
+            
+            <Rotulo>Art. 51.</Rotulo>
+            
+            <Caput id="art51_cpt">
+            
+            
+            
+            <p>
+    Os balanços ou balancetes referidos nesta Lei deverão ser levantados com observância das leis comerciais e fiscais e transcritos no Diário ou no Livro de Apuração do Lucro Real.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap5">
+            
+            
+            <Rotulo>CAPÍTULO V</Rotulo>
+            <NomeAgrupador>
+    DA ATUALIZAÇÃO E DO PAGAMENTO DE IMPOSTOS E CONTRIBUIÇÕES
+
+  </NomeAgrupador>
+            <Artigo id="art52">
+            
+            
+            <Rotulo>Art. 52.</Rotulo>
+            
+            <Caput id="art52_cpt">
+            <!--Link: urn:lex:br:federal:lei:1994-01-28;8850-->
+            
+            
+            <p>
+    Em relação aos fatos geradores que vierem a ocorrer a partir de 1º de novembro de 1993, os pagamentos dos impostos e contribuições relacionados a seguir deverão ser efetuados nos seguintes prazos: (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1994-01-28;8850">Lei nº 8.850, de 28.1.1994</span>)
+
+  </p>
+            <Inciso id="art52_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:2008-09-17;11774-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Imposto sobre Produtos Industrializados - IPI: (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2008-09-17;11774">Lei nº 11.774, de 17.9.2008</span>, produzindo efeitos à partir de 1.6.2008, de acordo com o inciso I, art. 22)
+
+  </p>
+            <Alinea id="art52_cpt_inc1_ali1">
+            <!--Link: urn:lex:br:federal:lei:2009-04-28;11933-->
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    no caso dos produtos classificados no código 2402.20.00, da Nomenclatura Comum do Mercosul - NCM, até o 10º (décimo) dia do mês subsequente ao mês de ocorrência dos fatos geradores, observado o disposto no § 4º deste artigo; (Alínea com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2009-04-28;11933">Lei nº 11.933, de 28.4.2009</span>, publicada no DOU de 29.4.2009, produzindo efeitos a partir do 1º dia subsequente ao de sua publicação)
+
+  </p>
+            
+          </Alinea><Alinea id="art52_cpt_inc1_ali2">
+            <!--Link: urn:lex:br:federal:lei:2008-09-17;11774-->
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    (Revogada pela <span xlink:href="urn:lex:br:federal:lei:2008-09-17;11774">Lei nº 11.774, de 17.9.2008</span>)
+
+  </p>
+            
+          </Alinea><Alinea id="art52_cpt_inc1_ali3">
+            <!--Link: urn:lex:br:federal:lei:2009-04-28;11933-->
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    no caso dos demais produtos, até o 25º (vigésimo quinto) dia do mês subsequente ao mês de ocorrência dos fatos geradores, pelas demais pessoas jurídicas, observado o disposto no § 4º deste artigo; (Alínea com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2009-04-28;11933">Lei nº 11.933, de 28.4.2009</span>, produzindo efeitos a partir de 1.10.2008)
+
+  </p>
+            <Item id="art52_cpt_inc1_ali3_ite1">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2008-11-14;447--><!--Link: urn:lex:br:federal:lei:2009-04-28;11933-->
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2008-11-14;447">Medida Provisória nº 447, de 14.11.2008</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2009-04-28;11933">Lei nº 11.933, de 28.4.2009</span>)
+
+  </p>
+            
+          </Item><Item id="art52_cpt_inc1_ali3_ite2">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2008-11-14;447--><!--Link: urn:lex:br:federal:lei:2009-04-28;11933-->
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2008-11-14;447">Medida Provisória nº 447, de 14.11.2008</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2009-04-28;11933">Lei nº 11.933, de 28.4.2009</span>)
+
+  </p>
+            
+          </Item>
+          </Alinea>
+          </Inciso><Inciso id="art52_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Imposto de Renda na Fonte (IRF):
+
+  </p>
+            <Alinea id="art52_cpt_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    até o último dia útil do mês subseqüente ao de ocorrência do fato gerador ou na data da remessa, quando esta for efetuada antes, no caso de lucro de filiais, sucursais, agências ou representações, no País, de pessoas jurídicas com sede no exterior;
+
+  </p>
+            
+          </Alinea><Alinea id="art52_cpt_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    na data da ocorrência do fato gerador, nos casos dos demais rendimentos atribuídos a residentes ou domiciliados no exterior;
+
+  </p>
+            
+          </Alinea><Alinea id="art52_cpt_inc2_ali3">
+            <!--Link: urn:lex:br:federal:decreto.lei:1987-12-21;2397!art1-->
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    até o último dia útil do mês subseqüente ao da distribuição automática dos lucros, no caso de que trata o <span xlink:href="urn:lex:br:federal:decreto.lei:1987-12-21;2397!art1">art. 1° do Decreto-Lei n° 2.397, de 21 de dezembro de 1987</span>;
+
+  </p>
+            
+          </Alinea><Alinea id="art52_cpt_inc2_ali4">
+            <!--Link: urn:lex:br:federal:lei:1994-01-28;8850-->
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    até o terceiro dia útil da quinzena subseqüente à de ocorrência dos fatos geradores, nos demais casos; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1994-01-28;8850">Lei nº 8.850, de 28.1.1994</span>)
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art52_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    imposto sobre operações de crédito, câmbio e seguro e sobre operações relativas a títulos e valores mobiliários - IOF:
+
+  </p>
+            <Alinea id="art52_cpt_inc3_ali1">
+            <!--Link: urn:lex:br:federal:lei:1990-04-12;8033!art1_cpt_inc2--><!--Link: urn:lex:br:federal:lei:1990-04-12;8033!art1_cpt_inc4-->
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    até o terceiro dia útil da quinzena subseqüente à de ocorrência dos fatos geradores, no caso de aquisição de ouro, ativo financeiro, bem assim nos de que tratam os <span xlink:href="urn:lex:br:federal:lei:1990-04-12;8033!art1_cpt_inc2">incisos II</span> a <span xlink:href="urn:lex:br:federal:lei:1990-04-12;8033!art1_cpt_inc4">IV do art. 1° da Lei n° 8.033, de 12 de abril de 1990</span>;
+
+  </p>
+            
+          </Alinea><Alinea id="art52_cpt_inc3_ali2">
+            <!--Link: urn:lex:br:federal:lei:1994-01-28;8850-->
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    até o terceiro dia útil do decêndio subseqüente ao de cobrança ou registro contábil do imposto, nos demais casos; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1994-01-28;8850">Lei nº 8.850, de 28.1.1994</span>)
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art52_cpt_inc4">
+            <!--Link: urn:lex:br:federal:lei.complementar:1991-12-30;70--><!--Link: urn:lex:br:federal:lei:1994-01-28;8850-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    contribuição para financiamento da Seguridade Social - COFINS, instituída pela <span xlink:href="urn:lex:br:federal:lei.complementar:1991-12-30;70">Lei Complementar n° 70, de 30 de dezembro de 1991</span>, e contribuições para o Programa de Integração Social e para o Programa de Formação do Patrimônio do Servidor Público (PIS/PASEP), até o quinto dia útil do mês subseqüente ao de ocorrência dos fatos geradores. (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1994-01-28;8850">Lei nº 8.850, de 28.1.1994</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art52_par1">
+            <!--Link: urn:lex:br:federal:lei:1990-12-27;8134--><!--Link: urn:lex:br:federal:lei:1994-01-28;8850-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O imposto incidente sobre ganhos de capital na alienação de bens ou direitos (<span xlink:href="urn:lex:br:federal:lei:1990-12-27;8134">Lei n° 8.134, de 27 de dezembro de 1990</span>, art. 18) deverá ser pago até o último dia útil do mês subseqüente àquele em que os ganhos houverem sido percebidos. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1994-01-28;8850">Lei nº 8.850, de 28.1.1994</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art52_par2">
+            <!--Link: urn:lex:br:federal:lei:1994-01-28;8850-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O imposto, apurado mensalmente, sobre os ganhos líquidos auferidos em operações realizadas em bolsas de valores, de mercadorias, de futuros e assemelhadas, será pago até o último dia útil do mês subseqüente em que os ganhos houverem sido percebidos. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1994-01-28;8850">Lei nº 8.850, de 28.1.1994</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art52_par3">
+            <!--Link: urn:lex:br:federal:lei:2008-09-17;11774-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O disposto no inciso I do caput deste artigo não se aplica ao IPI incidente no desembaraço aduaneiro dos produtos importados. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2008-09-17;11774">Lei nº 11.774, de 17.9.2008</span>, produzindo efeitos a partir de 1.6.2008, de acordo com o inciso I, art. 22)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art52_par4">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2008-11-14;447--><!--Link: urn:lex:br:federal:lei:2009-04-28;11933-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Se o dia do vencimento de que tratam as alíneas a e c do inciso I do caput deste artigo não for dia útil, considerar-se-á antecipado o prazo para o primeiro dia útil que o anteceder. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2008-11-14;447">Medida Provisória nº 447, de 14.11.2008</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2009-04-28;11933">Lei nº 11.933, de 28.4.2009</span>, produzindo efeitos a partir de 1.10.2008)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art53">
+            
+            
+            <Rotulo>Art. 53.</Rotulo>
+            
+            <Caput id="art53_cpt">
+            
+            
+            
+            <p>
+    Os tributos e contribuições relacionados a seguir serão convertidos em quantidade de UFIR diária pelo valor desta:
+
+  </p>
+            <Inciso id="art53_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    IPI, no último dia do decêndio de ocorrência dos fatos geradores;
+
+  </p>
+            
+          </Inciso><Inciso id="art53_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    IRF, no dia da ocorrência do fato gerador;
+
+  </p>
+            
+          </Inciso><Inciso id="art53_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    IOF;
+
+  </p>
+            <Alinea id="art53_cpt_inc3_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    no último dia da quinzena de ocorrência dos fatos geradores, na hipótese de aquisição de ouro, ativo financeiro;
+
+  </p>
+            
+          </Alinea><Alinea id="art53_cpt_inc3_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    no dia da ocorrência dos fatos geradores, ou da apuração da base de cálculo, nos demais casos;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art53_cpt_inc4">
+            <!--Link: urn:lex:br:federal:lei.complementar:1991;70-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    contribuição para o financiamento da Seguridade Social (COFINS), instituída pela <span xlink:href="urn:lex:br:federal:lei.complementar:1991;70">Lei Complementar n° 70, de 1991</span>, e contribuições para o Programa de Integração Social e para o Programa de Formação do Patrimônio do Servidor Público (PIS/PASEP), no último dia do mês de ocorrência dos fatos geradores;
+
+  </p>
+            
+          </Inciso><Inciso id="art53_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    demais tributos, contribuições e receitas da União, arrecadados pela Secretaria da Receita Federal, não referidos nesta Lei, nas datas dos respectivos vencimentos;
+
+  </p>
+            
+          </Inciso><Inciso id="art53_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    contribuições previdenciárias, no primeiro dia do mês subseqüente ao de competência.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art53_par1u">
+            <!--Link: urn:lex:br:federal:lei:1994-01-28;8850-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O imposto de que tratam os parágrafos do artigo anterior será convertido em quantidade de UFIR pelo valor desta no mês do recebimento ou ganho. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1994-01-28;8850">Lei nº 8.850, de 28.1.1994</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap6">
+            
+            
+            <Rotulo>CAPÍTULO VI</Rotulo>
+            <NomeAgrupador>
+    DA ATUALIZAÇÃO DE DÉBITOS FISCAIS
+
+  </NomeAgrupador>
+            <Artigo id="art54">
+            
+            
+            <Rotulo>Art. 54.</Rotulo>
+            
+            <Caput id="art54_cpt">
+            
+            
+            
+            <p>
+    Os débitos de qualquer natureza para com a Fazenda Nacional e os decorrentes de contribuições arrecadadas pela União, constituídos ou não, vencidos até 31 de dezembro de 1991 e não pagos até 2 de janeiro de 1992, serão atualizados monetariamente com base na legislação aplicável e convertidos, nessa data, em quantidade de UFIR diária.
+
+  </p>
+            
+          </Caput><Paragrafo id="art54_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os juros de mora calculados até 2 de janeiro de 1992 serão, também, convertidos em quantidade de UFIR, na mesma data.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art54_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Sobre a parcela correspondente ao tributo ou contribuição, convertida em quantidade de UFIR, incidirão juros moratórios à razão de um por cento, por mês-calendário ou fração, a partir de fevereiro de 1992, inclusive, além da multa de mora ou de ofício.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art54_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O valor a ser recolhido será obtido multiplicando-se a correspondente quantidade de UFIR pelo valor diário desta na data do pagamento.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art55">
+            
+            
+            <Rotulo>Art. 55.</Rotulo>
+            
+            <Caput id="art55_cpt">
+            
+            
+            
+            <p>
+    Os débitos que forem objeto de parcelamento serão consolidados na data da concessão e expressos em quantidade de UFIR diária.
+
+  </p>
+            
+          </Caput><Paragrafo id="art55_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O valor do débito consolidado, expresso em quantidade de UFIR, será dividido pelo número de parcelas mensais concedidas.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art55_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O valor de cada parcela mensal, por ocasião do pagamento, será acrescido de juros na forma da legislação pertinente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art55_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Para efeito de pagamento, o valor em cruzeiros de cada parcela mensal será determinado mediante a multiplicação de seu valor, expresso em quantidade de UFIR, pelo valor desta no dia do pagamento.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art56">
+            
+            
+            <Rotulo>Art. 56.</Rotulo>
+            
+            <Caput id="art56_cpt">
+            
+            
+            
+            <p>
+    No caso de parcelamento concedido administrativamente até o dia 31 de dezembro de 1991, o saldo devedor, a partir de 1° de janeiro de 1992, será expresso em quantidade de UFIR diária mediante a divisão do débito, atualizado monetariamente, pelo valor da UFIR diária no dia 1° de janeiro de 1992.
+
+  </p>
+            
+          </Caput><Paragrafo id="art56_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O valor em cruzeiros do débito ou da parcela será determinado mediante a multiplicação da respectiva quantidade de UFIR pelo valor diário desta na data do pagamento.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art57">
+            
+            
+            <Rotulo>Art. 57.</Rotulo>
+            
+            <Caput id="art57_cpt">
+            
+            
+            
+            <p>
+    Os débitos de qualquer natureza para com a Fazenda Nacional, bem como os decorrentes de contribuições arrecadadas pela União, poderão, sem prejuízo da respectiva liquidez e certeza, ser inscritos como Dívida Ativa da União, pelo valor expresso em quantidade de UFIR.
+
+  </p>
+            
+          </Caput><Paragrafo id="art57_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os débitos de que trata este artigo, que forem objeto de parcelamento, serão consolidados na data de sua concessão e expressos em quantidade de UFIR.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art57_par2">
+            <!--Link: urn:lex:br:federal:decreto.lei:1969-10-21;1025!art1--><!--Link: urn:lex:br:federal:decreto.lei:1977-08-08;1569!art3--><!--Link: urn:lex:br:federal:decreto.lei:1984-12-11;1645!art3-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O encargo referido no <span xlink:href="urn:lex:br:federal:decreto.lei:1969-10-21;1025!art1">art. 1° do Decreto-Lei n° 1.025, de 21 de outubro de 1969</span>, modificado pelo <span xlink:href="urn:lex:br:federal:decreto.lei:1977-08-08;1569!art3">art. 3° do Decreto-Lei n° 1.569, de 8 de agosto de 1977</span>, e <span xlink:href="urn:lex:br:federal:decreto.lei:1984-12-11;1645!art3">art. 3° do Decreto-Lei n° 1.645, de 11 de dezembro de 1984</span>, será calculado sobre o montante do débito, inclusive multas, atualizado monetariamente e acrescido de juros e multa de mora.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art58">
+            
+            
+            <Rotulo>Art. 58.</Rotulo>
+            
+            <Caput id="art58_cpt">
+            
+            
+            
+            <p>
+    No caso de lançamento de ofício, a base de cálculo, o imposto, as contribuições arrecadadas pela União e os acréscimos legais serão expressos em UFIR diária ou mensal, conforme a legislação de regência do tributo ou contribuição.
+
+  </p>
+            
+          </Caput><Paragrafo id="art58_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Os juros e a multa de lançamento de ofício serão calculados com base no imposto ou contribuição expresso em quantidade de UFIR.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap7">
+            
+            
+            <Rotulo>CAPÍTULO VII</Rotulo>
+            <NomeAgrupador>
+    DAS MULTAS E DOS JUROS DE MORA
+
+  </NomeAgrupador>
+            <Artigo id="art59">
+            
+            
+            <Rotulo>Art. 59.</Rotulo>
+            
+            <Caput id="art59_cpt">
+            
+            
+            
+            <p>
+    Os tributos e contribuições administrados pelo Departamento da Receita Federal, que não forem pagos até a data do vencimento, ficarão sujeitos à multa de mora de vinte por cento e a juros de mora de um por cento ao mês-calendário ou fração, calculados sobre o valor do tributo ou contribuição corrigido monetariamente.
+
+  </p>
+            
+          </Caput><Paragrafo id="art59_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A multa de mora será reduzida a dez por cento, quando o débito for pago até o último dia útil do mês subseqüente ao do vencimento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art59_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A multa incidirá a partir do primeiro dia após o vencimento do débito; os juros, a partir do primeiro dia do mês subseqüente.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art60">
+            
+            
+            <Rotulo>Art. 60.</Rotulo>
+            
+            <Caput id="art60_cpt">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2008-12-03;449--><!--Link: urn:lex:br:federal:lei:2009-05-27;11941-->
+            
+            
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2008-12-03;449">Medida Provisória nº 449, de 3.12.2008</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2009-05-27;11941">Lei nº 11.941, de 27.5.2009</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art61">
+            
+            
+            <Rotulo>Art. 61.</Rotulo>
+            
+            <Caput id="art61_cpt">
+            
+            
+            
+            <p>
+    As contribuições previdenciárias arrecadadas pelo Instituto Nacional de Seguro Social - INSS ficarão sujeitas à multa variável, de caráter não-relevável, nos seguintes percentuais, incidentes sobre os valores atualizados monetariamente até a data do pagamento.
+
+  </p>
+            <Inciso id="art61_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    dez por cento sobre os valores das contribuições em atraso que, até a data do pagamento não tenham sido incluídas em notificação de débito;
+
+  </p>
+            
+          </Inciso><Inciso id="art61_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    vinte por cento sobre os valores pagos dentro de quinze dias contados da data do recebimento da correspondente notificação de débito;
+
+  </p>
+            
+          </Inciso><Inciso id="art61_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    trinta por cento sobre todos os valores pagos mediante parcelamento, desde que requerido no prazo do inciso anterior;
+
+  </p>
+            
+          </Inciso><Inciso id="art61_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    sessenta por cento sobre os valores pagos em quaisquer outros casos, inclusive por falta de cumprimento de acordo para o parcelamento.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art61_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    É facultada a realização de depósito, à disposição da Seguridade Social, sujeito aos mesmos percentuais dos incisos I e II, conforme o caso, para apresentação de defesa.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap8">
+            
+            
+            <Rotulo>CAPÍTULO VIII</Rotulo>
+            <NomeAgrupador>
+    DAS DISPOSIÇÕES FINAIS E TRANSITÓRIAS
+
+  </NomeAgrupador>
+            <Artigo id="art62">
+            
+            
+            <Rotulo>Art. 62.</Rotulo>
+            
+            <Caput id="art62_cpt">
+            <!--Link: urn:lex:br:federal:lei:1991;8218!art11_par2--><!--Link: urn:lex:br:federal:lei:1991;8218!art13--><!--Link: urn:lex:br:federal:lei:1991;8218!art14-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1991;8218!art11_par2">§ 2° do art. 11</span> e <span xlink:href="urn:lex:br:federal:lei:1991;8218!art13">os arts. 13</span> e <span xlink:href="urn:lex:br:federal:lei:1991;8218!art14">14 da Lei n° 8.218, de 1991</span>, passam a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1991;8218" id="art62_cpt_alt1">              
+              <Artigo xlink:href="art11" id="art62_cpt_alt1_art11" abreAspas="s">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput xlink:href="art11_cpt" id="art62_cpt_alt1_art11_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Paragrafo xlink:href="art11_par1" id="art62_cpt_alt1_art11_par1" textoOmitido="s">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            
+            
+          </Paragrafo><Paragrafo xlink:href="art11_par2" id="art62_cpt_alt1_art11_par2" fechaAspas="s">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O Departamento da Receita Federal expedirá os atos necessários para estabelecer a forma e o prazo em que os arquivos e sistemas deverão ser apresentados.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo xlink:href="art13" id="art62_cpt_alt1_art13" abreAspas="s">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput xlink:href="art13_cpt" id="art62_cpt_alt1_art13_cpt" fechaAspas="s">
+            
+            
+            
+            <p>
+    A não-apresentação dos arquivos ou sistemas até o trigésimo dia após o vencimento do prazo estabelecido implicará o arbitramento do lucro da pessoa jurídica, sem prejuízo da aplicação das penalidades previstas no artigo anterior.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo xlink:href="art14" id="art62_cpt_alt1_art14" abreAspas="s">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput xlink:href="art14_cpt" id="art62_cpt_alt1_art14_cpt">
+            
+            
+            
+            <p>
+    A tributação com base no lucro real somente será admitida para as pessoas jurídicas que mantiverem, em boa ordem e segundo as normas contábeis recomendadas, livro ou fichas utilizados para resumir e totalizar, por conta ou subconta, os lançamentos efetuados no Diário (Livro Razão), mantidas as demais exigências e condições previstas na legislação.
+
+  </p>
+            
+          </Caput><Paragrafo xlink:href="art14_par1u" id="art62_cpt_alt1_art14_par1u" fechaAspas="s">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A não-manutenção do livro de que trata este artigo, nas condições determinadas, implicará o arbitramento do lucro da pessoa jurídica.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art63">
+            
+            
+            <Rotulo>Art. 63.</Rotulo>
+            
+            <Caput id="art63_cpt">
+            <!--Link: urn:lex:br:federal:lei:2004-12-21;11033-->
+            
+            
+            <p>
+    (Revogado a partir de 1.1.2005, pela <span xlink:href="urn:lex:br:federal:lei:2004-12-21;11033">Lei nº 11.033, de 21.12.2004</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art64">
+            
+            
+            <Rotulo>Art. 64.</Rotulo>
+            
+            <Caput id="art64_cpt">
+            
+            
+            
+            <p>
+    Responderão como co-autores de crime de falsidade o gerente e o administrador de instituição financeira ou assemelhadas que concorrerem para que seja aberta conta ou movimentados recursos sob nome:
+
+  </p>
+            <Inciso id="art64_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    falso;
+
+  </p>
+            
+          </Inciso><Inciso id="art64_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    de pessoa física ou de pessoa jurídica inexistente;
+
+  </p>
+            
+          </Inciso><Inciso id="art64_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    de pessoa jurídica liquidada de fato ou sem representação regular.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art64_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    É facultado às instituições financeiras e às assemelhadas, solicitar ao Departamento da Receita Federal a confirmação do número de inscrição no Cadastro de Pessoas Físicas ou no Cadastro Geral de Contribuintes.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art65">
+            
+            
+            <Rotulo>Art. 65.</Rotulo>
+            
+            <Caput id="art65_cpt">
+            
+            
+            
+            <p>
+    Terá o tratamento de permuta a entrega, pelo licitante vencedor, de títulos da dívida pública federal ou de outros créditos contra a União, como contrapartida à aquisição das ações ou quotas leiloadas no âmbito do Programa Nacional de Desestatização.
+
+  </p>
+            
+          </Caput><Paragrafo id="art65_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Na hipótese de adquirente pessoa física, deverá ser considerado como custo de aquisição das ações ou quotas da empresa privatizável o custo de aquisição dos direitos contra a União, corrigido monetariamente até a data da permuta.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art65_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Na hipótese de pessoa jurídica não tributada com base no lucro real, o custo de aquisição será apurado na forma do parágrafo anterior.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art65_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    No caso de pessoa jurídica tributada com base no lucro real, o custo de aquisição das ações ou quotas leiloadas será igual ao valor contábil dos títulos ou créditos entregues pelo adquirente na data da operação.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art65_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Quando se configurar, na aquisição, investimento relevante em coligada ou controlada, avaliável pelo valor do patrimônio líquido, a adquirente deverá registrar o valor da equivalência no patrimônio adquirido, em conta própria de investimentos, e o valor do ágio ou deságio na aquisição em subconta do mesmo investimento, que deverá ser computado na determinação do lucro real do mês de realização do investimento, a qualquer título.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art66">
+            
+            
+            <Rotulo>Art. 66.</Rotulo>
+            
+            <Caput id="art66_cpt">
+            <!--Link: urn:lex:br:federal:lei:1995-12-26;9250!art39-->
+            
+            
+            <p>
+    Nos casos de pagamento indevido ou a maior de tributos, contribuições federais, inclusive previdenciárias, e receitas patrimoniais, mesmo quando resultante de reforma, anulação, revogação ou rescisão de decisão condenatória, o contribuinte poderá efetuar a compensação desse valor no recolhimento de importância correspondente a período subseqüente. (Vide <span xlink:href="urn:lex:br:federal:lei:1995-12-26;9250!art39">art. 39 da Lei nº 9.250, de 26.12.1995</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art66_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A compensação só poderá ser efetuada entre tributos, contribuições e receitas da mesma espécie.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art66_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    É facultado ao contribuinte optar pelo pedido de restituição.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art66_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A compensação ou restituição será efetuada pelo valor do tributo ou contribuição ou receita corrigido monetariamente com base na variação da UFIR.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art66_par4">
+            <!--Link: urn:lex:br:federal:lei:1995-06-29;9069-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    As Secretarias da Receita Federal e do Patrimônio da União e o Instituto Nacional do Seguro Social - INSS expedirão as instruções necessárias ao cumprimento do disposto neste artigo. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1995-06-29;9069">Lei nº 9.069, de 29.6.1995</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art67">
+            
+            
+            <Rotulo>Art. 67.</Rotulo>
+            
+            <Caput id="art67_cpt">
+            <!--Link: urn:lex:br:federal:lei:1990-04-12;8022!art1-->
+            
+            
+            <p>
+    A competência de que trata o <span xlink:href="urn:lex:br:federal:lei:1990-04-12;8022!art1">art. 1° da Lei n° 8.022, de 12 de abril de 1990</span>, relativa à apuração, inscrição e cobrança da Dívida Ativa oriunda das receitas arrecadadas pelo Instituto Nacional de Colonização e Reforma Agrária - INCRA, bem como a representação judicial nas respectivas execuções fiscais, cabe à Procuradoria-Geral da Fazenda Nacional.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art68">
+            
+            
+            <Rotulo>Art. 68.</Rotulo>
+            
+            <Caput id="art68_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1985-01-10;2225-->
+            
+            
+            <p>
+    O Anexo I do <span xlink:href="urn:lex:br:federal:decreto.lei:1985-01-10;2225">Decreto-Lei n° 2.225, de 10 de janeiro de 1985</span>, passa a vigorar na forma do Anexo I a esta Lei.
+
+  </p>
+            
+          </Caput><Paragrafo id="art68_par1u">
+            <!--Link: urn:lex:br:federal:decreto.lei:1984-12-26;2192-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Fica igualmente aprovado o Anexo II a esta Lei, que altera a composição prevista no <span xlink:href="urn:lex:br:federal:decreto.lei:1984-12-26;2192">Decreto-Lei n° 2.192, de 26 de dezembro de 1984</span>.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art69">
+            
+            
+            <Rotulo>Art. 69.</Rotulo>
+            
+            <Caput id="art69_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1975-12-17;1437-->
+            
+            
+            <p>
+    O produto da arrecadação de multas, inclusive as que fazem parte do valor pago por execução da Dívida Ativa e de sua respectiva correção monetária, incidentes sobre tributos e contribuições administrados pelo Departamento da Receita Federal e próprios da União, bem como daquelas aplicadas à rede arrecadadora de receitas federais, constituirá receita do Fundo instituído pelo <span xlink:href="urn:lex:br:federal:decreto.lei:1975-12-17;1437">Decreto-Lei n° 1.437, de 17 de dezembro de 1975</span>, sem prejuízo do disposto na legislação pertinente, excluídas as transferências constitucionais para os Estados, o Distrito Federal e os Municípios.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art70">
+            
+            
+            <Rotulo>Art. 70.</Rotulo>
+            
+            <Caput id="art70_cpt">
+            
+            
+            
+            <p>
+    Ficam isentas dos tributos incidentes sobre a importação as mercadorias destinadas a consumo no recinto de congressos, feiras e exposições internacionais, e eventos assemelhados, a título de promoção ou degustação, de montagem ou conservação de estandes, ou de demonstração de equipamentos em exposição.
+
+  </p>
+            
+          </Caput><Paragrafo id="art70_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A isenção não se aplica a mercadorias destinadas à montagem de estandes, susceptíveis de serem aproveitadas após o evento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art70_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    É condição para gozo da isenção que nenhum pagamento, a qualquer título, seja efetuado ao exterior, em relação às mercadorias mencionadas no caput deste artigo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art70_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A importação das mercadorias objeto da isenção fica dispensada da Guia de Importação, mas sujeita-se a limites de quantidade e valor, além de outros requisitos, estabelecidos pelo Ministro da Economia, Fazenda e Planejamento.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art71">
+            
+            
+            <Rotulo>Art. 71.</Rotulo>
+            
+            <Caput id="art71_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1987-12-21;2397!art1-->
+            
+            
+            <p>
+    As pessoas jurídicas de que trata o <span xlink:href="urn:lex:br:federal:decreto.lei:1987-12-21;2397!art1">art. 1° do Decreto-Lei n° 2.397, de 21 de dezembro de 1987</span>, que preencham os requisitos dos incisos I e II do art. 40, poderão optar pela tributação com base no lucro presumido.
+
+  </p>
+            
+          </Caput><Paragrafo id="art71_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Em caso de opção, a pessoa jurídica pagará o imposto correspondente ao ano-calendário de 1992, obedecendo ao disposto no art. 40, sem prejuízo do pagamento do imposto devido por seus sócios no exercício de 1992, ano-base de 1991.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art72">
+            
+            
+            <Rotulo>Art. 72.</Rotulo>
+            
+            <Caput id="art72_cpt">
+            <!--Link: urn:lex:br:federal:lei:2018-12-10;13755-->
+            
+            
+            <p>
+    Ficam isentas do IOF as operações de financiamento para a aquisição de automóveis de passageiros fabricados no território nacional de até 127 HP (cento e vinte e sete horse-power) de potência bruta, segundo a classificação normativa da Society of Automotive Engineers (SAE), e os veículos híbridos e elétricos, quando adquiridos por: (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2018-12-10;13755">Lei nº 13.755, de 10.12.2018</span>, vetado pelo Presidente da República, mantido pelo Congresso Nacional e publicado no DOU de 21.6.2019)
+
+  </p>
+            <Inciso id="art72_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    motoristas profissionais que, na data da publicação desta Lei, exerçam comprovadamente em veículo de sua propriedade a atividade de condutor autônomo de passageiros, na condição de titular de autorização, permissão ou concessão do poder concedente e que destinem o automóvel à utilização na categoria de aluguel (táxi);
+
+  </p>
+            
+          </Inciso><Inciso id="art72_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    motoristas profissionais autônomos titulares de autorização, permissão ou concessão para exploração do serviço de transporte individual de passageiros (táxi), impedidos de continuar exercendo essa atividade em virtude de destruição completa, furto ou roubo do veículo, desde que destinem o veículo adquirido à utilização na categoria de aluguel (táxi);
+
+  </p>
+            
+          </Inciso><Inciso id="art72_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    cooperativas de trabalho que sejam permissionárias ou concessionárias de transporte público de passageiros, na categoria de aluguel (táxi), desde que tais veículos se destinem à utilização nessa atividade;
+
+  </p>
+            
+          </Inciso><Inciso id="art72_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    pessoas portadoras de deficiência física, atestada pelo Departamento de Trânsito do Estado onde residirem em caráter permanente, cujo laudo de perícia médica especifique;
+
+  </p>
+            <Alinea id="art72_cpt_inc4_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    o tipo de defeito físico e a total incapacidade do requerente para dirigir automóveis convencionais;
+
+  </p>
+            
+          </Alinea><Alinea id="art72_cpt_inc4_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    a habilitação do requerente para dirigir veículo com adaptações especiais, descritas no referido laudo;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art72_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    trabalhador desempregado ou subempregado, titular de financiamento do denominado Projeto Balcão de Ferramentas, destinado à aquisição de maquinário, equipamentos e ferramentas que possibilitem a aquisição de bens e a prestação de serviços à comunidade.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art72_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O benefício previsto neste artigo:
+
+  </p>
+            <Alinea id="art72_par1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    poderá ser utilizado uma única vez;
+
+  </p>
+            
+          </Alinea><Alinea id="art72_par1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    será reconhecido pelo Departamento da Receita Federal mediante prévia verificação de que o adquirente possui os requisitos.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo><Paragrafo id="art72_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Na hipótese do inciso V, o reconhecimento ficará adstrito aos tomadores residentes na área de atuação do Projeto, os quais serão indicados pelos Governos Estaduais, mediante convênio celebrado com a Caixa Econômica Federal.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art72_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A alienação do veículo antes de três anos contados da data de sua aquisição, a pessoas que não satisfaçam as condições e os requisitos, acarretará o pagamento, pelo alienante, da importância correspondente à diferença da alíquota aplicável à operação e a de que trata este artigo, calculada sobre o valor do financiamento, sem prejuízo da incidência dos demais encargos previstos na legislação tributária.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art73">
+            
+            
+            <Rotulo>Art. 73.</Rotulo>
+            
+            <Caput id="art73_cpt">
+            <!--Link: urn:lex:br:federal:lei:1990-04-12;8033!art2-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1990-04-12;8033!art2">art. 2° da Lei n° 8.033, de 12 de abril de 1990</span>, passa a vigorar com os seguintes acréscimos:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1990-04-12;8033" id="art73_cpt_alt1">              
+              <Artigo xlink:href="art2" id="art73_cpt_alt1_art2" abreAspas="s">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput xlink:href="art2_cpt" id="art73_cpt_alt1_art2_cpt" textoOmitido="s">
+            
+            
+            
+            
+            <Inciso xlink:href="art2_cpt_inc7" id="art73_cpt_alt1_art2_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    não incidirá relativamente a ações nas seguintes hipóteses:
+
+  </p>
+            <Alinea xlink:href="art2_cpt_inc7_ali1" id="art73_cpt_alt1_art2_cpt_inc7_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    transmissão causa mortis e adiantamento da legítima;
+
+  </p>
+            
+          </Alinea><Alinea xlink:href="art2_cpt_inc7_ali2" id="art73_cpt_alt1_art2_cpt_inc7_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    sucessão decorrente de fusão, cisão ou incorporação;
+
+  </p>
+            
+          </Alinea><Alinea xlink:href="art2_cpt_inc7_ali3" id="art73_cpt_alt1_art2_cpt_inc7_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    transferência das ações para sociedade controlada.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput><Omissis id="art73_cpt_alt1_art2_omi1"/><Paragrafo xlink:href="art2_par4" id="art73_cpt_alt1_art2_par4" fechaAspas="s">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Nas hipóteses do inciso VII, o imposto incidirá na ulterior transmissão das ações pelos herdeiros, legatários, donatários, sucessores e cessionários.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art74">
+            
+            
+            <Rotulo>Art. 74.</Rotulo>
+            
+            <Caput id="art74_cpt">
+            
+            
+            
+            <p>
+    Integração a remuneração dos beneficiários:
+
+  </p>
+            <Inciso id="art74_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a contraprestação de arrendamento mercantil ou o aluguel ou, quando for o caso, os respectivos encargos de depreciação, atualizados monetariamente até a data do balanço:
+
+  </p>
+            <Alinea id="art74_cpt_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    de veículo utilizado no transporte de administradores, diretores, gerentes e seus assessores ou de terceiros em relação à pessoa jurídica;
+
+  </p>
+            
+          </Alinea><Alinea id="art74_cpt_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    de imóvel cedido para uso de qualquer pessoa dentre as referidas na alínea precedente;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art74_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    as despesas com benefícios e vantagens concedidos pela empresa a administradores, diretores, gerentes e seus assessores, pagos diretamente ou através da contratação de terceiros, tais como:
+
+  </p>
+            <Alinea id="art74_cpt_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    a aquisição de alimentos ou quaisquer outros bens para utilização pelo beneficiário fora do estabelecimento da empresa;
+
+  </p>
+            
+          </Alinea><Alinea id="art74_cpt_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    os pagamentos relativos a clubes e assemelhados;
+
+  </p>
+            
+          </Alinea><Alinea id="art74_cpt_inc2_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    o salário e respectivos encargos sociais de empregados postos à disposição ou cedidos, pela empresa, a administradores, diretores, gerentes e seus assessores ou de terceiros;
+
+  </p>
+            
+          </Alinea><Alinea id="art74_cpt_inc2_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    a conservação, o custeio e a manutenção dos bens referidos no item I.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput><Paragrafo id="art74_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A empresa identificará os beneficiários das despesas e adicionará aos respectivos salários os valores a elas correspondentes
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art74_par2">
+            <!--Link: urn:lex:br:federal:lei:1995-01-20;8981!art61-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A inobservância do disposto neste artigo implicará a tributação dos respectivos valores, exclusivamente na fonte, à alíquota de trinta e três por cento. (Vide <span xlink:href="urn:lex:br:federal:lei:1995-01-20;8981!art61">art. 61 da Lei nº 8.981, de 20.1.1995</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art75">
+            
+            
+            <Rotulo>Art. 75.</Rotulo>
+            
+            <Caput id="art75_cpt">
+            <!--Link: urn:lex:br:federal:lei:1988;7713!art35-->
+            
+            
+            <p>
+    Sobre os lucros apurados a partir de 1° de janeiro de 1993 não incidirá o imposto de renda na fonte sobre o lucro líquido, de que trata o <span xlink:href="urn:lex:br:federal:lei:1988;7713!art35">art. 35 da Lei n° 7.713, de 1988</span>, permanecendo em vigor a não-incidência do imposto sobre o que for distribuído a pessoas físicas ou jurídicas, residentes ou domiciliadas no País.
+
+  </p>
+            
+          </Caput><Paragrafo id="art75_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    (Vetado)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art76">
+            
+            
+            <Rotulo>Art. 76.</Rotulo>
+            
+            <Caput id="art76_cpt">
+            <!--Link: urn:lex:br:federal:lei:1962-09-03;4131!art43--><!--Link: urn:lex:br:federal:decreto.lei:1983-06-20;2073!art1-->
+            
+            
+            <p>
+    Não mais será exigido o imposto suplementar de renda de que trata o <span xlink:href="urn:lex:br:federal:lei:1962-09-03;4131!art43">art. 43 da Lei n° 4.131, de 3 de setembro de 1962</span>, com a redação dada pelo <span xlink:href="urn:lex:br:federal:decreto.lei:1983-06-20;2073!art1">art. 1° do Decreto-Lei n° 2.073 de 20 de junho de 1983</span>, relativamente aos triênios encerrados posteriormente a 31 de dezembro de 1991.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art77">
+            
+            
+            <Rotulo>Art. 77.</Rotulo>
+            
+            <Caput id="art77_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1943-09-23;5844!art97-->
+            
+            
+            <p>
+    A partir de 1° de janeiro de 1993, a alíquota do imposto de renda incidente na fonte sobre lucros e dividendos de que trata o <span xlink:href="urn:lex:br:federal:decreto.lei:1943-09-23;5844!art97">art. 97 do Decreto-Lei n° 5.844, de 23 de setembro de 1943</span>, com as modificações posteriormente introduzidas, passará a ser de quinze por cento.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art78">
+            
+            
+            <Rotulo>Art. 78.</Rotulo>
+            
+            <Caput id="art78_cpt">
+            <!--Link: urn:lex:br:federal:lei:1990;8134-->
+            
+            
+            <p>
+    Relativamente ao exercício financeiro de 1992, ano-base de 1991, o saldo do imposto a pagar ou o valor a ser restituído, apurado pelas pessoas físicas de acordo com a <span xlink:href="urn:lex:br:federal:lei:1990;8134">Lei n° 8.134, de 1990</span>, será convertido em quantidade de UFIR pelo valor desta no mês de janeiro de 1992.
+
+  </p>
+            
+          </Caput><Paragrafo id="art78_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O saldo do imposto devido será pago nos prazos e condições fixados na legislação vigente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art78_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os valores em cruzeiros do imposto ou de quota deste, bem assim o do saldo a ser restituído, serão determinados mediante a multiplicação de seu valor, expresso em quantidade de UFIR, pelo valor desta no mês de pagamento.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art79">
+            
+            
+            <Rotulo>Art. 79.</Rotulo>
+            
+            <Caput id="art79_cpt">
+            <!--Link: urn:lex:br:federal:lei:1988;7689--><!--Link: urn:lex:br:federal:lei:1988;7713-->
+            
+            
+            <p>
+    O valor do imposto de renda incidente sobre o lucro real, presumido ou arbitrado, da contribuição social sobre o lucro (<span xlink:href="urn:lex:br:federal:lei:1988;7689">Lei n° 7.689, de 1988</span>) e do imposto sobre o lucro líquido (<span xlink:href="urn:lex:br:federal:lei:1988;7713">Lei n° 7.713, de 1988</span>, art. 35), relativos ao exercício financeiro de 1992, período-base de 1991, será convertido em quantidade de UFIR diária, segundo o valor desta no dia 1° de janeiro de 1992.
+
+  </p>
+            
+          </Caput><Paragrafo id="art79_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Os impostos e a contribuição social, bem como cada duodécimo ou quota destes, serão reconvertidos em cruzeiros mediante a multiplicação da quantidade de UFIR diária pelo valor dela na data do pagamento.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art80">
+            
+            
+            <Rotulo>Art. 80.</Rotulo>
+            
+            <Caput id="art80_cpt">
+            
+            
+            
+            <p>
+    Fica autorizada a compensação do valor pago ou recolhido a título de encargo relativo à Taxa Referencial Diária - TRD acumulada entre a data da ocorrência do fato gerador e a do vencimento dos tributos e contribuições federais, inclusive previdenciárias, pagos ou recolhidos a partir de 4 de fevereiro de 1991.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art81">
+            
+            
+            <Rotulo>Art. 81.</Rotulo>
+            
+            <Caput id="art81_cpt">
+            
+            
+            
+            <p>
+    A compensação dos valores de que trata o artigo precedente, pagos pelas pessoas jurídicas, dar-se-á na forma a seguir:
+
+  </p>
+            <Inciso id="art81_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:1988;7713-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    os valores referentes à TRD pagos em relação a parcelas do imposto de renda das pessoas jurídicas, imposto de renda na fonte sobre o lucro líquido (<span xlink:href="urn:lex:br:federal:lei:1988;7713">Lei n° 7.713, de 1988</span>, art. 35), bem como correspondentes a recolhimento do imposto de renda retido na fonte sobre rendimentos de qualquer espécie poderão ser compensados com impostos da mesma espécie ou entre si, dentre os referidos neste inciso, inclusive com os valores a recolher a título de parcela estimada do imposto de renda;
+
+  </p>
+            
+          </Inciso><Inciso id="art81_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:1988;7689-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    os valores referentes à TRD pagos em relação às parcelas da contribuição social sobre o lucro (<span xlink:href="urn:lex:br:federal:lei:1988;7689">Lei n° 7.689, de 1988</span>), do Finsocial e do PIS/PASEP, somente poderão ser compensados com as parcelas a pagar de contribuições da mesma espécie;
+
+  </p>
+            
+          </Inciso><Inciso id="art81_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    os valores referentes à TRD recolhidos em relação a parcelas do Imposto sobre Produtos Industrializados - IPI e os pagos em relação às parcelas dos demais tributos ou contribuições somente poderão ser compensados com parcelas de tributos e contribuições da mesma espécie.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art82">
+            
+            
+            <Rotulo>Art. 82.</Rotulo>
+            
+            <Caput id="art82_cpt">
+            
+            
+            
+            <p>
+    Fica a pessoa autorizada a compensar os valores referentes à TRD, pagos sobre as parcelas de imposto de renda por ela devidas, relacionadas a seguir:
+
+  </p>
+            <Inciso id="art82_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    quotas do imposto de renda das pessoas físicas;
+
+  </p>
+            
+          </Inciso><Inciso id="art82_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    parcelas devidas a título de carnê-leão;
+
+  </p>
+            
+          </Inciso><Inciso id="art82_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    imposto de renda sobre ganho de capital na alienação de bens móveis ou imóveis;
+
+  </p>
+            
+          </Inciso><Inciso id="art82_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    imposto de renda sobre ganhos líquidos apurados no mercado de renda variável.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art83">
+            
+            
+            <Rotulo>Art. 83.</Rotulo>
+            
+            <Caput id="art83_cpt">
+            
+            
+            
+            <p>
+    Na impossibilidade da compensação total ou parcial dos valores referentes à TRD, o saldo não compensado terá o tratamento de crédito de imposto de renda, que poderá ser compensado com o imposto apurado na declaração de ajuste anual da pessoa jurídica ou física, a ser apresentada a partir do exercício financeiro de 1992.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art84">
+            
+            
+            <Rotulo>Art. 84.</Rotulo>
+            
+            <Caput id="art84_cpt">
+            
+            
+            
+            <p>
+    Alternativamente ao procedimento autorizado no artigo anterior, o contribuinte poderá pleitear a restituição do valor referente à TRD mediante processo regular apresentado na repartição do Departamento da Receita Federal do seu domicílio fiscal, observando as exigências de comprovação do valor a ser restituído.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art85">
+            
+            
+            <Rotulo>Art. 85.</Rotulo>
+            
+            <Caput id="art85_cpt">
+            
+            
+            
+            <p>
+    Ficam convalidados os procedimentos de compensação de valores referentes à TRD pagos ou recolhidos e efetuados antes da vigência desta lei, desde que tenham sido observadas as normas e condições da mesma.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art86">
+            
+            
+            <Rotulo>Art. 86.</Rotulo>
+            
+            <Caput id="art86_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1987-08-24;2354!art3-->
+            
+            
+            <p>
+    As pessoas jurídicas de que trata o <span xlink:href="urn:lex:br:federal:decreto.lei:1987-08-24;2354!art3">art. 3° do Decreto-Lei n° 2.354, de 24 de agosto de 1987</span>, deverão pagar o imposto de renda relativo ao período-base encerrado em 31 de dezembro de 1991 e o relativo aos meses dos anos-calendário de 1992 e 1993, da seguinte forma:
+
+  </p>
+            <Inciso id="art86_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o do período-base encerrado em 31 de dezembro de 1991:
+
+  </p>
+            <Alinea id="art86_cpt_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    nos meses de janeiro a março, em duodécimos mensais, na forma do referido decreto-lei;
+
+  </p>
+            
+          </Alinea><Alinea id="art86_cpt_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    nos meses de abril a junho, em quotas mensais, iguais e sucessivas, vencendo-se cada uma no último dia útil dos mesmos meses;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art86_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o dos meses do ano-calendário de 1992, em nove parcelas mensais e sucessivas, vencíveis, cada uma, no último dia útil a partir do mês de julho, observado o seguinte:
+
+  </p>
+            <Alinea id="art86_cpt_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    em julho de 1992, o referente aos meses de janeiro e fevereiro;
+
+  </p>
+            
+          </Alinea><Alinea id="art86_cpt_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    em agosto de 1992, o referente aos meses de março e abril;
+
+  </p>
+            
+          </Alinea><Alinea id="art86_cpt_inc2_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    em setembro de 1992, o referente aos meses de maio e junho;
+
+  </p>
+            
+          </Alinea><Alinea id="art86_cpt_inc2_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    em outubro de 1992, o referente ao mês de julho;
+
+  </p>
+            
+          </Alinea><Alinea id="art86_cpt_inc2_ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    em novembro de 1992, o referente ao mês de agosto;
+
+  </p>
+            
+          </Alinea><Alinea id="art86_cpt_inc2_ali6">
+            
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    em dezembro de 1992, o referente ao mês de setembro;
+
+  </p>
+            
+          </Alinea><Alinea id="art86_cpt_inc2_ali7">
+            
+            
+            <Rotulo>g)</Rotulo>
+            <p>
+    em janeiro de 1993, o referente ao mês de outubro;
+
+  </p>
+            
+          </Alinea><Alinea id="art86_cpt_inc2_ali8">
+            
+            
+            <Rotulo>h)</Rotulo>
+            <p>
+    em fevereiro de 1993, o referente ao mês de novembro; e,
+
+  </p>
+            
+          </Alinea><Alinea id="art86_cpt_inc2_ali9">
+            
+            
+            <Rotulo>i)</Rotulo>
+            <p>
+    em março de 1993, o referente ao mês de dezembro.
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art86_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:1992-12-23;8541-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:1992-12-23;8541">Lei nº 8.541, de 23.12.1992</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art86_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Ressalvado o disposto no § 2°, as pessoas jurídicas de que trata este artigo poderão optar pelo pagamento do imposto correspondente aos meses do ano-calendário de 1992, calculado por estimativa, da seguinte forma:
+
+  </p>
+            <Alinea id="art86_par1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    nos meses de julho, agosto e setembro de 1992, no último dia útil de cada um, dois duodécimos do imposto e adicional apurados no balanço anual levantado em 31 de dezembro de 1991;
+
+  </p>
+            
+          </Alinea><Alinea id="art86_par1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    nos meses de outubro de 1992 a março de 1993, no último dia útil de cada um, um sexto do imposto e adicional apurados em balanço ou balancete semestral levantado em 30 de junho de 1992.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo><Paragrafo id="art86_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    No ano-calendário de 1992, não poderá optar pelo pagamento do imposto calculado por estimativa a pessoa jurídica que, no exercício de 1992, período-base de 1991, apresentou prejuízo fiscal.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art86_par3">
+            <!--Link: urn:lex:br:federal:lei:1992-12-23;8541-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:1992-12-23;8541">Lei nº 8.541, de 23.12.1992</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art86_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    As pessoas jurídicas que exercerem a opção prevista nos parágrafos anteriores deverão observar o disposto nos §§ 4° e 5° do art. 39.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art86_par5">
+            <!--Link: urn:lex:br:federal:lei:1988;7689--><!--Link: urn:lex:br:federal:lei:1988;7713-->
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    As disposições deste artigo aplicam-se também ao pagamento da contribuição social sobre o lucro (<span xlink:href="urn:lex:br:federal:lei:1988;7689">Lei n° 7.689, de 1988</span>) e do imposto de renda incidente na fonte sobre o lucro líquido (<span xlink:href="urn:lex:br:federal:lei:1988;7713">Lei n° 7.713, de 1988</span>, art. 35), correspondente ao período-base encerrado em 31 de dezembro de 1991 e ao ano-calendário de 1992;
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art86_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    O imposto de renda e a contribuição social serão convertidos em quantidade de UFIR diária pelo valor desta no último dia do mês a que corresponderem.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art86_par7">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    É facultado à pessoa jurídica pagar antecipadamente o imposto, duodécimo ou quota.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art86_par8">
+            <!--Link: urn:lex:br:federal:lei:1992-12-23;8541-->
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:1992-12-23;8541">Lei nº 8.541, de 23.12.1992</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art87">
+            
+            
+            <Rotulo>Art. 87.</Rotulo>
+            
+            <Caput id="art87_cpt">
+            
+            
+            
+            <p>
+    As pessoas jurídicas tributadas com base no lucro real, não submetidas ao disposto no artigo anterior, deverão pagar o imposto de renda relativo ao período-base encerrado em 31 de dezembro de 1991 e o relativo aos meses dos anos-calendário de 1992 e 1993, da seguinte forma:
+
+  </p>
+            <Inciso id="art87_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o do período-base encerrado em 31 de dezembro de 1991, em seis quotas mensais, iguais e sucessivas, vencíveis no último dia útil dos meses de abril a setembro de 1992;
+
+  </p>
+            
+          </Inciso><Inciso id="art87_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o dos meses do ano-calendário de 1992, em seis quotas mensais e sucessivas, vencíveis no último dia útil, a partir do mês de outubro de 1992, observado o seguinte:
+
+  </p>
+            <Alinea id="art87_cpt_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    em outubro de 1992, o imposto referente aos meses de janeiro e fevereiro;
+
+  </p>
+            
+          </Alinea><Alinea id="art87_cpt_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    em novembro de 1992, o imposto referente aos meses de março e abril;
+
+  </p>
+            
+          </Alinea><Alinea id="art87_cpt_inc2_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    em dezembro de 1992, o imposto referente aos meses de maio e junho;
+
+  </p>
+            
+          </Alinea><Alinea id="art87_cpt_inc2_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    em janeiro de 1993, o imposto referente aos meses de julho e agosto;
+
+  </p>
+            
+          </Alinea><Alinea id="art87_cpt_inc2_ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    em fevereiro de 1993, o imposto referente aos meses de setembro e outubro;
+
+  </p>
+            
+          </Alinea><Alinea id="art87_cpt_inc2_ali6">
+            
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    em março de 1993, o imposto referente aos meses de novembro e dezembro;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art87_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:1992-12-23;8541-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:1992-12-23;8541">Lei nº 8.541, de 23.12.1992</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art87_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As pessoas jurídicas de que trata este artigo poderão optar pelo pagamento do imposto correspondente aos meses dos anos-calendário de 1992 e 1993, calculado por estimativa, da seguinte forma:
+
+  </p>
+            <Inciso id="art87_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o relativo ao ano-calendário de 1992, nos meses de outubro de 1992 a março de 1993, no último dia útil de cada um, dois sextos do imposto e adicional apurados em balanço ou balancete semestral levantado em 30 de junho de 1992;
+
+  </p>
+            
+          </Inciso><Inciso id="art87_par1_inc2">
+            <!--Link: urn:lex:br:federal:lei:1992-12-23;8541-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:1992-12-23;8541">Lei nº 8.541, de 23.12.1992</span>)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art87_par2">
+            <!--Link: urn:lex:br:federal:lei:1988;7689--><!--Link: urn:lex:br:federal:lei:1988;7713-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As disposições deste artigo aplicam-se também ao pagamento da contribuição social sobre o lucro (<span xlink:href="urn:lex:br:federal:lei:1988;7689">Lei n° 7.689, de 1988</span>), correspondente ao período-base encerrado em 31 de dezembro de 1991 e aos anos-calendário de 1992 e 1993, estendendo-se o mesmo regime ao imposto sobre o lucro líquido (<span xlink:href="urn:lex:br:federal:lei:1988;7713">Lei n° 7.713, de 1988</span>, art. 35), enquanto este vigorar.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art87_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O imposto de renda e a contribuição social serão convertidos em quantidade de UFIR diária pelo valor desta no último dia do mês a que corresponder.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art87_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    É facultado à pessoa jurídica pagar antecipadamente o imposto, duodécimo ou quota.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art87_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    A partir do mês de fevereiro de 1994, as pessoas jurídicas de que trata este artigo iniciarão o pagamento do imposto referente aos meses do ano em curso.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art88">
+            
+            
+            <Rotulo>Art. 88.</Rotulo>
+            
+            <Caput id="art88_cpt">
+            <!--Link: urn:lex:br:federal:lei:1992-12-23;8541-->
+            
+            
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:1992-12-23;8541">Lei nº 8.541, de 23.12.1992</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art89">
+            
+            
+            <Rotulo>Art. 89.</Rotulo>
+            
+            <Caput id="art89_cpt">
+            <!--Link: urn:lex:br:federal:lei:1988;7689-->
+            
+            
+            <p>
+    As empresas que optarem pela tributação com base no lucro presumido deverão pagar o imposto de renda da pessoa jurídica e a contribuição social sobre o lucro (<span xlink:href="urn:lex:br:federal:lei:1988;7689">Lei n° 7.689, de 1988</span>):
+
+  </p>
+            <Inciso id="art89_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    relativos ao período-base de 1991, nos prazos fixados na legislação em vigor, sem as modificações introduzidas por esta Lei;
+
+  </p>
+            
+          </Inciso><Inciso id="art89_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a partir do ano-calendário de 1992, segundo o disposto no art. 40.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art90">
+            
+            
+            <Rotulo>Art. 90.</Rotulo>
+            
+            <Caput id="art90_cpt">
+            
+            
+            
+            <p>
+    A pessoa jurídica que, no ano-calendário de 1991, tiver auferido receita bruta total igual ou inferior a um bilhão de cruzeiros poderá optar pela tributação com base no lucro presumido no ano-calendário de 1992.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art91">
+            
+            
+            <Rotulo>Art. 91.</Rotulo>
+            
+            <Caput id="art91_cpt">
+            
+            
+            
+            <p>
+    As parcelas de antecipação do imposto de renda e da contribuição social sobre o lucro, relativas ao exercício financeiro de 1992, pagas no ano de 1991, serão corrigidas monetariamente com base na variação acumulada no INPC desde o mês do pagamento até dezembro de 1991.
+
+  </p>
+            
+          </Caput><Paragrafo id="art91_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A contrapartida do registro da correção monetária referida neste artigo será escriturada como variação monetária ativa, na data do balanço.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art92">
+            
+            
+            <Rotulo>Art. 92.</Rotulo>
+            
+            <Caput id="art92_cpt">
+            <!--Link: urn:lex:br:federal:lei:1996-12-27;9430-->
+            
+            
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:1996-12-27;9430">Lei nº 9.430, de 27.12.1996</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art93">
+            
+            
+            <Rotulo>Art. 93.</Rotulo>
+            
+            <Caput id="art93_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1980-09-03;1804!art1--><!--Link: urn:lex:br:federal:decreto.lei:1980-09-03;1804!art2-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:decreto.lei:1980-09-03;1804!art1">art. 1°</span> e o <span xlink:href="urn:lex:br:federal:decreto.lei:1980-09-03;1804!art2">art. 2° do Decreto-Lei n° 1.804, de 3 de setembro de 1980</span>, passam a vigorar com as seguintes modificações:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:decreto.lei:1980-09-03;1804" id="art93_cpt_alt1">              
+              <Artigo xlink:href="art1" id="art93_cpt_alt1_art1" abreAspas="s">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput xlink:href="art1_cpt" id="art93_cpt_alt1_art1_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Omissis id="art93_cpt_alt1_art1_omi1"/><Paragrafo xlink:href="art1_par3" id="art93_cpt_alt1_art1_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O regime de que trata este artigo somente se aplica a remessas de valor até quinhentos dólares norte-americanos, ou o equivalente em outras moedas.
+
+  </p>
+            
+          </Paragrafo><Omissis id="art93_cpt_alt1_art1_omi2" fechaAspas="s"/>
+          </Artigo><Artigo xlink:href="art2" id="art93_cpt_alt1_art2" abreAspas="s">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput xlink:href="art2_cpt" id="art93_cpt_alt1_art2_cpt" textoOmitido="s">
+            
+            
+            
+            
+            <Omissis id="art93_cpt_alt1_art2_cpt_omi1"/><Inciso xlink:href="art2_cpt_inc2" id="art93_cpt_alt1_art2_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    dispor sobre a isenção do imposto de importação dos bens contidos em remessas de valor até cem dólares norte-americanos, ou o equivalente em outras moedas, quando destinados a pessoas físicas.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Omissis id="art93_cpt_alt1_art2_omi1" fechaAspas="s"/>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art94">
+            
+            
+            <Rotulo>Art. 94.</Rotulo>
+            
+            <Caput id="art94_cpt">
+            
+            
+            
+            <p>
+    O Ministro da Economia, Fazenda e Planejamento expedirá os atos necessários à execução do disposto nesta Lei, observados os princípios e as diretrizes nela estabelecidos, objetivando, especialmente, a simplificação e a desburocratização dos procedimentos .
+
+  </p>
+            
+          </Caput><Paragrafo id="art94_par1u">
+            <!--Link: urn:lex:br:federal:lei:1992-12-23;8541-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:1992-12-23;8541">Lei nº 8.541, de 23.12.1992</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art95">
+            
+            
+            <Rotulo>Art. 95.</Rotulo>
+            
+            <Caput id="art95_cpt">
+            
+            
+            
+            <p>
+    O Ministro da Economia, Fazenda e Planejamento poderá, em 1992 e 1993, alongar o prazo de pagamento dos impostos e da contribuição social sobre o lucro, se a conjuntura econômica assim o exigir.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art96">
+            
+            
+            <Rotulo>Art. 96.</Rotulo>
+            
+            <Caput id="art96_cpt">
+            
+            
+            
+            <p>
+    No exercício financeiro de 1992, ano-calendário de 1991, o contribuinte apresentará declaração de bens na qual os bens e direitos serão individualmente avaliados a valor de mercado no dia 31 de dezembro de 1991, e convertidos em quantidade de UFIR pelo valor desta no mês de janeiro de 1992.
+
+  </p>
+            
+          </Caput><Paragrafo id="art96_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A diferença entre o valor de mercado referido neste artigo e o constante de declarações de exercícios anteriores será considerada rendimento isento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art96_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A apresentação da declaração de bens com estes avaliados em valores de mercado não exime os declarantes de manter e apresentar elementos que permitam a identificação de seus custos de aquisição.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art96_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A autoridade lançadora, mediante processo regular, arbitrará o valor informado, sempre que este não mereça fé, por notoriamente diferente do de mercado, ressalvada, em caso de contestação, avaliação contraditória administrativa ou judicial.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art96_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Todos e quaisquer bens e direitos adquiridos, a partir de 1° de janeiro de 1992, serão informados, nas declarações de bens de exercícios posteriores, pelos respectivos valores em UFIR, convertidos com base no valor desta no mês de aquisição.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art96_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Na apuração de ganhos de capital na alienação dos bens e direitos de que trata este artigo será considerado custo de aquisição o valor em UFIR:
+
+  </p>
+            <Alinea id="art96_par5_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    constante da declaração relativa ao exercício financeiro de 1992, relativamente aos bens e direitos adquiridos até 31 de dezembro de 1991;
+
+  </p>
+            
+          </Alinea><Alinea id="art96_par5_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    determinado na forma do parágrafo anterior, relativamente aos bens e direitos adquiridos a partir de 1° de janeiro de 1992.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo><Paragrafo id="art96_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    A conversão, em quantidade de UFIR, das aplicações financeiras em títulos e valores mobiliários de renda variável, bem como em ouro ou certificados representativos de ouro, ativo financeiro, será realizada adotando-se o maior dentre os seguintes valores:
+
+  </p>
+            <Alinea id="art96_par6_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    de aquisição, acrescido da correção monetária e da variação da Taxa Referencial Diária - TRD, até 31 de dezembro de 1991, nos termos admitidos em lei;
+
+  </p>
+            
+          </Alinea><Alinea id="art96_par6_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    de mercado, assim entendido o preço médio ponderado das negociações do ativo, ocorridas na última quinzena do mês de dezembro de 1991, em bolsas do País, desde que reflitam condições regulares de oferta e procura, ou o valor da quota resultante da avaliação da carteira do fundo mútuo de ações ou clube de investimento, exceto Plano de Poupança e Investimento - PAIT, em 31 de dezembro de 1991, mediante aplicação dos preços médios ponderados.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo><Paragrafo id="art96_par7">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    Excluem-se do disposto neste artigo os direitos ou créditos relativos a operações financeiras de renda fixa, que serão informados pelos valores de aquisição ou aplicação, em cruzeiros.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art96_par8">
+            
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    A isenção de que trata o §1° não alcança:
+
+  </p>
+            <Alinea id="art96_par8_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    os direitos ou créditos de que trata o parágrafo precedente;
+
+  </p>
+            
+          </Alinea><Alinea id="art96_par8_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    os bens adquiridos até 31 de dezembro de 1990, não relacionados na declaração de bens relativa ao exercício de 1991.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo><Paragrafo id="art96_par9">
+            
+            
+            <Rotulo>§ 9º</Rotulo>
+            <p>
+    Os bens adquiridos no ano-calendário de 1991 serão declarados em moeda corrente nacional, pelo valor de aquisição, e em UFIR, pelo valor de mercado em 31 de dezembro de 1991.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art96_par10">
+            
+            
+            <Rotulo>§ 10.</Rotulo>
+            <p>
+    O Poder Executivo fica autorizado a baixar as instruções necessárias à aplicação deste artigo, bem como a estabelecer critério alternativo para determinação do valor de mercado de títulos e valores mobiliários, se não ocorrerem negociações nos termos do § 6°.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art97">
+            
+            
+            <Rotulo>Art. 97.</Rotulo>
+            
+            <Caput id="art97_cpt">
+            
+            
+            
+            <p>
+    Esta Lei entra em vigor na data de sua publicação e produzirá efeitos a partir de 1° de janeiro de 1992.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art98">
+            
+            
+            <Rotulo>Art. 98.</Rotulo>
+            
+            <Caput id="art98_cpt">
+            <!--Link: urn:lex:br:federal:lei:1990;8023!art7_par1--><!--Link: urn:lex:br:federal:lei:1988;7713!art14--><!--Link: urn:lex:br:federal:lei:1990-12-27;8137!art14--><!--Link: urn:lex:br:federal:lei:1990;8023!art7_par2--><!--Link: urn:lex:br:federal:lei:1964-07-16;4357!art11_par2--><!--Link: urn:lex:br:federal:lei:1962-09-03;4131!art44--><!--Link: urn:lex:br:federal:lei:1965-07-14;4729!art2--><!--Link: urn:lex:br:federal:lei:1964-07-16;4357!art11_par1--><!--Link: urn:lex:br:federal:lei:1990;8023!art10--><!--Link: urn:lex:br:federal:lei:1988;7713!art13--><!--Link: urn:lex:br:federal:lei:1990-12-27;8134!art11_par1u_inc3--><!--Link: urn:lex:br:federal:decreto.lei:1969-10-21;1060!art5-->
+            
+            
+            <p>
+    Revogam-se o <span xlink:href="urn:lex:br:federal:lei:1962-09-03;4131!art44">art. 44 da Lei n° 4.131, de 3 de setembro de 1962</span>, os <span xlink:href="urn:lex:br:federal:lei:1964-07-16;4357!art11_par1">§§ 1°</span> e <span xlink:href="urn:lex:br:federal:lei:1964-07-16;4357!art11_par2">2° do art. 11 da Lei n° 4.357, de 16 de julho de 1964</span>, o <span xlink:href="urn:lex:br:federal:lei:1965-07-14;4729!art2">art. 2° da Lei n° 4.729, de 14 de julho de 1965</span>, o <span xlink:href="urn:lex:br:federal:decreto.lei:1969-10-21;1060!art5">art. 5° do Decreto-Lei n° 1.060, de 21 de outubro de 1969</span>, os <span xlink:href="urn:lex:br:federal:lei:1988;7713!art13">arts. 13</span> e <span xlink:href="urn:lex:br:federal:lei:1988;7713!art14">14 da Lei n° 7.713, de 1988</span>, os incisos III e IV e os <span xlink:href="urn:lex:br:federal:lei:1990;8023!art7_par1">§§ 1°</span> e <span xlink:href="urn:lex:br:federal:lei:1990;8023!art7_par2">2° do art. 7°</span> e o <span xlink:href="urn:lex:br:federal:lei:1990;8023!art10">art. 10 da Lei n° 8.023, de 1990</span>, o <span xlink:href="urn:lex:br:federal:lei:1990-12-27;8134!art11_par1u_inc3">inciso III e parágrafo único do art. 11 da Lei n° 8.134, de 27 de dezembro de 1990</span> e o <span xlink:href="urn:lex:br:federal:lei:1990-12-27;8137!art14">art. 14 da Lei n° 8.137, de 27 de dezembro de 1990</span>.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 30 de dezembro de 1991, 170° da Independência e 103° da República.</p></LocalDataFecho><Assinatura><NomePessoa>FERNANDO COLLOR</NomePessoa><NomePessoa>Marcílio Marques Moreira</NomePessoa></Assinatura></ParteFinal>
+          <Anexos><ReferenciaAnexo AlvoURN="urn:lex:br:federal:lei:1991-12-30;8383!anexo1"/><ReferenciaAnexo AlvoURN="urn:lex:br:federal:lei:1991-12-30;8383!anexo2"/></Anexos>
+        </Norma></ProjetoNorma>
+    </LexML>

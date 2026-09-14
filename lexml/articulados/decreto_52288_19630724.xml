@@ -1,0 +1,788 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:decreto:1963-07-24;52288"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">DECRETO Nº 52.288, DE 24 DE JULHO DE 1963 </Epigrafe>
+		  <Ementa id="ementa">Vide <span xlink:href="urn:lex:br:federal:decreto:1968;63151">Decreto nº 63.151, de 1968</span> Promulga a Convenção sôbre Privilégios e Imunidades das Agências Especializadas das Nações Unidas, adotada, a 21 de novembro de 1947, pela Assembléia Geral das Nações Unidas.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA,
+  </p><p>
+    Havendo o Congresso Nacional aprovado pelo Decreto Legislativo nº 10, de 14 de setembro de 1959, a Convenção sôbre Privilégios e Imunidades das Agências Especializadas das Nações Unidas, adotada a 21 de novembro de 1947 pela Assembléia Geral, das Nações Unidas.
+  </p><p>
+    E, havendo sido depositado a 26 de dezembro de 1962 junto ao Secretário-Geral das Nações Unidas o Instrumento brasileiro de ratificação da referida Convenção;
+  </p><p>
+    Decreta que a mesma apensa, por cópia ao presente Decreto, seja executada e cumprida tão inteiramente como nela se contém com relação às seguintes Agências Especializadas de que o Brasil participa: Organização Internacional do Trabalho, Organização das Nações Unidas para a Educação, Ciência e Cultura, Organização Mundial de Saúde, Associação Internacional de Desenvolvimento, Corporação Financeira Internacional, Fundo Monetário Internacional, Banco Internacional de Reconstrução e Desenvolvimento, Organização de Aviação Civil Internacional, União Internacional de Telecomunicações, União Postal Universal, Organização Metereológica Mundial e Organização Marítima Consultiva Intergovernamental.
+  </p><p>
+    Brasília, 24 de julho de 1963; 142º da Independência e 75º da República.
+  </p><p>
+    JOÃO GOULART Evandro Lins e Silva
+  </p><p>
+    Este texto não substitui o publicado no D.O.U. de 30.7.1963 e retificado no DOU de 22.10.1963
+  </p><p>
+    CONVENÇÃO SÔBRE OS PRIVILÉGIOS E IMUNIDADES DAS AGÊNCIAS ESPECIALIZADAS DA ORGANIZAÇÃO DAS NAÇÕES UNIDAS APROVADA PELA ASSEMBLÉIA GERAL DAS NAÇÕES UNIDAS EM 21 DE NOVEMBRO DE 1947.
+  </p><p>
+    Considerando que a Assembléia Geral das Nações Unidas adotou, a 13 de fevereiro de 1946, uma resolução que visa à unificação, na medida do possível, dos privilégios e imunidades de que gozam a Organização das Nações Unidas e as várias agências especializadas, e
+  </p><p>
+    Considerando que foram realizadas consultas relativas ao cumprimento da supramencionada resolução entre a Organização das Nações Unidas e as agências especializadas, a Assembléia Geral pela resolução 179 (II), adotada a 21 de novembro de 1947, aprovou a seguinte Convenção, que é submetida às agências especializadas para aceitação e a todos os membros da Organização das Nações Unidas e a todos os outros Estados-Membros de uma ou mais das agências especializada para adesão.
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            
+            <Item id="art1_cpt_ite1">
+            
+            <TituloDispositivo>Definições e Extensão</TituloDispositivo>
+            <Rotulo>1.</Rotulo>
+            <p>
+    ª SEÇÃO
+
+  </p>
+            
+          </Item><Inciso id="art1_cpt_inc1">
+            
+            <TituloDispositivo>Nesta Convenção</TituloDispositivo>
+            <Rotulo>I –</Rotulo>
+            <p>
+    As palavras &quot;cláusulas-padrão&quot; se referem às disposições dos artigos 2º a 9º.
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    As palavras &quot;agências especializadas&quot; significam:
+
+  </p>
+            <Alinea id="art1_cpt_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    a Organização Internacional do Trabalho;
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    a Organização das Nações Unidas para a Alimentação e a Agricultura;
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc2_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    a A Organização das Nações Unidas para a Educação, a Ciência e a Cultura;
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc2_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    a Organização da Aviação Civil Internacional;
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc2_ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    o Fundo Monetário Internacional;
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc2_ali6">
+            
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    o Banco Internacional para a Reconstrução e o Desenvolvimento;
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc2_ali7">
+            
+            
+            <Rotulo>g)</Rotulo>
+            <p>
+    a Organização Mundial de Saúde;
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc2_ali8">
+            
+            
+            <Rotulo>h)</Rotulo>
+            <p>
+    a União Postal Universal;
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc2_ali9">
+            
+            
+            <Rotulo>i)</Rotulo>
+            <p>
+    a União Internacional de Telecomunicações; e
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc2_ali10">
+            
+            
+            <Rotulo>j)</Rotulo>
+            <p>
+    qualquer outra agência relacionada com as Nações Unidas de acôrdo com os artigos 57 e 63 da Carta.
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc2_ali6327">
+            
+            
+            <Rotulo>iii)</Rotulo>
+            <p>
+    A palavra &quot;Convenção&quot; significa, comunicação a qualquer agência especializada, as cláusulas-padrão modificadas pelo texto final (ou revisto) do anexo transmitido por essa agência de conformidade com as seções 36 e 38.
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc2_ali256">
+            
+            
+            <Rotulo>iv)</Rotulo>
+            <p>
+    Para os fins do artigo 3º, as palavras &quot;bens e ativo&quot; incluirão também bens e fundos administrados por uma agência especializada para favorecer a execução das suas funções constitucionais.
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc2_ali22">
+            
+            
+            <Rotulo>v)</Rotulo>
+            <p>
+    Para os fins do artigo 5º e 7º, a expressão &quot;representantes dos membros&quot; incluirá todos os representantes, substitutos, conselheiros, técnicos e secretários de delegações.
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc2_ali581">
+            
+            
+            <Rotulo>vi)</Rotulo>
+            <p>
+    Nas seções 13, 14, 15 e 25, a expressão &quot;reuniões convocadas por uma agência especializada&quot; significa reuniões: (1) da sua assembléia e do seu órgão executivo qualquer que seja a sua designação) e (2) de qualquer comissão prevista na sua constituição; (3) de qualquer conferência internacional por ela convocada; e (4) de qualquer comitê de qualquer desses órgãos.
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc2_ali15115">
+            
+            
+            <Rotulo>vii)</Rotulo>
+            <p>
+    O têrmo &quot;diretor executivo&quot; significa o principal funcionário executivo da agência especializada em aprêço, quer designado como &quot;Diretor-Geral&quot; quer de outra maneira.
+
+  </p>
+            <Item id="art1_cpt_inc2_ali15115_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    ª SEÇÃO Cada país parte nesta Convenção a respeito de qualquer agência especializada à qual esta Convenção se tenha tornado aplicável de acôrdo com a 37ª seção, concederá a essa agência, ou ao que com ela tenha ligação, os privilégios e imunidades prescritos nas cláusulas-padrão, nas condições ali especificadas, observada qualquer modificação das cláusulas contidas nas disposições do anexo final (ou revisto) relativo a essa agência e transmitido de acôrdo, com as seções 36 e 38.
+
+  </p>
+            
+          </Item>
+          </Alinea>
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            
+            <Item id="art2_cpt_ite3">
+            
+            <TituloDispositivo>Personalidade Jurídica</TituloDispositivo>
+            <Rotulo>3.</Rotulo>
+            <p>
+    ª SEÇÃO As agências especializadas possuirão personalidade jurídica. Terão capacidade para (a) contratar, (b) adquirir e alienar bens móveis e imóveis, )c) mover ações judiciais.
+
+  </p>
+            
+          </Item>
+          </Caput>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            
+            <Item id="art3_cpt_ite4">
+            
+            <TituloDispositivo>Bens, Fundos e Ativo</TituloDispositivo>
+            <Rotulo>4.</Rotulo>
+            <p>
+    ª SEÇÃO As agências especializadas, seus bens e ativo, onde estiverem localizados e qualquer que seja o seu depositário, gozarão de imunidade de tôdas as formas de processo legal, exceto na medida em que, em qualquer caso determinado houverem expressamente renunciado à sua imunidade. Fica entendido, porém, que nenhuma renúncia de imunidade se estenderá a qualquer medida de execução.
+
+  </p>
+            
+          </Item><Item id="art3_cpt_ite5">
+            
+            
+            <Rotulo>5.</Rotulo>
+            <p>
+    ª SEÇÃO As instalações das agências especializadas serão invioláveis. Os bens e o ativo das agências especializadas, onde estiverem localizados e qualquer que seja a pessoa que os mantenha ficarão isentos de busca, requisição, confisco, expropriação e qualquer outra forma de interferência seja por ação executiva, administrativa, judicial ou legislativa.
+
+  </p>
+            
+          </Item><Item id="art3_cpt_ite6">
+            
+            
+            <Rotulo>6.</Rotulo>
+            <p>
+    ª SEÇÃO Os arquivos das agências especializadas, e em geral todos os documentos a elas pertencentes ou por elas guardados, serão invioláveis, onde estiverem localizados.
+
+  </p>
+            
+          </Item><Item id="art3_cpt_ite7">
+            
+            
+            <Rotulo>7.</Rotulo>
+            <p>
+    ª SEÇÃO Sem restrições de contrôles financeiros, regulamentos ou moratória de qualquer espécie:
+
+  </p>
+            
+          </Item><Alinea id="art3_cpt_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    As agências especializadas podem ter fundos, ouro ou moeda corrente de qualquer espécie e operar em contas com qualquer moeda;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    As agências especializadas podem transferir livremente seus fundos, ouro ou moeda corrente de um país para outro ou dentro de qualquer país e converter qualquer moeda que possuam em qualquer outra moeda.
+
+  </p>
+            <Item id="art3_cpt_ali2_ite8">
+            
+            
+            <Rotulo>8.</Rotulo>
+            <p>
+    ª SEÇÃO Cada agência especializada levará na devida conta, no exercício dos seus direitos de acôrdo com a 7ª Seção, quaisquer representações feitas pelo Governo de qualquer país parte nesta Convenção, na medida em que se considerar que essas representações podem ser efetivadas sem detrimento aos interêsses da agência.
+
+  </p>
+            
+          </Item><Item id="art3_cpt_ali2_ite9">
+            
+            
+            <Rotulo>9.</Rotulo>
+            <p>
+    ª SEÇÃO As agências especializadas, seu ativo, renda e outros bens serão:
+
+  </p>
+            
+          </Item>
+          </Alinea><Alinea id="art3_cpt_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    Isentos de todos os impostos diretos; fica entendido, porém, que as agências especializadas não reclamarão isenção de taxas que, de fato, são apenas tarifas de serviços públicos;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    isentos de direitos alfandegários e proibições e restrições de importação e exportação, com respeito a artigos importados ou exportados pelas agências especializadas para seu uso oficial; fica entendido, porém, que os artigos importados de acôrdo com esta isenção não serão vendidos no país para o qual são importados exceto nas condições ajustadas com o Govêrno dêsse país;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    isentos de direitos, proibições de importação e exportação com respeito às suas publicações.
+
+  </p>
+            <Item id="art3_cpt_ali3_ite10">
+            
+            
+            <Rotulo>10.</Rotulo>
+            <p>
+    ª SEÇÃO As agências especializadas não exigirão isenção de impostos de consumo nem de taxas sôbre a venda de bens móveis e imóveis que fazem parte do preço a ser pago. Não obstante, quando as agências especializadas fizerem compras importantes para uso oficial de bens que tenham sido gravados ou sejam gravados com êsses impostos e taxas, os países parte nesta Convenção tomarão, sempre que possível, medidas administrativas apropriadas para a isenção ou a devolução do montante do imposto ou taxa.
+
+  </p>
+            
+          </Item>
+          </Alinea>
+          </Caput>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            
+            <Item id="art4_cpt_ite11">
+            
+            <TituloDispositivo>Facilidades Relativas a Comunicações</TituloDispositivo>
+            <Rotulo>11.</Rotulo>
+            <p>
+    ª SEÇÃO Cada agência especializada gozará, no território de cada país parte nesta Convenção, no que diz respeito a essa agência, para suas comunicações oficiais, de tratamento não menos favorável do que o concedido pelo Govêrno dêsse país a qualquer outro Govêrno, inclusive a missão diplomática dêste, em matéria de prioridades, tarifas e taxas de correspondência, cabogramas, telegramas, radiogramas, telefotos, telefone e outras comunicações, e de tarifas de imprensa para informações à imprensa e ao rádio.
+
+  </p>
+            
+          </Item><Item id="art4_cpt_ite12">
+            
+            
+            <Rotulo>12.</Rotulo>
+            <p>
+    ª SEÇÃO Nenhuma censura será aplicada à correspondência oficial e a outras comunicações oficiais das agências especializadas. As agências especializadas terão o direito de usar códigos e de despachar e receber correspondência por mensageiro especial ou em malas seladas, os quais terão as mesmas imunidades e privilégios que os correios e malas diplomáticas. Nada nesta seção será interpretado no sentido de impedir à adoção de precauções apropriadas a serem determinadas por acôrdo entre um país parte nesta Convenção e uma agência especializada.
+
+  </p>
+            
+          </Item>
+          </Caput>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            
+            <Item id="art5_cpt_ite13">
+            
+            <TituloDispositivo>Representantes dos Membros</TituloDispositivo>
+            <Rotulo>13.</Rotulo>
+            <p>
+    ª SEÇÃO Os representantes dos membros em reuniões convocadas por uma agência especializada gozarão, enquanto exerceram suas funções e durante as suas viagens para e do lugar da reunião, dos seguintes privilégios e imunidades:
+
+  </p>
+            
+          </Item><Alinea id="art5_cpt_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    Imunidade de prisão ou detenção pessoal e de apreensão de suas bagagens pessoais, e, quanto a palavras faladas ou escritas e a todos os atos por êles feitos em sua qualidade oficial, imunidade a processos legais de qualquer natureza;
+
+  </p>
+            
+          </Alinea><Alinea id="art5_cpt_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    inviolabilidade de todos os papéis e documentos;
+
+  </p>
+            
+          </Alinea><Alinea id="art5_cpt_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    direito de usar códigos e de receber papéis ou correspondência por mensageiro especial ou em malas seladas;
+
+  </p>
+            
+          </Alinea><Alinea id="art5_cpt_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    isenção, para êles e para seus cônjuges de restrições de imigração, de registro de estrangeiros ou de obrigações de serviço nacional no país que estejam visitando ou pelo qual estejam passando no exercício de suas funções;
+
+  </p>
+            
+          </Alinea><Alinea id="art5_cpt_ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    facilidades, quanto as restrições de moeda de câmbio, idênticas às concedidas aos representantes de Governos estrangeiros em missões oficiais temporárias;
+
+  </p>
+            
+          </Alinea><Alinea id="art5_cpt_ali6">
+            
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    imunidades e facilidades, quanto às suas bagagens pessoais idênticas às concedidas aos membros de categoria comparável das missões diplomáticas.
+
+  </p>
+            <Item id="art5_cpt_ali6_ite14">
+            
+            
+            <Rotulo>14.</Rotulo>
+            <p>
+    ª SEÇÃO A fim de assegurar aos representantes dos membros das agências especializadas, em reuniões por elas convocadas, completa liberdade de palavra e completa independência no desempenho de suas obrigações, continuará a ser concedida imunidade a processo legal, quanto às palavras faladas ou escritas e todos os atos por eles feitos no exercício de seus deveres, ainda que as pessoas interessadas não estejam mais incumbidas do exercício dessas obrigações.
+
+  </p>
+            
+          </Item><Item id="art5_cpt_ali6_ite15">
+            
+            
+            <Rotulo>15.</Rotulo>
+            <p>
+    ª SEÇÃO Nos casos em que a incidência de qualquer forma de taxação dependa da residência, os períodos durante os quais os representantes de membros das agências especializadas em reuniões por elas convocadas, estiverem em um país membro para o desempenho de suas obrigações, não serão considerados períodos de residência.
+
+  </p>
+            
+          </Item><Item id="art5_cpt_ali6_ite16">
+            
+            
+            <Rotulo>16.</Rotulo>
+            <p>
+    ª SEÇÃO Os privilégios e imunidades são concedidos aos representantes dos membros, não para benefício pessoal dos próprios indivíduos, mas a fim de salvaguardar o exercício independente das suas funções relacionadas com as agências especializadas. Consequentemente, um membro não apenas tem o direito, mas o dever de renunciar à imunidade dos seus representantes em qualquer caso em que, na opinião do membro, a imunidade impeça o andamento da justiça, e em que possa ser dispensada sem prejuízo para o fim para o qual a imunidade é concedida.
+
+  </p>
+            
+          </Item><Item id="art5_cpt_ali6_ite17">
+            
+            
+            <Rotulo>17.</Rotulo>
+            <p>
+    ª SEÇÃO As disposições das Seções 13, 14 e 15 não se aplicam às autoridades de um país do qual a pessoa seja nacional ou do qual seja ou tenha sido representante.
+
+  </p>
+            
+          </Item>
+          </Alinea>
+          </Caput>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            
+            <Item id="art6_cpt_ite18">
+            
+            <TituloDispositivo>FUNCIONÁRIOS</TituloDispositivo>
+            <Rotulo>18.</Rotulo>
+            <p>
+    ª SEÇÃO Cada agência especializada especificará as categorias dos funcionários nos quais se aplicarão os dispositivos deste artigo e do artigo 8º. Comunicá-las aos Governos de todos os países partes nesta Convenção, quanto a essa agência, e ao Secretário Geral das Nações Unidas. Dos nomes dos funcionários incluídos nessas categorias periodicamente se dará conhecimento aos Governos acima mencionados.
+
+  </p>
+            
+          </Item><Item id="art6_cpt_ite19">
+            
+            
+            <Rotulo>19.</Rotulo>
+            <p>
+    ª SEÇÃO Os funcionários das agências especializadas:
+
+  </p>
+            
+          </Item><Alinea id="art6_cpt_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    Serão imunes a processo legal quanto às palavras falada ou escritas e a todos os atos por eles executados na sua qualidade oficial;
+
+  </p>
+            
+          </Alinea><Alinea id="art6_cpt_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    gozarão de isenções de impostos, quanto aos salários e vencimentos, a êles pagos pelas agências especializadas e em condições idênticas às de que gozam os funcionários das Nações Unidas;
+
+  </p>
+            
+          </Alinea><Alinea id="art6_cpt_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    serão imunes, assim como seus cônjuges e parentes dependente, restrições de imigração e de registro de estrangeiros;
+
+  </p>
+            
+          </Alinea><Alinea id="art6_cpt_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    terão quanto às facilidades de câmbio, privilégios idênticos aos concedidos aos funcionários de categoria comparável das missões diplomáticas;
+
+  </p>
+            
+          </Alinea><Alinea id="art6_cpt_ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    terão, bem como seus cônjuges e parentes dependentes, em época de crises internacionais, facilidades de repatriação idênticas às concedidas aos funcionários de categoria comparável das missões diplomáticas;
+
+  </p>
+            
+          </Alinea><Alinea id="art6_cpt_ali6">
+            
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    terão direito de importar, com isenção de direitos, seus móveis e objetos, quando assumirem pela primeira vez o seu pôsto no país em aprêço.
+
+  </p>
+            <Item id="art6_cpt_ali6_ite20">
+            
+            
+            <Rotulo>20.</Rotulo>
+            <p>
+    ª SEÇÃO Os funcionários das agências especializadas ficarão isentos de obrigações de serviço nacional, contanto que, com relação aos países dos quais são nacionais, tal isenção se limite aos funcionários das agências especializadas cujos nomes em virtude das suas obrigações, foram colocados em um lista compilada pelo diretor executivo da agência especializada e aprovada pelo país interessado. Se outros funcionários das agências especializadas forem chamados para o serviço nacional, o país interessado, a pedido da agência especializada interessada, concederá a esses funcionários adiamentos temporários necessários para evitar interrupção na continuação de um trabalho essencial.
+
+  </p>
+            
+          </Item><Item id="art6_cpt_ali6_ite21">
+            
+            
+            <Rotulo>21.</Rotulo>
+            <p>
+    ª SEÇÃO Além das imunidades e privilégios especificados nas Seções 19 e 20, o diretor executivo de cada agência especializada, inclusive qualquer funcionário que responda por êle durante sua ausência das funções, terá estendidos ao seu cônjuge e filhos menores, os privilégios e imunidades, isenções e facilidades concedidos aos enviados diplomáticos, de acôrdo com o direito internacional.
+
+  </p>
+            
+          </Item><Item id="art6_cpt_ali6_ite22">
+            
+            
+            <Rotulo>22.</Rotulo>
+            <p>
+    ª SEÇÃO Os privilégios e imunidades são concedidos aos funcionários apenas no interêsse das agências especializadas, e não para benefício pessoal dos próprios indivíduos. Cada agência especializada terá o direito e o dever de renunciar à imunidade de qualquer funcionário em qualquer caso em que, em sua opinião, a imunidade impeça o andamento da justiça e possa ser dispensada sem prejuízo para os interêsses da agência especializada.
+
+  </p>
+            
+          </Item><Item id="art6_cpt_ali6_ite23">
+            
+            
+            <Rotulo>23.</Rotulo>
+            <p>
+    ª SEÇÃO Cada Agência especializada cooperará sempre com as autoridades competentes dos países membros para facilitar a administração adequada da justiça, assegurar a observância dos regulamentos policiais e prevenir a ocorrência de quaisquer abusos relacionados com os privilégios, imunidades e facilidades mencionados neste artigo.
+
+  </p>
+            
+          </Item>
+          </Alinea>
+          </Caput>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            
+            <Item id="art7_cpt_ite24">
+            
+            <TituloDispositivo>Abuso de Privilégio</TituloDispositivo>
+            <Rotulo>24.</Rotulo>
+            <p>
+    ª SEÇÃO Se qualquer país parte nesta Convenção considerar que houve abuso de um privilégio ou imunidade, conferido por esta Convenção, serão feitas consultas entre êsse país e a agência especializada interessada para determinar se ocorreu qualquer abuso semelhante e, nêsse caso, procurar assegurar que não ocorrerá repetição. Se essas consultas não conseguirem alcançar um resultado satisfatório para o Estado e a agência especializada interessados, a questão de saber se ocorreu abuso de privilégio ou imunidade será submetida à Côrte Internacional de Justiça de acôrdo com a 32ª Seção. Se a Côrte Internacional de Justiça achar que êsse abuso ocorreu, o país parte nesta Convenção afetado por êsse abuso terá após notificação à agência especializada em aprêço, o direito de retirar da agência especializada interessada os benefícios do privilégio ou imunidade objeto do abuso.
+
+  </p>
+            
+          </Item><Item id="art7_cpt_ite25">
+            
+            
+            <Rotulo>25.</Rotulo>
+            <p>
+    ª SEÇÃO
+
+  </p>
+            
+          </Item><Item id="art7_cpt_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    As autoridades territoriais não exigirão que os representantes dos membros nas reuniões convocadas pelas agências especializadas, enquanto no exercício de suas funções e durante suas viagens para e do lugar da reunião, e os funcionários incluídos no sentido da 18 Seção, deixem o país no qual estão exercendo suas funções por causa de nenhum ato por êles exercidos em sua qualidade oficial. No caso, porém, de abusos de privilégios de residência cometidos por essas pessoas em atos fora das suas funções oficiais, o Gôverno poderá exigir que e as deixem êsse país, contanto que:
+
+  </p>
+            
+          </Item><Item id="art7_cpt_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    (I) Não se exija que os representantes dos membros ou pessoa que tem direito à imunidade diplomática de acôrdo com a 21 Seção, deixem o país, a não ser de conformidade com o procedimento diplomático aplicável aos enviados diplomáticos acreditados nesse País.
+
+  </p>
+            
+          </Item>
+          </Caput>
+          </Artigo><p>(II) No caso de um funcionário ao qual não seja aplicável a 21 Seção, nenhuma ordem de deixar o país será expedida a não ser com a aprovação do Ministério do Exterior do país em aprêço, e essa aprovação só será dada após consulta com o Diretor Executivo da Agência Especializada interessada; e, se fôr instaurado processo para a expulsão de um funcionário, o Diretor Executivo da Agência Especializada terá o direito de figurar nesse processo em nome da pessoa contra a qual fôr instaurado.
+</p><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            
+            <Item id="art8_cpt_ite26">
+            
+            <TituloDispositivo>Laissez-Passer</TituloDispositivo>
+            <Rotulo>26.</Rotulo>
+            <p>
+    ª SEÇÃO Os Funcionários das Agências Especializadas terão o direito de usar o Laissez-Passer das Nações Unidas de conformidade com ajustes administrativos a serem concluídos entre o Secretário Geral das Nações Unidas e as autoridades competentes das Agências Especializadas, Agências às quais podem ser delegados poderes especiais para emitirem Laissez-Passer. O Secretário Geral das Nações Unidas notificará cada país parte nesta Convenção de cada ajuste administrativo assim concluído.
+
+  </p>
+            
+          </Item><Item id="art8_cpt_ite27">
+            
+            
+            <Rotulo>27.</Rotulo>
+            <p>
+    ª SEÇÃO Os países partes nesta Convenção reconhecerão e aceitarão os Laissez-Passer das Nações Unidas expedidos para os funcionários das agências especializadas como documentos de viagem válidos.
+
+  </p>
+            
+          </Item><Item id="art8_cpt_ite28">
+            
+            
+            <Rotulo>28.</Rotulo>
+            <p>
+    ª SEÇÃO Os pedidos de visto, nos casos em que são necessários, de funcionários das agências especializadas que possuam Laissez-Passer das Nações, Unidas, quando acompanhados de um certificado de que viajam a negócio de uma agência especializada, serão despachados com a possível rapidez. Outrossim, a essas pessoas se concederão facilidades para viagem rápida.
+
+  </p>
+            
+          </Item><Item id="art8_cpt_ite29">
+            
+            
+            <Rotulo>29.</Rotulo>
+            <p>
+    ª SEÇÃO Facilidades semelhantes às especificadas na 28ª Seção serão concedidas aos peritos e a outras pessoas que, embora não possuam Laissez-Passer das Nações Unidas, tem um certificado que atesta estarem viajando a negócios de uma agência especializada.
+
+  </p>
+            
+          </Item><Item id="art8_cpt_ite30">
+            
+            
+            <Rotulo>30.</Rotulo>
+            <p>
+    ª SEÇÃO Os diretores executivos, os assistentes dos diretores executivos, os diretores de departamentos e outros funcionários de categoria não inferior à de chefe de departamento das agências especializadas, que viajam com Laissez-Passer das Nações Unidas a negócios das agências especializadas, terão facilidades de viagem idênticas às concedidas aos funcionários de categoria comparável das missões diplomáticas.
+
+  </p>
+            
+          </Item>
+          </Caput>
+          </Artigo><Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            
+            
+            
+            
+            <Item id="art9_cpt_ite31">
+            
+            <TituloDispositivo>Solução de disputas</TituloDispositivo>
+            <Rotulo>31.</Rotulo>
+            <p>
+    ª SEÇÃO Cada agência especializada providenciará modos apropriados de resolver:
+
+  </p>
+            
+          </Item><Alinea id="art9_cpt_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    disputas resultantes de contratos ou outras disputas de caráter privado nas quais a agência especializada seja parte;
+
+  </p>
+            
+          </Alinea><Alinea id="art9_cpt_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    disputas que envolvam qualquer funcionário de uma agência especializada que, por motivo de sua posição oficial, goze de imunidade, se a imunidade não houver sido dispensada, de conformidade com as disposições da 22ª Seção.
+
+  </p>
+            <Item id="art9_cpt_ali2_ite32">
+            
+            
+            <Rotulo>32.</Rotulo>
+            <p>
+    ª SEÇÃO Todas as divergências resultantes da interpretação ou aplicação da presente Convenção serão submetidas à Côrte Internacional de Justiça, a não ser que, em qualquer caso, as partes convenham em recorrer a outro modo de solução. Se surgir divergência entre uma das agências especializadas, por um lado, e um membro do outro, pedir-se-á um parecer consultivo sôbre qualquer questão legal em causa, de acôrdo com o artigo 96 da Carta e o artigo 65 do Estatuto da Côrte e as disposições aplicáveis dos ajustes concluídos entre as Nações Unidas e a agência especializada interessada. O parecer emitido pela Côrte será aceito como decisório pelas partes.
+
+  </p>
+            
+          </Item>
+          </Alinea>
+          </Caput>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo></Articulacao>
+          
+          <Anexos><ReferenciaAnexo AlvoURN="urn:lex:br:federal:decreto:1963-07-24;52288!anexo1"/></Anexos>
+        </Norma></ProjetoNorma>
+    </LexML>

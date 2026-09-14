@@ -1,0 +1,1480 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:2021-01-13;14119"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">LEI Nº 14.119, DE 13 DE JANEIRO DE 2021 </Epigrafe>
+		  <Ementa id="ementa">Institui a Política Nacional de Pagamento por Serviços Ambientais; e altera as <span xlink:href="urn:lex:br:federal:lei:1991-07-24;8212">Leis n°s 8.212, de 24 de julho de 1991</span>, <span xlink:href="urn:lex:br:federal:lei:1993-02-25;8629">8.629, de 25 de fevereiro de 1993</span>, e <span xlink:href="urn:lex:br:federal:lei:1973-12-31;6015">6.015, de 31 de dezembro de 1973</span>, para adequá-las à nova política.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Capitulo id="cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DISPOSIÇÕES GERAIS
+
+  </NomeAgrupador>
+            <Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            <!--Link: urn:lex:br:federal:lei:1991-07-24;8212--><!--Link: urn:lex:br:federal:lei:1993-02-25;8629--><!--Link: urn:lex:br:federal:lei:1973-12-31;6015-->
+            
+            
+            <p>
+    Esta Lei define conceitos, objetivos, diretrizes, ações e critérios de implantação da Política Nacional de Pagamento por Serviços Ambientais (PNPSA), institui o Cadastro Nacional de Pagamento por Serviços Ambientais (CNPSA) e o Programa Federal de Pagamento por Serviços Ambientais (PFPSA), dispõe sobre os contratos de pagamento por serviços ambientais e altera as <span xlink:href="urn:lex:br:federal:lei:1991-07-24;8212">Leis n°s 8.212, de 24 de julho de 1991</span>, <span xlink:href="urn:lex:br:federal:lei:1993-02-25;8629">8.629, de 25 de fevereiro de 1993</span>, e <span xlink:href="urn:lex:br:federal:lei:1973-12-31;6015">6.015, de 31 de dezembro de 1973</span>.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    Para os fins desta Lei, consideram-se:
+
+  </p>
+            <Inciso id="art2_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    ecossistema: complexo dinâmico de comunidades vegetais, animais e de microrganismos e o seu meio inorgânico que interagem como uma unidade funcional;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    serviços ecossistêmicos: benefícios relevantes para a sociedade gerados pelos ecossistemas, em termos de manutenção, recuperação ou melhoria das condições ambientais, nas seguintes modalidades:
+
+  </p>
+            <Alinea id="art2_cpt_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    serviços de provisão: os que fornecem bens ou produtos ambientais utilizados pelo ser humano para consumo ou comercialização, tais como água, alimentos, madeira, fibras e extratos, entre outros;
+
+  </p>
+            
+          </Alinea><Alinea id="art2_cpt_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    serviços de suporte: os que mantêm a perenidade da vida na Terra, tais como a ciclagem de nutrientes, a decomposição de resíduos, a produção, a manutenção ou a renovação da fertilidade do solo, a polinização, a dispersão de sementes, o controle de populações de potenciais pragas e de vetores potenciais de doenças humanas, a proteção contra a radiação solar ultravioleta e a manutenção da biodiversidade e do patrimônio genético;
+
+  </p>
+            
+          </Alinea><Alinea id="art2_cpt_inc2_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    serviços de regulação: os que concorrem para a manutenção da estabilidade dos processos ecossistêmicos, tais como o sequestro de carbono, a purificação do ar, a moderação de eventos climáticos extremos, a manutenção do equilíbrio do ciclo hidrológico, a minimização de enchentes e secas e o controle dos processos críticos de erosão e de deslizamento de encostas;
+
+  </p>
+            
+          </Alinea><Alinea id="art2_cpt_inc2_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    serviços culturais: os que constituem benefícios não materiais providos pelos ecossistemas, por meio da recreação, do turismo, da identidade cultural, de experiências espirituais e estéticas e do desenvolvimento intelectual, entre outros;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art2_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    serviços ambientais: atividades individuais ou coletivas que favorecem a manutenção, a recuperação ou a melhoria dos serviços ecossistêmicos;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    pagamento por serviços ambientais: transação de natureza voluntária, mediante a qual um pagador de serviços ambientais transfere a um provedor desses serviços recursos financeiros ou outra forma de remuneração, nas condições acertadas, respeitadas as disposições legais e regulamentares pertinentes;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    pagador de serviços ambientais: poder público, organização da sociedade civil ou agente privado, pessoa física ou jurídica, de âmbito nacional ou internacional, que provê o pagamento dos serviços ambientais nos termos do inciso IV deste caput;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    provedor de serviços ambientais: pessoa física ou jurídica, de direito público ou privado, ou grupo familiar ou comunitário que, preenchidos os critérios de elegibilidade, mantém, recupera ou melhora as condições ambientais dos ecossistemas.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    São modalidades de pagamento por serviços ambientais, entre outras:
+
+  </p>
+            <Inciso id="art3_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    pagamento direto, monetário ou não monetário;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    prestação de melhorias sociais a comunidades rurais e urbanas;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    compensação vinculada a certificado de redução de emissões por desmatamento e degradação;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    títulos verdes (green bonds);
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    comodato;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc6">
+            <!--Link: urn:lex:br:federal:lei:2012-05-25;12651-->
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    Cota de Reserva Ambiental (CRA), instituída pela <span xlink:href="urn:lex:br:federal:lei:2012-05-25;12651">Lei nº 12.651, de 25 de maio de 2012</span>.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art3_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Outras modalidades de pagamento por serviços ambientais poderão ser estabelecidas por atos normativos do órgão gestor da PNPSA.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As modalidades de pagamento deverão ser previamente pactuadas entre pagadores e provedores de serviços ambientais.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DA POLÍTICA NACIONAL DE PAGAMENTO POR SERVIÇOS AMBIENTAIS (PNPSA)
+
+  </NomeAgrupador>
+            <Secao id="cap2_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Dos Objetivos e das Diretrizes da PNPSA
+
+  </NomeAgrupador>
+            <Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    Fica instituída a Política Nacional de Pagamento por Serviços Ambientais (PNPSA), cujos objetivos são:
+
+  </p>
+            <Inciso id="art4_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    orientar a atuação do poder público, das organizações da sociedade civil e dos agentes privados em relação ao pagamento por serviços ambientais, de forma a manter, recuperar ou melhorar os serviços ecossistêmicos em todo o território nacional;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    estimular a conservação dos ecossistemas, dos recursos hídricos, do solo, da biodiversidade, do patrimônio genético e do conhecimento tradicional associado;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    valorizar econômica, social e culturalmente os serviços ecossistêmicos;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    evitar a perda de vegetação nativa, a fragmentação de habitats, a desertificação e outros processos de degradação dos ecossistemas nativos e fomentar a conservação sistêmica da paisagem;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    incentivar medidas para garantir a segurança hídrica em regiões submetidas a escassez de água para consumo humano e a processos de desertificação;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    contribuir para a regulação do clima e a redução de emissões advindas de desmatamento e degradação florestal;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    reconhecer as iniciativas individuais ou coletivas que favoreçam a manutenção, a recuperação ou a melhoria dos serviços ecossistêmicos, por meio de retribuição monetária ou não monetária, prestação de serviços ou outra forma de recompensa, como o fornecimento de produtos ou equipamentos;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    estimular a elaboração e a execução de projetos privados voluntários de provimento e pagamento por serviços ambientais, que envolvam iniciativas de empresas, de Organizações da Sociedade Civil de Interesse Público (Oscip) e de outras organizações não governamentais;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    estimular a pesquisa científica relativa à valoração dos serviços ecossistêmicos e ao desenvolvimento de metodologias de execução, de monitoramento, de verificação e de certificação de projetos de pagamento por serviços ambientais;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc10">
+            
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    assegurar a transparência das informações relativas à prestação de serviços ambientais, permitindo a participação da sociedade;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc11">
+            
+            
+            <Rotulo>XI –</Rotulo>
+            <p>
+    estabelecer mecanismos de gestão de dados e informações necessários à implantação e ao monitoramento de ações para a plena execução dos serviços ambientais;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc12">
+            
+            
+            <Rotulo>XII –</Rotulo>
+            <p>
+    incentivar o setor privado a incorporar a medição das perdas ou ganhos dos serviços ecossistêmicos nas cadeias produtivas vinculadas aos seus negócios;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc13">
+            
+            
+            <Rotulo>XIII –</Rotulo>
+            <p>
+    incentivar a criação de um mercado de serviços ambientais;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc14">
+            
+            
+            <Rotulo>XIV –</Rotulo>
+            <p>
+    fomentar o desenvolvimento sustentável.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art4_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A PNPSA deverá integrar-se às demais políticas setoriais e ambientais, em especial à Política Nacional do Meio Ambiente, à Política Nacional da Biodiversidade, à Política Nacional de Recursos Hídricos, à Política Nacional sobre Mudança do Clima, à Política Nacional de Educação Ambiental, às normas sobre acesso ao patrimônio genético, sobre a proteção e o acesso ao conhecimento tradicional associado e sobre a repartição de benefícios para conservação e uso sustentável da biodiversidade e, ainda, ao Sistema Nacional de Unidades de Conservação da Natureza e aos serviços de assistência técnica e extensão rural.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A PNPSA será gerida pelo órgão central do Sistema Nacional do Meio Ambiente (Sisnama).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    São diretrizes da PNPSA:
+
+  </p>
+            <Inciso id="art5_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o atendimento aos princípios do provedor-recebedor e do usuário-pagador;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o reconhecimento de que a manutenção, a recuperação e a melhoria dos serviços ecossistêmicos contribuem para a qualidade de vida da população;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    a utilização do pagamento por serviços ambientais como instrumento de promoção do desenvolvimento social, ambiental, econômico e cultural das populações em área rural e urbana e dos produtores rurais, em especial das comunidades tradicionais, dos povos indígenas e dos agricultores familiares;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    a complementaridade do pagamento por serviços ambientais em relação aos instrumentos de comando e controle relacionados à conservação do meio ambiente;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    a integração e a coordenação das políticas de meio ambiente, de recursos hídricos, de agricultura, de energia, de transporte, de pesca, de aquicultura e de desenvolvimento urbano, entre outras, com vistas à manutenção, à recuperação ou à melhoria dos serviços ecossistêmicos;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    a complementaridade e a coordenação entre programas e projetos de pagamentos por serviços ambientais implantados pela União, pelos Estados, pelo Distrito Federal, pelos Municípios, pelos Comitês de Bacia Hidrográfica, pela iniciativa privada, por Oscip e por outras organizações não governamentais, consideradas as especificidades ambientais e socioeconômicas dos diferentes biomas, regiões e bacias hidrográficas, e observados os princípios estabelecidos nesta Lei;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    o reconhecimento do setor privado, das Oscip e de outras organizações não governamentais como organizadores, financiadores e gestores de projetos de pagamento por serviços ambientais, paralelamente ao setor público, e como indutores de mercados voluntários;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    a publicidade, a transparência e o controle social nas relações entre o pagador e o provedor dos serviços ambientais prestados;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    a adequação do imóvel rural e urbano à legislação ambiental;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc10">
+            
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    o aprimoramento dos métodos de monitoramento, de verificação, de avaliação e de certificação dos serviços ambientais prestados;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc11">
+            
+            
+            <Rotulo>XI –</Rotulo>
+            <p>
+    o resguardo da proporcionalidade no pagamento por serviços ambientais prestados;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc12">
+            <!--Link: urn:lex:br:federal:lei:2011-10-14;12512-->
+            
+            <Rotulo>XII –</Rotulo>
+            <p>
+    a inclusão socioeconômica e a regularização ambiental de populações rurais em situação de vulnerabilidade, em consonância com as disposições da <span xlink:href="urn:lex:br:federal:lei:2011-10-14;12512">Lei nº 12.512, de 14 de outubro de 2011</span>.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="cap3">
+            
+            
+            <Rotulo>CAPÍTULO III</Rotulo>
+            <NomeAgrupador>
+    DO PROGRAMA FEDERAL DE PAGAMENTO POR SERVIÇOS AMBIENTAIS (PFPSA)
+
+  </NomeAgrupador>
+            <Secao id="cap3_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Disposições Gerais
+
+  </NomeAgrupador>
+            <Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    Fica criado o Programa Federal de Pagamento por Serviços Ambientais (PFPSA), no âmbito do órgão central do Sisnama, com o objetivo de efetivar a PNPSA relativamente ao pagamento desses serviços pela União, nas ações de manutenção, de recuperação ou de melhoria da cobertura vegetal nas áreas prioritárias para a conservação, de combate à fragmentação de habitats, de formação de corredores de biodiversidade e de conservação dos recursos hídricos.
+
+  </p>
+            
+          </Caput><Paragrafo id="art6_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As ações para o pagamento por serviços ambientais previstas no caput deste artigo não impedem a identificação de outras, com novos potenciais provedores.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art6_par2">
+            <!--Link: urn:lex:br:federal:lei:2006-07-24;11326-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A contratação do pagamento por serviços ambientais no âmbito do PFPSA, observada a importância ecológica da área, terá como prioridade os serviços providos por comunidades tradicionais, povos indígenas, agricultores familiares e empreendedores familiares rurais definidos nos termos da <span xlink:href="urn:lex:br:federal:lei:2006-07-24;11326">Lei nº 11.326, de 24 de julho de 2006</span>.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art6_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Na execução do PFPSA, respeitadas as prioridades definidas no § 2º deste artigo, o órgão gestor dará preferência à realização de parcerias com cooperativas, associações civis e outras formas associativas que permitam dar escala às ações a serem implementadas.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art6_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    São requisitos gerais para participação no PFPSA:
+
+  </p>
+            <Inciso id="art6_par4_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    enquadramento em uma das ações definidas para o Programa;
+
+  </p>
+            
+          </Inciso><Inciso id="art6_par4_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    nos imóveis privados, ressalvados aqueles a que se refere o inciso IV do caput do art. 8º desta Lei, comprovação de uso ou ocupação regular do imóvel, por meio de inscrição no Cadastro Ambiental Rural (CAR);
+
+  </p>
+            
+          </Inciso><Inciso id="art6_par4_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    formalização de contrato específico;
+
+  </p>
+            
+          </Inciso><Inciso id="art6_par4_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    outros estabelecidos em regulamento.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art6_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    O contrato de pagamento por serviços ambientais pode ocorrer por termo de adesão, na forma de regulamento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art6_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    No âmbito do PFPSA, o pagamento por serviços ambientais depende de verificação e comprovação das ações de manutenção, de recuperação ou de melhoria da área objeto de contratação, conforme regulamento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art6_par7">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    Para o financiamento do PFPSA poderão ser captados recursos de pessoas físicas e de pessoas jurídicas de direito privado e perante as agências multilaterais e bilaterais de cooperação internacional, preferencialmente sob a forma de doações ou sem ônus para o Tesouro Nacional, exceto nos casos de contrapartidas de interesse das partes.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art6_par8">
+            <!--Link: urn:lex:br:federal:lei:2021-01-13;14119-->
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    O PFPSA será avaliado, pelo órgão colegiado referido no art. 15 desta Lei, a cada 4 (quatro) anos, após sua efetiva implantação. (Incluído com veto por Publicação de Veto Parcialmente Rejeitado da <span xlink:href="urn:lex:br:federal:lei:2021-01-13;14119">Lei nº 14.119 de 13.01.2021</span> (Diário Oficial da União - Edição Extra de 26.03.2021 - nº 58-D (p. 3, col. 2)))
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap3_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Das Ações do PFPSA
+
+  </NomeAgrupador>
+            <Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    O PFPSA promoverá ações de:
+
+  </p>
+            <Inciso id="art7_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    conservação e recuperação da vegetação nativa, da vida silvestre e do ambiente natural em áreas rurais, notadamente naquelas de elevada diversidade biológica, de importância para a formação de corredores de biodiversidade ou reconhecidas como prioritárias para a conservação da biodiversidade, assim definidas pelos órgãos do Sisnama;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    conservação de remanescentes vegetais em áreas urbanas e periurbanas de importância para a manutenção e a melhoria da qualidade do ar, dos recursos hídricos e do bem-estar da população e para a formação de corredores ecológicos;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    conservação e melhoria da quantidade e da qualidade da água, especialmente em bacias hidrográficas com cobertura vegetal crítica importantes para o abastecimento humano e para a dessedentação animal ou em áreas sujeitas a risco de desastre;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    conservação de paisagens de grande beleza cênica;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    recuperação e recomposição da cobertura vegetal nativa de áreas degradadas, por meio do plantio de espécies nativas ou por sistema agroflorestal;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    manejo sustentável de sistemas agrícolas, agroflorestais e agrossilvopastoris que contribuam para captura e retenção de carbono e conservação do solo, da água e da biodiversidade;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    manutenção das áreas cobertas por vegetação nativa que seriam passíveis de autorização de supressão para uso alternativo do solo.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap3_sec3">
+            
+            
+            <Rotulo>Seção III</Rotulo>
+            <NomeAgrupador>
+    Dos Critérios de Aplicação do PFPSA
+
+  </NomeAgrupador>
+            <Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    Podem ser objeto do PFPSA:
+
+  </p>
+            <Inciso id="art8_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    áreas cobertas com vegetação nativa;
+
+  </p>
+            
+          </Inciso><Inciso id="art8_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    áreas sujeitas a restauração ecossistêmica, a recuperação da cobertura vegetal nativa ou a plantio agroflorestal;
+
+  </p>
+            
+          </Inciso><Inciso id="art8_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:2000-07-18;9985-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    unidades de conservação de proteção integral, reservas extrativistas e reservas de desenvolvimento sustentável, nos termos da <span xlink:href="urn:lex:br:federal:lei:2000-07-18;9985">Lei nº 9.985, de 18 de julho de 2000</span>;
+
+  </p>
+            
+          </Inciso><Inciso id="art8_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    terras indígenas, territórios quilombolas e outras áreas legitimamente ocupadas por populações tradicionais, mediante consulta prévia, nos termos da Convenção 169 da Organização Internacional do Trabalho (OIT) sobre Povos Indígenas e Tribais;
+
+  </p>
+            
+          </Inciso><Inciso id="art8_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    paisagens de grande beleza cênica, prioritariamente em áreas especiais de interesse turístico;
+
+  </p>
+            
+          </Inciso><Inciso id="art8_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    áreas de exclusão de pesca, assim consideradas aquelas interditadas ou de reservas, onde o exercício da atividade pesqueira seja proibido transitória, periódica ou permanentemente, por ato do poder público;
+
+  </p>
+            
+          </Inciso><Inciso id="art8_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    áreas prioritárias para a conservação da biodiversidade, assim definidas por ato do poder público.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art8_par1">
+            <!--Link: urn:lex:br:federal:lei:2021-01-13;14119-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os recursos decorrentes do pagamento por serviços ambientais pela conservação de vegetação nativa em unidades de conservação serão aplicados pelo órgão ambiental competente em atividades de regularização fundiária, elaboração, atualização e implantação do plano de manejo, fiscalização e monitoramento, manejo sustentável da biodiversidade e outras vinculadas à própria unidade, consultado, no caso das unidades de conservação de uso sustentável, o seu conselho deliberativo, o qual decidirá sobre a destinação desses recursos. (Incluído com veto por Publicação de Veto Parcialmente Rejeitado da <span xlink:href="urn:lex:br:federal:lei:2021-01-13;14119">Lei nº 14.119 de 13.01.2021</span> (Diário Oficial da União - Edição Extra de 26.03.2021 - nº 58-D (p. 3, col. 2)))
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os recursos decorrentes do pagamento por serviços ambientais pela conservação de vegetação nativa em terras indígenas serão aplicados em conformidade com os planos de gestão territorial e ambiental de terras indígenas, ou documentos equivalentes, elaborados pelos povos indígenas que vivem em cada terra.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Na contratação de pagamento por serviços ambientais em áreas de exclusão de pesca, podem ser recebedores os membros de comunidades tradicionais e os pescadores profissionais que, historicamente, desempenhavam suas atividades no perímetro protegido e suas adjacências, desde que atuem em conjunto com o órgão ambiental competente na fiscalização da área.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            
+            
+            
+            <p>
+    Em relação aos imóveis privados, são elegíveis para provimento de serviços ambientais:
+
+  </p>
+            <Inciso id="art9_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:2012-05-25;12651-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    os situados em zona rural inscritos no CAR, previsto na <span xlink:href="urn:lex:br:federal:lei:2012-05-25;12651">Lei nº 12.651, de 25 de maio de 2012</span>, dispensada essa exigência para aqueles a que se refere o inciso IV do caput do art. 8º desta Lei;
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc2">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art182_par1-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    os situados em zona urbana que estejam em conformidade com o plano diretor, de que trata o <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art182_par1">§ 1º do art. 182 da Constituição Federal</span>, e com a legislação dele decorrente;
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:2000-07-18;9985-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    as Reservas Particulares do Patrimônio Natural (RPPNs) e as áreas das zonas de amortecimento e dos corredores ecológicos cobertas por vegetação nativa, nos termos da <span xlink:href="urn:lex:br:federal:lei:2000-07-18;9985">Lei nº 9.985, de 18 de julho de 2000</span>.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art9_par1u">
+            <!--Link: urn:lex:br:federal:lei:2023-08-23;14653-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    As Áreas de Preservação Permanente, Reserva Legal e outras sob limitação administrativa nos termos da legislação ambiental serão elegíveis para pagamento por serviços ambientais com uso de recursos públicos, conforme regulamento, com preferência para aquelas localizadas no entorno de nascentes, localizadas em bacias hidrográficas consideradas críticas para o abastecimento público de água, assim definidas pelo órgão competente, ou em áreas prioritárias para conservação da diversidade biológica em processo de desertificação ou de avançada fragmentação. (Redação dada por <span xlink:href="urn:lex:br:federal:lei:2023-08-23;14653">Lei nº 14.653 de 23.08.2023</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>
+    É vedada a aplicação de recursos públicos para pagamento por serviços ambientais:
+
+  </p>
+            <Inciso id="art10_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:1985-07-24;7347--><!--Link: urn:lex:br:federal:lei:2012-05-25;12651-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a pessoas físicas e jurídicas inadimplentes em relação a termo de ajustamento de conduta ou de compromisso firmado com os órgãos competentes com base nas <span xlink:href="urn:lex:br:federal:lei:1985-07-24;7347">Leis n°s 7.347, de 24 de julho de 1985</span>, e <span xlink:href="urn:lex:br:federal:lei:2012-05-25;12651">12.651, de 25 de maio de 2012</span>;
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:2012-05-25;12651-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    referente a áreas embargadas pelos órgãos do Sisnama, conforme disposições da <span xlink:href="urn:lex:br:federal:lei:2012-05-25;12651">Lei nº 12.651, de 25 de maio de 2012</span>.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            <p>
+    O poder público fomentará assistência técnica e capacitação para a promoção dos serviços ambientais e para a definição da métrica de valoração, de validação, de monitoramento, de verificação e de certificação dos serviços ambientais, bem como de preservação e publicização das informações.
+
+  </p>
+            
+          </Caput><Paragrafo id="art11_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O órgão central do Sisnama consolidará e publicará as metodologias que darão suporte à assistência técnica de que trata o caput deste artigo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap3_sec4">
+            
+            
+            <Rotulo>Seção IV</Rotulo>
+            <NomeAgrupador>
+    Do Contrato de Pagamento por Serviços Ambientais
+
+  </NomeAgrupador>
+            <Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            
+            
+            
+            <p>
+    O regulamento definirá as cláusulas essenciais para cada tipo de contrato de pagamento por serviços ambientais, consideradas obrigatórias aquelas relativas:
+
+  </p>
+            <Inciso id="art12_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    aos direitos e às obrigações do provedor, incluídas as ações de manutenção, de recuperação e de melhoria ambiental do ecossistema por ele assumidas e os critérios e os indicadores da qualidade dos serviços ambientais prestados;
+
+  </p>
+            
+          </Inciso><Inciso id="art12_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    aos direitos e às obrigações do pagador, incluídos as formas, as condições e os prazos de realização da fiscalização e do monitoramento;
+
+  </p>
+            
+          </Inciso><Inciso id="art12_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    às condições de acesso, pelo poder público, à área objeto do contrato e aos dados relativos às ações de manutenção, de recuperação e de melhoria ambiental assumidas pelo provedor, em condições previamente pactuadas e respeitados os limites do sigilo legal ou constitucionalmente previsto.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art12_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    No caso de propriedades rurais, o contrato pode ser vinculado ao imóvel por meio da instituição de servidão ambiental.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            <!--Link: urn:lex:br:federal:lei:2021-01-13;14119-->
+            
+            
+            <p>
+    O contrato de pagamento por serviços ambientais deve ser registrado no Cadastro Nacional de Pagamento por Serviços Ambientais. (Incluído com veto por Publicação de Veto Parcialmente Rejeitado da <span xlink:href="urn:lex:br:federal:lei:2021-01-13;14119">Lei nº 14.119 de 13.01.2021</span> (Diário Oficial da União - Edição Extra de 26.03.2021 - nº 58-D (p. 3, col. 2)))
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            <p>
+    Os contratos de pagamento por serviços ambientais que envolvam recursos públicos ou que sejam objeto dos incentivos tributários previstos no art. 17 desta Lei estarão sujeitos à fiscalização pelos órgãos competentes do poder público.
+
+  </p>
+            
+          </Caput><Paragrafo id="art14_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Os serviços ambientais prestados podem ser submetidos à validação ou à certificação por entidade técnico-científica independente, na forma do regulamento.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap3_sec5">
+            
+            
+            <Rotulo>Seção V</Rotulo>
+            <NomeAgrupador>
+    Da Governança
+
+  </NomeAgrupador>
+            <Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            <!--Link: urn:lex:br:federal:lei:2021-01-13;14119-->
+            
+            
+            <p>
+    O PFPSA contará com um órgão colegiado com atribuição de: (Incluído com veto por Publicação de Veto Parcialmente Rejeitado da <span xlink:href="urn:lex:br:federal:lei:2021-01-13;14119">Lei nº 14.119 de 13.01.2021</span> (Diário Oficial da União - Edição Extra de 26.03.2021 - nº 58-D (p. 3, col. 2)))
+
+  </p>
+            <Inciso id="art15_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:2021-01-13;14119-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    propor prioridades e critérios de aplicação dos recursos do PFPSA; (Incluído por Publicação de Veto Parcialmente Rejeitado da <span xlink:href="urn:lex:br:federal:lei:2021-01-13;14119">Lei nº 14.119 de 13.01.2021</span> (Diário Oficial da União - Edição Extra de 26.03.2021 - nº 58-D (p. 3, col. 2)))
+
+  </p>
+            
+          </Inciso><Inciso id="art15_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:2021-01-13;14119-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    monitorar a conformidade dos investimentos realizados pelo PFPSA com os objetivos e as diretrizes da PNPSA, bem como propor os ajustes necessários à implementação do Programa; (Incluído por Publicação de Veto Parcialmente Rejeitado da <span xlink:href="urn:lex:br:federal:lei:2021-01-13;14119">Lei nº 14.119 de 13.01.2021</span> (Diário Oficial da União - Edição Extra de 26.03.2021 - nº 58-D (p. 3, col. 2)))
+
+  </p>
+            
+          </Inciso><Inciso id="art15_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:2021-01-13;14119-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    avaliar, a cada 4 (quatro) anos, o PFPSA e sugerir as adequações necessárias ao Programa; (Incluído por Publicação de Veto Parcialmente Rejeitado da <span xlink:href="urn:lex:br:federal:lei:2021-01-13;14119">Lei nº 14.119 de 13.01.2021</span> (Diário Oficial da União - Edição Extra de 26.03.2021 - nº 58-D (p. 3, col. 2)))
+
+  </p>
+            
+          </Inciso><Inciso id="art15_cpt_inc4">
+            <!--Link: urn:lex:br:federal:lei:2021-01-13;14119-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    manifestar-se, anualmente, sobre o plano de aplicação de recursos do PFPSA e sobre os critérios de métrica de valoração, de validação, de monitoramento, de verificação e de certificação dos serviços ambientais utilizados pelos órgãos competentes. (Incluído por Publicação de Veto Parcialmente Rejeitado da <span xlink:href="urn:lex:br:federal:lei:2021-01-13;14119">Lei nº 14.119 de 13.01.2021</span> (Diário Oficial da União - Edição Extra de 26.03.2021 - nº 58-D (p. 3, col. 2)))
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art15_par1">
+            <!--Link: urn:lex:br:federal:lei:2021-01-13;14119-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O órgão colegiado previsto no caput deste artigo será composto, de forma paritária, por representantes do poder público, do setor produtivo e da sociedade civil e será presidido pelo titular do órgão central do Sisnama. (Incluído por Publicação de Veto Parcialmente Rejeitado da <span xlink:href="urn:lex:br:federal:lei:2021-01-13;14119">Lei nº 14.119 de 13.01.2021</span> (Diário Oficial da União - Edição Extra de 26.03.2021 - nº 58-D (p. 3, col. 2)))
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par2">
+            <!--Link: urn:lex:br:federal:lei:2021-01-13;14119-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A participação no órgão colegiado previsto no caput deste artigo é considerada de relevante interesse público e não será remunerada. (Incluído por Publicação de Veto Parcialmente Rejeitado da <span xlink:href="urn:lex:br:federal:lei:2021-01-13;14119">Lei nº 14.119 de 13.01.2021</span> (Diário Oficial da União - Edição Extra de 26.03.2021 - nº 58-D (p. 3, col. 2)))
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par3">
+            <!--Link: urn:lex:br:federal:lei:2021-01-13;14119-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O regulamento definirá a composição do colegiado, e os representantes do setor produtivo e da sociedade civil deverão ser escolhidos entre seus pares, por meio de processo eletivo. (Incluído por Publicação de Veto Parcialmente Rejeitado da <span xlink:href="urn:lex:br:federal:lei:2021-01-13;14119">Lei nº 14.119 de 13.01.2021</span> (Diário Oficial da União - Edição Extra de 26.03.2021 - nº 58-D (p. 3, col. 2)))
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par4">
+            <!--Link: urn:lex:br:federal:lei:2021-01-13;14119-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Comporão o colegiado as organizações da sociedade civil que trabalham em prol da defesa do meio ambiente, bem como as que representam provedores de serviços ambientais, como povos indígenas, comunidades tradicionais, agricultores familiares e empreendedores familiares rurais. (Incluído por Publicação de Veto Parcialmente Rejeitado da <span xlink:href="urn:lex:br:federal:lei:2021-01-13;14119">Lei nº 14.119 de 13.01.2021</span> (Diário Oficial da União - Edição Extra de 26.03.2021 - nº 58-D (p. 3, col. 2)))
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap3_sec6">
+            
+            
+            <Rotulo>Seção VI</Rotulo>
+            <NomeAgrupador>
+    Do Cadastro Nacional de Pagamento por Serviços Ambientais (CNPSA)
+
+  </NomeAgrupador>
+            <Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            <!--Link: urn:lex:br:federal:lei:2021-01-13;14119-->
+            
+            
+            <p>
+    Fica instituído o Cadastro Nacional de Pagamento por Serviços Ambientais (CNPSA), mantido pelo órgão gestor do PFPSA, que conterá, no mínimo, os contratos de pagamento por serviços ambientais realizados que envolvam agentes públicos e privados, as áreas potenciais e os respectivos serviços ambientais prestados e as metodologias e os dados que fundamentaram a valoração dos ativos ambientais, bem como as informações sobre os planos, programas e projetos que integram o PFPSA. (Incluído com veto por Publicação de Veto Parcialmente Rejeitado da <span xlink:href="urn:lex:br:federal:lei:2021-01-13;14119">Lei nº 14.119 de 13.01.2021</span> (Diário Oficial da União - Edição Extra de 26.03.2021 - nº 58-D (p. 3, col. 2)))
+
+  </p>
+            
+          </Caput><Paragrafo id="art16_par1">
+            <!--Link: urn:lex:br:federal:lei:2021-01-13;14119-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O CNPSA unificará, em banco de dados, as informações encaminhadas pelos órgãos federais, estaduais e municipais competentes, pelos agentes privados, pelas Oscip e por outras organizações não governamentais que atuarem em projetos de pagamento por serviços ambientais. (Incluído por Publicação de Veto Parcialmente Rejeitado da <span xlink:href="urn:lex:br:federal:lei:2021-01-13;14119">Lei nº 14.119 de 13.01.2021</span> (Diário Oficial da União - Edição Extra de 26.03.2021 - nº 58-D (p. 3, col. 2)))
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par2">
+            <!--Link: urn:lex:br:federal:lei:2021-01-13;14119-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O CNPSA será acessível ao público e integrado ao Sistema Nacional de Informações sobre Meio Ambiente (Sinima), ao Sistema de Informação sobre a Biodiversidade Brasileira (SiBBr) e ao Sistema de Cadastro Ambiental Rural (Sicar). (Incluído por Publicação de Veto Parcialmente Rejeitado da <span xlink:href="urn:lex:br:federal:lei:2021-01-13;14119">Lei nº 14.119 de 13.01.2021</span> (Diário Oficial da União - Edição Extra de 26.03.2021 - nº 58-D (p. 3, col. 2)))
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="cap4">
+            
+            
+            <Rotulo>CAPÍTULO IV</Rotulo>
+            <NomeAgrupador>
+    DOS INCENTIVOS
+
+  </NomeAgrupador>
+            <Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            <!--Link: urn:lex:br:federal:lei:2021-01-13;14119-->
+            
+            
+            <p>
+    Os valores recebidos a título de pagamento por serviços ambientais, definido no inciso IV do caput do art. 2º desta Lei, não integram a base de cálculo do Imposto sobre a Renda e Proventos de Qualquer Natureza, da Contribuição Social sobre o Lucro Líquido (CSLL), da Contribuição para os Programas de Integração Social e de Formação do Patrimônio do Servidor Público (PIS/Pasep) e da Contribuição para o Financiamento da Seguridade Social (Cofins). (Incluído com veto por Publicação de Veto Parcialmente Rejeitado da <span xlink:href="urn:lex:br:federal:lei:2021-01-13;14119">Lei nº 14.119 de 13.01.2021</span> (Seq. 2) (Diário Oficial da União de 11.06.2021 (p. 1, col. 2)))
+
+  </p>
+            
+          </Caput><Paragrafo id="art17_par1u">
+            <!--Link: urn:lex:br:federal:lei:2021-01-13;14119-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O disposto no caput deste artigo aplica-se somente aos contratos realizados pelo poder público ou, se firmados entre particulares, desde que registrados no CNPSA, sujeitando-se o contribuinte às ações fiscalizatórias cabíveis. (Incluído por Publicação de Veto Parcialmente Rejeitado da <span xlink:href="urn:lex:br:federal:lei:2021-01-13;14119">Lei nº 14.119 de 13.01.2021</span> (Seq. 2) (Diário Oficial da União de 11.06.2021 (p. 1, col. 2)))
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            
+            
+            
+            <p>
+    (VETADO).
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            
+            
+            
+            <p>
+    (VETADO).
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap5">
+            
+            
+            <Rotulo>CAPÍTULO V</Rotulo>
+            <NomeAgrupador>
+    DISPOSIÇÕES FINAIS
+
+  </NomeAgrupador>
+            <Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            <!--Link: urn:lex:br:federal:lei:1999-03-23;9790-->
+            
+            
+            <p>
+    Para o cumprimento do disposto nesta Lei, a União poderá firmar convênios com Estados, com o Distrito Federal, com Municípios e com entidades de direito público, bem como termos de parceria com entidades qualificadas como organizações da sociedade civil de interesse público, nos termos da <span xlink:href="urn:lex:br:federal:lei:1999-03-23;9790">Lei nº 9.790, de 23 de março de 1999</span>.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            <!--Link: urn:lex:br:federal:lei:1997-01-08;9433-->
+            
+            
+            <p>
+    As receitas oriundas da cobrança pelo uso dos recursos hídricos de que trata a <span xlink:href="urn:lex:br:federal:lei:1997-01-08;9433">Lei nº 9.433, de 8 de janeiro de 1997</span>, poderão ser destinadas a ações de pagamento por serviços ambientais que promovam a conservação e a melhoria da quantidade e da qualidade dos recursos hídricos e deverão ser aplicadas conforme decisão do comitê da bacia hidrográfica.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art22">
+            
+            
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            
+            
+            
+            <p>
+    As obrigações constantes de contratos de pagamento por serviços ambientais, quando se referirem à conservação ou restauração da vegetação nativa em imóveis particulares, ou mesmo à adoção ou manutenção de determinadas práticas agrícolas, agroflorestais ou agrossilvopastoris, têm natureza propter rem e devem ser cumpridas pelo adquirente do imóvel nas condições estabelecidas contratualmente.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art23">
+            
+            
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            <!--Link: urn:lex:br:federal:lei:1991-07-24;8212!art12_par9-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1991-07-24;8212!art12_par9">§ 9º do art. 12 da Lei nº 8.212, de 24 de julho de 1991</span>, passa a vigorar acrescido do seguinte inciso VIII:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1991-07-24;8212" id="art23_cpt_alt1">              
+              <Artigo xlink:href="art12" id="art23_cpt_alt1_art12" abreAspas="s">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput xlink:href="art12_cpt" id="art23_cpt_alt1_art12_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Omissis id="art23_cpt_alt1_art12_omi1"/><Paragrafo xlink:href="art12_par9" id="art23_cpt_alt1_art12_par9" textoOmitido="s">
+            
+            
+            <Rotulo>§ 9º</Rotulo>
+            
+            <Omissis id="art23_cpt_alt1_art12_par9_omi1"/><Inciso xlink:href="art12_par9_inc8" id="art23_cpt_alt1_art12_par9_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    a participação em programas e ações de pagamento por serviços ambientais.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Omissis id="art23_cpt_alt1_art12_omi2" fechaAspas="s"/>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art24">
+            
+            
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput id="art24_cpt">
+            <!--Link: urn:lex:br:federal:lei:1993-02-25;8629!art10-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1993-02-25;8629!art10">art. 10 da Lei nº 8.629, de 25 de fevereiro de 1993</span>, passa a vigorar acrescido do seguinte inciso V:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1993-02-25;8629" id="art24_cpt_alt1">              
+              <Artigo xlink:href="art10" id="art24_cpt_alt1_art10" abreAspas="s">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput xlink:href="art10_cpt" id="art24_cpt_alt1_art10_cpt" textoOmitido="s">
+            
+            
+            
+            
+            <Omissis id="art24_cpt_alt1_art10_cpt_omi1"/><Inciso xlink:href="art10_cpt_inc5" id="art24_cpt_alt1_art10_cpt_inc5" fechaAspas="s">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    as áreas com remanescentes de vegetação nativa efetivamente conservada não protegidas pela legislação ambiental e não submetidas a exploração nos termos do inciso IV do § 3º do art. 6º desta Lei.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art25">
+            
+            
+            <Rotulo>Art. 25.</Rotulo>
+            
+            <Caput id="art25_cpt">
+            <!--Link: urn:lex:br:federal:lei:1973-12-31;6015!art167_cpt_inc1-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1973-12-31;6015!art167_cpt_inc1">inciso I do caput do art. 167 da Lei nº 6.015, de 31 de dezembro de 1973</span>, passa a vigorar acrescido do seguinte item 45:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1973-12-31;6015" id="art25_cpt_alt1">              
+              <Artigo xlink:href="art167" id="art25_cpt_alt1_art167" abreAspas="s">
+            
+            
+            <Rotulo>Art. 167.</Rotulo>
+            
+            <Caput xlink:href="art167_cpt" id="art25_cpt_alt1_art167_cpt" textoOmitido="s">
+            
+            
+            
+            
+            <Inciso xlink:href="art167_cpt_inc1" id="art25_cpt_alt1_art167_cpt_inc1" textoOmitido="s">
+            
+            
+            <Rotulo>I –</Rotulo>
+            
+            <Omissis id="art25_cpt_alt1_art167_cpt_inc1_omi1"/><Item xlink:href="art167_cpt_inc1_ite45" id="art25_cpt_alt1_art167_cpt_inc1_ite45">
+            
+            
+            <Rotulo>45.</Rotulo>
+            <p>
+    do contrato de pagamento por serviços ambientais, quando este estipular obrigações de natureza propter rem;
+
+  </p>
+            
+          </Item>
+          </Inciso>
+          </Caput><Omissis id="art25_cpt_alt1_art167_omi1" fechaAspas="s"/>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art26">
+            
+            
+            <Rotulo>Art. 26.</Rotulo>
+            
+            <Caput id="art26_cpt">
+            
+            
+            
+            <p>
+    Esta Lei entra em vigor na data de sua publicação.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 13 de janeiro de 2021; 200º da Independência e 133º da República.</p></LocalDataFecho><Assinatura><NomePessoa>JAIR MESSIAS BOLSONARO</NomePessoa><NomePessoa>Tercio Issami Tokano</NomePessoa><NomePessoa>Paulo Guedes</NomePessoa><NomePessoa>Tereza Cristina Corrêa da Costa Dias</NomePessoa><NomePessoa>Bento Albuquerque</NomePessoa><NomePessoa>Ricardo de Aquino Salles</NomePessoa><NomePessoa>José Levi Mello do Amaral Júnior</NomePessoa></Assinatura></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>

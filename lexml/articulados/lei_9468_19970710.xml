@@ -1,0 +1,661 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:1997-07-10;9468"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">LEI Nº 9.468, DE 10 DE JULHO DE 1997 </Epigrafe>
+		  <Ementa id="ementa">Institui o Programa de Desligamento Voluntário de servidores civis do Poder Executivo Federal e dá outras providências.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    Faço saber que o Presidente da República adotou a Medida Provisória nº 1.530-7, de 1997, que o Congresso Nacional aprovou, e eu, Antonio Carlos Magalhães, Presidente, para os efeitos do disposto no parágrafo único do art. 62 da Constituição Federal, promulgo a seguinte Lei:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    Fica instituído, no âmbito do Poder Executivo Federal, o Programa de Desligamento Voluntário - PDV, do servidor público civil, com o objetivo de possibilitar melhor alocação dos recursos humanos, propiciar a modernização da Administração e auxiliar no equilíbrio das contas públicas.
+
+  </p>
+            
+          </Caput><Paragrafo id="art1_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O PDV terá período de adesão de 28 dias, na forma do regulamento.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    Poderão aderir ao PDV os servidores públicos civis da Administração direta, autárquica e fundacional, inclusive dos extintos territórios, ocupantes de cargo efetivo, exceto os ocupantes dos cargos relacionados no Anexo e aqueles que:
+
+  </p>
+            <Inciso id="art2_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    estejam em estágio probatório;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    tenham requerido aposentadoria;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc3">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    tenham se aposentado em função pública, em cargo cuja acumulação não esteja prevista no art. 37, XVI e XVII, da <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição</span>, e tenham optado pela remuneração do cargo efetivo que ocupem;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    tenham sido condenados por decisão judicial transitada em julgado, que importe na perda do cargo;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc5">
+            <!--Link: urn:lex:br:federal:lei:1990-12-11;8112!art229_cpt_inc1--><!--Link: urn:lex:br:federal:lei:1990-12-11;8112!art229_cpt_inc2-->
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    estejam afastados nas condições previstas nos <span xlink:href="urn:lex:br:federal:lei:1990-12-11;8112!art229_cpt_inc1">incisos I</span> e <span xlink:href="urn:lex:br:federal:lei:1990-12-11;8112!art229_cpt_inc2">II do art. 229 da Lei nº 8.112, de 11 de dezembro de 1990</span>;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc6">
+            <!--Link: urn:lex:br:federal:lei:1990;8112!art186_par1-->
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    estejam afastados em virtude de licença para tratamento de saúde, quando acometidos das doenças especificadas no <span xlink:href="urn:lex:br:federal:lei:1990;8112!art186_par1">§ 1º do art. 186 da Lei nº 8.112, de 1990</span>.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art2_par1">
+            <!--Link: urn:lex:br:federal:ato.disposicoes.constitucionais.transitorias:1988-10-05;1988!art19-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os servidores não amparados pelo <span xlink:href="urn:lex:br:federal:ato.disposicoes.constitucionais.transitorias:1988-10-05;1988!art19">art. 19 do Ato das Disposições Constitucionais Transitórias</span>, ainda que ocupantes de cargos relacionados no Anexo, poderão, igualmente, aderir ao PDV.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A Administração, no estrito interesse do serviço público, reserva-se o direito de não aceitar pedidos de adesão ao PDV.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O servidor que tenha ingressado com requerimento para fins de aposentadoria, desde que ainda não publicada no Diário Oficial da União, poderá participar do PDV, mediante apresentação de prova formal de desistência daquele processo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O deferimento definitivo da inclusão no PDV de servidor que esteja respondendo a procedimento administrativo ou procedimento penal dependerá da conclusão do processo no prazo máximo de 120 dias, a contar da data de encerramento do prazo de adesão, com decisão pelo não-cabimento da pena de demissão, observado o disposto no § 2º deste artigo, valendo, para fins de adesão ao Programa, a data constante do seu pedido.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    O servidor com participação em curso às expensas do Governo Federal poderá aderir ao PDV, mediante o ressarcimento das despesas havidas, a ser compensado quando do pagamento da indenização, da seguinte forma:
+
+  </p>
+            <Alinea id="art2_par5_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    integral, se o curso estiver em andamento;
+
+  </p>
+            
+          </Alinea><Alinea id="art2_par5_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    proporcional, na hipótese de ainda não ter decorrido, após o curso, período de efetivo exercício equivalente ao do afastamento.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo><Paragrafo id="art2_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    Serão indeferidos e publicados no Diário Oficial da União os pedidos de exoneração em desacordo com o disposto neste artigo, não sendo admitido recurso em nível administrativo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    O servidor que aderir ao PDV deverá permanecer em efetivo exercício até a data da publicação de sua exoneração.
+
+  </p>
+            
+          </Caput><Paragrafo id="art3_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O ato de exoneração dos servidores que tiverem deferida sua adesão ao PDV será publicado no Diário Oficial da União, impreterivelmente nos trinta dias seguintes à data de entrega do pedido de adesão ao Programa na unidade de Recursos Humanos, à exceção dos casos previstos no § 4º do artigo anterior.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    Ao servidor que aderir ao PDV serão concedidos os seguintes incentivos financeiros:
+
+  </p>
+            <Inciso id="art4_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    para o servidor que contar, na data da exoneração, com até catorze anos, inclusive, de efetivo exercício no âmbito da Administração Pública Federal direta, autárquica e fundacional:
+
+  </p>
+            <Alinea id="art4_cpt_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    indenização de uma remuneração por ano de efetivo exercício;
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    acréscimo de 25% sobre o valor total da indenização prevista na alínea “a” deste inciso, para os que aderirem ao PDV nos primeiros quinze dias do Programa;
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_inc1_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    acréscimo de 5% sobre o valor total da indenização prevista na alínea “a” deste inciso, para os que aderirem ao PDV entre o décimo-sexto e o vigésimo dia do Programa;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art4_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    para o servidor que contar, na data da exoneração, com mais de catorze e até vinte e quatro anos, inclusive, de efetivo exercício no âmbito da Administração Pública Federal direta, autárquica e fundacional:
+
+  </p>
+            <Alinea id="art4_cpt_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    indenização de uma remuneração por ano de efetivo exercício até o décimo-quarto ano;
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    indenização de uma remuneração e meia por ano de efetivo exercício, a partir do décimo-quinto até a vigésimo-quarto ano;
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_inc2_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    acréscimo de 25% sobre o valor total da indenização prevista nas alíneas “a” e “b” deste inciso, para os que aderirem ao PDV nos primeiros quinze dias do Programa;
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_inc2_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    acréscimo de 5% sobre o valor total da indenização prevista nas alíneas “a” e “b” deste inciso, para os que aderirem ao PDV entre o décimo-sexto e o vigésimo dia do Programa;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art4_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    para o servidor que contar, na data da exoneração, com mais de vinte e quatro anos de efetivo exercício no âmbito da Administração Pública Federal direta, autárquica e fundacional:
+
+  </p>
+            <Alinea id="art4_cpt_inc3_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    indenização de uma remuneração por ano de efetivo exercício até o décimo-quarto ano;
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_inc3_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    indenização de uma remuneração e meia por ano de efetivo exercício a partir do décimo-quinto até o vigésimo-quarto ano;
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_inc3_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    indenização de uma remuneração, somada a 80% do seu valor, por ano de efetivo exercício a partir do vigésimo-quinto ano;
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_inc3_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    acréscimo de 25% sobre o valor total da indenização prevista nas alíneas “a”, “b” e “c” deste inciso, para os que aderirem ao PDV nos primeiros quinze dias do Programa;
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_inc3_ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    acréscimo de 5% sobre o valor total da indenização prevista nas alíneas “a”, “b” e “c” deste inciso, para os que aderirem ao PDV entre o décimo-sexto e o vigésimo dia do Programa.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput><Paragrafo id="art4_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Na contagem do tempo de efetivo exercício para o cálculo de concessão dos incentivos financeiros considerar-se-á, como ano integral, a fração igual ou superior a seis meses.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As licenças-prêmio vencidas e não-gozadas serão contadas em dobro e integrarão o cálculo do tempo de efetivo exercício.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Ainda integrará o cálculo do tempo de efetivo exercício, para os efeitos deste artigo, o período em que o servidor esteve em disponibilidade.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    Considerar-se-á como remuneração mensal, para o cálculo dos incentivos financeiros, a soma do vencimento básico, das vantagens permanentes relativas ao cargo e dos adicionais de caráter individual, devidos no mês em que se efetivar o desligamento, além das demais vantagens percebidas com regularidade nos últimos seis meses pelo servidor, nestas compreendidas as relativas à natureza ou local de trabalho, à exceção de:
+
+  </p>
+            <Inciso id="art5_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    retribuição pelo exercício de função ou cargo de direção, chefia ou assessoramento; Il - diárias;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    ajuda de custo em razão de mudança de sede ou indenização de transporte;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    salário-família;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    gratificação natalina;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    auxílio-natalidade;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    auxílio-funeral;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    adicional de férias;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    adicional pela prestação de serviço extraordinário.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art5_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A remuneração mensal máxima, para fins de base do cálculo dos incentivos financeiros, não poderá exceder, a qualquer título, o valor devido, em espécie, aos Ministros de Estado.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    O pagamento dos incentivos de que trata o art. 4º desta Lei será feito, mediante depósito em conta corrente, em até cinco dias úteis a contar da data da publicação, no Diário Oficial da União, do ato de exoneração do servidor.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    Além dos incentivos a que se refere o art. 4º, serão pagas, em até trinta dias a contar da publicação do ato de exoneração, as férias e a gratificação natalina proporcional a que o servidor tiver direito.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    Fica o Conselho Deliberativo do Fundo de Amparo ao Trabalhador - CODEFAT autorizado a instituir programas destinados ao atendimento dos servidores que aderirem ao PDV, com recursos do Fundo de Amparo ao Trabalhador - FAT.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            
+            
+            
+            <p>
+    os dirigentes dos órgãos, autarquias e fundações da Administração Federal são responsáveis pelo cumprimento dos prazos explicitados nesta Lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>
+    No caso de novo ingresso no serviço público federal, o tempo de serviço considerado para apuração do incentivo, nos termos desta Lei, não poderá ser reutilizado para o mesmo fim ou usufruto de qualquer benefício ou vantagem de idêntico fundamento.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            <p>
+    Ficam extintos os cargos que vagarem em decorrência do desligamento de seus ocupantes, nos termos desta Lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            
+            
+            
+            <p>
+    Fica o Ministério da Administração Federal e Reforma do Estado incumbido de coordenar, no âmbito da Administração Federal, o Programa de Desligamento Voluntário, podendo, para tanto, convocar servidores e requisitar equipamentos e instalações de órgãos e entidades da Administração Federal, com encargos para o órgão de origem.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>
+    Ficam as entidades fechadas de previdência privada autorizadas a manter vinculados a seus planos previdenciários e assistenciais, mediante condições a serem repactuadas entre as partes, e sem qualquer ônus para a Administração Pública, os servidores que aderirem ao PDV.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            <p>
+    Para fins de incidência do imposto de renda na fonte e na declaração de rendimentos, serão considerados como indenizações isentas os pagamentos efetuados por pessoas jurídicas de direito público a servidores públicos civis, a título de incentivo à adesão a programas de desligamento voluntário.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>
+    O Poder Executivo regulamentará a execução do disposto nesta Lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            <!--Link: urn:lex:br:federal:medida.provisoria:1997-05-15;1530-6-->
+            
+            
+            <p>
+    Ficam convalidados os atos praticados com base na <span xlink:href="urn:lex:br:federal:medida.provisoria:1997-05-15;1530-6">Medida Provisória nº 1.530-6, de 15 de maio de 1997</span>.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            
+            
+            
+            <p>
+    Esta Lei entra em vigor na data de sua publicação.
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Congresso Nacional, em 10 de julho de 1997; 176º da Independência e 109º da República</p></LocalDataFecho><Assinatura><NomePessoa>Senador ANTONIO CARLOS MAGALHãES</NomePessoa><NomePessoa>Presidente do Congresso Nacional</NomePessoa></Assinatura></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>

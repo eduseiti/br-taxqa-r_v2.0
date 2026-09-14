@@ -1,0 +1,1323 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:1996-12-19;9393"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">LEI Nº 9.393, DE 19 DE DEZEMBRO DE 1996 </Epigrafe>
+		  <Ementa id="ementa">Dispõe sobre o Imposto sobre a Propriedade Territorial Rural - ITR, sobre pagamento da dívida representada por Títulos da Dívida Agrária e dá outras providências.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA
+  </p><p>
+    Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Capitulo id="cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DO IMPOSTO SOBRE A PROPRIEDADE TERRITORIAL RURAL - ITR
+
+  </NomeAgrupador>
+            <Secao id="cap1_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Do Fato Gerador do ITR Definição
+
+  </NomeAgrupador>
+            <Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    O Imposto sobre a Propriedade Territorial Rural - ITR, de apuração anual, tem como fato gerador a propriedade, o domínio útil ou a posse de imóvel por natureza, localizado fora da zona urbana do município, em 1º de janeiro de cada ano.
+
+  </p>
+            
+          </Caput><Paragrafo id="art1_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O ITR incide inclusive sobre o imóvel declarado de interesse social para fins de reforma agrária, enquanto não transferida a propriedade, exceto se houver imissão prévia na posse.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art1_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Para os efeitos desta Lei, considera-se imóvel rural a área contínua, formada de uma ou mais parcelas de terras, localizada na zona rural do município.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art1_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O imóvel que pertencer a mais de um município deverá ser enquadrado no município onde fique a sede do imóvel e, se esta não existir, será enquadrado no município onde se localize a maior parte do imóvel.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art2">
+            
+            <TituloDispositivo>Imunidade</TituloDispositivo>
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            
+            <p>
+    Nos termos do art. 153, § 4º, in fine da <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição</span>, o imposto não incide sobre pequenas glebas rurais, quando as explore, só ou com sua família, o proprietário que não possua outro imóvel.
+
+  </p>
+            
+          </Caput><Paragrafo id="art2_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Para os efeitos deste artigo, pequenas glebas rurais são os imóveis com área igual ou inferior a:
+
+  </p>
+            <Inciso id="art2_par1u_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    100 ha, se localizado em município compreendido na Amazônia Ocidental ou no Pantanal mato-grossense e sul-mato-grossense;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par1u_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    50 ha, se localizado em município compreendido no Polígono das Secas ou na Amazônia Oriental;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par1u_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    30 ha, se localizado em qualquer outro município.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap1_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Da Isenção
+
+  </NomeAgrupador>
+            <Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    São isentos do imposto:
+
+  </p>
+            <Inciso id="art3_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o imóvel rural compreendido em programa oficial de reforma agrária, caracterizado pelas autoridades competentes como assentamento, que, cumulativamente, atenda aos seguintes requisitos:
+
+  </p>
+            <Alinea id="art3_cpt_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    seja explorado por associação ou cooperativa de produção;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    a fração ideal por família assentada não ultrapasse os limites estabelecidos no artigo anterior;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_inc1_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    o assentado não possua outro imóvel.
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art3_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o conjunto de imóveis rurais de um mesmo proprietário, cuja área total observe os limites fixados no parágrafo único do artigo anterior, desde que, cumulativamente, o proprietário:
+
+  </p>
+            <Alinea id="art3_cpt_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    o explore só ou com sua família, admitida ajuda eventual de terceiros;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    não possua imóvel urbano.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art3-1">
+            
+            
+            <Rotulo>Art. 3º-A.</Rotulo>
+            
+            <Caput id="art3-1_cpt">
+            
+            
+            
+            <p>
+    Os imóveis rurais oficialmente reconhecidos como áreas ocupadas por remanescentes de comunidades de quilombos que estejam sob a ocupação direta e sejam explorados, individual ou coletivamente, pelos membros destas comunidades são isentos do Imposto sobre a Propriedade Territorial Rural - ITR.
+
+  </p>
+            
+          </Caput><Paragrafo id="art3-1_par1">
+            <!--Link: urn:lex:br:federal:ato.disposicoes.constitucionais.transitorias:1988-10-05;1988!art68-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Ficam dispensados a constituição de créditos da Fazenda Nacional, a inscrição na Dívida Ativa da União e o ajuizamento da respectiva execução fiscal, e cancelados o lançamento e a inscrição relativos ao ITR referentes aos imóveis rurais de que trata o caput a partir da data do registro do título de domínio previsto no <span xlink:href="urn:lex:br:federal:ato.disposicoes.constitucionais.transitorias:1988-10-05;1988!art68">art. 68 do Ato das Disposições Constitucionais Transitórias</span>.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3-1_par2">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2014-07-09;651--><!--Link: urn:lex:br:federal:lei:2014-11-13;13043-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Observada a data prevista no § 1º, não serão aplicadas as penalidades estabelecidas nos arts. 7º e 9º para fatos geradores ocorridos até a data de publicação da lei decorrente da conversão da <span xlink:href="urn:lex:br:federal:medida.provisoria:2014-07-09;651">Medida Provisória nº 651, de 9 de julho de 2014</span>, e ficam anistiados os valores decorrentes de multas lançadas pela apresentação da declaração do ITR fora do prazo. (Artigo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2014-11-13;13043">Lei nº 13.043, de 13.11.2014</span>, em vigor a partir de 1º de janeiro de 2015)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap1_sec3">
+            
+            
+            <Rotulo>Seção III</Rotulo>
+            <NomeAgrupador>
+    Do Contribuinte e do Responsável Contribuinte
+
+  </NomeAgrupador>
+            <Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    Contribuinte do ITR é o proprietário de imóvel rural, o titular de seu domínio útil ou o seu possuidor a qualquer título.
+
+  </p>
+            
+          </Caput><Paragrafo id="art4_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O domicílio tributário do contribuinte é o município de localização do imóvel, vedada a eleição de qualquer outro.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art5">
+            
+            <TituloDispositivo>Responsável</TituloDispositivo>
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            <!--Link: urn:lex:br:federal:lei:1966-10-25;5172-->
+            
+            
+            <p>
+    É responsável pelo crédito tributário o sucessor, a qualquer título, nos termos dos arts. 128 a 133 da <span xlink:href="urn:lex:br:federal:lei:1966-10-25;5172">Lei nº 5.172, de 25 de outubro de 1966</span> (Sistema Tributário Nacional).
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap1_sec4">
+            
+            
+            <Rotulo>Seção IV</Rotulo>
+            <NomeAgrupador>
+    Das Informações Cadastrais Entrega do DIAC
+
+  </NomeAgrupador>
+            <Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    O contribuinte ou o seu sucessor comunicará ao órgão local da Secretaria da Receita Federal (SRF), por meio do Documento de Informação e Atualização Cadastral do ITR - DIAC, as informações cadastrais correspondentes a cada imóvel, bem como qualquer alteração ocorrida, na forma estabelecida pela Secretaria da Receita Federal.
+
+  </p>
+            
+          </Caput><Paragrafo id="art6_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    É obrigatória, no prazo de sessenta dias, contado de sua ocorrência, a comunicação das seguintes alterações:
+
+  </p>
+            <Inciso id="art6_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    desmembramento;
+
+  </p>
+            
+          </Inciso><Inciso id="art6_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    anexação;
+
+  </p>
+            
+          </Inciso><Inciso id="art6_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    transmissão, por alienação da propriedade ou dos direitos a ela inerentes, a qualquer título;
+
+  </p>
+            
+          </Inciso><Inciso id="art6_par1_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    sucessão causa mortis;
+
+  </p>
+            
+          </Inciso><Inciso id="art6_par1_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    cessão de direitos;
+
+  </p>
+            
+          </Inciso><Inciso id="art6_par1_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    constituição de reservas ou usufruto.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art6_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As informações cadastrais integrarão o Cadastro de Imóveis Rurais - CAFIR, administrado pela Secretaria da Receita Federal, que poderá, a qualquer tempo, solicitar informações visando à sua atualização.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art6_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Sem prejuízo do disposto no parágrafo único do art. 4º, o contribuinte poderá indicar no DIAC, somente para fins de intimação, endereço diferente daquele constante do domicílio tributário, que valerá para esse efeito até ulterior alteração.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art7">
+            
+            <TituloDispositivo>Entrega do DIAC Fora do Prazo</TituloDispositivo>
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    No caso de apresentação espontânea do DIAC fora do prazo estabelecido pela Secretaria da Receita Federal, será cobrada multa de 1% (um por cento) ao mês ou fração sobre o imposto devido não inferior a R$50,00 (cinqüenta reais), sem prejuízo da multa e dos juros de mora pela falta ou insuficiência de recolhimento do imposto ou quota.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap1_sec5">
+            
+            
+            <Rotulo>Seção V</Rotulo>
+            <NomeAgrupador>
+    Da Declaração Anual
+
+  </NomeAgrupador>
+            <Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    O contribuinte do ITR entregará, obrigatoriamente, em cada ano, o Documento de Informação e Apuração do ITR - DIAT, correspondente a cada imóvel, observadas data e condições fixadas pela Secretaria da Receita Federal.
+
+  </p>
+            
+          </Caput><Paragrafo id="art8_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O contribuinte declarará, no DIAT, o Valor da Terra Nua - VTN correspondente ao imóvel.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O VTN refletirá o preço de mercado de terras, apurado em 1º de janeiro do ano a que se referir o DIAT, e será considerado auto-avaliação da terra nua a preço de mercado.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8_par3">
+            <!--Link: urn:lex:br:federal:lei:2014-11-13;13043-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O contribuinte cujo imóvel se enquadre nas hipóteses estabelecidas nos arts. 2º, 3º e 3º-A fica dispensado da apresentação do DIAT. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2014-11-13;13043">Lei nº 13.043, de 13.11.2014</span>, em vigor a partir de 1º de janeiro de 2015)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art9">
+            
+            <TituloDispositivo>Entrega do DIAT Fora do Prazo</TituloDispositivo>
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            
+            
+            
+            <p>
+    A entrega do DIAT fora do prazo estabelecido sujeitará o contribuinte à multa de que trata o art. 7º, sem prejuízo da multa e dos juros de mora pela falta ou insuficiência de recolhimento do imposto ou quota.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap1_sec6">
+            
+            
+            <Rotulo>Seção VI</Rotulo>
+            <NomeAgrupador>
+    Da Apuração e do Pagamento
+
+  </NomeAgrupador>
+            <Subsecao id="cap1_sec6_sub1">
+            
+            
+            <Rotulo>Subseção I</Rotulo>
+            <NomeAgrupador>
+    Da Apuração Apuração pelo contribuinte
+
+  </NomeAgrupador>
+            <Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>
+    A apuração e o pagamento do ITR serão efetuados pelo contribuinte, independentemente de prévio procedimento da administração tributária, nos prazos e condições estabelecidos pela Secretaria da Receita Federal, sujeitando-se a homologação posterior.
+
+  </p>
+            
+          </Caput><Paragrafo id="art10_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Para os efeitos de apuração do ITR, considerar-se-á:
+
+  </p>
+            <Inciso id="art10_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    VTN, o valor do imóvel excluídos os valores relativos a:
+
+  </p>
+            <Alinea id="art10_par1_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    construções, instalações e benfeitorias;
+
+  </p>
+            
+          </Alinea><Alinea id="art10_par1_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    culturas permanentes e temporárias;
+
+  </p>
+            
+          </Alinea><Alinea id="art10_par1_inc1_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    pastagens cultivadas e melhoradas;
+
+  </p>
+            
+          </Alinea><Alinea id="art10_par1_inc1_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    florestas plantadas;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art10_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    área tributável, a área total do imóvel, menos as áreas:
+
+  </p>
+            <Alinea id="art10_par1_inc2_ali1">
+            <!--Link: urn:lex:br:federal:lei:2012-05-25;12651--><!--Link: urn:lex:br:federal:lei:2013-07-19;12844-->
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    de preservação permanente e de reserva legal, previstas na <span xlink:href="urn:lex:br:federal:lei:2012-05-25;12651">Lei nº 12.651, de 25 de maio de 2012</span>; (Alínea com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2013-07-19;12844">Lei nº 12.844, de 19.7.2013</span>, aplicando-se aos fatos geradores ocorridos a partir de 1º de janeiro de 2013)
+
+  </p>
+            
+          </Alinea><Alinea id="art10_par1_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    de interesse ecológico para a proteção dos ecossistemas, assim declaradas mediante ato do órgão competente, federal ou estadual, e que ampliem as restrições de uso previstas na alínea anterior;
+
+  </p>
+            
+          </Alinea><Alinea id="art10_par1_inc2_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    comprovadamente imprestáveis para qualquer exploração agrícola, pecuária, granjeira, aqüícola ou florestal, declaradas de interesse ecológico mediante ato do órgão competente, federal ou estadual;
+
+  </p>
+            
+          </Alinea><Alinea id="art10_par1_inc2_ali4">
+            <!--Link: urn:lex:br:federal:lei:2006-12-22;11428--><!--Link: urn:lex:br:federal:lei:2012-05-25;12651-->
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    sob regime de servidão ambiental; (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:lei:2006-12-22;11428">Lei nº 11.428, de 22.12.2006</span>, e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2012-05-25;12651">Lei nº 12.651, de 25.5.2012</span>)
+
+  </p>
+            
+          </Alinea><Alinea id="art10_par1_inc2_ali5">
+            <!--Link: urn:lex:br:federal:lei:2006-12-22;11428-->
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    cobertas por florestas nativas, primárias ou secundárias em estágio médio ou avançado de regeneração; (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:lei:2006-12-22;11428">Lei nº 11.428, de 22.12.2006</span>)
+
+  </p>
+            
+          </Alinea><Alinea id="art10_par1_inc2_ali6">
+            <!--Link: urn:lex:br:federal:lei:2008-06-23;11727-->
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    alagadas para fins de constituição de reservatório de usinas hidrelétricas autorizada pelo poder público. (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:lei:2008-06-23;11727">Lei nº 11.727, de 23.6.2008</span>)
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art10_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    VTNt, o valor da terra nua tributável, obtido pela multiplicação do VTN pelo quociente entre a área tributável e a área total;
+
+  </p>
+            
+          </Inciso><Inciso id="art10_par1_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    área aproveitável, a que for passível de exploração agrícola, pecuária, granjeira, aqüícola ou florestal, excluídas as áreas:
+
+  </p>
+            <Alinea id="art10_par1_inc4_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    ocupadas por benfeitorias úteis e necessárias;
+
+  </p>
+            
+          </Alinea><Alinea id="art10_par1_inc4_ali2">
+            <!--Link: urn:lex:br:federal:lei:2006-12-22;11428-->
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    de que tratam as alíneas do inciso II deste parágrafo; (Alínea com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2006-12-22;11428">Lei nº 11.428, de 22.12.2006</span>)
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art10_par1_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    área efetivamente utilizada, a porção do imóvel que no ano anterior tenha:
+
+  </p>
+            <Alinea id="art10_par1_inc5_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    sido plantada com produtos vegetais;
+
+  </p>
+            
+          </Alinea><Alinea id="art10_par1_inc5_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    servido de pastagem, nativa ou plantada, observados índices de lotação por zona de pecuária;
+
+  </p>
+            
+          </Alinea><Alinea id="art10_par1_inc5_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    sido objeto de exploração extrativa, observados os índices de rendimento por produto e a legislação ambiental;
+
+  </p>
+            
+          </Alinea><Alinea id="art10_par1_inc5_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    servido para exploração de atividades granjeira e aqüícola;
+
+  </p>
+            
+          </Alinea><Alinea id="art10_par1_inc5_ali5">
+            <!--Link: urn:lex:br:federal:lei:1993-02-25;8629!art7-->
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    sido o objeto de implantação de projeto técnico, nos termos do <span xlink:href="urn:lex:br:federal:lei:1993-02-25;8629!art7">art. 7º da Lei nº 8.629, de 25 de fevereiro de 1993</span>;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art10_par1_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    Grau de Utilização - GU, a relação percentual entre a área efetivamente utilizada e a área aproveitável.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art10_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As informações que permitam determinar o GU deverão constar do DIAT.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Os índices a que se referem as alíneas b e c do inciso V do § 1º serão fixados, ouvido o Conselho Nacional de Política Agrícola, pela Secretaria da Receita Federal, que dispensará da sua aplicação os imóveis com área inferior a:
+
+  </p>
+            <Alinea id="art10_par3_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    1.000 ha, se localizados em municípios compreendidos na Amazônia Ocidental ou no Pantanal mato-grossense e sul-mato-grossense;
+
+  </p>
+            
+          </Alinea><Alinea id="art10_par3_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    500 ha, se localizados em municípios compreendidos no Polígono das Secas ou na Amazônia Oriental;
+
+  </p>
+            
+          </Alinea><Alinea id="art10_par3_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    200 ha, se localizados em qualquer outro município.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo><Paragrafo id="art10_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Para os fins do inciso V do § 1º, o contribuinte poderá valer-se dos dados sobre a área utilizada e respectiva produção, fornecidos pelo arrendatário ou parceiro, quando o imóvel, ou parte dele, estiver sendo explorado em regime de arrendamento ou parceria.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Na hipótese de que trata a alínea c do inciso V do § 1º, será considerada a área total objeto de plano de manejo sustentado, desde que aprovado pelo órgão competente, e cujo cronograma esteja sendo cumprido pelo contribuinte.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    Será considerada como efetivamente utilizada a área dos imóveis rurais que, no ano anterior, estejam:
+
+  </p>
+            <Inciso id="art10_par6_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    comprovadamente situados em área de ocorrência de calamidade pública decretada pelo Poder Público, de que resulte frustração de safras ou destruição de pastagens;
+
+  </p>
+            
+          </Inciso><Inciso id="art10_par6_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    oficialmente destinados à execução de atividades de pesquisa e experimentação que objetivem o avanço tecnológico da agricultura.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art10_par7">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2001-08-24;2166-67-->
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    A declaração para fim de isenção do ITR relativa às áreas de que tratam as alíneas a e d do inciso II, § 1º, deste artigo, não está sujeita à prévia comprovação por parte do declarante, ficando o mesmo responsável pelo pagamento do imposto correspondente, com juros e multa previstos nesta Lei, caso fique comprovado que a sua declaração não é verdadeira, sem prejuízo de outras sanções aplicáveis. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-08-24;2166-67">Medida Provisória nº 2.166-67, de 24.8.2001</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art11">
+            
+            <TituloDispositivo>Valor do Imposto</TituloDispositivo>
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            <p>
+    O valor do imposto será apurado aplicando-se sobre o Valor da Terra Nua Tributável - VTNt a alíquota correspondente, prevista no Anexo desta Lei, considerados a área total do imóvel e o Grau de Utilização - GU.
+
+  </p>
+            
+          </Caput><Paragrafo id="art11_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Na hipótese de inexistir área aproveitável após efetuadas as exclusões previstas no art. 10, § 1º, inciso IV, serão aplicadas as alíquotas, correspondentes aos imóveis com grau de utilização superior a 80% (oitenta por cento), observada a área total do imóvel.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art11_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Em nenhuma hipótese o valor do imposto devido será inferior a R$10,00 (dez reais).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Subsecao><Subsecao id="cap1_sec6_sub2">
+            
+            
+            <Rotulo>Subseção II</Rotulo>
+            <NomeAgrupador>
+    Do Pagamento Prazo
+
+  </NomeAgrupador>
+            <Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            
+            
+            
+            <p>
+    O imposto deverá ser pago até o último dia útil do mês fixado para a entrega do DIAT.
+
+  </p>
+            
+          </Caput><Paragrafo id="art12_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    À opção do contribuinte, o imposto a pagar poderá ser parcelado em até três quotas iguais, mensais e consecutivas, observando-se que:
+
+  </p>
+            <Inciso id="art12_par1u_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    nenhuma quota será inferior a R$50,00 (cinqüenta reais);
+
+  </p>
+            
+          </Inciso><Inciso id="art12_par1u_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a primeira quota ou quota única deverá ser paga até a data fixada no caput ;
+
+  </p>
+            
+          </Inciso><Inciso id="art12_par1u_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    as demais quotas, acrescidas de juros equivalentes à taxa referencial do Sistema de Liquidação e de Custódia (SELIC) para títulos federais, acumulada mensalmente, calculados a partir do primeiro dia do mês subseqüente à data fixada no caput até o último dia do mês anterior ao do pagamento, e de 1% (um por cento) no mês do pagamento, vencerão no último dia útil de cada mês;
+
+  </p>
+            
+          </Inciso><Inciso id="art12_par1u_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    é facultado ao contribuinte antecipar, total ou parcialmente, o pagamento do imposto ou das quotas.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo id="art13">
+            
+            <TituloDispositivo>Pagamento Fora do Prazo</TituloDispositivo>
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>
+    O pagamento do imposto fora dos prazos previstos nesta Lei será acrescido de:
+
+  </p>
+            <Inciso id="art13_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    multa de mora calculada à taxa de 0,33% (zero vírgula trinta e três por cento) por dia de atraso, não podendo ultrapassar 20% (vinte por cento), calculada a partir do primeiro dia subseqüente ao do vencimento do prazo previsto para o pagamento do imposto até o dia em que ocorrer o seu pagamento.
+
+  </p>
+            
+          </Inciso><Inciso id="art13_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    juros de mora calculados à taxa a que se refere o art. 12, parágrafo único, inciso III, a partir do primeiro dia do mês subseqüente ao vencimento do prazo até o mês anterior ao do pagamento, e de 1% (um por cento) no mês do pagamento.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Subsecao>
+          </Secao><Secao id="cap1_sec7">
+            
+            
+            <Rotulo>Seção VII</Rotulo>
+            <NomeAgrupador>
+    Dos Procedimentos de Ofício
+
+  </NomeAgrupador>
+            <Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            <p>
+    No caso de falta de entrega do DIAC ou do DIAT, bem como de subavaliação ou prestação de informações inexatas, incorretas ou fraudulentas, a Secretaria da Receita Federal procederá à determinação e ao lançamento de ofício do imposto, considerando informações sobre preços de terras, constantes de sistema a ser por ela instituído, e os dados de área total, área tributável e grau de utilização do imóvel, apurados em procedimentos de fiscalização.
+
+  </p>
+            
+          </Caput><Paragrafo id="art14_par1">
+            <!--Link: urn:lex:br:federal:lei:1993-02-25;8629!art12_par1_inc2-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As informações sobre preços de terra observarão os critérios estabelecidos no <span xlink:href="urn:lex:br:federal:lei:1993-02-25;8629!art12_par1_inc2">art. 12, § 1º, inciso II da Lei nº 8.629, de 25 de fevereiro de 1993</span>, e considerarão levantamentos realizados pelas Secretarias de Agricultura das Unidades Federadas ou dos Municípios.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art14_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As multas cobradas em virtude do disposto neste artigo serão aquelas aplicáveis aos demais tributos federais.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap1_sec8">
+            
+            
+            <Rotulo>Seção VIII</Rotulo>
+            <NomeAgrupador>
+    Da Administração do Imposto Competência da Secretaria da Receita Federal
+
+  </NomeAgrupador>
+            <Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>
+    Compete à Secretaria da Receita Federal a administração do ITR, incluídas as atividades de arrecadação, tributação e fiscalização.
+
+  </p>
+            
+          </Caput><Paragrafo id="art15_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    No processo administrativo fiscal, compreendendo os procedimentos destinados à determinação e exigência do imposto, imposição de penalidades, repetição de indébito e solução de consultas, bem como a compensação do imposto, observar-se-á a legislação prevista para os demais tributos federais.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art16">
+            
+            <TituloDispositivo>Convênios de Cooperação</TituloDispositivo>
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            
+            
+            
+            <p>
+    A Secretaria da Receita Federal poderá celebrar convênio com o Instituto Nacional de Colonização e Reforma Agrária - INCRA, com a finalidade de delegar as atividades de fiscalização das informações sobre os imóveis rurais, contidas no DIAC e no DIAT.
+
+  </p>
+            
+          </Caput><Paragrafo id="art16_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    No exercício da delegação a que se refere este artigo, o INCRA poderá celebrar convênios de cooperação com o Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis - IBAMA, Fundação Nacional do Índio - FUNAI e Secretarias Estaduais de Agricultura.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    No uso de suas atribuições, os agentes do INCRA terão acesso ao imóvel de propriedade particular, para levantamento de dados e informações.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par3">
+            <!--Link: urn:lex:br:federal:lei:2001-08-28;10267-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A Secretaria da Receita Federal, com o apoio do INCRA, administrará o CAFIR e colocará as informações nele contidas à disposição daquela Autarquia, para fins de levantamento e pesquisa de dados e de proposição de ações administrativas e judiciais. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2001-08-28;10267">Lei nº 10.267, de 28.8.2001</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par4">
+            <!--Link: urn:lex:br:federal:lei:1966-10-25;5172!art198--><!--Link: urn:lex:br:federal:lei:2001-08-28;10267-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Às informações a que se refere o § 3º aplica-se o disposto no <span xlink:href="urn:lex:br:federal:lei:1966-10-25;5172!art198">art. 198 da Lei nº 5.172, de 25 de outubro de 1966</span>. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2001-08-28;10267">Lei nº 10.267, de 28.8.2001</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            
+            
+            
+            <p>
+    A Secretaria da Receita Federal poderá, também, celebrar convênios com:
+
+  </p>
+            <Inciso id="art17_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    órgãos da administração tributária das unidades federadas, visando delegar competência para a cobrança e o lançamento do ITR;
+
+  </p>
+            
+          </Inciso><Inciso id="art17_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a Confederação Nacional da Agricultura - CNA e a Confederação Nacional dos Trabalhadores na Agricultura - CONTAG, com a finalidade de fornecer dados cadastrais de imóveis rurais que possibilitem a cobrança das contribuições sindicais devidas àquelas entidades.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap1_sec9">
+            
+            
+            <Rotulo>Seção IX</Rotulo>
+            <NomeAgrupador>
+    Das Disposições Gerais Dívida Ativa - Penhora ou Arresto
+
+  </NomeAgrupador>
+            <Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            <!--Link: urn:lex:br:federal:lei:1980-09-22;6830!art11-->
+            
+            
+            <p>
+    Na execução de dívida ativa, decorrente de crédito tributário do ITR na hipótese de penhora ou arresto de bens, previstos no <span xlink:href="urn:lex:br:federal:lei:1980-09-22;6830!art11">art. 11 da Lei nº 6.830, de 22 de setembro de 1980</span>, será penhorado ou arrestado, preferencialmente, imóvel rural, não tendo recaído a penhora ou o arresto sobre dinheiro.
+
+  </p>
+            
+          </Caput><Paragrafo id="art18_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    No caso do imóvel rural penhorado ou arrestado, na lavratura do termo ou auto de penhora, deverá ser observado, para efeito de avaliação, o VTN declarado e o disposto no art. 14.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art18_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A Fazenda Pública poderá, ouvido o INCRA, adjudicar, para fins fundiários, o imóvel rural penhorado, se a execução não for embargada ou se rejeitados os embargos.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art18_par3">
+            <!--Link: urn:lex:br:federal:lei:1980-09-22;6830!art24_par1u-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O depósito da diferença de que trata o <span xlink:href="urn:lex:br:federal:lei:1980-09-22;6830!art24_par1u">parágrafo único do art. 24 da Lei nº 6.830, de 22 de setembro de 1980</span>, poderá ser feito em Títulos da Dívida Agrária, até o montante equivalente ao VTN declarado.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art18_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Na hipótese do § 2º, o imóvel passará a integrar o patrimônio do INCRA, e a carta de adjudicação e o registro imobiliário serão expedidos em seu nome.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art19">
+            
+            <TituloDispositivo>Valores para Apuração de Ganho de Capital</TituloDispositivo>
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            
+            
+            
+            <p>
+    A partir do dia 1º de janeiro de 1997, para fins de apuração de ganho de capital, nos termos da legislação do imposto de renda, considera-se custo de aquisição e valor da venda do imóvel rural o VTN declarado, na forma do art. 8º, observado o disposto no art. 14, respectivamente, nos anos da ocorrência de sua aquisição e de sua alienação.
+
+  </p>
+            
+          </Caput><Paragrafo id="art19_par1u">
+            <!--Link: urn:lex:br:federal:lei:1995-12-26;9249!art17-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Na apuração de ganho de capital correspondente a imóvel rural adquirido anteriormente à data a que se refere este artigo, será considerado custo de aquisição o valor constante da escritura pública, observado o disposto no <span xlink:href="urn:lex:br:federal:lei:1995-12-26;9249!art17">art. 17 da Lei nº 9.249, de 26 de dezembro de 1995</span>.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art20">
+            
+            <TituloDispositivo>Incentivos Fiscais e Crédito Rural</TituloDispositivo>
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            
+            
+            
+            <p>
+    A concessão de incentivos fiscais e de crédito rural, em todas as suas modalidades, bem como a constituição das respectivas contrapartidas ou garantias, ficam condicionadas à comprovação do recolhimento do ITR relativo ao imóvel rural correspondente aos últimos cinco exercícios, ressalvados os casos em que a exigibilidade do imposto esteja suspensa, ou em curso de cobrança executiva em que tenha sido efetivada a penhora.
+
+  </p>
+            
+          </Caput><Paragrafo id="art20_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    É dispensada a comprovação de regularidade do recolhimento do imposto relativo ao imóvel rural, para efeito de concessão de financiamento ao amparo do Programa Nacional de Fortalecimento da Agricultura Familiar - PRONAF.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art21">
+            
+            <TituloDispositivo>Registro Público</TituloDispositivo>
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            <!--Link: urn:lex:br:federal:lei:1973-12-31;6015!art167--><!--Link: urn:lex:br:federal:lei:1973-12-31;6015!art168-->
+            
+            
+            <p>
+    É obrigatória a comprovação do pagamento do ITR, referente aos cinco últimos exercícios, para serem praticados quaisquer dos atos previstos nos <span xlink:href="urn:lex:br:federal:lei:1973-12-31;6015!art167">arts. 167</span> e <span xlink:href="urn:lex:br:federal:lei:1973-12-31;6015!art168">168 da Lei nº 6.015, de 31 de dezembro de 1973</span> (Lei dos Registros Públicos), observada a ressalva prevista no caput do artigo anterior, in fine.
+
+  </p>
+            
+          </Caput><Paragrafo id="art21_par1u">
+            <!--Link: urn:lex:br:federal:lei:1966-10-25;5172!art134-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    São solidariamente responsáveis pelo imposto e pelos acréscimos legais, nos termos do <span xlink:href="urn:lex:br:federal:lei:1966-10-25;5172!art134">art. 134 da Lei nº 5.172, de 25 de outubro de 1966</span> - Sistema Tributário Nacional, os serventuários do registro de imóveis que descumprirem o disposto neste artigo, sem prejuízo de outras sanções legais.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art22">
+            
+            <TituloDispositivo>Depósito Judicial na Desapropriação</TituloDispositivo>
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            <!--Link: urn:lex:br:federal:lei.complementar:1993-07-06;76!art6_cpt_inc1--><!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art184-->
+            
+            
+            <p>
+    O valor da terra nua para fins do depósito judicial, a que se refere o <span xlink:href="urn:lex:br:federal:lei.complementar:1993-07-06;76!art6_cpt_inc1">inciso I do art. 6º da Lei Complementar nº 76, de 6 de julho de 1993</span>, na hipótese de desapropriação do imóvel rural de que trata o <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art184">art. 184 da Constituição</span>, não poderá ser superior ao VTN declarado, observado o disposto no art. 14.
+
+  </p>
+            
+          </Caput><Paragrafo id="art22_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A desapropriação por valor inferior ao declarado não autorizará a redução do imposto a ser pago, nem a restituição de quaisquer importâncias já recolhidas.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DAS DISPOSIÇÕES FINAIS
+
+  </NomeAgrupador>
+            <Artigo id="art23">
+            
+            
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            
+            
+            
+            <p>
+    Esta Lei entra em vigor na data de sua publicação, produzindo efeitos quanto aos arts. 1º a 22, a partir de janeiro de 1997.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art24">
+            
+            
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput id="art24_cpt">
+            <!--Link: urn:lex:br:federal:lei:1994-01-28;8847-->
+            
+            
+            <p>
+    Revogam-se os arts. 1º a 22 e 25 da <span xlink:href="urn:lex:br:federal:lei:1994-01-28;8847">Lei nº 8.847, de 28 de janeiro de 1994</span>.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 19 de dezembro de 1996; 175º da Independência e 108º da República.</p></LocalDataFecho><Assinatura><NomePessoa>FERNANDO HENRIQUE CARDOSO</NomePessoa><NomePessoa>Pedro Malan</NomePessoa><NomePessoa>Raul Belens Jungmann Pinto</NomePessoa></Assinatura></ParteFinal>
+          <Anexos><ReferenciaAnexo AlvoURN="urn:lex:br:federal:lei:1996-12-19;9393!anexo1"/></Anexos>
+        </Norma></ProjetoNorma>
+    </LexML>

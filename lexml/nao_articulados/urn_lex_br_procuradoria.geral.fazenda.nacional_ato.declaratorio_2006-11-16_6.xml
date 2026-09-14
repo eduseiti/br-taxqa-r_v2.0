@@ -1,0 +1,32 @@
+<LexML xmlns="http://www.lexml.gov.br/1.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <Metadado>
+    <Identificacao URN="urn:lex:br:procuradoria.geral.fazenda.nacional:ato.declaratorio:2006-11-16;6"/>
+    <MetadadoProprietario fonte="http://www.lexml.gov.br/nonstat">
+      <campo nome="JURISPRUDÊNCIA">REsp nº 785474/SC, (DJ de 03.04.2006), Resp nº 815172/CE, (DJ de 23.03.2006), REsp nº 797392/PR (DJ de 03.04.2006), REsp nº 261989/AL (DJ de 13.11.2000).</campo>
+    </MetadadoProprietario>
+  </Metadado>
+  <DocumentoGenerico>
+    <PartePrincipal id="pp1">
+      <Agrupamento id="pp1_agr1" nome="epigrafe">
+        <p>Ato Declaratório PGFN nº 6, de 16 de novembro de 2006</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agr2" nome="ementa">
+        <p>"Dispensa a apresentação de contestação e a interposição de recursos e autoriza a desistência dos já interpostos nas ações judiciais que especifica."</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agr3" nome="preambulo">
+        <p>O PROCURADOR-GERAL DA FAZENDA NACIONAL, no uso da competência legal que lhe foi conferida, nos termos do <Remissao xlink:href="urn:lex:br:federal:lei:2002-07-19;10522!art19_cpt_inc2">inciso II do art. 19, da Lei nº 10.522, de 19 de julho de 2002</Remissao>, e do <Remissao xlink:href="urn:lex:br:federal:decreto:1997-10-10;2346!art5">art. 5º do Decreto nº 2.346, de 10 de outubro de 1997</Remissao>, tendo em vista a aprovação do Parecer PGFN/CRJ/Nº 2140/2006, desta Procuradoria-Geral da Fazenda Nacional, pelo Senhor Ministro de Estado da Fazenda, conforme despacho publicado no DOU de 16 de novembro de 2006, DECLARA que ficam dispensadas a apresentação de contestação, a interposição de recursos e fica autorizada a desistência dos já interpostos, desde que inexista outro fundamento relevante:</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agr4" nome="texto">
+        <p class="quote">"nas ações judiciais que visem obter a declaração de que não incide imposto de renda sobre o abono pecuniário de férias de que trata o <Remissao xlink:href="urn:lex:br:federal:decreto.lei:1943-05-01;5452!art143">art. 143 da Consolidação das Leis do Trabalho</Remissao> - CLT, aprovada pelo <Remissao xlink:href="urn:lex:br:federal:decreto.lei:1943-05-01;5452">Decreto-Lei nº 5.452, de 1º de maio de 1943</Remissao>" .</p>
+        <p>JURISPRUDÊNCIA: REsp nº 785474/SC, (DJ de 03.04.2006), Resp nº 815172/CE, (DJ de 23.03.2006), REsp nº 797392/PR (DJ de 03.04.2006), REsp nº 261989/AL (DJ de 13.11.2000).</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agrf1" nome="assinatura">
+        <p>LUÍS INÁCIO LUCENA ADAMS</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agrf2" nome="nota">
+        <p>Nota SIJUT: Este ato teve sua data retificada no DOU de 20/11/2006, pág.12.</p>
+        <p>[Vide o(a) Ato Declaratório PGFN nº 6, de 7 de novembro de 2006]</p>
+      </Agrupamento>
+    </PartePrincipal>
+  </DocumentoGenerico>
+</LexML>

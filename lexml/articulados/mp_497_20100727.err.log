@@ -1,0 +1,30 @@
+# CMD: java -jar ../lexml-parser-projeto-lei/target/lexml-parser-projeto-lei-1.15.0-onejar.jar parse -m application/vnd.openxmlformats-officedocument.wordprocessingml.document -i original/articulados/mp_497_20100727.docx -o lexml/mp_497_20100727.xml --write-errors-to-file lexml/mp_497_20100727.err.log -a federal -t medida.provisoria -n 497 --data 2010-07-27 --linker /usr/local/bin/linkertool
+# ---
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 19. do Caput da Alteracao 1 do Art. 29. do § 5º do I –), msg = None, context=ArraySeq(I –:§ 5º:Art. 29.:Alteracao 1:Caput:Art. 19., I –:§ 5º:Art. 29.:Alteracao 1:Caput:Art. 19.)
+
+Problem type = [16: Elemento da articulação não reconhecido, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 29. do Caput da Alteracao 1), msg = Some(Elementos não reconhecidos na articulação: Text Paragraph: “art. 2o ate 31 de dezembro de 2014, a empresa construtora contratada para construir unidades habitacionais de valor comercial de ate r$ 75.000,00 (setenta e cinco mil reais) no ambito do programa minha casa, minha vida - pmcmv, de que trata lei no 11.977, de 7 de julho de 2009, fica autorizada, em carater opcional, a efetuar o pagamento unificado de tributos equivalente a um por cento da receita mensal auferida pelo contrato de construcao.), context=ArraySeq(“art. 2o ate 31 de dezembro de 2014, a empresa construtora contratada para construir unidades habitacionais de valor comercial de ate r$ 75.000,00 (setenta e cinco mil reais) no ambito do programa minha casa, minha vida - pmcmv, de que trata lei no 11.977, de 7 de julho de 2009, fica autorizada, em carater opcional, a efetuar o pagamento unificado de tributos equivalente a um por cento da receita mensal auferida pelo contrato de construcao., Na alteração 'List(Art. 4º)', Na alteração 'List(Art. 4º)', Na alteração 'List(Art. 4º)', Caput, Art. 29., Art. 29.)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 29., Art. 31.), msg = None, context=List()
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 31., Art. 31.), msg = None, context=List()
+
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 31. do Caput), msg = None, context=ArraySeq(Caput:Art. 31., Caput:Art. 31.)
+
+Problem type = [5: Rótulo repetido, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 31.), msg = None, context=ArraySeq()
+
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 31.), msg = None, context=ArraySeq(Art. 31., Art. 31.)
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 2035, column:39, error: cvc-attribute.3: The value 'art31' of attribute 'id' on element 'Artigo' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 2040, column:35, error: cvc-attribute.3: The value 'art31_cpt' of attribute 'id' on element 'Caput' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 1244, column:93, error: cvc-attribute.3: The value 'art19_cpt_alt1_art29_par5_inc1' of attribute 'id' on element 'Inciso' is not valid with respect to its type, 'idArtigo'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 1244, column:93, error: cvc-id.2: There are multiple occurrences of ID value 'art19_cpt_alt1_art29_par5_inc1'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 2016, column:23, error: cvc-complex-type.2.4.a: Invalid content was found starting with element '{"http://www.lexml.gov.br/1.0":p}'. One of '{"http://www.lexml.gov.br/1.0":FormulaPromulgacao, "http://www.lexml.gov.br/1.0":Epigrafe, "http://www.lexml.gov.br/1.0":Ementa, "http://www.lexml.gov.br/1.0":Preambulo, "http://www.lexml.gov.br/1.0":Parte, "http://www.lexml.gov.br/1.0":Livro, "http://www.lexml.gov.br/1.0":Titulo, "http://www.lexml.gov.br/1.0":Subtitulo, "http://www.lexml.gov.br/1.0":Capitulo, "http://www.lexml.gov.br/1.0":Secao, "http://www.lexml.gov.br/1.0":Subsecao, "http://www.lexml.gov.br/1.0":Artigo, "http://www.lexml.gov.br/1.0":Paragrafo, "http://www.lexml.gov.br/1.0":Inciso, "http://www.lexml.gov.br/1.0":Alinea, "http://www.lexml.gov.br/1.0":Item, "http://www.lexml.gov.br/1.0":Omissis}' is expected.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 2035, column:39, error: cvc-id.2: There are multiple occurrences of ID value 'art31'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 2040, column:35, error: cvc-id.2: There are multiple occurrences of ID value 'art31_cpt'.), context=List()
+

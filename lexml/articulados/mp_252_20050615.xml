@@ -1,0 +1,3425 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:medida.provisoria:2005-06-15;252"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">MEDIDA PROVISÓRIA Nº 252, DE 15 DE JUNHO DE 2005 </Epigrafe>
+		  <Ementa id="ementa">Sem eficácia Exposição de Motivos Institui o Regime Especial de Tributação para a Plataforma de Exportação de Serviços de Tecnologia da Informação - REPES, o Regime Especial de Aquisição de Bens de Capital para Empresas Exportadoras - RECAP e o Programa de Inclusão Digital, dispõe sobre incentivos fiscais para a inovação tecnológica e dá outras providências.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA, no uso da atribuição que lhe confere o art. 62 da Constituição, adota a seguinte Medida Provisória, com força de lei:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Capitulo id="cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DO REPES
+
+  </NomeAgrupador>
+            <Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    Fica instituído o Regime Especial de Tributação para a Plataforma de Exportação de Serviços de Tecnologia da Informação - REPES, nos termos e condições estabelecidos pela Secretaria da Receita Federal do Ministério da Fazenda.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    É beneficiária do REPES a pessoa jurídica que exerça exclusivamente as atividades de desenvolvimento de software e de prestação de serviços de tecnologia da informação e que, por ocasião da sua opção pelo REPES, assuma compromisso de exportação superior a oitenta por cento de sua receita bruta anual de venda de bens e serviços.
+
+  </p>
+            
+          </Caput><Paragrafo id="art2_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O disposto no caput não se aplica à pessoa jurídica que tenha suas receitas, no todo ou em parte, submetidas ao regime de incidência cumulativa da Contribuição para o PIS/PASEP e da Contribuição para o Financiamento da Seguridade Social - COFINS.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    Para fins de controle da produção e da comprovação de que o contratante do serviço prestado seja residente ou domiciliado no exterior, o beneficiário do REPES deverá utilizar programa de computador em código aberto.
+
+  </p>
+            
+          </Caput><Paragrafo id="art3_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A Secretaria da Receita Federal terá acesso on line, pela Internet, às informações e ao programa de que trata o caput, para fins de auditoria, com controle de acesso mediante certificação digital.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Para fins de reconhecimento da utilização da infra-estrutura de software e hardware, o programa de que trata o caput será homologado pela Secretaria da Receita Federal.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    Fica suspensa a exigência da Contribuição para o PIS/PASEP-Importação e da COFINS-Importação incidentes sobre a importação de bens novos destinados ao desenvolvimento, no País, de software e de serviços de tecnologia da informação, quando importados diretamente pelo beneficiário do REPES para incorporação ao seu ativo imobilizado.
+
+  </p>
+            
+          </Caput><Paragrafo id="art4_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A suspensão de que trata o caput aplica-se também à Contribuição para o PIS/PASEP e à COFINS incidentes sobre a venda dos referidos bens no mercado interno, quando adquiridos por pessoa jurídica beneficiária do REPES.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Nas notas fiscais relativas à venda de que trata o § 1º , deverá constar a expressão &quot;Venda efetuada com suspensão da exigência da Contribuição para o PIS/PASEP e da COFINS&quot;, com a especificação do dispositivo legal correspondente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Na hipótese deste artigo, o percentual de exportações de que trata o art. 2º será apurado considerando-se a média obtida, a partir do início de utilização dos bens adquiridos no âmbito do REPES, durante o período de três anos.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O prazo de início de utilização a que se refere o § 3º não poderá ser superior a um ano, contado a partir da aquisição.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    Fica suspensa a exigência da Contribuição para o PIS/PASEP-Importação e da COFINS-Importação incidentes sobre a importação de serviços destinados ao desenvolvimento, no País, de software e de serviços de tecnologia da informação, quando importados diretamente pelo beneficiário do REPES.
+
+  </p>
+            
+          </Caput><Paragrafo id="art5_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A suspensão de que trata o caput aplica-se também à Contribuição para o PIS/PASEP e à COFINS incidentes sobre a venda dos referidos serviços no mercado interno, quando adquiridos por pessoa jurídica beneficiária do REPES.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Nas notas fiscais relativas aos serviços de que trata o § 1º , deverá constar a expressão &quot;Venda de serviços efetuada com suspensão da exigência da Contribuição para o PIS/PASEP e da COFINS&quot;, com a especificação do dispositivo legal correspondente.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    As suspensões de que tratam os arts. 4º e 5º convertem-se em alíquota zero após o decurso do prazo de cinco anos contado da data da ocorrência dos respectivos fatos geradores.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    A adesão ao REPES fica condicionada à regularidade fiscal da pessoa jurídica em relação aos tributos e contribuições federais.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    A pessoa jurídica beneficiária do REPES terá a adesão cancelada:
+
+  </p>
+            <Inciso id="art8_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    na hipótese de descumprimento do compromisso de exportação de que trata o art. 2º ;
+
+  </p>
+            
+          </Inciso><Inciso id="art8_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    sempre que se apure que o beneficiário:
+
+  </p>
+            <Alinea id="art8_cpt_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    não satisfazia as condições ou não cumpria os requisitos para a adesão; ou
+
+  </p>
+            
+          </Alinea><Alinea id="art8_cpt_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    deixou de satisfazer as condições ou de cumprir os requisitos para a adesão; e
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art8_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    a pedido.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art8_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Na ocorrência do cancelamento da adesão ao REPES, a pessoa jurídica dele excluída fica obrigada a recolher juros e multa, de mora ou de ofício, contados a partir da data da aquisição ou do registro da Declaração de Importação, conforme o caso, referentes as contribuições não pagas em decorrência da suspensão de que tratam os arts. 4º e 5º , na condição de contribuinte, em relação aos bens importados ou na condição de responsável, em relação aos bens adquiridos no mercado interno.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Nas hipóteses de que tratam os incisos I e II do caput, a pessoa jurídica excluída do REPES somente poderá efetuar nova adesão após o decurso do prazo de dois anos, contado da data do cancelamento.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            
+            
+            
+            <p>
+    A transferência de propriedade ou a cessão de uso, a qualquer título, dos bens importados ou adquiridos no mercado interno na forma do caput ou do § 1º do art. 4º , antes de cumprida a disposição de que trata o § 3º do mesmo artigo, deverá ser precedida de recolhimento, pelo beneficiário do REPES, dos juros e multa, de mora ou de ofício, na forma do § 1º do art. 8º .
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>
+    No caso do art. 9º , se o beneficiário efetuar a transferência de propriedade antes de decorridos dois anos da ocorrência dos fatos geradores, as contribuições também serão devidas.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            <p>
+    É vedada a adesão ao REPES de pessoa jurídica optante do Sistema Integrado de Pagamento de Impostos e Contribuições das Microempresas e das Empresas de Pequeno Porte - SIMPLES.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            
+            
+            
+            <p>
+    Os bens e os serviços beneficiados pela suspensão referida nos arts. 4º e 5º serão relacionados em regulamento.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DO RECAP
+
+  </NomeAgrupador>
+            <Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>
+    Fica instituído o Regime Especial de Aquisição de Bens de Capital para Empresas Exportadoras - RECAP, nos termos e condições estabelecidos pela Secretaria da Receita Federal.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            <p>
+    É beneficiária do RECAP a pessoa jurídica preponderantemente exportadora, assim considerada aquela cuja receita bruta decorrente de exportação para o exterior, no ano-calendário imediatamente anterior à adesão ao RECAP, houver sido igual ou superior a oitenta por cento de sua receita bruta total de venda de bens e serviços no período, e que assuma compromisso de manter esse percentual de exportação durante o período de dois anos-calendário.
+
+  </p>
+            
+          </Caput><Paragrafo id="art14_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A pessoa jurídica em início de atividade, ou que não tenha atingido no ano anterior o percentual de receita de exportação exigido no caput, poderá se habilitar ao RECAP desde que assuma compromisso de auferir, no período de três anos-calendário, receita bruta decorrente de exportação para o exterior de, no mínimo, oitenta por cento de sua receita bruta total de venda de bens e serviços.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art14_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O disposto neste artigo não se aplica às pessoas jurídicas que tenham suas receitas, no todo ou em parte, submetidas ao regime de incidência cumulativa da Contribuição para o PIS/PASEP e da COFINS.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>
+    Fica suspensa a exigência da Contribuição para o PIS/PASEP-Importação e da COFINS-Importação incidentes sobre a importação de máquinas, aparelhos, instrumentos e equipamentos, novos, relacionados em regulamento, quando importados diretamente pelo beneficiário do RECAP para incorporação ao seu ativo imobilizado. (Regulamento)
+
+  </p>
+            
+          </Caput><Paragrafo id="art15_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A suspensão de que trata o caput aplica-se também à Contribuição para o PIS/PASEP e à COFINS incidentes sobre a venda dos referidos bens no mercado interno, quando adquiridos por pessoa jurídica beneficiária do RECAP. (Regulamento)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O benefício de suspensão de que trata este artigo poderá ser usufruído nas aquisições e importações realizadas no período de três anos contados da data de adesão ao RECAP.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O percentual de exportações de que tratam o caput e o § 1º do art. 14 será apurado considerando-se a média obtida, a partir do início de utilização dos bens adquiridos no âmbito do RECAP, durante o período:
+
+  </p>
+            <Inciso id="art15_par3_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    de dois anos, no caso do caput; ou
+
+  </p>
+            
+          </Inciso><Inciso id="art15_par3_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    de três anos, no caso do § 1º do art. 14.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art15_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O prazo de início de utilização a que se refere o § 3º não poderá ser superior a três anos.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    A pessoa jurídica que der destinação diversa da prevista no caput, revender o bem antes do prazo referido nos incisos I ou II do § 3º , conforme o caso, ou não atender às demais condições de que trata o art. 14, fica obrigada a recolher juros e multa, de mora ou de ofício, contados a partir da data da aquisição, referentes às contribuições não pagas em decorrência da suspensão de que trata este artigo, na condição:
+
+  </p>
+            <Inciso id="art15_par5_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    de contribuinte, em relação à Contribuição para o PIS/PASEP-Importação e à COFINS-Importação; ou
+
+  </p>
+            
+          </Inciso><Inciso id="art15_par5_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    de responsável, em relação à Contribuição para o PIS/PASEP e à COFINS.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art15_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    Nas notas fiscais relativas à venda de que trata o § 1º deverá constar a expressão &quot;Venda efetuada com suspensão da exigência da Contribuição para o PIS/PASEP e da COFINS&quot;, com a especificação do dispositivo legal correspondente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par7">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    A suspensão de que trata este artigo converte-se em alíquota zero após cumpridas as condições de que tratam o caput e o § 1º do art. 14.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par8">
+            <!--Link: urn:lex:br:federal:lei:2004-04-30;10865!art40-->
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    A pessoa jurídica que efetuar o compromisso de que trata o § 1º do art. 14 poderá ainda, observadas as mesmas condições ali estabelecidas, utilizar o benefício de suspensão de que trata o <span xlink:href="urn:lex:br:federal:lei:2004-04-30;10865!art40">art. 40 da Lei nº 10.865, de 30 de abril de 2004</span>.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            
+            
+            
+            <p>
+    A adesão ao RECAP fica condicionada à regularidade fiscal da pessoa jurídica em relação aos tributos e contribuições federais.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap3">
+            
+            
+            <Rotulo>CAPÍTULO III</Rotulo>
+            <NomeAgrupador>
+    DOS INCENTIVOS À INOVAÇÃO TECNOLÓGICA
+
+  </NomeAgrupador>
+            <Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            
+            
+            
+            <p>
+    A pessoa jurídica poderá usufruir dos seguintes incentivos fiscais: (Vigência)
+
+  </p>
+            <Inciso id="art17_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    dedução, para efeito de apuração do lucro líquido, de valor correspondente à soma dos dispêndios realizados no período de apuração com pesquisa tecnológica e desenvolvimento de inovação tecnológica, classificáveis como despesas operacionais pela legislação do Imposto sobre a Renda da Pessoa Jurídica - IRPJ, ou como pagamento na forma prevista no § 2º ;
+
+  </p>
+            
+          </Inciso><Inciso id="art17_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    redução de cinqüenta por cento do Imposto sobre Produtos Industrializados - IPI incidente sobre equipamentos, máquinas, aparelhos e instrumentos, bem como os acessórios sobressalentes e ferramentas que acompanhem esses bens, destinados à pesquisa e ao desenvolvimento tecnológico;
+
+  </p>
+            
+          </Inciso><Inciso id="art17_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    depreciação acelerada, calculada pela aplicação da taxa de depreciação usualmente admitida, multiplicada por dois, sem prejuízo da depreciação normal das máquinas, equipamentos, aparelhos e instrumentos novos, destinados à utilização nas atividades de pesquisa tecnológica e desenvolvimento de inovação tecnológica, para efeito de apuração do IRPJ;
+
+  </p>
+            
+          </Inciso><Inciso id="art17_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    amortização acelerada, mediante dedução como custo ou despesa operacional, no período de apuração em que forem efetuados, dos dispêndios relativos à aquisição de bens intangíveis, vinculados exclusivamente às atividades de pesquisa tecnológica e desenvolvimento de inovação tecnológica, classificáveis no ativo diferido do beneficiário, para efeito de apuração do IRPJ;
+
+  </p>
+            
+          </Inciso><Inciso id="art17_cpt_inc5">
+            <!--Link: urn:lex:br:federal:lei:1996-05-14;9279-->
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    crédito do imposto sobre a renda retido na fonte, incidente sobre os valores pagos, remetidos ou creditados a beneficiários residentes ou domiciliados no exterior, a título de royalties, de assistência técnica ou científica e de serviços especializados, previstos em contratos de transferência de tecnologia averbados ou registrados nos termos da <span xlink:href="urn:lex:br:federal:lei:1996-05-14;9279">Lei nº 9.279, de 14 de maio de 1996</span>, nos seguintes percentuais:
+
+  </p>
+            <Alinea id="art17_cpt_inc5_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    vinte por cento, relativamente aos períodos de apuração encerrados a partir de 1º de janeiro de 2006 até 31 de dezembro de 2008;
+
+  </p>
+            
+          </Alinea><Alinea id="art17_cpt_inc5_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    dez por cento, relativamente aos períodos de apuração encerrados a partir de 1º de janeiro de 2009 até 31 de dezembro de 2013; e
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art17_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    redução a zero da alíquota do imposto de renda retido na fonte nas remessas efetuadas para o exterior destinadas ao registro e manutenção de marcas, patentes e cultivares.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art17_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Consideram-se inovação tecnológica a concepção de novo produto ou processo de fabricação, bem como a agregação de novas funcionalidades ou características ao produto ou processo que implique melhorias incrementais e efetivo ganho de qualidade ou produtividade, resultando maior competitividade no mercado.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art17_par2">
+            <!--Link: urn:lex:br:federal:lei:2004-12-02;10973!art2_cpt_inc9-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O disposto no inciso I do caput aplica-se também aos dispêndios com pesquisa tecnológica e desenvolvimento de inovação tecnológica contratadas no País com universidade, instituição de pesquisa e inventor independente de que trata o <span xlink:href="urn:lex:br:federal:lei:2004-12-02;10973!art2_cpt_inc9">inciso IX do art. 2º da Lei nº 10.973, de 2 de dezembro de 2004</span>, ficando a pessoa jurídica que efetuou o dispêndio com a responsabilidade, o risco empresarial, a gestão e o controle da utilização dos resultados dos dispêndios.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art17_par3">
+            <!--Link: urn:lex:br:federal:lei:1964-11-30;4506!art52--><!--Link: urn:lex:br:federal:lei:1964-11-30;4506!art71-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Na hipótese de dispêndios com assistência técnica, científica ou assemelhados e de royalties por patentes industriais pagos a pessoa física ou jurídica no exterior, a dedutibilidade fica condicionada à observância do disposto nos <span xlink:href="urn:lex:br:federal:lei:1964-11-30;4506!art52">arts. 52</span> e <span xlink:href="urn:lex:br:federal:lei:1964-11-30;4506!art71">71 da Lei nº 4.506, de 30 de novembro de 1964</span>.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art17_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Na apuração dos dispêndios realizados com pesquisa tecnológica e desenvolvimento de inovação tecnológica, não serão computados os montantes alocados como recursos não reembolsáveis por órgãos e entidades do Poder Público.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art17_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    O benefício a que se refere o inciso V do caput somente poderá ser usufruído por pessoa jurídica que assuma o compromisso de realizar dispêndios em pesquisa no País, em montante equivalente a, no mínimo, o dobro do valor desse benefício.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art17_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    A dedução de que trata o inciso I do caput aplica-se para efeito de apuração da base de cálculo da Contribuição Social sobre o Lucro Líquido - CSLL.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art17_par7">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    A pessoa jurídica beneficiária dos incentivos de que trata este artigo fica obrigada à prestar, em meio eletrônico, informações sobre os programas de pesquisa, desenvolvimento tecnológico e inovação, na forma estabelecida em regulamento.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            <!--Link: urn:lex:br:federal:lei:1999-10-05;9841-->
+            
+            
+            <p>
+    Poderão ser deduzidas como despesas operacionais, na forma do inciso I do caput do art. 17 e de seu § 6º , as importâncias transferidas a microempresas e empresas de pequeno porte de que trata a <span xlink:href="urn:lex:br:federal:lei:1999-10-05;9841">Lei nº 9.841, de 5 de outubro de 1999</span>, destinadas à execução de pesquisa tecnológica e de desenvolvimento de inovação tecnológica de interesse e por conta e ordem da pessoa jurídica que promoveu a transferência, ainda que a pessoa jurídica recebedora dessas importâncias venha a ter participação no resultado econômico do produto resultante. (Vigência)
+
+  </p>
+            
+          </Caput><Paragrafo id="art18_par1">
+            <!--Link: urn:lex:br:federal:lei:2004;10973!art2_cpt_inc9-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O disposto neste artigo aplica-se às transferências de recursos efetuadas para inventor independente de que trata o <span xlink:href="urn:lex:br:federal:lei:2004;10973!art2_cpt_inc9">inciso IX do art. 2º da Lei nº 10.973, de 2004</span>.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art18_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Não constituem receita das microempresas e empresa de pequeno porte, nem rendimento do inventor independente, as importâncias recebidas na forma do caput, desde que utilizadas integralmente na realização da pesquisa ou desenvolvimento de inovação tecnológica.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art18_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Na hipótese do § 2º , para as microempresas e empresas de pequeno porte de que trata o caput que apuram o imposto de renda com base no lucro real, os dispêndios efetuados com a execução de pesquisa tecnológica e desenvolvimento de inovação tecnológica não serão dedutíveis na apuração do lucro real e da base de cálculo da CSLL.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            
+            
+            
+            <p>
+    Sem prejuízo do disposto no art. 17, a partir do ano-calendário de 2006, a pessoa jurídica poderá excluir do lucro líquido, na determinação do lucro real e da base de cálculo da CSLL, o valor corresponde a até sessenta por cento da soma dos dispêndios realizados no período de apuração com pesquisa tecnológica e desenvolvimento de inovação tecnológica, classificáveis como despesa pela legislação do IRPJ, na forma do inciso I do caput do art. 17. (Vigência)
+
+  </p>
+            
+          </Caput><Paragrafo id="art19_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A exclusão de que trata o caput poderá chegar a até oitenta por cento dos dispêndios em função do número de empregados pesquisadores contratados pela pessoa jurídica, na forma a ser definida em regulamento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Na hipótese de pessoa jurídica que se dedica exclusivamente à pesquisa e desenvolvimento tecnológico, poderão também ser considerados, na forma do regulamento, os sócios que exerçam atividade de pesquisa.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Sem prejuízo do disposto no caput e no § 1º , a pessoa jurídica poderá excluir do lucro líquido, na determinação do lucro real e da base de cálculo da CSLL, o valor corresponde a até vinte por cento da soma dos dispêndios ou pagamentos vinculados à pesquisa tecnológica e desenvolvimento de inovação tecnológica objeto de patente concedida ou cultivar registrado.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Para fins do disposto no § 3º , os dispêndios e pagamentos serão registrados na Parte B do Livro de Apuração do Lucro Real - LALUR e excluídos no período de apuração da concessão da patente ou do registro do cultivar.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    A exclusão de que trata este artigo fica limitada ao valor do lucro real e da base de cálculo da CSLL antes da própria exclusão, vedado o aproveitamento de eventual excesso em período de apuração posterior.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    O disposto no § 5º não se aplica à pessoa jurídica referida no § 2º .
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            
+            
+            
+            <p>
+    Para fins do disposto neste Capítulo, os valores relativos aos dispêndios incorridos em instalações fixas e na aquisição de aparelhos, máquinas e equipamentos, destinados à utilização em projetos de pesquisa e desenvolvimento tecnológico, metrologia, normalização técnica e avaliação da conformidade, aplicáveis a produtos, processos, sistemas e pessoal, procedimentos de autorização de registros, licenças, homologações e suas formas correlatas, bem como relativos a procedimentos de proteção de propriedade intelectual, poderão ser depreciados ou amortizados na forma da legislação vigente, podendo o saldo não depreciado ou não amortizado ser excluído na determinação do lucro real, no período de apuração em que concluída sua utilização. (Vigência)
+
+  </p>
+            
+          </Caput><Paragrafo id="art20_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O valor do saldo excluído na forma do caput deverá ser controlado na parte B do LALUR e será adicionado, na determinação do lucro real, em cada período de apuração posterior, pelo valor da depreciação ou amortização normal que venha a ser contabilizada como despesa operacional.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art20_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A pessoa jurídica beneficiária de depreciação ou amortização acelerada nos termos dos incisos III e IV do caput do art. 17 não poderá utilizar-se do benefício de que trata o caput deste artigo relativamente aos mesmos ativos.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art20_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A depreciação ou amortização acelerada de que tratam os incisos III e IV do caput do art. 17, bem como a exclusão do saldo não depreciado ou não amortizado na forma do caput deste artigo não se aplicam para efeito de apuração da base de cálculo da CSLL.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            
+            
+            
+            <p>
+    A União, por intermédio das agências de fomento de ciências e tecnologia, poderá subvencionar até cinqüenta por cento do valor da remuneração de pesquisadores, titulados como mestres ou doutores, empregados em atividades de inovação tecnológica em empresas localizadas no território brasileiro, na forma do regulamento. (Vigência)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art22">
+            
+            
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            
+            
+            
+            <p>
+    Os dispêndios e pagamentos de que tratam os arts. 17 a 20: (Vigência)
+
+  </p>
+            <Inciso id="art22_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    deverão ser controlados contabilmente em contas específicas; e
+
+  </p>
+            
+          </Inciso><Inciso id="art22_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    somente poderão ser deduzidos se pagos a pessoas físicas ou jurídicas residentes e domiciliadas no País, exceto os pagamentos destinados à obtenção e manutenção de patentes e marcas no exterior.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art23">
+            
+            
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            
+            
+            
+            <p>
+    O gozo dos benefícios fiscais e da subvenção de que tratam os arts. 17 a 21 fica condicionado à comprovação da regularidade fiscal da pessoa jurídica. (Vigência)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art24">
+            
+            
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput id="art24_cpt">
+            
+            
+            
+            <p>
+    Os termos, limites e condições para efeito de fruição dos incentivos fiscais mencionados nos arts. 17 a 21 serão objeto de regulamento. (Vigência)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art25">
+            
+            
+            <Rotulo>Art. 25.</Rotulo>
+            
+            <Caput id="art25_cpt">
+            
+            
+            
+            <p>
+    O descumprimento de qualquer obrigação assumida para obtenção dos incentivos de que tratam os arts. 17 a 22, bem como a utilização indevida dos incentivos fiscais neles referidos, implicam perda do direito aos incentivos ainda não utilizados e o recolhimento do valor correspondente aos tributos não pagos em decorrência dos incentivos já utilizados, acrescidos de multa e de juros, de mora ou de ofício, previstos na legislação tributária, sem prejuízo das sanções penais cabíveis. (Vigência)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art26">
+            
+            
+            <Rotulo>Art. 26.</Rotulo>
+            
+            <Caput id="art26_cpt">
+            
+            
+            
+            <p>
+    Os Programas de Desenvolvimento Tecnológico Industrial - PDTI e Programas de Desenvolvimento Tecnológico Agropecuário - PDTA e os projetos aprovados até 31 de dezembro de 2005 ficarão regidos pela legislação em vigor na data da publicação desta Medida Provisória, autorizada a migração para o regime nela previsto, conforme disciplinado em regulamento. (Vigência)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art27">
+            
+            
+            <Rotulo>Art. 27.</Rotulo>
+            
+            <Caput id="art27_cpt">
+            <!--Link: urn:lex:br:federal:lei:1991-10-23;8248--><!--Link: urn:lex:br:federal:lei:1991-12-30;8387--><!--Link: urn:lex:br:federal:lei:2001-01-11;10176-->
+            
+            
+            <p>
+    O disposto neste Capítulo não se aplica às pessoas jurídicas que utilizarem os benefícios de que tratam as <span xlink:href="urn:lex:br:federal:lei:1991-10-23;8248">Leis nº s 8.248, de 23 de outubro de 1991</span>, <span xlink:href="urn:lex:br:federal:lei:1991-12-30;8387">8.387, de 30 de dezembro de 1991</span>, e <span xlink:href="urn:lex:br:federal:lei:2001-01-11;10176">10.176, de 11 de janeiro de 2001</span>. (Vigência)
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap4">
+            
+            
+            <Rotulo>CAPÍTULO IV</Rotulo>
+            <NomeAgrupador>
+    DO PROGRAMA DE INCLUSÃO DIGITAL
+
+  </NomeAgrupador>
+            <Artigo id="art28">
+            
+            
+            <Rotulo>Art. 28.</Rotulo>
+            
+            <Caput id="art28_cpt">
+            
+            
+            
+            <p>
+    Ficam reduzidas a zero as alíquotas da Contribuição para o PIS/PASEP e da COFINS incidentes sobre a receita bruta de venda, a varejo, de unidades de processamento digital classificadas no código 8471.50.10 da Tabela de Incidência do IPI - TIPI.
+
+  </p>
+            
+          </Caput><Paragrafo id="art28_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A redução de alíquotas de que trata o caput alcança as receitas de vendas de unidades de entrada classificadas nos códigos 8471.60.52 (teclado) e 8471.60.53 (exclusivamente mouse), e a unidade de saída por vídeo classificada no código 8471.60.72 (monitor), todos da TIPI, quando vendidas juntamente com a unidade de processamento digital.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art28_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os produtos de que trata este artigo devem atender aos termos e condições estabelecidos em regulamento, inclusive quanto ao valor e especificações técnicas.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art29">
+            
+            
+            <Rotulo>Art. 29.</Rotulo>
+            
+            <Caput id="art29_cpt">
+            <!--Link: urn:lex:br:federal:lei:1996-12-27;9430!art64--><!--Link: urn:lex:br:federal:lei:2003-12-29;10833!art34-->
+            
+            
+            <p>
+    Nas vendas efetuadas na forma do art. 28 não se aplica a retenção na fonte da Contribuição para o PIS/PASEP e da COFINS a que se referem o <span xlink:href="urn:lex:br:federal:lei:1996-12-27;9430!art64">art. 64 da Lei nº 9.430, de 27 de dezembro de 1996</span>, e o <span xlink:href="urn:lex:br:federal:lei:2003-12-29;10833!art34">art. 34 da Lei nº 10.833, de 29 de dezembro de 2003</span>.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art30">
+            
+            
+            <Rotulo>Art. 30.</Rotulo>
+            
+            <Caput id="art30_cpt">
+            
+            
+            
+            <p>
+    As disposições dos arts. 28 e 29:
+
+  </p>
+            <Inciso id="art30_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    não se aplicam às vendas efetuadas por empresa optante pelo SIMPLES; e
+
+  </p>
+            
+          </Inciso><Inciso id="art30_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    aplicam-se às vendas efetuadas até 31 de dezembro de 2009.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap5">
+            
+            
+            <Rotulo>CAPÍTULO V</Rotulo>
+            <NomeAgrupador>
+    DOS INCENTIVOS ÀS MICRO-REGIÕES DA ADA E ADENE
+
+  </NomeAgrupador>
+            <Artigo id="art31">
+            
+            
+            <Rotulo>Art. 31.</Rotulo>
+            
+            <Caput id="art31_cpt">
+            
+            
+            
+            <p>
+    Sem prejuízo das demais normas em vigor aplicáveis à matéria, para bens adquiridos a partir do ano-calendário de 2006 e até 31 de dezembro de 2013, as pessoas jurídicas que tenham projeto aprovado para instalação, ampliação, modernização ou diversificação enquadrado em setores da economia considerados prioritários para o desenvolvimento regional, em micro-regiões menos desenvolvidas localizadas nas áreas de atuação da Agência de Desenvolvimento do Nordeste - ADENE e da Agência de Desenvolvimento da Amazônia - ADA, terão direito:
+
+  </p>
+            <Inciso id="art31_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    à depreciação acelerada incentivada, para efeito de cálculo do imposto sobre a renda;
+
+  </p>
+            
+          </Inciso><Inciso id="art31_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:2002-12-30;10637--><!--Link: urn:lex:br:federal:lei:2003;10833--><!--Link: urn:lex:br:federal:lei:2004-04-30;10865!art15_par4-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    ao desconto, no prazo de doze meses contado da aquisição, dos créditos da Contribuição para o PIS/PASEP e da COFINS de que tratam o inciso III do § 1º do art. 3º das <span xlink:href="urn:lex:br:federal:lei:2002-12-30;10637">Leis nº s 10.637, de 30 de dezembro de 2002</span>, e <span xlink:href="urn:lex:br:federal:lei:2003;10833">10.833, de 2003</span>, e o <span xlink:href="urn:lex:br:federal:lei:2004-04-30;10865!art15_par4">§ 4º do art. 15 da Lei nº 10.865, de 30 de abril de 2004</span>, na hipótese de aquisição de máquinas, aparelhos, instrumentos e equipamentos, novos, relacionados em regulamento, destinados à incorporação ao seu ativo imobilizado.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art31_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As micro-regiões alcançadas, bem assim os limites e condições para fruição do benefício referido neste artigo serão definidos em regulamento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art31_par2">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2001-08-24;2199-14!art1-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A fruição deste benefício fica condicionada à fruição do benefício de que trata o <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-08-24;2199-14!art1">art. 1º da Medida Provisória nº 2.199-14, de 24 de agosto de 2001</span>.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art31_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A depreciação acelerada incentivada de que trata o caput consiste na depreciação integral, no próprio ano da aquisição.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art31_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    A quota de depreciação acelerada, correspondente ao benefício, constituirá exclusão do lucro líquido para fins de determinação do lucro real, devendo ser escriturada no LALUR.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art31_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    O total da depreciação acumulada, incluindo a normal e a acelerada, não poderá ultrapassar o custo de aquisição do bem.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art31_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    A partir do período de apuração em que for atingido o limite de que trata o § 5º , o valor da depreciação normal, registrado na escrituração comercial, deverá ser adicionado ao lucro líquido para efeito de determinação do lucro real.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art31_par7">
+            <!--Link: urn:lex:br:federal:lei:2002;10637--><!--Link: urn:lex:br:federal:lei:2003;10833-->
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    Os créditos de que trata o inciso II do caput serão apurados mediante a aplicação, a cada mês, das alíquotas referidas no caput do art. 2º das <span xlink:href="urn:lex:br:federal:lei:2002;10637">Leis nº s 10.637, de 2002</span>, e <span xlink:href="urn:lex:br:federal:lei:2003;10833">10.833, de 2003</span>, sobre o valor correspondente a um doze avos do custo de aquisição do bem.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art31_par8">
+            
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    Salvo autorização expressa em lei, o benefício fiscal de que trata este artigo não poderá ser usufruído cumulativamente com outros idênticos.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap6">
+            
+            
+            <Rotulo>CAPÍTULO VI</Rotulo>
+            <NomeAgrupador>
+    DO SIMPLES
+
+  </NomeAgrupador>
+            <Artigo id="art32">
+            
+            
+            <Rotulo>Art. 32.</Rotulo>
+            
+            <Caput id="art32_cpt">
+            <!--Link: urn:lex:br:federal:lei:1996-12-05;9317!art15-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1996-12-05;9317!art15">art. 15 da Lei nº 9.317, de 5 de dezembro de 1996</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1996-12-05;9317" id="art32_cpt_alt1">              
+              <Artigo xlink:href="art15" id="art32_cpt_alt1_art15" abreAspas="s">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput xlink:href="art15_cpt" id="art32_cpt_alt1_art15_cpt" textoOmitido="s">
+            
+            
+            
+            
+            <Omissis id="art32_cpt_alt1_art15_cpt_omi1"/><Inciso xlink:href="art15_cpt_inc2" id="art32_cpt_alt1_art15_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a partir do mês subseqüente ao que incorrida a situação excludente, nas hipóteses de que tratam os incisos III a XIV e XVII a XIX do art. 9º ;
+
+  </p>
+            
+          </Inciso><Omissis id="art32_cpt_alt1_art15_cpt_omi2"/><Inciso xlink:href="art15_cpt_inc6" id="art32_cpt_alt1_art15_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    a partir do ano-calendário subseqüente ao da ciência do ato declaratório de exclusão nos casos dos incisos XV e XVI do art. 9º .
+
+  </p>
+            
+          </Inciso>
+          </Caput><Omissis id="art32_cpt_alt1_art15_omi1"/><Paragrafo xlink:href="art15_par5" id="art32_cpt_alt1_art15_par5" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Na hipótese do inciso VI do caput, será permitida a permanência da pessoa jurídica como optante pelo SIMPLES mediante a comprovação, junto à unidade da Secretaria da Receita Federal com jurisdição sobre o seu domicílio fiscal, da quitação do débito inscrito no prazo de até trinta dias contados a partir da ciência do ato declaratório de exclusão.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap7">
+            
+            
+            <Rotulo>CAPÍTULO VII</Rotulo>
+            <NomeAgrupador>
+    DO IRPJ E DA CSLL
+
+  </NomeAgrupador>
+            <Artigo id="art33">
+            
+            
+            <Rotulo>Art. 33.</Rotulo>
+            
+            <Caput id="art33_cpt">
+            <!--Link: urn:lex:br:federal:lei:1995-12-26;9249!art15-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1995-12-26;9249!art15">art. 15 da Lei nº 9.249, de 26 de dezembro de 1995</span>, passa a vigorar acrescido do seguinte parágrafo: (Vigência)
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1995-12-26;9249" id="art33_cpt_alt1">              
+              <Paragrafo xlink:href="art15_par4" id="art33_cpt_alt1_art15_par4" abreAspas="s" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O percentual de que trata este artigo também será aplicado sobre a receita financeira da pessoa jurídica que explore atividades imobiliárias relativas a loteamento de terrenos, incorporação imobiliária, construção de prédios destinados à venda, bem como a venda de imóveis construídos ou adquiridos para a revenda, quando decorrente da comercialização de imóveis e for apurada por meio de índices ou coeficientes previstos em contrato.
+
+  </p>
+            
+          </Paragrafo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art34">
+            
+            
+            <Rotulo>Art. 34.</Rotulo>
+            
+            <Caput id="art34_cpt">
+            <!--Link: urn:lex:br:federal:lei:2004-12-29;11051!art1_cpt-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:2004-12-29;11051!art1_cpt">caput do art. 1º da Lei nº 11.051, de 29 de dezembro de 2004</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:2004-12-29;11051" id="art34_cpt_alt1">              
+              <Artigo xlink:href="art1" id="art34_cpt_alt1_art1" abreAspas="s">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput xlink:href="art1_cpt" id="art34_cpt_alt1_art1_cpt" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            
+            <p>
+    As pessoas jurídicas tributadas com base no lucro real poderão utilizar crédito relativo à Contribuição Social sobre o Lucro Líquido - CSLL, à razão de vinte e cinco por cento sobre a depreciação contábil de máquinas, aparelhos, instrumentos e equipamentos, novos, relacionados em regulamento, adquiridos entre 1º de outubro de 2004 e 31 de dezembro de 2006, destinados ao ativo imobilizado e empregados em processo industrial do adquirente.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap8">
+            
+            
+            <Rotulo>CAPÍTULO VIII</Rotulo>
+            <NomeAgrupador>
+    DO IMPOSTO DE RENDA DA PESSOA FÍSICA
+
+  </NomeAgrupador>
+            <Artigo id="art35">
+            
+            
+            <Rotulo>Art. 35.</Rotulo>
+            
+            <Caput id="art35_cpt">
+            <!--Link: urn:lex:br:federal:lei:1995-12-26;9250!art22-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1995-12-26;9250!art22">art. 22 da Lei nº 9.250, de 26 de dezembro de 1995</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1995-12-26;9250" id="art35_cpt_alt1">              
+              <Artigo xlink:href="art22" id="art35_cpt_alt1_art22" abreAspas="s">
+            
+            
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput xlink:href="art22_cpt" id="art35_cpt_alt1_art22_cpt">
+            
+            
+            
+            <p>
+    Fica isento do imposto de renda o ganho de capital auferido na alienação de bens e direitos de pequeno valor, cujo preço unitário de alienação, no mês em que esta se realizar, seja igual ou inferior a:
+
+  </p>
+            <Inciso xlink:href="art22_cpt_inc1" id="art35_cpt_alt1_art22_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    R$ 20.000,00 (vinte mil reais), no caso de alienação de ações negociadas no mercado de balcão;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art22_cpt_inc2" id="art35_cpt_alt1_art22_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    R$ 35.000,00 (trinta e cinco mil reais), nos demais casos.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Omissis id="art35_cpt_alt1_art22_omi1" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art36">
+            
+            
+            <Rotulo>Art. 36.</Rotulo>
+            
+            <Caput id="art36_cpt">
+            
+            
+            
+            <p>
+    Fica isento do imposto de renda o ganho auferido por pessoa física residente no País na venda de imóveis residenciais, desde que o alienante, no prazo de cento e oitenta dias contados da celebração do contrato, aplique o produto da venda na aquisição de imóveis residenciais.
+
+  </p>
+            
+          </Caput><Paragrafo id="art36_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    No caso de venda de mais de um imóvel, o prazo referido neste artigo será contado a partir da data de celebração do contrato relativo à primeira operação.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art36_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A aplicação parcial do produto da venda implicará tributação do ganho, proporcionalmente, ao valor da parcela não aplicada.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art36_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    No caso de aquisição de mais de um imóvel, a isenção de que trata este artigo aplicar-se-á ao ganho de capital correspondente à parcela empregada na aquisição de imóvel residencial.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art36_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    A inobservância das condições estabelecidas neste artigo importará em exigência do imposto com base no ganho de capital, acrescido de:
+
+  </p>
+            <Inciso id="art36_par4_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    juros de mora, calculados a partir do segundo mês subseqüente ao do recebimento do valor ou de parcela do valor do imóvel vendido; e
+
+  </p>
+            
+          </Inciso><Inciso id="art36_par4_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    multa, de mora ou de ofício, calculada a partir do segundo mês seguinte ao do recebimento do valor ou de parcela do valor do imóvel vendido, se o imposto não for pago até trinta dias após o prazo de que trata o caput.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art36_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    A pessoa física somente poderá usufruir do benefício de que trata este artigo uma vez a cada cinco anos.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art37">
+            
+            
+            <Rotulo>Art. 37.</Rotulo>
+            
+            <Caput id="art37_cpt">
+            
+            
+            
+            <p>
+    Para a apuração da base de cálculo do imposto sobre a renda incidente sobre o ganho de capital por ocasião da alienação, a qualquer título, de bens imóveis realizada por pessoa física residente no País, poderá ser aplicado fator de redução (FR) do ganho de capital apurado.
+
+  </p>
+            
+          </Caput><Paragrafo id="art37_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O fator de redução referido no caput será determinado pela seguinte fórmula: FR = 1 / 1,0035 m, onde &quot;m&quot; corresponde ao número de meses decorridos entre a data de aquisição do imóvel e a de sua alienação.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art37_par2">
+            <!--Link: urn:lex:br:federal:lei:1988-12-22;7713!art18-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Na hipótese de imóveis adquiridos até 31 de dezembro de 1995, o fator de redução de que trata o caput será aplicado a partir de 1º de janeiro de 1996, sem prejuízo do disposto no <span xlink:href="urn:lex:br:federal:lei:1988-12-22;7713!art18">art. 18 da Lei nº 7.713, de 22 de dezembro de 1988</span>.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap9">
+            
+            
+            <Rotulo>CAPÍTULO IX</Rotulo>
+            <NomeAgrupador>
+    DA CONTRIBUIÇÃO PARA O PIS/PASEP E DA COFINS
+
+  </NomeAgrupador>
+            <Artigo id="art38">
+            
+            
+            <Rotulo>Art. 38.</Rotulo>
+            
+            <Caput id="art38_cpt">
+            <!--Link: urn:lex:br:federal:lei:1998-11-27;9718!art3_par8-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1998-11-27;9718!art3_par8">§ 8º do art. 3º da Lei nº 9.718, de 27 de novembro de 1998</span>, passa a vigorar acrescido do seguinte inciso:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1998-11-27;9718" id="art38_cpt_alt1">              
+              <Inciso xlink:href="art3_par8_inc3" id="art38_cpt_alt1_art3_par8_inc3" abreAspas="s" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    agrícolas, conforme ato do Conselho Monetário Nacional.
+
+  </p>
+            
+          </Inciso>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art39">
+            
+            
+            <Rotulo>Art. 39.</Rotulo>
+            
+            <Caput id="art39_cpt">
+            <!--Link: urn:lex:br:federal:lei:2002-07-03;10485!art3-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:2002-07-03;10485!art3">art. 3º da Lei nº 10.485, de 3 de julho de 2002</span>, passa a vigorar com a seguinte redação: (Vigência)
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:2002-07-03;10485" id="art39_cpt_alt1">              
+              <Artigo xlink:href="art3" id="art39_cpt_alt1_art3" abreAspas="s">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput xlink:href="art3_cpt" id="art39_cpt_alt1_art3_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Omissis id="art39_cpt_alt1_art3_omi1"/><Paragrafo xlink:href="art3_par3" id="art39_cpt_alt1_art3_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Estão sujeitos à retenção na fonte da contribuição para o PIS/PASEP e da COFINS os pagamentos referentes à aquisição de autopeças constantes dos Anexos I e II desta Lei, exceto pneumáticos, quando efetuados por pessoa jurídica fabricante:
+
+  </p>
+            <Inciso xlink:href="art3_par3_inc1" id="art39_cpt_alt1_art3_par3_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    de peças, componentes ou conjuntos destinados aos produtos relacionados no art. 1º ; (Vigência)
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art3_par3_inc2" id="art39_cpt_alt1_art3_par3_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    de produtos relacionados no art. 1º .
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo xlink:href="art3_par4" id="art39_cpt_alt1_art3_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O valor a ser retido na forma do § 3º constitui antecipação das contribuições devidas pelas pessoas jurídicas fornecedoras e será determinado mediante a aplicação, sobre a importância a pagar, do percentual de um décimo por cento para a Contribuição para o PIS/PASEP e cinco décimos por cento para a COFINS.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art3_par5" id="art39_cpt_alt1_art3_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    O valor retido na quinzena deverá ser recolhido até o último dia útil da quinzena subseqüente àquela em que tiver ocorrido o pagamento.
+
+  </p>
+            
+          </Paragrafo><Omissis id="art39_cpt_alt1_art3_omi2"/><Paragrafo xlink:href="art3_par7" id="art39_cpt_alt1_art3_par7">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    A retenção na fonte de que trata o § 3º :
+
+  </p>
+            <Inciso xlink:href="art3_par7_inc1" id="art39_cpt_alt1_art3_par7_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    não se aplica no caso de pagamento efetuado a pessoa jurídica optante pelo Sistema Integrado de Pagamento de Impostos e Contribuições das Microempresas e das Empresas de Pequeno Porte - SIMPLES e a comerciante atacadista ou varejista;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art3_par7_inc2" id="art39_cpt_alt1_art3_par7_inc2" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    alcança também os pagamentos efetuados por serviço de industrialização no caso de industrialização por encomenda.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art40">
+            
+            
+            <Rotulo>Art. 40.</Rotulo>
+            
+            <Caput id="art40_cpt">
+            <!--Link: urn:lex:br:federal:lei:2003;10833!art10--><!--Link: urn:lex:br:federal:lei:2003;10833!art15-->
+            
+            
+            <p>
+    Os <span xlink:href="urn:lex:br:federal:lei:2003;10833!art10">arts. 10</span> e <span xlink:href="urn:lex:br:federal:lei:2003;10833!art15">15 da Lei nº 10.833, de 2003</span>, passam a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:2003;10833" id="art40_cpt_alt1">              
+              <Artigo xlink:href="art10" id="art40_cpt_alt1_art10" abreAspas="s">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput xlink:href="art10_cpt" id="art40_cpt_alt1_art10_cpt" textoOmitido="s">
+            
+            
+            
+            
+            <Omissis id="art40_cpt_alt1_art10_cpt_omi1"/><Inciso xlink:href="art10_cpt_inc26" id="art40_cpt_alt1_art10_cpt_inc26">
+            
+            
+            <Rotulo>XXVI –</Rotulo>
+            <p>
+    as receitas relativas às atividades de revenda de imóveis, desmembramento ou loteamento de terrenos, incorporação imobiliária e construção de prédio destinado à venda, quando decorrentes de contratos de longo prazo firmados antes de 30 de outubro de 2003;
+
+  </p>
+            
+          </Inciso>
+          </Caput><Omissis id="art40_cpt_alt1_art10_omi1" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo><Artigo xlink:href="art15" id="art40_cpt_alt1_art15" abreAspas="s">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput xlink:href="art15_cpt" id="art40_cpt_alt1_art15_cpt" textoOmitido="s">
+            
+            
+            
+            
+            <Omissis id="art40_cpt_alt1_art15_cpt_omi1"/><Inciso xlink:href="art15_cpt_inc5" id="art40_cpt_alt1_art15_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    nos incisos VI, IX a XXVI do caput e no §§ 1º e 2º do art. 10;
+
+  </p>
+            
+          </Inciso>
+          </Caput><Omissis id="art40_cpt_alt1_art15_omi1" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art41">
+            
+            
+            <Rotulo>Art. 41.</Rotulo>
+            
+            <Caput id="art41_cpt">
+            <!--Link: urn:lex:br:federal:lei:2004;10865!art7--><!--Link: urn:lex:br:federal:lei:2004;10865!art8--><!--Link: urn:lex:br:federal:lei:2004;10865!art28--><!--Link: urn:lex:br:federal:lei:2004;10865!art40-->
+            
+            
+            <p>
+    Os <span xlink:href="urn:lex:br:federal:lei:2004;10865!art7">arts. 7º</span> , <span xlink:href="urn:lex:br:federal:lei:2004;10865!art8">8º</span> , <span xlink:href="urn:lex:br:federal:lei:2004;10865!art28">28</span> e <span xlink:href="urn:lex:br:federal:lei:2004;10865!art40">40 da Lei nº 10.865, de 2004</span>, passam a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:2004;10865" id="art41_cpt_alt1">              
+              <Artigo xlink:href="art7" id="art41_cpt_alt1_art7" abreAspas="s">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput xlink:href="art7_cpt" id="art41_cpt_alt1_art7_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Omissis id="art41_cpt_alt1_art7_omi1"/><Paragrafo xlink:href="art7_par5" id="art41_cpt_alt1_art7_par5" fechaAspas="s" notaAlteracao="NR">
+            <!--Link: urn:lex:br:federal:lei.complementar:1996-09-13;87!art13_cpt_inc5_ali5-->
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Para efeito do disposto no § 4º não se inclui a parcela a que se refere a <span xlink:href="urn:lex:br:federal:lei.complementar:1996-09-13;87!art13_cpt_inc5_ali5">alínea &quot;e&quot; do inciso V do art. 13 da Lei Complementar nº 87, de 13 de setembro de 1996</span>.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo xlink:href="art8" id="art41_cpt_alt1_art8" abreAspas="s">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput xlink:href="art8_cpt" id="art41_cpt_alt1_art8_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Omissis id="art41_cpt_alt1_art8_omi1"/><Paragrafo xlink:href="art8_par12" id="art41_cpt_alt1_art8_par12" textoOmitido="s">
+            
+            
+            <Rotulo>§ 12.</Rotulo>
+            
+            <Omissis id="art41_cpt_alt1_art8_par12_omi1"/><Inciso xlink:href="art8_par12_inc13" id="art41_cpt_alt1_art8_par12_inc13">
+            <!--Link: urn:lex:br:federal:lei:2003;10833!art49-->
+            
+            <Rotulo>XIII –</Rotulo>
+            <p>
+    preparações compostas não-alcoólicas, classificadas no código 2106.90.10 Ex 01, da TIPI, destinadas à elaboração de bebidas pelas pessoas jurídicas industriais dos produtos referidos no <span xlink:href="urn:lex:br:federal:lei:2003;10833!art49">art. 49 da Lei nº 10.833, de 2003</span>.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Omissis id="art41_cpt_alt1_art8_omi2" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo><Artigo xlink:href="art28" id="art41_cpt_alt1_art28" abreAspas="s">
+            
+            
+            <Rotulo>Art. 28.</Rotulo>
+            
+            <Caput xlink:href="art28_cpt" id="art41_cpt_alt1_art28_cpt" textoOmitido="s">
+            
+            
+            
+            
+            <Omissis id="art41_cpt_alt1_art28_cpt_omi1"/><Inciso xlink:href="art28_cpt_inc7" id="art41_cpt_alt1_art28_cpt_inc7">
+            <!--Link: urn:lex:br:federal:lei:2003;10833!art49-->
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    preparações compostas não-alcoólicas, classificadas no código 2106.90.10 Ex 01, da TIPI, destinadas à elaboração de bebidas pelas pessoas jurídicas industriais dos produtos referidos no <span xlink:href="urn:lex:br:federal:lei:2003;10833!art49">art. 49 da Lei nº 10.833, de 2003</span>.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Omissis id="art41_cpt_alt1_art28_omi1" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo><Artigo xlink:href="art40" id="art41_cpt_alt1_art40" abreAspas="s">
+            
+            
+            <Rotulo>Art. 40.</Rotulo>
+            
+            <Caput xlink:href="art40_cpt" id="art41_cpt_alt1_art40_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Paragrafo xlink:href="art40_par1" id="art41_cpt_alt1_art40_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Para fins do disposto no caput, considera-se pessoa jurídica preponderantemente exportadora aquela cuja receita bruta decorrente de exportação para o exterior, no ano-calendário imediatamente anterior ao da aquisição, houver sido superior a oitenta por cento de sua receita bruta total de venda de bens e serviços no mesmo período.
+
+  </p>
+            
+          </Paragrafo><Omissis id="art41_cpt_alt1_art40_omi1" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art42">
+            
+            
+            <Rotulo>Art. 42.</Rotulo>
+            
+            <Caput id="art42_cpt">
+            <!--Link: urn:lex:br:federal:lei:2004;11051!art2--><!--Link: urn:lex:br:federal:lei:2004;11051!art10-->
+            
+            
+            <p>
+    Os <span xlink:href="urn:lex:br:federal:lei:2004;11051!art2">arts. 2º</span> e <span xlink:href="urn:lex:br:federal:lei:2004;11051!art10">10 da Lei nº 11.051, de 2004</span>, passam a vigorar com a seguinte redação: (Vigência)
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:2004;11051" id="art42_cpt_alt1">              
+              <Artigo xlink:href="art2" id="art42_cpt_alt1_art2" abreAspas="s">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput xlink:href="art2_cpt" id="art42_cpt_alt1_art2_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Omissis id="art42_cpt_alt1_art2_omi1"/><Paragrafo xlink:href="art2_par2" id="art42_cpt_alt1_art2_par2" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O disposto neste artigo aplica-se às aquisições efetuadas após 1º de outubro de 2004.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo xlink:href="art10" id="art42_cpt_alt1_art10" abreAspas="s">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput xlink:href="art10_cpt" id="art42_cpt_alt1_art10_cpt" textoOmitido="s">
+            
+            
+            
+            
+            <Omissis id="art42_cpt_alt1_art10_cpt_omi1"/><Inciso xlink:href="art10_cpt_inc3" id="art42_cpt_alt1_art10_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:2002-07-03;10485-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    para autopeças relacionadas nos Anexos I e II da <span xlink:href="urn:lex:br:federal:lei:2002-07-03;10485">Lei nº 10.485, de 3 de julho de 2002</span>: (Vigência)
+
+  </p>
+            <Alinea xlink:href="art10_cpt_inc3_ali1" id="art42_cpt_alt1_art10_cpt_inc3_ali1">
+            <!--Link: urn:lex:br:federal:lei:2002;10485!art3_cpt_inc1-->
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    no <span xlink:href="urn:lex:br:federal:lei:2002;10485!art3_cpt_inc1">inciso I do art. 3º da Lei nº 10.485, de 2002</span>, no caso de venda para as pessoas jurídicas nele relacionados; ou (Vigência)
+
+  </p>
+            
+          </Alinea><Alinea xlink:href="art10_cpt_inc3_ali2" id="art42_cpt_alt1_art10_cpt_inc3_ali2">
+            <!--Link: urn:lex:br:federal:lei:2002;10485!art3_cpt_inc2-->
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    no <span xlink:href="urn:lex:br:federal:lei:2002;10485!art3_cpt_inc2">inciso II do art. 3º da Lei nº 10.485, de 2002</span>, no caso de vendas para as pessoas jurídicas nele relacionados; (Vigência)
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput><Omissis id="art42_cpt_alt1_art10_omi1"/><Paragrafo xlink:href="art10_par2" id="art42_cpt_alt1_art10_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A Contribuição para o PIS/PASEP e a COFINS incidirão sobre a receita bruta auferida pela pessoa jurídica executora da encomenda às alíquotas de um inteiro e sessenta e cinco centésimos por cento e de sete inteiros e seis décimos por cento, respectivamente. (Vigência)
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art10_par3" id="art42_cpt_alt1_art10_par3" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Para os efeitos deste artigo aplicam-se os conceitos de industrialização por encomenda do Imposto sobre Produtos Industrializados - IPI.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art43">
+            
+            
+            <Rotulo>Art. 43.</Rotulo>
+            
+            <Caput id="art43_cpt">
+            <!--Link: urn:lex:br:federal:lei:2002;10637!art3_cpt_inc2--><!--Link: urn:lex:br:federal:lei:2003;10833!art3_cpt_inc2-->
+            
+            
+            <p>
+    Nas aquisições de sucata de alumínio, classificada no código 7602.00 da TIPI, efetuadas por pessoa jurídica que exerça a atividade de fundição, fica vedada a utilização do crédito de que trata o <span xlink:href="urn:lex:br:federal:lei:2002;10637!art3_cpt_inc2">inciso II do caput do art. 3º da Lei nº 10.637, de 2002</span>, e o <span xlink:href="urn:lex:br:federal:lei:2003;10833!art3_cpt_inc2">inciso II do caput do art. 3º da Lei nº 10.833, de 2003</span>. (Vigência)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art44">
+            
+            
+            <Rotulo>Art. 44.</Rotulo>
+            
+            <Caput id="art44_cpt">
+            
+            
+            
+            <p>
+    A incidência da Contribuição para o PIS/PASEP e da COFINS fica suspensa no caso de venda de sucata de alumínio, classificada no código 7602.00 da TIPI, para pessoa jurídica que apure o imposto de renda com base no lucro real e que exerça a atividade de fundição. (Vigência)
+
+  </p>
+            
+          </Caput><Paragrafo id="art44_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A suspensão de que trata o caput não se aplica às vendas efetuadas por pessoa jurídica optante pelo SIMPLES.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap10">
+            
+            
+            <Rotulo>CAPÍTULO X</Rotulo>
+            <NomeAgrupador>
+    DO IPI
+
+  </NomeAgrupador>
+            <Artigo id="art45">
+            
+            
+            <Rotulo>Art. 45.</Rotulo>
+            
+            <Caput id="art45_cpt">
+            <!--Link: urn:lex:br:federal:lei:1964-11-30;4502!art43_par2-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1964-11-30;4502!art43_par2">§ 2º do art. 43 da Lei nº 4.502, de 30 de novembro de 1964</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1964-11-30;4502" id="art45_cpt_alt1">              
+              <Paragrafo xlink:href="art43_par2" id="art45_cpt_alt1_art43_par2" abreAspas="s" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As indicações do caput e de seu § 1º serão feitas na forma do regulamento.
+
+  </p>
+            
+          </Paragrafo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art46">
+            
+            
+            <Rotulo>Art. 46.</Rotulo>
+            
+            <Caput id="art46_cpt">
+            <!--Link: urn:lex:br:federal:lei:1996-12-13;9363!art6-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1996-12-13;9363!art6">art. 6º da Lei nº 9.363, de 13 de dezembro de 1996</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1996-12-13;9363" id="art46_cpt_alt1">              
+              <Artigo xlink:href="art6" id="art46_cpt_alt1_art6" abreAspas="s">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput xlink:href="art6_cpt" id="art46_cpt_alt1_art6_cpt" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            
+            <p>
+    A Secretaria da Receita Federal expedirá as instruções necessárias ao cumprimento do disposto nesta Lei, inclusive quanto aos requisitos e periodicidade para apuração e para fruição do crédito presumido e respectivo ressarcimento, à definição de receita de exportação e aos documentos fiscais comprobatórios dos lançamentos, a esse título, efetuados pelo produtor exportador.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap11">
+            
+            
+            <Rotulo>CAPÍTULO XI</Rotulo>
+            <NomeAgrupador>
+    DOS PRAZOS DE RECOLHIMENTO DE IMPOSTOS E CONTRIBUIÇÕES
+
+  </NomeAgrupador>
+            <Artigo id="art47">
+            
+            
+            <Rotulo>Art. 47.</Rotulo>
+            
+            <Caput id="art47_cpt">
+            
+            
+            
+            <p>
+    Em relação aos fatos geradores ocorridos a partir de 1º de janeiro de 2006, os recolhimentos do Imposto de Renda Retido na Fonte - IRRF e do Imposto sobre Operações de Crédito, Câmbio e Seguro, ou Relativas a Títulos ou Valores Mobiliários - IOF serão efetuados nos seguintes prazos: (Vigência)
+
+  </p>
+            <Inciso id="art47_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    IRRF:
+
+  </p>
+            <Alinea id="art47_cpt_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    na data da ocorrência do fato gerador, no caso de:
+
+  </p>
+            <Item id="art47_cpt_inc1_ali1_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    rendimentos atribuídos a residentes ou domiciliados no exterior; e
+
+  </p>
+            
+          </Item><Item id="art47_cpt_inc1_ali1_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    pagamentos a beneficiários não identificados;
+
+  </p>
+            
+          </Item>
+          </Alinea><Alinea id="art47_cpt_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    até o terceiro dia útil subseqüente ao decêndio de ocorrência dos fatos geradores, no caso de:
+
+  </p>
+            <Item id="art47_cpt_inc1_ali2_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    juros sobre o capital próprio e aplicações financeiras, inclusive os atribuídos a residentes ou domiciliados no exterior, e títulos de capitalização;
+
+  </p>
+            
+          </Item><Item id="art47_cpt_inc1_ali2_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    prêmios, inclusive os distribuídos sob a forma de bens e serviços, obtidos em concursos e sorteios de qualquer espécie e lucros decorrentes desses prêmios; e
+
+  </p>
+            
+          </Item><Item id="art47_cpt_inc1_ali2_ite3">
+            <!--Link: urn:lex:br:federal:lei:1996;9430!art70-->
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    multa ou qualquer vantagem, de que trata o <span xlink:href="urn:lex:br:federal:lei:1996;9430!art70">art. 70 da Lei nº 9.430, de 1996</span>;
+
+  </p>
+            
+          </Item>
+          </Alinea><Alinea id="art47_cpt_inc1_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    até o último dia útil do mês subseqüente ao encerramento do período de apuração, no caso de rendimentos e ganhos de capital distribuídos pelos fundos de investimento imobiliário; e
+
+  </p>
+            
+          </Alinea><Alinea id="art47_cpt_inc1_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    até o último dia útil do primeiro decêndio do mês subseqüente ao mês de ocorrência dos fatos geradores, nos demais casos;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art47_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    IOF:
+
+  </p>
+            <Alinea id="art47_cpt_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    até o terceiro dia útil subseqüente ao decêndio de ocorrência dos fatos geradores, no caso de aquisição de ouro, ativo financeiro; e
+
+  </p>
+            
+          </Alinea><Alinea id="art47_cpt_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    até o terceiro dia útil subseqüente ao decêndio da cobrança ou do registro contábil do imposto, nos demais casos.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput><Paragrafo id="art47_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Excepcionalmente, na hipótese de que trata a alínea &quot;d&quot; do inciso I, em relação aos fatos geradores ocorridos:
+
+  </p>
+            <Inciso id="art47_par1u_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    no mês de dezembro de 2006, os recolhimentos serão efetuados:
+
+  </p>
+            <Alinea id="art47_par1u_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    até o terceiro dia útil do decêndio subseqüente, para os fatos geradores ocorridos no primeiro e segundo decêndios; e
+
+  </p>
+            
+          </Alinea><Alinea id="art47_par1u_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    até o último dia útil do primeiro decêndio do mês de janeiro de 2007, para os fatos geradores ocorridos no terceiro decêndio;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art47_par1u_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    no mês de dezembro de 2007, os recolhimentos serão efetuados:
+
+  </p>
+            <Alinea id="art47_par1u_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    até o terceiro dia útil do segundo decêndio, para os fatos geradores ocorridos no primeiro decêndio; e
+
+  </p>
+            
+          </Alinea><Alinea id="art47_par1u_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    até o último dia útil do primeiro decêndio do mês de janeiro de 2008, para os fatos geradores ocorridos no segundo e no terceiro decêndio.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo id="art48">
+            
+            
+            <Rotulo>Art. 48.</Rotulo>
+            
+            <Caput id="art48_cpt">
+            <!--Link: urn:lex:br:federal:lei:1995-01-20;8981!art63_par1-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1995-01-20;8981!art63_par1">§ 1º do art. 63 da Lei nº 8.981, de 20 de janeiro de 1995</span>, passa a vigorar com a seguinte redação: (Vigência)
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1995-01-20;8981" id="art48_cpt_alt1">              
+              <Paragrafo xlink:href="art63_par1" id="art48_cpt_alt1_art63_par1" abreAspas="s" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O imposto de que trata este artigo incidirá sobre o valor de mercado do prêmio, na data da distribuição.
+
+  </p>
+            
+          </Paragrafo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art49">
+            
+            
+            <Rotulo>Art. 49.</Rotulo>
+            
+            <Caput id="art49_cpt">
+            <!--Link: urn:lex:br:federal:lei:1996-10-24;9311!art10_par1u-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1996-10-24;9311!art10_par1u">parágrafo único do art. 10 da Lei nº 9.311, de 24 de outubro de 1996</span>, passa a vigorar com a seguinte redação: (Vigência)
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1996-10-24;9311" id="art49_cpt_alt1">              
+              <Paragrafo xlink:href="art10_par1u" id="art49_cpt_alt1_art10_par1u" abreAspas="s" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O pagamento ou a retenção e o recolhimento da contribuição serão efetuados no mínimo uma vez por decêndio.
+
+  </p>
+            
+          </Paragrafo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art50">
+            
+            
+            <Rotulo>Art. 50.</Rotulo>
+            
+            <Caput id="art50_cpt">
+            <!--Link: urn:lex:br:federal:lei:1996;9430!art70_par2-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1996;9430!art70_par2">§ 2º do art. 70 da Lei nº 9.430, de 1996</span>, passa a vigorar com a seguinte redação: (Vigência)
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1996;9430" id="art50_cpt_alt1">              
+              <Paragrafo xlink:href="art70_par2" id="art50_cpt_alt1_art70_par2" abreAspas="s" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O imposto deverá ser retido na data do pagamento ou crédito da multa ou vantagem.
+
+  </p>
+            
+          </Paragrafo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art51">
+            
+            
+            <Rotulo>Art. 51.</Rotulo>
+            
+            <Caput id="art51_cpt">
+            <!--Link: urn:lex:br:federal:lei:2003;10833!art35-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:2003;10833!art35">art. 35 da Lei nº 10.833, de 2003</span>, passa a vigorar com a seguinte redação: (Vigência)
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:2003;10833" id="art51_cpt_alt1">              
+              <Artigo xlink:href="art35" id="art51_cpt_alt1_art35" abreAspas="s">
+            
+            
+            <Rotulo>Art. 35.</Rotulo>
+            
+            <Caput xlink:href="art35_cpt" id="art51_cpt_alt1_art35_cpt" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            
+            <p>
+    Os valores retidos na quinzena, na forma dos arts. 30, 33 e 34, deverão ser recolhidos ao Tesouro Nacional pelo órgão público que efetuar a retenção ou, de forma centralizada, pelo estabelecimento matriz da pessoa jurídica, até o último dia útil da quinzena subseqüente àquela quinzena em que tiver ocorrido o pagamento à pessoa jurídica fornecedora dos bens ou prestadora do serviço.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap12">
+            
+            
+            <Rotulo>CAPÍTULO XII</Rotulo>
+            <NomeAgrupador>
+    DOS FUNDOS DE INVESTIMENTO VINCULADOS A PLANOS DE PREVIDÊNCIA E SEGUROS DE VIDA COM COBERTURA POR SOBREVIVÊNCIA
+
+  </NomeAgrupador>
+            <Artigo id="art52">
+            
+            
+            <Rotulo>Art. 52.</Rotulo>
+            
+            <Caput id="art52_cpt">
+            
+            
+            
+            <p>
+    As entidades abertas de previdência complementar e as sociedades seguradoras poderão, a partir de 1º de janeiro de 2006, constituir fundos de investimento, com patrimônio segregado, vinculados exclusivamente a planos de previdência complementar ou seguros de vida com cláusula de cobertura por sobrevivência, estruturados na modalidade de contribuição variável, por elas comercializados e administrados.
+
+  </p>
+            
+          </Caput><Paragrafo id="art52_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Durante o período de acumulação, a remuneração da provisão matemática de benefícios a conceder, dos planos e seguros referidos no caput, terá por base a rentabilidade da carteira de investimentos dos respectivos fundos.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art53">
+            
+            
+            <Rotulo>Art. 53.</Rotulo>
+            
+            <Caput id="art53_cpt">
+            
+            
+            
+            <p>
+    A aquisição de plano ou seguro enquadrado na estrutura prevista no art. 52 far-se-á mediante subscrição, pelo adquirente, de cotas dos fundos de investimento vinculados.
+
+  </p>
+            
+          </Caput><Paragrafo id="art53_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    No caso de plano ou seguro coletivo:
+
+  </p>
+            <Inciso id="art53_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a pessoa jurídica adquirente também será cotista do fundo; e
+
+  </p>
+            
+          </Inciso><Inciso id="art53_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o contrato ou apólice conterá cláusula com a periodicidade em que as cotas adquiridas pela pessoa jurídica terão sua titularidade transferida para os participantes ou segurados.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art53_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A transferência de titularidade de que trata o inciso II do § 1º :
+
+  </p>
+            <Inciso id="art53_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    conferirá aos participantes ou segurados o direito à realização de resgates e à portabilidade dos recursos acumulados correspondentes às cotas;
+
+  </p>
+            
+          </Inciso><Inciso id="art53_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    não caracteriza resgate para fins de incidência do Imposto de Renda.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art53_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Independentemente do disposto no § 1º , inciso II, no caso de falência ou liquidação extrajudicial de pessoa jurídica proprietária de cotas:
+
+  </p>
+            <Inciso id="art53_par3_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a titularidade das cotas vinculadas a participantes ou segurados individualizados será transferida a estes;
+
+  </p>
+            
+          </Inciso><Inciso id="art53_par3_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a titularidade das cotas não vinculadas a qualquer participante ou segurado individualizado será transferida para todos os participantes ou segurados proporcionalmente ao número de cotas de propriedade destes, inclusive daquelas cuja titularidade lhes tenha sido transferida com base no inciso I deste parágrafo.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo id="art54">
+            
+            
+            <Rotulo>Art. 54.</Rotulo>
+            
+            <Caput id="art54_cpt">
+            
+            
+            
+            <p>
+    O patrimônio dos fundos de investimento de que trata este Capítulo não se comunica com o das entidades abertas de previdência complementar ou das sociedades seguradoras que os constituírem, não respondendo, nem mesmo subsidiariamente, por dívidas destas.
+
+  </p>
+            
+          </Caput><Paragrafo id="art54_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    No caso de falência ou liquidação extrajudicial da entidade aberta de previdência complementar ou da sociedade seguradora, o patrimônio dos fundos não integrará a respectiva massa falida ou liquidanda.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art55">
+            
+            
+            <Rotulo>Art. 55.</Rotulo>
+            
+            <Caput id="art55_cpt">
+            
+            
+            
+            <p>
+    No caso de morte do participante ou segurado dos planos e seguros de que trata o art. 52, os seus beneficiários poderão optar pelo resgate das cotas ou pelo recebimento de benefício de caráter continuado previsto em contrato, independentemente da abertura de inventário ou procedimento semelhante.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art56">
+            
+            
+            <Rotulo>Art. 56.</Rotulo>
+            
+            <Caput id="art56_cpt">
+            
+            
+            
+            <p>
+    Os planos de previdência complementar e os seguros de vida com cláusula de cobertura por sobrevivência comercializados até 31 de dezembro de 2005 poderão ser adaptados pelas entidades abertas de previdência complementar e sociedades seguradoras à estrutura prevista neste Capítulo.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art57">
+            
+            
+            <Rotulo>Art. 57.</Rotulo>
+            
+            <Caput id="art57_cpt">
+            
+            
+            
+            <p>
+    O disposto no art. 56 não afeta o direito dos participantes e segurados à portabilidade dos recursos acumulados, para outros planos e seguros, estruturados ou não nos termos do art. 52.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art58">
+            
+            
+            <Rotulo>Art. 58.</Rotulo>
+            
+            <Caput id="art58_cpt">
+            
+            
+            
+            <p>
+    A concessão de benefício de caráter continuado por plano ou seguro estruturado na forma do art. 52 importará na transferência da propriedade das cotas dos fundos a que esteja vinculado o respectivo plano ou seguro para a entidade aberta de previdência complementar ou a sociedade seguradora responsável pela concessão.
+
+  </p>
+            
+          </Caput><Paragrafo id="art58_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A transferência de titularidade de cotas de que trata o caput não caracteriza resgate para fins de incidência do Imposto de Renda.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art59">
+            
+            
+            <Rotulo>Art. 59.</Rotulo>
+            
+            <Caput id="art59_cpt">
+            <!--Link: urn:lex:br:federal:lei:1997-12-10;9532!art11--><!--Link: urn:lex:br:federal:lei:2004-12-29;11053-->
+            
+            
+            <p>
+    Aplicam-se aos planos e seguros de que trata o art. 52 o <span xlink:href="urn:lex:br:federal:lei:1997-12-10;9532!art11">art. 11 da Lei nº 9.532, de 10 de dezembro de 1997</span>, e os arts. 1º a 5º e 7º da <span xlink:href="urn:lex:br:federal:lei:2004-12-29;11053">Lei nº 11.053, de 29 de dezembro de 2004</span>.
+
+  </p>
+            
+          </Caput><Paragrafo id="art59_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Fica responsável pela retenção e recolhimento dos impostos e contribuições incidentes sobre as aplicações efetuadas nos fundos de investimento de que trata o art. 52 a entidade aberta de previdência complementar ou a sociedade seguradora que comercializar ou administrar o plano ou seguro enquadrado na estrutura prevista no mencionado artigo, bem como pelo cumprimento das obrigações acessórias decorrentes dessa responsabilidade.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art60">
+            
+            
+            <Rotulo>Art. 60.</Rotulo>
+            
+            <Caput id="art60_cpt">
+            
+            
+            
+            <p>
+    É facultado ao participante de plano de previdência complementar enquadrado na estrutura prevista no art. 52 o oferecimento, como garantia de financiamento imobiliário, de cotas, de sua titularidade, dos fundos de que trata o referido artigo.
+
+  </p>
+            
+          </Caput><Paragrafo id="art60_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O disposto neste artigo aplica-se também:
+
+  </p>
+            <Inciso id="art60_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    aos cotistas de Fundo de Aposentadoria Programada Individual - FAPI; e
+
+  </p>
+            
+          </Inciso><Inciso id="art60_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    aos segurados titulares de seguro de vida com cláusula de cobertura por sobrevivência enquadrado na estrutura prevista neste Capítulo.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art60_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A faculdade mencionada no caput aplica-se apenas ao financiamento imobiliário tomado em instituição financeira, que poderá ser vinculada ou não à entidade operadora do plano ou seguro.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art61">
+            
+            
+            <Rotulo>Art. 61.</Rotulo>
+            
+            <Caput id="art61_cpt">
+            
+            
+            
+            <p>
+    É vedada às entidades abertas de previdência complementar e às sociedades seguradoras a imposição de restrições ao exercício da faculdade mencionada no caput, especialmente quando o financiamento imobiliário for tomado em instituição financeira não vinculada.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art62">
+            
+            
+            <Rotulo>Art. 62.</Rotulo>
+            
+            <Caput id="art62_cpt">
+            
+            
+            
+            <p>
+    A garantia de que trata o art. 60 será objeto de instrumento contratual específico, firmado pelo participante ou segurado, pela entidade aberta de previdência complementar ou sociedade seguradora e pela instituição financeira.
+
+  </p>
+            
+          </Caput><Paragrafo id="art62_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O instrumento contratual específico a que se refere o caput será considerado, para todos os efeitos jurídicos, como parte integrante do plano de benefícios ou da apólice, conforme o caso.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art63">
+            
+            
+            <Rotulo>Art. 63.</Rotulo>
+            
+            <Caput id="art63_cpt">
+            
+            
+            
+            <p>
+    As operações de financiamento imobiliário que contarem com a garantia mencionada no art. 60 serão contratadas com seguro de vida com cobertura de morte e invalidez permanente.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art64">
+            
+            
+            <Rotulo>Art. 64.</Rotulo>
+            
+            <Caput id="art64_cpt">
+            
+            
+            
+            <p>
+    Compete ao Banco Central do Brasil, à Comissão de Valores Mobiliários e à Superintendência de Seguros Privados, no âmbito de suas respectivas atribuições, dispor sobre os critérios complementares para a regulamentação deste Capítulo.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap13">
+            
+            
+            <Rotulo>CAPÍTULO XIII</Rotulo>
+            <NomeAgrupador>
+    DAS DISPOSIÇÕES GERAIS
+
+  </NomeAgrupador>
+            <Artigo id="art65">
+            
+            
+            <Rotulo>Art. 65.</Rotulo>
+            
+            <Caput id="art65_cpt">
+            
+            
+            
+            <p>
+    Para efeito de determinação da base de cálculo da Contribuição para o PIS/PASEP, da COFINS, do IRPJ e da CSLL, as instituições financeiras e as demais instituições autorizadas a funcionar pelo Banco Central do Brasil devem computar como receitas ou despesas incorridas nas operações realizadas em mercados de liquidação futura: (Vigência)
+
+  </p>
+            <Inciso id="art65_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a diferença, apurada no último dia útil do mês, entre as variações das taxas, dos preços ou dos índices contratados (diferença de curvas), sendo o saldo apurado por ocasião da liquidação do contrato, da cessão ou do encerramento da posição, nos casos de:
+
+  </p>
+            <Alinea id="art65_cpt_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    swap e termo;
+
+  </p>
+            
+          </Alinea><Alinea id="art65_cpt_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    futuro e outros derivativos com ajustes financeiros diários ou periódicos de posições cujos ativos subjacentes aos contratos sejam taxas de juro spot ou instrumentos de renda fixa para os quais seja possível a apuração do critério previsto neste inciso;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art65_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o resultado da soma algébrica dos ajustes apurados mensalmente, no caso dos mercados referidos na alínea &quot;b&quot; do inciso I cujos ativos subjacentes aos contratos sejam mercadorias, moedas, ativos de renda variável, taxas de juro a termo ou qualquer outro ativo ou variável econômica para os quais não seja possível adotar o critério previsto no referido inciso;
+
+  </p>
+            
+          </Inciso><Inciso id="art65_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    o resultado apurado na liquidação do contrato, da cessão ou do encerramento da posição, no caso de opções e demais derivativos.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art65_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A Secretaria da Receita Federal regulamentará o disposto neste artigo, podendo, inclusive, determinar que o valor a ser reconhecido mensalmente, na hipótese de que trata a alínea &quot;b&quot; do inciso I do caput, seja calculado:
+
+  </p>
+            <Inciso id="art65_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    pela bolsa em que os contratos foram negociados ou registrados;
+
+  </p>
+            
+          </Inciso><Inciso id="art65_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    enquanto não estiver disponível a informação de que trata o inciso I do caput, de acordo com os critérios estabelecidos pelo Banco Central do Brasil.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art65_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Quando a operação for realizada no mercado de balcão, somente será admitido o reconhecimento de despesas ou de perdas se a operação tiver sido registrada em sistema que disponha de critérios para aferir se os preços, na abertura ou no encerramento da posição, sejam consistentes com os preços de mercado.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art65_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    No caso de operações de hedge realizadas em mercados de liquidação futura em bolsas no exterior, as receitas ou as despesas de que trata o caput serão apropriadas pelo resultado:
+
+  </p>
+            <Inciso id="art65_par3_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    da soma algébrica dos ajustes apurados mensalmente, no caso de contratos sujeitos a ajustes de posições;
+
+  </p>
+            
+          </Inciso><Inciso id="art65_par3_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    auferido na liquidação do contrato, no caso dos demais derivativos.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art65_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Para efeito de determinação da base de cálculo da Contribuição para o PIS/PASEP e da COFINS, fica vedado o reconhecimento de despesas ou de perdas apuradas em operações realizadas em mercados fora de bolsa no exterior.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art65_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Os ajustes serão efetuados no LALUR.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art66">
+            
+            
+            <Rotulo>Art. 66.</Rotulo>
+            
+            <Caput id="art66_cpt">
+            <!--Link: urn:lex:br:federal:lei:2004-08-02;10931!art4-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:2004-08-02;10931!art4">art. 4º da Lei nº 10.931, de 2 de agosto de 2004</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:2004-08-02;10931" id="art66_cpt_alt1">              
+              <Artigo xlink:href="art4" id="art66_cpt_alt1_art4" abreAspas="s">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput xlink:href="art4_cpt" id="art66_cpt_alt1_art4_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Omissis id="art66_cpt_alt1_art4_omi1"/><Paragrafo xlink:href="art4_par2" id="art66_cpt_alt1_art4_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O pagamento dos tributos e contribuições na forma do disposto no caput será considerado definitivo, não gerando, em qualquer hipótese, direito à restituição ou à compensação com o que for apurado pela incorporadora.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art4_par3" id="art66_cpt_alt1_art4_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    As receitas, custos e despesas próprios da incorporação sujeita a tributação na forma deste artigo não deverão ser computados na apuração das bases de cálculo dos tributos e contribuições de que trata o caput, devidos pela incorporadora em virtude de suas outras atividades empresariais, inclusive incorporações não afetadas.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art4_par4" id="art66_cpt_alt1_art4_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Para fins do disposto no § 3º , os custos e despesas indiretos pagos pela incorporadora num mês serão reconhecidos como próprios da incorporação no mesmo percentual de participação das receitas mensais próprias da incorporação na receita mensal total recebida pela incorporadora, assim entendida a soma de todas as receitas operacionais ou não operacionais recebidas pela incorporadora, inclusive a advinda da incorporação afetada.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art4_par5" id="art66_cpt_alt1_art4_par5" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    A opção pelo regime especial de tributação obriga o contribuinte a fazer o recolhimento dos tributos, na forma do caput, a partir do mês da opção.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art67">
+            
+            
+            <Rotulo>Art. 67.</Rotulo>
+            
+            <Caput id="art67_cpt">
+            
+            
+            
+            <p>
+    Está sujeito ao imposto de renda exclusivamente na fonte, à alíquota de quinze por cento, o ganho de capital apurado na alienação efetuada por pessoa física a órgãos, autarquias e fundações da administração pública federal, de imóvel rural para fins de reforma agrária.
+
+  </p>
+            
+          </Caput><Paragrafo id="art67_par1">
+            <!--Link: urn:lex:br:federal:lei:1996;9430!art64-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Na hipótese de alienação a que se refere o caput, efetuada por pessoa jurídica, o ganho de capital está sujeito à incidência, na fonte, do IRPJ e da CSLL, às mesmas alíquotas e forma de incidência previstas no <span xlink:href="urn:lex:br:federal:lei:1996;9430!art64">art. 64 da Lei nº 9.430, de 1996</span>.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art67_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O valor retido na forma do § 1º será considerado antecipação do que for devido pela pessoa jurídica em relação ao mesmo imposto e contribuição.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art67_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A pessoa física e a pessoa jurídica deverão demonstrar perante o órgão, autarquia ou fundação da administração pública federal adquirente, para efeito do caput e do § 1º , o ganho de capital decorrente da operação, na forma disciplinada pela Secretaria da Receita Federal.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art67_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Os impostos e a contribuição de que trata este artigo serão retidos, em espécie, pelo órgão ou entidade adquirente, no ato do pagamento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art67_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    O valor retido, correspondente a cada imposto ou contribuição, será levado a crédito da respectiva conta da receita da União, na data da retenção.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art67_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    O disposto neste artigo não se aplica nas hipóteses de alienações efetuadas por pessoas físicas não sujeitas à incidência do imposto de renda, previstas na legislação tributária, e nas alienações efetuadas por pessoas jurídicas optantes pelo SIMPLES.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art68">
+            
+            
+            <Rotulo>Art. 68.</Rotulo>
+            
+            <Caput id="art68_cpt">
+            
+            
+            
+            <p>
+    O Ministro de Estado da Fazenda poderá criar, nos Conselhos de Contribuintes do Ministério da Fazenda, Turmas Especiais, por prazo determinado, com competência para julgamento dos processos que especificar em função da matéria e do valor.
+
+  </p>
+            
+          </Caput><Paragrafo id="art68_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As Turmas de que trata o caput serão paritárias, compostas por quatro membros, sendo um conselheiro Presidente de Câmara, representante da Fazenda, e três conselheiros com mandato pro tempore, designados entre os conselheiros suplentes.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art68_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O Ministro de Estado da Fazenda disciplinará o disposto neste artigo, inclusive quanto à definição da matéria e do valor a que se refere o caput e ao funcionamento das Turmas Especiais.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art69">
+            
+            
+            <Rotulo>Art. 69.</Rotulo>
+            
+            <Caput id="art69_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1986-07-23;2287!art7-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:decreto.lei:1986-07-23;2287!art7">art. 7º do Decreto-Lei nº 2.287, de 23 de julho de 1986</span>, passa a vigorar com a seguinte redação: (Vigência)
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:decreto.lei:1986-07-23;2287" id="art69_cpt_alt1">              
+              <Artigo xlink:href="art7" id="art69_cpt_alt1_art7" abreAspas="s">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput xlink:href="art7_cpt" id="art69_cpt_alt1_art7_cpt">
+            
+            
+            
+            <p>
+    A Secretaria da Receita Federal, após o reconhecimento do direito creditório a pedido do sujeito passivo e antes de proceder à restituição ou ao ressarcimento de tributos e de contribuições por ela administrados, deverá verificar se este é devedor perante aquela Secretaria e a Procuradoria-Geral da Fazenda Nacional - PGFN.
+
+  </p>
+            
+          </Caput><Paragrafo xlink:href="art7_par1" id="art69_cpt_alt1_art7_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Verificada a existência de débito em nome do sujeito passivo, ainda que parcelado sob qualquer modalidade, inscritos ou não em Dívida Ativa da União, de natureza tributária ou não, o valor da restituição ou do ressarcimento será utilizado para extingui-lo, total ou parcialmente, mediante compensação em procedimento de ofício.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art7_par2" id="art69_cpt_alt1_art7_par2">
+            <!--Link: urn:lex:br:federal:lei:2005-01-13;11098-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Após a realização dos procedimentos a que se referem o caput e o § 1º , se remanescer crédito, a restituição e o ressarcimento ficam condicionados à comprovação, pelo sujeito passivo pessoa jurídica, de sua regularidade fiscal relativamente às contribuições a que se referem os arts. 1º a 3º da <span xlink:href="urn:lex:br:federal:lei:2005-01-13;11098">Lei nº 11.098, de 13 de janeiro de 2005</span>, inclusive as inscritas em dívida ativa do Instituto Nacional do Seguro Social - INSS.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art7_par3" id="art69_cpt_alt1_art7_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Na hipótese de existência de débito em nome do sujeito passivo pessoa jurídica, relativo às contribuições de que trata o § 2º , o valor remanescente do crédito a lhe ser restituído ou ressarcido, após a realização dos procedimentos a que se referem o caput e o § 1º , será utilizado para extingui-lo, total ou parcialmente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art7_par4" id="art69_cpt_alt1_art7_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    A extinção de débito na forma dos §§ 1º e 3º será precedida de intimação ao sujeito passivo para que manifeste sua concordância em relação ao procedimento, no prazo de quinze dias, sendo seu silêncio considerado aquiescência.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art7_par5" id="art69_cpt_alt1_art7_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    O valor equivalente ao montante do débito extinto na forma prevista no § 3º será repassado mensalmente ao INSS.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art7_par6" id="art69_cpt_alt1_art7_par6" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    Os Ministérios da Fazenda e da Previdência Social disciplinarão, no âmbito das respectivas competências, o disposto neste artigo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art70">
+            
+            
+            <Rotulo>Art. 70.</Rotulo>
+            
+            <Caput id="art70_cpt">
+            <!--Link: urn:lex:br:federal:lei:1991-07-24;8212!art89-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1991-07-24;8212!art89">art. 89 da Lei nº 8.212, de 24 de julho de 1991</span>, passa a vigorar acrescido do seguinte parágrafo: (Vigência)
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1991-07-24;8212" id="art70_cpt_alt1">              
+              <Paragrafo xlink:href="art89_par8" id="art70_cpt_alt1_art89_par8" abreAspas="s" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    Verificada a existência de débito em nome do sujeito passivo, ainda que parcelado sob qualquer modalidade, inscritos ou não em dívida ativa do INSS, de natureza tributária ou não, o valor da restituição será utilizado para extingui-lo, total ou parcialmente, mediante compensação em procedimento de ofício.
+
+  </p>
+            
+          </Paragrafo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art71">
+            
+            
+            <Rotulo>Art. 71.</Rotulo>
+            
+            <Caput id="art71_cpt">
+            <!--Link: urn:lex:br:federal:lei:2001-12-19;10336!art8-1-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:2001-12-19;10336!art8-1">art. 8º-A da Lei nº 10.336, de 19 de dezembro de 2001</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:2001-12-19;10336" id="art71_cpt_alt1">              
+              <Artigo xlink:href="art8-1" id="art71_cpt_alt1_art8-1" abreAspas="s">
+            
+            
+            <Rotulo>Art. 8º-A.</Rotulo>
+            
+            <Caput xlink:href="art8-1_cpt" id="art71_cpt_alt1_art8-1_cpt">
+            
+            
+            
+            <p>
+    O valor da CIDE-Combustíveis pago pelo vendedor de hidrocarbonetos líquidos, não destinados à formulação de gasolina ou diesel, poderá ser deduzido dos valores devidos pela pessoa jurídica adquirente desses produtos, relativamente a tributos ou contribuições, administrados pela Secretaria da Receita Federal, nos termos, limites e condições estabelecidos em regulamento.
+
+  </p>
+            
+          </Caput><Paragrafo xlink:href="art8-1_par1" id="art71_cpt_alt1_art8-1_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A pessoa jurídica importadora dos produtos de que trata o caput, não destinados à formulação de gasolina ou diesel, poderá deduzir dos valores dos tributos ou contribuições administrados pela Secretaria da Receita Federal, nos termos, limites e condições estabelecidos em regulamento, o valor da CIDE-Combustíveis pago na importação.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art8-1_par2" id="art71_cpt_alt1_art8-1_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Aplica-se o disposto neste artigo somente aos hidrocarbonetos líquidos utilizados como insumo pela pessoa jurídica adquirente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art8-1_par3" id="art71_cpt_alt1_art8-1_par3" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Os tributos ou contribuições dos quais poderão ser deduzidos a CIDE-Combustíveis, na forma deste artigo, serão relacionados em regulamento
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art72">
+            
+            
+            <Rotulo>Art. 72.</Rotulo>
+            
+            <Caput id="art72_cpt">
+            <!--Link: urn:lex:br:federal:lei:2003;10833!art18-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:2003;10833!art18">art. 18 da Lei nº 10.833, de 2003</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:2003;10833" id="art72_cpt_alt1">              
+              <Artigo xlink:href="art18" id="art72_cpt_alt1_art18" abreAspas="s">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput xlink:href="art18_cpt" id="art72_cpt_alt1_art18_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Omissis id="art72_cpt_alt1_art18_omi1"/><Paragrafo xlink:href="art18_par4" id="art72_cpt_alt1_art18_par4">
+            <!--Link: urn:lex:br:federal:lei:1996-12-27;9430!art74_par12_inc2-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Será também exigida multa isolada sobre o valor total do débito indevidamente compensado, quando a compensação for considerada não declarada nas hipóteses do <span xlink:href="urn:lex:br:federal:lei:1996-12-27;9430!art74_par12_inc2">inciso II do § 12 do art. 74 da Lei nº 9.430, de 27 de dezembro de 1996</span>, aplicando-se os percentuais previstos:
+
+  </p>
+            <Inciso xlink:href="art18_par4_inc1" id="art72_cpt_alt1_art18_par4_inc1">
+            <!--Link: urn:lex:br:federal:lei:1996;9430!art44_cpt_inc1-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    no <span xlink:href="urn:lex:br:federal:lei:1996;9430!art44_cpt_inc1">inciso I do caput do art. 44 da Lei nº 9.430, de 1996</span>;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art18_par4_inc2" id="art72_cpt_alt1_art18_par4_inc2">
+            <!--Link: urn:lex:br:federal:lei:1996;9430!art44_cpt_inc2--><!--Link: urn:lex:br:federal:lei:1964-11-30;4502!art71--><!--Link: urn:lex:br:federal:lei:1964-11-30;4502!art72--><!--Link: urn:lex:br:federal:lei:1964-11-30;4502!art73-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    no <span xlink:href="urn:lex:br:federal:lei:1996;9430!art44_cpt_inc2">inciso II do caput do art. 44 da Lei nº 9.430, de 1996</span>, nos casos de evidente intuito de fraude, definido nos <span xlink:href="urn:lex:br:federal:lei:1964-11-30;4502!art71">arts. 71</span>, <span xlink:href="urn:lex:br:federal:lei:1964-11-30;4502!art72">72</span> e <span xlink:href="urn:lex:br:federal:lei:1964-11-30;4502!art73">73 da Lei nº 4.502, de 30 de novembro de 1964</span>, independentemente de outras penalidades administrativas ou criminais cabíveis.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo xlink:href="art18_par5" id="art72_cpt_alt1_art18_par5" fechaAspas="s" notaAlteracao="NR">
+            <!--Link: urn:lex:br:federal:lei:1996;9430!art44_par2-->
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Aplica-se o disposto no <span xlink:href="urn:lex:br:federal:lei:1996;9430!art44_par2">§ 2º do art. 44 da Lei nº 9.430, de 1996</span>, às hipóteses previstas no § 4º deste artigo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap14">
+            
+            
+            <Rotulo>CAPÍTULO XIV</Rotulo>
+            <NomeAgrupador>
+    DAS DISPOSIÇÕES FINAIS
+
+  </NomeAgrupador>
+            <Artigo id="art73">
+            
+            
+            <Rotulo>Art. 73.</Rotulo>
+            
+            <Caput id="art73_cpt">
+            
+            
+            
+            <p>
+    Esta Medida Provisória entra em vigor na data de sua publicação, produzindo efeitos:
+
+  </p>
+            <Inciso id="art73_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a partir do primeiro dia do mês subseqüente à sua publicação em relação ao disposto nos arts. 39 e 40, observado o disposto na alínea &quot;a&quot; do inciso II deste artigo;
+
+  </p>
+            
+          </Inciso><Inciso id="art73_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a partir do primeiro dia do quarto mês subseqüente à sua publicação em relação ao disposto:
+
+  </p>
+            <Alinea id="art73_cpt_inc2_ali1">
+            <!--Link: urn:lex:br:federal:lei:2002;10485!art3_par7_inc2-->
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    no art. 39 desta Medida Provisória, relativamente ao inciso I do § 3º e ao <span xlink:href="urn:lex:br:federal:lei:2002;10485!art3_par7_inc2">inciso II do § 7º do art. 3º da Lei nº 10.485, de 2002</span> ;
+
+  </p>
+            
+          </Alinea><Alinea id="art73_cpt_inc2_ali2">
+            <!--Link: urn:lex:br:federal:lei:2004;11051!art10-->
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    no art. 42, em relação às alterações do <span xlink:href="urn:lex:br:federal:lei:2004;11051!art10">art. 10 da Lei nº 11.051, de 2004</span>;
+
+  </p>
+            
+          </Alinea><Alinea id="art73_cpt_inc2_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    nos arts. 43 e 44 ;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art73_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    a partir de 1º de outubro de 2005, em relação ao disposto nos arts. 33, 69 e 70, observado o disposto no inciso V;
+
+  </p>
+            
+          </Inciso><Inciso id="art73_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    a partir de 1º de janeiro de 2006, em relação ao disposto nos arts. 17 a 27 e 47 a 51 ;
+
+  </p>
+            
+          </Inciso><Inciso id="art73_cpt_inc5">
+            <!--Link: urn:lex:br:federal:decreto.lei:1986;2287!art7_par2--><!--Link: urn:lex:br:federal:decreto.lei:1986;2287!art7_par3-->
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    a partir da edição de ato disciplinando a matéria, em relação às alterações efetuadas nos <span xlink:href="urn:lex:br:federal:decreto.lei:1986;2287!art7_par2">§§ 2º</span> e <span xlink:href="urn:lex:br:federal:decreto.lei:1986;2287!art7_par3">3º do art. 7º do Decreto-Lei nº 2.287, de 1986</span>, pelo art. 69 desta Medida Provisória; e
+
+  </p>
+            
+          </Inciso><Inciso id="art73_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    em relação ao art. 65, a partir da edição de ato disciplinando a matéria, observado, como prazo mínimo:
+
+  </p>
+            <Alinea id="art73_cpt_inc6_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    o primeiro dia do quarto mês subseqüente ao da publicação desta Medida Provisória, para a Contribuição para o PIS/PASEP e à COFINS;
+
+  </p>
+            
+          </Alinea><Alinea id="art73_cpt_inc6_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    o primeiro dia do mês de janeiro de 2006, para o IRPJ e a CSLL.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art74">
+            
+            
+            <Rotulo>Art. 74.</Rotulo>
+            
+            <Caput id="art74_cpt">
+            
+            
+            
+            <p>
+    Ficam revogados:
+
+  </p>
+            <Inciso id="art74_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a partir de 1º de janeiro de 2006:
+
+  </p>
+            <Alinea id="art74_cpt_inc1_ali1">
+            <!--Link: urn:lex:br:federal:lei:1993-06-02;8661-->
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    a <span xlink:href="urn:lex:br:federal:lei:1993-06-02;8661">Lei nº 8.661, de 2 de junho de 1993</span> ;
+
+  </p>
+            
+          </Alinea><Alinea id="art74_cpt_inc1_ali2">
+            <!--Link: urn:lex:br:federal:lei:1993-06-25;8668!art17_par1u-->
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    o <span xlink:href="urn:lex:br:federal:lei:1993-06-25;8668!art17_par1u">parágrafo único do art. 17 da Lei nº 8.668, de 25 de junho de 1993</span> ;
+
+  </p>
+            
+          </Alinea><Alinea id="art74_cpt_inc1_ali3">
+            <!--Link: urn:lex:br:federal:lei:1995-01-20;8981!art82_par4--><!--Link: urn:lex:br:federal:lei:1995-01-20;8981!art83_cpt_inc1--><!--Link: urn:lex:br:federal:lei:1995-01-20;8981!art83_cpt_inc2-->
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    o <span xlink:href="urn:lex:br:federal:lei:1995-01-20;8981!art82_par4">§ 4º do art. 82</span> e <span xlink:href="urn:lex:br:federal:lei:1995-01-20;8981!art83_cpt_inc1">os incisos I</span> e <span xlink:href="urn:lex:br:federal:lei:1995-01-20;8981!art83_cpt_inc2">II do art. 83 da Lei nº 8.981, de 20 de janeiro de 1995</span>;
+
+  </p>
+            
+          </Alinea><Alinea id="art74_cpt_inc1_ali4">
+            <!--Link: urn:lex:br:federal:lei:2002-12-30;10637!art39--><!--Link: urn:lex:br:federal:lei:2002-12-30;10637!art40--><!--Link: urn:lex:br:federal:lei:2002-12-30;10637!art42--><!--Link: urn:lex:br:federal:lei:2002-12-30;10637!art43-->
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    os <span xlink:href="urn:lex:br:federal:lei:2002-12-30;10637!art39">arts. 39</span>, <span xlink:href="urn:lex:br:federal:lei:2002-12-30;10637!art40">40</span>, <span xlink:href="urn:lex:br:federal:lei:2002-12-30;10637!art42">42</span> e <span xlink:href="urn:lex:br:federal:lei:2002-12-30;10637!art43">43 da Lei nº 10.637, de 30 de dezembro 2002</span>;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art74_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:2004-08-02;10931!art11-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o <span xlink:href="urn:lex:br:federal:lei:2004-08-02;10931!art11">art. 11 da Lei nº 10.931, de 2 de agosto de 2004</span> ; e
+
+  </p>
+            
+          </Inciso><Inciso id="art74_cpt_inc3">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2001-08-24;2158-35!art73-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    o <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-08-24;2158-35!art73">art. 73 da Medida Provisória nº 2.158-35, de 24 de agosto de 2001</span>.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Capitulo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 15 de junho de 2005, 184º da Independência e 117º da República.</p></LocalDataFecho><Assinatura><NomePessoa>LUIZ INÁCIO LULA DA SILVA</NomePessoa><NomePessoa>Antonio Palocci Filho</NomePessoa><NomePessoa>Luiz Fernando Furlan</NomePessoa><NomePessoa>Este texto não substitui o publicado no DOU de 16.6.2005</NomePessoa></Assinatura></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>

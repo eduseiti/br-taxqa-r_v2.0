@@ -1,0 +1,1145 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:2013-04-02;12794"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">LEI Nº 12.794, DE 2 DE ABRIL DE 2013 </Epigrafe>
+		  <Ementa id="ementa">Altera a <span xlink:href="urn:lex:br:federal:lei:2011-12-14;12546">Lei nº 12.546, de 14 de dezembro de 2011</span>, quanto à contribuição previdenciária de empresas dos setores industriais e de serviços; permite depreciação de bens de capital para apuração do Imposto de Renda; institui o Regime Especial de Incentivo ao Desenvolvimento da Infraestrutura da Indústria de Fertilizantes; altera a <span xlink:href="urn:lex:br:federal:lei:2012-03-22;12598">Lei nº 12.598, de 22 de março de 2012</span>, quanto à abrangência do Regime Especial Tributário para a Indústria de Defesa; altera a incidência da Contribuição para o PIS/Pasep e da Cofins na comercialização da laranja; reduz o Imposto de Renda devido pelo prestador autônomo de transporte de carga; altera as <span xlink:href="urn:lex:br:federal:lei:2012-09-17;12715">Leis nºs 12.715, de 17 de setembro de 2012</span>, <span xlink:href="urn:lex:br:federal:lei:1988-12-22;7713">7.713, de 22 de dezembro de 1988</span>, <span xlink:href="urn:lex:br:federal:lei:2004-07-23;10925">10.925, de 23 de julho de 2004</span>, e <span xlink:href="urn:lex:br:federal:lei:1998-11-27;9718">9.718, de 27 de novembro de 1998</span>; e dá outras providências.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    A PRESIDENTA DA REPÚBLICA
+  </p><p>
+    Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            <!--Link: urn:lex:br:federal:lei:2011-12-14;12546-->
+            
+            
+            <p>
+    A <span xlink:href="urn:lex:br:federal:lei:2011-12-14;12546">Lei n° 12.546, de 14 de dezembro de 2011</span>, passa a vigorar com as seguintes alterações:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:2011-12-14;12546" id="art1_cpt_alt1">              
+              <Artigo xlink:href="art7" id="art1_cpt_alt1_art7" abreAspas="s">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput xlink:href="art7_cpt" id="art1_cpt_alt1_art7_cpt" textoOmitido="s">
+            
+            
+            
+            
+            <Omissis id="art1_cpt_alt1_art7_cpt_omi1"/><Inciso xlink:href="art7_cpt_inc5" id="art1_cpt_alt1_art7_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    (VETADO);
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art7_cpt_inc6" id="art1_cpt_alt1_art7_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    (VETADO);
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art7_cpt_inc7" id="art1_cpt_alt1_art7_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    (VETADO);
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art7_cpt_inc8" id="art1_cpt_alt1_art7_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    (VETADO);
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art7_cpt_inc9" id="art1_cpt_alt1_art7_cpt_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    (VETADO);
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art7_cpt_inc10" id="art1_cpt_alt1_art7_cpt_inc10">
+            
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    (VETADO); e
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art7_cpt_inc11" id="art1_cpt_alt1_art7_cpt_inc11">
+            
+            
+            <Rotulo>XI –</Rotulo>
+            <p>
+    (VETADO).
+
+  </p>
+            
+          </Inciso>
+          </Caput><Omissis id="art1_cpt_alt1_art7_omi1"/><Paragrafo xlink:href="art7_par7" id="art1_cpt_alt1_art7_par7" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    (VETADO).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo xlink:href="art8" id="art1_cpt_alt1_art8" abreAspas="s">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput xlink:href="art8_cpt" id="art1_cpt_alt1_art8_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Omissis id="art1_cpt_alt1_art8_omi1"/><Paragrafo xlink:href="art8_par3" id="art1_cpt_alt1_art8_par3" textoOmitido="s">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            
+            <Omissis id="art1_cpt_alt1_art8_par3_omi1"/><Inciso xlink:href="art8_par3_inc13" id="art1_cpt_alt1_art8_par3_inc13">
+            
+            
+            <Rotulo>XIII –</Rotulo>
+            <p>
+    (VETADO);
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art8_par3_inc14" id="art1_cpt_alt1_art8_par3_inc14">
+            
+            
+            <Rotulo>XIV –</Rotulo>
+            <p>
+    (VETADO);
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art8_par3_inc15" id="art1_cpt_alt1_art8_par3_inc15">
+            
+            
+            <Rotulo>XV –</Rotulo>
+            <p>
+    (VETADO); e
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art8_par3_inc16" id="art1_cpt_alt1_art8_par3_inc16">
+            
+            
+            <Rotulo>XVI –</Rotulo>
+            <p>
+    (VETADO).
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Omissis id="art1_cpt_alt1_art8_omi2"/><Paragrafo xlink:href="art8_par6" id="art1_cpt_alt1_art8_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    (VETADO) .
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art8_par7" id="art1_cpt_alt1_art8_par7">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    (VETADO) .
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art8_par8" id="art1_cpt_alt1_art8_par8" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    (VETADO).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo xlink:href="art9" id="art1_cpt_alt1_art9" abreAspas="s">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput xlink:href="art9_cpt" id="art1_cpt_alt1_art9_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Paragrafo xlink:href="art9_par1" id="art1_cpt_alt1_art9_par1" textoOmitido="s">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            
+            <Omissis id="art1_cpt_alt1_art9_par1_omi1"/><Inciso xlink:href="art9_par1_inc2" id="art1_cpt_alt1_art9_par1_inc2">
+            <!--Link: urn:lex:br:federal:lei:1991-07-24;8212!art22-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    ao disposto no <span xlink:href="urn:lex:br:federal:lei:1991-07-24;8212!art22">art. 22 da Lei nº 8.212, de 24 de julho de 1991</span>, reduzindo-se o valor da contribuição dos incisos I e III do caput do referido artigo ao percentual resultante da razão entre a receita bruta de atividades não relacionadas aos serviços de que tratam o caput do art. 7º e o § 3° do art. 8º ou à fabricação dos produtos de que trata o caput do art. 8º e a receita bruta total.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Omissis id="art1_cpt_alt1_art9_omi1"/><Paragrafo xlink:href="art9_par9" id="art1_cpt_alt1_art9_par9" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 9º</Rotulo>
+            <p>
+    (VETADO).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            <!--Link: urn:lex:br:federal:lei:2011-12-14;12546!art8_cpt-->
+            
+            
+            <p>
+    O Anexo I referido no <span xlink:href="urn:lex:br:federal:lei:2011-12-14;12546!art8_cpt">caput do art. 8° da Lei nº 12.546, de 14 de dezembro de 2011</span>, passa a vigorar:
+
+  </p>
+            <Inciso id="art2_cpt_inc1">
+            <!--Link: urn:lex:br:federal:decreto:2011-12-23;7660-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    acrescido dos produtos classificados nos códigos da Tabela de Incidência do Imposto sobre Produtos Industrializados - TIPI, aprovada pelo <span xlink:href="urn:lex:br:federal:decreto:2011-12-23;7660">Decreto nº 7.660, de 23 de dezembro de 2011</span>, constantes do Anexo I desta Lei;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    subtraído dos produtos classificados nos códigos 3923.30.00 e 8544.49.00 da Tipi; e
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    (VETADO).
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            <!--Link: urn:lex:br:federal:lei:2004-04-30;10865!art8_par21-->
+            
+            
+            <p>
+    Aplica-se o disposto no <span xlink:href="urn:lex:br:federal:lei:2004-04-30;10865!art8_par21">§ 21 do art. 8º da Lei nº 10.865, de 30 de abril de 2004</span>, aos produtos referidos:
+
+  </p>
+            <Inciso id="art3_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    no inciso I do caput do art. 2º; e
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    (VETADO).
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    Para efeito de apuração do imposto sobre a renda, as pessoas jurídicas tributadas com base no lucro real terão direito à depreciação acelerada, calculada pela aplicação adicional da taxa de depreciação usualmente admitida, sem prejuízo da depreciação contábil das máquinas, equipamentos, aparelhos e instrumentos.
+
+  </p>
+            
+          </Caput><Paragrafo id="art4_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O disposto no caput aplica-se aos bens novos, relacionados em regulamento, adquiridos ou objeto de contrato de encomenda entre 16 de setembro e 31 de dezembro de 2012, e destinados ao ativo imobilizado do adquirente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A depreciação acelerada de que trata o caput:
+
+  </p>
+            <Inciso id="art4_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    constituirá exclusão do lucro líquido para fins de determinação do lucro real e será controlada no livro fiscal de apuração do lucro real;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_par2_inc2">
+            <!--Link: urn:lex:br:federal:lei:1958-11-28;3470!art69-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    será calculada antes da aplicação dos coeficientes de depreciação acelerada a que se refere o <span xlink:href="urn:lex:br:federal:lei:1958-11-28;3470!art69">art. 69 da Lei nº 3.470, de 28 de novembro de 1958</span>; e
+
+  </p>
+            
+          </Inciso><Inciso id="art4_par2_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    será apurada a partir de 1º de janeiro de 2013.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art4_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O total da depreciação acumulada, incluindo a contábil e a acelerada incentivada, não poderá ultrapassar o custo de aquisição do bem.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    A partir do período de apuração em que for atingido o limite de que trata o § 3º, o valor da depreciação, registrado na contabilidade, deverá ser adicionado ao lucro líquido para efeito de determinação do lucro real.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    Fica instituído o Regime Especial de Incentivo ao Desenvolvimento da Infraestrutura da Indústria de Fertilizantes - REIF, nos termos e condições estabelecidos nos arts. 5º a 11 desta Lei.
+
+  </p>
+            
+          </Caput><Paragrafo id="art5_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O Poder Executivo regulamentará a forma de habilitação e de coabilitação ao regime de que trata o caput.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    São beneficiárias do Reif a pessoa jurídica que tenha projeto aprovado para implantação ou ampliação de infraestrutura para produção de fertilizantes e de seus insumos, para incorporação ao seu ativo imobilizado, e a pessoa jurídica coabilitada.
+
+  </p>
+            
+          </Caput><Paragrafo id="art6_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O disposto neste artigo aplica-se ainda aos projetos de investimento que, a partir da transformação química dos insumos de que trata o caput, não produzam exclusivamente fertilizantes, na forma do regulamento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art6_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Competem ao Ministério de Minas e Energia e ao Ministério da Agricultura, Pecuária e Abastecimento a definição dos projetos que se enquadram nas disposições do caput e do § 1° e a aprovação de projeto apresentado pela pessoa jurídica interessada, conforme regulamento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art6_par3">
+            <!--Link: urn:lex:br:federal:lei.complementar:2006-12-14;123--><!--Link: urn:lex:br:federal:lei:2002-12-30;10637!art8_cpt_inc2--><!--Link: urn:lex:br:federal:lei:2003-12-29;10833!art10_cpt_inc2-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Não poderão aderir ao Reif as pessoas jurídicas optantes pelo Regime Especial Unificado de Arrecadação de Tributos e Contribuições devidos pelas Microempresas e Empresas de Pequeno Porte - Simples Nacional, de que trata a <span xlink:href="urn:lex:br:federal:lei.complementar:2006-12-14;123">Lei Complementar nº 123, de 14 de dezembro de 2006</span>, e as pessoas jurídicas de que tratam o <span xlink:href="urn:lex:br:federal:lei:2002-12-30;10637!art8_cpt_inc2">inciso II do caput do art. 8º da Lei nº 10.637, de 30 de dezembro de 2002</span>, e o <span xlink:href="urn:lex:br:federal:lei:2003-12-29;10833!art10_cpt_inc2">inciso II do caput do art. 10 da Lei nº 10.833, de 29 de dezembro de 2003</span>.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    A fruição dos benefícios do Reif fica condicionada à regularidade fiscal da pessoa jurídica em relação aos tributos administrados pela Secretaria da Receita Federal do Brasil do Ministério da Fazenda e ao cumprimento dos seguintes requisitos, nos termos do regulamento:
+
+  </p>
+            <Inciso id="art7_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    investimento mínimo em pesquisa e desenvolvimento e inovação tecnológica; e
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    percentual mínimo de conteúdo local em relação ao valor global do projeto.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    No caso de venda no mercado interno ou de importação de máquinas, aparelhos, instrumentos e equipamentos, novos, e de materiais de construção para utilização ou incorporação no projeto de que trata o caput do art. 6º , fica suspenso o pagamento:
+
+  </p>
+            <Inciso id="art8_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    da Contribuição para o PIS/Pasep e da Contribuição para o Financiamento da Seguridade Social - COFINS incidentes sobre a receita da pessoa jurídica vendedora, quando a aquisição for efetuada por pessoa jurídica beneficiária do Reif;
+
+  </p>
+            
+          </Inciso><Inciso id="art8_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    da Contribuição para o PIS/Pasep-Importação e da Cofins-Importação, quando a importação for efetuada por pessoa jurídica beneficiária do Reif;
+
+  </p>
+            
+          </Inciso><Inciso id="art8_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    do Imposto sobre Produtos Industrializados - IPI incidente na saída do estabelecimento industrial ou equiparado, quando a aquisição no mercado interno for efetuada por estabelecimento industrial de pessoa jurídica beneficiária do Reif; e
+
+  </p>
+            
+          </Inciso><Inciso id="art8_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    do IPI vinculado à importação, quando a importação for efetuada por estabelecimento de pessoa jurídica beneficiária do Reif.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art8_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Nas notas fiscais relativas:
+
+  </p>
+            <Inciso id="art8_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    às vendas de que trata o inciso I do caput deverá constar a expressão &quot;Venda efetuada com suspensão do pagamento da Contribuição para o PIS/Pasep e da Cofins&quot;, com a especificação do dispositivo legal correspondente; e
+
+  </p>
+            
+          </Inciso><Inciso id="art8_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    às saídas de que trata o inciso III do caput deverá constar a expressão &quot;Saída com suspensão do IPI&quot;, com a especificação do dispositivo legal correspondente, vedado o registro do imposto nas referidas notas.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art8_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A suspensão do pagamento de tributos de que tratam os incisos I e II do caput converte-se em alíquota 0 (zero) depois da utilização ou incorporação do bem ou material de construção na execução do projeto de que trata o caput do art. 6º.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A suspensão do pagamento de tributos de que tratam os incisos III e IV do caput converte-se em isenção depois da utilização ou incorporação do bem ou material de construção na execução do projeto de que trata o caput do art. 6º.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    A pessoa jurídica que não utilizar ou incorporar o bem ou material de construção no projeto de que trata o caput do art. 6º fica obrigada a recolher as contribuições e o imposto não pagos em decorrência da suspensão de que trata este artigo, acrescidos de juros e multa, de mora ou de ofício, na forma da legislação específica, contados a partir da data da aquisição ou do registro da Declaração de Importação - DI, na condição:
+
+  </p>
+            <Inciso id="art8_par4_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    de contribuinte, em relação à Contribuição para o PIS/Pasep-Importação, à Cofins-Importação e ao IPI vinculado à importação; ou
+
+  </p>
+            
+          </Inciso><Inciso id="art8_par4_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    de responsável, em relação à Contribuição para o PIS/Pasep, à Cofins e ao IPI.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art8_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Para efeitos do disposto neste artigo, equipara-se ao importador a pessoa jurídica adquirente de bens estrangeiros, no caso de importação realizada por sua conta e ordem, por intermédio de pessoa jurídica importadora.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            
+            
+            
+            <p>
+    No caso de venda ou importação de serviços destinados ao projeto referido no caput do art. 6°, fica suspenso o pagamento da:
+
+  </p>
+            <Inciso id="art9_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Contribuição para o PIS/Pasep e da Cofins incidentes sobre a receita da pessoa jurídica estabelecida no País decorrente da prestação de serviços a pessoa jurídica beneficiária do Reif; e
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Contribuição para o PIS/Pasep-Importação e da CofinsImportação incidentes na importação de serviços diretamente por pessoa jurídica beneficiária do Reif.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art9_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Nas vendas ou importações de serviços de que trata o caput, aplica-se, no que couber, o disposto no § 4º do art. 8º.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A suspensão de que trata este artigo converte-se em alíquota zero depois da utilização dos serviços de que trata o caput deste artigo na execução do projeto de que trata o caput do art. 6º.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>
+    Fica suspenso, também, o pagamento da Contribuição para o PIS/Pasep e da Cofins incidentes sobre a receita decorrente da locação de máquinas, aparelhos, instrumentos e equipamentos a pessoa jurídica beneficiária do Reif, para utilização na execução do projeto de que trata o caput do art. 6º.
+
+  </p>
+            
+          </Caput><Paragrafo id="art10_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A suspensão de que trata este artigo converte-se em alíquota zero depois da utilização dos bens locados na execução do projeto de que trata o caput do art. 6°.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2012-09-20;582-->
+            
+            
+            <p>
+    Os benefícios de que tratam os arts. 8º a 10 podem ser usufruídos em até 5 (cinco) anos contados da data de publicação da <span xlink:href="urn:lex:br:federal:medida.provisoria:2012-09-20;582">Medida Provisória nº 582, de 20 de setembro de 2012</span>, nas aquisições, importações e locações realizadas depois da habilitação ou coabilitação das pessoas jurídicas beneficiadas pelo Reif.
+
+  </p>
+            
+          </Caput><Paragrafo id="art11_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Na hipótese de transferência de titularidade de projeto aprovado no Reif durante o período de fruição do benefício, a habilitação do novo titular do projeto fica condicionada a:
+
+  </p>
+            <Inciso id="art11_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    manutenção das características originais do projeto;
+
+  </p>
+            
+          </Inciso><Inciso id="art11_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    observância do limite de prazo estipulado no caput; e
+
+  </p>
+            
+          </Inciso><Inciso id="art11_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    cancelamento da habilitação do titular anterior do projeto.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art11_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Na hipótese de transferência de titularidade de que trata o § 1º, são responsáveis solidários pelos tributos suspensos os titulares anteriores e o titular atual do projeto.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            <!--Link: urn:lex:br:federal:lei:2012-03-22;12598-->
+            
+            
+            <p>
+    A <span xlink:href="urn:lex:br:federal:lei:2012-03-22;12598">Lei nº 12.598, de 22 de março de 2012</span>, passa a vigorar com as seguintes alterações:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:2012-03-22;12598" id="art12_cpt_alt1">              
+              <Artigo xlink:href="art9-1" id="art12_cpt_alt1_art9-1" abreAspas="s">
+            
+            
+            <Rotulo>Art. 9º-A.</Rotulo>
+            
+            <Caput xlink:href="art9-1_cpt" id="art12_cpt_alt1_art9-1_cpt">
+            
+            
+            
+            <p>
+    Ficam reduzidas a zero as alíquotas:
+
+  </p>
+            <Inciso xlink:href="art9-1_cpt_inc1" id="art12_cpt_alt1_art9-1_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    da Contribuição para o PIS/Pasep e da Cofins incidentes sobre a receita decorrente da venda dos bens referidos no inciso I do caput do art. 8º efetuada por pessoa jurídica beneficiária do Retid à União, para uso privativo das Forças Armadas, exceto para uso pessoal e administrativo; e
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art9-1_cpt_inc2" id="art12_cpt_alt1_art9-1_cpt_inc2" fechaAspas="s">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    da Contribuição para o PIS/Pasep e da Cofins incidentes sobre a receita decorrente da prestação dos serviços referidos no art. 10 por pessoa jurídica beneficiária do Retid à União, para uso privativo das Forças Armadas, exceto para uso pessoal e administrativo.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo xlink:href="art9-2" id="art12_cpt_alt1_art9-2" abreAspas="s">
+            
+            
+            <Rotulo>Art. 9º-B.</Rotulo>
+            
+            <Caput xlink:href="art9-2_cpt" id="art12_cpt_alt1_art9-2_cpt" fechaAspas="s">
+            
+            
+            
+            <p>
+    Ficam isentos do IPI os bens referidos no inciso I do caput do art. 8º saídos do estabelecimento industrial ou equiparado de pessoa jurídica beneficiária do Retid, quando adquiridos pela União, para uso privativo das Forças Armadas, exceto para uso pessoal e administrativo.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo xlink:href="art11" id="art12_cpt_alt1_art11" abreAspas="s">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput xlink:href="art11_cpt" id="art12_cpt_alt1_art11_cpt" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            
+            <p>
+    Os benefícios de que tratam os arts. 9º, 9º-A, 9º-B e 10 poderão ser usufruídos em até 5 (cinco) anos contados da data de publicação desta Lei, nas aquisições e importações realizadas depois da habilitação das pessoas jurídicas beneficiadas pelo Retid.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>
+    (VETADO).
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            <p>
+    Fica suspenso o pagamento da Contribuição para o PIS/Pasep e da Cofins incidentes sobre as receitas decorrentes da venda dos produtos classificados no código 0805.10.00 da Tipi, quando utilizados na industrialização dos produtos classificados no código 2009.1 da Tipi, e estes forem destinados à exportação.
+
+  </p>
+            
+          </Caput><Paragrafo id="art14_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    É vedada às pessoas jurídicas que realizem as operações de que trata o caput a apuração de créditos vinculados às receitas de vendas efetuadas com suspensão.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>
+    A pessoa jurídica sujeita ao regime de apuração não cumulativa da Contribuição para o PIS/Pasep e da Cofins poderá descontar das referidas contribuições, devidas em cada período de apuração, crédito presumido calculado sobre o valor de aquisição dos produtos classificados no código 0805.10.00 da Tipi utilizados na industrialização dos produtos classificados no código 2009.1 da Tipi destinados à exportação.
+
+  </p>
+            
+          </Caput><Paragrafo id="art15_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O direito ao crédito presumido de que trata o caput aplica-se somente aos produtos adquiridos de pessoa física ou jurídica residente ou domiciliada no País.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par2">
+            <!--Link: urn:lex:br:federal:lei:2002-12-30;10637!art2_cpt--><!--Link: urn:lex:br:federal:lei:2003-12-29;10833!art2_cpt-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O montante do crédito presumido a que se refere o caput será determinado mediante aplicação, sobre o valor de aquisição dos produtos classificados no código 0805.10.00 da Tipi, de percentual correspondente a 25% (vinte e cinco por cento) das alíquotas previstas no <span xlink:href="urn:lex:br:federal:lei:2002-12-30;10637!art2_cpt">caput do art. 2º da Lei nº 10.637, de 30 de dezembro de 2002</span>, e no <span xlink:href="urn:lex:br:federal:lei:2003-12-29;10833!art2_cpt">caput do art. 2º da Lei nº 10.833, de 29 de dezembro de 2003</span>.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O crédito presumido não aproveitado em determinado mês poderá ser aproveitado nos meses subsequentes.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par4">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2024-06-04;1227-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2024-06-04;1227">Medida Provisória nº 1.227, de 4.6.2024</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Para fins do disposto neste artigo, considera-se exportação a venda direta ao exterior ou a empresa comercial exportadora com o fim específico de exportação.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    O disposto neste artigo não se aplica a:
+
+  </p>
+            <Inciso id="art15_par6_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    empresa comercial exportadora;
+
+  </p>
+            
+          </Inciso><Inciso id="art15_par6_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    operações que consistam em mera revenda dos bens a serem exportados; e
+
+  </p>
+            
+          </Inciso><Inciso id="art15_par6_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    bens que tenham sido importados.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2024-06-04;1227-->
+            
+            
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2024-06-04;1227">Medida Provisória nº 1.227, de 4.6.2024</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            
+            
+            
+            <p>
+    O disposto nos arts. 14 e 15 será aplicado somente depois de estabelecidos termos e formas pela Secretaria da Receita Federal do Brasil do Ministério da Fazenda, respeitado, no mínimo, o prazo de que trata o inciso I do caput do art. 21.
+
+  </p>
+            
+          </Caput><Paragrafo id="art17_par1u">
+            <!--Link: urn:lex:br:federal:lei:2004-07-23;10925!art8--><!--Link: urn:lex:br:federal:lei:2004-07-23;10925!art9-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O disposto nos <span xlink:href="urn:lex:br:federal:lei:2004-07-23;10925!art8">arts. 8º</span> e <span xlink:href="urn:lex:br:federal:lei:2004-07-23;10925!art9">9º da Lei n° 10.925, de 23 de julho de 2004</span>, deixará de ser aplicado aos produtos classificados no código 0805.10.00 da Tipi a partir da data de produção de efeitos definida no caput, desde que utilizados na industrialização dos produtos classificados no código 2009.1 da Nomenclatura Comum do Mercosul - NCM, e destinados à exportação.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            <!--Link: urn:lex:br:federal:lei:1988-12-22;7713-->
+            
+            
+            <p>
+    A <span xlink:href="urn:lex:br:federal:lei:1988-12-22;7713">Lei n° 7.713, de 22 de dezembro de 1988</span>, passa a vigorar com a seguinte alteração:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1988-12-22;7713" id="art18_cpt_alt1">              
+              <Artigo xlink:href="art9" id="art18_cpt_alt1_art9" abreAspas="s">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput xlink:href="art9_cpt" id="art18_cpt_alt1_art9_cpt" textoOmitido="s">
+            
+            
+            
+            
+            <Inciso xlink:href="art9_cpt_inc1" id="art18_cpt_alt1_art9_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    10% (dez por cento) do rendimento bruto, decorrente do transporte de carga;
+
+  </p>
+            
+          </Inciso>
+          </Caput><Omissis id="art18_cpt_alt1_art9_omi1" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            <!--Link: urn:lex:br:federal:lei:2004-07-23;10925-->
+            
+            
+            <p>
+    A <span xlink:href="urn:lex:br:federal:lei:2004-07-23;10925">Lei nº 10.925, de 23 de julho de 2004</span>, passa a vigorar com a seguinte alteração:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:2004-07-23;10925" id="art19_cpt_alt1">              
+              <Artigo xlink:href="art1" id="art19_cpt_alt1_art1" abreAspas="s">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput xlink:href="art1_cpt" id="art19_cpt_alt1_art1_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Omissis id="art19_cpt_alt1_art1_omi1"/><Paragrafo xlink:href="art1_par3" id="art19_cpt_alt1_art1_par3" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    No caso do inciso XVIII do caput, a redução a zero das alíquotas aplica-se até 31 de dezembro de 2013.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            
+            
+            
+            <p>
+    (VETADO).
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            
+            
+            
+            <p>
+    Esta Lei entra em vigor:
+
+  </p>
+            <Inciso id="art21_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a partir de 1º de janeiro de 2013, em relação aos arts. 1º a 3º, 14, 15, 17, 18 e 20 desta Lei, observado o disposto no parágrafo único deste artigo; e
+
+  </p>
+            
+          </Inciso><Inciso id="art21_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    na data de sua publicação para os demais dispositivos.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art21_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    (VETADO).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 2 de abril de 2013; 192º da Independência e 125º da República.</p></LocalDataFecho><Assinatura><NomePessoa>DILMA ROUSSEFF</NomePessoa><NomePessoa>Celso Luiz Nunes Amorim</NomePessoa><NomePessoa>Guido Mantega</NomePessoa><NomePessoa>Edison Lobão</NomePessoa></Assinatura></ParteFinal>
+          <Anexos><ReferenciaAnexo AlvoURN="urn:lex:br:federal:lei:2013-04-02;12794!anexo1"/><ReferenciaAnexo AlvoURN="urn:lex:br:federal:lei:2013-04-02;12794!anexo2"/></Anexos>
+        </Norma></ProjetoNorma>
+    </LexML>

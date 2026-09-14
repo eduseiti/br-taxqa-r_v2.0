@@ -1,0 +1,79 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:1984-12-19;7290"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">LEI Nº 7.290, DE 19 DE DEZEMBRO DE 1984 </Epigrafe>
+		  <Ementa id="ementa">Define a atividade do Transportador Rodoviário Autônomo de Bens e dá outras providências.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA, faço saber que o CONGRESSO NACIONAL decreta e eu sanciono a seguinte Lei:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    Considera-se Transportador Rodoviário Autônomo de Bens a pessoa física, proprietário ou co-proprietário de um só veículo, sem vínculo empregatício, devidamente cadastrado em órgão disciplinar competente, que, com seu veículo, contrate serviço de transporte a frete, de carga ou de passageiro, em caráter eventual ou continuado, com empresa de transporte rodoviário de bens, ou diretamente com os usuários desse serviço.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    A prestação de serviços de que trata o artigo anterior compreende o transporte efetuado pelo contratado ou seu preposto, em vias públicas ou rodovias.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    Esta Lei entra em vigor na data de sua publicação.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    Revogam-se as disposições em contrário.
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, em 19 de dezembro de 1984; 163º da Independência e 96º da República,</p></LocalDataFecho><Assinatura><NomePessoa>JOãO FIGUEIREDO</NomePessoa><NomePessoa>Cloraldino Soares Severo</NomePessoa></Assinatura></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>

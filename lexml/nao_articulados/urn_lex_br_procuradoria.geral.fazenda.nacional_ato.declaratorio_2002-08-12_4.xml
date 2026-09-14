@@ -1,0 +1,28 @@
+<LexML xmlns="http://www.lexml.gov.br/1.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <Metadado>
+    <Identificacao URN="urn:lex:br:procuradoria.geral.fazenda.nacional:ato.declaratorio:2002-08-12;4"/>
+    <MetadadoProprietario fonte="http://www.lexml.gov.br/nonstat">
+      <campo nome="JURISPRUDÊNCIA">Superior Tribunal de Justiça - Enunciado da Súmula 125.</campo>
+    </MetadadoProprietario>
+  </Metadado>
+  <DocumentoGenerico>
+    <PartePrincipal id="pp1">
+      <Agrupamento id="pp1_agr1" nome="epigrafe">
+        <p>Ato Declaratório PGFN nº 4, de 12 de agosto de 2002</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agr2" nome="ementa">
+        <p>" Autoriza a dispensa de interposição de recursos e a desistência dos já interpostos, nas ações que menciona."</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agr3" nome="preambulo">
+        <p>O PROCURADOR-GERAL DA FAZENDA NACIONAL, no uso da competência legal que lhe foi conferida, nos termos do <Remissao xlink:href="urn:lex:br:federal:lei:2002-07-19;10522!art19_cpt_inc2">inciso II do art. 19, da Lei nº 10.522, de 19 de julho de 2002</Remissao>, e do <Remissao xlink:href="urn:lex:br:federal:decreto:1997-10-10;2346!art5">art. 5º do Decreto nº 2.346, de 10 de outubro de 1997</Remissao>, tendo em vista a aprovação do parecer PGFN/CRJ/Nº 921/99, desta Procuradoria-Geral da Fazenda Nacional, pelo Senhor Ministro de Estado da Fazenda, conforme despacho publicado no DOU de 06/08/99, Seção I, p. 11, declara que fica autorizada a dispensa de interposição de recursos e a desistência dos já interpostos, nas ações que cuidam, no mérito, exclusivamente, acerca da:</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agr4" nome="texto">
+        <p class="quote">" cobrança, pela União, do Imposto de Renda sobre o pagamento (in pecunia) de férias não gozadas - por necessidade do serviço - pelo servidor público, desde que inexista qualquer outro fundamento relevante" .</p>
+        <p>JURISPRUDÊNCIA: Superior Tribunal de Justiça - Enunciado da Súmula 125.</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agrf1" nome="assinatura">
+        <p>ALMIR MARTINS BASTOS</p>
+      </Agrupamento>
+    </PartePrincipal>
+  </DocumentoGenerico>
+</LexML>

@@ -1,0 +1,585 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:1990-04-12;8023"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">LEI Nº 8.023, DE 12 DE ABRIL DE 1990 </Epigrafe>
+		  <Ementa id="ementa">Altera a legislação do Imposto de Renda sobre o resultado da atividade rural, e dá outras providências.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA
+  </p><p>
+    Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    Os resultados provenientes da atividade rural estarão sujeitos ao Imposto de Renda de conformidade com o disposto nesta Lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    Considera-se atividade rural:
+
+  </p>
+            <Inciso id="art2_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a agricultura;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a pecuária;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    a extração e a exploração vegetal e animal;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    a exploração da apicultura, avicultura, cunicultura, suinocultura, sericicultura, piscicultura e outras culturas animais;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc5">
+            <!--Link: urn:lex:br:federal:lei:1995-12-26;9250-->
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    a transformação de produtos decorrentes da atividade rural, sem que sejam alteradas a composição e as características do produto in natura, feita pelo próprio agricultor ou criador, com equipamentos e utensílios usualmente empregados nas atividades rurais, utilizando exclusivamente matéria-prima produzida na área rural explorada, tais como a pasteurização e o acondicionamento do leite, assim como o mel e o suco de laranja, acondicionados em embalagem de apresentação. (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1995-12-26;9250">Lei nº 9.250, de 26.12.1995</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc6">
+            <!--Link: urn:lex:br:federal:lei:2015-10-21;13171-->
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    (VETADO na <span xlink:href="urn:lex:br:federal:lei:2015-10-21;13171">Lei nº 13.171, de 21.10.2015</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art2_par1u">
+            <!--Link: urn:lex:br:federal:lei:1995-12-26;9250-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O disposto neste artigo não se aplica à mera intermediação de animais e de produtos agrícolas. (Parágrafo único acrescido pela <span xlink:href="urn:lex:br:federal:lei:1995-12-26;9250">Lei nº 9.250, de 26.12.1995</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    O resultado da exploração da atividade rural será obtido por uma das formas seguintes:
+
+  </p>
+            <Inciso id="art3_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    simplificada, mediante prova documental, dispensada escrituração, quando a receita bruta total auferida no ano-base não ultrapassar setenta mil BTN;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    escritural, mediante escrituração rudimentar, quando a receita bruta total do ano-base for superior a setenta mil BTNs e igual ou inferior a setecentos mil BTN;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    contábil, mediante escrituração regular em livros devidamente registrados, até o encerramento do ano-base, em órgãos da Secretaria da Receita Federal, quando a receita bruta total no ano-base for superior a setecentos mil BTN.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art3_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Os livros ou fichas de escrituração e os documentos que servirem de base à declaração deverão ser conservados pelo contribuinte à disposição da autoridade fiscal, enquanto não ocorrer a prescrição quinquenal.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    Considera-se resultado da atividade rural a diferença entre os valores das receitas recebidas e das despesas pagas no ano-base.
+
+  </p>
+            
+          </Caput><Paragrafo id="art4_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    É indedutível o valor da correção monetária dos empréstimos contraídos para financiamento da atividade rural.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os investimentos são considerados despesas no mês do efetivo pagamento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par3">
+            <!--Link: urn:lex:br:federal:lei:1988-12-22;7713-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Na alienação de bens utilizados na produção, o valor da terra nua não constitui receita da atividade agrícola e será tributado de acordo com o disposto no art. 3º, combinado com os arts. 18 a 22 da <span xlink:href="urn:lex:br:federal:lei:1988-12-22;7713">Lei nº 7.713, de 22 de dezembro de 1988</span>.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    A opção do contribuinte, pessoa física, na composição da base de cálculo, o resultado da atividade rural, quando positivo, limitar-se-á a vinte por cento da receita bruta no ano-base.
+
+  </p>
+            
+          </Caput><Paragrafo id="art5_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A falta de escrituração prevista nos incisos II e III do art. 3º implicará o arbitramento do resultado à razão de vinte por cento da receita bruta no ano-base.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    Considera-se investimento na atividade rural, para os propósitos do art. 4º, a aplicação de recursos financeiros, exceto a parcela que corresponder ao valor da terra nua, com vistas ao desenvolvimento da atividade para expansão da produção ou melhoria da produtividade agrícola.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    A base de cálculo do imposto da pessoa física será constituída pelo resultado da atividade rural apurada no ano-base, com os seguintes ajustes:
+
+  </p>
+            <Inciso id="art7_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    acréscimo do valor de que trata o § 1º, do art. 9º;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    dedução do valor a que se refere o caput do art. 9º;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:1991-12-30;8383-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:1991-12-30;8383">Lei nº 8.383, de 30.12.1991</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc4">
+            <!--Link: urn:lex:br:federal:lei:1991-12-30;8383-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:1991-12-30;8383">Lei nº 8.383, de 30.12.1991</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art7_par1">
+            <!--Link: urn:lex:br:federal:lei:1991-12-30;8383-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:1991-12-30;8383">Lei nº 8.383, de 30.12.1991</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art7_par2">
+            <!--Link: urn:lex:br:federal:lei:1991-12-30;8383-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:1991-12-30;8383">Lei nº 8.383, de 30.12.1991</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    O resultado da atividade rural e da base de cálculo do imposto terá seus valores expressos em quantidades de BTN.
+
+  </p>
+            
+          </Caput><Paragrafo id="art8_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    As receitas, despesas e demais valores que integram o resultado e a base de cálculo serão convertidos em BTN pelo valor deste mês do efetivo recebimento ou pagamento.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            <!--Link: urn:lex:br:federal:lei:1995-12-26;9249-->
+            
+            
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:1995-12-26;9249">Lei nº 9.249, de 26.12.1995</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            <!--Link: urn:lex:br:federal:lei:1991-12-30;8383-->
+            
+            
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:1991-12-30;8383">Lei nº 8.383, de 30.12.1991</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            <!--Link: urn:lex:br:federal:lei:1990-12-27;8134--><!--Link: urn:lex:br:federal:lei:1995-12-26;9249-->
+            
+            
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:1990-12-27;8134">Lei nº 8.134, de 27.12.1990</span>) Art..12. (Revogado pela <span xlink:href="urn:lex:br:federal:lei:1995-12-26;9249">Lei nº 9.249, de 26.12.1995</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>
+    Os arrendatários, os condôminos e os parceiros na exploração da atividade rural, comprovada a situação documentalmente, pagarão o imposto de conformidade com o disposto nesta Lei, separadamente, na proporção dos rendimentos que couber a cada um.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            <p>
+    O prejuízo apurado pela pessoa física e pela pessoa jurídica poderá ser compensado com o resultado positivo obtido nos anos-base posteriores.
+
+  </p>
+            
+          </Caput><Paragrafo id="art14_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O disposto neste artigo aplica-se, inclusive, ao saldo de prejuízos anteriores, constante da declaração de rendimentos relativa ao ano-base de 1989.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>
+    O excesso de redução por investimentos constante da declaração relativa ao ano-base de 1989 poderá ser compensado com o resultado de até três anos-base seguintes.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            
+            
+            
+            <p>
+    Os valores das compensações a serem efetuadas pela pessoa física, nos termos dos arts. 14 e 15, deverão ser expressos:
+
+  </p>
+            <Inciso id="art16_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    em se tratando de prejuízo ocorrido a partir do ano-base de 1990, em quantidade de BTN resultante da apuração da base de cálculo do imposto;
+
+  </p>
+            
+          </Inciso><Inciso id="art16_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    em se tratando de prejuízos anteriores ao ano-base de 1990 ou excesso de redução por investimentos, constantes da declaração de rendimentos relativa ao ano-base de 1989, em quantidade de BTN equivalente ao quociente resultante da divisão dos respectivos valores, em cruzados novos, por NCz$ 7,1324.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art16_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A pessoa física que, na apuração da base de cálculo do imposto, optar pela aplicação do disposto no art. 5º perderá o direito à compensação do total dos prejuízos ou excessos de redução por investimentos correspondente a anos-base anteriores ao da opção.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            
+            
+            
+            <p>
+    Os valores dos estoques finais dos rebanhos, constantes da declaração relativa ao ano-base de 1989, serão expressos em quantidade de BTN, equivalente ao quociente obtido dividindo-se o respectivo montante, em cruzados novos, por NCz$ 2,4042.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            
+            
+            
+            <p>
+    A inclusão, na apuração do resultado da atividade rural, de rendimentos auferidos em outras atividades que não as previstas no art. 2º, com o objetivo de desfrutar de tributação mais favorecida, constitui fraude e sujeita o infrator à multa de cento e cinqüenta por cento do valor da diferença do imposto devido, sem prejuízo de outras cominações legais.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            <!--Link: urn:lex:br:federal:lei:1988-12-22;7713-->
+            
+            
+            <p>
+    O disposto nos arts. 35 a 39 da <span xlink:href="urn:lex:br:federal:lei:1988-12-22;7713">Lei nº 7.713, de 22 de dezembro de 1988</span>, aplica-se ao lucro líquido do período-base apurado pelas pessoas jurídicas de que trata o art. 12.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            
+            
+            
+            <p>
+    Na programação especial relativa às operações oficiais de crédito na atividade de política de preços agrícolas e de custeio agropecuário serão previstos, além de outros, recursos equivalentes à estimativa de arrecadação do Imposto de Renda sobre os resultados decorrentes da atividade rural de que trata esta Lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            
+            
+            
+            <p>
+    O Poder Executivo expedirá os atos que se fizerem necessários à execução do disposto nesta Lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art22">
+            
+            
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            
+            
+            
+            <p>
+    Esta Lei entra em vigor na data de sua publicação.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art23">
+            
+            
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1974-12-26;1382!art4--><!--Link: urn:lex:br:federal:decreto.lei:1974-12-26;1382!art5--><!--Link: urn:lex:br:federal:decreto.lei:1974-12-26;1382!art1--><!--Link: urn:lex:br:federal:decreto.lei:1970-01-20;1704--><!--Link: urn:lex:br:federal:decreto.lei:1969-09-30;902-->
+            
+            
+            <p>
+    Revogam-se os <span xlink:href="urn:lex:br:federal:decreto.lei:1969-09-30;902">Decretos-Leis nºs 902, de 30 de setembro de 1969</span>, <span xlink:href="urn:lex:br:federal:decreto.lei:1970-01-20;1704">1.704, de 20 de janeiro de 1970</span>, os <span xlink:href="urn:lex:br:federal:decreto.lei:1974-12-26;1382!art1">arts. 1º</span>, <span xlink:href="urn:lex:br:federal:decreto.lei:1974-12-26;1382!art4">4º</span> e <span xlink:href="urn:lex:br:federal:decreto.lei:1974-12-26;1382!art5">5º do Decreto-Lei nº 1.382, de 26 de dezembro de 1974</span> e demais disposições em contrário.
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 12 de abril de 1990; 169º da Independência e 102º da República.</p></LocalDataFecho><Assinatura><NomePessoa>FERNANDO COLLOR</NomePessoa><NomePessoa>Zélia M. Cardoso de Mello</NomePessoa></Assinatura></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>

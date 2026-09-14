@@ -1,0 +1,1458 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:decreto:1974-12-20;75102"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">DECRETO Nº 75.102, DE 20 DE DEZEMBRO DE 1974 </Epigrafe>
+		  <Ementa id="ementa">Promulga os Estatutos da Organização Mundial de Turismo.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA,
+  </p><p>
+    Havendo o Congresso Nacional aprovado, pelo Decreto Legislativo número 56, de 18 de setembro de 1972, os Estatutos da Organização Mundial de Turismo, adotados no México, a 27 de setembro de 1970;
+  </p><p>
+    E HAVENDO os referidos Estatutos entrado em vigor internacional, a 1 de novembro de 1974;
+  </p><p>
+    DECRETA
+  </p><p>
+    que os Estatutos, apensos por cópia ao presente Decreto, sejam executados e cumpridos tão inteiramente como neles se contêm.
+  </p><p>
+    Brasília, 20 de dezembro de 1974; 153º da Independência e 86º da República.
+  </p><p>
+    Ernesto Geisel
+  </p><p>
+    Antônio Francisco Azeredo da Silveira
+  </p><p>
+    ESTATUTO DA ORGANIZAÇÃO MUNDIAL DE TURISMO
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            <TituloDispositivo>(OMT)</TituloDispositivo>
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Fica estabelecida a Organização Mundial de Turismo, denominada a &quot;Organização&quot; nos artigos subseqüentes - como organização internacional de caráter intergovernamental resultante da transformação da União Internacional dos Organismos Oficiais de Turismo.
+</p><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A sede da Organização será determinada e poderá ser modificada a qualquer momento por decisão da Assembléia Geral.
+</p><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            
+            <Item id="art3_cpt_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    O objetivo fundamental da Organização é promover e desenvolver o turismo para contribuir à expansão econômica, à compreensão internacional, à paz, à prosperidade e ao respeito universal e à observância dos direitos e das liberdades humanas fundamentais, sem distinção de raça, sexo, língua e religião. A Organização tomará todas as medidas necessárias para alcançar esse objetivo.
+
+  </p>
+            
+          </Item><Item id="art3_cpt_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    Ao visar a esse objetivo, a Organização prestará particular atenção aos interesses dos países em desenvolvimento, no domínio do turismo.
+
+  </p>
+            
+          </Item><Item id="art3_cpt_ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    Para definir seu papel central no campo do turismo, a Organização estabelecerá e manterá cooperação eficaz com os organismos competentes das Nações Unidas e sua agências especializadas. Com tal finalidade, a Organização procurará estabelecer laços de cooperação e de participação com o Programa de Desenvolvimento das Nações Unidas, como organização participante e encarregada da execução do programa.
+
+  </p>
+            
+          </Item>
+          </Caput>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A condição de membro da Organização será acessível aos:
+</p><Alinea id="ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    Membros Efetivos;
+
+  </p>
+            
+          </Alinea><Alinea id="ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    Membros Associados;
+
+  </p>
+            
+          </Alinea><Alinea id="ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    Membros Filiados.
+
+  </p>
+            
+          </Alinea><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            
+            <Item id="art5_cpt_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    A condição de Membro Efetivo da Organização será acessível a todos os Estados Soberanos.
+
+  </p>
+            
+          </Item><Item id="art5_cpt_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    Os Estados cujos organismos oficiais de turismo forem Membros Efetivos da &quot;UIOOT&quot; na data da adoção dos presentes Estatutos pela Assembléia-Geral Extraordinária da &quot;UIOOT&quot; terão o direito de, sem necessidade de votação, tornar-se Membros Efetivos da Organização, mediante uma declaração formal de adoção dos Estatutos da Organização e de aceitação das obrigações inerentes à condição de membro.
+
+  </p>
+            
+          </Item><Item id="art5_cpt_ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    Outros Estados poderão tornar-se Membros Efetivos da Organização, desde que a sua candidatura seja aprovada pela Assembléia-Geral por uma maioria de dois terços dos Membros Efetivos presentes e votantes, compreendendo tal maioria a maioria dos Membros Efetivos.
+
+  </p>
+            
+          </Item>
+          </Caput>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            
+            <Item id="art6_cpt_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    A condição de Membro Associado da Organização será acessível a todos os territórios ou grupos de territórios não responsáveis pelas próprias relações internacionais.
+
+  </p>
+            
+          </Item><Item id="art6_cpt_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    Os territórios ou grupos de territórios que forem Membros Efetivos da &quot;UIOOT&quot; na data da adoção dos presentes Estatutos pela Assembléia-Geral Extraordinária da &quot;UIOOT&quot; terão o direito de, sem necessidade de votação, tornar-se Membros Associados da Organização, desde que contem para isso com a aprovação do Estado responsável pelas respectivas relações internacionais, o qual deverá, em nome dos mesmos, declarar que esses territórios ou grupos de territórios adotam os Estatutos da Organização e aceitam as obrigações inerentes à condição de membros.
+
+  </p>
+            
+          </Item><Item id="art6_cpt_ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    Os territórios ou grupos de territórios poderão tornar-se Membros Associados da Organização, desde que suas candidaturas obtenham a aprovação prévia do Estado Membro responsável pelas respectivas relações internacionais, o qual deverá, em nome dos mesmos, declarar que esses territórios ou grupos de territórios adotam os Estatutos da Organização e aceitam as obrigações inerentes à condição de membros. Essas candidaturas deverão ser apreciadas pela Assembléia por uma maioria de dois terços dos Membros Efetivos presentes e votantes, compreendendo tal maioria a maioria dos Membros Efetivos.
+
+  </p>
+            
+          </Item><Item id="art6_cpt_ite4">
+            
+            
+            <Rotulo>4.</Rotulo>
+            <p>
+    Quando um Membro Associado da Organização tornar-se responsável pelas suas próprias relações internacionais, terá o direito de tornar-se Membro Efetivo da Organização, mediante uma declaração formal escrita pela qual comunique ao Secretário-Geral a adoção dos Estatutos da Organização e a aceitação das obrigações inerentes à condição de membro Efetivo.
+
+  </p>
+            
+          </Item>
+          </Caput>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            
+            <Item id="art7_cpt_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    A condição de Membro Filiado da Organização será acessível às organizações internacionais, intergovernamentais e não governamentais que se ocupem de interesse especializados em turismo, e também às organizações comerciais e associações cujas atividades estejam relacionadas com os objetivos da Organização ou que participem de seu escopo.
+
+  </p>
+            
+          </Item><Item id="art7_cpt_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    Os Membros Associados da &quot;UIOOT&quot; na época da adoção dos presentes Estatutos pela Assembléia-Geral Extraordinária da &quot;UIOOT&quot; terão o direito de tornar-se Membros Filiados da Organização, sem necessidade de votação, mediante declaração de que aceitam as obrigações inerentes à condição de Membro Filiado.
+
+  </p>
+            
+          </Item><Item id="art7_cpt_ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    Outras organizações internacionais, intergovernamentais e não governamentais que se ocupem de interesses especializados em turismo poderão tornar-se Membro Filiados da Organização, desde que apresentem por escrito ao Secretário-Geral sua candidatura à condição de membro, e desde que essa candidatura seja aprovada pela Assembléia por maioria de dois terços dos Membros Efetivos presentes e votantes, compreendendo tal maioria a maioria dos Membros Efetivos.
+
+  </p>
+            
+          </Item><Item id="art7_cpt_ite4">
+            
+            
+            <Rotulo>4.</Rotulo>
+            <p>
+    Organizações comerciais ou associações que se ocupem de interesses definidos anteriormente no parágrafo 1 poderão tornar-se Membros Filiados da Organização, desde que sua candidatura à condição de membro seja submetida por escrito ao Secretário-Geral e seja apoiada pelo Estado no qual se localize a sede do candidato. Tais candidaturas devem ser aprovadas pela Assembléia por maioria de dois terços dos Membros Efetivos presentes e votantes, compreendendo tal maioria a maioria dos Membros Efetivos.
+
+  </p>
+            
+          </Item><Item id="art7_cpt_ite5">
+            
+            
+            <Rotulo>5.</Rotulo>
+            <p>
+    Poderá ser constituído um Comitê de Membros Filiados que estabelecerá seu próprio regulamento submetendo-o à aprovação da Assembléia. O Comitê poderá ser representado nas reuniões da Organização. Poderá solicitar a inclusão de pontos na agenda. Poderá, igualmente, formular recomendações durante as reuniões.
+
+  </p>
+            
+          </Item><Item id="art7_cpt_ite6">
+            
+            
+            <Rotulo>6.</Rotulo>
+            <p>
+    Os Membros Filiados poderão participar das atividades da Organização, individualmente ou em grupo, no Comitê de Membros filiados.
+
+  </p>
+            
+          </Item>
+          </Caput>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            
+            <Item id="art8_cpt_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    Os órgãos da Organização são os seguintes:
+
+  </p>
+            
+          </Item><Alinea id="art8_cpt_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    a Assembléia-Geral, doravante denominada a Assembléia;
+
+  </p>
+            
+          </Alinea><Alinea id="art8_cpt_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    o Conselho Executivo, doravante denominado o Conselho;
+
+  </p>
+            
+          </Alinea><Alinea id="art8_cpt_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    o Secretariado.
+
+  </p>
+            <Item id="art8_cpt_ali3_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    As reuniões do Conselho e da Assembléia serão realizadas na sede da Organização a menos que os mesmos órgãos o decidam de outra forma.
+
+  </p>
+            
+          </Item>
+          </Alinea>
+          </Caput>
+          </Artigo><Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            
+            
+            
+            
+            <Item id="art9_cpt_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    A Assembléia é o órgão supremo da organização e será composta de delegados que representem os Membros Efetivos.
+
+  </p>
+            
+          </Item><Item id="art9_cpt_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    Quando das sessões da Assembléia, os Membros Efetivos e Associados serão representados por cinco delegados, no máximo, um dos quais, por indicação do Membro, será o Chefe da Delegação.
+
+  </p>
+            
+          </Item><Item id="art9_cpt_ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    O Comitê dos Membros Filiados poderá designar um total de três observadores, e cada Membro Filiado poderá acreditar um observador para tomar parte nos trabalhos da Assembléia.
+
+  </p>
+            
+          </Item>
+          </Caput>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A Assembléia reunir-se-á em sessão ordinária cada dois anos e em sessão extraordinária desde que o exijam as circunstâncias. As sessões extraordinárias poderão ser convocadas a pedido do Conselho ou da maioria dos Membros Efetivos da Organização.
+</p><Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A Assembléia adotará seu próprio regulamento.
+</p><Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A Assembléia poderá examinar qualquer questão e formular recomendações sobre qualquer assunto que se enquadre na competência da Organização, além das que lhe tenham sido atribuídas em outras passagens dos presentes Estatutos, serão as seguintes as atribuições da Assembléia:
+</p><Alinea id="ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    eleger o Presidente e os Vice-Presidentes;
+
+  </p>
+            
+          </Alinea><Alinea id="ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    eleger os membros do Conselho;
+
+  </p>
+            
+          </Alinea><Alinea id="ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    nomear o Secretário-Geral mediante recomendação do Conselho;
+
+  </p>
+            
+          </Alinea><Alinea id="ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    aprovar o Regulamento Financeiro da Organização;
+
+  </p>
+            
+          </Alinea><Alinea id="ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    fornecer diretivas gerais para a administração da Organização;
+
+  </p>
+            
+          </Alinea><Alinea id="ali6">
+            
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    aprovar o regulamento de pessoal aplicável ao pessoal do Secretariado;
+
+  </p>
+            
+          </Alinea><Alinea id="ali7">
+            
+            
+            <Rotulo>g)</Rotulo>
+            <p>
+    eleger os comissários de contas, mediante recomendação do conselho;
+
+  </p>
+            
+          </Alinea><Alinea id="ali8">
+            
+            
+            <Rotulo>h)</Rotulo>
+            <p>
+    aprovar o programa geral de trabalho da Organização;
+
+  </p>
+            
+          </Alinea><Alinea id="ali9">
+            
+            
+            <Rotulo>i)</Rotulo>
+            <p>
+    supervisionar a política financeira da Organização e aprovar o Orçamento;
+
+  </p>
+            
+          </Alinea><Alinea id="ali10">
+            
+            
+            <Rotulo>j)</Rotulo>
+            <p>
+    criar os órgãos técnicos ou regionais que se façam necessários;
+
+  </p>
+            
+          </Alinea><Alinea id="ali11">
+            
+            
+            <Rotulo>k)</Rotulo>
+            <p>
+    estudar e aprovar os relatórios de atividades da Organização e de seus órgãos e tomar as providências necessárias para que sejam executadas as medidas resultantes;
+
+  </p>
+            
+          </Alinea><Alinea id="ali12">
+            
+            
+            <Rotulo>l)</Rotulo>
+            <p>
+    aprovar ou delegar poderes para aprovar a conclusão de acordos com governos e com organismos internacionais;
+
+  </p>
+            
+          </Alinea><Alinea id="ali13">
+            
+            
+            <Rotulo>m)</Rotulo>
+            <p>
+    aprovar ou delegar poderes para aprovar a conclusão de acordos com organizações ou instituições privadas;
+
+  </p>
+            
+          </Alinea><Alinea id="ali14">
+            
+            
+            <Rotulo>n)</Rotulo>
+            <p>
+    elaborar e recomendar acordos internacionais sobre qualquer questão que se enquadre na competência da organização;
+
+  </p>
+            
+          </Alinea><Alinea id="ali15">
+            
+            
+            <Rotulo>o)</Rotulo>
+            <p>
+    decidir, de acordo com os presentes Estatutos, a respeito dos pedidos de admissão à condição de membro.
+
+  </p>
+            
+          </Alinea><Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            
+            <Item id="art13_cpt_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    A Assembléia elegerá seu Presidente e seus Vice-Presidentes no início de cada sessão.
+
+  </p>
+            
+          </Item><Item id="art13_cpt_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    O Presidente presidirá à Assembléia e cumprirá as obrigações que lhe forem atribuídas.
+
+  </p>
+            
+          </Item><Item id="art13_cpt_ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    O Presidente será responsável perante a Assembléia, durante as sessões da mesma.
+
+  </p>
+            
+          </Item><Item id="art13_cpt_ite4">
+            
+            
+            <Rotulo>4.</Rotulo>
+            <p>
+    o Presidente representará a organização durante o seu mandato em todas as ocasiôes em que se fizer necessária tal representação.
+
+  </p>
+            
+          </Item>
+          </Caput>
+          </Artigo><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            
+            <Item id="art14_cpt_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    O Conselho será composto dos Membros Efetivos eleitos pela Assembléia na proporção de um membro para cada cinco Membros Efetivos, conforme o regulamento adotado pela Assembléia, com vistas a antigir uma distribuição geográfica justa e equitativa.
+
+  </p>
+            
+          </Item><Item id="art14_cpt_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    Um Membro Associado, designado pelos Membros Associados da Organização, poderá paticipar dos trabalhos do Conselho, sem direito a voto.
+
+  </p>
+            
+          </Item><Item id="art14_cpt_ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    Um representante do Comitê de Membros Filiados poderá particiapr dos trabalhos do Conselho, sem direito a voto.
+
+  </p>
+            
+          </Item>
+          </Caput>
+          </Artigo><Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>O mandato dos membros eleitos do Conselho será de quatro anos, com exceção do mandato da metade dos membros do primeiro Conselho designados por sorteio, que será de dois anos. A eleição da metade dos membros do Conselho será feita cada dois anos.
+</p><Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>O Conselho reunir-se-á pelo menos duas vezes por ano.
+</p><Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>O Conselho elegerá um Presidente e Vice-Presidente, entre os seus membros eleitos, para um mandato de um ano.
+</p><Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>O Conselho adotará seu próprio regulamento.
+</p><Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>As funções do Conselho, além das que lhe são conferidas em outras passagens dos presentes Estatutos, serão as seguintes:
+</p><Alinea id="ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    tomar, em consulta com o Secretário-Geral, todas as medidas necessárias para a execução das decisões e recomendações da Assembléia e disso informar esta última;
+
+  </p>
+            
+          </Alinea><Alinea id="ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    receber do Secretário-Geral relatórios sobre as atividades da Organização;
+
+  </p>
+            
+          </Alinea><Alinea id="ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    submeter propostas à Assembléia;
+
+  </p>
+            
+          </Alinea><Alinea id="ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    examinar o programa geral de trabalho da Organização elaborado pelo Secretário-Geral, antes de sua apresentação à Assembléia;
+
+  </p>
+            
+          </Alinea><Alinea id="ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    submeter à Assembléia relatórios e recomendações quanto às contas e às previsões orçamentárias da Organização;
+
+  </p>
+            
+          </Alinea><Alinea id="ali6">
+            
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    criar qualquer órgão subsidiário necessário às atividades do Conselho;
+
+  </p>
+            
+          </Alinea><Alinea id="ali7">
+            
+            
+            <Rotulo>g)</Rotulo>
+            <p>
+    exercer qualquer outra função que lhe possa ser confiada pela Assembléia.
+
+  </p>
+            
+          </Alinea><Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>No intervalo das sessões da Assembléia, e na ausência de qualquer disposição contrária nos presentes Estatutos, o Conselho tomará as decisões de ordem administrativa e técnica que possam ser necessárias, no quadro das atribuições e dos recursos financeiros da Organização, e enviará à próxima sessão da Assembléia, para sua aprovação, relatório a respeito das decisões tomadas.
+</p><Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>O Secretariado será composto do Secretário-Geral e do pessoal necessário à Organização.
+</p><Artigo id="art22">
+            
+            
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>O Secretário-Geral será nomeado por maioria de dois terços dos Membros Efetivos presentes e votantes na Assembléia, mediante recomendação do Conselho, e por um período de quatro anos. Seu mandato poderá ser renovado.
+</p><Artigo id="art23">
+            
+            
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            
+            
+            
+            
+            <Item id="art23_cpt_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    O Secretário-Geral será responsável perante a Assembléia e o Conselho.
+
+  </p>
+            
+          </Item><Item id="art23_cpt_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    O Secretário-Geral encarregar-se-á da execução das diretivas da Assembléia e do Conselho. Deverá submeter ao Conselho relatórios sobre as atividades da Organização, as contas de gestão e o projeto de programa geral de trabalho, assim como as propostas orçamentárias da Organização.
+
+  </p>
+            
+          </Item><Item id="art23_cpt_ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    O Secretário-Geral encarregar-se-á da representação jurídica da Organização.
+
+  </p>
+            
+          </Item>
+          </Caput>
+          </Artigo><Artigo id="art24">
+            
+            
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput id="art24_cpt">
+            
+            
+            
+            
+            <Item id="art24_cpt_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    O Secretário-Geral nomeará o pessoal do Secretariado conforme o regulamento de pessoal aprovado pela Assembléia.
+
+  </p>
+            
+          </Item><Item id="art24_cpt_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    O pessoal da Organização será responsável perante o Secretário-Geral.
+
+  </p>
+            
+          </Item><Item id="art24_cpt_ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    A consideração dominante na seleção do pessoal, e no estabelecimento das condições de emprego, deverá ser a de assegurar à Organização os serviços de pessoas que possuam as mais altas qualificações de eficiência, de competência técnica e de integridade. Tomando - se em conta tal consideração, dar-se-á a importância devida à seleção feita com vistas a uma distribuição geográfica tão ampla quanto possível.
+
+  </p>
+            
+          </Item><Item id="art24_cpt_ite4">
+            
+            
+            <Rotulo>4.</Rotulo>
+            <p>
+    No cumprimento de seus deveres, o Secretário-Geral e o pessoal não solicitarão nem aceitarão instruções de qualquer Governo ou de qualquer autoridade estanha à Organização. Os funcionários abster-se-ão de qualquer ato incompatível com uma situação de servidores internacionais, e só serão responsáveis perante a Organização.
+
+  </p>
+            
+          </Item>
+          </Caput>
+          </Artigo><Artigo id="art25">
+            
+            
+            <Rotulo>Art. 25.</Rotulo>
+            
+            <Caput id="art25_cpt">
+            
+            
+            
+            
+            <Item id="art25_cpt_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    O orçamento da Organização abrangerá suas atividades administrativas e de programa geral e será custeado pelas contribuições dos Membros Efetivos, Associados e Filiados segundo uma escala de rateio de despesas aceita pela Assembléia e por outras fontes eventuais de receita da Organização, conforme as disposições de Regulamento de Financiamento anexo aos presentes Estatutos dos quais formam parte integrante.
+
+  </p>
+            
+          </Item><Item id="art25_cpt_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    O orçamento preparado pelo Secretário-Geral deverá ser submetido à Assembléia pelo Conselho, para exame e aprovação.
+
+  </p>
+            
+          </Item>
+          </Caput>
+          </Artigo><Artigo id="art26">
+            
+            
+            <Rotulo>Art. 26.</Rotulo>
+            
+            <Caput id="art26_cpt">
+            
+            
+            
+            
+            <Item id="art26_cpt_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    As contas da Organização serão examinadas por dois auditores, eleitos pela Assembléia para um mandato de dois anos mediante recomendação do Conselho. Os auditores serão legíveis.
+
+  </p>
+            
+          </Item><Item id="art26_cpt_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    Os auditores, além de suas funções de contas, poderão formular as observações que julgarem necessárias a respeito da eficácia dos procedimentos financeiros e de gestão, do sistema de contabilidade, do controle financeiro interno e, de maneira geral, das conseqüências financeiras das práticas administrativas.
+
+  </p>
+            
+          </Item>
+          </Caput>
+          </Artigo><Artigo id="art27">
+            
+            
+            <Rotulo>Art. 27.</Rotulo>
+            
+            <Caput id="art27_cpt">
+            
+            
+            
+            
+            <Item id="art27_cpt_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    A presença da maioria dos Membros Efetivos será necessária para que se verifique quorum nas reuniões da Assembléia.
+
+  </p>
+            
+          </Item><Item id="art27_cpt_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    A presença da maioria dos Membros Efetivos do Conselho será necessária para que se verifique quorum nas reuniões do Conselho.
+
+  </p>
+            
+          </Item>
+          </Caput>
+          </Artigo><Artigo id="art28">
+            
+            
+            <Rotulo>Art. 28.</Rotulo>
+            
+            <Caput id="art28_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Cada Membro Efetivo disporá de um voto.
+</p><Artigo id="art29">
+            
+            
+            <Rotulo>Art. 29.</Rotulo>
+            
+            <Caput id="art29_cpt">
+            
+            
+            
+            
+            <Item id="art29_cpt_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    Com exceção dos casos em que os presentes Estatutos estabelecerem o contrário, as decisões da Assembléia em todas as matérias serão adotadas por maioria simples dos Membros Efetivos presentes e votantes.
+
+  </p>
+            
+          </Item><Item id="art29_cpt_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    Para que sejam aprovadas as decisões que acarretem obrigações financeiras e orçamentárias para os Membros, que versem sobre a localização da Organização, e outras decisões que a maioria simples dos Membros Efetivos presentes e votantes estime de particular importância, será necessária na Assembléia a maioria de dois terços dos Membros Efetivos presentes e votantes.
+
+  </p>
+            
+          </Item>
+          </Caput>
+          </Artigo><Artigo id="art30">
+            
+            
+            <Rotulo>Art. 30.</Rotulo>
+            
+            <Caput id="art30_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>O Conselho tomará suas decisões por maioria simples dos Membros presentes e votantes, com exceção de recomendações em assuntos financeiros e orçamentários, para cuja aprovação será necessária a maioria de dois terços dos Membros presentes e votantes.
+</p><Artigo id="art31">
+            
+            
+            <Rotulo>Art. 31.</Rotulo>
+            
+            <Caput id="art31_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A Organização possuirá personalidade jurídica.
+</p><Artigo id="art32">
+            
+            
+            <Rotulo>Art. 32.</Rotulo>
+            
+            <Caput id="art32_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A Organização beneficiar-se-á, no território dos Estados Membros, dos privilégios e imunidades necessários ao exercício de suas funções. Tais privilégios e imunidades poderão ser definidos por acordos concluídos pela Organização.
+</p><Artigo id="art33">
+            
+            
+            <Rotulo>Art. 33.</Rotulo>
+            
+            <Caput id="art33_cpt">
+            
+            
+            
+            
+            <Item id="art33_cpt_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    Qualquer projeto de emenda aos presentes Estatutos e ao seu Anexo deverá ser transmitido ao Secretário-Geral, que o comunicará aos Membros Efetivos pelo menos seis meses antes de ser submetido ao exame da Assembléia.
+
+  </p>
+            
+          </Item><Item id="art33_cpt_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    Será necessária a maioria de dois terços dos Membros Efetivos presentes e votantes para que uma emenda seja aprovada pela Assembléia.
+
+  </p>
+            
+          </Item><Item id="art33_cpt_ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    Uma emenda entrará em vigor para todos os Membros quando dois terços dos Estados Membros tiverem notificado o Governo depositário de sua aprovação da mesma.
+
+  </p>
+            
+          </Item>
+          </Caput>
+          </Artigo><Artigo id="art34">
+            
+            
+            <Rotulo>Art. 34.</Rotulo>
+            
+            <Caput id="art34_cpt">
+            
+            
+            
+            
+            <Item id="art34_cpt_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    Se a Assembléia julgar que um Membro persiste em adotar uma política contrária ao objetivo fundamental da Organização tal como definido no Art. 3 dos presentes Estatutos poderá a Assembléia, mediante uma resolução adotada por maioria de dois terços dos Membros Efetivos presentes e votantes, suspender esse Membro, privando-o do exercício dos direitos e do gozo dos privilégios inerentes à condição de membro.
+
+  </p>
+            
+          </Item><Item id="art34_cpt_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    A suspensão será mantida até que a Assembléia reconheça que se verificou uma modificação na referida política do Membro.
+
+  </p>
+            
+          </Item>
+          </Caput>
+          </Artigo><Artigo id="art35">
+            
+            
+            <Rotulo>Art. 35.</Rotulo>
+            
+            <Caput id="art35_cpt">
+            
+            
+            
+            
+            <Item id="art35_cpt_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    Qualquer Membro Efetivo poderá retirar-se da Organização quando expirar o aviso prévio de um ano endereçado por escrito ao Governo depositário.
+
+  </p>
+            
+          </Item><Item id="art35_cpt_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    Qualquer Membro Associado poderá retirar-se da Organização nas mesmas condições de aviso prévio, mediante uma notificação escrita endereçada ao Governo depositário pelo Membro Efetivo, responsável pelas relações internacionais do Membro Associado.
+
+  </p>
+            
+          </Item><Item id="art35_cpt_ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    Qualquer Membro Filiado poderá retirar-se da Organização quando expirar o aviso prévio de um ano endereçado por escrito ao Secretário-Geral.
+
+  </p>
+            
+          </Item>
+          </Caput>
+          </Artigo><Artigo id="art36">
+            
+            
+            <Rotulo>Art. 36.</Rotulo>
+            
+            <Caput id="art36_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Os presentes Estatutos entrarão em vigor cento e vinte dias depois que cinqüenta e um Estados, cujos organismos oficiais de turismo forem Membros Efetivos da &quot;UIOOT&quot; no momento da adoção dos presentes Estatutos, houverem comunicado oficialmente ao depositário provisório sua aprovação dos Estatutos e sua aceitação das obrigações inerentes à condição de membro.
+</p><Artigo id="art37">
+            
+            
+            <Rotulo>Art. 37.</Rotulo>
+            
+            <Caput id="art37_cpt">
+            
+            
+            
+            
+            <Item id="art37_cpt_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    Os presentes Estatutos e todas as declarações de aceitação das obrigações inerentes à condição de membro deverão ser depositados, a título temporário, junto ao Governo suíço.
+
+  </p>
+            
+          </Item><Item id="art37_cpt_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    O Governo suíço comunicará a todos os Estados habilitados a receber tal comunicação o recebimento das referidas declarações e a data de entrada em vigor dos presentes Estatutos.
+
+  </p>
+            
+          </Item>
+          </Caput>
+          </Artigo><Artigo id="art38">
+            
+            
+            <Rotulo>Art. 38.</Rotulo>
+            
+            <Caput id="art38_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>As línguas oficiais da Organização serão o inglês, o francês, o russo e o espanhol.
+</p><Artigo id="art39">
+            
+            
+            <Rotulo>Art. 39.</Rotulo>
+            
+            <Caput id="art39_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Os textos inglês, francês, russo e espanhol dos presentes Estatutos farão igualmente fé.
+</p><Artigo id="art40">
+            
+            <TituloDispositivo>DISPOSIÇÕES TRANSITÓRIAS</TituloDispositivo>
+            <Rotulo>Art. 40.</Rotulo>
+            
+            <Caput id="art40_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Enquanto a Assembléia-Geral não tomar uma decisão a respeito, nos termos do Artigo 2, a sede da Organização será provisoriamente em Genebra (Suíça).
+</p><Artigo id="art41">
+            
+            
+            <Rotulo>Art. 41.</Rotulo>
+            
+            <Caput id="art41_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Durante um prazo de cento e oitenta dias a contar da entrada em vigor dos presentes Estatutos, os Estados Membros da Organização das Nações Unidas, das agências especializadas e da Agência Internacional de Energia Atômica ou que são partes do Estatuto da Corte Internacional de Justiça terão o direito de tornar-se Membros Efetivos da Organização, sem necessidade de votação, e mediante uma declaração formal de que adotam os Estatutos da Organização e aceitam as obrigações inerentes à condição de Membro.
+</p><Artigo id="art42">
+            
+            
+            <Rotulo>Art. 42.</Rotulo>
+            
+            <Caput id="art42_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>Durante o prazo de um ano após a entrada em vigor dos presentes Estatutos, os Estados cujos organismos nacionais de turismo eram membros da &quot;UIOOT&quot; no momento da adoção dos presentes Estatutos e que adotaram os presentes Estatutos sob condição de confirmação poderão participar das atividades da Organização com todos os direitos e obrigações de um Membro Efetivo.
+</p><Artigo id="art43">
+            
+            
+            <Rotulo>Art. 43.</Rotulo>
+            
+            <Caput id="art43_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>No curso do ano que se seguir a entrada em vigor dos presentes Estatutos, os territórios ou grupos de territórios não responsáveis pelas respectivas relações internacionais, mas cujos organismos nacionais de turismo eram Membros Efetivos da &quot;UIOOT&quot;, e que, em conseqüência, têm direito à condição de Membro Associado, e que aprovaram os presentes Estatutos, sob condição de confirmação pelo Estado responsável por suas relações internacionais, poderão participar das atividades da Organização com os direitos e obrigações inerentes à condição de Membro Associado.
+</p><Artigo id="art44">
+            
+            
+            <Rotulo>Art. 44.</Rotulo>
+            
+            <Caput id="art44_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>A partir da entrada em vigor dos presentes Estatutos os direitos e as obrigações da &quot;UIOOT&quot; serão transferidos para a Organização.
+</p><Artigo id="art45">
+            
+            
+            <Rotulo>Art. 45.</Rotulo>
+            
+            <Caput id="art45_cpt">
+            
+            
+            
+            
+            
+          </Caput>
+          </Artigo><p>O Secretário-Geral da &quot;UIOOT&quot;, na oportunidade da entrada em vigor dos presentes Estatutos, agirá como Secretário-Geral da Organização até o momento que o Secretário-Geral da Organização for eleito pela Assembléia.
+</p><p>Feito no México, a 27 de setembro de 1970.
+</p><Item id="ite1">
+            
+            <TituloDispositivo>REGRAS DE FINANCIAMENTO</TituloDispositivo>
+            <Rotulo>1.</Rotulo>
+            <p>
+    O período financeiro da Organização será de dois anos.
+
+  </p>
+            
+          </Item><Item id="ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    O exercício financeiro corresponderá ao período compreendido entre 1 de janeiro e 31 de dezembro.
+
+  </p>
+            
+          </Item><Item id="ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    O orçamento será custeado por meio de contribuições dos Membros segundo uma escala de rateio de despesas a ser estabelecida pela Assembléia com fundamento no grau de desenvolvimento econômico e na importância do turismo internacional de cada país, e por meio de outras receitas da Organização.
+
+  </p>
+            
+          </Item><Item id="ite4">
+            
+            
+            <Rotulo>4.</Rotulo>
+            <p>
+    O orçamento será apresentado em dólares dos Estados Unidos da América. A moeda de pagamento das contribuições dos Membros será igualmente o dólar norte-americano. O Secretário-Geral poderá, no entanto, aceitar outras moedas em pagamento das contribuições dos Membros até o total autorizado pela Assembléia.
+
+  </p>
+            
+          </Item><Item id="ite5">
+            
+            
+            <Rotulo>5.</Rotulo>
+            <p>
+    Será estabelecido um Fundo geral. Todas as contribuições feitas na condições de membros e em conformidade com o parágrafo 3, os recursos diversos e qualquer adiantamento do Fundo de Reserva serão creditados ao Fundo geral. As despezas administrativas e as despezas relativas ao programa geral serão debitadas ao Fundo geral.
+
+  </p>
+            
+          </Item><Item id="ite6">
+            
+            
+            <Rotulo>6.</Rotulo>
+            <p>
+    Será estabelecido um Fundo de reserva numa importância a ser fixada pela Assembléia. Os adiantamentos sobre as contribuições dos Membros e quaisquer outras receitas que a Assembléia consignar a essa finalidade serão colocadas no Fundo de reserva. Quando necessário, poderão ser efetuadas transferências deste Fundo ao Fundo geral.
+
+  </p>
+            
+          </Item><Item id="ite7">
+            
+            
+            <Rotulo>7.</Rotulo>
+            <p>
+    Poderão ser estabelecidos Fundos de gestão para financiamento de atividades não previstas no orçamento da Organização e que interessem certos países ou grupos de países. Deverão tais Fundos ser financiados com contibuições voluntárias. Poderá a organização cobrar uma taxa pela administração de tais Fundos.
+
+  </p>
+            
+          </Item><Item id="ite8">
+            
+            
+            <Rotulo>8.</Rotulo>
+            <p>
+    A utilização dos donativos, dos legados e outras receitas extraordinárias que não figuram no orçamento da Organização deverá ser decidada pela Assembléia.
+
+  </p>
+            
+          </Item><Item id="ite9">
+            
+            
+            <Rotulo>9.</Rotulo>
+            <p>
+    O Secretário-Geral deverá submeter as previsões orçamentárias ao Conselho pelo menos três meses antes da data da reunião correspondente do mesmo. O Conselho examinará essas previsões e recomendará o orçamento ao exame final e aprovação da Assembléia. As previsões do Conselho serão comunicadas aos Membros pelo menos três meses antes da reunião correspondentes da Assembléia.
+
+  </p>
+            
+          </Item><Item id="ite10">
+            
+            
+            <Rotulo>10.</Rotulo>
+            <p>
+    A Assembléia aprovará o orçamento anualmente para um período de dois anos, o seu rateio para cada ano, assim como as contas da gestão de cada ano.
+
+  </p>
+            
+          </Item><Item id="ite11">
+            
+            
+            <Rotulo>11.</Rotulo>
+            <p>
+    As contas da Organização pelo exercício financeiro vencido serão comunicadas pelo Secretário-Geral aos auditores, assim como ao órgão competente do Conselho. Os auditores enviarão a respeito relatório ao Conselhou e à Assembléia.
+
+  </p>
+            
+          </Item><Item id="ite12">
+            
+            
+            <Rotulo>12.</Rotulo>
+            <p>
+    Os Membros da Organização efetuarão a entrega das respectivas contribuições no primeiro mês do exercício financeiro ao qual a contribuição corresponder. O montante dessas contribuições, determinado pela Assembléia, será comunicado aos Membros seis meses antes do início do exercício financeiro a que corresponder. O Conselho, no entanto, poderá aceitar a justificação de casos de atraso resultantes da diferença no início dos exercícios financeiros em vigor em diferentes países.
+
+  </p>
+            
+          </Item><Item id="ite13">
+            
+            
+            <Rotulo>13.</Rotulo>
+            <p>
+    Um Membro em atraso no pagamento de sua contribuição às despesas da Organização perderá o privilégio de que se beneficiam os Membros da Organização sob a forma de Serviços e de direito ao voto na Assembléia e no Conselho, desde que o valor de seus atrasos sejam igual ou superior à contribuição por ele devida pelos dois anos financeiros vencidos. A pedido do Conselho, a Assembléia poderá, no entanto autorizar esse Membro a participar do voto e a beneficiar-se dos serviços da Organização, desde que se verifique se o atraso decorrente de circunstâncias independentes da vontade do Membro.
+
+  </p>
+            
+          </Item><Item id="ite14">
+            
+            
+            <Rotulo>14.</Rotulo>
+            <p>
+    Um Membro que se retirar da Organização terá a obrigação de pagar a parte proporcional a sua contribuição de acordo com o cálculo de dívidas até o momento em que a retirada se tornar efetiva. No cálculo das contribuições dos Membros Associados e Filiados, levar-se-á em consideração o caráter diferente de sua condição de Membro e dos direitos limitados de que gozam na Organização. Feito no México, a 27 de setembro de 1970. Este texto não substitui o publicado no D.O.U.
+
+  </p>
+            
+          </Item></Articulacao>
+          
+          
+        </Norma></ProjetoNorma>
+    </LexML>

@@ -1,0 +1,57 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:decreto:1991-12-10;361"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">DECRETO Nº 361, DE 10 DE DEZEMBRO DE 1991 </Epigrafe>
+		  <Ementa id="ementa">Promulga o Acordo Básico, entre o Governo da República Federativa do Brasil e o Instituto Interamericano de Cooperação para a Agricultura (IICA), sobre Privilégios e Imunidades e Relações Institucionais.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O VICE-PRESIDENTE DA REPÚBLICA, no exercício do cargo de PRESIDENTE DA REPÚBLICA, usando das atribuições que lhe confere o art. 84, inciso VIII, da Constituição e
+  </p><p>
+    Considerando que o Governo da República Federativa do Brasil e o Instituto Interamericano de Cooperação para a Agricultura (IICA) assinaram, em 17 de julho de 1984, em Brasília, o Acordo Básico sobre Privilégios e Imunidades e Relações Institucionais;
+  </p><p>
+    Considerando que o Congresso Nacional aprovou o acordo por meio do Decreto Legislativo nº 216, de 27 de novembro de 1991;
+  </p><p>
+    Considerando que esse ato internacional entrará em vigor em 2 de janeiro de 1992, na forma de seu artigo 34.
+  </p><p>
+    DECRETA:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    O Acordo Básico, entre o Governo da República Federativa do Brasil e o Instituto Interamericano de Cooperação para a Agricultura (IICA), sobre Privilégios e Imunidades e Relações Institucionais, apenso por cópia ao presente Decreto, será executado e cumprido tão inteiramente como nele se contém.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    Este Decreto entra em vigor na data de sua publicação.
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 10 de dezembro de 1991; 170º da Independência e 103º da República.</p></LocalDataFecho><Assinatura><NomePessoa>ITAMAR FRANCO Marcos Castrioto de Azambuja</NomePessoa><NomePessoa>Este texto não substitui o publicado no D.O.U. de 11.12.1991</NomePessoa></Assinatura></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>

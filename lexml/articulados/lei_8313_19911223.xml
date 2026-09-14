@@ -1,0 +1,2157 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:1991-12-23;8313"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">LEI Nº 8.313, DE 23 DE DEZEMBRO DE 1991 </Epigrafe>
+		  <Ementa id="ementa">CÂMARA DOS DEPUTADOS Centro de Documentação e Informação <span xlink:href="urn:lex:br:federal:lei:1991-12-23;8313">LEI Nº 8.313, DE 23 DE DEZEMBRO DE 1991</span> Restabelece princípios da <span xlink:href="urn:lex:br:federal:lei:1986-07-02;7505">Lei nº 7.505, de 2 de julho de 1986</span>, institui o Programa Nacional de Apoio à Cultura - PRONAC e dá outras Providências.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA
+  </p><p>
+    Faço saber que o CONGRESSO NACIONAL decreta e eu sanciono a seguinte Lei:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Capitulo id="cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DISPOSIÇÕES PRELIMINARES
+
+  </NomeAgrupador>
+            <Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    Fica instituído o Programa Nacional de Apoio à Cultura - PRONAC, com a finalidade de captar e canalizar recursos para o setor de modo a:
+
+  </p>
+            <Inciso id="art1_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    contribuir para facilitar, a todos, os meios para o livre acesso às fontes da cultura e o pleno exercício dos direitos culturais;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    promover e estimular a regionalização da produção cultural e artística brasileira, com valorização de recursos humanos e conteúdos locais;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    apoiar, valorizar e difundir o conjunto das manifestações culturais e seus respectivos criadores;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    proteger as expressões culturais dos grupos formadores da sociedade brasileira e responsáveis pelo pluralismo da cultura nacional;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    salvaguardar a sobrevivência e florescimento dos modos de criar, fazer e viver da sociedade brasileira;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    preservar os bens materiais e imateriais do patrimônio cultural e histórico brasileiro;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    desenvolver a consciência internacional e o respeito aos valores culturais de outros povos ou nações;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    estimular a produção e difusão de bens culturais de valor universal, formadores e informadores de conhecimento, cultura e memória;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    priorizar o produto cultural originário do País;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc10">
+            <!--Link: urn:lex:br:federal:lei:2024-05-03;14852-->
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    estimular a produção ou a coprodução de jogos eletrônicos brasileiros independentes. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2024-05-03;14852">Lei nº 14.852, de 3.5.2024</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    O PRONAC será implementado através dos seguintes mecanismos:
+
+  </p>
+            <Inciso id="art2_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Fundo Nacional da Cultura - FNC;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Fundos de Investimento Cultural e Artístico - FICART;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Incentivo a projetos culturais.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art2_par1">
+            <!--Link: urn:lex:br:federal:lei:2008-03-10;11646-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os incentivos criados por esta Lei somente serão concedidos a projetos culturais cuja exibição, utilização e circulação dos bens culturais deles resultantes sejam abertas, sem distinção, a qualquer pessoa, se gratuitas, e a público pagante, se cobrado ingresso. (Parágrafo único transformado em § 1º pela <span xlink:href="urn:lex:br:federal:lei:2008-03-10;11646">Lei nº 11.646, de 10.3.2008</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par2">
+            <!--Link: urn:lex:br:federal:lei:2008-03-10;11646-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    É vedada a concessão de incentivo a obras, produtos, eventos ou outros decorrentes, destinados ou circunscritos a coleções particulares ou circuitos privados que estabeleçam limitações de acesso. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2008-03-10;11646">Lei nº 11.646, de 10.3.2008</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par3">
+            <!--Link: urn:lex:br:federal:lei:2015-07-06;13146-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Os incentivos criados por esta Lei somente serão concedidos a projetos culturais que forem disponibilizados, sempre que tecnicamente possível, também em formato acessível à pessoa com deficiência, observado o disposto em regulamento. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2015-07-06;13146">Lei nº 13.146, de 6.7.2015</span>, publicada no DOU de 7/72015, em vigor 180 dias após a publicação)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    Para cumprimento das finalidades expressas no artigo 1º desta Lei, os projetos culturais em cujo favor serão captados e canalizados os recursos do PRONAC atenderão, pelo menos, a um dos seguintes objetivos:
+
+  </p>
+            <Inciso id="art3_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    incentivo à formação artística e cultural, mediante:
+
+  </p>
+            <Alinea id="art3_cpt_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    concessão de bolsas de estudo, pesquisa e trabalho, no Brasil ou no exterior, a autores, artistas e técnicos brasileiros ou estrangeiros residentes no Brasil;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    concessão de prêmios a criadores, autores, artistas, técnicos e suas obras, filmes, espetáculos musicais e de artes cênicas em concursos e festivais realizados no Brasil;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_inc1_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    instalação e manutenção de cursos de caráter cultural ou artístico, destinados a formação, especialização e aperfeiçoamento de pessoal da área da cultura, em estabelecimentos de ensino sem fins lucrativos.
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_inc1_ali4">
+            <!--Link: urn:lex:br:federal:lei:2023-05-04;14568-->
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    estímulo à participação de artistas locais e regionais em projetos desenvolvidos por instituições públicas de educação básica que visem ao desenvolvimento artístico e cultural dos alunos, bem como em projetos sociais promovidos por entidades sem fins lucrativos que visem à inclusão social de crianças e adolescentes; (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:lei:2023-05-04;14568">Lei nº 14.568, de 4.5.2023</span>)
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art3_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    fomento à produção cultural e artística, mediante:
+
+  </p>
+            <Alinea id="art3_cpt_inc2_ali1">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1-->
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    produção de discos, vídeos, obras cinematográficas de curta e média metragem e filmes documentais, preservação do acervo cinematográfico bem assim de outras obras de reprodução videofonográfica de caráter cultural; (Alínea com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1">Medida Provisória nº 2228-1, de 6.9.2001</span>, em vigor a partir de 1.1.2007)
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    edição de obras relativas às ciências humanas, às letras e às artes;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_inc2_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    realização de exposições, festivas de arte, espetáculos de artes cênicas, de música e de folclore;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_inc2_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    cobertura de despesas com transporte e seguro de objetos de valor cultural destinados a exposições públicas no País e no exterior;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_inc2_ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    realização de exposições, festivais de arte e espetáculos de artes cênicas ou congêneres.
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art3_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    preservação e difusão do patrimônio artístico, cultural e histórico, mediante:
+
+  </p>
+            <Alinea id="art3_cpt_inc3_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    construção, formação, organização, manutenção, ampliação e equipamento de museus, bibliotecas, arquivos e outras organizações culturais, bem como de suas coleções e acervos;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_inc3_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    conservação e restauração de prédios, monumentos, logradouros, sítios e demais espaços, inclusive naturais, tombados pelos Poderes Públicos;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_inc3_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    restauração de obras de arte e bens móveis e imóveis de reconhecido valor cultural;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_inc3_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    proteção do folclore, do artesanato e das tradições populares nacionais.
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art3_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    estímulo ao conhecimento dos bens e valores culturais, mediante:
+
+  </p>
+            <Alinea id="art3_cpt_inc4_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    distribuição gratuita e pública de ingressos para espetáculos culturais e artísticos;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_inc4_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    levantamentos, estudos e pesquisas na área da cultura e da arte e de seus vários segmentos;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_inc4_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    fornecimento de recursos para o FNC e para fundações culturais com fins específicos ou para museus, bibliotecas, arquivos ou outras entidades de caráter cultural.
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art3_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    apoio a outras atividades culturais e artísticas, mediante:
+
+  </p>
+            <Alinea id="art3_cpt_inc5_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    realização de missões culturais no país e no exterior, inclusive através do fornecimento de passagens;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_inc5_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    contratação de serviços para elaboração de projetos culturais;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_inc5_ali3">
+            <!--Link: urn:lex:br:federal:lei:1999-11-23;9874-->
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    ações não previstas nos incisos anteriores e consideradas relevantes pelo Ministro de Estado da Cultura, consultada a Comissão Nacional de Apoio à Cultura. (Alínea com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1999-11-23;9874">Lei nº 9.874, de 23.11.1999</span>)
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DO FUNDO NACIONAL DA CULTURA - FNC
+
+  </NomeAgrupador>
+            <Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            <!--Link: urn:lex:br:federal:lei:1986-07-02;7505-->
+            
+            
+            <p>
+    Fica ratificado o Fundo de Promoção Cultural, criado pela <span xlink:href="urn:lex:br:federal:lei:1986-07-02;7505">Lei nº 7.505, de 2 de julho de 1986</span>, que passará a denominar-se Fundo Nacional da Cultura - FNC, com o objetivo de captar e destinar recursos para projetos culturais compatíveis com as finalidades do PRONAC e de:
+
+  </p>
+            <Inciso id="art4_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    estimular a distribuição regional equitativa dos recursos a serem aplicados na execução de projetos culturais e artísticos;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    favorecer a visão interestadual, estimulando projetos que explorem propostas culturais conjuntas, de enfoque regional;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    apoiar projetos dotados de conteúdo cultural que enfatizem o aperfeiçoamento profissional e artístico dos recursos humanos na área da cultura, a criatividade e a diversidade cultural brasileira;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    contribuir para a preservação e proteção do patrimônio cultural e histórico brasileiro;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    favorecer projetos que atendam às necessidades da produção cultural e aos interesses da coletividade, aí considerados os níveis qualitativos e quantitativos de atendimentos às demandas culturais existentes, o caráter multiplicador dos projetos através de seus aspectos socioculturais e a priorização de projetos em áreas artísticas e culturais com menos possibilidade de desenvolvimento com recursos próprios.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art4_par1">
+            <!--Link: urn:lex:br:federal:lei:1999-11-23;9874-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O FNC será administrado pelo Ministério da Cultura e gerido por seu titular, para cumprimento do Programa de Trabalho Anual, segundo os princípios estabelecidos nos arts. 1º e 3º. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1999-11-23;9874">Lei nº 9.874, de 23.11.1999</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par2">
+            <!--Link: urn:lex:br:federal:lei:1999-11-23;9874-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os recursos do FNC somente serão aplicados em projetos culturais após aprovados, com parecer do órgão técnico competente, pelo Ministro de Estado da Cultura. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1999-11-23;9874">Lei nº 9.874, de 23.11.1999</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Os projetos aprovados serão acompanhados e avaliados tecnicamente pelas entidades supervisionadas, cabendo a execução financeira à SEC/PR.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Sempre que necessário, as entidades supervisionadas utilizarão peritos para análise e parecer sobre os projetos, permitida a indenização de despesas com o deslocamento, quando houver, e respectivos pró-labore e ajuda de custos, conforme ficar definido no regulamento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    O Secretário da Cultura da Presidência da República designará a unidade da estrutura básica da SEC/PR que funcionará como secretaria executiva do FNC.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par6">
+            <!--Link: urn:lex:br:federal:lei:1999-11-23;9874-->
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    Os recursos do FNC não poderão ser utilizados para despesas de manutenção administrativa do Ministério da Cultura, exceto para a aquisição ou locação de equipamentos e bens necessários ao cumprimento das finalidades do Fundo. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1999-11-23;9874">Lei nº 9.874, de 23.11.1999</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par7">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    Ao término do projeto, a SEC/PR efetuará uma avaliação final de forma a verificar a fiel aplicação dos recursos, observando as normas e procedimentos a serem definidos no regulamento desta Lei, bem como a legislação em vigor.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par8">
+            
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    As instituição públicas ou privadas recebedoras de recursos do FNC e executoras de projetos culturais, cuja avaliação final não for aprovada pela SEC/PR, nos termos do parágrafo anterior, ficarão inabilitadas pelo prazo de três anos ao recebimento de novos recursos, ou enquanto a SEC/PR não proceder a reavaliação do parecer inicial.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    O FNC é um fundo de natureza contábil, com prazo indeterminado de duração, que funcionará sob as formas de apoio a fundo perdido ou de empréstimos reembolsáveis, conforme estabelecer o regulamento, e constituído dos seguintes recursos:
+
+  </p>
+            <Inciso id="art5_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    recursos do Tesouro Nacional;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    doações, nos termos da legislação vigente;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    legados;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    subvenções e auxílios de entidades de qualquer natureza, inclusive de organismos internacionais;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    saldos não utilizados na execução dos projetos a que se referem o Capítulo IV e o presente Capítulo desta Lei;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    devolução de recursos de projetos previstos no Capítulo IV e no presente Capítulo desta Lei, e não iniciados ou interrompidos, com ou sem justa causa;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc7">
+            <!--Link: urn:lex:br:federal:lei:1991-01-16;8167-->
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    um por cento da arrecadação dos Fundos de Investimentos Regionais, a que se refere a <span xlink:href="urn:lex:br:federal:lei:1991-01-16;8167">Lei nº 8.167, de 16 de janeiro de 1991</span>, obedecida na aplicação a respectiva origem geográfica regional;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc8">
+            <!--Link: urn:lex:br:federal:lei:2018-12-12;13756-->
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2018-12-12;13756">Lei nº 13.756, de 12.12.2018</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    reembolso das operações de empréstimo realizadas através do Fundo, a título de financiamento reembolsável, observados critérios de remuneração que, no mínimo, lhes preserve o valor real;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc10">
+            
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    resultado das aplicações em títulos públicos federais, obedecida a legislação vigente sobre a matéria;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc11">
+            
+            
+            <Rotulo>XI –</Rotulo>
+            <p>
+    conversão da dívida externa com entidades e órgãos estrangeiros, unicamente mediante doações, no limite a ser fixado pelo Ministério da Economia, Fazenda e Planejamento, observadas as normas e procedimentos do Banco Central do Brasil;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc12">
+            
+            
+            <Rotulo>XII –</Rotulo>
+            <p>
+    saldos de exercícios anteriores;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc12-1">
+            <!--Link: urn:lex:br:federal:lei.complementar:2022-07-08;195-->
+            
+            <Rotulo>XII-A –</Rotulo>
+            <p>
+    resultados de aplicações financeiras sobre as suas disponibilidades; (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei.complementar:2022-07-08;195">Lei Complementar nº 195, de 8.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc12-2">
+            <!--Link: urn:lex:br:federal:lei.complementar:2022-07-08;195-->
+            
+            <Rotulo>XII-B –</Rotulo>
+            <p>
+    reversão dos saldos financeiros anuais não utilizados até o final do exercício, apurados no balanço anual; (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei.complementar:2022-07-08;195">Lei Complementar nº 195, de 8.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc13">
+            
+            
+            <Rotulo>XIII –</Rotulo>
+            <p>
+    recursos de outras fontes.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    O FNC financiará até oitenta por cento do custo total de cada projeto, mediante comprovação, por parte do proponente, ainda que pessoa jurídica de direito público, da circunstância de dispor do montante remanescente ou estar habilitado à obtenção do respectivo financiamento, através de outra fonte devidamente identificada, exceto quanto aos recursos com destinação especificada na origem.
+
+  </p>
+            
+          </Caput><Paragrafo id="art6_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art6_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Poderão ser considerados, para efeito de totalização do valor restante, bens e serviços oferecidos pelo proponente para implementação do projeto, a serem devidamente avaliados pela SEC/PR.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    A SEC/PR estimulará, através do FNC, a composição, por parte de instituições financeiras, de carteiras para financiamento de projetos culturais, que levem em conta o caráter social da iniciativa, mediante critérios, normas, garantias e taxas de juros especiais a serem aprovados pelo Banco Central do Brasil.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap3">
+            
+            
+            <Rotulo>CAPÍTULO III</Rotulo>
+            <NomeAgrupador>
+    DOS FUNDOS DE INVESTIMENTO CULTURAL E ARTÍSTICO - FICART
+
+  </NomeAgrupador>
+            <Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    Fica autorizada a constituição de Fundos de Investimento Cultural e Artístico - FICART, sob a forma de condomínio, sem personalidade jurídica, caracterizando comunhão de recursos destinados à aplicação em projetos culturais e artísticos.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            <!--Link: urn:lex:br:federal:lei:1999-11-23;9874-->
+            
+            
+            <p>
+    São considerados projetos culturais e artísticos, para fins de aplicação de recursos do FICART, além de outros que venham a ser declarados pelo Ministério da Cultura: (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1999-11-23;9874">Lei nº 9.874, de 23.11.1999</span>)
+
+  </p>
+            <Inciso id="art9_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a produção comercial de instrumentos musicais, bem como de discos, fitas, vídeos, filmes e outras formas de reprodução fonovideográficas;
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a produção comercial de espetáculos teatrais, de dança, música, canto, circo e demais atividades congêneres;
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    a edição comercial de obras relativas às ciências, às letras e às artes, bem como de obras de referência e outras de cunho cultural;
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    construção, restauração, reparação ou equipamento de salas e outros ambientes destinados a atividades com objetivos culturais, de propriedade de entidades com fins lucrativos;
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc5">
+            <!--Link: urn:lex:br:federal:lei:1999-11-23;9874-->
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    outras atividades comerciais ou industriais, de interesse cultural, assim consideradas pelo Ministério da Cultura. (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1999-11-23;9874">Lei nº 9.874, de 23.11.1999</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>
+    Compete à Comissão de Valores Mobiliários, ouvida a SEC/PR, disciplinar a constituição, o funcionamento e a administração dos FICART, observadas as disposições desta Lei e as normas gerais aplicáveis aos fundos de investimento.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            <!--Link: urn:lex:br:federal:lei:1976-12-07;6385-->
+            
+            
+            <p>
+    As quotas dos FICART, emitidas sempre sob a forma nominativa ou escritural, constituem valores mobiliários sujeitos ao regime da <span xlink:href="urn:lex:br:federal:lei:1976-12-07;6385">Lei nº 6.385, de 7 de dezembro de 1976</span>.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            
+            
+            
+            <p>
+    O titular das quotas de FICART:
+
+  </p>
+            <Inciso id="art12_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    não poderá exercer qualquer direito real sobre os bens e direitos integrantes do Patrimônio do Fundo;
+
+  </p>
+            
+          </Inciso><Inciso id="art12_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    não responde pessoalmente por qualquer obrigação legal ou contatual, relativamente aos empreendimentos do Fundo ou da instituição administradora, salvo quanto à obrigação de pagamento do valor integral das quotas subscritas.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>
+    À instituição administradora de FICART compete:
+
+  </p>
+            <Inciso id="art13_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    representa-lo ativa e passivamente, judicial e extrajudicialmente;
+
+  </p>
+            
+          </Inciso><Inciso id="art13_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    responder pessoalmente pela evicção de direito, na eventualidade da liquidação deste.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            <!--Link: urn:lex:br:federal:lei:1994-06-21;8894-->
+            
+            
+            <p>
+    Os rendimentos e ganhos de capital auferidos pelos FICART ficam isentos do Imposto sobre Operações de Credito, Câmbio e Seguro, assim como do Imposto sobre Renda e Proventos de Qualquer Natureza. (Artigo com isenções revogadas pela <span xlink:href="urn:lex:br:federal:lei:1994-06-21;8894">Lei nº 8.894, de 21.6.1994</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>
+    Os rendimentos e ganhos de capital distribuídos pelos FICART, sob qualquer forma, sujeitam-se à incidência do Imposto sobre a Renda na fonte à alíquota de vinte e cinco por cento.
+
+  </p>
+            
+          </Caput><Paragrafo id="art15_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Ficam excluídos da incidência na fonte de que trata este artigo, os rendimentos distribuídos a beneficiário pessoa jurídica tributada com base no lucro real, os quais deverão ser computados na declaração anual de rendimentos.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            
+            
+            
+            <p>
+    Os ganhos de capital auferidos por pessoas físicas ou jurídicas não tributadas com base no lucro real, inclusive isentas, decorrentes da alienação ou resgate de quotas dos FICART, sujeitam-se à incidência do Imposto sobre a Renda, à mesma alíquota prevista para a tributação de rendimentos obtidos na alienação ou resgate de quotas de Fundos Mútuos de Ações.
+
+  </p>
+            
+          </Caput><Paragrafo id="art16_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Considera-se ganho de capital a diferença positiva entre o valor de cessão ou resgate da quota e o custo médio atualizado da aplicação, observadas as datas de aplicação, resgates ou cessão, nos termos da legislação pertinente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O ganho de capital será apurado em relação a cada resgate ou cessão, sendo permitida a compensação do prejuízo havido em uma operação com o lucro obtido em outra, da mesma ou diferente espécie, desde que de renda variável, dentro do mesmo exercício fiscal.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O imposto será pago até o último dia útil da primeira quinzena do mês subsequente àquele em que o ganho de capital foi auferido.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Os rendimentos e ganhos de capital a que se referem o caput deste artigo e o artigo anterior, quando auferidos por investidores residentes ou domiciliados no exterior, sujeitam-se à tributação pelo Imposto sobre a Renda, nos termos da legislação aplicável a esta classe de contribuintes.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            
+            
+            
+            <p>
+    O tratamento fiscal previsto nos artigos precedentes somente incide sobre os rendimentos decorrentes de aplicações em FICART que atendam a todos os requisitos previstos na presente Lei e na respectiva regulamentação a ser baixada pela Comissão de Valores Mobiliários.
+
+  </p>
+            
+          </Caput><Paragrafo id="art17_par1u">
+            <!--Link: urn:lex:br:federal:lei:1988-12-22;7713!art43-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Os rendimentos e ganhos de capital auferidos por FICART, que deixem de atender aos requisitos específicos desse tipo de Fundo, sujeitar-se-ão à tributação prevista no <span xlink:href="urn:lex:br:federal:lei:1988-12-22;7713!art43">artigo 43 da Lei nº 7.713, de 22 de dezembro de 1988</span>.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap4">
+            
+            
+            <Rotulo>CAPÍTULO IV</Rotulo>
+            <NomeAgrupador>
+    DO INCENTIVO A PROJETOS CULTURAIS
+
+  </NomeAgrupador>
+            <Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            <!--Link: urn:lex:br:federal:lei:1999-11-23;9874-->
+            
+            
+            <p>
+    Com o objetivo de incentivar as atividades culturais, a União facultará às pessoas físicas ou jurídicas a opção pela aplicação de parcelas do Imposto sobre a Renda, a título de doações ou patrocínios, tanto no apoio direto a projetos culturais apresentados por pessoas físicas ou por pessoas jurídicas de natureza cultural, como através de contribuições ao FNC, nos termos do art. 5º, inciso II, desta Lei, desde que os projetos atendam aos critérios estabelecidos no art. 1º desta Lei. (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1999-11-23;9874">Lei nº 9.874, de 23.11.1999</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art18_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os contribuintes poderão deduzir do imposto de renda devido as quantias efetivamente despendidas nos projetos elencados no § 3º, previamente aprovados pelo Ministério da Cultura, nos limites e nas condições estabelecidos na legislação do imposto de renda vigente, na forma de:
+
+  </p>
+            <Alinea id="art18_par1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    doações; e
+
+  </p>
+            
+          </Alinea><Alinea id="art18_par1_ali2">
+            <!--Link: urn:lex:br:federal:lei:1999-11-23;9874-->
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    patrocínios. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:1999-11-23;9874">Lei nº 9.874, de 23.11.1999</span>)
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo><Paragrafo id="art18_par2">
+            <!--Link: urn:lex:br:federal:lei:1999-11-23;9874-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As pessoas jurídicas tributadas com base no lucro real não poderão deduzir o valor da doação ou do patrocínio referido no parágrafo anterior como despesa operacional. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:1999-11-23;9874">Lei nº 9.874, de 23.11.1999</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art18_par3">
+            <!--Link: urn:lex:br:federal:lei:1999-11-23;9874--><!--Link: urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    As doações e os patrocínios na produção cultural, a que se refere o § 1º, atenderão exclusivamente aos seguintes segmentos: (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:1999-11-23;9874">Lei nº 9.874, de 23.11.1999</span>, e com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1">Medida Provisória nº 2228-1, de 6.9.2001</span>)
+
+  </p>
+            <Alinea id="art18_par3_ali1">
+            <!--Link: urn:lex:br:federal:lei:1999-11-23;9874--><!--Link: urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1-->
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    artes cênicas; (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:lei:1999-11-23;9874">Lei nº 9.874, de 23.11.1999</span>, e com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1">Medida Provisória nº 2228-1, de 6.9.2001</span>)
+
+  </p>
+            
+          </Alinea><Alinea id="art18_par3_ali2">
+            <!--Link: urn:lex:br:federal:lei:1999-11-23;9874--><!--Link: urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1-->
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    livros de valor artístico, literário ou humanístico; (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:lei:1999-11-23;9874">Lei nº 9.874, de 23.11.1999</span>, e com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1">Medida Provisória nº 2228-1, de 6.9.2001</span>)
+
+  </p>
+            
+          </Alinea><Alinea id="art18_par3_ali3">
+            <!--Link: urn:lex:br:federal:lei:1999-11-23;9874--><!--Link: urn:lex:br:federal:lei:2023-05-04;14568-->
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    música erudita, instrumental ou regional; (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:lei:1999-11-23;9874">Lei nº 9.874, de 23.11.1999</span>, com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2023-05-04;14568">Lei nº 14.568, de 4.5.2023</span>)
+
+  </p>
+            
+          </Alinea><Alinea id="art18_par3_ali4">
+            <!--Link: urn:lex:br:federal:lei:1999-11-23;9874--><!--Link: urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1-->
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    exposições de artes visuais; (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:lei:1999-11-23;9874">Lei nº 9.874, de 23.11.1999</span>, e com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1">Medida Provisória nº 2228-1, de 6.9.2001</span>)
+
+  </p>
+            
+          </Alinea><Alinea id="art18_par3_ali5">
+            <!--Link: urn:lex:br:federal:lei:1999-11-23;9874--><!--Link: urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1-->
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    doações de acervos para bibliotecas públicas, museus, arquivos públicos e cinematecas, bem como treinamento de pessoal e aquisição de equipamentos para a manutenção desses acervos; (Alínea acrescida <span xlink:href="urn:lex:br:federal:lei:1999-11-23;9874">Lei nº 9.874, de 23.11.1999</span>, e com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1">Medida Provisória nº 2228-1, de 6.9.2001</span>)
+
+  </p>
+            
+          </Alinea><Alinea id="art18_par3_ali6">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1-->
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    produção de obras cinematográficas e videofonográficas de curta e média metragem e preservação e difusão do acervo audiovisual; e (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1">Medida Provisória nº 2228-1, de 6.9.2001</span>)
+
+  </p>
+            
+          </Alinea><Alinea id="art18_par3_ali7">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1-->
+            
+            <Rotulo>g)</Rotulo>
+            <p>
+    preservação do patrimônio cultural material e imaterial. (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1">Medida Provisória nº 2228-1, de 6.9.2001</span>)
+
+  </p>
+            
+          </Alinea><Alinea id="art18_par3_ali8">
+            <!--Link: urn:lex:br:federal:lei:2008-03-10;11646-->
+            
+            <Rotulo>h)</Rotulo>
+            <p>
+    construção e manutenção de salas de cinema e teatro, que poderão funcionar também como centros culturais comunitários, em Municípios com menos de 100.000 (cem mil) habitantes; (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:lei:2008-03-10;11646">Lei nº 11.646, de 10.3.2008</span>)
+
+  </p>
+            
+          </Alinea><Alinea id="art18_par3_ali9">
+            <!--Link: urn:lex:br:federal:lei:2024-05-03;14852-->
+            
+            <Rotulo>i)</Rotulo>
+            <p>
+    produção ou coprodução de jogos eletrônicos brasileiros independentes, bem como formação de profissionais do setor. (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:lei:2024-05-03;14852">Lei nº 14.852, de 3.5.2024</span>)
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo>
+          </Artigo><Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            <!--Link: urn:lex:br:federal:lei:1999-11-23;9874-->
+            
+            
+            <p>
+    Os projetos culturais previstos nesta Lei serão apresentados ao Ministério da Cultura, ou a quem este delegar atribuição, acompanhados do orçamento analítico, para aprovação de seu enquadramento nos objetivos do PRONAC. (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1999-11-23;9874">Lei nº 9.874, de 23.11.1999</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art19_par1">
+            <!--Link: urn:lex:br:federal:lei:1999-11-23;9874-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O proponente será notificado dos motivos da decisão que não tenha aprovado o projeto, no prazo máximo de cinco dias. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1999-11-23;9874">Lei nº 9.874, de 23.11.1999</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par2">
+            <!--Link: urn:lex:br:federal:lei:1999-11-23;9874-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Da notificação a que se refere o parágrafo anterior, caberá pedido de reconsideração ao Ministro de Estado da Cultura, a ser decidido no prazo de sessenta dias. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1999-11-23;9874">Lei nº 9.874, de 23.11.1999</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    A provação somente terá eficácia após publicação de ato oficial contendo o título do projeto aprovado e a instituição por ele responsável, o valor autorizado para obtenção de doação ou patrocínio e o prazo de validade da autorização.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par7">
+            <!--Link: urn:lex:br:federal:lei:1999-11-23;9874-->
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    O Ministério da Cultura publicará anualmente, até 28 de fevereiro, o montante dos recursos autorizados pelo Ministério da Fazenda para a renúncia fiscal no exercício anterior, devidamente discriminados por beneficiário. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1999-11-23;9874">Lei nº 9.874, de 23.11.1999</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par8">
+            <!--Link: urn:lex:br:federal:lei:1999-11-23;9874-->
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    Para a aprovação dos projetos será observado o princípio da não-concentração por segmento e por beneficiário, a ser aferido pelo montante de recursos, pela quantidade de projetos, pela respectiva capacidade executiva e pela disponibilidade do valor absoluto anual de renúncia fiscal. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:1999-11-23;9874">Lei nº 9.874, de 23.11.1999</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            
+            
+            
+            <p>
+    Os projetos aprovados do artigo anterior serão, durante sua execução, acompanhados e avaliados pela SEC/PR ou quem receber a delegação destas atribuições.
+
+  </p>
+            
+          </Caput><Paragrafo id="art20_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A SEC/PR, após o término da execução dos projetos previstos neste artigo, deverá, no prazo de seis meses, fazer uma avaliação final da aplicação correta dos recursos recebidos, podendo inabilitar seus responsáveis pelo prazo de até três anos.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art20_par2">
+            <!--Link: urn:lex:br:federal:lei:1999-11-23;9874-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Da decisão a que se refere o parágrafo anterior, caberá pedido de reconsideração ao Ministro de Estado da Cultura, a ser decidido no prazo de sessenta dias. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1999-11-23;9874">Lei nº 9.874, de 23.11.1999</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art20_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O Tribunal de Contas da União incluirá em seu parecer prévio sobre as contas do Presidente da República análise relativa à avaliação de que trata este artigo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            
+            
+            
+            <p>
+    As entidades incentivadoras e captadoras de que trata este Capítulo deverão comunicar, na forma que venha a ser estipulada pelo Ministério da Economia, Fazenda e Planejamento, e SEC/PR, os aportes financeiros realizados e recebidos, bem como as entidades captadoras efetuar a comprovação de sua aplicação.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art22">
+            
+            
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            
+            
+            
+            <p>
+    Os projetos enquadrados nos objetivos de desta Lei não poderão ser objeto de apreciação subjetiva quanto ao seu valor artístico ou cultural.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art23">
+            
+            
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            
+            
+            
+            <p>
+    Para os fins desta Lei, considera-se:
+
+  </p>
+            <Inciso id="art23_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Inciso><Inciso id="art23_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    patrocínio: a transferência de numerário, com finalidade promocional ou a cobertura, pelo contribuinte do Imposto sobre a Renda e Proventos de Qualquer Natureza, de gastos, ou a utilização de bem móvel ou imóvel do seu patrimônio, sem a transferência de domínio, para a realização, por outra pessoa física ou jurídica de atividade cultural com ou sem finalidade lucrativa prevista no artigo 3º desta Lei.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art23_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Constitui infração a esta Lei o recebimento pelo patrocinador, de qualquer vantagem financeira ou material em decorrência do patrocínio que efetuar.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art23_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As transferências definidas neste artigo não estão sujeitas ao recolhimento do Imposto sobre a Renda na fonte.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art24">
+            
+            
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput id="art24_cpt">
+            
+            
+            
+            <p>
+    Para os fins deste Capítulo, equiparam-se a doações, nos termos do regulamento:
+
+  </p>
+            <Inciso id="art24_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    distribuições gratuitas de ingressos para eventos de caráter artístico-cultural por pessoa jurídica a seus empregados e dependentes legais;
+
+  </p>
+            
+          </Inciso><Inciso id="art24_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    despesas efetuadas por pessoas físicas ou jurídicas com o objetivo de conservar, preservar ou restaurar bens de sua propriedade ou sob sua posse legítima, tombados pelo Governo Federal, desde que atendidas as seguintes disposições:
+
+  </p>
+            <Alinea id="art24_cpt_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    preliminar definição, pelo Instituto Brasileiro do Patrimônio Cultural - IBPC, das normas e critérios técnicos que deverão reger os projetos e orçamentos de que trata este inciso;
+
+  </p>
+            
+          </Alinea><Alinea id="art24_cpt_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    aprovação prévia, pelo IBPC, dos projetos e respectivos orçamentos de execução das obras;
+
+  </p>
+            
+          </Alinea><Alinea id="art24_cpt_inc2_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    posterior certificação, pelo referido órgão, das despesas efetivamente realizadas e das circunstâncias de terem sido obras executadas de acordo com os projetos aprovados.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art25">
+            
+            
+            <Rotulo>Art. 25.</Rotulo>
+            
+            <Caput id="art25_cpt">
+            
+            
+            
+            <p>
+    Os projetos a serem apresentados por pessoas físicas ou pessoas jurídicas, de natureza cultural para fins de incentivo, objetivarão desenvolver as formas de expressão, os modos de criar e fazer, os processos de preservação e proteção do patrimônio cultural brasileiro, e os estudos e métodos de interpretação da realidade cultural, bem como contribuir para propiciar meios, à população em geral, que permitam o conhecimento dos bens e valores artísticos e culturais, compreendendo, entre outros, os seguintes segmentos:
+
+  </p>
+            <Inciso id="art25_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    teatro, dança, circo, ópera, mímica e congêneres;
+
+  </p>
+            
+          </Inciso><Inciso id="art25_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    produção cinematográfica, videográfica, fotográfica, discográfica e congêneres;
+
+  </p>
+            
+          </Inciso><Inciso id="art25_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    literatura, inclusive obras de referência;
+
+  </p>
+            
+          </Inciso><Inciso id="art25_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    música;
+
+  </p>
+            
+          </Inciso><Inciso id="art25_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    artes plásticas, artes gráficas, gravuras, cartazes, filatelia e outras congêneres;
+
+  </p>
+            
+          </Inciso><Inciso id="art25_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    folclore e artesanato;
+
+  </p>
+            
+          </Inciso><Inciso id="art25_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    patrimônio cultural, inclusive histórico, arquitetônico, arqueológico, bibliotecas, museus, arquivos e demais acervos;
+
+  </p>
+            
+          </Inciso><Inciso id="art25_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    humanidades; e
+
+  </p>
+            
+          </Inciso><Inciso id="art25_cpt_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    rádio e televisão, educativas e culturais, de caráter não-comercial.
+
+  </p>
+            
+          </Inciso><Inciso id="art25_cpt_inc10">
+            <!--Link: urn:lex:br:federal:lei:2024-05-03;14852-->
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    produção ou coprodução de jogos eletrônicos brasileiros independentes, bem como formação de profissionais do setor. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2024-05-03;14852">Lei nº 14.852, de 3.5.2024</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art25_par1u">
+            <!--Link: urn:lex:br:federal:lei:1999-11-23;9874-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Os projetos culturais relacionados com os segmentos do inciso II deste artigo deverão beneficiar exclusivamente as produções independentes, bem como as produções culturais-educativas de caráter não comercial, realizadas por empresas de rádio e televisão. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1999-11-23;9874">Lei nº 9.874, de 23.11.1999</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art26">
+            
+            
+            <Rotulo>Art. 26.</Rotulo>
+            
+            <Caput id="art26_cpt">
+            
+            
+            
+            <p>
+    O doador ou patrocinador poderá deduzir do imposto devido na declaração do Imposto sobre a Renda os valores efetivamente contribuídos em favor de projetos culturais aprovados de acordo com os dispositivos desta Lei, tendo como base os seguintes percentuais:
+
+  </p>
+            <Inciso id="art26_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    no caso das pessoas físicas, oitenta por cento das doações e sessenta por cento dos patrocínios;
+
+  </p>
+            
+          </Inciso><Inciso id="art26_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    no caso das pessoas jurídicas tributadas com base no lucro real, quarenta por cento das doações e trinta por cento dos patrocínios.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art26_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A pessoa jurídica tributada com base no lucro real poderá abater as doações e patrocínios como despesa operacional.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art26_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O valor máximo das deduções de que trata o caput deste artigo será fixado anualmente pelo Presidente da República, com base em um percentual da renda tributável das pessoas físicas e do imposto devido por pessoas jurídicas tributadas com base no lucro real.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art26_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Os benefícios de que trata este artigo não excluem ou reduzem outros benefícios, abatimentos e deduções em vigor, em especial as doações a entidades de utilidade pública efetuadas por pessoas físicas ou jurídicas.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art26_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art26_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    O Poder Executivo estabelecerá mecanismo de prevenção do valor real das contribuições em favor de projetos culturais, relativamente a este Capítulo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art27">
+            
+            
+            <Rotulo>Art. 27.</Rotulo>
+            
+            <Caput id="art27_cpt">
+            
+            
+            
+            <p>
+    A doação ou o patrocínio não poderá ser efetuada a pessoa ou instituição vinculada ao agente.
+
+  </p>
+            
+          </Caput><Paragrafo id="art27_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Consideram-se vinculados ao doador ou patrocinador:
+
+  </p>
+            <Alinea id="art27_par1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    a pessoa jurídica da qual o doador ou patrocinador seja titular, administrador, gerente, acionista ou sócio, na data da operação, ou nos doze meses anteriores;
+
+  </p>
+            
+          </Alinea><Alinea id="art27_par1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    o cônjuge, os parentes até o terceiro grau, inclusive os afins, e os dependentes do doador ou patrocinador ou dos titulares, administradores, acionistas ou sócios de pessoa jurídica vinculada ao doador ou patrocinador, nos termos da alínea anterior;
+
+  </p>
+            
+          </Alinea><Alinea id="art27_par1_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    outra pessoa jurídica da qual o doador ou patrocinador seja sócio.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo><Paragrafo id="art27_par2">
+            <!--Link: urn:lex:br:federal:lei:1999-11-23;9874-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Não se consideram vinculadas as instituições culturais sem fins lucrativos, criadas pelo doador ou patrocinador, desde que, devidamente constituídas e em funcionamento, na forma da legislação em vigor. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1999-11-23;9874">Lei nº 9.874, de 23.11.1999</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art28">
+            
+            
+            <Rotulo>Art. 28.</Rotulo>
+            
+            <Caput id="art28_cpt">
+            
+            
+            
+            <p>
+    Nenhuma aplicação dos recursos previstos nesta Lei poderá ser feita de qualquer tipo de intermediação.
+
+  </p>
+            
+          </Caput><Paragrafo id="art28_par1u">
+            <!--Link: urn:lex:br:federal:lei:1999-11-23;9874-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A contratação de serviços necessários à elaboração de projetos para a obtenção de doação, patrocínio ou investimento, bem como a captação de recursos ou a sua execução por pessoa jurídica de natureza cultural, não configura a intermediação referida neste artigo. (Parágrafo único com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1999-11-23;9874">Lei nº 9.874, de 23.11.1999</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art29">
+            
+            
+            <Rotulo>Art. 29.</Rotulo>
+            
+            <Caput id="art29_cpt">
+            
+            
+            
+            <p>
+    Os recursos provenientes de doações ou patrocínios deverão ser depositados e movimentados, em conta bancária específica, em nome do beneficiário, e a respectiva prestação de contas deverá ser feita nos temos do regulamento da presente Lei.
+
+  </p>
+            
+          </Caput><Paragrafo id="art29_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Não serão consideradas, para fins de comprovação do incentivo, as contribuições, em relação às quais não se observe esta determinação.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art30">
+            
+            
+            <Rotulo>Art. 30.</Rotulo>
+            
+            <Caput id="art30_cpt">
+            
+            
+            
+            <p>
+    As infrações aos dispositivos deste Capítulo, sem prejuízo das sanções penais cabíveis, sujeitarão o doador ou patrocinador ao pagamento do valor atualizado do Imposto sobre a Renda devido em relação a cada exercício financeiro, além das penalidades e demais acréscimos previstos na legislação que rege a espécie.
+
+  </p>
+            
+          </Caput><Paragrafo id="art30_par1">
+            <!--Link: urn:lex:br:federal:lei:1999-11-23;9874-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Para os efeitos deste artigo, considera-se solidariamente responsável por inadimplência ou irregularidade verificada a pessoa física ou jurídica propositora do projeto. (Parágrafo único transformado em § 1º pela <span xlink:href="urn:lex:br:federal:lei:1999-11-23;9874">Lei nº 9.874, de 23.11.1999</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art30_par2">
+            <!--Link: urn:lex:br:federal:lei:1999-11-23;9874-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A existência de pendências ou irregularidades na execução de projetos da proponente junto ao Ministério da Cultura suspenderá a análise ou concessão de novos incentivos, até a efetiva regularização. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:1999-11-23;9874">Lei nº 9.874, de 23.11.1999</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art30_par3">
+            <!--Link: urn:lex:br:federal:lei:1999-11-23;9874-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Sem prejuízo do parágrafo anterior, aplica-se, no que couber, cumulativamente, o disposto nos arts. 38 e seguintes desta Lei. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:1999-11-23;9874">Lei nº 9.874, de 23.11.1999</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap5">
+            
+            
+            <Rotulo>CAPÍTULO V</Rotulo>
+            <NomeAgrupador>
+    DAS DISPOSIÇÕES GERAIS E TRANSITÓRIAS
+
+  </NomeAgrupador>
+            <Artigo id="art31">
+            
+            
+            <Rotulo>Art. 31.</Rotulo>
+            
+            <Caput id="art31_cpt">
+            
+            
+            
+            <p>
+    Com finalidade de garantir a participação comunitária, a representação de artistas e criadores no trato oficial dos assuntos da cultura e a organização nacional sistêmica da área, o Governo Federal estimulará a institucionalização de Conselhos de Cultura no Distrito Federal, nos Estados, e nos Municípios.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art31-1">
+            
+            
+            <Rotulo>Art. 31-A.</Rotulo>
+            
+            <Caput id="art31-1_cpt">
+            <!--Link: urn:lex:br:federal:lei:2012-01-09;12590-->
+            
+            
+            <p>
+    Para os efeitos desta Lei, ficam reconhecidos como manifestação cultural a música gospel e os eventos a ela relacionados, exceto aqueles promovidos por igrejas. (Artigo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2012-01-09;12590">Lei nº 12.590, de 9.1.2012</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art32">
+            
+            
+            <Rotulo>Art. 32.</Rotulo>
+            
+            <Caput id="art32_cpt">
+            
+            
+            
+            <p>
+    Fica instituída a Comissão Nacional de incentivo à Cultura - CNIC, com a seguinte composição:
+
+  </p>
+            <Inciso id="art32_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    O Secretário da Cultura da Presidência da República;
+
+  </p>
+            
+          </Inciso><Inciso id="art32_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Os Presidentes das entidades supervisionadas pela SEC/PR;
+
+  </p>
+            
+          </Inciso><Inciso id="art32_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    O Presidente da entidade nacional que congregar os Secretários de Cultura das Unidades Federadas;
+
+  </p>
+            
+          </Inciso><Inciso id="art32_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    Um representante do empresário brasileiro;
+
+  </p>
+            
+          </Inciso><Inciso id="art32_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    Seis representantes de entidades associativas dos setores culturais e artísticos de âmbito nacional.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art32_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A CNIC será presidida pela autoridade referida no inciso I deste artigo que, para fins de desempate terá voto de qualidade.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art32_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os mandatos, a indicação e a escolha dos representantes a que se referem os incisos IV e V deste artigo, assim como a competência da CNIC, serão estipulados e definidos pelo regulamento desta Lei.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art33">
+            
+            
+            <Rotulo>Art. 33.</Rotulo>
+            
+            <Caput id="art33_cpt">
+            
+            
+            
+            <p>
+    A SEC/PR, com a finalidade de estimular e valorizar a arte e a cultura, estabelecerá um sistema de premiação anual que reconheça as contribuições mais significativas para a área:
+
+  </p>
+            <Inciso id="art33_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    de artistas ou grupos de artistas brasileiros ou residentes no Brasil, pelo conjunto de sua obra por obras individuais;
+
+  </p>
+            
+          </Inciso><Inciso id="art33_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    de profissionais da área do patrimônio cultural;
+
+  </p>
+            
+          </Inciso><Inciso id="art33_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    de estudiosos e autores na interpretação crítica da cultura nacional, através de ensaios, estudos e pesquisas.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art34">
+            
+            
+            <Rotulo>Art. 34.</Rotulo>
+            
+            <Caput id="art34_cpt">
+            
+            
+            
+            <p>
+    Fica instituída a Ordem do Mérito Cultural, cujo estatuto será aprovado por Decreto do Poder Executivo, sendo que as distinções serão concedidas pelo Presidente da República, ato solene, a pessoas que, por sua atuação profissional ou como incentivadoras das artes e da cultura, mereçam reconhecimento.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art35">
+            
+            
+            <Rotulo>Art. 35.</Rotulo>
+            
+            <Caput id="art35_cpt">
+            <!--Link: urn:lex:br:federal:lei:1986-07-02;7505!art1_par6-->
+            
+            
+            <p>
+    Os recursos destinados ao então Fundo de Promoção Cultural, nos termos do <span xlink:href="urn:lex:br:federal:lei:1986-07-02;7505!art1_par6">artigo 1º, § 6º, da Lei nº 7.505, de 02 de julho de 1986</span>, serão recolhidos ao Tesouro Nacional para aplicação pelo FNC, observada a sua finalidade.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art36">
+            
+            
+            <Rotulo>Art. 36.</Rotulo>
+            
+            <Caput id="art36_cpt">
+            
+            
+            
+            <p>
+    O Departamento da Receita Federal, do Ministério da Economia, Fazenda e Planejamento, no exercício de suas atribuições específicas, fiscalizará a efetiva execução desta Lei, no que se refere à aplicação de incentivos fiscais nela previstos.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art37">
+            
+            
+            <Rotulo>Art. 37.</Rotulo>
+            
+            <Caput id="art37_cpt">
+            
+            
+            
+            <p>
+    O Poder Executivo a fim de atender o disposto no artigo 26, § 2º desta Lei, adequando-o às disposições da Lei de diretrizes Orçamentárias, enviará, no prazo de 30 dias, Mensagem ao Congresso Nacional, estabelecendo o total da renúncia fiscal e correspondente cancelamento de despesas orçamentarias.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art38">
+            
+            
+            <Rotulo>Art. 38.</Rotulo>
+            
+            <Caput id="art38_cpt">
+            
+            
+            
+            <p>
+    Na hipótese de dolo, fraude ou simulação, inclusive no caso de desvio de objeto, será aplicada, ao doador e ao beneficiário, a multa correspondente a duas vezes o valor da vantagem recebida indevidamente.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art39">
+            
+            
+            <Rotulo>Art. 39.</Rotulo>
+            
+            <Caput id="art39_cpt">
+            
+            
+            
+            <p>
+    Constitui crime, punível com a reclusão de dois a seis meses e multa de vinte por cento do valor do projeto, qualquer discriminação da natureza política que atente contra a liberdade de expressão, de atividade intelectual e artística, de consciência ou crença, no andamento dos projetos a que se referem esta Lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art40">
+            
+            
+            <Rotulo>Art. 40.</Rotulo>
+            
+            <Caput id="art40_cpt">
+            
+            
+            
+            <p>
+    Constitui crime, punível, com reclusão de dois a seis meses e multa de vinte por cento do valor do projeto, obter redução do imposto de renda utilizando-se fraudulentamente de qualquer benefício desta Lei.
+
+  </p>
+            
+          </Caput><Paragrafo id="art40_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    No caso de pessoa jurídica respondem pelo crime o acionista controlador e os administradores que para ele tenham concorrido.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art40_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Na mesma pena incorre aquele que, recebendo recursos, bens ou valores em função desta Lei, deixe de promover, sem justa causa, atividade cultural objeto do incentivo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art41">
+            
+            
+            <Rotulo>Art. 41.</Rotulo>
+            
+            <Caput id="art41_cpt">
+            
+            
+            
+            <p>
+    O Poder Executivo, no prazo de sessenta dias, regulamentará a presente Lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art42">
+            
+            
+            <Rotulo>Art. 42.</Rotulo>
+            
+            <Caput id="art42_cpt">
+            
+            
+            
+            <p>
+    Esta Lei entra em vigor na data de sua publicação.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art43">
+            
+            
+            <Rotulo>Art. 43.</Rotulo>
+            
+            <Caput id="art43_cpt">
+            
+            
+            
+            <p>
+    Revogam-se as disposições em contrário.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 23 de dezembro de 1991; 170º da Independência e 103º da República.</p></LocalDataFecho><Assinatura><NomePessoa>FERNANDO COLLOR</NomePessoa><NomePessoa>Jarbas Passarinho</NomePessoa></Assinatura></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>

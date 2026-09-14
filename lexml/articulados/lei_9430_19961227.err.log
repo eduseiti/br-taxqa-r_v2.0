@@ -1,0 +1,10 @@
+# CMD: java -jar ../lexml-parser-projeto-lei/target/lexml-parser-projeto-lei-1.15.0-onejar.jar parse -m application/vnd.openxmlformats-officedocument.wordprocessingml.document -i original/articulados/lei_9430_19961227.docx -o lexml/lei_9430_19961227.xml --write-errors-to-file lexml/lei_9430_19961227.err.log -a federal -t lei -n 9430 --data 1996-12-27 --linker /usr/local/bin/linkertool
+# ---
+Problem type = [5: Rótulo repetido, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Parágrafo único. do Art. 17. (na Seção IV do CAPÍTULO I)), msg = None, context=ArraySeq(Art. 17., Seção IV, CAPÍTULO I, CAPÍTULO I)
+
+Problem type = [6: Rótulo único não aparece sozinho., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Parágrafo único. do Art. 17. (na Seção IV do CAPÍTULO I), Caput do Art. 17. (na Seção IV do CAPÍTULO I)), msg = None, context=ArraySeq(Art. 17., Seção IV, CAPÍTULO I, CAPÍTULO I)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Parágrafo único. do Art. 17. (na Seção IV do CAPÍTULO I), § 1º do Art. 17. (na Seção IV do CAPÍTULO I)), msg = None, context=List()
+
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 17. do Parágrafo único.), msg = None, context=ArraySeq(Parágrafo único.:Art. 17., § 1º:Art. 17.)
+

@@ -1,0 +1,326 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:2006-06-27;11312"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">LEI Nº 11.312, DE 27 DE JUNHO DE 2006 </Epigrafe>
+		  <Ementa id="ementa">Reduz a zero as alíquotas do imposto de renda e da Contribuição Provisória sobre Movimentação ou Transmissão de Valores e de Créditos e Direitos de Natureza Financeira - CPMF nos casos que especifica; altera a <span xlink:href="urn:lex:br:federal:lei:1996-10-24;9311">Lei nº 9.311, de 24 de outubro de 1996</span>; e dá outras providências.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA
+  </p><p>
+    Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            <!--Link: urn:lex:br:federal:lei:1995-01-20;8981!art81_par2_ali1-->
+            
+            
+            <p>
+    Fica reduzida a zero a alíquota do imposto de renda incidente sobre os rendimentos definidos nos termos da <span xlink:href="urn:lex:br:federal:lei:1995-01-20;8981!art81_par2_ali1">alínea &quot;a&quot; do § 2º do art. 81 da Lei nº 8.981, de 20 de janeiro de 1995</span>, produzidos por títulos públicos adquiridos a partir de 16 de fevereiro de 2006, quando pagos, creditados, entregues ou remetidos a beneficiário residente ou domiciliado no exterior, exceto em país que não tribute a renda ou que a tribute à alíquota máxima inferior a 20% (vinte por cento).
+
+  </p>
+            
+          </Caput><Paragrafo id="art1_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O disposto neste artigo:
+
+  </p>
+            <Inciso id="art1_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    aplica-se exclusivamente às operações realizadas de acordo com as normas e condições estabelecidas pelo Conselho Monetário Nacional;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    aplica-se às cotas de fundos de investimentos exclusivos para investidores não-residentes que possuam no mínimo 98% (noventa e oito por cento) de títulos públicos;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    não se aplica a títulos adquiridos com compromisso de revenda assumido pelo comprador.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art1_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os rendimentos produzidos pelos títulos e valores mobiliários, referidos no caput e no § 1º deste artigo, adquiridos anteriormente a 16 de fevereiro de 2006 continuam tributados na forma da legislação vigente, facultada a opção pelo pagamento antecipado do imposto nos termos do § 3º deste artigo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art1_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Até 31 de agosto de 2006, relativamente aos investimentos possuídos em 15 de fevereiro de 2006, fica facultado ao investidor estrangeiro antecipar o pagamento do imposto de renda incidente sobre os rendimentos produzidos por títulos públicos que seria devido por ocasião do pagamento, crédito, entrega ou remessa a beneficiário residente ou domiciliado no exterior, ficando os rendimentos auferidos a partir da data do pagamento do imposto sujeitos ao benefício da alíquota zero previsto neste artigo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art1_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    A base de cálculo do imposto de renda de que trata o § 3º deste artigo será apurada com base em preço de mercado definido pela média aritmética, dos 10 (dez) dias úteis que antecedem o pagamento, das taxas indicativas para cada título público divulgadas pela Associação Nacional das Instituições do Mercado Financeiro - ANDIMA.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    Os rendimentos auferidos no resgate de cotas dos Fundos de Investimento em Participações, Fundos de Investimento em Cotas de Fundos de Investimento em Participações e Fundos de Investimento em Empresas Emergentes, inclusive quando decorrentes da liquidação do fundo, ficam sujeitos ao imposto de renda na fonte à alíquota de 15% (quinze por cento) incidente sobre a diferença positiva entre o valor de resgate e o custo de aquisição das cotas.
+
+  </p>
+            
+          </Caput><Paragrafo id="art2_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os ganhos auferidos na alienação de cotas de fundos de investimento de que trata o caput deste artigo serão tributados à alíquota de 15% (quinze por cento):
+
+  </p>
+            <Inciso id="art2_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    como ganho líquido quando auferidos por pessoa física em operações realizadas em bolsa e por pessoa jurídica em operações realizadas dentro ou fora de bolsa;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    de acordo com as regras aplicáveis aos ganhos de capital na alienação de bens ou direitos de qualquer natureza quando auferidos por pessoa física em operações realizadas fora de bolsa.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art2_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    No caso de amortização de cotas, o imposto incidirá sobre o valor que exceder o respectivo custo de aquisição à alíquota de que trata o caput deste artigo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O disposto neste artigo aplica-se somente aos fundos referidos no caput deste artigo que cumprirem os limites de diversificação e as regras de investimento constantes da regulamentação estabelecida pela Comissão de Valores Mobiliários.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par4">
+            <!--Link: urn:lex:br:federal:lei:2023-10-30;14711-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2023-10-30;14711">Lei nº 14.711, de 30.10.2023</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par5">
+            <!--Link: urn:lex:br:federal:lei:2004-12-21;11033!art1_cpt_inc1--><!--Link: urn:lex:br:federal:lei:2004-12-21;11033!art1_cpt_inc4-->
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Ficam sujeitos à tributação do imposto de renda na fonte, às alíquotas previstas nos <span xlink:href="urn:lex:br:federal:lei:2004-12-21;11033!art1_cpt_inc1">incisos I</span> a <span xlink:href="urn:lex:br:federal:lei:2004-12-21;11033!art1_cpt_inc4">IV do caput do art. 1º da Lei nº 11.033, de 21 de dezembro de 2004</span>, os rendimentos auferidos pelo cotista quando da distribuição de valores pelos fundos de que trata o caput deste artigo, em decorrência de inobservância do disposto nos §§ 3º e 4º deste artigo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    Fica reduzida a zero a alíquota do imposto de renda incidente sobre os rendimentos auferidos nas aplicações em fundos de investimento de que trata o art. 2º desta Lei quando pagos, creditados, entregues ou remetidos a beneficiário residente ou domiciliado no exterior, individual ou coletivo, que realizar operações financeiras no País de acordo com as normas e condições estabelecidas pelo Conselho Monetário Nacional.
+
+  </p>
+            
+          </Caput><Paragrafo id="art3_par1">
+            <!--Link: urn:lex:br:federal:lei:2023-10-30;14711-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2023-10-30;14711">Lei nº 14.711, de 30.10.2023</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par2">
+            <!--Link: urn:lex:br:federal:lei:2023-10-30;14711-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2023-10-30;14711">Lei nº 14.711, de 30.10.2023</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par3">
+            <!--Link: urn:lex:br:federal:lei:2014-05-13;12973-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A alíquota 0 (zero) referida no caput também se aplica aos ganhos de capital auferidos na alienação ou amortização de quotas de fundos de investimentos de que trata este artigo. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2014-05-13;12973">Lei nº 12.973, de 13.5.2014</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O disposto neste artigo aplica-se também:
+
+  </p>
+            <Inciso id="art3_par4_inc1">
+            <!--Link: urn:lex:br:federal:lei:2007-05-29;11478-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    ao cotista dos fundos de que trata a <span xlink:href="urn:lex:br:federal:lei:2007-05-29;11478">Lei nº 11.478, de 29 de maio de 2007</span>, residente ou domiciliado no exterior; e
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par4_inc2">
+            <!--Link: urn:lex:br:federal:lei:1996-12-27;9430!art24--><!--Link: urn:lex:br:federal:lei:2023-10-30;14711-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    aos fundos soberanos, ainda que residentes ou domiciliados em países com tributação favorecida, nos termos do <span xlink:href="urn:lex:br:federal:lei:1996-12-27;9430!art24">art. 24 da Lei nº 9.430, de 27 de dezembro de 1996</span>. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2023-10-30;14711">Lei nº 14.711, de 30.10.2023</span>)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art3_par5">
+            <!--Link: urn:lex:br:federal:lei:2023-10-30;14711-->
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Para fins do disposto no inciso II do § 4º deste artigo, classificam-se como fundos soberanos os veículos de investimento no exterior cujo patrimônio seja composto de recursos provenientes exclusivamente da poupança soberana do país. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2023-10-30;14711">Lei nº 14.711, de 30.10.2023</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par6">
+            <!--Link: urn:lex:br:federal:lei:1996-12-27;9430!art24--><!--Link: urn:lex:br:federal:lei:2023-10-30;14711-->
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    O disposto neste artigo não se aplica ao titular de cotas que seja residente ou domiciliado em jurisdição de tributação favorecida nos termos do <span xlink:href="urn:lex:br:federal:lei:1996-12-27;9430!art24">art. 24 da Lei nº 9.430, de 27 de dezembro de 1996</span>. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2023-10-30;14711">Lei nº 14.711, de 30.10.2023</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par7">
+            <!--Link: urn:lex:br:federal:lei:2023-10-30;14711-->
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    O disposto neste artigo aplica-se somente aos fundos de investimento em participações qualificados como entidade de investimento de acordo com as normas estabelecidas pelo Conselho Monetário Nacional. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2023-10-30;14711">Lei nº 14.711, de 30.10.2023</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            <!--Link: urn:lex:br:federal:lei:1996-10-24;9311!art8_cpt-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1996-10-24;9311!art8_cpt">caput do art. 8º da Lei nº 9.311, de 24 de outubro de 1996</span>, passa a vigorar acrescido do seguinte inciso X:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1996-10-24;9311" id="art4_cpt_alt1">              
+              <Artigo xlink:href="art8" id="art4_cpt_alt1_art8" abreAspas="s">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput xlink:href="art8_cpt" id="art4_cpt_alt1_art8_cpt" textoOmitido="s">
+            
+            
+            
+            
+            <Omissis id="art4_cpt_alt1_art8_cpt_omi1"/><Inciso xlink:href="art8_cpt_inc10" id="art4_cpt_alt1_art8_cpt_inc10" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    nos lançamentos a débito em conta corrente de depósito de titularidade de residente ou domiciliado no Brasil ou no exterior para liquidação de operações de aquisição de ações em oferta pública, registrada na Comissão de Valores Mobiliários, realizada fora dos recintos ou sistemas de negociação de bolsa de valores, desde que a companhia emissora tenha registro para negociação das ações em bolsas de valores.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    Esta Lei entra em vigor na data de sua publicação.
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 27 de junho de 2006; 185º da Independência e 118º da República.</p></LocalDataFecho><Assinatura><NomePessoa>LUIZ INÁCIO LULA DA SILVA</NomePessoa><NomePessoa>Guido Mantega</NomePessoa></Assinatura></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>

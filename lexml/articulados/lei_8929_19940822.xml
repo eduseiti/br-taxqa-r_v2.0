@@ -1,0 +1,1269 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:1994-08-22;8929"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">LEI Nº 8.929, DE 22 DE AGOSTO DE 1994 </Epigrafe>
+		  <Ementa id="ementa">Institui a Cédula de Produto Rural, e dá outras providências.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA
+  </p><p>
+    Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte lei:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            
+            <p>
+    Fica instituída a Cédula de Produto Rural (CPR), representativa de promessa de entrega de produtos rurais, com ou sem garantias cedularmente constituídas. (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art1_par1">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Fica permitida a liquidação financeira da CPR, desde que observadas as condições estipuladas nesta Lei. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art1_par2">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Para os efeitos desta Lei, produtos rurais são aqueles obtidos nas atividades: (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            <Inciso id="art1_par2_inc1">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986--><!--Link: urn:lex:br:federal:lei:2022-07-20;14421-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    agrícola, pecuária, florestal, de extrativismo vegetal e de pesca e aquicultura, seus derivados, subprodutos e resíduos de valor econômico, inclusive quando submetidos a beneficiamento ou a primeira industrialização; (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>, e com nova redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-20;14421">Lei nº 14.421, de 20.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art1_par2_inc2">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986--><!--Link: urn:lex:br:federal:lei:2022-07-20;14421-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    relacionadas à conservação, à recuperação e ao manejo sustentável de florestas nativas e dos respectivos biomas, à recuperação de áreas degradadas, à prestação de serviços ambientais na propriedade rural ou que vierem a ser definidas pelo Poder Executivo como ambientalmente sustentáveis; (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>, e com nova redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-20;14421">Lei nº 14.421, de 20.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art1_par2_inc3">
+            <!--Link: urn:lex:br:federal:lei:2022-07-20;14421-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    de industrialização dos produtos resultantes das atividades relacionadas no inciso I deste parágrafo; (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2022-07-20;14421">Lei nº 14.421, de 20.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art1_par2_inc4">
+            <!--Link: urn:lex:br:federal:lei:2022-07-20;14421-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    de produção ou de comercialização de insumos agrícolas, de máquinas e implementos agrícolas e de equipamentos de armazenagem. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2022-07-20;14421">Lei nº 14.421, de 20.7.2022</span>)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art1_par3">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O Poder Executivo poderá regulamentar o disposto neste artigo, inclusive relacionar os produtos passíveis de emissão de CPR. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-20;14421-->
+            
+            
+            <p>
+    Têm legitimação para emitir CPR: (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-20;14421">Lei nº 14.421, de 20.7.2022</span>)
+
+  </p>
+            <Inciso id="art2_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:2022-07-20;14421-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o produtor rural, pessoa natural ou jurídica, inclusive com objeto social que compreenda em caráter não exclusivo a produção rural, a cooperativa agropecuária e a associação de produtores rurais que tenha por objeto a produção, a comercialização e a industrialização dos produtos rurais de que trata o art. 1º desta Lei; (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2022-07-20;14421">Lei nº 14.421, de 20.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:2022-07-20;14421-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    as pessoas naturais ou jurídicas que beneficiam ou promovem a primeira industrialização dos produtos rurais referidos no art. 1º desta Lei ou que empreendem as atividades constantes dos incisos II, III e IV do § 2º do art. 1º desta Lei. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2022-07-20;14421">Lei nº 14.421, de 20.7.2022</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art2_par1">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986--><!--Link: urn:lex:br:federal:lei:2022-07-20;14421-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>, e revogado pela <span xlink:href="urn:lex:br:federal:lei:2022-07-20;14421">Lei nº 14.421, de 20.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par2">
+            <!--Link: urn:lex:br:federal:lei:2004-12-21;11033!art3_cpt_inc5--><!--Link: urn:lex:br:federal:lei:2020-04-07;13986--><!--Link: urn:lex:br:federal:lei:2022-07-20;14421-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Sobre a CPR emitida pelas pessoas constantes do inciso II do caput deste artigo incidirá o imposto sobre operações de crédito, câmbio e seguro, ou sobre operações relativas a títulos ou valores mobiliários, e não será aplicado o disposto no <span xlink:href="urn:lex:br:federal:lei:2004-12-21;11033!art3_cpt_inc5">inciso V do caput do art. 3º da Lei nº 11.033, de 21 de dezembro de 2004</span>, nem quaisquer outras isenções. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>, e com nova redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-20;14421">Lei nº 14.421, de 20.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par3">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O Poder Executivo poderá regulamentar o disposto neste artigo, inclusive alterando o rol dos emissores de CPR para efeito desta Lei. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    A CPR conterá os seguintes requisitos, lançados em seu contexto:
+
+  </p>
+            <Inciso id="art3_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    denominação &quot;Cédula de Produto Rural&quot; ou &quot;Cédula de Produto Rural com Liquidação Financeira&quot;, conforme o caso; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    data da entrega ou vencimento e, se for o caso, cronograma de liquidação; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    nome e qualificação do credor e cláusula à ordem; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc4">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    promessa pura e simples de entrega do produto, sua indicação e as especificações de qualidade, de quantidade e do local onde será desenvolvido o produto rural; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    local e condições da entrega;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc6">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    descrição dos bens cedularmente vinculados em garantia, com nome e qualificação dos seus proprietários e nome e qualificação dos garantidores fidejussórios; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    data e lugar da emissão;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc8">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    nome, qualificação e assinatura do emitente e dos garantidores, que poderá ser feita de forma eletrônica; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc9">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    forma e condição de liquidação; e (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc10">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    critérios adotados para obtenção do valor de liquidação da cédula. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art3_par1">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Sem caráter de requisito essencial, a CPR, emitida sob a forma cartular ou escritural, poderá conter outras cláusulas lançadas em seu contexto. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A descrição dos bens vinculados em garantia pode ser feita em documento à parte, assinado pelo emitente, fazendo-se, na cédula, menção a essa circunstância.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par3">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Os bens vinculados em garantia serão descritos de modo simplificado e, quando for o caso, serão identificados pela sua numeração própria e pelo número de registro ou matrícula no registro oficial competente, dispensada, no caso de imóveis, a indicação das respectivas confrontações. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par4">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986--><!--Link: urn:lex:br:federal:lei:2022-07-20;14421-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    As partes contratantes, observada a legislação específica, estabelecerão a forma e o nível de segurança da assinatura eletrônica que serão admitidos para fins de validade, eficácia e executividade, observadas as seguintes disposições: (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>, e com nova redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-20;14421">Lei nº 14.421, de 20.7.2022</span>)
+
+  </p>
+            <Inciso id="art3_par4_inc1">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2022-03-15;1104--><!--Link: urn:lex:br:federal:lei:2022-07-20;14421-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    na CPR e no documento à parte com a descrição dos bens vinculados em garantia, se houver, será admitida a utilização de assinatura eletrônica simples, avançada ou qualificada; e (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-03-15;1104">Medida Provisória nº 1.104, de 15.3.2022</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-07-20;14421">Lei nº 14.421, de 20.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par4_inc2">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2022-03-15;1104--><!--Link: urn:lex:br:federal:lei:2022-07-20;14421-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    no registro e na averbação de garantia real constituída por bens móveis e imóveis, será admitida a utilização de assinatura eletrônica avançada ou qualificada. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2022-03-15;1104">Medida Provisória nº 1.104, de 15.3.2022</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2022-07-20;14421">Lei nº 14.421, de 20.7.2022</span>)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art3_par5">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    A CPR poderá ser aditada, ratificada e retificada por termo aditivo que a integre, datado e assinado pelo emitente, pelo garantidor e pelo credor, com a formalização e o registro na forma do título original, conforme o art. 3º-A desta Lei, fazendo-se, na cédula, menção a essa circunstância. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par6">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    No caso da CPR com liquidação física, os procedimentos para definição da qualidade do produto obedecerão ao disposto em regulamento do Poder Executivo, quando houver. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par7">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    O Poder Executivo poderá regulamentar o disposto neste artigo. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art3-1">
+            
+            
+            <Rotulo>Art. 3º-A.</Rotulo>
+            
+            <Caput id="art3-1_cpt">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            
+            <p>
+    A CPR poderá ser emitida sob a forma cartular ou escritural. (“Caput” do artigo acrescido pela Medida Provisória nº 897, de 1º/10/2019, convertida na <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art3-1_par1">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A emissão na forma escritural, que poderá valer-se de processos eletrônicos ou digitais, será objeto de lançamento em sistema eletrônico de escrituração gerido por entidade autorizada pelo Banco Central do Brasil a exercer a atividade de escrituração. (Parágrafo acrescido pela Medida Provisória nº 897, de 1º/10/2019, convertida e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3-1_par2">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A CPR emitida sob a forma cartular assumirá a forma escritural enquanto permanecer depositada em entidade autorizada pelo Banco Central do Brasil a exercer a atividade de depósito centralizado de ativos financeiros ou de valores mobiliários. (Parágrafo acrescido pela Medida Provisória nº 897, de 1º/10/2019, convertida e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3-1_par3">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Os negócios ocorridos durante o período em que a CPR emitida sob a forma cartular estiver depositada não serão transcritos no verso do título, cabendo ao sistema referido no § 1º deste artigo o controle da titularidade. (Parágrafo acrescido pela Medida Provisória nº 897, de 1º/10/2019, convertida e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3-1_par4">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    A CPR será considerada ativo financeiro, para os fins de registro e de depósito em entidades autorizadas pelo Banco Central do Brasil a exercer tais atividades. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art3-2">
+            
+            
+            <Rotulo>Art. 3º-B.</Rotulo>
+            
+            <Caput id="art3-2_cpt">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            
+            <p>
+    Compete ao Banco Central do Brasil: (“Caput” do artigo acrescido pela Medida Provisória nº 897, de 1º/10/2019, convertida na <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            <Inciso id="art3-2_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    estabelecer as condições para o exercício da atividade de escrituração de que trata o § 1º do art. 3º-A desta Lei; e (Inciso acrescido pela Medida Provisória nº 897, de 1º/10/2019, convertida na <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art3-2_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    autorizar e supervisionar o exercício da atividade prevista no inciso I do caput deste artigo. (Inciso acrescido pela Medida Provisória nº 897, de 1º/10/2019, convertida na <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art3-2_par1">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A autorização de que trata o inciso II do caput deste artigo poderá, a critério do Banco Central do Brasil, ser concedida por segmento, por espécie ou por grupos de entidades que atendam a critérios específicos, dispensada a autorização individualizada. (Parágrafo acrescido pela Medida Provisória nº 897, de 1º/10/2019, convertida na <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3-2_par2">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A entidade de que trata o § 1º do art. 3º-A desta Lei deverá expedir, mediante solicitação: (Parágrafo acrescido pela Medida Provisória nº 897, de 1º/10/2019, convertida e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            <Inciso id="art3-2_par2_inc1">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    certidão de inteiro teor do título, inclusive para fins de protesto, de procedimento extrajudicial ou de medida judicial, mesmo contra garantidores; (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art3-2_par2_inc2">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    certidão de registro de cédulas escrituradas em nome do emitente e garantidor, quando aplicável. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art3-2_par3">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    As certidões previstas no § 2º deste artigo podem ser emitidas de forma eletrônica, observados requisitos de segurança que garantam a autenticidade e a integridade do documento, que lhe conferem liquidez, certeza e exigibilidade. (Parágrafo acrescido pela Medida Provisória nº 897, de 1º/10/2019, convertida e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art3-3">
+            
+            
+            <Rotulo>Art. 3º-C.</Rotulo>
+            
+            <Caput id="art3-3_cpt">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            
+            <p>
+    O sistema eletrônico de escrituração de que trata o § 1º do art. 3º-A desta Lei fará constar: (“Caput” do artigo acrescido pela Medida Provisória nº 897, de 1º/10/2019, convertida e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            <Inciso id="art3-3_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    os requisitos essenciais do título; (Inciso acrescido pela Medida Provisória nº 897, de 1º/10/2019, convertida e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art3-3_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    as transferências de titularidade realizadas; (Inciso acrescido pela Medida Provisória nº 897, de 1º/10/2019, convertida e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art3-3_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    os aditamentos, as ratificações e as retificações; (Inciso acrescido pela Medida Provisória nº 897, de 1º/10/2019, convertida e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art3-3_cpt_inc4">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    a inclusão de notificações, de cláusulas contratuais e de outras informações; (Inciso acrescido pela Medida Provisória nº 897, de 1º/10/2019, convertida e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art3-3_cpt_inc5">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    a forma de liquidação de entrega ajustada no título; (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art3-3_cpt_inc6">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    a entrega ou pagamento em até 30 (trinta) dias após suas ocorrências; e (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art3-3_cpt_inc7">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    as garantias do título. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art3-3_par1u">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    As garantias dadas na CPR, ou, ainda, a constituição de ônus e gravames sobre o título, deverão ser informadas no sistema ao qual se refere o § 1º do art. 3º-A desta Lei. (Parágrafo único acrescido pela Medida Provisória nº 897, de 1º/10/2019, convertida e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art3-4">
+            
+            
+            <Rotulo>Art. 3º-D.</Rotulo>
+            
+            <Caput id="art3-4_cpt">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            
+            <p>
+    A CPR poderá ser negociada, desde que registrada ou depositada em entidade autorizada pelo Banco Central do Brasil a exercer a atividade de registro ou depósito centralizado de ativos financeiros. (“Caput” do artigo acrescido pela Medida Provisória nº 897, de 1º/10/2019, convertida e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art3-4_par1u">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A CPR será considerada ativo financeiro e a operação ficará isenta do imposto sobre operações de crédito, câmbio e seguro, ou relativas a títulos ou valores mobiliários, na hipótese de ocorrência da negociação de que trata o caput deste artigo. (Parágrafo único acrescido pela Medida Provisória nº 897, de 1º/10/2019, convertida na <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art3-5">
+            
+            
+            <Rotulo>Art. 3º-E.</Rotulo>
+            
+            <Caput id="art3-5_cpt">
+            <!--Link: urn:lex:br:federal:lei:2017-11-13;13506--><!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            
+            <p>
+    As infrações às normas legais regulamentares que regem a atividade de escrituração eletrônica sujeitam a entidade responsável pelo sistema eletrônico de escrituração, os seus administradores e os membros de seus órgãos estatutários ou contratuais ao disposto na <span xlink:href="urn:lex:br:federal:lei:2017-11-13;13506">Lei nº 13.506, de 13 de novembro de 2017</span>. (Artigo acrescido pela Medida Provisória nº 897, de 1º/10/2019, convertida e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    A CPR é título líquido e certo, exigível pela quantidade e qualidade de produto ou pelo valor nela previsto, no caso de liquidação financeira.
+
+  </p>
+            
+          </Caput><Paragrafo id="art4_par1u">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A CPR admite prestação única ou parcelada, hipótese em que as condições e o cronograma de cumprimento das obrigações deverão estar previstos no título. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art4-1">
+            
+            
+            <Rotulo>Art. 4º-A.</Rotulo>
+            
+            <Caput id="art4-1_cpt">
+            <!--Link: urn:lex:br:federal:lei:2001-02-14;10200--><!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            
+            <p>
+    A emissão de CPR com liquidação financeira deverá observar as seguintes condições: (“Caput” do artigo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2001-02-14;10200">Lei nº 10.200, de 14.2.2001</span>, e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            <Inciso id="art4-1_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:2001-02-14;10200--><!--Link: urn:lex:br:federal:lei:2022-07-20;14421-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    que sejam explicitados, em seu corpo, a identificação do preço acordado entre as partes e adotado para obtenção do valor da CPR e, quando aplicável, a identificação do índice de preços, da taxa de juros, fixa ou flutuante, da atualização monetária ou da variação cambial a serem utilizados na liquidação da CPR, bem como a instituição responsável por sua apuração ou divulgação, a praça ou o mercado de formação do preço e o nome do índice; (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2001-02-14;10200">Lei nº 10.200, de 14.2.2001</span>, e com nova redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-20;14421">Lei nº 14.421, de 20.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art4-1_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:2001-02-14;10200-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    que os indicadores de preço de que trata o inciso anterior sejam apurados por instituições idôneas e de credibilidade junto às partes contratantes, tenham divulgação periódica, preferencialmente diária, e ampla divulgação ou facilidade de acesso, de forma a estarem facilmente disponíveis para as partes contratantes; (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2001-02-14;10200">Lei nº 10.200, de 14.2.2001</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art4-1_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:2001-02-14;10200-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    que seja caracterizada por seu nome, seguido da expressão &quot;financeira&quot;. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2001-02-14;10200">Lei nº 10.200, de 14.2.2001</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art4-1_par1">
+            <!--Link: urn:lex:br:federal:lei:2001-02-14;10200--><!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A CPR com liquidação financeira é título líquido e certo, exigível, na data de seu vencimento, pelo resultado da multiplicação do preço praticado para o produto, aplicados eventuais índices de preços ou de conversão de moedas apurados segundo os critérios previstos neste artigo, pela quantidade do produto especificado. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2001-02-14;10200">Lei nº 10.200, de 14.2.2001</span>, e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4-1_par2">
+            <!--Link: urn:lex:br:federal:lei:2001-02-14;10200-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Para cobrança da CPR com liquidação financeira, cabe ação de execução por quantia certa. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2001-02-14;10200">Lei nº 10.200, de 14.2.2001</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4-1_par3">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A CPR com liquidação financeira poderá ser emitida com cláusula de correção pela variação cambial, podendo o Conselho Monetário Nacional regulamentar o assunto. (Parágrafo acrescido pela Medida Provisória nº 897, de 1º/10/2019, convertida e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4-1_par4">
+            <!--Link: urn:lex:br:federal:lei:2022-07-20;14421-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Cabe exclusivamente a emissão de CPR com liquidação financeira quando se tratar dos produtos relacionados nos incisos III e IV do § 2º do art. 1º desta Lei. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2022-07-20;14421">Lei nº 14.421, de 20.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art4-2">
+            
+            
+            <Rotulo>Art. 4º-B.</Rotulo>
+            
+            <Caput id="art4-2_cpt">
+            
+            
+            
+            <p>
+    A liquidação do pagamento em favor do legítimo credor, por qualquer meio de pagamento existente no âmbito do Sistema de Pagamentos Brasileiro, constituirá prova de pagamento total ou parcial da CPR emitida sob a forma escritural.
+
+  </p>
+            
+          </Caput><Paragrafo id="art4-2_par1u">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A prova de pagamento de que trata o caput deste artigo será informada no sistema eletrônico de escrituração de que trata o § 1º do art. 3º-A desta Lei, com referência expressa à CPR amortizada ou liquidada. (Artigo acrescido pela Medida Provisória nº 897, de 1º/10/2019, convertida na <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            
+            <p>
+    A CPR admite a constituição de quaisquer dos tipos de garantia previstos na legislação, devendo ser observado o disposto nas normas que as disciplinam, salvo na hipótese de conflito, quando prevalecerá esta Lei. (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            <Inciso id="art5_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art5_par1">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986--><!--Link: urn:lex:br:federal:lei:2022-07-20;14421-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A informação eventualmente prestada pelo emitente sobre a essencialidade dos bens móveis e imóveis dados em garantia fiduciária a sua atividade empresarial deverá constar na cédula a partir do momento de sua emissão. (Primitivo parágrafo único acrescido pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>, transformado em § 1º pela <span xlink:href="urn:lex:br:federal:lei:2022-07-20;14421">Lei nº 14.421, de 20.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par2">
+            <!--Link: urn:lex:br:federal:lei:2022-07-20;14421-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As garantias cedulares poderão, a critério das partes, ser constituídas por instrumento público ou particular, independentemente do seu valor ou do valor do título garantido. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2022-07-20;14421">Lei nº 14.421, de 20.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par3">
+            <!--Link: urn:lex:br:federal:lei:2022-07-20;14421-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A CPR com liquidação financeira poderá ser utilizada como instrumento para fixar limite de crédito e garantir dívida futura concedida por meio de outras CPRs a ela vinculadas. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2022-07-20;14421">Lei nº 14.421, de 20.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    Podem ser objeto de hipoteca cedular imóveis rurais e urbanos.
+
+  </p>
+            
+          </Caput><Paragrafo id="art6_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Aplicam-se à hipoteca cedular os preceitos da legislação sobre hipoteca, no que não colidirem com esta lei.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    Podem ser objeto de penhor cedular, nas condições desta lei, os bens suscetíveis de penhor rural e de penhor mercantil, bem como os bens suscetíveis de penhor cedular.
+
+  </p>
+            
+          </Caput><Paragrafo id="art7_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Salvo se tratar de títulos de crédito, os bens apenhados continuam na posse imediata do emitente ou do terceiro prestador da garantia, que responde por sua guarda e conservação como fiel depositário.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art7_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Cuidando-se de penhor constituído por terceiro, o emitente da cédula responderá solidariamente com o empenhador pela guarda e conservação dos bens.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art7_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Aplicam-se ao penhor constituído por CPR, conforme o caso, os preceitos da legislação sobre penhor, inclusive o mercantil, o rural e o constituído por meio de cédulas, no que não colidirem com os desta lei.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    A não identificação dos bens objeto de alienação fiduciária não retira a eficácia da garantia, que poderá incidir sobre outros do mesmo gênero, qualidade e quantidade, de propriedade do garante.
+
+  </p>
+            
+          </Caput><Paragrafo id="art8_par1">
+            <!--Link: urn:lex:br:federal:lei:2002-01-10;10406--><!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A alienação fiduciária de produtos agropecuários e de seus subprodutos poderá recair sobre bens presentes ou futuros, fungíveis ou infungíveis, consumíveis ou não, cuja titularidade pertença ao fiduciante, devedor ou terceiro garantidor, e sujeita-se às disposições previstas na <span xlink:href="urn:lex:br:federal:lei:2002-01-10;10406">Lei nº 10.406, de 10 de janeiro de 2002</span> (Código Civil), e na legislação especial a respeito do penhor, do penhor rural e do penhor agrícola e mercantil e às disposições sobre a alienação fiduciária de bens infungíveis, em tudo o que não for contrário ao disposto nesta Lei. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8_par2">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O beneficiamento ou a transformação dos gêneros agrícolas dados em alienação fiduciária não extinguem o vínculo real que se transfere, automaticamente, para os produtos e subprodutos resultantes de beneficiamento ou transformação. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8_par3">
+            <!--Link: urn:lex:br:federal:decreto.lei:1969-10-01;911--><!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Em caso de necessidade de busca e apreensão dos bens alienados fiduciariamente aplicar-se-á o disposto nos arts. 3º e seguintes do <span xlink:href="urn:lex:br:federal:decreto.lei:1969-10-01;911">Decreto-Lei nº 911, de 1º de outubro de 1969</span>. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            
+            
+            
+            <p>
+    A CPR poderá ser aditada, ratificada e retificada por aditivos, que a integram, datados e assinados pelo emitente e pelo credor, fazendo-se, na cédula, menção a essa circunstância.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>
+    Aplicam-se à CPR, no que forem cabíveis, as normas de direito cambial, com as seguintes modificações:
+
+  </p>
+            <Inciso id="art10_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    os endossos devem ser completos;
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    os endossantes não respondem pela entrega do produto, mas, tão-somente, pela existência da obrigação;
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    é dispensado o protesto cambial para assegurar o direito de regresso contra avalistas.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art10_par1u">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    No caso de CPR emitida sob forma escritural, a transferência de titularidade da cédula produzirá os mesmos efeitos jurídicos do endosso. (Parágrafo único acrescido pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            <!--Link: urn:lex:br:federal:lei:2020-12-24;14112-->
+            
+            
+            <p>
+    Não se sujeitarão aos efeitos da recuperação judicial os créditos e as garantias cedulares vinculados à CPR com liquidação física, em caso de antecipação parcial ou integral do preço, ou, ainda, representativa de operação de troca por insumos (barter), subsistindo ao credor o direito à restituição de tais bens que se encontrarem em poder do emitente da cédula ou de qualquer terceiro, salvo motivo de caso fortuito ou força maior que comprovadamente impeça o cumprimento parcial ou total da entrega do produto. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-12-24;14112">Lei nº 14.112, de 24.12.2020</span>, vetado pelo Presidente da República, mantido pelo Congresso Nacional, publicado na Edição Extra D do DOU de 26.3.2021, e republicado no DOU de 30.3.2021)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-20;14421-->
+            
+            
+            <p>
+    A CPR, bem como seus aditamentos, para não perder validade e eficácia, deverá: (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-20;14421">Lei nº 14.421, de 20.7.2022</span>)
+
+  </p>
+            <Inciso id="art12_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:2022-07-20;14421-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    se emitida até 10 de agosto de 2022, ser registrada ou depositada em até 10 (dez) dias úteis da data de emissão ou aditamento, em entidade autorizada pelo Banco Central do Brasil a exercer a atividade de registro ou de depósito centralizado de ativos financeiros ou de valores mobiliários; (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2022-07-20;14421">Lei nº 14.421, de 20.7.2022</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art12_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:2022-07-20;14421-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    se emitida a partir de 11 de agosto de 2022, ser registrada ou depositada em até 30 (trinta) dias úteis da data de emissão ou aditamento, em entidade autorizada pelo Banco Central do Brasil a exercer a atividade de registro ou de depósito centralizado de ativos financeiros ou de valores mobiliários. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2022-07-20;14421">Lei nº 14.421, de 20.7.2022</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art12_par1">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Sem prejuízo do disposto no caput deste artigo, a hipoteca, o penhor rural e a alienação fiduciária sobre bem imóvel garantidores da CPR serão levados a registro no cartório de registro de imóveis em que estiverem localizados os bens dados em garantia. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art12_par2">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A validade e eficácia da CPR não dependem de registro em cartório, que fica dispensado, mas as garantias reais a ela vinculadas ficam sujeitas, para valer contra terceiros, à averbação no cartório de registro de imóveis em que estiverem localizados os bens dados em garantia, devendo ser efetuada no prazo de 3 (três) dias úteis, contado da apresentação do título ou certidão de inteiro teor, sob pena de responsabilidade funcional do oficial encarregado de promover os atos necessários. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art12_par3">
+            <!--Link: urn:lex:br:federal:decreto.lei:1967-02-14;167--><!--Link: urn:lex:br:federal:lei:2001-02-14;10200--><!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A cobrança de emolumentos e custas cartorárias relacionada ao registro de garantias vinculadas à CPR será regida pelas normas aplicáveis ao registro de garantias vinculadas à Cédula de Crédito Rural, de que trata o <span xlink:href="urn:lex:br:federal:decreto.lei:1967-02-14;167">Decreto-Lei nº 167, de 14 de fevereiro de 1967</span>. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2001-02-14;10200">Lei nº 10.200, de 14.2.2001</span>, e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art12_par4">
+            <!--Link: urn:lex:br:federal:lei:2000-12-29;10169!art2_par2--><!--Link: urn:lex:br:federal:lei:2020-04-07;13986--><!--Link: urn:lex:br:federal:lei:2022-07-20;14421-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    A alienação fiduciária em garantia de produtos agropecuários e de seus subprodutos, nos termos do art. 8º desta Lei, será registrada no cartório de registro de imóveis em que estiverem localizados os bens dados em garantia, aplicando-se ao registro o disposto no <span xlink:href="urn:lex:br:federal:lei:2000-12-29;10169!art2_par2">§ 2º do art. 2º da Lei nº 10.169, de 29 de dezembro de 2000</span>. (Parágrafo acrescido pela Medida Provisória nº 897, de 1º/10/2019, convertida na <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>, e com nova redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-07-20;14421">Lei nº 14.421, de 20.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art12_par5">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Fica o Conselho Monetário Nacional autorizado a: (Parágrafo acrescido pela Medida Provisória nº 897, de 1º/10/2019, convertida e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            <Inciso id="art12_par5_inc1">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    estabelecer normas complementares para o cumprimento do disposto no caput deste artigo, inclusive acerca das informações requeridas para o registro ou o depósito; (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art12_par5_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    dispensar o registro ou o depósito de que trata o caput deste artigo, com base em critérios de:
+
+  </p>
+            <Alinea id="art12_par5_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    valor;
+
+  </p>
+            
+          </Alinea><Alinea id="art12_par5_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    forma de liquidação; e
+
+  </p>
+            
+          </Alinea><Alinea id="art12_par5_inc2_ali3">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    características do emissor. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Paragrafo><Paragrafo id="art12_par6">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    A dispensa de que trata o inciso II do § 5º deste artigo não se aplica à CPR emitida após 31 de dezembro de 2023. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art12_par7">
+            <!--Link: urn:lex:br:federal:lei:2022-07-20;14421-->
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    As certidões emitidas pelas entidades autorizadas pelo Banco Central do Brasil a exercer a atividade de registro ou de depósito centralizado de ativos financeiros ou de valores mobiliários deverão indicar a CPR com liquidação financeira prevista no § 3º do art. 5º desta Lei com registro próprio e as CPRs a ela vinculadas. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2022-07-20;14421">Lei nº 14.421, de 20.7.2022</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>
+    A entrega do produto antes da data prevista na cédula depende da anuência do credor.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            <p>
+    A CPR poderá ser considerada vencida na hipótese de inadimplemento de qualquer das obrigações do emitente.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>
+    Para cobrança da CPR, cabe a ação de execução para entrega de coisa incerta.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            
+            <p>
+    A busca e apreensão ou o leilão do bem alienado fiduciariamente, promovidos pelo credor, não elidem posterior execução, inclusive da hipoteca e do penhor constituído na mesma cédula, para satisfação do crédito remanescente. (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art16_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    No caso a que se refere o presente artigo, o credor tem direito ao desentranhamento do título, após efetuada a busca e apreensão, para instruir a cobrança do saldo devedor em ação própria.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            
+            <p>
+    Pratica crime de estelionato aquele que fizer declarações falsas ou inexatas acerca de sua natureza jurídica ou qualificação, bem como dos bens oferecidos em garantia da CPR, inclusive omitir declaração de já estarem eles sujeitos a outros ônus ou responsabilidade de qualquer espécie, até mesmo de natureza fiscal. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            
+            
+            
+            <p>
+    Os bens vinculados à CPR não serão penhorados ou seqüestrados por outras dívidas do emitente ou do terceiro prestador da garantia real, cumprindo a qualquer deles denunciar a existência da cédula às autoridades incumbidas da diligência, ou a quem a determinou, sob pena de responderem pelos prejuízos resultantes de sua omissão.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            <!--Link: urn:lex:br:federal:lei:2020-04-07;13986-->
+            
+            
+            <p>
+    (Revogado pela Medida Provisória nº 897, de 1º/10/2019, convertida na <span xlink:href="urn:lex:br:federal:lei:2020-04-07;13986">Lei nº 13.986, de 7.4.2020</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art19-1">
+            
+            
+            <Rotulo>Art. 19-A.</Rotulo>
+            
+            <Caput id="art19-1_cpt">
+            <!--Link: urn:lex:br:federal:lei:2022-07-20;14421-->
+            
+            
+            <p>
+    (VETADO na <span xlink:href="urn:lex:br:federal:lei:2022-07-20;14421">Lei nº 14.421, de 20.7.2022</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            
+            
+            
+            <p>
+    Esta lei entra em vigor na data de sua publicação.
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 22 de agosto de 1994; 173º da Independência e 106º da República.</p></LocalDataFecho><Assinatura><NomePessoa>ITAMAR FRANCO</NomePessoa><NomePessoa>Rubens Ricupero</NomePessoa></Assinatura></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>

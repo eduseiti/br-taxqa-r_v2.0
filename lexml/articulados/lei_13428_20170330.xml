@@ -1,0 +1,300 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:2017-03-30;13428"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">LEI Nº 13.428, DE 30 DE MARÇO DE 2017 </Epigrafe>
+		  <Ementa id="ementa">Altera a <span xlink:href="urn:lex:br:federal:lei:2016-01-13;13254">Lei nº 13.254, de 13 de janeiro de 2016</span>, que &quot;Dispõe sobre o Regime Especial de Regularização Cambial e Tributária (RERCT) de recursos, bens ou direitos de origem lícita, não declarados ou declarados incorretamente, remetidos, mantidos no exterior ou repatriados por residentes ou domiciliados no País&quot;.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            <!--Link: urn:lex:br:federal:lei:2016-01-13;13254-->
+            
+            
+            <p>
+    A <span xlink:href="urn:lex:br:federal:lei:2016-01-13;13254">Lei nº 13.254, de 13 de janeiro de 2016</span>, passa a vigorar com as seguintes alterações:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:2016-01-13;13254" id="art1_cpt_alt1">              
+              <Artigo xlink:href="art1" id="art1_cpt_alt1_art1" abreAspas="s">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput xlink:href="art1_cpt" id="art1_cpt_alt1_art1_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Omissis id="art1_cpt_alt1_art1_omi1"/><Paragrafo xlink:href="art1_par4-1" id="art1_cpt_alt1_art1_par4-1">
+            
+            
+            <Rotulo>§ 4º-A.</Rotulo>
+            <p>
+    O RERCT aplica-se também ao espólio cuja sucessão tenha sido aberta até a data de adesão ao RERCT.
+
+  </p>
+            
+          </Paragrafo><Omissis id="art1_cpt_alt1_art1_omi2" fechaAspas="s"/>
+          </Artigo><Artigo xlink:href="art5" id="art1_cpt_alt1_art5" abreAspas="s">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput xlink:href="art5_cpt" id="art1_cpt_alt1_art5_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Paragrafo xlink:href="art5_par1" id="art1_cpt_alt1_art5_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O cumprimento das condições previstas no caput antes de decisão criminal extinguirá, em relação a recursos, bens e direitos a serem regularizados nos termos desta Lei, a punibilidade dos crimes a seguir previstos, praticados até a data de adesão ao RERCT:
+
+  </p>
+            
+          </Paragrafo><Omissis id="art1_cpt_alt1_art5_omi1" fechaAspas="s"/>
+          </Artigo><Artigo xlink:href="art9" id="art1_cpt_alt1_art9" abreAspas="s">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput xlink:href="art9_cpt" id="art1_cpt_alt1_art9_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Omissis id="art1_cpt_alt1_art9_omi1"/><Paragrafo xlink:href="art9_par3" id="art1_cpt_alt1_art9_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A declaração com incorreção em relação ao valor dos ativos não ensejará a exclusão do RERCT, resguardado o direito da Fazenda Pública de exigir o pagamento dos tributos e acréscimos legais incidentes sobre os valores declarados incorretamente, nos termos da legislação do imposto sobre a renda.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art9_par4" id="art1_cpt_alt1_art9_par4" fechaAspas="s">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Somente o pagamento integral dos tributos e acréscimos de que trata o § 3º no prazo de 30 (trinta) dias da ciência do auto de infração extinguirá a punibilidade dos crimes praticados pelo declarante previstos no § 1º do art. 5º relacionados aos ativos declarados incorretamente.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            <!--Link: urn:lex:br:federal:lei:2016-01-13;13254-->
+            
+            
+            <p>
+    O prazo para adesão ao RERCT de que trata a <span xlink:href="urn:lex:br:federal:lei:2016-01-13;13254">Lei nº 13.254, de 13 de janeiro de 2016</span>, será reaberto por 120 (cento e vinte) dias, contados da data da regulamentação para a declaração voluntária da situação patrimonial em 30 de junho de 2016 de ativos, bens e direitos existentes em períodos anteriores a essa data, mediante pagamento de imposto e multa.
+
+  </p>
+            
+          </Caput><Paragrafo id="art2_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Para as adesões efetuadas nos termos deste artigo, altera-se:
+
+  </p>
+            <Inciso id="art2_par1_inc1">
+            <!--Link: urn:lex:br:federal:lei:2016-01-13;13254-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a referência a &quot;31 de dezembro de 2014&quot; constante da <span xlink:href="urn:lex:br:federal:lei:2016-01-13;13254">Lei nº 13.254, de 13 de janeiro de 2016</span>, para &quot;30 de junho de 2016&quot;;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par1_inc2">
+            <!--Link: urn:lex:br:federal:lei:2016-01-13;13254-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a referência a &quot;mês de dezembro de 2014&quot; constante da <span xlink:href="urn:lex:br:federal:lei:2016-01-13;13254">Lei nº 13.254, de 13 de janeiro de 2016</span>, para &quot;mês de junho de 2016&quot;;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par1_inc3">
+            <!--Link: urn:lex:br:federal:lei:2016-01-13;13254!art4_par7-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    a referência a &quot;no ano-calendário de 2015&quot; constante do <span xlink:href="urn:lex:br:federal:lei:2016-01-13;13254!art4_par7">§ 7º do art. 4º da Lei nº 13.254, de 13 de janeiro de 2016</span>, para &quot;a partir de 1º de julho de 2016&quot;.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art2_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os bens ou direitos de qualquer natureza regularizados nos termos deste artigo e os rendimentos, frutos e acessórios decorrentes do seu aproveitamento, no exterior ou no País, obtidos a partir de 1º de julho de 2016, deverão ser incluídos na:
+
+  </p>
+            <Inciso id="art2_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    declaração de ajuste anual do imposto sobre a renda relativa ao ano-calendário de 2016, ou em sua retificadora, no caso de pessoa física;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    declaração de bens e capitais no exterior relativa ao ano-calendário de 2016, no caso de pessoa física ou jurídica, se a ela estiver obrigada; e
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par2_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    escrituração contábil societária relativa ao ano-calendário da adesão e posteriores, no caso de pessoa jurídica.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art2_par3">
+            <!--Link: urn:lex:br:federal:lei:2016-01-13;13254!art4_par2-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Às adesões efetuadas nos termos deste artigo não se aplica o disposto no <span xlink:href="urn:lex:br:federal:lei:2016-01-13;13254!art4_par2">§ 2º do art. 4º da Lei nº 13.254, de 13 de janeiro de 2016</span>.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par4">
+            <!--Link: urn:lex:br:federal:lei:1966-10-25;5172!art138-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Aos rendimentos, frutos e acessórios de que trata o § 2º deste artigo incluídos nas declarações nele indicadas aplica-se o disposto no <span xlink:href="urn:lex:br:federal:lei:1966-10-25;5172!art138">art. 138 da Lei nº 5.172, de 25 de outubro de 1966</span> (Código Tributário Nacional), inclusive com dispensa do pagamento de multas moratórias, se as inclusões forem feitas até o último dia do prazo para adesão ao RERCT ou até o último dia do prazo regular de apresentação da respectiva declaração anual, o que for posterior.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par5">
+            <!--Link: urn:lex:br:federal:lei:2016-01-13;13254!art6-->
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Às adesões ocorridas no período previsto neste artigo aplica-se a alíquota do imposto de renda de que trata o <span xlink:href="urn:lex:br:federal:lei:2016-01-13;13254!art6">art. 6º da Lei nº 13.254, de 13 de janeiro de 2016</span>.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par6">
+            <!--Link: urn:lex:br:federal:lei:2016-01-13;13254!art8_cpt-->
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    Em substituição à multa a que se refere o <span xlink:href="urn:lex:br:federal:lei:2016-01-13;13254!art8_cpt">caput do art. 8º da Lei nº 13.254, de 13 de janeiro de 2016</span>, sobre o valor do imposto apurado na forma do § 5º deste artigo incidirá multa administrativa de 135% (cento e trinta e cinco por cento).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par7">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art159_cpt_inc1_ali1--><!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art159_cpt_inc1_ali2--><!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art159_cpt_inc1_ali4--><!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art159_cpt_inc1_ali5-->
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    Do produto da arrecadação da multa prevista no § 6º a União entregará 46% (quarenta e seis por cento) aos Estados, ao Distrito Federal e aos Municípios na forma das <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art159_cpt_inc1_ali1">alíneas &quot;a&quot;</span>, <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art159_cpt_inc1_ali2">&quot;b&quot;</span>, <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art159_cpt_inc1_ali4">&quot;d&quot;</span> e <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art159_cpt_inc1_ali5">&quot;e&quot; do inciso I do art. 159 da Constituição Federal</span>.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            <!--Link: urn:lex:br:federal:lei:2016-01-13;13254!art1_par4-1-->
+            
+            
+            <p>
+    As adesões realizadas com base no <span xlink:href="urn:lex:br:federal:lei:2016-01-13;13254!art1_par4-1">§ 4º-A do art. 1º da Lei nº 13.254, de 13 de janeiro de 2016</span>, submetem-se aos requisitos do art. 2º desta Lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            <!--Link: urn:lex:br:federal:lei:2016-01-13;13254!art5-->
+            
+            
+            <p>
+    É facultado ao contribuinte que aderiu ao RERCT até 31 de outubro de 2016 complementar a declaração de que trata o <span xlink:href="urn:lex:br:federal:lei:2016-01-13;13254!art5">art. 5º da Lei nº 13.254, de 13 de janeiro de 2016</span>, obrigando-se, caso exerça esse direito, a pagar os respectivos imposto e multa devidos sobre o valor adicional e a observar a nova data fixada para a conversão do valor expresso em moeda estrangeira, nos termos do art. 2º desta Lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    O disposto nesta Lei será regulamentado pela Secretaria da Receita Federal do Brasil em até 30 (trinta) dias.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    Esta Lei entra em vigor na data de sua publicação.
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 30 de março de 2017; 196º da Independência e 129º da República.</p></LocalDataFecho><Assinatura><NomePessoa>MICHEL TEMERHenrique MeirellesDyogo Henrique de Oliveira</NomePessoa></Assinatura></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>

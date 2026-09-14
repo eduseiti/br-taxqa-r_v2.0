@@ -1,0 +1,718 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:1990-07-04;8059"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">LEI Nº 8.059, DE 4 DE JULHO DE 1990 </Epigrafe>
+		  <Ementa id="ementa">1 <span xlink:href="urn:lex:br:federal:lei:1990-07-04;8059">LEI Nº 8.059 DE 4 DE JULHO DE 1990</span> Dispõe sobre a pensão especial devida aos ex-combatentes da Segunda Guerra Mundial e a seus dependentes.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA, faço saber que o Congresso Nacional decreta e eu sanciono a seguinte lei:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            <!--Link: urn:lex:br:federal:lei:1967-09-12;5315--><!--Link: urn:lex:br:federal:ato.disposicoes.constitucionais.transitorias:1988-10-05;1988-->
+            
+            
+            <p>
+    Esta lei regula a pensão especial devida a quem tenha participado de operações bélicas durante a Segunda Guerra Mundial, nos termos da <span xlink:href="urn:lex:br:federal:lei:1967-09-12;5315">Lei nº 5.315, de 12 de setembro de 1967</span>, e aos respectivos dependentes (<span xlink:href="urn:lex:br:federal:ato.disposicoes.constitucionais.transitorias:1988-10-05;1988">Ato das Disposições Constitucionais Transitórias</span>, art. 53, II e III).
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    Para os efeitos desta lei, considera-se:
+
+  </p>
+            <Inciso id="art2_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    pensão especial o benefício pecuniário pago mensalmente ao ex-combatente ou, em caso de falecimento, a seus dependentes;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    pensionista especial o ex-combatente ou dependentes, que percebam pensão especial;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    pensão-tronco a pensão especial integral;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    cota-parte cada parcela resultante da participação da pensão-tronco entre dependentes;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    viúva a mulher com quem o ex-combatente estava casado quando falecera, e que não voltou a casar-se;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    ex-esposa a pessoa de quem o ex-combatente tenha-se divorciado, desquitado ou separado por sentença transitada em julgado;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    companheira que tenha filho comum com o ex-combatente ou com ele viva no mínimo há cinco anos, em união estável;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    concessão originária a relativa ao ex-combatente;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    reversão a concessão da pensão especial aos dependentes do ex-combatente, por ocasião de seu óbito.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    A pensão especial corresponderá à pensão militar deixada por segundo-tenente das Forças Armadas.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    A pensão é inacumulável com quaisquer rendimentos percebidos dos cofres públicos, exceto os benefícios previdenciários.
+
+  </p>
+            
+          </Caput><Paragrafo id="art4_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O ex-combatente, ou dependente legalmente habilitado, que passar a receber importância dos cofres públicos perderá o direito à pensão especial pelo tempo em que permanecer nessa situação, não podendo a sua cota-parte ser transferida a outros dependentes.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Fica assegurado ao interessado que perceber outros rendimentos pagos pelos cofres públicos o direito de optar pela pensão ou por esses rendimentos.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    Consideram-se dependentes do ex-combatente para fins desta lei:
+
+  </p>
+            <Inciso id="art5_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a viúva;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a companheira;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    o filho e a filha de qualquer condição, solteiros, menores de 21 anos ou inválidos;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    o pai e a mãe inválidos; e
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    o irmão e a irmã, solteiros, menores de 21 anos ou inválidos.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art5_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Os dependentes de que tratam os incisos IV e V só terão direito à pensão se viviam sob a dependência econômica do ex-combatente, por ocasião de seu óbito.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    A pensão especial é devida ao ex-combatente e somente em caso de sua morte será revertida aos dependentes.
+
+  </p>
+            
+          </Caput><Paragrafo id="art6_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Na reversão, a pensão será dividida entre o conjunto dos dependentes habilitáveis (art. 5º, I a V), em cotas-partes iguais.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    A condição de dependentes comprova-se:
+
+  </p>
+            <Inciso id="art7_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    por meio de certidões do registro civil;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    por declaração expressa do ex-combatente, quando em vida;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    por qualquer meio de prova idôneo, inclusive mediante justificação administrativa ou judicial.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    A pensão especial não será deferida:
+
+  </p>
+            <Inciso id="art8_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    à ex-esposa que não tenha direito a alimentos;
+
+  </p>
+            
+          </Inciso><Inciso id="art8_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    à viúva que voluntariamente abandonou o lar conjugal há mais de cinco anos ou que, mesmo por tempo inferior, abandonou-o e a ele recusou-se a voltar, desde que esta situação tenha sido reconhecida por sentença judicial transitada em julgado;
+
+  </p>
+            
+          </Inciso><Inciso id="art8_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    à companheira, quando, antes da morte do ex-combatente, houver cessado a dependência, pela ruptura da relação concubinária;
+
+  </p>
+            
+          </Inciso><Inciso id="art8_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    ao dependente que tenha sido condenado por crime doloso, do qual resulte a morte do ex-combatente ou de outro dependente.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            
+            
+            
+            <p>
+    Até o valor de que trata o art. 3º desta lei, a ex-esposa que estiver percebendo alimentos por força de decisão judicial terá direito a pensão especial no valor destes.
+
+  </p>
+            
+          </Caput><Paragrafo id="art9_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Havendo excesso, este se destinará aos demais dependentes.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A falta de dependentes habilitados não prejudicará o direito à pensão da ex-esposa.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O direito à parcela da pensão especial, nos termos deste artigo, perdurará enquanto a ex-esposa não contrair novas núpcias.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>
+    A pensão especial pode ser requerida a qualquer tempo.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            <p>
+    O benefício será pago mediante requerimento, devidamente instruído, em qualquer organização militar do ministério competente (art. 12), se na data do requerimento o ex-combatente, ou o dependente, preencher os requisitos desta lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            
+            
+            
+            <p>
+    É da competência do Ministério Militar ao qual esteve vinculado o ex-combatente durante a Segunda Guerra Mundial o processamento da pensão especial, desde a habilitação até o pagamento, inclusive nos casos de substituição a outra pensão ou reversão.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>
+    Estando o processo devidamente instruído, a autoridade designada pelo Ministro competente autorizará o pagamento da pensão especial, em caráter temporário, até a apreciação da legalidade da concessão e registro pelo Tribunal de Contas da União.
+
+  </p>
+            
+          </Caput><Paragrafo id="art13_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O pagamento da pensão especial será efetuado em caráter definitivo, após o registro pelo Tribunal de Contas da União.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art13_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As dívidas por exercícios anteriores são pagas pelo ministério a que estiver vinculado o pensionista.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            <p>
+    A cota-parte da pensão dos dependentes se extingue:
+
+  </p>
+            <Inciso id="art14_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    pela morte do pensionista;
+
+  </p>
+            
+          </Inciso><Inciso id="art14_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    pelo casamento do pensionista;
+
+  </p>
+            
+          </Inciso><Inciso id="art14_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    para o filho, filha, irmão e irmã, quando, não sendo inválidos, completam 21 anos de idade;
+
+  </p>
+            
+          </Inciso><Inciso id="art14_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    para o pensionista inválido, pela cessação da invalidez.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art14_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A ocorrência de qualquer dos casos previstos neste artigo não acarreta a transferência da cota-parte aos demais dependentes.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>
+    A pensão especial não está sujeita a penhora, seqüestro ou arresto, exceto nos casos especiais previstos ou determinados em lei.
+
+  </p>
+            
+          </Caput><Paragrafo id="art15_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Somente após o registro em caráter definitivo, nos termos do § 1º do art. 13 desta lei, é que poderá haver consignação nos benefícios dos pensionistas.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            
+            
+            
+            <p>
+    No que se refere ao pagamento da pensão, aplicar-se-ão as regras do Código Civil relativas à ausência, quando se verificar o desaparecimento de pensionista especial.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            <!--Link: urn:lex:br:federal:lei:1963-07-17;4242!art30-->
+            
+            
+            <p>
+    Os pensionistas beneficiados pelo <span xlink:href="urn:lex:br:federal:lei:1963-07-17;4242!art30">art. 30 da Lei nº 4.242, de 17 de julho de 1963</span>, que não se enquadrarem entre os beneficiários da pensão especial de que trata esta lei, continuarão a receber os benefícios assegurados pelo citado artigo, até que se extingam pela perda do direito, sendo vedada sua transmissão, assim por reversão como por transferência.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            
+            
+            
+            <p>
+    Os créditos referentes ao pagamento da pensão especial somente poderão ser feitos em agências bancárias localizadas no País.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            
+            
+            
+            <p>
+    Os Ministros de Estado da Marinha, do Exército e da Aeronáutica, nas áreas de suas respectivas competências, adotarão as medidas necessárias à execução desta lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            
+            
+            
+            <p>
+    Mediante requerimento do interessado, qualquer outra pensão já concedida ao ex-combatente ou dependente que preencha os requisitos poderá ser substituída pela pensão especial de que trata esta lei, para todos os efeitos.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            
+            
+            
+            <p>
+    É assegurado o direito à pensão especial aos dependentes de ex-combatente falecido e não pensionista, observado o disposto no art. 11 desta lei. Neste caso, a habilitação é considerada reversão.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art22">
+            
+            
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            
+            
+            
+            <p>
+    O valor do benefício da pensão especial será revisto, na mesma proporção e na mesma data, sempre que se modificarem os vencimentos dos servidores militares, tomando-se por base a pensão-tronco.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art23">
+            
+            
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            
+            
+            
+            <p>
+    As despesas decorrentes da aplicação desta lei correrão à conta das dotações consignadas no Orçamento Geral da União.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art24">
+            
+            
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput id="art24_cpt">
+            
+            
+            
+            <p>
+    Esta lei entra em vigor na data de sua publicação.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art25">
+            
+            
+            <Rotulo>Art. 25.</Rotulo>
+            
+            <Caput id="art25_cpt">
+            <!--Link: urn:lex:br:federal:lei:1963-07-17;4242!art30--><!--Link: urn:lex:br:federal:lei:1978-11-17;6592--><!--Link: urn:lex:br:federal:lei:1985-12-17;7424-->
+            
+            
+            <p>
+    Revogam-se o <span xlink:href="urn:lex:br:federal:lei:1963-07-17;4242!art30">art. 30 da Lei nº 4.242, de 17 de julho de 1963</span>, a <span xlink:href="urn:lex:br:federal:lei:1978-11-17;6592">Lei nº 6.592, de 17 de novembro de 1978</span>, a <span xlink:href="urn:lex:br:federal:lei:1985-12-17;7424">Lei nº 7.424, de 17 de dezembro de 1985</span>, e demais disposições em contrário.
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 4 de julho de 1990; 169º da Independência e 102º da República.</p></LocalDataFecho><Assinatura><NomePessoa>FERNANDO COLLOR</NomePessoa><NomePessoa>Mário César Flores</NomePessoa><NomePessoa>Carlos Tinoco Ribeiro Gomes</NomePessoa><NomePessoa>Sócrates da Costa Monteiro</NomePessoa></Assinatura></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>

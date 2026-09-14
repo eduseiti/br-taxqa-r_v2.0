@@ -1,0 +1,500 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:2002-05-10;10451"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">LEI Nº 10.451, DE 10 DE MAIO DE 2002 </Epigrafe>
+		  <Ementa id="ementa">Altera a legislação tributária federal e dá outras providências.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA,
+  </p><p>
+    Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    O Imposto de Renda incidente sobre os rendimentos de pessoas físicas será calculado de acordo com as seguintes tabelas progressivas mensal e anual, em reais: Tabela Progressiva Mensal
+
+  </p>
+            <table id="art1_cpt_tab1"><tr><td>Base de cálculo em R$</td><td>Alíquota %</td><td>Parcela a deduzir do Imposto R$</td></tr><tr><td>Até 1.058,00De 1.058,01 até 2.115,00Acima de 2.115,00</td><td>-1527,5</td><td>-158,70423,08</td></tr></table>
+          </Caput>
+          </Artigo><p>Tabela Progressiva Anual
+</p><table id="tab1"><tr><td>Base de cálculo em R$</td><td>Alíquota %</td><td>Parcela a deduzir do Imposto R$</td></tr><tr><td>Até 12.696,00De 12.696,01 até 25.380,00Acima de 25.380,00</td><td>-1527,5</td><td>-1.904,405.076,90</td></tr></table><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            <!--Link: urn:lex:br:federal:lei:1995-12-26;9250!art4--><!--Link: urn:lex:br:federal:lei:1995-12-26;9250!art8--><!--Link: urn:lex:br:federal:lei:1995-12-26;9250!art10-->
+            
+            
+            <p>
+    Os <span xlink:href="urn:lex:br:federal:lei:1995-12-26;9250!art4">arts. 4º</span>, <span xlink:href="urn:lex:br:federal:lei:1995-12-26;9250!art8">8º</span> e <span xlink:href="urn:lex:br:federal:lei:1995-12-26;9250!art10">10 da Lei nº 9.250, de 26 de dezembro de 1995</span>, passam a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1995-12-26;9250" id="art2_cpt_alt1">              
+              <Artigo xlink:href="art4" id="art2_cpt_alt1_art4" abreAspas="s">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput xlink:href="art4_cpt" id="art2_cpt_alt1_art4_cpt" textoOmitido="s">
+            
+            
+            
+            
+            <Omissis id="art2_cpt_alt1_art4_cpt_omi1"/><Inciso xlink:href="art4_cpt_inc3" id="art2_cpt_alt1_art4_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    a quantia de R$ 106,00 (cento e seis reais) por dependente;
+
+  </p>
+            
+          </Inciso><Omissis id="art2_cpt_alt1_art4_cpt_omi2"/><Inciso xlink:href="art4_cpt_inc6" id="art2_cpt_alt1_art4_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    a quantia de R$ 1.058,00 (um mil e cinqüenta e oito reais), correspondente à parcela isenta dos rendimentos provenientes de aposentadoria e pensão, transferência para a reserva remunerada ou reforma, pagos pela Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios, por qualquer pessoa jurídica de direito público interno, ou por entidade de previdência privada, a partir do mês em que o contribuinte completar 65 (sessenta e cinco) anos de idade.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Omissis id="art2_cpt_alt1_art4_omi1" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo><Artigo xlink:href="art8" id="art2_cpt_alt1_art8" abreAspas="s">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput xlink:href="art8_cpt" id="art2_cpt_alt1_art8_cpt" textoOmitido="s">
+            
+            
+            
+            
+            <Omissis id="art2_cpt_alt1_art8_cpt_omi1"/><Inciso xlink:href="art8_cpt_inc2" id="art2_cpt_alt1_art8_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    das deduções relativas:
+
+  </p>
+            <Omissis id="art2_cpt_alt1_art8_cpt_inc2_omi1"/><Alinea xlink:href="art8_cpt_inc2_ali2" id="art2_cpt_alt1_art8_cpt_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    a pagamentos efetuados a estabelecimentos de ensino relativamente à educação pré-escolar, de 1, 2º e 3º graus, creches, cursos de especialização ou profissionalizantes do contribuinte e de seus dependentes, até o limite anual individual de R$ 1.998,00 (um mil, novecentos e noventa e oito reais);
+
+  </p>
+            
+          </Alinea><Alinea xlink:href="art8_cpt_inc2_ali3" id="art2_cpt_alt1_art8_cpt_inc2_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    à quantia de R$ 1.272,00 (um mil, duzentos e setenta e dois reais) por dependente;
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput><Omissis id="art2_cpt_alt1_art8_omi1" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo><Artigo xlink:href="art10" id="art2_cpt_alt1_art10" abreAspas="s">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput xlink:href="art10_cpt" id="art2_cpt_alt1_art10_cpt">
+            
+            
+            
+            <p>
+    Independentemente do montante dos rendimentos tributáveis na declaração, recebidos no ano-calendário, o contribuinte poderá optar por desconto simplificado, que consistirá em dedução de 20% (vinte por cento) do valor desses rendimentos, limitada a R$ 9.400,00 (nove mil e quatrocentos reais), na Declaração de Ajuste Anual, dispensada a comprovação da despesa e a indicação de sua espécie.
+
+  </p>
+            
+          </Caput><Omissis id="art2_cpt_alt1_art10_omi1" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            <!--Link: urn:lex:br:federal:lei:1996-12-27;9430!art24-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1996-12-27;9430!art24">art. 24 da Lei nº 9.430, de 27 de dezembro de 1996</span>, passa a vigorar acrescido do seguinte § 3º:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1996-12-27;9430" id="art3_cpt_alt1">              
+              <Artigo xlink:href="art24" id="art3_cpt_alt1_art24" abreAspas="s">
+            
+            
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput xlink:href="art24_cpt" id="art3_cpt_alt1_art24_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Omissis id="art3_cpt_alt1_art24_omi1"/><Paragrafo xlink:href="art24_par3" id="art3_cpt_alt1_art24_par3" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Para os fins do disposto neste artigo, considerar-se-á separadamente a tributação do trabalho e do capital, bem como as dependências do país de residência ou domicílio.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            <!--Link: urn:lex:br:federal:lei:1996-12-27;9430-->
+            
+            
+            <p>
+    As disposições relativas a preços, custos e taxas de juros, constantes dos arts. 18 a 22 da <span xlink:href="urn:lex:br:federal:lei:1996-12-27;9430">Lei nº 9.430, de 27 de dezembro de 1996</span>, aplicam-se, também, às operações efetuadas por pessoa física ou jurídica residente ou domiciliada no Brasil, com qualquer pessoa física ou jurídica, ainda que não vinculada, residente ou domiciliada em país ou dependência cuja legislação interna oponha sigilo relativo à composição societária de pessoas jurídicas ou à sua titularidade.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    Na hipótese de doação de livros, objetos fonográficos ou iconográficos, obras audiovisuais e obras de arte, para os quais seja atribuído valor de mercado, efetuada por pessoa física a órgãos públicos, autarquias, fundações públicas ou entidades civis sem fins lucrativos, desde que os bens doados sejam incorporados ao acervo de museus, bibliotecas ou centros de pesquisa ou ensino, no Brasil, com acesso franqueado ao público em geral:
+
+  </p>
+            <Inciso id="art5_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o doador deverá considerar como valor de alienação o constante em sua declaração de bens;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o donatário registrará os bens recebidos pelo valor atribuído no documento de doação.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art5_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    No caso de alienação dos bens recebidos em doação, será considerado, para efeito de apuração de ganho de capital, custo de aquisição igual a zero.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            <!--Link: urn:lex:br:federal:decreto:2001-12-28;4070-->
+            
+            
+            <p>
+    O campo de incidência do Imposto sobre Produtos Industrializados (IPI) abrange todos os produtos com alíquota, ainda que zero, relacionados na Tabela de Incidência do Imposto sobre Produtos Industrializados (TIPI), aprovada pelo <span xlink:href="urn:lex:br:federal:decreto:2001-12-28;4070">Decreto nº 4.070, de 28 de dezembro de 2001</span>, observadas as disposições contidas nas respectivas notas complementares, excluídos aqueles a que corresponde a notação &quot;NT&quot; (não-tributado)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1971-12-27;1199!art4_cpt_inc1--><!--Link: urn:lex:br:federal:decreto.lei:1971-12-27;1199!art4_cpt_inc2--><!--Link: urn:lex:br:federal:decreto:2001-12-28;4070-->
+            
+            
+            <p>
+    Para efeito do disposto no <span xlink:href="urn:lex:br:federal:decreto.lei:1971-12-27;1199!art4_cpt_inc1">art. 4, incisos I</span> e <span xlink:href="urn:lex:br:federal:decreto.lei:1971-12-27;1199!art4_cpt_inc2">II, do Decreto-Lei nº 1.199, de 27 de dezembro de 1971</span>, o percentual de incidência é o constante da TIPI, aprovada pelo <span xlink:href="urn:lex:br:federal:decreto:2001-12-28;4070">Decreto nº 4.070, de 28 de dezembro de 2001</span>.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    Até 31 de dezembro de 2015, é concedida isenção do Imposto de Importação e do Imposto sobre Produtos Industrializados incidentes na importação de equipamentos ou materiais esportivos destinados às competições, ao treinamento e à preparação de atletas e equipes brasileiras.
+
+  </p>
+            
+          </Caput><Paragrafo id="art8_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A isenção de que trata o caput aplica-se exclusivamente às competições desportivas em jogos olímpicos, paraolímpicos, pan-americanos, parapan-americanos, nacionais e mundiais.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A isenção aplica-se a equipamento ou material esportivo, sem similar nacional, homologado pela entidade desportiva internacional da respectiva modalidade esportiva, para as competições a que se refere o § 1º.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8_par3">
+            <!--Link: urn:lex:br:federal:lei:2012-05-17;12649-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Quando fabricados no Brasil, os materiais e equipamentos de que trata o caput deste artigo são isentos do Imposto sobre Produtos Industrializados. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2012-05-17;12649">Lei nº 12.649, de 17.5.2012</span>).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            <!--Link: urn:lex:br:federal:lei:2008-11-20;11827-->
+            
+            
+            <p>
+    São beneficiários da isenção de que trata o art. 8º desta Lei os órgãos da União, dos Estados, do Distrito Federal e dos Municípios e suas respectivas autarquias e fundações, os atletas das modalidades olímpicas e paraolímpicas e os das competições mundiais, o Comitê Olímpico Brasileiro - COB e o Comitê Paraolímpico Brasileiro - CPB, bem como as entidades nacionais de administração do desporto que lhes sejam filiadas ou vinculadas. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2008-11-20;11827">Lei nº 11.827, de 20.11.2008</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>
+    O direito à fruição do benefício fiscal de que trata o art. 8º fica condicionado:
+
+  </p>
+            <Inciso id="art10_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    à comprovação da regularidade fiscal do beneficiário, relativamente aos tributos e contribuições federais;
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:2005-05-18;11116-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    à manifestação do Ministério do Esporte sobre: (“Caput” do inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2005-05-18;11116">Lei nº 11.116, de 18.5.2005</span>)
+
+  </p>
+            <Alinea id="art10_cpt_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    o atendimento do requisito estabelecido no § 1º do art. 8º;
+
+  </p>
+            
+          </Alinea><Alinea id="art10_cpt_inc2_ali2">
+            <!--Link: urn:lex:br:federal:lei:2008-11-20;11827-->
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    a condição de beneficiário da isenção ou da alíquota zero, do importador ou adquirente, nos termos do art. 9º desta Lei; e (Alínea com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2008-11-20;11827">Lei nº 11.827, de 20.11.2008</span>)
+
+  </p>
+            
+          </Alinea><Alinea id="art10_cpt_inc2_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    a adequação dos equipamentos e materiais importados ou adquiridos no mercado interno, quanto à sua natureza, quantidade e qualidade, ao desenvolvimento do programa de trabalho do atleta ou da entidade do desporto a que se destinem.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput><Paragrafo id="art10_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Tratando-se de produtos destinados à modalidade de tiro esportivo, a manifestação quanto ao disposto nas alíneas a e c do inciso II será do órgão competente do Ministério da Defesa.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            <!--Link: urn:lex:br:federal:lei:2008-11-20;11827-->
+            
+            
+            <p>
+    Os produtos importados ou adquiridos no mercado interno na forma do art. 8º desta Lei poderão ser transferidos pelo valor de aquisição, sem o pagamento dos respectivos impostos: (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2008-11-20;11827">Lei nº 11.827, de 20.11.2008</span>)
+
+  </p>
+            <Inciso id="art11_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    para qualquer pessoa e a qualquer título, após o decurso do prazo de 4 (quatro) anos, contado da data do registro da Declaração de Importação ou da emissão da Nota Fiscal de aquisição do fabricante nacional; ou
+
+  </p>
+            
+          </Inciso><Inciso id="art11_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:2008-11-20;11827-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a qualquer tempo e qualquer título, para pessoa física ou jurídica que atenda às condições estabelecidas nos arts. 8º a 10 desta Lei, desde que a transferência seja previamente aprovada pela Secretaria da Receita Federal do Brasil. (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2008-11-20;11827">Lei nº 11.827, de 20.11.2008</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art11_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As transferências, a qualquer título, que não atendam às condições estabelecidas nos incisos I e II do caput sujeitarão o beneficiário importador ou adquirente ao pagamento dos impostos que deixaram de ser pagos por ocasião da importação ou da aquisição no mercado interno, com acréscimo de juros e de multa de mora ou de ofício.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art11_par2">
+            <!--Link: urn:lex:br:federal:lei:2008-11-20;11827-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Na hipótese do § 1º deste artigo, o adquirente, a qualquer título, de produto beneficiado com a isenção ou alíquota zero é responsável solidário pelo pagamento dos impostos e respectivos acréscimos. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2008-11-20;11827">Lei nº 11.827, de 20.11.2008</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            <!--Link: urn:lex:br:federal:lei:2008-11-20;11827-->
+            
+            
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2008-11-20;11827">Lei nº 11.827, de 20.11.2008</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            <!--Link: urn:lex:br:federal:lei:2008-11-20;11827-->
+            
+            
+            <p>
+    O Poder Executivo regulamentará o disposto nos arts. 8º a 11 desta Lei. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2008-11-20;11827">Lei nº 11.827, de 20.11.2008</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            <!--Link: urn:lex:br:federal:lei:1997-09-10;9493!art13--><!--Link: urn:lex:br:federal:lei:1997-09-10;9493!art15-->
+            
+            
+            <p>
+    Ficam revogados os <span xlink:href="urn:lex:br:federal:lei:1997-09-10;9493!art13">arts. 13</span> e <span xlink:href="urn:lex:br:federal:lei:1997-09-10;9493!art15">15 da Lei nº 9.493, de 10 de setembro de 1997</span>.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            <!--Link: urn:lex:br:federal:lei:1999-12-07;9887!art1--><!--Link: urn:lex:br:federal:lei:2002-12-30;10637-->
+            
+            
+            <p>
+    Esta Lei entra em vigor na data de sua publicação, produzindo efeitos, no caso dos arts. 1º e 2º, em relação aos fatos geradores ocorridos a partir de 1º de janeiro de 2002, observado o disposto no <span xlink:href="urn:lex:br:federal:lei:1999-12-07;9887!art1">art. 1º da Lei nº 9.887, de 7 de dezembro de 1999</span>. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2002-12-30;10637">Lei n. 10.637, de 30.12.2002</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 10 de maio de 2002; 181º da Independência e 114º da República.</p></LocalDataFecho><Assinatura><NomePessoa>FERNANDO HENRIQUE CARDOSO</NomePessoa><NomePessoa>Pedro Malan</NomePessoa></Assinatura></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>

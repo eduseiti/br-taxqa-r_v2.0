@@ -1,0 +1,16 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:2010-06-11;12249!anexo9"/>
+    </Metadado>
+      <Anexo>
+        <DocumentoGenerico>
+      <PartePrincipal id="anexo9_pp">
+        <p>ANEXO IX</p>
+        <p>(<span xlink:href="urn:lex:br:federal:lei:2008-09-17;11775">Lei nº 11.775, de 17 de setembro de 2008</span>)
+</p><p>Operações de Crédito Rural inscritas na Dívida Ativa da União:
+</p><p>descontos para liquidação até 30 de novembro de 2010
+</p><table id="anexo9_tab4"><tr><td>Soma dos saldos devedores na data da renegociação(R$ mil)</td><td>Desconto(em %)</td><td>Desconto de valor fixo, após o desconto percentual(R$)</td></tr><tr><td>Até 10</td><td>70</td><td>-</td></tr><tr><td>Acima de 10 até 50</td><td>58</td><td>1.200,00</td></tr><tr><td>Acima de 50 até 100</td><td>48</td><td>6.200,00</td></tr><tr><td>Acima de 100 até 200</td><td>41</td><td>13.200,00</td></tr><tr><td>Acima de 200</td><td>38</td><td>19.200,00</td></tr></table>
+      </PartePrincipal>
+    </DocumentoGenerico>
+      </Anexo>
+    </LexML>

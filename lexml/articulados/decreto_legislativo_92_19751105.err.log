@@ -1,0 +1,4 @@
+# CMD: java -jar ../lexml-parser-projeto-lei/target/lexml-parser-projeto-lei-1.15.0-onejar.jar parse -m application/vnd.openxmlformats-officedocument.wordprocessingml.document -i original/articulados/decreto_legislativo_92_19751105.docx -o lexml/decreto_legislativo_92_19751105.xml --write-errors-to-file lexml/decreto_legislativo_92_19751105.err.log -a congresso.nacional -t decreto.legislativo -n 92 --data 1975-11-05 --linker /usr/local/bin/linkertool
+# ---
+Problem type = [17: Alteração sem fecha-aspas, categoria: [1: Erro de técnica legislativa]], pos = List(), msg = None, context=List(land" berlim, o presente acordo aplicar-se-a tambem ao "land" berlim, desde que o governo da republica federal da alemanha nao faca ao governo da republica federativa do brasil declaracao em contrario dentro de um periodo de tres meses a contar da data da entrada em vigor do presente acordo., artigo 30)
+

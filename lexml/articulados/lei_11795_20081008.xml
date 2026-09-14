@@ -1,0 +1,1686 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:2008-10-08;11795"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">LEI Nº 11.795, DE 8 DE OUTUBRO DE 2008 </Epigrafe>
+		  <Ementa id="ementa">Dispõe sobre o Sistema de Consórcio.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA
+  </p><p>
+    Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Capitulo id="cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DO SISTEMA DE CONSÓRCIOS
+
+  </NomeAgrupador>
+            <Secao id="cap1_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Dos Conceitos Fundamentais
+
+  </NomeAgrupador>
+            <Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    O Sistema de Consórcios, instrumento de progresso social que se destina a propiciar o acesso ao consumo de bens e serviços, constituído por administradoras de consórcio e grupos de consórcio, será regulado por esta Lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    Consórcio é a reunião de pessoas naturais e jurídicas em grupo, com prazo de duração e número de cotas previamente determinados, promovida por administradora de consórcio, com a finalidade de propiciar a seus integrantes, de forma isonômica, a aquisição de bens ou serviços, por meio de autofinanciamento.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    Grupo de consórcio é uma sociedade não personificada constituída por consorciados para os fins estabelecidos no art. 2º.
+
+  </p>
+            
+          </Caput><Paragrafo id="art3_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O grupo de consórcio será representado por sua administradora, em caráter irrevogável e irretratável, ativa ou passivamente, em juízo ou fora dele, na defesa dos direitos e interesses coletivamente considerados e para a execução do contrato de participação em grupo de consórcio, por adesão.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O interesse do grupo de consórcio prevalece sobre o interesse individual do consorciado.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O grupo de consórcio é autônomo em relação aos demais e possui patrimônio próprio, que não se confunde com o de outro grupo, nem com o da própria administradora.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Os recursos dos grupos geridos pela administradora de consórcio serão contabilizados separadamente.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    Consorciado é a pessoa natural ou jurídica que integra o grupo e assume a obrigação de contribuir para o cumprimento integral de seus objetivos, observado o disposto no art. 2º.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap1_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Da Administração de Consórcios
+
+  </NomeAgrupador>
+            <Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    A administradora de consórcios é a pessoa jurídica prestadora de serviços com objeto social principal voltado à administração de grupos de consórcio, constituída sob a forma de sociedade limitada ou sociedade anônima, nos termos do art. 7º, inciso I.
+
+  </p>
+            
+          </Caput><Paragrafo id="art5_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A administradora de consórcio deve figurar no contrato de participação em grupo de consórcio, por adesão, na qualidade de gestora dos negócios dos grupos e de mandatária de seus interesses e direitos.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os diretores, gerentes, prepostos e sócios com função de gestão na administradora de consórcio são depositários, para todos os efeitos, das quantias que a administradora receber dos consorciados na sua gestão, até o cumprimento da obrigação assumida no contrato de participação em grupo de consórcio, por adesão, respondendo pessoal e solidariamente, independentemente da verificação de culpa, pelas obrigações perante os consorciados.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A administradora de consórcio tem direito à taxa de administração, a título de remuneração pela formação, organização e administração do grupo de consórcio até o encerramento deste, conforme o art. 32, bem como o recebimento de outros valores, expressamente previstos no contrato de participação em grupo de consórcio, por adesão, observados ainda os arts. 28 e 35.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Os bens e direitos adquiridos pela administradora em nome do grupo de consórcio, inclusive os decorrentes de garantia, bem como seus frutos e rendimentos, não se comunicam com o seu patrimônio, observado que:
+
+  </p>
+            <Inciso id="art5_par5_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    não integram o ativo da administradora;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_par5_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    não respondem direta ou indiretamente por qualquer obrigação da administradora;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_par5_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    não compõem o elenco de bens e direitos da administradora, para efeito de liquidação judicial ou extrajudicial;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_par5_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    não podem ser dados em garantia de débito da administradora.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art5_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    A administradora estará desobrigada de apresentar certidão negativa de débitos, expedida pelo Instituto Nacional da Seguridade Social, e Certidão Negativa de Tributos e Contribuições, expedida pela Secretaria da Receita Federal, relativamente à própria empresa, quando alienar imóvel integrante do patrimônio do grupo de consórcio.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par7">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    No caso de o bem recebido ser um imóvel, as restrições enumeradas nos incisos II a IV do § 5º deste artigo deverão ser averbadas no registro de imóveis competente.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap1_sec3">
+            
+            
+            <Rotulo>Seção III</Rotulo>
+            <NomeAgrupador>
+    Do Órgão Regulador e Fiscalizador
+
+  </NomeAgrupador>
+            <Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    A normatização, coordenação, supervisão, fiscalização e controle das atividades do sistema de consórcios serão realizados pelo Banco Central do Brasil.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    Compete ao Banco Central do Brasil:
+
+  </p>
+            <Inciso id="art7_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    conceder autorização para funcionamento, transferência do controle societário e reorganização da sociedade e cancelar a autorização para funcionar das administradoras de consórcio, segundo abrangência e condições que fixar;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    aprovar atos administrativos ou societários das administradoras de consórcio, segundo abrangência e condições que fixar;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    baixar normas disciplinando as operações de consórcio, inclusive no que refere à supervisão prudencial, à contabilização, ao oferecimento de garantias, à aplicação financeira dos recursos dos grupos de consórcio, às condições mínimas que devem constar do contrato de participação em grupo de consórcio, por adesão, à prestação de contas e ao encerramento do grupo de consórcio;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc4">
+            <!--Link: urn:lex:br:federal:lei:2017-11-13;13506-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2017-11-13;13506">Lei nº 13.506, de 13.11.2017</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    fiscalizar as operações de consórcio, as administradoras de consórcio e os atos dos respectivos administradores e aplicar as sanções;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    estabelecer os procedimentos relativos ao processo administrativo e o julgamento das infrações a esta Lei, às normas infralegais e aos termos dos contratos de participação em grupo de consórcio, por adesão, formalizados;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    intervir nas administradoras de consórcio e decretar sua liquidação extrajudicial na forma e condições previstas na legislação especial aplicável às instituições financeiras.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    No exercício da fiscalização prevista no art. 7º, o Banco Central do Brasil poderá exigir das administradoras de consórcio, bem como de seus administradores, a exibição a funcionários seus, expressamente credenciados, de documentos, papéis, livros de escrituração e acesso aos dados armazenados nos sistemas eletrônicos, considerando-se a negativa de atendimento como embaraço à fiscalização, sujeita às penalidades previstas nesta Lei, sem prejuízo de outras medidas e sanções cabíveis.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            
+            
+            
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DO CONTRATO DE CONSÓRCIO
+
+  </NomeAgrupador>
+            <Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>
+    O contrato de participação em grupo de consórcio, por adesão, é o instrumento plurilateral de natureza associativa cujo escopo é a constituição de fundo pecuniário para as finalidades previstas no art. 2º.
+
+  </p>
+            
+          </Caput><Paragrafo id="art10_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O contrato de participação em grupo de consórcio, por adesão, criará vínculos obrigacionais entre os consorciados, e destes com a administradora, para proporcionar a todos igual condição de acesso ao mercado de consumo de bens ou serviços.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    ( VETADO)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A proposta de participação é o instrumento pelo qual o interessado formaliza seu pedido de participação no grupo de consórcio, que se converterá no contrato, observada a disposição constante do § 4º, se aprovada pela administradora.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O contrato de participação em grupo de consórcio aperfeiçoar- se-á na data de constituição do grupo, observado o art. 16.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    É facultada a estipulação de multa pecuniária em virtude de descumprimento de obrigação contratual, que a parte que lhe der causa pagará à outra.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    O contrato de participação em grupo de consórcio, por adesão, de consorciado contemplado é título executivo extrajudicial.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            <p>
+    O contrato de participação em grupo de consórcio, por adesão, implicará atribuição de uma cota de participação no grupo, numericamente identificada, nela caracterizada o bem ou serviço.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            
+            
+            
+            <p>
+    O contrato de participação em grupo de consórcio, por adesão, poderá ter como referência bem móvel, imóvel ou serviço de qualquer natureza.
+
+  </p>
+            
+          </Caput><Paragrafo id="art12_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O contrato de grupo para a aquisição de bem imóvel poderá estabelecer a aquisição de imóvel em empreendimento imobiliário.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>
+    Os direitos e obrigações decorrentes do contrato de participação em grupo de consórcio, por adesão, poderão ser transferidos a terceiros, mediante prévia anuência da administradora.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            <p>
+    No contrato de participação em grupo de consórcio, por adesão, devem estar previstas, de forma clara, as garantias que serão exigidas do consorciado para utilizar o crédito.
+
+  </p>
+            
+          </Caput><Paragrafo id="art14_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As garantias iniciais em favor do grupo devem recair sobre o bem adquirido por meio do consórcio.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art14_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    No caso de consórcio de bem imóvel, é facultado à administradora aceitar em garantia outro imóvel de valor suficiente para assegurar o cumprimento das obrigações pecuniárias do contemplado em face do grupo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art14_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Admitem-se garantias reais ou pessoais, sem vinculação ao bem referenciado, no caso de consórcio de serviço de qualquer natureza, ou quando, na data de utilização do crédito, o bem estiver sob produção, incorporação ou situação análoga definida pelo Banco Central do Brasil.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art14_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    A administradora pode exigir garantias complementares proporcionais ao valor das prestações vincendas.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art14_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    A administradora deve indenizar o grupo na ocorrência de eventuais prejuízos decorrentes:
+
+  </p>
+            <Inciso id="art14_par5_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    de aprovação de garantias insuficientes, inclusive no caso de substituição de garantias dadas na forma dos §§ 1º, 2º e 3º;
+
+  </p>
+            
+          </Inciso><Inciso id="art14_par5_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    de liberação de garantias enquanto o consorciado não tiver quitado sua participação no grupo.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art14_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    Para os fins do disposto neste artigo, o oferecedor de garantia por meio de alienação fiduciária de imóvel ficará responsável pelo pagamento integral das obrigações pecuniárias estabelecidas no contrato de participação em grupo de consórcio, por adesão, inclusive da parte que remanescer após a execução dessa garantia.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art14_par7">
+            <!--Link: urn:lex:br:federal:lei:1997-09-23;9503-->
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    A anotação da alienação fiduciária de veículo automotor ofertado em garantia ao grupo de consórcio no certificado de registro a que se refere o Código de Trânsito Brasileiro, <span xlink:href="urn:lex:br:federal:lei:1997-09-23;9503">Lei nº 9.503, de 23 de setembro de 1997</span>, produz efeitos probatórios contra terceiros, dispensado qualquer outro registro público.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>
+    A participação de um mesmo consorciado em um grupo de consórcio, para os grupos constituídos a partir da edição desta Lei, fica limitada ao percentual de cotas, a ser fixado pelo Banco Central do Brasil.
+
+  </p>
+            
+          </Caput><Paragrafo id="art15_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A administradora de consórcio pode adquirir cotas de grupo de consórcio, inclusive sob sua administração.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A administradora de consórcio, em qualquer hipótese, somente poderá concorrer a sorteio ou lance após a contemplação de todos os demais consorciados.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O disposto nos §§ 1º e 2º aplica-se, inclusive:
+
+  </p>
+            <Inciso id="art15_par3_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    aos administradores e pessoas com função de gestão na administradora;
+
+  </p>
+            
+          </Inciso><Inciso id="art15_par3_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    aos administradores e pessoas com função de gestão em empresas coligadas, controladas ou controladoras da administradora;
+
+  </p>
+            
+          </Inciso><Inciso id="art15_par3_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    às empresas coligadas, controladas ou controladoras da administradora.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art15_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O percentual referido no caput aplica-se cumulativamente às pessoas relacionadas nos §§ 1º a 3º.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap3">
+            
+            
+            <Rotulo>CAPÍTULO III</Rotulo>
+            <NomeAgrupador>
+    DO FUNCIONAMENTO DO GRUPO
+
+  </NomeAgrupador>
+            <Secao id="cap3_sec1">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Da <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição</span>
+
+  </NomeAgrupador>
+            <Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            
+            
+            
+            <p>
+    Considera-se constituído o grupo de consórcio com a realização da primeira assembleia, que será designada pela administradora de consórcio quando houver adesões em número e condições suficientes para assegurar a viabilidade econômico-financeira do empreendimento.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            
+            
+            
+            <p>
+    O grupo deve escolher, na primeira assembleia geral ordinária, até 3 (três) consorciados, que o representarão perante a administradora com a finalidade de acompanhar a regularidade de sua gestão, com mandato igual à duração do grupo, facultada a substituição por decisão da maioria dos consorciados em assembleia geral.
+
+  </p>
+            
+          </Caput><Paragrafo id="art17_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    No exercício de sua função, os representantes terão, a qualquer tempo, acesso a todos os documentos e demonstrativos pertinentes às operações do grupo, podendo solicitar informações e representar contra a administradora na defesa dos interesses do grupo, perante o órgão regulador e fiscalizador.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap3_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Das Assembleias
+
+  </NomeAgrupador>
+            <Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            
+            
+            
+            <p>
+    A assembleia geral ordinária será realizada na periodicidade prevista no contrato de participação em grupo de consórcio, por adesão, e destina-se a apreciação de contas prestadas pela administradora e a realização de contemplações.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            
+            
+            
+            <p>
+    A assembleia geral extraordinária será convocada pela administradora, por iniciativa própria ou por solicitação de 30% (trinta por cento) dos consorciados ativos do grupo, para deliberar sobre quaisquer outros assuntos que não os afetos à assembleia geral ordinária.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            
+            
+            
+            <p>
+    A cada cota de consorciado ativo corresponderá um voto nas deliberações das assembleias gerais ordinárias e extraordinárias, que serão tomadas por maioria simples.
+
+  </p>
+            
+          </Caput><Paragrafo id="art20_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A representação do ausente pela administradora na assembleia geral ordinária dar-se-á com a outorga de poderes, desde que prevista no contrato de participação em grupo de consórcio, por adesão.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art20_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A representação de ausentes nas assembleias gerais extraordinárias dar-se-á com a outorga de poderes específicos, inclusive à administradora, constando obrigatoriamente informações relativas ao dia, hora e local e assuntos a serem deliberados.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art20_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Somente o consorciado ativo não contemplado participará da tomada de decisões em assembleia geral extraordinária convocada para deliberar sobre:
+
+  </p>
+            <Inciso id="art20_par3_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    suspensão ou retirada de produção do bem ou extinção do serviço objeto do contrato;
+
+  </p>
+            
+          </Inciso><Inciso id="art20_par3_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    extinção do índice de atualização do valor do crédito e das parcelas, indicado no contrato;
+
+  </p>
+            
+          </Inciso><Inciso id="art20_par3_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    encerramento antecipado do grupo;
+
+  </p>
+            
+          </Inciso><Inciso id="art20_par3_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    assuntos de seus interesses exclusivos.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            
+            
+            
+            <p>
+    Para os fins do disposto nos arts. 19 e 20, é consorciado ativo aquele que mantém vínculo obrigacional com o grupo, excetuado o participante inadimplente não contemplado e o excluído, conforme definição do art. 29.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap3_sec3">
+            
+            
+            <Rotulo>Seção III</Rotulo>
+            <NomeAgrupador>
+    Das Contemplações
+
+  </NomeAgrupador>
+            <Artigo id="art22">
+            
+            
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            
+            
+            
+            <p>
+    A contemplação é a atribuição ao consorciado do crédito para a aquisição de bem ou serviço, bem como para a restituição das parcelas pagas, no caso dos consorciados excluídos, nos termos do art. 30.
+
+  </p>
+            
+          </Caput><Paragrafo id="art22_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A contemplação ocorre por meio de sorteio ou de lance, na forma prevista no contrato de participação em grupo de consórcio, por adesão.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art22_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Somente concorrerá à contemplação o consorciado ativo, de que trata o art. 21, e os excluídos, para efeito de restituição dos valores pagos, na forma do art. 30.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art22_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O contemplado poderá destinar o crédito para a quitação total de financiamento de sua titularidade, sujeita à prévia anuência da administradora e ao atendimento de condições estabelecidas no contrato de consórcio de participação em grupo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art23">
+            
+            
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            
+            
+            
+            <p>
+    A contemplação está condicionada à existência de recursos suficientes no grupo para a aquisição do bem, conjunto de bens ou serviços em que o grupo esteja referenciado e para a restituição aos excluídos.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art24">
+            
+            
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput id="art24_cpt">
+            
+            
+            
+            <p>
+    O crédito a que faz jus o consorciado contemplado será o valor equivalente ao do bem ou serviço indicado no contrato, vigente na data da assembleia geral ordinária de contemplação.
+
+  </p>
+            
+          </Caput><Paragrafo id="art24_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O crédito de que trata este artigo será acrescido dos rendimentos líquidos financeiros proporcionais ao período que ficar aplicado, compreendido entre a data em que colocado à disposição até a sua utilização pelo consorciado contemplado.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art24_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Nos casos em que o objeto do contrato não possa ser perfeitamente identificado, o valor do crédito e a sua atualização deverão estar previstos no contrato, sem prejuízo do acréscimo dos rendimentos líquidos de que trata o § 1º.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art24_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A restituição ao consorciado excluído, calculada nos termos do art. 30, será considerada crédito parcial.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap3_sec4">
+            
+            
+            <Rotulo>Seção IV</Rotulo>
+            <NomeAgrupador>
+    Dos Recursos do Grupo e das Obrigações Financeiras do Consorciado
+
+  </NomeAgrupador>
+            <Artigo id="art25">
+            
+            
+            <Rotulo>Art. 25.</Rotulo>
+            
+            <Caput id="art25_cpt">
+            
+            
+            
+            <p>
+    Considera-se fundo comum, para os fins desta Lei, os recursos do grupo destinados à atribuição de crédito aos consorciados contemplados para aquisição do bem ou serviço e à restituição aos consorciados excluídos dos respectivos grupos, bem como para outros pagamentos previstos no contrato de participação em grupo de consórcio, por adesão.
+
+  </p>
+            
+          </Caput><Paragrafo id="art25_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O fundo comum é constituído pelo montante de recursos representados por prestações pagas pelos consorciados para esse fim e por valores correspondentes a multas e juros moratórios destinados ao grupo de consórcio, bem como pelos rendimentos provenientes de sua aplicação financeira.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art26">
+            
+            
+            <Rotulo>Art. 26.</Rotulo>
+            
+            <Caput id="art26_cpt">
+            
+            
+            
+            <p>
+    Os recursos dos grupos de consórcio, coletados pela administradora, a qualquer tempo, serão depositados em instituição financeira e devem ser aplicados na forma estabelecida pelo Banco Central do Brasil, desde a sua disponibilidade e enquanto não utilizados para as finalidades previstas no contrato de participação em grupo de consórcio, por adesão.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art27">
+            
+            
+            <Rotulo>Art. 27.</Rotulo>
+            
+            <Caput id="art27_cpt">
+            
+            
+            
+            <p>
+    O consorciado obriga-se a pagar prestação cujo valor corresponde à soma das importâncias referentes à parcela destinada ao fundo comum do grupo, à taxa de administração e às demais obrigações pecuniárias que forem estabelecidas expressamente no contrato de participação em grupo de consórcio, por adesão.
+
+  </p>
+            
+          </Caput><Paragrafo id="art27_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As obrigações e os direitos do consorciado que tiverem expressão pecuniária são identificados em percentual do preço do bem ou serviço referenciado no contrato de participação em grupo de consórcio, por adesão.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art27_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O fundo de reserva, se estabelecido no grupo de consórcio, somente poderá ser utilizado para as finalidades previstas no contrato de participação, inclusive para restituição a consorciado excluído.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art27_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    É facultado estipular no contrato de participação em grupo de consórcio, por adesão, a cobrança de valor a título de antecipação de taxa de administração, destinado ao pagamento de despesas imediatas vinculadas à venda de cotas de grupo de consórcio e remuneração de representantes e corretores, devendo ser:
+
+  </p>
+            <Inciso id="art27_par3_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    destacado do valor da taxa de administração que compõe a prestação, sendo exigível apenas no ato da assinatura do contrato de participação em grupo de consórcio, por adesão;
+
+  </p>
+            
+          </Inciso><Inciso id="art27_par3_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    deduzido do valor total da taxa de administração durante o prazo de duração do grupo.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo id="art28">
+            
+            
+            <Rotulo>Art. 28.</Rotulo>
+            
+            <Caput id="art28_cpt">
+            
+            
+            
+            <p>
+    O valor da multa e de juros moratórios a cargo do consorciado, se previstos no contrato de participação em grupo de consórcio, por adesão, será destinado ao grupo e à administradora, não podendo o contrato estipular para o grupo percentual inferior a 50% (cinquenta por cento).
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap3_sec5">
+            
+            
+            <Rotulo>Seção V</Rotulo>
+            <NomeAgrupador>
+    Da Exclusão do Grupo
+
+  </NomeAgrupador>
+            <Artigo id="art29">
+            
+            
+            <Rotulo>Art. 29.</Rotulo>
+            
+            <Caput id="art29_cpt">
+            
+            
+            
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art30">
+            
+            
+            <Rotulo>Art. 30.</Rotulo>
+            
+            <Caput id="art30_cpt">
+            
+            
+            
+            <p>
+    O consorciado excluído não contemplado terá direito à restituição da importância paga ao fundo comum do grupo, cujo valor deve ser calculado com base no percentual amortizado do valor do bem ou serviço vigente na data da assembleia de contemplação, acrescido dos rendimentos da aplicação financeira a que estão sujeitos os recursos dos consorciados enquanto não utilizados pelo participante, na forma do art. 24, § 1º.
+
+  </p>
+            
+          </Caput><Paragrafo id="art30_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    ( VETADO)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art30_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    ( VETADO)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art30_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    ( VETADO)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="cap4">
+            
+            
+            <Rotulo>CAPÍTULO IV</Rotulo>
+            <NomeAgrupador>
+    DO ENCERRAMENTO DO GRUPO
+
+  </NomeAgrupador>
+            <Artigo id="art31">
+            
+            
+            <Rotulo>Art. 31.</Rotulo>
+            
+            <Caput id="art31_cpt">
+            
+            
+            
+            <p>
+    Dentro de 60 (sessenta) dias, contados da data da realização da última assembleia de contemplação do grupo de consórcio, a administradora deverá comunicar:
+
+  </p>
+            <Inciso id="art31_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    aos consorciados que não tenham utilizado os respectivos créditos, que os mesmos estão à disposição para recebimento em espécie;
+
+  </p>
+            
+          </Inciso><Inciso id="art31_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Inciso><Inciso id="art31_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art32">
+            
+            
+            <Rotulo>Art. 32.</Rotulo>
+            
+            <Caput id="art32_cpt">
+            
+            
+            
+            <p>
+    O encerramento do grupo deve ocorrer no prazo máximo de 120 (cento e vinte) dias, contado da data da realização da última assembleia de contemplação do grupo de consórcio e desde que decorridos, no mínimo, 30 (trinta) dias da comunicação de que trata o art. 31, ocasião em que se deve proceder à definitiva prestação de contas do grupo, discriminando-se:
+
+  </p>
+            <Inciso id="art32_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    as disponibilidades remanescentes dos respectivos consorciados e participantes excluídos;
+
+  </p>
+            
+          </Inciso><Inciso id="art32_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    os valores pendentes de recebimento, objeto de cobrança judicial.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art32_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os valores pendentes de recebimento, uma vez recuperados, devem ser rateados proporcionalmente entre os beneficiários, devendo a administradora, até 120 (cento e vinte) dias após o seu recebimento, comunicar-lhes que os respectivos saldos estão à disposição para devolução em espécie.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art32_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Prescreverá em 5 (cinco) anos a pretensão do consorciado ou do excluído contra o grupo ou a administradora, e destes contra aqueles, a contar da data referida no caput.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap5">
+            
+            
+            <Rotulo>CAPÍTULO V</Rotulo>
+            <NomeAgrupador>
+    DOS RECURSOS NÃO PROCURADOS
+
+  </NomeAgrupador>
+            <Artigo id="art33">
+            
+            
+            <Rotulo>Art. 33.</Rotulo>
+            
+            <Caput id="art33_cpt">
+            
+            
+            
+            <p>
+    As disponibilidades financeiras remanescentes na data do encerramento do grupo são consideradas recursos não procurados pelos respectivos consorciados e participantes excluídos.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art34">
+            
+            
+            <Rotulo>Art. 34.</Rotulo>
+            
+            <Caput id="art34_cpt">
+            
+            
+            
+            <p>
+    A administradora de consórcio assumirá a condição de gestora dos recursos não procurados, os quais devem ser aplicados e remunerados em conformidade com os recursos de grupos de consórcio em andamento, nos termos estabelecidos no art. 26.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art35">
+            
+            
+            <Rotulo>Art. 35.</Rotulo>
+            
+            <Caput id="art35_cpt">
+            
+            
+            
+            <p>
+    É facultada a cobrança de taxa de permanência sobre o saldo de recursos não procurados pelos respectivos consorciados e participantes excluídos, apresentado ao final de cada mês, oriundos de contratos firmados a partir da vigência desta Lei, nos termos do contrato de participação em grupo de consórcio, por adesão.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art36">
+            
+            
+            <Rotulo>Art. 36.</Rotulo>
+            
+            <Caput id="art36_cpt">
+            
+            
+            
+            <p>
+    As administradoras de consórcio deverão providenciar o pagamento no prazo máximo de 30 (trinta) dias corridos a contar do comparecimento do consorciado com direito a recursos não procurados.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art37">
+            
+            
+            <Rotulo>Art. 37.</Rotulo>
+            
+            <Caput id="art37_cpt">
+            
+            
+            
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art38">
+            
+            
+            <Rotulo>Art. 38.</Rotulo>
+            
+            <Caput id="art38_cpt">
+            
+            
+            
+            <p>
+    Os recursos não procurados, independentemente de sua origem, devem ter tratamento contábil específico, de maneira independente dos registros contábeis da administradora de consórcio.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap6">
+            
+            
+            <Rotulo>CAPÍTULO VI</Rotulo>
+            <NomeAgrupador>
+    DA ADMINISTRAÇÃO ESPECIAL E LIQUIDAÇÃO EXTRAJUDICIAL
+
+  </NomeAgrupador>
+            <Artigo id="art39">
+            
+            
+            <Rotulo>Art. 39.</Rotulo>
+            
+            <Caput id="art39_cpt">
+            <!--Link: urn:lex:br:federal:lei:1974-03-13;6024--><!--Link: urn:lex:br:federal:decreto.lei:1987-02-25;2321--><!--Link: urn:lex:br:federal:lei:1997-03-14;9447-->
+            
+            
+            <p>
+    A administração especial e a liquidação extrajudicial de administradora de consórcio são regidas pela <span xlink:href="urn:lex:br:federal:lei:1974-03-13;6024">Lei nº 6.024, de 13 de março de 1974</span>, pelo <span xlink:href="urn:lex:br:federal:decreto.lei:1987-02-25;2321">Decreto-Lei nº 2.321, de 25 de fevereiro de 1987</span>, pela <span xlink:href="urn:lex:br:federal:lei:1997-03-14;9447">Lei nº 9.447, de 14 de março de 1997</span>, e por legislação superveniente aplicável às instituições financeiras, observado o disposto nesta Lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art40">
+            
+            
+            <Rotulo>Art. 40.</Rotulo>
+            
+            <Caput id="art40_cpt">
+            
+            
+            
+            <p>
+    A decretação da administração especial temporária ou da liquidação extrajudicial da administradora de consórcio não prejudicará a continuidade das operações dos grupos por ela administrados, devendo o conselho diretor ou o liquidante dar prioridade ao funcionamento regular dos grupos.
+
+  </p>
+            
+          </Caput><Paragrafo id="art40_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    No caso de administração especial, o conselho diretor poderá convocar assembleia geral extraordinária para propor ao grupo as medidas que atendam a seus interesses, inclusive a de transferir sua administração.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art40_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    No caso de liquidação extrajudicial, o liquidante, de posse do relatório da situação financeira de cada grupo, publicará edital, em que constarão os requisitos necessários à habilitação de administradoras de consórcio interessadas na administração dos grupos.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art40_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Expirado o prazo para a habilitação, o liquidante convocará assembleia geral extraordinária do grupo, a fim de deliberar sobre as propostas recebidas.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art40_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Os recursos pertencentes aos grupos de consórcio, administrados por empresa submetida aos regimes especial temporário ou de liquidação extrajudicial, serão obrigatória e exclusivamente destinados ao atendimento dos objetivos dos contratos de participação em grupo de consórcio, por adesão.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap7">
+            
+            
+            <Rotulo>CAPÍTULO VII</Rotulo>
+            <NomeAgrupador>
+    DAS PENALIDADES
+
+  </NomeAgrupador>
+            <Artigo id="art41">
+            
+            
+            <Rotulo>Art. 41.</Rotulo>
+            
+            <Caput id="art41_cpt">
+            
+            
+            
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art42">
+            
+            
+            <Rotulo>Art. 42.</Rotulo>
+            
+            <Caput id="art42_cpt">
+            <!--Link: urn:lex:br:federal:lei:2017-11-13;13506-->
+            
+            
+            <p>
+    Às infrações aos dispositivos desta Lei e às normas regulamentares aplica-se a ação punitiva do Banco Central do Brasil, nos termos definidos pela legislação em vigor. (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2017-11-13;13506">Lei nº 13.506, de 13.11.2017</span>)
+
+  </p>
+            <Inciso id="art42_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:2017-11-13;13506-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2017-11-13;13506">Lei nº 13.506, de 13.11.2017</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art42_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:2017-11-13;13506-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2017-11-13;13506">Lei nº 13.506, de 13.11.2017</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art42_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:2017-11-13;13506-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2017-11-13;13506">Lei nº 13.506, de 13.11.2017</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art42_cpt_inc4">
+            <!--Link: urn:lex:br:federal:lei:2017-11-13;13506-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2017-11-13;13506">Lei nº 13.506, de 13.11.2017</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art42_cpt_inc5">
+            <!--Link: urn:lex:br:federal:lei:2017-11-13;13506-->
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2017-11-13;13506">Lei nº 13.506, de 13.11.2017</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art42_cpt_inc6">
+            <!--Link: urn:lex:br:federal:lei:2017-11-13;13506-->
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2017-11-13;13506">Lei nº 13.506, de 13.11.2017</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art42_cpt_inc7">
+            <!--Link: urn:lex:br:federal:lei:2017-11-13;13506-->
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2017-11-13;13506">Lei nº 13.506, de 13.11.2017</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art42_cpt_inc8">
+            <!--Link: urn:lex:br:federal:lei:2017-11-13;13506-->
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2017-11-13;13506">Lei nº 13.506, de 13.11.2017</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art42_par1u">
+            <!--Link: urn:lex:br:federal:lei:2017-11-13;13506-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2017-11-13;13506">Lei nº 13.506, de 13.11.2017</span>) Arts. 43. (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2017-11-13;13506">Lei nº 13.506, de 13.11.2017</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art44">
+            
+            
+            <Rotulo>Art. 44.</Rotulo>
+            
+            <Caput id="art44_cpt">
+            <!--Link: urn:lex:br:federal:lei:2017-11-13;13506-->
+            
+            
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2017-11-13;13506">Lei nº 13.506, de 13.11.2017</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap8">
+            
+            
+            <Rotulo>CAPÍTULO VIII</Rotulo>
+            <NomeAgrupador>
+    DAS DISPOSIÇÕES FINAIS
+
+  </NomeAgrupador>
+            <Artigo id="art45">
+            
+            
+            <Rotulo>Art. 45.</Rotulo>
+            
+            <Caput id="art45_cpt">
+            
+            
+            
+            <p>
+    O registro e a averbação referentes à aquisição de imóvel por meio do Sistema de Consórcios serão considerados, para efeito de cálculo de taxas, emolumentos e custas, como um único ato.
+
+  </p>
+            
+          </Caput><Paragrafo id="art45_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O contrato de compra e venda de imóvel por meio do Sistema de Consórcios poderá ser celebrado por instrumento particular.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art46">
+            
+            
+            <Rotulo>Art. 46.</Rotulo>
+            
+            <Caput id="art46_cpt">
+            
+            
+            
+            <p>
+    Ficam convalidadas as autorizações para administrar grupos de consórcio concedidas até a data da publicação desta Lei às administradoras e às associações e entidades sem fins lucrativos.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art47">
+            
+            
+            <Rotulo>Art. 47.</Rotulo>
+            
+            <Caput id="art47_cpt">
+            
+            
+            
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art48">
+            
+            
+            <Rotulo>Art. 48.</Rotulo>
+            
+            <Caput id="art48_cpt">
+            <!--Link: urn:lex:br:federal:decreto:1972-08-09;70951!art31_cpt_inc1--><!--Link: urn:lex:br:federal:lei:1991-03-01;8177!art33--><!--Link: urn:lex:br:federal:lei:1971-12-20;5768!art7_cpt_inc5--><!--Link: urn:lex:br:federal:lei:1988-12-15;7691!art10--><!--Link: urn:lex:br:federal:decreto:1972-08-09;70951!art31_cpt_inc5--><!--Link: urn:lex:br:federal:lei:1971-12-20;5768!art7_cpt_inc1--><!--Link: urn:lex:br:federal:decreto:1988-12-22;97384-->
+            
+            
+            <p>
+    Revogam-se os <span xlink:href="urn:lex:br:federal:lei:1971-12-20;5768!art7_cpt_inc1">incisos I</span> e <span xlink:href="urn:lex:br:federal:lei:1971-12-20;5768!art7_cpt_inc5">V do art. 7º da Lei nº 5.768, de 20 de dezembro de 1971</span>, os <span xlink:href="urn:lex:br:federal:decreto:1972-08-09;70951!art31_cpt_inc1">incisos I</span> e <span xlink:href="urn:lex:br:federal:decreto:1972-08-09;70951!art31_cpt_inc5">V do art. 31 do Decreto nº 70.951, de 9 de agosto de 1972</span>, o <span xlink:href="urn:lex:br:federal:decreto:1988-12-22;97384">Decreto nº 97.384, de 22 de dezembro de 1988</span>, o <span xlink:href="urn:lex:br:federal:lei:1988-12-15;7691!art10">art. 10 da Lei nº 7.691, de 15 de dezembro de 1988</span>, e o <span xlink:href="urn:lex:br:federal:lei:1991-03-01;8177!art33">art. 33 da Lei nº 8.177, de 1º de março de 1991</span>.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art49">
+            
+            
+            <Rotulo>Art. 49.</Rotulo>
+            
+            <Caput id="art49_cpt">
+            
+            
+            
+            <p>
+    Esta Lei entra em vigor após decorridos 120 (cento e vinte) dias de sua publicação.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 8 de outubro de 2008; 187º da Independência e 120º da República.</p></LocalDataFecho><Assinatura><NomePessoa>LUIZ INÁCIO LULA DA SILVA</NomePessoa><NomePessoa>Tarso Genro</NomePessoa><NomePessoa>Guido Mantega</NomePessoa><NomePessoa>Carlos Lupi</NomePessoa><NomePessoa>Miguel Jorge</NomePessoa></Assinatura></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>

@@ -1,0 +1,57 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:decreto:1981-09-15;86365"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">DECRETO Nº 86.365, DE 15 DE SETEMBRO DE 1981 </Epigrafe>
+		  <Ementa id="ementa">Promulga a Convenção sobre o Instituto Interamericano de Cooperação para a Agricultura. Texto compilado Texto atualizado Texto para impressão Ver mais .. Ocultar
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA,
+  </p><p>
+    CONSIDERANDO que o Congresso Nacional aprovou, pelo Decreto Legislativo nº 60, de 28 de junho de 1980, a Convenção sobre o Instituto Interamericano de Cooperação para a Agricultura, aberta a assinatura em Washington, a 6 de março de 1979;
+  </p><p>
+    CONSIDERANDO que o Instrumento de Ratificação pelo Brasil foi depositado em Washington, a 2 de outubro de 1980;
+  </p><p>
+    CONSIDERAI\IDO que a mencionada Convenção entrou em vigor para o Brasil a 8 de dezembro de 1980;
+  </p><p>
+    DECRETA:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    A Convenção sobre o Instituto Interamericano de Cooperação para a Agricultura, apensa por cópia ao presente Decreto, será executada e cumprida tão inteiramente corno nele se contém.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    Este Decreto entra em vigor na data de sua publicação, revogadas as disposições em contrário.
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, em 15 de setembro de 1981; 160º da Independência e 93º da República.</p></LocalDataFecho><Assinatura><NomePessoa>JOÃO FIGUEIREDO</NomePessoa><NomePessoa>R. S. Guerreiro</NomePessoa></Assinatura></ParteFinal>
+          <Anexos><ReferenciaAnexo AlvoURN="urn:lex:br:federal:decreto:1981-09-15;86365!anexo1"/></Anexos>
+        </Norma></ProjetoNorma>
+    </LexML>

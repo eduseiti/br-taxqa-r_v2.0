@@ -1,0 +1,3691 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:medida.provisoria:2001-09-06;1"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">MEDIDA PROVISÓRIA Nº 1, DE 6 DE SETEMBRO DE 2001 </Epigrafe>
+		  <Ementa id="ementa">Estabelece princípios gerais da Política Nacional do Cinema, cria o Conselho Superior do Cinema e a Agência Nacional do Cinema - ANCINE, institui o Programa de Apoio ao Desenvolvimento do Cinema Nacional - PRODECINE, autoriza a criação de Fundos de Financiamento da Indústria Cinematográfica Nacional - FUNCINES, altera a legislação sobre a Contribuição para o Desenvolvimento da Indústria Cinematográfica Nacional e dá outras providências.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA, no uso da atribuição que lhe confere o art. 62 da Constituição, adota a seguinte Medida Provisória, com força de lei:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Capitulo id="cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DAS DEFINIÇÕES
+
+  </NomeAgrupador>
+            <Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    Para fins desta Medida Provisória entende-se como:
+
+  </p>
+            <Inciso id="art1_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    obra audiovisual: produto da fixação ou transmissão de imagens, com ou sem som, que tenha a finalidade de criar a impressão de movimento, independentemente dos processos de captação, do suporte utilizado inicial ou posteriormente para fixá-las ou transmiti-las, ou dos meios utilizados para sua veiculação, reprodução, transmissão ou difusão;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    obra cinematográfica: obra audiovisual cuja matriz original de captação é uma película com emulsão fotossensível ou matriz de captação digital, cuja destinação e exibição seja prioritariamente e inicialmente o mercado de salas de exibição;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    obra videofonográfica: obra audiovisual cuja matriz original de captação é um meio magnético com capacidade de armazenamento de informações que se traduzem em imagens em movimento, com ou sem som;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    obra cinematográfica e videofonográfica de produção independente: aquela cuja empresa produtora, detentora majoritária dos direitos patrimoniais sobre a obra, não tenha qualquer associação ou vínculo, direto ou indireto, com empresas de serviços de radiodifusão de sons e imagens ou operadoras de comunicação eletrônica de massa por assinatura;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    obra cinematográfica brasileira ou obra videofonográfica brasileira: aquela que atende a um dos seguintes requisitos: (Redação dada pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            <Alinea id="art1_cpt_inc5_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    ser produzida por empresa produtora brasileira, observado o disposto no § 1<sup>o</sup>, registrada na ANCINE, ser dirigida por diretor brasileiro ou estrangeiro residente no País há mais de 3 (três) anos, e utilizar para sua produção, no mínimo, 2/3 (dois terços) de artistas e técnicos brasileiros ou residentes no Brasil há mais de 5 (cinco) anos; (Redação dada pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc5_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    ser realizada por empresa produtora brasileira registrada na ANCINE, em associação com empresas de outros países com os quais o Brasil mantenha acordo de co-produção cinematográfica e em consonância com os mesmos.
+
+  </p>
+            
+          </Alinea><Alinea id="art1_cpt_inc5_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    ser realizada, em regime de co-produção, por empresa produtora brasileira registrada na ANCINE, em associação com empresas de outros países com os quais o Brasil não mantenha acordo de co-produção, assegurada a titularidade de, no mínimo, 40% (quarenta por cento) dos direitos patrimoniais da obra à empresa produtora brasileira e utilizar para sua produção, no mínimo, 2/3 (dois terços) de artistas e técnicos brasileiros ou residentes no Brasil há mais de 3 (três) anos. (Incluída pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art1_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    segmento de mercado: mercados de salas de exibição, vídeo doméstico em qualquer suporte, radiodifusão de sons e imagens, comunicação eletrônica de massa por assinatura, mercado publicitário audiovisual ou quaisquer outros mercados que veiculem obras cinematográficas e videofonográficas;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    obra cinematográfica ou videofonográfica de curta metragem: aquela cuja duração é igual ou inferior a quinze minutos;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    obra cinematográfica ou videofonográfica de média metragem: aquela cuja duração é superior a quinze minutos e igual ou inferior a setenta minutos;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    obra cinematográfica ou videofonográfica de longa metragem: aquela cuja duração é superior a setenta minutos;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc10">
+            
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    obra cinematográfica ou videofonográfica seriada: aquela que, sob o mesmo título, seja produzida em capítulos;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc11">
+            
+            
+            <Rotulo>XI –</Rotulo>
+            <p>
+    telefilme: obra documental, ficcional ou de animação, com no mínimo cinqüenta e no máximo cento e vinte minutos de duração, produzida para primeira exibição em meios eletrônicos.
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc12">
+            
+            
+            <Rotulo>XII –</Rotulo>
+            <p>
+    minissérie: obra documental, ficcional ou de animação produzida em película ou matriz de captação digital ou em meio magnético com, no mínimo, 3 (três) e no máximo 26 (vinte e seis) capítulos, com duração máxima de 1.300 (um mil e trezentos) minutos; (Incluído pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc13">
+            
+            
+            <Rotulo>XIII –</Rotulo>
+            <p>
+    programadora: empresa que oferece, desenvolve ou produz conteúdo, na forma de canais ou de programações isoladas, destinado às empresas de serviços de comunicação eletrônica de massa por assinatura ou de quaisquer outros serviços de comunicação, que transmitam sinais eletrônicos de som e imagem que sejam gerados e transmitidos por satélite ou por qualquer outro meio de transmissão ou veiculação; (Incluído pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc14">
+            
+            
+            <Rotulo>XIV –</Rotulo>
+            <p>
+    programação internacional: aquela gerada, disponibilizada e transmitida diretamente do exterior para o Brasil, por satélite ou por qualquer outro meio de transmissão ou veiculação, pelos canais, programadoras ou empresas estrangeiras, destinada às empresas de serviços de comunicação eletrônica de massa por assinatura ou de quaisquer outros serviços de comunicação que transmitam sinais eletrônicos de som e imagem; (Incluído pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc15">
+            
+            
+            <Rotulo>XV –</Rotulo>
+            <p>
+    programação nacional: aquela gerada e disponibilizada, no território brasileiro, pelos canais ou programadoras, incluindo obras audiovisuais brasileiras ou estrangeiras, destinada às empresas de serviços de comunicação eletrônica de massa por assinatura ou de quaisquer outros serviços de comunicação que transmitam sinais eletrônicos de som e imagem, que seja gerada e transmitida diretamente no Brasil por empresas sediadas no Brasil, por satélite ou por qualquer outro meio de transmissão ou veiculação; (Incluído pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc16">
+            
+            
+            <Rotulo>XVI –</Rotulo>
+            <p>
+    obra cinematográfica ou videofonográfica publicitária: aquela cuja matriz original de captação é uma película com emulsão fotossensível ou matriz de captação digital, cuja destinação é a publicidade e propaganda, exposição ou oferta de produtos, serviços, empresas, instituições públicas ou privadas, partidos políticos, associações, administração pública, assim como de bens materiais e imateriais de qualquer natureza; (Incluído pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc17">
+            
+            
+            <Rotulo>XVII –</Rotulo>
+            <p>
+    obra cinematográfica ou videofonográfica publicitária brasileira: aquela que seja produzida por empresa produtora brasileira registrada na ANCINE, observado o disposto no § 1<sup>o</sup>, realizada por diretor brasileiro ou estrangeiro residente no País há mais de 3 (três) anos, e que utilize para sua produção, no mínimo, 2/3 (dois terços) de artistas e técnicos brasileiros ou residentes no Brasil há mais de 5 (cinco) anos; (Incluído pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc18">
+            
+            
+            <Rotulo>XVIII –</Rotulo>
+            <p>
+    obra cinematográfica ou videofonográfica publicitária brasileira filmada no exterior: aquela, realizada no exterior, produzida por empresa produtora brasileira registrada na ANCINE, observado o disposto no § 1<sup>o</sup>, realizada por diretor brasileiro ou estrangeiro residente no Brasil há mais de 3 (três) anos, e que utilize para sua produção, no mínimo, 1/3 (um terço) de artistas e técnicos brasileiros ou residentes no Brasil há mais de 5 (cinco) anos; (Incluído pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc19">
+            <!--Link: urn:lex:br:federal:lei:2012;12599-->
+            
+            <Rotulo>XIX –</Rotulo>
+            <p>
+    obra cinematográfica ou videofonográfica publicitária estrangeira: aquela que não atende o disposto nos incisos XVII e XVIII do caput; (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2012;12599">Lei nº 12.599, de 2012</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc20">
+            
+            
+            <Rotulo>XX –</Rotulo>
+            <p>
+    obra cinematográfica ou videofonográfica publicitária brasileira de pequena veiculação: aquela que seja produzida por empresa produtora brasileira registrada na ANCINE, observado o disposto no § 1<sup>o</sup>, realizada por diretor brasileiro ou estrangeiro residente no País há mais de 3 (três) anos, e que utilize para sua produção, no mínimo, 2/3 (dois terços) de artistas e técnicos brasileiros ou residentes no Brasil há mais de 3 (três) anos e cuja veiculação esteja restrita a Municípios que totalizem um número máximo de habitantes a ser definido em regulamento; (Incluído pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc21">
+            
+            
+            <Rotulo>XXI –</Rotulo>
+            <p>
+    claquete de identificação: imagem fixa ou em movimento inserida no início da obra cinematográfica ou videofonográfica contendo as informações necessárias à sua identificação, de acordo com o estabelecido em regulamento. (Incluído pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art1_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Para os fins do inciso V deste artigo, entende-se por empresa brasileira aquela constituída sob as leis brasileiras, com sede e administração no País, cuja maioria do capital total e votante seja de titularidade direta ou indireta, de brasileiros natos ou naturalizados há mais de 10 (dez) anos, os quais devem exercer de fato e de direito o poder decisório da empresa. (Redação dada pela pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art1_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Para os fins do disposto nos incisos XVII, XVIII e XX deste artigo, entende-se por empresa brasileira aquela constituída sob as leis brasileiras, com sede e administração no País, cuja maioria do capital seja de titularidade direta ou indireta de brasileiros natos ou naturalizados há mais de 5 (cinco) anos, os quais devem exercer de fato e de direito o poder decisório da empresa. (Incluído pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art1_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Considera-se versão de obra publicitária cinematográfica ou videofonográfica, a edição ampliada ou reduzida em seu tempo de duração, realizada a partir do conteúdo original de uma mesma obra cinematográfica ou videofonográfica publicitária, e realizada sob o mesmo contrato de produção. (Incluído pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art1_par4">
+            <!--Link: urn:lex:br:federal:lei:2011;12485-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Para os fins desta Medida Provisória, entende-se por: (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2011;12485">Lei nº 12.485, de 2011</span>)
+
+  </p>
+            <Inciso id="art1_par4_inc1">
+            <!--Link: urn:lex:br:federal:lei:2011;12485-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    serviço de comunicação eletrônica de massa por assinatura: serviço de acesso condicionado de que trata a lei específica sobre a comunicação audiovisual de acesso condicionado; (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2011;12485">Lei nº 12.485, de 2011</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art1_par4_inc2">
+            <!--Link: urn:lex:br:federal:lei:2011;12485-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    programadoras de obras audiovisuais para o segmento de mercado de serviços de comunicação eletrônica de massa por assinatura: empresas programadoras de que trata a lei específica sobre a comunicação audiovisual de acesso condicionado. (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2011;12485">Lei nº 12.485, de 2011</span>)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DA POLÍTICA NACIONAL DO CINEMA
+
+  </NomeAgrupador>
+            <Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    A política nacional do cinema terá por base os seguintes princípios gerais:
+
+  </p>
+            <Inciso id="art2_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    promoção da cultura nacional e da língua portuguesa mediante o estímulo ao desenvolvimento da indústria cinematográfica e audiovisual nacional;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    garantia da presença de obras cinematográficas e videofonográficas nacionais nos diversos segmentos de mercado;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc3">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art1_par1-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    programação e distribuição de obras audiovisuais de qualquer origem nos meios eletrônicos de comunicação de massa sob obrigatória e exclusiva responsabilidade, inclusive editorial, de empresas brasileiras, qualificadas na forma do <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art1_par1">§ 1</span><sup><span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art1_par1">o</span></sup><span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art1_par1"> do art. 1</span><sup><span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art1_par1">o</span></sup><span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art1_par1"> da Medida Provisória n</span><sup><span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art1_par1">o</span></sup><span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art1_par1"> 2.228-1, de 6 de setembro de 2001</span>, com a redação dada por esta Lei. (Redação dada pela pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    respeito ao direito autoral sobre obras audiovisuais nacionais e estrangeiras.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap3">
+            
+            
+            <Rotulo>CAPÍTULO III</Rotulo>
+            <NomeAgrupador>
+    DO CONSELHO SUPERIOR DO CINEMA
+
+  </NomeAgrupador>
+            <Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    Fica criado o Conselho Superior do Cinema, órgão colegiado integrante da estrutura da Casa Civil da Presidência da República, a que compete:
+
+  </p>
+            <Inciso id="art3_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    definir a política nacional do cinema;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    aprovar políticas e diretrizes gerais para o desenvolvimento da indústria cinematográfica nacional, com vistas a promover sua auto-sustentabilidade;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    estimular a presença do conteúdo brasileiro nos diversos segmentos de mercado;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    acompanhar a execução das políticas referidas nos incisos I, II e III;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    estabelecer a distribuição da Contribuição para o Desenvolvimento da Indústria Cinematográfica - CONDECINE para cada destinação prevista em lei.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    O Conselho Superior do Cinema será integrado:
+
+  </p>
+            <Inciso id="art4_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    pelos Ministros de Estado:
+
+  </p>
+            <Alinea id="art4_cpt_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    da Justiça;
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    das Relações Exteriores;
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_inc1_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    da Fazenda;
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_inc1_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    da Cultura;
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_inc1_ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    do Desenvolvimento, Indústria e Comércio Exterior;
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_inc1_ali6">
+            
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    das Comunicações; e
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_inc1_ali7">
+            
+            
+            <Rotulo>g)</Rotulo>
+            <p>
+    Chefe da Casa Civil da Presidência da República, que o presidirá.
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art4_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    por cinco representantes da indústria cinematográfica e videofonográfica nacional, que gozem de elevado conceito no seu campo de especialidade, a serem designados por decreto, para mandato de dois anos, permitida uma recondução.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art4_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O regimento interno do Conselho Superior do Cinema será aprovado por resolução.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O Conselho reunir-se-á sempre que for convocado por seu Presidente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O Conselho deliberará mediante resoluções, por maioria simples de votos, presentes, no mínimo, cinco membros referidos no inciso I deste artigo, dentre eles o seu Presidente, que exercerá voto de qualidade no caso de empate, e três membros referidos no inciso II deste artigo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Nos casos de urgência e relevante interesse, o Presidente poderá deliberar ad referendum dos demais membros.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    O Presidente do Conselho poderá convidar para participar das reuniões técnicos, personalidades e representantes de órgãos e entidades públicos e privados.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap4">
+            
+            
+            <Rotulo>CAPÍTULO IV</Rotulo>
+            <NomeAgrupador>
+    DA AGÊNCIA NACIONAL DO CINEMA - ANCINE
+
+  </NomeAgrupador>
+            <Secao id="cap4_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Dos objetivos e competências
+
+  </NomeAgrupador>
+            <Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    Fica criada a Agência Nacional do Cinema - ANCINE, autarquia especial, vinculada ao Ministério do Desenvolvimento, Indústria e Comércio Exterior, observado o disposto no art. 62 desta Medida Provisória, órgão de fomento, regulação e fiscalização da indústria cinematográfica e videofonográfica, dotada de autonomia administrativa e financeira.
+
+  </p>
+            
+          </Caput><Paragrafo id="art5_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A Agência terá sede e foro no Distrito Federal e escritório central na cidade do Rio de Janeiro, podendo estabelecer escritórios regionais.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O Ministério do Desenvolvimento, Indústria e Comércio Exterior supervisionará as atividades da ANCINE, podendo celebrar contrato de gestão, observado o disposto no art. 62.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    A ANCINE terá por objetivos:
+
+  </p>
+            <Inciso id="art6_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    promover a cultura nacional e a língua portuguesa mediante o estímulo ao desenvolvimento da indústria cinematográfica e videofonográfica nacional em sua área de atuação;
+
+  </p>
+            
+          </Inciso><Inciso id="art6_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    promover a integração programática, econômica e financeira de atividades governamentais relacionadas à indústria cinematográfica e videofonográfica;
+
+  </p>
+            
+          </Inciso><Inciso id="art6_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    aumentar a competitividade da indústria cinematográfica e videofonográfica nacional por meio do fomento à produção, à distribuição e à exibição nos diversos segmentos de mercado;
+
+  </p>
+            
+          </Inciso><Inciso id="art6_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    promover a auto-sustentabilidade da indústria cinematográfica nacional visando o aumento da produção e da exibição das obras cinematográficas brasileiras;
+
+  </p>
+            
+          </Inciso><Inciso id="art6_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    promover a articulação dos vários elos da cadeia produtiva da indústria cinematográfica nacional;
+
+  </p>
+            
+          </Inciso><Inciso id="art6_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    estimular a diversificação da produção cinematográfica e videofonográfica nacional e o fortalecimento da produção independente e das produções regionais com vistas ao incremento de sua oferta e à melhoria permanente de seus padrões de qualidade;
+
+  </p>
+            
+          </Inciso><Inciso id="art6_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    estimular a universalização do acesso às obras cinematográficas e videofonográficas, em especial as nacionais;
+
+  </p>
+            
+          </Inciso><Inciso id="art6_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    garantir a participação diversificada de obras cinematográficas e videofonográficas estrangeiras no mercado brasileiro;
+
+  </p>
+            
+          </Inciso><Inciso id="art6_cpt_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    garantir a participação das obras cinematográficas e videofonográficas de produção nacional em todos os segmentos do mercado interno e estimulá-la no mercado externo;
+
+  </p>
+            
+          </Inciso><Inciso id="art6_cpt_inc10">
+            
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    estimular a capacitação dos recursos humanos e o desenvolvimento tecnológico da indústria cinematográfica e videofonográfica nacional;
+
+  </p>
+            
+          </Inciso><Inciso id="art6_cpt_inc11">
+            
+            
+            <Rotulo>XI –</Rotulo>
+            <p>
+    zelar pelo respeito ao direito autoral sobre obras audiovisuais nacionais e estrangeiras.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    A ANCINE terá as seguintes competências:
+
+  </p>
+            <Inciso id="art7_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    executar a política nacional de fomento ao cinema, definida na forma do art. 3<sup>o</sup>;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    fiscalizar o cumprimento da legislação referente à atividade cinematográfica e videofonográfica nacional e estrangeira nos diversos segmentos de mercados, na forma do regulamento;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    promover o combate à pirataria de obras audiovisuais;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    aplicar multas e sanções, na forma da lei;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    regular, na forma da lei, as atividades de fomento e proteção à indústria cinematográfica e videofonográfica nacional, resguardando a livre manifestação do pensamento, da criação, da expressão e da informação;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    coordenar as ações e atividades governamentais referentes à indústria cinematográfica e videofonográfica, ressalvadas as competências dos Ministérios da Cultura e das Comunicações;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    articular-se com os órgãos competentes dos entes federados com vistas a otimizar a consecução dos seus objetivos;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    gerir programas e mecanismos de fomento à indústria cinematográfica e videofonográfica nacional;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    estabelecer critérios para a aplicação de recursos de fomento e financiamento à indústria cinematográfica e videofonográfica nacional;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc10">
+            
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    promover a participação de obras cinematográficas e videofonográficas nacionais em festivais internacionais;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc11">
+            
+            
+            <Rotulo>XI –</Rotulo>
+            <p>
+    aprovar e controlar a execução de projetos de co-produção, produção, distribuição, exibição e infra-estrutura técnica a serem realizados com recursos públicos e incentivos fiscais, ressalvadas as competências dos Ministérios da Cultura e das Comunicações;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc12">
+            
+            
+            <Rotulo>XII –</Rotulo>
+            <p>
+    fornecer os Certificados de Produto Brasileiro às obras cinematográficas e videofonográficas;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc13">
+            
+            
+            <Rotulo>XIII –</Rotulo>
+            <p>
+    fornecer Certificados de Registro dos contratos de produção, co-produção, distribuição, licenciamento, cessão de direitos de exploração, veiculação e exibição de obras cinematográficas e videofonográficas;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc14">
+            
+            
+            <Rotulo>XIV –</Rotulo>
+            <p>
+    gerir o sistema de informações para o monitoramento das atividades da indústria cinematográfica e videofonográfica nos seus diversos meios de produção, distribuição, exibição e difusão;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc15">
+            
+            
+            <Rotulo>XV –</Rotulo>
+            <p>
+    articular-se com órgãos e entidades voltados ao fomento da produção, da programação e da distribuição de obras cinematográficas e videofonográficas dos Estados membros do Mercosul e demais membros da comunidade internacional;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc16">
+            
+            
+            <Rotulo>XVI –</Rotulo>
+            <p>
+    prestar apoio técnico e administrativo ao Conselho Superior do Cinema;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc17">
+            
+            
+            <Rotulo>XVII –</Rotulo>
+            <p>
+    atualizar, em consonância com a evolução tecnológica, as definições referidas no art. 1<sup>o</sup> desta Medida Provisória.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Secao>
+          </Capitulo><p>(Sem eficácia)
+</p><Inciso id="inc18">
+            <!--Link: urn:lex:br:federal:lei:2011;12485--><!--Link: urn:lex:br:federal:lei:1985-07-24;7347!art5_par6--><!--Link: urn:lex:br:federal:lei:2012;12599-->
+            <TituloDispositivo>(Sem eficácia)</TituloDispositivo>
+            <Rotulo>XVIII –</Rotulo>
+            <p>
+    regular e fiscalizar o cumprimento dos princípios da comunicação audiovisual de acesso condicionado, das obrigações de programação, empacotamento e publicidade e das restrições ao capital total e votante das produtoras e programadoras fixados pela lei que dispõe sobre a comunicação audiovisual de acesso condicionado; XIX - elaborar e tornar público plano de trabalho como instrumento de avaliação da atuação administrativa do órgão e de seu desempenho, estabelecendo os parâmetros para sua administração, bem como os indicadores que permitam quantificar, objetivamente, a sua avaliação periódica, inclusive com relação aos recursos aplicados em fomento à produção de audiovisual; (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2011;12485">Lei nº 12.485, de 2011</span>) XX - enviar relatório anual de suas atividades ao Ministério da Cultura e, por intermédio da Presidência da República, ao Congresso Nacional; (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2011;12485">Lei nº 12.485, de 2011</span>) XXI - tomar dos interessados compromisso de ajustamento de sua conduta às exigências legais no âmbito de suas competências, nos termos do <span xlink:href="urn:lex:br:federal:lei:1985-07-24;7347!art5_par6">§ 6</span><sup><span xlink:href="urn:lex:br:federal:lei:1985-07-24;7347!art5_par6">o</span></sup><span xlink:href="urn:lex:br:federal:lei:1985-07-24;7347!art5_par6"> do art. 5</span><sup><span xlink:href="urn:lex:br:federal:lei:1985-07-24;7347!art5_par6">o</span></sup><span xlink:href="urn:lex:br:federal:lei:1985-07-24;7347!art5_par6"> da Lei n</span><sup><span xlink:href="urn:lex:br:federal:lei:1985-07-24;7347!art5_par6">o</span></sup><span xlink:href="urn:lex:br:federal:lei:1985-07-24;7347!art5_par6"> 7.347, de 24 de julho de 1985</span>. (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2011;12485">Lei nº 12.485, de 2011</span>) XXII - promover interação com administrações do cinema e do audiovisual dos Estados membros do Mercosul e demais membros da comunidade internacional, com vistas na consecução de objetivos de interesse comum; e (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2012;12599">Lei nº 12.599, de 2012</span>) XXIII - estabelecer critérios e procedimentos administrativos para a garantia do princípio da reciprocidade no território brasileiro em relação às condições de produção e exploração de obras audiovisuais brasileiras em territórios estrangeiros. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2012;12599">Lei nº 12.599, de 2012</span>)
+
+  </p>
+            
+          </Inciso><Paragrafo id="par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A organização básica e as competências das unidades da ANCINE serão estabelecidas em ato do Poder Executivo.
+
+  </p>
+            
+          </Paragrafo><Secao id="sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Da Estrutura
+
+  </NomeAgrupador>
+            <Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            <!--Link: urn:lex:br:federal:lei:2000-07-18;9986--><!--Link: urn:lex:br:federal:lei:2019;13848-->
+            
+            
+            <p>
+    A Ancine será dirigida por Diretoria Colegiada composta de 1 (um) Diretor-Presidente e 3 (três) Diretores, com mandatos não coincidentes de 5 (cinco) anos, vedada a recondução, nos termos da <span xlink:href="urn:lex:br:federal:lei:2000-07-18;9986">Lei nº 9.986, de 18 de julho de 2000</span>. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2019;13848">Lei nº 13.848, de 2019</span>) Vigência
+
+  </p>
+            
+          </Caput><Paragrafo id="art8_par1">
+            <!--Link: urn:lex:br:federal:lei:2000-07-18;9986--><!--Link: urn:lex:br:federal:lei:2019;13848-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os membros da Diretoria Colegiada serão nomeados nos termos da <span xlink:href="urn:lex:br:federal:lei:2000-07-18;9986">Lei nº 9.986, de 18 de julho de 2000</span>. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2019;13848">Lei nº 13.848, de 2019</span>) Vigência
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8_par2">
+            <!--Link: urn:lex:br:federal:lei:2000-07-18;9986--><!--Link: urn:lex:br:federal:lei:2019;13848-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O Diretor-Presidente da Ancine será nomeado pelo Presidente da República e investido na função pelo prazo de 5 (cinco) anos, vedada a recondução, observado o disposto na <span xlink:href="urn:lex:br:federal:lei:2000-07-18;9986">Lei nº 9.986, de 18 de julho de 2000</span>. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2019;13848">Lei nº 13.848, de 2019</span>) Vigência
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8_par3">
+            <!--Link: urn:lex:br:federal:lei:2019;13848-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Em caso de vaga no curso do mandato de membro da Diretoria Colegiada, esse será completado por sucessor investido na forma prevista no § 1º deste artigo e exercido pelo prazo remanescente. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2019;13848">Lei nº 13.848, de 2019</span>) Vigência
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8_par4">
+            <!--Link: urn:lex:br:federal:lei:2019;13848-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Integrarão a estrutura da Ancine, além da Diretoria Colegiada, uma Procuradoria, que a representará em juízo, uma Ouvidoria e uma Auditoria. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2019;13848">Lei nº 13.848, de 2019</span>) Vigência
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8_par5">
+            <!--Link: urn:lex:br:federal:lei:2019;13848-->
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    (Revogado). (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2019;13848">Lei nº 13.848, de 2019</span>) Vigência
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            
+            
+            
+            <p>
+    Compete à Diretoria Colegiada da ANCINE:
+
+  </p>
+            <Inciso id="art9_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    exercer sua administração;
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    editar normas sobre matérias de sua competência;
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    aprovar seu regimento interno;
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    cumprir e fazer cumprir as políticas e diretrizes aprovadas pelo Conselho Superior de Cinema;
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    deliberar sobre sua proposta de orçamento;
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    determinar a divulgação de relatórios semestrais sobre as atividades da Agência;
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    decidir sobre a venda, cessão ou aluguel de bens integrantes do seu patrimônio;
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    notificar e aplicar as sanções previstas na legislação;
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    julgar recursos interpostos contra decisões de membros da Diretoria;
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc10">
+            
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    autorizar a contratação de serviço de terceiros na forma da legislação vigente;
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc11">
+            
+            
+            <Rotulo>XI –</Rotulo>
+            <p>
+    autorizar a celebração de contratos, convênios e acordos;
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art9_par1u">
+            <!--Link: urn:lex:br:federal:lei:2019;13848-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A Diretoria Colegiada reunir-se-á com a presença de, pelo menos, 3 (três) diretores, entre eles o Diretor-Presidente, e deliberará por maioria absoluta de votos. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2019;13848">Lei nº 13.848, de 2019</span>) Vigência
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>
+    Compete ao Diretor-Presidente da ANCINE:
+
+  </p>
+            <Inciso id="art10_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    exercer a representação legal da agência;
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    presidir as reuniões da Diretoria Colegiada; III cumprir e fazer cumprir as decisões da Diretoria Colegiada;
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    exercer o voto de qualidade, em caso de empate nas deliberações da Diretoria Colegiada;
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    nomear, exonerar e demitir servidores e empregados;
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    prover os cargos em comissão e as funções de confiança;
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    aprovar editais de licitação e homologar adjudicações;
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc8">
+            <!--Link: urn:lex:br:federal:lei:2019;13848-->
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    encaminhar ao Ministério da Economia a proposta de orçamento da Ancine; (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2019;13848">Lei nº 13.848, de 2019</span>) Vigência
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    assinar contratos, acordos e convênios, previamente aprovados pela Diretoria Colegiada;
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc10">
+            
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    ordenar despesas e praticar os atos de gestão necessários ao alcance dos objetivos da ANCINE;
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc11">
+            
+            
+            <Rotulo>XI –</Rotulo>
+            <p>
+    sugerir a propositura de ação civil pública pela ANCINE, nos casos previstos em lei;
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc12">
+            
+            
+            <Rotulo>XII –</Rotulo>
+            <p>
+    exercer a função de Secretário-Executivo do Conselho Superior do Cinema;
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc13">
+            
+            
+            <Rotulo>XIII –</Rotulo>
+            <p>
+    exercer outras atividades necessárias à gestão da ANCINE e à implementação das decisões do Conselho Superior do Cinema.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="sec3">
+            
+            
+            <Rotulo>Seção III</Rotulo>
+            <NomeAgrupador>
+    Das Receitas e do Patrimônio
+
+  </NomeAgrupador>
+            <Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            <p>
+    Constituem receitas da ANCINE:
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><p>(Revogado pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+</p><p>(Revogado pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+</p><Inciso id="inc3">
+            <!--Link: urn:lex:br:federal:lei:2006;11437-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    o produto da arrecadação das multas resultantes do exercício de suas atribuições; (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+
+  </p>
+            
+          </Inciso><Inciso id="inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    o produto da execução da sua dívida ativa;
+
+  </p>
+            
+          </Inciso><Inciso id="inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    as dotações consignadas no Orçamento-Geral da União, créditos especiais, créditos adicionais, transferências e repasses que lhe forem conferidos;
+
+  </p>
+            
+          </Inciso><Inciso id="inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    as doações, legados, subvenções e outros recursos que lhe forem destinados;
+
+  </p>
+            
+          </Inciso><Inciso id="inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    os valores apurados na venda ou aluguel de bens móveis e imóveis de sua propriedade;
+
+  </p>
+            
+          </Inciso><Inciso id="inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    os valores apurados em aplicações no mercado financeiro das receitas previstas neste artigo;
+
+  </p>
+            
+          </Inciso><Inciso id="inc10">
+            
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    produto da cobrança de emolumentos por serviços prestados;
+
+  </p>
+            
+          </Inciso><Inciso id="inc11">
+            
+            
+            <Rotulo>XI –</Rotulo>
+            <p>
+    recursos provenientes de acordos, convênios ou contratos celebrados com entidades, organismos ou empresas, públicos ou privados, nacionais e internacionais;
+
+  </p>
+            
+          </Inciso><Inciso id="inc12">
+            <!--Link: urn:lex:br:federal:lei:2006;11437-->
+            
+            <Rotulo>XII –</Rotulo>
+            <p>
+    produto da venda de publicações, material técnico, dados e informações, inclusive para fins de licitação pública; (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+
+  </p>
+            
+          </Inciso><Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            
+            
+            
+            <p>
+    Fica a ANCINE autorizada a alienar bens móveis ou imóveis do seu patrimônio que não se destinem ao desempenho das funções inerentes à sua missão institucional.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Secao id="sec4">
+            <!--Link: urn:lex:br:federal:lei:2004;10871-->
+            
+            <Rotulo>Seção IV</Rotulo>
+            <NomeAgrupador>
+    Dos Recursos Humanos (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2004;10871">Lei nº 10.871, de 2004</span>)
+
+  </NomeAgrupador>
+            <Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            <p>
+    A ANCINE poderá contratar especialistas para a execução de trabalhos nas áreas técnica, administrativa, econômica e jurídica, por projetos ou prazos limitados, observando-se a legislação em vigor.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>
+    A ANCINE poderá requisitar, com ônus, servidores de órgãos e entidades integrantes da administração pública federal direta, autárquica e fundacional, quaisquer que sejam as atribuições a serem exercidas.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Capitulo id="cap5">
+            
+            
+            <Rotulo>CAPÍTULO V</Rotulo>
+            <NomeAgrupador>
+    DO SISTEMA DE INFORMAÇÕES E MONITORAMENTO DA INDÚSTRIA CINEMATOGRÁFICA E VIDEOFONOGRÁFICA
+
+  </NomeAgrupador>
+            <Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            
+            
+            
+            <p>
+    Fica criado o Sistema de Informações e Monitoramento da Indústria Cinematográfica e Videofonográfica, de responsabilidade da ANCINE, podendo para sua elaboração e execução ser conveniada ou contratada entidade ou empresa legalmente constituída.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            
+            
+            
+            <p>
+    Toda sala ou espaço de exibição pública destinada à exploração de obra cinematográfica em qualquer suporte deverá utilizar o sistema de controle de receitas de bilheteria, conforme definido em regulamento pela ANCINE.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            <!--Link: urn:lex:br:federal:lei:2006;11437-->
+            
+            
+            <p>
+    As empresas distribuidoras, as programadoras de obras audiovisuais para o segmento de mercado de serviços de comunicação eletrônica de massas por assinatura, as programadoras de obras audiovisuais para outros mercados, conforme assinalado na alínea e do Anexo I desta Medida Provisória, assim como as locadoras de vídeo doméstico e as empresas de exibição, devem fornecer relatórios periódicos sobre a oferta e o consumo de obras audiovisuais e as receitas auferidas pela exploração delas no período, conforme normas expedidas pela Ancine. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            
+            
+            
+            <p>
+    As empresa distribuidoras e locadoras de obras cinematográficas para vídeo, doméstico ou para venda direta ao consumidor, em qualquer suporte, deverão emitir semestralmente relatório enumerando as obras cinematográficas brasileiras distribuídas no período, número de obras estrangeiras e sua relação, número de cópias distribuídas por título, conforme definido em regulamento, devendo estas informações serem remetidas à ANCINE.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            
+            
+            
+            <p>
+    Poderá ser estabelecida, por lei, a obrigatoriedade de fornecimento periódico de informações sobre veiculação ou difusão de obras cinematográficas e videofonográficas para empresas operantes em outros segmentos de mercado além daqueles indicados nos arts. 18 e 19.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            <!--Link: urn:lex:br:federal:lei:1998-02-19;9610-->
+            
+            
+            <p>
+    As cópias das obras cinematográficas e videofonográficas destinadas à venda, cessão, empréstimo, permuta, locação, exibição, com ou sem fins lucrativos, bem como as obras cinematográficas e videofonográficas publicitárias deverão conter em seu suporte marca indelével e irremovível com a identificação do detentor do direito autoral no Brasil, com todas as informações que o identifiquem, conforme modelo aprovado pela ANCINE e pela Secretaria da Receita Federal do Ministério da Fazenda, sem prejuízo do que trata a <span xlink:href="urn:lex:br:federal:lei:1998-02-19;9610">Lei n</span><sup><span xlink:href="urn:lex:br:federal:lei:1998-02-19;9610">o</span></sup><span xlink:href="urn:lex:br:federal:lei:1998-02-19;9610"> 9.610, de 19 de fevereiro de 1998</span>, e o Decreto n<sup>o</sup> 2.894, 22 de dezembro de 1998.
+
+  </p>
+            
+          </Caput><Paragrafo id="art21_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    No caso de obras cinematográficas e videofonográficas publicitárias, a marca indelével e irremovível de que trata o caput e nas finalidades ali previstas deverá constar na claquete de identificação. (Redação dada pela pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art22">
+            
+            
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            
+            
+            
+            <p>
+    É obrigatório o registro das empresas de produção, distribuição, exibição de obras cinematográficas e videofonográficas nacionais ou estrangeiras na ANCINE, conforme disposto em regulamento.
+
+  </p>
+            
+          </Caput><Paragrafo id="art22_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Para se beneficiar de recursos públicos ou incentivos fiscais destinados à atividade cinematográfica ou videofonográfica a empresa deve estar registrada na ANCINE.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art23">
+            
+            
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            
+            
+            
+            <p>
+    A produção no Brasil de obra cinematográfica ou videofonográfica estrangeira deverá ser comunicada à ANCINE.
+
+  </p>
+            
+          </Caput><Paragrafo id="art23_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A produção e a adaptação de obra cinematográfica ou videofonográfica estrangeira, no Brasil, deverão realizar-se mediante contrato com empresa produtora brasileira, que será a responsável pela produção perante as leis brasileiras.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art24">
+            
+            
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput id="art24_cpt">
+            
+            
+            
+            <p>
+    Os serviços técnicos de cópia e reprodução de matrizes de obras cinematográficas e videofonográficas que se destinem à exploração comercial no mercado brasileiro deverão ser executados em laboratórios instalados no País.
+
+  </p>
+            
+          </Caput><Paragrafo id="art24_par1u">
+            
+            <TituloDispositivo>P</TituloDispositivo>
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    As obras cinematográficas e videofonográficas estrangeiras estão dispensadas de copiagem obrigatória no País até o limite de 6 (seis) cópias, bem como seu material de promoção e divulgação nos limites estabelecidos em regulamento. (Redação dada pela pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art25">
+            
+            
+            <Rotulo>Art. 25.</Rotulo>
+            
+            <Caput id="art25_cpt">
+            <!--Link: urn:lex:br:federal:lei:2012;12599-->
+            
+            
+            <p>
+    Toda e qualquer obra cinematográfica ou videofonográfica publicitária estrangeira só poderá ser veiculada ou transmitida no País, em qualquer segmento de mercado, devidamente adaptada ao idioma português e após pagamento da Condecine, de que trata o art. 32. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2012;12599">Lei nº 12.599, de 2012</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art25_par1u">
+            <!--Link: urn:lex:br:federal:lei:2012;12599-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A adaptação de obra cinematográfica ou videofonográfica publicitária deverá ser realizada por empresa produtora brasileira registrada na Ancine, conforme normas por ela expedidas. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2012;12599">Lei nº 12.599, de 2012</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art26">
+            
+            
+            <Rotulo>Art. 26.</Rotulo>
+            
+            <Caput id="art26_cpt">
+            
+            
+            
+            <p>
+    A empresa produtora de obra cinematográfica ou videofonográfica com recursos públicos ou provenientes de renúncia fiscal deverá depositar na Cinemateca Brasileira ou entidade credenciada pela ANCINE uma cópia de baixo contraste, interpositivo ou matriz digital da obra, para sua devida preservação.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art27">
+            
+            
+            <Rotulo>Art. 27.</Rotulo>
+            
+            <Caput id="art27_cpt">
+            <!--Link: urn:lex:br:federal:lei:1995-01-06;8977!art23_cpt_inc1_ali2--><!--Link: urn:lex:br:federal:lei:1995-01-06;8977!art23_cpt_inc1_ali7-->
+            
+            
+            <p>
+    As obras cinematográficas e videofonográficas produzidas com recursos públicos ou renúncia fiscal, após decorridos dez anos de sua primeira exibição comercial, poderão ser exibidas em canais educativos mantidos com recursos públicos nos serviços de radiodifusão de sons e imagens e nos canais referidos nas <span xlink:href="urn:lex:br:federal:lei:1995-01-06;8977!art23_cpt_inc1_ali2">alíneas &quot;b&quot;</span> a <span xlink:href="urn:lex:br:federal:lei:1995-01-06;8977!art23_cpt_inc1_ali7">&quot;g&quot; do inciso I do art. 23 da Lei n</span><sup><span xlink:href="urn:lex:br:federal:lei:1995-01-06;8977!art23_cpt_inc1_ali7">o</span></sup><span xlink:href="urn:lex:br:federal:lei:1995-01-06;8977!art23_cpt_inc1_ali7"> 8.977, de 6 de janeiro de 1995</span>, e em estabelecimentos públicos de ensino, na forma definida em regulamento, respeitados os contratos existentes.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art28">
+            
+            
+            <Rotulo>Art. 28.</Rotulo>
+            
+            <Caput id="art28_cpt">
+            
+            
+            
+            <p>
+    Toda obra cinematográfica e videofonográfica brasileira deverá, antes de sua exibição ou comercialização, requerer à ANCINE o registro do título e o Certificado de Produto Brasileiro - CPB. (Redação dada pela pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Caput><Paragrafo id="art28_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    No caso de obra cinematográfica ou obra videofonográfica publicitária brasileira, após a solicitação do registro do título, a mesma poderá ser exibida ou comercializada, devendo ser retirada de exibição ou ser suspensa sua comercialização, caso seja constatado o não pagamento da CONDECINE ou o fornecimento de informações incorretas. (Incluído pela pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art28_par2">
+            <!--Link: urn:lex:br:federal:lei:2012;12599-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As versões, as adaptações, as vinhetas e as chamadas realizadas a partir da obra cinematográfica e videofonográfica publicitária original, brasileira ou estrangeira, até o limite máximo de 5 (cinco), devem ser consideradas um só título, juntamente com a obra original, para efeito do pagamento da Condecine. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2012;12599">Lei nº 12.599, de 2012</span>) § 3<sup>o</sup> As versões, as adaptações, as vinhetas e as chamadas realizadas a partir da obra cinematográfica e videofonográfica publicitária original destinada à publicidade de varejo, até o limite máximo de 50 (cinquenta), devem ser consideradas um só título, juntamente com a obra original, para efeito do pagamento da Condecine. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2012;12599">Lei nº 12.599, de 2012</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art28_par4">
+            <!--Link: urn:lex:br:federal:lei:2012;12599-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Ultrapassado o limite de que trata o § 2<sup>o</sup> ou o § 3<sup>o</sup>, deverá ser solicitado novo registro do título de obra cinematográfica e videofonográfica publicitária original. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2012;12599">Lei nº 12.599, de 2012</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art29">
+            
+            
+            <Rotulo>Art. 29.</Rotulo>
+            
+            <Caput id="art29_cpt">
+            
+            
+            
+            <p>
+    A contratação de direitos de exploração comercial, de licenciamento, produção, co-produção, exibição, distribuição, comercialização, importação e exportação de obras cinematográficas e videofonográficas em qualquer suporte ou veículo no mercado brasileiro, deverá ser informada à ANCINE, previamente à comercialização, exibição ou veiculação da obra, com a comprovação do pagamento da CONDECINE para o segmento de mercado em que a obra venha a ser explorada comercialmente. (Redação dada pela pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Caput><Paragrafo id="art29_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    No caso de obra cinematográfica ou videofonográfica publicitária, deverá ser enviado à ANCINE, o resumo do contrato firmado entre as partes, conforme modelo a ser estabelecido em regulamento. (Incluído pela pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art30">
+            
+            
+            <Rotulo>Art. 30.</Rotulo>
+            
+            <Caput id="art30_cpt">
+            
+            
+            
+            <p>
+    Para concessão da classificação etária indicativa de obras cinematográficas e videofonográficas será exigida pelo órgão responsável a comprovação do pagamento da CONDECINE no segmento de mercado a que a classificação etária indicativa se referir.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><p>(Revogado pela <span xlink:href="urn:lex:br:federal:lei:2011;12485">Lei nº 12.485, de 2011</span>)
+</p><p>(Revogado pela <span xlink:href="urn:lex:br:federal:lei:2011;12485">Lei nº 12.485, de 2011</span>)
+</p><Capitulo id="cap6">
+            
+            
+            <Rotulo>CAPÍTULO VI</Rotulo>
+            <NomeAgrupador>
+    DA CONTRIBUIÇÃO PARA O DESENVOLVIMENTO DA INDÚSTRIA CINEMATOGRÁFICA NACIONAL - CONDECINE
+
+  </NomeAgrupador>
+            <Artigo id="art32">
+            
+            
+            <Rotulo>Art. 32.</Rotulo>
+            
+            <Caput id="art32_cpt">
+            <!--Link: urn:lex:br:federal:lei:2011;12485-->
+            
+            
+            <p>
+    A Contribuição para o Desenvolvimento da Indústria Cinematográfica Nacional - Condecine terá por fato gerador: (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2011;12485">Lei nº 12.485, de 2011</span>) (Produção de efeito)
+
+  </p>
+            <Inciso id="art32_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:2011;12485--><!--Link: urn:lex:br:federal:medida.provisoria:2020;952-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a veiculação, a produção, o licenciamento e a distribuição de obras cinematográficas e videofonográficas com fins comerciais, por segmento de mercado a que forem destinadas; (incluído pela <span xlink:href="urn:lex:br:federal:lei:2011;12485">Lei nº 12.485, de 2011</span>) (Produção de efeito) II - a prestação de serviços que se utilizem de meios que possam, efetiva ou potencialmente, distribuir conteúdos audiovisuais nos termos da lei que dispõe sobre a comunicação audiovisual de acesso condicionado, listados no Anexo I desta Medida Provisória; (incluído pela <span xlink:href="urn:lex:br:federal:lei:2011;12485">Lei nº 12.485, de 2011</span>) (Produção de efeito) (Vide <span xlink:href="urn:lex:br:federal:medida.provisoria:2020;952">Medida Provisória nº 952, de 2020</span>) III - a veiculação ou distribuição de obra audiovisual publicitária incluída em programação internacional, nos termos do inciso XIV do art. 1<sup>o</sup> desta Medida Provisória, nos casos em que existir participação direta de agência de publicidade nacional, sendo tributada nos mesmos valores atribuídos quando da veiculação incluída em programação nacional. (incluído pela <span xlink:href="urn:lex:br:federal:lei:2011;12485">Lei nº 12.485, de 2011</span>) (Produção de efeito) Parágrafo único. A CONDECINE também incidirá sobre o pagamento, o crédito, o emprego, a remessa ou a entrega, aos produtores, distribuidores ou intermediários no exterior, de importâncias relativas a rendimento decorrente da exploração de obras cinematográficas e videofonográficas ou por sua aquisição ou importação, a preço fixo.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art33">
+            
+            
+            <Rotulo>Art. 33.</Rotulo>
+            
+            <Caput id="art33_cpt">
+            <!--Link: urn:lex:br:federal:lei:2011;12485-->
+            
+            
+            <p>
+    A Condecine será devida para cada segmento de mercado, por: (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2011;12485">Lei nº 12.485, de 2011</span>)
+
+  </p>
+            <Inciso id="art33_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    título ou capítulo de obra cinematográfica ou videofonográfica destinada aos seguintes segmentos de mercado:
+
+  </p>
+            <Alinea id="art33_cpt_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    salas de exibição;
+
+  </p>
+            
+          </Alinea><Alinea id="art33_cpt_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    vídeo doméstico, em qualquer suporte;
+
+  </p>
+            
+          </Alinea><Alinea id="art33_cpt_inc1_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    serviço de radiodifusão de sons e imagens;
+
+  </p>
+            
+          </Alinea><Alinea id="art33_cpt_inc1_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    serviços de comunicação eletrônica de massa por assinatura;
+
+  </p>
+            
+          </Alinea><Alinea id="art33_cpt_inc1_ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    outros mercados, conforme anexo.
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art33_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:2011;12485-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    título de obra publicitária cinematográfica ou videofonográfica, para cada segmento dos mercados previstos nas alíneas “a” a “e” do inciso I a que se destinar; (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2011;12485">Lei nº 12.485, de 2011</span>) (Produção de efeito)
+
+  </p>
+            
+          </Inciso><Inciso id="art33_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:2011;12485-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    prestadores dos serviços constantes do Anexo I desta Medida Provisória, a que se refere o inciso II do art. 32 desta Medida Provisória. (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2011;12485">Lei nº 12.485, de 2011</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art33_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A CONDECINE corresponderá aos valores das tabelas constantes do Anexo I a esta Medida Provisória.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art33_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Na hipótese do parágrafo único do art. 32, a CONDECINE será determinada mediante a aplicação de alíquota de onze por cento sobre as importâncias ali referidas.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art33_par3">
+            <!--Link: urn:lex:br:federal:lei:2011;12485-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A Condecine será devida: (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2011;12485">Lei nº 12.485, de 2011</span>) (Produção de efeito)
+
+  </p>
+            <Inciso id="art33_par3_inc1">
+            <!--Link: urn:lex:br:federal:lei:2011;12485--><!--Link: urn:lex:br:federal:medida.provisoria:2015-08-17;687--><!--Link: urn:lex:br:federal:lei:2015;13196--><!--Link: urn:lex:br:federal:lei:2021;14173-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    uma única vez a cada 5 (cinco) anos, para as obras a que se refere o inciso I do caput deste artigo; (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2011;12485">Lei nº 12.485, de 2011</span>) II - a cada 12 (doze) meses, para cada segmento de mercado em que a obra seja efetivamente veiculada, para as obras a que se refere o inciso II do caput deste artigo; (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2011;12485">Lei nº 12.485, de 2011</span>) III - a cada ano, para os serviços a que se refere o inciso III do caput deste artigo. (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2011;12485">Lei nº 12.485, de 2011</span>) § 4<sup>o</sup> Na ocorrência de modalidades de serviços qualificadas na forma do inciso II do art. 32 não presentes no Anexo I desta Medida Provisória, será devida pela prestadora a Contribuição referente ao item “a” do Anexo I, até que lei fixe seu valor. (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2011;12485">Lei nº 12.485, de 2011</span>) § 5<sup>o</sup> Os valores da Condecine poderão ser atualizados monetariamente pelo Poder Executivo federal, até o limite do valor acumulado do Índice Nacional de Preços ao Consumidor Amplo (IPCA) correspondente ao período entre a sua última atualização e a data de publicação da lei de conversão da <span xlink:href="urn:lex:br:federal:medida.provisoria:2015-08-17;687">Medida Provisória n</span><sup><span xlink:href="urn:lex:br:federal:medida.provisoria:2015-08-17;687">o</span></sup><span xlink:href="urn:lex:br:federal:medida.provisoria:2015-08-17;687"> 687, de 17 de agosto de 2015</span>, na forma do regulamento. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2015;13196">Lei nº 13.196, de 2015</span>) Art. 33-A. Para efeito de interpretação da alínea e do inciso I do caput do art. 33 desta Medida Provisória, a oferta de vídeo por demanda, independentemente da tecnologia utilizada, a partir da vigência da contribuição de que trata o inciso I do caput do art. 32 desta Medida Provisória, não se inclui na definição de ‘outros mercados’. (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2021;14173">Lei nº 14.173, de 2021</span>)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo id="art34">
+            
+            
+            <Rotulo>Art. 34.</Rotulo>
+            
+            <Caput id="art34_cpt">
+            <!--Link: urn:lex:br:federal:lei:2006;11437-->
+            
+            
+            <p>
+    O produto da arrecadação da Condecine será destinado ao Fundo Nacional da Cultura – FNC e alocado em categoria de programação específica denominada Fundo Setorial do Audiovisual, para aplicação nas atividades de fomento relativas aos Programas de que trata o art. 47 desta Medida Provisória. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+
+  </p>
+            <Inciso id="art34_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:2006;11437-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    (revogado); (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>). II – (revogado); (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+
+  </p>
+            
+          </Inciso><Inciso id="art34_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:2006;11437-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    (revogado). (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art35">
+            
+            
+            <Rotulo>Art. 35.</Rotulo>
+            
+            <Caput id="art35_cpt">
+            
+            
+            
+            <p>
+    A CONDECINE será devida pelos seguintes sujeitos passivos:
+
+  </p>
+            <Inciso id="art35_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    detentor dos direitos de exploração comercial ou de licenciamento no País, conforme o caso, para os segmentos de mercado previstos nas alíneas &quot;a&quot; a &quot;e&quot; do inciso I do art. 33;
+
+  </p>
+            
+          </Inciso><Inciso id="art35_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    empresa produtora, no caso de obra nacional, ou detentor do licenciamento para exibição, no caso de obra estrangeira, na hipótese do inciso II do art. 33;
+
+  </p>
+            
+          </Inciso><Inciso id="art35_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:2011;12485-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    o responsável pelo pagamento, crédito, emprego, remessa ou entrega das importâncias referidas no parágrafo único do art. 32; (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2011;12485">Lei nº 12.485, de 2011</span>) (Produção de efeito)
+
+  </p>
+            
+          </Inciso><Inciso id="art35_cpt_inc4">
+            <!--Link: urn:lex:br:federal:lei:2011;12485--><!--Link: urn:lex:br:federal:medida.provisoria:2020;952-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    as concessionárias, permissionárias e autorizadas de serviços de telecomunicações, relativamente ao disposto no inciso II do art. 32; (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2011;12485">Lei nº 12.485, de 2011</span>) (Vide <span xlink:href="urn:lex:br:federal:medida.provisoria:2020;952">Medida Provisória nº 952, de 2020</span>) V - o representante legal e obrigatório da programadora estrangeira no País, na hipótese do inciso III do art. 32. (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2011;12485">Lei nº 12.485, de 2011</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art36">
+            
+            
+            <Rotulo>Art. 36.</Rotulo>
+            
+            <Caput id="art36_cpt">
+            
+            
+            
+            <p>
+    A CONDECINE deverá ser recolhida à ANCINE, na forma do regulamento: (Redação dada pela pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            <Inciso id="art36_cpt_inc1">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art1_cpt_inc15-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    na data do registro do título para os mercados de salas de exibição e de vídeo doméstico em qualquer suporte, e serviços de comunicação eletrônica de massa por assinatura para as programadoras referidas no <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art1_cpt_inc15">inciso XV do art. 1</span><sup><span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art1_cpt_inc15">o</span></sup><span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art1_cpt_inc15"> da Medida Provisória n</span><sup><span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art1_cpt_inc15">o</span></sup><span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art1_cpt_inc15"> 2.228-1, de 6 de setembro de 2001</span>, em qualquer suporte, conforme Anexo I; (Redação dada pela pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Inciso><Inciso id="art36_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    na data do registro do título para o mercado de serviços de radiodifusão de sons e imagens e outros mercados, conforme Anexo I; (Redação dada pela pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Inciso><Inciso id="art36_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:2012;12599-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    na data do registro do título ou até o primeiro dia útil seguinte à sua solicitação, para obra cinematográfica ou videofonográfica publicitária brasileira, brasileira filmada no exterior ou estrangeira para cada segmento de mercado, conforme Anexo I; (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2012;12599">Lei nº 12.599, de 2012</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art36_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    na data do registro do título, para o mercado de serviços de radiodifusão de sons e imagens e de comunicação eletrônica de massa por assinatura, para obra cinematográfica e videofonográfica nacional, conforme Anexo I; (Redação dada pela pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Inciso><Inciso id="art36_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    na data do pagamento, crédito, emprego ou remessa das importâncias referidas no parágrafo único do art. 32; (Redação dada pela pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Inciso><Inciso id="art36_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    na data da concessão do certificado de classificação indicativa, nos demais casos, conforme Anexo I. (Redação dada pela pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Inciso><Inciso id="art36_cpt_inc7">
+            <!--Link: urn:lex:br:federal:lei:2011;12485--><!--Link: urn:lex:br:federal:medida.provisoria:2020;952-->
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    anualmente, até o dia 31 de março, para os serviços de que trata o inciso II do art. 32 desta Medida Provisória. (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2011;12485">Lei nº 12.485, de 2011</span>) (Produção de efeito) (Vide <span xlink:href="urn:lex:br:federal:medida.provisoria:2020;952">Medida Provisória nº 952, de 2020</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art37">
+            
+            
+            <Rotulo>Art. 37.</Rotulo>
+            
+            <Caput id="art37_cpt">
+            <!--Link: urn:lex:br:federal:lei:1996-12-27;9430!art44--><!--Link: urn:lex:br:federal:lei:1996-12-27;9430!art61-->
+            
+            
+            <p>
+    O não recolhimento da CONDECINE no prazo sujeitará o contribuinte às penalidades e acréscimos moratórios previstos nos <span xlink:href="urn:lex:br:federal:lei:1996-12-27;9430!art44">arts. 44</span> e <span xlink:href="urn:lex:br:federal:lei:1996-12-27;9430!art61">61 da Lei n</span><sup><span xlink:href="urn:lex:br:federal:lei:1996-12-27;9430!art61">o</span></sup><span xlink:href="urn:lex:br:federal:lei:1996-12-27;9430!art61"> 9.430, de 27 de dezembro de 1996</span>.
+
+  </p>
+            
+          </Caput><Paragrafo id="art37_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A pessoa física ou jurídica que promover a exibição, transmissão, difusão ou veiculação de obra cinematográfica ou videofonográfica que não tenha sido objeto do recolhimento da CONDECINE responde solidariamente por essa contribuição. (Redação dada pela pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art37_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A solidariedade de que trata o § 1<sup>o</sup> não se aplica à hipótese prevista no parágrafo único do art. 32. (Parágrafo incluído pela pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art38">
+            
+            
+            <Rotulo>Art. 38.</Rotulo>
+            
+            <Caput id="art38_cpt">
+            
+            
+            
+            <p>
+    A administração da CONDECINE, inclusive as atividades de arrecadação, tributação e fiscalização, compete à: (Redação dada pela pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            <Inciso id="art38_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Secretaria da Receita Federal, na hipótese do parágrafo único do art. 32; (Inciso incluído pela pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Inciso><Inciso id="art38_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    ANCINE, nos demais casos. (Incluído pela pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art38_par1">
+            <!--Link: urn:lex:br:federal:decreto:1972-03-06;70235--><!--Link: urn:lex:br:federal:lei:2011;12485-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Aplicam-se à CONDECINE, na hipótese de que trata o inciso I do caput, as normas do <span xlink:href="urn:lex:br:federal:decreto:1972-03-06;70235">Decreto n</span><sup><span xlink:href="urn:lex:br:federal:decreto:1972-03-06;70235">o</span></sup><span xlink:href="urn:lex:br:federal:decreto:1972-03-06;70235"> 70.235, de 6 de março de 1972</span>. (Redação dada pela pela Lei nº 10.454, de 13..5.2002) (Renumerado do parágrafo único pela <span xlink:href="urn:lex:br:federal:lei:2011;12485">Lei nº 12.485, de 2011</span>) (Produção de efeito)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art38_par2">
+            <!--Link: urn:lex:br:federal:lei:1966-07-07;5070--><!--Link: urn:lex:br:federal:lei:2011;12485-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A Ancine e a Agência Nacional de Telecomunicações - Anatel exercerão as atividades de regulamentação e fiscalização no âmbito de suas competências e poderão definir o recolhimento conjunto da parcela da Condecine devida referente ao inciso III do caput do art. 33 e das taxas de fiscalização de que trata a <span xlink:href="urn:lex:br:federal:lei:1966-07-07;5070">Lei n</span><sup><span xlink:href="urn:lex:br:federal:lei:1966-07-07;5070">o</span></sup><span xlink:href="urn:lex:br:federal:lei:1966-07-07;5070"> 5.070, de 7 de julho de 1966</span>, que cria o Fundo de Fiscalização das Telecomunicações. (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2011;12485">Lei nº 12.485, de 2011</span>) (Produção de efeito)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art39">
+            
+            
+            <Rotulo>Art. 39.</Rotulo>
+            
+            <Caput id="art39_cpt">
+            
+            
+            
+            <p>
+    São isentos da CONDECINE:
+
+  </p>
+            <Inciso id="art39_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a obra cinematográfica e videofonográfica destinada à exibição exclusiva em festivais e mostras, desde que previamente autorizada pela ANCINE;
+
+  </p>
+            
+          </Inciso><Inciso id="art39_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a obra cinematográfica e videofonográfica jornalística, bem assim os eventos esportivos;
+
+  </p>
+            
+          </Inciso><Inciso id="art39_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:2012;12599-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    as chamadas dos programas e a publicidade de obras cinematográficas e videofonográficas veiculadas nos serviços de radiodifusão de sons e imagens, nos serviços de comunicação eletrônica de massa por assinatura e nos segmentos de mercado de salas de exibição e de vídeo doméstico em qualquer suporte; (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2012;12599">Lei nº 12.599, de 2012</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art39_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    as obras cinematográficas ou videofonográficas publicitárias veiculadas em Municípios que totalizem um número de habitantes a ser definido em regulamento; (Redação dada pela pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Inciso><Inciso id="art39_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    a exportação de obras cinematográficas e videofonográficas brasileiras e a programação brasileira transmitida para o exterior;
+
+  </p>
+            
+          </Inciso><Inciso id="art39_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    as obras audiovisuais brasileiras, produzidas pelas empresas de serviços de radiodifusão de sons e imagens e empresas de serviços de comunicação eletrônica de massa por assinatura, para exibição no seu próprio segmento de mercado ou quando transmitida por força de lei ou regulamento em outro segmento de mercado, observado o disposto no parágrafo único, exceto as obras audiovisuais publicitárias; (Redação dada pela pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Inciso><Inciso id="art39_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    o pagamento, o crédito, o emprego, a remessa ou a entrega aos produtores, distribuidores ou intermediários no exterior, das importâncias relativas a rendimentos decorrentes da exploração de obras cinematográficas ou videofonográficas ou por sua aquisição ou importação a preço fixo, bem como qualquer montante referente a aquisição ou licenciamento de qualquer forma de direitos, referentes à programação, conforme definição constante do inciso XV do art. 1<sup>o</sup>; (Incluído pela pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Inciso><Inciso id="art39_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    obras cinematográficas e videofonográficas publicitárias brasileiras de caráter beneficente, filantrópico e de propaganda política; (Incluído pela pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Inciso><Inciso id="art39_cpt_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    as obras cinematográficas e videofonográficas incluídas na programação internacional de que trata o inciso XIV do art. 1<sup>o</sup>, quanto à CONDECINE prevista no inciso I, alínea d do art. 33; (Incluído pela pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Inciso><Inciso id="art39_cpt_inc10">
+            
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    a CONDECINE de que trata o parágrafo único do art. 32, referente à programação internacional, de que trata o inciso XIV do art. 1<sup>o</sup>, desde que a programadora beneficiária desta isenção opte por aplicar o valor correspondente a 3% (três por cento) do valor do pagamento, do crédito, do emprego, da remessa ou da entrega aos produtores, distribuidores ou intermediários no exterior, das importâncias relativas a rendimentos ou remuneração decorrentes da exploração de obras cinematográficas ou videofonográficas ou por sua aquisição ou importação a preço fixo, bem como qualquer montante referente a aquisição ou licenciamento de qualquer forma de direitos, em projetos de produção de obras cinematográficas e videofonográficas brasileiras de longa, média e curta metragens de produção independente, de co-produção de obras cinematográficas e videofonográficas brasileiras de produção independente, de telefilmes, minisséries, documentais, ficcionais, animações e de programas de televisão de caráter educativo e cultural, brasileiros de produção independente, aprovados pela ANCINE. (Incluído pela pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Inciso><Inciso id="art39_cpt_inc11">
+            <!--Link: urn:lex:br:federal:lei:2011;12485-->
+            
+            <Rotulo>XI –</Rotulo>
+            <p>
+    a Anatel, as Forças Armadas, a Polícia Federal, as Polícias Militares, a Polícia Rodoviária Federal, as Polícias Civis e os Corpos de Bombeiros Militares. (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2011;12485">Lei nº 12.485, de 2011</span>) (Produção de efeito)
+
+  </p>
+            
+          </Inciso><Inciso id="art39_cpt_inc12">
+            <!--Link: urn:lex:br:federal:lei:2012;12599-->
+            
+            <Rotulo>XII –</Rotulo>
+            <p>
+    as hipóteses previstas pelo inciso III do art. 32, quando ocorrer o fato gerador de que trata o inciso I do mesmo artigo, em relação à mesma obra audiovisual publicitária, para o segmento de mercado de comunicação eletrônica de massa por assinatura. (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2012;12599">Lei nº 12.599, de 2012</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art39_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As obras audiovisuais brasileiras, produzidas pelas empresas de serviços de radiodifusão de sons e imagens e empresas de serviços de comunicação eletrônica de massa por assinatura, estarão sujeitas ao pagamento da CONDECINE se vierem a ser comercializadas em outros segmentos de mercado. (Renumerado pela pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art39_par2">
+            <!--Link: urn:lex:br:federal:lei:2006;11437-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os valores correspondentes aos 3% (três por cento) previstos no inciso X do caput deste artigo deverão ser depositados na data do pagamento, do crédito, do emprego, da remessa ou da entrega aos produtores, distribuidores ou intermediários no exterior das importâncias relativas a rendimentos decorrentes da exploração de obras cinematográficas e videofonográficas ou por sua aquisição ou importação a preço fixo, em conta de aplicação financeira especial em instituição financeira pública, em nome do contribuinte. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art39_par3">
+            <!--Link: urn:lex:br:federal:lei:2006;11437-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Os valores não aplicados na forma do inciso X do caput deste artigo, após 270 (duzentos e setenta) dias de seu depósito na conta de que trata o § 2<sup>o</sup> deste artigo, destinar-se-ão ao FNC e serão alocados em categoria de programação específica denominada Fundo Setorial do Audiovisual. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>). § 4<sup>o</sup> Os valores previstos no inciso X do caput deste artigo não poderão ser aplicados em obras audiovisuais de natureza publicitária. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art39_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    A liberação dos valores depositados na conta de aplicação financeira especial fica condicionada à integralização de pelo menos 50% (cinqüenta por cento) dos recursos aprovados para a realização do projeto. (Parágrafo incluído pela pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art39_par6">
+            <!--Link: urn:lex:br:federal:lei:1993-07-20;8685--><!--Link: urn:lex:br:federal:lei:1991-12-23;8313--><!--Link: urn:lex:br:federal:lei:2006;11437-->
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    Os projetos produzidos com os recursos de que trata o inciso X do caput deste artigo poderão utilizar-se dos incentivos previstos na <span xlink:href="urn:lex:br:federal:lei:1993-07-20;8685">Lei nº 8.685, de 20 de julho de 1993</span>, e na <span xlink:href="urn:lex:br:federal:lei:1991-12-23;8313">Lei nº 8.313, de 23 de dezembro de 1991</span>, limitados a 95% (noventa e cinco por cento) do total do orçamento aprovado pela Ancine para o projeto. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art40">
+            
+            
+            <Rotulo>Art. 40.</Rotulo>
+            
+            <Caput id="art40_cpt">
+            
+            
+            
+            <p>
+    Os valores da CONDECINE ficam reduzidos a:
+
+  </p>
+            <Inciso id="art40_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    vinte por cento, quando se tratar de obra cinematográfica ou videofonográfica não publicitária brasileira;
+
+  </p>
+            
+          </Inciso><Inciso id="art40_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:2015;13196-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    20% (vinte por cento), quando se tratar de: (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2015;13196">Lei nº 13.196, de 2015</span>)
+
+  </p>
+            <Alinea id="art40_cpt_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    obras audiovisuais destinadas ao segmento de mercado de salas de exibição que sejam exploradas com até 6 (seis) cópias; (Redação dada pela pela Lei nº 10.454, de 13..5.2002)
+
+  </p>
+            
+          </Alinea><Alinea id="art40_cpt_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    obras cinematográficas e videofonográficas destinadas à veiculação em serviços de radiodifusão de sons e imagens e cuja produção tenha sido realizada mais de vinte anos antes do registro do contrato no ANCINE;
+
+  </p>
+            
+          </Alinea><Alinea id="art40_cpt_inc2_ali3">
+            <!--Link: urn:lex:br:federal:lei:2015;13196-->
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    obras cinematográficas destinadas à veiculação em serviços de radiodifusão de sons e imagens e de comunicação eletrônica de massa por assinatura, quando tenham sido previamente exploradas em salas de exibição com até 6 (seis) cópias ou quando tenham sido exibidas em festivais ou mostras, com autorização prévia da Ancine, e não tenham sido exploradas em salas de exibição com mais de 6 (seis) cópias; (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2015;13196">Lei nº 13.196, de 2015</span>)
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Capitulo><p>(Revogado - vide <span xlink:href="urn:lex:br:federal:lei:2002-05-13;10454">Lei nº 10.454, de 13.5.2002</span>)
+</p><Inciso id="inc4">
+            <!--Link: urn:lex:br:federal:lei.complementar:2006-12-14;123!art3--><!--Link: urn:lex:br:federal:lei:2012;12599-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    10% (dez por cento), quando se tratar de obra publicitária brasileira realizada por microempresa ou empresa de pequeno porte, segundo as definições do <span xlink:href="urn:lex:br:federal:lei.complementar:2006-12-14;123!art3">art. 3</span><sup><span xlink:href="urn:lex:br:federal:lei.complementar:2006-12-14;123!art3">o</span></sup><span xlink:href="urn:lex:br:federal:lei.complementar:2006-12-14;123!art3"> da Lei Complementar n</span><sup><span xlink:href="urn:lex:br:federal:lei.complementar:2006-12-14;123!art3">o</span></sup><span xlink:href="urn:lex:br:federal:lei.complementar:2006-12-14;123!art3"> 123, de 14 de dezembro de 2006</span>, com custo não superior a R$ 10.000,00 (dez mil reais), conforme regulamento da Ancine. (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2012;12599">Lei nº 12.599, de 2012</span>)
+
+  </p>
+            
+          </Inciso><Capitulo id="cap7">
+            
+            
+            <Rotulo>CAPÍTULO VII</Rotulo>
+            <NomeAgrupador>
+    DOS FUNDOS DE FINANCIAMENTO DA INDÚSTRIA CINEMATOGRÁFICA NACIONAL - FUNCINES
+
+  </NomeAgrupador>
+            <Artigo id="art41">
+            
+            
+            <Rotulo>Art. 41.</Rotulo>
+            
+            <Caput id="art41_cpt">
+            <!--Link: urn:lex:br:federal:lei:2006;11437-->
+            
+            
+            <p>
+    Os Fundos de Financiamento da Indústria Cinematográfica Nacional - FUNCINES serão constituídos sob a forma de condomínio fechado, sem personalidade jurídica, e administrados por instituição financeira autorizada a funcionar pelo Banco Central do Brasil ou por agências e bancos de desenvolvimento. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+
+  </p>
+            
+          </Caput><Paragrafo id="art41_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O patrimônio dos FUNCINES será representado por quotas emitidas sob a forma escritural, alienadas ao público com a intermediação da instituição administradora do Fundo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art41_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A administradora será responsável por todas as obrigações do Fundo, inclusive as de caráter tributário.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art42">
+            
+            
+            <Rotulo>Art. 42.</Rotulo>
+            
+            <Caput id="art42_cpt">
+            
+            
+            
+            <p>
+    Compete à Comissão de Valores Mobiliários autorizar, disciplinar e fiscalizar a constituição, o funcionamento e a administração dos FUNCINES, observadas as disposições desta Medida Provisória e as normas aplicáveis aos fundos de investimento.
+
+  </p>
+            
+          </Caput><Paragrafo id="art42_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A Comissão de Valores Mobiliários comunicará a constituição dos FUNCINES, bem como as respectivas administradoras à ANCINE.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art43">
+            
+            
+            <Rotulo>Art. 43.</Rotulo>
+            
+            <Caput id="art43_cpt">
+            
+            
+            
+            <p>
+    Os recursos captados pelos FUNCINES serão aplicados, na forma do regulamento, em projetos e programas que, atendendo aos critérios e diretrizes estabelecidos pela ANCINE, sejam destinados a:
+
+  </p>
+            <Inciso id="art43_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:2006;11437-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    projetos de produção de obras audiovisuais brasileiras independentes realizadas por empresas produtoras brasileiras; (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+
+  </p>
+            
+          </Inciso><Inciso id="art43_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:2006;11437--><!--Link: urn:lex:br:federal:lei:2018;13594-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    construção, reforma e recuperação das salas de exibição de propriedade de empresas brasileiras; (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>). III - aquisição de ações de empresas brasileiras para produção, comercialização, distribuição e exibição de obras audiovisuais brasileiras de produção independente, bem como para prestação de serviços de infra-estrutura cinematográficos e audiovisuais; (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>). IV - projetos de comercialização e distribuição de obras audiovisuais cinematográficas brasileiras de produção independente realizados por empresas brasileiras; e (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>). V - projetos de infra-estrutura realizados por empresas brasileiras. (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>). VI - (VETADO). (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2018;13594">Lei nº 13.594, de 2018</span>) § 1<sup>o</sup> Para efeito da aplicação dos recursos dos Funcines, as empresas de radiodifusão de sons e imagens e as prestadoras de serviços de telecomunicações não poderão deter o controle acionário das empresas referidas no inciso III do caput deste artigo. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>). § 2<sup>o</sup> Os Funcines deverão manter, no mínimo, 90% (noventa por cento) do seu patrimônio aplicados em empreendimentos das espécies enumeradas neste artigo, observados, em relação a cada espécie de destinação, os percentuais mínimos a serem estabelecidos em regulamento. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art43_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A parcela do patrimônio do Fundo não comprometida com as aplicações de que trata este artigo, será constituída por títulos emitidos pelo Tesouro Nacional ou pelo Banco Central do Brasil.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art43_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    É vedada a aplicação de recursos de FUNCINES em projetos que tenham participação majoritária de quotista do próprio Fundo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art43_par5">
+            <!--Link: urn:lex:br:federal:lei:2006;11437-->
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    As obras audiovisuais de natureza publicitária, esportiva ou jornalística não podem se beneficiar de recursos dos Funcines ou do FNC alocados na categoria de programação específica Fundo Setorial do Audiovisual. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art43_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    As obras cinematográficas e videofonográficas produzidas com recursos dos FUNCINES terão seu corte e edição finais aprovados para exibição pelo seu diretor e produtor responsável principal.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art43_par7">
+            <!--Link: urn:lex:br:federal:lei:2006;11437-->
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    Nos casos do inciso I do caput deste artigo, o projeto deverá contemplar a garantia de distribuição ou difusão das obras. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art43_par8">
+            <!--Link: urn:lex:br:federal:lei:2006;11437-->
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    Para os fins deste artigo, aplica-se a definição de empresa brasileira constante no § 1<sup>o</sup> do art. 1<sup>o</sup> desta Medida Provisória. (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art44">
+            
+            
+            <Rotulo>Art. 44.</Rotulo>
+            
+            <Caput id="art44_cpt">
+            <!--Link: urn:lex:br:federal:lei:2025;15132-->
+            
+            
+            <p>
+    Até o período de apuração relativo ao ano-calendário de 2029, inclusive, as pessoas físicas e jurídicas tributadas pelo lucro real poderão deduzir do imposto de renda devido as quantias aplicadas na aquisição de cotas dos Funcines. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2025;15132">Lei nº 15.132, de 2025</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art44_par1">
+            <!--Link: urn:lex:br:federal:lei:1993-07-20;8685!art1--><!--Link: urn:lex:br:federal:lei:1993-07-20;8685!art1-1--><!--Link: urn:lex:br:federal:lei:2006;11437-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A dedução referida no caput deste artigo pode ser utilizada de forma alternativa ou conjunta com a referida nos <span xlink:href="urn:lex:br:federal:lei:1993-07-20;8685!art1">arts. 1º</span> e <span xlink:href="urn:lex:br:federal:lei:1993-07-20;8685!art1-1">1º-A da Lei nº 8.685, de 20 de julho de 1993</span>. (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art44_par2">
+            <!--Link: urn:lex:br:federal:lei:1997-12-10;9532!art22--><!--Link: urn:lex:br:federal:lei:2006;11437-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    No caso das pessoas físicas, a dedução prevista no caput deste artigo fica sujeita ao limite de 6% (seis por cento) conjuntamente com as deduções de que trata o <span xlink:href="urn:lex:br:federal:lei:1997-12-10;9532!art22">art. 22 da Lei nº 9.532, de 10 de dezembro de 1997</span>. (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art44_par3">
+            <!--Link: urn:lex:br:federal:lei:2006;11437-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Somente são dedutíveis do imposto devido as quantias aplicadas na aquisição de cotas dos Funcines: (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>). I - pela pessoa física, no ano-calendário a que se referir a declaração de ajuste anual; (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+
+  </p>
+            <Inciso id="art44_par3_inc2">
+            <!--Link: urn:lex:br:federal:lei:2006;11437-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    pela pessoa jurídica, no respectivo período de apuração de imposto. (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo id="art45">
+            
+            
+            <Rotulo>Art. 45.</Rotulo>
+            
+            <Caput id="art45_cpt">
+            
+            
+            
+            <p>
+    A dedução de que trata o art. 44 incidirá sobre o imposto devido:
+
+  </p>
+            <Inciso id="art45_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    no trimestre a que se referirem os investimentos, para as pessoas jurídicas que apuram o lucro real trimestral;
+
+  </p>
+            
+          </Inciso><Inciso id="art45_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    no ano-calendário, para as pessoas jurídicas que, tendo optado pelo recolhimento do imposto por estimativa, apuram o lucro real anual.
+
+  </p>
+            
+          </Inciso><Inciso id="art45_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:2006;11437-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    no ano-calendário, conforme ajuste em declaração anual de rendimentos para a pessoa física. (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art45_par1">
+            <!--Link: urn:lex:br:federal:lei:2006;11437-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Em qualquer hipótese, não será dedutível a perda apurada na alienação das cotas dos Funcines. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art45_par2">
+            <!--Link: urn:lex:br:federal:lei:1997-12-10;9532!art6_cpt_inc2--><!--Link: urn:lex:br:federal:lei:2006;11437-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A dedução prevista neste artigo está limitada a 3% (três por cento) do imposto devido pelas pessoas jurídicas e deverá observar o limite previsto no <span xlink:href="urn:lex:br:federal:lei:1997-12-10;9532!art6_cpt_inc2">inciso II do caput do art. 6º da Lei nº 9.532, de 10 de dezembro de 1997</span>. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><p>(Revogado pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>). § 4<sup>o</sup> A pessoa jurídica que alienar as cotas dos Funcines somente poderá considerar como custo de aquisição, na determinação do ganho de capital, os valores deduzidos na forma do caput deste artigo na hipótese em que a alienação ocorra após 5 (cinco) anos da data de sua aquisição. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+</p><Paragrafo id="par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Em qualquer hipótese, não será dedutível a perda apurada na alienação das quotas dos FUNCINES.
+
+  </p>
+            
+          </Paragrafo><p>. (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+</p><Artigo id="art46">
+            
+            
+            <Rotulo>Art. 46.</Rotulo>
+            
+            <Caput id="art46_cpt">
+            
+            
+            
+            <p>
+    Os rendimentos e ganhos líquidos e de capital auferidos pela carteira de FUNCINES ficam isentos do imposto de renda.
+
+  </p>
+            
+          </Caput><Paragrafo id="art46_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os rendimentos, os ganhos de capital e os ganhos líquidos decorrentes de aplicação em FUNCINES sujeitam-se às normas tributárias aplicáveis aos demais valores mobiliários no mercado de capitais.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art46_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Ocorrendo resgate de quotas de FUNCINES, em decorrência do término do prazo de duração ou da liquidação do fundo, sobre o rendimento do quotista, constituído pela diferença positiva entre o valor de resgate e o custo de aquisição das quotas, incidirá imposto de renda na fonte à alíquota de vinte por cento.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Capitulo id="cap8">
+            
+            
+            <Rotulo>CAPÍTULO VIII</Rotulo>
+            <NomeAgrupador>
+    DOS DEMAIS INCENTIVOS
+
+  </NomeAgrupador>
+            <Artigo id="art47">
+            
+            
+            <Rotulo>Art. 47.</Rotulo>
+            
+            <Caput id="art47_cpt">
+            <!--Link: urn:lex:br:federal:lei:2006;11437-->
+            
+            
+            <p>
+    Como mecanismos de fomento de atividades audiovisuais, ficam instituídos, conforme normas a serem expedidas pela Ancine: (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+
+  </p>
+            <Inciso id="art47_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:2006;11437-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o Programa de Apoio ao Desenvolvimento do Cinema Brasileiro - PRODECINE, destinado ao fomento de projetos de produção independente, distribuição, comercialização e exibição por empresas brasileiras; (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>). II - o Programa de Apoio ao Desenvolvimento do Audiovisual Brasileiro - PRODAV, destinado ao fomento de projetos de produção, programação, distribuição, comercialização e exibição de obras audiovisuais brasileiras de produção independente; (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>). III - o Programa de Apoio ao Desenvolvimento da Infra-Estrutura do Cinema e do Audiovisual - PRÓ-INFRA, destinado ao fomento de projetos de infra-estrutura técnica para a atividade cinematográfica e audiovisual e de desenvolvimento, ampliação e modernização dos serviços e bens de capital de empresas brasileiras e profissionais autônomos que atendam às necessidades tecnológicas das produções audiovisuais brasileiras. (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art47_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os recursos do PRODECINE poderão ser objeto de aplicação a fundo perdido, nos casos específicos previstos no regulamento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art47_par2">
+            <!--Link: urn:lex:br:federal:lei:2006;11437-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A Ancine estabelecerá critérios e diretrizes gerais para a aplicação e a fiscalização dos recursos dos Programas referidos no caput deste artigo. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art48">
+            
+            
+            <Rotulo>Art. 48.</Rotulo>
+            
+            <Caput id="art48_cpt">
+            <!--Link: urn:lex:br:federal:lei:2006;11437-->
+            
+            
+            <p>
+    São fontes de recursos dos Programas de que trata o art. 47 desta Medida Provisória: (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+
+  </p>
+            <Inciso id="art48_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    percentual do produto da arrecadação da Contribuição para o Desenvolvimento da Indústria Cinematográfica Nacional - CONDECINE;
+
+  </p>
+            
+          </Inciso><Inciso id="art48_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o produto da arrecadação de multas e juros, decorrentes do descumprimento das normas de financiamento pelos beneficiários dos recursos do PRODECINE;
+
+  </p>
+            
+          </Inciso><Inciso id="art48_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    a remuneração dos financiamentos concedidos;
+
+  </p>
+            
+          </Inciso><Inciso id="art48_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    as doações e outros aportes não especificados;
+
+  </p>
+            
+          </Inciso><Inciso id="art48_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    as dotações consignadas nos orçamentos da União, dos Estados, do Distrito Federal e dos Municípios;
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art49">
+            
+            
+            <Rotulo>Art. 49.</Rotulo>
+            
+            <Caput id="art49_cpt">
+            <!--Link: urn:lex:br:federal:lei:1993;8685!art3-->
+            
+            
+            <p>
+    O abatimento do imposto de renda na fonte, de que o trata <span xlink:href="urn:lex:br:federal:lei:1993;8685!art3">art. 3</span><sup><span xlink:href="urn:lex:br:federal:lei:1993;8685!art3">o</span></sup><span xlink:href="urn:lex:br:federal:lei:1993;8685!art3"> da Lei n</span><sup><span xlink:href="urn:lex:br:federal:lei:1993;8685!art3">o</span></sup><span xlink:href="urn:lex:br:federal:lei:1993;8685!art3"> 8.685, de 1993</span>, aplicar-se-á, exclusivamente, a projetos previamente aprovados pela ANCINE, na forma do regulamento, observado o disposto no art. 67.
+
+  </p>
+            
+          </Caput><Paragrafo id="art49_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A opção pelo benefício previsto no caput afasta a incidência do disposto no § 2<sup>o</sup> do art. 33 desta Medida Provisória.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art50">
+            
+            
+            <Rotulo>Art. 50.</Rotulo>
+            
+            <Caput id="art50_cpt">
+            <!--Link: urn:lex:br:federal:lei:1993-07-20;8685!art1--><!--Link: urn:lex:br:federal:lei:2015;13196-->
+            
+            
+            <p>
+    As deduções previstas no <span xlink:href="urn:lex:br:federal:lei:1993-07-20;8685!art1">art. 1</span><sup><span xlink:href="urn:lex:br:federal:lei:1993-07-20;8685!art1">o</span></sup><span xlink:href="urn:lex:br:federal:lei:1993-07-20;8685!art1"> da Lei n</span><sup><span xlink:href="urn:lex:br:federal:lei:1993-07-20;8685!art1">o</span></sup><span xlink:href="urn:lex:br:federal:lei:1993-07-20;8685!art1"> 8.685, de 20 de julho de 1993</span>, são prorrogadas até o exercício de 2017, inclusive, devendo os projetos que serão beneficiados por esses incentivos ser previamente aprovados pela Ancine. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2015;13196">Lei nº 13.196, de 2015</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><p>(Revogado pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+</p><Artigo id="art52">
+            
+            
+            <Rotulo>Art. 52.</Rotulo>
+            
+            <Caput id="art52_cpt">
+            <!--Link: urn:lex:br:federal:lei:1991-12-23;8313!art3_cpt_inc2_ali1-->
+            
+            
+            <p>
+    A partir de 1<sup>o</sup> de janeiro de 2007, a <span xlink:href="urn:lex:br:federal:lei:1991-12-23;8313!art3_cpt_inc2_ali1">alínea &quot;a&quot; do inciso II do art. 3</span><sup><span xlink:href="urn:lex:br:federal:lei:1991-12-23;8313!art3_cpt_inc2_ali1">o</span></sup><span xlink:href="urn:lex:br:federal:lei:1991-12-23;8313!art3_cpt_inc2_ali1"> da Lei nº 8.313, de 23 de dezembro de 1991</span>, passará a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1991-12-23;8313" id="art52_cpt_alt1">              
+              <Alinea xlink:href="art3_cpt_inc2_ali1" id="art52_cpt_alt1_art3_cpt_inc2_ali1" abreAspas="s" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    produção de discos, vídeos, obras cinematográficas de curta e média metragem e filmes documentais, preservação do acervo cinematográfico bem assim de outras obras de reprodução videofonográfica de caráter cultural;
+
+  </p>
+            
+          </Alinea>
+            </Alteracao>
+          </Caput><Paragrafo id="art52_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O Conselho Superior do Cinema poderá antecipar a entrada em vigor do disposto neste artigo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art53">
+            
+            
+            <Rotulo>Art. 53.</Rotulo>
+            
+            <Caput id="art53_cpt">
+            <!--Link: urn:lex:br:federal:lei:1991;8313!art18_par3-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1991;8313!art18_par3">§ 3</span><sup><span xlink:href="urn:lex:br:federal:lei:1991;8313!art18_par3">o</span></sup><span xlink:href="urn:lex:br:federal:lei:1991;8313!art18_par3"> do art. 18 da Lei nº 8.313, de 1991</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1991;8313" id="art53_cpt_alt1">              
+              <Artigo xlink:href="art18" id="art53_cpt_alt1_art18" abreAspas="s">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput xlink:href="art18_cpt" id="art53_cpt_alt1_art18_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Omissis id="art53_cpt_alt1_art18_omi1"/><Paragrafo xlink:href="art18_par3" id="art53_cpt_alt1_art18_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    As doações e os patrocínios na produção cultural, a que se refere o § 1<sup>o</sup>, atenderão exclusivamente aos seguintes segmentos:
+
+  </p>
+            <Alinea xlink:href="art18_par3_ali1" id="art53_cpt_alt1_art18_par3_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    artes cênicas;
+
+  </p>
+            
+          </Alinea><Alinea xlink:href="art18_par3_ali2" id="art53_cpt_alt1_art18_par3_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    livros de valor artístico, literário ou humanístico;
+
+  </p>
+            
+          </Alinea><Alinea xlink:href="art18_par3_ali3" id="art53_cpt_alt1_art18_par3_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    música erudita ou instrumental;
+
+  </p>
+            
+          </Alinea><Alinea xlink:href="art18_par3_ali4" id="art53_cpt_alt1_art18_par3_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    exposições de artes visuais;
+
+  </p>
+            
+          </Alinea><Alinea xlink:href="art18_par3_ali5" id="art53_cpt_alt1_art18_par3_ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    doações de acervos para bibliotecas públicas, museus, arquivos públicos e cinematecas, bem como treinamento de pessoal e aquisição de equipamentos para a manutenção desses acervos;
+
+  </p>
+            
+          </Alinea><Alinea xlink:href="art18_par3_ali6" id="art53_cpt_alt1_art18_par3_ali6">
+            
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    produção de obras cinematográficas e videofonográficas de curta e média metragem e preservação e difusão do acervo audiovisual; e
+
+  </p>
+            
+          </Alinea><Alinea xlink:href="art18_par3_ali7" id="art53_cpt_alt1_art18_par3_ali7" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>g)</Rotulo>
+            <p>
+    preservação do patrimônio cultural material e imaterial.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art54">
+            
+            
+            <Rotulo>Art. 54.</Rotulo>
+            
+            <Caput id="art54_cpt">
+            
+            
+            
+            <p>
+    Fica instituído o Prêmio Adicional de Renda, calculado sobre as rendas de bilheterias auferidas pela obra cinematográfica de longa metragem brasileira de produção independente, que será concedido a produtores, distribuidores e exibidores, na forma que dispuser o regulamento.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art55">
+            
+            
+            <Rotulo>Art. 55.</Rotulo>
+            
+            <Caput id="art55_cpt">
+            <!--Link: urn:lex:br:federal:lei:2024;14814-->
+            
+            
+            <p>
+    Até 31 de dezembro de 2033, as empresas proprietárias, locatárias ou arrendatárias de salas, de espaços, de locais ou de complexos de exibição pública comercial ficam obrigadas a exibir obras cinematográficas brasileiras de longa-metragem no âmbito de sua programação, observados o número mínimo de sessões e a diversidade dos títulos, fixados nos termos do regulamento, com periodicidade anual, por meio de decreto do Poder Executivo, ouvidas a Ancine e as entidades representativas dos produtores, dos distribuidores e dos exibidores. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2024;14814">Lei nº 14.814, de 2024</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art55_par1">
+            <!--Link: urn:lex:br:federal:lei:2024;14814-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A exibição de obras cinematográficas brasileiras de que trata o caput deste artigo far-se-á proporcionalmente durante o ano, nos termos do regulamento, atribuída à Ancine a responsabilidade de aferir o cumprimento do disposto neste artigo. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2024;14814">Lei nº 14.814, de 2024</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art55_par2">
+            <!--Link: urn:lex:br:federal:lei:2024;14814-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    (Revogado). (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2024;14814">Lei nº 14.814, de 2024</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art55_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    As obras cinematográficas e os telefilmes que forem exibidos em meios eletrônicos antes da exibição comercial em salas não serão computados para fins do cumprimento do disposto no caput.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art55_par4">
+            <!--Link: urn:lex:br:federal:lei:2024;14814-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    A obrigatoriedade de que trata o caput deste artigo abrange salas, geminadas ou não, administradas pela mesma empresa exibidora e que integrem espaços ou locais de exibição pública comercial, localizadas em um mesmo complexo, nos termos do regulamento. (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2024;14814">Lei nº 14.814, de 2024</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art55_par5">
+            <!--Link: urn:lex:br:federal:lei:2024;14814-->
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Para efeito do disposto neste artigo, o regulamento disporá sobre medidas que garantam a variedade, a diversidade, a competição equilibrada e a permanência efetiva em exibição de obras cinematográficas brasileiras de longa-metragem em sessões de maior procura, com a finalidade de promover a autossustentabilidade da indústria cinematográfica nacional e do parque exibidor, a liberdade de programação, a valorização da cultura nacional, a universalização do acesso às obras cinematográficas brasileiras e a participação delas no segmento de salas de exibição. (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2024;14814">Lei nº 14.814, de 2024</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art55_par6">
+            <!--Link: urn:lex:br:federal:lei:2024;14814-->
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    As análises de impacto regulatório e os demais instrumentos de avaliação regulatória serão realizados anualmente e publicados no sítio institucional da Ancine. (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2024;14814">Lei nº 14.814, de 2024</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art55_par7">
+            <!--Link: urn:lex:br:federal:lei:2024;14814-->
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    Caso o regulamento não seja publicado com a regularidade estabelecida no caput deste artigo, os quantitativos das obrigações referidos no último regulamento continuarão em vigor. (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2024;14814">Lei nº 14.814, de 2024</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art55-1">
+            
+            
+            <Rotulo>Art. 55-A.</Rotulo>
+            
+            <Caput id="art55-1_cpt">
+            <!--Link: urn:lex:br:federal:lei:2024;14814-->
+            
+            
+            <p>
+    Os requisitos e as condições de validade para o cumprimento da obrigatoriedade de que trata esta Medida Provisória e a sua forma de comprovação e aferição serão disciplinados no regulamento. (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2024;14814">Lei nº 14.814, de 2024</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art55-2">
+            
+            
+            <Rotulo>Art. 55-B.</Rotulo>
+            
+            <Caput id="art55-2_cpt">
+            <!--Link: urn:lex:br:federal:lei:2024;14814-->
+            
+            
+            <p>
+    Obras cinematográficas brasileiras de longa-metragem premiadas em festivais de reconhecida relevância, nacionais ou internacionais, ou em certames congêneres terão seu tratamento disciplinado no regulamento. (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2024;14814">Lei nº 14.814, de 2024</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art56">
+            
+            
+            <Rotulo>Art. 56.</Rotulo>
+            
+            <Caput id="art56_cpt">
+            <!--Link: urn:lex:br:federal:lei:2024;14815-->
+            
+            
+            <p>
+    Até 31 de dezembro de 2043, as empresas de distribuição de vídeo doméstico deverão ter um percentual anual, fixado em regulamento, de obras brasileiras cinematográficas e videofonográficas entre seus títulos, ficando obrigadas a lançá-las comercialmente. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2024;14815">Lei nº 14.815, de 2024</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art56_par1u">
+            <!--Link: urn:lex:br:federal:lei:2024;14815-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Para elaborar o regulamento referido no caput deste artigo, o Poder Executivo deverá ouvir as entidades de caráter nacional representativas das atividades de produção, distribuição e comercialização de obras cinematográficas e videofonográficas. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2024;14815">Lei nº 14.815, de 2024</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art57">
+            
+            
+            <Rotulo>Art. 57.</Rotulo>
+            
+            <Caput id="art57_cpt">
+            
+            
+            
+            <p>
+    Poderá ser estabelecido, por lei, a obrigatoriedade de veiculação de obras cinematográficas e videofonográficas brasileiras de produção independente em outros segmentos de mercado além daqueles indicados nos arts. 55 e 56.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Capitulo id="cap9">
+            
+            
+            <Rotulo>CAPÍTULO IX</Rotulo>
+            <NomeAgrupador>
+    DAS PENALIDADES
+
+  </NomeAgrupador>
+            <Artigo id="art58">
+            
+            
+            <Rotulo>Art. 58.</Rotulo>
+            
+            <Caput id="art58_cpt">
+            
+            
+            
+            <p>
+    As empresas exibidoras, as distribuidoras e locadoras de vídeo, deverão ser autuadas pela ANCINE nos casos de não cumprimento das disposições desta Medida Provisória.
+
+  </p>
+            
+          </Caput><Paragrafo id="art58_par1u">
+            <!--Link: urn:lex:br:federal:lei:2012;12599-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Constitui embaraço à fiscalização, sujeitando o infrator à pena prevista no caput do art. 60: (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2012;12599">Lei nº 12.599, de 2012</span>) I - imposição de obstáculos ao livre acesso dos agentes da Ancine às entidades fiscalizadas; e (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2012;12599">Lei nº 12.599, de 2012</span>) II - o não atendimento da requisição de arquivos ou documentos comprobatórios do cumprimento das cotas legais de exibição e das obrigações tributárias relativas ao recolhimento da Condecine. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2012;12599">Lei nº 12.599, de 2012</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art59">
+            
+            
+            <Rotulo>Art. 59.</Rotulo>
+            
+            <Caput id="art59_cpt">
+            <!--Link: urn:lex:br:federal:lei:2024;14814--><!--Link: urn:lex:br:federal:lei:2012;12599-->
+            
+            
+            <p>
+    O descumprimento da obrigatoriedade de que trata o art. 55 desta Medida Provisória sujeitará o infrator a: (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2024;14814">Lei nº 14.814, de 2024</span>) I – advertência, em caso de descumprimento pontual considerado erro técnico escusável em decisão pública e fundamentada da Ancine; (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2024;14814">Lei nº 14.814, de 2024</span>) II – multa correspondente a 5% (cinco por cento) da receita bruta média diária do complexo cinematográfico em que se tenha verificado o descumprimento, multiplicada pelo número de sessões de descumprimento, na forma do regulamento. (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2024;14814">Lei nº 14.814, de 2024</span>) § 1<sup>o</sup> Se a receita bruta de bilheteria do complexo não puder ser apurada, será aplicado multa no valor de R$ 100,00 (cem reais) por dia de descumprimento multiplicado pelo número de salas do complexo. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2012;12599">Lei nº 12.599, de 2012</span>) § 2<sup>o</sup> A multa prevista neste artigo deverá respeitar o limite máximo estabelecido no caput do art. 60. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2012;12599">Lei nº 12.599, de 2012</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art59_par3">
+            <!--Link: urn:lex:br:federal:lei:2024;14814-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A multa prevista no inciso II do caput deste artigo poderá ter atenuantes e agravantes e ser substituída em Termo de Ajustamento de Conduta (TAC), nos termos do regulamento. (Incluído pela <span xlink:href="urn:lex:br:federal:lei:2024;14814">Lei nº 14.814, de 2024</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art60">
+            
+            
+            <Rotulo>Art. 60.</Rotulo>
+            
+            <Caput id="art60_cpt">
+            <!--Link: urn:lex:br:federal:lei:2024;14814-->
+            
+            
+            <p>
+    O não cumprimento do disposto nos arts. 17 a 19, 21, 24 a 26, 28, 29, 55 e 56 desta Medida Provisória sujeita os infratores a multas de até R$ 2.000.000,00 (dois milhões de reais), na forma do regulamento. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2024;14814">Lei nº 14.814, de 2024</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><p>(Revogado pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+</p><p>(Revogado pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+</p><p>(Revogado pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+</p><p>(Revogado pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+</p><Paragrafo id="par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Caso não seja possível apurar o valor da receita bruta referido no caput por falta de informações, a ANCINE arbitra-lo-á na forma do regulamento, que observará, isolada ou conjuntamente, dentre outros, os seguintes critérios:
+
+  </p>
+            <Inciso id="par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a receita bruta referente ao último período em que a pessoa jurídica manteve escrituração de acordo com as leis comerciais e fiscais, atualizado monetariamente;
+
+  </p>
+            
+          </Inciso><Inciso id="par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a soma dos valores do ativo circulante, realizável a longo prazo e permanente, existentes no último balanço patrimonial conhecido, atualizado monetariamente;
+
+  </p>
+            
+          </Inciso><Inciso id="par2_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    o valor do capital constante do último balanço patrimonial conhecido ou registrado nos atos de constituição ou alteração da sociedade, atualizado monetariamente;
+
+  </p>
+            
+          </Inciso><Inciso id="par2_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    o valor do patrimônio líquido constante do último balanço patrimonial conhecido, atualizado monetariamente;
+
+  </p>
+            
+          </Inciso><Inciso id="par2_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    o valor das compras de mercadorias efetuadas no mês;
+
+  </p>
+            
+          </Inciso><Inciso id="par2_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    a soma, em cada mês, dos valores da folha de pagamento dos empregados e das compras de matérias-primas, produtos intermediários e materiais de embalagem;
+
+  </p>
+            
+          </Inciso><Inciso id="par2_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    a soma dos valores devidos no mês a empregados; e
+
+  </p>
+            
+          </Inciso><Inciso id="par2_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    o valor mensal do aluguel devido.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Aplica-se, subsidiariamente, ao disposto neste artigo, as normas de arbitramento de lucro previstas no âmbito da legislação tributária federal.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="par4">
+            <!--Link: urn:lex:br:federal:lei:2002-05-13;10454-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Os veículos de comunicação que veicularem cópia ou original de obra cinematográfica ou obra videofonográfica publicitária, sem que conste na claquete de identificação o número do respectivo registro do título, pagarão multa correspondente a 3 (três) vezes o valor do contrato ou da veiculação. (Parágrafo incluído pela <span xlink:href="urn:lex:br:federal:lei:2002-05-13;10454">Lei nº 10.454, de 13.5.2002</span>)
+
+  </p>
+            
+          </Paragrafo><Artigo id="art61">
+            
+            
+            <Rotulo>Art. 61.</Rotulo>
+            
+            <Caput id="art61_cpt">
+            <!--Link: urn:lex:br:federal:lei:2006;11437-->
+            
+            
+            <p>
+    O descumprimento dos projetos executados com recursos recebidos do FNC alocados na categoria de programação específica denominada Fundo Setorial do Audiovisual e dos Funcines, a não-efetivação do investimento ou a sua realização em desacordo com o estatuído implica a devolução dos recursos acrescidos de: (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2006;11437">Lei nº 11.437, de 2006</span>).
+
+  </p>
+            <Inciso id="art61_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    juros moratórios equivalentes à taxa referencial do Sistema especial de Liquidação e Custódia - SELIC, para títulos federais, acumulados mensalmente, calculados a partir do primeiro dia do mês subseqüente ao do recebimento dos recursos até o mês anterior ao do pagamento e de um por cento no mês do pagamento;
+
+  </p>
+            
+          </Inciso><Inciso id="art61_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    multa de vinte por cento calculada sobre o valor total dos recursos.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Capitulo id="cap10">
+            
+            
+            <Rotulo>CAPÍTULO X</Rotulo>
+            <NomeAgrupador>
+    DISPOSIÇÕES TRANSITÓRIAS
+
+  </NomeAgrupador>
+            <Artigo id="art62">
+            
+            
+            <Rotulo>Art. 62.</Rotulo>
+            
+            <Caput id="art62_cpt">
+            
+            
+            
+            <p>
+    Durante os primeiros doze meses, contados a partir de 5 de setembro de 2001, a ANCINE ficará vinculada à Casa Civil da Presidência da República, que responderá pela sua supervisão durante esse período.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art63">
+            
+            
+            <Rotulo>Art. 63.</Rotulo>
+            
+            <Caput id="art63_cpt">
+            
+            
+            
+            <p>
+    A ANCINE constituirá, no prazo de vinte e quatro meses, a contar da data da sua implantação, o seu quadro próprio de pessoal, por meio da realização de concurso público de provas, ou de provas e títulos.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art64">
+            
+            
+            <Rotulo>Art. 64.</Rotulo>
+            
+            <Caput id="art64_cpt">
+            
+            
+            
+            <p>
+    Durante os primeiros vinte e quatro meses subseqüentes à sua instalação, a ANCINE poderá requisitar, com ônus, servidores e empregados de órgãos e entidades integrantes da administração pública.
+
+  </p>
+            
+          </Caput><Paragrafo id="art64_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Transcorrido o prazo a que se refere o caput, somente serão cedidos para a ANCINE servidores por ela requisitados para o exercício de cargos em comissão.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art64_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Durante os primeiros vinte e quatro meses subseqüentes à sua instalação, a ANCINE poderá complementar a remuneração do servidor ou empregado público requisitado, até o limite da remuneração do cargo efetivo ou emprego permanente ocupado no órgão ou na entidade de origem, quando a requisição implicar em redução dessa remuneração.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art65">
+            
+            
+            <Rotulo>Art. 65.</Rotulo>
+            
+            <Caput id="art65_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988--><!--Link: urn:lex:br:federal:lei:1993-12-09;8745--><!--Link: urn:lex:br:federal:lei:2003-05-28;10682-->
+            
+            
+            <p>
+    A ANCINE poderá efetuar, nos termos do art. 37, IX, da <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição</span>, e observado o disposto na <span xlink:href="urn:lex:br:federal:lei:1993-12-09;8745">Lei n</span><sup><span xlink:href="urn:lex:br:federal:lei:1993-12-09;8745">o</span></sup><span xlink:href="urn:lex:br:federal:lei:1993-12-09;8745"> 8.745, de 9 de dezembro de 1993</span>, contratação por tempo determinado, pelo prazo de doze meses, do pessoal técnico imprescindível ao exercício de suas competências institucionais. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2003-05-28;10682">Lei nº 10.682, de 28.5.2003</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art65_par1">
+            <!--Link: urn:lex:br:federal:lei:2003-05-28;10682-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As contratações referidas no caput poderão ser prorrogadas, desde que sua duração total não ultrapasse o prazo de vinte e quatro meses, ficando limitada sua vigência, em qualquer caso, a 5 de setembro de 2005. (Redação dada pela <span xlink:href="urn:lex:br:federal:lei:2003-05-28;10682">Lei nº 10.682, de 28.5.2003</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art65_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A remuneração do pessoal contratado temporariamente, terá como referência os valores definidos em ato conjunto da Agência e do órgão central do Sistema de Pessoal Civil da Administração Federal - SIPEC.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art65_par3">
+            <!--Link: urn:lex:br:federal:lei:1993-12-09;8745!art9--><!--Link: urn:lex:br:federal:lei:1993-12-09;8745!art10--><!--Link: urn:lex:br:federal:lei:1993-12-09;8745!art7--><!--Link: urn:lex:br:federal:lei:1993-12-09;8745!art16--><!--Link: urn:lex:br:federal:lei:1993-12-09;8745!art12--><!--Link: urn:lex:br:federal:lei:1993-12-09;8745!art8--><!--Link: urn:lex:br:federal:lei:1993-12-09;8745!art11-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Aplica-se ao pessoal contratado temporariamente pela Agência, o disposto nos arts. 5<sup>o</sup> e 6<sup>o</sup>, no parágrafoúnico do <span xlink:href="urn:lex:br:federal:lei:1993-12-09;8745!art7">art. 7</span><sup><span xlink:href="urn:lex:br:federal:lei:1993-12-09;8745!art7">o</span></sup>, nos <span xlink:href="urn:lex:br:federal:lei:1993-12-09;8745!art8">arts. 8</span><sup><span xlink:href="urn:lex:br:federal:lei:1993-12-09;8745!art8">o</span></sup>, <span xlink:href="urn:lex:br:federal:lei:1993-12-09;8745!art9">9</span><sup><span xlink:href="urn:lex:br:federal:lei:1993-12-09;8745!art9">o</span></sup>, <span xlink:href="urn:lex:br:federal:lei:1993-12-09;8745!art10">10</span>, <span xlink:href="urn:lex:br:federal:lei:1993-12-09;8745!art11">11</span>,<span xlink:href="urn:lex:br:federal:lei:1993-12-09;8745!art12">12</span> e <span xlink:href="urn:lex:br:federal:lei:1993-12-09;8745!art16">16 da Lei n</span><sup><span xlink:href="urn:lex:br:federal:lei:1993-12-09;8745!art16">o</span></sup><span xlink:href="urn:lex:br:federal:lei:1993-12-09;8745!art16"> 8.745, de 9 de dezembro de 1993</span>.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art66">
+            
+            
+            <Rotulo>Art. 66.</Rotulo>
+            
+            <Caput id="art66_cpt">
+            <!--Link: urn:lex:br:federal:decreto:2002-11-04;4456-->
+            
+            
+            <p>
+    Fica o Poder Executivo autorizado a: (Vide <span xlink:href="urn:lex:br:federal:decreto:2002-11-04;4456">Decreto nº 4.456, de 4.11.2002</span>)
+
+  </p>
+            <Inciso id="art66_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    transferir para a ANCINE os acervos técnico e patrimonial, as obrigações e os direitos da Divisão de Registro da Secretaria para Desenvolvimento do Audiovisual do Ministério da Cultura, bem como aqueles correspondentes a outras atividades atribuídas à Agência por esta Medida Provisória;
+
+  </p>
+            
+          </Inciso><Inciso id="art66_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:2000-07-25;9995!art3_par2-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    remanejar, transpor, transferir, ou utilizar, a partir da instalação da ANCINE, as dotações orçamentárias aprovadas na Lei Orçamentária de 2001, consignadas ao Ministério da Cultura, referentes às atribuições transferidas para aquela autarquia, mantida a mesma classificação orçamentária, expressa por categoria de programação em seu menor nível, observado o disposto no <span xlink:href="urn:lex:br:federal:lei:2000-07-25;9995!art3_par2">§ 2</span><sup><span xlink:href="urn:lex:br:federal:lei:2000-07-25;9995!art3_par2">o</span></sup><span xlink:href="urn:lex:br:federal:lei:2000-07-25;9995!art3_par2"> do art. 3</span><sup><span xlink:href="urn:lex:br:federal:lei:2000-07-25;9995!art3_par2">o</span></sup><span xlink:href="urn:lex:br:federal:lei:2000-07-25;9995!art3_par2"> da Lei n</span><sup><span xlink:href="urn:lex:br:federal:lei:2000-07-25;9995!art3_par2">o</span></sup><span xlink:href="urn:lex:br:federal:lei:2000-07-25;9995!art3_par2"> 9.995, de 25 de julho de 2000</span>, assim como o respectivo detalhamento por esfera orçamentária, grupos de despesa, fontes de recursos, modalidades de aplicação e identificadores de uso.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art67">
+            
+            
+            <Rotulo>Art. 67.</Rotulo>
+            
+            <Caput id="art67_cpt">
+            <!--Link: urn:lex:br:federal:lei:1993;8685--><!--Link: urn:lex:br:federal:lei:1991;8313-->
+            
+            
+            <p>
+    No prazo máximo de um ano, contado a partir de 5 de setembro de 2001, deverá ser editado regulamento dispondo sobre a forma de transferência para a ANCINE, dos processos relativos à aprovação de projetos com base nas <span xlink:href="urn:lex:br:federal:lei:1993;8685">Lei n</span><sup><span xlink:href="urn:lex:br:federal:lei:1993;8685">o</span></sup><span xlink:href="urn:lex:br:federal:lei:1993;8685"> 8.685, de 1993</span>, e <span xlink:href="urn:lex:br:federal:lei:1991;8313">Lei n</span><sup><span xlink:href="urn:lex:br:federal:lei:1991;8313">o</span></sup><span xlink:href="urn:lex:br:federal:lei:1991;8313"> 8.313, de 1991</span>, inclusive os já aprovados. (Regulamento)
+
+  </p>
+            
+          </Caput><Paragrafo id="art67_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Até que os processos referidos no caput sejam transferidos para a ANCINE, a sua análise e acompanhamento permanecerão a cargo do Ministério da Cultura.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art68">
+            
+            
+            <Rotulo>Art. 68.</Rotulo>
+            
+            <Caput id="art68_cpt">
+            
+            
+            
+            <p>
+    Na primeira gestão da ANCINE, um diretor terá mandato de dois anos, um de três anos, um de quatro anos e um de cinco anos, para implementar o sistema de mandatos não coincidentes.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art69">
+            
+            
+            <Rotulo>Art. 69.</Rotulo>
+            
+            <Caput id="art69_cpt">
+            
+            
+            
+            <p>
+    Cabe à Advocacia-Geral da União a representação nos processos judiciais em que a ANCINE seja parte ou interessada, até a implantação da sua Procuradoria-Geral.
+
+  </p>
+            
+          </Caput><Paragrafo id="art69_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O Ministério da Cultura, por intermédio de sua Consultoria Jurídica, promoverá, no prazo de cento e oitenta dias, contados a partir de 5 de setembro de 2001, levantamento dos processos judiciais em curso envolvendo matéria cuja competência tenha sido transferida para a ANCINE, a qual o substituirá nos respectivos processos.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art70">
+            
+            
+            <Rotulo>Art. 70.</Rotulo>
+            
+            <Caput id="art70_cpt">
+            
+            
+            
+            <p>
+    A instalação da ANCINE dar-se-á em até cento e vinte dias, a partir de 5 de setembro de 2001 e o início do exercício de suas competências a partir da publicação de sua estrutura regimental em ato do Presidente da República. (Regulamento)
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap11">
+            
+            
+            <Rotulo>CAPÍTULO XI</Rotulo>
+            <NomeAgrupador>
+    DISPOSIÇÕES GERAIS E FINAIS
+
+  </NomeAgrupador>
+            <Artigo id="art71">
+            
+            
+            <Rotulo>Art. 71.</Rotulo>
+            
+            <Caput id="art71_cpt">
+            
+            
+            
+            <p>
+    É vedado aos empregados, aos requisitados, aos ocupantes de cargos comissionados e aos dirigentes da ANCINE o exercício de outra atividade profissional, inclusive gestão operacional de empresa, ou direção político-partidária, excetuados os casos admitidos em lei.
+
+  </p>
+            
+          </Caput><Paragrafo id="art71_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    No caso de o dirigente da ANCINE ser sócio-controlador de empresa relacionada com a indústria cinematográfica e videofonográfica, fica a mesma impedida de utilizar-se de recursos públicos ou incentivos fiscais durante o período em que o dirigente estiver no exercício de suas funções.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art72">
+            
+            
+            <Rotulo>Art. 72.</Rotulo>
+            
+            <Caput id="art72_cpt">
+            
+            
+            
+            <p>
+    Ficam criados para exercício na ANCINE os cargos comissionados dispostos no Anexo II desta Medida Provisória.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><p>(Revogado pela <span xlink:href="urn:lex:br:federal:lei:2006;11314">Lei nº 11.314, de 2006</span>).
+</p><Artigo id="art74">
+            
+            
+            <Rotulo>Art. 74.</Rotulo>
+            
+            <Caput id="art74_cpt">
+            
+            
+            
+            <p>
+    O Poder Executivo estimulará a associação de capitais nacionais e estrangeiros, inclusive por intermédio dos mecanismos de conversão da dívida externa, para o financiamento a empresas e a projetos voltados às atividades de que trata esta Medida Provisória, na forma do regulamento.
+
+  </p>
+            
+          </Caput><Paragrafo id="art74_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Os depósitos em nome de credores estrangeiros à ordem do Banco Central do Brasil serão liberados pelo seu valor de face, em montante a ser fixado por aquele Banco.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art75">
+            
+            
+            <Rotulo>Art. 75.</Rotulo>
+            
+            <Caput id="art75_cpt">
+            
+            
+            
+            <p>
+    Esta Medida Provisória será regulamentada pelo Poder Executivo.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art76">
+            
+            
+            <Rotulo>Art. 76.</Rotulo>
+            
+            <Caput id="art76_cpt">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2001-09-04;2219-->
+            
+            
+            <p>
+    Ficam convalidados os atos praticados com base na <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-04;2219">Medida Provisória n</span><sup><span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-04;2219">o</span></sup><span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-04;2219"> 2.219, de 4 de setembro de 2001</span>.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art77">
+            
+            
+            <Rotulo>Art. 77.</Rotulo>
+            
+            <Caput id="art77_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1966-11-18;43!art11_cpt_inc2--><!--Link: urn:lex:br:federal:decreto.lei:1981-12-21;1900--><!--Link: urn:lex:br:federal:lei:1992-01-08;8401--><!--Link: urn:lex:br:federal:medida.provisoria:2001-09-04;2219-->
+            
+            
+            <p>
+    Ficam revogados o <span xlink:href="urn:lex:br:federal:decreto.lei:1966-11-18;43!art11_cpt_inc2">inciso II do art. 11 do Decreto-Lei n</span><sup><span xlink:href="urn:lex:br:federal:decreto.lei:1966-11-18;43!art11_cpt_inc2">o</span></sup><span xlink:href="urn:lex:br:federal:decreto.lei:1966-11-18;43!art11_cpt_inc2"> 43, de 18 de novembro de 1966</span>, o <span xlink:href="urn:lex:br:federal:decreto.lei:1981-12-21;1900">Decreto-Lei n</span><sup><span xlink:href="urn:lex:br:federal:decreto.lei:1981-12-21;1900">o</span></sup><span xlink:href="urn:lex:br:federal:decreto.lei:1981-12-21;1900"> 1.900, de 21 de dezembro de 1981</span>, a <span xlink:href="urn:lex:br:federal:lei:1992-01-08;8401">Lei n</span><sup><span xlink:href="urn:lex:br:federal:lei:1992-01-08;8401">o</span></sup><span xlink:href="urn:lex:br:federal:lei:1992-01-08;8401"> 8.401, de 8 de janeiro de 1992</span>, e a <span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-04;2219">Medida Provisória n</span><sup><span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-04;2219">o</span></sup><span xlink:href="urn:lex:br:federal:medida.provisoria:2001-09-04;2219"> 2.219, de 4 de setembro de 2001</span>.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art78">
+            
+            
+            <Rotulo>Art. 78.</Rotulo>
+            
+            <Caput id="art78_cpt">
+            
+            
+            
+            <p>
+    Esta Medida Provisória entra em vigor na data de sua publicação.
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 6 de setembro de 2001; 180o da Independência e 113o da República.</p></LocalDataFecho><Assinatura><NomePessoa>FERNANDO HENRIQUE CARDOSO</NomePessoa><NomePessoa>Sérgio Silva do Amaral</NomePessoa><NomePessoa>Francisco Weffort</NomePessoa><NomePessoa>Pedro Parente</NomePessoa><NomePessoa>Este texto não substitui o publicado no DOU de 10.9.2001</NomePessoa></Assinatura></ParteFinal>
+          <Anexos><ReferenciaAnexo AlvoURN="urn:lex:br:federal:medida.provisoria:2001-09-06;1!anexo1"/><ReferenciaAnexo AlvoURN="urn:lex:br:federal:medida.provisoria:2001-09-06;1!anexo2"/></Anexos>
+        </Norma></ProjetoNorma>
+    </LexML>

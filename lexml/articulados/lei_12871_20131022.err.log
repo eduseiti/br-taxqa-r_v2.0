@@ -1,0 +1,12 @@
+# CMD: java -jar ../lexml-parser-projeto-lei/target/lexml-parser-projeto-lei-1.15.0-onejar.jar parse -m application/vnd.openxmlformats-officedocument.wordprocessingml.document -i original/articulados/lei_12871_20131022.docx -o lexml/lei_12871_20131022.xml --write-errors-to-file lexml/lei_12871_20131022.err.log -a federal -t lei -n 12871 --data 2013-10-22 --linker /usr/local/bin/linkertool
+# ---
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(I – do Caput do Art. 19-D. (no CAPÍTULO IV), III – do Caput do Art. 19-D. (no CAPÍTULO IV)), msg = None, context=List()
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Parágrafo único. do Art. 20. (no CAPÍTULO IV), § 1º do Art. 20. (no CAPÍTULO IV)), msg = None, context=List()
+
+Problem type = [5: Rótulo repetido, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Parágrafo único. do Art. 20. (no CAPÍTULO IV)), msg = None, context=ArraySeq(Art. 20., CAPÍTULO IV)
+
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 20. do Parágrafo único.), msg = None, context=ArraySeq(Parágrafo único.:Art. 20., § 1º:Art. 20.)
+
+Problem type = [6: Rótulo único não aparece sozinho., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Parágrafo único. do Art. 20. (no CAPÍTULO IV), Caput do Art. 20. (no CAPÍTULO IV)), msg = None, context=ArraySeq(Art. 20., CAPÍTULO IV)
+

@@ -1,0 +1,26 @@
+<LexML xmlns="http://www.lexml.gov.br/1.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <Metadado>
+    <Identificacao URN="urn:lex:br:federal:ato.declaratorio:2005;38"/>
+  </Metadado>
+  <DocumentoGenerico>
+    <PartePrincipal id="pp1">
+      <Agrupamento id="pp1_agr1" nome="preliminar">
+        <p>ATO DECLARATÓRIO DO PRESIDENTE DA MESA DO</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agr2" nome="epigrafe">
+        <p>CONGRESSO NACIONAL Nº 38, DE 2005</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agr3" nome="ementa">
+        <p>O PRESIDENTE DA MESA DO CONGRESSO NACIONAL, nos termos do parágrafo único do art. 14 da Resolução nº 1, de 2002-CN, faz saber que a <Remissao xlink:href="urn:lex:br:federal:medida.provisoria:2005-06-15;252">Medida Provisória nº 252, de 15 de junho de 2005</Remissao>, que "Institui o Regime Especial de Tributação para a Plataforma de Exportação de Serviços de Tecnologia da Informação - REPES, o Regime Especial de Aquisição de Bens de Capital para Empresas Exportadoras - RECAP e o Programa de Inclusão Digital, dispõe sobre incentivos fiscais para a inovação tecnológica e dá outras providências . ", teve seu prazo de vigência encerrado no dia 13 de outubro do corrente ano.</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agrf1" nome="localDataFecho">
+        <p>Congresso Nacional, em 14 de outubro de 2005</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agrf2" nome="nota">
+        <p>Senador RENAN CALHEIROS</p>
+        <p>Presidente da Mesa do Congresso Nacional</p>
+        <p>Este texto não substitui o publicado no D.O.U. de 17.10.2005</p>
+      </Agrupamento>
+    </PartePrincipal>
+  </DocumentoGenerico>
+</LexML>

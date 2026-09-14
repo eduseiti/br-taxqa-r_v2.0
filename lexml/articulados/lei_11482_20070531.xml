@@ -1,0 +1,1301 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:2007-05-31;11482"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">LEI Nº 11.482, DE 31 DE MAIO DE 2007 </Epigrafe>
+		  <Ementa id="ementa">Efetua alterações na tabela do imposto de renda da pessoa física; dispõe sobre a redução a 0 (zero) da alíquota da CPMF nas hipóteses que menciona; altera as <span xlink:href="urn:lex:br:federal:lei:1988-12-22;7713">Leis nºs 7.713, de 22 de dezembro de 1988</span>, <span xlink:href="urn:lex:br:federal:lei:1995-12-26;9250">9.250, de 26 de dezembro de 1995</span>, <span xlink:href="urn:lex:br:federal:lei:2005-06-28;11128">11.128, de 28 de junho de 2005</span>, <span xlink:href="urn:lex:br:federal:lei:1996-10-24;9311">9.311, de 24 de outubro de 1996</span>, <span xlink:href="urn:lex:br:federal:lei:2001-07-12;10260">10.260, de 12 de julho de 2001</span>, <span xlink:href="urn:lex:br:federal:lei:1974-12-19;6194">6.194, de 19 de dezembro de 1974</span>, <span xlink:href="urn:lex:br:federal:lei:1991-12-30;8387">8.387, de 30 de dezembro de 1991</span>, <span xlink:href="urn:lex:br:federal:lei:1997-01-08;9432">9.432, de 8 de janeiro de 1997</span>, <span xlink:href="urn:lex:br:federal:lei:1973-09-10;5917">5.917, de 10 de setembro de 1973</span>, <span xlink:href="urn:lex:br:federal:lei:1992-01-08;8402">8.402, de 8 de janeiro de 1992</span>, <span xlink:href="urn:lex:br:federal:lei:1974-08-30;6094">6.094, de 30 de agosto de 1974</span>, <span xlink:href="urn:lex:br:federal:lei:1994-06-11;8884">8.884, de 11 de junho de 1994</span>, <span xlink:href="urn:lex:br:federal:lei:2004-04-30;10865">10.865, de 30 de abril de 2004</span>, <span xlink:href="urn:lex:br:federal:lei:1993-09-14;8706">8.706, de 14 de setembro de 1993</span>; revoga dispositivos das <span xlink:href="urn:lex:br:federal:lei:2005-05-25;11119">Leis nºs 11.119, de 25 de maio de 2005</span>, <span xlink:href="urn:lex:br:federal:lei:2006-06-13;11311">11.311, de 13 de junho de 2006</span>, <span xlink:href="urn:lex:br:federal:lei:2005-11-21;11196">11.196, de 21 de novembro de 2005</span>, e do <span xlink:href="urn:lex:br:federal:decreto.lei:1988-05-19;2433">Decreto-Lei nº 2.433, de 19 de maio de 1988</span>; e dá outras providências.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA
+  </p><p>
+    Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    O imposto de renda incidente sobre os rendimentos de pessoas físicas será calculado de acordo com as seguintes tabelas progressivas mensais, em reais:
+
+  </p>
+            <Inciso id="art1_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    para o ano-calendário de 2007: Tabela Progressiva Mensal
+
+  </p>
+            <table id="art1_cpt_inc1_tab1"><tr><td>Base de Cálculo (R$)</td><td>Alíquota (%)</td><td>Parcela a Deduzir do IR (R$)</td></tr><tr><td>Até 1.313,69</td><td>-</td><td>-</td></tr><tr><td>De 1.313,70 até 2.625,12</td><td>15</td><td>197,05</td></tr><tr><td>Acima de 2.625,13</td><td>27,5</td><td>525,19</td></tr></table>
+          </Inciso><Inciso id="art1_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    para o ano-calendário de 2008: Tabela Progressiva Mensal
+
+  </p>
+            <table id="art1_cpt_inc2_tab1"><tr><td>Base de Cálculo (R$)</td><td>Alíquota (%)</td><td>Parcela a Deduzir do IR (R$)</td></tr><tr><td>Até 1.372,81</td><td>-</td><td>-</td></tr><tr><td>De 1.372,82 até 2.743,25</td><td>15</td><td>205,92</td></tr><tr><td>Acima de 2.743,25</td><td>27,5</td><td>548,82</td></tr></table>
+          </Inciso><Inciso id="art1_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:2009-06-04;11945-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    para o ano-calendário de 2009: (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2009-06-04;11945">Lei nº 11.945, de 4.6.2009</span>, produzindo efeitos a partir de 1.1.2009) Tabela Progressiva Mensal
+
+  </p>
+            <table id="art1_cpt_inc3_tab1"><tr><td>Base de Cálculo Mensal (R$)</td><td>Alíquota (%)</td><td>Parcela a Deduzir do IR (R$)</td></tr><tr><td>Até 1.434,59</td><td>-</td><td>-</td></tr><tr><td>De 1.434,60 até 2.150,00</td><td>7,5</td><td>107,59</td></tr><tr><td>De 2.150,01 até 2.866,70</td><td>15</td><td>268,84</td></tr><tr><td>De 2.866,71 até 3.582,00</td><td>22,5</td><td>483,84</td></tr><tr><td>Acima de 3.582,00</td><td>27,5</td><td>662,94</td></tr></table>
+          </Inciso><Inciso id="art1_cpt_inc4">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2011-03-25;528--><!--Link: urn:lex:br:federal:lei:2011-08-26;12469-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    para o ano-calendário de 2010: (“Caput” do inciso com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2011-03-25;528">Medida Provisória nº 528, de 25.3.2011</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2011-08-26;12469">Lei nº 12.469, de 26.8.2011</span>, produzindo efeitos a partir de 1.4.2011) Tabela Progressiva Mensal
+
+  </p>
+            <table id="art1_cpt_inc4_tab1"><tr><td>Base de Cálculo (R$)</td><td>Alíquota (%)</td><td>Parcela a Deduzir do IR (R$)</td></tr><tr><td>Até 1.499,15</td><td>-</td><td>-</td></tr><tr><td>De 1.499,16 até 2.246,75</td><td>7,5</td><td>112,43</td></tr><tr><td>De 2.246,76 até 2.995,70</td><td>15</td><td>280,94</td></tr><tr><td>De 2.995,71 até 3.743,19</td><td>22,5</td><td>505,62</td></tr><tr><td>Acima de 3.743,19</td><td>27,5</td><td>692,78</td></tr></table>
+          </Inciso><Inciso id="art1_cpt_inc5">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2011-03-25;528--><!--Link: urn:lex:br:federal:lei:2011-08-26;12469--><!--Link: urn:lex:br:federal:lei:2007-05-31;11482!art1_par1u-->
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    para o ano-calendário de 2011: (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2011-03-25;528">Medida Provisória nº 528, de 25.3.2011</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2011-08-26;12469">Lei nº 12.469, de 26.8.2011</span>, produzindo efeitos a partir de 1.4.2011, e a partir de 1.1.2011, para fins do disposto no <span xlink:href="urn:lex:br:federal:lei:2007-05-31;11482!art1_par1u">parágrafo único do art. 1º da Lei nº 11.482, de 31.5.2007</span>, relativamente ao ano-calendário de 2011) Tabela Progressiva Mensal
+
+  </p>
+            <table id="art1_cpt_inc5_tab1"><tr><td>Base de Cálculo (R$)</td><td>Alíquota (%)</td><td>Parcela a Deduzir do IR (R$)</td></tr><tr><td>Até 1.566,61</td><td>-</td><td>-</td></tr><tr><td>De 1.566,62 até 2.347,85</td><td>7,5</td><td>117,49</td></tr><tr><td>De 2.347,86 até 3.130,51</td><td>15</td><td>293,58</td></tr><tr><td>De 3.130,52 até 3.911,63</td><td>22,5</td><td>528,37</td></tr><tr><td>Acima de 3.911,63</td><td>27,5</td><td>723,95</td></tr></table>
+          </Inciso><Inciso id="art1_cpt_inc6">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2011-03-25;528--><!--Link: urn:lex:br:federal:lei:2011-08-26;12469-->
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    para o ano-calendário de 2012: (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2011-03-25;528">Medida Provisória nº 528, de 25.3.2011</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2011-08-26;12469">Lei nº 12.469, de 26.8.2011</span>, produzindo efeitos a partir de 1.4.2011) Tabela Progressiva Mensal
+
+  </p>
+            <table id="art1_cpt_inc6_tab1"><tr><td>Base de Cálculo (R$)</td><td>Alíquota (%)</td><td>Parcela a Deduzir do IR (R$)</td></tr><tr><td>Até 1.637,11</td><td>-</td><td>-</td></tr><tr><td>De 1.637,12 até 2.453,50</td><td>7,5</td><td>122,78</td></tr><tr><td>De 2.453,51 até 3.271,38</td><td>15</td><td>306,80</td></tr><tr><td>De 3.271,39 até 4.087,65</td><td>22,5</td><td>552,15</td></tr><tr><td>Acima de 4.087,65</td><td>27,5</td><td>756,53</td></tr></table>
+          </Inciso><Inciso id="art1_cpt_inc7">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2011-03-25;528--><!--Link: urn:lex:br:federal:lei:2011-08-26;12469-->
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    para o ano-calendário de 2013: (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2011-03-25;528">Medida Provisória nº 528, de 25.3.2011</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2011-08-26;12469">Lei nº 12.469, de 26.8.2011</span>, produzindo efeitos a partir de 1.4.2011) Tabela Progressiva Mensal
+
+  </p>
+            <table id="art1_cpt_inc7_tab1"><tr><td>Base de Cálculo (R$)</td><td>Alíquota (%)</td><td>Parcela a Deduzir do IR (R$)</td></tr><tr><td>Até 1.710,78</td><td>-</td><td>-</td></tr><tr><td>De 1.710,79 até 2.563,91</td><td>7,5</td><td>128,31</td></tr><tr><td>De 2.563,92 até 3.418,59</td><td>15</td><td>320,60</td></tr><tr><td>De 3.418,60 até 4.271,59</td><td>22,5</td><td>577,00</td></tr><tr><td>Acima de 4.271,59</td><td>27,5</td><td>790,58</td></tr></table>
+          </Inciso><Inciso id="art1_cpt_inc8">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2011-03-25;528--><!--Link: urn:lex:br:federal:lei:2011-08-26;12469--><!--Link: urn:lex:br:federal:medida.provisoria:2015-03-10;670--><!--Link: urn:lex:br:federal:lei:2015-07-21;13149-->
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    para o ano-calendário de 2014 e nos meses de janeiro a março do ano-calendário de 2015: (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2011-03-25;528">Medida Provisória nº 528, de 25.3.2011</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2011-08-26;12469">Lei nº 12.469, de 26.8.2011</span>, produzindo efeitos a partir de 1.4.2011 e com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2015-03-10;670">Medida Provisória nº 670, de 10.3.2015</span> , convertida na <span xlink:href="urn:lex:br:federal:lei:2015-07-21;13149">Lei nº 13.149, de 21.7.2015</span>) Tabela Progressiva Mensal
+
+  </p>
+            <table id="art1_cpt_inc8_tab1"><tr><td>Base de Cálculo (R$)</td><td>Alíquota (%)</td><td>Parcela a Deduzir do IR (R$)</td></tr><tr><td>Até 1.787,77</td><td>-</td><td>-</td></tr><tr><td>De 1.787,78 até 2.679,29</td><td>7,5</td><td>134,08</td></tr><tr><td>De 2.679,30 até 3.572,43</td><td>15</td><td>335,03</td></tr><tr><td>De 3.572,44 até 4.463,81</td><td>22,5</td><td>602,96</td></tr><tr><td>Acima de 4.463,81</td><td>27,5</td><td>826,15</td></tr></table>
+          </Inciso><Inciso id="art1_cpt_inc9">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2015-03-10;670--><!--Link: urn:lex:br:federal:lei:2015-07-21;13149--><!--Link: urn:lex:br:federal:lei:2023-08-28;14663-->
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    a partir do mês de abril do ano-calendário de 2015 até o mês de abril do ano-calendário de 2023: (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2015-03-10;670">Medida Provisória nº 670, de 10.3.2015</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2015-07-21;13149">Lei nº 13.149, de 21.7.2015</span>, com nova redação dada pela <span xlink:href="urn:lex:br:federal:lei:2023-08-28;14663">Lei nº 14.663, de 28.8.2023</span>) Tabela Progressiva Mensal
+
+  </p>
+            <table id="art1_cpt_inc9_tab1"><tr><td>Base de Cálculo (R$)</td><td>Alíquota (%)</td><td>Parcela a Deduzir do IR (R$)</td></tr><tr><td>Até 1.903,98</td><td>-</td><td>-</td></tr><tr><td>De 1.903,99 até 2.826,65</td><td>7,5</td><td>142,80</td></tr><tr><td>De 2.826,66 até 3.751,05</td><td>15</td><td>354,80</td></tr><tr><td>De 3.751,06 até 4.664,68</td><td>22,5</td><td>636,13</td></tr><tr><td>Acima de 4.664,68</td><td>27,5</td><td>869,36</td></tr></table>
+          </Inciso><Inciso id="art1_cpt_inc10">
+            <!--Link: urn:lex:br:federal:lei:2023-08-28;14663-->
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    a partir do mês de maio do ano-calendário de 2023 até o mês de janeiro do ano-calendário de 2024: (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2023-08-28;14663">Lei nº 14.663, de 28.8.2023</span>, e com nova redação dada pela Lei nº 14.848, de 1º/5/2024) Tabela Progressiva Mensal
+
+  </p>
+            <table id="art1_cpt_inc10_tab1"><tr><td>Base de Cálculo (R$)</td><td>Alíquota (%)</td><td>Parcela a Deduzir do IR (R$)</td></tr><tr><td>Até 2.112,00</td><td>0</td><td>0</td></tr><tr><td>De 2.112,01 até 2.826,65</td><td>7,5</td><td>158,40</td></tr><tr><td>De 2.826,66 até 3.751,05</td><td>15</td><td>370,40</td></tr><tr><td>De 3.751,06 até 4.664,68</td><td>22,5</td><td>651,73</td></tr><tr><td>Acima de 4.664,68</td><td>27,5</td><td>884,96</td></tr></table>
+          </Inciso><Inciso id="art1_cpt_inc11">
+            <!--Link: urn:lex:br:federal:lei:2025-08-11;15191-->
+            
+            <Rotulo>XI –</Rotulo>
+            <p>
+    a partir do mês de fevereiro do ano-calendário de 2024 até o mês de abril do ano-calendário de 2025: (Inciso acrescido pela Lei nº 14.848, de 1º/5/2024, e com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2025-08-11;15191">Lei nº 15.191, de 11.8.2025</span>) Tabela Progressiva Mensal
+
+  </p>
+            <table id="art1_cpt_inc11_tab1"><tr><td>Base de Cálculo (R$)</td><td>Alíquota (%)</td><td>Parcela a Deduzir do IR (R$)</td></tr><tr><td>Até 2.259,20</td><td>0</td><td>0</td></tr><tr><td>De 2.259,21 até 2.826,65</td><td>7,5</td><td>169,44</td></tr><tr><td>De 2.826,66 até 3.751,05</td><td>15</td><td>381,44</td></tr><tr><td>De 3.751,06 até 4.664,68</td><td>22,5</td><td>662,77</td></tr><tr><td>Acima de 4.664,68</td><td>27,5</td><td>896,00</td></tr></table>
+          </Inciso><Inciso id="art1_cpt_inc12">
+            <!--Link: urn:lex:br:federal:lei:2025-08-11;15191-->
+            
+            <Rotulo>XII –</Rotulo>
+            <p>
+    a partir do mês de maio do ano-calendário de 2025: (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2025-08-11;15191">Lei nº 15.191, de 11.8.2025</span>) Tabela Progressiva Mensal
+
+  </p>
+            <table id="art1_cpt_inc12_tab1"><tr><td>BasedeCálculo(R$)</td><td>Alíquota(%)</td><td>ParcelaaDeduzirdoIR(R$)</td></tr><tr><td>Até2.428,80</td><td>0</td><td>0</td></tr><tr><td>De2.428,81até2.826,65</td><td>7,5</td><td>182,16</td></tr><tr><td>De2.826,66até3.751,05</td><td>15</td><td>394,16</td></tr><tr><td>De3.751,06até4.664,68</td><td>22,5</td><td>675,49</td></tr><tr><td>Acimade4.664,68</td><td>27,5</td><td>908,73</td></tr></table>
+          </Inciso>
+          </Caput><Paragrafo id="art1_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O imposto de renda anual devido incidente sobre os rendimentos de que trata o caput deste artigo será calculado de acordo com tabela progressiva anual correspondente à soma das tabelas progressivas mensais vigentes nos meses de cada ano-calendário.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            <!--Link: urn:lex:br:federal:lei:1988-12-22;7713!art6_cpt_inc15-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1988-12-22;7713!art6_cpt_inc15">inciso XV do caput do art. 6º da Lei nº 7.713, de 22 de dezembro de 1988</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1988-12-22;7713" id="art2_cpt_alt1">              
+              <Artigo xlink:href="art6" id="art2_cpt_alt1_art6" abreAspas="s">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput xlink:href="art6_cpt" id="art2_cpt_alt1_art6_cpt" textoOmitido="s">
+            
+            
+            
+            
+            <Inciso xlink:href="art6_cpt_inc15" id="art2_cpt_alt1_art6_cpt_inc15">
+            
+            
+            <Rotulo>XV –</Rotulo>
+            <p>
+    os rendimentos provenientes de aposentadoria e pensão, de transferência para a reserva remunerada ou de reforma pagos pela Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios, por qualquer pessoa jurídica de direito público interno ou por entidade de previdência privada, a partir do mês em que o contribuinte completar 65 (sessenta e cinco) anos de idade, sem prejuízo da parcela isenta prevista na tabela de incidência mensal do imposto, até o valor de:
+
+  </p>
+            <Alinea xlink:href="art6_cpt_inc15_ali1" id="art2_cpt_alt1_art6_cpt_inc15_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    R$ 1.313,69 (mil, trezentos e treze reais e sessenta e nove centavos), por mês, para o anocalendário de 2007;
+
+  </p>
+            
+          </Alinea><Alinea xlink:href="art6_cpt_inc15_ali2" id="art2_cpt_alt1_art6_cpt_inc15_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    R$ 1.372,81 (mil, trezentos e setenta e dois reais e oitenta e um centavos), por mês, para o ano-calendário de 2008;
+
+  </p>
+            
+          </Alinea><Alinea xlink:href="art6_cpt_inc15_ali3" id="art2_cpt_alt1_art6_cpt_inc15_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    R$ 1.434,59 (mil, quatrocentos e trinta e quatro reais e cinqüenta e nove centavos), por mês, para o ano-calendário de 2009;
+
+  </p>
+            
+          </Alinea><Alinea xlink:href="art6_cpt_inc15_ali4" id="art2_cpt_alt1_art6_cpt_inc15_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    R$ 1.499,15 (mil, quatrocentos e noventa e nove reais e quinze centavos), por mês, a partir do ano-calendário de 2010;
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput><Omissis id="art2_cpt_alt1_art6_omi1" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            <!--Link: urn:lex:br:federal:lei:1995-12-26;9250!art4--><!--Link: urn:lex:br:federal:lei:1995-12-26;9250!art8--><!--Link: urn:lex:br:federal:lei:1995-12-26;9250!art10-->
+            
+            
+            <p>
+    Os <span xlink:href="urn:lex:br:federal:lei:1995-12-26;9250!art4">arts. 4º</span>, <span xlink:href="urn:lex:br:federal:lei:1995-12-26;9250!art8">8º</span> e <span xlink:href="urn:lex:br:federal:lei:1995-12-26;9250!art10">10 da Lei nº 9.250, de 26 de dezembro de 1995</span>, passam a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1995-12-26;9250" id="art3_cpt_alt1">              
+              <Artigo xlink:href="art4" id="art3_cpt_alt1_art4" abreAspas="s">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput xlink:href="art4_cpt" id="art3_cpt_alt1_art4_cpt" textoOmitido="s">
+            
+            
+            
+            
+            <Inciso xlink:href="art4_cpt_inc3" id="art3_cpt_alt1_art4_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    a quantia, por dependente, de:
+
+  </p>
+            <Alinea xlink:href="art4_cpt_inc3_ali1" id="art3_cpt_alt1_art4_cpt_inc3_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    R$ 132,05 (cento e trinta e dois reais e cinco centavos), para o ano-calendário de 2007;
+
+  </p>
+            
+          </Alinea><Alinea xlink:href="art4_cpt_inc3_ali2" id="art3_cpt_alt1_art4_cpt_inc3_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    R$ 137,99 (cento e trinta e sete reais e noventa e nove centavos), para o ano-calendário de 2008;
+
+  </p>
+            
+          </Alinea><Alinea xlink:href="art4_cpt_inc3_ali3" id="art3_cpt_alt1_art4_cpt_inc3_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    R$ 144,20 (cento e quarenta e quatro reais e vinte centavos), para o ano-calendário de 2009;
+
+  </p>
+            
+          </Alinea><Alinea xlink:href="art4_cpt_inc3_ali4" id="art3_cpt_alt1_art4_cpt_inc3_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    R$ 150,69 (cento e cinqüenta reais e sessenta e nove centavos), a partir do ano-calendário de 2010;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Omissis id="art3_cpt_alt1_art4_cpt_omi1"/><Inciso xlink:href="art4_cpt_inc6" id="art3_cpt_alt1_art4_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    a quantia, correspondente à parcela isenta dos rendimentos provenientes de aposentadoria e pensão, transferência para a reserva remunerada ou reforma, pagos pela Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios, por qualquer pessoa jurídica de direito público interno ou por entidade de previdência privada, a partir do mês em que o contribuinte completar 65 (sessenta e cinco) anos de idade, de:
+
+  </p>
+            <Alinea xlink:href="art4_cpt_inc6_ali1" id="art3_cpt_alt1_art4_cpt_inc6_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    R$ 1.313,69 (mil, trezentos e treze reais e sessenta e nove centavos), por mês, para o anocalendário de 2007;
+
+  </p>
+            
+          </Alinea><Alinea xlink:href="art4_cpt_inc6_ali2" id="art3_cpt_alt1_art4_cpt_inc6_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    R$ 1.372,81 (mil, trezentos e setenta e dois reais e oitenta e um centavos), por mês, para o ano-calendário de 2008;
+
+  </p>
+            
+          </Alinea><Alinea xlink:href="art4_cpt_inc6_ali3" id="art3_cpt_alt1_art4_cpt_inc6_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    R$ 1.434,59 (mil, quatrocentos e trinta e quatro reais e cinqüenta e nove centavos), por mês, para o ano-calendário de 2009;
+
+  </p>
+            
+          </Alinea><Alinea xlink:href="art4_cpt_inc6_ali4" id="art3_cpt_alt1_art4_cpt_inc6_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    R$ 1.499,15 (mil, quatrocentos e noventa e nove reais e quinze centavos), por mês, a partir do ano-calendário de 2010.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput><Omissis id="art3_cpt_alt1_art4_omi1" fechaAspas="s"/>
+          </Artigo><Artigo xlink:href="art8" id="art3_cpt_alt1_art8" abreAspas="s">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput xlink:href="art8_cpt" id="art3_cpt_alt1_art8_cpt" textoOmitido="s">
+            
+            
+            
+            
+            <Inciso xlink:href="art8_cpt_inc2" id="art3_cpt_alt1_art8_cpt_inc2" textoOmitido="s">
+            
+            
+            <Rotulo>II –</Rotulo>
+            
+            <Alinea xlink:href="art8_cpt_inc2_ali2" id="art3_cpt_alt1_art8_cpt_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    a pagamentos de despesas com instrução do contribuinte e de seus dependentes, efetuados a estabelecimentos de ensino, relativamente à educação infantil, compreendendo as creches e as préescolas; ao ensino fundamental; ao ensino médio; à educação superior, compreendendo os cursos de graduação e de pós-graduação (mestrado, doutorado e especialização); e à educação profissional, compreendendo o ensino técnico e o tecnológico, até o limite anual individual de:
+
+  </p>
+            <Item xlink:href="art8_cpt_inc2_ali2_ite1" id="art3_cpt_alt1_art8_cpt_inc2_ali2_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    R$ 2.480,66 (dois mil, quatrocentos e oitenta reais e sessenta e seis centavos) para o anocalendário de 2007;
+
+  </p>
+            
+          </Item><Item xlink:href="art8_cpt_inc2_ali2_ite2" id="art3_cpt_alt1_art8_cpt_inc2_ali2_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    R$ 2.592,29 (dois mil, quinhentos e noventa e dois reais e vinte e nove centavos) para o anocalendário de 2008;
+
+  </p>
+            
+          </Item><Item xlink:href="art8_cpt_inc2_ali2_ite3" id="art3_cpt_alt1_art8_cpt_inc2_ali2_ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    R$ 2.708,94 (dois mil, setecentos e oito reais e noventa e quatro centavos) para o anocalendário de 2009;
+
+  </p>
+            
+          </Item><Item xlink:href="art8_cpt_inc2_ali2_ite4" id="art3_cpt_alt1_art8_cpt_inc2_ali2_ite4">
+            
+            
+            <Rotulo>4.</Rotulo>
+            <p>
+    R$ 2.830,84 (dois mil, oitocentos e trinta reais e oitenta e quatro centavos) a partir do anocalendário de 2010;
+
+  </p>
+            
+          </Item><Item xlink:href="art8_cpt_inc2_ali2_ite5" id="art3_cpt_alt1_art8_cpt_inc2_ali2_ite5">
+            
+            
+            <Rotulo>5.</Rotulo>
+            <p>
+    (revogado);
+
+  </p>
+            
+          </Item>
+          </Alinea><Alinea xlink:href="art8_cpt_inc2_ali3" id="art3_cpt_alt1_art8_cpt_inc2_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    à quantia, por dependente, de:
+
+  </p>
+            <Item xlink:href="art8_cpt_inc2_ali3_ite1" id="art3_cpt_alt1_art8_cpt_inc2_ali3_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    R$ 1.584,60 (mil, quinhentos e oitenta e quatro reais e sessenta centavos) para o anocalendário de 2007;
+
+  </p>
+            
+          </Item><Item xlink:href="art8_cpt_inc2_ali3_ite2" id="art3_cpt_alt1_art8_cpt_inc2_ali3_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    R$ 1.655,88 (mil, seiscentos e cinqüenta e cinco reais e oitenta e oito centavos) para o anocalendário de 2008;
+
+  </p>
+            
+          </Item><Item xlink:href="art8_cpt_inc2_ali3_ite3" id="art3_cpt_alt1_art8_cpt_inc2_ali3_ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    R$ 1.730,40 (mil, setecentos e trinta reais e quarenta centavos) para o ano-calendário de 2009;
+
+  </p>
+            
+          </Item><Item xlink:href="art8_cpt_inc2_ali3_ite4" id="art3_cpt_alt1_art8_cpt_inc2_ali3_ite4">
+            
+            
+            <Rotulo>4.</Rotulo>
+            <p>
+    R$ 1.808,28 (mil, oitocentos e oito reais e vinte e oito centavos) a partir do ano-calendário de 2010;
+
+  </p>
+            
+          </Item>
+          </Alinea>
+          </Inciso>
+          </Caput><Omissis id="art3_cpt_alt1_art8_omi1" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo><Artigo xlink:href="art10" id="art3_cpt_alt1_art10" abreAspas="s">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput xlink:href="art10_cpt" id="art3_cpt_alt1_art10_cpt">
+            
+            
+            
+            <p>
+    O contribuinte poderá optar por desconto simplificado, que substituirá todas as deduções admitidas na legislação, correspondente à dedução de 20% (vinte por cento) do valor dos rendimentos tributáveis na Declaração de Ajuste Anual, independentemente do montante desses rendimentos, dispensadas a comprovação da despesa e a indicação de sua espécie, limitada a:
+
+  </p>
+            <Inciso xlink:href="art10_cpt_inc1" id="art3_cpt_alt1_art10_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    R$ 11.669,72 (onze mil, seiscentos e sessenta e nove reais e setenta e dois centavos) para o ano-calendário de 2007;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art10_cpt_inc2" id="art3_cpt_alt1_art10_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    R$ 12.194,86 (doze mil, cento e noventa e quatro reais e oitenta e seis centavos) para o anocalendário de 2008;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art10_cpt_inc3" id="art3_cpt_alt1_art10_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    R$ 12.743,63 (doze mil, setecentos e quarenta e três reais e sessenta e três centavos) para o ano-calendário de 2009;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art10_cpt_inc4" id="art3_cpt_alt1_art10_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    R$ 13.317,09 (treze mil, trezentos e dezessete reais e nove centavos) a partir do anocalendário de 2010.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo xlink:href="art10_par1u" id="art3_cpt_alt1_art10_par1u" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O valor deduzido não poderá ser utilizado para comprovação de acréscimo patrimonial, sendo considerado rendimento consumido.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            <!--Link: urn:lex:br:federal:lei:2005-06-28;11128!art1_par1u-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:2005-06-28;11128!art1_par1u">parágrafo único do art. 1º da Lei nº 11.128, de 28 de junho de 2005</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:2005-06-28;11128" id="art4_cpt_alt1">              
+              <Artigo xlink:href="art1" id="art4_cpt_alt1_art1" abreAspas="s">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput xlink:href="art1_cpt" id="art4_cpt_alt1_art1_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Paragrafo xlink:href="art1_par1u" id="art4_cpt_alt1_art1_par1u" fechaAspas="s" notaAlteracao="NR">
+            <!--Link: urn:lex:br:federal:lei:1995-06-29;9069!art60-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O atendimento ao disposto no <span xlink:href="urn:lex:br:federal:lei:1995-06-29;9069!art60">art. 60 da Lei nº 9.069, de 29 de junho de 1995</span>, para as instituições que aderirem ao Programa até 31 de dezembro de 2006 poderá ser efetuado, excepcionalmente, até 31 de dezembro de 2008.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            <!--Link: urn:lex:br:federal:lei:1996-10-24;9311!art8--><!--Link: urn:lex:br:federal:lei:1996-10-24;9311!art16-->
+            
+            
+            <p>
+    Os <span xlink:href="urn:lex:br:federal:lei:1996-10-24;9311!art8">arts. 8º</span> e <span xlink:href="urn:lex:br:federal:lei:1996-10-24;9311!art16">16 da Lei nº 9.311, de 24 de outubro de 1996</span>, passam a vigorar com as seguintes alterações:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1996-10-24;9311" id="art5_cpt_alt1">              
+              <Artigo xlink:href="art8" id="art5_cpt_alt1_art8" abreAspas="s">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput xlink:href="art8_cpt" id="art5_cpt_alt1_art8_cpt" textoOmitido="s">
+            
+            
+            
+            
+            <Inciso xlink:href="art8_cpt_inc11" id="art5_cpt_alt1_art8_cpt_inc11">
+            
+            
+            <Rotulo>XI –</Rotulo>
+            <p>
+    na liquidação antecipada por instituição financeira, por conta e ordem do mutuário, de contrato de concessão de crédito que o mesmo mutuário tenha contratado em outra instituição financeira, desde que a referida liquidação esteja vinculada à abertura de nova linha de crédito, em valor idêntico ao do saldo devedor liquidado antecipadamente pela instituição que proceder à liquidação da operação, na forma regulamentada pelo Conselho Monetário Nacional;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art8_cpt_inc12" id="art5_cpt_alt1_art8_cpt_inc12">
+            
+            
+            <Rotulo>XII –</Rotulo>
+            <p>
+    nos lançamentos a débito em conta corrente de depósito de titularidade de entidade fechada de previdência complementar para pagamento de benefícios do Regime Geral de Previdência Social, relativos a aposentadoria e pensão, no âmbito de convênio firmado entre a entidade e o Instituto Nacional de Seguro Social - INSS;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art8_cpt_inc13" id="art5_cpt_alt1_art8_cpt_inc13">
+            
+            
+            <Rotulo>XIII –</Rotulo>
+            <p>
+    nos lançamentos a débito em conta especial destinada ao registro e controle do fluxo de recursos, aberta exclusivamente para pagamento de salários, proventos, soldos, vencimentos, aposentadorias, pensões e similares, decorrente de transferência para conta corrente de depósito de titularidade do mesmo beneficiário, conjunta ou não, na forma regulamentada pelo Conselho Monetário Nacional.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo xlink:href="art8_par1" id="art5_cpt_alt1_art8_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O Banco Central do Brasil, no exercício de sua competência, expedirá normas para assegurar o cumprimento do disposto nos incisos I, II, VI, VII, X, XI, XII e XIII do caput deste artigo, objetivando, inclusive por meio de documentação específica, a identificação dos lançamentos previstos nos referidos incisos.
+
+  </p>
+            
+          </Paragrafo><Omissis id="art5_cpt_alt1_art8_omi1" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo><Artigo xlink:href="art16" id="art5_cpt_alt1_art16" abreAspas="s">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput xlink:href="art16_cpt" id="art5_cpt_alt1_art16_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Paragrafo xlink:href="art16_par6" id="art5_cpt_alt1_art16_par6" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    O disposto no inciso II do caput deste artigo não se aplica na hipótese de liquidação antecipada de contrato de concessão de crédito, por instituição financeira, prevista no inciso XI do art. 8º desta Lei.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            <!--Link: urn:lex:br:federal:lei:2001-07-12;10260!art2_par3-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:2001-07-12;10260!art2_par3">§ 3º do art. 2º da Lei nº 10.260, de 12 de julho de 2001</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:2001-07-12;10260" id="art6_cpt_alt1">              
+              <Artigo xlink:href="art2" id="art6_cpt_alt1_art2" abreAspas="s">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput xlink:href="art2_cpt" id="art6_cpt_alt1_art2_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Paragrafo xlink:href="art2_par3" id="art6_cpt_alt1_art2_par3" textoOmitido="s">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            
+            <Inciso xlink:href="art2_par3_inc3" id="art6_cpt_alt1_art2_par3_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    até 1,5% (um vírgula cinco por cento) ao ano aos agentes financeiros, calculado sobre o saldo devedor dos financiamentos concedidos até 30 de junho de 2006, pela administração dos créditos e absorção do risco de crédito efetivamente caracterizado, no percentual estabelecido no inciso V do caput do art. 5º desta Lei;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art2_par3_inc4" id="art6_cpt_alt1_art2_par3_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    percentual a ser estabelecido semestralmente em Portaria Interministerial dos Ministros de Estado da Fazenda e da Educação, incidente sobre o saldo devedor dos financiamentos concedidos a partir de 1º de julho de 2006 pela administração dos créditos e absorção do risco de crédito efetivamente caracterizado, no percentual estabelecido no inciso V do caput do art. 5º desta Lei.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Omissis id="art6_cpt_alt1_art2_omi1" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            <!--Link: urn:lex:br:federal:lei:2001-07-12;10260-->
+            
+            
+            <p>
+    A <span xlink:href="urn:lex:br:federal:lei:2001-07-12;10260">Lei nº 10.260, de 12 de julho de 2001</span>, passa a vigorar acrescida do seguinte art. 6º-A:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:2001-07-12;10260" id="art7_cpt_alt1">              
+              <Artigo xlink:href="art6-1" id="art7_cpt_alt1_art6-1" abreAspas="s">
+            
+            
+            <Rotulo>Art. 6º-A.</Rotulo>
+            
+            <Caput xlink:href="art6-1_cpt" id="art7_cpt_alt1_art6-1_cpt" fechaAspas="s">
+            
+            
+            
+            <p>
+    Em caso de falecimento ou invalidez permanente, devidamente comprovada na forma da legislação pertinente, do estudante tomador do financiamento, o débito será absorvido pelo agente financeiro e pela instituição de ensino, observada a proporção estabelecida no inciso V do caput do art. 5º desta Lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            <!--Link: urn:lex:br:federal:lei.complementar:2024-05-16;207-->
+            
+            
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei.complementar:2024-05-16;207">Lei Complementar nº 207, de 16.5.2024</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            <!--Link: urn:lex:br:federal:lei:1989-12-20;7940--><!--Link: urn:lex:br:federal:medida.provisoria:2006-12-29;340-->
+            
+            
+            <p>
+    As pessoas jurídicas com débitos vencidos relativos à Taxa de Fiscalização instituída pela <span xlink:href="urn:lex:br:federal:lei:1989-12-20;7940">Lei nº 7.940, de 20 de dezembro de 1989</span>, poderão efetuar o pagamento dos seus débitos com redução de 30% (trinta por cento) nas multas e nos juros legalmente exigíveis, bem como mediante parcelamento em até 120 (cento e vinte) prestações mensais e sucessivas, desde que formulado requerimento com este sentido à Comissão de Valores Mobiliários - CVM no prazo de 120 (cento e vinte) dias após a publicação da <span xlink:href="urn:lex:br:federal:medida.provisoria:2006-12-29;340">Medida Provisória nº 340, de 29 de dezembro de 2006</span>.
+
+  </p>
+            
+          </Caput><Paragrafo id="art9_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Apresentado requerimento de parcelamento nos termos previstos no caput deste artigo, a CVM promoverá a consolidação dos débitos respectivos e adotará as demais providências administrativas cabíveis.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A parcela mínima para fins do parcelamento de que trata o caput deste artigo não poderá ser inferior ao valor de R$ 200,00 (duzentos reais).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Além do disposto neste artigo, o parcelamento previsto no caput deste artigo deverá observar a regulamentação da CVM aplicável ao assunto.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            <!--Link: urn:lex:br:federal:lei:1991-12-30;8387!art2_par13-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1991-12-30;8387!art2_par13">§ 13 do art. 2º da Lei nº 8.387, de 30 de dezembro de 1991</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1991-12-30;8387" id="art10_cpt_alt1">              
+              <Artigo xlink:href="art2" id="art10_cpt_alt1_art2" abreAspas="s">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput xlink:href="art2_cpt" id="art10_cpt_alt1_art2_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Paragrafo xlink:href="art2_par13" id="art10_cpt_alt1_art2_par13">
+            
+            
+            <Rotulo>§ 13.</Rotulo>
+            <p>
+    Para as empresas beneficiárias, fabricantes de microcomputadores portáteis e de unidades de processamento digitais de pequena capacidade baseadas em microprocessadores, de valor até R$ 11.000,00 (onze mil reais), bem como de unidades de discos magnéticos e ópticos, circuitos impressos com componentes elétricos e eletrônicos montados, gabinetes e fontes de alimentação, reconhecíveis como exclusiva ou principalmente destinados a tais equipamentos, e exclusivamente sobre o faturamento bruto decorrente da comercialização desses produtos no mercado interno, os percentuais para investimentos estabelecidos neste artigo serão reduzidos em 50% (cinqüenta por cento) até 31 de dezembro de 2009.
+
+  </p>
+            
+          </Paragrafo><Omissis id="art10_cpt_alt1_art2_omi1" fechaAspas="s" notaAlteracao="NR"/>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            <!--Link: urn:lex:br:federal:lei:1997-01-08;9432!art17--><!--Link: urn:lex:br:federal:lei:2017-06-26;13458-->
+            
+            
+            <p>
+    O prazo previsto no <span xlink:href="urn:lex:br:federal:lei:1997-01-08;9432!art17">art. 17 da Lei nº 9.432, de 8 de janeiro de 1997</span>, fica prorrogado até 8 de janeiro de 2022, nas navegações de cabotagem, interior fluvial e lacustre. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2017-06-26;13458">Lei nº 13.458, de 26.6.2017</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            <!--Link: urn:lex:br:federal:lei:1973-09-10;5917-->
+            
+            
+            <p>
+    O item 2.2.2 - Relação Descritiva das Rodovias do Sistema Rodoviário Nacional, constante do Anexo da <span xlink:href="urn:lex:br:federal:lei:1973-09-10;5917">Lei nº 5.917, de 10 de setembro de 1973</span>, passa a vigorar acrescido da ligação rodoviária a seguir descrita:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1973-09-10;5917" id="art12_cpt_alt1">              
+              <Item xlink:href="ite2" id="art12_cpt_alt1_ite2" abreAspas="s">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    2.2. .............................................................................................................................................. ..........................................................................................................................................................
+
+  </p>
+            <table id="art12_cpt_alt1_ite2_tab1"><tr><td>BR</td><td>PONTOS DE PASSAGEM</td><td>UNIDADES DA FEDERAÇÃO</td><td>EXTENSÃO (KM)</td><td>SUPERPOSIÇÃO BR/KM</td></tr><tr><td>440</td><td>Entroncamento BR-040/MG-Entroncamento BR-267/MG</td><td>MG</td><td>9,0</td><td>-</td></tr></table>
+          </Item><Omissis id="art12_cpt_alt1_omi1" fechaAspas="s" notaAlteracao="NR"/>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>
+    O traçado definitivo e o número da ligação rodoviária de que trata o art. 12 desta Lei serão definidos pelo órgão competente.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            <!--Link: urn:lex:br:federal:lei:1994-06-11;8884!art53-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1994-06-11;8884!art53">art. 53 da Lei nº 8.884, de 11 de junho de 1994</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1994-06-11;8884" id="art16_cpt_alt1">              
+              <Artigo xlink:href="art53" id="art16_cpt_alt1_art53" abreAspas="s">
+            
+            
+            <Rotulo>Art. 53.</Rotulo>
+            
+            <Caput xlink:href="art53_cpt" id="art16_cpt_alt1_art53_cpt">
+            
+            
+            
+            <p>
+    Em qualquer das espécies de processo administrativo, o Cade poderá tomar do representado compromisso de cessação da prática sob investigação ou dos seus efeitos lesivos, sempre que, em juízo de conveniência e oportunidade, entender que atende aos interesses protegidos por lei.
+
+  </p>
+            
+          </Caput><Paragrafo xlink:href="art53_par1" id="art16_cpt_alt1_art53_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Do termo de compromisso deverão constar os seguintes elementos:
+
+  </p>
+            <Inciso xlink:href="art53_par1_inc1" id="art16_cpt_alt1_art53_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a especificação das obrigações do representado para fazer cessar a prática investigada ou seus efeitos lesivos, bem como obrigações que julgar cabíveis;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art53_par1_inc2" id="art16_cpt_alt1_art53_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a fixação do valor da multa para o caso de descumprimento, total ou parcial, das obrigações compromissadas;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art53_par1_inc3" id="art16_cpt_alt1_art53_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    a fixação do valor da contribuição pecuniária ao Fundo de Defesa de Direitos Difusos quando cabível.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo xlink:href="art53_par2" id="art16_cpt_alt1_art53_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Tratando-se da investigação da prática de infração relacionada ou decorrente das condutas previstas nos incisos I, II, III ou VIII do caput do art. 21 desta Lei, entre as obrigações a que se refere o inciso I do § 1º deste artigo figurará, necessariamente, a obrigação de recolher ao Fundo de Defesa de Direitos Difusos um valor pecuniário que não poderá ser inferior ao mínimo previsto no art. 23 desta Lei.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art53_par3" id="art16_cpt_alt1_art53_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A celebração do termo de compromisso poderá ser proposta até o início da sessão de julgamento do processo administrativo relativo à prática investigada.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art53_par4" id="art16_cpt_alt1_art53_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O termo de compromisso constitui título exclusivo extrajudicial.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art53_par5" id="art16_cpt_alt1_art53_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    O processo administrativo ficará suspenso enquanto estiver sendo cumprido o compromisso e será arquivado ao término do prazo fixado se atendidas todas as condições estabelecidas no termo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art53_par6" id="art16_cpt_alt1_art53_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    A suspensão do processo administrativo a que se refere o § 5º deste artigo dar-se-á somente em relação ao representado que firmou o compromisso, seguindo o processo seu curso regular para os demais representados.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art53_par7" id="art16_cpt_alt1_art53_par7">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    Declarado o descumprimento do compromisso, o Cade aplicará as sanções nele previstas e determinará o prosseguimento do processo administrativo e as demais medidas administrativas e judiciais cabíveis para sua execução.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art53_par8" id="art16_cpt_alt1_art53_par8">
+            
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    As condições do termo de compromisso poderão ser alteradas pelo Cade se comprovar sua excessiva onerosidade para o representado, desde que a alteração não acarrete prejuízo para terceiros ou para a coletividade.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art53_par9" id="art16_cpt_alt1_art53_par9" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 9º</Rotulo>
+            <p>
+    O Cade definirá, em resolução, normas complementares sobre cabimento, tempo e modo da celebração do termo de compromisso de cessação.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            <!--Link: urn:lex:br:federal:lei:2004-04-30;10865!art40-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:2004-04-30;10865!art40">art. 40 da Lei nº 10.865, de 30 de abril de 2004</span>, passa a vigorar acrescido do seguinte § 6º:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:2004-04-30;10865" id="art17_cpt_alt1">              
+              <Artigo xlink:href="art40" id="art17_cpt_alt1_art40" abreAspas="s">
+            
+            
+            <Rotulo>Art. 40.</Rotulo>
+            
+            <Caput xlink:href="art40_cpt" id="art17_cpt_alt1_art40_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Paragrafo xlink:href="art40_par6" id="art17_cpt_alt1_art40_par6" fechaAspas="s" notaAlteracao="NR">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    As disposições deste artigo aplicam-se à Contribuição para o PIS/Pasep-Importação e à Cofins-Importação incidentes sobre os produtos de que trata o caput deste artigo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            
+            
+            
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            
+            
+            
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            
+            
+            
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            
+            
+            
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art22">
+            
+            
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            
+            
+            
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art23">
+            
+            
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            
+            
+            
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art24">
+            
+            
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput id="art24_cpt">
+            
+            
+            
+            <p>
+    Esta Lei entra em vigor na data de sua publicação, produzindo efeitos em relação:
+
+  </p>
+            <Inciso id="art24_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    aos arts. 1º a 3º, a partir de 1º de janeiro de 2007;
+
+  </p>
+            
+          </Inciso><Inciso id="art24_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    aos arts. 20 a 22, após decorridos 90 (noventa) dias da publicação desta Lei;
+
+  </p>
+            
+          </Inciso><Inciso id="art24_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    aos demais artigos, a partir da data de publicação desta Lei.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art25">
+            
+            
+            <Rotulo>Art. 25.</Rotulo>
+            
+            <Caput id="art25_cpt">
+            
+            
+            
+            <p>
+    Ficam revogados:
+
+  </p>
+            <Inciso id="art25_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a partir de 1º de janeiro de 2007:
+
+  </p>
+            <Alinea id="art25_cpt_inc1_ali1">
+            <!--Link: urn:lex:br:federal:lei:2005-05-25;11119-->
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    a <span xlink:href="urn:lex:br:federal:lei:2005-05-25;11119">Lei nº 11.119, de 25 de maio de 2005</span>; e
+
+  </p>
+            
+          </Alinea><Alinea id="art25_cpt_inc1_ali2">
+            <!--Link: urn:lex:br:federal:lei:2006-06-13;11311!art1--><!--Link: urn:lex:br:federal:lei:2006-06-13;11311!art2-->
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    os <span xlink:href="urn:lex:br:federal:lei:2006-06-13;11311!art1">arts. 1º</span> e <span xlink:href="urn:lex:br:federal:lei:2006-06-13;11311!art2">2º da Lei nº 11.311, de 13 de junho de 2006</span>;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art25_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a partir da data de publicação desta Lei:
+
+  </p>
+            <Alinea id="art25_cpt_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Alinea><Alinea id="art25_cpt_inc2_ali2">
+            <!--Link: urn:lex:br:federal:lei:2005-11-21;11196!art131-->
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    o <span xlink:href="urn:lex:br:federal:lei:2005-11-21;11196!art131">art. 131 da Lei nº 11.196, de 21 de novembro de 2005</span>; e
+
+  </p>
+            
+          </Alinea><Alinea id="art25_cpt_inc2_ali3">
+            <!--Link: urn:lex:br:federal:decreto.lei:1988-05-19;2433!art17_par2-->
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    o <span xlink:href="urn:lex:br:federal:decreto.lei:1988-05-19;2433!art17_par2">§ 2º do art. 17 do Decreto-Lei nº 2.433, de 19 de maio de 1988</span>.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput>
+          </Artigo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 31 de maio de 2007; 186º da Independência e 119º da República.</p></LocalDataFecho><Assinatura><NomePessoa>LUIZ INÁCIO LULA DA SILVA</NomePessoa><NomePessoa>Tarso Genro</NomePessoa><NomePessoa>Guido Mantega</NomePessoa><NomePessoa>Alfredo Nascimento</NomePessoa><NomePessoa>Fernando Haddad</NomePessoa><NomePessoa>Miguel Jorge</NomePessoa><NomePessoa>José Antonio Dias Toffoli</NomePessoa></Assinatura></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>

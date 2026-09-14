@@ -1,0 +1,348 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:decreto.lei:1946-01-23;8795"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">DECRETO-LEI Nº 8.795, DE 23 DE JANEIRO DE 1946 </Epigrafe>
+		  <Ementa id="ementa">Regula as vantagens a que têm direito os militares da F. E. B. incapacitados fisicamente.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA, usando da atribuição que lhe confere o art. 180 da Constituição,
+  </p><p>
+    DECRETA:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    Este decreto-lei regula as vantagens a que ficam com direito os militares, inclusive os convocados, incapacitados fisicamente para o serviço militar, em conseqüência de ferimentos verificados ou moléstias adquiridas quando participavam da Força Expedicionária Brasileira destacada, em 1944-1945, no teatro de operações da Itália.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    Os que hajam sido incapacitados em conseqüência de ferimentos verificados ou moléstias adquiridas na zona de combate, quando em cumprimento de missão ou desempenho de serviço, ou, em qualquer situação, de ferimentos decorrentes de ação inimiga, são promovidos ao posto imediato ao que tinham quando foram feridos ou adquiriram a moléstia, aplicado o disposto no art. 10, e reformados com os vencimentos do posto ou graduação da hierarquia normal subseqüente ao da promoção.
+
+  </p>
+            
+          </Caput><Paragrafo id="art2_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    As vantagens deste artigo serão aumentadas e concedidas nas seguintes bases:
+
+  </p>
+            <Alinea id="art2_par1u_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    de 25% (vinte e cinco por cento), hospitalização especializada vitalícia, quando necessária e a juízo médico, casa própria de acordo com seu posto e educação dos filhos menores, às expensas do Estado, aos que ficarem impossibilitados para todo e qualquer trabalho;
+
+  </p>
+            
+          </Alinea><Alinea id="art2_par1u_ali2">
+            <!--Link: urn:lex:br:federal:lei:1959-07-29;3596--><!--Link: urn:lex:br:federal:lei:1956-07-29;3596!art3-->
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    direito, tão somente, à casa própria, de acordo com seu posto e às expensas do Estado, aos que ficarem possibilitados de prover os meios de subsistência. (Parágrafo único com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1959-07-29;3596">Lei nº 3.596, de 29.7.1959</span>) (Vide <span xlink:href="urn:lex:br:federal:lei:1956-07-29;3596!art3">art. 3º da Lei nº 3.596, de 29.7.1956</span>)
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    Os que hajam sido incapacitados em conseqüência de moléstias adquiridas ou agravadas em serviço, ou de acidentes em serviço ocorridos fora da zona de combate, são promovidos ao posto imediato ao que tinham quando foi a moléstia adquirida ou agravada, ou verificado o acidente, aplicado o disposto no art. 10, e reformados com os vencimentos desse novo posto.
+
+  </p>
+            
+          </Caput><Paragrafo id="art3_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    As vantagens deste artigo serão aumentadas e concedidas nas seguintes bases:
+
+  </p>
+            <Alinea id="art3_par1u_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    de 25% (vinte e cinco por cento), hospitalização especializada vitalícia, quando necessária e a juízo médico, casa própria de acordo com seu posto e educação dos filhos menores, às expensas do Estado, aos que ficarem impossibilitados para todo e qualquer trabalho;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_par1u_ali2">
+            <!--Link: urn:lex:br:federal:lei:1959-07-29;3596--><!--Link: urn:lex:br:federal:lei:1956-07-29;3596!art3-->
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    direito, tão somente, à casa própria, de acordo com seu posto e às expensas do Estado, aos que ficarem possibilitados de prover os meios de subsistência. (Parágrafo único com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1959-07-29;3596">Lei nº 3.596, de 29.7.1959</span>) (Vide <span xlink:href="urn:lex:br:federal:lei:1956-07-29;3596!art3">art. 3º da Lei nº 3.596, de 29.7.1956</span>)
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    Os que se hajam incapacitado fora do serviço, por acidente ou moléstia adquirida, ou fundamentalmente agravada, no teatro de operações da Itália, serão reformados com os vencimentos do posto que tinham nessa ocasião.
+
+  </p>
+            
+          </Caput><Paragrafo id="art4_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Para os efeitos deste artigo, os soldados são considerados engajados.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os que ficarem impossibilitados para todo e qualquer trabalho, terão essas vantagens aumentadas de 25% e educação dos filhos menores, a expensas do Estado.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    Os que venham a ser declarados incapazes, em conseqüência das causas fixadas nos artigos anteriores, serão reformados nas condições neles estabelecidas, conforme o caso, ou com os vencimentos do posto que tiverem na data da reforma, se superiores.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    No caso do convocado que haja optado pelo que percebia como civil, as vantagens da reforma serão iguais a essa remuneração civil, salvo se maiores forem os benefícios que lhe caberiam pelos artigos anteriores.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    As vantagens a que se referem os artigos anteriores serão devidas segundo as tabelas vigentes, de modo que estejam sempre atualizadas.
+
+  </p>
+            
+          </Caput><Paragrafo id="art7_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Mudada a tabela de vencimentos, far-se-á a revisão necessária.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    Se a incapacidade do militar consistir em diminuição de suas possibilidades de locomoção ou outra causa que não lhe afete o funcionamento orgânico geral, poderá ser aproveitado, se assim o desejar e comprovar a correspondente aptidão intelectual, nos quadros do magistério e técnico do Exército, ou, para funções burocráticas, nos demais quadros.
+
+  </p>
+            
+          </Caput><Paragrafo id="art8_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Nessa hipótese, não serão reformados, ou, se já o tiverem sido, reverterão à situação necessária, sendo promovidos nos casos definidos nos arts. 2º e 3º deste decreto-lei, e ficando agregados ao quadro da respectiva Arma ou Serviço, se preciso, de modo a não prejudicarem seus componentes ordinários.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Uma vez incluídos nos quadros correspondentes, terão o acesso e vantagens normais.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Os requisitos e processos de apurá-los, para o seu ingresso nesses quadros, serão estudados pelo Ministério da Guerra, que apresentará ao Governo as modificações que se impuserem na legislação em vigor.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Caso não se adaptem a essa nova situação, poderão, dentro de um ano a contar do ingresso no respectivo quadro, requerer a volta à situação que lhes caberia pelos arts. 2º, 3º e 4º deste decreto-lei.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1945-01-25;7270-->
+            
+            
+            <p>
+    Não se aplicam as disposições do <span xlink:href="urn:lex:br:federal:decreto.lei:1945-01-25;7270">Decreto-lei nº 7.270, de 25 de janeiro de 1945</span>, aos militares aqui abrangidos, salvo àqueles que desejarem submeter-se a seu regime, ou, se as causas que os incapacitarem para o serviço militar, não os impedir de retomar, em toda sua plenitude, suas atividades normais na vida civil, hipótese em que, além dos proventos de sua atividade civil, passarão a perceber 50% das vantagens de que trata este decreto-lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>
+    Para os efeitos expressos deste decreto-lei, serão considerados postos imediatos: para os soldados, 3º sargento; para os cabos, 2º sargento; para os sargentos em geral, aspirante a oficial; e para os aspirantes e sub-tenentes, 2º tenente.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            <p>
+    As vantagens de que trata este decreto-lei poderão ser acumuladas com os proventos de qualquer atividade privada, inclusive em empresas particulares, e, com a redução de 50%, com os de quaisquer cargos públicos, eletivos ou em comissão, federais, estaduais ou municipais.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            
+            
+            
+            <p>
+    Entende-se por zona de combate, para os efeitos do presente decreto-lei, a faixa de terreno em que, no momento considerado, operavam, trabalhavam e estacionavam as unidades de combate da 1ª Divisão de Infantaria Expedicionária e os órgãos de serviços de seus corpos de tropa, bem como, onde se achavam instaladas, em cumprimento de missão, as frações destacadas dos elementos de serviços divisionários e os escalões avançados de quartéis generais, imediatamente necessários à situação de combate.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>
+    À Secretaria Geral do Ministério da Guerra incumbirá as providências necessárias para o cumprimento dos parágrafos únicos dos artigos 2º e 3º deste decreto-lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            <p>
+    O presente decreto-lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário, sendo as vantagens devidas a partir da data da reforma.
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Rio de Janeiro, 23 de janeiro de 1945, 124º da Independência e 57º da República.</p></LocalDataFecho><Assinatura><NomePessoa>JOSÉ LINHARES.</NomePessoa><NomePessoa>Canrobert Pereira da Costa.</NomePessoa></Assinatura></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>

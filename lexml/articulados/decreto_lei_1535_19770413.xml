@@ -1,0 +1,998 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:decreto.lei:1977-04-13;1535"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">DECRETO-LEI Nº 1.535, DE 13 DE ABRIL DE 1977 </Epigrafe>
+		  <Ementa id="ementa">Altera o Capítulo IV do Título II da <span xlink:href="urn:lex:br:federal:decreto.lei:1943-05-01;5452">Consolidação das Leis do Trabalho</span>, relativo a Férias, e dá outras providências.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA, no uso da atribuição que lhe confere § 1º do artigo 2º do Ato Institucional nº 5, de 13 de dezembro de 1968, tendo em vista o artigo 182 da Constituição e o disposto no Ato Complementar nº 102, de 1 de abril de 1977,
+  </p><p>
+    DECRETA:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1943-05-01;5452-->
+            
+            
+            <p>
+    O Capítulo IV do Título II da <span xlink:href="urn:lex:br:federal:decreto.lei:1943-05-01;5452">Consolidação das Leis do Trabalho</span>, aprovada pelo <span xlink:href="urn:lex:br:federal:decreto.lei:1943-05-01;5452">Decreto-lei número 5.452, de 1º de maio de 1943</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:decreto.lei:1943-05-01;5452" id="art1_cpt_alt1">              
+              <Capitulo xlink:href="cap4" id="art1_cpt_alt1_cap4" abreAspas="s">
+            
+            
+            <Rotulo>CAPÍTULO IV</Rotulo>
+            <NomeAgrupador>
+    Das Férias Anuais
+
+  </NomeAgrupador>
+            <Secao xlink:href="cap4_sec1" id="art1_cpt_alt1_cap4_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Do Direito a Férias e da sua Duração
+
+  </NomeAgrupador>
+            <Artigo xlink:href="art129" id="art1_cpt_alt1_art129">
+            
+            
+            <Rotulo>Art. 129.</Rotulo>
+            
+            <Caput xlink:href="art129_cpt" id="art1_cpt_alt1_art129_cpt">
+            
+            
+            
+            <p>
+    Todo empregado terá direito anualmente ao gozo de um período de férias, sem prejuízo da remuneração.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo xlink:href="art130" id="art1_cpt_alt1_art130">
+            
+            
+            <Rotulo>Art. 130.</Rotulo>
+            
+            <Caput xlink:href="art130_cpt" id="art1_cpt_alt1_art130_cpt">
+            
+            
+            
+            <p>
+    Após cada período de 12 (doze) meses de vigência do contrato de trabalho, o empregado terá direito a férias, na seguinte proporção:
+
+  </p>
+            <Inciso xlink:href="art130_cpt_inc1" id="art1_cpt_alt1_art130_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    30 (trinta) dias corridos, quando não houver faltado ao serviço mais de 5 (cinco) vezes; Il - 24 (vinte e quatro) dias corridos quando houver tido 6 (seis) a 14 (quatorze) faltas;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art130_cpt_inc3" id="art1_cpt_alt1_art130_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    18 (dezoito) dias corridos, quando houver tido de 15 (quinze) a 23 (vinte e três) faltas;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art130_cpt_inc4" id="art1_cpt_alt1_art130_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    12 (doze) dias corridos, quando houver tido de 24 (vinte e quatro) a 32 (trinta e duas) faltas.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo xlink:href="art130_par1" id="art1_cpt_alt1_art130_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    É vedado descontar, do período de férias, as faltas do empregado ao serviço.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art130_par2" id="art1_cpt_alt1_art130_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O período das férias será computado, para todos os efeitos, como tempo de serviço.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo xlink:href="art131" id="art1_cpt_alt1_art131">
+            
+            
+            <Rotulo>Art. 131.</Rotulo>
+            
+            <Caput xlink:href="art131_cpt" id="art1_cpt_alt1_art131_cpt">
+            
+            
+            
+            <p>
+    Não será considerada falta ao serviço, para os efeitos do artigo anterior, a ausência do empregado:
+
+  </p>
+            <Inciso xlink:href="art131_cpt_inc1" id="art1_cpt_alt1_art131_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    nos casos referidos no art. 473;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art131_cpt_inc2" id="art1_cpt_alt1_art131_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    durante o licenciamento compulsório da empregada por motivo de maternidade ou aborto não criminoso, observados os requisitos para percepção do salário-maternidade custeado pela Previdência Social;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art131_cpt_inc3" id="art1_cpt_alt1_art131_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    por motivo de acidente do trabalho ou de incapacidade que propicie concessão de auxílio-doença pela Previdência Social, excetuada a hipótese do inciso IV do art. 133;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art131_cpt_inc4" id="art1_cpt_alt1_art131_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    justificada pela empresa, entendendo-se como tal a que não tiver determinado o desconto do correspondente salário;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art131_cpt_inc5" id="art1_cpt_alt1_art131_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    durante a suspensão preventiva para responder a inquérito administrativo ou de prisão preventiva, quanto for impronunciado ou absorvido; e
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art131_cpt_inc6" id="art1_cpt_alt1_art131_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    nos dias em que não tenha havido serviço, salvo na hipótese do inciso III do art. 133.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo xlink:href="art132" id="art1_cpt_alt1_art132">
+            
+            
+            <Rotulo>Art. 132.</Rotulo>
+            
+            <Caput xlink:href="art132_cpt" id="art1_cpt_alt1_art132_cpt">
+            
+            
+            
+            <p>
+    O tempo de trabalho anterior a apresentação do empregado para serviço militar obrigatório será computado no período aquisitivo, desde que ele compareça ao estabelecimento dentro de 90 (noventa) dias da data em que se verificar a respectiva baixa.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo xlink:href="art133" id="art1_cpt_alt1_art133">
+            
+            
+            <Rotulo>Art. 133.</Rotulo>
+            
+            <Caput xlink:href="art133_cpt" id="art1_cpt_alt1_art133_cpt">
+            
+            
+            
+            <p>
+    Não terá direito a férias o empregado que, no curso do período aquisitivo:
+
+  </p>
+            <Inciso xlink:href="art133_cpt_inc1" id="art1_cpt_alt1_art133_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    deixar o emprego e não for readmitido dentro dos 60 (sessenta) dias subseqüentes à sua saída;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art133_cpt_inc2" id="art1_cpt_alt1_art133_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    permanecer em gozo de licença, com percepção de salários, por mais de 30 (trinta) dias;
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art133_cpt_inc3" id="art1_cpt_alt1_art133_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    deixar de trabalhar, com percepção do salário, por mais de 30 (trinta) dias em virtude de paralisação parcial ou total dos serviços da empresa; e
+
+  </p>
+            
+          </Inciso><Inciso xlink:href="art133_cpt_inc4" id="art1_cpt_alt1_art133_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    tiver percebido da Previdência Social prestações de acidente de trabalho ou de auxílio-doença por mais de 6 (seis) meses, embora descontínuos.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo xlink:href="art133_par1" id="art1_cpt_alt1_art133_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A interrupção da prestação de serviços deverá ser anotada na Carteira de Trabalho e Previdência Social.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art133_par2" id="art1_cpt_alt1_art133_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Iniciar-se-á o decurso de novo período aquisitivo quando o empregado, após o implemento de qualquer das condições previstas neste artigo, retornar ao serviço.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao xlink:href="cap4_sec2" id="art1_cpt_alt1_cap4_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Da Concessão e da Época das Férias
+
+  </NomeAgrupador>
+            <Artigo xlink:href="art134" id="art1_cpt_alt1_art134">
+            
+            
+            <Rotulo>Art. 134.</Rotulo>
+            
+            <Caput xlink:href="art134_cpt" id="art1_cpt_alt1_art134_cpt">
+            
+            
+            
+            <p>
+    As férias serão concedidas por ato do empregador, em um só período nos 12 (doze) meses subsequentes à data em que o empregado tiver adquirido o direito.
+
+  </p>
+            
+          </Caput><Paragrafo xlink:href="art134_par1" id="art1_cpt_alt1_art134_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Somente em casos excepcionais serão as férias concedidas em dois períodos, um dos quais não poderá ser inferior a 10 (dez) dias corridos.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art134_par2" id="art1_cpt_alt1_art134_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Aos menores de 18 (dezoito) anos e aos maiores de 50 (cinqüenta) anos de idade, as férias serão sempre concedidas de uma só vez.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo xlink:href="art135" id="art1_cpt_alt1_art135">
+            
+            
+            <Rotulo>Art. 135.</Rotulo>
+            
+            <Caput xlink:href="art135_cpt" id="art1_cpt_alt1_art135_cpt">
+            
+            
+            
+            <p>
+    A concessão das férias será participada, por escrito ao empregado, com antecedência de, no mínimo, 10 (dez) dias, cabendo a este assinar a respectiva notificação.
+
+  </p>
+            
+          </Caput><Paragrafo xlink:href="art135_par1" id="art1_cpt_alt1_art135_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O empregado não poderá entrar no gozo das férias sem que apresente ao empregador sua CTPS, para que nela seja anotada a respectiva concessão.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art135_par2" id="art1_cpt_alt1_art135_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A concessão das férias será, igualmente, anotada no livro ou nas fichas de registro dos empregados.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo xlink:href="art136" id="art1_cpt_alt1_art136">
+            
+            
+            <Rotulo>Art. 136.</Rotulo>
+            
+            <Caput xlink:href="art136_cpt" id="art1_cpt_alt1_art136_cpt">
+            
+            
+            
+            <p>
+    A época da concessão das férias será a que melhor consulte os interesses do empregador.
+
+  </p>
+            
+          </Caput><Paragrafo xlink:href="art136_par1" id="art1_cpt_alt1_art136_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os membros de uma família, que trabalharem no mesmo estabelecimento ou empresa, terão direito a gozar férias no mesmo período, se assim o desejarem e se disto não resultar prejuízo para o serviço.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art136_par2" id="art1_cpt_alt1_art136_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O empregado estudante, menor de 18 (dezoito) anos, terá direito a fazer coincidir suas férias com as férias escolares.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo xlink:href="art137" id="art1_cpt_alt1_art137">
+            
+            
+            <Rotulo>Art. 137.</Rotulo>
+            
+            <Caput xlink:href="art137_cpt" id="art1_cpt_alt1_art137_cpt">
+            
+            
+            
+            <p>
+    Sempre que as férias forem concedidas após o prazo de que trata o art. 134, o empregador pagará em dobro a respectiva remuneração.
+
+  </p>
+            
+          </Caput><Paragrafo xlink:href="art137_par1" id="art1_cpt_alt1_art137_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Vencido o mencionado prazo sem que o empregador tenha concedido as férias, o empregado poderá ajuizar reclamação pedindo a fixação, por sentença, da época de gozo das mesmas.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art137_par2" id="art1_cpt_alt1_art137_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A sentença cominará pena diária de 5% (cinco por cento) do salário-mínimo da região, devida ao empregado até que seja cumprida.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art137_par3" id="art1_cpt_alt1_art137_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Cópia da decisão judicial transitada em julgado será remetida ao órgão local do Ministério do Trabalho, para fins de aplicação da multa de caráter administrativo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo xlink:href="art138" id="art1_cpt_alt1_art138">
+            
+            
+            <Rotulo>Art. 138.</Rotulo>
+            
+            <Caput xlink:href="art138_cpt" id="art1_cpt_alt1_art138_cpt">
+            
+            
+            
+            <p>
+    Durante as férias, o empregado não poderá prestar serviço, a outro empregador, salvo se estiver obrigado a fazê-lo em virtude de contrato de trabalho regularmente mantido com aquele.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao xlink:href="cap4_sec3" id="art1_cpt_alt1_cap4_sec3">
+            
+            
+            <Rotulo>Seção III</Rotulo>
+            <NomeAgrupador>
+    Das Férias Coletivas
+
+  </NomeAgrupador>
+            <Artigo xlink:href="art139" id="art1_cpt_alt1_art139">
+            
+            
+            <Rotulo>Art. 139.</Rotulo>
+            
+            <Caput xlink:href="art139_cpt" id="art1_cpt_alt1_art139_cpt">
+            
+            
+            
+            <p>
+    Poderão ser concedidas férias coletivas a todos os empregados de uma empresa ou de determinados estabelecimentos ou setores da empresa.
+
+  </p>
+            
+          </Caput><Paragrafo xlink:href="art139_par1" id="art1_cpt_alt1_art139_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As férias poderão ser gozadas em dois períodos anuais, desde que nenhum deles seja inferior a 10 (dez) dias corridos.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art139_par2" id="art1_cpt_alt1_art139_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Para os fins previstos neste artigo, o empregador comunicará ao órgão local do Ministério do Trabalho, com a antecedência mínima de 15 (quinze) dias, as datas de início e fim das férias, precisando quais os estabelecimentos ou setores abrangidos pela medida.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art139_par3" id="art1_cpt_alt1_art139_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Em igual prazo o empregador enviará cópia da aludida comunicação aos sindicatos representativos da respectiva categoria profissional, e providenciará a afixação de aviso nos locais de trabalho.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo xlink:href="art140" id="art1_cpt_alt1_art140">
+            
+            
+            <Rotulo>Art. 140.</Rotulo>
+            
+            <Caput xlink:href="art140_cpt" id="art1_cpt_alt1_art140_cpt">
+            
+            
+            
+            <p>
+    Os empregados contratados há menos de 12 (doze) meses gozarão, na oportunidade, férias proporcionais, iniciando-se, então, novo período aquisitivo.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo xlink:href="art141" id="art1_cpt_alt1_art141">
+            
+            
+            <Rotulo>Art. 141.</Rotulo>
+            
+            <Caput xlink:href="art141_cpt" id="art1_cpt_alt1_art141_cpt">
+            
+            
+            
+            <p>
+    Quando o número de empregados contemplados com as férias coletivas for superior a 300 (trezentos), a empresa poderá promover, mediante carimbo, as anotações de que trata o art. 135, § 1º.
+
+  </p>
+            
+          </Caput><Paragrafo xlink:href="art141_par1" id="art1_cpt_alt1_art141_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O carimbo, cujo modelo será aprovado pelo Ministério do Trabalho, dispensará a referência ao período aquisitivo a que correspondem, para cada empregado, as férias concedidas.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art141_par2" id="art1_cpt_alt1_art141_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Adotado o procedimento indicado neste artigo, caberá, à empresa fornecer ao empregado cópia visada do recibo correspondente à quitação mencionada no parágrafo único do art. 145.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art141_par3" id="art1_cpt_alt1_art141_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Quando da cessação do contrato de trabalho, o empregador anotará na CTPS as datas dos períodos aquisitivos correspondentes às férias coletivas gozadas pelo empregado.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao xlink:href="cap4_sec4" id="art1_cpt_alt1_cap4_sec4">
+            
+            
+            <Rotulo>Seção IV</Rotulo>
+            <NomeAgrupador>
+    Da Remuneração e do Abono de Férias
+
+  </NomeAgrupador>
+            <Artigo xlink:href="art142" id="art1_cpt_alt1_art142">
+            
+            
+            <Rotulo>Art. 142.</Rotulo>
+            
+            <Caput xlink:href="art142_cpt" id="art1_cpt_alt1_art142_cpt">
+            
+            
+            
+            <p>
+    O empregado perceberá, durante as férias, a remuneração que lhe for devida na data da sua concessão.
+
+  </p>
+            
+          </Caput><Paragrafo xlink:href="art142_par1" id="art1_cpt_alt1_art142_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Quando o salário for pago por hora com jornadas variáveis apurar-se-á a média do período aquisitivo, aplicando-se o valor do salário na data da concessão das férias.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art142_par2" id="art1_cpt_alt1_art142_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Quando o salário for pago por tarefa tomar-se-á por base a média da produção no período aquisitivo do direito a férias, aplicando-se o valor da remuneração da tarefa na data da concessão das férias.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art142_par3" id="art1_cpt_alt1_art142_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Quando o salário for pago por porcentagem, comissão ou viagem, apurar-se-á a média percebida pelo empregado nos 12 (doze) meses que precederem à concessão das férias.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art142_par4" id="art1_cpt_alt1_art142_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    A parte do salário paga em utilidades será computada de acordo com a anotação na CTPS.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art142_par5" id="art1_cpt_alt1_art142_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Os adicionais por trabalho extraordinário, noturno, insalubre ou perigoso serão computados no salário que servirá de base ao cálculo da remuneração das férias.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art142_par6" id="art1_cpt_alt1_art142_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    Se, no momento das férias, o empregado não estiver percebendo o mesmo adicional do período aquisitivo ou quando o valor deste não tiver sido uniforme, será computada a média duodecimal recebida naquele período após a atualização das importâncias pagas, mediante incidência dos percentuais dos reajustamentos salariais supervenientes.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo xlink:href="art143" id="art1_cpt_alt1_art143">
+            
+            
+            <Rotulo>Art. 143.</Rotulo>
+            
+            <Caput xlink:href="art143_cpt" id="art1_cpt_alt1_art143_cpt">
+            
+            
+            
+            <p>
+    É facultado ao empregado converter 1/3 (um terço) do período de férias a que tiver direito em abono pecuniário, no valor da remuneração que lhe seria devida nos dias correspondentes.
+
+  </p>
+            
+          </Caput><Paragrafo xlink:href="art143_par1" id="art1_cpt_alt1_art143_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O abono de férias deverá ser requerido até 15 (quinze) dias antes do término do período aquisitivo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art143_par2" id="art1_cpt_alt1_art143_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Tratando-se de férias coletivas, a conversão a que se refere este artigo deverá ser objeto de acordo coletivo entre o empregados, e o sindicato representativo da respectiva categoria profissional, independendo de requerimento individual a concessão do abono.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo xlink:href="art144" id="art1_cpt_alt1_art144">
+            
+            
+            <Rotulo>Art. 144.</Rotulo>
+            
+            <Caput xlink:href="art144_cpt" id="art1_cpt_alt1_art144_cpt">
+            
+            
+            
+            <p>
+    O abono de férias de que trata o artigo anterior, bem como o concedido em virtude de cláusula do contrato de trabalho, do regulamento da empresa, de convenção ou acordo coletivo, desde que não excedente de 20 (vinte) dias do salário, não integrarão a remuneração do empregado para os efeitos da legislação do trabalho e da previdência social.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo xlink:href="art145" id="art1_cpt_alt1_art145">
+            
+            
+            <Rotulo>Art. 145.</Rotulo>
+            
+            <Caput xlink:href="art145_cpt" id="art1_cpt_alt1_art145_cpt">
+            
+            
+            
+            <p>
+    O pagamento da remuneração das férias e, se for o caso, o do abono referido no art. 143, serão efetuados até 2 (dois) dias antes do início do respectivo período.
+
+  </p>
+            
+          </Caput><Paragrafo xlink:href="art145_par1u" id="art1_cpt_alt1_art145_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O empregado dará quitação do pagamento com indicação do início e do termo das férias.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao xlink:href="cap4_sec5" id="art1_cpt_alt1_cap4_sec5">
+            
+            
+            <Rotulo>Seção V</Rotulo>
+            <NomeAgrupador>
+    Dos Efeitos da Cessação do Contrato de Trabalho
+
+  </NomeAgrupador>
+            <Artigo xlink:href="art146" id="art1_cpt_alt1_art146">
+            
+            
+            <Rotulo>Art. 146.</Rotulo>
+            
+            <Caput xlink:href="art146_cpt" id="art1_cpt_alt1_art146_cpt">
+            
+            
+            
+            <p>
+    Na cessação do contrato de trabalho qualquer que seja a sua causa, será devida ao empregado a remuneração simples ou em dobro, conforme o caso, correspondente ao período de férias, cujo direito tenha adquirido.
+
+  </p>
+            
+          </Caput><Paragrafo xlink:href="art146_par1u" id="art1_cpt_alt1_art146_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Na cessação do contrato de trabalho, após 12 (doze) meses de serviço, o empregado, desde que não haja sido demitido por justa causa, terá direito à remuneração relativa ao período incompleto de férias, de acordo com o art. 130, na proporção de 1/12 (um doze avos) por mês de serviço ou fração superior a 14 (quatorze) dias.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo xlink:href="art147" id="art1_cpt_alt1_art147">
+            
+            
+            <Rotulo>Art. 147.</Rotulo>
+            
+            <Caput xlink:href="art147_cpt" id="art1_cpt_alt1_art147_cpt">
+            
+            
+            
+            <p>
+    O empregado que for despedido sem justa causa, ou cujo contrato de trabalho se extinguir em prazo predeterminado, antes de completar 12 (doze) meses de serviço, terá direito à remuneração relativa ao período incompleto de férias, de conformidade com o disposto no artigo anterior.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo xlink:href="art148" id="art1_cpt_alt1_art148">
+            
+            
+            <Rotulo>Art. 148.</Rotulo>
+            
+            <Caput xlink:href="art148_cpt" id="art1_cpt_alt1_art148_cpt">
+            
+            
+            
+            <p>
+    A remuneração das férias, ainda quando devida após a cessação do contrato de trabalho, terá natureza salarial, para os efeitos do art. 449.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao xlink:href="cap4_sec6" id="art1_cpt_alt1_cap4_sec6">
+            
+            
+            <Rotulo>Seção VI</Rotulo>
+            <NomeAgrupador>
+    Do Início da Prescrição
+
+  </NomeAgrupador>
+            <Artigo xlink:href="art149" id="art1_cpt_alt1_art149">
+            
+            
+            <Rotulo>Art. 149.</Rotulo>
+            
+            <Caput xlink:href="art149_cpt" id="art1_cpt_alt1_art149_cpt">
+            
+            
+            
+            <p>
+    A prescrição do direito de reclamar a concessão das férias ou o pagamento da respectiva remuneração é contada do término do prazo mencionado no art. 134 ou se for o caso, da cessação do contrato de trabalho.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao xlink:href="cap4_sec7" id="art1_cpt_alt1_cap4_sec7">
+            
+            
+            <Rotulo>Seção VII</Rotulo>
+            <NomeAgrupador>
+    Disposições Especiais
+
+  </NomeAgrupador>
+            <Artigo xlink:href="art150" id="art1_cpt_alt1_art150">
+            
+            
+            <Rotulo>Art. 150.</Rotulo>
+            
+            <Caput xlink:href="art150_cpt" id="art1_cpt_alt1_art150_cpt">
+            
+            
+            
+            <p>
+    O tripulante que, por determinação do armador, for transferido para o serviço de outro, terá computado, para o efeito de gozo de férias, o tempo de serviço prestado ao primeiro, ficando obrigado a concedê-las o armador em cujo serviço ele se encontra na época de gozá-las.
+
+  </p>
+            
+          </Caput><Paragrafo xlink:href="art150_par1" id="art1_cpt_alt1_art150_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As férias poderão ser concedidas a pedido dos interessados e com aquiescência do armador, parceladamente, nos portos de escala de grande estadia do navio, aos tripulantes ali residentes.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art150_par2" id="art1_cpt_alt1_art150_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Será considerada grande estadia a permanência no porto por prazo excedente de seis dias.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art150_par3" id="art1_cpt_alt1_art150_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Os embarcadiços, para gozarem férias nas condições deste artigo, deverão pedi-las por escrito, ao armador antes do início da viagem, porto de registro ou armação.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art150_par4" id="art1_cpt_alt1_art150_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O tripulante, ao terminar as férias, apresentar-se-á ao armador, que deverá designá-lo para qualquer de suas embarcações ou o adir a algum dos seus serviços terrestres, respeitada, a condição pessoal e a remuneração.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art150_par5" id="art1_cpt_alt1_art150_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Em caso de necessidade, determinada pelo interesse público, e comprovada pela autoridade competente, poderá o armador ordenar a suspensão das férias já iniciadas ou a iniciar-se, ressalvado ao tripulante o direito ao respectivo gozo posteriormente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo xlink:href="art150_par6" id="art1_cpt_alt1_art150_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    O Delegado do Trabalho Marítimo poderá autorizar a acumulação de 2 (dois) períodos de férias do marítimo mediante requerimento justificado:
+
+  </p>
+            <Alinea xlink:href="art150_par6_ali9" id="art1_cpt_alt1_art150_par6_ali9">
+            
+            
+            <Rotulo>i)</Rotulo>
+            <p>
+    do sindicato, quando se tratar de sindicalizado; e
+
+  </p>
+            
+          </Alinea><Alinea xlink:href="art150_par6_ali243" id="art1_cpt_alt1_art150_par6_ali243">
+            
+            
+            <Rotulo>ii)</Rotulo>
+            <p>
+    da empresa quando o empregado não for sindicalizado.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo>
+          </Artigo><Artigo xlink:href="art151" id="art1_cpt_alt1_art151">
+            
+            
+            <Rotulo>Art. 151.</Rotulo>
+            
+            <Caput xlink:href="art151_cpt" id="art1_cpt_alt1_art151_cpt">
+            
+            
+            
+            <p>
+    Enquanto não se criar um tipo especial de caderneta profissional para os marítimos as férias serão anotadas pela Capitania do Porto na caderneta-matrícula do tripulante, na página das observações.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo xlink:href="art152" id="art1_cpt_alt1_art152">
+            
+            
+            <Rotulo>Art. 152.</Rotulo>
+            
+            <Caput xlink:href="art152_cpt" id="art1_cpt_alt1_art152_cpt">
+            
+            
+            
+            <p>
+    A remuneração do tripulante no gozo de férias será acrescida da importância correspondente à etapa que estiver vencendo.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao xlink:href="cap4_sec8" id="art1_cpt_alt1_cap4_sec8">
+            
+            
+            <Rotulo>Seção VIII</Rotulo>
+            <NomeAgrupador>
+    Das Penalidades
+
+  </NomeAgrupador>
+            <Artigo xlink:href="art153" id="art1_cpt_alt1_art153">
+            
+            
+            <Rotulo>Art. 153.</Rotulo>
+            
+            <Caput xlink:href="art153_cpt" id="art1_cpt_alt1_art153_cpt">
+            <!--Link: urn:lex:br:federal:lei:1975-04-29;6205!art2_par1u-->
+            
+            
+            <p>
+    As infrações ao disposto neste Capítulo serão punidas com a multa de no mínimo 2 (duas) até 20 (vinte) vezes o valor de referência previsto no <span xlink:href="urn:lex:br:federal:lei:1975-04-29;6205!art2_par1u">artigo 2º, parágrafo único, da Lei nº 6.205, de 29 de abril de 1975</span>, calculada a razão de um valor de referência, por empregado em situação irregular.
+
+  </p>
+            
+          </Caput><Paragrafo xlink:href="art153_par1u" id="art1_cpt_alt1_art153_par1u" fechaAspas="s">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Em caso de reincidência, embaraço ou resistência a fiscalização ou emprego de artifício e simulação com o objetivo de fraudar a lei a multa será aplicada em seu valor máximo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao>
+          </Capitulo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            <!--Link: urn:lex:br:federal:lei:1966-08-27;5085-->
+            
+            
+            <p>
+    O Poder Executivo expedirá nova regulamentação à <span xlink:href="urn:lex:br:federal:lei:1966-08-27;5085">Lei nº 5.085, de 27 de agosto de 1966</span>, com a finalidade de ajustá-la às alterações decorrentes deste Decreto-lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    O presente Decreto-lei entrará em vigor no dia 1º de maio de 1977.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    Revogam-se as disposições em contrário.
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 13 de abril de 1977; 156º da Independência e 89º da República.</p></LocalDataFecho><Assinatura><NomePessoa>ERNESTO GEISEL</NomePessoa><NomePessoa>Arnaldo Prieto</NomePessoa></Assinatura></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>
