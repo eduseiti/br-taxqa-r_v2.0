@@ -1,0 +1,25 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <Metadado>
+      <Identificacao URN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2021-12-06;2055!anexo6"/>
+    </Metadado>
+      <Anexo>
+        <DocumentoGenerico>
+      <PartePrincipal id="anexo6_pp">
+        <p>Anexo V</p>
+        <p>Pedido de Habilitação de Crédito Decorrente de Decisão Judicial Transitada em
+</p><p>Julgado – Anexo V
+</p><table id="anexo6_tab3"><tr><td/><td><b>Nome/ Nome Empresarial</b></td><td><b>CPF CNPJ</b></td></tr><tr><td/><td/><td/></tr></table><table id="anexo6_tab4"><tr><td/><td><b>Número do Processo Judicial</b></td><td/><td/><td><b>Seção Judiciária</b></td><td/><td/><td><b>Vara</b></td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td>Data do Trânsito em Julgado</td><td/><td/><td>Tributo ao qual o Crédito se Refere</td><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td>Valor Total do Crédito Original</td><td/><td/><td>Valor Total do Crédito Atualizado (*)</td><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>(*) Utilizar os índices de atualização determinados na decisão judicial. Sendo omissa a decisão judicial e na hipótese de o crédito estar sujeito a atualização, deve-se utilizar a taxa Selic.</td><td/><td/><td/><td/><td/><td/><td/></tr><tr><td>Observação: O deferimento do pedido de habilitação do crédito não implica reconhecimento do direito creditório nem homologação da compensação.</td><td/><td/><td/><td/><td/><td/><td/></tr></table><table id="anexo6_tab5"><tr><td/><td><b>Outras Informações</b></td></tr><tr><td/><td/></tr></table><p>v.1.00.00 1/1 [Incluído(a) por republicação parcial em 13 de dezembro de 2021] [Revogado(a) pelo(a) Instrução Normativa RFB nº 2288, de 30 de outubro de 2025]
+</p><Item id="ite4">
+            
+            
+            <Rotulo>4.</Rotulo>
+            <p>
+    ASSINATURA
+
+  </p>
+            <table id="ite4_tab1"><tr><td/><td><b>Nome</b></td><td/><td/><td/><td><b>CPF</b></td></tr><tr><td/><td/><td/><td/><td/><td/></tr><tr><td/><td>Data</td><td/><td>Assinatura (este documento pode ser assinado digitalmente com uso de certificado digital no padrão ICP Brasil)</td><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/></tr></table>
+          </Item>
+      </PartePrincipal>
+    </DocumentoGenerico>
+      </Anexo>
+    </LexML>

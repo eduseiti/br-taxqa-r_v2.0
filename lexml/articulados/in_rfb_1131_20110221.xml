@@ -1,0 +1,4090 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2011-02-21;1131"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">INSTRUÇÃO NORMATIVA Nº 1.131, DE 21 DE FEVEREIRO DE 2011 </Epigrafe>
+		  <Ementa id="ementa">Publicado(a) no DOU de 22.02.2011, seção 1, página 23 Dispõe sobre os procedimentos a serem adotados para fruição dos benefícios fiscais relativos ao Imposto sobre a Renda das Pessoas Físicas nas doações aos Fundos dos Direitos da Criança e do Adolescente, nas doações aos Fundos do Idoso, nos investimentos e patrocínios em obras audiovisuais, nas doações e patrocínios de projetos culturais, nas doações e patrocínios em projetos desportivos e paradesportivos, nas doações e patrocínios diretamente efetuados ao Programa Nacional de Apoio à Atenção Oncológica (Pronon) e ao Programa Nacional de Apoio à Atenção da Saúde da Pessoa com Deficiência (Pronas/PCD) e na contribuição patronal paga à Previdência Social incidente sobre a remuneração do empregado doméstico.[Redação dada pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O SECRETÁRIO DA RECEITA FEDERAL DO BRASIL, no uso da atribuição que lhe confere o inciso III do art. 280 do Regimento Interno da Secretaria da Receita Federal do Brasil, aprovado pela Portaria MF nº 203, de 14 de maio de 2012, e tendo em vista o disposto na Lei nº 8.069, de 13 de julho de 1990, na Lei nº 8.242, de 12 de outubro de 1991, na Lei nº 8.313, de 23 de dezembro de 1991, na Lei nº 8.685, de 20 de julho de 1993, na Lei nº 9.250, de 26 de dezembro de 1995, na Lei nº 9.532, de 10 de dezembro de 1997, na Lei nº 9.874, de 23 de novembro de 1999, na Medida Provisória nº 2.228-1, de 6 de setembro de 2001, na Lei nº 10.454, de 13 de maio de 2002, na Lei nº 11.324, de 19 de julho de 2006, na Lei nº 11.437, de 28 de dezembro de 2006, na Lei nº 11.438, de 29 de dezembro de 2006, na Lei nº 11.472, de 2 de maio de 2007, na Lei nº 11.646, de 10 de março de 2008, na Lei nº 12.213, de 20 de janeiro de 2010, nos arts. 12 e 13 da Lei nº 12.375, de 30 de dezembro de 2010, no art. 87 da Lei nº 12.594, de 18 de janeiro de 2012, nos arts. 1º a 7º, 10, 13 e 14 da Lei nº 12.715, de 17 de setembro de 2012, e no art. 13 da Medida Provisória nº 582, de 20 de setembro de 2012, resolve:[Redação dada pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    Os procedimentos a serem adotados para fruição dos benefícios fiscais relativos ao Imposto sobre a Renda das Pessoas Físicas nas doações aos Fundos dos Direitos da Criança e do Adolescente, nas doações aos Fundos do Idoso, nos investimentos e patrocínios em obras audiovisuais, nas doações e patrocínios de projetos culturais, nas doações e patrocínios em projetos desportivos e paradesportivos, nas doações e patrocínios diretamente efetuados ao Programa Nacional de Apoio à Atenção Oncológica (Pronon) e ao Programa Nacional de Apoio à Atenção da Saúde da Pessoa com Deficiência (Pronas/PCD) e na contribuição patronal paga à Previdência Social incidente sobre a remuneração do empregado doméstico são efetuados de acordo com as disposições desta Instrução Normativa.[Redação dada pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Caput>
+          </Artigo><Capitulo id="cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DOS FUNDOS DOS DIREITOS DA CRIANÇA E DO ADOLESCENTE
+
+  </NomeAgrupador>
+            <Secao id="cap1_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Das Doações Realizadas Diretamente aos Fundos Nacional, Estaduais, Distrital e Municipais [Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </NomeAgrupador>
+            <Subsecao id="cap1_sec1_sub1">
+            
+            
+            <Rotulo>Subseção I</Rotulo>
+            <NomeAgrupador>
+    Do Benefício Fiscal [Redação dada pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </NomeAgrupador>
+            <Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    A pessoa física pode deduzir do imposto apurado na Declaração de Ajuste Anual a que se refere o art. 54 as doações feitas em espécie ou em bens, no ano-calendário anterior à referida declaração, aos Fundos Nacional, estaduais, Distrital e municipais dos Direitos da Criança e do Adolescente.[Redação dada pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Caput><Paragrafo id="art2_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    As importâncias deduzidas a título de doações sujeitam-se à comprovação, por meio de documentos emitidos pelos conselhos gestores dos respectivos fundos.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    [Suprimido(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Subsecao><Subsecao id="cap1_sec1_sub2">
+            
+            
+            <Rotulo>Subseção II</Rotulo>
+            <NomeAgrupador>
+    Do Limite [Redação dada pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </NomeAgrupador>
+            <Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    A dedução de que trata o art. 2º deve atender ao limite global estabelecido no art. 55.[Redação dada pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Subsecao><Subsecao id="cap1_sec1_sub3">
+            
+            
+            <Rotulo>Subseção III</Rotulo>
+            <NomeAgrupador>
+    Do Comprovante [Redação dada pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </NomeAgrupador>
+            <Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    Os órgãos responsáveis pela administração das contas dos Fundos dos Direitos da Criança e do Adolescente Nacional, estaduais, Distrital e municipais, beneficiados pelas doações, devem emitir recibo em favor do doador, assinado por pessoa competente e pelo presidente do Conselho correspondente, especificando:[Redação dada pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            <Inciso id="art4_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o número de ordem;[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o nome, número de inscrição no Cadastro Nacional da Pessoa Jurídica (CNPJ) e o endereço do emitente;[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    o nome, número de inscrição no Cadastro de Pessoas Físicas (CPF) do doador;[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    a data da doação e valor recebido; e[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    o ano-calendário a que se refere a doação.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art4_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O comprovante de que trata o caput pode ser emitido anualmente, desde que sejam discriminados os valores doados mês a mês.[Redação dada pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            <Inciso id="art4_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    [Suprimido(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso><Inciso id="art4_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    [Suprimido(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso><Inciso id="art4_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    [Suprimido(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso><Inciso id="art4_par1_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    [Suprimido(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art4_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    No caso de doação em bens, o comprovante deve conter a identificação dos bens, mediante descrição em campo próprio ou em relação anexa ao comprovante, informando também, se houve avaliação, o nome, número de inscrição no CPF ou no CNPJ e endereço dos avaliadores.[Redação dada pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Subsecao><Subsecao id="cap1_sec1_sub4">
+            
+            
+            <Rotulo>Subseção IV</Rotulo>
+            <NomeAgrupador>
+    Da Doação em Bens [Redação dada pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </NomeAgrupador>
+            <Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    Na hipótese de doação em bens, o doador deverá:[Redação dada pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            <Inciso id="art5_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    comprovar a propriedade dos bens mediante documentação hábil;[Redação dada pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    baixar os bens doados na Declaração de Bens e Direitos da Declaração de Ajuste Anual; e[Redação dada pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    considerar como valor dos bens doados o valor constante da última Declaração de Bens e Direitos da Declaração de Ajuste Anual, desde que não exceda o valor de mercado, ou o pago, no caso de bens adquiridos no mesmo ano da doação.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art5_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O preço obtido em caso de leilão não será considerado na determinação do valor dos bens doados, exceto se o leilão for determinado por autoridade judiciária.[Redação dada pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    [Suprimido(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            <Inciso id="art5_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    [Suprimido(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso><Inciso id="art5_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    [Suprimido(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo>
+          </Subsecao><Subsecao id="cap1_sec1_sub5">
+            
+            
+            <Rotulo>Subseção V</Rotulo>
+            <NomeAgrupador>
+    Da Fiscalização e Prestação de Informação [Redação dada pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </NomeAgrupador>
+            <Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    A Secretaria da Receita Federal do Brasil (RFB) fiscalizará, no âmbito de suas atribuições, a captação dos recursos efetuada na forma do art. 2º.
+
+  </p>
+            
+          </Caput><Paragrafo id="art6_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Para efeito do disposto no caput, os órgãos responsáveis pela administração das contas dos Fundos dos Direitos da Criança e do Adolescente deverão informar anualmente à RFB os dados relativos ao valor das doações recebidas identificando número de inscrição no CPF, valor doado e especificando se a doação foi em espécie ou em bens, nos termos do art. 57.[Redação dada pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art6_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Em caso de descumprimento das obrigações previstas no § 1º, a RFB dará conhecimento do fato ao Ministério Público.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Subsecao><Subsecao id="cap1_sec1_sub6">
+            
+            
+            <Rotulo>Subseção VI</Rotulo>
+            <NomeAgrupador>
+    Da Penalidade [Redação dada pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </NomeAgrupador>
+            <Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    O descumprimento das determinações dos arts. 4º e 6º sujeita o infrator à multa de R$ 80,79 (oitenta reais e setenta e nove centavos) a R$ 242,51 (duzentos e quarenta e dois reais e cinquenta e um centavos), por comprovante ou relação não entregue.[Redação dada pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Subsecao>
+          </Secao><Secao id="cap1_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Das Doações Realizadas Diretamente na Declaração de Ajuste Anual [Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </NomeAgrupador>
+            <Subsecao id="cap1_sec2_sub1">
+            
+            
+            <Rotulo>Subseção I</Rotulo>
+            <NomeAgrupador>
+    Do Benefício Fiscal [Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </NomeAgrupador>
+            <Artigo id="art8-1">
+            
+            
+            <Rotulo>Art. 8º-A.</Rotulo>
+            
+            <Caput id="art8-1_cpt">
+            
+            
+            
+            <p>
+    A pessoa física pode deduzir do imposto apurado na Declaração de Ajuste Anual, a que se refere o art. 54, as doações efetuadas no próprio exercício até a data de vencimento da 1ª (primeira) quota ou da quota única do imposto aos Fundos dos Direitos da Criança e do Adolescente Nacional, estaduais, Distrital ou municipais.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Subsecao><Subsecao id="cap1_sec2_sub2">
+            
+            
+            <Rotulo>Subseção II</Rotulo>
+            <NomeAgrupador>
+    Dos Limites [Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </NomeAgrupador>
+            <Artigo id="art8-2">
+            
+            
+            <Rotulo>Art. 8º-B.</Rotulo>
+            
+            <Caput id="art8-2_cpt">
+            
+            
+            
+            <p>
+    A doação de que trata o art. 8º-A poderá ser deduzida até o percentual de 3% (três por cento) aplicados sobre o imposto apurado na declaração, observado o limite global estabelecido no art. 55.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Subsecao><Subsecao id="cap1_sec2_sub3">
+            
+            
+            <Rotulo>Subseção III</Rotulo>
+            <NomeAgrupador>
+    Das Condições [Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </NomeAgrupador>
+            <Artigo id="art8-3">
+            
+            
+            <Rotulo>Art. 8º-C.</Rotulo>
+            
+            <Caput id="art8-3_cpt">
+            
+            
+            
+            <p>
+    A dedução de que trata o art. 8º-A:[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            <Inciso id="art8-3_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    não se aplica à pessoa física que apresentar a declaração fora do prazo, conforme dispõe o art. 54;[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso><Inciso id="art8-3_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    só se aplica às doações em espécie; e[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso><Inciso id="art8-3_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    não exclui ou reduz outros benefícios ou deduções em vigor.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Subsecao><Subsecao id="cap1_sec2_sub4">
+            
+            
+            <Rotulo>Subseção IV</Rotulo>
+            <NomeAgrupador>
+    Do Pagamento [Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </NomeAgrupador>
+            <Artigo id="art8-4">
+            
+            
+            <Rotulo>Art. 8º-D.</Rotulo>
+            
+            <Caput id="art8-4_cpt">
+            
+            
+            
+            <p>
+    O pagamento da doação de que trata o art. 8º-A deve ser efetuado até a data de vencimento da 1ª (primeira) quota ou da quota única do imposto, até o encerramento do horário de expediente bancário das instituições financeiras autorizadas, inclusive se realizado pela Internet ou por terminal de autoatendimento.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Caput><Paragrafo id="art8-4_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O não pagamento da doação no prazo estabelecido no caput implica a glosa definitiva desta parcela de dedução, ficando a pessoa física obrigada ao recolhimento da diferença de imposto devido apurado na Declaração de Ajuste Anual com os acréscimos legais previstos na legislação.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8-4_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Após o prazo previsto para a apresentação da Declaração de Ajuste Anual, não será admitida retificação que tenha por objetivo o aumento do montante dedutível.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8-4_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O programa da Declaração de Ajuste Anual emitirá um Darf para o pagamento de cada doação ao fundo beneficiário indicado, no valor informado pelo declarante e com código de receita 3351, que não se confunde com o Darf emitido para pagamento de eventual saldo de imposto sobre a renda devido.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8-4_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O pagamento da doação informada na Declaração de Ajuste Anual deverá ser realizado mesmo que a pessoa física tenha direito a restituição ou tenha optado pelo pagamento do saldo de imposto por meio de débito automático em conta-corrente bancária.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8-4_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Uma vez recolhido o montante indicado no Darf, a doação efetuada ao fundo nele indicado torna-se irreversível e eventual valor recolhido a maior que o passível de dedução será também repassado ao fundo indicado, não cabendo devolução, compensação ou dedução desse valor.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8-4_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    Se o valor recolhido for menor que o informado na declaração, o contribuinte:[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            <Inciso id="art8-4_par6_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    poderá, até a data de vencimento da 1ª (primeira) quota ou da quota única do imposto, complementar o recolhimento; ou[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso><Inciso id="art8-4_par6_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    deverá, dentro do prazo decadencial e desde que não esteja sob procedimento de ofício, retificar a Declaração de Ajuste Anual para corrigir a informação referente ao valor doado.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art8-4_par7">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    Se o valor recolhido for maior que o informado na declaração, o contribuinte:[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            <Inciso id="art8-4_par7_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    poderá, até a data de vencimento da 1ª (primeira) quota ou da quota única do imposto, retificar a Declaração de Ajuste Anual para corrigir a informação referente ao valor doado, respeitados os limites estabelecidos nos arts. 8º-B e 55; ou[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso><Inciso id="art8-4_par7_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    deverá considerar como não dedutível o valor recolhido que ultrapassar os limites estabelecidos nos arts. 8º-B e 55, observado o disposto no § 5º.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art8-4_par8">
+            
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    O pagamento de que trata o caput não está sujeito a parcelamento.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Subsecao><Subsecao id="cap1_sec2_sub5">
+            
+            
+            <Rotulo>Subseção V</Rotulo>
+            <NomeAgrupador>
+    Do Repasse das Doações aos Fundos [Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </NomeAgrupador>
+            <Artigo id="art8-5">
+            
+            
+            <Rotulo>Art. 8º-E.</Rotulo>
+            
+            <Caput id="art8-5_cpt">
+            
+            
+            
+            <p>
+    A RFB efetuará o repasse das doações diretamente aos fundos indicados pelos contribuintes na Declaração de Ajuste Anual de que trata o art. 54, depositando os valores nas contas bancárias específicas informadas nos termos do art. 8º-F.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Subsecao><Subsecao id="cap1_sec2_sub6">
+            
+            
+            <Rotulo>Subseção VI</Rotulo>
+            <NomeAgrupador>
+    Da Prestação de Informações pela Secretaria de Direitos Humanos da Presidência da República [Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </NomeAgrupador>
+            <Artigo id="art8-6">
+            
+            
+            <Rotulo>Art. 8º-F.</Rotulo>
+            
+            <Caput id="art8-6_cpt">
+            
+            
+            
+            <p>
+    A Secretaria de Direitos Humanos da Presidência da República (SDH/PR) encaminhará à RFB, até 31 de outubro de cada ano, arquivo eletrônico contendo a relação atualizada dos Fundos dos Direitos da Criança e do Adolescente Nacional, estaduais, Distrital e municipais, com a indicação dos respectivos números de inscrição no CNPJ e das contas bancárias específicas mantidas em instituições financeiras públicas, destinadas exclusivamente a gerir os recursos dos Fundos.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Caput><Paragrafo id="art8-6_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Excepcionalmente em relação ao ano de 2012, a SDH/PR encaminhará o arquivo eletrônico de que trata o caput até o dia 20 de janeiro de 2013.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Subsecao>
+          </Secao><Secao id="cap1_sec3">
+            
+            
+            <Rotulo>Seção III</Rotulo>
+            <NomeAgrupador>
+    Das Disposições Comuns [Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </NomeAgrupador>
+            <Subsecao id="cap1_sec3_sub1">
+            
+            
+            <Rotulo>Subseção I</Rotulo>
+            <NomeAgrupador>
+    Da Concomitância das Doações [Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </NomeAgrupador>
+            <Artigo id="art8-7">
+            
+            
+            <Rotulo>Art. 8º-G.</Rotulo>
+            
+            <Caput id="art8-7_cpt">
+            
+            
+            
+            <p>
+    A pessoa física poderá deduzir do imposto devido apurado na Declaração de Ajuste Anual as doações feitas, no respectivo ano-calendário, diretamente aos fundos controlados pelos Conselhos dos Direitos da Criança e do Adolescente Nacional, estaduais, Distrital, ou municipais de que trata o art. 2º concomitantemente com a opção de que trata o art. 8º-A, respeitado o limite previsto no art. 55.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Subsecao><Subsecao id="cap1_sec3_sub2">
+            
+            
+            <Rotulo>Subseção II</Rotulo>
+            <NomeAgrupador>
+    Dos Depósitos dos Recursos Incentivados [Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </NomeAgrupador>
+            <Artigo id="art8-8">
+            
+            
+            <Rotulo>Art. 8º-H.</Rotulo>
+            
+            <Caput id="art8-8_cpt">
+            
+            
+            
+            <p>
+    As doações efetuadas em moeda devem ser depositadas em conta específica, aberta em instituição financeira pública, vinculada ao respectivo fundo.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Subsecao><Subsecao id="cap1_sec3_sub3">
+            
+            
+            <Rotulo>Subseção III</Rotulo>
+            <NomeAgrupador>
+    Das Obrigações dos Fundos e dos Conselhos [Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </NomeAgrupador>
+            <Artigo id="art8-9">
+            
+            
+            <Rotulo>Art. 8º-I.</Rotulo>
+            
+            <Caput id="art8-9_cpt">
+            
+            
+            
+            <p>
+    Os Fundos dos Direitos da Criança e do Adolescente devem:[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            <Inciso id="art8-9_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    possuir número de inscrição no CNPJ próprio; e[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso><Inciso id="art8-9_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    registrar em sua escrituração os valores recebidos e manter em boa guarda a documentação correspondente pelo prazo decadencial para fins de comprovação.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art8-10">
+            
+            
+            <Rotulo>Art. 8º-J.</Rotulo>
+            
+            <Caput id="art8-10_cpt">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art227_par3_inc6-->
+            
+            
+            <p>
+    Os Conselhos dos Direitos da Criança e do Adolescente fixarão critérios de utilização, por meio de planos de aplicação das doações subsidiadas e demais receitas, aplicando necessariamente percentual para incentivo ao acolhimento, sob a forma de guarda de criança ou adolescente, órfão ou abandonado, na forma do disposto no <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art227_par3_inc6">inciso VI do § 3º do art. 227 da Constituição Federal</span> de 1988.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art8-11">
+            
+            
+            <Rotulo>Art. 8º-K.</Rotulo>
+            
+            <Caput id="art8-11_cpt">
+            
+            
+            
+            <p>
+    Os órgãos responsáveis pela administração das contas dos Fundos dos Direitos da Criança e do Adolescente Nacional, estaduais, Distrital e municipais devem manter:[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            <Inciso id="art8-11_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    conta bancária específica destinada exclusivamente a gerir os recursos do Fundo; e[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso><Inciso id="art8-11_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    controle das doações recebidas.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art8-11_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Em caso de descumprimento das obrigações previstas no caput, a RFB dará conhecimento do fato ao Ministério Público.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Subsecao><Subsecao id="cap1_sec3_sub4">
+            
+            
+            <Rotulo>Subseção IV</Rotulo>
+            <NomeAgrupador>
+    Da Definição das Prioridades [Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </NomeAgrupador>
+            <Artigo id="art8-12">
+            
+            
+            <Rotulo>Art. 8º-L.</Rotulo>
+            
+            <Caput id="art8-12_cpt">
+            
+            
+            
+            <p>
+    Na definição das prioridades a serem atendidas com os recursos captados pelos Fundos Nacional, estaduais e municipais dos Direitos da Criança e do Adolescente, serão consideradas as disposições do Plano Nacional de Promoção, Proteção e Defesa dos Direitos de Crianças e Adolescentes à Convivência Familiar, bem como as regras e princípios relativos à garantia do direito à convivência familiar previstos na Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente).[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Subsecao><Subsecao id="cap1_sec3_sub5">
+            
+            
+            <Rotulo>Subseção V</Rotulo>
+            <NomeAgrupador>
+    Da Divulgação à Comunidade [Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </NomeAgrupador>
+            <Artigo id="art8-13">
+            
+            
+            <Rotulo>Art. 8º-M.</Rotulo>
+            
+            <Caput id="art8-13_cpt">
+            
+            
+            
+            <p>
+    Os Conselhos dos Direitos da Criança e do Adolescente Nacional, estaduais, Distrital e municipais divulgarão amplamente à comunidade:[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            <Inciso id="art8-13_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o calendário de suas reuniões;[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso><Inciso id="art8-13_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    as ações prioritárias para aplicação das políticas de atendimento à criança e ao adolescente;[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso><Inciso id="art8-13_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    os requisitos para a apresentação de projetos a serem beneficiados com recursos dos Fundos dos Direitos da Criança e do Adolescente Nacional, estaduais, Distrital ou municipais;[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso><Inciso id="art8-13_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    a relação dos projetos aprovados em cada ano-calendário e o valor dos recursos previstos para implementação das ações, por projeto;[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso><Inciso id="art8-13_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    o total dos recursos recebidos e a respectiva destinação, por projeto atendido, inclusive com cadastramento na base de dados do Sistema de Informações sobre a Infância e a Adolescência; e[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso><Inciso id="art8-13_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    a avaliação dos resultados dos projetos beneficiados com recursos dos Fundos dos Direitos da Criança e do Adolescente Nacional, estaduais, Distrital e municipais.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Subsecao><Subsecao id="cap1_sec3_sub6">
+            
+            
+            <Rotulo>Subseção VI</Rotulo>
+            <NomeAgrupador>
+    Da Atuação do Ministério Público [Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </NomeAgrupador>
+            <Artigo id="art8-14">
+            
+            
+            <Rotulo>Art. 8º-N.</Rotulo>
+            
+            <Caput id="art8-14_cpt">
+            
+            
+            
+            <p>
+    O Ministério Público determinará em cada Comarca a forma de fiscalização da aplicação dos incentivos fiscais de que trata este Capítulo.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Caput><Paragrafo id="art8-14_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O descumprimento do disposto no § 1º do art. 6º e nos arts. 8º-K e 8º-M sujeitará os infratores a responder por ação judicial proposta pelo Ministério Público, que poderá atuar de ofício, a requerimento ou representação de qualquer cidadão.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Subsecao>
+          </Secao>
+          </Capitulo><Capitulo id="cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DOS FUNDOS DO IDOSO
+
+  </NomeAgrupador>
+            <Secao id="cap2_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Do Benefício Fiscal
+
+  </NomeAgrupador>
+            <Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            
+            
+            
+            <p>
+    A pessoa física, a partir do exercício de 2012, ano-calendário de 2011, pode deduzir do imposto apurado na Declaração de Ajuste Anual, a que se refere o art. 54, as doações feitas aos Fundos Nacional, Estaduais ou Municipais do Idoso.
+
+  </p>
+            
+          </Caput><Paragrafo id="art9_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As importâncias deduzidas a título de doações sujeitam-se à comprovação, por meio de documentos emitidos pelos conselhos gestores dos respectivos fundos.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As doações efetuadas em moeda devem ser depositadas em conta específica, aberta em instituição financeira pública, vinculada ao respectivo fundo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap2_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Do Limite
+
+  </NomeAgrupador>
+            <Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>
+    A dedução de que trata o art. 9º deve atender ao limite global estabelecido no art. 55 desta Instrução Normativa.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap2_sec3">
+            
+            
+            <Rotulo>Seção III</Rotulo>
+            <NomeAgrupador>
+    Do Comprovante
+
+  </NomeAgrupador>
+            <Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            <p>
+    Os Conselhos Municipais, Estaduais ou Nacional do Idoso, controladores dos fundos beneficiados pelas doações, devem emitir comprovante em favor do doador, observado o disposto no art. 4º desta Instrução Normativa.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap2_sec4">
+            
+            
+            <Rotulo>Seção IV</Rotulo>
+            <NomeAgrupador>
+    Da Doação de Bens
+
+  </NomeAgrupador>
+            <Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            
+            
+            
+            <p>
+    Na doação de bens móveis ou imóveis aplica-se o disposto no art. 5º desta Instrução Normativa.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap2_sec5">
+            
+            
+            <Rotulo>Seção V</Rotulo>
+            <NomeAgrupador>
+    Da Prestação de Informação
+
+  </NomeAgrupador>
+            <Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>
+    A RFB fiscalizará, no âmbito de suas atribuições, a captação dos recursos efetuada na forma do art. 9º.
+
+  </p>
+            
+          </Caput><Paragrafo id="art13_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Para efeito do caput, os órgãos responsáveis pela administração das contas dos Fundos do Idoso deverão informar à RFB dados relativos ao valor das doações recebidas, nos termos do art. 57 desta Instrução Normativa.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            <p>
+    Para fins de comprovação, cada Fundo deverá registrar em sua escrituração os valores recebidos e manter em boa guarda a documentação correspondente pelo prazo decadencial.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap2_sec6">
+            
+            
+            <Rotulo>Seção VI</Rotulo>
+            <NomeAgrupador>
+    Da Penalidade
+
+  </NomeAgrupador>
+            <Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>
+    O descumprimento das determinações dos arts. 11 e 13 sujeita o infrator à multa de R$ 80,79 (oitenta reais e setenta e nove centavos) a R$ 242, 51 (duzentos e quarenta e dois reais e cinquenta e um centavos), por comprovante ou relação não entregues.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="cap3">
+            
+            
+            <Rotulo>CAPÍTULO III</Rotulo>
+            <NomeAgrupador>
+    DA ATIVIDADE AUDIOVISUAL
+
+  </NomeAgrupador>
+            <Secao id="cap3_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Do Benefício Fiscal
+
+  </NomeAgrupador>
+            <Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            
+            
+            
+            <p>
+    A pessoa física pode deduzir do imposto apurado na Declaração de Ajuste Anual, a que se refere o art. 54, as quantias aplicadas no ano-calendário anterior referentes a:
+
+  </p>
+            <Inciso id="art16_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    investimentos feitos na produção de obras audiovisuais cinematográficas brasileiras de produção independente, até o exercício de 2016, ano-calendário de 2015, mediante a aquisição de cotas representativas de direitos de comercialização sobre as referidas obras;
+
+  </p>
+            
+          </Inciso><Inciso id="art16_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    patrocínio feito à produção de obras cinematográficas brasileiras de produção independente, até o exercício de 2017, ano-calendário de 2016; e
+
+  </p>
+            
+          </Inciso><Inciso id="art16_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    aquisição de cotas dos Fundos de Financiamento da Indústria Cinematográfica Nacional (Funcines), até o exercício de 2017, ano-calendário de 2016.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art16_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O incentivo fiscal de que trata o inciso III do caput pode ser utilizado de forma alternativa ou conjunta com os referidos nos incisos I e II do caput.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A utilização dos incentivos previstos neste artigo não impossibilita que o mesmo projeto se beneficie de recursos previstos na Lei nº 8.313, de 23 de dezembro de 1991, desde que enquadrados em seus objetivos, limitado o total desses incentivos a 95% (noventa e cinco por cento) do total do orçamento aprovado pela Agência Nacional do Cinema (Ancine), na forma disposta no Capítulo IV.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A dedução prevista nos incisos I e III do caput, está condicionada a que os investimentos sejam realizados no mercado de capitais, em ativos previstos em lei, e autorizados pela Comissão de Valores Mobiliários (CVM), conforme o disposto no art. 20 desta Instrução Normativa.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Os investimentos a que se refere este artigo não poderão ser utilizados na produção de obras audiovisuais de natureza publicitária.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap3_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Da Aprovação
+
+  </NomeAgrupador>
+            <Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            
+            
+            
+            <p>
+    Os projetos a serem beneficiados pelos incentivos de que trata este Capítulo devem ser previamente aprovados pela Ancine.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap3_sec3">
+            
+            
+            <Rotulo>Seção III</Rotulo>
+            <NomeAgrupador>
+    Dos Projetos Específicos
+
+  </NomeAgrupador>
+            <Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            
+            
+            
+            <p>
+    A pessoa física pode fruir dos incentivos fiscais previstos no art. 16, em relação às quantias aplicadas no ano-calendário anterior em projetos ou programas específicos credenciados pela Ancine, desde que efetuadas na forma de:
+
+  </p>
+            <Inciso id="art18_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    investimentos de que trata o inciso I do caput do art. 16, na hipótese de projetos específicos da área audiovisual, cinematográfica de exibição, distribuição e infraestrutura técnica apresentados por empresa brasileira de capital nacional;
+
+  </p>
+            
+          </Inciso><Inciso id="art18_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    patrocínio de que trata o inciso II do caput do art. 16, na hipótese de:
+
+  </p>
+            <Alinea id="art18_cpt_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    projetos específicos da área audiovisual, cinematográfica de difusão, preservação, exibição, distribuição e infraestrutura técnica apresentados por empresa brasileira; e
+
+  </p>
+            
+          </Alinea><Alinea id="art18_cpt_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    programas especiais de fomento destinados a viabilizar projetos de distribuição, exibição, difusão e produção independente de obras audiovisuais brasileiras escolhidos por meio de seleção pública.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput><Paragrafo id="art18_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os recursos dos projetos ou programas específicos de que trata o inciso II do caput podem ser aplicados por meio de valores reembolsáveis ou não reembolsáveis, conforme normas expedidas pela Ancine.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art18_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os valores reembolsados na forma do § 1º destinar-se-ão ao Fundo Nacional da Cultura (FNC) e serão alocados em categoria de programação específica denominada Fundo Setorial do Audiovisual.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap3_sec4">
+            
+            
+            <Rotulo>Seção IV</Rotulo>
+            <NomeAgrupador>
+    Do Limite
+
+  </NomeAgrupador>
+            <Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            
+            
+            
+            <p>
+    A dedução prevista neste Capítulo deve atender ao limite global referido no art. 55 desta Instrução Normativa.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap3_sec5">
+            
+            
+            <Rotulo>Seção V</Rotulo>
+            <NomeAgrupador>
+    Da Aprovação da CVM
+
+  </NomeAgrupador>
+            <Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            
+            
+            
+            <p>
+    Os investimentos de que tratam os incisos I e III do caput do art. 16 serão efetuados no mercado de capitais, observadas as normas estabelecidas pela CVM.
+
+  </p>
+            
+          </Caput><Paragrafo id="art20_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Na hipótese do inciso I do caput do art. 16, o investimento será efetuado mediante a aquisição de quotas representativas dos respectivos direitos de comercialização, caracterizadas por Certificados de Investimento, observando que:
+
+  </p>
+            <Inciso id="art20_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    somente pode usufruir do incentivo o investidor que estiver identificado no Certificado de Investimento como primeiro adquirente;
+
+  </p>
+            
+          </Inciso><Inciso id="art20_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a responsabilidade do adquirente é limitada à integralização das quotas subscritas; e
+
+  </p>
+            
+          </Inciso><Inciso id="art20_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    os ganhos auferidos na alienação dos Certificados de Investimentos estão sujeitos à tributação definitiva, na forma da legislação aplicável ao ganho de capital ou ao ganho líquido em renda variável.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art20_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Na hipótese do inciso III do caput do art. 16, o investimento será efetuado mediante a aquisição de quotas emitidas sob a forma escritural, alienadas ao público com a intermediação da instituição administradora do Fundo, observando que:
+
+  </p>
+            <Inciso id="art20_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    os rendimentos e ganhos líquidos e de capital auferidos pela carteira de Funcines ficam isentos do imposto sobre a renda;
+
+  </p>
+            
+          </Inciso><Inciso id="art20_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    os rendimentos, os ganhos de capital e os ganhos líquidos decorrentes de aplicação em Funcines sujeitam-se às normas tributárias aplicáveis aos demais valores mobiliários no mercado de capitais; e
+
+  </p>
+            
+          </Inciso><Inciso id="art20_par2_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    ocorrendo resgate de quotas de Funcines, em decorrência do término do prazo de duração ou da liquidação do fundo, sobre o rendimento do quotista, constituído pela diferença positiva entre o valor de resgate e o custo de aquisição das quotas, incidirá imposto sobre a renda na fonte à alíquota de 20% (vinte por cento).
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap3_sec6">
+            
+            
+            <Rotulo>Seção VI</Rotulo>
+            <NomeAgrupador>
+    Do Depósito dos Recursos Incentivados
+
+  </NomeAgrupador>
+            <Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            
+            
+            
+            <p>
+    O contribuinte que optar pelo uso dos incentivos previstos nos arts. 16 e 18, depositará o valor correspondente ao abatimento em conta de aplicação financeira especial, em instituição financeira pública, cuja movimentação sujeitar-se-á à prévia comprovação pela Ancine de que se destina a investimentos em projetos de produção de obras audiovisuais cinematográficas e videofonográficas brasileiras de produção independente.
+
+  </p>
+            
+          </Caput><Paragrafo id="art21_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Os rendimentos decorrentes dos depósitos em conta de aplicação financeira estão sujeitos à tributação pelo imposto sobre a renda exclusivamente na fonte, à alíquota de 20% (vinte por cento).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap3_sec7">
+            
+            
+            <Rotulo>Seção VII</Rotulo>
+            <NomeAgrupador>
+    Da Penalidade Aplicada ao Produtor
+
+  </NomeAgrupador>
+            <Artigo id="art22">
+            
+            
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            
+            
+            
+            <p>
+    O não cumprimento do projeto ou a sua realização em desacordo com o estatuído neste Capítulo, no caso de recebimento dos incentivos fiscais de que tratam os arts. 16 e 18, implica recolhimento integral ao Tesouro Nacional desses recursos, por parte da empresa produtora responsável pelo projeto, acrescidos de multa de 50% (cinquenta por cento) e juros de mora.
+
+  </p>
+            
+          </Caput><Paragrafo id="art22_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    No caso de cumprimento de mais de 70% (setenta por cento) do valor orçado para o projeto, a devolução será proporcional à parte não cumprida.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art22_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os juros de mora, de que trata o caput, equivalentes à variação da taxa referencial do Sistema Especial de Liquidação e de Custódia (Selic), para títulos federais, acumulada mensalmente, são calculados a partir do 1º (primeiro) dia do mês subsequente ao do vencimento do imposto sobre a renda cuja parcela foi destinada aos projetos de que trata este Capítulo até o mês anterior ao da devolução dos recursos e de 1% (um por cento) no mês da devolução de tais recursos.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art23">
+            
+            
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            
+            
+            
+            <p>
+    Caso os recursos recebidos, com os acréscimos previstos neste artigo, não sejam devolvidos, o responsável pelo projeto, assegurada a ampla defesa, será inscrito no Cadastro Informativo de créditos não quitados do setor público federal (Cadin), conforme prevê a Lei nº 10.522, de 19 de julho de 2002.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap3_sec8">
+            
+            
+            <Rotulo>Seção VIII</Rotulo>
+            <NomeAgrupador>
+    Da Penalidade Aplicada ao Contribuinte
+
+  </NomeAgrupador>
+            <Artigo id="art24">
+            
+            
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput id="art24_cpt">
+            
+            
+            
+            <p>
+    Constatada redução de imposto, com a utilização indevida de qualquer benefício previsto nos arts. 16 e 18, a RFB procederá, de ofício, ao lançamento da diferença de imposto com os acréscimos legais cabíveis.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap3_sec9">
+            
+            
+            <Rotulo>Seção IX</Rotulo>
+            <NomeAgrupador>
+    Da Prestação de Informação
+
+  </NomeAgrupador>
+            <Artigo id="art25">
+            
+            
+            <Rotulo>Art. 25.</Rotulo>
+            
+            <Caput id="art25_cpt">
+            
+            
+            
+            <p>
+    A RFB fiscalizará, no âmbito de suas atribuições, a execução dos projetos aprovados com captação de recursos na forma dos arts. 16 e 18.
+
+  </p>
+            
+          </Caput><Paragrafo id="art25_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Para efeito do caput, a Ancine enviará as informações necessárias à RFB, nos termos do art. 57 desta Instrução Normativa.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art26">
+            
+            
+            <Rotulo>Art. 26.</Rotulo>
+            
+            <Caput id="art26_cpt">
+            
+            
+            
+            <p>
+    As empresas receptoras dos recursos oriundos dos incentivos fiscais de que tratam os arts. 16 e 18 devem manter todos os registros e documentos relativos aos projetos, bem como, se for o caso, o livro de registro de transferência dos Certificados de Investimento, observadas as normas da CVM, pelo prazo decadencial.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="cap4">
+            
+            
+            <Rotulo>CAPÍTULO IV</Rotulo>
+            <NomeAgrupador>
+    DO INCENTIVO À CULTURA
+
+  </NomeAgrupador>
+            <Secao id="cap4_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Do Benefício Fiscal
+
+  </NomeAgrupador>
+            <Artigo id="art27">
+            
+            
+            <Rotulo>Art. 27.</Rotulo>
+            
+            <Caput id="art27_cpt">
+            
+            
+            
+            <p>
+    A pessoa física pode deduzir do imposto apurado na Declaração de Ajuste Anual, a que se refere o art. 54, as quantias efetivamente despendidas no ano-calendário anterior a título de doações ou patrocínios, tanto mediante contribuições ao Fundo Nacional da Cultura, na forma de doações, nos termos do inciso II do art. 5º da Lei nº 8.313, de 1991, como no apoio direto, desde que enquadrados nos objetivos do Programa Nacional de Apoio à Cultura (Pronac), a programas, projetos e ações culturais:
+
+  </p>
+            <Inciso id="art27_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    em geral, definidos na forma do art. 25 da Lei nº 8.313, de 1991;
+
+  </p>
+            
+          </Inciso><Inciso id="art27_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a que se refere o caput e § 3º do art. 18 da Lei nº 8.313, de 1991, exclusivos dos segmentos de:
+
+  </p>
+            <Alinea id="art27_cpt_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    artes cênicas;
+
+  </p>
+            
+          </Alinea><Alinea id="art27_cpt_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    livros de valor artístico, literário ou humanístico;
+
+  </p>
+            
+          </Alinea><Alinea id="art27_cpt_inc2_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    música erudita ou instrumental;
+
+  </p>
+            
+          </Alinea><Alinea id="art27_cpt_inc2_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    exposições de artes visuais;
+
+  </p>
+            
+          </Alinea><Alinea id="art27_cpt_inc2_ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    doações de acervos para bibliotecas públicas, museus, arquivos públicos e cinematecas, bem como treinamento de pessoal e aquisição de equipamentos para a manutenção desses acervos;
+
+  </p>
+            
+          </Alinea><Alinea id="art27_cpt_inc2_ali6">
+            
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    produção de obras cinematográficas e videofonográficas de curta e média metragem e preservação e difusão do acervo audiovisual;
+
+  </p>
+            
+          </Alinea><Alinea id="art27_cpt_inc2_ali7">
+            
+            
+            <Rotulo>g)</Rotulo>
+            <p>
+    preservação do patrimônio cultural material e imaterial; e
+
+  </p>
+            
+          </Alinea><Alinea id="art27_cpt_inc2_ali8">
+            
+            
+            <Rotulo>h)</Rotulo>
+            <p>
+    construção e manutenção de salas de cinema e teatro, que poderão funcionar também como centros culturais comunitários, em municípios com menos de 100.000 (cem mil) habitantes.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput><Paragrafo id="art27_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    As contribuições em favor do FNC podem ter destinação livre ou direcionada a programas, projetos e ações culturais específicos, sob a forma de doação, ou, com destinação especificada pelo patrocinador, sob a forma de patrocínio.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap4_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Dos Projetos Beneficiados com Incentivos de Fomento à Atividade Audiovisual
+
+  </NomeAgrupador>
+            <Artigo id="art28">
+            
+            
+            <Rotulo>Art. 28.</Rotulo>
+            
+            <Caput id="art28_cpt">
+            
+            
+            
+            <p>
+    Poderão ser deduzidos do imposto devido, na forma do art. 27, as quantias despendidas em obras audiovisuais beneficiadas com incentivos previstos na Lei nº 8.685, de 20 de julho de 1993, desde que enquadrados nos objetivos da Lei nº 8.313, de 1991.
+
+  </p>
+            
+          </Caput><Paragrafo id="art28_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Observados os limites de que tratam os arts. 30 e 55, os recursos do incentivo está limitado a 95% (noventa e cinco por cento) do total do orçamento aprovado para o projeto.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap4_sec3">
+            
+            
+            <Rotulo>Seção III</Rotulo>
+            <NomeAgrupador>
+    Da Aprovação
+
+  </NomeAgrupador>
+            <Artigo id="art29">
+            
+            
+            <Rotulo>Art. 29.</Rotulo>
+            
+            <Caput id="art29_cpt">
+            
+            
+            
+            <p>
+    Os projetos de que tratam os arts. 27 e 28 devem ser previamente aprovados, na forma do regulamento:
+
+  </p>
+            <Inciso id="art29_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    na hipótese dos incisos I e II do caput do art. 27, pelo Ministério da Cultura (MinC), e, se relacionados a obras cinematográficas e videofonográficas:
+
+  </p>
+            <Alinea id="art29_cpt_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    pelo MinC, se enquadrados no formato de:
+
+  </p>
+            <Item id="art29_cpt_inc1_ali1_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    curta metragem, cuja duração é igual ou inferior a 15min (quinze minutos);
+
+  </p>
+            
+          </Item><Item id="art29_cpt_inc1_ali1_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    média metragem, cuja duração é superior a 15min (quinze minutos) e igual ou inferior a 70min (setenta minutos);
+
+  </p>
+            
+          </Item><Item id="art29_cpt_inc1_ali1_ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    os referentes a formação de mão de obra, festivais nacionais, mostras e preservação e difusão de acervos de obras cinematográficas e audiovisuais, ou b) pela Ancine, se enquadrados no formato de:
+
+  </p>
+            
+          </Item><Item id="art29_cpt_inc1_ali1_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    obra cinematográfica ou videofonográfica de longa metragem, cuja duração é superior a 70min (setenta minutos);
+
+  </p>
+            
+          </Item><Item id="art29_cpt_inc1_ali1_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    obra cinematográfica ou videofonográfica seriada, que sob o mesmo título, seja produzida em capítulos;
+
+  </p>
+            
+          </Item><Item id="art29_cpt_inc1_ali1_ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    telefilme, obra documental, ficcional ou de animação, com no mínimo 50min (cinquenta minutos) e no máximo 120min (cento e vinte minutos) de duração, produzida para 1ª (primeira) exibição em meios eletrônicos;
+
+  </p>
+            
+          </Item><Item id="art29_cpt_inc1_ali1_ite4">
+            
+            
+            <Rotulo>4.</Rotulo>
+            <p>
+    minissérie, obra documental, ficcional ou de animação produzida em película ou matriz de captação digital ou em meio magnético com, no mínimo, 3 (três) e no máximo 26 (vinte e seis) capítulos, com duração máxima de 1.300min (um mil e trezentos minutos);
+
+  </p>
+            
+          </Item><Item id="art29_cpt_inc1_ali1_ite5">
+            
+            
+            <Rotulo>5.</Rotulo>
+            <p>
+    os referentes à distribuição e comercialização de obras cinematográficas e videofonográficas, participação em mercados cinematográficos e videofonográficos, festivais internacionais e projetos de exibição e de infraestrutura; e
+
+  </p>
+            
+          </Item>
+          </Alinea>
+          </Inciso><Inciso id="art29_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    na hipótese do art. 28, pela Ancine.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art29_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A aprovação do projeto somente terá eficácia após publicação de ato oficial contendo o título do projeto aprovado e a instituição por ele responsável, o valor autorizado para obtenção de doação ou patrocínio e o prazo de validade da autorização.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art29_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O ato oficial a que se refere o § 1º deverá conter, ainda, o dispositivo legal relativo ao segmento objeto do projeto cultural.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap4_sec4">
+            
+            
+            <Rotulo>Seção IV</Rotulo>
+            <NomeAgrupador>
+    Do Limite
+
+  </NomeAgrupador>
+            <Artigo id="art30">
+            
+            
+            <Rotulo>Art. 30.</Rotulo>
+            
+            <Caput id="art30_cpt">
+            
+            
+            
+            <p>
+    A dedução de que trata o art. 27, atendido o limite global estabelecido no art. 55, não pode exceder:
+
+  </p>
+            <Inciso id="art30_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a 80% (oitenta por cento) do somatório das doações e 60% (sessenta por cento) do somatório dos patrocínios, na hipótese do inciso I do caput do art. 27; e II - ao valor efetivo das doações e patrocínios, na hipótese do inciso II do caput do art. 27.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art30_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O valor que ultrapassar os limites definidos nos incisos I e II do caput não poderá ser deduzido nas declarações posteriores, inclusive no caso de projetos culturais de execução plurianual.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art30_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As transferências para efetivação das doações ou patrocínios realizadas na forma prevista neste artigo não estão sujeitas ao recolhimento do imposto sobre a renda na fonte.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap4_sec5">
+            
+            
+            <Rotulo>Seção V</Rotulo>
+            <NomeAgrupador>
+    Dos Depósitos dos Recursos Incentivados
+
+  </NomeAgrupador>
+            <Artigo id="art31">
+            
+            
+            <Rotulo>Art. 31.</Rotulo>
+            
+            <Caput id="art31_cpt">
+            
+            
+            
+            <p>
+    As doações em espécie feitas em favor do FNC gozarão dos incentivos fiscais previstos no art. 27, desde que comprovadas mediante recibo de depósito bancário e declaração de recebimento firmada pelo beneficiário.
+
+  </p>
+            
+          </Caput><Paragrafo id="art31_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Somente são consideradas, para fins de comprovação do incentivo em espécie, as contribuições que tenham sido depositadas em conta bancária específica, em nome do beneficiário, nos termos estabelecidos pelo MinC ou pela Ancine.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap4_sec6">
+            
+            
+            <Rotulo>Seção VI</Rotulo>
+            <NomeAgrupador>
+    Das Definições
+
+  </NomeAgrupador>
+            <Artigo id="art32">
+            
+            
+            <Rotulo>Art. 32.</Rotulo>
+            
+            <Caput id="art32_cpt">
+            
+            
+            
+            <p>
+    Para os fins do art. 27, considera-se:
+
+  </p>
+            <Inciso id="art32_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    doação, a transferência definitiva e irreversível de numerário ou bens em favor de proponente, pessoa física ou jurídica sem fins lucrativos, cujo programa, projeto ou ação cultural tenha sido aprovado pelo MinC ou pela Ancine, conforme competência prevista no art. 29;
+
+  </p>
+            
+          </Inciso><Inciso id="art32_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    patrocínio, a transferência definitiva e irreversível de numerário ou serviços, com finalidade promocional, a cobertura de gastos ou a utilização de bens móveis ou imóveis do patrocinador, sem a transferência de domínio, para a realização de programa, projeto ou ação cultural que tenha sido aprovado pelo MinC ou pela Ancine, conforme competência prevista no art. 29;
+
+  </p>
+            
+          </Inciso><Inciso id="art32_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    proponente, as pessoas físicas e as pessoas jurídicas, públicas ou privadas, com atuação na área cultural, que proponham programas, projetos e ações culturais ao MinC ou à Ancine, conforme competência prevista no art. 29;
+
+  </p>
+            
+          </Inciso><Inciso id="art32_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    beneficiário, o proponente de programa, projeto ou ação cultural favorecido pelo Pronac;
+
+  </p>
+            
+          </Inciso><Inciso id="art32_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    incentivador, o contribuinte do Imposto sobre a Renda e Proventos de Qualquer Natureza, pessoa física, que efetua doação ou patrocínio em favor de programas, projetos e ações culturais aprovados pelo MinC, com vistas à obtenção de incentivos fiscais, conforme estabelecido na Lei nº 8.313, de 1991;
+
+  </p>
+            
+          </Inciso><Inciso id="art32_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    pessoa jurídica de natureza cultural, a pessoa jurídica, pública ou privada, com ou sem fins lucrativos, cujo ato constitutivo disponha expressamente sobre sua finalidade cultural.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art32_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Equiparam-se a doações, nos termos do regulamento do Pronac, as despesas efetuadas por pessoas físicas com o objetivo de conservar, preservar ou restaurar bens de sua propriedade ou sob sua posse legítima, tombados pelo Governo Federal, desde que, neste caso, atendidas as seguintes disposições:
+
+  </p>
+            <Inciso id="art32_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    cumprimento das exigências legais aplicáveis a bens tombados, conforme regulamento do Instituto do Patrimônio Histórico e Artístico Nacional (Iphan);
+
+  </p>
+            
+          </Inciso><Inciso id="art32_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    aprovação prévia, pelo Iphan, dos projetos e respectivos orçamentos de execução das obras; e
+
+  </p>
+            
+          </Inciso><Inciso id="art32_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    posterior certificação, pelo referido órgão, das despesas efetivamente realizadas e das circunstâncias de terem sido as obras executadas de acordo com os projetos aprovados.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art32_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Constitui infração ao disposto neste artigo o recebimento, pelo patrocinador, de qualquer vantagem financeira ou material em decorrência do patrocínio que efetuar.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap4_sec7">
+            
+            
+            <Rotulo>Seção VII</Rotulo>
+            <NomeAgrupador>
+    Das Vedações
+
+  </NomeAgrupador>
+            <Artigo id="art33">
+            
+            
+            <Rotulo>Art. 33.</Rotulo>
+            
+            <Caput id="art33_cpt">
+            
+            
+            
+            <p>
+    A doação ou o patrocínio não podem ser efetuados a pessoa ou instituição vinculada ao agente.
+
+  </p>
+            
+          </Caput><Paragrafo id="art33_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Consideram-se vinculados ao doador ou patrocinador:
+
+  </p>
+            <Inciso id="art33_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a pessoa jurídica da qual o doador ou patrocinador seja titular, administrador, gerente, acionista ou sócio, na data da operação, ou nos 12 (doze) meses anteriores;
+
+  </p>
+            
+          </Inciso><Inciso id="art33_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o cônjuge, os parentes até o 3º (terceiro) grau, inclusive os afins, e os dependentes do doador ou patrocinador ou dos titulares, administradores, acionistas ou sócios de pessoa jurídica vinculada ao doador ou patrocinador, nos termos do inciso I;
+
+  </p>
+            
+          </Inciso><Inciso id="art33_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    outra pessoa jurídica da qual o doador ou patrocinador seja sócio.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art33_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Não se consideram vinculadas as instituições culturais sem fins lucrativos, criadas pelo doador ou patrocinador, desde que devidamente constituídas e em funcionamento, na forma da legislação em vigor.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art33_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A aplicação dos recursos previstos no art. 27 não pode ser feita por meio de qualquer tipo de intermediação.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art33_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    A contratação de serviços necessários à elaboração de projetos para obtenção de doação, patrocínio ou investimento, bem como a captação de recursos ou a sua execução por pessoa jurídica de natureza cultural, não configura intermediação.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art33_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Os programas, projetos e ações culturais aprovados mediante a sistemática do Pronac descrita no art. 2º da Lei nº 8.313, de 1991, não poderão realizar despesas referentes a serviços de captação de recursos.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap4_sec8">
+            
+            
+            <Rotulo>Seção VIII</Rotulo>
+            <NomeAgrupador>
+    Do Cálculo do Imposto
+
+  </NomeAgrupador>
+            <Artigo id="art34">
+            
+            
+            <Rotulo>Art. 34.</Rotulo>
+            
+            <Caput id="art34_cpt">
+            
+            
+            
+            <p>
+    Para fins de fruição dos incentivos fiscais referidos no art. 27, as pessoas físicas podem deduzir:
+
+  </p>
+            <Inciso id="art34_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    os recursos financeiros, correspondentes a doações ou patrocínios depositados em conta corrente mantida especialmente para este fim, de movimentação exclusiva do responsável pelo projeto cultural, em estabelecimento bancário oficial, nos termos do
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art31">
+            
+            
+            <Rotulo>Art. 31.</Rotulo>
+            
+            <Caput id="art31_cpt">
+            
+            
+            
+            <p>
+    ;
+
+  </p>
+            <Inciso id="art31_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    as doações ou patrocínios realizados sob a forma de prestação de serviços ou de fornecimento de material de consumo, previstos como itens de despesas nos respectivos projetos culturais, observados os preços praticados no mercado;
+
+  </p>
+            
+          </Inciso><Inciso id="art31_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    o valor correspondente aos bens móveis ou imóveis doados, observado o disposto no art. 5º;
+
+  </p>
+            
+          </Inciso><Inciso id="art31_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    as despesas realizadas pelo proprietário ou titular da posse legítima de bens tombados pelo Governo Federal, objetivando sua conservação, preservação ou restauração, observado o § 1º do art. 32 e as normas do Iphan;
+
+  </p>
+            
+          </Inciso><Inciso id="art31_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    o custo de cessão de uso de bens móveis e imóveis de propriedade do patrocinador, cedidos ao responsável pela execução do projeto cultural, observado o disposto no § 2º.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art31_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As despesas de que trata o inciso IV do caput são consideradas doações para efeito de gozo do incentivo fiscal.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art31_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O custo de cessão de uso de bens móveis ou imóveis deve ser calculado com base no preço de mercado que o proprietário deixaria de receber durante o período de cessão do bem.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art31_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Havendo dúvida quanto ao valor declarado, nas hipóteses dos incisos II e V do caput, o MinC, a Ancine e a RFB podem solicitar ao incentivador laudo técnico de avaliação, assinado por 3 (três) peritos.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap4_sec9">
+            
+            
+            <Rotulo>Seção IX</Rotulo>
+            <NomeAgrupador>
+    Da Prestação de Informação
+
+  </NomeAgrupador>
+            <Artigo id="art35">
+            
+            
+            <Rotulo>Art. 35.</Rotulo>
+            
+            <Caput id="art35_cpt">
+            
+            
+            
+            <p>
+    A RFB fiscalizará, no âmbito de suas atribuições, a execução dos projetos aprovados com captação de recursos na forma do art. 27.
+
+  </p>
+            
+          </Caput><Paragrafo id="art35_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Para efeito do caput o MinC e a Ancine enviarão as informações necessárias à RFB, nos termos do art. 57 desta Instrução Normativa.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art36">
+            
+            
+            <Rotulo>Art. 36.</Rotulo>
+            
+            <Caput id="art36_cpt">
+            
+            
+            
+            <p>
+    A pessoa física ou jurídica responsável pela execução de projeto cultural deve possuir controles próprios, onde registre, de forma destacada, a despesa e a receita do projeto, bem como manter em seu poder todos os comprovantes e documentos a ele relativos, pelo prazo decadencial.
+
+  </p>
+            
+          </Caput><Paragrafo id="art36_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A pessoa física ou jurídica responsável pelo projeto cultural deve emitir comprovantes, sob a forma e modelo definidos pelo MinC e pela Ancine, em favor do doador ou patrocinador.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap4_sec10">
+            
+            
+            <Rotulo>Seção X</Rotulo>
+            <NomeAgrupador>
+    Da Penalidade Aplicada ao Responsável pelo Projeto
+
+  </NomeAgrupador>
+            <Artigo id="art37">
+            
+            
+            <Rotulo>Art. 37.</Rotulo>
+            
+            <Caput id="art37_cpt">
+            
+            
+            
+            <p>
+    Sem prejuízo das sanções penais cabíveis, o responsável pelo projeto de que trata o art. 27 está sujeito ao recolhimento do valor correspondente ao imposto sobre a renda que deixar de ser pago pelo incentivador, acrescido de multa e de juros de mora, nos casos de:
+
+  </p>
+            <Inciso id="art37_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    incorreta utilização das doações e patrocínios recebidos;
+
+  </p>
+            
+          </Inciso><Inciso id="art37_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    não realização do projeto, sem justa causa e sem recolhimento ao FNC das doações e patrocínios recebidos; e
+
+  </p>
+            
+          </Inciso><Inciso id="art37_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    não realização do projeto, ainda que com justa causa, após esgotados os prazos concedidos e sem recolhimento ao FNC das doações e patrocínios recebidos.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art37_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Constatado dolo, fraude ou simulação, relacionados com os incentivos de que trata o art. 27, deve ser aplicada aos infratores a multa correspondente a 2 (duas) vezes o valor da vantagem recebida.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art37_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    No caso de conluio, a multa de que trata o § 1º deve ser aplicada ao doador ou patrocinador e ao beneficiário.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art37_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Os juros de mora, de que trata este artigo, equivalente à variação da taxa Selic, para títulos federais, acumulada mensalmente, são calculados a partir do 1º (primeiro) dia do mês subsequente ao do vencimento do prazo previsto para o pagamento até o mês anterior ao do pagamento e de 1% (um por cento) no mês do pagamento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art37_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Para os efeitos deste artigo, o doador ou patrocinador responde solidariamente com o responsável pelo projeto.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap4_sec11">
+            
+            
+            <Rotulo>Seção XI</Rotulo>
+            <NomeAgrupador>
+    Da Penalidade Aplicada ao Contribuinte
+
+  </NomeAgrupador>
+            <Artigo id="art38">
+            
+            
+            <Rotulo>Art. 38.</Rotulo>
+            
+            <Caput id="art38_cpt">
+            
+            
+            
+            <p>
+    Constatada redução de imposto, com a utilização fraudulenta de qualquer benefício previsto no art. 27, a RFB procederá, de ofício, ao lançamento da diferença de imposto com os acréscimos legais cabíveis.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="cap5">
+            
+            
+            <Rotulo>CAPÍTULO V</Rotulo>
+            <NomeAgrupador>
+    DOS PROJETOS DESPORTIVOS E PARADESPORTIVOS
+
+  </NomeAgrupador>
+            <Secao id="cap5_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Do Benefício Fiscal
+
+  </NomeAgrupador>
+            <Artigo id="art39">
+            
+            
+            <Rotulo>Art. 39.</Rotulo>
+            
+            <Caput id="art39_cpt">
+            
+            
+            
+            <p>
+    As pessoas físicas, a partir do exercício de 2008, ano-calendário de 2007, e até o exercício de 2016, ano-calendário de 2015, podem deduzir do imposto sobre a renda apurado na Declaração de Ajuste Anual, a que se refere o art. 54, os valores despendidos a título de patrocínio ou doação, no apoio direto a projetos desportivos e paradesportivos previamente aprovados pelo Ministério do Esporte.
+
+  </p>
+            
+          </Caput><Paragrafo id="art39_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os projetos desportivos e paradesportivos, de que trata o caput devem atender a pelo menos uma das seguintes manifestações, nos termos e condições definidas em regulamento:
+
+  </p>
+            <Inciso id="art39_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    desporto educacional;
+
+  </p>
+            
+          </Inciso><Inciso id="art39_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    desporto de participação;
+
+  </p>
+            
+          </Inciso><Inciso id="art39_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    desporto de rendimento.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art39_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Podem receber os recursos oriundos dos incentivos deste artigo os projetos desportivos destinados a promover a inclusão social por meio do esporte, preferencialmente em comunidades de vulnerabilidade social.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap5_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Do Limite
+
+  </NomeAgrupador>
+            <Artigo id="art40">
+            
+            
+            <Rotulo>Art. 40.</Rotulo>
+            
+            <Caput id="art40_cpt">
+            
+            
+            
+            <p>
+    A dedução de que trata o art. 39 deve atender ao limite global estabelecido no art. 55.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap5_sec3">
+            
+            
+            <Rotulo>Seção III</Rotulo>
+            <NomeAgrupador>
+    Das Definições
+
+  </NomeAgrupador>
+            <Artigo id="art41">
+            
+            
+            <Rotulo>Art. 41.</Rotulo>
+            
+            <Caput id="art41_cpt">
+            
+            
+            
+            <p>
+    Para os fins do art. 39, considera-se:
+
+  </p>
+            <Inciso id="art41_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    patrocínio:
+
+  </p>
+            <Alinea id="art41_cpt_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    a transferência gratuita, em caráter definitivo, ao proponente de que trata o inciso V do caput, de numerário para a realização de projetos desportivos e paradesportivos, com finalidade promocional e institucional de publicidade;
+
+  </p>
+            
+          </Alinea><Alinea id="art41_cpt_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    a cobertura de gastos ou a utilização de bens, móveis ou imóveis, do patrocinador, sem transferência de domínio, para a realização de projetos desportivos e paradesportivos pelo proponente de que trata o inciso V do caput;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art41_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    doação:
+
+  </p>
+            <Alinea id="art41_cpt_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    a transferência gratuita, em caráter definitivo, ao proponente de que trata o inciso V do caput, de numerário, bens ou serviços para a realização de projetos desportivos e paradesportivos, desde que não empregados em publicidade, ainda que para divulgação das atividades objeto do respectivo projeto; e
+
+  </p>
+            
+          </Alinea><Alinea id="art41_cpt_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    a distribuição gratuita de ingresso para eventos de caráter desportivo e paradesportivo por pessoa jurídica a empregados e seus dependentes legais ou a integrantes de comunidades de vulnerabilidade social;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art41_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    patrocinador, a pessoa física, contribuinte do imposto sobre a renda, que apoie projetos aprovados pelo Ministério do Esporte, nos termos do inciso I do caput;
+
+  </p>
+            
+          </Inciso><Inciso id="art41_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    doador, a pessoa física, contribuinte do imposto sobre a renda, que apoie projetos aprovados pelo Ministério do Esporte, nos termos do inciso II do caput;
+
+  </p>
+            
+          </Inciso><Inciso id="art41_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    proponente, a pessoa jurídica de direito público, ou de direito privado com fins não econômicos, de natureza esportiva, que tenha projetos aprovados por comissão técnica vinculada ao Ministério do Esporte.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap5_sec4">
+            
+            
+            <Rotulo>Seção IV</Rotulo>
+            <NomeAgrupador>
+    Da Aprovação
+
+  </NomeAgrupador>
+            <Artigo id="art42">
+            
+            
+            <Rotulo>Art. 42.</Rotulo>
+            
+            <Caput id="art42_cpt">
+            
+            
+            
+            <p>
+    A aprovação dos projetos de que trata o art. 39 somente terá eficácia após a publicação de ato oficial contendo o título do projeto aprovado, a instituição responsável, o valor autorizado para captação e o prazo de validade da autorização.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap5_sec5">
+            
+            
+            <Rotulo>Seção V</Rotulo>
+            <NomeAgrupador>
+    Dos Depósitos dos Recursos Incentivados
+
+  </NomeAgrupador>
+            <Artigo id="art43">
+            
+            
+            <Rotulo>Art. 43.</Rotulo>
+            
+            <Caput id="art43_cpt">
+            
+            
+            
+            <p>
+    Os recursos provenientes de doações ou patrocínios na forma de numerário serão depositados e movimentados em conta bancária específica, no Banco do Brasil S.A. ou na Caixa Econômica Federal, que tenha como titular o proponente do projeto aprovado pelo Ministério do Esporte.
+
+  </p>
+            
+          </Caput><Paragrafo id="art43_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Não são dedutíveis os valores em relação aos quais não se observe o disposto neste artigo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap5_sec6">
+            
+            
+            <Rotulo>Seção VI</Rotulo>
+            <NomeAgrupador>
+    Das Vedações
+
+  </NomeAgrupador>
+            <Artigo id="art44">
+            
+            
+            <Rotulo>Art. 44.</Rotulo>
+            
+            <Caput id="art44_cpt">
+            
+            
+            
+            <p>
+    Não são dedutíveis os valores destinados a patrocínio ou doação em favor de projetos que beneficiem, direta ou indiretamente, pessoa física ou jurídica vinculada ao doador ou patrocinador.
+
+  </p>
+            
+          </Caput><Paragrafo id="art44_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Consideram-se vinculados ao patrocinador ou ao doador:
+
+  </p>
+            <Inciso id="art44_par1u_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a pessoa jurídica da qual o patrocinador ou o doador seja titular, administrador, gerente, acionista ou sócio, na data da operação ou nos 12 (doze) meses anteriores;
+
+  </p>
+            
+          </Inciso><Inciso id="art44_par1u_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o cônjuge, os parentes até o 3º (terceiro) grau, inclusive os afins, e os dependentes do patrocinador, do doador ou dos titulares, administradores, acionistas ou sócios de pessoa jurídica vinculada ao patrocinador ou ao doador, nos termos do inciso I;
+
+  </p>
+            
+          </Inciso><Inciso id="art44_par1u_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    a pessoa jurídica coligada, controladora ou controlada, ou que tenha como titulares, administradores, acionistas ou sócios alguma das pessoas a que se refere o inciso II.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo id="art45">
+            
+            
+            <Rotulo>Art. 45.</Rotulo>
+            
+            <Caput id="art45_cpt">
+            
+            
+            
+            <p>
+    É vedada a utilização dos recursos oriundos dos incentivos previstos no art. 39 para:
+
+  </p>
+            <Inciso id="art45_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o pagamento de remuneração de atletas profissionais, nos termos da Lei nº 9.615, de 24 de março de 1998, em qualquer modalidade desportiva;
+
+  </p>
+            
+          </Inciso><Inciso id="art45_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o pagamento de quaisquer despesas relativas à manutenção e organização de equipes desportivas ou paradesportivas profissionais de alto rendimento, ou de competições profissionais, conforme definido, respectivamente, no inciso I do parágrafo único do art. 3º e no parágrafo único do art. 26 da Lei nº 9.615, de 1998.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art46">
+            
+            
+            <Rotulo>Art. 46.</Rotulo>
+            
+            <Caput id="art46_cpt">
+            
+            
+            
+            <p>
+    Nenhuma aplicação dos recursos previstos neste Capítulo poderá ser feita por meio de qualquer tipo de intermediação.
+
+  </p>
+            
+          </Caput><Paragrafo id="art46_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A contratação de serviços destinados à elaboração dos projetos desportivos ou paradesportivos ou à captação de recursos não configura a intermediação prevista no caput.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap5_sec7">
+            
+            
+            <Rotulo>Seção VII</Rotulo>
+            <NomeAgrupador>
+    Das Infrações
+
+  </NomeAgrupador>
+            <Artigo id="art47">
+            
+            
+            <Rotulo>Art. 47.</Rotulo>
+            
+            <Caput id="art47_cpt">
+            
+            
+            
+            <p>
+    Constituem infração aos dispositivos deste Capítulo:
+
+  </p>
+            <Inciso id="art47_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o recebimento pelo patrocinador ou doador de qualquer vantagem financeira ou material em decorrência do patrocínio ou da doação que com base nele efetuar;
+
+  </p>
+            
+          </Inciso><Inciso id="art47_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    agir o patrocinador, o doador ou o proponente com dolo, fraude ou simulação para utilizar incentivo nele previsto;
+
+  </p>
+            
+          </Inciso><Inciso id="art47_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    o descumprimento de qualquer das disposições relativas ao patrocínio ou doação.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art47_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As infrações, sem prejuízo das demais sanções cabíveis, sujeitarão:
+
+  </p>
+            <Inciso id="art47_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o patrocinador ou o doador ao pagamento do imposto não recolhido, além das penalidades e demais acréscimos previstos na legislação;
+
+  </p>
+            
+          </Inciso><Inciso id="art47_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o infrator ao pagamento de multa correspondente a 2 (duas) vezes o valor da vantagem auferida indevidamente, sem prejuízo do disposto no inciso I.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art47_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O proponente é solidariamente responsável por inadimplência ou irregularidade verificada quanto ao disposto no inciso I do § 1º.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap5_sec8">
+            
+            
+            <Rotulo>Seção VIII</Rotulo>
+            <NomeAgrupador>
+    Da Prestação de Informação
+
+  </NomeAgrupador>
+            <Artigo id="art48">
+            
+            
+            <Rotulo>Art. 48.</Rotulo>
+            
+            <Caput id="art48_cpt">
+            
+            
+            
+            <p>
+    A RFB fiscalizará, no âmbito de suas atribuições, a execução dos projetos aprovados com captação de recursos na forma do art. 39.
+
+  </p>
+            
+          </Caput><Paragrafo id="art48_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Para efeito do caput, o Ministério do Esporte enviará as informações necessárias à RFB, nos termos do art. 57 desta Instrução Normativa.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art49">
+            
+            
+            <Rotulo>Art. 49.</Rotulo>
+            
+            <Caput id="art49_cpt">
+            
+            
+            
+            <p>
+    A pessoa jurídica responsável pela execução de projeto desportivo e paradesportivo deve possuir controles próprios, onde registre, de forma destacada, a despesa e a receita do projeto, bem como manter em seu poder todos os comprovantes e documentos a ele relativos, pelo prazo decadencial.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="cap5-1">
+            
+            
+            <Rotulo>CAPÍTULO V-A</Rotulo>
+            <NomeAgrupador>
+    DO PRONON E DO PRONAS/PCD [Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </NomeAgrupador>
+            <Secao id="cap5-1_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Dos Benefícios Fiscais [Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </NomeAgrupador>
+            <Artigo id="art49-1">
+            
+            
+            <Rotulo>Art. 49-A.</Rotulo>
+            
+            <Caput id="art49-1_cpt">
+            
+            
+            
+            <p>
+    A pessoa física poderá deduzir do imposto devido apurado na Declaração de Ajuste Anual, a que se refere o art. 54, a partir do ano-calendário de 2012 até o ano-calendário de 2015, na qualidade de incentivadora, o valor total das doações e patrocínios despendidos no ano-calendário anterior, a que se refere a Declaração de Ajuste Anual, diretamente efetuados em prol de ações e serviços previamente aprovados, na forma do art. 49-G, desenvolvidos por instituições no âmbito do:[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            <Inciso id="art49-1_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Pronon; e[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso><Inciso id="art49-1_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Pronas/PCD.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art49-1_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Considera-se patrocínio a prestação do incentivo com finalidade promocional.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art49-1_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os benefícios de que trata este artigo não excluem outros benefícios e deduções em vigor.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap5-1_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Das Entidades Beneficiárias [Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </NomeAgrupador>
+            <Artigo id="art49-2">
+            
+            
+            <Rotulo>Art. 49-B.</Rotulo>
+            
+            <Caput id="art49-2_cpt">
+            
+            
+            
+            <p>
+    Podem captar recursos de que trata o art. 49-A:[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            <Inciso id="art49-2_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    relativamente ao Pronon, as instituições de prevenção e combate ao câncer, pessoas jurídicas de direito privado, associativas ou fundacionais, sem fins lucrativos:[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            <Alinea id="art49-2_cpt_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    certificadas como entidades beneficentes de assistência social, na forma da Lei nº 12.101, de 27 de novembro de 2009;[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Alinea><Alinea id="art49-2_cpt_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    qualificadas como organizações sociais, na forma da Lei nº 9.637, de 15 de maio de 1998; ou[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Alinea><Alinea id="art49-2_cpt_inc1_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    qualificadas como Organizações da Sociedade Civil de Interesse Público (Oscip), na forma da Lei nº 9.790, de 23 de março de 1999; ou[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art49-2_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    relativamente ao Pronas/PCD, as pessoas jurídicas de direito privado sem fins lucrativos que se destinam ao tratamento de deficiências físicas, motoras, auditivas, visuais, mentais, intelectuais, múltiplas e de autismo:[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            <Alinea id="art49-2_cpt_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    certificadas como entidades beneficentes de assistência social que atendam ao disposto na Lei nº 12.101, de 2009;[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Alinea><Alinea id="art49-2_cpt_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    que atendam aos requisitos de que trata a Lei nº 9.637, de 1998;[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Alinea><Alinea id="art49-2_cpt_inc2_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    constituídas como Oscip que atenda aos requisitos de que trata a Lei nº 9.790, de 1999; ou[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Alinea><Alinea id="art49-2_cpt_inc2_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    que prestem atendimento direto e gratuito às pessoas com deficiência, cadastradas no Cadastro Nacional de Estabelecimentos de Saúde (CNES) do Ministério da Saúde.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap5-1_sec3">
+            
+            
+            <Rotulo>Seção III</Rotulo>
+            <NomeAgrupador>
+    Dos Limites [Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </NomeAgrupador>
+            <Artigo id="art49-3">
+            
+            
+            <Rotulo>Art. 49-C.</Rotulo>
+            
+            <Caput id="art49-3_cpt">
+            
+            
+            
+            <p>
+    As deduções de que trata o art. 49-A ficam limitadas aos seguintes percentuais sobre o imposto sobre a renda devido, apurado na Declaração de Ajuste Anual a que se refere o art. 54:[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            <Inciso id="art49-3_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    1% (um por cento) relativamente ao Pronon; e[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso><Inciso id="art49-3_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    1% (um por cento) relativamente ao Pronas/PCD.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art49-3_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    As deduções de que trata este artigo não se submetem ao limite global de deduções estabelecido no art. 55.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap5-1_sec4">
+            
+            
+            <Rotulo>Seção IV</Rotulo>
+            <NomeAgrupador>
+    Do Comprovante [Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </NomeAgrupador>
+            <Artigo id="art49-4">
+            
+            
+            <Rotulo>Art. 49-D.</Rotulo>
+            
+            <Caput id="art49-4_cpt">
+            
+            
+            
+            <p>
+    A instituição apoiada com os recursos captados por meio do Pronon ou do Pronas/PCD deve emitir recibo em favor do doador ou patrocinador, assinado por pessoa competente, especificando:[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            <Inciso id="art49-4_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o número de ordem;[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso><Inciso id="art49-4_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o nome, o número de inscrição no CNPJ e o endereço do emitente;[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso><Inciso id="art49-4_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    o nome e o número de inscrição no CPF do doador;[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso><Inciso id="art49-4_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    a data da doação e o valor recebido;[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso><Inciso id="art49-4_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    o ano-calendário a que se refere a doação; e[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso><Inciso id="art49-4_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    o ato do Ministério da Saúde que autorizou a captação de recursos.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art49-4_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O comprovante de que trata o caput pode ser emitido anualmente, desde que discrimine os valores doados mês a mês.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art49-4_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    No caso de doação em bens, o comprovante deve conter a identificação dos bens, mediante descrição em campo próprio ou em relação anexa ao comprovante, informando também, se houve avaliação, o nome, o número de inscrição no CPF ou no CNPJ e o endereço dos avaliadores.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap5-1_sec5">
+            
+            
+            <Rotulo>Seção V</Rotulo>
+            <NomeAgrupador>
+    Das Doações [Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </NomeAgrupador>
+            <Artigo id="art49-5">
+            
+            
+            <Rotulo>Art. 49-E.</Rotulo>
+            
+            <Caput id="art49-5_cpt">
+            
+            
+            
+            <p>
+    As doações poderão assumir as seguintes espécies de atos gratuitos:[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            <Inciso id="art49-5_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    transferência de quantias em dinheiro;[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso><Inciso id="art49-5_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    transferência de bens móveis ou imóveis;[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso><Inciso id="art49-5_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    comodato ou cessão de uso de bens imóveis ou equipamentos;[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso><Inciso id="art49-5_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    realização de despesas em conservação, manutenção ou reparos nos bens móveis, imóveis e equipamentos, inclusive os referidos no inciso III; e[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso><Inciso id="art49-5_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    fornecimento de material de consumo, hospitalar ou clínico, de medicamentos ou de produtos de alimentação.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art49-5_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Em qualquer das hipóteses previstas no caput, o valor da dedução não poderá ultrapassar o valor de mercado.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art49-5_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os órgãos e entidades públicas integrantes da administração pública direta e indireta da União, estados, Distrito Federal e municípios que atuam na prevenção e combate ao câncer somente poderão ser destinatárias das doações na forma de transferência de bens móveis ou imóveis e na forma de comodato ou cessão de uso de bens imóveis ou equipamentos.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art49-5_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Na hipótese da doação em bens, o doador deverá considerar como valor dos bens doados o valor constante da última Declaração de Bens e Direitos da Declaração de Ajuste Anual ou o valor pago, no caso de bens adquiridos no mesmo ano da doação, observado o disposto no § 1º.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap5-1_sec6">
+            
+            
+            <Rotulo>Seção VI</Rotulo>
+            <NomeAgrupador>
+    Da Fiscalização e Prestação de Informação [Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </NomeAgrupador>
+            <Artigo id="art49-6">
+            
+            
+            <Rotulo>Art. 49-F.</Rotulo>
+            
+            <Caput id="art49-6_cpt">
+            
+            
+            
+            <p>
+    A RFB fiscalizará, no âmbito de suas atribuições, a captação dos recursos efetuada na forma do art. 49-A.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Caput><Paragrafo id="art49-6_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Para efeito do disposto no caput, o Ministério da Saúde deve informar anualmente à RFB dados relativos às doações e aos patrocínios a projetos do Pronon e do Pronas/PCD previamente aprovados por esse órgão.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap5-1_sec7">
+            
+            
+            <Rotulo>Seção VII</Rotulo>
+            <NomeAgrupador>
+    Da Aprovação Prévia das Ações e Serviços [Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </NomeAgrupador>
+            <Artigo id="art49-7">
+            
+            
+            <Rotulo>Art. 49-G.</Rotulo>
+            
+            <Caput id="art49-7_cpt">
+            
+            
+            
+            <p>
+    Para a aplicação do disposto no art. 49-A, as ações e serviços a serem beneficiadas pelos incentivos de que trata este Capítulo devem ser aprovados previamente pelo Ministério da Saúde, segundo a forma e o procedimento estabelecidos em ato do Poder Executivo, e devem estar em consonância com a política definida para o setor no Plano Nacional de Saúde e nas diretrizes desse Ministério.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap5-1_sec8">
+            
+            
+            <Rotulo>Seção VIII</Rotulo>
+            <NomeAgrupador>
+    Do Valor Global Máximo das Deduções [Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </NomeAgrupador>
+            <Artigo id="art49-8">
+            
+            
+            <Rotulo>Art. 49-H.</Rotulo>
+            
+            <Caput id="art49-8_cpt">
+            
+            
+            
+            <p>
+    O valor global máximo das deduções de que trata o art. 49-A será fixado anualmente pelo Poder Executivo, com base em um percentual da renda tributável das pessoas físicas.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap5-1_sec9">
+            
+            
+            <Rotulo>Seção IX</Rotulo>
+            <NomeAgrupador>
+    Dos Depósitos dos Recursos Incentivados [Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </NomeAgrupador>
+            <Artigo id="art49-9">
+            
+            
+            <Rotulo>Art. 49-I.</Rotulo>
+            
+            <Caput id="art49-9_cpt">
+            
+            
+            
+            <p>
+    Os recursos objeto de doação ou patrocínio deverão ser depositados e movimentados, em conta bancária específica, em nome da entidade apoiada nos termos do Pronon e do Pronas/PCD.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Caput><Paragrafo id="art49-9_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Não serão considerados, para fins de comprovação do incentivo, os aportes em relação aos quais não se cumpra o disposto no caput.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap5-1_sec10">
+            
+            
+            <Rotulo>Seção X</Rotulo>
+            <NomeAgrupador>
+    Das Penalidades [Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </NomeAgrupador>
+            <Artigo id="art49-10">
+            
+            
+            <Rotulo>Art. 49-J.</Rotulo>
+            
+            <Caput id="art49-10_cpt">
+            
+            
+            
+            <p>
+    As infrações ao disposto neste Capítulo, sem prejuízo das sanções penais cabíveis, sujeitarão o doador ou patrocinador ao pagamento do valor atualizado do imposto sobre a renda devido em relação a cada exercício financeiro e das penalidades e demais acréscimos previstos na legislação vigente.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Caput><Paragrafo id="art49-10_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Na hipótese de dolo, fraude ou simulação, inclusive no caso de desvio de finalidade, será aplicada, ao doador e ao beneficiário, multa correspondente a 2 (duas) vezes o valor da vantagem auferida indevidamente.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="cap6">
+            
+            
+            <Rotulo>CAPÍTULO VI</Rotulo>
+            <NomeAgrupador>
+    DA CONTRIBUIÇÃO PATRONAL PAGA À PREVIDÊNCIA SOCIAL PELO EMPREGADOR DOMÉSTICO
+
+  </NomeAgrupador>
+            <Secao id="cap6_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Do Incentivo Fiscal
+
+  </NomeAgrupador>
+            <Artigo id="art50">
+            
+            
+            <Rotulo>Art. 50.</Rotulo>
+            
+            <Caput id="art50_cpt">
+            
+            
+            
+            <p>
+    A pessoa física, até o exercício de 2015, ano-calendário de 2014, se empregador doméstico, pode deduzir do imposto apurado na Declaração de Ajuste Anual, a que se refere o art. 54, a contribuição patronal paga à Previdência Social incidente sobre o valor da remuneração do empregado.[Redação dada pelo(a) Instrução Normativa RFB nº 1196, de 27 de setembro de 2011]
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap6_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Do Limite
+
+  </NomeAgrupador>
+            <Artigo id="art51">
+            
+            
+            <Rotulo>Art. 51.</Rotulo>
+            
+            <Caput id="art51_cpt">
+            
+            
+            
+            <p>
+    A dedução de que trata o art. 50, observados os limites de que tratam os arts. 55 e 56:
+
+  </p>
+            <Inciso id="art51_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    está limitada:
+
+  </p>
+            <Alinea id="art51_cpt_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    a 1 (um) empregado doméstico por declaração, inclusive no caso da declaração em conjunto;
+
+  </p>
+            
+          </Alinea><Alinea id="art51_cpt_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    ao valor recolhido no ano-calendário a que se referir a declaração; e
+
+  </p>
+            
+          </Alinea><Alinea id="art51_cpt_inc1_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    ao valor recolhido, na hipótese de pagamentos feitos proporcionalmente em relação ao período de duração do contrato de trabalho;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art51_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    não poderá exceder ao valor da contribuição patronal calculada sobre 1 (um) salário mínimo mensal, sobre o décimo terceiro salário e sobre a remuneração adicional de férias, referidos também a 1 (um) salário mínimo; e
+
+  </p>
+            
+          </Inciso><Inciso id="art51_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    fica condicionada à comprovação da regularidade do empregador doméstico perante o Regime Geral de Previdência Social quando se tratar de contribuinte individual.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art52">
+            
+            
+            <Rotulo>Art. 52.</Rotulo>
+            
+            <Caput id="art52_cpt">
+            
+            
+            
+            <p>
+    Observadas as competências de recolhimentos das contribuições previdenciárias, somente podem ser deduzidos os valores recolhidos no ano-calendário a que se referir a Declaração de Ajuste Anual, observado o seguinte:
+
+  </p>
+            <Inciso id="art52_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    na hipótese de recolhimentos de contribuições feitos com atraso:
+
+  </p>
+            <Alinea id="art52_cpt_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    se os pagamentos ocorrerem no exercício das respectivas competências, as contribuições pagas podem ser aproveitadas para fins de incentivo do imposto sobre a renda, sendo que as multas e os juros não podem ser aproveitados para fins de dedução;
+
+  </p>
+            
+          </Alinea><Alinea id="art52_cpt_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    se os pagamentos ocorrerem em exercícios seguintes às das respectivas competências, as contribuições pagas não podem ser aproveitadas para fins de incentivo do imposto sobre a renda;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art52_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    na hipótese de contribuinte que se retira do Brasil, somente é permitida a dedução de contribuição paga por pessoa física que à época do pagamento se encontrava na condição de residente no Brasil;
+
+  </p>
+            
+          </Inciso><Inciso id="art52_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    na hipótese de contribuinte falecido (espólio):
+
+  </p>
+            <Alinea id="art52_cpt_inc3_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    havendo bens a inventariar, somente é permitida a dedução de contribuição paga até a data do trânsito em julgado da decisão judicial da partilha, sobrepartilha ou adjudicação dos bens inventariados;
+
+  </p>
+            
+          </Alinea><Alinea id="art52_cpt_inc3_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    não havendo bens a inventariar, somente é permitida a dedução de contribuição paga até a data do falecimento.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap6_sec3">
+            
+            
+            <Rotulo>Seção III</Rotulo>
+            <NomeAgrupador>
+    Da Prestação de Informação
+
+  </NomeAgrupador>
+            <Artigo id="art53">
+            
+            
+            <Rotulo>Art. 53.</Rotulo>
+            
+            <Caput id="art53_cpt">
+            
+            
+            
+            <p>
+    A pessoa física beneficiária do incentivo deverá informar na Relação de Pagamentos e Doações Efetuados da Declaração de Ajuste Anual o:
+
+  </p>
+            <Inciso id="art53_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Número de Inscrição do Trabalhador (NIT) ou o Número do Programa de Integração Social (PIS) ou o Número do Programa de Formação do Patrimônio do Servidor Público (Pasep);
+
+  </p>
+            
+          </Inciso><Inciso id="art53_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    nome completo e o número de inscrição no CPF do empregado doméstico;
+
+  </p>
+            
+          </Inciso><Inciso id="art53_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    valor pago, relativo à contribuição patronal recolhida pelo empregador doméstico; e
+
+  </p>
+            
+          </Inciso><Inciso id="art53_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    o valor não dedutível da contribuição patronal recolhida.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art53_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A comprovação do recolhimento da Contribuição à Previdência Social será feita por meio de Guias da Previdência Social (GPS), bem como do vínculo empregatício registrado em Carteira de Trabalho e Previdência Social (CTPS).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art53_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A pessoa física beneficiária do incentivo deverá manter em seu poder todos os comprovantes e documentos a ele relativos, pelo prazo decadencial.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="cap7">
+            
+            
+            <Rotulo>CAPÍTULO VII</Rotulo>
+            <NomeAgrupador>
+    DAS DISPOSIÇÕES COMUNS
+
+  </NomeAgrupador>
+            <Secao id="cap7_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Do Modelo de Declaração de Ajuste Anual
+
+  </NomeAgrupador>
+            <Artigo id="art54">
+            
+            
+            <Rotulo>Art. 54.</Rotulo>
+            
+            <Caput id="art54_cpt">
+            
+            
+            
+            <p>
+    O incentivo fiscal da dedução do imposto sobre a renda aplica-se somente ao modelo de Declaração de Ajuste Anual que permite a opção pela utilização das deduções legais.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap7_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Do Limite Global da Dedução
+
+  </NomeAgrupador>
+            <Artigo id="art55">
+            
+            
+            <Rotulo>Art. 55.</Rotulo>
+            
+            <Caput id="art55_cpt">
+            
+            
+            
+            <p>
+    A soma das deduções previstas nos arts. 2º, 8º-A, 9º, 16, 18, 27, 28 e 39 está limitada a 6% (seis por cento) do imposto sobre a renda apurado na Declaração de Ajuste Anual a que se refere o art. 54, sem prejuízo do disposto no art. 30.[Redação dada pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Caput><Paragrafo id="art55_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Não são aplicáveis limites específicos a quaisquer das deduções mencionadas no caput, observado o disposto no art. 8º-B.[Redação dada pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art55_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O valor que ultrapassar o limite de dedutibilidade mencionado no caput não pode ser deduzido nas declarações posteriores, inclusive no caso de projetos culturais de execução plurianual.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art56">
+            
+            
+            <Rotulo>Art. 56.</Rotulo>
+            
+            <Caput id="art56_cpt">
+            
+            
+            
+            <p>
+    A dedução de que trata o art. 50, observado o disposto nos incisos I e III do art. 51, está limitada ao valor do imposto apurado na Declaração de Ajuste Anual, deduzidos os valores de que trata o art. 55.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap7_sec3">
+            
+            
+            <Rotulo>Seção III</Rotulo>
+            <NomeAgrupador>
+    Da Prestação de Informações à RFB
+
+  </NomeAgrupador>
+            <Artigo id="art57">
+            
+            
+            <Rotulo>Art. 57.</Rotulo>
+            
+            <Caput id="art57_cpt">
+            
+            
+            
+            <p>
+    A prestação das informações de que tratam os arts. 6º, 13, 25, 35, 48 e 49-F será efetuada por meio da Declaração de Benefícios Fiscais (DBF), em meio digital, na forma, prazo e condições a serem definidas em instrução normativa específica do Secretário da Receita Federal do Brasil.[Redação dada pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art58">
+            
+            
+            <Rotulo>Art. 58.</Rotulo>
+            
+            <Caput id="art58_cpt">
+            
+            
+            
+            <p>
+    A pessoa física beneficiária dos incentivos de que trata esta Instrução Normativa prestará informações, sobre a dedução efetuada nos termos estabelecidos no art. 2º, na Ficha de Doações Efetuadas na Declaração de Ajuste Anual.[Redação dada pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art58-1">
+            
+            
+            <Rotulo>Art. 58-A.</Rotulo>
+            
+            <Caput id="art58-1_cpt">
+            
+            
+            
+            <p>
+    Os documentos comprobatórios das doações e dos patrocínios a que se refere esta Instrução Normativa, inclusive o Darf de que trata o § 3º do art. 8º-D, deverão ser mantidos pelo prazo decadencial para fins de apresentação perante a RFB, caso solicitados.[Incluído(a) pelo(a) Instrução Normativa RFB nº 1311, de 28 de dezembro de 2012]
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="cap8">
+            
+            
+            <Rotulo>CAPÍTULO VIII</Rotulo>
+            <NomeAgrupador>
+    DAS DISPOSIÇÕES FINAIS
+
+  </NomeAgrupador>
+            <Artigo id="art59">
+            
+            
+            <Rotulo>Art. 59.</Rotulo>
+            
+            <Caput id="art59_cpt">
+            
+            
+            
+            <p>
+    Esta Instrução Normativa entra em vigor na data de sua publicação.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art60">
+            
+            
+            <Rotulo>Art. 60.</Rotulo>
+            
+            <Caput id="art60_cpt">
+            
+            
+            
+            <p>
+    Fica revogada a Instrução Normativa SRF nº 258, de 17 de dezembro de 2002. CARLOS ALBERTO FREITAS BARRETO
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo></Articulacao>
+          
+          
+        </Norma></ProjetoNorma>
+    </LexML>

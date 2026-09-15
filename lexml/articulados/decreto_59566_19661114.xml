@@ -1,0 +1,2874 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:decreto:1966-11-14;59566"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">DECRETO Nº 59.566, DE 14 DE NOVEMBRO DE 1966 </Epigrafe>
+		  <Ementa id="ementa">Regulamenta asSeções I, II e III do Capítulo IV do Título III da <span xlink:href="urn:lex:br:federal:lei:1964-11-30;4504">Lei nº 4.504, de 30 de novembro de 1964</span>, Estatuto da Terra, oCapítulo III da <span xlink:href="urn:lex:br:federal:lei:1966-04-06;4947">Lei nº 4.947, de 6 de abril de 1966</span>, e dá outras providências.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA , no uso das atribuições que lhe confere o Artigo 87, item I, da Constituição, e tendo em vista o disposto nas leis números 4.504, de 30 de novembro de 1964 e 4.947, de 6 de abril de 1966,
+  </p><p>
+    DECRETA:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Capitulo id="cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    Princípios e Definições
+
+  </NomeAgrupador>
+            <Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            <!--Link: urn:lex:br:federal:lei:1964-11-30;4504!art92--><!--Link: urn:lex:br:federal:lei:1966-04-06;4947!art13-->
+            
+            
+            <p>
+    O arrendamento e a parceria são contratos agrários que a lei reconhece, para o fim de posse ou uso temporário da terra, entre o proprietário, quem detenha a posse ou tenha a livre administração de um imóvel rural, e aquêle que nela exerça qualquer atividade agrícola, pecuária, agro-industrial, extrativa ou mista (<span xlink:href="urn:lex:br:federal:lei:1964-11-30;4504!art92">art. 92 da Lei nº 4.504 de 30 de novembro de 1964</span> - Estatuto da Terra - e <span xlink:href="urn:lex:br:federal:lei:1966-04-06;4947!art13">art. 13 da Lei nº 4.947 de 6 de abril de 1966</span>).
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    Todos os contratos agrários reger-se-ão pelas normas do presente Regulamento, as quais serão de obrigatória aplicação em todo o território nacional e irrenunciáveis os direitos e vantagens nelas instituídos (art.13, inciso IV da Lei nº 4.947-66).
+
+  </p>
+            
+          </Caput><Paragrafo id="art2_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Qualquer estipulação contratual que contrarie as normas estabelecidas neste artigo, será nula de pleno direito e de nenhum efeito.
+
+  </p>
+            <Item id="art2_par1u_ite3">
+            
+            <TituloDispositivo>Art</TituloDispositivo>
+            <Rotulo>3.</Rotulo>
+            <p>
+    º Arrendamento rural é o contrato agrário pelo qual uma pessoa se obriga a ceder à outra, por tempo determinado ou não, o uso e gozo de imóvel rural, parte ou partes do mesmo, incluindo, ou não, outros bens, benfeitorias e ou facilidades, com o objetivo de nêle ser exercida atividade de exploração agrícola, pecuária, agro-industrial, extrativa ou mista, mediante, certa retribuiç ão ou aluguel , observados os limites percentuais da Lei.
+
+  </p>
+            
+          </Item>
+          </Paragrafo><Paragrafo id="art2_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Subarrendamento é o contrato pelo qual o Arrendatário transfere a outrem, no todo ou em parte, os direitos e obrigações do seu contrato de arrendamento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Chama-se Arrendador o que cede o imóvel rural ou o aluga; e Arrendatário a pessoa ou conjunto familiar, representado pelo seu chefe que o recebe ou toma por aluguel.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O Arrendatário outorgante de subarrendamento será, para todos os efeitos, classificado como arrendador.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    Parceria rural é o contrato agrário pelo qual uma pessoa se obriga a ceder à outra, por te mpo determinado ou não, o uso especifico de imóvel rural, de parte ou partes do mesmo, incluindo, ou não, benfeitorias, outros bens e ou facilidades, com o objetivo de nêle ser exercida atividade de exploração agrícola, pecuária, agro-industrial, extrativa vegetal ou mista; e ou lhe entrega animais para cria, recria, invernagem, engorda ou extração de matérias primas de origem animal, mediante partilha de riscos do caso fortuito e da fôrça maior do empreendimento rural, e dos frutos, produtos ou lucros havidos nas proporções que estipularem, observados os limites percentuais da lei (artigo 96, VI do Estatuto da Terra).
+
+  </p>
+            
+          </Caput><Paragrafo id="art4_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    para os fins dêste Regulamento denomina-se parceiro outorgante, o cedente, proprietário ou não, que entrega os bens; e parceiro-outorgado, a pessoa ou o conjunto familiar, representado pelo seu chefe, que os recebe para os fins próprios das modalidades de parcerias definidas no art. 5º.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    Dá-se a parceria:
+
+  </p>
+            <Inciso id="art5_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    agrícola, quando o objeto da cessão fôr o uso de imóvel rural, de parte ou partes do mesmo, com o objetivo de nêle ser exercida a atividade de produção vegetal;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    pecuária, quando o objetivo da cessão forem animais para cria, recria, invernagem ou engorda;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    agro-industrial, quando o objeto da sessão fôr o uso do imóvel rural, de parte ou partes do mesmo, ou maquinaria e implementos, com o objetivo de ser exercida atividade de transformação de produto agrícola, pecuário ou florestal;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    extrativa, quando o objeto da cessão fôr o uso de imóvel rural, de parte ou partes do mesmo, e ou animais de qualquer espécie, com o objetivo de ser exercida atividade extrativa de produto agrícola, animal ou florestal;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    mista, quando o objeto da cessão abranger mais de uma das modalidades de parceria definidas nos incisos anteriores.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    Ocorrendo entre as mesmas partes e num mesmo imóvel rural avenças de arrendamento e de parceria, serão celebrados contratos distintos, cada qual regendo-se pelas normas especificas estabelecidas no Estatuto da Terra, na Lei nº 4.947-66 e neste Regulamento.
+
+  </p>
+            
+          </Caput><Paragrafo id="art6_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Reger-se-ão pelas normas do presente Regulamento, os direitos e obrigações dos atuais meeiros, terceiros quartistas, parcentistas ou de qualquer outro tipo de parceiro-outorgado, cujo contrato estipule, no todo ou em parte, a partilha em frutos, produtos ou no seu equivalente em dinheiro.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    Para os efeitos dêste Regulamento entende-se por exploração direta, aquela em que o beneficiário da exploração assume riscos do empreendimento, custeando despesas necessárias.
+
+  </p>
+            
+          </Caput><Paragrafo id="art7_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Denomina-se Cultivador Direto aquêle que exerce atividade de exploração na forma dêste artigo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art7_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os arrendatários serão sempre admitidos como cultivadores diretos.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    Para os fins do disposto no art. 13, inciso V, da Lei nº 4.947-66, entende-se por cultivo direto e pessoal, a exploração direta na qual o proprietário, ou arrendatário ou o parceiro, e seu conjunto familiar, residindo no imóvel e vivendo em mútua dependência, utilizam assalariados em número que não ultrapassa o número de membros ativos daquele conjunto.
+
+  </p>
+            
+          </Caput><Paragrafo id="art8_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Denomina-se cultivador direto e pessoal aquêle que exerce atividade de exploração na forma dêste artigo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            
+            
+            
+            <p>
+    Sem a apresentação do certificado de cadastro, a partir de 1 de janeiro de 1967,os proprietários, usufrutuários, usuários ou possuidores de imóvel rural, sob pena de nulidade, não poderão celebrar os contratos agrários disciplinados por êste Regulamento (art. 22, § 1º, da Lei número 4.947-66).
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>
+    Caberá ao Instituto Brasileiro de Reforma Agrária - IBRA, em todo o território nacional, a organização e manutenção do registro cadastral e do contrôle dos contratos agrários, em obediência ao disposto na alínea &quot; c&quot; do inciso III, do artigo 46 do Estatuto da Terra, e de sua regulamentação no Decreto 55.891, de 31-3-65, como também art. 13 da Lei 4.947, 6-4-66.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DOS CONTRATOS: ESSÊNCIAIS E FUNDAMENTOS
+
+  </NomeAgrupador>
+            <Secao id="cap2_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    DOS CONTRATOS AGRáRIOS
+
+  </NomeAgrupador>
+            <Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            <p>
+    Os contratos de arrendamento e de parceria poderão ser escritos ou verbais. Nos contratos verbais presume-se como ajustadas as cláusulas obrigatórias estabelecidas no art. 13 dêste Regulamento.
+
+  </p>
+            
+          </Caput><Paragrafo id="art11_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O arrendador ou o parceiro-outorgante deverá encontrar-se na posse do imóvel rural e dos bens, a qualquer título que lhes dê o direito de exploração e de destinação aos fins contratuais.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art11_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Cada parte contratante poderá exigir da outra a celebração do ajuste por escrito, correndo as despesas pelo modo que convencionarem.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            
+            
+            
+            <p>
+    Os contratos escritos deverão conter as seguintes indicações:
+
+  </p>
+            <Inciso id="art12_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Lugar e data da assinatura do contrato;
+
+  </p>
+            
+          </Inciso><Inciso id="art12_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Nome completo e endereço dos contratantes;
+
+  </p>
+            
+          </Inciso><Inciso id="art12_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Características do arrendador ou do parceiro-outorgante (espécie, capital registrado e data da constituição, se pessoa jurídica, e, tipo e número de registro do documento de identidade, nacionalidade e estado civil, se pessoa física e sua qualidade (proprietário, usufrutuário, usuário ou possuidor);
+
+  </p>
+            
+          </Inciso><Inciso id="art12_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    característica do arrendatário ou do parceiro-outorgado (pessoa física ou conjunto família);
+
+  </p>
+            
+          </Inciso><Inciso id="art12_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    objeto do contrato (arrendamento ou parceria), tipo de atividade de exploração e destinação do imóvel ou dos bens;
+
+  </p>
+            
+          </Inciso><Inciso id="art12_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    Identificação do imóvel e número do seu registro no Cadastro de imóveis rurais do IBRA (constante do Recibo de Entrega da Declaração, do Certificado de Cadastro e do Recibo do Imposto Territorial Rural).
+
+  </p>
+            
+          </Inciso><Inciso id="art12_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    Descrição da gleba (localização no imóvel, limites e confrontações e área em hectares e fração), enumeração das benfeitorias (inclusive edificações e instalações), dos equipamentos especiais, dos veículos, máquinas, implementos e animais de trabalho e, ainda, dos demais bens e ou facilidades com que concorre o arrendador ou o parceiro-outorgante;
+
+  </p>
+            
+          </Inciso><Inciso id="art12_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    Prazo de duração, preço do arrendamento ou condições de partilha dos frutos, produtos ou lucros havidos, com expressa menção dos modos, formas e épocas dêsse pagamento ou partilha;
+
+  </p>
+            
+          </Inciso><Inciso id="art12_cpt_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    Cláusulas obrigatórias com as condições enumeradas no art. 13 do presente Regulamento, nos arts. 93 a 96 do Estatuto da Terra e no art. 13 da Lei 4.947-66;
+
+  </p>
+            
+          </Inciso><Inciso id="art12_cpt_inc10">
+            
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    fôro do contrato;
+
+  </p>
+            
+          </Inciso><Inciso id="art12_cpt_inc11">
+            
+            
+            <Rotulo>XI –</Rotulo>
+            <p>
+    assinatura dos contratantes ou de pessoa a seu rôgo e de 4 (quatro) testemunhas idôneas, se analfabetos ou não poderem assinar.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art12_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    As partes poderão ajustar outras estipulações que julguem convenientes aos seus interêsses, desde que não infrinjam o Estatuto da Terra, a Lei nº 4.947-66 e o presente Regulamento.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>
+    Nos contratos agrários, qualquer que seja a sua forma, contarão obrigatoriamente, clausulas q ue assegurem a conservação dos recursos naturais e a proteção social e econômica dos arrenda t ários e dos parceiros-outorgados a saber (Art. 13, incisos III e V da Lei nº 4.947-66);
+
+  </p>
+            <Inciso id="art13_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Proibição de renúncia dos direitos ou vantagens estabelecidas em Leis ou Regulamentos, por parte dos arredentários e parceiros-outorgados (art.13, inciso IV da Lei número 4.947-66);
+
+  </p>
+            
+          </Inciso><Inciso id="art13_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Observância das seguintes normas, visando a conservação dos recursos naturais:
+
+  </p>
+            <Alinea id="art13_cpt_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    prazos mínimos, na forma da alínea &quot; b&quot;, do inciso XI, do art. 95 e da alínea &quot; b&quot;, do inciso V, do art. 96 do Estatuto da Terra:
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Secao>
+          </Capitulo><p>- de 3 (três), anos nos casos de arrendamento em que ocorra atividade de exploração de lavoura temporária e ou de pecuária de pequeno e médio porte; ou em todos os casos de parceria;
+</p><p>- de 5 (cinco), anos nos casos de arrendamento em que ocorra atividade de exploração de lavoura permanente e ou de pecuária de grande porte para cria, recria, engorda ou extração de matérias primas de origem animal;
+</p><p>- de 7 (sete), anos nos casos em que ocorra atividade de exploração florestal;
+</p><Alinea id="ali2">
+            <!--Link: urn:lex:br:federal:lei:1965-09-15;4771--><!--Link: urn:lex:br:federal:decreto:1966-03-18;58016-->
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    observância, quando couberem, das normas estabelecidas pela <span xlink:href="urn:lex:br:federal:lei:1965-09-15;4771">Lei número 4.771, de 15 de setembro de 1965</span>, Código Florestal, e de seu Regulamento constante do <span xlink:href="urn:lex:br:federal:decreto:1966-03-18;58016">Decreto 58.016 de 18 de março de 1966</span>;
+
+  </p>
+            
+          </Alinea><Alinea id="ali3">
+            <!--Link: urn:lex:br:federal:decreto:1965-03-31;55891-->
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    observância de práticas agrícolas admitidas para os vários tipos de exportação intensiva e extensiva para as diversas zonas típicas do país, fixados nos <span xlink:href="urn:lex:br:federal:decreto:1965-03-31;55891">Decretos número 55.891, de 31 de março de 1965</span> e 56.792 de 26 de agôsto de 1965.
+
+  </p>
+            
+          </Alinea><Inciso id="inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Fixação, em quantia certa, do preço do arrendamento, a ser pago em dinheiro ou no seu equivalente em frutos ou produtos, na forma do art. 95, inciso XII, do Estatuto da Terra e do art. 17 dêste Regulamento, e das condições de partilha dos frutos, produtos ou lucros havidos na parceria, conforme preceitua o art.96 do Estatuto da Terra e o art. 39 dêste Regulamento.
+
+  </p>
+            
+          </Inciso><Inciso id="inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    Bases para as renovações convencionadas seguido o disposto no artigo 95, incisos IV e V do Estatuto da Terra e art. 22 dêste Regulamento.
+
+  </p>
+            
+          </Inciso><Inciso id="inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    Causas de extinção e rescisão, de acôrdo com o determinado nos artigos 26 a 34 dêste Regulamento;
+
+  </p>
+            
+          </Inciso><Inciso id="inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    Direito e formas de indenização quanto às benfeitorias realizadas, ajustadas no contrato de arrendamento; e, direitos e obrigações quanto às benfeitorias realizadas, com consentimento do parceiro-outorgante, e quanto aos danos substanciais causados pelo parceiro-outorgado por práticas predatórias na área de exploração ou nas benfeitorias, instalações e equipamentos especiais, veículos, máquinas, implementos ou ferramentas a êle cedidos (art. 95, inciso XI, letra &quot; c e art.96, inciso V, letra &quot; e&quot; do Estatuto da Terra
+
+  </p>
+            
+          </Inciso><p>);
+</p><Inciso id="inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    observância das seguintes normas, visando à proteção social e econômica dos arrendatários e parceiros-outorgados (art.13, inciso V, da Lei nº 4.974-66):
+
+  </p>
+            <Alinea id="inc7_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    concordância do arrendador ou do parceiro-outorgante, à solicitação de crédito rural feita pelos arrendatários ou parceiros-outorgados (artigo 13, inciso V da Lei nº 4.947-66);
+
+  </p>
+            
+          </Alinea><Alinea id="inc7_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    cumprimento das proibições fixadas no art. 93 do Estatuto da Terra, a saber:
+
+  </p>
+            
+          </Alinea>
+          </Inciso><p>- prestação do serviço gratuito pelo arrendatário ou parceiro-outorgado;
+</p><p>- exclusividade da venda dos frutos ou produtos ao arrendador ou ao parceiro-outorgante;
+</p><p>- obrigatoriedade do beneficiamento da produção em estabelecimento determinado pelo arrendador ou pelo parceiro-outorgante:
+</p><p>- obrigatoriedade da aquisição de gêneros e utilidades em armazéns ou barrações determinados pelo arrendador ou pelo parceiro-outorgante;
+</p><p>- aceitação pelo parceiro-outorgado, do pagamento de sua parte em ordens, vales, borós, ou qualquer outra forma regional substitutiva da moeda;
+</p><Alinea id="ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    direito e oportunidade de dispor dos frutos ou produtos repartidos da seguinte forma (art.96,inciso V, letra &quot; f &quot; do Estatuto da Terra):
+
+  </p>
+            
+          </Alinea><p>- nenhuma das partes poderá dispor dos frutos ou dos frutos ou produtos havidos antes de efetuada a partilha, devendo o parceiro-outorgado avisar o parceiro-outorgante, com a necessária antecedência, da data em que iniciará a colheita ou repartição dos produtos pecuários;
+</p><p>- ao parceiro-outorgado será garantido o direito de dispor livremente dos frutos e produtos que lhe cabem por fôrça do contrato;
+</p><p>- em nenhum caso será dado em pagamento ao credor do cedente ou do parceiro-outorgado, o produto da parceria, antes de efetuada a partilha.
+</p><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            <p>
+    Os contratos agrários, qualquer que seja o seu valor e sua forma poderão ser provados por testemunhas (artigo 92, § 8º, do Estatuto da Terra).
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>
+    A alienação do imóvel rural ou a instituição de ônus reais sôbre êle, não interrompe os contratos agrários, ficando o adquirente ou o beneficiário, sub-rogado nos direitos e obrigações do alienante ou do instituidor do ônus (art.92, § 5º do Estatuto da Terra).
+
+  </p>
+            
+          </Caput>
+          </Artigo><Secao id="sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Do Arrendamento e suas Modalidades
+
+  </NomeAgrupador>
+            <Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            
+            
+            
+            <p>
+    A renda anual dos contratos de arrendamento será ajustada pelas partes contratantes, tendo como limite o estabelecido no art. 95, inciso XII, do Estatuto da Terra.
+
+  </p>
+            
+          </Caput><Paragrafo id="art16_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Poderão os contratos ser anualmente corrigidos a partir da data da assinatura, na parte que se refere ao valor da terra, de acôrdo com o índice de correção monetária fornecida pelo Conselho Nacional de Economia e divulgado pelo IBRA (art. 92, § 2º do Estatuto da Terra).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Nos casos em que ocorrer exploração de produtos com preço oficialmente fixado, a relação entre os preços reajustados e os iniciais, não poderá ultrapassar a relação entre o nôvo preço fixado para os produtos e o respectivo preço na época do contrato (art. 92, § 2º do Estatuto da Terra).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            
+            
+            
+            <p>
+    Para cálculo dos preços de arrendamento em cada imóvel rural, observar-se-ão, com base no inciso XII do art. 95 do Estatuto da Terra os critérios fixados nos parágrafos seguintes:
+
+  </p>
+            
+          </Caput><Paragrafo id="art17_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Nos casos de arrendamento da área total do imóvel rural, a um ou mais arrendatários, a soma dos preços de arrendamento não pode ser superior a 15% (quinze por cento) do valor da terra nua, fornecido na Declaração de Propriedade de imóvel rural e aceito para o Cadastro de Imóveis Rurais do IBRA, constante do recibo de pagamento do impôsto territorial rural (ITR)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art17_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Nos casos de arrendamento parcial a um ou mais arrendatários, a soma dos preços de aluguel não poderá exceder a 30% (trinta por cento) do valor das áreas arrendadas, avaliado êsse com base no valor do hectare declarado e aceito, para o Cadastro de imóveis rurais do IBRA.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art17_par3">
+            <!--Link: urn:lex:br:federal:decreto:1965-03-31;55891!art14_par3-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Para a área não arrendada, admite-se um preço potencial de arrendamento, que será de 15% (quinze por cento) do valor mínimo por hectare estabelecido na Instrução Especial do IBRA, aprovada pelo Ministro do Planejamento, na forma prevista no <span xlink:href="urn:lex:br:federal:decreto:1965-03-31;55891!art14_par3">parágrafo 3º do art. 14 do Decreto nº 55.891, de 31 de março de 1965</span>.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art17_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O preço potencial de arrendamento da área não arrendada, mais a soma dos preços de arrendamento da áreas arrendadas, não poderá exceder o preço máximo de arrendamento da área total do imóvel, estipulado no parágrafo 1º dêste artigo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art17_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    O preço de arrendamento da benfeitorias que entrarem na composição do contrato, não poderá exceder a 15% (quinze por cento) do valor das mesmas benfeitorias, expresso na Declaração de Propriedade do Imóvel Rural.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            
+            
+            
+            <p>
+    O preço do arrendamento só pode ser ajustado em quantia fixa de dinheiro, mas o seu pagamento pode ser ajustado que se faça em dinheiro ou em quantidade de frutos cujo preço corrente no mercado local, nunca inferior ao preço mínimo oficial, equivalha ao do aluguel, à época da liquidação.
+
+  </p>
+            
+          </Caput><Paragrafo id="art18_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    É vedado ajustar como preço de arrendamento quantidade fixa de frutos ou produtos, ou seu equivalente em dinheiro.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            
+            
+            
+            <p>
+    Nos contratos em que o pagamento do preço do arrendamento deva ser realizado em frutos ou produtos agrícolas, fica assegurado ao arrendatário o direito de pagar em moeda corrente, caso o arrendador exija que a equivalência seja calculada com base em preços inferiores aos vigentes na região, à época dêsse pagamento, ou fique comprovada qualquer outra modalidade de simulação ou fraude por parte do arrendador (art. 92, § 7º do Estatuto da Terra).
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            
+            
+            
+            <p>
+    Ao arrendador que financiar o arrendatário por inexistência ou impossibilidade de financiamento pelos órgãos oficiais de credito, e facultado o direito de, vencida a obrigação, exigir a venda dos frutos até o limite da divida acrescida dos juros legais devidos, observados os preços do mercado local (art. 93, parágrafo único, do Estatuto da Terra).
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            
+            
+            
+            <p>
+    Presume-se contratado pelo prazo mínimo de 3 (três) anos, o arrendamento por tempo indeterminado (art. 95, II do Estatuto da Terra).
+
+  </p>
+            
+          </Caput><Paragrafo id="art21_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os prazos de arrendamento terminarão sempre depois de ultimada a colheita, inclusive a de plantas forrageiras cultiváveis, após a parição dos rebanhos ou depois da safra de animais de abate. Em caso de retardamento da colheita por motivo de fôrça maior êsses prazos ficarão automaticamente prorrogados até o final da colheita (art. 95, I, do Estatuto da Terra).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art21_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Entende-se por safra de animais de abate, o período oficialmente determinado para a matança, ou o adotado pelos usos e costumes da região.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art21_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O arrendamento que, no curso do contrato, pretender iniciar nova cultura cujos frutos não possam ser colhidos antes de terminado o prazo contratual, deverá ajustar, previamente, com o arrendador, a forma de pagamento do uso da terra por êsse prazo excedente (art. 15 do Estatuto da Terra.)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art22">
+            
+            
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            
+            
+            
+            <p>
+    Em igualdade de condições com terceiros, o arrendatário terá preferência à renovação do arrendamento, devendo o arrendador até 6 (seis) meses antes do vencimento do contrato, notificá-lo das propostas recebidas, instruindo a respectiva notificação com cópia autêntica das mesmas (art. 95, IV do Estatuto da Terra).
+
+  </p>
+            
+          </Caput><Paragrafo id="art22_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Na ausência de notificação, o contrato considera-se automàticamente renovado, salvo se o arrendatário, nos 30 (trinta) dias seguintes ao do término do prazo para a notificação manifestar sua desistência ou formular nova proposta (art. 95, IV, do Estatuto da Terra).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art22_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os direitos assegurados neste artigo, não prevalecerão se, até o prazo 6 (seis meses antes do vencimento do contrato, o arrendador por via de notificação, declarar sua intenção de retomar o imóvel para explorá-lo diretamente, ou para cultivo direto e pessoal, na forma dos artigos 7º e 8º dêste Regulamento, ou através de descendente seu (art. 95, V, do Estatuto da Terra).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art22_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    As notificações, desistência ou proposta, deverão ser feitas por carta através do Cartório de Registro de Títulos e documentos da comarca da situação do imóvel, ou por requerimento judicial.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art22_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    A insinceridade do arrendador eu poderá ser provada por qualquer meio em direito permitido, importará na obrigação de responder pelas perdas e danos causados ao arrendatário.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art23">
+            
+            
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            
+            
+            
+            <p>
+    Se por sucessão causa mortis o imóvel rural fôr partilhado entre vários herdeiros, qualquer dêles poderá exercer o direito de retomada, de sua parte, com obediência aos preceitos dêste Decreto; todavia é assegurado ao arrendatário o direito à renovação do contrato, quanto às partes dos herdeiros não interessados na retomada.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art24">
+            
+            
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput id="art24_cpt">
+            
+            
+            
+            <p>
+    As benfeitorias que forem realizadas no imóvel rural objeto de arrendamento, podem ser voluptuárias úteis e necessárias, assim conceituadas:
+
+  </p>
+            <Inciso id="art24_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    voluptuárias, as de mero deleite ou recreio, que não aumentam o uso habitual do imóvel rural, ainda que o tornem mais agradável ou sejam de elevado valor;
+
+  </p>
+            
+          </Inciso><Inciso id="art24_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    úteis, as que aumentam ou facilitam o uso do imóvel rural; e
+
+  </p>
+            
+          </Inciso><Inciso id="art24_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    necessárias, as que tem por fim conservar o imóvel rural ou evitar que se deteriore e as que decorram do cumprimento das normas estabelecidas neste Regulamento para a conservação de recursos naturais.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art24_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Havendo dúvida sôbre a finalidade da benfeitoria, e quanto à sua classificação prevalecerá o que fôr ajustado pelos contratantes.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art25">
+            
+            
+            <Rotulo>Art. 25.</Rotulo>
+            
+            <Caput id="art25_cpt">
+            
+            
+            
+            <p>
+    O arrendatário, no término do contrato, terá direito á indenização das benfeitorias necessárias e úteis. Quanto às voluptuárias, somente será indenizado se sua construção fôr expressamente autorizada pelo arrendador (art. 95, VIII, do Estatuto da Terra e 516 do Cód. Civil).
+
+  </p>
+            
+          </Caput><Paragrafo id="art25_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Enquanto o arrendatário não fôr indenizado das benfeitorias necessárias e úteis, poderá reter o imóvel em seu poder, no uso e gôzo das vantagens por êle oferecidas, nos têrmos do contrato de arrendamento (arts. 95, VIII do Estatuto da Terra e 516 do Código Civil).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art25_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Quando as benfeitorias necessárias ou úteis forem feitas às expensas do arrendador dando lugar a aumento nos rendimentos da gleba, terá êle direito a uma elevação proporcional da renda, e não serão indenizáveis ao fim do contrato, salvo estipulação em contrário.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art26">
+            
+            
+            <Rotulo>Art. 26.</Rotulo>
+            
+            <Caput id="art26_cpt">
+            
+            
+            
+            <p>
+    O arrendamento se extingue:
+
+  </p>
+            <Inciso id="art26_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Pelo término do prazo do contrato e do de sua renovação;
+
+  </p>
+            
+          </Inciso><Inciso id="art26_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Pela retomada;
+
+  </p>
+            
+          </Inciso><Inciso id="art26_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Pela aquisição da gleba arrendada, pelo arrendatário;
+
+  </p>
+            
+          </Inciso><Inciso id="art26_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    Pelo distrato ou rescisão do contrato;
+
+  </p>
+            
+          </Inciso><Inciso id="art26_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    Pela resolução ou extinção do direito do arrendador;
+
+  </p>
+            
+          </Inciso><Inciso id="art26_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    Por motivo de fôr maior, que impossibilite a execução do contrato;
+
+  </p>
+            
+          </Inciso><Inciso id="art26_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    Por sentença judicial irrecorrível;
+
+  </p>
+            
+          </Inciso><Inciso id="art26_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    Pela perda do imóvel rural;
+
+  </p>
+            
+          </Inciso><Inciso id="art26_cpt_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    Pela desapropriação, parcial ou total, do imóvel rural;
+
+  </p>
+            
+          </Inciso><Inciso id="art26_cpt_inc10">
+            
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    por qualquer outra causa prevista em lei.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art26_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Nos casos em que o arrendatário é o conjunto familiar, a morte do seu chefe não é causa de extinção do contrato, havendo naquele conjunto outra pessoa devidamente qualificada que prossiga na execução do mesmo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art27">
+            
+            
+            <Rotulo>Art. 27.</Rotulo>
+            
+            <Caput id="art27_cpt">
+            
+            
+            
+            <p>
+    O inadimplemento das obrigações assumidas por qualquer das partes, e a inobservância de cláusula asseguradora dos recursos naturais, prevista no art. 13, inciso II, letra &quot;c&quot;, dêste Regulamento, dará lugar facultativamente à rescisão do contrato, ficando a parte inadimplente obrigada a ressarcir a oura das perdas e danos causados (art. 92, § 6º do Estatuto da Terra).
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art28">
+            
+            
+            <Rotulo>Art. 28.</Rotulo>
+            
+            <Caput id="art28_cpt">
+            
+            
+            
+            <p>
+    Quando se verificar a resolução ou extinção do direito do arrendador sôbre o imóvel rural, fica garantido ao arrendatário a permanecer nêle até o término dos trabalhos que forem necessários à colheita.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art29">
+            
+            
+            <Rotulo>Art. 29.</Rotulo>
+            
+            <Caput id="art29_cpt">
+            
+            
+            
+            <p>
+    Na ocorrência de fôrça maior, da qual resulte a perda total do objeto do contrato, êste se terá por extinto, não respondendo qualquer dos contratantes, por perdas e danos.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art30">
+            
+            
+            <Rotulo>Art. 30.</Rotulo>
+            
+            <Caput id="art30_cpt">
+            
+            
+            
+            <p>
+    No caso de desapropriação parcial do imóvel rural, fica assegurado ao arrendatário o direito à redução proporcional da renda ou o de rescindir o contrato.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art31">
+            
+            
+            <Rotulo>Art. 31.</Rotulo>
+            
+            <Caput id="art31_cpt">
+            
+            
+            
+            <p>
+    É vedado ao arrendatário ceder o contrato de arrendamento, subarrendar ou emprestar total ou parcialmente o imóvel rural, sem prévio e expresso consentimento do arrrendador (art. 95, VI, do Estatuto da Terra).
+
+  </p>
+            
+          </Caput><Paragrafo id="art31_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Resolvido ou findo o contrato, extingue de pleno direito o subarrendamento, salvo disposição convencional ou legal em contrário.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art32">
+            
+            
+            <Rotulo>Art. 32.</Rotulo>
+            
+            <Caput id="art32_cpt">
+            
+            
+            
+            <p>
+    Só será concedido o despejo nos seguintes casos:
+
+  </p>
+            <Inciso id="art32_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Término do prazo contratual ou de sua renovação;
+
+  </p>
+            
+          </Inciso><Inciso id="art32_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Se o arrendatário subarrendar, ceder ou emprestar o imóvel rural, no todo ou em parte, sem o prévio e expresso consentimento do arrendador;
+
+  </p>
+            
+          </Inciso><Inciso id="art32_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Se o arrendatário não pagar o aluguel ou renda no prazo convencionado;
+
+  </p>
+            
+          </Inciso><Inciso id="art32_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    Dano causado à gleba arrendada ou ás colheitas, provado o dolo ou culpa do arrendatário;
+
+  </p>
+            
+          </Inciso><Inciso id="art32_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    se o arrendatário mudar a destinação do imóvel rural;
+
+  </p>
+            
+          </Inciso><Inciso id="art32_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    Abandono total ou parcial do cultivo;
+
+  </p>
+            
+          </Inciso><Inciso id="art32_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    Inobservância das normas obrigatórias fixadas no art. 13 dêste Regulamento;
+
+  </p>
+            
+          </Inciso><Inciso id="art32_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    Nos casos de pedido de retomada, permitidos e previstos em lei e neste regulamento, comprovada em Juízo a sinceridade do pedido;
+
+  </p>
+            
+          </Inciso><Inciso id="art32_cpt_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    se o arrendatário infringir obrigado legal, ou cometer infração grave de obrigação contratual.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art32_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    No caso do inciso III, poderá o arrendatário devedor evitar a rescisão do contrato e o conseqüente despejo, requerendo no prazo da contestação da ação de despejo, seja-lhe admitido o pagamento do aluguel ou renda e encargos devidos, as custas do processo e os honorários do advogado do arrendador, fixados de plano pelo Juiz. O pagamento deverá ser realizado no prazo que o Juiz determinar, não excedente de 30 (trinta) dias, contados da data da entrega em cartório do mandado de citação devidamente cumprido, procedendo-se a depósito, em caso de recusa.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art33">
+            
+            
+            <Rotulo>Art. 33.</Rotulo>
+            
+            <Caput id="art33_cpt">
+            
+            
+            
+            <p>
+    O arrendador e o arrendatário poderão ajustar por acôrdo mútuo, a substituição da área arrendada por outra equivalente, localizada no mesmo imóvel rural, respeitada as demais cláusulas e condições do contrato e os direitos do arrendatário (art. 95, VII do Estatuto da Terra).
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="sec3">
+            
+            
+            <Rotulo>Seção III</Rotulo>
+            <NomeAgrupador>
+    Da Parceria e suas Modalidades
+
+  </NomeAgrupador>
+            <Artigo id="art34">
+            
+            
+            <Rotulo>Art. 34.</Rotulo>
+            
+            <Caput id="art34_cpt">
+            
+            
+            
+            <p>
+    Aplicam-se à parceria, em qualquer de suas espécies previstas no art. 5º dêste Regulamento, as normas da seção II, dêste Capítulo, no que couber, bem como as regras do contrato de sociedade, no que não estiver regulado pelo Estatuto da Terra.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art35">
+            
+            
+            <Rotulo>Art. 35.</Rotulo>
+            
+            <Caput id="art35_cpt">
+            
+            
+            
+            <p>
+    Na partilha dos frutos da parceria, a cota do parceiro-outorgante não poderá ser superior a (art. 96, VI, do Estatuto da Terra).
+
+  </p>
+            <Inciso id="art35_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    10% (dez por cento) quando concorrer apenas com a terra nua;
+
+  </p>
+            
+          </Inciso><Inciso id="art35_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    20% (vinte por cento) quando concorrer com a terra preparada e moradia;
+
+  </p>
+            
+          </Inciso><Inciso id="art35_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    30% (trinta por cento) caso concorra com o conjunto básico de benfeitorias, constituído especialmente de casa de moradia, galpões, banheiro para gado, cêrcas, valas ou currais, conforme o caso;
+
+  </p>
+            
+          </Inciso><Inciso id="art35_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    50% (cinqüenta por cento), caso concorra com a terra preparada e o conjunto básico de benfeitorias enumeradas no inciso III, e mais o fornecimento de máquinas e implementos agrícolas, para atender aos tratos culturais, bem como as sementes e animais de tração e, no caso de parceria pecuária, com animais de cria em proporção superior a 50% (cinqüenta por cento) do número total de cabeças objeto da parceria;
+
+  </p>
+            
+          </Inciso><Inciso id="art35_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    75% (setenta e cinco por cento), nas zonas de pecuária ultra-extensiva, em que forem os animais de cria em proporção superior a 25% (vinte e cinto por cento) do rebanho onde se adotem a meação do leite e a comissão mínima de 5% (cinco por cento) por animal vendido.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art35_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O parceiro-outorgante poderá sempre cobrar do parceiro-outorgado, pelo seu preço de custo, o valor dos fertilizantes e inseticidas fornecidos no percentual que corresponder à participação dêsse, em qualquer das modalidades previstas nas alíneas dêste artigo (art. 96, VI, &quot;f&quot; do Estatuto da Terra).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art35_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Nos casos não previstos nos incisos acima, a cota adicional do parceiro-outorgante será fixada com base em percentagem máxima de 10&quot; (dez por cento) do valor das benfeitorias ou dos bens postos à disposição do parceiro-outorgado (art. 96, VI, &quot;g&quot;, do Estatuto da Terra).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art35_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Não valerão as avenças de participação que contrariarem os percentuais fixados neste artigo, podendo o parceiro prejudicado reclamar em Juízo contra isso e efetuar a consignação judicial da cota que, ajustada aos limites permitidos neste artigo, fôr devida ao outro parceiro, correndo por conta dêste todos os riscos, despesas, custas e honorários advocatícios.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art36">
+            
+            
+            <Rotulo>Art. 36.</Rotulo>
+            
+            <Caput id="art36_cpt">
+            
+            
+            
+            <p>
+    Na ocorrência de fôrça maior, da qual resulte a perda total do objeto do contato, êste se terá por rescindido, não respondendo qualquer dos contratantes, por perdas e danos. Todavia, se ocorrer perda parcial, repartir-se-ão os prejuízos havidos, na proporção estabelecida para cada contratante.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art37">
+            
+            
+            <Rotulo>Art. 37.</Rotulo>
+            
+            <Caput id="art37_cpt">
+            
+            
+            
+            <p>
+    As parcerias sem prazo convencionado pelas partes, presumem-se contratadas por 3 anos (art. 96, I, do Estatuto da Terra).
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="sec4">
+            
+            
+            <Rotulo>Seção IV</Rotulo>
+            <NomeAgrupador>
+    Do Uso Temporário da Terra e suas Limitações
+
+  </NomeAgrupador>
+            <Artigo id="art38">
+            
+            
+            <Rotulo>Art. 38.</Rotulo>
+            
+            <Caput id="art38_cpt">
+            
+            
+            
+            <p>
+    A exploração da terra, nas formas e tipos regulamentados por êste Decreto, somente é considerada como adequada a permitir ao arrendatário e ao parceiro-outorgado gozar dos benefícios aqui estabelecidos, quando fôr realizada de maneira:
+
+  </p>
+            <Inciso id="art38_cpt_inc1">
+            <!--Link: urn:lex:br:federal:decreto:1965;55891!art25-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    eficiente, quando satisfizer as seguintes condições, especificadas no <span xlink:href="urn:lex:br:federal:decreto:1965;55891!art25">art. 25 do Decreto nº 55.891, de 1965</span> e as contidas nos parágrafos daquele artigo:
+
+  </p>
+            <Alinea id="art38_cpt_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    que a área utilizada nas várias explotações represente porcentagem igual ou superior a 50% (cinqüenta por cento) de sua área agricultável, equiparando-se, para êsse fim, as áreas cultivadas, as pastagens, as matas naturais e artificias e as áreas ocupadas com benfeitorias;
+
+  </p>
+            
+          </Alinea><Alinea id="art38_cpt_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    que obtenha rendimento médio, nas várias atividades de explotação, igual ou superior aos mínimos fixados em tabela própria, periódicamente.
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art38_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Direta e pessoal, nos têrmos do art. 8º dêste Regulamento estendido o conceito ao parceiro-outorgado;
+
+  </p>
+            
+          </Inciso><Inciso id="art38_cpt_inc3">
+            <!--Link: urn:lex:br:federal:decreto:1965;55891!art25-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    correta , quando atender às seguintes disposições estaduais no mencionado <span xlink:href="urn:lex:br:federal:decreto:1965;55891!art25">art. 25 do Decreto número 55.891, de 1965</span>:
+
+  </p>
+            <Alinea id="art38_cpt_inc3_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    adote práticas conservacionistas e empregue no mínimo, a tecnologia de uso corrente nas zonas em que se situe;
+
+  </p>
+            
+          </Alinea><Alinea id="art38_cpt_inc3_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    mantenha as condições de administração e as formas de exploração social estabelecidas como mínimas para cada região.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art39">
+            
+            
+            <Rotulo>Art. 39.</Rotulo>
+            
+            <Caput id="art39_cpt">
+            
+            
+            
+            <p>
+    Quando o uso ou posse temporária da terra fôr exercido por qualquer outra modalidade contratual, diversa dos contratos de Arrendamento e Parceria, serão observadas pelo proprietário do imóvel as mesmas regras aplicáveis à arrendatários e parceiros, e, em especial a condição estabelecida no art. 38 supra.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Capitulo id="cap3">
+            
+            
+            <Rotulo>CAPÍTULO III</Rotulo>
+            <NomeAgrupador>
+    Dos Direitos e dos Deveres
+
+  </NomeAgrupador>
+            <Secao id="cap3_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Dos Arrendadores e dos Arrendatários
+
+  </NomeAgrupador>
+            <Artigo id="art40">
+            
+            
+            <Rotulo>Art. 40.</Rotulo>
+            
+            <Caput id="art40_cpt">
+            
+            
+            
+            <p>
+    O arrendador é obrigado:
+
+  </p>
+            <Inciso id="art40_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a entregar ao arrendatário o imóvel rural objeto do contrato, na data estabelecida ou segundo os usos e costumes da região;
+
+  </p>
+            
+          </Inciso><Inciso id="art40_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a garantir ao arrendatário o uso e gôzo do imóvel arrendado, durante todo o prazo do contrato (artigo 92, § 1º do Estatuto da Terra);
+
+  </p>
+            
+          </Inciso><Inciso id="art40_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    a fazer no imóvel, durante a vigência do contrato, as obras e reparos necessários;
+
+  </p>
+            
+          </Inciso><Inciso id="art40_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    a pagar as taxas, impostos, fôros e tôda e qualquer contribuição que incida ou venha incidir sôbre o imóvel rural arrendado, se de outro modo não houver convencionado.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art41">
+            
+            
+            <Rotulo>Art. 41.</Rotulo>
+            
+            <Caput id="art41_cpt">
+            
+            
+            
+            <p>
+    O arrendatário é obrigado:
+
+  </p>
+            <Inciso id="art41_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a pagar pontualmente o preço do arrendamento, pelo modo, nos prazos e locais ajustados;
+
+  </p>
+            
+          </Inciso><Inciso id="art41_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a usar o imóvel rural, conforme o convencionado, ou presumido, e a tratá-lo com o mesmo cuidado como se fôsse seu, não podendo mudar sua destinação contratual;
+
+  </p>
+            
+          </Inciso><Inciso id="art41_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    a levar ao conhecimento do arrendador, imediatamente, qualquer ameaça ou ato de turbação ou esbulho que, contra a sua posse vier a sofrer, e ainda, de qualquer fato do qual resulte a necessidade da execução de obras e reparos indispensáveis à garantia do uso do imóvel rural;
+
+  </p>
+            
+          </Inciso><Inciso id="art41_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    a fazer no imóvel, durante a vigência do contrato, as benfeitorias úteis e necessárias, salvo convenção em contrário;
+
+  </p>
+            
+          </Inciso><Inciso id="art41_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    a devolver o imóvel, ao término do contrato, tal como o recebeu com seus acessórios; salvo as deteriorações naturais ao uso regular. O arrendatário será responsável por qualquer prejuízo resultante do uso predatório, culposo ou doloso, quer em relação à área cultivada, quer em relação às benfeitorias, equipamentos, máquinas, instrumentos de trabalho e quaisquer outros bens a ele cedidos pelo arrendador.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art42">
+            
+            
+            <Rotulo>Art. 42.</Rotulo>
+            
+            <Caput id="art42_cpt">
+            
+            
+            
+            <p>
+    O arrendador poderá se opor a cortes ou podas, se danosos aos fins florestais ou agrícolas a que se destina a gleba objeto do contrato.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art43">
+            
+            
+            <Rotulo>Art. 43.</Rotulo>
+            
+            <Caput id="art43_cpt">
+            
+            
+            
+            <p>
+    Não constando do contrato de arrendamento a forma de restituição de animais de cria, de corte ou de trabalho, entregues ao arrendatário, êste se obriga a, rescindir o contrato, restituí-los em igual número, espécie, qualidade e quantidade (art. 95, IX, do Estatuto da Terra).
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art44">
+            
+            
+            <Rotulo>Art. 44.</Rotulo>
+            
+            <Caput id="art44_cpt">
+            
+            
+            
+            <p>
+    O arrendatário que sal, extinto ou rescindido o contrato permitirá ao que entra, a prática dos atos necessários à realização dos trabalhos preparatórios para o ano seguinte. Da mesma forma, o que entra permitirá ao que sai, todos os meios indispensáveis à ultimação da colheita, de acôrdo com os usos e costumes do lugar.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art45">
+            
+            
+            <Rotulo>Art. 45.</Rotulo>
+            
+            <Caput id="art45_cpt">
+            
+            
+            
+            <p>
+    Fica assegurado a arrendatário o direito de preempção na aquisição do imóvel rural arrendado. Manifestada a vontade do proprietário de alienar o imóvel, deverá notificar o arrendatário para, no prazo, de 30 (trinta) dias, contado da notificação, exercer o seu direito (art. 92, § 3º do Estatuto da Terra).
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art46">
+            
+            
+            <Rotulo>Art. 46.</Rotulo>
+            
+            <Caput id="art46_cpt">
+            
+            
+            
+            <p>
+    Se o imóvel rural em venda, estiver sendo explorado por mais de um arrendatário, o direito de preempção só poderá ser exercido para aquisição total da área.
+
+  </p>
+            
+          </Caput><Paragrafo id="art46_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O proprietário de imóvel rural arrendado não está obrigado a vender parcela ou parcelas arrendadas, se estas não abrangerem a totalidade da área.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art46_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Nos casos dêste artigo, fica assegurado a qualquer dos arrendatários, se os outros não usarem do direito de preempção, adquirir para si o imóvel.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art47">
+            
+            
+            <Rotulo>Art. 47.</Rotulo>
+            
+            <Caput id="art47_cpt">
+            
+            
+            
+            <p>
+    O arrendatário a quem não se notificar a venda, poderá depositando o preço, haver para si o imóvel arrendado, se o requerer no prazo de 6 (seis) meses, a contar da transcrição da escritura de compra e venda no Registro Geral de Imóveis local, resolvendo-se em perdas e danos o descumprimento da obrigação (art. 92, § 4º, do Estatuto da Terra).
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap3_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Dos Parceiros-Outorgantes e dos Parceiros-Outorgados
+
+  </NomeAgrupador>
+            <Artigo id="art48">
+            
+            
+            <Rotulo>Art. 48.</Rotulo>
+            
+            <Caput id="art48_cpt">
+            
+            
+            
+            <p>
+    Aplicam-se à parceria, nas formas e tipos previstos no Estatuto da Terra e neste Regulamento, as normas estatuídas na Seção I dêste Capítulo, e as relativas à sociedade, no que couber (art. 96, VII do Estatuto da Terra).
+
+  </p>
+            
+          </Caput><Paragrafo id="art48_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Além das obrigações enumeradas no art. 40, o parceiro-outorgante assegurará ao parceiro-outorgado que residir no imóvel rural, e para atender ao uso exclusivo da família dêste, casa de moradia higiênica e área suficiente para horta e criação de animais de pequeno porte (art. 96, IV, do Estatuto da Terra).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art48_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As despesas com o tratamento e criação dos animais, não havendo acôrdo em contrário, correrão por conta do parceiro-outorgado independentemente do disposto no art. 41, no que lhe fôr aplicável (art. 96, III, do Estatuto da Terra).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art49">
+            
+            
+            <Rotulo>Art. 49.</Rotulo>
+            
+            <Caput id="art49_cpt">
+            
+            
+            
+            <p>
+    Para todos os efeitos do presente Regulamento, o parceiro-outorgante, no caso de parceria da modalidade prevista na alínea &quot;a&quot;, Inciso VI, do art. 96, do Estatuto da Terra, não será considerado cultivador direto.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art50">
+            
+            
+            <Rotulo>Art. 50.</Rotulo>
+            
+            <Caput id="art50_cpt">
+            
+            
+            
+            <p>
+    O parceiro-outorgante e o parceiro-outorgado poderão a qualquer tempo, dispor livremente sôbre a transformação do contrato de parceria no de arrendamento.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="cap4">
+            
+            
+            <Rotulo>CAPÍTULO IV</Rotulo>
+            <NomeAgrupador>
+    Do Crédito
+
+  </NomeAgrupador>
+            <Secao id="cap4_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Do Acesso ao Crédito
+
+  </NomeAgrupador>
+            <Artigo id="art51">
+            
+            
+            <Rotulo>Art. 51.</Rotulo>
+            
+            <Caput id="art51_cpt">
+            <!--Link: urn:lex:br:federal:lei:1955-11-05;4829-->
+            
+            
+            <p>
+    Poderão habilitar-se ao crédito rural estatuído pela <span xlink:href="urn:lex:br:federal:lei:1955-11-05;4829">Lei número 4.829, de 5 de novembro de 1955</span>, e sua regulamentação o arrendador, o arrendatário, o parceiro-outorgante e o parceiro-outorgado, desde que explorem imóvel rural de conformidade com as exigências mínimas dêste Regulamento.
+
+  </p>
+            
+          </Caput><Paragrafo id="art51_par1">
+            <!--Link: urn:lex:br:federal:decreto:1966-05-10;58380-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Aos produtores que não satisfaçam estas exigências, será facultado realizar uma única operação de empréstimo, em qualquer das formas previstas no <span xlink:href="urn:lex:br:federal:decreto:1966-05-10;58380">Decreto nº 58.380, de 10 de maio de 1966</span>.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art51_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Para novas operações de crédito, deverão os interessados ajustar-se às normas dêste Regulamento, com relação às cláusulas obrigatórias e apresentação do Certificado de Uso Temporário da Terra.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art51_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Para as demais operações de crédito, os interessados deverão estar integralmente ajustados às normas dêste Regulamento.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art52">
+            
+            
+            <Rotulo>Art. 52.</Rotulo>
+            
+            <Caput id="art52_cpt">
+            <!--Link: urn:lex:br:federal:lei:1955-12-06;2666!art3-->
+            
+            
+            <p>
+    Independe da anuência do arrendador ou do parceiro-outorgante, com contrato escrito, a realização de empréstimo sob penhor agrícola, nos têrmos do <span xlink:href="urn:lex:br:federal:lei:1955-12-06;2666!art3">art. 3º da Lei nº 2.666, de 6 de dezembro de 1955</span>.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art53">
+            
+            
+            <Rotulo>Art. 53.</Rotulo>
+            
+            <Caput id="art53_cpt">
+            
+            
+            
+            <p>
+    O prazo do penhor, nos casos de arrendamento, só poderá ultrapassar o prazo dêste, se a isso aquiescer o arrendador.
+
+  </p>
+            
+          </Caput><Paragrafo id="art53_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    É igualmente indispensável o consentimento de que trata êste artigo, se o prazo do contrato de arrendamento fôr inferior ao estabelecido para o financiamento, acrescido de sua possível dilação em virtude de frustação de safra.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art54">
+            
+            
+            <Rotulo>Art. 54.</Rotulo>
+            
+            <Caput id="art54_cpt">
+            
+            
+            
+            <p>
+    O contrato verbal será comprovado por declaração escrita, emitida pelo arrendador, inclusive para dilação do prazo de empréstimo, na qual constam as condições de ajuste.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art55">
+            
+            
+            <Rotulo>Art. 55.</Rotulo>
+            
+            <Caput id="art55_cpt">
+            
+            
+            
+            <p>
+    Em caso de parceria a realização de empréstimo sob penhor agrícola, da parte dos frutos que cabe ao parceiro-outorgante, ou ao parceiro-outorgado, independe do consentimento do outro contratante.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art56">
+            
+            
+            <Rotulo>Art. 56.</Rotulo>
+            
+            <Caput id="art56_cpt">
+            
+            
+            
+            <p>
+    A extensão do penhor à cota dos frutos da parceria que cabe a qualquer dos parceiros, depende sempre do consentimento do outro, salvo nos casos em que o contrato esteja transcrito no Registro Público e neste conste aquela autorização.
+
+  </p>
+            
+          </Caput><Paragrafo id="art56_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O consentimento do parceiro-outorgante ou do parceiro-outorgado poderá ser dado no próprio instrumento contratual do empréstimo ou por carta a que se fará referência no mesmo instrumento.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art57">
+            
+            
+            <Rotulo>Art. 57.</Rotulo>
+            
+            <Caput id="art57_cpt">
+            
+            
+            
+            <p>
+    O empréstimo ao parceiro-outorgante poderá ser concedido com a garantia da totalidade da colheita, desde que haja expresso e irrevogável consentimento do parceiro-outorgado sôbre a parte dos frutos ou produtos que lhes cabe. Do mesmo modo, depende de expresso e revogável consentimento do parceiro-outorgante, no caso em que ao parceiro-outorgado seja concedido empréstimo com a garantia da totalidade da colheita.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art58">
+            
+            
+            <Rotulo>Art. 58.</Rotulo>
+            
+            <Caput id="art58_cpt">
+            
+            
+            
+            <p>
+    A realização de empréstimo sob penhor de animais, a arrendatários, parceiro-outorgante ou parceiro-outorgado, poderá dispensar o consentimento da outra parte, se o contrato respectivo, devidamente transcrito no Registro de Imóveis, contiver cláusula que assegure ao mutuário a continuidade de vigência do contrato por prazo igual ou superior ao da operação.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art59">
+            
+            
+            <Rotulo>Art. 59.</Rotulo>
+            
+            <Caput id="art59_cpt">
+            
+            
+            
+            <p>
+    Os empréstimos sob penhor de animais a arrendatários ou a parceiro-outorgado com contrato verbal, depende da outra parte concordar com a permanência, no imóvel arrendado ou dado em parceria, dos animais oferecidos em garantia, até final liquidação.
+
+  </p>
+            
+          </Caput><Paragrafo id="art59_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A concordância de que trata êste artigo poderá ser manifestada na forma do disposto no parágrafo único do art. 56.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art60">
+            
+            
+            <Rotulo>Art. 60.</Rotulo>
+            
+            <Caput id="art60_cpt">
+            
+            
+            
+            <p>
+    No caso de renovação do arrendamento a que se refere o artigo 22, entende-se igualmente renovado o consentimento do arrendador para celebração de contrato sob penhor.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art61">
+            
+            
+            <Rotulo>Art. 61.</Rotulo>
+            
+            <Caput id="art61_cpt">
+            
+            
+            
+            <p>
+    A extensão do penhor à safra imediatamente seguinte, a que se refere êste Capítulo, poderá ser concedida por medida judicial, nos têrmos do art. 7º da Lei nº 492, de 30 de agôsto de 1937.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art62">
+            
+            
+            <Rotulo>Art. 62.</Rotulo>
+            
+            <Caput id="art62_cpt">
+            
+            
+            
+            <p>
+    Se a garantia fôr constituída por penhor industrial, e indispensável o expresso consentimento do arrendador ou do parceiro-outorgante do imóvel onde se achem os bens a vincular, firmado conforme o disposto no parágrafo único do art. 56.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art63">
+            
+            
+            <Rotulo>Art. 63.</Rotulo>
+            
+            <Caput id="art63_cpt">
+            
+            
+            
+            <p>
+    Não poderá ser efetivado empréstimo sob penhor agrícola, ao subarrendatário, sem consentimento do arrendatário e do arrendador, expresso no instrumento contratual celebrado entre êstes e ainda, numa das formas permitidas no parágrafo único do art. 56.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art64">
+            
+            
+            <Rotulo>Art. 64.</Rotulo>
+            
+            <Caput id="art64_cpt">
+            
+            
+            
+            <p>
+    As instituições, financeiras remeterão ao Instituto Brasileiro de Reforma Agrária - IBRA, para os devidos fins, a relação dos arrendatários e parceiros-outorgados por ela financiados.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art65">
+            
+            
+            <Rotulo>Art. 65.</Rotulo>
+            
+            <Caput id="art65_cpt">
+            
+            
+            
+            <p>
+    O impedimento à obtenção de crédito, por parte do proprietário do imóvel rural, a que se refere o artigo 119 do Estatuto da Terra, não se aplica ao arrendatário nem ao parceiro-outorgado do mesmo imóvel rural, desde que seus contratos agrários se ajustem às prescrições dêste Regulamento.
+
+  </p>
+            
+          </Caput><Paragrafo id="art65_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    As instituições financeiras deverão enviar ao IBRA, para fins de fiscalização e contrôle, anualmente, a relação dos arrendatários e parceiros beneficiados por êste artigo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap4_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Das Condições Espeicais do Crédito
+
+  </NomeAgrupador>
+            <Artigo id="art66">
+            
+            
+            <Rotulo>Art. 66.</Rotulo>
+            
+            <Caput id="art66_cpt">
+            <!--Link: urn:lex:br:federal:lei:1965;4829--><!--Link: urn:lex:br:federal:decreto:1966;58380-->
+            
+            
+            <p>
+    As operações de crédito com arrendatário, cedente e parceiro-outorgado, obedecerão às normas básicas estabelecidas pela instituição financiadora, na forma da <span xlink:href="urn:lex:br:federal:lei:1965;4829">Lei nº 4.829 de 1965</span>, de seu Regulamento, baixado pelo <span xlink:href="urn:lex:br:federal:decreto:1966;58380">Decreto nº 58.380, de 1966</span>, e às condições dêste Decreto.
+
+  </p>
+            
+          </Caput><Paragrafo id="art66_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Os financiamentos rurais aos produtores a que se refere êste artigo, não poderão incluir parcelas destinadas a encargos de arrendamento de terras, pagamento de terras, pagamento de dívidas vencidas ou recuperação de gastos realizados.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art67">
+            
+            
+            <Rotulo>Art. 67.</Rotulo>
+            
+            <Caput id="art67_cpt">
+            
+            
+            
+            <p>
+    O crédito ao cedente, terá por base sua cota nos frutos, acrescida da que, aos preços considerados no instrumento contratual, lhe caberá, como retôrno dos adiantamentos que devar fazer aos parceiros-outorgados.
+
+  </p>
+            
+          </Caput><Paragrafo id="art67_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    No caso de haver autorização irrevogável, numa das formas do parágrafo único do art. 56, poderá ser aumentado êsse crédito, do valor correspondente às colheitas dos parceiros-outorgados.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art67_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Se impraticável o consentimento dos parceiros, o crédito calculado com base no &quot; caput&quot; dêste artigo, terá como garantia o penhor total dos frutos e produtos, independentemente de anuência, mas sob compromisso, no instrumento de crédito, de ser entregue àquelas, em tempo oportuno, as respectivas cotas.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art68">
+            
+            
+            <Rotulo>Art. 68.</Rotulo>
+            
+            <Caput id="art68_cpt">
+            
+            
+            
+            <p>
+    Na concessão de crédito aos arrendatários e parceiros outorgados, as instituições financeiras não poderão adotar, para cálculo do seu valor, preços inferiores aos mínimos oficiais para a colheita financiada, nem para o prazo de reembôlso, período insuficiente para o escoamento do produto.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art69">
+            
+            
+            <Rotulo>Art. 69.</Rotulo>
+            
+            <Caput id="art69_cpt">
+            
+            
+            
+            <p>
+    As operações de empréstimos e os contratos agropecuários de qualquer natureza, realizados através de órgãos oficias de crédito, para as atividades que dispuserem os planos aprovados e em funcionamento, deverão ser segurados na Companhia Nacional de Seguro Agrícola, nos têrmos do que dispõe o art. 91, § 2º, do Estatuto da Terra e sua regulamentação.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art70">
+            
+            
+            <Rotulo>Art. 70.</Rotulo>
+            
+            <Caput id="art70_cpt">
+            
+            
+            
+            <p>
+    O arrendatário ou parceiro-outorgado responsável por empréstimo destinado ao financiamento de atividade rural, localizada em área determinada, não poderá substituí-la nem transferi-la sob qualquer modalidade a terceiros sem autorização do financiador.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap4_sec3">
+            
+            
+            <Rotulo>Seção III</Rotulo>
+            <NomeAgrupador>
+    Dos Incentivos
+
+  </NomeAgrupador>
+            <Artigo id="art71">
+            
+            
+            <Rotulo>Art. 71.</Rotulo>
+            
+            <Caput id="art71_cpt">
+            
+            
+            
+            <p>
+    Aos beneficiados por êste Regulamento, que provem cumprir no nível máximo as disposições nêle estatuídas, será facultado o atendimento, prioridade pelas instituições financeiras participantes do Sistema Nacional do Crédito Rural.
+
+  </p>
+            
+          </Caput><Paragrafo id="art71_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O Instituto Brasileiro de Reforma Agrária - IBRA - e o Instituto Nacional de Desenvolvimento Agrário - INDA - reivindicarão junto ao Conselho Monetário Nacional, através da Coordenação Consultiva do Crédito Rural - (CCCR);
+
+  </p>
+            <Alinea id="art71_par1u_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    normas especiais de crédito e princípios de prioridade para os produtores que satisfaçam o disposto neste artigo;
+
+  </p>
+            
+          </Alinea><Alinea id="art71_par1u_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    sistemática que estenda às instituições financeiras privadas, as exigências dêste artigo;
+
+  </p>
+            
+          </Alinea><Alinea id="art71_par1u_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    normas que estabeleçam renovação de crédito, quando casos fortuitos, não seguráveis, produzam a perda total ou parcial da produção objeto do financiamento.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo>
+          </Artigo><Artigo id="art72">
+            
+            
+            <Rotulo>Art. 72.</Rotulo>
+            
+            <Caput id="art72_cpt">
+            
+            
+            
+            <p>
+    O IBRA restabelecerá de comum acôrdo com o INDA, os incentivos que permitam venham a ser prestados preferencialmente através de cooperativas, para a assistência creditícia aos arrendatários e parceiros-outorgados.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="cap5">
+            
+            
+            <Rotulo>CAPÍTULO V</Rotulo>
+            <NomeAgrupador>
+    Do Registro e do Contrôle dos Contratos Agrários
+
+  </NomeAgrupador>
+            <Secao id="cap5_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Dos Registros Cadastrais
+
+  </NomeAgrupador>
+            <Artigo id="art73">
+            
+            
+            <Rotulo>Art. 73.</Rotulo>
+            
+            <Caput id="art73_cpt">
+            
+            
+            
+            <p>
+    Será realizado pelo IBRA, nas épocas e locais indicados em Instrução de sua Diretoria, o levantamento dos dados relativos a arrendatários e parceiros, através de declaração do arrendatário ou do parceiro, que serão confrontadas com as informações fornecidas nas Declarações de Propriedade (art. 46, III &quot; c&quot; do Estatuto da Terra e art. 56 do Decreto 55.891, de 31.3.65).
+
+  </p>
+            
+          </Caput><Paragrafo id="art73_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Quando o contrato agrário fôr celebrado por escrito, deverá a parte interessada esclarecer, nas declarações de arrendatários e parceiros a forma do contrato se por instrumento público ou particular, data, local de assinatura e respectivo registro e demais informações constantes da Instrução a que se refere o Art. 75.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art73_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A partir da data da Declaração de arrendatários e parceiros, as alterações contratuais deverão ser comunicadas ao IBRA, na forma da Instrução a que se refere o art. 75.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art73_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O levantamento de que trata êste artigo, visa esclarecer às autoridades competentes sôbre as formas dos contratos agrários, especialmente no tocante à observância das cláusulas obrigatórias e respectivas condições.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art74">
+            
+            
+            <Rotulo>Art. 74.</Rotulo>
+            
+            <Caput id="art74_cpt">
+            
+            
+            
+            <p>
+    Por fôrça de convênio celebrado com o IBRA os serviços de distribuição e coleta dos questionários bem como da transmissão das Instruções elaboradas pela Autarquia, para o respectivo preenchimento, ficarão a cargo das Prefeituras Municipais.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art75">
+            
+            
+            <Rotulo>Art. 75.</Rotulo>
+            
+            <Caput id="art75_cpt">
+            
+            
+            
+            <p>
+    A Presidência do IBRA expedirá as normas para a implantação e atualização do registro cadastral dos contratos de uso temporário da terra.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art76">
+            
+            
+            <Rotulo>Art. 76.</Rotulo>
+            
+            <Caput id="art76_cpt">
+            
+            
+            
+            <p>
+    Após exame a análise da Declaração de Arrendatário e de Parceiro, o IBRA emitirá os respectivos Certificados de Uso Temporário, que conterão as indicações básicas da ficha Cadastral correspondente.
+
+  </p>
+            
+          </Caput><Paragrafo id="art76_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Pelo certificado, será cobrado uma Taxa de Serviço Cadastral, correspondente a 1/50 (um cinqüenta avos), sôbre o maior salário-mínimo vigente no País, a ser paga pelo arrendatário e parceiro-outorgado.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art76_par2">
+            <!--Link: urn:lex:br:federal:lei:1965;4829-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A partir de 1º de julho de 1967, será necessária a apresentação do Certificado de Uso Temporário para que o arrendatário e o parceiro-outorgado possam obter as vantagens e benefícios que são assegurados no Estatuto da Terra, especialmente os de acesso ao crédito rural nos têrmos da <span xlink:href="urn:lex:br:federal:lei:1965;4829">Lei nº 4.829, de 1965</span> do seu Regulamento e das normas dêste Decreto.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art76_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Aos que, até 1º de janeiro de 1968, não tiverem apresentado a Declaração de Arrendatário ou de Parceiro, poderão fazê-lo na própria instituição financeira onde fôr solicitado o crédito rural.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap5_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Do Contrôle e Fiscalização dos Contratos
+
+  </NomeAgrupador>
+            <Artigo id="art77">
+            
+            
+            <Rotulo>Art. 77.</Rotulo>
+            
+            <Caput id="art77_cpt">
+            
+            
+            
+            <p>
+    Nas normas para a execução dos convênios firmados com as Prefeitura Municipais, o IBRA indicará as formas de atendimento das reclamações apresentadas pelos arrendatários e parceiros, com relação ao cumprimento dos contratos agrários, e a de seu encaminhamento aos órgãos da Autarquia.
+
+  </p>
+            
+          </Caput><Paragrafo id="art77_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O IBRA após verificação e exame das fichas cadastrais apresentadas pelos arrendatários e pelos parceiros notificará por intermédio das Prefeituras Municipais, as partes interessadas quanto às exigências necessárias e a serem cumpridas para a perfeita integração dos contratos nos têrmos da lei.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art78">
+            
+            
+            <Rotulo>Art. 78.</Rotulo>
+            
+            <Caput id="art78_cpt">
+            
+            
+            
+            <p>
+    O IBRA poderá manter convênios com as Federações de Agricultura, os Sindicatos e as Federações de Trabalhadores na Agricultura, para possibilitar aos arrendatários e parceiros, assistência jurídica, na defesa de seus interêsses decorrentes dos contratos de uso temporário da terra.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art79">
+            
+            
+            <Rotulo>Art. 79.</Rotulo>
+            
+            <Caput id="art79_cpt">
+            
+            
+            
+            <p>
+    O IBRA, através do levantamento de que trata o art. 73, exercerá o contrôle dos contratos agrários, especialmente com relação a observância de:
+
+  </p>
+            <Inciso id="art79_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Cláusulas obrigatórias, nos têrmos do art. 13;
+
+  </p>
+            
+          </Inciso><Inciso id="art79_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Uso temporário e suas limitações, estabelecidas no Regulamento.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art79_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O não atendimento de exigências para o cumprimento das cláusulas e condições estabelecidas neste Regulamento, acarretará:
+
+  </p>
+            <Alinea id="art79_par1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    aos arrendatários ou parceiros-outorgantes, a perda de condições para a classificação de seus imóveis como Emprêsa Rural;
+
+  </p>
+            
+          </Alinea><Alinea id="art79_par1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    aos arrendatários ou aos parceiros-outorgados, a cassação do Certificado de Uso Temporário.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo><Paragrafo id="art79_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As sanções previstas no parágrafo anterior perdurarão até que sejam cumpridas ou restabelecidas aquelas condições.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="cap6">
+            
+            
+            <Rotulo>CAPÍTULO VI</Rotulo>
+            <NomeAgrupador>
+    Das Dispoições Gerais e Transitórias
+
+  </NomeAgrupador>
+            <Secao id="cap6_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Do Ajustamento e Adaptações dos Contratos em Vigor
+
+  </NomeAgrupador>
+            <Artigo id="art80">
+            
+            
+            <Rotulo>Art. 80.</Rotulo>
+            
+            <Caput id="art80_cpt">
+            
+            
+            
+            <p>
+    A adaptação dos contratos existentes à data dêste Regulamento, obedecerá ao seguinte:
+
+  </p>
+            <Inciso id="art80_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Convindo às partes, os contratos agrários em vigor poderão ser substituídos por novos, que atendam a todos os requisitos dêste Regulamento;
+
+  </p>
+            
+          </Inciso><Inciso id="art80_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Se assim não convierem, não poderão ser renovados, sem que se ajustem às exigências da Leis números 4.504, de 1964, 4.947, de 1966 e dêste Regulamento.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap6_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Das Formas de Transição de Uso Temporário
+
+  </NomeAgrupador>
+            <Artigo id="art81">
+            
+            
+            <Rotulo>Art. 81.</Rotulo>
+            
+            <Caput id="art81_cpt">
+            <!--Link: urn:lex:br:federal:lei:1966;4947!art14-->
+            
+            
+            <p>
+    Nos têrmos do <span xlink:href="urn:lex:br:federal:lei:1966;4947!art14">art. 14 da Lei nº 4.947, de 1966</span>, o IBRA poderá permitir, após os necessários estudos em cada caso, e sempre a título precário nas áreas pioneiras do país, a utilização de terras públicas, sob qualquer das formas de uso temporário previstos no Estatuto da Terra, bem como promover sua progressiva adaptação às normas estabelecidas na referida Lei e neste Regulamento.
+
+  </p>
+            
+          </Caput><Paragrafo id="art81_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As terras públicas poderão, ainda, a título precário, ser dadas em arrendamento ou em parcela, quando:
+
+  </p>
+            <Alinea id="art81_par1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    razões de segurança nacional o determinarem;
+
+  </p>
+            
+          </Alinea><Alinea id="art81_par1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    áreas de núcleo de colonização pioneira, na sua fase de implantação, forem organizadas para fins de demonstração;
+
+  </p>
+            
+          </Alinea><Alinea id="art81_par1_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    forem consideradas de posse pacífica, a justo título, reconhecida pelo Poder Público.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo><Paragrafo id="art81_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Para os fins do disposto neste artigo, a União, os Estados e Municípios, ou qualquer entidade de direito público, terão como arrendadores ou parceiros-outorgantes todos os direitos e obrigações estabelecidas no Estatuto da Terra e no presente Regulamento.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap6_sec3">
+            
+            
+            <Rotulo>Seção III</Rotulo>
+            <NomeAgrupador>
+    Das Disposições Finais
+
+  </NomeAgrupador>
+            <Artigo id="art82">
+            
+            
+            <Rotulo>Art. 82.</Rotulo>
+            
+            <Caput id="art82_cpt">
+            <!--Link: urn:lex:br:federal:lei:1964;4430--><!--Link: urn:lex:br:federal:decreto:1965;55801-->
+            
+            
+            <p>
+    O arrendatário e o parceiro poderão segurar suas lavouras, rebanhos e frutos da parceria, desde que financiados pelo Banco do Brasil, na Companhia Nacional de Seguro Agrícola contra os riscos que lhes são peculiares, nos têrmos da <span xlink:href="urn:lex:br:federal:lei:1964;4430">Lei nº 4.430, de 1964</span> e de seu Regulamento baixado pelo <span xlink:href="urn:lex:br:federal:decreto:1965;55801">Decreto número 55.801, de 1965</span>.
+
+  </p>
+            
+          </Caput><Paragrafo id="art82_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O prêmio de seguro será pago na forma que fôr convencionada pelos contratantes.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art83">
+            
+            
+            <Rotulo>Art. 83.</Rotulo>
+            
+            <Caput id="art83_cpt">
+            
+            
+            
+            <p>
+    As disposições dêste Regulamento aplicam-se também, aos arrendatários e parceiros das áreas objeto de arrendamento ou parceria, nas faixas de serventia utilização ou posse, de entidades públicas ou privadas ou emprêsas concessionárias de serviços públicos.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art84">
+            
+            
+            <Rotulo>Art. 84.</Rotulo>
+            
+            <Caput id="art84_cpt">
+            
+            
+            
+            <p>
+    Os contratos que regulam o pagamento do trabalhador, parte em dinheiro e parte percentual na lavoura cultivada, ou gado tratado, são considerados simples locação de serviço, regulada pela legislação trabalhista, sempre que a direção dos trabalhos seja de inteira e exclusiva responsabilidade do proprietário, locatário do serviço a quem cabe todo o risco, assegurando-se ao locador, pelo menos a percepção do salário-mínimo no cômputo das duas parcelas (art. 96, parágrafo único do Estatuto da Terra).
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art85">
+            
+            
+            <Rotulo>Art. 85.</Rotulo>
+            
+            <Caput id="art85_cpt">
+            
+            
+            
+            <p>
+    A todo aquêle que ocupe, sob qualquer forma de arrendamento, por mais de 5 (cinco) anos, um imóvel rural desapropriado em área prioritária de Reforma Agrária, é assegurado o direito preferencial de acesso à terra, nos têrmos dos artigos 25, II e 95, XIII, do Estatuto da Terra, sendo esta condição levada em conta nas normas de seleção para fixação dos índices de propriedade para obtenção dos lotes a distribuir.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art86">
+            
+            
+            <Rotulo>Art. 86.</Rotulo>
+            
+            <Caput id="art86_cpt">
+            
+            
+            
+            <p>
+    Os litígios judiciais entre arrendadores e arrendatários rurais, obedecerão ao rito processual estabelecido pelo art. 685, do Código de Processo Civil.
+
+  </p>
+            
+          </Caput><Paragrafo id="art86_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Não terão efeito suspensivo os recursos interpostos contra as decisões proferidas nos processos de que trata o presente artigo (art. 107 do Estatuto da Terra).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art87">
+            
+            
+            <Rotulo>Art. 87.</Rotulo>
+            
+            <Caput id="art87_cpt">
+            
+            
+            
+            <p>
+    Excetuam-se do disposto nos arts. 93, II e III e 95, XII do Estatuto da Terra, os dispositivos especiais sôbre arrendamento rural para a exploração da terra quando a produção destinar-se à atividade da agro-indústria açucareira, de acôrdo com o que estabelecem as leis números 3.855, de 1941 e 6.969, de 1944.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art88">
+            
+            
+            <Rotulo>Art. 88.</Rotulo>
+            
+            <Caput id="art88_cpt">
+            
+            
+            
+            <p>
+    No que forem omissas as Leis 4.504-64, 4.947-66 e o presente Regulamento, aplicar-se-ão as disposições do Código Civil, no que couber.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art89">
+            
+            
+            <Rotulo>Art. 89.</Rotulo>
+            
+            <Caput id="art89_cpt">
+            
+            
+            
+            <p>
+    Êste Decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao>
+          </Capitulo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 14 de novembro de 1966; 145º da Independência e 78º da República.</p></LocalDataFecho><Assinatura><NomePessoa>H. CASTELLO BRANCO Octavio Bulhões L. G. do Nascimento e Silva Roberto Campos</NomePessoa><NomePessoa>Este texto não substitui o publicado no DOU de 17.11.1966</NomePessoa><NomePessoa>*</NomePessoa></Assinatura></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>

@@ -1,0 +1,27 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <Metadado>
+      <Identificacao URN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2024-01-09;2172!anexo2"/>
+    </Metadado>
+      <Anexo>
+        <DocumentoGenerico>
+      <PartePrincipal id="anexo2_pp">
+        <p>ANEXO I (Anexo I da Instrução Normativa RFB nº 2.172, de 9 de janeiro de 2024.)</p>
+        <p>MODELO DE &quot;COMPROVANTE DE INSCRIÇÃO NO CPF&quot; EMITIDO PELAS ENTIDADES CONVENIADAS
+</p><p>- - - - - - - - - - - - - - - - - - - - - - - - -
+</p><p>MINISTÉRIO DA FAZENDA Secretaria Especial da Receita Federal do Brasil
+</p><p>COMPROVANTE DE INSCRIÇÃO NO CPF (Válido somente com documento de identificação).
+</p><p>Nº do CPF: XXX.XXX.XXX-XX
+</p><p>Nome: NONONO NONONO NONONO NONONO
+</p><p>Data de nascimento: DD/MM/AAAA
+</p><p>Comprovante emitido às HH:MM:SS do dia DD/MM/AAAA (hora e data de Brasília).
+</p><p>Código de Controle do Comprovante: XXXX.XXXX.XXXX.XXXX
+</p><p>Dígito Verificador: XX
+</p><p>A autenticidade deste comprovante deverá ser confirmada na internet, no endereço
+</p><p>http://www.rfb.gov.br
+</p><p>(Modelo aprovado pela IN RFB nº XXXX, de XX de XXXXXXXXX de 2023)
+</p><p>Emitido por: (nome da entidade conveniada)
+</p>
+      </PartePrincipal>
+    </DocumentoGenerico>
+      </Anexo>
+    </LexML>

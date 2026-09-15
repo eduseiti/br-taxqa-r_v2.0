@@ -1,4 +1,4 @@
-# CMD: java -jar ../lexml-parser-projeto-lei/target/lexml-parser-projeto-lei-1.15.0-onejar.jar parse -m application/vnd.openxmlformats-officedocument.wordprocessingml.document -i original/articulados/decreto_lei_167_19670214.docx -o lexml/decreto_lei_167_19670214.xml --write-errors-to-file lexml/decreto_lei_167_19670214.err.log -a federal -t decreto.lei -n 167 --data 1967-02-14 --linker /usr/local/bin/linkertool
+# CMD: java -jar /tmp/claude-0/-work-unicamp-articles-RAG-evaluation-lexml-parser-projeto-lei/4e4ae71e-dfba-49e3-8901-26c7e43b2a76/scratchpad/phase2.jar parse -m application/vnd.openxmlformats-officedocument.wordprocessingml.document -i original/articulados/decreto_lei_167_19670214.docx -o lexml/articulados_phase2/decreto_lei_167_19670214.xml --write-errors-to-file lexml/articulados_phase2/decreto_lei_167_19670214.err.log -a federal -t decreto.lei -n 167 --data 1967-02-14 --linker /usr/local/bin/linkertool
 # ---
 Problem type = [5: Rótulo repetido, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Parágrafo único. do Art. 42. (no CAPÍTULO V)), msg = None, context=ArraySeq(Art. 42., CAPÍTULO V)
 

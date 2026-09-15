@@ -1,0 +1,6 @@
+# CMD: java -jar /tmp/claude-0/-work-unicamp-articles-RAG-evaluation-lexml-parser-projeto-lei/4e4ae71e-dfba-49e3-8901-26c7e43b2a76/scratchpad/phase2.jar parse -m application/vnd.openxmlformats-officedocument.wordprocessingml.document -i original/articulados/port_conj_tse_srf_74_20060110.docx -o lexml/articulados_phase2/port_conj_tse_srf_74_20060110.xml --write-errors-to-file lexml/articulados_phase2/port_conj_tse_srf_74_20060110.err.log -a 'ministerio.fazenda;secretaria.receita.federal,tribunal.superior.eleitoral' -t portaria.conjunta -n 74 --data 2006-01-10 --prof-regex-epigrafe '^portaria conjunta' --prof-regex-epigrafe-continuacao '^portaria conjunta%^n[oº°˚]' --prof-regex-pos-epigrafe '^\[%^publicado no%^norma federal%^v\. %^lei n[oº°]\s*[\d.]+/\d{4}, art' --prof-regex-preambulo '^(o |a )?secretari[oa]%^[ao] coordenador%^a diretoria colegiada%^o ministro presidente%^o presidente d%^o comite gestor' --prof-epigrafe-head 'PORTARIA CONJUNTA' --linker /usr/local/bin/linkertool
+# ---
+Problem type = [2: Dispositivos com ordem invertida., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 81., Art. 5º), msg = None, context=ArraySeq()
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 4º, Art. 81.), msg = None, context=List()
+

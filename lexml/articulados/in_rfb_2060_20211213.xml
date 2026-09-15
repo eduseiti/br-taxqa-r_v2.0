@@ -1,0 +1,310 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2021-12-13;2060"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">INSTRUÇÃO NORMATIVA Nº 2.060, DE 13 DE DEZEMBRO DE 2021 </Epigrafe>
+		  <Ementa id="ementa">Dispõe sobre o Comprovante de Rendimentos Pagos e de Imposto sobre a Renda Retido na Fonte.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O SECRETÁRIO ESPECIAL DA RECEITA FEDERAL DO BRASIL, no uso das atribuições que lhe conferem os incisos III e XVII do art. 350 do Regimento Interno da Secretaria Especial da Receita Federal do Brasil, aprovado pela Portaria ME nº 284, de 27 de julho de 2020, e tendo em vista o disposto no § 1º do art. 19 da Lei nº 8.383, de 30 de dezembro de 1991, no art. 86 da Lei nº 8.981, de 20 de janeiro de 1995, no art. 16 da Lei nº 9.779, de 19 de janeiro de 1999, e nos arts. 987, 988 e 1.011 do Regulamento do Imposto sobre a Renda e Proventos de Qualquer Natureza (RIR/2018) aprovado pelo Decreto nº 9.580, de 22 de novembro de 2018, resolve:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    Esta Instrução Normativa dispõe sobre o Comprovante de Rendimentos Pagos e de Imposto sobre a Renda Retido na Fonte.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Capitulo id="cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DO COMPROVANTE DE RENDIMENTOS
+
+  </NomeAgrupador>
+            <Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    A pessoa física ou jurídica que tenha pago a pessoa física rendimentos com retenção do imposto sobre a renda na fonte durante o ano-calendário, ainda que em um único mês, fornecer-lhe-á o Comprovante de Rendimentos Pagos e de Imposto sobre a Renda Retido na Fonte, conforme modelo constante do Anexo I a esta Instrução Normativa.
+
+  </p>
+            
+          </Caput><Paragrafo id="art2_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O comprovante que for destinado a comercialização deverá ser impresso na cor preta, em papel branco, no formato A4, com dimensões de 210mm (duzentos e dez milímetros) de largura por 297mm (duzentos e noventa e sete milímetros) de comprimento, com as características do modelo constante do Anexo I a esta Instrução Normativa, e conter, no rodapé, o nome e o número de inscrição no Cadastro Nacional da Pessoa Jurídica (CNPJ) da empresa que realizar a sua impressão.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A impressão e a comercialização do formulário independem de autorização.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A fonte pagadora que emitir o comprovante por meio de processamento eletrônico de dados poderá adotar leiaute diferente do estabelecido no § 1º, desde que contenha todas as informações nele previstas, dispensada assinatura ou chancela mecânica.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O órgão gestor de mão de obra do trabalho portuário fica responsável por fornecer aos trabalhadores portuários avulsos, inclusive àqueles pertencentes à categoria dos arrumadores, o comprovante de rendimentos de que trata o caput.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DO PRAZO PARA FORNECIMENTO DO COMPROVANTE AO BENEFICIÁRIO
+
+  </NomeAgrupador>
+            <Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    O comprovante deverá ser fornecido até o último dia útil do mês de fevereiro do ano subsequente ao do pagamento dos rendimentos ou por ocasião da rescisão do contrato de trabalho, se esta ocorrer antes da referida data.
+
+  </p>
+            
+          </Caput><Paragrafo id="art3_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    No caso de rendimentos não sujeitos à retenção do imposto sobre a renda na fonte, pagos por pessoa jurídica, o comprovante deverá ser entregue, no mesmo prazo a que se refere o caput, ao beneficiário que o solicitar até o dia 15 de janeiro do ano subsequente ao do pagamento dos rendimentos.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    No caso de extinção da pessoa jurídica por cisão total, encerramento da liquidação, fusão ou incorporação, o comprovante deverá ser fornecido até o último dia útil do mês subsequente ao da ocorrência do evento, se este ocorrer antes do prazo referido no caput.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    É permitida a disponibilização, por meio da Internet, do comprovante para a pessoa física, ou o seu encaminhamento para quem possua endereço eletrônico e, nesses casos, fica dispensado o fornecimento da via impressa.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    A pessoa física referida no § 3º pode solicitar, sem ônus, o fornecimento da via impressa do comprovante.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap3">
+            
+            
+            <Rotulo>CAPÍTULO III</Rotulo>
+            <NomeAgrupador>
+    DO PREENCHIMENTO DO COMPROVANTE
+
+  </NomeAgrupador>
+            <Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    O comprovante será fornecido com a indicação da natureza e do montante dos rendimentos, das deduções e do Imposto sobre a Renda Retido na Fonte (IRRF) no ano-calendário, pelo valor total anual, expresso em reais, bem como de informações complementares, observadas as instruções constantes do Anexo II a esta Instrução Normativa.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap4">
+            
+            
+            <Rotulo>CAPÍTULO IV</Rotulo>
+            <NomeAgrupador>
+    DA FALTA DE ENTREGA DO COMPROVANTE
+
+  </NomeAgrupador>
+            <Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    Fica sujeita ao pagamento de multa de R$ 41,43 (quarenta e um reais e quarenta e três centavos) por comprovante, a fonte pagadora que deixar de fornecer o comprovante aos beneficiários, dentro do prazo fixado no art. 3º, ou fornecê-lo com inexatidão.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap5">
+            
+            
+            <Rotulo>CAPÍTULO V</Rotulo>
+            <NomeAgrupador>
+    DA FALSIDADE DE INFORMAÇÕES
+
+  </NomeAgrupador>
+            <Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    À fonte pagadora que prestar informação falsa sobre rendimentos pagos, deduções ou IRRF, será aplicada multa de 300% (trezentos por cento) sobre cada valor omitido ou acrescido que possa causar indevida redução do imposto a pagar ou indevido aumento do imposto a restituir ou a compensar, independentemente de outras penalidades administrativas ou criminais.
+
+  </p>
+            
+          </Caput><Paragrafo id="art6_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Na mesma penalidade incorre aquele que se beneficiar da informação, sabendo ou devendo saber ser falsa.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap6">
+            
+            
+            <Rotulo>CAPÍTULO VI</Rotulo>
+            <NomeAgrupador>
+    DISPOSIÇÕES FINAIS
+
+  </NomeAgrupador>
+            <Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    Ficam revogadas:
+
+  </p>
+            <Inciso id="art7_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a Instrução Normativa RFB nº 1.215, de 15 de dezembro de 2011;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a Instrução Normativa RFB nº 1.405, de 23 de outubro de 2013, que altera a norma prevista no inciso I;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    a Instrução Normativa RFB nº 1.522, de 5 de dezembro de 2014, que altera a norma prevista no inciso I; e
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    a Instrução Normativa RFB nº 1.682, de 28 de dezembro de 2016, que altera a norma prevista no inciso I.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    Esta Instrução Normativa será publicada no Diário Oficial da União e entrará em vigor em 1º de janeiro de 2022. JULIO CESAR VIEIRA GOMES
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo></Articulacao>
+          
+          <Anexos><ReferenciaAnexo AlvoURN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2021-12-13;2060!anexo1"/></Anexos>
+        </Norma></ProjetoNorma>
+    </LexML>

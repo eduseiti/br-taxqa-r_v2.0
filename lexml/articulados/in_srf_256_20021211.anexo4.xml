@@ -1,0 +1,14 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <Metadado>
+      <Identificacao URN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2002-12-11;256!anexo4"/>
+    </Metadado>
+      <Anexo>
+        <DocumentoGenerico>
+      <PartePrincipal id="anexo4_pp">
+        <p>Anexo II</p>
+        <p>Tabela de Índices de Rendimentos Mínimos para Produtos Extrativos Vegetais e Florestais
+</p><table id="anexo4_tab2"><tr><td/><td><b>PRODUTO</b></td><td/><td/><td><b>REGIÃO</b></td><td/><td/><td><b>UNIDADE</b></td><td/><td/><td><b>RENDIMENTO MÍNIMO POR HECTARE</b></td><td/></tr><tr><td/><td>Acácia Negra</td><td/><td/><td>Todo o País</td><td/><td/><td>ton</td><td/><td/><td>3,00</td><td/></tr><tr><td/><td>Babaçu</td><td/><td/><td>Todo o País</td><td/><td/><td>ton</td><td/><td/><td>0,03</td><td/></tr><tr><td/><td>Borracha natural</td><td/><td/><td>Todo o País</td><td/><td/><td>quilo</td><td/><td/><td>1,00</td><td/></tr><tr><td/><td>Carnaúba (cera)</td><td/><td/><td>Todo o País</td><td/><td/><td>ton</td><td/><td/><td>0,01</td><td/></tr><tr><td/><td>Castanha-do-pará</td><td/><td/><td>Todo o País</td><td/><td/><td>quilo</td><td/><td/><td>5,00</td><td/></tr><tr><td/><td>Guaraná (sementes)</td><td/><td/><td>Todo o País</td><td/><td/><td>ton</td><td/><td/><td>0,03</td><td/></tr><tr><td/><td>Madeira</td><td/><td/><td>Todo o País</td><td/><td/><td>m3</td><td/><td/><td>10,00</td><td/></tr></table>
+      </PartePrincipal>
+    </DocumentoGenerico>
+      </Anexo>
+    </LexML>

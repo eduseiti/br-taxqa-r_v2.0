@@ -1,0 +1,109 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:1998-12-31;165"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">INSTRUÇÃO NORMATIVA Nº 165, DE 31 DE DEZEMBRO DE 1998 </Epigrafe>
+		  <Ementa id="ementa">Determina a dispensa da constituição de créditos tributários da Fazenda Nacional e o cancelamento do lançamento no caso que especifica.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O SECRETÁRIO DA RECEITA FEDERAL, no uso das suas atribuições e tendo em vista que, em decorrência de decisões definitivas das egrégias Primeira e Segunda Turmas do Superior Tribunal de Justiça, o Procurador-Geral da Fazenda Nacional, por meio do despacho de 17 de setembro de 1998, publicado no Diário Oficial da União de 22 de setembro de 1998, baseado no Parecer PGFN/CRJ/nº 1278/98, devidamente aprovado pelo Ministro de Estado da Fazenda, dispensou &quot;a interposição de recursos e a desistência dos já interpostos nas ações que cuidam, no mérito, exclusivamente, da não incidência do Imposto de Renda na fonte sobre verbas indenizatórias referentes&quot; a programas de demissão voluntária, resolve:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    Fica dispensada a constituição de créditos da Fazenda Nacional relativamente à incidência do Imposto de Renda na fonte sobre as verbas indenizatórias pagas em decorrência de incentivo à demissão voluntária.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    Ficam os Delegados e Inspetores da Receita Federal autorizados a rever de ofício os lançamentos referentes à matéria de que trata o artigo anterior, para fins de alterar total ou parcialmente os respectivos créditos da Fazenda Nacional.
+
+  </p>
+            
+          </Caput><Paragrafo id="art2_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Na hipótese de créditos constituídos, pendentes de julgamento, os Delegados de Julgamento da Receita Federal subtrairão a matéria de que trata o artigo anterior.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As autoridades referidas no caput deste artigo deverão encaminhar para a Coordenação-Geral do Sistema de Arrecadação - COSAR, por intermédio das Superintendências Regionais da Receita Federal de sua jurisdição, no prazo de 60 dias, contado da publicação desta Instrução Normativa, relação pormenorizada dos lançamentos revistos, contendo as seguintes informações:
+
+  </p>
+            <Inciso id="art2_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    nome do contribuinte e respectivo número de inscrição no Cadastro Nacional das Pessoas Jurídicas - CNPJ ou Cadastro da Pessoa Física - CPF, conforme o caso;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    valor atualizado do crédito revisto e data do lançamento;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par2_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    fundamento da revisão mediante referência à norma contida no artigo anterior.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    Esta Instrução Normativa entra em vigor na data de sua publicação. EVERARDO MACIEL
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          
+          
+        </Norma></ProjetoNorma>
+    </LexML>

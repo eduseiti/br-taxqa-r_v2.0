@@ -1,0 +1,442 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2006-12-20;698"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">INSTRUÇÃO NORMATIVA Nº 698, DE 20 DE DEZEMBRO DE 2006 </Epigrafe>
+		  <Ementa id="ementa">Estabelece normas para emissão de comprovantes de rendimentos pagos ou creditados a pessoas físicas e jurídicas decorrentes de aplicações financeiras, aprova modelo de Informe de Rendimentos Financeiros e dá outras providências.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O SECRETÁRIO DA RECEITA FEDERAL, no uso da atribuição que lhe confere o inciso III do art. 230 do Regimento Interno da Secretaria da Receita Federal, aprovado pela Portaria MF nº 30, de 25 de fevereiro de 2005, e tendo em vista as disposições do art. 86 da Lei nº 8.981, de 20 de janeiro de 1995, do art. 30 da Lei nº 9.249, de 26 de dezembro de 1995, e do art. 943 do Decreto nº 3.000, de 26 de março de 1999, resolve:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    As instituições financeiras, as sociedades corretoras de títulos e valores mobiliários, as sociedades distribuidoras de títulos e valores mobiliários, as sociedades seguradoras, as entidades de previdência complementar, as sociedades de capitalização, a pessoa jurídica que, atuando por conta e ordem de cliente, intermediar recursos para aplicações em fundos de investimento administrados por outra pessoa jurídica e as demais fontes pagadoras deverão fornecer a seus clientes, pessoas físicas e jurídicas, Informe de Rendimentos Financeiros, conforme o disposto nesta Instrução Normativa.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    O Informe de Rendimentos Financeiros deverá ser:
+
+  </p>
+            <Inciso id="art2_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    no caso de beneficiário pessoa física, relativo ao ano-calendário e fornecido, em uma única via, até o último dia útil do mês de fevereiro do ano-calendário subseqüente;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    no caso de beneficiário pessoa jurídica, relativo a cada trimestre do ano-calendário e fornecido, em uma única via, até o último dia útil do segundo decêndio subseqüente a cada trimestre do ano-calendário.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art2_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    É permitida a disponibilização dos Informes de Rendimentos Financeiros por meio da Internet ou de outros meios eletrônicos, ficando dispensado, neste caso, o fornecimento da via impressa, para: [Redação dada pelo(a) Instrução Normativa RFB nº 1235, de 11 de janeiro de 2012]
+
+  </p>
+            <Inciso id="art2_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    os clientes que utilizem Internet Banking ou Office Banking; e [Incluído(a) pelo(a) Instrução Normativa RFB nº 1235, de 11 de janeiro de 2012]
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    as pessoas físicas que possuam endereço eletrônico. [Incluído(a) pelo(a) Instrução Normativa RFB nº 1235, de 11 de janeiro de 2012]
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art2_par1-1">
+            
+            
+            <Rotulo>§ 1º-A.</Rotulo>
+            <p>
+    No caso de conta conjunta, o Informe de Rendimentos Financeiros deve ser formulado em nome do primeiro titular exceto quando os titulares da conta declararem expressamente em nome de qual deles o Informe deve ser formulado. [Incluído(a) pelo(a) Instrução Normativa RFB nº 1235, de 11 de janeiro de 2012]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Fica dispensado o fornecimento do Informe de Rendimentos Financeiros:
+
+  </p>
+            <Inciso id="art2_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a que se refere o inciso I do caput, nos casos em que os saldos de contas-correntes, de poupança, dos créditos em trânsito e das demais aplicações financeiras, assim como o total anual dos rendimentos, à exceção daqueles provenientes de previdência complementar, Fundo de Aposentadoria Programada Individual (Fapi), Plano Gerador de Benefício Livre (PGBL) e Vida Gerador de Benefício Livre (VGBL), forem de valores individuais iguais ou inferiores a R$ 140,00 (cento e quarenta reais);
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a que se refere o inciso II do caput, quando a fonte pagadora fornecer, mensalmente, comprovante contendo as informações previstas nesta Instrução Normativa; e
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par2_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    no caso das operações denominadas day trade e das operações realizadas no mercado de renda variável sujeitas à retenção do imposto de renda na fonte à alíquota de 0,005% (art. 10 da Instrução Normativa SRF nº 487, de 30 de dezembro de 2004).
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par2_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    aos investidores residentes ou domiciliados no exterior. [Incluído(a) pelo(a) Instrução Normativa RFB nº 1235, de 11 de janeiro de 2012]
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art2_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Nas hipóteses do § 1º e dos incisos I e IV do § 2º, as fontes pagadoras deverão manter sistema de controle que permita o fornecimento, por via impressa, do Informe de Rendimentos Financeiros, quando solicitado. [Redação dada pelo(a) Instrução Normativa RFB nº 1235, de 11 de janeiro de 2012]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Ficam dispensados do fornecimento do Informe de Rendimentos Financeiros os Fundos Mútuos de Privatização - FGTS, enquanto os recursos não forem resgatados pelos quotistas.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Tratando-se de encerramento de espólio ou de saída definitiva do País, o Informe deverá ser fornecido até o último dia útil da quinzena subseqüente àquela em que o beneficiário o tenha solicitado.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    Nos casos de fusão, cisão, incorporação ou encerramento de atividades do beneficiário, ou caso este levante balanço ou balancete de suspensão ou de redução, o Informe a que se refere o inciso II deverá ser fornecido até o último dia útil da quinzena subseqüente àquela em que o beneficiário o tenha solicitado.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par7">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    Quando ocorrer transferência do quotista de um fundo de investimento para outro, em obediência a normas baixadas por órgão regulador ou em razão de reorganizações decorrentes de processos de incorporação ou fusão de fundos, e desde que a transferência não implique mudança de administrador nem obrigatoriedade de resgate de quotas, conforme legislação aplicável à matéria, o Informe deverá ser entregue nos prazos previstos no caput deste artigo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par8">
+            
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    Na hipótese de que trata o § 7º, o administrador dos fundos deverá informar separadamente, por número de inscrição no Cadastro Nacional da Pessoa Jurídica (CNPJ) de cada fundo, os respectivos rendimentos auferidos no período anterior e posterior ao evento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par9">
+            
+            
+            <Rotulo>§ 9º</Rotulo>
+            <p>
+    No caso de mudança de administrador do fundo, cada administrador deverá fornecer Informe contemplando o período relativo à sua respectiva administração.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par10">
+            
+            
+            <Rotulo>§ 10.</Rotulo>
+            <p>
+    Na hipótese de fusão, cisão, incorporação ou encerramento de atividades do administrador, este deverá entregar o Informe até o último dia útil do mês subseqüente ao do evento.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    No caso de beneficiário pessoa jurídica, titular de quaisquer aplicações financeiras de renda fixa, bem como de depósitos de poupança, de quotas de fundos de investimento e de aplicações de swap, a fonte pagadora deverá discriminar, por mês, os rendimentos tributados, correspondentes ao rendimento bruto deduzido o IOF, e o respectivo imposto de renda retido na fonte.
+
+  </p>
+            
+          </Caput><Paragrafo id="art3_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O disposto no caput aplica-se aos casos de operações de mútuo entre pessoas jurídicas sujeitas à retenção do imposto de renda na fonte, inclusive quando a operação for realizada entre empresas controladoras, controladas, coligadas e interligadas.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    As instituições financeiras, as sociedades e as demais fontes pagadoras referidas no art. 1º deverão manter sistema de controle que permita identificar, para cada cliente pessoa física, os valores dos depósitos ou aplicações e os valores dos saques ou resgates efetuados nos diversos tipos de investimento financeiro no ano-calendário.
+
+  </p>
+            
+          </Caput><Paragrafo id="art4_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    As informações de que trata este artigo poderão ser dispensadas para clientes cujo valor total dos rendimentos auferidos nos diversos tipos de investimento, no ano-calendário, seja igual ou inferior a R$ 3.000,00 (três mil reais).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    As instituições, as sociedades e as demais fontes pagadoras referidas no art. 1º deverão manter, em meio magnético, até 31 de dezembro do sexto ano subseqüente àquele a que se referir os rendimentos, as informações de que trata esta Instrução Normativa.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art5-1">
+            
+            
+            <Rotulo>Art. 5º-A.</Rotulo>
+            
+            <Caput id="art5-1_cpt">
+            
+            
+            
+            <p>
+    O beneficiário, a que se referem os incisos I e II do caput do art. 2º, poderá solicitar às instituições de que trata o art. 1º cópia do Informe de Rendimentos Financeiros no prazo estabelecido no art. 5º, salvo por decisão judicial ou sucessão universal. [Incluído(a) pelo(a) Instrução Normativa RFB nº 1235, de 11 de janeiro de 2012]
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    A fonte pagadora, o administrador ou a pessoa jurídica intermediadora de recursos de que trata o art. 1º que deixar de fornecer ao beneficiário, dentro dos prazos previstos no art. 2º, ou fornecer com inexatidão o documento a que se refere esta Instrução Normativa fica sujeito ao pagamento de multa de R$ 41,43 (quarenta e um reais e quarenta e três centavos) por documento.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    À fonte pagadora, ao administrador e à pessoa jurídica intermediadora de recursos de que trata o art. 1º que prestar informação falsa sobre rendimentos ou imposto retido na fonte, será aplicada multa de trezentos por cento sobre o valor que for indevidamente utilizável como redução do imposto de renda a pagar ou aumento do imposto a restituir ou a compensar, independentemente de outras penalidades administrativas ou criminais.
+
+  </p>
+            
+          </Caput><Paragrafo id="art7_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Na mesma penalidade incorrerá aquele que se beneficiar da informação, sabendo ou devendo saber da sua falsidade.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    As instituições financeiras deverão fornecer ao mutuário as seguintes informações sobre a movimentação dos contratos agropecuários de financiamento, de custeio ou de investimento, ocorrida no ano-calendário:
+
+  </p>
+            <Inciso id="art8_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    nome do mutuário, número de inscrição no Cadastro de Pessoas Físicas (CPF) ou no CNPJ, conforme o caso, e endereço;
+
+  </p>
+            
+          </Inciso><Inciso id="art8_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    número da conta bancária e do contrato;
+
+  </p>
+            
+          </Inciso><Inciso id="art8_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    valor e data da liberação;
+
+  </p>
+            
+          </Inciso><Inciso id="art8_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    data e valor do pagamento, discriminando o principal e os encargos financeiros.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            
+            
+            
+            <p>
+    Fica aprovado o modelo de Informe de Rendimentos Financeiros referente a operações efetuadas por pessoa física (Anexo I), cujo preenchimento deverá observar as instruções constantes no Anexo II.
+
+  </p>
+            
+          </Caput><Paragrafo id="art9_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A fonte pagadora que utilizar sistema de processamento de dados poderá adotar leiaute diferente do modelo estabelecido, desde que contenha todas as informações nele previstas.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>
+    Esta Instrução Normativa entra em vigor na data de sua publicação.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            <p>
+    Fica formalmente revogada, sem interrupção de sua força normativa, a Instrução Normativa SRF nº 578, de 6 de dezembro de 2005. JORGE ANTONIO DEHER RACHID
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          
+          <Anexos><ReferenciaAnexo AlvoURN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2006-12-20;698!anexo1"/><ReferenciaAnexo AlvoURN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2006-12-20;698!anexo2"/><ReferenciaAnexo AlvoURN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2006-12-20;698!anexo3"/><ReferenciaAnexo AlvoURN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2006-12-20;698!anexo4"/></Anexos>
+        </Norma></ProjetoNorma>
+    </LexML>

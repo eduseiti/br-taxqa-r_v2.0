@@ -1,0 +1,1015 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2010-06-04;1037"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">INSTRUÇÃO NORMATIVA Nº 1.037, DE 4 DE JUNHO DE 2010 </Epigrafe>
+		  <Ementa id="ementa">Relaciona países ou dependências com tributação favorecida e regimes fiscais privilegiados.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O SECRETÁRIO DA RECEITA FEDERAL DO BRASIL, no uso da atribuição que lhe confere o inciso III do art. 261 do Regimento Interno da Secretaria da Receita Federal do Brasil, aprovado pela Portaria MF nº 125, de 4 de março de 2009, e tendo em vista o disposto no art. 24 da Lei nº 9.430, de 27 de dezembro de 1996; no art. 8º da Lei nº 9.779, de 19 de janeiro de 1999; no art. 7º da Lei nº 9.959, de 27 de janeiro de 2000; no § 1º do art. 29 da Medida Provisória nº 2.158-35, de 24 de agosto de 2001, no § 2º do art. 16 da Medida Provisória nº 2.189-49, de 23 de agosto de 2001, nos arts. 3º e 4º da Lei nº 10.451, de 10 de maio de 2002, e nos arts. 22 e 23 da Lei nº 11.727, de 23 de junho de 2008, resolve:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    Para fins do disposto nesta Instrução Normativa, consideram-se países ou dependências que não tributam a renda ou que a tributam à alíquota inferior a 17% (dezessete por cento) ou, ainda, cuja legislação interna não permita acesso a informações relativas à composição societária de pessoas jurídicas, à sua titularidade ou à identificação do beneficiário efetivo de rendimentos atribuídos a não residentes, as seguintes jurisdições: [Redação dada pelo(a) Instrução Normativa RFB nº 2265, de 9 de maio de 2025]
+
+  </p>
+            <Inciso id="art1_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Andorra;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Anguilla;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Antígua e Barbuda;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1658, de 13 de setembro de 2016]
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    Aruba;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    Ilhas Ascensão;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    Comunidade das Bahamas;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    Bahrein;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    Barbados;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc10">
+            
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    Belize;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc11">
+            
+            
+            <Rotulo>XI –</Rotulo>
+            <p>
+    Ilhas Bermudas;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc12">
+            
+            
+            <Rotulo>XII –</Rotulo>
+            <p>
+    Brunei;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc13">
+            
+            
+            <Rotulo>XIII –</Rotulo>
+            <p>
+    Campione D' Italia;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc14">
+            
+            
+            <Rotulo>XIV –</Rotulo>
+            <p>
+    Ilhas do Canal (Alderney, Guernsey, Jersey e Sark);
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc15">
+            
+            
+            <Rotulo>XV –</Rotulo>
+            <p>
+    Ilhas Cayman;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc16">
+            
+            
+            <Rotulo>XVI –</Rotulo>
+            <p>
+    Chipre;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc17">
+            
+            
+            <Rotulo>XVII –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1773, de 21 de dezembro de 2017]
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc18">
+            
+            
+            <Rotulo>XVIII –</Rotulo>
+            <p>
+    Ilhas Cook;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc19">
+            
+            
+            <Rotulo>XIX –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1773, de 21 de dezembro de 2017]
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc20">
+            
+            
+            <Rotulo>XX –</Rotulo>
+            <p>
+    Djibouti;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc21">
+            
+            
+            <Rotulo>XXI –</Rotulo>
+            <p>
+    Dominica;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc22">
+            
+            
+            <Rotulo>XXII –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 2265, de 9 de maio de 2025]
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc23">
+            
+            
+            <Rotulo>XXIII –</Rotulo>
+            <p>
+    Gibraltar;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc24">
+            
+            
+            <Rotulo>XXIV –</Rotulo>
+            <p>
+    Granada;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc25">
+            
+            
+            <Rotulo>XXV –</Rotulo>
+            <p>
+    Hong Kong;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc26">
+            
+            
+            <Rotulo>XXVI –</Rotulo>
+            <p>
+    Kiribati;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc27">
+            
+            
+            <Rotulo>XXVII –</Rotulo>
+            <p>
+    Lebuan;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc28">
+            
+            
+            <Rotulo>XXVIII –</Rotulo>
+            <p>
+    Líbano;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc29">
+            
+            
+            <Rotulo>XXIX –</Rotulo>
+            <p>
+    Libéria;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc30">
+            
+            
+            <Rotulo>XXX –</Rotulo>
+            <p>
+    Liechtenstein;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc31">
+            
+            
+            <Rotulo>XXXI –</Rotulo>
+            <p>
+    Macau;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc32">
+            
+            
+            <Rotulo>XXXII –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1773, de 21 de dezembro de 2017]
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc33">
+            
+            
+            <Rotulo>XXXIII –</Rotulo>
+            <p>
+    Maldivas;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc34">
+            
+            
+            <Rotulo>XXXIV –</Rotulo>
+            <p>
+    Ilha de Man;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc35">
+            
+            
+            <Rotulo>XXXV –</Rotulo>
+            <p>
+    Ilhas Marshall;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc36">
+            
+            
+            <Rotulo>XXXVI –</Rotulo>
+            <p>
+    Ilhas Maurício;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc37">
+            
+            
+            <Rotulo>XXXVII –</Rotulo>
+            <p>
+    Mônaco;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc38">
+            
+            
+            <Rotulo>XXXVIII –</Rotulo>
+            <p>
+    Ilhas Montserrat; XXXIX - Nauru;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc40">
+            
+            
+            <Rotulo>XL –</Rotulo>
+            <p>
+    Ilha Niue;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc41">
+            
+            
+            <Rotulo>XLI –</Rotulo>
+            <p>
+    Ilha Norfolk;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc42">
+            
+            
+            <Rotulo>XLII –</Rotulo>
+            <p>
+    Panamá;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc43">
+            
+            
+            <Rotulo>XLIII –</Rotulo>
+            <p>
+    Ilha Pitcairn;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc44">
+            
+            
+            <Rotulo>XLIV –</Rotulo>
+            <p>
+    Polinésia Francesa;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc45">
+            
+            
+            <Rotulo>XLV –</Rotulo>
+            <p>
+    Ilha Queshm;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc46">
+            
+            
+            <Rotulo>XLVI –</Rotulo>
+            <p>
+    Samoa Americana;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc47">
+            
+            
+            <Rotulo>XLVII –</Rotulo>
+            <p>
+    Samoa Ocidental;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc48">
+            
+            
+            <Rotulo>XLVIII –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1896, de 27 de junho de 2019]
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc49">
+            
+            
+            <Rotulo>XLIX –</Rotulo>
+            <p>
+    Ilhas de Santa Helena;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc50">
+            
+            
+            <Rotulo>L –</Rotulo>
+            <p>
+    Santa Lúcia;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc51">
+            
+            
+            <Rotulo>LI –</Rotulo>
+            <p>
+    Federação de São Cristóvão e Nevis;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc52">
+            
+            
+            <Rotulo>LII –</Rotulo>
+            <p>
+    Ilha de São Pedro e Miguelão;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc53">
+            
+            
+            <Rotulo>LIII –</Rotulo>
+            <p>
+    São Vicente e Granadinas;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc54">
+            
+            
+            <Rotulo>LIV –</Rotulo>
+            <p>
+    Seychelles;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc55">
+            
+            
+            <Rotulo>LV –</Rotulo>
+            <p>
+    Ilhas Solomon;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc56">
+            
+            
+            <Rotulo>LVI –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1658, de 13 de setembro de 2016]
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc57">
+            
+            
+            <Rotulo>LVII –</Rotulo>
+            <p>
+    Suazilândia;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc58">
+            
+            
+            <Rotulo>LVIII –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1474, de 18 de junho de 2014]
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc59">
+            
+            
+            <Rotulo>LIX –</Rotulo>
+            <p>
+    Sultanato de Omã;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc60">
+            
+            
+            <Rotulo>LX –</Rotulo>
+            <p>
+    Tonga;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc61">
+            
+            
+            <Rotulo>LXI –</Rotulo>
+            <p>
+    Tristão da Cunha;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc62">
+            
+            
+            <Rotulo>LXII –</Rotulo>
+            <p>
+    Ilhas Turks e Caicos;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc63">
+            
+            
+            <Rotulo>LXIII –</Rotulo>
+            <p>
+    Vanuatu;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc64">
+            
+            
+            <Rotulo>LXIV –</Rotulo>
+            <p>
+    Ilhas Virgens Americanas;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc65">
+            
+            
+            <Rotulo>LXV –</Rotulo>
+            <p>
+    Ilhas Virgens Britânicas;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc66">
+            
+            
+            <Rotulo>LXVI –</Rotulo>
+            <p>
+    Curaçao; [Incluído(a) pelo(a) Instrução Normativa RFB nº 1658, de 13 de setembro de 2016]
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc67">
+            
+            
+            <Rotulo>LXVII –</Rotulo>
+            <p>
+    São Martinho; [Incluído(a) pelo(a) Instrução Normativa RFB nº 1658, de 13 de setembro de 2016]
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc68">
+            
+            
+            <Rotulo>LXVIII –</Rotulo>
+            <p>
+    Irlanda. [Incluído(a) pelo(a) Instrução Normativa RFB nº 1658, de 13 de setembro de 2016]
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    São regimes fiscais privilegiados:
+
+  </p>
+            <Inciso id="art2_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Ato Declaratório Executivo RFB nº 3, de 25 de março de 2011]
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    com referência à legislação do Uruguai, o regime aplicável às pessoas jurídicas constituídas sob a forma de &quot; Sociedades Financeiras de Inversão (Safis)&quot; até 31 de dezembro de 2010;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    com referência à legislação da Dinamarca, o regime aplicável às pessoas jurídicas constituídas sob a forma de holding company que não exerçam atividade econômica substantiva; [Redação dada pelo(a) Instrução Normativa RFB nº 1045, de 23 de junho de 2010]
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    com referência à legislação do Reino dos Países Baixos, o regime aplicável às pessoas jurídicas constituídas sob a forma de holding company que não exerçam atividade econômica substantiva; [Redação dada pelo(a) Instrução Normativa RFB nº 1045, de 23 de junho de 2010]
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    com referência à legislação da Islândia, o regime aplicável às pessoas jurídicas constituídas sob a forma de International Trading Company (ITC);
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1474, de 18 de junho de 2014]
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    com referência à legislação dos Estados Unidos da América, o regime aplicável às pessoas jurídicas constituídas sob a forma de Limited Liability Company (LLC) estaduais, cuja participação seja composta de não residentes, não sujeitas ao imposto de renda federal; ou
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    com referência à legislação da Espanha, o regime aplicável às pessoas jurídicas constituídas sob a forma de Entidad de Tenencia de Valores Extranjeros (E.T.V.Es.);
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    com referência à legislação de Malta, o regime aplicável às pessoas jurídicas constituídas sob a forma de International Trading Company (ITC) e de International Holding Company (IHC).
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc10">
+            
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    com referência à Suíça, os regimes aplicáveis às pessoas jurídicas constituídas sob a forma de holding company, domiciliary company, auxiliary company, mixed company e administrative company cujo tratamento tributário resulte em incidência de Imposto sobre a Renda da Pessoa Jurídica (IRPJ), de forma combinada, inferior a 20% (vinte por cento), segundo a legislação federal, cantonal e municipal, assim como o regime aplicável a outras formas legais de constituição de pessoas jurídicas, mediante rulings emitidos por autoridades tributárias, que resulte em incidência de IRPJ, de forma combinada, inferior a 20% (vinte por cento), segundo a legislação federal, cantonal e municipal. [Incluído(a) pelo(a) Instrução Normativa RFB nº 1474, de 18 de junho de 2014]
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc11">
+            
+            
+            <Rotulo>XI –</Rotulo>
+            <p>
+    [Redação dada pelo(a) Instrução Normativa RFB nº 1683, de 29 de dezembro de 2016] [Revogado(a) pelo(a) Instrução Normativa RFB nº 2265, de 9 de maio de 2025]
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc12">
+            
+            
+            <Rotulo>XII –</Rotulo>
+            <p>
+    com referência à legislação da República da Costa Rica, o Regime de Zonas Francas (RZF); [Incluído(a) pelo(a) Instrução Normativa RFB nº 1773, de 21 de dezembro de 2017]
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc13">
+            
+            
+            <Rotulo>XIII –</Rotulo>
+            <p>
+    com referência à legislação de Portugal, o regime do Centro Internacional de Negócios da Madeira (CINM); e [Incluído(a) pelo(a) Instrução Normativa RFB nº 1773, de 21 de dezembro de 2017]
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc14">
+            
+            
+            <Rotulo>XIV –</Rotulo>
+            <p>
+    com referência à legislação de Singapura, os seguintes regimes de alíquota diferenciada para: [Incluído(a) pelo(a) Instrução Normativa RFB nº 1773, de 21 de dezembro de 2017]
+
+  </p>
+            <Alinea id="art2_cpt_inc14_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    armador ou fretador ou para empresa de transporte aéreo não residentes (special rate of tax for non-resident shipowner or charterer or air transport undertaking); [Incluído(a) pelo(a) Instrução Normativa RFB nº 1773, de 21 de dezembro de 2017]
+
+  </p>
+            
+          </Alinea><Alinea id="art2_cpt_inc14_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    seguradoras e resseguradoras ou o regime de isenção aplicável a tais empresas (exemption and concessionary rate of tax for insurance and reinsurance business); [Incluído(a) pelo(a) Instrução Normativa RFB nº 1773, de 21 de dezembro de 2017]
+
+  </p>
+            
+          </Alinea><Alinea id="art2_cpt_inc14_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    Centro de Finanças e Tesouraria (concessionary rate of tax for Finance and Treasury Centre); [Incluído(a) pelo(a) Instrução Normativa RFB nº 1773, de 21 de dezembro de 2017]
+
+  </p>
+            
+          </Alinea><Alinea id="art2_cpt_inc14_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    administrador fiduciário (concessionary rate of tax for trustee company); [Incluído(a) pelo(a) Instrução Normativa RFB nº 1773, de 21 de dezembro de 2017]
+
+  </p>
+            
+          </Alinea><Alinea id="art2_cpt_inc14_ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    renda derivada de títulos de dívida (concessionary rate of tax for income derived from debt securities); [Incluído(a) pelo(a) Instrução Normativa RFB nº 1773, de 21 de dezembro de 2017]
+
+  </p>
+            
+          </Alinea><Alinea id="art2_cpt_inc14_ali6">
+            
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    empresa de comércio global e empresa elegível (concessionary rate of tax for global trading company and qualifying company); [Incluído(a) pelo(a) Instrução Normativa RFB nº 1773, de 21 de dezembro de 2017]
+
+  </p>
+            
+          </Alinea><Alinea id="art2_cpt_inc14_ali7">
+            
+            
+            <Rotulo>g)</Rotulo>
+            <p>
+    empresa de incentivo do setor financeiro (concessionary rate of tax for financial sector incentive company); [Incluído(a) pelo(a) Instrução Normativa RFB nº 1773, de 21 de dezembro de 2017]
+
+  </p>
+            
+          </Alinea><Alinea id="art2_cpt_inc14_ali8">
+            
+            
+            <Rotulo>h)</Rotulo>
+            <p>
+    prestação de serviços de processamento para instituições financeiras (concessionary rate of tax for provision of processing services for financial institutions); [Incluído(a) pelo(a) Instrução Normativa RFB nº 1773, de 21 de dezembro de 2017]
+
+  </p>
+            
+          </Alinea><Alinea id="art2_cpt_inc14_ali9">
+            
+            
+            <Rotulo>i)</Rotulo>
+            <p>
+    gestor de investimentos em transporte marítimo (concessionary rate of tax for shipping investment manager); [Incluído(a) pelo(a) Instrução Normativa RFB nº 1773, de 21 de dezembro de 2017]
+
+  </p>
+            
+          </Alinea><Alinea id="art2_cpt_inc14_ali10">
+            
+            
+            <Rotulo>j)</Rotulo>
+            <p>
+    beneficiário de renda fiduciária (concessionary rate of tax for trust income to which beneficiary is entitled); [Incluído(a) pelo(a) Instrução Normativa RFB nº 1773, de 21 de dezembro de 2017]
+
+  </p>
+            
+          </Alinea><Alinea id="art2_cpt_inc14_ali11">
+            
+            
+            <Rotulo>k)</Rotulo>
+            <p>
+    arrendamento de aeronaves e motores de aeronaves (concessionary rate of tax for leasing of aircraft and aircraft engines); [Incluído(a) pelo(a) Instrução Normativa RFB nº 1773, de 21 de dezembro de 2017]
+
+  </p>
+            
+          </Alinea><Alinea id="art2_cpt_inc14_ali12">
+            
+            
+            <Rotulo>l)</Rotulo>
+            <p>
+    gestor de investimentos em aeronaves (concessionary rate of tax for aircraft investment manager); [Incluído(a) pelo(a) Instrução Normativa RFB nº 1773, de 21 de dezembro de 2017]
+
+  </p>
+            
+          </Alinea><Alinea id="art2_cpt_inc14_ali13">
+            
+            
+            <Rotulo>m)</Rotulo>
+            <p>
+    empresa de investimento em contêineres (concessionary rate of tax for container investment enterprise); [Incluído(a) pelo(a) Instrução Normativa RFB nº 1773, de 21 de dezembro de 2017]
+
+  </p>
+            
+          </Alinea><Alinea id="art2_cpt_inc14_ali14">
+            
+            
+            <Rotulo>n)</Rotulo>
+            <p>
+    gestor de investimentos em contêineres (concessionary rate of tax for container investment manager); [Incluído(a) pelo(a) Instrução Normativa RFB nº 1773, de 21 de dezembro de 2017]
+
+  </p>
+            
+          </Alinea><Alinea id="art2_cpt_inc14_ali15">
+            
+            
+            <Rotulo>o)</Rotulo>
+            <p>
+    corretores de seguros autorizados (concessionary rate of tax for approved insurance brokers); [Incluído(a) pelo(a) Instrução Normativa RFB nº 1773, de 21 de dezembro de 2017]
+
+  </p>
+            
+          </Alinea><Alinea id="art2_cpt_inc14_ali16">
+            
+            
+            <Rotulo>p)</Rotulo>
+            <p>
+    renda derivada da gestão de negócios registrados de fideicomissos ou de empresas elegíveis (concessionary rate of tax for income derived from managing qualifying registered business trust or company); [Incluído(a) pelo(a) Instrução Normativa RFB nº 1773, de 21 de dezembro de 2017]
+
+  </p>
+            
+          </Alinea><Alinea id="art2_cpt_inc14_ali17">
+            
+            
+            <Rotulo>q)</Rotulo>
+            <p>
+    corretores de navios e de operações de proteção de frete marítimo (concessionary rate of tax for ship broking and forward freight agreement trading); [Incluído(a) pelo(a) Instrução Normativa RFB nº 1773, de 21 de dezembro de 2017]
+
+  </p>
+            
+          </Alinea><Alinea id="art2_cpt_inc14_ali18">
+            
+            
+            <Rotulo>r)</Rotulo>
+            <p>
+    serviços de suporte relacionados com transporte marítimo (concessionary rate of tax for shipping-related support services); [Incluído(a) pelo(a) Instrução Normativa RFB nº 1773, de 21 de dezembro de 2017]
+
+  </p>
+            
+          </Alinea><Alinea id="art2_cpt_inc14_ali19">
+            
+            
+            <Rotulo>s)</Rotulo>
+            <p>
+    renda derivada da gestão de investimentos autorizados (concessionary rate of tax for income derived from managing approved venture company); e [Incluído(a) pelo(a) Instrução Normativa RFB nº 1773, de 21 de dezembro de 2017]
+
+  </p>
+            
+          </Alinea><Alinea id="art2_cpt_inc14_ali20">
+            
+            
+            <Rotulo>t)</Rotulo>
+            <p>
+    empresa em processo de expansão internacional (concessionary rate of tax for international growth company). [Incluído(a) pelo(a) Instrução Normativa RFB nº 1773, de 21 de dezembro de 2017]
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput><Paragrafo id="art2_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Para fins de identificação de regimes fiscais privilegiados previstos nos incisos III e IV do caput, entende-se que a pessoa jurídica que exerce a atividade de holding desempenha atividade econômica substantiva quando possui, no seu país de domicílio, capacidade operacional apropriada para os seus fins, evidenciada, entre outros fatores, pela existência de empregados próprios qualificados em número suficiente e de instalações físicas adequadas para o exercício da gestão e efetiva tomada de decisões relativas: [Redação dada pelo(a) Instrução Normativa RFB nº 1773, de 21 de dezembro de 2017]
+
+  </p>
+            <Inciso id="art2_par1u_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    ao desenvolvimento das atividades com o fim de obter rendas derivadas dos ativos de que dispõe; ou [Incluído(a) pelo(a) Instrução Normativa RFB nº 1658, de 13 de setembro de 2016]
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par1u_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    à administração de participações societárias com o fim de obter rendas decorrentes da distribuição de lucro e do ganho de capital. [Incluído(a) pelo(a) Instrução Normativa RFB nº 1658, de 13 de setembro de 2016]
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    Esta Instrução Normativa entra em vigor na data de sua publicação.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    Fica revogada a Instrução Normativa SRF Nº 188, de 6 de agosto de 2002. OTACÍLIO DANTAS CARTAXO
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          
+          
+        </Norma></ProjetoNorma>
+    </LexML>

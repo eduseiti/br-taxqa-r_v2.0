@@ -1,0 +1,187 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2009-05-05;936"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">INSTRUÇÃO NORMATIVA Nº 936, DE 5 DE MAIO DE 2009 </Epigrafe>
+		  <Ementa id="ementa">Dispõe sobre o tratamento tributário relativo a valores pagos a título de abono pecuniário de férias.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    A SECRETÁRIA DA RECEITA FEDERAL DO BRASIL, no uso da atribuição que lhe confere o inciso III do art. 261 do Regimento Interno da Secretaria da Receita Federal do Brasil, aprovado pela Portaria MF nº 125, de 4 de março de 2009, e tendo em vista o Ato Declaratório PGFN nº 6, de 16 de novembro de 2006, resolve:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1943-05-01;5452!art143--><!--Link: urn:lex:br:federal:decreto.lei:1943-05-01;5452-->
+            
+            
+            <p>
+    Os valores pagos a pessoa física a título de abono pecuniário de férias de que trata o <span xlink:href="urn:lex:br:federal:decreto.lei:1943-05-01;5452!art143">art. 143 da Consolidação das Leis do Trabalho</span> (<span xlink:href="urn:lex:br:federal:decreto.lei:1943-05-01;5452">CLT</span>), aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943, não serão tributados pelo imposto de renda na fonte nem na Declaração de Ajuste Anual.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    A pessoa física que recebeu os rendimentos de que trata o art. 1º com desconto do imposto de renda na fonte e que incluiu tais rendimentos na Declaração de Ajuste Anual como tributáveis, para pleitear a restituição da retenção indevida, deverá apresentar declaração retificadora do respectivo exercício da retenção, excluindo o valor recebido a título de abono pecuniário de férias do campo &quot;rendimentos tributáveis&quot; e informando-o no campo &quot;outros&quot; da ficha &quot;rendimentos isentos e não tributáveis&quot;, com especificação da natureza do rendimento.
+
+  </p>
+            
+          </Caput><Paragrafo id="art2_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Para fins do disposto no caput, na declaração retificadora deverão ser mantidas todas as demais informações constantes da declaração original que não sofreram alterações.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A declaração retificadora deverá ser apresentada:
+
+  </p>
+            <Inciso id="art2_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    pela Internet, mediante a utilização do programa de transmissão Receitanet, disponível no sítio da Secretaria da Receita Federal do Brasil (RFB) no endereço ; ou
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    em disquete, nas unidades da RFB, durante o seu horário de expediente.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art2_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Para a elaboração e transmissão da declaração retificadora deverão ser utilizados o Programa Gerador da Declaração (PGD) relativo ao exercício da retenção indevida e o mesmo modelo (completo ou simplificado) utilizado para a declaração original, bem como deverá ser informado o número constante no recibo de entrega referente a esta declaração original.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Se da declaração retificadora resultar saldo de imposto a restituir superior ao da declaração original, a diferença entre o saldo a restituir referente à declaração retificadora e o valor eventualmente já restituído, será objeto de restituição automática.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    No caso de ter havido recolhimento de imposto no exercício a que se refere o art. 2º, se da retificação da declaração resultar pagamento indevido, a restituição ou compensação do imposto pago indevidamente na declaração original deverá ser requerida mediante a utilização do programa Pedido de Restituição, Ressarcimento ou Reembolso e Declaração de Compensação (PER/DCOMP), disponível no sítio da RFB na Internet, no endereço mencionado no inciso I do § 2º do art. 2º.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    O prazo para pleitear a restituição é de 5 (cinco) anos contados da data da retenção indevida.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    O pagamento da restituição, acrescida de juros equivalentes à taxa referencial do Sistema Especial de Liquidação e de Custódia (Selic) para títulos federais, acumulada mensalmente a partir do mês de maio do exercício correspondente ao da declaração original até o mês anterior ao da restituição, e de 1% (um por cento) no mês em que o crédito for disponibilizado ao contribuinte no banco, será efetuado por meio dos lotes mensais de restituição do Imposto sobre a Renda da Pessoa Física, disponíveis na rede bancária.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    A fonte pagadora dos rendimentos de que trata o art. 1º poderá apresentar a Declaração do Imposto de Renda Retido na Fonte (Dirf) retificadora.
+
+  </p>
+            
+          </Caput><Paragrafo id="art6_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A retificação de que trata o caput não se enquadra no disposto no art. 7º da Lei nº 10.426, de 24 de abril de 2002.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    Esta Instrução Normativa entra em vigor na data da sua publicação. LINA MARIA VIEIRA
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          
+          
+        </Norma></ProjetoNorma>
+    </LexML>

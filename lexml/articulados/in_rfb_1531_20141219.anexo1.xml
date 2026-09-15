@@ -1,0 +1,15 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <Metadado>
+      <Identificacao URN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2014-12-19;1531!anexo1"/>
+    </Metadado>
+      <Anexo>
+        <DocumentoGenerico>
+      <PartePrincipal id="anexo1_pp">
+        <p>ANEXO ÚNICO</p>
+        <p>(Anexo Único da Instrução Normativa RFB nº 1.531, de 19 de dezembro de 2014.)
+</p><p>CÓDIGOS DE OCUPAÇÃO PRINCIPAL DO CONTRIBUINTE
+</p><table id="anexo1_tab3"><tr><td>Código</td><td>Ocupação Principal do Contribuinte</td></tr><tr><td>225</td><td>Médico</td></tr><tr><td>226</td><td>Odontólogo</td></tr><tr><td>230</td><td>Fonoaudiólogo</td></tr><tr><td>231</td><td>Fisioterapeuta</td></tr><tr><td>232</td><td>Terapeuta ocupacional</td></tr><tr><td>241</td><td>Advogado</td></tr><tr><td>255</td><td>Psicólogo</td></tr><tr><td>355</td><td>Corretor e administrador de imóveis</td></tr></table>
+      </PartePrincipal>
+    </DocumentoGenerico>
+      </Anexo>
+    </LexML>

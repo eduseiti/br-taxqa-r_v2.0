@@ -1,0 +1,2712 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2002-09-27;208"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">INSTRUÇÃO NORMATIVA Nº 208, DE 27 DE SETEMBRO DE 2002 </Epigrafe>
+		  <Ementa id="ementa">Dispõe sobre a tributação, pelo imposto de renda, dos rendimentos recebidos de fontes situadas no exterior e dos ganhos de capital apurados na alienação de bens e direitos situados no exterior por pessoa física residente no Brasil e dos rendimentos recebidos e dos ganhos de capital apurados no País por pessoa física não-residente no Brasil.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O SECRETÁRIO DA RECEITA FEDERAL, no uso da atribuição que lhe confere o inciso III do art. 209 do Regimento Interno da Secretaria da Receita Federal, aprovado pela Portaria MF nº 259, de 24 de agosto de 2001, e tendo em vista as disposições das Leis nº 4.506, de 30 de novembro de 1964, nº 7.713, de 22 de dezembro de 1988, nº 8.134, de 27 de dezembro de 1990, nº 8.218, de 29 de agosto de 1991, nº 8.383, de 30 de dezembro de 1991, nº 8.981, de 20 de janeiro de 1995, nº 9.249 e nº 9.250, de 26 de dezembro de 1995, nº 9.430, de 27 de dezembro de 1996, nº 9.481, de 13 de agosto de 1997, nº 9.532, de 10 de dezembro de 1997, nº 9.718, de 27 de novembro de 1998, nº 9.779, de 19 de janeiro de 1999, nº 9.959, de 27 de janeiro de 2000, e nº 10.451, de 10 de maio de 2002, e das Medidas Provisórias nº 2.158-35, de 24 de agosto de 2001, nº 2.159-70, de 24 de agosto de 2001, e nº 2.189-49, de 23 de agosto de 2001, resolve:
+  </p><p>
+    Disposições Gerais
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    Os rendimentos recebidos de fontes situadas no exterior, inclusive de órgãos do Governo brasileiro localizados fora do Brasil, e os ganhos de capital apurados na alienação de bens e direitos situados no exterior por pessoa física residente no Brasil, bem assim os rendimentos recebidos e os ganhos de capital apurados no País por pessoa física não-residente no Brasil estão sujeitos à tributação pelo imposto de renda, conforme o disposto nesta Instrução Normativa, sem prejuízo dos acordos, tratados e convenções internacionais firmados pelo Brasil ou da existência de reciprocidade de tratamento.
+
+  </p>
+            
+          </Caput><Paragrafo id="art1_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Consideram-se recebidos os rendimentos e ganhos de capital no mês em que primeiro ocorrer o pagamento, crédito, emprego, entrega ou remessa ao beneficiário.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art1_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A prova de reciprocidade de tratamento far-se-á com cópia da lei publicada em órgão de imprensa oficial do país de origem do rendimento, traduzida por tradutor juramentado e autenticada pela representação diplomática do Brasil naquele país, ou mediante declaração desse órgão atestando a reciprocidade de tratamento tributário.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art1_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Ato da Secretaria da Receita Federal (SRF) reconhecendo a reciprocidade de tratamento dispensa a prova de que trata o § 2º.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art2">
+            
+            <TituloDispositivo>Conceito de residente e não-residente no País</TituloDispositivo>
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    Considera-se residente no Brasil, a pessoa física:
+
+  </p>
+            <Inciso id="art2_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    que resida no Brasil em caráter permanente;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    que se ausente para prestar serviços como assalariada a autarquias ou repartições do Governo brasileiro situadas no exterior;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    que ingresse no Brasil:
+
+  </p>
+            <Alinea id="art2_cpt_inc3_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    com visto permanente, na data da chegada;
+
+  </p>
+            
+          </Alinea><Alinea id="art2_cpt_inc3_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    com visto temporário:
+
+  </p>
+            <Item id="art2_cpt_inc3_ali2_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    para trabalhar com vínculo empregatício ou atuar como médico bolsista no âmbito do Programa Mais Médicos de que trata a Medida Provisória nº 621, de 8 de julho de 2013, na data da chegada; [Redação dada pelo(a) Instrução Normativa RFB nº 1383, de 7 de agosto de 2013]
+
+  </p>
+            
+          </Item><Item id="art2_cpt_inc3_ali2_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    na data em que complete 184 dias, consecutivos ou não, de permanência no Brasil, dentro de um período de até doze meses;
+
+  </p>
+            
+          </Item><Item id="art2_cpt_inc3_ali2_ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    na data da obtenção de visto permanente ou de vínculo empregatício, se ocorrida antes de completar 184 dias, consecutivos ou não, de permanência no Brasil, dentro de um período de até doze meses;
+
+  </p>
+            
+          </Item>
+          </Alinea>
+          </Inciso><Inciso id="art2_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    brasileira que adquiriu a condição de não-residente no Brasil e retorne ao País com ânimo definitivo, na data da chegada;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    que se ausente do Brasil em caráter temporário ou se retire em caráter permanente do território nacional sem apresentar a Comunicação de Saída Definitiva do País, de que trata o art. 11-A, durante os primeiros 12 (doze) meses consecutivos de ausência. [Redação dada pelo(a) Instrução Normativa RFB nº 1008, de 9 de fevereiro de 2010]
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art2_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Para fins do disposto no inciso III, &quot; b&quot; , item 2, do caput, caso, dentro de um período de doze meses, a pessoa física não complete 184 dias, consecutivos ou não, de permanência no Brasil, novo período de até doze meses será contado da data do ingresso seguinte àquele em que se iniciou a contagem anterior.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    Considera-se não-residente no Brasil, a pessoa física:
+
+  </p>
+            <Inciso id="art3_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    que não resida no Brasil em caráter permanente e não se enquadre nas hipóteses previstas no art. 2º;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    que se retire em caráter permanente do território nacional, na data da saída, ressalvado o disposto no inciso V do art. 2º;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    que, na condição de não-residente, ingresse no Brasil para prestar serviços como funcionária de órgão de governo estrangeiro situado no País, ressalvado o disposto no inciso IV do art. 2º;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    que ingresse no Brasil com visto temporário:
+
+  </p>
+            <Alinea id="art3_cpt_inc4_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    e permaneça até 183 dias, consecutivos ou não, em um período de até doze meses;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_inc4_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    até o dia anterior ao da obtenção de visto permanente ou de vínculo empregatício, se ocorrida antes de completar 184 dias, consecutivos ou não, de permanência no Brasil, dentro de um período de até doze meses;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art3_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    que se ausente do Brasil em caráter temporário, a partir do dia seguinte àquele em que complete doze meses consecutivos de ausência.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art3_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Para fins do disposto no inciso IV, &quot; a&quot; , do caput, caso, dentro de um período de doze meses, a pessoa física não complete 184 dias, consecutivos ou não, de permanência no Brasil, novo período de até doze meses será contado da data do ingresso seguinte àquele em que se iniciou a contagem anterior.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A pessoa física não-residente que receba rendimentos de fonte situada no Brasil deve comunicar à fonte pagadora tal condição, por escrito, para que seja feita a retenção do imposto de renda, observado o disposto nos arts. 35 a 45.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    A partir do momento em que a pessoa física adquira a condição de residente ou de não-residente no País, dar-se-á o retorno à condição anterior somente quando ocorrer qualquer das hipóteses previstas nos arts. 2º ou 3º, conforme o caso.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art5">
+            
+            <TituloDispositivo>Cadastro de Pessoas Físicas</TituloDispositivo>
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    A partir de 1º de dezembro de 2002, é obrigatória a inscrição no Cadastro de Pessoas Físicas (CPF) de não-residente que possua no Brasil bens e direitos sujeitos a registro público, inclusive:
+
+  </p>
+            <Inciso id="art5_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    imóveis;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    veículos;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    embarcações;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    aeronaves;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    participações societárias;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    contas-correntes bancárias;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    aplicações no mercado financeiro;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    aplicações no mercado de capitais.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art5_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Para fins do previsto neste artigo devem ser observadas as disposições da Instrução Normativa SRF nº 190, de 9 de agosto de 2002.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art6">
+            
+            <TituloDispositivo>Declaração de Ajuste Anual Pessoa física que passar à condição de residente no Brasil</TituloDispositivo>
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    A pessoa física que passar à condição de residente no Brasil está sujeita às normas vigentes na legislação tributária aplicáveis aos demais residentes no Brasil a partir da data em que se caracterizar a condição de residente.
+
+  </p>
+            
+          </Caput><Paragrafo id="art6_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Para fins do disposto no caput, a pessoa física deve comunicar à fonte pagadora a condição de residente.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    Na Declaração de Ajuste Anual é aplicada a tabela progressiva anual e são permitidas todas as deduções previstas na legislação tributária, desde que incorridas a partir da aquisição da condição de residente no Brasil, obedecidos os limites legais.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    Na Declaração de Bens e Direitos da Declaração de Ajuste Anual, devem ser relacionados, na coluna &quot; Situação em 31 de dezembro&quot; do ano-calendário anterior, os bens móveis, imóveis, direitos e obrigações, no Brasil e no exterior, que constituíam o patrimônio da pessoa física e o de seus dependentes na data em que se caracterizou a condição de residente no Brasil.
+
+  </p>
+            
+          </Caput><Paragrafo id="art8_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A pessoa física que retornar à condição de residente no Brasil deve considerar como custo:
+
+  </p>
+            <Inciso id="art8_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    dos bens e direitos adquiridos anteriormente à saída do Brasil, o valor constante na Declaração de Saída Definitiva do País ou na última declaração apresentada ou, ainda, no caso de não-obrigado à entrega de declaração, o custo de aquisição, atualizado até 31 de dezembro de 1995 com base na tabela constante no Anexo I, observado o disposto no art. 96 da Lei nº 8.383, de 30 de dezembro de 1991;
+
+  </p>
+            
+          </Inciso><Inciso id="art8_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    dos bens e direitos situados no exterior, adquiridos no período em que o contribuinte se encontrava na situação de não-residente no Brasil, os valores de aquisição convertidos:
+
+  </p>
+            <Alinea id="art8_par1_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    em reais pela cotação cambial de venda da moeda em que o bem foi adquirido, fixada pelo Banco Central do Brasil para a data da aquisição, no caso de bens adquiridos até 31 de dezembro de 1999;
+
+  </p>
+            
+          </Alinea><Alinea id="art8_par1_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    em dólares dos Estados Unidos da América e, em seguida, em reais pela cotação do dólar fixada, para venda, pelo Banco Central do Brasil, para a data da aquisição, no caso de bens adquiridos a partir de 1º de janeiro de 2000;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art8_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    dos bens e direitos situados no Brasil, adquiridos no período em que o contribuinte se encontrava na situação de não-residente no Brasil, o valor de aquisição atualizado até 31 de dezembro de 1995 com base na tabela constante no Anexo I, se for o caso.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art8_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Na hipótese da alínea &quot; a&quot; do inciso II do § 1º, os valores de aquisição são atualizados até 31 de dezembro de 1995 com base na tabela constante do Anexo I, se for o caso.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A pessoa física que passar à condição de residente no Brasil, que não tenha tido essa condição anteriormente, deve declarar os bens e direitos situados no exterior na forma do disposto no inciso II do § 1º.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Os saldos dos depósitos não remunerados mantidos em instituições financeiras no exterior, bem assim as dívidas e ônus reais assumidos no exterior, devem ser convertidos em reais pela cotação fixada, para compra, pelo Banco Central do Brasil, para a data em que se caracterizar a condição de residente no Brasil.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    O estoque de moeda estrangeira em poder do contribuinte deve ser convertido em dólares dos Estados Unidos da América pelo valor fixado pela autoridade monetária do país emissor da moeda para a data em que se caracterizar a condição de residente no Brasil e, em seguida, em reais pela cotação do dólar fixada, para venda, pelo Banco Central do Brasil, para a data em que se caracterizar a condição de residente no Brasil.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    Nas situações previstas no § 1º, inciso II, &quot; a&quot; , e no § 4º, caso a moeda utilizada na aquisição dos bens e direitos não tenha cotação no Brasil, o custo de aquisição dos bens e direitos, os saldos dos depósitos e o estoque de moeda estrangeira devem ser convertidos em dólares dos Estados Unidos da América pelo valor fixado pela autoridade monetária do país emissor da moeda e, em seguida, em reais pela cotação do dólar fixada pelo Banco Central do Brasil.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8_par7">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    Considera-se o custo de aquisição igual a zero na impossibilidade de sua comprovação.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art9">
+            
+            <TituloDispositivo>Pessoa física que passar à condição de não-residente Saída definitiva do País</TituloDispositivo>
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            
+            
+            
+            <p>
+    A pessoa física residente no Brasil que se retire em caráter permanente do território nacional no curso do ano-calendário deve, observado o disposto no art. 11-A: [Redação dada pelo(a) Instrução Normativa RFB nº 1008, de 9 de fevereiro de 2010]
+
+  </p>
+            <Inciso id="art9_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    apresentar a Declaração de Saída Definitiva do País, relativa ao período em que tenha permanecido na condição de residente no Brasil no ano-calendário da saída, até o último dia útil do mês de abril do ano-calendário subsequente ao da saída definitiva, bem como as declarações correspondentes a anos-calendário anteriores, se obrigatórias e ainda não entregues; [Redação dada pelo(a) Instrução Normativa RFB nº 1008, de 9 de fevereiro de 2010]
+
+  </p>
+            <Alinea id="art9_cpt_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    até [Redação dada pelo(a) Instrução Normativa RFB nº 897, de 29 de dezembro de 2008] [Suprimido(a) - vide Instrução Normativa RFB nº 1008, de 9 de fevereiro de 2010]
+
+  </p>
+            
+          </Alinea><Alinea id="art9_cpt_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    até [Redação dada pelo(a) Instrução Normativa RFB nº 897, de 29 de dezembro de 2008] [Suprimido(a) - vide Instrução Normativa RFB nº 1008, de 9 de fevereiro de 2010]
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art9_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    recolher em quota única, até a data prevista para a entrega das declarações de que trata o inciso I, o imposto nelas apurado e os demais créditos tributários ainda não quitados, cujos prazos para pagamento são considerados vencidos nesta data, se prazo menor não estiver estipulado na legislação tributária.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art9_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Para fins do disposto no inciso II do caput, são considerados sem efeito suspensivo da cobrança as reclamações contra imposto de renda lançado ou arrecadado na fonte, permitidos, todavia, depósitos, em dinheiro, relativamente à parte objeto de reclamação.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A Declaração de Saída Definitiva do País de que trata o inciso I do caput deve ser transmitida pela Internet ou apresentada, em mídia removível, nas unidades da Secretaria da Receita Federal do Brasil. [Redação dada pelo(a) Instrução Normativa RFB nº 1150, de 29 de abril de 2011]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Na Declaração de Saída Definitiva do País, o imposto é apurado mediante a utilização dos valores da tabela progressiva mensal, vigente no ano-calendário da saída, multiplicados pelo número de meses em que o contribuinte tenha permanecido na condição de residente no Brasil, no ano-calendário em questão.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Na determinação da base de cálculo na Declaração de Saída Definitiva do País podem ser deduzidos, observados os limites e condições fixados na legislação pertinente:
+
+  </p>
+            <Inciso id="art9_par4_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    as importâncias pagas em dinheiro a título de pensão alimentícia em face das normas do Direito de Família, quando em cumprimento de decisão judicial ou acordo homologado judicialmente, inclusive a prestação de alimentos provisionais;
+
+  </p>
+            
+          </Inciso><Inciso id="art9_par4_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o valor correspondente à dedução anual por dependente; ................................................................................................. [Redação dada pelo(a) Instrução Normativa SRF nº 711, de 31 de janeiro de 2007]
+
+  </p>
+            
+          </Inciso><Inciso id="art9_par4_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    as contribuições para a Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios, cujo ônus tenha sido do próprio contribuinte e desde que destinadas ao seu próprio benefício;
+
+  </p>
+            
+          </Inciso><Inciso id="art9_par4_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    as contribuições para entidades de previdência complementar e sociedades seguradoras domiciliadas no País e Fundos de Aposentadoria Programada Individual (Fapi), destinadas a custear benefícios complementares aos da Previdência Social, cujo ônus seja da própria pessoa física, condicionadas ao recolhimento, também, de contribuições para o regime geral de previdência social ou, quando for o caso, para regime próprio de previdência social dos servidores titulares de cargo efetivo da União, dos Estados, do Distrito Federal ou dos Municípios, observada a contribuição mínima, e limitadas a 12% (doze por cento) do total dos rendimentos computados na determinação da base de cálculo do imposto devido na Declaração de Saída Definitiva do País; [Redação dada pelo(a) Instrução Normativa SRF nº 711, de 31 de janeiro de 2007]
+
+  </p>
+            
+          </Inciso><Inciso id="art9_par4_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    as despesas médicas e as despesas com instrução, próprias e dos dependentes;
+
+  </p>
+            
+          </Inciso><Inciso id="art9_par4_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    as despesas escrituradas em livro Caixa.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art9_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Relativamente à dedução a que se refere o inciso IV do § 4º- , deve ser observado que: [Redação dada pelo(a) Instrução Normativa SRF nº 711, de 31 de janeiro de 2007]
+
+  </p>
+            <Inciso id="art9_par5_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    excetuam-se da condição nele previsto os beneficiários de aposentadoria ou pensão concedidas por regime próprio de previdência ou pelo regime geral de previdência social, mantido, entretanto, o limite de 12% (doze por cento) do total dos rendimentos computados na determinação da base de cálculo do imposto devido na Declaração de Saída Definitiva do País; [Incluído(a) pelo(a) Instrução Normativa SRF nº 711, de 31 de janeiro de 2007]
+
+  </p>
+            
+          </Inciso><Inciso id="art9_par5_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    as contribuições para planos de previdência complementar e para Fapi, cujo titular ou quotista seja dependente, para fins fiscais, do declarante, podem ser deduzidas desde que o declarante seja contribuinte do regime geral de previdência social ou, quando for o caso, para regime próprio de previdência social dos servidores titulares de cargo efetivo da União, dos Estados, do Distrito Federal ou dos Municípios; [Incluído(a) pelo(a) Instrução Normativa SRF nº 711, de 31 de janeiro de 2007]
+
+  </p>
+            
+          </Inciso><Inciso id="art9_par5_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    na hipótese do inciso II, a dedução de contribuições efetuadas em benefício de dependente com mais de 16 anos fica condicionada, ainda, ao recolhimento, em seu nome, de contribuições para o regime geral de previdência social, observada a contribuição mínima, ou, quando for o caso, para regime próprio de previdência social dos servidores titulares de cargo efetivo da União, dos Estados, do Distrito Federal ou dos Municípios. [Incluído(a) pelo(a) Instrução Normativa SRF nº 711, de 31 de janeiro de 2007]
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art9_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    As despesas médicas e com instrução de alimentandos, quando realizadas pelo alimentante em virtude de cumprimento de decisão judicial ou acordo homologado judicialmente, podem ser deduzidas a tais títulos na determinação da base de cálculo do imposto na declaração do alimentante, observados os limites e condições fixados na legislação pertinente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par7">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    As deduções referentes a pagamentos efetuados em moeda estrangeira são convertidas em dólares dos Estados Unidos da América, pelo valor fixado pela autoridade monetária do país no qual as despesas foram realizadas para a data do pagamento e, em seguida, em reais pela cotação do dólar fixada, para venda, pelo Banco Central do Brasil para o último dia útil da primeira quinzena do mês anterior ao do pagamento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par8">
+            
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    Para fins do disposto neste artigo, ao pleitear a restituição de imposto por meio da declaração, o sujeito passivo deve indicar o banco, a agência e o número da conta-corrente ou de poupança de sua titularidade em que pretende seja efetuado o crédito.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par9">
+            
+            
+            <Rotulo>§ 9º</Rotulo>
+            <p>
+    os prêmios de seguro de vida com cláusula de cobertura por sobrevivência são indedutíveis para fins de determinação da base de cálculo do imposto devido na Declaração de Saída Definitiva do País; [Incluído(a) pelo(a) Instrução Normativa SRF nº 711, de 31 de janeiro de 2007]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par10">
+            
+            
+            <Rotulo>§ 10.</Rotulo>
+            <p>
+    As deduções de que tratam os incisos I e III a VI do § 4º- aplicam-se às despesas pagas no período em que o contribuinte esteve na condição de residente no Brasil, no ano-calendário a que se referir a declaração. [Incluído(a) pelo(a) Instrução Normativa SRF nº 711, de 31 de janeiro de 2007]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par11">
+            
+            
+            <Rotulo>§ 11.</Rotulo>
+            <p>
+    O prazo para a entrega da Declaração e para o recolhimento do imposto e dos demais créditos tributários de que tratam, respectivamente, os incisos I e II do caput, originalmente fixado para 30 de abril de 2020, fica excepcionalmente prorrogado para 30 de junho de 2020. [Incluído(a) pelo(a) Instrução Normativa RFB nº 1934, de 7 de abril de 2020]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par12">
+            
+            
+            <Rotulo>§ 12.</Rotulo>
+            <p>
+    O prazo para a entrega da Declaração e para o recolhimento do imposto e dos demais créditos tributários de que tratam, respectivamente, os incisos I e II do caput, originalmente fixado para até 30 de abril de 2021, fica excepcionalmente prorrogado para até 31 de maio de 2021. [Incluído(a) pelo(a) Instrução Normativa RFB nº 2020, de 9 de abril de 2021]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par13">
+            
+            
+            <Rotulo>§ 13.</Rotulo>
+            <p>
+    O prazo para a apresentação da declaração e para o recolhimento do imposto e dos demais créditos tributários de que tratam, respectivamente, os incisos I e II do caput, originalmente fixado para até 29 de abril de 2022, fica excepcionalmente prorrogado para até 31 de maio de 2022. [Incluído(a) pelo(a) Instrução Normativa RFB nº 2077, de 4 de abril de 2022]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par14">
+            
+            
+            <Rotulo>§ 14.</Rotulo>
+            <p>
+    O prazo para a apresentação da declaração e para o recolhimento do imposto e dos demais créditos tributários de que tratam, respectivamente, os incisos I e II do caput, originalmente fixado para até 28 de abril de 2023, fica excepcionalmente prorrogado para até 31 de maio de 2023. [Incluído(a) pelo(a) Instrução Normativa RFB nº 2134, de 27 de fevereiro de 2023]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par15">
+            
+            
+            <Rotulo>§ 15.</Rotulo>
+            <p>
+    O prazo para a apresentação da declaração e para o recolhimento do imposto e dos demais créditos tributários de que tratam, respectivamente, os incisos I e II do caput, originalmente fixado para até 30 de abril de 2024, fica prorrogado para até 31 de maio de 2024. [Incluído(a) pelo(a) Instrução Normativa RFB nº 2178, de 5 de março de 2024]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par16">
+            
+            
+            <Rotulo>§ 16.</Rotulo>
+            <p>
+    O prazo para a apresentação da declaração e para o recolhimento do imposto e dos demais créditos tributários de que tratam, respectivamente, os incisos I e II do caput, originalmente fixado para até 30 de abril de 2025, fica prorrogado para até 30 de maio de 2025. [Incluído(a) pelo(a) Instrução Normativa RFB nº 2263, de 25 de abril de 2025]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par17">
+            
+            
+            <Rotulo>§ 17.</Rotulo>
+            <p>
+    O prazo para a apresentação da declaração e para o recolhimento do imposto e dos demais créditos tributários de que tratam, respectivamente, os incisos I e II do caput, originalmente fixado para até 30 de abril de 2026, fica prorrogado para até 29 de maio de 2026. [Incluído(a) pelo(a) Instrução Normativa RFB nº 2312, de 13 de março de 2026]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>
+    Os rendimentos recebidos de fontes situadas no Brasil pela pessoa física que se retirar em caráter permanente do território nacional sujeitam-se à tributação exclusiva na fonte ou definitiva, nos termos previstos nos arts. 26 a 45, a partir da data da saída definitiva do País.
+
+  </p>
+            
+          </Caput><Paragrafo id="art10_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Para fins do disposto no caput, a pessoa física deve comunicar à fonte pagadora a data da saída definitiva do Brasil.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Caso a pessoa física se retire em caráter permanente do território nacional sem apresentar a Comunicação de Saída Definitiva do País, de que trata o art. 11-A, nem a Declaração de Saída Definitiva do País, de que trata o art. 9º, seus rendimentos serão tributados nos termos previstos no § 1º do art. 11 durante os primeiros 12 (doze) meses, contados a partir da data da saída, e, a partir do 13º (décimo terceiro) mês, conforme o disposto nos arts. 26 a 45. [Redação dada pelo(a) Instrução Normativa RFB nº 1008, de 9 de fevereiro de 2010]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art11">
+            
+            <TituloDispositivo>Saída em caráter temporário do Brasil</TituloDispositivo>
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            <p>
+    A pessoa física que se ausente do território nacional em caráter temporário e permaneça no exterior por mais de 12 (doze) meses consecutivos deve, observado o disposto no art. 11-A: [Redação dada pelo(a) Instrução Normativa RFB nº 1008, de 9 de fevereiro de 2010]
+
+  </p>
+            <Inciso id="art11_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    apresentar a Declaração de Saída Definitiva do País, relativa ao período em que tenha permanecido na condição de residente no Brasil no ano-calendário da caracterização da condição de não-residente, até o último dia útil do mês de abril do ano-calendário subsequente ao da caracterização; [Redação dada pelo(a) Instrução Normativa RFB nº 1008, de 9 de fevereiro de 2010]
+
+  </p>
+            <Alinea id="art11_cpt_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    até [Incluído(a) pelo(a) Instrução Normativa SRF nº 711, de 31 de janeiro de 2007] [Suprimido(a) - vide Instrução Normativa RFB nº 1008, de 9 de fevereiro de 2010]
+
+  </p>
+            
+          </Alinea><Alinea id="art11_cpt_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    até [Incluído(a) pelo(a) Instrução Normativa SRF nº 711, de 31 de janeiro de 2007] [Suprimido(a) - vide Instrução Normativa RFB nº 1008, de 9 de fevereiro de 2010]
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art11_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    recolher em quota única, até a data prevista para a entrega das declarações de que trata o inciso I, o imposto nelas apurado e os demais créditos tributários ainda não quitados, cujos prazos para pagamento são considerados vencidos nesta data, se prazo menor não estiver estipulado na legislação tributária.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art11_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os rendimentos recebidos nos primeiros doze meses consecutivos de ausência:
+
+  </p>
+            <Inciso id="art11_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    de fontes situadas no Brasil são tributados como os rendimentos recebidos pelos demais residentes no Brasil;
+
+  </p>
+            
+          </Inciso><Inciso id="art11_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    de fontes situadas no exterior sujeitam-se à tributação no Brasil nos termos previstos nos arts. 14 a 16, 19 e 20.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art11_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os rendimentos recebidos a partir do décimo terceiro mês consecutivo de ausência sujeitam-se à tributação exclusiva na fonte ou definitiva, nos termos previstos nos arts. 26 a 45.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art11_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O prazo para a entrega da Declaração e para o recolhimento do imposto e dos demais créditos tributários de que tratam, respectivamente, os incisos I e II do caput, originalmente fixado para 30 de abril de 2020, fica excepcionalmente prorrogado para 30 de junho de 2020. [Incluído(a) pelo(a) Instrução Normativa RFB nº 1934, de 7 de abril de 2020]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art11_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O prazo para a entrega da Declaração e para o recolhimento do imposto e dos demais créditos tributários de que tratam, respectivamente, os incisos I e II do caput, originalmente fixado para até 30 de abril de 2021, fica excepcionalmente prorrogado para até 31 de maio de 2021. [Incluído(a) pelo(a) Instrução Normativa RFB nº 2020, de 9 de abril de 2021]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art11_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    O prazo para a apresentação da declaração e para o recolhimento do imposto e dos demais créditos tributários de que tratam, respectivamente, os incisos I e II do caput, originalmente fixado para até 29 de abril de 2022, fica excepcionalmente prorrogado para até 31 de maio de 2022. [Incluído(a) pelo(a) Instrução Normativa RFB nº 2077, de 4 de abril de 2022]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art11_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    O prazo para a apresentação da declaração e para o recolhimento do imposto e dos demais créditos tributários de que tratam, respectivamente, os incisos I e II do caput, originalmente fixado para até 28 de abril de 2023, fica excepcionalmente prorrogado para até 31 de maio de 2023. [Incluído(a) pelo(a) Instrução Normativa RFB nº 2134, de 27 de fevereiro de 2023]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art11_par7">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    O prazo para a apresentação da declaração e para o recolhimento do imposto e dos demais créditos tributários de que tratam, respectivamente, os incisos I e II do caput, originalmente fixado para até 30 de abril de 2024, fica prorrogado para até 31 de maio de 2024. [Incluído(a) pelo(a) Instrução Normativa RFB nº 2178, de 5 de março de 2024]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art11_par8">
+            
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    O prazo para a apresentação da declaração e para o recolhimento do imposto e dos demais créditos tributários de que tratam, respectivamente, os incisos I e II do caput, originalmente fixado para até 30 de abril de 2025, fica prorrogado para até 30 de maio de 2025. [Incluído(a) pelo(a) Instrução Normativa RFB nº 2263, de 25 de abril de 2025]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art11_par9">
+            
+            
+            <Rotulo>§ 9º</Rotulo>
+            <p>
+    O prazo para a apresentação da declaração e para o recolhimento do imposto e dos demais créditos tributários de que tratam, respectivamente, os incisos I e II do caput, originalmente fixado para até 30 de abril de 2026, fica prorrogado para até 29 de maio de 2026. [Incluído(a) pelo(a) Instrução Normativa RFB nº 2312, de 13 de março de 2026]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art11-1">
+            
+            
+            <Rotulo>Art. 11-A.</Rotulo>
+            
+            <Caput id="art11-1_cpt">
+            
+            
+            
+            <p>
+    A pessoa física residente no Brasil que se retire do território nacional deve apresentar a Comunicação de Saída Definitiva do País: [Incluído(a) pelo(a) Instrução Normativa RFB nº 1008, de 9 de fevereiro de 2010]
+
+  </p>
+            <Inciso id="art11-1_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a partir da data da saída e até o último dia do mês de fevereiro do ano-calendário subsequente, se esta ocorreu em caráter permanente; ou [Incluído(a) pelo(a) Instrução Normativa RFB nº 1008, de 9 de fevereiro de 2010]
+
+  </p>
+            
+          </Inciso><Inciso id="art11-1_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a partir da data da caracterização da condição de não-residente e até o último dia do mês de fevereiro do ano-calendário subsequente, se a saída ocorreu em caráter temporário. [Incluído(a) pelo(a) Instrução Normativa RFB nº 1008, de 9 de fevereiro de 2010]
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art11-1_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A Comunicação de que trata o caput não dispensa a apresentação da Declaração de Saída Definitiva do País de que tratam os arts. 9º e 11. [Incluído(a) pelo(a) Instrução Normativa RFB nº 1008, de 9 de fevereiro de 2010]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art11-1_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os dependentes, inscritos no CPF, que se retirem do território nacional na mesma data do titular da Comunicação de que trata o caput devem constar desta. [Incluído(a) pelo(a) Instrução Normativa RFB nº 1008, de 9 de fevereiro de 2010]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art12">
+            
+            <TituloDispositivo>Pessoa física ausente no exterior a serviço do Brasil</TituloDispositivo>
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            
+            
+            
+            <p>
+    A pessoa física ausente no exterior a serviço do Brasil em autarquias ou repartições do Governo brasileiro situadas no exterior mantém a condição de residente no Brasil e sujeita-se à apresentação da Declaração de Ajuste Anual de acordo com as mesmas normas aplicáveis às demais pessoas físicas residentes no País, observado o disposto nos arts. 17 e 18.
+
+  </p>
+            
+          </Caput><Paragrafo id="art12_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Não se enquadra no conceito de ausente no exterior a serviço do Brasil o empregado de empresa pública ou de sociedade de economia mista, quando a serviço específico da empresa no exterior, bem assim o contratado local de representações diplomáticas.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art13">
+            
+            <TituloDispositivo>Falta de apresentação da declaração</TituloDispositivo>
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>
+    A falta de apresentação das declarações a que se referem os arts. 9º e 11 ou a sua apresentação após o prazo fixado sujeita o contribuinte às seguintes penalidades:
+
+  </p>
+            <Inciso id="art13_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    existindo imposto devido, multa de um por cento ao mês ou fração de atraso calculada sobre o valor do imposto devido, observados os limites mínimo de R$ 165,74 (cento e sessenta e cinco reais e setenta e quatro centavos) e máximo de vinte por cento do valor do imposto devido; ou
+
+  </p>
+            
+          </Inciso><Inciso id="art13_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    não existindo imposto devido, multa de R$ 165,74 (cento e sessenta e cinco reais e setenta e quatro centavos).
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art14">
+            
+            <TituloDispositivo>Tributação de Rendimentos Recebidos de fonte no exterior por residente no Brasil Ganhos de capital</TituloDispositivo>
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            <p>
+    A alienação de bens ou direitos e a liquidação ou resgate de aplicações financeiras adquiridos, a qualquer título, em moeda estrangeira, bem assim a alienação de moeda estrangeira mantida em espécie, de propriedade de pessoa física, estão sujeitos à apuração de ganho de capital tributável de acordo com o disposto no art. 24 da Medida Provisória nº 2.158-35, de 24 de agosto de 2001, e sua regulamentação.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art15">
+            
+            <TituloDispositivo>Resultado da atividade rural</TituloDispositivo>
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>
+    O resultado da atividade rural exercida no exterior, quando positivo, integra a base de cálculo do imposto devido na declaração no ano-calendário e deve ser apurado de acordo com o disposto na Instrução Normativa SRF nº 83, de 11 de outubro de 2001.
+
+  </p>
+            
+          </Caput><Paragrafo id="art15_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O imposto pago no exterior pode ser compensado na Declaração de Ajuste Anual até o valor correspondente à diferença entre o imposto calculado com a inclusão do resultado da atividade rural exercida no exterior e o imposto calculado sem a inclusão desses rendimentos, observado o disposto nos arts. 1º, caput e § 2º, e 16, § 1º, desde que não seja compensado ou restituído no exterior.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O imposto pago no exterior é convertido em dólares dos Estados Unidos da América, pelo valor fixado pela autoridade monetária do país de origem dos rendimentos para a data do recebimento e, em seguida, em reais pela cotação do dólar fixada, para compra, pelo Banco Central do Brasil para o último dia útil da primeira quinzena do mês anterior ao do recebimento do rendimento.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art16">
+            
+            <TituloDispositivo>Demais rendimentos recebidos</TituloDispositivo>
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            
+            
+            
+            <p>
+    Os demais rendimentos recebidos de fontes situadas no exterior por residente no Brasil, transferidos ou não para o País, estão sujeitos à tributação sob a forma de recolhimento mensal obrigatório (carnê-leão), no mês do recebimento, e na Declaração de Ajuste Anual.
+
+  </p>
+            
+          </Caput><Paragrafo id="art16_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O imposto de renda pago em país com o qual o Brasil tenha firmado acordo, tratado ou convenção internacional prevendo a compensação, ou naquele em que haja reciprocidade de tratamento, pode ser considerado como redução do imposto devido no Brasil, desde que não seja compensado ou restituído no exterior.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os rendimentos em moeda estrangeira e o imposto pago no exterior são convertidos em dólares dos Estados Unidos da América, pelo valor fixado pela autoridade monetária do país de origem dos rendimentos para a data do recebimento e, em seguida, em reais pela cotação do dólar fixada, para compra, pelo Banco Central do Brasil para o último dia útil da primeira quinzena do mês anterior ao do recebimento do rendimento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Na determinação da base de cálculo sujeita à incidência mensal do imposto, quando não utilizados para fins de retenção na fonte, podem ser deduzidos, observados os limites e condições fixados na legislação pertinente:
+
+  </p>
+            <Inciso id="art16_par3_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    as importâncias pagas em dinheiro a título de pensão alimentícia em face das normas do Direito de Família, quando em cumprimento de decisão judicial ou acordo homologado judicialmente, inclusive a prestação de alimentos provisionais;
+
+  </p>
+            
+          </Inciso><Inciso id="art16_par3_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o valor de R$ 106,00 (cento e seis reais) por dependente;
+
+  </p>
+            
+          </Inciso><Inciso id="art16_par3_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    as contribuições para a Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios, cujo ônus tenha sido do próprio contribuinte e desde que destinadas a seu próprio benefício;
+
+  </p>
+            
+          </Inciso><Inciso id="art16_par3_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    as despesas escrituradas em livro Caixa.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art16_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    As deduções referentes aos pagamentos efetuados em moeda estrangeira são convertidas em dólares dos Estados Unidos da América, pelo valor fixado pela autoridade monetária do país no qual as despesas foram realizadas para a data do pagamento e, em seguida, em reais pela cotação do dólar fixada, para venda, pelo Banco Central do Brasil para o último dia útil da primeira quinzena do mês anterior ao do pagamento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    O imposto relativo ao carnê-leão deve ser calculado mediante utilização da tabela progressiva mensal vigente no mês do recebimento do rendimento e recolhido até o último dia útil do mês subseqüente ao do recebimento do rendimento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    O imposto pago no país de origem dos rendimentos pode ser compensado no mês do pagamento com o imposto relativo ao carnê-leão e com o apurado na Declaração de Ajuste Anual, até o valor correspondente à diferença entre o imposto calculado com a inclusão dos rendimentos de fontes no exterior e o imposto calculado sem a inclusão desses rendimentos, observado o disposto no § 1º deste artigo e no art. 1º, caput e § 2º.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par7">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    Se o pagamento do imposto de que trata o § 1º ocorrer em ano-calendário posterior ao do recebimento do rendimento, a pessoa física pode compensá-lo com o imposto relativo ao carnê-leão do mês do seu efetivo pagamento e com o apurado na Declaração de Ajuste Anual do ano-calendário do pagamento do imposto, observado o limite de compensação de que trata o § 6º relativamente à Declaração de Ajuste Anual do ano-calendário do recebimento do rendimento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par8">
+            
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    Caso o imposto pago no exterior seja maior do que o imposto relativo ao carnê-leão no mês do pagamento, a diferença pode ser compensada nos meses subseqüentes até dezembro do ano-calendário e na Declaração de Ajuste Anual, observado o limite de que trata o § 6º.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par9">
+            
+            
+            <Rotulo>§ 9º</Rotulo>
+            <p>
+    Na determinação da base de cálculo na Declaração de Ajuste Anual podem ser deduzidos, observados os limites e condições fixados na legislação pertinente:
+
+  </p>
+            <Inciso id="art16_par9_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    as importâncias pagas em dinheiro a título de pensão alimentícia em face das normas do Direito de Família, quando em cumprimento de decisão judicial ou acordo homologado judicialmente, inclusive a prestação de alimentos provisionais;
+
+  </p>
+            
+          </Inciso><Inciso id="art16_par9_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o valor de R$ 1.272,00 (mil, duzentos e setenta e dois reais) por dependente;
+
+  </p>
+            
+          </Inciso><Inciso id="art16_par9_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    as contribuições para a Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios, cujo ônus tenha sido do próprio contribuinte e desde que destinadas a seu próprio benefício;
+
+  </p>
+            
+          </Inciso><Inciso id="art16_par9_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    as contribuições para as entidades de previdência privada domiciliadas no Brasil, destinadas a custear benefícios complementares assemelhados aos da Previdência Social e para os Fundos de Aposentadoria Programada Individual (Fapi), cujo ônus tenha sido do próprio contribuinte e desde que destinadas a seu próprio benefício bem assim de seus dependentes;
+
+  </p>
+            
+          </Inciso><Inciso id="art16_par9_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    as despesas médicas e as despesas com instrução, próprias e dos dependentes;
+
+  </p>
+            
+          </Inciso><Inciso id="art16_par9_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    as despesas escrituradas em livro Caixa.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art16_par10">
+            
+            
+            <Rotulo>§ 10.</Rotulo>
+            <p>
+    Outros rendimentos recebidos de fontes situadas no Brasil ou no exterior pelas pessoas físicas de que trata este artigo devem ser declarados segundo as mesmas normas aplicáveis às demais pessoas físicas residentes no Brasil.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par11">
+            
+            
+            <Rotulo>§ 11.</Rotulo>
+            <p>
+    A dedução a que se refere o inciso IV do § 9º é limitada a doze por cento do total dos rendimentos tributáveis computados na determinação da base de cálculo do imposto devido na declaração.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par12">
+            
+            
+            <Rotulo>§ 12.</Rotulo>
+            <p>
+    As despesas médicas e com instrução de alimentandos, quando realizadas pelo alimentante em virtude de cumprimento de decisão judicial ou acordo homologado judicialmente, podem ser deduzidas a tais títulos na determinação da base de cálculo do imposto na declaração do alimentante, observados os limites e condições fixados na legislação pertinente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par13">
+            
+            
+            <Rotulo>§ 13.</Rotulo>
+            <p>
+    As deduções referentes a pagamentos efetuados em moeda estrangeira são convertidas em dólares dos Estados Unidos da América, pelo valor fixado pela autoridade monetária do país no qual as despesas foram realizadas para a data do pagamento e, em seguida, em reais pela cotação do dólar fixada, para venda, pelo Banco Central do Brasil para o último dia útil da primeira quinzena do mês anterior ao do pagamento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par14">
+            
+            
+            <Rotulo>§ 14.</Rotulo>
+            <p>
+    A Declaração de Ajuste Anual deve ser transmitida pela Internet ou apresentada, em mídia removível, nas agências bancárias autorizadas, até o último dia útil do mês de abril do ano-calendário subsequente ao do recebimento dos rendimentos. [Redação dada pelo(a) Instrução Normativa RFB nº 1150, de 29 de abril de 2011]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par15">
+            
+            
+            <Rotulo>§ 15.</Rotulo>
+            <p>
+    O saldo do imposto apurado na declaração deve ser recolhido de acordo com as normas aplicáveis às demais pessoas físicas residentes no Brasil.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par16">
+            
+            
+            <Rotulo>§ 16.</Rotulo>
+            <p>
+    Para fins do disposto neste artigo, ao pleitear a restituição de imposto por meio da declaração, o sujeito passivo deve indicar o banco, a agência e o número da conta-corrente ou de poupança de sua titularidade em que pretende seja efetuado o crédito.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art17">
+            
+            <TituloDispositivo>Recebidos por ausente no exterior a serviço do Brasil</TituloDispositivo>
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            
+            
+            
+            <p>
+    Os rendimentos do trabalho assalariado recebidos em moeda estrangeira por residente no Brasil ausente no exterior a serviço do País, de autarquias ou repartições do Governo brasileiro situadas no exterior, estão sujeitos ao imposto na fonte, observado o disposto no § 5º do art. 16.
+
+  </p>
+            
+          </Caput><Paragrafo id="art17_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Na determinação da base de cálculo mensal são considerados como tributáveis 25% do total dos rendimentos referidos no caput deste artigo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art17_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os rendimentos do trabalho assalariado em moeda estrangeira são convertidos em reais pela cotação do dólar dos Estados Unidos da América fixada, para compra, pelo Banco Central do Brasil para o último dia útil da primeira quinzena do mês anterior ao do recebimento do rendimento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art17_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Na determinação da base de cálculo sujeita à incidência mensal do imposto na fonte podem ser deduzidos, observados os limites e condições fixados na legislação pertinente:
+
+  </p>
+            <Inciso id="art17_par3_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    as importâncias pagas em dinheiro a título de pensão alimentícia em face das normas do Direito de Família, quando em cumprimento de decisão judicial ou acordo homologado judicialmente, inclusive a prestação de alimentos provisionais;
+
+  </p>
+            
+          </Inciso><Inciso id="art17_par3_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o valor de R$ 106,00 (cento e seis reais) por dependente;
+
+  </p>
+            
+          </Inciso><Inciso id="art17_par3_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    as contribuições para a Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios, cujo ônus tenha sido do próprio contribuinte e desde que destinadas a seu próprio benefício;
+
+  </p>
+            
+          </Inciso><Inciso id="art17_par3_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    as contribuições para as entidades de previdência privada domiciliadas no Brasil, destinadas a custear benefícios complementares assemelhados aos da Previdência Social e para os Fundos de Aposentadoria Programada Individual (Fapi), cujo ônus tenha sido do próprio contribuinte e desde que destinadas a seu próprio benefício.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art17_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Aos demais rendimentos recebidos no exterior pelas pessoas físicas de que trata este artigo, aplicam-se as normas dos arts. 14 a 16.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art17_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Os demais rendimentos recebidos de fontes situadas no País estão sujeitos à tributação segundo as mesmas normas aplicáveis às demais pessoas físicas residentes no Brasil.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            
+            
+            
+            <p>
+    Na Declaração de Ajuste Anual, em relação ao trabalho assalariado prestado a autarquias ou repartições do Governo brasileiro situadas no exterior, são tributados 25% do total dos rendimentos recebidos, sendo os restantes 75% considerados rendimentos não-tributáveis.
+
+  </p>
+            
+          </Caput><Paragrafo id="art18_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Na determinação da base de cálculo na Declaração de Ajuste Anual podem ser deduzidos, observados os limites e condições fixados na legislação pertinente:
+
+  </p>
+            <Inciso id="art18_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    as importâncias pagas em dinheiro a título de pensão alimentícia em face das normas do Direito de Família, quando em cumprimento de decisão judicial ou acordo homologado judicialmente, inclusive a prestação de alimentos provisionais;
+
+  </p>
+            
+          </Inciso><Inciso id="art18_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o valor de R$ 1.272,00 (mil, duzentos e setenta e dois reais) por dependente;
+
+  </p>
+            
+          </Inciso><Inciso id="art18_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    as contribuições para a Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios, cujo ônus tenha sido do próprio contribuinte e desde que destinadas a seu próprio benefício;
+
+  </p>
+            
+          </Inciso><Inciso id="art18_par1_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    as contribuições para as entidades de previdência privada domiciliadas no Brasil, destinadas a custear benefícios complementares assemelhados aos da Previdência Social e para os Fundos de Aposentadoria Programada Individual (Fapi), cujo ônus tenha sido do próprio contribuinte e desde que destinadas a seu próprio benefício e/ou de seus dependentes;
+
+  </p>
+            
+          </Inciso><Inciso id="art18_par1_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    as despesas médicas e as despesas com instrução, próprias e dos dependentes.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art18_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Outros rendimentos recebidos de fontes situadas no Brasil ou no exterior pelas pessoas físicas de que trata este artigo devem ser declarados segundo as mesmas normas aplicáveis às demais pessoas físicas residentes no Brasil.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art18_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A dedução a que se refere o inciso IV do § 1º é limitada a doze por cento do total dos rendimentos tributáveis computados na determinação da base de cálculo do imposto devido na declaração.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art18_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    As despesas médicas e com instrução de alimentandos, quando realizadas pelo alimentante em virtude de cumprimento de decisão judicial ou acordo homologado judicialmente, podem ser deduzidas a tais títulos na determinação da base de cálculo do imposto na declaração do alimentante, observados os limites e condições fixados na legislação pertinente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art18_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    As deduções referentes a pagamentos efetuados em moeda estrangeira são convertidas em dólares dos Estados Unidos da América, pelo valor fixado pela autoridade monetária do país no qual as despesas foram realizadas para a data do pagamento e, em seguida, em reais pela cotação do dólar fixada, para venda, pelo Banco Central do Brasil para o último dia útil da primeira quinzena do mês anterior ao do pagamento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art18_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    A Declaração de Ajuste Anual deve ser transmitida pela Internet ou entregue nas representações diplomáticas do Brasil no exterior, se em formulário, até o último dia útil do mês de abril do ano-calendário subseqüente ao do recebimento dos rendimentos.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art18_par7">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    O saldo do imposto apurado na declaração deve ser recolhido de acordo com as normas aplicáveis às demais pessoas físicas residentes no Brasil.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art18_par8">
+            
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    Para fins do disposto neste artigo, ao pleitear a restituição de imposto por meio da declaração, o sujeito passivo deve indicar o banco, a agência e o número da conta-corrente ou de poupança de sua titularidade em que pretende seja efetuado o crédito.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art19">
+            
+            <TituloDispositivo>Recebidos por pessoa física que ingressar no Brasil com visto permanente</TituloDispositivo>
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            
+            
+            
+            <p>
+    A pessoa física que ingressar no Brasil em caráter permanente tem seus rendimentos, inclusive os recebidos de fontes situadas no exterior, tributados de acordo com as normas aplicáveis aos residentes no Brasil, a partir da data da chegada consignada no passaporte pela autoridade local competente.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art20">
+            
+            <TituloDispositivo>Recebidos por pessoa física que ingressar no Brasil com visto temporário</TituloDispositivo>
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            
+            
+            
+            <p>
+    Os rendimentos de pessoa física portadora de visto temporário:
+
+  </p>
+            <Inciso id="art20_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    recebidos de fontes situadas no Brasil até o dia anterior à data de aquisição da condição de residente no País são tributados de acordo com o disposto nos arts. 26 a 45;
+
+  </p>
+            
+          </Inciso><Inciso id="art20_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    recebidos de fontes situadas no Brasil e no exterior a partir da data de aquisição da condição de residente no País são tributados de acordo com as mesmas normas aplicáveis aos residentes no Brasil.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art21">
+            
+            <TituloDispositivo>Recebidos de organismos internacionais</TituloDispositivo>
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            
+            
+            
+            <p>
+    Os rendimentos recebidos por residentes no Brasil de organismos internacionais situados no Brasil ou no exterior estão sujeitos à tributação sob a forma de recolhimento mensal obrigatório (carnê-leão) no mês do recebimento e na Declaração de Ajuste Anual.
+
+  </p>
+            
+          </Caput><Paragrafo id="art21_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Estão isentos do imposto os rendimentos do trabalho recebidos pelo exercício de funções específicas no Programa das Nações Unidas para o Desenvolvimento no Brasil (PNUD), nas Agências Especializadas da Organização das Nações Unidas (ONU), na Organização dos Estados Americanos (OEA) e na Associação Latino-Americana de Integração (Aladi), situados no Brasil, por servidores aqui residentes, desde que seus nomes sejam relacionados e informados à SRF por tais organismos como integrantes das categorias por elas especificadas.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art21_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A informação de que trata o § 1º deve ser:
+
+  </p>
+            <Inciso id="art21_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    prestada em formulário, conforme o modelo constante no Anexo II, e conter o nome do organismo internacional, a relação dos servidores abrangidos pela isenção e os respectivos números de inscrição no CPF;
+
+  </p>
+            
+          </Inciso><Inciso id="art21_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    enviada até o último dia útil do mês de fevereiro do ano-calendário subseqüente ao do pagamento dos rendimentos à Coordenação-Geral de Fiscalização (Cofis) da SRF.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo id="art22">
+            
+            
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            
+            
+            
+            <p>
+    Estão isentos do imposto os rendimentos do trabalho assalariado recebidos no Brasil, por pessoa física não-residente, de organismos internacionais de que o Brasil faça parte e aos quais se tenha obrigado, por tratado, acordo ou convênio, a conceder isenção.
+
+  </p>
+            
+          </Caput><Paragrafo id="art22_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Os demais rendimentos recebidos no Brasil pelas pessoas referidas no caput são tributados de acordo com o disposto nos arts. 26 a 45.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art23">
+            
+            <TituloDispositivo>Recebidos de órgãos de governo estrangeiro no Brasil</TituloDispositivo>
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            
+            
+            
+            <p>
+    Estão isentos do imposto os rendimentos do trabalho assalariado recebidos no Brasil por:
+
+  </p>
+            <Inciso id="art23_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    servidor diplomático de governo estrangeiro;
+
+  </p>
+            
+          </Inciso><Inciso id="art23_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    servidor não-brasileiro de embaixadas, consulados e repartições oficiais de outros países no Brasil, desde que no país de sua nacionalidade seja assegurada a reciprocidade de tratamento aos brasileiros que lá exerçam idênticas funções.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art23_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Os demais rendimentos recebidos no Brasil pelas pessoas referidas no caput são tributados de acordo com o disposto nos arts. 26 a 45.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art24">
+            
+            
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput id="art24_cpt">
+            
+            
+            
+            <p>
+    Os rendimentos recebidos de órgãos de governo estrangeiro no País por residente no Brasil estão sujeitos à tributação sob a forma de recolhimento mensal obrigatório (carnê-leão) no mês do recebimento, e na Declaração de Ajuste Anual.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art25">
+            
+            <TituloDispositivo>Recebidos do Governo brasileiro no exterior por não-residente</TituloDispositivo>
+            <Rotulo>Art. 25.</Rotulo>
+            
+            <Caput id="art25_cpt">
+            
+            
+            
+            <p>
+    Estão isentos do imposto na fonte os rendimentos correspondentes a serviços prestados por não-residente, como assalariado ou não, recebidos de autarquias ou repartições do Governo brasileiro situadas fora do território nacional.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art26">
+            
+            <TituloDispositivo>Ganhos de capital de não-residente</TituloDispositivo>
+            <Rotulo>Art. 26.</Rotulo>
+            
+            <Caput id="art26_cpt">
+            
+            
+            
+            <p>
+    A alienação de bens e direitos situados no Brasil realizada por não-residente está sujeita à tributação definitiva sob a forma de ganho de capital, segundo as normas aplicáveis às pessoas físicas residentes no Brasil.
+
+  </p>
+            
+          </Caput><Paragrafo id="art26_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O ganho de capital é determinado pela diferença positiva entre o valor de alienação e o custo de aquisição do bem ou direito.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art26_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O custo de aquisição dos bens ou direitos adquiridos:
+
+  </p>
+            <Inciso id="art26_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    até 1995 pode ser atualizado com base nos índices constantes no Anexo I;
+
+  </p>
+            
+          </Inciso><Inciso id="art26_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a partir de 1996 não está sujeito a atualização.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art26_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O valor de aquisição do bem ou direito para fins do disposto neste artigo deve ser comprovado com documentação hábil e idônea.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art26_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Na impossibilidade de comprovação, o custo de aquisição será igual a zero. [Redação dada pelo(a) Instrução Normativa RFB nº 1662, de 30 de setembro de 2016]
+
+  </p>
+            <Inciso id="art26_par4_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    [Suprimido(a) - vide Instrução Normativa RFB nº 1662, de 30 de setembro de 2016]
+
+  </p>
+            
+          </Inciso><Inciso id="art26_par4_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    [Suprimido(a) - vide Instrução Normativa RFB nº 1662, de 30 de setembro de 2016]
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art26_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Na apuração do ganho de capital de não-residente não se aplicam as isenções e reduções previstas para o residente no Brasil.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art27">
+            
+            
+            <Rotulo>Art. 27.</Rotulo>
+            
+            <Caput id="art27_cpt">
+            
+            
+            
+            <p>
+    O imposto sobre o ganho de capital é:
+
+  </p>
+            <Inciso id="art27_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    determinado à alíquota de quinze por cento, ressalvada a existência de acordo, tratado ou convenção firmado entre o Brasil e o país de residência do alienante;
+
+  </p>
+            
+          </Inciso><Inciso id="art27_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    recolhido pelo alienante ou seu procurador na data da alienação.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art28">
+            
+            <TituloDispositivo>Operações financeiras <i>[Revogado(a) pelo(a) Instrução Normativa RFB nº 1022, de 5 de abril de 2010]</i></TituloDispositivo>
+            <Rotulo>Art. 28.</Rotulo>
+            
+            <Caput id="art28_cpt">
+            
+            
+            
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1022, de 5 de abril de 2010]
+
+  </p>
+            <Inciso id="art28_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1022, de 5 de abril de 2010]
+
+  </p>
+            
+          </Inciso><Inciso id="art28_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1022, de 5 de abril de 2010]
+
+  </p>
+            
+          </Inciso><Inciso id="art28_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1022, de 5 de abril de 2010]
+
+  </p>
+            
+          </Inciso><Inciso id="art28_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1022, de 5 de abril de 2010]
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art28_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1022, de 5 de abril de 2010]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art28_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1022, de 5 de abril de 2010]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art29">
+            
+            
+            <Rotulo>Art. 29.</Rotulo>
+            
+            <Caput id="art29_cpt">
+            
+            
+            
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1022, de 5 de abril de 2010]
+
+  </p>
+            <Inciso id="art29_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1022, de 5 de abril de 2010]
+
+  </p>
+            
+          </Inciso><Inciso id="art29_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1022, de 5 de abril de 2010]
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art29_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1022, de 5 de abril de 2010]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art29_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1022, de 5 de abril de 2010]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art29_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1022, de 5 de abril de 2010]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art30">
+            
+            
+            <Rotulo>Art. 30.</Rotulo>
+            
+            <Caput id="art30_cpt">
+            
+            
+            
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1022, de 5 de abril de 2010]
+
+  </p>
+            <Inciso id="art30_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1022, de 5 de abril de 2010]
+
+  </p>
+            
+          </Inciso><Inciso id="art30_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1022, de 5 de abril de 2010]
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art30_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1022, de 5 de abril de 2010]
+
+  </p>
+            <Inciso id="art30_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1022, de 5 de abril de 2010]
+
+  </p>
+            
+          </Inciso><Inciso id="art30_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1022, de 5 de abril de 2010]
+
+  </p>
+            
+          </Inciso><Inciso id="art30_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1022, de 5 de abril de 2010]
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art30_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1022, de 5 de abril de 2010]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art31">
+            
+            
+            <Rotulo>Art. 31.</Rotulo>
+            
+            <Caput id="art31_cpt">
+            
+            
+            
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1022, de 5 de abril de 2010]
+
+  </p>
+            
+          </Caput><Paragrafo id="art31_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1022, de 5 de abril de 2010]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art31_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1022, de 5 de abril de 2010]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art32">
+            
+            
+            <Rotulo>Art. 32.</Rotulo>
+            
+            <Caput id="art32_cpt">
+            
+            
+            
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1022, de 5 de abril de 2010]
+
+  </p>
+            <Inciso id="art32_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1022, de 5 de abril de 2010]
+
+  </p>
+            
+          </Inciso><Inciso id="art32_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1022, de 5 de abril de 2010]
+
+  </p>
+            
+          </Inciso><Inciso id="art32_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1022, de 5 de abril de 2010]
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art33">
+            
+            
+            <Rotulo>Art. 33.</Rotulo>
+            
+            <Caput id="art33_cpt">
+            
+            
+            
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1022, de 5 de abril de 2010]
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art34">
+            
+            
+            <Rotulo>Art. 34.</Rotulo>
+            
+            <Caput id="art34_cpt">
+            
+            
+            
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1022, de 5 de abril de 2010]
+
+  </p>
+            <Inciso id="art34_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1022, de 5 de abril de 2010]
+
+  </p>
+            
+          </Inciso><Inciso id="art34_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1022, de 5 de abril de 2010]
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art35">
+            
+            <TituloDispositivo>Remessas a não-residente</TituloDispositivo>
+            <Rotulo>Art. 35.</Rotulo>
+            
+            <Caput id="art35_cpt">
+            
+            
+            
+            <p>
+    Os rendimentos pagos, creditados, empregados, entregues ou remetidos a não-residente por fontes situadas no Brasil estão sujeitos à incidência do imposto exclusivamente na fonte, observadas as normas legais cabíveis.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art36">
+            
+            <TituloDispositivo>Remuneração do trabalho e de serviços</TituloDispositivo>
+            <Rotulo>Art. 36.</Rotulo>
+            
+            <Caput id="art36_cpt">
+            
+            
+            
+            <p>
+    Os rendimentos do trabalho, com ou sem vínculo empregatício, e os da prestação de serviços, pagos, creditados, entregues, empregados ou remetidos a não-residente sujeitam-se à incidência do imposto na fonte à alíquota de 25%, ressalvado o disposto no art. 37.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art37">
+            
+            <TituloDispositivo>Royalties e serviços técnicos e de assistência técnica e administrativa</TituloDispositivo>
+            <Rotulo>Art. 37.</Rotulo>
+            
+            <Caput id="art37_cpt">
+            
+            
+            
+            <p>
+    As importâncias pagas, creditadas, entregues, empregadas ou remetidas a não-residente a título de royalties de qualquer natureza e de remuneração de serviços técnicos e de assistência técnica, administrativa e semelhantes sujeitam-se à incidência do imposto na fonte à alíquota de quinze por cento.
+
+  </p>
+            
+          </Caput><Paragrafo id="art37_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Para fins do disposto no caput:
+
+  </p>
+            <Inciso id="art37_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    classificam-se como royalties os rendimentos de qualquer espécie decorrentes do uso, fruição, exploração de direitos, tais como:
+
+  </p>
+            <Alinea id="art37_par1_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    direito de colher ou extrair recursos vegetais, inclusive florestais;
+
+  </p>
+            
+          </Alinea><Alinea id="art37_par1_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    direito de pesquisar e extrair recursos minerais;
+
+  </p>
+            
+          </Alinea><Alinea id="art37_par1_inc1_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    uso ou exploração de invenções, processos e fórmulas de fabricação e de marcas de indústria e comércio;
+
+  </p>
+            
+          </Alinea><Alinea id="art37_par1_inc1_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    exploração de direitos autorais, salvo quando recebidos pelo autor ou criador do bem ou obra;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art37_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    considera-se:
+
+  </p>
+            <Alinea id="art37_par1_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    serviço técnico o trabalho, obra ou empreendimento cuja execução dependa de conhecimentos técnicos especializados, prestados por profissionais liberais ou de artes e ofícios;
+
+  </p>
+            
+          </Alinea><Alinea id="art37_par1_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    assistência técnica a assessoria permanente prestada pela cedente de processo ou fórmula secreta à concessionária, mediante técnicos, desenhos, estudos, instruções enviadas ao País e outros serviços semelhantes, os quais possibilitem a efetiva utilização do processo ou fórmula cedido.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Paragrafo><Paragrafo id="art37_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os juros de mora e quaisquer outras compensações decorrentes do pagamento em atraso dos rendimentos de que trata o caput sujeitam-se à incidência de imposto na fonte nas mesmas condições dos valores principais a que se refiram.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art37_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Os rendimentos mencionados no caput recebidos por residente em país com tributação favorecida sujeitam-se à incidência do imposto na fonte à alíquota de 25%.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art38">
+            
+            <TituloDispositivo>Instalação e manutenção de escritórios comerciais e de representação, de armazéns, depósitos ou entrepostos</TituloDispositivo>
+            <Rotulo>Art. 38.</Rotulo>
+            
+            <Caput id="art38_cpt">
+            
+            
+            
+            <p>
+    Os rendimentos recebidos de fontes situadas no Brasil, por não-residente, relativos a pagamento, crédito, emprego, entrega ou remessa para o exterior de despesas com instalação e manutenção de escritórios comerciais e de representação, de armazéns, depósitos ou entrepostos sujeitam-se à incidência do imposto na fonte à alíquota de quinze por cento.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art39">
+            
+            <TituloDispositivo>Juros, comissões, despesas e descontos decorrentes de colocações no exterior de títulos de crédito internacionais</TituloDispositivo>
+            <Rotulo>Art. 39.</Rotulo>
+            
+            <Caput id="art39_cpt">
+            
+            
+            
+            <p>
+    Os juros, comissões, despesas e descontos decorrentes de colocações no exterior, previamente autorizadas pelo Banco Central do Brasil, de títulos de crédito internacionais, inclusive commercial papers, pagos, creditados, empregados, entregues ou remetidos a não-residente sujeitam-se à incidência do imposto na fonte à alíquota de quinze por cento.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art40">
+            
+            <TituloDispositivo>Comissões pagas por exportadores, fretes, afretamentos, aluguéis ou arrendamento de embarcações ou aeronaves, aluguel de containers, sobrestadia e demais serviços de instalações portuárias</TituloDispositivo>
+            <Rotulo>Art. 40.</Rotulo>
+            
+            <Caput id="art40_cpt">
+            
+            
+            
+            <p>
+    Os rendimentos recebidos de fontes situadas no Brasil, por não-residente, relativos a pagamento, crédito, emprego, entrega ou remessa de comissões por exportadores a seus agentes no exterior, de receitas de fretes, afretamentos, aluguéis ou arrendamentos de embarcações marítimas ou fluviais ou de aeronaves estrangeiras, feitos por empresas, desde que tenham sido aprovados pelas autoridades competentes, bem assim de aluguel de containers, sobrestadia e outros relativos ao uso de serviços de instalações portuárias, sujeitam-se à incidência do imposto na fonte à alíquota zero.
+
+  </p>
+            
+          </Caput><Paragrafo id="art40_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Os rendimentos mencionados no caput recebidos por residente em país com tributação favorecida sujeitam-se à incidência do imposto na fonte à alíquota de 25%.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art41">
+            
+            <TituloDispositivo>Despesas com promoção, propaganda e pesquisas de mercado, aluguéis e arrendamentos</TituloDispositivo>
+            <Rotulo>Art. 41.</Rotulo>
+            
+            <Caput id="art41_cpt">
+            
+            
+            
+            <p>
+    Os rendimentos recebidos de fontes situadas no Brasil, por não-residente, relativos a pagamento, crédito, emprego, entrega ou remessa para o exterior de despesas relacionadas com pesquisa de mercado para produtos brasileiros de exportação, bem assim aquelas decorrentes de participação em exposições, feiras e eventos semelhantes, inclusive aluguéis e arrendamentos de estandes e locais de exposição, vinculadas à promoção de produtos brasileiros, e de despesas com propaganda realizadas no âmbito desses eventos, sujeitam-se à incidência do imposto na fonte à alíquota zero.
+
+  </p>
+            
+          </Caput><Paragrafo id="art41_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Os rendimentos mencionados no caput recebidos por residente em país com tributação favorecida sujeitam-se à incidência do imposto na fonte à alíquota de 25%.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art42">
+            
+            <TituloDispositivo>Demais rendimentos recebidos por não-residente</TituloDispositivo>
+            <Rotulo>Art. 42.</Rotulo>
+            
+            <Caput id="art42_cpt">
+            
+            
+            
+            <p>
+    Os demais rendimentos pagos, creditados, empregados, entregues ou remetidos a não-residente por fontes situadas no Brasil, inclusive a título de juros sobre o capital próprio, bem assim os decorrentes de cessão de direitos de atleta profissional, solicitação, obtenção e manutenção de direitos de propriedades industriais no exterior, aquisição ou remuneração, a qualquer título, de qualquer forma de direito, e os relativos a comissões e despesas incorridas nas operações de colocação, no exterior, de ações de companhias abertas, domiciliadas no Brasil, desde que aprovadas pelo Banco Central do Brasil e pela Comissão de Valores Mobiliários, sujeitam-se à incidência do imposto na fonte à alíquota de quinze por cento, quando não tiverem tributação específica prevista em lei.
+
+  </p>
+            
+          </Caput><Paragrafo id="art42_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os juros e outros encargos pagos ou creditados pela pessoa jurídica a seus sócios ou acionistas, calculados sobre os juros remuneratórios do capital próprio e sobre os lucros e dividendos por ela distribuídos, sujeitam-se à incidência do imposto na fonte à alíquota de vinte por cento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art42_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As normas referentes aos rendimentos de aplicações financeiras de renda fixa aplicam-se aos juros e a outros encargos referidos neste artigo, pagos ou creditados pela pessoa jurídica a seus sócios ou acionistas, e sobre os lucros e dividendos por ela distribuídos, observada a legislação vigente à época da apuração.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art42_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Os rendimentos mencionados no caput recebidos por residente em país com tributação favorecida sujeitam-se à incidência do imposto na fonte à alíquota de 25%.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art43">
+            
+            <TituloDispositivo>Conceito de país com tributação favorecida</TituloDispositivo>
+            <Rotulo>Art. 43.</Rotulo>
+            
+            <Caput id="art43_cpt">
+            
+            
+            
+            <p>
+    Considera-se país com tributação favorecida aquele que não tribute a renda ou que a tribute à alíquota inferior a vinte por cento.
+
+  </p>
+            
+          </Caput><Paragrafo id="art43_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Para os fins do disposto neste artigo, considera-se separadamente a tributação do trabalho e do capital, bem assim as dependências do país de residência.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art44">
+            
+            <TituloDispositivo>Recolhimento do imposto</TituloDispositivo>
+            <Rotulo>Art. 44.</Rotulo>
+            
+            <Caput id="art44_cpt">
+            
+            
+            
+            <p>
+    O imposto retido na fonte de que tratam os arts. 35 a 42 deve ser recolhido na data da ocorrência do fato gerador.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art45">
+            
+            <TituloDispositivo>Lucros e dividendos</TituloDispositivo>
+            <Rotulo>Art. 45.</Rotulo>
+            
+            <Caput id="art45_cpt">
+            
+            
+            
+            <p>
+    Não estão sujeitos à incidência do imposto os lucros e os dividendos calculados com base nos resultados apurados a partir de 1º de janeiro de 1996 e pagos, creditados, entregues, empregados ou remetidos pela pessoa jurídica a seus sócios ou acionistas não-residentes.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art46">
+            
+            <TituloDispositivo>Disposições Finais</TituloDispositivo>
+            <Rotulo>Art. 46.</Rotulo>
+            
+            <Caput id="art46_cpt">
+            
+            
+            
+            <p>
+    O imposto deve ser recolhido em nome do espólio até o trânsito em julgado da decisão da partilha, sobrepartilha ou adjudicação dos bens, no caso de falecimento de não-residente no Brasil.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art47">
+            
+            
+            <Rotulo>Art. 47.</Rotulo>
+            
+            <Caput id="art47_cpt">
+            
+            
+            
+            <p>
+    O aplicativo da Comunicação de Saída Definitiva do País, o programa gerador da Declaração de Saída Definitiva do País e o formulário da Relação de Servidores de Organismo Internacional Residentes no Brasil, de que tratam os arts. 9º, 11, 11-A e o inciso I do § 2º do art. 21, serão disponibilizados no sítio da Secretaria da Receita Federal do Brasil (RFB), na Internet, no endereço http://www.receita.fazenda.gov.br [Redação dada pelo(a) Instrução Normativa RFB nº 1008, de 9 de fevereiro de 2010]
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art48">
+            
+            
+            <Rotulo>Art. 48.</Rotulo>
+            
+            <Caput id="art48_cpt">
+            
+            
+            
+            <p>
+    Ficam aprovados:
+
+  </p>
+            <Inciso id="art48_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a Tabela de Atualização do Custo de Bens e Direitos (Anexo I);
+
+  </p>
+            
+          </Inciso><Inciso id="art48_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o formulário da Relação de Servidores de Organismo Internacional Residentes no Brasil (Anexo II).
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art49">
+            
+            
+            <Rotulo>Art. 49.</Rotulo>
+            
+            <Caput id="art49_cpt">
+            
+            
+            
+            <p>
+    Esta Instrução Normativa entra em vigor na data de sua publicação.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art50">
+            
+            
+            <Rotulo>Art. 50.</Rotulo>
+            
+            <Caput id="art50_cpt">
+            
+            
+            
+            <p>
+    Ficam formalmente revogadas, sem interrupção de sua força normativa, as Instruções Normativas SRF nº 73/98, de 23 de julho de 1998, nº 146/98, de 11 de dezembro de 1998, e nº 167/99, de 23 de dezembro de 1999. EVERARDO MACIEL
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          
+          <Anexos><ReferenciaAnexo AlvoURN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2002-09-27;208!anexo1"/><ReferenciaAnexo AlvoURN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2002-09-27;208!anexo2"/><ReferenciaAnexo AlvoURN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2002-09-27;208!anexo3"/><ReferenciaAnexo AlvoURN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2002-09-27;208!anexo4"/></Anexos>
+        </Norma></ProjetoNorma>
+    </LexML>

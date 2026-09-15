@@ -1,0 +1,44 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <Metadado>
+      <Identificacao URN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2017-07-17;1717!anexo2"/>
+    </Metadado>
+      <Anexo>
+        <DocumentoGenerico>
+      <PartePrincipal id="anexo2_pp">
+        <p>ANEXO II - Pedido de Restituição de Direito Creditório Decorrente de Cancelamento ou de Retificação de Declaração de Importação</p>
+        <p>Pedido de Restituição de Direito Creditório Decorrente de Cancelamento ou de
+</p><p>Retificação de Declaração de Importação – Anexo II
+</p><table id="anexo2_tab3"><tr><td/><td><b>Nome/ Nome Empresarial</b></td><td><b>CPF CNPJ</b></td></tr><tr><td/><td/><td/></tr></table><table id="anexo2_tab4"><tr><td/><td><b>Valor da Restituição Solicitado neste Pedido (em reais e sem a atualização de valor)</b></td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td>Nome do Banco (para crédito)</td><td/><td/><td>Nº Banco</td><td/><td/><td>Nº Agência</td><td/><td/><td>Nº Conta-corrente</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr></table><p>IN RFB 1717/2017 v.1.00.00 1/2
+</p><p>IN RFB 1717/2017 v.1.00.00 2/2
+</p><Item id="ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    ORIGEM E VALOR TOTAL DO DIREITO CREDITÓRIO Pedido de Restituição de Direito Creditório Decorrente de Pedido de Cancelamento de Declaração de Importação (DI) Pedido de Restituição de Direito Creditório Decorrente de Cancelamento de Ofício de DI Pedido de Restituição de Direito Creditório Decorrente de Retificação de DI O INTERESSADO DEVERÁ ANEXAR A ESTE PEDIDO A DOCUMENTAÇÃO COMPROBATÓRIA DO DIREITO CREDITÓRIO.
+
+  </p>
+            <table id="ite3_tab1"><tr><td/><td><b>Número de Registro das DI</b></td></tr><tr><td/><td/></tr><tr><td>Observações: As Declarações de Importação (DI) listadas devem estar relacionadas à única opção assinalada no quadro (“OPÇÃO”). O detalhamento de cada uma das DI listadas deverá ser individualizado por DI e anexado ao presente documento, observando-se o modelo do “Demonstrativo das Declarações de Importação – Cancelamento ou Retificação” (folha 2, quadros 7 e 8).</td><td/></tr></table><table id="ite3_tab2"><tr><td/><td><b>Pedido Retificador</b></td><td/><td/><td><b>Número do Processo do Pedido Retificado</b></td></tr><tr><td>SIM NÃO</td><td/><td/><td/><td/></tr><tr><td/><td>Outras Informações</td><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td>Solicito a restituição da importância acima mencionada, declarando, sob as penas da Lei nº 4.729, de 14 de julho de 1965, e da Lei nº 8.137, de 27 de dezembro de 1990, que as informações prestadas neste pedido são a expressão da verdade e que as importâncias ora requeridas não foram pleiteadas por via judicial nem compensadas.</td><td/><td/><td/><td/></tr></table><table id="ite3_tab3"><tr><td/><td><b>Nome</b></td><td/><td/><td/><td><b>CPF</b></td></tr><tr><td/><td/><td/><td/><td/><td/></tr><tr><td/><td>Data</td><td/><td>Assinatura (este documento pode ser assinado digitalmente com uso de certificado digital no padrão ICP Brasil)</td><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/></tr></table>
+          </Item><Item id="ite7">
+            
+            <TituloDispositivo>Demonstrativo das Declarações de Importação – Cancelamento ou Retificação</TituloDispositivo>
+            <Rotulo>7.</Rotulo>
+            <p>
+    IDENTIFICAÇÃO DA DI REFERENTE À OPERAÇÃO COMERCIAL (*)
+
+  </p>
+            <table id="ite7_tab1"><tr><td><b>Número da DI</b></td><td/></tr><tr><td>Número do Protocolo de Transmissão</td><td/></tr><tr><td>Data do Registro da DI</td><td/></tr><tr><td>Data da Quitação dos Tributos</td><td/></tr><tr><td>Código do Banco Debitado</td><td/></tr><tr><td>Código da Agência Debitada</td><td/></tr><tr><td>Número da Conta-corrente Debitada</td><td/></tr><tr><td>Código da Unidade Local de Despacho</td><td/></tr><tr><td>(*) Deverão ser informados os dados da DI que deverá permanecer registrada no Siscomex.</td><td/></tr></table>
+          </Item><Item id="ite8">
+            
+            
+            <Rotulo>8.</Rotulo>
+            <p>
+    CÁLCULO DO TRIBUTO A RESTITUIR EM DECORRÊNCIA DO CANCELAMENTO OU RETIFICAÇÃO DA DI
+
+  </p>
+            <table id="ite8_tab1"><tr><td><b>Código de Receita</b></td><td><b>Valor Pago (em reais) (A)</b></td><td><b>Valor Devido após a Retificação da Declaração de Importação (em reais) * (B)</b></td><td><b>Valor a Restituir (em reais) (C) = (A) – (B)</b></td></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td>* Na hipótese de cancelamento de DI, não preencher a coluna relacionada com o “Valor Devido após a Retificação da Declaração de Importação” (B).</td><td/><td/><td/></tr></table><table id="ite8_tab2"><tr><td/><td><b>Outras Informações</b></td><td/></tr><tr><td/><td/><td/></tr></table>
+          </Item>
+      </PartePrincipal>
+    </DocumentoGenerico>
+      </Anexo>
+    </LexML>

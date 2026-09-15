@@ -1,0 +1,48 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <Metadado>
+      <Identificacao URN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!anexo60"/>
+    </Metadado>
+      <Anexo>
+        <DocumentoGenerico>
+      <PartePrincipal id="anexo60_pp">
+        <p>ANEXO XXX MINISTÉRIO DA ECONOMIA SECRETARIA ESPECIAL DA RECEITA FEDERAL DO BRASIL</p>
+        <p>SOLICITAÇÃO DE HABILITAÇÃO E TERMO DE COMPROMISSO REGIME DE SUSPENSÃO INSTITUÍDO PELA LEI Nº 11.196, DE 2005, ART. 55 VENDA E IMPORTAÇÃO DE MÁQUINAS E EQUIPAMENTOS UTILIZADOS NA FABRICAÇÃO DE PAPEL Sr. Delegado,
+</p><p>a pessoa jurídica acima identificada, representada neste ato pelo seu representante legal:
+</p><p>SOLICITA habilitação ao regime de suspensão da exigibilidade da Contribuição para o PIS/Pasep, da Contribuição para o Financiamento da Seguridade Social (Cofins), da Contribuição para o PIS/Pasep-Importação e da Cofins-Importação para aquisição de máquinas e equipamentos, destinados à incorporação ao seu ativo imobilizado para utilização na produção de papéis.
+</p><p>DECLARA que está ciente de que a falsidade na prestação das informações constantes deste requerimento sujeitará as pessoas que para ela concorrerem às penalidades previstas na legislação criminal e tributária, relativas à falsidade ideológica (art. 299 do Código Penal) e ao crime contra a ordem tributária (art. 1º da Lei nº 8.137, de 27 de dezembro de 1990).
+</p><p>ASSUME O COMPROMISSO de, durante o período de 18 (dezoito) meses contados do início da utilização do bem adquirido com o benefício da suspensão, auferir com a venda de papéis destinados à impressão de jornais e de papéis, classificados nos códigos 4801.00.10, 4801.00.90, 4802.61.91, 4802.61.99, 4810.19.89 e 4810.22.90, da Tipi, destinados à impressão de periódicos, receita em percentual igual ou superior a 80% (oitenta por cento) de sua receita total de venda de papéis.
+</p><p>INFORMA, ainda, estar ciente de que, em caso de descumprimento deste compromisso, sujeitar-se-á aos pagamentos e penalidades previstos nos §§ 5º e 7º do art. 55 da Lei nº 11.196, de 2005.
+</p><p>________________________________________________________________________
+</p><p>ASSINATURA DO REPRESENTANTE LEGAL
+</p><table id="anexo60_tab9"><tr><td><b>Em / / . _____ ______ ________ Nome e Matrícula do Funcionário Responsável pela Recepção</b></td><td><b>Espaço para carimbo de recepção</b></td></tr></table><Item id="ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    IDENTIFICAÇÃO
+
+  </p>
+            <table id="ite1_tab1"><tr><td><b>MATRIZ DA PESSOA JURÍDICA</b></td><td><b>CNPJ N°</b></td></tr></table>
+          </Item><Item id="ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    ENDEREÇO DA PESSOA JURÍDICA
+
+  </p>
+            <table id="ite2_tab1"><tr><td><b>RUA, AVENIDA, PRAÇA, ETC</b></td><td/><td><b>NÚMERO</b></td><td><b>COMPLEMENTO</b></td><td/><td/><td><b>E-MAIL</b></td><td/></tr><tr><td>BAIRRO/DISTRITO</td><td>MUNICÍPIO</td><td/><td/><td>UF</td><td>CEP</td><td/><td>TELEFONE</td></tr></table>
+          </Item><Item id="ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    REPRESENTANTE LEGAL
+
+  </p>
+            <table id="ite3_tab1"><tr><td><b>NOME</b></td><td><b>CPF</b></td></tr></table>
+          </Item>
+      </PartePrincipal>
+    </DocumentoGenerico>
+      </Anexo>
+    </LexML>

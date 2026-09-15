@@ -1,0 +1,6 @@
+# CMD: java -jar /tmp/claude-0/-work-unicamp-articles-RAG-evaluation-lexml-parser-projeto-lei/4e4ae71e-dfba-49e3-8901-26c7e43b2a76/scratchpad/phase2.jar parse -m application/vnd.openxmlformats-officedocument.wordprocessingml.document -i original/articulados/resol_cgpc_26_20080929.docx -o lexml/articulados_phase2/resol_cgpc_26_20080929.xml --write-errors-to-file lexml/articulados_phase2/resol_cgpc_26_20080929.err.log -a ministerio.previdencia.social -t resolucao -n 26 --data 2008-09-29 --prof-regex-epigrafe '^resolucao' --prof-regex-epigrafe-continuacao '^resolucao%^n[oº°˚]' --prof-regex-pos-epigrafe '^publicado:%^left\d%^acessos:%^prazos%^observacao%^\[%^publicado no' --prof-regex-preambulo '^o conselho diretor%^o presidente d%^o comite gestor' --prof-epigrafe-head 'RESOLUÇÃO' --linker /usr/local/bin/linkertool
+# ---
+Problem type = [4: Dispositivo inicial com numeração inválida, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(CAPÍTULO II do TÍTULO III), msg = None, context=ArraySeq(TÍTULO III)
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(§ 3º do Art. 28. (no CAPÍTULO I do TÍTULO IV), § 5º do Art. 28. (no CAPÍTULO I do TÍTULO IV)), msg = None, context=List()
+

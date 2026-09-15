@@ -1,0 +1,397 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal,tribunal.superior.eleitoral:portaria.conjunta:2006-01-10;74"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">PORTARIA CONJUNTA Nº 74, DE 10 DE JANEIRO DE 2006 </Epigrafe>
+		  <Ementa id="ementa">Dispõe sobre o intercâmbio de informações entre o Tribunal Superior Eleitoral e a Secretaria da Receita Federal e dá outras providências.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O MINISTRO PRESIDENTE DO TRIBUNAL SUPERIOR ELEITORAL E O SECRETÁRIO DA RECEITA FEDERAL, no uso de suas atribuições, resolvem:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    O Tribunal Superior Eleitoral (TSE) encaminhará à Secretaria da Receita Federal (SRF), em conformidade com prazos e procedimentos por ele fixados para cada pleito eleitoral, informações relativas a prestação de contas dos candidatos a cargos eletivos e dos comitês financeiros de partidos políticos, especificando:
+
+  </p>
+            <Inciso id="art1_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    as fontes de arrecadação, com a indicação do número de inscrição no Cadastro de Pessoas Físicas (CPF) ou no Cadastro Nacional da Pessoa Jurídica (CNPJ) dos respectivos doadores;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    os recursos recebidos, financeiros ou não, e utilizados na campanha eleitoral, com a indicação de datas e valores;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    o nome do candidato ou comitê financeiro beneficiário da doação, com indicação do número de inscrição no CNPJ e da conta bancária utilizada;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    o nome da pessoa física ou razão social da pessoa jurídica e respectivo número de inscrição no CPF ou no CNPJ, os valores recebidos, a data e, quando for o caso, o número do documento fiscal, relativos à prestação de serviços e fornecimento de mercadorias na campanha eleitoral.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art1_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O disposto neste artigo também se aplica à prestação anual de contas dos partidos políticos.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art1_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As informações de que trata este artigo deverão ser encaminhadas em meio eletrônico, observado modelo aprovado em ato conjunto da Secretaria de Informática do TSE e da Coordenação-Geral de Tecnologia e Segurança da Informação da SRF.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    Qualquer cidadão poderá apresentar denúncia à SRF sobre uso indevido de recursos, financeiros ou não, em campanha eleitoral ou nas atividades dos partidos políticos.
+
+  </p>
+            
+          </Caput><Paragrafo id="art2_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A denúncia deverá ser formalizada por escrito, contendo:
+
+  </p>
+            <Inciso id="art2_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    identificação do denunciante, com a indicação do nome, endereço, número do título de eleitor e de inscrição no CPF;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    identificação do denunciado, com a indicação, no mínimo, do nome ou do nome empresarial, do número de inscrição no CPF ou no CNPJ, e do respectivo domicílio fiscal, ou de elementos que permitam levar a essa identificação;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    descrição detalhada dos fatos apontados como irregulares, com a indicação de datas e valores envolvidos, acompanhados dos documentos comprobatórios.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art2_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A denúncia deverá ser encaminhada à Coordenação-Geral de Fiscalização (Cofis) da SRF, para o endereço Esplanada dos Ministérios – Anexo do Ministério da Fazenda – 2º andar – ala A, sala 201 – Brasília/DF – CEP 70048-900, por intermédio da Empresa Brasileira de Correios e Telégrafos (ECT), mediante Aviso de Recebimento (AR).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A denúncia será submetida a uma análise prévia, no âmbito da SRF, sendo classificada como:
+
+  </p>
+            <Inciso id="art2_par3_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    inepta, quando não observar a exigência contida no § 1º do art. 2º ou for encaminhada de forma distinta da prevista no § 2º do mesmo artigo;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par3_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    improcedente, quando os elementos analisados não indicarem indícios de irregularidades tributárias;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par3_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    procedente, quando os elementos analisados indicarem indícios de irregularidades tributárias.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art2_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    As denúncias classificadas no inciso I ou II serão arquivadas.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    As denúncias classificadas no inciso III serão encaminhadas à unidade da SRF da jurisdição do domicílio fiscal do denunciado, com vistas à inclusão na programação da fiscalização.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    Por força do art. 198 da Lei nº 5.172, de 25 de outubro de 1966 – Código Tributário Nacional (CTN), a SRF não divulgará as denúncias recebidas.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    A SRF procederá à análise, com vistas à verificação de eventual cometimento de ilícitos tributários, das:
+
+  </p>
+            <Inciso id="art3_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    prestações de contas dos candidatos a cargos eletivos e dos comitês financeiros de partidos políticos, bem como dos partidos políticos;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    denúncias recebidas, na forma do art. 2º.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art3_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Além dos elementos contidos nas prestações de contas e nas denúncias, o procedimento de análise levará em consideração as informações disponíveis nos sistemas informatizados da SRF.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Nas declarações de ajuste anual do imposto de renda da pessoa física e nas declarações de informações econômico-fiscais da pessoa jurídica serão estabelecidos campos específicos para identificar doações a candidatos, comitês financeiros e partidos políticos, bem como gastos realizados por eleitores na forma do art. 27 da Lei nº 9.504, de 30 de setembro de 1997, sem prejuízo da instituição pela SRF, no âmbito de sua competência, de declarações específicas dos fornecedores de mercadorias ou prestadores de serviço para campanhas eleitorais.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A omissão de informações nas declarações a que se refere o § 2º sujeitará o contribuinte às sanções previstas na legislação fiscal aplicável.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    As informações obtidas em virtude do disposto no § 2º serão confrontadas com as contidas nas prestações de contas de candidatos, comitês financeiros e partidos políticos.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    O disposto nesta portaria não elide a instauração de procedimentos fiscais decorrentes da programação de trabalho da SRF ou da requisição de autoridade competente.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    Com base nas análises realizadas, a SRF, sem prejuízo de outros procedimentos a serem adotados no âmbito de sua competência, informará ao TSE qualquer infração tributária detectada, especialmente no que se refere:
+
+  </p>
+            <Inciso id="art4_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    omissão de doações;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    fornecimento de mercadorias ou prestação de serviços por pessoa jurídica, cuja situação cadastral perante o CNPJ revele a condição de inapta, suspensa ou baixada, ou, ainda, de inexistente; Inciso II com redação alterada conforme retificação publicada no DOU de 4.5.2006, Seção I, pág. 7, substituindo-se a palavra &quot;cancelada&quot; por &quot;baixada&quot;.
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    prestação de serviços por pessoa física com CPF inexistente ou cancelado;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    uso de documentos fiscais falsos ou fraudulentos;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    qualquer fato que dê causa a suspensão de imunidade tributária de partido político, na forma do arts. 9º e 14 do Código Tributário Nacional;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    simulação de ato, inclusive por meio de interpostas pessoas.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art4_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A SRF informará também qualquer infração ao disposto nos arts. 23, 27 e 81 da Lei nº 9.504, de 1997.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art81">
+            
+            
+            <Rotulo>Art. 81.</Rotulo>
+            
+            <Caput id="art81_cpt">
+            
+            
+            
+            <p>
+    da Lei nº 9.504/1997 revogado pelo art. 15 da Lei nº 13.165/2015.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    Esta portaria entra em vigor na data de sua publicação. Ministro CARLOS VELLOSO, presidente do Tribunal Superior Eleitoral – JORGE ANTÔNIO DEHER RACHID, secretário da Receita Federal
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          
+          
+        </Norma></ProjetoNorma>
+    </LexML>

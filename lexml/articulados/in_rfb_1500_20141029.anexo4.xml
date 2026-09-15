@@ -1,0 +1,29 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <Metadado>
+      <Identificacao URN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2014-10-29;1500!anexo4"/>
+    </Metadado>
+      <Anexo>
+        <DocumentoArticulado>
+      <ParteInicial><Epigrafe id="anexo4_epigrafe">ANEXO II TABELAS DE INCIDENCIA MENSAL</Epigrafe></ParteInicial>
+      <Articulacao><Inciso id="inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    para o ano-calendário de 2010 e, para o ano-calendário de 2011, até o mês de março:
+
+  </p>
+            <table id="inc1_tab1"><tr><td><b>Base de Cálculo (R$)</b></td><td><b>Alíquota (%)</b></td><td><b>Parcela a Deduzir do IR (R$)</b></td></tr><tr><td>Até 1.499,15</td><td>-</td><td/></tr><tr><td>De 1.499,16 até 2.246,75</td><td>7,5</td><td>112,43</td></tr><tr><td>De 2.246,76 até 2.995,70</td><td>15</td><td>280,94</td></tr><tr><td>De 2.995,71 até 3.743,19</td><td>22,5</td><td>505,62</td></tr><tr><td>Acima de 3.743,19</td><td>27,5</td><td>692,78</td></tr></table><table id="inc1_tab2"><tr><td><b>Base de Cálculo (R$)</b></td><td><b>Alíquota (%)</b></td><td><b>Parcela a Deduzir do IR (R$)</b></td></tr><tr><td>Até 1.566,61</td><td/><td>-</td></tr><tr><td>De 1.566,62 até 2.347,85</td><td>7,5</td><td>117,49</td></tr><tr><td>De 2.347,86 até 3.130,51</td><td>15</td><td>293,58</td></tr><tr><td>De 3.130,52 até 3.911,63</td><td>22,5</td><td>528,37</td></tr><tr><td>Acima de 3.911,63</td><td>27,5</td><td>723,95</td></tr></table><table id="inc1_tab3"><tr><td><b>Base de Cálculo (R$)</b></td><td><b>Alíquota (%)</b></td><td><b>Parcela a Deduzir do IR (R$)</b></td></tr><tr><td>Até 1.637,11</td><td>-</td><td>-</td></tr><tr><td>De 1.637,12 até 2.453,50</td><td>7,5</td><td>122,78</td></tr><tr><td>De 2.453,51 até 3.271,38</td><td>15</td><td>306,80</td></tr><tr><td>De 3.271,39 até 4.087,65</td><td>22,5</td><td>552,15</td></tr><tr><td>Acima de 4.087,65</td><td>27,5</td><td>756,53</td></tr></table><table id="inc1_tab4"><tr><td><b>Base de Cálculo (R$)</b></td><td><b>Alíquota (%)</b></td><td><b>Parcela a Deduzir do IR (R$)</b></td></tr><tr><td>Até 1.710,78</td><td>-</td><td>-</td></tr><tr><td>De 1.710,79 até 2.563,91</td><td>7,5</td><td>128,31</td></tr><tr><td>De 2.563,92 até 3.418,59</td><td>15</td><td>320,60</td></tr><tr><td>De 3.418,60 até 4.271,59</td><td>22,5</td><td>577,00</td></tr><tr><td>Acima de 4.271,59</td><td>27,5</td><td>790,58</td></tr></table><table id="inc1_tab5"><tr><td><b>Base de Cálculo (R$)</b></td><td><b>Alíquota</b></td><td><b>Parcela a Deduzir do IR (R$)</b></td></tr><tr><td>Até 1.787,77</td><td>-</td><td>-</td></tr><tr><td>De 1.787,78 até 2.679,29</td><td>7,5</td><td>134,08</td></tr><tr><td>De 2.679,30 até 3.572,43</td><td>15</td><td>335,03</td></tr><tr><td>De 3.572,44 até 4.463,81</td><td>22,5</td><td>602,96</td></tr><tr><td>Acima de 4.463,81</td><td>27,5</td><td>826,15</td></tr></table><table id="inc1_tab6"><tr><td><b>Base de Cálculo (R$)</b></td><td><b>Alíquota (%)</b></td><td><b>Parcela a Deduzir do IR (R$)</b></td></tr><tr><td>Até 1.787,77</td><td>-</td><td>-</td></tr><tr><td>De 1.787,78 até 2.679,29</td><td>7,5</td><td>134,08</td></tr><tr><td>De 2.679,30 até 3.572,43</td><td>15</td><td>335,03</td></tr><tr><td>De 3.572,44 até 4.463,81</td><td>22,5</td><td>602,96</td></tr><tr><td>Acima de 4.463,81</td><td>27,5</td><td>826,15</td></tr></table>
+          </Inciso><Inciso id="inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    a partir do mês de abril do ano-calendário de 2015 até o mês de abril do ano-calendário de 2023:
+
+  </p>
+            <table id="inc7_tab1"><tr><td><b>Base de Cálculo (R$)</b></td><td><b>Alíquota (%)</b></td><td><b>Parcela a deduzir do IR (em R$)</b></td></tr><tr><td>Até 1.903,98</td><td>-</td><td>-</td></tr><tr><td>De 1.903,99 até 2.826,65</td><td>7,5</td><td>142,80</td></tr><tr><td>De 2.826,66 até 3.751,05</td><td>15</td><td>354,80</td></tr><tr><td>De 3.751,06 até 4.664,68</td><td>22,5</td><td>636,13</td></tr><tr><td>Acima de 4.664,68</td><td>27,5</td><td>869,36</td></tr></table><table id="inc7_tab2"><tr><td><b>Base de Cálculo (R$)</b></td><td><b>Alíquota (%)</b></td><td><b>Parcela a Deduzir do IR (em R$)</b></td></tr><tr><td>Até 2.112,00</td><td>zero</td><td>zero</td></tr><tr><td>De 2.112,01 até 2.826,65</td><td>7,5</td><td>158,40</td></tr><tr><td>De 2.826,66 até 3.751,05</td><td>15</td><td>370,40</td></tr><tr><td>De 3.751,06 até 4.664,68</td><td>22,5</td><td>651,73</td></tr><tr><td>Acima de 4.664,68</td><td>27,5</td><td>884,96</td></tr></table><table id="inc7_tab3"><tr><td><b>Base de Cálculo (R$)</b></td><td><b>Alíquota (%)</b></td><td><b>Parcela a Deduzir do IR (em R$)</b></td></tr><tr><td>Até 2.259,20</td><td>zero</td><td>zero</td></tr><tr><td>De 2.259,21 até 2.826,65</td><td>7,5</td><td>169,44</td></tr><tr><td>De 2.826,66 até 3.751,05</td><td>15</td><td>381,44</td></tr><tr><td>De 3.751,06 até 4.664,68</td><td>22,5</td><td>662,77</td></tr><tr><td>Acima de 4.664,68</td><td>27,5</td><td>896,00</td></tr></table><table id="inc7_tab4"><tr><td><b>Base de Cálculo (R$)</b></td><td><b>Alíquota (%)</b></td><td><b>Parcela a Deduzir do IR (em R$)</b></td></tr><tr><td>Até 2.428,80</td><td>zero</td><td>zero</td></tr><tr><td>De 2.428,81 até 2.826,65</td><td>7,5</td><td>182,16</td></tr><tr><td>De 2.826,66 até 3.751,05</td><td>15</td><td>394,16</td></tr><tr><td>De 3.751,06 até 4.664,68</td><td>22,5</td><td>675,49</td></tr><tr><td>Acima de 4.664,68</td><td>27,5</td><td>908,73</td></tr></table>
+          </Inciso></Articulacao>
+    </DocumentoArticulado>
+      </Anexo>
+    </LexML>

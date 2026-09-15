@@ -1,0 +1,424 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2001-09-18;76"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">INSTRUÇÃO NORMATIVA Nº 76, DE 18 DE SETEMBRO DE 2001 </Epigrafe>
+		  <Ementa id="ementa">Dispõe sobre as restituições do imposto de renda das pessoas físicas pela rede arrecadadora de receitas federais.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O SECRETÁRIO DA RECEITA FEDERAL, no uso da atribuição que lhe confere o inciso III do art. 209 do Regimento Interno da Secretaria da Receita Federal, aprovado pela Portaria MF nº 259, de 24 de agosto de 2001, e tendo em vista o disposto no art. 16 da Lei nº 9.250, de 26 de dezembro de 1995, resolve:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    O valor do imposto de renda pago a maior, apurado na declaração de ajuste anual do imposto de renda das pessoas físicas, será restituído por intermédio dos bancos integrantes da rede arrecadadora de receitas federais autorizados a receber as declarações, bem assim pelos demais bancos indicados pelos contribuintes, observadas as disposições desta Instrução Normativa.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    A Secretaria da Receita Federal (SRF) fornecerá aos bancos, em meio magnético:
+
+  </p>
+            <Inciso id="art2_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a relação nominal dos contribuintes, com a indicação do número da conta corrente ou de poupança e da respectiva agência, informados na declaração de ajuste, para crédito do valor a restituir;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o valor em reais a ser restituído a cada contribuinte, acrescido de juros equivalentes à taxa referencial do Sistema Especial de Liquidação e de Custódia (Selic) acumulada mensalmente a partir do mês de maio do exercício previsto para entrega das declarações de ajuste, até o mês anterior àquele em que os recursos forem colocados em disponibilidade, em estabelecimento bancário, em favor do contribuinte, e de um por cento no mês da referida disponibilização.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art2_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A incidência de juros sobre os valores a restituir cessará a partir do primeiro dia do mês subseqüente àquele em que os recursos forem disponibilizados, em estabelecimento bancário, em favor do contribuinte.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    Os valores das restituições serão repassados aos bancos integrantes da rede de recepção de declarações, por intermédio da Secretaria do Tesouro Nacional (STN), a cada lote de processamento, com antecedência de cinco dias úteis da data a partir da qual ficarão disponíveis para pagamento aos destinatários.
+
+  </p>
+            
+          </Caput><Paragrafo id="art3_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Para os bancos que somente integram a rede de crédito das restituições e para os demais que, embora não integrando a rede de crédito, venham a ser indicados pelo contribuinte, os recursos serão repassados pelo Banco do Brasil S/A, por meio de Documento de Compensação do Sistema de Administração Financeira do Governo Federal (DOC-Siafi), no dia anterior ao previsto para início do crédito.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Na hipótese do § 1º deste artigo, os recursos serão transferidos ao Banco do Brasil pela STN, com antecedência de seis dias úteis da data fixada para o pagamento da restituição.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    A SRF expedirá comunicação aos contribuintes para informar o valor da restituição, o banco e a agência bancária encarregada do crédito ou a agência do Banco do Brasil onde este ficará disponível aguardando autorização de crédito ou transferência.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    O crédito deverá ser efetuado em conta corrente ou de poupança dos destinatários das restituições devidamente identificados pelo estabelecimento bancário.
+
+  </p>
+            
+          </Caput><Paragrafo id="art5_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A prova inequívoca do crédito da restituição ao contribuinte é de inteira responsabilidade do Banco, que manterá os comprovantes dos pagamentos efetuados, ou respectivos microfilmes, por lotes, durante cinco anos, contados da data do pagamento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O Banco deverá creditar o valor da restituição na conta indicada pelo contribuinte em sua declaração de ajuste anual, conforme constar do arquivo magnético a ser fornecido pela SRF.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Na hipótese de não haver indicação de conta corrente ou de conta de poupança na declaração de ajuste, ou de indicação com dados incorretos que impeçam sua identificação, a restituição ficará disponível no Banco do Brasil, que providenciará o crédito em conta corrente ou de poupança que vier a ser indicada pelo contribuinte.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    Para efeito de restituição a outra pessoa que não o próprio contribuinte, a pessoa indicada para recebê-la deverá informar a conta corrente ou de poupança (número da conta, banco e agência) de sua titularidade e apresentar:
+
+  </p>
+            <Inciso id="art6_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    instrumento público de procuração;
+
+  </p>
+            
+          </Inciso><Inciso id="art6_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Alvará Judicial, no caso de contribuinte falecido, quando houver bens a inventariar, ou autorização emitida pela autoridade fiscal da jurisdição do contribuinte, quando não houver bens a inventariar ou a arrolar, observado o disposto na Instrução Normativa SRF nº 56/89, de 31 de maio de 1989;
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art6_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Quando a restituição for devida a menor de idade, o pagamento será efetuado a um dos pais, que deverá apresentar autorização do cônjuge ou certidão de óbito, se este for falecido, ou ao tutor, que apresentará o Termo de Tutela.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art6_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os documentos de que trata este artigo deverão ser mantidos em boa guarda pelo estabelecimento bancário, pelo prazo referido no § 1º do art. 5º.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    O contribuinte que entender insuficiente o valor da restituição poderá receber a importância disponível no banco e reclamar a diferença na unidade local da SRF.
+
+  </p>
+            
+          </Caput><Paragrafo id="art7_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Na hipótese de o valor da restituição ser maior que o apurado na declaração de ajuste anual e não constarem da comunicação expedida pela SRF as causas da alteração do valor, o contribuinte deverá procurar a unidade da SRF.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    Decorrido o período um ano, contado do dia em que os valores das restituições ficaram disponíveis para resgate, os bancos recolherão ao Tesouro Nacional os valores correspondentes às restituições não pagas.
+
+  </p>
+            
+          </Caput><Paragrafo id="art8_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O recolhimento deverá ser efetuado até o décimo dia útil subseqüente ao do vencimento do prazo mencionado neste artigo, mediante Documento de Arrecadação de Receitas Federais (Darf), com o código de receita 4634.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            
+            
+            
+            <p>
+    Os bancos deverão encaminhar à SRF, até o décimo dia útil subseqüente ao do vencimento do prazo mencionado no parágrafo único do art. 8º, a prestação de contas relativa às restituições.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>
+    O banco, cuja prestação de contas for rejeitada pelo processamento, terá o prazo de dez dias úteis, contado da data da devolução da fita magnética, disquete ou transmissão eletrônica rejeitada, para reapresentar sua prestação de contas.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            <p>
+    A prestação de contas das restituições pagas por meio de DOC-Siafi será feita pelo Banco do Brasil, observados os prazos constantes dos arts. 9º e 10 desta Instrução Normativa.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            
+            
+            
+            <p>
+    O descumprimento das normas relativas à restituição sujeita os bancos às seguintes penalidades:
+
+  </p>
+            <Inciso id="art12_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    no caso de pagamento ou crédito da restituição à pessoa indevida, multa de 10% sobre o valor restituído, não inferior a R$ 50,00 (cinqüenta reais), independentemente do ressarcimento à União do valor pago indevidamente, acrescido dos juros previstos no inciso II do art. 2º, calculados até a data do ressarcimento;
+
+  </p>
+            
+          </Inciso><Inciso id="art12_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    no caso de inobservância dos prazos previstos nos arts. 8º ao 10 desta Instrução Normativa ou de rejeição da reapresentação da prestação de contas:
+
+  </p>
+            <Alinea id="art12_cpt_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    multa de R$ 20,00 (vinte reais) por dia de atraso na devolução dos arquivos cujas restituições tenham sido integralmente pagas;
+
+  </p>
+            
+          </Alinea><Alinea id="art12_cpt_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    multa de 0,2% (dois décimos por cento) ao dia sobre o valor total das restituições não pagas, relacionadas nos arquivos devolvidos com atraso, limitada a 20% (vinte por cento);
+
+  </p>
+            
+          </Alinea><Alinea id="art12_cpt_inc2_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    multa de 0,2% (dois décimos por cento) ao dia e juros de mora de um por cento ao mês (cálculo diário) sobre o valor das restituições não pagas, que não foram devolvidas ao Tesouro Nacional, e das que foram devolvidas com atraso ou recolhidas a menor, limitada a 20% (vinte por cento).
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput><Paragrafo id="art12_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Transcorridos trinta dias da aplicação de multa sem que a prestação de contas tenha sido apresentada corretamente, fica o banco infrator desligado da rede arrecadadora de receitas federais, por ato do Coordenador-Geral de Administração Tributária.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>
+    A Coordenação-Geral de Administração Tributária poderá editar atos necessários à execução desta Instrução Normativa.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            <p>
+    Esta Instrução Normativa entra em vigor na data de sua publicação.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>
+    Fica formalmente revogada, sem interrupção de sua força normativa, a Instrução Normativa SRF nº 52, de 17 de maio de 2000. EVERARDO MACIEL
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          
+          
+        </Norma></ProjetoNorma>
+    </LexML>

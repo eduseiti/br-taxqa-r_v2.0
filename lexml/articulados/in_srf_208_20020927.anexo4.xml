@@ -1,0 +1,48 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <Metadado>
+      <Identificacao URN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2002-09-27;208!anexo4"/>
+    </Metadado>
+      <Anexo>
+        <DocumentoGenerico>
+      <PartePrincipal id="anexo4_pp">
+        <p>Anexo II</p>
+        <p>MINISTÉRIO DA FAZENDA
+</p><p>SECRETARIA DA RECEITA FEDERAL
+</p><p>RELAÇÃO DE SERVIDORES DE ORGANISMO INTERNACIONAL RESIDENTES NO BRASIL
+</p><p>Este formulário deve ser preenchido pelos organismos internacionais que pagarem rendimentos do trabalho oriundos do exercício de funções específicas no Programa das Nações Unidas para o Desenvolvimento no Brasil (PNUD), nas Agências Especializadas da Organização das Nações Unidas (ONU), na Organização dos Estados Americanos (OEA) e na Associação Latino-Americana de Integração (Aladi), situados no Brasil, a servidores residentes no País.
+</p><p>Local de entrega: Coordenação-Geral de Fiscalização (Cofis) Edifício Anexo do Ministério da Fazenda - Ala A - 2º andar - sala 201. Esplanada dos Ministérios. Brasília-DF. CEP 70048-900.
+</p><p>ENDEREÇO
+</p><table id="anexo4_tab7"><tr><td/><td>CIDADE</td><td>UF</td></tr></table><p>Aprovado pela IN SRF nº 208/2002
+</p><p>(*) Republicado por ter saído com incorreção, do original, no D.O.U. nº 190, de 1º -10-2002, seção 1, págs. 15 a 20.
+</p><Item id="ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    FONTE PAGADORA DENOMINAÇÃO
+
+  </p>
+            <table id="ite1_tab1"><tr><td/></tr></table>
+          </Item><Item id="ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    BENEFICIÁRIO DOS RENDIMENTOS
+
+  </p>
+            <table id="ite2_tab1"><tr><td>BENEFICIÁRIO</td><td>CPF</td><td>RENDIMENTOS</td></tr><tr><td/><td/><td/></tr><tr><td/><td/><td/></tr><tr><td/><td/><td/></tr><tr><td/><td/><td/></tr><tr><td/><td/><td/></tr><tr><td/><td/><td/></tr><tr><td/><td/><td/></tr><tr><td/><td/><td/></tr><tr><td/><td/><td/></tr><tr><td/><td/><td/></tr><tr><td/><td/><td/></tr><tr><td/><td/><td/></tr><tr><td/><td/><td/></tr><tr><td/><td/><td/></tr><tr><td/><td/><td/></tr><tr><td/><td/><td/></tr><tr><td/><td/><td/></tr><tr><td/><td/><td/></tr><tr><td/><td/><td/></tr><tr><td/><td/><td/></tr><tr><td/><td/><td/></tr><tr><td/><td/><td/></tr><tr><td/><td/><td/></tr><tr><td/><td/><td/></tr><tr><td/><td/><td/></tr><tr><td/><td/><td/></tr><tr><td/><td/><td/></tr></table>
+          </Item><Item id="ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    RESPONSÁVEL PELAS INFORMAÇÕES
+
+  </p>
+            <table id="ite3_tab1"><tr><td>NOME</td><td>DATA ASSINATURA</td><td/></tr></table>
+          </Item>
+      </PartePrincipal>
+    </DocumentoGenerico>
+      </Anexo>
+    </LexML>

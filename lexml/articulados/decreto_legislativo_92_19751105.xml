@@ -1,0 +1,47 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:congresso.nacional:decreto.legislativo:1975-11-05;92"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">DECRETO LEGISLATIVO Nº 92, DE 5 DE NOVEMBRO DE 1975 </Epigrafe>
+		  <Ementa id="ementa">Aprova o texto do Acordo destinado a evitar a dupla tributação em Matéria de Imposto sobre a Renda e o Capital, firmado entre a República Federativa do Brasil e a República Federal da Alemanha, em Bonn, a 27 de junho de 1975.
+</Ementa>
+      <Preambulo id="preambulo"></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    É aprovado o texto do Acordo Destinado a Evitar a Dupla Tributação em Matéria de Imposto sobre a Renda e o Capital firmado entre a República Federativa do Brasil e a República Federal da Alemanha, em Bonn, a 27 de junho de 1975.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    Este Decreto legislativo entrará em vigor na data de sua publicação.
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>SENADO FEDERAL, 5 de novembro de 1975.</p></LocalDataFecho><Assinatura><NomePessoa>JOSÉ DE MAGALHÃES PINTO</NomePessoa><NomePessoa>PRESIDENTE</NomePessoa></Assinatura></ParteFinal>
+          <Anexos><ReferenciaAnexo AlvoURN="urn:lex:br:congresso.nacional:decreto.legislativo:1975-11-05;92!anexo1"/></Anexos>
+        </Norma></ProjetoNorma>
+    </LexML>

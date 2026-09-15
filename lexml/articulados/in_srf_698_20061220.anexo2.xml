@@ -1,0 +1,51 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <Metadado>
+      <Identificacao URN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2006-12-20;698!anexo2"/>
+    </Metadado>
+      <Anexo>
+        <DocumentoGenerico>
+      <PartePrincipal id="anexo2_pp">
+        <p>ANEXO I</p>
+        <p>INFORME DE RENDIMENTOS FINANCEIROS
+</p><table id="anexo2_tab2"><tr><td><b>MINISTÉRIO DA FAZENDA SECRETARIA DA RECEITA FEDERAL</b></td><td><b>INFORME DE RENDIMENTOS FINANCEIROS ANO-CALENDÁRIO DE _______ IMPOSTO DE RENDA – PESSOA FÍSICA</b></td></tr></table><p>IMPOSTO DE RENDA – PESSOA FÍSICA 1. IDENTIFICAÇÃO DA FONTE PAGADORA
+</p><table id="anexo2_tab4"><tr><td><b>NOME EMPRESARIAL</b></td><td><b>CNPJ</b></td></tr></table><Item id="ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    PESSOA FÍSICA BENEFICIÁRIA DOS RENDIMENTOS CPF
+
+  </p>
+            <table id="ite2_tab1"><tr><td><b>CPF</b></td><td><b>NOME COMPLETO</b></td></tr></table>
+          </Item><Item id="ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    RENDIMENTOS TRIBUTÁVEIS NA DECLARAÇÃO DE AJUSTE ANUAL (Valores em Reais)
+
+  </p>
+            <table id="ite3_tab1"><tr><td><b>ESPECIFICAÇÃO</b></td><td/><td><b>RENDIMENTOS</b></td><td/><td><b>IMPOSTO RETIDO NA FONTE</b></td><td/></tr><tr><td>01. Previdência Complementar</td><td/><td>,</td><td/><td>,</td><td/></tr><tr><td>02. Fundo de Aposentadoria Programada Individual (Fapi)</td><td/><td>,</td><td/><td>,</td><td/></tr><tr><td>03 Plano Gerador de Benefício Livre (PGBL)</td><td/><td>,</td><td/><td>,</td><td/></tr><tr><td>04. Vida Gerador de Benefício Livre (VGBL)</td><td/><td>,</td><td/><td>,</td><td/></tr><tr><td>05. Demais (especificar)</td><td/><td>,</td><td/><td>,</td><td/></tr><tr><td>06. TOTAL</td><td/><td>,</td><td/><td>,</td><td/></tr><tr><td>4. RENDIMENTOS ISENTOS (Valores em reais)</td><td/><td/><td/><td/><td/></tr><tr><td>ESPECIFICAÇÃO</td><td>SALDOS EM 31/12 ANO-CALENDÁRIO ANTERIOR</td><td/><td>SALDOS EM 31/12 ANO-CALENDÁRIO</td><td/><td>RENDIMENTOS</td></tr><tr><td>01. Contas de Poupança e Letras Hipotecárias</td><td>,</td><td/><td>,</td><td/><td>,</td></tr><tr><td>02. Lucros e Dividendo apurados a partir de 1996 e distribuídos no ano-calendário</td><td/><td/><td/><td/><td>,</td></tr><tr><td>03. Demais (especificar)</td><td>,</td><td/><td>,</td><td/><td>,</td></tr><tr><td>5. RENDIMENTOS SUJEITOS À TRIBUTAÇÃO EXCLUSIVA (Valores em reais)</td><td/><td/><td/><td/><td/></tr><tr><td>ESPECIFICAÇÃO</td><td>SALDOS EM 31/12 ANO-CALENDÁRIO ANTERIOR</td><td/><td>SALDOS EM 31/12 ANO-CALENDÁRIO</td><td/><td>RENDIMENTOS LÍQUIDOS</td></tr><tr><td>01. Fundos de Investimento</td><td>,</td><td/><td>,</td><td/><td>,</td></tr><tr><td>02. Aplicações de Renda Fixa</td><td>,</td><td/><td>,</td><td/><td>,</td></tr><tr><td>03. Títulos de Capitalização</td><td>,</td><td/><td>,</td><td/><td>,</td></tr><tr><td>04. Juros sobre Capital Próprio</td><td>,</td><td/><td>,</td><td/><td>,</td></tr><tr><td>05.Operações de Swap</td><td/><td/><td/><td/><td/></tr><tr><td>06. Previdência Complementar, Fapi, PGBL e VGBL</td><td/><td/><td/><td/><td>,</td></tr><tr><td>07.Demais (especificar)</td><td>,</td><td/><td>,</td><td/><td>,</td></tr><tr><td>08. TOTAL</td><td/><td/><td/><td/><td>,</td></tr><tr><td>6. SALDO EM CONTAS CORRENTES E EM VGBL (Valores em Reais)</td><td/><td/><td/><td/><td/></tr><tr><td>ESPECIFICAÇÃO</td><td/><td>SALDOS EM 31/12 ANO-CALENDÁRIO ANTERIOR</td><td/><td>SALDOS EM 31/12 ANO-CALENDÁRIO</td><td/></tr><tr><td>01 . Depósito em conta corrente de depósito à vista ou de investimento</td><td/><td>,</td><td/><td>,</td><td/></tr><tr><td>02. Prêmios acumulados em VGBL</td><td/><td>,</td><td/><td>,</td><td/></tr></table>
+          </Item><Item id="ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    Prêmios acumulados em VGBL , , 7. CRÉDITOS EM TRÂNSITO (Valores em Reais)
+
+  </p>
+            <table id="ite2_tab1"><tr><td><b>ESPECIFICAÇÃO</b></td><td><b>VALORES EM 31/12 ANO-CALENDÁRIO ANTERIOR</b></td><td><b>VALORES EM 31/12 ANO-CALENDÁRIO</b></td></tr><tr><td>01. Fundos e clubes de investimento</td><td>,</td><td>,</td></tr><tr><td>02. Demais</td><td>,</td><td>,</td></tr></table>
+          </Item><Item id="ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    Demais , , 8. INFORMAÇÕES COMPLEMENTARES Aprovado pela IN SRF nº 698, de 2006.
+
+  </p>
+            
+          </Item>
+      </PartePrincipal>
+    </DocumentoGenerico>
+      </Anexo>
+    </LexML>

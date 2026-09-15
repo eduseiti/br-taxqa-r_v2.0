@@ -1,0 +1,1752 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2001-10-11;84"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">INSTRUÇÃO NORMATIVA Nº 84, DE 11 DE OUTUBRO DE 2001 </Epigrafe>
+		  <Ementa id="ementa">Dispõe sobre a apuração e tributação de ganhos de capital nas alienações de bens e direitos por pessoas físicas.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O SECRETÁRIO DA RECEITA FEDERAL, no uso da atribuição que lhe confere o inciso III do art. 209 do Regimento Interno da Secretaria da Receita Federal, aprovado pela Portaria MF nº 259, de 24 de agosto de 2001, e tendo em vista o disposto nas Leis nº 7.713, de 22 de dezembro de 1988, nº 8.134, de 27 de dezembro de 1990, nº 8.218, de 29 de agosto de 1991, nº 8.383, de 30 de dezembro de 1991, nº 8.849, de 28 de janeiro de 1994, nº 8.981, de 20 de janeiro de 1995, nº 9.249 e nº 9.250, de 26 de dezembro de 1995, nº 9.393, de 19 de dezembro de 1996, e nº 9.532, de 10 de dezembro de 1997, e nas Medidas Provisórias nº 2.159-70, de 24 de agosto de 2001, e nº 2.189-49, de 23 de agosto de 2001, resolve:
+  </p><p>
+    Disposições Gerais
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    Os ganhos de capital percebidos por pessoas físicas são apurados e tributados pelo imposto de renda na forma desta Instrução Normativa, exceto quando decorrentes de operações realizadas:
+
+  </p>
+            <Inciso id="art1_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    em bolsas de valores, de mercadorias, de futuros e assemelhadas;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    com ouro, ativo financeiro;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    em mercados de liquidação futura fora de bolsa. Ganho de Capital
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    Considera-se ganho de capital a diferença positiva entre o valor de alienação de bens ou direitos e o respectivo custo de aquisição.
+
+  </p>
+            
+          </Caput><Paragrafo id="art2_par1u">
+            
+            <TituloDispositivo>Ganho de Capital</TituloDispositivo>
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O prejuízo apurado em uma alienação não pode ser compensado com ganhos obtidos em outra, ainda que no mesmo mês.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    Estão sujeitas à apuração de ganho de capital as operações que importem:
+
+  </p>
+            <Inciso id="art3_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    alienação, a qualquer título, de bens ou direitos ou cessão ou promessa de cessão de direitos à sua aquisição, tais como as realizadas por compra e venda, permuta, adjudicação, desapropriação, dação em pagamento, procuração em causa própria, promessa de compra e venda, cessão de direitos ou promessa de cessão de direitos e contratos afins;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    transferência a herdeiros e legatários na sucessão causa mortis, a donatários na doação, inclusive em adiantamento da legítima, ou atribuição a ex-cônjuge ou ex-convivente, na dissolução da sociedade conjugal ou união estável, de direito de propriedade de bens e direitos adquiridos por valor superior àquele pelo qual constavam na Declaração de Ajuste Anual do de cujus, do doador, do ex-cônjuge ou ex-convivente que os tenha transferido.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art4">
+            
+            <TituloDispositivo>Contribuintes</TituloDispositivo>
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    São contribuintes do imposto de que trata esta Instrução Normativa as pessoas físicas, residentes:
+
+  </p>
+            <Inciso id="art4_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    no Brasil, que aufiram ganho de capital na alienação, a qualquer título, de bens ou direitos, localizados no País ou no exterior, quando adquiridos em reais;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    no exterior, que aufiram ganho de capital na alienação, a qualquer título, de bens ou direitos localizados no Brasil, observados os acordos ou tratados celebrados com o país de residência do contribuinte.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art4_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    No caso do inciso II do art. 3º, contribuinte do imposto é o espólio, o doador, ou o ex-cônjuge ou ex-convivente a quem for atribuído o bem ou direito objeto da tributação. Custo de Aquisição
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art5">
+            
+            <TituloDispositivo>Definição</TituloDispositivo>
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    Considera-se custo dos bens ou direitos o valor de aquisição expresso em reais.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    O custo de aquisição dos bens e direitos adquiridos ou as parcelas pagas até 31 de dezembro de 1991, avaliados pelo valor de mercado para essa data e informados na Declaração de Ajuste Anual do exercício de 1992, ano-calendário de 1991, de acordo com o art. 96 da Lei nº 8.383, de 1991, é esse valor, atualizado até 1º de janeiro de 1996.
+
+  </p>
+            
+          </Caput><Paragrafo id="art6_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Aplica-se o disposto no caput na hipótese de contribuinte desobrigado de apresentar a declaração do exercício de 1992, ano-calendário de 1991, e seguintes.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    No caso de bens ou direitos adquiridos ou de parcelas pagas até 31 de dezembro de 1991, não avaliados a valor de mercado, e dos bens e direitos adquiridos ou das parcelas pagas entre 1º de janeiro de 1992 e 31 de dezembro de 1995, o custo corresponde ao valor de aquisição ou das parcelas pagas até 31 de dezembro de 1995, atualizado mediante a utilização da Tabela de Atualização do Custo de Bens e Direitos, constante no Anexo Único.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    O custo dos bens e direitos adquiridos ou das parcelas pagas a partir de 1º de janeiro de 1996 não está sujeito a atualização.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art9">
+            
+            <TituloDispositivo>Imóvel rural</TituloDispositivo>
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            
+            
+            
+            <p>
+    Na apuração do ganho de capital de imóvel rural é considerado custo de aquisição o valor relativo à terra nua.
+
+  </p>
+            
+          </Caput><Paragrafo id="art9_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Considera-se valor da terra nua (VTN) o valor do imóvel rural, nele incluído o da respectiva mata nativa, não computados os custos das benfeitorias (construções, instalações e melhoramentos), das culturas permanentes e temporárias, das árvores e florestas plantadas e das pastagens cultivadas ou melhoradas.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os custos a que se refere o § 1º, quando não tiverem sido deduzidos como despesa de custeio, na apuração do resultado da atividade rural, podem ser computados para efeito de apuração de ganho de capital.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>
+    Tratando-se de imóvel rural adquirido a partir de 1997, considera-se custo de aquisição o valor da terra nua declarado pelo alienante, no Documento de Informação e Apuração do Imposto sobre a Propriedade Territorial Rural (Diat) do ano da aquisição, observado o disposto nos arts. 8º e 14 da Lei nº 9.393, de 1996.
+
+  </p>
+            
+          </Caput><Paragrafo id="art10_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    No caso de o contribuinte adquirir:
+
+  </p>
+            <Inciso id="art10_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    e vender o imóvel rural antes da entrega do Diat, o ganho de capital é igual à diferença entre o valor de alienação e o custo de aquisição;
+
+  </p>
+            
+          </Inciso><Inciso id="art10_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o imóvel rural antes da entrega do Diat e aliená-lo, no mesmo ano, após sua entrega, não ocorre ganho de capital, por se tratar de VTN de aquisição e de alienação de mesmo valor.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art10_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Caso não tenha sido apresentado o Diat relativamente ao ano de aquisição ou de alienação, ou a ambos, considera-se como custo e como valor de alienação o valor constante nos respectivos documentos de aquisição e de alienação.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O disposto no § 2º aplica-se também no caso de contribuinte sujeito à apresentação apenas do Documento de Informação e Atualização Cadastral (Diac).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art11">
+            
+            <TituloDispositivo>Desmembramento</TituloDispositivo>
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            <p>
+    Quando o imóvel for desmembrado do todo, o custo de aquisição deve ser apurado na proporção que a área alienada representar em relação à área total do imóvel.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art12">
+            
+            <TituloDispositivo>Imóvel adquirido em permuta</TituloDispositivo>
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            
+            
+            
+            <p>
+    Considera-se custo de aquisição de imóvel adquirido por permuta com outro imóvel, o valor do imóvel dado em permuta:
+
+  </p>
+            <Inciso id="art12_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    acrescido da torna paga, se for o caso;
+
+  </p>
+            
+          </Inciso><Inciso id="art12_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    diminuído do valor correspondente à diferença entre a torna recebida e o ganho de capital relativo a essa torna, apurado na forma do art. 23.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art13">
+            
+            <TituloDispositivo>Bens ou direitos adquiridos em partes</TituloDispositivo>
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>
+    Considera-se custo de aquisição, no caso de bens ou direitos adquiridos em partes, a soma dos valores correspondentes a cada parte adquirida.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art14">
+            
+            <TituloDispositivo>Bens adquiridos por meio de concursos ou sorteios</TituloDispositivo>
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            <p>
+    No caso de bens recebidos por meio de concursos ou sorteios de qualquer espécie, constitui custo de aquisição o valor de mercado do prêmio, utilizado como base de cálculo do imposto de renda incidente na fonte, acrescido do valor do imposto de renda.
+
+  </p>
+            
+          </Caput><Paragrafo id="art14_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Para os bens e direitos recebidos até 31 de dezembro de 1994, o custo de aquisição é igual a zero.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art15">
+            
+            <TituloDispositivo>Bens adquiridos por arrendamento mercantil</TituloDispositivo>
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>
+    No caso de bens adquiridos por meio de arrendamento mercantil, considera-se custo de aquisição a soma dos valores pagos a título de arrendamento, acrescida do valor residual do bem.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art16">
+            
+            <TituloDispositivo>Participações societárias</TituloDispositivo>
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            
+            
+            
+            <p>
+    Na hipótese de integralização de capital mediante a entrega de bens ou direitos, considera-se custo de aquisição da participação adquirida o valor dos bens ou direitos transferidos, constante na Declaração de Ajuste Anual ou o seu valor de mercado.
+
+  </p>
+            
+          </Caput><Paragrafo id="art16_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Se a transferência não se fizer pelo valor constante na Declaração de Ajuste Anual, a diferença a maior é tributável como ganho de capital.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    No caso de ações ou quotas recebidas em bonificação, em virtude de incorporação de lucros ou reservas ao capital social da pessoa jurídica, considera-se custo de aquisição da participação o valor do lucro ou reserva capitalizado que corresponder ao acionista ou sócio, independentemente da forma de tributação adotada pela empresa.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Para efeito de apuração de ganho de capital na alienação de participações societárias, o custo de aquisição das ações ou quotas é apurado pela média ponderada dos custos unitários, por espécie, desses títulos.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O custo médio ponderado de cada ação ou quota:
+
+  </p>
+            <Inciso id="art16_par4_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    é igual ao resultado da divisão do valor total de aquisição das ações ou quotas em estoque pela quantidade total de ações ou quotas em estoque, inclusive bonificadas;
+
+  </p>
+            
+          </Inciso><Inciso id="art16_par4_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    multiplicado pela quantidade de ações ou quotas alienadas, constitui o custo de aquisição para efeito da apuração do ganho de capital;
+
+  </p>
+            
+          </Inciso><Inciso id="art16_par4_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    multiplicado pelo número de ações ou quotas remanescente, constitui o valor do estoque desses títulos.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art16_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    A cada aquisição ou baixa devem ser ajustadas as quantidades em estoque e os custos total e médio ponderado, por espécie, das ações ou quotas.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art17">
+            
+            <TituloDispositivo>Valores computáveis como custo</TituloDispositivo>
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            
+            
+            
+            <p>
+    Podem integrar o custo de aquisição, quando comprovados com documentação hábil e idônea e discriminados na Declaração de Ajuste Anual, no caso de:
+
+  </p>
+            <Inciso id="art17_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    bens imóveis:
+
+  </p>
+            <Alinea id="art17_cpt_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    os dispêndios com a construção, ampliação e reforma, desde que os projetos tenham sido aprovados pelos órgãos municipais competentes, e com pequenas obras, tais como pintura, reparos em azulejos, encanamentos, pisos, paredes;
+
+  </p>
+            
+          </Alinea><Alinea id="art17_cpt_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    os dispêndios com a demolição de prédio construído no terreno, desde que seja condição para se efetivar a alienação;
+
+  </p>
+            
+          </Alinea><Alinea id="art17_cpt_inc1_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    as despesas de corretagem referentes à aquisição do imóvel vendido, desde que tenha suportado o ônus;
+
+  </p>
+            
+          </Alinea><Alinea id="art17_cpt_inc1_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    os dispêndios pagos pelo proprietário do imóvel com a realização de obras públicas, tais como colocação de meio-fio, sarjetas, pavimentação de vias, instalação de redes de esgoto e de eletricidade que tenham beneficiado o imóvel;
+
+  </p>
+            
+          </Alinea><Alinea id="art17_cpt_inc1_ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    o valor do imposto de transmissão pago pelo alienante na aquisição do imóvel;
+
+  </p>
+            
+          </Alinea><Alinea id="art17_cpt_inc1_ali6">
+            
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    o valor da contribuição de melhoria;
+
+  </p>
+            
+          </Alinea><Alinea id="art17_cpt_inc1_ali7">
+            
+            
+            <Rotulo>g)</Rotulo>
+            <p>
+    os juros e demais acréscimos pagos para a aquisição do imóvel;
+
+  </p>
+            
+          </Alinea><Alinea id="art17_cpt_inc1_ali8">
+            
+            
+            <Rotulo>h)</Rotulo>
+            <p>
+    o valor do laudêmio pago, etc.;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art17_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    outros bens ou direitos: os dispêndios realizados com a conservação e reparos, a comissão ou a corretagem quando não transferido o ônus ao adquirente, os juros e demais acréscimos pagos, etc.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art18">
+            
+            <TituloDispositivo>Custo na ausência do valor pago</TituloDispositivo>
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            
+            
+            
+            <p>
+    Na ausência do valor pago, o custo de aquisição é:
+
+  </p>
+            <Inciso id="art18_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o valor que tenha servido de base para o cálculo do imposto de importação, acrescido do valor dos tributos e das despesas de desembaraço aduaneiro;
+
+  </p>
+            
+          </Inciso><Inciso id="art18_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o valor de transmissão utilizado, na aquisição, para cálculo do ganho de capital do alienante anterior;
+
+  </p>
+            
+          </Inciso><Inciso id="art18_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    o valor corrente na data da aquisição;
+
+  </p>
+            
+          </Inciso><Inciso id="art18_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    igual a zero, quando não possa ser determinado nos termos dos incisos I, II e III.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art19">
+            
+            <TituloDispositivo>Valor de Alienação</TituloDispositivo>
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            
+            
+            
+            <p>
+    Considera-se valor de alienação:
+
+  </p>
+            <Inciso id="art19_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o preço efetivo da operação de venda ou de cessão de direitos;
+
+  </p>
+            
+          </Inciso><Inciso id="art19_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o valor de mercado, nas operações não expressas em dinheiro;
+
+  </p>
+            
+          </Inciso><Inciso id="art19_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    no caso de bens ou direitos vinculados a qualquer espécie de financiamento ou a consórcios, em que o saldo devedor é transferido para o adquirente, o valor efetivamente recebido, desprezado o valor da dívida transferida;
+
+  </p>
+            
+          </Inciso><Inciso id="art19_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    no caso de bens em condomínio, a parcela do preço que couber a cada condômino ou co-proprietário;
+
+  </p>
+            
+          </Inciso><Inciso id="art19_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    no caso de permuta com recebimento de torna, o valor da torna;
+
+  </p>
+            
+          </Inciso><Inciso id="art19_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    no caso de imóvel rural com benfeitorias, o valor correspondente:
+
+  </p>
+            <Alinea id="art19_cpt_inc6_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    exclusivamente à terra nua, quando o valor das benfeitorias houver sido deduzido como custo ou despesa da atividade rural;
+
+  </p>
+            
+          </Alinea><Alinea id="art19_cpt_inc6_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    a todo o imóvel alienado, quando as benfeitorias não houverem sido deduzidas como custo ou despesa da atividade rural.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput><Paragrafo id="art19_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Tratando-se de imóvel rural adquirido a partir de 1997, considera-se valor de alienação da terra nua:
+
+  </p>
+            <Inciso id="art19_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o valor declarado no Diat do ano da alienação, quando houverem sido entregues os Diat relativos aos anos de aquisição e alienação;
+
+  </p>
+            
+          </Inciso><Inciso id="art19_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o valor efetivamente recebido, nos demais casos.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art19_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Na alienação dos imóveis rurais, a parcela do preço correspondente às benfeitorias é computada:
+
+  </p>
+            <Inciso id="art19_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    como receita da atividade rural, quando o seu valor de aquisição houver sido deduzido como custo ou despesa da atividade rural;
+
+  </p>
+            
+          </Inciso><Inciso id="art19_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    como valor da alienação, nos demais casos.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art19_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Os valores recebidos a título de reajuste, no caso de pagamento parcelado, qualquer que seja sua designação, a exemplo de juros e reajuste de parcelas, não compõem o valor de alienação, devendo ser tributados à medida de seu recebimento, na fonte ou mediante o recolhimento mensal obrigatório (Carnê-Leão), quando a alienação for para pessoa jurídica ou para pessoa física, respectivamente, e na Declaração de Ajuste Anual.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O valor da corretagem, quando suportado pelo alienante, é deduzido do valor da alienação e, quando se tratar de venda a prazo, com diferimento da tributação, a dedução far-se-á sobre o valor da parcela do preço recebida no mês do pagamento da referida corretagem. Casos Especiais de Apuração de Ganho de Capital
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art20">
+            
+            <TituloDispositivo>Sucessão, doação e dissolução da sociedade conjugal ou união estável</TituloDispositivo>
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            
+            
+            
+            <p>
+    Na transferência de propriedade de bens e direitos, por sucessão causa mortis, a herdeiros e legatários; por doação, inclusive em adiantamento da legítima, ao donatário; bem assim na atribuição de bens e direitos a cada ex-cônjuge ou ex-convivente, na hipótese de dissolução da sociedade conjugal ou união estável, os bens e direitos são avaliados a valor de mercado ou considerados pelo valor constante na Declaração de Ajuste Anual do de cujus, doador, ex-cônjuge ou ex-convivente declarante, antes da dissolução da sociedade conjugal ou união estável.
+
+  </p>
+            
+          </Caput><Paragrafo id="art20_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Nos casos em que o de cujus, doador, ex-cônjuge ou ex-convivente não houver apresentado Declaração de Ajuste Anual, por não se enquadrar nas condições de obrigatoriedade estabelecidas pela legislação tributária, a avaliação deve ser realizada em função do custo de aquisição conforme o disposto nos arts. 5º a 8º.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art20_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O valor relativo à opção por qualquer dos critérios de avaliação a que se refere este artigo, que independe da avaliação adotada para efeito da partilha ou do pagamento do imposto de transmissão, deve ser informado na declaração:
+
+  </p>
+            <Inciso id="art20_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    final de espólio e na declaração do herdeiro ou legatário, correspondente ao ano-calendário da transmissão;
+
+  </p>
+            
+          </Inciso><Inciso id="art20_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    do doador e donatário, correspondente ao ano-calendário do recebimento da doação;
+
+  </p>
+            
+          </Inciso><Inciso id="art20_par2_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    do ex-cônjuge ou ex-convivente a quem foi atribuído o bem, correspondente ao ano-calendário da dissolução da sociedade conjugal ou união estável.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art20_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Se a transferência for efetuada por valor superior ao constante na Declaração de Ajuste Anual referida no caput, ou do custo de aquisição referido no § 1º, a diferença a maior constitui ganho de capital tributável.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art20_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Na hipótese do § 3º, o inventariante, no caso de espólio, o doador ou o ex-cônjuge ou ex-convivente a quem for atribuído o bem ou direito deve preencher o Demonstrativo de Apuração do Ganho de Capital e anexá-lo à Declaração Final de Espólio ou à Declaração de Ajuste Anual do ano-calendário da doação ou da dissolução da sociedade conjugal ou união estável, conforme o caso.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art20_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Na apuração de ganho de capital em virtude de posterior alienação dos bens e direitos de que trata este artigo, é considerado como custo de aquisição o valor a que se refere o § 2º.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art20_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    Para efeito do disposto no § 5º, a comprovação do custo, constante na Declaração de Ajuste Anual, é efetuada por meio de:
+
+  </p>
+            <Inciso id="art20_par6_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Declaração Final de Espólio, no caso de transmissão causa mortis;
+
+  </p>
+            
+          </Inciso><Inciso id="art20_par6_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Declaração de Ajuste Anual do doador, na doação, ou do ex-cônjuge ou ex-convivente declarante, na dissolução da sociedade conjugal ou da união estável, ou do documento comprobatório da aquisição, se o doador, ex-cônjuge ou ex-convivente estiver desobrigado da apresentação da declaração;
+
+  </p>
+            
+          </Inciso><Inciso id="art20_par6_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Documento de Arrecadação de Receitas Federais (Darf) relativo ao pagamento do imposto de que trata o § 3º, quando a avaliação houver sido efetuada por valor superior ao constante na última Declaração de Ajuste Anual do de cujus, do doador ou ex-cônjuge declarante, ou do § 1º, conforme o caso.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art20_par7">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    Na cessão de direitos hereditários, cabe ao cedente apurar, em seu nome, o ganho de capital, considerando como custo de aquisição da parte cedida o valor que, proporcionalmente, lhe couber na partilha, constante na última Declaração de Ajuste Anual do de cujus.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            
+            
+            
+            <p>
+    Considera-se data de aquisição:
+
+  </p>
+            <Inciso id="art21_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a da abertura da sucessão, na transferência causa mortis, inclusive na hipótese de cessão de direitos hereditários;
+
+  </p>
+            
+          </Inciso><Inciso id="art21_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a data da transferência do bem, na doação;
+
+  </p>
+            
+          </Inciso><Inciso id="art21_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    na meação por morte, na dissolução da sociedade conjugal ou união estável:
+
+  </p>
+            <Alinea id="art21_cpt_inc3_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    a do instrumento original, se se tratar de bens ou direitos preexistentes à sociedade conjugal ou união estável, se pertencentes ao alienante;
+
+  </p>
+            
+          </Alinea><Alinea id="art21_cpt_inc3_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    a do casamento, se pertencentes ao outro cônjuge e o regime for de comunhão de bens;
+
+  </p>
+            
+          </Alinea><Alinea id="art21_cpt_inc3_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    a da aquisição, se adquiridos na constância da sociedade conjugal ou união estável;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art21_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    a da sentença, na partilha ou sobrepartilha decorrente da dissolução da sociedade conjugal ou união estável, para os bens e direitos havidos fora da meação ou da divisão do condomínio.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art22">
+            
+            <TituloDispositivo>Bens comuns</TituloDispositivo>
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            
+            
+            
+            <p>
+    Nas alienações de bens comuns, decorrentes do regime de casamento, o ganho de capital é apurado em relação ao bem como um todo.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art23">
+            
+            <TituloDispositivo>Permuta</TituloDispositivo>
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            
+            
+            
+            <p>
+    No caso de permuta com recebimento de torna em dinheiro, o ganho de capital é obtido da seguinte forma:
+
+  </p>
+            <Inciso id="art23_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o valor da torna é adicionado ao custo do imóvel dado em permuta;
+
+  </p>
+            
+          </Inciso><Inciso id="art23_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    é efetuada a divisão do valor da torna pelo valor apurado na forma do inciso I, e o resultado obtido é multiplicado por cem;
+
+  </p>
+            
+          </Inciso><Inciso id="art23_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    o ganho de capital é obtido aplicando-se o percentual encontrado, conforme inciso II, sobre o valor da torna.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art24">
+            
+            <TituloDispositivo>Desapropriação</TituloDispositivo>
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput id="art24_cpt">
+            
+            
+            
+            <p>
+    No caso de desapropriação, considera-se realizada a alienação na data em que se completar o pagamento integral da indenização, fixada em acordo ou sentença judicial.
+
+  </p>
+            
+          </Caput><Paragrafo id="art24_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O adiantamento da indenização integra o valor de alienação.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art25">
+            
+            <TituloDispositivo>Usufruto</TituloDispositivo>
+            <Rotulo>Art. 25.</Rotulo>
+            
+            <Caput id="art25_cpt">
+            
+            
+            
+            <p>
+    Na alienação onerosa do usufruto pelo usufrutuário ao nu-proprietário, é apurado o ganho de capital considerando-se custo de aquisição o valor pelo qual o usufruto foi instituído, e valor de alienação o valor constante no instrumento de alienação.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art26">
+            
+            <TituloDispositivo>Redução do Ganho de Capital</TituloDispositivo>
+            <Rotulo>Art. 26.</Rotulo>
+            
+            <Caput id="art26_cpt">
+            
+            
+            
+            <p>
+    Na alienação de imóvel adquirido até 31 de dezembro de 1988, pode ser aplicado um percentual fixo de redução sobre o ganho de capital, determinado em função do ano de aquisição ou incorporação do imóvel, de acordo com a seguinte tabela:
+
+  </p>
+            <table id="art26_cpt_tab1"><tr><td colspan="8"><b>PERCENTUAIS DE REDUÇÃO DO GANHO DE CAPITAL NA ALIENAÇÃO DE BEM IMÓVEL</b></td></tr><tr><td><b>ANO DE AQUISIÇÃO</b></td><td><b>% DE REDUÇÃO</b></td><td><b>ANO DE AQUISIÇÃO</b></td><td><b>% DE REDUÇÃO</b></td><td><b>ANO DE AQUISIÇÃO</b></td><td><b>% DE REDUÇÃO</b></td><td><b>ANO DE AQUISIÇÃO</b></td><td><b>% DE REDUÇÃO</b></td></tr><tr><td>Até 1969</td><td>100%</td><td>1974</td><td>75%</td><td>1979</td><td>50%</td><td>1984</td><td>25%</td></tr><tr><td>1970</td><td>95%</td><td>1975</td><td>70%</td><td>1980</td><td>45%</td><td>1985</td><td>20%</td></tr><tr><td>1971</td><td>90%</td><td>1976</td><td>65%</td><td>1981</td><td>40%</td><td>1986</td><td>15%</td></tr><tr><td>1972</td><td>85%</td><td>1977</td><td>60%</td><td>1982</td><td>35%</td><td>1987</td><td>10%</td></tr><tr><td>1973</td><td>80%</td><td>1978</td><td>55%</td><td>1983</td><td>30%</td><td>1988</td><td>5%</td></tr></table>
+          </Caput><Paragrafo id="art26_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Na alienação de imóvel constituído por terreno adquirido até 31 de dezembro de 1988 e de edificação, ampliação ou reforma iniciada até essa data, ainda que concluída em ano posterior, informada na Declaração de Ajuste Anual, o percentual de redução é determinado em função do ano de aquisição do terreno e aplicado sobre todo o ganho de capital.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art26_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Na alienação em conjunto, de imóvel constituído de partes adquiridas em datas diferentes, a redução aplica-se à parcela do ganho de capital que corresponder a cada parte adquirida até 31 de dezembro de 1988.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art26_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Na alienação de imóvel adquirido até 31 de dezembro de 1988, contendo construção, ampliação ou reforma iniciada após essa data, o percentual de redução aplica-se à parcela do ganho de capital que corresponder ao terreno e às edificações existentes em 31 de dezembro de 1988.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art26_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Para efeito do disposto nos §§ 2º e 3º:
+
+  </p>
+            <Inciso id="art26_par4_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o percentual de redução correspondente a cada parte é determinado em função do ano de sua aquisição e aplicado sobre a parcela do ganho de capital a ela correspondente;
+
+  </p>
+            
+          </Inciso><Inciso id="art26_par4_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a parcela do ganho de capital correspondente a cada parte é determinada aplicando-se sobre todo o ganho de capital o percentual resultante da relação entre o custo da parte objeto da redução e o custo total do imóvel, ou entre a área da parte objeto da redução e a área total do imóvel.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art26_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    No caso de bens imóveis havidos por herança ou legado, cuja abertura da sucessão (falecimento) tenha ocorrido até 31 de dezembro de 1988, o percentual de redução é determinado tomando-se por base o ano da abertura da sucessão, mesmo que a partilha tenha ocorrido em ano posterior.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art26_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    O saldo do ganho de capital sujeito à tributação é igual à diferença entre o ganho total e a soma das parcelas a deduzir, resultantes da aplicação do respectivo percentual de redução. Da Tributação do Ganho de Capital
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art27">
+            
+            <TituloDispositivo>Incidência</TituloDispositivo>
+            <Rotulo>Art. 27.</Rotulo>
+            
+            <Caput id="art27_cpt">
+            
+            
+            
+            <p>
+    O ganho de capital sujeita-se à incidência do imposto de renda, sob a forma de tributação definitiva, à alíquota de quinze por cento.
+
+  </p>
+            
+          </Caput><Paragrafo id="art27_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O cálculo e o pagamento do imposto devido sobre o ganho de capital na alienação de bens e direitos devem ser efetuados em separado dos demais rendimentos tributáveis recebidos no mês, quaisquer que sejam.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art27_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O imposto incidente sobre ganhos de capital não é compensável na Declaração de Ajuste Anual.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art28">
+            
+            <TituloDispositivo>Não-incidência</TituloDispositivo>
+            <Rotulo>Art. 28.</Rotulo>
+            
+            <Caput id="art28_cpt">
+            
+            
+            
+            <p>
+    Não incide o imposto sobre o ganho de capital decorrente de:
+
+  </p>
+            <Inciso id="art28_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    indenização do valor do imóvel rural na desapropriação para fins de reforma agrária;
+
+  </p>
+            
+          </Inciso><Inciso id="art28_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    indenização por liquidação de sinistro, furto ou roubo, relativo ao objeto segurado.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art28_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Na hipótese do inciso I, a parcela da indenização, correspondente às benfeitorias, é computada como receita da atividade rural quando estas tiverem sido deduzidas como custo ou despesa.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art29">
+            
+            <TituloDispositivo>Exclusão</TituloDispositivo>
+            <Rotulo>Art. 29.</Rotulo>
+            
+            <Caput id="art29_cpt">
+            
+            
+            
+            <p>
+    Na determinação do ganho de capital sujeito à incidência do imposto são excluídos os ganhos de capital decorrentes de:
+
+  </p>
+            <Inciso id="art29_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    alienação, por valor igual ou inferior a R$ 440.000,00 (quatrocentos e quarenta mil reais), do único imóvel que o titular possua, individualmente, em condomínio ou em comunhão, desde que, nos últimos cinco anos, não tenha efetuado alienação de imóvel, a qualquer título, tributada ou não;
+
+  </p>
+            
+          </Inciso><Inciso id="art29_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa SRF nº 599, de 28 de dezembro de 2005]
+
+  </p>
+            
+          </Inciso><Inciso id="art29_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    restituição de participação no capital social mediante a entrega à pessoa física, pela pessoa jurídica, de bens e direitos de seu ativo, avaliados pelo valor contábil ou de mercado;
+
+  </p>
+            
+          </Inciso><Inciso id="art29_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    permuta, sem torna, de unidades imobiliárias;
+
+  </p>
+            
+          </Inciso><Inciso id="art29_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    permuta, caracterizada com a entrega, pelo licitante vencedor, de títulos da dívida pública federal, estadual, do Distrito Federal e municipal, ou de outros créditos contra a União, como contrapartida à aquisição das ações ou quotas leiloadas no âmbito dos respectivos programas de desestatização.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art29_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Na hipótese do inciso I do caput:
+
+  </p>
+            <Inciso id="art29_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a exclusão aplica-se ao ganho de capital decorrente da alienação de qualquer bem imóvel, independentemente de se tratar de terreno, terra nua, casa ou apartamento, ser residencial, comercial ou de lazer, e estar localizado em zona urbana ou rural;
+
+  </p>
+            
+          </Inciso><Inciso id="art29_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o limite de R$ 440.000,00 (quatrocentos e quarenta mil reais) é considerado em relação:
+
+  </p>
+            <Alinea id="art29_par1_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    à parte de cada condômino ou co-proprietário, no caso de bens ou direitos possuídos em condomínio;
+
+  </p>
+            
+          </Alinea><Alinea id="art29_par1_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    ao imóvel possuído em comunhão, no caso de sociedade conjugal.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Paragrafo><Paragrafo id="art29_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa SRF nº 599, de 28 de dezembro de 2005]
+
+  </p>
+            <Inciso id="art29_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa SRF nº 599, de 28 de dezembro de 2005]
+
+  </p>
+            
+          </Inciso><Inciso id="art29_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa SRF nº 599, de 28 de dezembro de 2005]
+
+  </p>
+            
+          </Inciso><Inciso id="art29_par2_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa SRF nº 599, de 28 de dezembro de 2005]
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art29_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa SRF nº 599, de 28 de dezembro de 2005]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art29_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Na hipótese do inciso IV do caput, a exclusão aplica-se:
+
+  </p>
+            <Inciso id="art29_par4_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    exclusivamente, às permutas de unidade imobiliária por unidade imobiliária;
+
+  </p>
+            
+          </Inciso><Inciso id="art29_par4_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    às operações de permuta realizadas por contrato particular, desde que a escritura pública correspondente, quando lavrada, seja de permuta.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art29_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Na permuta de unidades imobiliárias com torna, o ganho de capital é apurado exclusivamente em relação a esta, observado o disposto no art. 23. Pagamento do Imposto
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art30">
+            
+            <TituloDispositivo>Regra geral</TituloDispositivo>
+            <Rotulo>Art. 30.</Rotulo>
+            
+            <Caput id="art30_cpt">
+            
+            
+            
+            <p>
+    O imposto devido sobre os ganhos de capital de que trata esta Instrução Normativa deve ser pago pelo:
+
+  </p>
+            <Inciso id="art30_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    alienante, se residente no País;
+
+  </p>
+            
+          </Inciso><Inciso id="art30_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    procurador do alienante, em nome deste, se este for não-residente no País;
+
+  </p>
+            
+          </Inciso><Inciso id="art30_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    inventariante, em nome do espólio, nos casos de transferências causa mortis;
+
+  </p>
+            
+          </Inciso><Inciso id="art30_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    doador, no caso de doação, inclusive em adiantamento da legítima;
+
+  </p>
+            
+          </Inciso><Inciso id="art30_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    ex-cônjuge ou ex-convivente a quem, na dissolução da sociedade conjugal ou da união estável, for atribuído o bem ou direito objeto da tributação;
+
+  </p>
+            
+          </Inciso><Inciso id="art30_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    cedente, na cessão de direitos hereditários.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art30_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Na hipótese do inciso II do caput, quando o alienante não for inscrito no Cadastro das Pessoas Físicas (CPF), no Darf é indicado o número de inscrição do procurador.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art30_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Na hipótese do art. 22, o imposto é recolhido em nome de cada cônjuge, na proporção de cinqüenta por cento para cada um, ou em nome de um deles, pela totalidade.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art30_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O pagamento do imposto é efetuado:
+
+  </p>
+            <Inciso id="art30_par3_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    até o último dia útil do mês subseqüente àquele em que o ganho houver sido percebido, na hipótese do inciso I do caput;
+
+  </p>
+            
+          </Inciso><Inciso id="art30_par3_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    na data da alienação, na hipótese do inciso II do caput;
+
+  </p>
+            
+          </Inciso><Inciso id="art30_par3_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    até a data prevista para a entrega da Declaração Final de Espólio, na hipótese do inciso III do caput;
+
+  </p>
+            
+          </Inciso><Inciso id="art30_par3_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    até o último dia útil do mês subseqüente ao da doação, na hipótese do inciso IV do caput;
+
+  </p>
+            
+          </Inciso><Inciso id="art30_par3_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    até o último dia útil do mês subseqüente ao do trânsito em julgado da decisão judicial da partilha ou sobrepartilha decorrente da dissolução da sociedade conjugal ou união estável, na hipótese do inciso V do caput;
+
+  </p>
+            
+          </Inciso><Inciso id="art30_par3_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    nas datas dos incisos I e II, na hipótese do inciso VI do caput, conforme o caso.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo id="art31">
+            
+            <TituloDispositivo>Alienação a prazo</TituloDispositivo>
+            <Rotulo>Art. 31.</Rotulo>
+            
+            <Caput id="art31_cpt">
+            
+            
+            
+            <p>
+    Nas alienações a prazo, o ganho de capital é apurado como se a venda fosse efetuada à vista e o imposto é pago periodicamente, na proporção da parcela do preço recebida, até o último dia útil do mês subseqüente ao do recebimento.
+
+  </p>
+            
+          </Caput><Paragrafo id="art31_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O imposto devido, relativo a cada parcela recebida, é apurado aplicando-se:
+
+  </p>
+            <Inciso id="art31_par1u_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o percentual resultante da relação entre o ganho de capital total e valor total da alienação sobre o valor da parcela recebida;
+
+  </p>
+            
+          </Inciso><Inciso id="art31_par1u_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a alíquota de quinze por cento sobre o valor apurado na forma do inciso I.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo id="art32">
+            
+            <TituloDispositivo>Acréscimos legais</TituloDispositivo>
+            <Rotulo>Art. 32.</Rotulo>
+            
+            <Caput id="art32_cpt">
+            
+            
+            
+            <p>
+    O imposto pago após o vencimento é acrescido de:
+
+  </p>
+            <Inciso id="art32_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    juros, equivalentes à taxa referencial do Sistema Especial de Liquidação e Custódia (Selic), para títulos federais, acumulada mensalmente, calculados a partir do primeiro dia do mês subseqüente ao do vencimento até o último dia do mês anterior ao do pagamento e de 1% (um por cento) no mês do pagamento;
+
+  </p>
+            
+          </Inciso><Inciso id="art32_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    multa de mora, calculada à taxa de 0,33% (trinta e três centésimos por cento), por dia de atraso, a partir do primeiro dia após o vencimento do débito, limitada a vinte por cento.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art33">
+            
+            
+            <Rotulo>Art. 33.</Rotulo>
+            
+            <Caput id="art33_cpt">
+            
+            
+            
+            <p>
+    O imposto de renda pago em país com o qual o Brasil tenha firmado acordos, tratados ou convenções internacionais prevendo a compensação, ou naquele em que haja reciprocidade de tratamento, pode ser considerado como redução do imposto devido no País, até o limite do imposto devido no Brasil, desde que não seja compensado ou restituído no exterior.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art34">
+            
+            <TituloDispositivo>Disposições Finais</TituloDispositivo>
+            <Rotulo>Art. 34.</Rotulo>
+            
+            <Caput id="art34_cpt">
+            
+            
+            
+            <p>
+    Esta Instrução Normativa entra em vigor na data de sua publicação.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art35">
+            
+            
+            <Rotulo>Art. 35.</Rotulo>
+            
+            <Caput id="art35_cpt">
+            
+            
+            
+            <p>
+    Ficam formalmente revogadas, sem interrupção de sua força normativa, as Instruções Normativas SRF nº 39/93, de 30 de março de 1993, nº 48/98, de 26 de maio de 1998, nº 51/98, de 3 de junho de 1998, e nº 158/99, de 23 de dezembro de 1999. EVERARDO MACIEL
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          
+          <Anexos><ReferenciaAnexo AlvoURN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2001-10-11;84!anexo1"/></Anexos>
+        </Norma></ProjetoNorma>
+    </LexML>

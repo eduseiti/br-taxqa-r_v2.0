@@ -1,0 +1,1366 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2001-10-11;81"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">INSTRUÇÃO NORMATIVA Nº 81, DE 11 DE OUTUBRO DE 2001 </Epigrafe>
+		  <Ementa id="ementa">Dispõe sobre as declarações de espólio.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O SECRETÁRIO DA RECEITA FEDERAL, no uso da atribuição que lhe confere o inciso III do art. 209 do Regimento Interno da Secretaria da Receita Federal, aprovado pela Portaria MF Nº 259, de 24 de agosto de 2001, e tendo em vista o disposto no art. 16 da Lei nº 9.779, de 19 de janeiro de 1999, e nos arts. 11 a 14, 23 a 25, 105, 141, 683, 798, § 5º, 855 e 897 do Decreto nº 3.000, de 26 de março de 1999 - Regulamento do Imposto de Renda, resolve:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    As declarações de espólio devem ser efetuadas de conformidade com as normas estabelecidas para as declarações de pessoas físicas e com o disposto nesta Instrução Normativa.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    Considera-se espólio o conjunto de bens, direitos e obrigações da pessoa falecida.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art3">
+            
+            <TituloDispositivo>Disposições Gerais</TituloDispositivo>
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    Consideram-se declarações de espólio aquelas relativas aos anos-calendário a partir do falecimento do contribuinte.
+
+  </p>
+            
+          </Caput><Paragrafo id="art3_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Ocorrendo o falecimento a partir de 1º de janeiro, mas antes da entrega da declaração correspondente ao ano-calendário anterior, esta não se caracteriza como declaração de espólio, devendo ser apresentada como se o contribuinte estivesse vivo e assinada pelo inventariante, cônjuge ou convivente, sucessor a qualquer título ou por representante do de cujus.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As declarações de espólio são classificadas como:
+
+  </p>
+            <Inciso id="art3_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    inicial, a que corresponder ao ano-calendário do falecimento;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    intermediárias, as referentes aos anos-calendário seguintes ao do falecimento e até o anterior ao da decisão judicial transitada em julgado da partilha, sobrepartilha ou adjudicação dos bens;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par2_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    final, a que corresponder ao ano-calendário em que for proferida a decisão judicial transitada em julgado da partilha, sobrepartilha ou adjudicação dos bens.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art3_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Aplicam-se, quanto à obrigatoriedade de apresentação das declarações de espólio inicial e intermediárias, as mesmas normas previstas para os contribuintes pessoas físicas.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Havendo bens a inventariar, é obrigatória a apresentação da declaração final, na qual devem ser incluídos os rendimentos, se auferidos, correspondentes ao período de janeiro do ano-calendário até o mês da decisão judicial transitada em julgado da partilha, sobrepartilha ou adjudicação dos bens.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Nas declarações de que trata este artigo devem ser computados os rendimentos recebidos nos respectivos períodos, que sejam próprios do de cujus, ainda que transferidos de imediato ao cônjuge meeiro, aos herdeiros ou legatários.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    O ganho de capital na alienação de bens e direitos realizada no curso do inventário deve ser tributado em nome do espólio, salvo se tratar de cessão de direitos hereditários, caso em que cabe ao cedente apurar, em seu nome, o ganho de capital.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    As declarações de espólio devem ser:
+
+  </p>
+            <Inciso id="art4_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    apresentadas com o nome do espólio, endereço e número de inscrição no Cadastro das Pessoas Físicas (CPF) do de cujus;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    assinadas pelo inventariante, que indicará seu nome, CPF e endereço.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art4_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Enquanto não iniciado o processo de inventário ou arrolamento, as declarações de espólio devem ser apresentadas e assinadas pelo cônjuge meeiro, sucessor a qualquer título ou por representante destes.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Se o de cujus ou o inventariante não estiver inscrito no CPF, ser-lhe-á conferido número de inscrição quando da entrega da declaração.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art5">
+            
+            <TituloDispositivo>Meios e Prazos de Entrega das Declarações de Espólio</TituloDispositivo>
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    As declarações inicial e intermediárias devem obedecer ao mesmo tratamento previsto para a Declaração de Ajuste Anual do ano-calendário correspondente.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    A Declaração Final de Espólio deve ser apresentada até o último dia útil do mês de abril do ano-calendário subseqüente ao: [Redação dada pelo(a) Instrução Normativa RFB nº 897, de 29 de dezembro de 2008]
+
+  </p>
+            <Inciso id="art6_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    da decisão judicial da partilha, sobrepartilha ou adjudicação dos bens inventariados, que tenha transitado em julgado até o último dia do mês de fevereiro do ano-calendário subseqüente ao da decisão judicial; [Redação dada pelo(a) Instrução Normativa RFB nº 897, de 29 de dezembro de 2008]
+
+  </p>
+            <Alinea id="art6_cpt_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    decisão [Incluído(a) pelo(a) Instrução Normativa RFB nº 805, de 28 de dezembro de 2007] [Suprimido(a) - vide Instrução Normativa RFB nº 897, de 29 de dezembro de 2008]
+
+  </p>
+            
+          </Alinea><Alinea id="art6_cpt_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    lavratura [Incluído(a) pelo(a) Instrução Normativa RFB nº 805, de 28 de dezembro de 2007] [Suprimido(a) - vide Instrução Normativa RFB nº 897, de 29 de dezembro de 2008]
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art6_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    da lavratura da escritura pública de inventário e partilha; [Redação dada pelo(a) Instrução Normativa RFB nº 897, de 29 de dezembro de 2008]
+
+  </p>
+            
+          </Inciso><Inciso id="art6_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    do trânsito em julgado, quando este ocorrer a partir de 1º de março do ano-calendário subsequente ao da decisão judicial da partilha, sobrepartilha ou adjudicação dos bens inventariados, observado o disposto no § 8º. [Redação dada pelo(a) Instrução Normativa RFB nº 2178, de 5 de março de 2024]
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art6_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A Declaração Final de Espólio deve ser transmitida pela Internet ou apresentada, em mídia removível, nas unidades da Secretaria da Receita Federal do Brasil. [Redação dada pelo(a) Instrução Normativa RFB nº 1150, de 29 de abril de 2011]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art6_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O contribuinte deverá utilizar o Programa Gerador da Declaração Final de Espólio do ano-calendário correspondente ao que for proferida a decisão judicial ou a lavratura da escritura pública, que estará disponível no sítio da Secretaria da Receita Federal do Brasil (RFB) na Internet no endereço . [Redação dada pelo(a) Instrução Normativa RFB nº 897, de 29 de dezembro de 2008]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art6_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    [Suprimido(a) - vide Instrução Normativa SRF nº 711, de 31 de janeiro de 2007]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art6_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O prazo para a entrega da Declaração de que trata o caput, originalmente fixado em 30 de abril de 2020, fica excepcionalmente prorrogado para 30 de junho de 2020. [Incluído(a) pelo(a) Instrução Normativa RFB nº 1934, de 7 de abril de 2020]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art6_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    O prazo para a entrega da Declaração de que trata o caput, originalmente fixado para até 30 de abril de 2021, fica excepcionalmente prorrogado para até 31 de maio de 2021. [Incluído(a) pelo(a) Instrução Normativa RFB nº 2020, de 9 de abril de 2021]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art6_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    O prazo para a apresentação da declaração de que trata o caput, originalmente fixado para até 29 de abril de 2022, fica excepcionalmente prorrogado para até 31 de maio de 2022. [Incluído(a) pelo(a) Instrução Normativa RFB nº 2077, de 4 de abril de 2022]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art6_par7">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    O prazo para a apresentação da declaração de que trata o caput, originalmente fixado para até 28 de abril de 2023, fica excepcionalmente prorrogado para até 31 de maio de 2023. [Incluído(a) pelo(a) Instrução Normativa RFB nº 2134, de 27 de fevereiro de 2023]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art6_par8">
+            
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    Na hipótese de o trânsito em julgado ocorrer nos meses de janeiro e fevereiro de anos-calendário subsequentes ao ano-calendário imediatamente seguinte ao da decisão judicial da partilha, sobrepartilha ou adjudicação dos bens inventariados, a Declaração Final de Espólio deve ser apresentada até o último dia útil do mês de abril do mesmo ano-calendário do trânsito em julgado. [Incluído(a) pelo(a) Instrução Normativa RFB nº 2178, de 5 de março de 2024]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art6_par9">
+            
+            
+            <Rotulo>§ 9º</Rotulo>
+            <p>
+    O prazo para a apresentação da declaração de que tratam o caput e o § 8º, originalmente fixado para até 30 de abril de 2024, fica prorrogado para até 31 de maio de 2024. [Incluído(a) pelo(a) Instrução Normativa RFB nº 2178, de 5 de março de 2024]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art6_par10">
+            
+            
+            <Rotulo>§ 10.</Rotulo>
+            <p>
+    O prazo para a apresentação da declaração de que tratam o caput e o § 8º, originalmente fixado para até 30 de abril de 2025, fica prorrogado para até 30 de maio de 2025. [Incluído(a) pelo(a) Instrução Normativa RFB nº 2263, de 25 de abril de 2025]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art6_par11">
+            
+            
+            <Rotulo>§ 11.</Rotulo>
+            <p>
+    O prazo para a apresentação da declaração de que tratam o caput e o § 8º, originalmente fixado para até 30 de abril de 2026, fica prorrogado para até 29 de maio de 2026. [Incluído(a) pelo(a) Instrução Normativa RFB nº 2312, de 13 de março de 2026]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art7">
+            
+            <TituloDispositivo>Declarações Inicial e Intermediárias</TituloDispositivo>
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    Nas declarações inicial e intermediárias, se obrigatórias, devem ser incluídos:
+
+  </p>
+            <Inciso id="art7_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    os rendimentos recebidos durante todo o ano-calendário, observado o seguinte:
+
+  </p>
+            <Alinea id="art7_cpt_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    no caso de falecimento de contribuinte casado:
+
+  </p>
+            <Item id="art7_cpt_inc1_ali1_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    todos os seus rendimentos próprios, inclusive os produzidos pelos seus bens particulares ou incomunicáveis;
+
+  </p>
+            
+          </Item><Item id="art7_cpt_inc1_ali1_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    as parcelas que lhe couberem dos rendimentos produzidos pelos bens possuídos em conjunto com terceiros;
+
+  </p>
+            
+          </Item><Item id="art7_cpt_inc1_ali1_ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    cinqüenta por cento dos rendimentos produzidos pelos bens comuns que integrem o regime de comunhão universal ou parcial, adotado na sociedade conjugal ou, por opção, cem por cento desses rendimentos;
+
+  </p>
+            
+          </Item>
+          </Alinea><Alinea id="art7_cpt_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    no caso de falecimento de contribuinte em união estável:
+
+  </p>
+            <Item id="art7_cpt_inc1_ali2_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    todos os seus rendimentos próprios, inclusive os produzidos pelos seus bens particulares ou incomunicáveis;
+
+  </p>
+            
+          </Item><Item id="art7_cpt_inc1_ali2_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    as parcelas que lhe couberem dos rendimentos produzidos pelos bens possuídos em conjunto com terceiros;
+
+  </p>
+            
+          </Item><Item id="art7_cpt_inc1_ali2_ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    cinqüenta por cento dos rendimentos produzidos pelos bens possuídos em condomínio com o convivente ou percentual estabelecido em contrato escrito;
+
+  </p>
+            
+          </Item>
+          </Alinea><Alinea id="art7_cpt_inc1_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    no caso de falecimento de contribuinte não casado, todos os rendimentos próprios, inclusive os produzidos pelos seus bens particulares ou incomunicáveis, bem assim as parcelas que lhe couberem nos rendimentos produzidos pelos bens possuídos em condomínio;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art7_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    todos os bens e direitos que integram o regime de comunhão universal ou parcial, adotado na sociedade conjugal, e os possuídos em condomínio, inclusive na união estável, bem assim as obrigações do espólio, ainda que anteriormente constassem da declaração do cônjuge ou convivente sobrevivente.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art8">
+            
+            <TituloDispositivo>Declaração Final</TituloDispositivo>
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    A declaração final deve abranger os rendimentos recebidos no período compreendido entre 1º de janeiro e a data da decisão judicial transitada em julgado da partilha, sobrepartilha ou adjudicação dos bens inventariados, aplicando-se-lhe as normas estabelecidas para o ano-calendário em que ocorrer o termo final, observado o disposto no inciso I do art. 7º.
+
+  </p>
+            
+          </Caput><Paragrafo id="art8_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O imposto de renda deve ser apurado mediante a utilização dos valores da tabela progressiva mensal, vigente no ano-calendário a que corresponder a declaração final, multiplicados pelo número de meses a partir de janeiro até o da decisão judicial transitada em julgado, ainda que os rendimentos correspondam a apenas um ou alguns meses desse período.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Na declaração final devem ser prestadas as seguintes informações, relativamente ao formal de partilha, sobrepartilha ou adjudicação, do seu termo de encerramento e do trânsito em julgado da decisão judicial:
+
+  </p>
+            <Inciso id="art8_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    número do processo judicial e da vara e seção judiciária onde tramitou;
+
+  </p>
+            
+          </Inciso><Inciso id="art8_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    data da decisão judicial e do seu trânsito em julgado.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo id="art9">
+            
+            <TituloDispositivo>Declaração de bens da declaração final</TituloDispositivo>
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            
+            
+            
+            <p>
+    Na declaração de bens e direitos correspondente à declaração final:
+
+  </p>
+            <Inciso id="art9_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    deve ser demonstrada, discriminadamente por bem ou direito, a parcela que corresponder a cada beneficiário, identificados pelo nome e CPF;
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    na coluna &quot;Situação na Data da Partilha&quot;, os bens e direitos devem ser informados pelo valor constante na última declaração apresentada pelo de cujus ou pelo valor de aquisição, se esta houver sido efetuada pelo espólio, observada a legislação vigente;
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    na coluna &quot;Valor de Transferência&quot; deve ser informado o valor pelo qual o bem ou direito, ou cada parte deste, deve ser incluído na declaração de bens do respectivo beneficiário, observado o disposto no art. 10.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art10">
+            
+            <TituloDispositivo>Transferência dos bens e direitos</TituloDispositivo>
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>
+    A transferência dos bens e direitos aos herdeiros ou legatários pode ser efetuada pelo valor constante na última declaração de bens e direitos apresentada pelo de cujus ou pelo valor de mercado.
+
+  </p>
+            
+          </Caput><Paragrafo id="art10_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    No caso em que o de cujus não houver apresentado Declaração de Ajuste Anual por não se enquadrar nas condições de obrigatoriedade estabelecidas pela legislação tributária, a transferência pode ser efetuada pelo custo de aquisição do bem ou direito, atualizado monetariamente até 31.12.1995, conforme Tabela de Atualização do Custo de Bens e Direitos (Anexo I).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Se a transferência for efetuada por valor superior ao constante na última declaração do de cujus ou do custo de aquisição, referido no § 1º, a diferença constitui ganho de capital tributável, sujeito à incidência do imposto de renda à alíquota de quinze por cento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A opção por qualquer dos critérios de avaliação a que se refere este artigo deve ser informada na Declaração Final de Espólio, sendo vedada a sua retificação.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Na hipótese do § 2º, o inventariante deve apurar o ganho de capital por meio do Programa Demonstrativo de Ganhos de Capital do ano-calendário correspondente ao que for proferida a decisão judicial ou lavratura da escritura pública e importar os respectivos dados para a Declaração Final de Espólio. [Redação dada pelo(a) Instrução Normativa RFB nº 897, de 29 de dezembro de 2008]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    O imposto devido sobre ganho de capital de que trata este artigo deve ser pago pelo inventariante até a data prevista para a entrega da Declaração Final de Espólio. [Redação dada pelo(a) Instrução Normativa RFB nº 1620, de 19 de fevereiro de 2016]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    Na Declaração de Ajuste Anual relativa ao exercício correspondente ao ano-calendário da decisão judicial transitada em julgado, os herdeiros e os legatários deverão incluir os bens e direitos recebidos pelo valor informado na coluna &quot;Valor de Transferência&quot; da declaração de bens e direitos correspondente à Declaração Final de Espólio.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par7">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    Na apuração do ganho de capital em virtude de posterior alienação dos bens e direitos de que trata este artigo, deve ser considerado como custo de aquisição o valor a que se refere o § 6º.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par8">
+            
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    Caso o custo de aquisição utilizado pelo herdeiro no cálculo do ganho de capital, na alienação de bens e direitos recebidos em herança, legado ou meação antes da entrega da Declaração Final de Espólio, seja maior do que o valor atribuído ao respectivo bem nessa declaração, caberá ao herdeiro o recolhimento da diferença do imposto sobre o ganho de capital apurado com base no valor de transferência, com os devidos acréscimos legais. [Incluído(a) pelo(a) Instrução Normativa RFB nº 897, de 29 de dezembro de 2008]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art11">
+            
+            <TituloDispositivo>Acréscimo de Bens ao Inventário</TituloDispositivo>
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            <p>
+    São sujeitos a sobrepartilha os bens (Código de Processo Civil - CPC, art. 669): [Redação dada pelo(a) Instrução Normativa RFB nº 2010, de 24 de fevereiro de 2021]
+
+  </p>
+            <Inciso id="art11_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    sonegados;
+
+  </p>
+            
+          </Inciso><Inciso id="art11_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    da herança descobertos após a partilha; [Redação dada pelo(a) Instrução Normativa RFB nº 2010, de 24 de fevereiro de 2021]
+
+  </p>
+            
+          </Inciso><Inciso id="art11_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    litigiosos, assim como os de liquidação difícil ou morosa;
+
+  </p>
+            
+          </Inciso><Inciso id="art11_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    situados em lugar remoto da sede do juízo onde se processa o inventário.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art11_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Os demais bens integrantes do espólio devem ser baixados na declaração final de espólio da partilha. [Redação dada pelo(a) Instrução Normativa RFB nº 2010, de 24 de fevereiro de 2021]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art12">
+            
+            <TituloDispositivo>Bens Acrescidos Antes da Partilha</TituloDispositivo>
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            
+            
+            
+            <p>
+    Na hipótese de haver bens trazidos aos autos do inventário em data anterior à do trânsito em julgado da decisão judicial da partilha ou adjudicação, as declarações do espólio devem ser apresentadas normalmente, nelas incluindo-se, a partir do ano-calendário em que os mesmos forem trazidos aos autos, os bens e os rendimentos por eles produzidos.
+
+  </p>
+            
+          </Caput><Paragrafo id="art12_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Se os bens e direitos trazidos aos autos houverem produzido rendimentos em anos anteriores, não abrangidos pela decadência, devem ser retificadas as declarações apresentadas nos exercícios correspondentes, desde a abertura da sucessão, para que nelas sejam incluídos esses bens e os rendimentos por eles produzidos, observado o disposto nos incisos I e II do art. 7º.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art13">
+            
+            <TituloDispositivo>Bens Acrescidos Após a Partilha</TituloDispositivo>
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>
+    Relativamente aos bens da sobrepartilha, deve ser observado o disposto nos arts. 5º a 7º e, se a sobrepartilha se referir: [Redação dada pelo(a) Instrução Normativa RFB nº 2010, de 24 de fevereiro de 2021]
+
+  </p>
+            <Inciso id="art13_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    ao mesmo ano-calendário da partilha, devem também ser informados, na declaração final de espólio relativa à partilha, os bens da sobrepartilha e os rendimentos por eles produzidos; ou [Redação dada pelo(a) Instrução Normativa RFB nº 2010, de 24 de fevereiro de 2021]
+
+  </p>
+            <Alinea id="art13_cpt_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 2010, de 24 de fevereiro de 2021]
+
+  </p>
+            
+          </Alinea><Alinea id="art13_cpt_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 2010, de 24 de fevereiro de 2021]
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art13_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a ano-calendário posterior ao da partilha, devem ser informados, nas declarações de sobrepartilha intermediárias, se obrigatórias, e final, apenas os bens da sobrepartilha e os rendimentos por eles produzidos. [Redação dada pelo(a) Instrução Normativa RFB nº 2010, de 24 de fevereiro de 2021]
+
+  </p>
+            <Alinea id="art13_cpt_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 2010, de 24 de fevereiro de 2021]
+
+  </p>
+            
+          </Alinea><Alinea id="art13_cpt_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 2010, de 24 de fevereiro de 2021]
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput><Paragrafo id="art13_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Se os bens sobrepartilhados houverem produzido rendimentos:
+
+  </p>
+            <Inciso id="art13_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    em anos anteriores, não alcançados pela decadência, são aplicadas as normas do parágrafo único do art. 12;
+
+  </p>
+            
+          </Inciso><Inciso id="art13_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 2010, de 24 de fevereiro de 2021]
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art13_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Transitado em julgado a decisão judicial referente à sobrepartilha, deve ser apresentada a declaração final da sobrepartilha. [Redação dada pelo(a) Instrução Normativa RFB nº 2010, de 24 de fevereiro de 2021]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art14">
+            
+            <TituloDispositivo>Deduções Permitidas</TituloDispositivo>
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            <p>
+    Nas declarações de espólio, inclusive na final:
+
+  </p>
+            <Inciso id="art14_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    são permitidas todas as deduções previstas na legislação tributária;
+
+  </p>
+            
+          </Inciso><Inciso id="art14_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    os limites anuais relativos a dependentes e despesas com instrução podem ser utilizados pelo total, desde que preenchidos os requisitos legais para a dedução;
+
+  </p>
+            
+          </Inciso><Inciso id="art14_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    podem ser considerados dependentes o cônjuge ou convivente sobrevivente e demais dependentes, desde que não tenham recebido rendimentos ou, caso os tenham recebido, sejam os mesmos incluídos nas declarações do espólio.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art15">
+            
+            <TituloDispositivo>Pagamento do Imposto</TituloDispositivo>
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>
+    O trânsito em julgado da decisão judicial da partilha, sobrepartilha ou adjudicação, pondo termo ao processo de inventário, implica vencimento das obrigações tributárias do espólio.
+
+  </p>
+            
+          </Caput><Paragrafo id="art15_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O pagamento do imposto correspondente à declaração final deve ser efetuado até a data prevista para sua entrega.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O prazo de pagamento previsto no § 1º aplica-se igualmente ao imposto apurado na declaração correspondente ao ano-calendário anterior àquele em que transitou em julgado a decisão judicial da partilha, sobrepartilha ou adjudicação, bem assim de quaisquer outros créditos tributários ainda não quitados, se prazo menor não estiver estipulado na legislação tributária, não se admitindo o pagamento do imposto em quotas.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art16">
+            
+            <TituloDispositivo>Restituição do Imposto</TituloDispositivo>
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            
+            
+            
+            <p>
+    Caso na declaração final seja apurado imposto a restituir, são observadas, quanto a essa restituição, as mesmas normas aplicáveis às demais restituições, às pessoas físicas, vigentes no exercício a ela correspondente.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            
+            
+            
+            <p>
+    Existindo bens ou direitos sujeitos a inventário ou arrolamento, a restituição ao cônjuge, convivente ou herdeiros somente pode ser efetuada mediante alvará expedido para esse fim por autoridade judiciária, ainda que o pedido seja efetuado após o encerramento do procedimento judicial, o qual substitui os documentos referidos no § 3º do art. 19, observados os demais procedimentos legais e normativos estabelecidos para devolução dos tributos administrados pela Secretaria da Receita Federal.
+
+  </p>
+            
+          </Caput><Paragrafo id="art17_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A devolução do imposto pago a maior ou indevidamente pelo espólio deve ser requerida pelo inventariante, observadas as condições previstas no caput.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art18">
+            
+            <TituloDispositivo>Inexistência de Bens ou Direitos Sujeitos a Inventário</TituloDispositivo>
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            
+            
+            
+            <p>
+    Na inexistência de bens ou direitos sujeitos a inventário ou arrolamento, não devem ser entregues as declarações de espólio, devendo ser solicitado o cancelamento da inscrição da pessoa falecida no CPF, pelo cônjuge ou convivente ou por qualquer de seus dependentes ou parentes.
+
+  </p>
+            
+          </Caput><Paragrafo id="art18_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    As declarações correspondentes ao ano do falecimento e do ano anterior, quando obrigatórias, devem ser apresentadas como se o contribuinte estivesse vivo e assinadas pelo cônjuge ou convivente ou por qualquer de seus dependentes ou parentes.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            
+            
+            
+            <p>
+    Na hipótese do art. 18, a restituição relativa ao imposto de renda, não recebida em vida pelo contribuinte, pode ser paga ou creditada ao cônjuge, convivente ou aos herdeiros, mediante requerimento dirigido ao titular da Delegacia da Receita Federal ou Inspetoria da Receita Federal de Classe A situada na jurisdição do último endereço de cujus.
+
+  </p>
+            
+          </Caput><Paragrafo id="art19_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O requerimento deve ser formulado pelo cônjuge viúvo, convivente ou por herdeiro capaz, ou pelo tutor ou curador, conforme o caso, devendo nele constar os nomes completos e os demais dados civis de todos os beneficiários habilitados à restituição, inclusive CPF de quem estiver inscrito.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O pedido deve ser entregue acompanhado de:
+
+  </p>
+            <Inciso id="art19_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    cópia da certidão de óbito;
+
+  </p>
+            
+          </Inciso><Inciso id="art19_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    cópia da certidão de nascimento ou de casamento, ou de outro documento hábil comprovando a condição de cônjuge, convivente ou de herdeiro, de cada interessado;
+
+  </p>
+            
+          </Inciso><Inciso id="art19_par2_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    declaração de inexistência de outros bens a inventariar ou arrolar, bem assim autenticidade dos documentos e dados apresentados, devendo ser usado como modelo os termos da declaração do Anexo II.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art19_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Os documentos, declaração e dados apresentados na forma deste artigo valem como expressão da verdade para todos os efeitos legais, sob exclusiva responsabilidade do requerente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Protocolizado o requerimento e informada no processo a situação fiscal do de cujus, o pedido é apreciado, em rito sumário, pelo Delegado ou Inspetor da unidade jurisdicionante que, se o deferir, determinará a emissão de ordem bancária em nome de cada beneficiário.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Havendo herdeiros menores, os valores a eles correspondentes devem ser incluídos na ordem bancária que é emitida no nome do requerente, relacionando-se no verso do documento os nomes e valores que cabem a cada um dos interessados.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    A restituição é no percentual de 50% (cinqüenta por cento) para o cônjuge viúvo ou convivente e o restante em quotas iguais para os demais herdeiros.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par7">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    Existindo débito fiscal em nome do de cujus, o valor da restituição é compensado, na forma prevista na legislação pertinente, devolvendo-se aos beneficiários apenas o valor do saldo positivo, quando houver, obedecida a proporção prevista no § 6º.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par8">
+            
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    Indeferido o pedido, cabe manifestação de inconformidade à Delegacia da Receita Federal de Julgamento, dentro do prazo de 30 (trinta) dias, contado da data da ciência do despacho decisório que denegou a restituição.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            
+            
+            
+            <p>
+    Inexistindo beneficiário habilitado na forma do art. 19, podem pleitear a restituição os sucessores do titular do direito ao crédito, consoante dispõe a Lei Civil, desde que munidos de alvará judicial expedido com essa finalidade, mesmo na hipótese de inexistir outros bens sujeitos a inventário ou arrolamento.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            
+            
+            
+            <p>
+    Não existindo meação, herança ou legado, o cônjuge ou convivente ou o sucessor não responde pelos tributos devidos pela pessoa falecida.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art22">
+            
+            <TituloDispositivo>Ocorrência de Morte de Ambos os Cônjuges</TituloDispositivo>
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            
+            
+            
+            <p>
+    Na ocorrência de morte de ambos os cônjuges, observa-se o seguinte:
+
+  </p>
+            <Inciso id="art22_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    casamento em regime de comunhão parcial ou universal de bens:
+
+  </p>
+            <Alinea id="art22_cpt_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    morte conjunta - deve ser apresentada, em relação a cada exercício, se obrigatória, uma única declaração em nome de um dos cônjuges, computando-se, nela, todos os bens, direitos e obrigações, e os rendimentos pertencentes ao casal, que devam ser incluídos nas declarações do espólio, informando-se, na declaração de bens e direitos, essa circunstância, bem como o nome e CPF do outro cônjuge;
+
+  </p>
+            
+          </Alinea><Alinea id="art22_cpt_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    morte em datas diferentes mas antes de encerrado o inventário do premorto - também deve ser apresentada uma única declaração para cada exercício, em nome do cônjuge premorto, abrangendo os bens, direitos e obrigações e os rendimentos do outro cônjuge, a partir do exercício correspondente ao ano-calendário de seu falecimento;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art22_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    casamento em regime de separação de bens: quer a morte seja conjunta ou em datas diferentes, deve ser apresentada para cada exercício uma declaração, caso a sucessão seja processada em um inventário, ou duas se for processada em dois inventários.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art22_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Na hipótese do inciso I e, se apresentada única declaração, do inciso II, deve ser solicitado o cancelamento do CPF do cônjuge não declarante por qualquer de seus dependentes ou parentes, quando da entrega da Declaração Final de Espólio.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art23">
+            
+            <TituloDispositivo>Responsabilidade dos Sucessores e do Inventariante</TituloDispositivo>
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            
+            
+            
+            <p>
+    São pessoalmente responsáveis:
+
+  </p>
+            <Inciso id="art23_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o espólio, pelos tributos devidos pelo de cujus até a data da abertura da sucessão;
+
+  </p>
+            
+          </Inciso><Inciso id="art23_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o sucessor a qualquer título e o cônjuge meeiro, pelos tributos devidos pelo de cujus até a data da partilha ou adjudicação, limitada essa responsabilidade ao montante do quinhão, do legado, da herança ou da meação;
+
+  </p>
+            
+          </Inciso><Inciso id="art23_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    o inventariante, pelo cumprimento das obrigações tributárias do espólio resultantes dos atos praticados com excesso de poderes ou infração de lei.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art23_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Na impossibilidade de se exigir, do espólio, o pagamento do imposto, o inventariante responde solidariamente com ele quanto aos atos em que intervier ou pelas omissões de que for responsável, não se sujeitando à multa de ofício.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art23_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A falta de apresentação das declarações de espólio, se obrigatórias, bem como sua apresentação fora dos prazos fixados, sujeita o espólio à multa prevista no art. 88 da Lei nº 8.981, de 20 de janeiro de 1995, com as alterações posteriores, observado o máximo de vinte por cento do imposto devido pelo espólio e o mínimo de R$ 165,74 (cento e sessenta e cinco reais e setenta e quatro centavos).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art23_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Quando se apurar, pela abertura da sucessão, que o de cujus não apresentou as declarações de rendimentos de anos-calendário anteriores, a cuja entrega estivesse obrigado, ou o fez com omissão de rendimentos até a abertura da sucessão, deve ser cobrado do espólio o imposto respectivo, acrescido de juros moratórios e a multa prevista no art. 49 do Decreto-lei nº 5.844, de 23 de setembro de 1943, de dez por cento calculada sobre o imposto devido.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art24">
+            
+            <TituloDispositivo>Cancelamento do CPF</TituloDispositivo>
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput id="art24_cpt">
+            
+            
+            
+            <p>
+    Processada a Declaração Final de Espólio, é cancelado o CPF do espólio.
+
+  </p>
+            
+          </Caput><Paragrafo id="art24_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Ocorrendo a hipótese referida no art. 13, o CPF é reativado.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art25">
+            
+            <TituloDispositivo>Espólio de Não-Residentes no País</TituloDispositivo>
+            <Rotulo>Art. 25.</Rotulo>
+            
+            <Caput id="art25_cpt">
+            
+            
+            
+            <p>
+    Não devem ser apresentadas declarações de espólio de pessoas não-residentes no Brasil, devendo ser recolhidos, em nome do espólio, a partir do falecimento até a data da partilha, sobrepartilha ou adjudicação, os impostos sobre rendimentos produzidos no Brasil, os quais estão sujeitos à incidência do imposto de renda exclusivamente na fonte.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art26">
+            
+            
+            <Rotulo>Art. 26.</Rotulo>
+            
+            <Caput id="art26_cpt">
+            
+            
+            
+            <p>
+    Ficam aprovados os seguintes modelos:
+
+  </p>
+            <Inciso id="art26_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Tabela de Atualização do Custo de Bens e Direitos (Anexo I);
+
+  </p>
+            
+          </Inciso><Inciso id="art26_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Declaração de Inexistência de Bens a Inventariar ou Arrolar e Autenticidade dos Documentos e Dados Apresentados (Anexo II).
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art27">
+            
+            
+            <Rotulo>Art. 27.</Rotulo>
+            
+            <Caput id="art27_cpt">
+            
+            
+            
+            <p>
+    Esta Instrução Normativa entra em vigor na data de sua publicação.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art28">
+            
+            
+            <Rotulo>Art. 28.</Rotulo>
+            
+            <Caput id="art28_cpt">
+            
+            
+            
+            <p>
+    Ficam formalmente revogadas, sem interrupção de sua força normativa, as Instruções Normativas SRF Nº 56/89, de 31 de maio de 1989, Nº 23/96, de 18 de abril de 1996, nº 53/98, de 9 de junho de 1998, e Nº 159/99, de 23 de dezembro de 1999. EVERARDO MACIEL
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          
+          <Anexos><ReferenciaAnexo AlvoURN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2001-10-11;81!anexo1"/><ReferenciaAnexo AlvoURN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2001-10-11;81!anexo2"/><ReferenciaAnexo AlvoURN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2001-10-11;81!anexo3"/><ReferenciaAnexo AlvoURN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2001-10-11;81!anexo4"/></Anexos>
+        </Norma></ProjetoNorma>
+    </LexML>

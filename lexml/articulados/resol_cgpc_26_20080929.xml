@@ -1,0 +1,1356 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:ministerio.previdencia.social:resolucao:2008-09-29;26"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">RESOLUÇÃO Nº 26, DE 29 DE SETEMBRO DE 2008 </Epigrafe>
+		  <Ementa id="ementa">Dispõe sobre as condições e os procedimentos a serem observados pelas entidades fechadas de previdência complementar na apuração do resultado, na destinação e utilização de superávit e no equacionamento de déficit dos planos de benefícios de caráter previdenciário que administram, e dá outras providências.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DO CONSELHO DE GESTÃO DA PREVIDÊNCIA COMPLEMENTAR, no uso das atribuições que lhe conferem os arts. 3º, 5º e 74 da Lei Complementar nº 109, de 29 de maio de 2001, e o art. 1º do Decreto nº 4.678, de 24 de abril de 2003, torna público que o Conselho, em sua 110ª Reunião Ordinária, realizada no dia 29 de setembro de 2008, considerando o disposto nos arts. 18 a 22 da referida Lei Complementar,
+  </p><p>
+    Resolveu:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    As entidades fechadas de previdência complementar - EFPC, na apuração do resultado, na destinação e utilização de superávit e no equacionamento de déficit dos planos de benefícios de caráter previdenciário que administram, deverão observar o disposto nesta Resolução.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Titulo id="tit1">
+            
+            
+            <Rotulo>TÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DEFINIÇÕES
+
+  </NomeAgrupador>
+            <Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    Considera-se como revisão do plano de benefícios a sua readequação visando restabelecer seu equilíbrio econômico-financeiro e atuarial.
+
+  </p>
+            
+          </Caput><Paragrafo id="art2_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A revisão do plano de benefícios em decorrência da apuração de superávit ou de déficit poderá ser realizada por meio da adequação do seu plano de custeio ou dos benefícios oferecidos no regulamento do plano de benefícios, nas formas previstas nos arts. 20 e 30.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Para fins desta Resolução, entende-se por:
+
+  </p>
+            <Inciso id="art2_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    constituição de reserva de contingência: montante decorrente do resultado superavitário, para garantia de benefícios, nos termos do art. 7º;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    constituição de reserva especial: montante decorrente do resultado superavitário, para revisão do plano de benefícios, nos termos do art. 8º;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par2_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    destinação da reserva especial: decisão da EFPC quanto às formas, prazos, valores e condições para utilização da reserva especial, observadas as normas legais e regulamentares;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par2_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    utilização da reserva especial: dispêndio dos recursos da reserva especial mediante a adoção dos procedimentos necessários ao cumprimento da decisão a que se refere o inciso III; e
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par2_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    equacionamento de déficit: decisão da EFPC quanto às formas, prazos, valores e condições em que se dará o completo reequilíbrio do plano de benefícios, observadas as normas legais e regulamentares.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo>
+          </Titulo><Titulo id="tit2">
+            
+            
+            <Rotulo>TÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DA APURAÇÃO DO RESULTADO
+
+  </NomeAgrupador>
+            <Capitulo id="tit2_cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DO PERÍODO DE APURAÇÃO
+
+  </NomeAgrupador>
+            <Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    Observadas as prescrições legais e as demais normas regulamentares, a apuração do resultado do plano de benefícios de caráter previdenciário dar-se-á mediante o levantamento de suas demonstrações contábeis e de sua avaliação atuarial, ao final de cada exercício, coincidente com o ano civil.
+
+  </p>
+            
+          </Caput><Paragrafo id="art3_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Sem prejuízo do disposto no caput, a EFPC deverá promover o contínuo acompanhamento do equilíbrio entre os compromissos do plano de benefícios e os respectivos recursos garantidores, estabelecendo sistemática adequada para a evolução das reservas matemáticas no período compreendido entre duas avaliações atuariais.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="tit2_cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DA PRECIFICAÇÃO DOS ATIVOS E PASSIVOS
+
+  </NomeAgrupador>
+            <Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    Preliminarmente à apuração do resultado do plano de benefícios, a EFPC deverá considerar, no mínimo:
+
+  </p>
+            <Inciso id="art4_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a satisfação das exigências regulamentares relativas ao custeio do plano, mediante o uso de modelos e critérios consistentes;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc2">
+            <!--Link: urn:lex:br:ministerio.previdencia.social:resolucao:2004-10-01;13-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    os riscos que possam comprometer a realização dos objetivos do plano de benefícios, nos termos da <span xlink:href="urn:lex:br:ministerio.previdencia.social:resolucao:2004-10-01;13">Resolução nº 13, de 1º de outubro de 2004</span>;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    a adequada precificação dos recursos garantidores do plano de benefícios, levando em conta o valor ajustado ao risco para cada modalidade operacional, mediante o uso de modelos e critérios consistentes;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc4">
+            <!--Link: urn:lex:br:ministerio.previdencia.social:resolucao:2006-03-28;18-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    os parâmetros técnico-atuariais estabelecidos na <span xlink:href="urn:lex:br:ministerio.previdencia.social:resolucao:2006-03-28;18">Resolução nº 18, de 28 de março de 2006</span>; e
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    o correto provisionamento das contingências passivas imputáveis ao plano de benefícios, observados os princípios contábeis e as normas legais vigentes.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="tit2_cap3">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988-->
+            
+            <Rotulo>CAPÍTULO III</Rotulo>
+            <NomeAgrupador>
+    DA <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">CONSTITUIÇÃO</span> E DA MANUTENÇÃO DOS FUNDOS PREVIDENCIAIS
+
+  </NomeAgrupador>
+            <Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    Na constituição de fundos previdenciais e na manutenção dos já existentes, observada a estrutura técnica do plano de benefícios, cabe ao atuário responsável a indicação de sua fonte de custeio e de sua finalidade, que deverá guardar relação com um evento determinado ou com um risco identificado, avaliado, controlado e monitorado.
+
+  </p>
+            
+          </Caput><Paragrafo id="art5_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    As regras de constituição e reversão dos fundos previdenciais deverão constar da nota técnica atuarial, do parecer atuarial e das notas explicativas às demonstrações contábeis.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="tit2_cap4">
+            
+            
+            <Rotulo>CAPÍTULO IV</Rotulo>
+            <NomeAgrupador>
+    DO MÉTODO DE FINANCIAMENTO
+
+  </NomeAgrupador>
+            <Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    Sem prejuízo do disposto em normas específicas, não será admitida a alteração do método de financiamento para fins de apuração do resultado do plano de benefícios.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo>
+          </Titulo><Titulo id="tit3">
+            
+            
+            <Rotulo>TÍTULO III</Rotulo>
+            <NomeAgrupador>
+    DA DESTINAÇÃO E DA UTILIZAÇÃO DO SUPERÁVIT CAPÍTULO I DA RESERVA DE CONTINGÊNCIA E DA RESERVA ESPECIAL
+
+  </NomeAgrupador>
+            <Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    O resultado superavitário do plano de benefícios será destinado à constituição de reserva de contingência, até o limite de 25% (vinte e cinco por cento) do valor das reservas matemáticas, para garantia dos benefícios contratados, em face de eventos futuros e incertos.
+
+  </p>
+            
+          </Caput><Paragrafo id="art7_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Para os fins do disposto no caput, serão consideradas as reservas matemáticas atribuíveis aos benefícios cujo valor ou nível seja previamente estabelecido e cujo custeio seja determinado atuarialmente, de forma a assegurar sua concessão e manutenção, bem como àqueles que adquirem característica de benefício definido na fase de concessão.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    Após a constituição da reserva de contingência, no montante integral de 25% (vinte e cinco por cento) do valor das reservas matemáticas, os recursos excedentes serão empregados na constituição da reserva especial para a revisão do plano de benefícios.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Capitulo id="tit3_cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DAS CONDIÇÕES PARA REVISÃO DO PLANO DE BENEFÍCIOS
+
+  </NomeAgrupador>
+            <Secao id="tit3_cap2_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Da Tábua Biométrica e da Taxa de Juros
+
+  </NomeAgrupador>
+            <Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            
+            
+            
+            <p>
+    A EFPC, previamente à revisão do plano de benefícios a que se refere o art. 8º, tendo como base parecer atuarial e estudo econômico-financeiro, deverá identificar, mensurar e avaliar a perenidade das causas que deram origem ao superávit.
+
+  </p>
+            
+          </Caput><Paragrafo id="art9_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Observado o disposto no caput, a EFPC deverá adotar, além de outras hipóteses consideradas necessárias na avaliação da própria EFPC e do atuário responsável pelo plano:
+
+  </p>
+            <Inciso id="art9_par1u_inc1">
+            <!--Link: urn:lex:br:ministerio.previdencia.social:resolucao:2006-03-28;18-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    tábua biométrica que gere expectativas de vida completa iguais ou superiores às resultantes da aplicação da tábua AT-2000, observados os itens 2.1 e 2.4 do Regulamento anexo à <span xlink:href="urn:lex:br:ministerio.previdencia.social:resolucao:2006-03-28;18">Resolução nº 18, de 28 de março de 2006</span>; e
+
+  </p>
+            
+          </Inciso><Inciso id="art9_par1u_inc2">
+            <!--Link: urn:lex:br:ministerio.previdencia.social:resolucao:2006;18-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    taxa máxima de juros real anual correspondente ao teto estabelecido no item 4 do Regulamento Anexo à <span xlink:href="urn:lex:br:ministerio.previdencia.social:resolucao:2006;18">Resolução nº 18, de 2006</span>, do Conselho de Gestão da Previdência Complementar, para o respectivo plano de benefícios, reduzida em um ponto percentual. (Redação do inciso dada pela Resolução CNPC Nº 16 DE 19.11.2014, efeitos a partir de 01.01.2015).
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="tit3_cap2_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Do Enquadramento das Aplicações dos Recursos Garantidores
+
+  </NomeAgrupador>
+            <Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>
+    A destinação da reserva especial somente se aplica às EFPC que observarem os limites relativos à composição e diversificação dos recursos garantidores de que trata o Regulamento anexo à Resolução CMN nº 3.456, de 1º de junho de 2007, ressalvadas as hipóteses previstas em seu art. 55.
+
+  </p>
+            
+          </Caput><Paragrafo id="art10_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Relativamente aos planos de benefícios que estejam executando plano de enquadramento das aplicações de seus recursos garantidores, nos termos do art. 3º da Resolução CMN nº 3.456, de 1º de junho de 2007, a destinação da reserva especial, para fins de cálculo, somente poderá ocorrer mediante a dedução, do resultado superavitário acumulado, do montante financeiro equivalente ao desenquadramento.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="tit3_cap2_sec3">
+            
+            
+            <Rotulo>Seção III</Rotulo>
+            <NomeAgrupador>
+    Das Dívidas do Patrocinador
+
+  </NomeAgrupador>
+            <Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            <p>
+    Anteriormente à destinação, serão deduzidos da reserva especial, para fins de cálculo do montante a ser destinado, os valores correspondentes a contratos de confissão de dívida firmados com patrocinadores relativamente, entre outros, a contribuições em atraso, a equacionamento de déficit e a serviço passado.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="tit3_cap2_sec4">
+            
+            
+            <Rotulo>Seção IV</Rotulo>
+            <NomeAgrupador>
+    Dos Ajustes de Precificação (Seção acrescentada pela Resolução CNPC Nº 16 DE 19.11.2014, efeitos a partir de 01.01.2015). (Artigo acrescentado pela Resolução CNPC Nº 16 DE 19.11.2014, efeitos a partir de 01.01.2015):
+
+  </NomeAgrupador>
+            <Artigo id="art11-1">
+            
+            
+            <Rotulo>Art. 11-A.</Rotulo>
+            
+            <Caput id="art11-1_cpt">
+            
+            
+            
+            <p>
+    Anteriormente à destinação, o valor do ajuste de precificação negativo será deduzido da reserva especial, para fins de cálculo do montante a ser destinado.
+
+  </p>
+            
+          </Caput><Paragrafo id="art11-1_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O valor do ajuste de precificação mencionado no caput corresponde à diferença entre o valor dos títulos públicos federais atrelados a índice de preços classificados na categoria títulos mantidos até o vencimento, calculado considerando a taxa de juros real anual utilizada na respectiva avaliação atuarial, e o valor contábil desses títulos.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art11-1_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O ajuste de que trata o caput está restrito aos títulos públicos federais atrelados a índice de preços classificados na categoria títulos mantidos até o vencimento cujos prazos e montantes de recebimento de principal e juros sejam iguais ou inferiores aos prazos e montantes de pagamentos de benefícios que tenham seu valor ou nível previamente estabelecidos e cujo custeio seja determinado atuarialmente, de forma a assegurar sua concessão e manutenção, bem como àqueles que adquirem característica de benefício definido na fase de concessão.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="tit3_cap3">
+            
+            
+            <Rotulo>CAPÍTULO III</Rotulo>
+            <NomeAgrupador>
+    DA REVISÃO DO PLANO DE BENEFÍCIOS
+
+  </NomeAgrupador>
+            <Secao id="tit3_cap3_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Da Revisão Voluntária e da Revisão Obrigatória
+
+  </NomeAgrupador>
+            <Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            
+            
+            
+            <p>
+    A revisão do plano de benefícios poderá se dar de forma voluntária, a partir da constituição da reserva especial, e será obrigatória após o decurso de três exercícios.
+
+  </p>
+            
+          </Caput><Paragrafo id="art12_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A EFPC deverá manter controle dos valores apurados a título de reserva especial em cada exercício.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>
+    Na revisão voluntária do plano de benefícios, admite-se a destinação parcial da reserva especial.
+
+  </p>
+            
+          </Caput><Paragrafo id="art13_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Na revisão voluntária, a destinação e a utilização da reserva especial oriunda de superávit com causa conjuntural somente deverão ocorrer se estiverem embasadas em parecer atuarial e em estudos que comprovem sua viabilidade e segurança, os quais deverão permanecer na EFPC à disposição da Secretaria de Previdência Complementar - SPC.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            <p>
+    Deve ser integralmente destinado o valor apurado a título de reserva especial há mais de três exercícios ou, no caso de ter havido revisão voluntária, o seu remanescente.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="tit3_cap3_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Da Proporção Contributiva
+
+  </NomeAgrupador>
+            <Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>
+    Para a destinação da reserva especial, deverão ser identificados quais os montantes atribuíveis aos participantes e assistidos, de um lado, e ao patrocinador, de outro, observada a proporção contributiva do período em que se deu a sua constituição, a partir das contribuições normais vertidas nesse período.
+
+  </p>
+            
+          </Caput><Paragrafo id="art15_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Na hipótese de não ter havido contribuições no período em que foi constituída a reserva especial, deverá ser considerada a proporção contributiva adotada, pelo menos, nos três exercícios que antecederam a redução integral, a suspensão ou a supressão de contribuições, observada como limite temporal a data de 29 de maio de 2001.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Em relação aos planos de benefícios que não estejam sujeitos à disciplina da Lei Complementar nº 108, de 2001, a destinação da reserva especial poderá ser adotada de forma exclusiva ou majoritária em prol dos participantes e dos assistidos, sem a observância da proporção contributiva de que trata o caput, desde que haja prévia anuência do patrocinador neste sentido.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            
+            
+            
+            <p>
+    A destinação da reserva especial aos participantes e assistidos, relativamente ao montante que lhes couber na divisão de que trata o caput do art. 15, deverá se dar considerando a reserva matemática individual ou o benefício efetivo ou projetado atribuível a cada um deles.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="tit3_cap3_sec3">
+            
+            
+            <Rotulo>Seção III</Rotulo>
+            <NomeAgrupador>
+    Dos Fundos Previdenciais para Destinação e Utilização da Reserva Especial
+
+  </NomeAgrupador>
+            <Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            
+            
+            
+            <p>
+    Os valores atribuíveis aos participantes e assistidos e ao patrocinador, identificados na forma do caput do art. 15, serão alocados em fundos previdenciais segregados, constituídos especialmente para esta finalidade.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            
+            
+            
+            <p>
+    A utilização da reserva especial será interrompida e os fundos previdenciais de que trata o art. 17 serão revertidos total ou parcialmente para recompor a reserva de contingência ao patamar de 25% (vinte e cinco por cento) do valor das reservas matemáticas quando for inferior o montante apurado a título de reserva de contingência.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="tit3_cap3_sec4">
+            
+            
+            <Rotulo>Seção IV</Rotulo>
+            <NomeAgrupador>
+    Das Formas de Revisão do Plano de Benefícios
+
+  </NomeAgrupador>
+            <Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            
+            
+            
+            <p>
+    A EFPC, na determinação das formas e dos prazos para a utilização da reserva especial, observado o disposto no art. 9º, deverá levar em consideração a perenidade das causas que deram origem ao superávit que ensejou a constituição da reserva especial, bem como a necessidade de liquidez para fazer frente aos compromissos do plano de benefícios.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            
+            
+            
+            <p>
+    Cabe ao Conselho Deliberativo ou a outra instância competente para a decisão, como estabelecido no estatuto da EFPC, deliberar, por maioria absoluta de seus membros, acerca das medidas, prazos, valores e condições para a utilização da reserva especial, admitindo-se, em relação aos participantes e assistidos e ao patrocinador, observados os arts. 15 e 16, as seguintes formas, a serem sucessivamente adotadas:
+
+  </p>
+            <Inciso id="art20_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    redução parcial de contribuições;
+
+  </p>
+            
+          </Inciso><Inciso id="art20_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    redução integral ou suspensão da cobrança de contribuições no montante equivalente a, pelo menos, três exercícios; ou
+
+  </p>
+            
+          </Inciso><Inciso id="art20_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    melhoria dos benefícios e/ou reversão de valores de forma parcelada aos participantes, aos assistidos e/ou ao patrocinador.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art20_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Caso as formas previstas nos incisos I e II não alcancem os assistidos, a EFPC poderá promover a melhoria dos benefícios dos assistidos prevista no inciso III simultaneamente com aquelas formas.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            
+            
+            
+            <p>
+    A destinação da reserva especial será precedida de comunicação ao patrocinador do plano de benefícios.
+
+  </p>
+            
+          </Caput><Paragrafo id="art21_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Em relação aos planos de benefícios patrocinados pelos entes de que trata o art. 1º da Lei Complementar nº 108, de 29 de maio de 2001, a destinação da reserva especial, quando ocorrer nos termos do disposto no inciso III do art. 20, deverá ser precedida da manifestação favorável do patrocinador e do órgão responsável pela sua supervisão, coordenação e controle.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Subsecao id="tit3_cap3_sec4_sub1">
+            
+            
+            <Rotulo>Subseção I</Rotulo>
+            <NomeAgrupador>
+    Da Redução de Contribuições
+
+  </NomeAgrupador>
+            <Artigo id="art22">
+            
+            
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            
+            
+            
+            <p>
+    A destinação da reserva especial para os participantes e assistidos e para o patrocinador na forma de suspensão, redução parcial ou integral de contribuições normais está condicionada:
+
+  </p>
+            <Inciso id="art22_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    relativamente aos participantes e assistidos, à utilização da reserva especial para quitação das contribuições extraordinárias porventura devidas; e
+
+  </p>
+            
+          </Inciso><Inciso id="art22_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    relativamente ao patrocinador, à utilização da reserva especial para quitação das contribuições extraordinárias e das eventuais dívidas existentes perante o plano de benefícios.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Subsecao><Subsecao id="tit3_cap3_sec4_sub2">
+            
+            
+            <Rotulo>Subseção II</Rotulo>
+            <NomeAgrupador>
+    Da Melhoria dos Benefícios
+
+  </NomeAgrupador>
+            <Artigo id="art23">
+            
+            
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            
+            
+            
+            <p>
+    A destinação da reserva especial para melhoria dos benefícios dos participantes e assistidos está condicionada à sua previsão no regulamento e na nota técnica atuarial do plano de benefícios.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art24">
+            
+            
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput id="art24_cpt">
+            
+            
+            
+            <p>
+    Em relação aos planos de benefícios patrocinados pelos entes de que trata o art. 1º da Lei Complementar nº 108, de 2001, a utilização da reserva especial para melhoria dos benefícios deverá se dar sob a forma de benefício temporário, não incorporado ao benefício mensal contratado, a ser pago enquanto houver recursos específicos destinados a este fim, observado o disposto no art. 18.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Subsecao><Subsecao id="tit3_cap3_sec4_sub3">
+            
+            
+            <Rotulo>Subseção III</Rotulo>
+            <NomeAgrupador>
+    Da Reversão de Valores aos Participantes e Assistidos e ao Patrocinador
+
+  </NomeAgrupador>
+            <Artigo id="art25">
+            
+            
+            <Rotulo>Art. 25.</Rotulo>
+            
+            <Caput id="art25_cpt">
+            
+            
+            
+            <p>
+    A destinação da reserva especial por meio da reversão de valores de forma parcelada aos participantes e assistidos e ao patrocinador está condicionada à comprovação do excesso de recursos garantidores no plano de benefícios em extinção, mediante:
+
+  </p>
+            <Inciso id="art25_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a cobertura integral do valor presente dos benefícios do plano; e
+
+  </p>
+            
+          </Inciso><Inciso id="art25_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a realização da auditoria prévia de que trata o art. 27.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art25_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A reversão de valores aos participantes e assistidos e ao patrocinador deverá ser previamente submetida a SPC e somente deverá ser iniciada após a aprovação de que trata o art. 26.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art25_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A reversão de valores deverá ser parcelada, iniciando-se pelo valor equivalente à devolução da última contribuição recolhida e assim retroativamente, respeitado o prazo mínimo de 36 (trinta e seis) meses para a duração do parcelamento e o cumprimento das obrigações fiscais.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art26">
+            
+            <TituloDispositivo>Da Aprovação da SPC</TituloDispositivo>
+            <Rotulo>Art. 26.</Rotulo>
+            
+            <Caput id="art26_cpt">
+            
+            
+            
+            <p>
+    A destinação da reserva especial de que trata o art. 25 deverá ser submetida à aprovação da SPC antes do início da reversão parcelada de valores.
+
+  </p>
+            
+          </Caput><Paragrafo id="art26_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A SPC poderá determinar a adoção de hipóteses biométricas, demográficas, econômicas e financeiras na avaliação atuarial do plano de benefícios.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art26_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Caso seja necessário recompor a reserva de contingência nos termos do art. 18, é obrigatória a interrupção da utilização da reserva especial, que somente poderá ser retomada após nova aprovação da SPC.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art27">
+            
+            <TituloDispositivo>Da Auditoria Específica</TituloDispositivo>
+            <Rotulo>Art. 27.</Rotulo>
+            
+            <Caput id="art27_cpt">
+            
+            
+            
+            <p>
+    A EFPC deverá promover, às suas expensas, a realização prévia de auditoria independente específica para avaliação dos recursos garantidores e das reservas matemáticas do plano de benefícios, nos casos em que a destinação da reserva especial envolver a reversão de valores de que trata o inciso III do art. 20.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Subsecao>
+          </Secao>
+          </Capitulo>
+          </Titulo><Titulo id="tit4">
+            
+            
+            <Rotulo>TÍTULO IV</Rotulo>
+            <NomeAgrupador>
+    DO EQUACIONAMENTO DE DÉFICIT
+
+  </NomeAgrupador>
+            <Capitulo id="tit4_cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DAS CONDIÇÕES PARA EQUACIONAMENTO DE DÉFICIT
+
+  </NomeAgrupador>
+            <Artigo id="art28">
+            
+            
+            <Rotulo>Art. 28.</Rotulo>
+            
+            <Caput id="art28_cpt">
+            
+            
+            
+            <p>
+    Observadas as informações constantes em estudo específico da situação econômico-financeira e atuarial acerca das causas do déficit técnico, deverá ser elaborado e aprovado o plano de equacionamento de déficit, obedecendo aos seguintes prazos contados a partir do encerramento do exercício social que apurou o resultado deficitário: (Redação do caput dada pela Resolução CGPC Nº 14 DE 24.02.2014).
+
+  </p>
+            
+          </Caput><Paragrafo id="art28_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A EFPC, para promover o equacionamento do déficit, poderá aguardar o levantamento das demonstrações contábeis e da avaliação atuarial relativas ao exercício imediatamente subseqüente à apuração inicial do resultado deficitário, desde que:
+
+  </p>
+            <Inciso id="art28_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o déficit seja conjuntural, segundo o parecer atuarial;
+
+  </p>
+            
+          </Inciso><Inciso id="art28_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o valor da insuficiência seja inferior a 10% (dez por cento) do exigível atuarial; e
+
+  </p>
+            
+          </Inciso><Inciso id="art28_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    haja estudos que concluam que o fluxo financeiro é suficiente para honrar os compromissos do exercício subseqüente.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art28_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Não se aplica o disposto no § 1º deste artigo quando a EFPC não puder comprovar qualquer um dos requisitos previstos nos incisos I, II e III, hipótese em que o déficit apurado deve ser imediatamente equacionado.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art28_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Em qualquer hipótese, deverá ser imediatamente equacionado o déficit apurado por dois exercícios consecutivos, independentemente do seu valor e das causas que o originaram.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art28_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    As provisões matemáticas de que tratam os incisos I e II referem-se às parcelas dos planos estruturadas sob a forma de benefício definido, independentemente da modalidade que o plano de benefícios esteja estruturado. (Redação do parágrafo dada pela Resolução CGPC Nº 14 DE 24.02.2014).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Secao id="tit4_cap1_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Dos Ajustes de Precificação (Seção acrescentada pela Resolução CNPC Nº 16 DE 19.11.2014, efeitos a partir de 01.01.2015). (Artigo acrescentado pela Resolução CNPC Nº 16 DE 19.11.2014, efeitos a partir de 01.01.2015):
+
+  </NomeAgrupador>
+            <Artigo id="art28-1">
+            
+            
+            <Rotulo>Art. 28-A.</Rotulo>
+            
+            <Caput id="art28-1_cpt">
+            
+            
+            
+            <p>
+    O valor do ajuste de precificação, positivo ou negativo, será acrescido ou deduzido, respectivamente, para fins de equacionamento de déficit.
+
+  </p>
+            
+          </Caput><Paragrafo id="art28-1_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O valor do ajuste de precificação mencionado no caput corresponde à diferença entre o valor dos títulos públicos federais atrelados a índice de preços classificados na categoria títulos mantidos até o vencimento, calculado considerando a taxa de juros real anual utilizada na respectiva avaliação atuarial, e o valor contábil desses títulos.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art28-1_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O ajuste de que trata o caput está restrito aos títulos públicos federais atrelados a índice de preços classificados na categoria títulos mantidos até o vencimento cujos prazos e montantes de recebimento de principal e juros sejam iguais ou inferiores aos prazos e montantes de pagamentos de benefícios que tenham seu valor ou nível previamente estabelecidos e cujo custeio seja determinado atuarialmente, de forma a assegurar sua concessão e manutenção, bem como àqueles que adquirem característica de benefício definido na fase de concessão.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="tit4_cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DA PROPORÇÃO CONTRIBUTIVA (Redação do artigo dada pela Resolução CGPC Nº 14 DE 24.02.2014):
+
+  </NomeAgrupador>
+            <Artigo id="art29">
+            
+            
+            <Rotulo>Art. 29.</Rotulo>
+            
+            <Caput id="art29_cpt">
+            
+            
+            
+            <p>
+    O resultado deficitário apurado no plano de benefícios deverá ser equacionado por participantes, assistidos e patrocinadores, observada a proporção contributiva em relação às contribuições normais vigentes no período em que for apurado o resultado, estabelecendo-se os montantes de cobertura atribuíveis aos patrocinadores, de um lado, e aos participantes e assistidos, de outro, sem prejuízo de ação regressiva contra dirigentes ou terceiros que tenham dado causa a dano ou prejuízo ao plano de benefícios administrado pela EFPC.
+
+  </p>
+            
+          </Caput><Paragrafo id="art29_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O equacionamento do resultado deficitário pelos participantes e assistidos, relativamente ao montante que lhes couber na divisão de que trata o caput deste artigo, deverá se dar considerando a reserva matemática individual ou o benefício efetivo ou projetado atribuível a cada um deles.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art29_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Na hipótese de não ter havido contribuições no período em que for apurado o resultado deficitário, deverá ser considerada a proporção contributiva adotada, pelo menos, nos três exercícios que antecederam a formação do resultado, observada como limite temporal a data de 29 de maio de 2001.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art29_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Em relação aos planos de benefícios que não estejam sujeitos à disciplina da Lei Complementar nº 108, de 2001, o resultado deficitário poderá ser equacionado pelos patrocinadores, de forma exclusiva ou majoritária, sem a observância da proporção contributiva de que trata o caput, desde que a opção adotada não resulte em ônus adicionais ou prejuízos aos participantes.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="tit4_cap3">
+            
+            
+            <Rotulo>CAPÍTULO III</Rotulo>
+            <NomeAgrupador>
+    Das Formas de Equacionamento do Déficit do Plano de Benefícios (Redação do título do capítulo dada pela Resolução CGPC Nº 14 DE 24.02.2014).
+
+  </NomeAgrupador>
+            <Artigo id="art30">
+            
+            
+            <Rotulo>Art. 30.</Rotulo>
+            
+            <Caput id="art30_cpt">
+            
+            
+            
+            <p>
+    Observado o disposto nesta Resolução e nas demais normas estabelecidas pelo órgão regulador, o plano de equacionamento referido no art. 28 poderá contemplar, dentre outras, as seguintes formas, de maneira individual ou combinada: (Redação do caput dada pela Resolução CGPC Nº 14 DE 24.02.2014).
+
+  </p>
+            <Inciso id="art30_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    aumento do valor das contribuições;
+
+  </p>
+            
+          </Inciso><Inciso id="art30_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    instituição de contribuição adicional;
+
+  </p>
+            
+          </Inciso><Inciso id="art30_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    redução do valor dos benefícios a conceder; (Redação do inciso dada pela Resolução CGPC Nº 14 DE 24.02.2014).
+
+  </p>
+            
+          </Inciso><Inciso id="art30_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    outras formas estipuladas no regulamento do plano de benefícios.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art30_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A redução do valor dos benefícios não se aplica aos assistidos, sendo cabível, neste caso, a instituição de contribuição extraordinária para a cobertura do déficit apurado.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art30_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A EFPC deverá comprovar, anualmente, se os resultados propostos no plano de equacionamento de déficit estão sendo efetivados, cabendo, em caso contrário, a adequação do referido plano de acordo com o disposto no § 2º do artigo 28. (Redação do parágrafo dada pela Resolução CGPC Nº 14 DE 24.02.2014).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art30_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Registrado o equilíbrio atuarial do plano de benefícios antes do prazo estabelecido para equacionamento do déficit, deverá ser avaliada a necessidade de revisão do plano de custeio e de suspensão do plano para equacionamento do déficit com vistas à desoneração das partes quanto ao pagamento das contribuições futuras estabelecidas para essa finalidade, a partir do exercício subsequente. (Parágrafo acrescentado pela Resolução CGPC Nº 14 DE 24.02.2014).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art30_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Na hipótese de retorno à EFPC dos recursos equivalentes ao déficit previsto no caput deste artigo, em consequência de apuração de responsabilidade mediante ação judicial ou administrativa, os respectivos valores deverão ser incorporados aos recursos garantidores do plano de benefícios, observando-se, para a revisão do plano, os procedimentos previstos nesta Resolução. (Parágrafo acrescentado pela Resolução CGPC Nº 14 DE 24.02.2014).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art30_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    O plano para equacionamento de déficit técnico acumulado deverá ser aplicado a partir do exercício subsequente ao de sua aprovação, e o prazo para seu cumprimento poderá ser compatível com aquele previsto para a liquidação dos compromissos abrangidos pelo passivo atuarial do respectivo plano de benefícios, observadas como parâmetro as regras dispostas nos itens 10 e 11 do Regulamento Anexo à Resolução CGPC nº 18, de 28 de março de 2006. (Parágrafo acrescentado pela Resolução CGPC Nº 14 DE 24.02.2014).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo>
+          </Titulo><Titulo id="tit5">
+            
+            
+            <Rotulo>TÍTULO V</Rotulo>
+            <NomeAgrupador>
+    DAS DISPOSIÇÕES TRANSITÓRIAS E FINAIS
+
+  </NomeAgrupador>
+            <Artigo id="art31">
+            
+            
+            <Rotulo>Art. 31.</Rotulo>
+            
+            <Caput id="art31_cpt">
+            <!--Link: urn:lex:br:ministerio.previdencia.social:resolucao:2004-02-19;8-->
+            
+            
+            <p>
+    Nos casos em que for necessária a adequação dos regulamentos dos planos de benefícios administrados pelas EFPC ao disposto nesta Resolução, fica estabelecido o prazo de até 30 de setembro de 2009 para seu encaminhamento à aprovação da SPC, nos termos da <span xlink:href="urn:lex:br:ministerio.previdencia.social:resolucao:2004-02-19;8">Resolução nº 08, de 19 de fevereiro de 2004</span>.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art32">
+            
+            
+            <Rotulo>Art. 32.</Rotulo>
+            
+            <Caput id="art32_cpt">
+            
+            
+            
+            <p>
+    O disposto no art. 18 não se aplica ao exercício de 2008 quando a destinação da reserva especial tiver sido estabelecida antes da data da publicação desta Resolução.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art32-1">
+            
+            
+            <Rotulo>Art. 32-A.</Rotulo>
+            
+            <Caput id="art32-1_cpt">
+            
+            
+            
+            <p>
+    Exclusivamente para o exercício de 2013, admitir-se-á, mediante decisão fundamentada do Conselho Deliberativo da EFPC, seja observado o percentual de quinze por cento, em substituição àquele estabelecido nos incisos I e II do caput do art. 28. (Artigo acrescentado pela Resolução CGPC Nº 14 DE 24.02.2014).
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art33">
+            
+            
+            <Rotulo>Art. 33.</Rotulo>
+            
+            <Caput id="art33_cpt">
+            
+            
+            
+            <p>
+    A SPC fica autorizada a aprovar a adoção de proporção contributiva referente a período de verificação diverso do estabelecido nos arts. 15 e 29 nos casos de superávit ou déficit apurados até a data de publicação desta Resolução.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art34">
+            
+            
+            <Rotulo>Art. 34.</Rotulo>
+            
+            <Caput id="art34_cpt">
+            
+            
+            
+            <p>
+    Fica a SPC autorizada a editar instruções complementares que se fizerem necessárias à execução do disposto nesta Resolução, assim como resolver os casos omissos.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art35">
+            
+            
+            <Rotulo>Art. 35.</Rotulo>
+            
+            <Caput id="art35_cpt">
+            
+            
+            
+            <p>
+    Esta Resolução entra em vigor na data de sua publicação. JOSÉ BARROSO PIMENTEL
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Titulo></Articulacao>
+          
+          
+        </Norma></ProjetoNorma>
+    </LexML>

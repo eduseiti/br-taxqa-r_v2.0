@@ -1,0 +1,154 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2003-01-14;283"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">INSTRUÇÃO NORMATIVA Nº 283, DE 14 DE JANEIRO DE 2003 </Epigrafe>
+		  <Ementa id="ementa">Dispõe sobre o pagamento de imposto de renda por pessoa física residente no Brasil ausente no exterior e sobre o pagamento de tributo ou contribuição por representação de entidade pública ou privada do Brasil no exterior.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O SECRETÁRIO DA RECEITA FEDERAL, no uso da atribuição que lhe confere o inciso III do art. 209 do Regimento Interno da Secretaria da Receita Federal, aprovado pela Portaria MF nº 259, de 24 de agosto de 2001, resolve:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    O pagamento do imposto de renda e respectivos acréscimos legais por pessoa física residente no Brasil, ausente no exterior por qualquer motivo, será efetuado por meio de uma das seguintes modalidades:
+
+  </p>
+            <Inciso id="art1_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    transferência eletrônica de fundos por meio de sistemas eletrônicos das instituições financeiras autorizadas pela Secretaria da Receita Federal (SRF) a operar com essa modalidade de arrecadação;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    débito em conta corrente bancária, por meio do aplicativo Sicalcweb, disponível na página da SRF na internet;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    remessa de ordem de pagamento com todos os dados exigidos no Documento de Arrecadação de Receitas Federais (Darf), no respectivo valor em reais ou em moeda estrangeira, a favor da SRF, por meio do Banco do Brasil S/A, Núcleo Regional de Apoio a Negócios Internacionais - NURIN, prefixo 1608-X, Brasília - DF;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    em qualquer agência bancária integrante da rede arrecadadora de receitas federais, mediante Darf, quando efetuado no Brasil.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art1_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A modalidade de pagamento prevista no inciso III só poderá ser utilizada pela pessoa física residente no Brasil ausente no exterior a serviço do País.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    O tributo ou contribuição administrado pela SRF, devido por representação de entidade pública ou privada do Brasil no exterior, poderá ser pago de acordo com os incisos I a IV do art. 1º.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    Na hipótese de o pagamento previsto na modalidade do inciso III do art. 1º ser feito em moeda estrangeira, fica o Banco do Brasil S/A - NURIN, prefixo 1608-X, Brasília/DF - autorizado a assinar em nome da SRF, como vendedor da moeda, o Contrato de Câmbio de Compra - Tipo 03, Transferências Financeiras do Exterior.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    O controle da arrecadação e do recolhimento de receitas federais oriundas de pagamentos efetuados pela modalidade prevista no art. 1º desta Instrução Normativa será realizado pela Delegacia da Receita Federal de Brasília - DF.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    Esta Instrução Normativa entra em vigor na data de sua publicação.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    Fica revogada, sem interrupção de sua força normativa, a Instrução Normativa SRF nº 8, de 3 de fevereiro de 1999. JORGE ANTÔNIO DEHER RACHID
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          
+          
+        </Norma></ProjetoNorma>
+    </LexML>

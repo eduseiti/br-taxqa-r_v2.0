@@ -1,0 +1,12 @@
+# CMD: java -jar /tmp/claude-0/-work-unicamp-articles-RAG-evaluation-lexml-parser-projeto-lei/4e4ae71e-dfba-49e3-8901-26c7e43b2a76/scratchpad/phase2.jar parse -m application/vnd.openxmlformats-officedocument.wordprocessingml.document -i original/articulados/in_rfb_1704_20170331.docx -o lexml/articulados_phase2/in_rfb_1704_20170331.xml --write-errors-to-file lexml/articulados_phase2/in_rfb_1704_20170331.err.log -a 'ministerio.fazenda;secretaria.receita.federal.brasil' -t instrucao.normativa -n 1704 --data 2017-03-31 --prof-regex-epigrafe '^instrucao normativa' --prof-regex-epigrafe-continuacao '^instrucao normativa%^n[oº°˚]' --prof-regex-pos-epigrafe '^\[%^publicado no%^norma federal' --prof-regex-preambulo '^(o |a )?secretari[oa]%^[ao] coordenador%^a diretoria colegiada%^o ministro presidente%^o presidente d%^o comite gestor' --prof-epigrafe-head 'INSTRUÇÃO NORMATIVA' --linker /usr/local/bin/linkertool
+# ---
+Problem type = [5: Rótulo repetido, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(CAPÍTULO VI), msg = None, context=ArraySeq()
+
+Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(CAPÍTULO VI, CAPÍTULO VI), msg = None, context=List()
+
+Problem type = [19: Rótulo duplicado, categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(CAPÍTULO VI), msg = None, context=ArraySeq(CAPÍTULO VI, CAPÍTULO VI)
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 1776, column:42, error: cvc-id.2: There are multiple occurrences of ID value 'cap6'.), context=List()
+
+Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 1776, column:42, error: cvc-attribute.3: The value 'cap6' of attribute 'id' on element 'Capitulo' is not valid with respect to its type, 'ID'.), context=List()
+

@@ -1,0 +1,14 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <Metadado>
+      <Identificacao URN="urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!anexo16"/>
+    </Metadado>
+      <Anexo>
+        <DocumentoGenerico>
+      <PartePrincipal id="anexo16_pp">
+        <p>ANEXO VIII Modelo do Comprovante de Pagamento</p>
+        <p>COMPROVANTE DE PAGAMENTO - SIMPLES NACIONAL Agente arrecadador: CNC NNN AAAAAAAAAAAAAAAAAAAAAAAAAAAAA CÓDIGO DE BARRAS 99999999999 99999999999 99999999999 99999999999 DATA DO PAGAMENTO DD/MM/AAAA VALOR TOTAL 999.999.999,99 AUTENTICAÇÃO XXXXXXXXXXXXXXXXXXXXXXX Observações: a) O agente arrecadador deverá ser identificado: 1) pela sigla “CNC” seguido do Código Nacional de Compensação; ou 2) O nome empresarial do agente arrecadador. b) O agente arrecadador poderá inserir no comprovante qualquer informação adicional que julgar necessária, desde que fora do espaço reservado para a impressão dos dados obrigatórios.
+</p>
+      </PartePrincipal>
+    </DocumentoGenerico>
+      </Anexo>
+    </LexML>

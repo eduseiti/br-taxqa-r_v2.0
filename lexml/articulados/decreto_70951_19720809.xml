@@ -1,0 +1,2846 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:decreto:1972-08-09;70951"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">DECRETO Nº 70.951, DE 9 DE AGOSTO DE 1972 </Epigrafe>
+		  <Ementa id="ementa">Regulamenta a <span xlink:href="urn:lex:br:federal:lei:1971-12-20;5768">Lei nº 5.768, de 20 de dezembro de 1971</span>, que dispõe sobre a distribuição gratuita de prêmios, mediante sorteio, vale-brinde ou concurso, a título de propaganda, e estabelece normas de proteção à poupança popular.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA
+  </p><p>
+    , usando da atribuição que lhe confere o artigo 81, item III, da Constituição, e tendo em vista o disposto no artigo 22 da Lei nº 5.768, de 20 de dezembro de 1971,
+  </p><p>
+    DECRETA:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Titulo id="tit1">
+            
+            
+            <Rotulo>TÍTULO I</Rotulo>
+            <NomeAgrupador>
+    Da Distribuição Gratuita de Prêmios
+
+  </NomeAgrupador>
+            <Capitulo id="tit1_cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    Da autorização e suas condições
+
+  </NomeAgrupador>
+            <Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            <!--Link: urn:lex:br:federal:lei:1971-12-20;5768-->
+            
+            
+            <p>
+    A distribuição gratuita de prêmios, a título de propaganda, quando efetuadas mediante sorteio, vale-brinde, concurso ou operação assemelhada, dependerá de prévia autorização do Ministério da Fazenda, nos termos da <span xlink:href="urn:lex:br:federal:lei:1971-12-20;5768">Lei nº 5.768, de 20 de dezembro de 1971</span>, deste Regulamento e dos atos normativos que se destinem a complementá-lo.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    A autorização somente poderá ser concedida a pessoas jurídicas que exerçam atividade comercial, industrial, ou de compra e venda de bens imóveis, comprovadamente quites com os impostos federais, estaduais e municipais, bem como as contribuições da Previdência Social.
+
+  </p>
+            
+          </Caput><Paragrafo id="art2_par1u">
+            <!--Link: urn:lex:br:federal:decreto:1973;72411-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A autorização será concedida a título precário e por prazo não superior a doze (12) meses, e será requerida à Secretaria da Receita Federal do Ministério da Fazenda, instruído o pedido com os documentos que esse órgão julgar necessários à comprovação das condições do requerente e ao exame e análise da operação objeto do pedido. Parágrafo único. A autorização poderá ser concedida pelo Ministério da Fazenda, a título precário e por prazo não superior a doze (12) meses, instruído o pedido com os documentos que a Secretaria da Receita Federal do Ministério da Fazenda julgar necessários à comprovação das condições do requerente e ao exame e análise da operação objeto do pedido.(Redação dada pelo <span xlink:href="urn:lex:br:federal:decreto:1973;72411">Decreto nº 72.411, de 1973</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par1">
+            <!--Link: urn:lex:br:federal:decreto:1992;538-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A autorização poderá ser concedida, coletivamente, a pessoas jurídicas representadas por associação ou empresa que, na qualidade de mandatária, responda solidariamente pelas obrigações assumidas e infrações cometidas em decorrência da promoção autorizada, aplicando-se o disposto no art. 3º deste decreto ao somatório das receitas operacionais das empresas participantes. (Renumerado do parágrafo único pelo <span xlink:href="urn:lex:br:federal:decreto:1992;538">Decreto nº 538, de 1992</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par2">
+            <!--Link: urn:lex:br:federal:decreto:1992;538-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A autorização será concedida a título precário e por prazo não superior a doze meses e será requerida ao Departamento da Receita Federal do Ministério da Economia, Fazenda e Planejamento, instruído o pedido com os documentos que esse órgão julgar necessários à comprovação das condições do requerente e ao exame e análise da operação objeto do pedido. (Incluído pelo <span xlink:href="urn:lex:br:federal:decreto:1992;538">Decreto nº 538, de 1992</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    O valor total dos prêmios a serem distribuídos pela empresa não poderá exceder, em cada mês, a cinco por cento (5%) da média mensal da receita operacional relativa a tantos meses, imediatamente anteriores ao pedido, quanto sejam os do plano da operação, desde que não superior a quinhentas vezes o maior salário-mínimo vigente no País, ressalvado o disposto no § 1º do artigo 35.
+
+  </p>
+            
+          </Caput><Paragrafo id="art3_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A receita operacional referida neste artigo e a resultante exclusivamente da atividade comercial, industrial ou de compra e venda de bens imóveis, exercida por conta própria.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O cálculo do valor total dos prêmios a distribuir, no caso de empresas novas, será feito com base no capital realizado, equivalendo este à receita operacional de um (1) trimestre.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O Ministro da Fazenda poderá alterar os limites previstos neste artigo, em razão da natureza da atividade econômica da empresa.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            <!--Link: urn:lex:br:federal:lei:1971-12-20;5768!art5-->
+            
+            
+            <p>
+    A concessão da autorização prevista no artigo 1º sujeita as empresas autorizadas ao pagamento da Taxa de Distribuição de Prêmios a que se refere o <span xlink:href="urn:lex:br:federal:lei:1971-12-20;5768!art5">artigo 5º da Lei número 5.768, de 20 de dezembro de 1971</span>, correspondente a dez por cento (10%) sobre o valor da promoção autorizada, assim compreendido a soma dos valores dos prêmios prometidos.
+
+  </p>
+            
+          </Caput><Paragrafo id="art4_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A taxa a que se refere este artigo será paga em tantas parcelas mensais, iguais e sucessivas, quantos forem os meses de duração do plano promocional, vencendo-se a primeira no décimo (10º) dia do mês subseqüente ao indicado para início da execução do plano.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    O prazo para entrega do prêmio é de até (30) dias, a contar da data do sorteio ou de apuração do resultado do concurso.
+
+  </p>
+            
+          </Caput><Paragrafo id="art5_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O prêmio prometido por vale-brinde deverá ser entregue no ato da apresentação deste.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    Quando o prêmio sorteado, ganho em concurso ou conferido mediante vale-brinde, não for reclamado no prazo de cento e oitenta (180) dias, contados, respectivamente, da data do sorteio, da apuração do resultado do concurso ou do término do prazo da promoção, caducará o direito do respectivo titular e o valor correspondente será recolhido, pela empresa autorizada, ao Tesouro Nacional, como renda da União, no prazo de dez (10) dias.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    Além da empresa autorizada, nenhuma outra pessoa natural ou jurídica, inclusive as sociedades e associações civis de qualquer natureza, poderá participar do resultado financeiro da promoção publicitária de que trata o artigo 1º, ainda que a título de recebimento de &quot; royalties&quot;, aluguéis de marcas, de nome ou assemelhados, ou outra qualquer vantagem.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    Fora dos casos e condições previstas em lei especial, neste Regulamento e em atos que o complementarem, nenhuma pessoa, jurídica ou natural, poderá distribuir ou prometer distribuir prêmios mediante sorteio, vale-brinde, concurso ou operação assemelhada.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            
+            
+            
+            <p>
+    Não serão autorizadas a distribuir prêmios, por qualquer dos meios estabelecidos neste Regulamento, as pessoas naturais ou jurídicas prestadoras de serviço e assemelhadas, ou quaisquer outras entidades que não reunirem as condições previstas no artigo 2º.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>
+    Não poderão ser objeto de promoção, mediante distribuição de prêmios, na forma deste Regulamento:
+
+  </p>
+            <Inciso id="art10_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Medicamentos;
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc2">
+            <!--Link: urn:lex:br:federal:decreto:1990;99370-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Combustíveis e lubrificantes; (Revogado pelo <span xlink:href="urn:lex:br:federal:decreto:1990;99370">Decreto nº 99.370, de 1990</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Armas e munições, explosivos, fogos de artifício ou de estampido, bebidas alcoólicas, fumo e seus derivados;
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    Outros produtos que venham a ser relacionados pelo Ministro da Fazenda.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art10_par1u">
+            <!--Link: urn:lex:br:federal:decreto:1996;2018-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Consideram-se bebidas alcoólicas, para efeito deste decreto, as bebidas potáveis com teor alcoólico superior a treze graus Gay Lussac. (Incluído pelo <span xlink:href="urn:lex:br:federal:decreto:1996;2018">Decreto nº 2.018, de 1996</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            <p>
+    Não serão autorizados os planos que:
+
+  </p>
+            <Inciso id="art11_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Importem em incentivo ou estímulo ao jogo de azar;
+
+  </p>
+            
+          </Inciso><Inciso id="art11_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Proporcionem lucro imoderado aos seus executores;
+
+  </p>
+            
+          </Inciso><Inciso id="art11_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Permitam ao interessado transformar a autorização em processo de exploração dos sorteios, concursos ou vales-brindes, como fonte de receita;
+
+  </p>
+            
+          </Inciso><Inciso id="art11_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    Importem em distorção do mercado, objetivando, através da promoção, o alijamento de empresas concorrentes;
+
+  </p>
+            
+          </Inciso><Inciso id="art11_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    Propiciem exagerada expectativa de obtenção de prêmios;
+
+  </p>
+            
+          </Inciso><Inciso id="art11_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    Importem em fator deseducativo da infância e da adolescência;
+
+  </p>
+            
+          </Inciso><Inciso id="art11_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    Tenham por condição a distribuição de prêmios com base na organização de séries ou coleções de qualquer espécie, tais como de símbolos, gravuras, cromos (&quot;figurinhas&quot;), objetos, rótulos, embalagens, envoltórios, nos termos das instruções da Secretaria da Receita Federal do Ministério da Fazenda;
+
+  </p>
+            
+          </Inciso><Inciso id="art11_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    Impliquem na emissão de cupons sorteáveis ou de qualquer outros elemento que sejam impressos em formatos e com dizeres e cores que imitem os símbolos nacionais e cédulas do papel-moeda ou moeda metálica nacionais, ou com eles se assemelhem;
+
+  </p>
+            
+          </Inciso><Inciso id="art11_cpt_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    Importem na emissão de cupons ou elementos sorteáveis mediante a aquisição de bens de valor, individual ou no conjunto, inferior a quarenta por cento (40%) do maior salário mínimo vigente no País;
+
+  </p>
+            
+          </Inciso><Inciso id="art11_cpt_inc10">
+            
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    Vinculem a distribuição de prêmios aos resultados da Loteria Esportiva;
+
+  </p>
+            
+          </Inciso><Inciso id="art11_cpt_inc11">
+            
+            
+            <Rotulo>XI –</Rotulo>
+            <p>
+    Não assegurem igualdade de tratamento para todos os concorrentes;
+
+  </p>
+            
+          </Inciso><Inciso id="art11_cpt_inc12">
+            
+            
+            <Rotulo>XII –</Rotulo>
+            <p>
+    Vierem a ser considerados inviáveis, por motivo de ordem geral ou especial, pelo Ministério da Fazenda.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art11_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Admitir-se-á como lucro moderado o que resultar da venda da mercadoria, ou similar, objetivo da promoção, a preço não superior ao corrente para a venda à vista no mercado varejista da praça da operação.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            
+            
+            
+            <p>
+    A Secretaria da Receita Federal do Ministério da Fazenda poderá condicionar a autorização para distribuição de prêmios à decomposição do preço da mercadoria objeto da promoção, de modo a destacar, para os fins previstos no artigo 11, inciso II, o custo, as despesas e o lucro da operação de venda.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1966-11-18;43!art35_par1u-->
+            
+            
+            <p>
+    É vedada a distribuição de prêmios mediante sorteio ou concurso, subordinada à cobrança de ingresso em qualquer espécie de espetáculo, ressalvado o disposto no <span xlink:href="urn:lex:br:federal:decreto.lei:1966-11-18;43!art35_par1u">parágrafo único do artigo 35 do Decreto-lei número 43, de 18 de novembro de 1966</span>.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            <p>
+    A empresa autorizada não poderá cobrar dos participantes quaisquer taxas, emolumentos ou contribuições, nem mesmo a título de reembolso dos tributos que incidirem sobre os prêmios.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>
+    Somente serão distribuídos premios que consistam em: I - Mercadorias de produção nacional; II - Títulos da Dívida Pública e outros títulos de crédito que forem admitidas pelo Ministro da Fazenda; III - Unidades residenciais, situadas no País, em zona urbana; IV - Viagem de turismo interno; V - Bolsas de estudo no País. § 1º A empresa autorizada comprovara a propriedade dos premios até oito (8) dias antes da data marcada para o sorteio ou realização do concurso. § 2º A juízo da autoridade concedente da autorização, a prova a que se refere o parágrafo anterior poderá ser substitutída através de depósito bancário do valor dos prêmios, em conta vinculada ao plano. § 3º Nos casos de distribuição de prêmios por vale-brinde a prova de propriedade deverá ser feita antes do inicio da promoção. § 4º Se, entre a data do inicio da promoção e a marcada para o sorteio ou a realização do concurso, decorrem mais de três meses, a Secretaria da Receita Federal do Ministério da Fazenda poderá exigir o depósito mensal de parcelas do valor do premio, de modo a perfazer, dentro do prazo estabelecido no parágrafo 1º, a importância correspondente àquele valor. § 5º É proíbida a conversão dos prêmios em dinheiro.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            <!--Link: urn:lex:br:federal:decreto:1992;538-->
+            
+            
+            <p>
+    Poderão ser distribuídos prêmios que consistam em: (Redação dada pelo <span xlink:href="urn:lex:br:federal:decreto:1992;538">Decreto nº 538, de 1992</span>)
+
+  </p>
+            <Inciso id="art15_cpt_inc1">
+            <!--Link: urn:lex:br:federal:decreto:1992;538-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    mercadorias de produção nacional ou regularmente importadas; (Redação dada pelo <span xlink:href="urn:lex:br:federal:decreto:1992;538">Decreto nº 538, de 1992</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art15_cpt_inc2">
+            <!--Link: urn:lex:br:federal:decreto:1992;538-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    títulos da Dívida Pública e outros títulos de crédito que forem admitidos pelo Ministro da Economia, Fazenda e Planejamento; (Redação dada pelo <span xlink:href="urn:lex:br:federal:decreto:1992;538">Decreto nº 538, de 1992</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art15_cpt_inc3">
+            <!--Link: urn:lex:br:federal:decreto:1992;538-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    unidades residenciais, situadas no País, em zona urbana; (Redação dada pelo <span xlink:href="urn:lex:br:federal:decreto:1992;538">Decreto nº 538, de 1992</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art15_cpt_inc4">
+            <!--Link: urn:lex:br:federal:decreto:1992;538-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    viagens de turismo; (Redação dada pelo <span xlink:href="urn:lex:br:federal:decreto:1992;538">Decreto nº 538, de 1992</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art15_cpt_inc5">
+            <!--Link: urn:lex:br:federal:decreto:1992;538-->
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    bolsas de estudo. (Redação dada pelo <span xlink:href="urn:lex:br:federal:decreto:1992;538">Decreto nº 538, de 1992</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art15_par1">
+            <!--Link: urn:lex:br:federal:decreto:1992;538-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A empresa autorizada comprovará a propriedade dos prêmios até oito dias antes da data marcada para o sorteio ou a realização do concurso. (Redação dada pelo <span xlink:href="urn:lex:br:federal:decreto:1992;538">Decreto nº 538, de 1992</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par2">
+            <!--Link: urn:lex:br:federal:decreto:1992;538-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A juízo da autoridade concedente, a prova a que se refere o parágrafo anterior poderá ser substituída por depósito bancário no valor dos prêmios. (Redação dada pelo <span xlink:href="urn:lex:br:federal:decreto:1992;538">Decreto nº 538, de 1992</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par3">
+            <!--Link: urn:lex:br:federal:decreto:1992;538-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Nos casos de distribuição de prêmios por vale-brinde, a prova de propriedade deverá ser feita antes do início da promoção. (Redação dada pelo <span xlink:href="urn:lex:br:federal:decreto:1992;538">Decreto nº 538, de 1992</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par4">
+            <!--Link: urn:lex:br:federal:decreto:1992;538-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Se entre a data do início da promoção e a marcada para o sorteio ou a realização do concurso decorrerem mais de três meses, o Departamento da Receita Federal do Ministério da Economia, Fazenda e Planejamento poderá exigir o depósito mensal de parcelas do valor do prêmio, de modo a perfazer, dentro do prazo estabelecido no § 1º, a importância correspondente àquele valor. (Redação dada pelo <span xlink:href="urn:lex:br:federal:decreto:1992;538">Decreto nº 538, de 1992</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par5">
+            <!--Link: urn:lex:br:federal:decreto:1992;538-->
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    É proibida a conversão dos prêmios em dinheiro. (Redação dada pelo <span xlink:href="urn:lex:br:federal:decreto:1992;538">Decreto nº 538, de 1992</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="tit1_cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    Dos Sorteios
+
+  </NomeAgrupador>
+            <Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            
+            
+            
+            <p>
+    Os sorteios para distribuição gratuita de prêmios a que se refere o artigo 1º obedecerão aos resultados da extração da Loteria Federal ou à combinação de números de acordo com os mesmos resultados.
+
+  </p>
+            
+          </Caput><Paragrafo id="art16_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A Secretaria da Receita Federal do Ministério da Fazenda poderá, a seu critério, admitir outros processos de extração de sorteios, quando realizados exclusivamente nos auditórios das estações de rádio ou de televisão, em programas públicos, até o limite de trinta por cento (30%) do valor dos prêmios a serem distribuídos por essa modalidade.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    No caso do parágrafo anterior, a empresa autorizada não poderá promover mais de uma extração por semana.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Não se admitirá processo de sorteio que exclua qualquer portador de cupom ou elemento sorteável, salvo o caso de prestamista inadimplente.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            
+            
+            
+            <p>
+    Concorrerão aos sorteios os cupons ou elementos sorteáveis emitidos e numerados em séries, na forma das instruções normativas baixadas pela Secretaria da Receita Federal do Ministério da Fazenda.
+
+  </p>
+            
+          </Caput><Paragrafo id="art17_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A emissão de cupons ou elementos sorteáveis não poderá exceder de cem mil (100.000) número em cada série.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art17_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Não terão validade os cupons ou elementos sorteáveis que apresentarem defeitos ou vícios que impossibilitem a verificação de sua autencidade ou do direito aos prêmios.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            
+            
+            
+            <p>
+    O emprego da expressão &quot;Loteria Federal&quot; pelas empresas autorizadas a distribuir prêmios só será permitido no anúncio do sorteio ou na divulgação do resultado das extrações.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            
+            
+            
+            <p>
+    Na divulgação dos resultados da Loteria Federal as empresas autorizadas deverão proceder de modo a não induzir a equívoco, publicando na íntegra os números correspondentes aos premios maiores, sob pena de cancelamento da autorização.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            
+            
+            
+            <p>
+    Independe de autorização a distribuição gratuita de premios, mediante sorteio realizado diretamente por pessoa jurídica de direito público, nos limites de sua jurisdição, como meio auxiliar de fiscalização ou arrecadação de tributos de sua competência.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            
+            
+            
+            <p>
+    Respeitado o limite estabelecido no artigo 3º e sem dispensa da Taxa de Distribuição de Prêmios, a Secretaria da Receita Federal do Ministério da Fazenda poderá autorizar a realização de propaganda com distribuição gratuita de prêmios vinculada a sorteio diretamente realizado por pessoa jurídica de direito público.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            <!--Link: urn:lex:br:federal:decreto:1973;72411-->
+            
+            
+            <p>
+    Respeitando o limite estabelecido no artigo 3º e sem dispensa da Taxa de Distribuição de Prêmios, o Ministro da Fazenda poderá autorizar a realização de propaganda com distribuição gratuita de prêmios vinculada a sorteio diretamente realizado por pessoa jurídica de direito público. (Redação dada pelo <span xlink:href="urn:lex:br:federal:decreto:1973;72411">Decreto nº 72.411, de 1973</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art22">
+            
+            
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            
+            
+            
+            <p>
+    Os cupons sorteáveis serão distribuídos exclusivamente nos estabelecimentos da empresa autorizada vedada sua distribuição em logradouros e vias públicas.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="tit1_cap3">
+            
+            
+            <Rotulo>CAPÍTULO III</Rotulo>
+            <NomeAgrupador>
+    Do Vale-Brinde
+
+  </NomeAgrupador>
+            <Artigo id="art23">
+            
+            
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            
+            
+            
+            <p>
+    As empresas industriais, autorizadas na forma deste Regulamento, poderão emitir vales-brindes numerados em ordem crescente, a partir de 1 (um), para distribuição gratuita de prêmios como propaganda de seus produtos. § 1º A empresa autorizada deverá distribuir, no mínimo, um (1) vale-brinde para cada cem mil (100.000) unidades de produtos entregues a consumo. § 2º O número de vales-brindes a emitir corresponderá ao de prêmios a distribuir. § 3º O valor do maior prêmio a distribuir não poderá exceder de duas vezes o maior salário-mínimo vigente no País.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art23">
+            
+            
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            <!--Link: urn:lex:br:federal:decreto:1992;538-->
+            
+            
+            <p>
+    As empresas autorizadas na forma deste regulamento poderão emitir vale-brindes numerados em ordem crescente, a partir de um, para distribuição gratuita de prêmios como propaganda de seus produtos. (Redação dada pelo <span xlink:href="urn:lex:br:federal:decreto:1992;538">Decreto nº 538, de 1992</span>)
+
+  </p>
+            
+          </Caput><Paragrafo id="art23_par1">
+            <!--Link: urn:lex:br:federal:decreto:1992;538-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A empresa autorizada deverá declarar, sob as penas da lei, a relação entre o número de vales-brindes a serem distribuídos e o de produtos colocados a venda, e providenciar sua ampla divulgação ao público. (Redação dada pelo <span xlink:href="urn:lex:br:federal:decreto:1992;538">Decreto nº 538, de 1992</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art23_par2">
+            <!--Link: urn:lex:br:federal:decreto:1992;538-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O número de vales-brindes a emitir corresponderá ao de prêmios a distribuir. (Redação dada pelo <span xlink:href="urn:lex:br:federal:decreto:1992;538">Decreto nº 538, de 1992</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art23_par3">
+            <!--Link: urn:lex:br:federal:decreto:1992;538-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O valor do maior prêmio a distribuir não poderá exceder Cr$200.000,00 (duzentos mil cruzeiros), atualizado mensalmente pela variação do Índice Nacional de Preços ao Consumidor. (Redação dada pelo <span xlink:href="urn:lex:br:federal:decreto:1992;538">Decreto nº 538, de 1992</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art23_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    A Secretaria da Receita Federal do Ministério da Fazenda poderá alterar os limites de emissão de vale-brinde, em função da natureza e valor dos bens entregues a consumo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art24">
+            
+            
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput id="art24_cpt">
+            
+            
+            
+            <p>
+    A empresa autorizada colocará o vale-brinde no interior do produto de sua fabricação ou dentro do respectivo envoltório, atendidas as normas prescritas pelos órgãos de saúde pública e de controle de pesos e medidas.
+
+  </p>
+            
+          </Caput><Paragrafo id="art24_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Se for impraticável a distribuição por qualquer dos modos previstos no caput deste artigo, admitir-se-á a utilização de elemento contendo dizeres ou símbolos identificadores do vale-brinde correspondente, pelo qual será trocado nos estabelecimentos da empresa autorizada.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art24_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A Secretaria da Receita Federal do Ministério da Fazenda poderá autorizar a distribuição do vale-brinde por outra forma, bem o estabelecer critérios que assegurem ao processo de distribuição dependência exclusiva do acaso.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art24_par2">
+            <!--Link: urn:lex:br:federal:decreto:1973;72411-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A Secretaria da Receita Federal do Ministério da Fazenda poderá admitir a distribuição do vale brinde por outra forma, bem como estabelecer critérios que assegurem ao processo de distribuição dependência exclusiva do acaso. (Redação dada pelo <span xlink:href="urn:lex:br:federal:decreto:1973;72411">Decreto nº 72.411, de 1973</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="tit1_cap4">
+            
+            
+            <Rotulo>CAPÍTULO IV</Rotulo>
+            <NomeAgrupador>
+    Do Concurso
+
+  </NomeAgrupador>
+            <Artigo id="art25">
+            
+            
+            <Rotulo>Art. 25.</Rotulo>
+            
+            <Caput id="art25_cpt">
+            
+            
+            
+            <p>
+    A distribuição gratuita de prêmios mediante concurso de previsões, cálculos, estes de inteligência, seleção de predicados ou competição de qualquer natureza, realizada por empresas comerciais, industriais ou de compra e venda de bens imóveis, está subordinada a este Regulamento, ressalvado o disposto no artigo 30.
+
+  </p>
+            
+          </Caput><Paragrafo id="art25_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A empresa indicará no plano, de forma clara e inequívoca, o processo do concurso e a condição necessária à obtenção do prêmio.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art26">
+            
+            
+            <Rotulo>Art. 26.</Rotulo>
+            
+            <Caput id="art26_cpt">
+            
+            
+            
+            <p>
+    Nos concursos a que se refere o artigo anterior serão exigidas condições que garantam pluralidade de concorrentes e uniformidade nas condições de competição.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art27">
+            
+            
+            <Rotulo>Art. 27.</Rotulo>
+            
+            <Caput id="art27_cpt">
+            
+            
+            
+            <p>
+    Como condição para participar do concurso poderá ser exigida a apresentação ou a entrega de rótulos, cintas, invólucros, embalagens e quaisquer elementos de reclame relativos aos produtos ou ao ramo comercial da empresa autorizada, que não constitua série ou coleção, nos termos das instruções da Secretaria da Receita Federal do Ministério da Fazenda.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art28">
+            
+            
+            <Rotulo>Art. 28.</Rotulo>
+            
+            <Caput id="art28_cpt">
+            
+            
+            
+            <p>
+    A apuração do concurso poderá ser feita na sede da empresa autorizada ou nos auditórios de estações de rádio ou de televisão, com ingresso franqueado aos concorrentes.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art29">
+            
+            
+            <Rotulo>Art. 29.</Rotulo>
+            
+            <Caput id="art29_cpt">
+            
+            
+            
+            <p>
+    O processo de apuração do concurso será o aprovado pela Secretaria da Receita Federal do Ministério da Fazenda ou o que, inscrito no plano, resguarde, a critério da autoridade concedente, o interesse dos concorrentes e assegure o integral cumprimento das disposições legais e regulamentares.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art30">
+            
+            
+            <Rotulo>Art. 30.</Rotulo>
+            
+            <Caput id="art30_cpt">
+            
+            
+            
+            <p>
+    Independe de autorização a distribuição gratuita de prêmios em razão do resultado de concurso exclusivamente cultural, artístico, desportivo ou recreativo, desde que não haja subordinação a qualquer modalidade de álea ou pagamento pelos concorrentes, nem vinculação destes ou dos contemplados à aquisição ou uso de qualquer bem, direito ou serviço.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo>
+          </Titulo><Titulo id="tit2">
+            
+            
+            <Rotulo>TÍTULO II</Rotulo>
+            <NomeAgrupador>
+    Das Operações de Captação de Poupança Popular
+
+  </NomeAgrupador>
+            <Capitulo id="tit2_cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    Disposições Gerais
+
+  </NomeAgrupador>
+            <Artigo id="art31">
+            
+            
+            <Rotulo>Art. 31.</Rotulo>
+            
+            <Caput id="art31_cpt">
+            <!--Link: urn:lex:br:federal:lei:1971-12-20;5768-->
+            
+            
+            <p>
+    Dependerão de prévia autorização do Ministério da Fazenda, nos termos da <span xlink:href="urn:lex:br:federal:lei:1971-12-20;5768">Lei nº 5.768, de 20 de dezembro de 1971</span>, deste Regulamento e dos atos normativos que se destinem a complementá-lo, e quando não sujeitas à de outra autoridade ou órgãos públicos federais:
+
+  </p>
+            <Inciso id="art31_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:2008;11795-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    As operações conhecidas como consórcio, fundo mútuo e outras formas associativas assemelhadas, que objetivem a aquisição de bens de qualquer natureza; (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2008;11795">Lei nº 11.795, de 2008</span>).
+
+  </p>
+            
+          </Inciso><Inciso id="art31_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    A venda ou promessa de venda de mercadorias a varejo, mediante oferta pública e com recebimento antecipado, parcial ou total, ao respectivo preço;
+
+  </p>
+            
+          </Inciso><Inciso id="art31_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    A venda ou promessa de venda de direitos, inclusive cotas de propriedade de entidades civis, tais como hospital, motel, clube, hotel, centro de recreação ou alojamento e organização de serviços de qualquer natureza, com ou sem rateio de despesas de manutenção, mediante oferta pública e com pagamento antecipado do preço;
+
+  </p>
+            
+          </Inciso><Inciso id="art31_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    A venda ou promessa de venda de terrenos loteados, a prestações mediante sorteio;
+
+  </p>
+            
+          </Inciso><Inciso id="art31_cpt_inc5">
+            <!--Link: urn:lex:br:federal:lei:2008;11795-->
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    Qualquer outra modalidade de captação antecipada da poupança popular mediante promessa de contra-prestação em bens, direitos ou serviços de qualquer natureza. (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2008;11795">Lei nº 11.795, de 2008</span>).
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art32">
+            
+            
+            <Rotulo>Art. 32.</Rotulo>
+            
+            <Caput id="art32_cpt">
+            
+            
+            
+            <p>
+    O pedido de autorização será dirigido à Secretaria da Receita Federal do Ministério da Fazenda, instruído com os documentos que esse órgão julgar necessários à comprovação da capacidade financeira, econômica e gerencial do requerente e ao exame e análise da viabilidade da operação.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art32">
+            
+            
+            <Rotulo>Art. 32.</Rotulo>
+            
+            <Caput id="art32_cpt">
+            <!--Link: urn:lex:br:federal:decreto:1973;72411-->
+            
+            
+            <p>
+    Autorização poderá ser concedida pelo Ministro da Fazenda, instruído o pedido com os documentos que a Secretaria da Receita Federal do Ministério da Fazenda julgar necessários à comprovação da capacidade financeira, econômica e gerencial do requerente e o exame e análise da viabilidade da operação. (Redação dada pelo <span xlink:href="urn:lex:br:federal:decreto:1973;72411">Decreto nº 72.411, de 1973</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art33">
+            
+            
+            <Rotulo>Art. 33.</Rotulo>
+            
+            <Caput id="art33_cpt">
+            
+            
+            
+            <p>
+    As receitas e despesas referentes às operações de que trata o artigo 31 serão contabilizadas destacadamente das demais.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art34">
+            
+            
+            <Rotulo>Art. 34.</Rotulo>
+            
+            <Caput id="art34_cpt">
+            
+            
+            
+            <p>
+    As pessoas autorizadas não poderão cobrar do contratante qualquer outra quantia ou valor, além do preço do bem, direito ou serviço, ainda que a título de ressarcimento de tributos, ressalvados, nos casos previstos neste Regulamento, as despesas de administração.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art35">
+            
+            
+            <Rotulo>Art. 35.</Rotulo>
+            
+            <Caput id="art35_cpt">
+            
+            
+            
+            <p>
+    Será permitida a distribuição gratuita de prêmios vinculada à pontualidade dos prestamistas nas operações a que se referem os incisos II e IV do artigo 31. § 1º O valor dos prêmios a distribuir em cada mês e para cada série, na forma deste artigo, não poderá exceder de cinco por cento (5%) da receita mensal prevista para a respectiva série, não se aplicando o limite estabelecido no artigo 3º, &quot; in fine &quot;, deste Regulamento. § 2º A autorização para distribuição gratuita de prêmios de que trata este artigo será concedida pelo prazo de doze (12) meses, renovável a critério da autoridade concedente. § 3º A renovação será requerida entre (90) a sessenta (60) dias antes da data do término do prazo da autorização. § 4º Quando não for renovada a autorização de que trata este artigo a empresa continuará a distribuir os prêmios prometidos, exclusivamente com relação aos contratos celebrados até a data da ciência do despacho denegatório. § 5º Ocorrendo a hipótese prevista no parágrafo anterior, a Taxa de Distribuição de Prêmios, de que trata o artigo 4º, incidirá sobre o valor dos prêmios prometidos para o período subseqüente ao do término de validade da autorização. § 6º A empresa autorizada a distribuir prêmios vinculados à pontalidade de seus prestamistas, nas operações a que se referem os incisos II e IV do artigo 31, assegurará a participação, no consumo, de todos os prestamistas, salvo os inadimplentes. § 7º Na operação prevista no inciso IV do artigo 31, a distribuição gratuita de prêmios para estimular pontualidade dos prestamistas cessará, para o contratante que for imitido na posse do lote de terreno.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art35">
+            
+            
+            <Rotulo>Art. 35.</Rotulo>
+            
+            <Caput id="art35_cpt">
+            <!--Link: urn:lex:br:federal:decreto:1992;538-->
+            
+            
+            <p>
+    Será permitida a distribuição gratuita de prêmios vinculada à promoção da pontualidade nas operações a que se referem os incisos II a IV do art. 31, assegurada a participação, no concurso, de todos os prestamistas, salvo os inadimplentes. (Redação dada pelo <span xlink:href="urn:lex:br:federal:decreto:1992;538">Decreto nº 538, de 1992</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art36">
+            
+            
+            <Rotulo>Art. 36.</Rotulo>
+            
+            <Caput id="art36_cpt">
+            
+            
+            
+            <p>
+    O Conselho Monetário Nacional, tendo em vista os critérios e objetivos compreendidos em sua competência legal, poderá intervir nas operações referidas no artigo 31 para:
+
+  </p>
+            <Inciso id="art36_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Restringir seus limites e modalidades, bem como disciplinar as operações ou proibir nos lançamentos;
+
+  </p>
+            
+          </Inciso><Inciso id="art36_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Exigir garantias ou a formação de reservas técnicas, fundos especiais e provisões, sendo prejuízo das leis especiais:
+
+  </p>
+            
+          </Inciso><Inciso id="art36_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Alterar o valor de resgate previsto no artigo 53, bem como estendê-lo a qualquer das operações mencionadas no artigo 31.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art36_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os bens e valores representativos das reservas técnicas e das garantias de que trata este artigo não poderão ser alienados, prometidos alienar ou de qualquer forma gravados sem autorização expressa do Ministro da Fazenda, sendo nula, de pleno direito alienação realizada ou gravame constituído com a violação deste artigo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art36_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Quando a garantia ou reserva técnica for representada por bem imóvel, a cláusula de inalienabilidade e impenhorabilidade será obrigatoriamente registrada no competente Cartório de Registro de Imóveis.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art37">
+            
+            
+            <Rotulo>Art. 37.</Rotulo>
+            
+            <Caput id="art37_cpt">
+            
+            
+            
+            <p>
+    O Banco Central do Brasil poderá intervir nas empresas autorizadas a realizar as operações a que se refere o artigo 31, e decretar sua liquidação extrajudicial na forma e condições previstas na legislação especial aplicável às entidades financeiras.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art38">
+            
+            
+            <Rotulo>Art. 38.</Rotulo>
+            
+            <Caput id="art38_cpt">
+            
+            
+            
+            <p>
+    Os diretores, gerentes e sócios da empresa que realizar operações referidas no artigo 31, e bem assim os prepostos com função de gestão:
+
+  </p>
+            <Inciso id="art38_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Serão considerados depositários, para todos os efeitos, das quantias que a empresa receber dos prestamistas, na sua gestão, até cumprimento da obrigação assumida;
+
+  </p>
+            
+          </Inciso><Inciso id="art38_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Responderão solidariamente pelas obrigações da empresa com o prestamista, contraídas na sua gestão.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art39">
+            
+            
+            <Rotulo>Art. 39.</Rotulo>
+            
+            <Caput id="art39_cpt">
+            
+            
+            
+            <p>
+    O Ministro da Fazenda, visando adequar as operações de que trata o artigo 31 às condições de mercado ou da política econômica financeira, poderá fixar disposições deferentes das previstas neste Regulamento quanto a: limites de prazo, de participantes, de capital social e de valores dos bens, direitos ou serviços; normas e modalidades contratuais; percentagens máximas permitidas a título de despesas administrativas; valores dos prêmios a distribuir.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="tit2_cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    Dos Consórcios, Fundos Mútuos e Outras Formas Associativas Assemelhadas
+
+  </NomeAgrupador>
+            <Secao id="tit2_cap2_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Dos Consórcios ou Fundos Mútuos para Aquisição de Bens Móveis Duráveis.
+
+  </NomeAgrupador>
+            <Artigo id="art40">
+            
+            
+            <Rotulo>Art. 40.</Rotulo>
+            
+            <Caput id="art40_cpt">
+            
+            
+            
+            <p>
+    A Secretaria da Receita Federal do Ministério da Fazenda poderá autorizar, na forma deste Regulamento e dos atos que o complementarem, a constituição e o funcionamento de consórcios, fundos mútuos ou formas associativas assemelhadas, que objetivem a coleta de poupanças destinadas a propiciar a aquisição de bens móveis duráveis, por meio de auto-financiamento.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art40">
+            
+            
+            <Rotulo>Art. 40.</Rotulo>
+            
+            <Caput id="art40_cpt">
+            <!--Link: urn:lex:br:federal:decreto:1973;72411-->
+            
+            
+            <p>
+    O Ministro da Fazenda poderá autorizar, na forma deste regulamento e dos atos que o complementarem, a constituição e o funcionamento de consórcios, fundos mútuos ou formas associativas assemelhadas, que objetivem a coleta de poupanças destinadas a propiciar a aquisição de bens móveis duráveis, por meio de autofinanciamento. (Redação dada pelo <span xlink:href="urn:lex:br:federal:decreto:1973;72411">Decreto nº 72.411, de 1973</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art41">
+            
+            
+            <Rotulo>Art. 41.</Rotulo>
+            
+            <Caput id="art41_cpt">
+            
+            
+            
+            <p>
+    A autorização para organização e funcionamento será dada:
+
+  </p>
+            <Inciso id="art41_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    A sociedade de fins exclusivamente civis, ainda que revestidas de forma mercantil, de capital não inferior a duzentas (200) vezes o salário-mínimo local, totalmente integralizado;
+
+  </p>
+            
+          </Inciso><Inciso id="art41_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    A sociedade ou associações civis, de fins não lucrativos, com patrimônio líquido igual ou superior a duzentas (200) vezes o salário-mínimo local, limitada aos integrantes de seu quadro social a participação nas operações;
+
+  </p>
+            
+          </Inciso><Inciso id="art41_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    As sociedades mercantis de capital não inferior a mil (1.000) vezes o salário-mínimo local, totalmente integralizado, deste que o objeto do consórcio seja mercadoria de seu comércio ou fabrico.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art41_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A pessoa jurídica autorizada providenciará, no prazo de sessenta (60) dias, a contar da data em que entrarem em vigor novos níveis de salário-mínimo, o aumento de seu capital ou patrimônio, se for o caso, para ajustamento aos limites previstos neste artigo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art41_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As obrigações passivas da sociedade autorizada, representadas pelas contribuições recebidas dos consorciados e ainda não aplicadas na aquisição dos bens, não poderão ultrapassar, em valor, a quinze (15) vezes a soma do capital realizado e reservas, ou, em se tratando de entidade que não possua capital, a soma do patrimônio líquido.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art42">
+            
+            
+            <Rotulo>Art. 42.</Rotulo>
+            
+            <Caput id="art42_cpt">
+            
+            
+            
+            <p>
+    As despesas de administração cobradas pela sociedade de fins exclusivamente civis não poderão ser superiores a doze por cento (12%) do valor do bem, quando este for de preço até cinqüenta (50) vezes o salário-mínimo local, e a dez por cento (10%) quando de preço superior a esse limite.
+
+  </p>
+            
+          </Caput><Paragrafo id="art42_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As associações civis de fins não lucrativos e as sociedades mercantis, que organizarem consórcio para aquisição de bens de seu comércio ou fabrico, somente poderão cobrar as despesas de administração efetiva e comprovadamente realizadas com a gestão do consórcio, no máximo até à metade das taxas estabelecidas neste artigo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art42_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Será permitida a cobrança, no ato de inscrição do consorciado, de quantia até um por cento (1%) do preço do bem, que será devolvida, se não completado o grupo, ou compensada na taxa de administração, se constituída o consórcio.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art43">
+            
+            
+            <Rotulo>Art. 43.</Rotulo>
+            
+            <Caput id="art43_cpt">
+            
+            
+            
+            <p>
+    Constarão do Regulamento do consórcio as seguintes condições básicas:
+
+  </p>
+            <Inciso id="art43_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Fixação da contribuição mensal mínima de valor não inferior a um inteiro seiscentos e sessenta e sete milésimos por cento (1,667%) do preço do bem a adquirir;
+
+  </p>
+            
+          </Inciso><Inciso id="art43_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Aplicação obrigatória de, no mínimo, cinqüenta por cento (50%) das contribuições mensais na aquisição de bens destinados a consorciado contemplado por preferência mediante sorteio, independentemente do oferecimento de lance;
+
+  </p>
+            
+          </Inciso><Inciso id="art43_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Duração do plano limitado ao máximo de sessenta (60) meses;
+
+  </p>
+            
+          </Inciso><Inciso id="art43_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    Número de participantes de cada grupo de consorciados não superior a cem (100);
+
+  </p>
+            
+          </Inciso><Inciso id="art43_cpt_inc5">
+            <!--Link: urn:lex:br:federal:lei:1965-07-14;4728!art52_par1u-->
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    Depósito em conta própria obrigatória, em bancos comerciais ou caixas econômicas, dos recursos a aplicar, coletados dos consorciados, cujo levantamento somente poderá ser feito para atendimento dos objetivos do plano, mediante declaração escrita da administradora com especificação do documento de compra, ou emissão de cheque na forma prevista no <span xlink:href="urn:lex:br:federal:lei:1965-07-14;4728!art52_par1u">artigo 52, parágrafo único, da Lei nº 4.728, de 14 de julho de 1965</span>;
+
+  </p>
+            
+          </Inciso><Inciso id="art43_cpt_inc5">
+            <!--Link: urn:lex:br:federal:lei:1965-06-14;4728!art52_par1u--><!--Link: urn:lex:br:federal:decreto:1987;94383-->
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    Depósito em conta específica obrigatória, em bancos comerciais ou caixas econômicas, dos recursos a aplicar, coletados dos consorciados, cujo levantamento somente poderá ser feito para atendimento dos objetivos do plano, mediante declaração escrita da administradora com especificação do documento de compra, ou emissão de cheque na forma prevista no <span xlink:href="urn:lex:br:federal:lei:1965-06-14;4728!art52_par1u">artigo 52, parágrafo único, da Lei nº 4.728, de 14 de junho de 1965</span>. Os recursos deverão ser aplicados em títulos emitidos pelo Poder Público e os rendimentos obtidos obrigatoriamente utilizados, em benefício dos consorciados, na aquisição dos bens objeto do consórcio. (Redação dada pelo <span xlink:href="urn:lex:br:federal:decreto:1987;94383">Decreto nº 94.383, de 1987</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art43_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    Prazo máximo de trinta (30) dias para entrega do bem, salvo se o consorciado escolher outro, não disponível, ou não oferecer, no mesmo prazo, a garantia prevista em contrato;
+
+  </p>
+            
+          </Inciso><Inciso id="art43_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    Proibição de distribuição de prêmios, mesmo sob a forma de dispensa de prestações vencidas ou vincendas, assim como de conversão do valor do bem em dinheiro.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art43_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A pessoa jurídica autorizada poderá participar de consórcio por ela administrado, desde que:
+
+  </p>
+            <Alinea id="art43_par1u_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    não participe do sistema de distribuição;
+
+  </p>
+            
+          </Alinea><Alinea id="art43_par1u_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    os bens correspondentes à sua participação somente lhe sejam entregues após contemplados todos os demais consorciados.
+
+  </p>
+            <Item id="art43_par1u_ali2_ite44">
+            
+            <TituloDispositivo>Art</TituloDispositivo>
+            <Rotulo>44.</Rotulo>
+            <p>
+    Poderão ser cobrados dos consorciados as despesas com o registro de seus contratos e instrumentos de garantia, inclusive nos casos cessão, venda vedada a cobrança de qualquer outra taxa além das estabelecidas neste Regulamento e nos atos normativos complementares.
+
+  </p>
+            
+          </Item>
+          </Alinea>
+          </Paragrafo><Paragrafo id="art43_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A proibição deste artigo não alcança a mora e as despesas de cobrança previstas em contrato para os casos de inadimplemento, se, creditado aos consorciados o saldo resultante.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art45">
+            
+            
+            <Rotulo>Art. 45.</Rotulo>
+            
+            <Caput id="art45_cpt">
+            
+            
+            
+            <p>
+    O regulamento do plano poderá prever a cobrança de uma parcela da contribuição mensal, para a constituição de um fundo destinado a cobrir eventual insuficiência da receita por impontualidade no pagamento.
+
+  </p>
+            
+          </Caput><Paragrafo id="art45_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Os limites e condições do fundo previsto neste artigo serão estabelecidos pela Secretaria da Receita Federal do Ministério da Fazenda.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art46">
+            
+            
+            <Rotulo>Art. 46.</Rotulo>
+            
+            <Caput id="art46_cpt">
+            
+            
+            
+            <p>
+    Não poderão ser objeto de consórcio bens de preço inferior a cinco (5) vezes o maior salário-mínimo vigente no País.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="tit2_cap2_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Dos Consórcios e Fundos Mútuos para Aquisição de Bens Imóveis
+
+  </NomeAgrupador>
+            <Artigo id="art47">
+            
+            
+            <Rotulo>Art. 47.</Rotulo>
+            
+            <Caput id="art47_cpt">
+            
+            
+            
+            <p>
+    Fica o Ministro da Fazenda autorizado a estabelecer normas para a organização e funcionamento de consórcios destinados a coletar poupança para a aquisição de bens imóveis que constituam unidades residenciais, observadas as seguintes condições básicas:
+
+  </p>
+            <Inciso id="art47_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Manifestação do Banco Nacional de Habitação quanto à viabilidade técnica e financeira do plano;
+
+  </p>
+            
+          </Inciso><Inciso id="art47_cpt_inc1">
+            <!--Link: urn:lex:br:federal:decreto:1985;92093-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Manifestação do Ministério do Desenvolvimento Urbano e Meio Ambiente quanto à viabilidade técnica e financeira do plano. (Redação dada pelo <span xlink:href="urn:lex:br:federal:decreto:1985;92093">Decreto nº 92.093, de 1985</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art47_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Prazo máximo de cem (100) meses para pagamento;
+
+  </p>
+            
+          </Inciso><Inciso id="art47_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Contribuição mensal mínima de um por cento (1%) do preço do imóvel;
+
+  </p>
+            
+          </Inciso><Inciso id="art47_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    Reajustamento das prestações vincendas, se o preço do imóvel, com as características previstas no contrato, for alterado;
+
+  </p>
+            
+          </Inciso><Inciso id="art47_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    número máximo de cem (100) participantes para cada grupo de consorciados.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="tit2_cap3">
+            
+            
+            <Rotulo>CAPÍTULO III</Rotulo>
+            <NomeAgrupador>
+    Da Venda de Mercadorias a Varejo com Recebimento Antecipado do Preço
+
+  </NomeAgrupador>
+            <Artigo id="art48">
+            
+            
+            <Rotulo>Art. 48.</Rotulo>
+            
+            <Caput id="art48_cpt">
+            
+            
+            
+            <p>
+    A Secretaria da Receita Federal do Ministério da Fazenda poderá conceder autorização para a venda ou promessa de venda de mercadorias a varejo, mediante oferta pública e com recebimento antecipado, parcial ou total, do respectivo preço, a sociedade comerciais que provem ter capital, totalmente integralizado igual ou superior a cinco mil (5.000) vezes o salário-mínimo do local em que estiver situado seu estabelecimento principal. § 1º Quando forem alterados os níveis de salário-mínimo será exigida, no prazo de sessenta (60) dias, a complementação do capital que se tornar inferior ao limite previsto neste artigo. § 2º As obrigações passivas da empresa autorizada, nas operações referidas no caput deste artigo, oriundas de prestações recebidas e correspondentes a mercadorias a entregar, não poderão ultrapassar, em valor, a doze (12) vezes a soma do capital realizado e reservas.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art48">
+            
+            
+            <Rotulo>Art. 48.</Rotulo>
+            
+            <Caput id="art48_cpt">
+            <!--Link: urn:lex:br:federal:decreto:1973;72411-->
+            
+            
+            <p>
+    O Ministro da Fazenda poderá conceder autorização para a venda ou promessa de venda de mercadorias a varejo, mediante oferta pública e com recebimento antecipado, parcial ou total, do respectivo preço, a sociedades comerciais que provem ter capital, totalmente integralizado igual ou superior a cinco mil (5.000) vezes o salário mínimo do local em que estiver situado seu estabelecimento principal. (Redação dada pelo <span xlink:href="urn:lex:br:federal:decreto:1973;72411">Decreto nº 72.411, de 1973</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art49">
+            
+            
+            <Rotulo>Art. 49.</Rotulo>
+            
+            <Caput id="art49_cpt">
+            
+            
+            
+            <p>
+    Não serão autorizados planos de venda para pagamento em prazo inferior a seis (6) ou superior a doze (12) meses.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art50">
+            
+            
+            <Rotulo>Art. 50.</Rotulo>
+            
+            <Caput id="art50_cpt">
+            
+            
+            
+            <p>
+    A mercadoria objeto do contrato deverá:
+
+  </p>
+            <Inciso id="art50_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Ser de preço não superior ao corrente para venda à vista no mercado varejista da praça da operação indicada e aprovada com o plano, à data do pagamento da última prestação, e, não o havendo, ou sendo a mercadoria de venda exclusiva, ao de venda à vista de mercadoria similar, no mercado varejista da mesma praça.
+
+  </p>
+            
+          </Inciso><Inciso id="art50_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Ser de produção nacional e considerada de primeira necessidade ou de uso geral;
+
+  </p>
+            
+          </Inciso><Inciso id="art50_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Ser discriminada no título ou &quot; carnet &quot;.
+
+  </p>
+            <Item id="art50_cpt_inc3_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    º A mercadoria deverá ser entregue ao prestamista na praça da operação, sem qualquer acréscimo, vedada a cobrança de taxa de inscrição, despesas de administração ou qualquer outra importância, além do preço ajustado nos termos do inciso I deste artigo.
+
+  </p>
+            
+          </Item>
+          </Inciso>
+          </Caput><Paragrafo id="art50_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Considera-se praça da operação aquela em que a empresa, por seu estabelecimento fixo, representante comercial autônomo ou vendedor ambulante, celebrar o contrato com a entrega ao comprador, do título ou &quot; carnet &quot; comprobatório da realização do negócio.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art51">
+            
+            
+            <Rotulo>Art. 51.</Rotulo>
+            
+            <Caput id="art51_cpt">
+            
+            
+            
+            <p>
+    As quantias entregues pelos prestamistas para pagamento de mercadoria serão corrigidas monetariamente, a data da liquidação do contrato, mediante aplicação de coeficientes mensais de atualização monetária às prestações dos meses correspondentes.
+
+  </p>
+            
+          </Caput><Paragrafo id="art51_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Para os fins previstos neste artigo serão utilizados os índices de correção mensal do valor nominal das Obrigações Reajustáveis do Tesouro Nacional.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art51_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O Ministro da Fazenda poderá restabelecer o poder aquisitivo das prestações pagas, fixas outros índices de correção monetária, que prevalecerão para futuras autorizações ou renovações.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art51_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Quando a soma das prestações, corrigidas monetariamente, for inferior ao preço atualizado da mercadoria a ser entregue, caberá ao comprador pagar a diferença, ressalvado o disposto no § 5º deste artigo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art51_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Se o preço atualizado da mercadoria for inferior à soma das prestações corrigidas monetariamente, cumprirá ao vendedor restituir, em mercadoria, a diferença.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art51_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Ao comprador é facultado, a seu critério exclusivo, escolher outra mercadoria não constante da discriminação, desde que existente no estoque do vendedor, pagando a diferença de preço, observadas as normas dos incisos I e II do artigo 50.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art52">
+            
+            
+            <Rotulo>Art. 52.</Rotulo>
+            
+            <Caput id="art52_cpt">
+            
+            
+            
+            <p>
+    Paga a totalidade das prestações, a mercadoria discriminada no contrato será entregue ou colocada à disposição do comprador, na praça da operação, no prazo oito (8) dias, contados da data do pagamento da última prestação.
+
+  </p>
+            
+          </Caput><Paragrafo id="art52_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Não prevalecerá o prazo previsto neste artigo se o comprador optar por outra mercadoria só existente no estoque de estabelecimento da empresa situado em outra praça.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art52_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Se a mercadoria não for reclamada no prazo de um (1) ano, contado da data do pagamento da última prestação, o valor total das prestações pagas, corrigidas monetariamente até a data do término do contrato de venda, será recolhido ao Tesouro Nacional, dentro de trinta (30) dias.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art53">
+            
+            
+            <Rotulo>Art. 53.</Rotulo>
+            
+            <Caput id="art53_cpt">
+            
+            
+            
+            <p>
+    O prestamista, que desistir da transação ou se tornar inadimplente depois de paga a terceira (3ª) prestação, terá o direito de receber, em mercadoria do estoque da empresa vendedora e pelo preço corrente de venda à vista no mercado varejista da praça da operação, indicada no plano, à data em que se verificar a desistência ou inadimplemento, o valor de resgate das prestações pagas, indicado na tabela aprovada pelo Ministro da Fazenda.
+
+  </p>
+            
+          </Caput><Paragrafo id="art53_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O valor de resgate será fixado proporcional e progressivamente as prestações pagas pelo prestamistas, não podendo ser inferior a cinqüenta por cento (50%) das importâncias pagas.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art53_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O valor de resgate não reclamado até sessenta (60) dias do prazo para pagamento da última prestação contratada será recolhido ao Tesouro Nacional, dentro de trinta (30) dias.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art53_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    As importâncias recolhidas ao Tesouro Nacional na forma do parágrafo anterior e do parágrafo 2º do artigo 52 serão escrituradas como renda da União, em conta especial.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art54">
+            
+            
+            <Rotulo>Art. 54.</Rotulo>
+            
+            <Caput id="art54_cpt">
+            
+            
+            
+            <p>
+    Ocorrendo atraso por mais de trinta (30) dias no pagamento de uma prestação e ressalvado o disposto no artigo anterior, é facultado à empresa vendedora:
+
+  </p>
+            <Inciso id="art54_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Considerar o prestamista inadimplente e resolver o contrato mediante a entrega de mercadorias de valor igual ao previsto na tabela de resgate, quando for o caso; ou
+
+  </p>
+            
+          </Inciso><Inciso id="art54_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Aceitar o pagamento das prestações vencidas, para prosseguimento do contrato.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art55">
+            
+            
+            <Rotulo>Art. 55.</Rotulo>
+            
+            <Caput id="art55_cpt">
+            
+            
+            
+            <p>
+    A empresa autorizada aplicará o mínimo de vinte por cento (20%) de sua arrecadação mensal na formação de estoque das mercadorias que prometeu entregar.
+
+  </p>
+            
+          </Caput><Paragrafo id="art55_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O Ministro da Fazenda poderá, a seu exclusivo critério, permitir que parte da percentagem prevista neste artigo seja aplicada na aquisição de Obrigações Reajustáveis do Tesouro Nacional ou de títulos de renda fixa de reconhecida segurança e liquidez.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art55_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os títulos adquiridos na forma prevista no parágrafo anterior ficarão vinculados à obrigação de entrega do bem objeto do contrato e só poderão ser alienados se o seu valor for aplicado na compra de mercadorias necessárias ao cumprimento daquela obrigação.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art55_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Não se compreende na proibição deste artigo a participação de representante comercial autônomo que, por força de contrato de representação comercial, operar, em zona determinada, em nome e por conta da empresa autorizada.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art55_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Na hipótese prevista no parágrafo anterior, toda publicidade do negócio será feita em nome exclusivo da empresa autorizada e as mercadorias serão por esta diretamente faturadas ao comprador.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="tit2_cap4">
+            
+            
+            <Rotulo>CAPÍTULO IV</Rotulo>
+            <NomeAgrupador>
+    Da Venda ou Promessa de Venda de Direitos
+
+  </NomeAgrupador>
+            <Artigo id="art57">
+            
+            
+            <Rotulo>Art. 57.</Rotulo>
+            
+            <Caput id="art57_cpt">
+            
+            
+            
+            <p>
+    Compreendem-se nas disposições do artigo 31, inciso III, deste Regulamento, as operações seguintes:
+
+  </p>
+            <Inciso id="art57_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Venda ou promessa de venda de cotas de bens imóveis e instalações, destinadas à constituição de condomínio convencional e indivisível;
+
+  </p>
+            
+          </Inciso><Inciso id="art57_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Venda ou promessa de venda de direito de locação ou de uso e gozo de bens imóveis, móveis, instalações e serviços de qualquer natureza.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art57_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Na operações a que se refere este artigo serão observadas as disposições seguintes:
+
+  </p>
+            <Inciso id="art57_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    O número de cotas lançadas à venda determinará a fração ideal do imóvel, móveis e instalações, correspondentes a cada cota, e não poderá exceder ao resultante da divisão do valor da obra pelo valor da cota;
+
+  </p>
+            
+          </Inciso><Inciso id="art57_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Quando o direito se referir à locação ou uso de gozo de bens imóveis, móveis, instalações e serviços, o número de contratos ou títulos negociáveis fica limitado ao da lotação do estabelecimento a que se refira ou à sua capacidade de atendimento, segundo os índices de procura, normais e técnicos, estabelecidos pelos órgãos indicados pela Secretaria da Receita Federal do Ministério da Fazenda;
+
+  </p>
+            
+          </Inciso><Inciso id="art57_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Se a obra incluir edificação e móveis e instalações necessários ao ramo a que se destina, seus valores serão separadamente mencionados;
+
+  </p>
+            
+          </Inciso><Inciso id="art57_par1_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    O adquirente obriga-se a:
+
+  </p>
+            <Alinea id="art57_par1_inc4_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    não alterar a destinação da obra;
+
+  </p>
+            
+          </Alinea><Alinea id="art57_par1_inc4_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    construir com seus co-proprietários o condomínio indivisível e prover desde logo sobre sua administração.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Paragrafo><Paragrafo id="art57_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Quando a cota se referir a propriedade imóvel, sua transmissão será feita por escrito através de instrumento que preencha todas as condições necessárias à transcrição no Registro de Imóveis competente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art57_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Se o terreno estiver gravado com ônus reais, será exigida escritura pública em que o respectivo titular estipule as condições em que se obriga a liberá-lo antes ou no ato de transmissão das cotas e manifesta sua concordância com o plano de vendas.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art58">
+            
+            
+            <Rotulo>Art. 58.</Rotulo>
+            
+            <Caput id="art58_cpt">
+            
+            
+            
+            <p>
+    O contrato ou título de venda ou promessa de venda de direitos, mediante oferta pública e com pagamento antecipado do preço, indicará precisamente o seu objetivo, de modo a não induzir a engano o comprador, promitente comprador ou locatário.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art59">
+            
+            
+            <Rotulo>Art. 59.</Rotulo>
+            
+            <Caput id="art59_cpt">
+            
+            
+            
+            <p>
+    As expressões &quot;’sócio proprietário&quot; e &quot;sócio patrimonial&quot; ficam reservados aos casos de aquisição de cotas de propriedade de bens imóveis, móveis e instalações; a expressão &quot;sócio usuário&quot;, ao de aquisição do direito de locação ou de uso e gozo de bens imóveis, móveis, instalações e serviços de qualquer natureza.
+
+  </p>
+            
+          </Caput><Paragrafo id="art59_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A cota de bens imóveis, móveis e instalações a que se referir o contrato de venda ou de promessa de venda, título de propriedade ou título patrimonial, é indivisível, transferível e de valor determinado em função do valor atual da propriedade e do número de cotas já vendidas ou prometidas a venda.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art59_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    É defesa a cobrança de emolumentos ou taxas de transferência sobre cessão de direitos ou transmissão de cotas de propriedade adquiridos na forma deste Regulamento, ressalvadas, quando for o caso, as despesas de cartório.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art60">
+            
+            
+            <Rotulo>Art. 60.</Rotulo>
+            
+            <Caput id="art60_cpt">
+            
+            
+            
+            <p>
+    A receita proveniente das operações reguladas neste Capítulo será aplicada exclusivamente na obra ou empreendimento a que ser referir o contrato ou título, sendo permitida a dedução das despesas de administração efetiva e comprovadamente feitas, até o limite de dez por cento (10%), percentagem que será acrescida ao valor da obra para os efetivos do disposto no artigo 57, parágrafo 1º, inciso I.
+
+  </p>
+            
+          </Caput><Paragrafo id="art60_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Não será autorizada nova operação sem a prova de conclusão da obra ou empreendimento compreendido em autorização anterior.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art61">
+            
+            
+            <Rotulo>Art. 61.</Rotulo>
+            
+            <Caput id="art61_cpt">
+            
+            
+            
+            <p>
+    As despesas de manutenção dos bens, instalações e serviços poderão ser rateadas entre os sócios proprietários e sócios usuários, ou entre os sócios de qualquer uma dessas classes, não podendo, entretanto, exceder as despesas efetivas e comprovadamente realizadas.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="tit2_cap5">
+            
+            
+            <Rotulo>CAPÍTULO V</Rotulo>
+            <NomeAgrupador>
+    Da Venda ou Promessa de Venda de Terreno, a Prestações, Mediante Sorteio
+
+  </NomeAgrupador>
+            <Artigo id="art62">
+            
+            
+            <Rotulo>Art. 62.</Rotulo>
+            
+            <Caput id="art62_cpt">
+            
+            
+            
+            <p>
+    O pedido de autorização para a venda ou promessa de venda de terrenos loteados, a prestações, mediante sorteio, a que se refere o artigo 31, inciso IV, deste Regulamento, será instruído com os seguintes documentos:
+
+  </p>
+            <Inciso id="art62_cpt_inc1">
+            <!--Link: urn:lex:br:federal:decreto.lei:1937-12-10;58!art1_cpt_inc1--><!--Link: urn:lex:br:federal:decreto.lei:1937-12-10;58!art1_cpt_inc5-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Cópia dos documentos a que se referem os <span xlink:href="urn:lex:br:federal:decreto.lei:1937-12-10;58!art1_cpt_inc1">incisos I</span> a <span xlink:href="urn:lex:br:federal:decreto.lei:1937-12-10;58!art1_cpt_inc5">V do artigo 1º do Decreto-lei nº 58, de 10 de dezembro de 1937</span>, com a prova de seu arquivamento no Registro de Imóveis da circunscrição respectiva;
+
+  </p>
+            
+          </Inciso><Inciso id="art62_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Certidão do governo municipal provando que a situação dos lotes satisfaz pelo menos a duas das condições previstas no artigo 32 do Código Tributário Nacional, preferencialmente a existência de escola pública a menos de dois quilômetros de distância;
+
+  </p>
+            
+          </Inciso><Inciso id="art62_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Prova da manifestação do Banco Nacional de Habitação de que os terrenos se prestam à consecução de plano habitacional;
+
+  </p>
+            
+          </Inciso><Inciso id="art62_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    Prova de que há compatibilidade do plano de vendas com o Plano de Integração Nacional, quando for o caso;
+
+  </p>
+            
+          </Inciso><Inciso id="art62_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    Prova de que, além dos terrenos objetos de operações submetidas a autorização, o vendedor ou promitente vendedor, é proprietário, ainda, de, no mínimo, mais 20% (vinte por cento) de terrenos que satisfaçam as condições previstas nos incisos anteriores.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art64">
+            
+            
+            <Rotulo>Art. 64.</Rotulo>
+            
+            <Caput id="art64_cpt">
+            
+            
+            
+            <p>
+    Do contrato ou título referente à venda ou promessa de venda de terrenos loteados, a prestações, mediante sorteio, constarão as seguintes especificações:
+
+  </p>
+            <Inciso id="art64_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Denominação da série e número do contrato ou título com que o prestamista concorrerá ao sorteio;
+
+  </p>
+            
+          </Inciso><Inciso id="art64_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Denominação e localização da propriedade, número e data da inscrição, atendido o disposto no artigo 65;
+
+  </p>
+            
+          </Inciso><Inciso id="art64_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Indicação de que um dos lotes constantes da operação autorizada, será alienado e entregue ao promitente comprador de acordo com o artigo 66, deste Regulamento;
+
+  </p>
+            
+          </Inciso><Inciso id="art64_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    Preço do lote, importância do sinal, se houver, e prazo de pagamento não superior a cem (100) meses;
+
+  </p>
+            
+          </Inciso><Inciso id="art64_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    Declaração da existência ou inexistência de servidão ativa ou passiva.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art64_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    É facultado a substituição do contrato pela escritura definitiva de compra e venda, com ou sem o pacto adjeto de hipoteca, desde que essa condição conste do título.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art65">
+            
+            
+            <Rotulo>Art. 65.</Rotulo>
+            
+            <Caput id="art65_cpt">
+            
+            
+            
+            <p>
+    Sob pena de responsabilidade criminal, os vendedores que invocarem como argumento de propaganda, a proximidade do terreno a algum acidente geográfico, cidade, fonte hidromineral ou termal ou qualquer outro motivo de atração ou valorização, serão obrigados a declarar no memorial descritivo e a mencionar nas divulgações, anúncios e prospectos de propaganda, a distância métrica a que se situa o imóvel do ponto invocado ou tomado como referência.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art66">
+            
+            
+            <Rotulo>Art. 66.</Rotulo>
+            
+            <Caput id="art66_cpt">
+            
+            
+            
+            <p>
+    O prestamista contemplado por sorteio ou por haver completado o pagamento de todas as prestações fixadas no plano escolherá o lote de terreno, entre os prometidos, ainda disponíveis, e, desde logo, será imitido na sua posse.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="tit2_cap6">
+            
+            
+            <Rotulo>CAPÍTULO VI</Rotulo>
+            <NomeAgrupador>
+    Das Operações não especificadas
+
+  </NomeAgrupador>
+            <Artigo id="art67">
+            
+            
+            <Rotulo>Art. 67.</Rotulo>
+            
+            <Caput id="art67_cpt">
+            
+            
+            
+            <p>
+    As operações não especificadas, de captação de poupança popular mediante promessa de conta prestação em bens, direitos ou serviços de qualquer natureza, serão reguladas, no que couber, pelas disposições do Título II deste Regulamento e dos atos normativos que se destinem a complementá-lo.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo>
+          </Titulo><Titulo id="tit3">
+            
+            
+            <Rotulo>TÍTULO III</Rotulo>
+            <NomeAgrupador>
+    Das Penalidades, da Fiscalização e do Processo Fiscal
+
+  </NomeAgrupador>
+            <Capitulo id="tit3_cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    Das Penalidades
+
+  </NomeAgrupador>
+            <Artigo id="art68">
+            
+            
+            <Rotulo>Art. 68.</Rotulo>
+            
+            <Caput id="art68_cpt">
+            
+            
+            
+            <p>
+    A realização de operações regidas por este por este Regulamento e pelos atos normativos que se destinem a complementá-lo, sem a prévia autorização sujeita os infratores, cumulativamente, às seguintes penalidades:
+
+  </p>
+            <Inciso id="art68_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    No caso de que trata o Título I (Da Distribuição Gratuita de Prêmios):
+
+  </p>
+            <Alinea id="art68_cpt_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    multa igual ao valor total dos prêmios prometidos, não inferior a cem (100) vezes o maior salário-mínimo vigente no País;
+
+  </p>
+            
+          </Alinea><Alinea id="art68_cpt_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    perda dos bens prometidos como prêmios; e
+
+  </p>
+            
+          </Alinea><Alinea id="art68_cpt_inc1_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    proibição de realizar, durante o prazo de cinco (5) anos, as operações mencionadas.
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art68_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Nos casos a que se refere o Título II (Das Operações de Captação de Poupança Popular):
+
+  </p>
+            <Alinea id="art68_cpt_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    multa igual ao valor dos bens, direitos ou serviços que constituírem o objeto da operação, não inferiora quinhentos (500) vezes o amior salário-mínimo vigente no País;
+
+  </p>
+            
+          </Alinea><Alinea id="art68_cpt_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    proibição de realizar durante o prazo de dez (10) anos, as operações mencionadas..
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput><Paragrafo id="art68_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Incorre, também, nas penas previstas neste artigo quem, sem condiçoes legais, prometer publicamente realizar operações regidas por Regulamento.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art69">
+            
+            
+            <Rotulo>Art. 69.</Rotulo>
+            
+            <Caput id="art69_cpt">
+            
+            
+            
+            <p>
+    A empresa autorizada a realizar operações previstas no artigo 1º, que não cumprir o plano de distribuição de prêmios ou desvirtuar a finalidade da operação, fica sujeita, cumulativamente, às seguintes penalidades:
+
+  </p>
+            <Inciso id="art69_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Cassação da autorização;
+
+  </p>
+            
+          </Inciso><Inciso id="art69_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Proibição de realizar nova operação pelo prazo de cinco (5) anos;
+
+  </p>
+            
+          </Inciso><Inciso id="art69_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Perda dos bens prometidos em prêmios, se eses ainda não tiverem sido entregues, ou multa igual ao valor desses prêmios, não inferior a cinqüenta (50) vezes o maior salário-mínimo vigente no País, se os mesmos já tiverem sido entregues ou não forem encontrados.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art70">
+            
+            
+            <Rotulo>Art. 70.</Rotulo>
+            
+            <Caput id="art70_cpt">
+            
+            
+            
+            <p>
+    A entidade autorizada, na forma deste Regulamento, a realizar operações referidas no artigo 31, que não cumprir o plano, ficará sujeita, cumulativamente, às seguintes penalidade:
+
+  </p>
+            <Inciso id="art70_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Cassação da autorização;
+
+  </p>
+            
+          </Inciso><Inciso id="art70_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Proibição de realizar nova operação pelo prazo de cinco (5) anos; e
+
+  </p>
+            
+          </Inciso><Inciso id="art70_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Multa igual a cinqüenta por cento (50%) do valor dos bens direitos ou serviços que constituírem o objeto da aperação.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art71">
+            
+            
+            <Rotulo>Art. 71.</Rotulo>
+            
+            <Caput id="art71_cpt">
+            
+            
+            
+            <p>
+    A falta de recolhimento da Taxa de Distribuição de Prêmios, dentro dos prazos previstos neste Regulamento, sujeita o contribuinte à multa igual a cinqüenta por cento (50%) da importância que deixou de ser recolhida.
+
+  </p>
+            
+          </Caput><Paragrafo id="art71_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Se o recolhimento for feito após o prazo legal, antes de qualquer procedimento fiscal, a multa será de dez por cento (10%).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art72">
+            
+            
+            <Rotulo>Art. 72.</Rotulo>
+            
+            <Caput id="art72_cpt">
+            
+            
+            
+            <p>
+    As infrações a este Regulamento ou a atos normativos destinados a complementá-lo, quando não compreendidas nos artigos anteriores, sujeitam o infrator à multa de dez (10) a quarenta vezes o maior salário-mínimo vigente no País, elevada ao dobro no caso de reincidência.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art73">
+            
+            
+            <Rotulo>Art. 73.</Rotulo>
+            
+            <Caput id="art73_cpt">
+            
+            
+            
+            <p>
+    A aplicação das penalidades previstas neste Regulamento não exclui a responsabilidade e as sanções de natureza civil e penal, nos termos das respectivas legslações.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="tit3_cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    Da fiscalização e do Processo Fiscal
+
+  </NomeAgrupador>
+            <Artigo id="art74">
+            
+            
+            <Rotulo>Art. 74.</Rotulo>
+            
+            <Caput id="art74_cpt">
+            
+            
+            
+            <p>
+    A fiscalização das operações mencionadas neste Regulamento será exercida privativamente pela Secretaria da Receita Federal do Ministério da Fazenda.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art75">
+            
+            
+            <Rotulo>Art. 75.</Rotulo>
+            
+            <Caput id="art75_cpt">
+            <!--Link: urn:lex:br:federal:decreto:1972-03-06;70235-->
+            
+            
+            <p>
+    O processo e o julgamento das infrações serão regidos pelas normas do <span xlink:href="urn:lex:br:federal:decreto:1972-03-06;70235">Decreto nº 70.235, de 6 de março de 1972</span>, que dispõe sobre o processo sobre o processo adminisrativo fiscal de determinação exigência dos créditos tributários da União.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo>
+          </Titulo><Titulo id="tit4">
+            
+            
+            <Rotulo>TÍTULO IV</Rotulo>
+            <NomeAgrupador>
+    Das disposições Finais e Transitórias
+
+  </NomeAgrupador>
+            <Artigo id="art76">
+            
+            
+            <Rotulo>Art. 76.</Rotulo>
+            
+            <Caput id="art76_cpt">
+            
+            
+            
+            <p>
+    A Secreteria da Receita Federal do Ministério da Fazenda fica autorizadaa expedir atos destinados a complemetar as normas deste Regulamento e a resolver os casos omissos ressalvados os atos cuja competência esteja expressamente reservada a outro órgão ou autoridade.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art77">
+            
+            
+            <Rotulo>Art. 77.</Rotulo>
+            
+            <Caput id="art77_cpt">
+            
+            
+            
+            <p>
+    As operações de que trata o artigo 1º, autorizadas pelo Ministério da Fazenda e em curso na data do início de vigência deste Regulamento, serão adaptadas às sua disposições, no prazo de noventa (90) dias, após o qual as respectivas autorizações serão consideradas canceladas de pleno direito, sujeiando-se quem as praticar, sem permissão legal, às penalidades previstas no inciso I do artigo 68, ltras &quot;a&quot; e&quot;b&quot;.
+
+  </p>
+            
+          </Caput><Paragrafo id="art77_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Ficam dispensadas de adaptação as autorizações cujo término esteja previsto para data anterior à expiração do prazo marcado no &quot;caput&quot; deste artigo, caso em que as operações deverão cessar na data estabelecida no plano autorizado.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art78">
+            
+            
+            <Rotulo>Art. 78.</Rotulo>
+            
+            <Caput id="art78_cpt">
+            
+            
+            
+            <p>
+    Serão adaptados ao regimee às disposições deste Regulamento, no prazo de noventa (90) dias contados de sua publicação, as operações de que trata o artigo 31 e que se achavam em curso a 21 de dezembro de 1971, sob pena de os responsáveis ficarem sujeitos ás sanções do artigo 70.
+
+  </p>
+            
+          </Caput><Paragrafo id="art78_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os prazos mencionados neste artigo poderão ser prorrogados a critário do Ministro da Fazenda.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art78_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Independem de adaptação as operações previstas no inciso I do artigo 31 contratadas até a publicação deste Regulamento, segundo as normas expedidas pelo Ministérios da Fazenda ou pelo BancoCentral do Brasil.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art78_par3">
+            <!--Link: urn:lex:br:federal:lei:1971-12-20;5768-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Os responsáveis pelas operações de que trata o artigo 31 que não dependiam de autorização antes da vigência da <span xlink:href="urn:lex:br:federal:lei:1971-12-20;5768">Lei nº 5.768, de 20 de dezembro de 1971</span>, requererão, no mesmo prazo fixado no &quot;caput&quot; deste artigo, as respectivas autorizações.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art78_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Negada a autorização prevista no parágrafo anterior ou constatada a impossibilidade de adaptação das operações a que se refere o &quot;caput&quot; deste artigo, os planos inadaptados entrarão em liquidação segundo as normas especiais baixadas pelo Ministro da Fazenda.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art79">
+            
+            
+            <Rotulo>Art. 79.</Rotulo>
+            
+            <Caput id="art79_cpt">
+            
+            
+            
+            <p>
+    Este decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art79">
+            
+            
+            <Rotulo>Art. 79.</Rotulo>
+            
+            <Caput id="art79_cpt">
+            <!--Link: urn:lex:br:federal:decreto:1973;72411-->
+            
+            
+            <p>
+    O Ministro da Fazenda poderá delegar competência ao Secretário da Receita Federal para autorizar as operações previstas neste Regulamento. (Redação dada pelo <span xlink:href="urn:lex:br:federal:decreto:1973;72411">Decreto nº 72.411, de 1973</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art80">
+            
+            
+            <Rotulo>Art. 80.</Rotulo>
+            
+            <Caput id="art80_cpt">
+            <!--Link: urn:lex:br:federal:decreto:1973;72411-->
+            
+            
+            <p>
+    Este decreto entrará em vigor na data de sua publicação, revogadas as disposições em contrário. (Inlcluído pelo <span xlink:href="urn:lex:br:federal:decreto:1973;72411">Decreto nº 72.411, de 1973</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Titulo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 9 de agosto de 1972; 151º da Independência e 84º da República.</p></LocalDataFecho><Assinatura><NomePessoa>Antônio Delfim Netto</NomePessoa><NomePessoa>Este texto não substitui o publicado no D.O.U. de 10.8.1972</NomePessoa></Assinatura></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>

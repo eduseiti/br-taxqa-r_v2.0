@@ -1,0 +1,127 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <Metadado>
+      <Identificacao URN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2021-12-06;2055!anexo1"/>
+    </Metadado>
+      <Anexo>
+        <DocumentoGenerico>
+      <PartePrincipal id="anexo1_pp">
+        <p>Anexo I - PEDIDO DE RESTITUIÇÃO OU DE RESSARCIMENTO</p>
+        <p>Pedido de Restituição ou de Ressarcimento – Anexo I
+</p><table id="anexo1_tab2"><tr><td/><td><b>Nome/ Nome Empresarial</b></td><td/><td><b>CPF CNPJ</b></td></tr><tr><td/><td/><td/><td/></tr></table><table id="anexo1_tab3"><tr><td/><td><b>Valor da Restituição/Ressarcimento Solicitado neste Pedido (em reais e sem a atualização de valor)</b></td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td>Nome do Banco (para crédito)</td><td/><td/><td>Nº Banco</td><td/><td/><td>Nº Agência</td><td/><td/><td>Nº Conta-corrente</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr></table><p>v.1.00.00 1/8
+</p><p>Simples Nacional - Retenção Indevida
+</p><table id="anexo1_tab6"><tr><td><b>Nome/ Nome Empresarial</b></td><td/><td><b>CPF CNPJ</b></td></tr><tr><td/><td/><td/></tr></table><p>v.1.00.00 3/8
+</p><p>Ressarcimento do IPI – Missões Diplomáticas e Repartições Consulares
+</p><table id="anexo1_tab9"><tr><td/><td><b>Nome/ Nome Empresarial</b></td><td/><td><b>CPF CNPJ</b></td></tr><tr><td/><td/><td/><td/></tr></table><p>v.1.00.00 4/8
+</p><p>Pagamento Indevido ou a Maior – Contribuição Previdenciária
+</p><table id="anexo1_tab12"><tr><td/><td><b>Nome/ Nome Empresarial</b></td><td/><td><b>CNPJ CEI NIT PIS PASEP</b></td></tr><tr><td/><td/><td/><td/></tr></table><p>v.1.00.00 5/8
+</p><p>Contribuinte Individual
+</p><p>Valor Recolhido pelo
+</p><p>(se houver)
+</p><p>Descontado
+</p><table id="anexo1_tab18"><tr><td><b>Competência</b></td><td><b>Assinale com: “X”</b></td><td/><td><b>Nome da Empresa</b></td><td><b>CNPJ da Empresa</b></td><td><b>Entidade Beneficente *</b></td><td><b>Remuneração Recebida</b></td><td><b>Valor Descontado</b></td><td><b>Valor Recolhido pelo Contribuinte Individual (se houver)</b></td></tr><tr><td/><td>Contribuinte Individual</td><td>Empregado</td><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr></table><p>v.1.00.00 7/8
+</p><p>Demonstrativo de Notas Fiscais/Faturas/Recibos de Serviços Prestados
+</p><table id="anexo1_tab21"><tr><td/><td><b>Nome/ Nome Empresarial</b></td><td/><td><b>CNPJ CEI</b></td><td/></tr><tr><td/><td/><td/><td/><td/></tr></table><table id="anexo1_tab22"><tr><td/><td><b>Mês</b></td><td/><td><b>Ano</b></td><td/></tr><tr><td/><td/><td/><td/><td/></tr></table><table id="anexo1_tab23"><tr><td><b>Número da Nota Fiscal (NF) / Fatura (F)</b></td><td><b>Data da Emissão da NF/F</b></td><td><b>Valor Bruto (R$) da NF/F</b></td><td><b>Valor Retido (R$) na NF/F</b></td><td><b>CNPJ da Contratante (tomadora do serviço)</b></td></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td>TOTAL [Transportar o valor total para o campo “Valor Retido (A)” do Quadro 3 “DISCRIMINATIVO DOS DOCUMENTOS (valor original) do formulário Contribuição Previdenciária Retida – na Cessão de Mão de Obra e na Empreitada”]</td><td/><td/><td/><td/></tr></table><p>v.1.00.00 8/8
+</p><Item id="ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    ORIGEM E VALOR TOTAL DO DIREITO CREDITÓRIO
+
+  </p>
+            <table id="ite3_tab1"><tr><td><b>Pagamento Indevido ou a Maior (o interessado deve anexar o comprovante de pagamento)</b></td><td/><td><b>Valor Original do Pagamento Indevido ou a Maior ( em reais)</b></td></tr><tr><td>Simples Nacional – Retenção Indevida (folha 2)</td><td/><td/></tr><tr><td>Contribuição para o PIS/Pasep e Cofins Retidas na Fonte (folha 3)</td><td/><td/></tr><tr><td>IPI – Missões Diplomáticas e Repartições Consulares (folha 4)</td><td/><td/></tr><tr><td>Pagamento Indevido ou a Maior – Contribuição Previdenciária (folhas 5 e 6)</td><td/><td/></tr><tr><td>Contribuição Previdenciária Retida – Na Cessão de Mão de Obra e na Empreitada (folhas 7 e 8)</td><td/><td/></tr><tr><td>Outros</td><td>Detalhar:</td><td/></tr></table>
+          </Item><Item id="ite4">
+            
+            
+            <Rotulo>4.</Rotulo>
+            <p>
+    MOTIVO DO PEDIDO O INTERESSADO DEVERÁ ANEXAR A ESTE PEDIDO A DOCUMENTAÇÃO COMPROBATÓRIA DO DIREITO CREDITÓRIO.
+
+  </p>
+            
+          </Item><Item id="ite5">
+            
+            
+            <Rotulo>5.</Rotulo>
+            <p>
+    DEMONSTRATIVO DO CÁLCULO DA RESTITUIÇÃO OU DO RESSARCIMENTO O interessado poderá apresentar o demonstrativo de cálculo anexo ao presente documento.
+
+  </p>
+            <table id="ite5_tab1"><tr><td/><td><b>Pedido Retificador</b></td><td/><td/><td><b>Número do Processo do Pedido Retificado</b></td></tr><tr><td>SIM NÃO</td><td/><td/><td/><td/></tr><tr><td/><td>Outras Informações</td><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td>Solicito a restituição/ressarcimento da importância acima mencionada, declarando, sob as penas da Lei nº 4.729, de 14 de julho de 1965, e da Lei nº 8.137, de 27 de dezembro de 1990, que as informações prestadas neste pedido são a expressão da verdade e que as importâncias ora requeridas não foram pleiteadas por via judicial nem compensadas.</td><td/><td/><td/><td/></tr></table><table id="ite5_tab2"><tr><td/><td><b>Nome</b></td><td/><td/><td><b>CPF</b></td></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td>Data</td><td>Assinatura (este documento pode ser assinado digitalmente com uso de certificado digital no padrão ICP Brasil)</td><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr></table>
+          </Item><Item id="ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    DEMONSTRATIVO DOS VALORES RETIDOS
+
+  </p>
+            <table id="ite2_tab1"><tr><td><b>CNPJ da Fonte Pagadora</b></td><td><b>Data da Retenção</b></td><td><b>Valor da Operação (em Reais)</b></td><td><b>Simples Nacional (tributos administrados pela RFB)</b></td><td/></tr><tr><td/><td/><td/><td>Tributo Retido *</td><td>Valor a Restituir</td></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td>* Na coluna &quot;Tributo Retido&quot;, deve-se identificar, quando possível, o nome (abreviação) do tributo indevidamente retido.</td><td/><td/><td/><td/></tr></table>
+          </Item><Item id="ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    INFORMAÇÕES ADICIONAIS Outras Informações v.1.00.00 2/8 Contribuição para o PIS/Pasep e Cofins Retidas na Fonte
+
+  </p>
+            <table id="ite3_tab1"><tr><td/><td><b>Nome/ Nome Empresarial</b></td><td/><td><b>CPF CNPJ</b></td></tr><tr><td/><td/><td/><td/></tr></table>
+          </Item><Item id="ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    DEMONSTRATIVO DOS VALORES RETIDOS
+
+  </p>
+            <table id="ite2_tab1"><tr><td><b>CNPJ da Fonte Pagadora</b></td><td><b>Data da Retenção</b></td><td><b>Valor da Operação (em Reais)</b></td><td><b>Valor Retido</b></td><td/></tr><tr><td/><td/><td/><td>PIS/Pasep</td><td>Cofins</td></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr></table><table id="ite2_tab2"><tr><td/><td><b>Outras Informações</b></td></tr><tr><td/><td/></tr></table>
+          </Item><Item id="ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    RELAÇÃO DAS NOTAS FISCAIS QUE DÃO ORIGEM AO CRÉDITO
+
+  </p>
+            <table id="ite2_tab1"><tr><td><b>Estabelecimento Emissor - CNPJ</b></td><td><b>Número da Nota Fiscal</b></td><td><b>Valor da Nota Fiscal (em reais)</b></td><td><b>Valor do IPI (em reais)</b></td></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td>TOTAL</td><td/><td/><td/></tr></table><table id="ite2_tab2"><tr><td/><td><b>Outras Informações</b></td></tr><tr><td/><td/></tr></table>
+          </Item><Item id="ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    DEMONSTRATIVO DE APURAÇÃO DO CRÉDITO (valor original)
+
+  </p>
+            <table id="ite2_tab1"><tr><td><b>Competência</b></td><td><b>Data do Pagamento</b></td><td><b>Valor Recolhido</b></td><td><b>Valor Devido</b></td><td><b>Saldo</b></td><td><b>Banco / Agência</b></td></tr><tr><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/></tr></table><table id="ite2_tab2"><tr><td/><td><b>Outras Informações</b></td></tr><tr><td/><td/></tr></table>
+          </Item><Item id="ite4">
+            
+            <TituloDispositivo>Individual Empregado Nome da Empresa CNPJ da Empresa Entidade</TituloDispositivo>
+            <Rotulo>4.</Rotulo>
+            <p>
+    QUADRO DISCRIMINATIVO DE REMUNERAÇÕES E VALORES RECOLHIDOS PELO CONTRIBUINTE INDIVIDUAL Assinale com: “X” Competência Contribuinte Contribuição Previdenciária Retida na Cessão de Mão de Obra e na Empreitada
+
+  </p>
+            <table id="ite4_tab1"><tr><td/><td><b>Nome/ Nome Empresarial</b></td><td/><td><b>CNPJ CEI</b></td></tr><tr><td/><td/><td/><td/></tr></table>
+          </Item><Item id="ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    MOTIVO DO PEDIDO Valor excedente da(s) retenção(ções) sofrida(s) sobre nota(s) fiscal(ais) de prestação de serviço(s) em relação ao valor devido sobre a folha de pagamento.
+
+  </p>
+            
+          </Item><Item id="ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    DISCRIMINATIVO DOS DOCUMENTOS (valor original)
+
+  </p>
+            <table id="ite3_tab1"><tr><td><b>Competência</b></td><td><b>CNPJ/CEI Contratada (Matriz / Filial)</b></td><td><b>Valor Retido (A)</b></td><td><b>Valor Retido já compensado</b></td><td/><td><b>Valor Retido a Maior (D) = (A)-(B)-(C)</b></td></tr><tr><td/><td/><td/><td>Na Competência da Retenção (B)</td><td>Em Competências Subsequentes (C)</td><td/></tr><tr><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/></tr><tr><td>O(s) formulário(s) “Demonstrativo(s) de Notas Fiscais/Faturas/Recibos de Serviços Prestados” (modelo da folha 8), com a discriminação dos valores retidos por competência(s) (mês/ano), deve(m) ser anexado(s) ao presente documento.</td><td/><td/><td/><td/><td/></tr></table><table id="ite3_tab2"><tr><td/><td><b>Outras Informações</b></td></tr><tr><td/><td/></tr></table>
+          </Item>
+      </PartePrincipal>
+    </DocumentoGenerico>
+      </Anexo>
+    </LexML>

@@ -1,0 +1,550 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2005-12-28;599"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">INSTRUÇÃO NORMATIVA Nº 599, DE 28 DE DEZEMBRO DE 2005 </Epigrafe>
+		  <Ementa id="ementa">Dispõe sobre os arts. 38, 39 e 40 da Lei nº 11.196, de 21 de novembro de 2005, relativamente ao Imposto de Renda incidente sobre ganhos de capital das pessoas físicas.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O SECRETÁRIO DA RECEITA FEDERAL, no uso da atribuição que lhe confere o inciso III do art. 230 do Regimento Interno da Secretaria da Receita Federal, aprovado pela Portaria MF nº 30, de 25 de fevereiro de 2005, e tendo em vista o disposto nos arts. 38, 39 e 40 da Lei nº 11.196, de 21 de novembro de 2005, resolve:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    Fica isento do imposto de renda o ganho de capital auferido por pessoa física na alienação de bens e direitos de pequeno valor, cujo preço unitário de alienação, no mês em que esta se realizar, seja igual ou inferior a:
+
+  </p>
+            <Inciso id="art1_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    R$ 20.000,00 (vinte mil reais), no caso de alienação de ações negociadas no mercado de balcão;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    R$ 35.000,00 (trinta e cinco mil reais), nos demais casos.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art1_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os limites a que se refere o caput deste artigo são considerados em relação:
+
+  </p>
+            <Inciso id="art1_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    ao bem ou direito ou ao valor do conjunto dos bens ou direitos da mesma natureza, alienados em um mesmo mês;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    à parte de cada condômino ou co-proprietário, no caso de bens possuídos em condomínio, inclusive na união estável;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    a cada um dos bens ou direitos possuídos em comunhão e ao valor do conjunto dos bens ou direitos da mesma natureza, alienados em um mesmo mês, no caso de sociedade conjugal.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art1_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Para efeito do disposto nos incisos I e III do § 1º, consideram-se bens ou direitos da mesma natureza aqueles que guardam as mesmas características entre si, tais como automóveis e motocicletas; imóvel urbano e terra nua; quadros e esculturas.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    Fica isento do imposto de renda o ganho auferido por pessoa física residente no País na venda de imóveis residenciais, desde que o alienante, no prazo de 180 (cento e oitenta) dias contado da celebração do contrato, aplique o produto da venda na aquisição, em seu nome, de imóveis residenciais localizados no País.
+
+  </p>
+            
+          </Caput><Paragrafo id="art2_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    No caso de venda de mais de um imóvel, o prazo de 180 (cento e oitenta) dias referido no caput deste artigo será contado a partir da data de celebração do contrato relativo à primeira operação.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A aplicação parcial do produto da venda implicará tributação do ganho proporcionalmente ao valor da parcela não aplicada.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    No caso de aquisição de mais de um imóvel, a isenção de que trata este artigo aplicar-se-á ao ganho de capital correspondente apenas à parcela empregada na aquisição de imóveis residenciais.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    A opção pela isenção de que trata este artigo é irretratável e o contribuinte deverá informá-la no respectivo Demonstrativo da Apuração dos Ganhos de Capital da Declaração de Ajuste Anual.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    O contribuinte somente poderá usufruir do benefício de que trata este artigo uma vez a cada cinco anos, contados a partir da data da celebração do contrato relativo à operação de venda com o referido benefício ou, no caso de venda de mais de um imóvel residencial, à primeira operação de venda com o referido benefício.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    Na hipótese do § 1º, estarão isentos somente os ganhos de capital auferidos nas vendas de imóveis residenciais anteriores à primeira aquisição de imóvel residencial.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par7">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    Relativamente às operações realizadas a prestação, aplica-se a isenção de que trata o caput, observado o disposto nos parágrafos precedentes:
+
+  </p>
+            <Inciso id="art2_par7_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    nas vendas a prestação e nas aquisições à vista, à soma dos valores recebidos dentro do prazo de 180 (cento e oitenta) dias, contado da data da celebração do primeiro contrato de venda e até a(s) data(s) da(s) aquisição(ões) do(s) imóvel(is) residencial(is);
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par7_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    nas vendas à vista e nas aquisições a prestação, aos valores recebidos à vista e utilizados nos pagamentos dentro do prazo de 180 (cento e oitenta) dias, contado da data da celebração do primeiro contrato de venda;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par7_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    nas vendas e aquisições a prestação, à soma dos valores recebidos e utilizados para o pagamento das prestações, ambos dentro do prazo de 180 (cento e oitenta) dias, contado da data da celebração do primeiro contrato de venda.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art2_par8">
+            
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    Não integram o produto da venda, para efeito do valor a ser utilizado na aquisição de outro imóvel residencial, as despesas de corretagem pagas pelo alienante.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par9">
+            
+            
+            <Rotulo>§ 9º</Rotulo>
+            <p>
+    Considera-se imóvel residencial a unidade construída em zona urbana ou rural para fins residenciais, segundo as normas disciplinadoras das edificações da localidade em que se situar.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par10">
+            
+            
+            <Rotulo>§ 10.</Rotulo>
+            <p>
+    O disposto neste artigo aplica-se, inclusive:
+
+  </p>
+            <Inciso id="art2_par10_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    aos contratos de permuta de imóveis residenciais;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par10_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    à venda ou aquisição de imóvel residencial em construção ou na planta; e [Redação dada pelo(a) Instrução Normativa RFB nº 2070, de 16 de março de 2022]
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par10_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    à hipótese de venda de imóvel residencial com o objetivo de quitar, total ou parcialmente, débito remanescente de aquisição a prazo ou à prestação de imóvel residencial já possuído pelo alienante. [Incluído(a) pelo(a) Instrução Normativa RFB nº 2070, de 16 de março de 2022]
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art2_par11">
+            
+            
+            <Rotulo>§ 11.</Rotulo>
+            <p>
+    O disposto neste artigo não se aplica, dentre outros:
+
+  </p>
+            <Inciso id="art2_par11_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 2070, de 16 de março de 2022]
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par11_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    à venda ou aquisição de terreno;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par11_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    à aquisição somente de vaga de garagem ou de boxe de estacionamento.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art2_par12">
+            
+            
+            <Rotulo>§ 12.</Rotulo>
+            <p>
+    A inobservância das condições estabelecidas neste artigo importará em exigência do imposto com base no ganho de capital, acrescido de:
+
+  </p>
+            <Inciso id="art2_par12_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    juros de mora, calculados a partir do segundo mês subseqüente ao do recebimento do valor ou de parcela do valor do imóvel vendido; e
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par12_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    multa de ofício ou de mora calculada a partir do primeiro dia útil do segundo mês seguinte ao do recebimento do valor ou de parcela do valor do imóvel vendido, se o imposto não for pago até trinta dias após o prazo de 180 (cento e oitenta) dias de que trata o caput deste artigo.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    Para a apuração da base de cálculo do imposto sobre a renda incidente sobre o ganho de capital por ocasião da alienação, a qualquer título, de bens imóveis realizada por pessoa física residente no País, serão aplicados fatores de redução do ganho de capital apurado.
+
+  </p>
+            
+          </Caput><Paragrafo id="art3_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A base de cálculo do imposto corresponderá à multiplicação do ganho de capital pelos fatores de redução, que serão determinados pelas seguintes fórmulas:
+
+  </p>
+            <Inciso id="art3_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    nas alienações ocorridas entre 16 de junho de 2005 e 13 de outubro de 2005, FR = 1/1,0035m, onde &quot;m&quot; corresponde ao número de meses-calendário, ou fração, decorridos entre o mês de janeiro de 1996 ou a data de aquisição do imóvel, se posterior, e o mês de sua alienação.
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    nas alienações ocorridas entre 14 de outubro de 2005 e 30 de novembro de 2005, FR1 = 1/1,0060m1, onde &quot;m1&quot; corresponde ao número de meses-calendário, ou fração, decorridos entre o mês de janeiro de 1996 ou a data de aquisição do imóvel, se posterior, e o mês de sua alienação.
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    nas alienações ocorridas a partir de 1º de dezembro de 2005:
+
+  </p>
+            <Alinea id="art3_par1_inc3_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    FR1 = 1/1,0060m1, onde &quot;m1&quot; corresponde ao número de meses-calendário, ou fração, decorridos entre o mês de janeiro de 1996 ou a data de aquisição do imóvel, se posterior, e o mês de novembro de 2005, para imóveis adquiridos até o mês de novembro de 2005; e
+
+  </p>
+            
+          </Alinea><Alinea id="art3_par1_inc3_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    FR2 = 1/1,0035m2, onde &quot;m2&quot; corresponde ao número de meses-calendário, ou fração, decorridos entre o mês de dezembro de 2005, ou o mês da aquisição do imóvel, se posterior, e o de sua alienação.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Paragrafo><Paragrafo id="art3_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Aplicam-se, sucessivamente e quando cabíveis:
+
+  </p>
+            <Inciso id="art3_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a redução prevista no art. 18 da Lei nº 7.713, de 22 de dezembro de 1988, na alienação de imóvel adquirido até 31 de dezembro de 1988;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o fator de redução FR de que trata o inciso I do § 1º, nas alienações ocorridas entre 16 de junho de 2005 e 13 de outubro de 2005; ou
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par2_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    o fator de redução FR1 de que trata o inciso II do § 1º, nas alienações ocorridas entre 14 de outubro de 2005 e 30 de novembro de 2005; ou
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par2_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    nas alienações ocorridas a partir de 1º de dezembro de 2005, os fatores de redução:
+
+  </p>
+            <Alinea id="art3_par2_inc4_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    FR1 de que trata a alínea &quot;a&quot; do inciso III do § 1º; e
+
+  </p>
+            
+          </Alinea><Alinea id="art3_par2_inc4_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    FR2 de que trata a alínea &quot;b&quot; do inciso III do § 1º.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Paragrafo><Paragrafo id="art3_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A aplicação de cada redução de que trata o § 2º dar-se-á sobre o ganho de capital diminuído das reduções anteriores.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Na alienação em conjunto de imóvel constituído de partes adquiridas em datas diferentes, a redução aplica-se à parcela do ganho de capital que corresponder a cada parte, observando-se que:
+
+  </p>
+            <Inciso id="art3_par4_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a redução correspondente a cada parte é determinada em função da data de sua aquisição e aplicada sobre a parcela do ganho de capital a ela correspondente;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_par4_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a parcela do ganho de capital correspondente a cada parte é determinada aplicando-se sobre o total do ganho de capital o percentual resultante da relação entre o custo da parte objeto da redução e o custo total do imóvel, ou entre a área da parte objeto da redução e a área total do imóvel.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art3_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    O disposto no § 4º aplica-se à construção, ampliação ou reforma, ressalvado o disposto no § 6º.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    Na alienação de imóvel constituído por terreno adquirido até 31 de dezembro de 1995 e de edificação, ampliação ou reforma iniciada até essa data, ainda que concluída em ano posterior, informada na Declaração de Ajuste Anual, os fatores de redução de que trata o caput são determinados em função do ano de aquisição do terreno e aplicado sobre todo o ganho de capital.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    Aplica-se, no que couber, às alienações de que trata esta Instrução Normativa o disposto na Instrução Normativa SRF nº 84, de 11 de outubro de 2001.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    Esta Instrução Normativa entra em vigor na data de sua publicação, produzindo efeitos para as operações realizadas a partir de 16 de junho de 2005.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    Fica revogado o inciso II do caput e os §§ 2º e 3º do art. 29 da Instrução Normativa SRF nº 84, de 2001. JORGE ANTONIO DEHER RACHID
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          
+          
+        </Norma></ProjetoNorma>
+    </LexML>
