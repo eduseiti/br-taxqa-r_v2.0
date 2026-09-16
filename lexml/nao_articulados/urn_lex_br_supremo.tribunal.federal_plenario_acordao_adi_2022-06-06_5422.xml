@@ -1,0 +1,102 @@
+<LexML xmlns="http://www.lexml.gov.br/1.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <Metadado>
+    <Identificacao URN="urn:lex:br:supremo.tribunal.federal;plenario:acordao;adi:2022-06-06;5422"/>
+  </Metadado>
+  <DocumentoGenerico>
+    <PartePrincipal id="pp1">
+      <Agrupamento id="pp1_agr1" nome="preliminar">
+        <p>06/06/2022 PLENÁRIO</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agr2" nome="epigrafe">
+        <p>AÇÃO DIRETA DE INCONSTITUCIONALIDADE 5.422 DISTRITO FEDERAL</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agr3" nome="texto">
+        <table id="pp1_tab1">
+          <tr>
+            <td>
+              <b>RELATOR</b>
+            </td>
+            <td>
+              <b>: MIN. DIAS TOFFOLI</b>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <b>REQTE.(S)</b>
+            </td>
+            <td><b>:</b>INSTITUTO BRASILEIRO DE DIREITO DE FAMILIA - IBDFAM</td>
+          </tr>
+          <tr>
+            <td>
+              <b>ADV.(A/S)</b>
+            </td>
+            <td><b>:</b>RODRIGO DA CUNHA PEREIRA E OUTRO(A/S)</td>
+          </tr>
+          <tr>
+            <td>
+              <b>INTDO.(A/S)</b>
+            </td>
+            <td><b>:</b>PRESIDENTE DA REPÚBLICA</td>
+          </tr>
+          <tr>
+            <td>
+              <b>PROC.(A/S)(ES)</b>
+            </td>
+            <td><b>:</b>ADVOGADO-GERAL DA UNIÃO</td>
+          </tr>
+          <tr>
+            <td>
+              <b>INTDO.(A/S)</b>
+            </td>
+            <td><b>:</b>CONGRESSO NACIONAL</td>
+          </tr>
+          <tr>
+            <td>
+              <b>PROC.(A/S)(ES)</b>
+            </td>
+            <td><b>:</b>ADVOGADO-GERAL DA UNIÃO</td>
+          </tr>
+        </table>
+      </Agrupamento>
+      <AgrupamentoHierarquico id="pp1_agh1" nome="secao">
+        <NomeAgrupador>EMENTA</NomeAgrupador>
+        <Bloco nome="ordem">0</Bloco>
+        <Agrupamento id="pp1_agh1_txt1" nome="texto">
+          <p>
+            <b>Ação direta de inconstitucionalidade. Legitimidade ativa. Presença. Afastamento de questões preliminares. Conhecimento parcial da ação. Direito tributário e direito de família. Imposto de renda. Incidência sobre valores percebidos a título de alimentos ou de pensão alimentícia. Inconstitucionalidade. Ausência de acréscimo patrimonial. Igualdade de gênero. Mínimo existencial.</b>
+          </p>
+          <ul>
+            <li>Consiste o IBDFAM em associação homogênea, só podendo a ele se associarem pessoas físicas ou jurídicas, profissionais, estudantes, órgãos ou entidades que tenham conexão com o direito de família. Está presente, portanto, a pertinência temática, em razão da correlação entre seus objetivos institucionais e o objeto da ação direta de inconstitucionalidade.</li>
+            <li>Afastamento de outras questões preliminares, em razão da presença de procuração com poderes específicos; da desnecessidade de se impugnar dispositivo que não integre o complexo normativo questionado e da possibilidade de se declarar, por arrastamento, a inconstitucionalidade de disposições regulamentares e de outras disposições legais que possuam os mesmos vícios das normas citadas na petição inicial, tendo com elas inequívoca ligação.</li>
+            <li>A inconstitucionalidade suscitada está limitada à incidência do imposto de renda sobre os valores percebidos a título de alimentos ou de pensões alimentícias oriundos do direito de família. Ação da qual se <b>ADI 5422 / DF</b></li>
+          </ul>
+          <p>conhece parcialmente, de modo a se entender que os pedidos formulados alcançam os dispositivos questionados apenas nas partes que tratam da aludida tributação.</p>
+          <ul>
+            <li>A materialidade do imposto de renda está conectada com a existência de acréscimo patrimonial, aspecto presente nas ideias de renda e de proventos de qualquer natureza.</li>
+            <li>Alimentos ou pensão alimentícia oriundos do direito de família não se configuram como renda nem proventos de qualquer natureza do credor dos alimentos, mas montante retirado dos acréscimos patrimoniais recebidos pelo alimentante para ser dado ao alimentado. A percepção desses valores pelo alimentado não representa riqueza nova, estando fora, portanto, da hipótese de incidência do imposto.</li>
+            <li>Na esteira do voto-vista do Ministro <b>Roberto Barroso</b>, “[n]a maioria dos casos, após a dissolução do vínculo conjugal, a guarda dos filhos menores é concedida à mãe. A incidência do imposto de renda sobre pensão alimentícia acaba por afrontar a igualdade de gênero, visto que penaliza ainda mais as mulheres. Além de criar, assistir e educar os filhos, elas ainda devem arcar com ônus tributários dos valores recebidos a título de alimentos, os quais foram fixados justamente para atender às necessidades básicas da criança ou do adolescente”.</li>
+            <li>Consoante o voto-vista do Ministro <b>Alexandre de Moraes</b>, a tributação não pode obstar o exercício de direitos fundamentais, de modo que “os valores recebidos a título de pensão alimentícia decorrente das obrigações familiares de seu provedor não podem integrar a renda tributável do alimentando, sob pena de violar-se a garantia ao mínimo existencial”.</li>
+            <li>Vencidos parcialmente os Ministro <b>Gilmar Mendes, Edson Fachin e Nunes Marques</b>, que sustentavam que as pensões alimentícias decorrentes do direito de família deveriam ser somadas aos valores de seu responsável legal aplicando-se a tabela progressiva do imposto de renda para cada dependente, ressalvando a possibilidade de o alimentando realizar isoladamente a declaração de imposto de renda.</li>
+            <li>Ação direta da qual se conhece em parte, relativamente à qual ela</li>
+          </ul>
+          <p>2</p>
+          <p>é julgada procedente, de modo a dar ao <Remissao xlink:href="urn:lex:br:federal:lei:1988;7713!art3_par1">art. 3º, § 1º, da Lei nº 7.713/88</Remissao>, ao arts. 4º e 46 do Anexo do <Remissao xlink:href="urn:lex:br:federal:decreto:1918;9580">Decreto nº 9.580/18</Remissao> e aos <Remissao xlink:href="urn:lex:br:federal:decreto.lei:1973;1301!art3_cpt">arts. 3º, <b>caput</b></Remissao><b> </b>e <Remissao xlink:href="urn:lex:br:federal:decreto.lei:1973;1301!art3_par1">§ 1º</Remissao>; e <Remissao xlink:href="urn:lex:br:federal:decreto.lei:1973;1301!art4">4º do Decreto-lei nº 1.301/73</Remissao> interpretação conforme à <Remissao xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</Remissao> para se afastar a incidência do imposto de renda sobre valores decorrentes do direito de família percebidos pelos alimentados a título de alimentos ou de pensões alimentícias.</p>
+        </Agrupamento>
+      </AgrupamentoHierarquico>
+      <AgrupamentoHierarquico id="pp1_agh2" nome="secao">
+        <NomeAgrupador>ACÓRDÃO</NomeAgrupador>
+        <Bloco nome="ordem">1</Bloco>
+        <Agrupamento id="pp1_agh2_txt1" nome="texto">
+          <p>Vistos, relatados e discutidos estes autos, acordam os Ministros do Supremo Tribunal Federal, em sessão virtual do Plenário de 27/5 a 3/6/22, na conformidade da ata do julgamento e nos termos do voto do relator, Ministro Dias Toffoli, por maioria de votos, vencidos parcialmente os Ministros Gilmar Mendes, Edson Fachin e Nunes Marques, que conheciam em parte da ação e, no mérito, julgavam-na parcialmente procedente, nos termos de seus votos, em conhecer, em parte, da ação direta e, quanto à parte da qual conhecem, julgar procedente o pedido formulado, de modo a dar ao <Remissao xlink:href="urn:lex:br:federal:lei:1988;7713!art3_par1">art. 3º, § 1º, da Lei nº 7.713/88</Remissao>, ao arts. 4º e 46 do Anexo do <Remissao xlink:href="urn:lex:br:federal:decreto:1918;9580">Decreto nº 9.580/18</Remissao> e aos <Remissao xlink:href="urn:lex:br:federal:decreto.lei:1973;1301!art3_cpt">arts. 3º, caput</Remissao> e <Remissao xlink:href="urn:lex:br:federal:decreto.lei:1973;1301!art3_par1">§ 1º</Remissao>; e <Remissao xlink:href="urn:lex:br:federal:decreto.lei:1973;1301!art4">4º do Decreto-lei nº 1.301/73</Remissao> interpretação conforme à <Remissao xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988">Constituição Federal</Remissao> para se afastar a incidência do imposto de renda sobre valores decorrentes do direito de família percebidos pelos alimentados a título de alimentos ou de pensões alimentícias.</p>
+        </Agrupamento>
+      </AgrupamentoHierarquico>
+      <Agrupamento id="pp1_agrf1" nome="localDataFecho">
+        <p>Brasília, 6 de junho de 2022.</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agrf2" nome="nota">
+        <p>Ministro Dias Toffoli</p>
+        <p>Relator</p>
+      </Agrupamento>
+    </PartePrincipal>
+  </DocumentoGenerico>
+</LexML>
