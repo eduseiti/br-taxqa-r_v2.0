@@ -274,6 +274,11 @@ This is [L]'s footnote-7 rule, and the XSL already applies it to incisos, alíne
      Token caps need the embedding model's tokenizer, which XSLT cannot count; splitting tables by
      rows with repeated headers is simple in Python and painful in XSLT; and `Agrupamento`/`Bloco`
      share no templates with the article logic.
+   - **Token cap (decided 2026-09-24): 1,024 tokens** for every basic unit — non-statutory chunks
+     and also `ART` (and the category-B top-level dispositivo units): articles above the cap
+     (≈ 2–3 %) are split along their structure into parts that repeat the article label and caput
+     sentence, so S1 indexes "article or article part". Cap, tokenizer and splitting rules are in
+     `docs/20260924_123747_segmentation_implementation_plan.md` §2.6 and §5b.
    - **Both emit the same CSV schema** (`Tipo, Rotulo, Num_Inicio, Num_Final, Texto, urn`), including
      the XSL's nested interval numbering (`calculaPos`: a parent's interval encloses its
      descendants'), so containment de-duplication works uniformly: X covers Y when
