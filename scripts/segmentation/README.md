@@ -31,6 +31,7 @@ Outputs in `segmented/`:
 | `non_statutory/<file>.csv` | TXT/TAB rows of `nao_articulados` and category-C annexes |
 | `*/<file>.prov.jsonl` | provenance of Python-built rows (split parts, loose/non-statutory units) |
 | `groupings_over_limit.csv` | S3 grouping rows above `--grouping-max-tokens` (8,192), left out of `chunks_all.csv` |
+| `chunks_all.csv.gz` | versioned, byte-deterministic gzip of `chunks_all.csv` (≈ 21 MB; the plain CSV, ≈ 130 MB, is above GitHub's 100 MB limit and is gitignored). `pd.read_csv` reads it directly |
 | `chunks_all.csv` | all rows + `arquivo, segmentador, categoria` + provenance (§2.7) + token counts + `texto_sha256` (first 16 hex of the SHA-256 of `Texto`) |
 | `run_info.json` | command line, flags, git commit (+ dirty flag), output SHA-256s, timings, per-file step results |
 | `segmentation_report.{md,json}` | validation checks and statistics |

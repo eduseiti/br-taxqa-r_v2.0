@@ -388,7 +388,10 @@ def main(argv=None) -> int:
     seg = args.seg_dir
     checks: dict = {}
 
-    df = pd.read_csv(seg / "chunks_all.csv", dtype=str, keep_default_na=False)
+    src = seg / "chunks_all.csv"
+    if not src.exists():  # only the versioned, gzipped copy is present (fresh clone)
+        src = seg / "chunks_all.csv.gz"
+    df = pd.read_csv(src, dtype=str, keep_default_na=False)
     for c in ("Num_Inicio", "Num_Final", "parte", "n_partes", "n_tokens", "n_tokens_cl100k",
               "n_tokens_qwen3", "id_ambiguo"):
         df[c] = pd.to_numeric(df[c])

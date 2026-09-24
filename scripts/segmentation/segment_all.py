@@ -224,6 +224,16 @@ def git_state() -> dict:
         return {"commit": None}
 
 
+def write_gzip(src: Path, dst: Path) -> None:
+    """Byte-deterministic gzip (no name, mtime 0): the versioned copy of chunks_all.csv, which is
+    above GitHub's 100 MB file limit uncompressed (the plain CSV is gitignored)."""
+    import gzip
+    with open(src, "rb") as fi, open(dst, "wb") as raw, \
+            gzip.GzipFile(filename="", mode="wb", fileobj=raw, mtime=0, compresslevel=9) as fo:
+        for block in iter(lambda: fi.read(1 << 20), b""):
+            fo.write(block)
+
+
 def file_sha256(path: Path) -> str:
     h = hashlib.sha256()
     with open(path, "rb") as fh:
@@ -352,6 +362,7 @@ def main(argv=None) -> int:
             .to_csv(out / "groupings_over_limit.csv", index=False, quoting=1, lineterminator="\n")
         df = df[~over]
         df.to_csv(out / "chunks_all.csv", index=False, quoting=1, lineterminator="\n")
+        write_gzip(out / "chunks_all.csv", out / "chunks_all.csv.gz")
         timings["6_merge_s"] = round(time.time() - t0, 1)
         print(f"[6] chunks_all.csv: {len(df)} rows; {int(over.sum())} grouping rows over "
               f"{args.grouping_max_tokens} tokens -> groupings_over_limit.csv", flush=True)
@@ -361,7 +372,8 @@ def main(argv=None) -> int:
         "timestamp": datetime.now().isoformat(timespec="seconds"),
         "git": git_state(),
         "outputs_sha256": {name: file_sha256(out / name)
-                           for name in ("chunks_all.csv", "groupings_over_limit.csv", "annex_manifest.csv")
+                           for name in ("chunks_all.csv", "chunks_all.csv.gz", "groupings_over_limit.csv",
+                                        "annex_manifest.csv")
                            if (out / name).exists()},
         "command": " ".join([Path(sys.executable).name] + sys.argv),
         "flags": {k: (str(v) if isinstance(v, Path) else v) for k, v in vars(args).items()},
