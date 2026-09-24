@@ -178,6 +178,11 @@ only orphan `Item`/`Alinea`/`Inciso`/`Paragrafo` elements directly under `Articu
 | **S2 – Article + ancestor-path sub-units** | `ART` + `CPT`/`PAR` + `INC`/`ALI`/`ITE` | ≈ 88 k | Does going down to the enumeration level help? (S1 vs S2) |
 | S3 – Full multi-layer (optional) | S2 + `PRT`/`LIV`/`TIT`/`SBT`/`CAP`/`SEC`/`SSC` | ≈ 94 k | Do grouping chunks add anything? (S2 vs S3) |
 
+**Measured (2026-09-24, first full run, `docs/20260924_184339_segmentation_results.md`):** S1 =
+26,252 chunks (19,393 articles, 647 of them split into parts, → 20,479 ART rows; + 1,522 DSP + 4,251
+TXT/TAB), S2 = 82,644, S3 = 87,947. S2/S3 are lower than estimated above because CPT is only emitted
+for articles with paragraphs (plan Q5).
+
 If only two strategies fit the budget, keep **S1 vs S2**. Grouping chunks are the ones most likely
 to exceed embedding input limits (up to ~3.8 k tokens in [L]'s tables) and to crowd the RAG context.
 

@@ -1,0 +1,2353 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:lei:1995-12-26;9250"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">LEI Nº 9.250, DE 26 DE DEZEMBRO DE 1995 </Epigrafe>
+		  <Ementa id="ementa">CÂMARA DOS DEPUTADOS Centro de Documentação e Informação <span xlink:href="urn:lex:br:federal:lei:1995-12-26;9250">LEI Nº 9.250, DE 26 DE DEZEMBRO DE 1995</span> Altera a Legislação do Imposto de Renda das Pessoas Físicas e dá outras providências.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O PRESIDENTE DA REPÚBLICA
+  </p><p>
+    Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Capitulo id="cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DISPOSIÇÕES PRELIMINARES
+
+  </NomeAgrupador>
+            <Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    A partir de 1º de janeiro de 1996 o imposto de renda das pessoas físicas será determinado segundo as normas da legislação vigente, com as alterações desta Lei.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    Os valores expressos em UFIR na legislação do imposto de renda das pessoas físicas ficam convertidos em Reais, tomando-se por base o valor da UFIR vigente em 1º de janeiro de 1996.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DA INCIDÊNCIA MENSAL DO IMPOSTO
+
+  </NomeAgrupador>
+            <Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            <!--Link: urn:lex:br:federal:lei:1988-12-22;7713!art7--><!--Link: urn:lex:br:federal:lei:1988-12-22;7713!art8--><!--Link: urn:lex:br:federal:lei:1988-12-22;7713!art12-->
+            
+            
+            <p>
+    O imposto de renda incidente sobre os rendimentos de que tratam os <span xlink:href="urn:lex:br:federal:lei:1988-12-22;7713!art7">arts. 7°</span>, <span xlink:href="urn:lex:br:federal:lei:1988-12-22;7713!art8">8°</span> e <span xlink:href="urn:lex:br:federal:lei:1988-12-22;7713!art12">12, da Lei n° 7.713, de 22 de dezembro de 1988</span>, será calculado de acordo com a seguinte tabela progressiva em Reais:
+
+  </p>
+            <table id="art3_cpt_tab1"><tr><td>BASE DE CÁLCULO EM R$</td><td>ALÍQUOTA%</td><td>PARCELA A DEDUZIR DO IMPOSTO EM R$</td></tr><tr><td>até 900,00</td><td>-</td><td>-</td></tr><tr><td>acima de 900,00 até 1.800,00</td><td>15</td><td>135</td></tr><tr><td>acima de 1.800,00</td><td>25</td><td>315</td></tr></table>
+          </Caput><Paragrafo id="art3_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O imposto de que trata este artigo será calculado sobre os rendimentos efetivamente recebidos em cada mês.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    Na determinação da base de cálculo sujeita à incidência mensal do imposto de renda poderão ser deduzidas:
+
+  </p>
+            <Inciso id="art4_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:1990-12-27;8134!art6-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a soma dos valores referidos no <span xlink:href="urn:lex:br:federal:lei:1990-12-27;8134!art6">art. 6º da Lei nº 8.134, de 27 de dezembro de 1990</span>;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:1973-01-11;5869--><!--Link: urn:lex:br:federal:lei:2008-06-23;11727-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    as importâncias pagas a título de pensão alimentícia em face das normas do Direito de Família, quando em cumprimento de decisão judicial, inclusive a prestação de alimentos provisionais, de acordo homologado judicialmente, ou de escritura pública a que se refere o art. 1.124-A da <span xlink:href="urn:lex:br:federal:lei:1973-01-11;5869">Lei nº 5.869, de 11 de janeiro de 1973</span> - Código de Processo Civil; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2008-06-23;11727">Lei nº 11.727, de 23.6.2008</span>, produzindo efeitos a partir de 5.1.2007, de acordo com o inciso V do art. 41)
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:2007-05-31;11482-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    a quantia, por dependente, de: (“Caput” do inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2007-05-31;11482">Lei nº 11.482, de 31.5.2007</span>)
+
+  </p>
+            <Alinea id="art4_cpt_inc3_ali1">
+            <!--Link: urn:lex:br:federal:lei:2007-05-31;11482-->
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    R$ 132,05 (cento e trinta e dois reais e cinco centavos), para o ano-calendário de 2007; (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:lei:2007-05-31;11482">Lei nº 11.482, de 31.5.2007</span>)
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_inc3_ali2">
+            <!--Link: urn:lex:br:federal:lei:2007-05-31;11482-->
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    R$ 137,99 (cento e trinta e sete reais e noventa e nove centavos), para o ano-calendário de 2008; (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:lei:2007-05-31;11482">Lei nº 11.482, de 31.5.2007</span>)
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_inc3_ali3">
+            <!--Link: urn:lex:br:federal:lei:2007-05-31;11482-->
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    R$ 144,20 (cento e quarenta e quatro reais e vinte centavos), para o ano-calendário de 2009; (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:lei:2007-05-31;11482">Lei nº 11.482, de 31.5.2007</span>)
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_inc3_ali4">
+            <!--Link: urn:lex:br:federal:lei:2007-05-31;11482--><!--Link: urn:lex:br:federal:medida.provisoria:2011-03-25;528--><!--Link: urn:lex:br:federal:lei:2011-08-26;12469-->
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    R$ 150,69 (cento e cinquenta reais e sessenta e nove centavos), para o ano-calendário de 2010; (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:lei:2007-05-31;11482">Lei nº 11.482, de 31.5.2007</span>, com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2011-03-25;528">Medida Provisória nº 528, de 25.3.2011</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2011-08-26;12469">Lei nº 12.469, de 26.8.2011</span>, produzindo efeitos a partir de 1.4.2011)
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_inc3_ali5">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2011-03-25;528--><!--Link: urn:lex:br:federal:lei:2011-08-26;12469-->
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    R$ 157,47 (cento e cinquenta e sete reais e quarenta e sete centavos), para o ano-calendário de 2011; (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2011-03-25;528">Medida Provisória nº 528, de 25.3.2011</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2011-08-26;12469">Lei nº 12.469, de 26.8.2011</span>, produzindo efeitos a partir de 1.4.2011)
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_inc3_ali6">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2011-03-25;528--><!--Link: urn:lex:br:federal:lei:2011-08-26;12469-->
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    R$ 164,56 (cento e sessenta e quatro reais e cinquenta e seis centavos), para o ano-calendário de 2012; (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2011-03-25;528">Medida Provisória nº 528, de 25.3.2011</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2011-08-26;12469">Lei nº 12.469, de 26.8.2011</span>, produzindo efeitos a partir de 1.4.2011)
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_inc3_ali7">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2011-03-25;528--><!--Link: urn:lex:br:federal:lei:2011-08-26;12469-->
+            
+            <Rotulo>g)</Rotulo>
+            <p>
+    R$ 171,97 (cento e setenta e um reais e noventa e sete centavos), para o ano-calendário de 2013; (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2011-03-25;528">Medida Provisória nº 528, de 25.3.2011</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2011-08-26;12469">Lei nº 12.469, de 26.8.2011</span>, produzindo efeitos a partir de 1.4.2011)
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_inc3_ali8">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2011-03-25;528--><!--Link: urn:lex:br:federal:lei:2011-08-26;12469--><!--Link: urn:lex:br:federal:medida.provisoria:2015-03-10;670--><!--Link: urn:lex:br:federal:lei:2015-07-21;13149-->
+            
+            <Rotulo>h)</Rotulo>
+            <p>
+    R$ 179,71 (cento e setenta e nove reais e setenta e um centavos), para o ano-calendário de 2014 e nos meses de janeiro a março do ano-calendário de 2015; e (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2011-03-25;528">Medida Provisória nº 528, de 25.3.2011</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2011-08-26;12469">Lei nº 12.469, de 26.8.2011</span>, e com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2015-03-10;670">Medida Provisória nº 670, de 10.3.2015</span> , convertida na <span xlink:href="urn:lex:br:federal:lei:2015-07-21;13149">Lei nº 13.149, de 21.7.2015</span>)
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_inc3_ali9">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2015-03-10;670--><!--Link: urn:lex:br:federal:lei:2015-07-21;13149-->
+            
+            <Rotulo>i)</Rotulo>
+            <p>
+    R$ 189,59 (cento e oitenta e nove reais e cinquenta e nove centavos), a partir do mês de abril do ano-calendário de 2015; (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2015-03-10;670">Medida Provisória nº 670, de 10.3.2015</span> , convertida na <span xlink:href="urn:lex:br:federal:lei:2015-07-21;13149">Lei nº 13.149, de 21.7.2015</span>)
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art4_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    as contribuições para a Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    as contribuições para as entidades de previdência privada domiciliadas no País, cujo ônus tenha sido do contribuinte, destinadas a custear benefícios complementares assemelhados aos da Previdência Social;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc6">
+            <!--Link: urn:lex:br:federal:lei:2007-05-31;11482-->
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    a quantia, correspondente à parcela isenta dos rendimentos provenientes de aposentadoria e pensão, transferência para a reserva remunerada ou reforma, pagos pela Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios, por qualquer pessoa jurídica de direito público interno ou por entidade de previdência privada, a partir do mês em que o contribuinte completar 65 (sessenta e cinco) anos de idade, de: (“Caput” do inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2007-05-31;11482">Lei nº 11.482, de 31.5.2007</span>)
+
+  </p>
+            <Alinea id="art4_cpt_inc6_ali1">
+            <!--Link: urn:lex:br:federal:lei:2007-05-31;11482-->
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    R$ 1.313,69 (mil, trezentos e treze reais e sessenta e nove centavos), por mês, para o ano-calendário de 2007; (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:lei:2007-05-31;11482">Lei nº 11.482, de 31.5.2007</span>)
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_inc6_ali2">
+            <!--Link: urn:lex:br:federal:lei:2007-05-31;11482-->
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    R$ 1.372,81 (mil, trezentos e setenta e dois reais e oitenta e um centavos), por mês, para o ano-calendário de 2008; (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:lei:2007-05-31;11482">Lei nº 11.482, de 31.5.2007</span>)
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_inc6_ali3">
+            <!--Link: urn:lex:br:federal:lei:2007-05-31;11482-->
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    R$ 1.434,59 (mil, quatrocentos e trinta e quatro reais e cinqüenta e nove centavos), por mês, para o ano-calendário de 2009; (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:lei:2007-05-31;11482">Lei nº 11.482, de 31.5.2007</span>)
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_inc6_ali4">
+            <!--Link: urn:lex:br:federal:lei:2007-05-31;11482--><!--Link: urn:lex:br:federal:medida.provisoria:2011-03-25;528--><!--Link: urn:lex:br:federal:lei:2011-08-26;12469-->
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    R$ 1.499,15 (mil, quatrocentos e noventa e nove reais e quinze centavos), por mês, para o ano-calendário de 2010; (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:lei:2007-05-31;11482">Lei nº 11.482, de 31.5.2007</span>, com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2011-03-25;528">Medida Provisória nº 528, de 25.3.2011</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2011-08-26;12469">Lei nº 12.469, de 26.8.2011</span>, produzindo efeitos a partir de 1.4.2011)
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_inc6_ali5">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2011-03-25;528--><!--Link: urn:lex:br:federal:lei:2011-08-26;12469-->
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    R$ 1.566,61 (mil, quinhentos e sessenta e seis reais e sessenta e um centavos), por mês, para o ano-calendário de 2011; (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2011-03-25;528">Medida Provisória nº 528, de 25.3.2011</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2011-08-26;12469">Lei nº 12.469, de 26.8.2011</span>, produzindo efeitos a partir de 1.4.2011)
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_inc6_ali6">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2011-03-25;528--><!--Link: urn:lex:br:federal:lei:2011-08-26;12469-->
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    R$ 1.637,11 (mil, seiscentos e trinta e sete reais e onze centavos), por mês, para o ano-calendário de 2012; (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2011-03-25;528">Medida Provisória nº 528, de 25.3.2011</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2011-08-26;12469">Lei nº 12.469, de 26.8.2011</span>, produzindo efeitos a partir de 1.4.2011)
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_inc6_ali7">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2011-03-25;528--><!--Link: urn:lex:br:federal:lei:2011-08-26;12469-->
+            
+            <Rotulo>g)</Rotulo>
+            <p>
+    R$ 1.710,78 (mil, setecentos e dez reais e setenta e oito centavos), por mês, para o ano-calendário de 2013; (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2011-03-25;528">Medida Provisória nº 528, de 25.3.2011</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2011-08-26;12469">Lei nº 12.469, de 26.8.2011</span>, produzindo efeitos a partir de 1.4.2011)
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_inc6_ali8">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2011-03-25;528--><!--Link: urn:lex:br:federal:lei:2011-08-26;12469--><!--Link: urn:lex:br:federal:medida.provisoria:2015-03-10;670--><!--Link: urn:lex:br:federal:lei:2015-07-21;13149-->
+            
+            <Rotulo>h)</Rotulo>
+            <p>
+    R$ 1.787,77 (mil, setecentos e oitenta e sete reais e setenta e sete centavos), por mês, para o ano-calendário de 2014 e nos meses de janeiro a março do ano-calendário de 2015; e (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2011-03-25;528">Medida Provisória nº 528, de 25.3.2011</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2011-08-26;12469">Lei nº 12.469, de 26.8.2011</span>, e com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2015-03-10;670">Medida Provisória nº 670, de 10.3.2015</span> , convertida na <span xlink:href="urn:lex:br:federal:lei:2015-07-21;13149">Lei nº 13.149, de 21.7.2015</span>)
+
+  </p>
+            
+          </Alinea><Alinea id="art4_cpt_inc6_ali9">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2015-03-10;670--><!--Link: urn:lex:br:federal:lei:2015-07-21;13149-->
+            
+            <Rotulo>i)</Rotulo>
+            <p>
+    R$ 1.903,98 (mil, novecentos e três reais e noventa e oito centavos), por mês, a partir do mês de abril do ano-calendário de 2015; (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2015-03-10;670">Medida Provisória nº 670, de 10.3.2015</span> , convertida na <span xlink:href="urn:lex:br:federal:lei:2015-07-21;13149">Lei nº 13.149, de 21.7.2015</span>)
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art4_cpt_inc7">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art40_par15--><!--Link: urn:lex:br:federal:lei:2013-06-20;12832--><!--Link: urn:lex:br:federal:lei:2022-10-26;14463-->
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    as contribuições para as entidades fechadas de previdência complementar de que trata o <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art40_par15">§ 15 do art. 40 da Constituição Federal</span>, cujo ônus tenha sido do contribuinte, destinadas a custear benefícios complementares assemelhados aos da Previdência Social. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2013-06-20;12832">Lei nº 12.832, de 20.6.2013</span>, com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-10-26;14463">Lei nº 14.463, de 26.10.2022</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art4_par1">
+            <!--Link: urn:lex:br:federal:lei:2015-12-08;13202--><!--Link: urn:lex:br:federal:lei:2023-08-28;14663-->
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A dedução permitida pelo inciso V aplica-se exclusivamente à base de cálculo relativa aos seguintes rendimentos, assegurada, nos demais casos, a dedução dos valores pagos a esse título, por ocasião da apuração da base de cálculo do imposto devido no ano-calendário, conforme disposto na alínea e do inciso II do art. 8º desta Lei: (Parágrafo único com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2015-12-08;13202">Lei nº 13.202, de 8.12.2015</span>, transformado em § 1º pela <span xlink:href="urn:lex:br:federal:lei:2023-08-28;14663">Lei nº 14.663, de 28.8.2023</span>)
+
+  </p>
+            <Inciso id="art4_par1_inc1">
+            <!--Link: urn:lex:br:federal:lei:2015-12-08;13202-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    do trabalho com vínculo empregatício ou de administradores; e (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2015-12-08;13202">Lei nº 13.202, de 8.12.2015</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art4_par1_inc2">
+            <!--Link: urn:lex:br:federal:lei:2015-12-08;13202-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    proventos de aposentados e pensionistas, quando a fonte pagadora for responsável pelo desconto e respectivo pagamento das contribuições previdenciárias. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2015-12-08;13202">Lei nº 13.202, de 8.12.2015</span>)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art4_par2">
+            <!--Link: urn:lex:br:federal:lei:2023-08-28;14663-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Alternativamente às deduções de que trata o caput deste artigo, poderá ser utilizado desconto simplificado mensal, correspondente a 25% (vinte e cinco por cento) do valor máximo da faixa com alíquota zero da tabela progressiva mensal, caso seja mais benéfico ao contribuinte, dispensadas a comprovação da despesa e a indicação de sua espécie. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2023-08-28;14663">Lei nº 14.663, de 28.8.2023</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    As pessoas físicas residentes ou domiciliadas no Brasil que recebam rendimentos de trabalho assalariado, em moeda estrangeira, de autarquias ou repartições do Governo brasileiro, situadas no exterior, estão sujeitas ao imposto de renda na fonte incidente sobre a base de cálculo de que trata o art. 4º, mediante utilização da tabela progressiva de que trata o art. 3º.
+
+  </p>
+            
+          </Caput><Paragrafo id="art5_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os rendimentos em moeda estrangeira serão convertidos em Reais, mediante utilização do valor do dólar dos Estados Unidos da América fixado para compra pelo Banco Central do Brasil para o último dia útil da primeira quinzena do mês anterior ao do pagamento do rendimento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As deduções de que tratam os incisos II, IV e V do art. 4º serão convertidas em Reais, mediante utilização do valor do dólar dos Estados Unidos da América fixado para venda pelo Banco Central do Brasil para o último dia útil da primeira quinzena do mês anterior ao do pagamento do rendimento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art5_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    As pessoas físicas computarão, na determinação da base de cálculo de que trata o art. 4º e na declaração de rendimentos, 25% do total dos rendimentos do trabalho assalariado recebidos nas condições referidas neste artigo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    Os rendimentos recebidos de fontes situadas no exterior, sujeitos a tributação no Brasil, bem como o imposto pago no exterior, serão convertidos em Reais mediante utilização do valor do dólar dos Estados Unidos da América fixado para compra pelo Banco Central do Brasil para o último dia útil da primeira quinzena do mês anterior ao do recebimento do rendimento.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap3">
+            
+            
+            <Rotulo>CAPÍTULO III</Rotulo>
+            <NomeAgrupador>
+    DA DECLARAÇÃO DE RENDIMENTOS
+
+  </NomeAgrupador>
+            <Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    A pessoa física deverá apurar o saldo em Reais do imposto a pagar ou o valor a ser restituído, relativamente aos rendimentos percebidos no ano-calendário, e apresentar anualmente, até o último dia útil do mês de abril do ano-calendário subseqüente, declaração de rendimentos em modelo aprovado pela Secretaria da Receita Federal.
+
+  </p>
+            
+          </Caput><Paragrafo id="art7_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O prazo de que trata este artigo aplica-se inclusive à declaração de rendimentos relativa ao exercício de 1996, ano-calendário de 1995.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art7_par2">
+            <!--Link: urn:lex:br:federal:lei:1997-12-10;9532-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O Ministro da Fazenda poderá estabelecer limites e condições para dispensar pessoas físicas da obrigação de apresentar declaração de rendimentos. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:1997-12-10;9532">Lei nº 9.532, de 10.12.1997</span>)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art7_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Fica o Ministro da Fazenda autorizado a prorrogar o prazo para a apresentação da declaração, dentro do exercício financeiro.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art7_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Homologada a partilha ou feita a adjudicação dos bens, deverá ser apresentada pelo inventariante, dentro de trinta dias contados da data em que transitar em julgado a sentença respectiva, declaração dos rendimentos correspondentes ao período de 1º de janeiro até a data da homologação ou adjudicação.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art7_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Se a homologação ou adjudicação ocorrer antes do prazo anualmente fixado para a entrega das declarações de rendimentos, juntamente com a declaração referida no parágrafo anterior deverá ser entregue a declaração dos rendimentos correspondente ao ano-calendário anterior.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    A base de cálculo do imposto devido no ano-calendário será a diferença entre as somas:
+
+  </p>
+            <Inciso id="art8_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    de todos os rendimentos percebidos durante o ano-calendário, exceto os isentos, os não-tributáveis, os tributáveis exclusivamente na fonte e os sujeitos à tributação definitiva;
+
+  </p>
+            
+          </Inciso><Inciso id="art8_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    das deduções relativas:
+
+  </p>
+            <Alinea id="art8_cpt_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    aos pagamentos efetuados, no ano-calendário, a médicos, dentistas, psicólogos, fisioterapeutas, fonoaudiólogos, terapeutas ocupacionais e hospitais, bem como as despesas com exames laboratoriais, serviços radiológicos, aparelhos ortopédicos e próteses ortopédicas e dentárias;
+
+  </p>
+            
+          </Alinea><Alinea id="art8_cpt_inc2_ali2">
+            <!--Link: urn:lex:br:federal:lei:2007-05-31;11482-->
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    a pagamentos de despesas com instrução do contribuinte e de seus dependentes, efetuados a estabelecimentos de ensino, relativamente à educação infantil, compreendendo as creches e as pré-escolas; ao ensino fundamental; ao ensino médio; à educação superior, compreendendo os cursos de graduação e de pós-graduação (mestrado, doutorado e especialização); e à educação profissional, compreendendo o ensino técnico e o tecnológico, até o limite anual individual de: (“Caput” da alínea com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2007-05-31;11482">Lei nº 11.482, de 31.5.2007</span>)
+
+  </p>
+            <Item id="art8_cpt_inc2_ali2_ite1">
+            <!--Link: urn:lex:br:federal:lei:2005-05-25;11119--><!--Link: urn:lex:br:federal:lei:2007-05-31;11482-->
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    R$ 2.480,66 (dois mil, quatrocentos e oitenta reais e sessenta e seis centavos), para o ano-calendário de 2007; (Item acrescido pela <span xlink:href="urn:lex:br:federal:lei:2005-05-25;11119">Lei nº 11.119, de 25.5.2005</span> e com nova redação dada pela <span xlink:href="urn:lex:br:federal:lei:2007-05-31;11482">Lei nº 11.482, de 31.5.2007</span>)
+
+  </p>
+            
+          </Item><Item id="art8_cpt_inc2_ali2_ite2">
+            <!--Link: urn:lex:br:federal:lei:2005-05-25;11119--><!--Link: urn:lex:br:federal:lei:2007-05-31;11482-->
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    R$ 2.592,29 (dois mil, quinhentos e noventa e dois reais e vinte e nove centavos), para o ano-calendário de 2008; (Item acrescido pela <span xlink:href="urn:lex:br:federal:lei:2005-05-25;11119">Lei nº 11.119, de 25.5.2005</span> e com nova redação dada pela <span xlink:href="urn:lex:br:federal:lei:2007-05-31;11482">Lei nº 11.482, de 31.5.2007</span>)
+
+  </p>
+            
+          </Item><Item id="art8_cpt_inc2_ali2_ite3">
+            <!--Link: urn:lex:br:federal:lei:2005-05-25;11119--><!--Link: urn:lex:br:federal:lei:2007-05-31;11482-->
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    R$ 2.708,94 (dois mil, setecentos e oito reais e noventa e quatro centavos), para o ano-calendário de 2009; (Item acrescido pela <span xlink:href="urn:lex:br:federal:lei:2005-05-25;11119">Lei nº 11.119, de 25.5.2005</span> e com nova redação dada pela <span xlink:href="urn:lex:br:federal:lei:2007-05-31;11482">Lei nº 11.482, de 31.5.2007</span>)
+
+  </p>
+            
+          </Item><Item id="art8_cpt_inc2_ali2_ite4">
+            <!--Link: urn:lex:br:federal:lei:2005-05-25;11119--><!--Link: urn:lex:br:federal:medida.provisoria:2011-03-25;528--><!--Link: urn:lex:br:federal:lei:2011-08-26;12469-->
+            
+            <Rotulo>4.</Rotulo>
+            <p>
+    R$ 2.830,84 (dois mil, oitocentos e trinta reais e oitenta e quatro centavos) para o ano-calendário de 2010; (Item acrescido pela <span xlink:href="urn:lex:br:federal:lei:2005-05-25;11119">Lei nº 11.119, de 25.5.2005</span> e com nova redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2011-03-25;528">Medida Provisória nº 528, de 25.3.2011</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2011-08-26;12469">Lei nº 12.469, de 26.8.2011</span>, produzindo efeitos a partir de 1.4.2011)
+
+  </p>
+            
+          </Item><Item id="art8_cpt_inc2_ali2_ite5">
+            <!--Link: urn:lex:br:federal:lei:2005-05-25;11119--><!--Link: urn:lex:br:federal:lei:2007-05-31;11482-->
+            
+            <Rotulo>5.</Rotulo>
+            <p>
+    (Item acrescido pela <span xlink:href="urn:lex:br:federal:lei:2005-05-25;11119">Lei nº 11.119, de 25.5.2005</span> e revogado pela <span xlink:href="urn:lex:br:federal:lei:2007-05-31;11482">Lei nº 11.482, de 31.5.2007</span>)
+
+  </p>
+            
+          </Item><Item id="art8_cpt_inc2_ali2_ite6">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2011-03-25;528--><!--Link: urn:lex:br:federal:lei:2011-08-26;12469-->
+            
+            <Rotulo>6.</Rotulo>
+            <p>
+    R$ 2.958,23 (dois mil, novecentos e cinquenta e oito reais e vinte e três centavos) para o ano-calendário de 2011; (Item acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2011-03-25;528">Medida Provisória nº 528, de 25.3.2011</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2011-08-26;12469">Lei nº 12.469, de 26.8.2011</span>, produzindo efeitos a partir de 1.4.2011)
+
+  </p>
+            
+          </Item><Item id="art8_cpt_inc2_ali2_ite7">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2011-03-25;528--><!--Link: urn:lex:br:federal:lei:2011-08-26;12469-->
+            
+            <Rotulo>7.</Rotulo>
+            <p>
+    R$ 3.091,35 (três mil, noventa e um reais e trinta e cinco centavos) para o ano-calendário de 2012; (Item acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2011-03-25;528">Medida Provisória nº 528, de 25.3.2011</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2011-08-26;12469">Lei nº 12.469, de 26.8.2011</span>, produzindo efeitos a partir de 1.4.2011)
+
+  </p>
+            
+          </Item><Item id="art8_cpt_inc2_ali2_ite8">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2011-03-25;528--><!--Link: urn:lex:br:federal:lei:2011-08-26;12469-->
+            
+            <Rotulo>8.</Rotulo>
+            <p>
+    R$ 3.230,46 (três mil, duzentos e trinta reais e quarenta e seis centavos) para o ano-calendário de 2013; (Item acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2011-03-25;528">Medida Provisória nº 528, de 25.3.2011</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2011-08-26;12469">Lei nº 12.469, de 26.8.2011</span>, produzindo efeitos a partir de 1.4.2011)
+
+  </p>
+            
+          </Item><Item id="art8_cpt_inc2_ali2_ite9">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2011-03-25;528--><!--Link: urn:lex:br:federal:lei:2011-08-26;12469--><!--Link: urn:lex:br:federal:medida.provisoria:2015-03-10;670--><!--Link: urn:lex:br:federal:lei:2015-07-21;13149-->
+            
+            <Rotulo>9.</Rotulo>
+            <p>
+    R$ 3.375,83 (três mil, trezentos e setenta e cinco reais e oitenta e três centavos) para o ano-calendário de 2014; e (Item acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2011-03-25;528">Medida Provisória nº 528, de 25.3.2011</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2011-08-26;12469">Lei nº 12.469, de 26.8.2011</span>, e com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2015-03-10;670">Medida Provisória nº 670, de 10.3.2015</span> , convertida na <span xlink:href="urn:lex:br:federal:lei:2015-07-21;13149">Lei nº 13.149, de 21.7.2015</span>)
+
+  </p>
+            
+          </Item><Item id="art8_cpt_inc2_ali2_ite10">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2015-03-10;670--><!--Link: urn:lex:br:federal:lei:2015-07-21;13149-->
+            
+            <Rotulo>10.</Rotulo>
+            <p>
+    R$ 3.561,50 (três mil, quinhentos e sessenta e um reais e cinquenta centavos), a partir do ano-calendário de 2015; (Item acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2015-03-10;670">Medida Provisória nº 670, de 10.3.2015</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2015-07-21;13149">Lei nº 13.149, de 21.7.2015</span>)
+
+  </p>
+            
+          </Item>
+          </Alinea><Alinea id="art8_cpt_inc2_ali3">
+            <!--Link: urn:lex:br:federal:lei:2007-05-31;11482-->
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    à quantia, por dependente, de: (“Caput” da alínea com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2007-05-31;11482">Lei nº 11.482, de 31.5.2007</span>)
+
+  </p>
+            <Item id="art8_cpt_inc2_ali3_ite1">
+            <!--Link: urn:lex:br:federal:lei:2007-05-31;11482-->
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    R$ 1.584,60 (mil, quinhentos e oitenta e quatro reais e sessenta centavos), para o ano-calendário de 2007; (Item acrescido pela <span xlink:href="urn:lex:br:federal:lei:2007-05-31;11482">Lei nº 11.482, de 31.5.2007</span>)
+
+  </p>
+            
+          </Item><Item id="art8_cpt_inc2_ali3_ite2">
+            <!--Link: urn:lex:br:federal:lei:2007-05-31;11482-->
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    R$ 1.655,88 (mil, seiscentos e cinqüenta e cinco reais e oitenta e oito centavos), para o ano-calendário de 2008; (Item acrescido pela <span xlink:href="urn:lex:br:federal:lei:2007-05-31;11482">Lei nº 11.482, de 31.5.2007</span>)
+
+  </p>
+            
+          </Item><Item id="art8_cpt_inc2_ali3_ite3">
+            <!--Link: urn:lex:br:federal:lei:2007-05-31;11482-->
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    R$ 1.730,40 (mil, setecentos e trinta reais e quarenta centavos), para o ano-calendário de 2009; (Item acrescido pela <span xlink:href="urn:lex:br:federal:lei:2007-05-31;11482">Lei nº 11.482, de 31.5.2007</span>)
+
+  </p>
+            
+          </Item><Item id="art8_cpt_inc2_ali3_ite4">
+            <!--Link: urn:lex:br:federal:lei:2007-05-31;11482--><!--Link: urn:lex:br:federal:medida.provisoria:2011-03-25;528--><!--Link: urn:lex:br:federal:lei:2011-08-26;12469-->
+            
+            <Rotulo>4.</Rotulo>
+            <p>
+    R$ 1.808,28 (mil, oitocentos e oito reais e vinte e oito centavos) para o ano-calendário de 2010; (Item acrescido pela <span xlink:href="urn:lex:br:federal:lei:2007-05-31;11482">Lei nº 11.482, de 31.5.2007</span>, com nova redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2011-03-25;528">Medida Provisória nº 528, de 25.3.2011</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2011-08-26;12469">Lei nº 12.469, de 26.8.2011</span>, produzindo efeitos a partir de 1.4.2011)
+
+  </p>
+            
+          </Item><Item id="art8_cpt_inc2_ali3_ite5">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2011-03-25;528--><!--Link: urn:lex:br:federal:lei:2011-08-26;12469-->
+            
+            <Rotulo>5.</Rotulo>
+            <p>
+    R$ 1.889,64 (mil, oitocentos e oitenta e nove reais e sessenta e quatro centavos) para o ano-calendário de 2011; (Item acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2011-03-25;528">Medida Provisória nº 528, de 25.3.2011</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2011-08-26;12469">Lei nº 12.469, de 26.8.2011</span>, produzindo efeitos a partir de 1.4.2011)
+
+  </p>
+            
+          </Item><Item id="art8_cpt_inc2_ali3_ite6">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2011-03-25;528--><!--Link: urn:lex:br:federal:lei:2011-08-26;12469-->
+            
+            <Rotulo>6.</Rotulo>
+            <p>
+    R$ 1.974,72 (mil, novecentos e setenta e quatro reais e setenta e dois centavos) para o ano-calendário de 2012; (Item acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2011-03-25;528">Medida Provisória nº 528, de 25.3.2011</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2011-08-26;12469">Lei nº 12.469, de 26.8.2011</span>, produzindo efeitos a partir de 1.4.2011)
+
+  </p>
+            
+          </Item><Item id="art8_cpt_inc2_ali3_ite7">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2011-03-25;528--><!--Link: urn:lex:br:federal:lei:2011-08-26;12469-->
+            
+            <Rotulo>7.</Rotulo>
+            <p>
+    R$ 2.063,64 (dois mil, sessenta e três reais e sessenta e quatro centavos) para o ano-calendário de 2013; (Item acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2011-03-25;528">Medida Provisória nº 528, de 25.3.2011</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2011-08-26;12469">Lei nº 12.469, de 26.8.2011</span>, produzindo efeitos a partir de 1.4.2011)
+
+  </p>
+            
+          </Item><Item id="art8_cpt_inc2_ali3_ite8">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2011-03-25;528--><!--Link: urn:lex:br:federal:lei:2011-08-26;12469--><!--Link: urn:lex:br:federal:medida.provisoria:2015-03-10;670--><!--Link: urn:lex:br:federal:lei:2015-07-21;13149-->
+            
+            <Rotulo>8.</Rotulo>
+            <p>
+    R$ 2.156,52 (dois mil, cento e cinquenta e seis reais e cinquenta e dois centavos) para o ano-calendário de 2014; e (Item acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2011-03-25;528">Medida Provisória nº 528, de 25.3.2011</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2011-08-26;12469">Lei nº 12.469, de 26.8.2011</span>, e com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2015-03-10;670">Medida Provisória nº 670, de 10.3.2015</span> , convertida na <span xlink:href="urn:lex:br:federal:lei:2015-07-21;13149">Lei nº 13.149, de 21.7.2015</span>)
+
+  </p>
+            
+          </Item><Item id="art8_cpt_inc2_ali3_ite9">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2015-03-10;670--><!--Link: urn:lex:br:federal:lei:2015-07-21;13149-->
+            
+            <Rotulo>9.</Rotulo>
+            <p>
+    R$ 2.275,08 (dois mil, duzentos e setenta e cinco reais e oito centavos), a partir do ano-calendário de 2015; (Item acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2015-03-10;670">Medida Provisória nº 670, de 10.3.2015</span> , convertida na <span xlink:href="urn:lex:br:federal:lei:2015-07-21;13149">Lei nº 13.149, de 21.7.2015</span>)
+
+  </p>
+            
+          </Item>
+          </Alinea><Alinea id="art8_cpt_inc2_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    às contribuições para a Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios;
+
+  </p>
+            
+          </Alinea><Alinea id="art8_cpt_inc2_ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    às contribuições para as entidades de previdência privada domiciliadas no País, cujo ônus tenha sido do contribuinte, destinadas a custear benefícios complementares assemelhados aos da Previdência Social;
+
+  </p>
+            
+          </Alinea><Alinea id="art8_cpt_inc2_ali6">
+            <!--Link: urn:lex:br:federal:lei:1973-01-11;5869--><!--Link: urn:lex:br:federal:lei:2008-06-23;11727-->
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    às importâncias pagas a título de pensão alimentícia em face das normas do Direito de Família, quando em cumprimento de decisão judicial, inclusive a prestação de alimentos provisionais, de acordo homologado judicialmente, ou de escritura pública a que se refere o art. 1.124-A da <span xlink:href="urn:lex:br:federal:lei:1973-01-11;5869">Lei nº 5.869, de 11 de janeiro de 1973</span> - Código de Processo Civil; (Alínea com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2008-06-23;11727">Lei nº 11.727, de 23.6.2008</span>, produzindo efeitos a partir de 5.1.2007, de acordo com o inciso V do art. 41)
+
+  </p>
+            
+          </Alinea><Alinea id="art8_cpt_inc2_ali7">
+            <!--Link: urn:lex:br:federal:lei:1990-12-27;8134!art6_cpt_inc1--><!--Link: urn:lex:br:federal:lei:1990-12-27;8134!art6_cpt_inc3-->
+            
+            <Rotulo>g)</Rotulo>
+            <p>
+    às despesas escrituradas no Livro Caixa, previstas nos <span xlink:href="urn:lex:br:federal:lei:1990-12-27;8134!art6_cpt_inc1">incisos I</span> a <span xlink:href="urn:lex:br:federal:lei:1990-12-27;8134!art6_cpt_inc3">III do art. 6º da Lei nº 8.134, de 27 de dezembro de 1990</span>, no caso de trabalho não-assalariado, inclusive dos leiloeiros e dos titulares de serviços notariais e de registro.
+
+  </p>
+            
+          </Alinea><Alinea id="art8_cpt_inc2_ali8">
+            <!--Link: urn:lex:br:federal:lei:2011-08-26;12469-->
+            
+            <Rotulo>h)</Rotulo>
+            <p>
+    (VETADO na <span xlink:href="urn:lex:br:federal:lei:2011-08-26;12469">Lei nº 12.469, de 26.8.2011</span>)
+
+  </p>
+            
+          </Alinea><Alinea id="art8_cpt_inc2_ali9">
+            <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art40_par15--><!--Link: urn:lex:br:federal:lei:2013-06-20;12832--><!--Link: urn:lex:br:federal:lei:2022-10-26;14463-->
+            
+            <Rotulo>i)</Rotulo>
+            <p>
+    às contribuições para as entidades fechadas de previdência complementar de que trata o <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art40_par15">§ 15 do art. 40 da Constituição Federal</span>, cujo ônus tenha sido do contribuinte, destinadas a custear benefícios complementares assemelhados aos da Previdência Social. (Alínea acrescida pela <span xlink:href="urn:lex:br:federal:lei:2013-06-20;12832">Lei nº 12.832, de 20.6.2013</span>, com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2022-10-26;14463">Lei nº 14.463, de 26.10.2022</span>)
+
+  </p>
+            
+          </Alinea><Alinea id="art8_cpt_inc2_ali10">
+            <!--Link: urn:lex:br:federal:lei:2015-07-21;13149-->
+            
+            <Rotulo>j)</Rotulo>
+            <p>
+    (VETADO na <span xlink:href="urn:lex:br:federal:lei:2015-07-21;13149">Lei nº 13.149, de 21.7.2015</span>)
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput><Paragrafo id="art8_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A quantia correspondente à parcela isenta dos rendimentos provenientes de aposentadoria e pensão, transferência para a reserva remunerada ou reforma, pagos pela Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios, por qualquer pessoa jurídica de direito público interno, ou por entidade de previdência privada, representada pela soma dos valores mensais computados a partir do mês em que o contribuinte completar sessenta e cinco anos de idade, não integrará a soma de que trata o inciso I.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O disposto na alínea a do inciso II:
+
+  </p>
+            <Inciso id="art8_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    aplica-se, também, aos pagamentos efetuados a empresas domiciliadas no País, destinados à cobertura de despesas com hospitalização, médicas e odontológicas, bem como a entidade que assegurem direito de atendimento ou ressarcimento de despesas da mesma natureza;
+
+  </p>
+            
+          </Inciso><Inciso id="art8_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    restringe-se aos pagamentos efetuados pelo contribuinte, relativos ao próprio tratamento e ao de seus dependentes;
+
+  </p>
+            
+          </Inciso><Inciso id="art8_par2_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    limita-se a pagamentos especificados e comprovados, com indicação do nome, endereço e número de inscrição no Cadastro de Pessoas Físicas - CPF ou no Cadastro Geral de Contribuintes - CGC de quem os recebeu, podendo, na falta de documentação, ser feita indicação do cheque nominativo pelo qual foi efetuado o pagamento;
+
+  </p>
+            
+          </Inciso><Inciso id="art8_par2_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    não se aplica às despesas ressarcidas por entidade de qualquer espécie ou cobertas por contrato de seguro;
+
+  </p>
+            
+          </Inciso><Inciso id="art8_par2_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    no caso de despesas com aparelhos ortopédicos e próteses ortopédicas e dentárias, exige-se a comprovação com receituário médico e nota fiscal em nome do beneficiário.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art8_par3">
+            <!--Link: urn:lex:br:federal:lei:1973-01-11;5869--><!--Link: urn:lex:br:federal:lei:2008-06-23;11727-->
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    As despesas médicas e de educação dos alimentandos, quando realizadas pelo alimentante em virtude de cumprimento de decisão judicial, de acordo homologado judicialmente ou de escritura pública a que se refere o art. 1.124-A da <span xlink:href="urn:lex:br:federal:lei:1973-01-11;5869">Lei nº 5.869, de 11 de janeiro de 1973</span> - Código de Processo Civil, poderão ser deduzidas pelo alimentante na determinação da base de cálculo do imposto de renda na declaração, observado, no caso de despesas de educação, o limite previsto na alínea b do inciso II do caput deste artigo. (Parágrafo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2008-06-23;11727">Lei nº 11.727, de 23.6.2008</span>, produzindo efeitos a partir de 5.1.2007, de acordo com o inciso V do art. 41)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art8_par4">
+            <!--Link: urn:lex:br:federal:lei:2011-08-26;12469-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    (VETADO na <span xlink:href="urn:lex:br:federal:lei:2011-08-26;12469">Lei nº 12.469, de 26.8.2011</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            <!--Link: urn:lex:br:federal:lei:1990-04-12;8023-->
+            
+            
+            <p>
+    O resultado da atividade rural, apurado na forma da <span xlink:href="urn:lex:br:federal:lei:1990-04-12;8023">Lei nº 8.023, de 12 de abril de 1990</span>, com as alterações posteriores, quando positivo, integrará a base de cálculo do imposto definida no artigo anterior.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            <!--Link: urn:lex:br:federal:lei:2007-05-31;11482-->
+            
+            
+            <p>
+    O contribuinte poderá optar por desconto simplificado, que substituirá todas as deduções admitidas na legislação, correspondente à dedução de 20% (vinte por cento) do valor dos rendimentos tributáveis na Declaração de Ajuste Anual, independentemente do montante desses rendimentos, dispensadas a comprovação da despesa e a indicação de sua espécie, limitada a: (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2007-05-31;11482">Lei nº 11.482, de 31.5.2007</span>)
+
+  </p>
+            <Inciso id="art10_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:2007-05-31;11482-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    R$ 11.669,72 (onze mil, seiscentos e sessenta e nove reais e setenta e dois centavos) para o ano-calendário de 2007; (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2007-05-31;11482">Lei nº 11.482, de 31.5.2007</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:2007-05-31;11482-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    R$ 12.194,86 (doze mil, cento e noventa e quatro reais e oitenta e seis centavos) para o ano-calendário de 2008; (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2007-05-31;11482">Lei nº 11.482, de 31.5.2007</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:2007-05-31;11482-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    R$ 12.743,63 (doze mil, setecentos e quarenta e três reais e sessenta e três centavos) para o ano-calendário de 2009; (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2007-05-31;11482">Lei nº 11.482, de 31.5.2007</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc4">
+            <!--Link: urn:lex:br:federal:lei:2007-05-31;11482--><!--Link: urn:lex:br:federal:medida.provisoria:2011-03-25;528--><!--Link: urn:lex:br:federal:lei:2011-08-26;12469-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    R$ 13.317,09 (treze mil, trezentos e dezessete reais e nove centavos) para o ano-calendário de 2010; (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2007-05-31;11482">Lei nº 11.482, de 31.5.2007</span>, com nova redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2011-03-25;528">Medida Provisória nº 528, de 25.3.2011</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2011-08-26;12469">Lei nº 12.469, de 26.8.2011</span>, produzindo efeitos a partir de 1.4.2011)
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc5">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2011-03-25;528--><!--Link: urn:lex:br:federal:lei:2011-08-26;12469-->
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    R$ 13.916,36 (treze mil, novecentos e dezesseis reais e trinta e seis centavos) para o ano-calendário de 2011; (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2011-03-25;528">Medida Provisória nº 528, de 25.3.2011</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2011-08-26;12469">Lei nº 12.469, de 26.8.2011</span>, produzindo efeitos a partir de 1.4.2011)
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc6">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2011-03-25;528--><!--Link: urn:lex:br:federal:lei:2011-08-26;12469-->
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    R$ 14.542,60 (quatorze mil, quinhentos e quarenta e dois reais e sessenta centavos) para o ano-calendário de 2012; (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2011-03-25;528">Medida Provisória nº 528, de 25.3.2011</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2011-08-26;12469">Lei nº 12.469, de 26.8.2011</span>, produzindo efeitos a partir de 1.4.2011)
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc7">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2011-03-25;528--><!--Link: urn:lex:br:federal:lei:2011-08-26;12469-->
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    R$ 15.197,02 (quinze mil, cento e noventa e sete reais e dois centavos) para o ano-calendário de 2013; (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2011-03-25;528">Medida Provisória nº 528, de 25.3.2011</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2011-08-26;12469">Lei nº 12.469, de 26.8.2011</span>, produzindo efeitos a partir de 1.4.2011)
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc8">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2011-03-25;528--><!--Link: urn:lex:br:federal:lei:2011-08-26;12469--><!--Link: urn:lex:br:federal:medida.provisoria:2015-03-10;670--><!--Link: urn:lex:br:federal:lei:2015-07-21;13149-->
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    R$ 15.880,89 (quinze mil, oitocentos e oitenta reais e oitenta e nove centavos) para o ano-calendário de 2014; e (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2011-03-25;528">Medida Provisória nº 528, de 25.3.2011</span>, convertida na <span xlink:href="urn:lex:br:federal:lei:2011-08-26;12469">Lei nº 12.469, de 26.8.2011</span>, e com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2015-03-10;670">Medida Provisória nº 670, de 10.3.2015</span> , convertida na <span xlink:href="urn:lex:br:federal:lei:2015-07-21;13149">Lei nº 13.149, de 21.7.2015</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art10_cpt_inc9">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2015-03-10;670--><!--Link: urn:lex:br:federal:lei:2015-07-21;13149-->
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    R$ 16.754,34 (dezesseis mil, setecentos e cinquenta e quatro reais e trinta e quatro centavos), a partir do ano-calendário de 2015. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2015-03-10;670">Medida Provisória nº 670, de 10.3.2015</span> , convertida na <span xlink:href="urn:lex:br:federal:lei:2015-07-21;13149">Lei nº 13.149, de 21.7.2015</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art10_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O valor deduzido não poderá ser utilizado para comprovação de acréscimo patrimonial, sendo considerado rendimento consumido.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            <p>
+    O imposto de renda devido na declaração será calculado mediante utilização da seguinte tabela:
+
+  </p>
+            <table id="art11_cpt_tab1"><tr><td>BASE DE CÁLCULO EM R$</td><td>ALÍQUOTA%</td><td>PARCELA A DEDUZIR DO IMPOSTO EM R$</td></tr><tr><td>até 10.800,00</td><td>-</td><td>-</td></tr><tr><td>acima de 10.800,00 até 21.600,00</td><td>15</td><td>1.620,00</td></tr><tr><td>acima de 21.600,00</td><td>25</td><td>3.780,00</td></tr></table>
+          </Caput>
+          </Artigo><Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            
+            
+            
+            <p>
+    Do imposto apurado na forma do artigo anterior, poderão ser deduzidos:
+
+  </p>
+            <Inciso id="art12_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:2010-01-20;12213-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    as contribuições feitas aos fundos controlados pelos Conselhos Municipais, Estaduais e Nacional dos Direitos da Criança e do Adolescente e pelos Conselhos Municipais, Estaduais e Nacional do Idoso; (Inciso com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2010-01-20;12213">Lei nº 12.213, de 20.1.2010</span>, produzindo efeitos a partir de 1.1.2011)
+
+  </p>
+            
+          </Inciso><Inciso id="art12_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:1991-12-23;8313!art1-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    as contribuições efetivamente realizadas em favor de projetos culturais, aprovados na forma da regulamentação do Programa Nacional de Apoio à Cultura - PRONAC, instituído pelo <span xlink:href="urn:lex:br:federal:lei:1991-12-23;8313!art1">art. 1º da Lei nº 8.313, de 23 de dezembro de 1991</span>;
+
+  </p>
+            
+          </Inciso><Inciso id="art12_cpt_inc3">
+            <!--Link: urn:lex:br:federal:lei:1993-07-20;8685!art1--><!--Link: urn:lex:br:federal:lei:1993-07-20;8685!art4-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    os investimentos feitos a título de incentivo às atividades audiovisuais, na forma e condições previstas nos <span xlink:href="urn:lex:br:federal:lei:1993-07-20;8685!art1">arts. 1º</span> e <span xlink:href="urn:lex:br:federal:lei:1993-07-20;8685!art4">4º da Lei nº 8.685, de 20 de julho de 1993</span>;
+
+  </p>
+            
+          </Inciso><Inciso id="art12_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Inciso><Inciso id="art12_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    o imposto retido na fonte ou o pago, inclusive a título de recolhimento complementar, correspondente aos rendimentos incluídos na base de cálculo;
+
+  </p>
+            
+          </Inciso><Inciso id="art12_cpt_inc6">
+            <!--Link: urn:lex:br:federal:lei:1965-11-29;4862!art5-->
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    o imposto pago no exterior de acordo com o previsto no <span xlink:href="urn:lex:br:federal:lei:1965-11-29;4862!art5">art. 5º da Lei nº 4.862, de 29 de novembro de 1965</span>;
+
+  </p>
+            
+          </Inciso><Inciso id="art12_cpt_inc7">
+            <!--Link: urn:lex:br:federal:lei:2006-07-19;11324--><!--Link: urn:lex:br:federal:medida.provisoria:2014-10-07;656--><!--Link: urn:lex:br:federal:lei:2015-01-19;13097-->
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    até o exercício de 2019, ano-calendário de 2018, a contribuição patronal paga à Previdência Social pelo empregador doméstico incidente sobre o valor da remuneração do empregado; e (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2006-07-19;11324">Lei nº 11.324, de 19.7.2006</span>, com redação dada pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2014-10-07;656">Medida Provisória nº 656, de 7.10.2014</span> e convertida na <span xlink:href="urn:lex:br:federal:lei:2015-01-19;13097">Lei nº 13.097, de 19.1.2015</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art12_cpt_inc8">
+            <!--Link: urn:lex:br:federal:medida.provisoria:2012-04-03;563--><!--Link: urn:lex:br:federal:lei:2012-09-17;12715-->
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    doações e patrocínios diretamente efetuados por pessoas físicas no âmbito do Programa Nacional de Apoio à Atenção Oncológica - PRONON e do Programa Nacional de Apoio à Atenção da Saúde da Pessoa com Deficiência - PRONAS/PCD, previamente aprovados pelo Ministério da Saúde. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:medida.provisoria:2012-04-03;563">Medida Provisória nº 563, de 3.4.2012</span>, com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2012-09-17;12715">Lei nº 12.715, de 17.9.2012</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art12_cpt_inc9">
+            <!--Link: urn:lex:br:federal:lei:2019-01-04;13800-->
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    (VETADO na <span xlink:href="urn:lex:br:federal:lei:2019-01-04;13800">Lei nº 13.800, de 4.1.2019</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art12_cpt_inc10">
+            <!--Link: urn:lex:br:federal:lei:2019-01-04;13800-->
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    (VETADO na <span xlink:href="urn:lex:br:federal:lei:2019-01-04;13800">Lei nº 13.800, de 4.1.2019</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art12_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A soma das deduções a que se referem os incisos I a IV não poderá reduzir o imposto devido em mais de doze por cento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art12_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art12_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A dedução de que trata o inciso VII do caput deste artigo:
+
+  </p>
+            <Inciso id="art12_par3_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    está limitada:
+
+  </p>
+            <Alinea id="art12_par3_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    a 1 (um) empregado doméstico por declaração, inclusive no caso da declaração em conjunto;
+
+  </p>
+            
+          </Alinea><Alinea id="art12_par3_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    ao valor recolhido no ano-calendário a que se referir a declaração;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art12_par3_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    aplica-se somente ao modelo completo de Declaração de Ajuste Anual;
+
+  </p>
+            
+          </Inciso><Inciso id="art12_par3_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    não poderá exceder:
+
+  </p>
+            <Alinea id="art12_par3_inc3_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    ao valor da contribuição patronal calculada sobre 1 (um) salário mínimo mensal, sobre o 13º (décimo terceiro) salário e sobre a remuneração adicional de férias, referidos também a 1 (um) salário mínimo;
+
+  </p>
+            
+          </Alinea><Alinea id="art12_par3_inc3_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    ao valor do imposto apurado na forma do art. 11 desta Lei, deduzidos os valores de que tratam os incisos I a III do caput deste artigo;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art12_par3_inc4">
+            <!--Link: urn:lex:br:federal:lei:2006-07-19;11324-->
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    fica condicionada à comprovação da regularidade do empregador doméstico perante o regime geral de previdência social quando se tratar de contribuinte individual. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2006-07-19;11324">Lei nº 11.324, de 19.7.2006</span>)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>
+    O montante determinado na forma do artigo anterior constituirá, se positivo, saldo do imposto a pagar e, se negativo, valor a ser restituído.
+
+  </p>
+            
+          </Caput><Paragrafo id="art13_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Quando positivo, o saldo do imposto deverá ser pago até o último dia útil do mês fixado para a entrega da declaração de rendimentos.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            <!--Link: urn:lex:br:federal:lei:2006-06-13;11311-->
+            
+            
+            <p>
+    À opção do contribuinte, o saldo do imposto a pagar poderá ser parcelado em até 8 (oito) quotas iguais, mensais e sucessivas, observado o seguinte: (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2006-06-13;11311">Lei nº 11.311, de 13.6.2006</span>)
+
+  </p>
+            <Inciso id="art14_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    nenhuma quota será inferior a R$ 50,00 (cinqüenta reais), e o imposto de valor inferior a R$ 100,00 (cem reais) será pago de uma só vez;
+
+  </p>
+            
+          </Inciso><Inciso id="art14_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a primeira quota deverá ser paga no mês fixado para a entrega da declaração de rendimentos;
+
+  </p>
+            
+          </Inciso><Inciso id="art14_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    as demais quotas, acrescidas de juros equivalentes à taxa referencial do Sistema Especial de Liquidação e de Custódia - SELIC para títulos federais, acumulada mensalmente, calculados a partir da data prevista para a entrega da declaração de rendimentos até o mês anterior ao do pagamento e de 1% no mês do pagamento, vencerão no último dia útil de cada mês.
+
+  </p>
+            
+          </Inciso><Inciso id="art14_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    é facultado ao contribuinte antecipar, total ou parcialmente, o pagamento do imposto ou das quotas.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            <!--Link: urn:lex:br:federal:lei:2006-06-13;11311-->
+            
+            
+            <p>
+    Nos casos de encerramento de espólio e de saída definitiva do território nacional, o imposto de renda devido será calculado mediante a utilização dos valores correspondentes à soma das tabelas progressivas mensais relativas aos meses do período abrangido pela tributação no ano-calendário. (Artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2006-06-13;11311">Lei nº 11.311, de 13.6.2006</span>)
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            
+            
+            
+            <p>
+    O valor da restituição do imposto de renda da pessoa física, apurado em declaração de rendimentos, será acrescido de juros equivalentes à taxa referencial do Sistema Especial de Liquidação e de Custódia - SELIC para títulos federais, acumulada mensalmente, calculados a partir da data prevista para a entrega da declaração de rendimentos até o mês anterior ao da liberação da restituição e de 1% no mês em que o recurso for colocado no banco à disposição do contribuinte.
+
+  </p>
+            
+          </Caput><Paragrafo id="art16_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Será obedecida a seguinte ordem de prioridade para recebimento da restituição do imposto de renda:
+
+  </p>
+            <Inciso id="art16_par1u_inc1">
+            <!--Link: urn:lex:br:federal:lei:2003-10-01;10741!art3_par1_inc9-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    idosos, nos termos definidos pelo <span xlink:href="urn:lex:br:federal:lei:2003-10-01;10741!art3_par1_inc9">inciso IX do § 1º do art. 3º da Lei nº 10.741, de 1º de outubro de 2003</span>;
+
+  </p>
+            
+          </Inciso><Inciso id="art16_par1u_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    contribuintes cuja maior fonte de renda seja o magistério;
+
+  </p>
+            
+          </Inciso><Inciso id="art16_par1u_inc3">
+            <!--Link: urn:lex:br:federal:lei:2017-10-26;13498-->
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    demais contribuintes. (Parágrafo único acrescido pela <span xlink:href="urn:lex:br:federal:lei:2017-10-26;13498">Lei nº 13.498, de 26.10.2017</span>, publicada no DOU de 27.10.2017, em vigor no 1º dia do ano seguinte ao de sua publicação)
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap4">
+            
+            
+            <Rotulo>CAPÍTULO IV</Rotulo>
+            <NomeAgrupador>
+    TRIBUTAÇÃO DA ATIVIDADE RURAL
+
+  </NomeAgrupador>
+            <Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            <!--Link: urn:lex:br:federal:lei:1990-04-12;8023!art2-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1990-04-12;8023!art2">art. 2º da Lei nº 8.023, de 12 de abril de 1990</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1990-04-12;8023" id="art17_cpt_alt1">              
+              <Artigo xlink:href="art2" id="art17_cpt_alt1_art2" abreAspas="s">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput xlink:href="art2_cpt" id="art17_cpt_alt1_art2_cpt" textoOmitido="s">
+            
+            
+            
+            
+            <Omissis id="art17_cpt_alt1_art2_cpt_omi1"/><Inciso xlink:href="art2_cpt_inc5" id="art17_cpt_alt1_art2_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    a transformação de produtos decorrentes da atividade rural, sem que sejam alteradas a composição e as características do produto in natura, feita pelo próprio agricultor ou criador, com equipamentos e utensílios usualmente empregados nas atividades rurais, utilizando exclusivamente matéria-prima produzida na área rural explorada, tais como a pasteurização e o acondicionamento do leite, assim como o mel e o suco de laranja, acondicionados em embalagem de apresentação.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo xlink:href="art2_par1u" id="art17_cpt_alt1_art2_par1u" fechaAspas="s">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O disposto neste artigo não se aplica à mera intermediação de animais e de produtos agrícolas.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            
+            
+            
+            <p>
+    O resultado da exploração da atividade rural apurado pelas pessoas físicas, a partir do ano-calendário de 1996, será apurado mediante escrituração do Livro Caixa, que deverá abranger as receitas, as despesas de custeio, os investimentos e demais valores que integram a atividade.
+
+  </p>
+            
+          </Caput><Paragrafo id="art18_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O contribuinte deverá comprovar a veracidade das receitas e das despesas escrituradas no Livro Caixa, mediante documentação idônea que identifique o adquirente ou beneficiário, o valor e a data da operação, a qual será mantida em seu poder à disposição da fiscalização, enquanto não ocorrer a decadência ou prescrição.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art18_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A falta da escrituração prevista neste artigo implicará arbitramento da base de cálculo à razão de vinte por cento da receita bruta do ano-calendário.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art18_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Aos contribuintes que tenham auferido receitas anuais até o valor de R$ 56.000,00 (cinqüenta e seis mil reais) faculta-se apurar o resultado da exploração da atividade rural, mediante prova documental, dispensado o registro do Livro Caixa.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            
+            
+            
+            <p>
+    O resultado positivo obtido na exploração da atividade rural pela pessoa física poderá ser compensado com prejuízos apurados em anos-calendário anteriores.
+
+  </p>
+            
+          </Caput><Paragrafo id="art19_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A pessoa física fica obrigada à conservação e guarda do Livro Caixa e dos documentos fiscais que demonstram a apuração do prejuízo a compensar.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            
+            
+            
+            <p>
+    O resultado decorrente da atividade rural, exercida no Brasil por residente ou domiciliado no exterior, apurado por ocasião do encerramento do ano-calendário, constituirá a base de cálculo do imposto e será tributado à alíquota de quinze por cento.
+
+  </p>
+            
+          </Caput><Paragrafo id="art20_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Na hipótese de que trata este artigo, a apuração do resultado deverá ser feita por procurador, a quem compete reter e recolher o imposto devido, não sendo permitidas a opção pelo arbitramento de vinte por cento da receita bruta e a compensação de prejuízos apurados.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art20_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O imposto apurado deverá ser pago na data da ocorrência do fato gerador.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art20_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Ocorrendo remessa de lucros antes do encerramento do ano-calendário, o imposto deverá ser recolhido no ato sobre o valor remetido por ocasião do evento, exceto no caso de devolução de capital.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            
+            
+            
+            <p>
+    O resultado da atividade rural exercida no exterior, por residentes e domiciliados no Brasil, convertido em reais mediante utilização do valor do dólar dos Estados Unidos da América fixado para compra pelo Banco Central do Brasil, para o último dia do ano-calendário a que se refere o resultado, sujeita-se ao mesmo tratamento tributário previsto no art. 9º, vedada a compensação de resultado positivo obtido no exterior, com resultado negativo obtido no País.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap5">
+            
+            
+            <Rotulo>CAPÍTULO V</Rotulo>
+            <NomeAgrupador>
+    TRIBUTAÇÃO DOS GANHOS DE CAPITAL DAS PESSOAS FÍSICAS
+
+  </NomeAgrupador>
+            <Artigo id="art22">
+            
+            
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            <!--Link: urn:lex:br:federal:lei:2005-11-21;11196-->
+            
+            
+            <p>
+    Fica isento do imposto de renda o ganho de capital auferido na alienação de bens e direitos de pequeno valor, cujo preço unitário de alienação, no mês em que esta se realizar, seja igual ou inferior a: (“Caput” do artigo com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2005-11-21;11196">Lei nº 11.196, de 21.11.2005</span>)
+
+  </p>
+            <Inciso id="art22_cpt_inc1">
+            <!--Link: urn:lex:br:federal:lei:2005-11-21;11196-->
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    R$ 20.000,00 (vinte mil reais), no caso de alienação de ações negociadas no mercado de balcão; (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2005-11-21;11196">Lei nº 11.196, de 21.11.2005</span>)
+
+  </p>
+            
+          </Inciso><Inciso id="art22_cpt_inc2">
+            <!--Link: urn:lex:br:federal:lei:2005-11-21;11196-->
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    R$ 35.000,00 (trinta e cinco mil reais), nos demais casos. (Inciso acrescido pela <span xlink:href="urn:lex:br:federal:lei:2005-11-21;11196">Lei nº 11.196, de 21.11.2005</span>)
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art22_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    No caso de alienação de diversos bens ou direitos da mesma natureza, será considerado, para os efeitos deste artigo, o valor do conjunto dos bens alienados no mês.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art23">
+            
+            
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            
+            
+            
+            <p>
+    Fica isento do imposto de renda o ganho de capital auferido na alienação do único imóvel que o titular possua, cujo valor de alienação seja de até R$ 440.000,00 (quatrocentos e quarenta mil reais), desde que não tenha sido realizada qualquer outra alienação nos últimos cinco anos.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art24">
+            
+            
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput id="art24_cpt">
+            
+            
+            
+            <p>
+    Na apuração do ganho de capital de bens adquiridos por meio de arrendamento mercantil, será considerado custo de aquisição o valor residual do bem acrescido dos valores pagos a título de arrendamento.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap6">
+            
+            
+            <Rotulo>CAPÍTULO VI</Rotulo>
+            <NomeAgrupador>
+    DA DECLARAÇÃO DE BENS E DIREITOS
+
+  </NomeAgrupador>
+            <Artigo id="art25">
+            
+            
+            <Rotulo>Art. 25.</Rotulo>
+            
+            <Caput id="art25_cpt">
+            
+            
+            
+            <p>
+    Como parte integrante da declaração de rendimentos, a pessoa física apresentará relação pormenorizada dos bens imóveis e móveis e direitos que, no País ou no exterior, constituam o seu patrimônio e o de seus dependentes, em 31 de dezembro do ano-calendário, bem como os bens e direitos adquiridos e alienados no mesmo ano.
+
+  </p>
+            
+          </Caput><Paragrafo id="art25_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Devem ser declarados:
+
+  </p>
+            <Inciso id="art25_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    os bens imóveis, os veículos automotores, as embarcações e as aeronaves, independentemente do valor de aquisição;
+
+  </p>
+            
+          </Inciso><Inciso id="art25_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    os demais bens móveis, tais como antigüidades, obras de arte, objetos de uso pessoal e utensílios, adquiridos a partir do ano-calendário de 1996, cujo valor de aquisição unitário seja igual ou superior a R$ 5.000,00 (cinco mil reais);
+
+  </p>
+            
+          </Inciso><Inciso id="art25_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    os saldos de aplicações financeiras e de conta corrente bancária cujo valor individual, em 31 de dezembro do ano-calendário, exceda a R$ 140,00 (cento e quarenta reais);
+
+  </p>
+            
+          </Inciso><Inciso id="art25_par1_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    os investimentos em participações societárias, em ações negociadas ou não em bolsa de valores e em ouro, ativo-financeiro, adquiridos a partir do ano-calendário de 1996, cujo valor de aquisição unitário seja igual ou superior a R$ 1.000,00 (um mil reais).
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art25_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os bens serão declarados discriminadamente pelos valores de aquisição em Reais, constantes dos respectivos instrumentos de transferência de propriedade ou da nota fiscal.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art25_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Os bens existentes no exterior devem ser declarados pelos valores de aquisição constantes dos respectivos instrumentos de transferência de propriedade, segundo a moeda do país em que estiverem situados, convertidos em Reais pela cotação cambial de venda do dia da transmissão da propriedade.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art25_par4">
+            <!--Link: urn:lex:br:federal:lei:2023-12-12;14754-->
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    (Revogado pela <span xlink:href="urn:lex:br:federal:lei:2023-12-12;14754">Lei nº 14.754, de 12.12.2023</span>, produzindo efeitos a partir de 1º/1/2024)
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art25_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Na declaração de bens e direitos, também deverão ser consignados os ônus reais e obrigações da pessoa física e de seus dependentes, em 31 de dezembro do ano-calendário, cujo valor seja superior a R$ 5.000,00 (cinco mil reais).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art25_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    O disposto nos incisos II e IV do § 1º poderá ser observado na declaração de bens referente ao ano-calendário de 1995, com relação aos bens móveis e aos investimentos adquiridos anteriormente a 1996.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap7">
+            
+            
+            <Rotulo>CAPÍTULO VII</Rotulo>
+            <NomeAgrupador>
+    DISPOSIÇÕES GERAIS
+
+  </NomeAgrupador>
+            <Artigo id="art26">
+            
+            
+            <Rotulo>Art. 26.</Rotulo>
+            
+            <Caput id="art26_cpt">
+            
+            
+            
+            <p>
+    Ficam isentas do imposto de renda as bolsas de estudo e de pesquisa caracterizadas como doação, quando recebidas exclusivamente para proceder a estudos ou pesquisas e desde que os resultados dessas atividades não representem vantagem para o doador, nem importem contraprestação de serviços.
+
+  </p>
+            
+          </Caput><Paragrafo id="art26_par1u">
+            <!--Link: urn:lex:br:federal:lei:2011-10-26;12513!art9_par1--><!--Link: urn:lex:br:federal:lei:2011-10-28;12514--><!--Link: urn:lex:br:federal:lei:2013-06-05;12816-->
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Não caracterizam contraprestação de serviços nem vantagem para o doador, para efeito da isenção referida no caput, as bolsas de estudo recebidas pelos médicos residentes, nem as bolsas recebidas pelos servidores das redes públicas de educação profissional, científica e tecnológica que participem das atividades do Pronatec, nos termos do <span xlink:href="urn:lex:br:federal:lei:2011-10-26;12513!art9_par1">§ 1º do art. 9º da Lei nº 12.513, de 26 de outubro de 2011</span>. (Parágrafo único acrescido pela <span xlink:href="urn:lex:br:federal:lei:2011-10-28;12514">Lei nº 12.514, de 28.10.2011</span>, com redação dada pela <span xlink:href="urn:lex:br:federal:lei:2013-06-05;12816">Lei nº 12.816, de 5.6.2013</span>)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art27">
+            
+            
+            <Rotulo>Art. 27.</Rotulo>
+            
+            <Caput id="art27_cpt">
+            <!--Link: urn:lex:br:federal:lei:1992-12-23;8541!art48-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1992-12-23;8541!art48">art. 48 da Lei nº 8.541, de 23 de dezembro de 1992</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1992-12-23;8541" id="art27_cpt_alt1">              
+              <Artigo xlink:href="art48" id="art27_cpt_alt1_art48" abreAspas="s">
+            
+            
+            <Rotulo>Art. 48.</Rotulo>
+            
+            <Caput xlink:href="art48_cpt" id="art27_cpt_alt1_art48_cpt" fechaAspas="s">
+            
+            
+            
+            <p>
+    Ficam isentos do imposto de renda os rendimentos percebidos pelas pessoas físicas decorrentes de seguro-desemprego, auxílio-natalidade, auxílio-doença, auxílio-funeral e auxílio-acidente, pagos pela previdência oficial da União, dos Estados, do Distrito Federal e dos Municípios e pelas entidades de previdência privada.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art28">
+            
+            
+            <Rotulo>Art. 28.</Rotulo>
+            
+            <Caput id="art28_cpt">
+            <!--Link: urn:lex:br:federal:lei:1988-12-22;7713!art6_cpt_inc15-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1988-12-22;7713!art6_cpt_inc15">inciso XV do art. 6º da Lei 7.713, de 22 de dezembro de 1988</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1988-12-22;7713" id="art28_cpt_alt1">              
+              <Artigo xlink:href="art6" id="art28_cpt_alt1_art6" abreAspas="s">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput xlink:href="art6_cpt" id="art28_cpt_alt1_art6_cpt" textoOmitido="s">
+            
+            
+            
+            
+            <Omissis id="art28_cpt_alt1_art6_cpt_omi1"/><Inciso xlink:href="art6_cpt_inc15" id="art28_cpt_alt1_art6_cpt_inc15" fechaAspas="s">
+            
+            
+            <Rotulo>XV –</Rotulo>
+            <p>
+    os rendimentos provenientes de aposentadoria e pensão, transferência para a reserva remunerada ou reforma, pagos pela Previdência Social da União, dos Estados, do Distrito Federal e dos Municípios, por qualquer pessoa jurídica de direito público interno, ou por entidade de previdência privada, até o valor de R$ 900,00 (novecentos reais), por mês, a partir do mês em que o contribuinte completar sessenta e cinco anos de idade, sem prejuízo da parcela isenta prevista na tabela de incidência mensal do imposto.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art29">
+            
+            
+            <Rotulo>Art. 29.</Rotulo>
+            
+            <Caput id="art29_cpt">
+            
+            
+            
+            <p>
+    Estão isentos do imposto de renda na fonte os rendimentos pagos a pessoa física, residente ou domiciliada no exterior, por autarquias ou repartições do Governo brasileiro situadas fora do território nacional e que correspondam a serviços prestados a esses órgãos.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art30">
+            
+            
+            <Rotulo>Art. 30.</Rotulo>
+            
+            <Caput id="art30_cpt">
+            <!--Link: urn:lex:br:federal:lei:1988-12-22;7713!art6_cpt_inc14--><!--Link: urn:lex:br:federal:lei:1988-12-22;7713!art6_cpt_inc21--><!--Link: urn:lex:br:federal:lei:1992-12-23;8541!art47-->
+            
+            
+            <p>
+    A partir de 1º de janeiro de 1996, para efeito do reconhecimento de novas isenções de que tratam os <span xlink:href="urn:lex:br:federal:lei:1988-12-22;7713!art6_cpt_inc14">incisos XIV</span> e <span xlink:href="urn:lex:br:federal:lei:1988-12-22;7713!art6_cpt_inc21">XXI do art. 6º da Lei nº 7.713, de 22 de dezembro de 1988</span>, com a redação dada pelo <span xlink:href="urn:lex:br:federal:lei:1992-12-23;8541!art47">art. 47 da Lei nº 8.541, de 23 de dezembro de 1992</span>, a moléstia deverá ser comprovada mediante laudo pericial emitido pelo serviço médico oficial, da União, dos Estados, do Distrito Federal e dos Municípios.
+
+  </p>
+            
+          </Caput><Paragrafo id="art30_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O serviço médico oficial fixará o prazo de validade do laudo pericial, no caso de moléstias passíveis de controle.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art30_par2">
+            <!--Link: urn:lex:br:federal:lei:1988-12-22;7713!art6_cpt_inc14--><!--Link: urn:lex:br:federal:lei:1992-12-23;8541!art47-->
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Na relação das moléstias a que se refere o <span xlink:href="urn:lex:br:federal:lei:1988-12-22;7713!art6_cpt_inc14">inciso XIV do art. 6º da Lei nº 7.713, de 22 de dezembro de 1988</span>, com a redação dada pelo <span xlink:href="urn:lex:br:federal:lei:1992-12-23;8541!art47">art. 47 da Lei nº 8.541, de 23 de dezembro de 1992</span>, fica incluída a fibrose cística (mucoviscidose).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art31">
+            
+            
+            <Rotulo>Art. 31.</Rotulo>
+            
+            <Caput id="art31_cpt">
+            
+            
+            
+            <p>
+    (VETADO).
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art32">
+            
+            
+            <Rotulo>Art. 32.</Rotulo>
+            
+            <Caput id="art32_cpt">
+            <!--Link: urn:lex:br:federal:lei:1988-12-22;7713!art6_cpt_inc7-->
+            
+            
+            <p>
+    O <span xlink:href="urn:lex:br:federal:lei:1988-12-22;7713!art6_cpt_inc7">inciso VII do art. 6º da Lei 7.713, de 22 de dezembro de 1988</span>, passa a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1988-12-22;7713" id="art32_cpt_alt1">              
+              <Artigo xlink:href="art6" id="art32_cpt_alt1_art6" abreAspas="s">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput xlink:href="art6_cpt" id="art32_cpt_alt1_art6_cpt" textoOmitido="s">
+            
+            
+            
+            
+            <Omissis id="art32_cpt_alt1_art6_cpt_omi1"/><Inciso xlink:href="art6_cpt_inc7" id="art32_cpt_alt1_art6_cpt_inc7" fechaAspas="s">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    os seguros recebidos de entidades de previdência privada decorrentes de morte ou invalidez permanente do participante.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art33">
+            
+            
+            <Rotulo>Art. 33.</Rotulo>
+            
+            <Caput id="art33_cpt">
+            
+            
+            
+            <p>
+    Sujeitam-se à incidência do imposto de renda na fonte e na declaração de ajuste anual os benefícios recebidos de entidade de previdência privada, bem como as importâncias correspondentes ao resgate de contribuições.
+
+  </p>
+            
+          </Caput><Paragrafo id="art33_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    (VETADO)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art34">
+            
+            
+            <Rotulo>Art. 34.</Rotulo>
+            
+            <Caput id="art34_cpt">
+            <!--Link: urn:lex:br:federal:lei:1990-12-27;8134!art6_par1_ali1--><!--Link: urn:lex:br:federal:lei:1990-12-27;8134!art6_par1_ali2-->
+            
+            
+            <p>
+    As <span xlink:href="urn:lex:br:federal:lei:1990-12-27;8134!art6_par1_ali1">alíneas &quot;a&quot;</span> e <span xlink:href="urn:lex:br:federal:lei:1990-12-27;8134!art6_par1_ali2">&quot;b&quot; do § 1º do art. 6º da Lei nº 8.134, de 27 de dezembro de 1990</span>, passam a vigorar com a seguinte redação:
+
+  </p>
+            <Alteracao xml:base="urn:lex:br:federal:lei:1990-12-27;8134" id="art34_cpt_alt1">              
+              <Artigo xlink:href="art6" id="art34_cpt_alt1_art6" abreAspas="s">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput xlink:href="art6_cpt" id="art34_cpt_alt1_art6_cpt" textoOmitido="s">
+            
+            
+            
+            
+            
+          </Caput><Omissis id="art34_cpt_alt1_art6_omi1"/><Paragrafo xlink:href="art6_par1" id="art34_cpt_alt1_art6_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O disposto neste artigo não se aplica:
+
+  </p>
+            <Alinea xlink:href="art6_par1_ali1" id="art34_cpt_alt1_art6_par1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    a quotas de depreciação de instalações, máquinas e equipamentos, bem como a despesas de arrendamento;
+
+  </p>
+            
+          </Alinea><Alinea xlink:href="art6_par1_ali2" id="art34_cpt_alt1_art6_par1_ali2" fechaAspas="s">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    a despesas de locomoção e transporte, salvo no caso de representante comercial autônomo.
+
+  </p>
+            
+          </Alinea>
+          </Paragrafo>
+          </Artigo>
+            </Alteracao>
+          </Caput>
+          </Artigo><Artigo id="art35">
+            
+            
+            <Rotulo>Art. 35.</Rotulo>
+            
+            <Caput id="art35_cpt">
+            
+            
+            
+            <p>
+    Para efeito do disposto nos arts. 4º, inciso III, e 8, inciso II, alínea c, poderão ser considerados como dependentes:
+
+  </p>
+            <Inciso id="art35_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o cônjuge;
+
+  </p>
+            
+          </Inciso><Inciso id="art35_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o companheiro ou a companheira, desde que haja vida em comum por mais de cinco anos, ou por período menor se da união resultou filho;
+
+  </p>
+            
+          </Inciso><Inciso id="art35_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    a filha, o filho, a enteada ou o enteado, até 21 anos, ou de qualquer idade quando incapacitado física ou mentalmente para o trabalho; (Vide ADI nº 5.583/2016)
+
+  </p>
+            
+          </Inciso><Inciso id="art35_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    o menor pobre, até 21 anos, que o contribuinte crie e eduque e do qual detenha a guarda judicial;
+
+  </p>
+            
+          </Inciso><Inciso id="art35_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    o irmão, o neto ou o bisneto, sem arrimo dos pais, até 21 anos, desde que o contribuinte detenha a guarda judicial, ou de qualquer idade quando incapacitado física ou mentalmente para o trabalho; (Vide ADI nº 5.583/2016)
+
+  </p>
+            
+          </Inciso><Inciso id="art35_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    os pais, os avós ou os bisavós, desde que não aufiram rendimentos, tributáveis ou não, superiores ao limite de isenção mensal;
+
+  </p>
+            
+          </Inciso><Inciso id="art35_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    o absolutamente incapaz, do qual o contribuinte seja tutor ou curador.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art35_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os dependentes a que se referem os incisos III e V deste artigo poderão ser assim considerados quando maiores até 24 anos de idade, se ainda estiverem cursando estabelecimento de ensino superior ou escola técnica de segundo grau.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art35_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os dependentes comuns poderão, opcionalmente, ser considerados por qualquer um dos cônjuges;
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art35_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    No caso de filhos de pais separados, poderão ser considerados dependentes os que ficarem sob a guarda do contribuinte, em cumprimento de decisão judicial ou acordo homologado judicialmente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art35_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    É vedada a dedução concomitante do montante referente a um mesmo dependente, na determinação da base de cálculo do imposto, por mais de um contribuinte.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art35_par5">
+            <!--Link: urn:lex:br:federal:lei:2003-10-01;10741!art3_par1u_inc9--><!--Link: urn:lex:br:federal:lei:2015-07-06;13146-->
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Sem prejuízo do disposto no <span xlink:href="urn:lex:br:federal:lei:2003-10-01;10741!art3_par1u_inc9">inciso IX do parágrafo único do art. 3º da Lei nº 10.741, de 1º de outubro de 2003</span>, a pessoa com deficiência, ou o contribuinte que tenha dependente nessa condição, tem preferência na restituição referida no inciso III do art. 4º e na alínea &quot;c&quot; do inciso II do art. 8º. (Parágrafo acrescido pela <span xlink:href="urn:lex:br:federal:lei:2015-07-06;13146">Lei nº 13.146, de 6.7.2015</span>, publicada no DOU de 7.7.2015, em vigor 180 dias após sua publicação)
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap8">
+            
+            
+            <Rotulo>CAPÍTULO VIII</Rotulo>
+            <NomeAgrupador>
+    DISPOSIÇÕES FINAIS E TRANSITÓRIAS
+
+  </NomeAgrupador>
+            <Artigo id="art36">
+            
+            
+            <Rotulo>Art. 36.</Rotulo>
+            
+            <Caput id="art36_cpt">
+            
+            
+            
+            <p>
+    O contribuinte que no ano-calendário de 1995 tiver auferido rendimentos tributáveis até o limite de R$ 21.458,00 (vinte e um mil, quatrocentos e cinqüenta e oito reais) poderá optar pelo regime de tributação simplificada de que trata o art. 10.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art37">
+            
+            
+            <Rotulo>Art. 37.</Rotulo>
+            
+            <Caput id="art37_cpt">
+            
+            
+            
+            <p>
+    Fica a Secretaria da Receita Federal autorizada a:
+
+  </p>
+            <Inciso id="art37_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    instituir modelo de documento fiscal a ser emitido por profissionais liberais;
+
+  </p>
+            
+          </Inciso><Inciso id="art37_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    celebrar, em nome da União, convênio com os Estados, Distrito Federal e Municípios, objetivando instituir cadastro único de contribuintes, em substituição aos cadastros federal, estaduais e municipais.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art38">
+            
+            
+            <Rotulo>Art. 38.</Rotulo>
+            
+            <Caput id="art38_cpt">
+            
+            
+            
+            <p>
+    Os processos fiscais relativos a tributos e contribuições federais e a penalidades isoladas e as declarações não poderão sair dos órgãos da Secretaria da Receita Federal, salvo quando se tratar de:
+
+  </p>
+            <Inciso id="art38_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    encaminhamento de recursos à instância superior;
+
+  </p>
+            
+          </Inciso><Inciso id="art38_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    restituições de autos aos órgãos de origem;
+
+  </p>
+            
+          </Inciso><Inciso id="art38_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    encaminhamento de documentos para fins de processamento de dados.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art38_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Nos casos a que se referem os incisos I e II deverá ficar cópia autenticada dos documentos essenciais na repartição.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art38_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    É facultado o fornecimento de cópia do processo ao sujeito passivo ou a seu mandatário.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art39">
+            
+            
+            <Rotulo>Art. 39.</Rotulo>
+            
+            <Caput id="art39_cpt">
+            <!--Link: urn:lex:br:federal:lei:1991-12-30;8383!art66--><!--Link: urn:lex:br:federal:lei:1995-06-29;9069!art58-->
+            
+            
+            <p>
+    A compensação de que trata o <span xlink:href="urn:lex:br:federal:lei:1991-12-30;8383!art66">art. 66 da Lei nº 8.383, de 30 de dezembro de 1991</span>, com a redação dada pelo <span xlink:href="urn:lex:br:federal:lei:1995-06-29;9069!art58">art. 58 da Lei nº 9.069, de 29 de junho de 1995</span>, somente poderá ser efetuada com o recolhimento de importância correspondente a imposto, taxa, contribuição federal ou receitas patrimoniais de mesma espécie e destinação constitucional, apurado em períodos subseqüentes.
+
+  </p>
+            
+          </Caput><Paragrafo id="art39_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    (VETADO).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art39_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    (VETADO).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art39_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    (VETADO).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art39_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    A partir de 1º de janeiro de 1996, a compensação ou restituição será acrescida de juros equivalentes à taxa referencial do Sistema Especial de Liquidação e de Custódia - SELIC para títulos federais, acumulada mensalmente, calculados a partir da data do pagamento indevido ou a maior até o mês anterior ao da compensação ou restituição e de 1% relativamente ao mês em que estiver sendo efetuada.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art40">
+            
+            
+            <Rotulo>Art. 40.</Rotulo>
+            
+            <Caput id="art40_cpt">
+            <!--Link: urn:lex:br:federal:lei:1995-01-20;8981-->
+            
+            
+            <p>
+    A base de cálculo mensal do imposto de renda das pessoas jurídicas prestadoras de serviços em geral, cuja receita bruta anual seja de até R$ 120.000,00 (cento e vinte mil reais), será determinada mediante a aplicação do percentual de 16% sobre a receita bruta auferida mensalmente, observado o disposto nos arts. 30 a 35 da <span xlink:href="urn:lex:br:federal:lei:1995-01-20;8981">Lei nº 8.981, de 20 de janeiro de 1995</span>.
+
+  </p>
+            
+          </Caput><Paragrafo id="art40_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O disposto neste artigo não se aplica às pessoas jurídicas que prestam serviços hospitalares e de transporte, bem como às sociedades prestadoras de serviços de profissões legalmente regulamentadas.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art41">
+            
+            
+            <Rotulo>Art. 41.</Rotulo>
+            
+            <Caput id="art41_cpt">
+            
+            
+            
+            <p>
+    Esta Lei entra em vigor na data de sua publicação.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art42">
+            
+            
+            <Rotulo>Art. 42.</Rotulo>
+            
+            <Caput id="art42_cpt">
+            <!--Link: urn:lex:br:federal:decreto.lei:1974-12-23;1380--><!--Link: urn:lex:br:federal:lei:1988-12-22;7713!art27--><!--Link: urn:lex:br:federal:lei:1991-08-29;8218!art26--><!--Link: urn:lex:br:federal:lei:1995-01-20;8981-->
+            
+            
+            <p>
+    Revogam-se as disposições em contrário e, especialmente, o <span xlink:href="urn:lex:br:federal:decreto.lei:1974-12-23;1380">Decreto-Lei nº 1.380, de 23 de dezembro de 1974</span>, o <span xlink:href="urn:lex:br:federal:lei:1988-12-22;7713!art27">art. 27 da Lei nº 7.713, de 22 de dezembro de 1988</span>, o <span xlink:href="urn:lex:br:federal:lei:1991-08-29;8218!art26">art. 26 da Lei nº 8.218, de 29 de agosto de 1991</span>, e os arts. 8º a 20 e 23 da <span xlink:href="urn:lex:br:federal:lei:1995-01-20;8981">Lei nº 8.981, de 20 de janeiro de 1995</span>.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 26 de dezembro de 1995; 174º da Independência e 107º da República.</p></LocalDataFecho><Assinatura><NomePessoa>FERNANDO HENRIQUE CARDOSO</NomePessoa><NomePessoa>Pedro Pullen Parente</NomePessoa></Assinatura></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>
