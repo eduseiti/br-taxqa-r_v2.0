@@ -1,0 +1,10 @@
+# Runtime for scripts/segmentation (Python 3.12).
+# saxonche, lxml, pandas and pytest were already in the system site-packages;
+# tiktoken + transformers were added for the reference tokenizer (plan §2.6).
+saxonche==13.0.0
+lxml==6.1.1
+pandas==3.0.3
+pytest==9.1.1
+tiktoken==0.14.0
+transformers==5.17.0
+tokenizers==0.23.2

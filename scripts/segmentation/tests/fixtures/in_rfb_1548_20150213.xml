@@ -1,0 +1,2323 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2015-02-13;1548"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">INSTRUÇÃO NORMATIVA Nº 1.548, DE 13 DE FEVEREIRO DE 2015 </Epigrafe>
+		  <Ementa id="ementa">Dispõe sobre o Cadastro de Pessoas Físicas (CPF).
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O SECRETÁRIO DA RECEITA FEDERAL DO BRASIL, no uso da atribuição que lhe confere o inciso III do art. 280 do Regimento Interno da Secretaria da Receita Federal do Brasil, aprovado pela Portaria MF nº 203, de 14 de maio de 2012, e tendo em vista o disposto no art. 11 da Lei nº 4.862, de 29 de novembro de 1965, nos arts. 1º e 3º do Decreto-Lei nº 401, de 30 de dezembro de 1968, no art. 16 da Lei nº 9.779, de 19 de janeiro de 1999, nos arts. 33 a 36 do Decreto nº 3.000, de 26 de março de 1999, no art. 1º do Decreto nº 4.166, de 13 de março de 2002, e nas Portarias Interministeriais MF/MRE nº 101 e nº 102, de 23 de abril de 2002, resolve:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    O Cadastro de Pessoas Físicas (CPF) será administrado em conformidade com o disposto nesta Instrução Normativa.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Capitulo id="cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DOS ATOS PRATICADOS PERANTE O CPF
+
+  </NomeAgrupador>
+            <Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    No CPF são praticados os seguintes atos:
+
+  </p>
+            <Inciso id="art2_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    inscrição da pessoa física;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    alteração de dados cadastrais;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    indicação de pendência de regularização;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    suspensão da inscrição;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    regularização da situação cadastral;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    cancelamento da inscrição;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    declaração de nulidade da inscrição; e
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    restabelecimento da inscrição.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art2_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Os atos perante o CPF podem ser praticados a pedido da pessoa física ou de ofício pela Secretaria da Receita Federal do Brasil (RFB), à exceção dos atos relacionados nos incisos III, IV e VII do caput, que somente serão praticados de ofício.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DA INSCRIÇÃO
+
+  </NomeAgrupador>
+            <Secao id="cap2_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Da Obrigatoriedade de Inscrição
+
+  </NomeAgrupador>
+            <Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    Estão obrigadas a inscrever-se no CPF as pessoas físicas:
+
+  </p>
+            <Inciso id="art3_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    residentes no Brasil que integrem o polo passivo de relação tributária principal ou acessória, seja na condição de contribuinte ou responsável, bem como os respectivos representantes legais, nos termos da legislação tributária da União, estados, Distrito Federal ou municípios;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    residentes no Brasil ou no exterior que:
+
+  </p>
+            <Alinea id="art3_cpt_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    praticarem operações imobiliárias de quaisquer espécies no Brasil;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    possuírem, no Brasil, contas bancárias, de poupança ou de investimentos;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_inc2_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    operarem no mercado financeiro ou de capitais no Brasil, inclusive em bolsas de valores, de mercadorias, de futuros e assemelhados; ou
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_inc2_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    possuírem, no Brasil, bens e direitos sujeitos a registro público ou cadastro específico, incluídos imóveis, veículos, embarcações, aeronaves, instrumentos financeiros e participações societárias ou no mercado de capitais;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art3_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    que constem como dependentes para fins do Imposto sobre a Renda da Pessoa Física, observado o disposto no § 2º; [Redação dada pelo(a) Instrução Normativa RFB nº 1760, de 16 de novembro de 2017]
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    cuja inscrição seja exigida por órgãos ou entidades da administração pública federal, estadual, distrital ou municipal, nos termos da legislação própria afeta aos negócios desses órgãos e entidades;
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    registradas em ofício de registro civil de pessoas naturais no Brasil, no momento da lavratura do assento de nascimento, e após a entrada em operação do convênio celebrado entre a RFB e a entidade prevista no inciso VIII do caput do art. 24; ou
+
+  </p>
+            
+          </Inciso><Inciso id="art3_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    filiadas como segurados obrigatórios da Previdência Social ou requerentes de benefícios de qualquer espécie no Instituto Nacional do Seguro Social (INSS).
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art3_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As pessoas físicas, mesmo que não estejam obrigadas a inscrever-se no CPF, podem solicitar a sua inscrição. [Redação dada pelo(a) Instrução Normativa RFB nº 1760, de 16 de novembro de 2017]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Estão dispensadas da inscrição no CPF, relativamente ao exercício de 2018, ano-calendário de 2017, as pessoas físicas a que se refere o inciso III do caput com menos de 8 (oito) anos de idade. [Incluído(a) pelo(a) Instrução Normativa RFB nº 1760, de 16 de novembro de 2017]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap2_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Da Comprovação da Inscrição
+
+  </NomeAgrupador>
+            <Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    A comprovação da inscrição no CPF será feita mediante a menção do número de inscrição no CPF nos seguintes documentos:
+
+  </p>
+            <Inciso id="art4_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Carteira de Identidade;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Carteira Nacional de Habilitação;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Certidão de Nascimento;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    Carteira de Trabalho e Previdência Social (CTPS);
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    Carteira de identidade profissional, expedida por órgãos fiscalizadores de exercício de profissão regulamentada; ou
+
+  </p>
+            
+          </Inciso><Inciso id="art4_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    carteiras funcionais emitidas por órgãos públicos, válidas como documento de identificação em todo o território nacional.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art4_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Também são válidos como documento de comprovação de inscrição, desde que acompanhado de documento de identificação do inscrito:
+
+  </p>
+            <Inciso id="art4_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    “Comprovante de Inscrição no CPF” impresso a partir do sítio da RFB na Internet, no endereço http://www.receita.fazenda.gov.br, ou emitido pela entidade conveniada;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    “Comprovante de Inscrição no CPF” acessado por meio do aplicativo “APP Pessoa Física” para dispositivos móveis; e
+
+  </p>
+            
+          </Inciso><Inciso id="art4_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Cartão CPF emitido em conformidade com a legislação anterior.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art4_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O “Comprovante de Inscrição no CPF”, conforme modelos constantes dos Anexos I e II desta Instrução Normativa, conterá obrigatoriamente:
+
+  </p>
+            <Inciso id="art4_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o nome da pessoa física;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o número de inscrição;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_par2_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    a data de nascimento; e
+
+  </p>
+            
+          </Inciso><Inciso id="art4_par2_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    a data e hora da emissão e o código de controle que deverão ser utilizados para comprovar a autenticidade do comprovante.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art4_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O “Comprovante de Inscrição no CPF” somente produzirá efeitos mediante confirmação de autenticidade no sítio da RFB na Internet.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Nos casos em que o “Comprovante de Inscrição no CPF” for emitido por uma das entidades conveniadas citadas nos incisos I a IV do caput do art. 24, será permitida a inserção de sua logomarca, conforme modelo constante do Anexo I desta Instrução Normativa.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Nos casos em que o “Comprovante de Inscrição no CPF” for emitido pelas entidades conveniadas citadas nos incisos VI e IX do caput do art. 24, deverá ser adotado o modelo constante do Anexo II desta Instrução Normativa.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap2_sec3">
+            
+            
+            <Rotulo>Seção III</Rotulo>
+            <NomeAgrupador>
+    Do Número Único de Inscrição
+
+  </NomeAgrupador>
+            <Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    O número de inscrição no CPF é atribuído à pessoa física uma única vez, vedada a concessão de mais de um número de CPF.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap2_sec4">
+            
+            
+            <Rotulo>Seção IV</Rotulo>
+            <NomeAgrupador>
+    Dos Documentos Necessários à Inscrição e Locais de Solicitação
+
+  </NomeAgrupador>
+            <Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    A inscrição no CPF será solicitada conforme estabelecido nos Anexos III ou IV desta Instrução Normativa.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap2_sec5">
+            
+            
+            <Rotulo>Seção V</Rotulo>
+            <NomeAgrupador>
+    Da Inscrição Realizada pelas Unidades da RFB
+
+  </NomeAgrupador>
+            <Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    Além das hipóteses enumeradas nos Anexos III ou IV desta Instrução Normativa, as inscrições serão efetuadas diretamente pelas unidades da RFB nos seguintes casos:
+
+  </p>
+            <Inciso id="art7_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    solicitação de órgãos públicos, entidades de assistência social e entidades de saúde públicas ou privadas, em função da incapacidade de comparecimento da pessoa física nas entidades conveniadas;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    solicitação de Conselho Tutelar, para menores em situação de risco;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    no interesse da administração tributária, por meio de processo administrativo; e
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    determinação judicial.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art7_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A inscrição realizada conforme disposto no inciso III do caput será comunicada à pessoa física interessada.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="cap3">
+            
+            
+            <Rotulo>CAPÍTULO III</Rotulo>
+            <NomeAgrupador>
+    DA ALTERAÇÃO DE DADOS CADASTRAIS
+
+  </NomeAgrupador>
+            <Secao id="cap3_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Dos Documentos Necessários à Alteração e Locais de Solicitação
+
+  </NomeAgrupador>
+            <Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    A alteração no CPF será solicitada conforme estabelecido nos Anexos III ou IV desta Instrução Normativa.
+
+  </p>
+            
+          </Caput><Paragrafo id="art8_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A informação do endereço é declaratória, sendo dispensada a apresentação de documentos que comprovem sua alteração, que poderá ser efetivada por intermédio: [Redação dada pelo(a) Instrução Normativa RFB nº 1746, de 28 de setembro de 2017]
+
+  </p>
+            <Inciso id="art8_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    da DIRPF;
+
+  </p>
+            
+          </Inciso><Inciso id="art8_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    do Centro Virtual de Atendimento (e-CAC) ou do Pedido de Alteração, disponíveis no sítio da RFB na Internet; [Redação dada pelo(a) Instrução Normativa RFB nº 1746, de 28 de setembro de 2017]
+
+  </p>
+            
+          </Inciso><Inciso id="art8_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    de solicitação nas entidades relacionadas nos incisos I a VI do caput do art. 24;
+
+  </p>
+            
+          </Inciso><Inciso id="art8_par1_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    do formulário “Ficha Cadastral de Pessoa Física”, disponível no sítio da RFB na Internet, no endereço http://rfb.gov.br, no caso de residentes no exterior, que deverão apresentá-lo em uma representação diplomática brasileira; ou [Redação dada pelo(a) Instrução Normativa RFB nº 1746, de 28 de setembro de 2017]
+
+  </p>
+            
+          </Inciso><Inciso id="art8_par1_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    das unidades da RFB, no caso de alteração de endereço para o exterior.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art8_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A inclusão do ano do óbito resultará na mudança da situação cadastral da pessoa física falecida, de acordo com o inciso V do art. 21. [Redação dada pelo(a) Instrução Normativa RFB nº 1746, de 28 de setembro de 2017]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap3_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Da Alteração Realizada pelas Unidades da RFB
+
+  </NomeAgrupador>
+            <Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            
+            
+            
+            <p>
+    Além das hipóteses enumeradas nos Anexos III ou IV desta Instrução Normativa, as alterações de dados cadastrais no CPF serão realizadas diretamente pela RFB: [Redação dada pelo(a) Instrução Normativa RFB nº 1718, de 18 de julho de 2017]
+
+  </p>
+            <Inciso id="art9_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    quando houver interesse da administração tributária; [Incluído(a) pelo(a) Instrução Normativa RFB nº 1718, de 18 de julho de 2017]
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    quando forem informadas por terceiros, em conformidade com convênios de troca de informações celebrados; [Redação dada pelo(a) Instrução Normativa RFB nº 1746, de 28 de setembro de 2017]
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    em atendimento a determinação judicial; ou [Redação dada pelo(a) Instrução Normativa RFB nº 1746, de 28 de setembro de 2017]
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    para inclusão ou exclusão de nome social de pessoa travesti ou transexual. [Incluído(a) pelo(a) Instrução Normativa RFB nº 1746, de 28 de setembro de 2017]
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art9_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A alteração, quando realizada no interesse da administração tributária, será comunicada à pessoa física interessada. [Redação dada pelo(a) Instrução Normativa RFB nº 1718, de 18 de julho de 2017]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A inclusão do ano do óbito resultará na mudança da situação cadastral da pessoa física falecida, de acordo com o inciso V do art. 21. [Redação dada pelo(a) Instrução Normativa RFB nº 1746, de 28 de setembro de 2017]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A alteração a que se refere o inciso IV do caput deverá ser feita mediante requerimento do interessado, conforme previsto no art. 6º do Decreto nº 8.727, de 28 de abril de 2016. [Redação dada pelo(a) Instrução Normativa RFB nº 1746, de 28 de setembro de 2017]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O requerimento a que se refere o § 3º pode ser apresentado por procurador com poderes específicos. [Incluído(a) pelo(a) Instrução Normativa RFB nº 1746, de 28 de setembro de 2017]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="cap4">
+            
+            
+            <Rotulo>CAPÍTULO IV</Rotulo>
+            <NomeAgrupador>
+    DA INDICAÇÃO DE PENDÊNCIA DE REGULARIZAÇÃO
+
+  </NomeAgrupador>
+            <Secao id="cap4_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Da Indicação e da Comunicação [Redação dada pelo(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021] [Vide o(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021]
+
+  </NomeAgrupador>
+            <Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>
+    A indicação de pendência de regularização da inscrição será realizada quando houver omissão na entrega de DIRPF, se obrigatória.
+
+  </p>
+            
+          </Caput><Paragrafo id="art10_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A pendência de regularização será comunicada por meio do: [Redação dada pelo(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021] [Vide o(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021]
+
+  </p>
+            <Inciso id="art10_par1u_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    “Comprovante de Situação Cadastral no CPF”, conforme modelo constante do Anexo V desta Instrução Normativa, disponível no sítio da RFB na Internet, no endereço http://www.receita.fazenda.gov.br;
+
+  </p>
+            
+          </Inciso><Inciso id="art10_par1u_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    “Comprovante de Situação Cadastral no CPF” acessado por meio do aplicativo “APP Pessoa Física” para dispositivos móveis; ou
+
+  </p>
+            
+          </Inciso><Inciso id="art10_par1u_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021] [Vide o(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021]
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap4_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Da Regularização da Situação Cadastral “Pendente de Regularização”
+
+  </NomeAgrupador>
+            <Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            <p>
+    A pessoa física regularizará a situação cadastral “pendente de regularização” mediante a apresentação:
+
+  </p>
+            <Inciso id="art11_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    da DIRPF a que estava obrigada, ainda que em atraso; ou
+
+  </p>
+            
+          </Inciso><Inciso id="art11_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    da Declaração de Saída Definitiva do País, ainda que em atraso.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art11_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A situação cadastral “pendente de regularização” será regularizada diretamente na RFB, quando houver erro na indicação de pendência ou em decorrência de decisão judicial ou administrativa.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art11_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A regularização dar-se-á sem prejuízo da exigência do imposto que for devido e da imposição das penalidades cabíveis.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="cap5">
+            
+            
+            <Rotulo>CAPÍTULO V</Rotulo>
+            <NomeAgrupador>
+    DA SUSPENSÃO DA INSCRIÇÃO
+
+  </NomeAgrupador>
+            <Secao id="cap5_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Da Suspensão e da Comunicação [Redação dada pelo(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021] [Vide o(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021]
+
+  </NomeAgrupador>
+            <Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            
+            
+            
+            <p>
+    A suspensão da inscrição será realizada pela RFB quando houver inconsistência cadastral.
+
+  </p>
+            
+          </Caput><Paragrafo id="art12_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A suspensão da inscrição no CPF será comunicada por meio: [Redação dada pelo(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021] [Vide o(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021]
+
+  </p>
+            <Inciso id="art12_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    “Comprovante de Situação Cadastral no CPF”, conforme modelo constante do Anexo V desta Instrução Normativa, disponível no sítio da RFB na Internet, no endereço http://www.receita.fazenda.gov.br;
+
+  </p>
+            
+          </Inciso><Inciso id="art12_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    do &quot;Comprovante de Situação Cadastral no CPF&quot; acessado por meio do aplicativo &quot;APP Pessoa Física&quot; para dispositivos móveis; [Redação dada pelo(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021] [Vide o(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021]
+
+  </p>
+            
+          </Inciso><Inciso id="art12_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    do serviço de notificação ao cidadão constante do cadastro digital do governo federal, disponível no endereço eletrônico &lt; https://www.gov.br&gt; ou no &quot;APP Pessoa Física&quot; para dispositivos móveis; [Redação dada pelo(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021] [Vide o(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021]
+
+  </p>
+            
+          </Inciso><Inciso id="art12_par1_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    de mensagem eletrônica (e-mail) ou short message service (SMS); [Incluído(a) pelo(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021] [Vide o(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021]
+
+  </p>
+            
+          </Inciso><Inciso id="art12_par1_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    de carta; ou [Incluído(a) pelo(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021]
+
+  </p>
+            
+          </Inciso><Inciso id="art12_par1_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    de edital a ser publicado no site da RFB na Internet, nos casos em que não for possível contatar a pessoa física pelos meios relacionados nos incisos I a V deste parágrafo. [Incluído(a) pelo(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021] [Vide o(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021]
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art12_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Pelo prazo de 90 (noventa) dias, o e-CAC emitirá alerta sobre a existência das comunicações relacionadas nos incisos I e II do § 1º. [Incluído(a) pelo(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021] [Vide o(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art12_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A inscrição que se encontra suspensa há 5 (cinco) anos ou mais na base de dados do CPF poderá ser cancelada de ofício. [Incluído(a) pelo(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021] [Vide o(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap5_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Da Regularização da Situação Cadastral “Suspensa”
+
+  </NomeAgrupador>
+            <Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>
+    A regularização da situação cadastral “suspensa” será realizada conforme estabelecido nos Anexos III ou IV desta Instrução Normativa.
+
+  </p>
+            
+          </Caput><Paragrafo id="art13_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A situação cadastral &quot;suspensa&quot; será regularizada diretamente na RFB quando houver erro ou em decorrência de decisão judicial ou administrativa. [Redação dada pelo(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021] [Vide o(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art13_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Depois de 90 (noventa) dias contados da data de comunicação da suspensão, a inscrição poderá ser cancelada de ofício. [Incluído(a) pelo(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021] [Vide o(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="cap6">
+            
+            
+            <Rotulo>CAPÍTULO VI</Rotulo>
+            <NomeAgrupador>
+    DO CANCELAMENTO DA INSCRIÇÃO
+
+  </NomeAgrupador>
+            <Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            <p>
+    O cancelamento da inscrição no CPF poderá ocorrer:
+
+  </p>
+            <Inciso id="art14_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a pedido; ou
+
+  </p>
+            
+          </Inciso><Inciso id="art14_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    de ofício.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Secao id="cap6_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Do Cancelamento a Pedido
+
+  </NomeAgrupador>
+            <Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>
+    O cancelamento da inscrição no CPF a pedido ocorrerá exclusivamente quando constatada a multiplicidade de inscrições pela própria pessoa física. [Redação dada pelo(a) Instrução Normativa RFB nº 1746, de 28 de setembro de 2017]
+
+  </p>
+            <Inciso id="art15_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    [Suprimido(a) - vide Instrução Normativa RFB nº 1746, de 28 de setembro de 2017]
+
+  </p>
+            
+          </Inciso><Inciso id="art15_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    [Suprimido(a) - vide Instrução Normativa RFB nº 1746, de 28 de setembro de 2017]
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art15_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O cancelamento da inscrição no CPF se dará em conformidade com o disposto nos Anexos III ou IV desta Instrução Normativa, ficando a critério da administração tributária eleger o número de inscrição no CPF a ser mantido ativo. [Redação dada pelo(a) Instrução Normativa RFB nº 1746, de 28 de setembro de 2017]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art15_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    [Suprimido(a) - vide Instrução Normativa RFB nº 1746, de 28 de setembro de 2017]
+
+  </p>
+            <Inciso id="art15_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    [Suprimido(a) - vide Instrução Normativa RFB nº 1746, de 28 de setembro de 2017]
+
+  </p>
+            
+          </Inciso><Inciso id="art15_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    [Suprimido(a) - vide Instrução Normativa RFB nº 1746, de 28 de setembro de 2017]
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap6_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Do Cancelamento de Ofício
+
+  </NomeAgrupador>
+            <Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            
+            
+            
+            <p>
+    Será cancelada de ofício a inscrição no CPF nas seguintes hipóteses:
+
+  </p>
+            <Inciso id="art16_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    atribuição de mais de um número de inscrição para uma mesma pessoa física;
+
+  </p>
+            
+          </Inciso><Inciso id="art16_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1746, de 28 de setembro de 2017]
+
+  </p>
+            
+          </Inciso><Inciso id="art16_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    por decisão administrativa; ou
+
+  </p>
+            
+          </Inciso><Inciso id="art16_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    por determinação judicial.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art16_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O cancelamento de ofício da inscrição no CPF será efetuada pelo titular da unidade da RFB que tomar conhecimento do fato que o motivou.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art16_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O cancelamento de ofício da inscrição no CPF será comunicado por meio do: [Redação dada pelo(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021] [Vide o(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021]
+
+  </p>
+            <Inciso id="art16_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    “Comprovante de Situação Cadastral no CPF”, conforme modelo constante do Anexo V desta Instrução Normativa, disponível no sítio da RFB na Internet, no endereço http://www.receita.fazenda.gov.br;
+
+  </p>
+            
+          </Inciso><Inciso id="art16_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    “Comprovante de Situação Cadastral no CPF” acessado por meio do aplicativo “APP Pessoa Física” para dispositivos móveis; ou
+
+  </p>
+            
+          </Inciso><Inciso id="art16_par2_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021] [Vide o(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021]
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="cap7">
+            
+            
+            <Rotulo>CAPÍTULO VII</Rotulo>
+            <NomeAgrupador>
+    DA DECLARAÇÃO DE NULIDADE DA INSCRIÇÃO
+
+  </NomeAgrupador>
+            <Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            
+            
+            
+            <p>
+    Será declarada nula pela RFB a inscrição no CPF em que for constatada fraude.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            
+            
+            
+            <p>
+    A declaração de nulidade da inscrição no CPF será realizada pelo titular da unidade da RFB que constatar a fraude, por meio de Ato Declaratório Executivo (ADE), publicado no sítio da RFB na Internet, indicando sua motivação.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            
+            
+            
+            <p>
+    A declaração de nulidade da inscrição no CPF produzirá efeitos retroativos à data de inscrição, ressalvado o disposto no § 1º.
+
+  </p>
+            
+          </Caput><Paragrafo id="art19_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Havendo multiplicidade de inscrições fraudulentas para a mesma pessoa, ficarão elas vinculadas à inscrição legítima, desde que comprovado, em processo administrativo em que se assegure o contraditório e a ampla defesa, que a pessoa tinha ciência da fraude e dela se aproveitou.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Constatada a fraude ao final do processo administrativo, o fato deverá ser comunicado aos órgãos responsáveis pela persecução penal.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap8">
+            
+            
+            <Rotulo>CAPÍTULO VIII</Rotulo>
+            <NomeAgrupador>
+    DO RESTABELECIMENTO DA INSCRIÇÃO
+
+  </NomeAgrupador>
+            <Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            
+            
+            
+            <p>
+    O restabelecimento da inscrição é o ato praticado pela RFB, para reverter o cancelamento ou a nulidade da inscrição, por erro ou por decisão judicial ou administrativa.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap9">
+            
+            
+            <Rotulo>CAPÍTULO IX</Rotulo>
+            <NomeAgrupador>
+    DA SITUAÇÃO CADASTRAL
+
+  </NomeAgrupador>
+            <Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            
+            
+            
+            <p>
+    A inscrição no CPF será enquadrada, quanto à situação cadastral, em:
+
+  </p>
+            <Inciso id="art21_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    regular, quando não houver inconsistência cadastral e não constar omissão de DIRPF;
+
+  </p>
+            
+          </Inciso><Inciso id="art21_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    pendente de regularização, quando houver omissão de DIRPF;
+
+  </p>
+            
+          </Inciso><Inciso id="art21_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    suspensa, quando houver inconsistência cadastral;
+
+  </p>
+            
+          </Inciso><Inciso id="art21_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    cancelada, em caso de multiplicidade de inscrição, por decisão administrativa ou determinação judicial; [Redação dada pelo(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021] [Vide o(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021]
+
+  </p>
+            
+          </Inciso><Inciso id="art21_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    titular falecido, quando for incluído o ano de óbito; [Redação dada pelo(a) Instrução Normativa RFB nº 1746, de 28 de setembro de 2017]
+
+  </p>
+            
+          </Inciso><Inciso id="art21_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1746, de 28 de setembro de 2017]
+
+  </p>
+            
+          </Inciso><Inciso id="art21_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    nula, nos termos do art. 17.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art21_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A situação cadastral do CPF independe da regularidade dos pagamentos dos tributos administrados pela RFB. [Redação dada pelo(a) Instrução Normativa RFB nº 1746, de 28 de setembro de 2017]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art22">
+            
+            
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            
+            
+            
+            <p>
+    A consulta pública à situação cadastral da pessoa física no CPF poderá ser realizada por meio do &quot;Comprovante de Situação Cadastral no CPF&quot;, disponível no site da RFB na Internet, no endereço &lt; https://www.gov.br/receitafederal/pt-br&gt; ou por meio do aplicativo &quot;APP Pessoa Física&quot; para dispositivos móveis. [Redação dada pelo(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021] [Vide o(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021]
+
+  </p>
+            
+          </Caput><Paragrafo id="art22_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A consulta pela Internet ou por intermédio do “APP Pessoa Física” será realizada mediante indicação do número de inscrição no CPF e da data de nascimento, permitindo, tão somente, o conhecimento do nome, da data de nascimento, da situação cadastral da pessoa física, da data de inscrição e do ano de óbito, se existir.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap10">
+            
+            
+            <Rotulo>CAPÍTULO X</Rotulo>
+            <NomeAgrupador>
+    DA PESQUISA AO NÚMERO DE INSCRIÇÃO NO CPF
+
+  </NomeAgrupador>
+            <Artigo id="art23">
+            
+            
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            
+            
+            
+            <p>
+    A informação sobre o número de inscrição no CPF poderá ser obtida em uma Serventia de Registro Civil de Pessoas Naturais ou em uma unidade de atendimento da RFB, e será fornecida apenas para o titular, representante legal ou procurador. [Redação dada pelo(a) Instrução Normativa RFB nº 1890, de 14 de maio de 2019]
+
+  </p>
+            
+          </Caput><Paragrafo id="art23_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    No caso de pessoa com 16 ou 17 anos de idade, o número poderá ser fornecido ao próprio interessado ou a um dos pais.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art23_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    No caso de falecido, o número poderá ser fornecido:
+
+  </p>
+            <Inciso id="art23_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    se houver bens a inventariar, ao inventariante, cônjuge, companheiro ou sucessor a qualquer título; ou
+
+  </p>
+            
+          </Inciso><Inciso id="art23_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    se não houver bens a inventariar, ao cônjuge, companheiro ou parente.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art23_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O número de inscrição no CPF também poderá ser fornecido aos órgãos relacionados nos incisos I e II do caput do art. 7º, nas hipóteses ali consignadas.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap11">
+            
+            
+            <Rotulo>CAPÍTULO XI</Rotulo>
+            <NomeAgrupador>
+    DAS ENTIDADES CONVENIADAS
+
+  </NomeAgrupador>
+            <Secao id="cap11_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Dos Convênios
+
+  </NomeAgrupador>
+            <Subsecao id="cap11_sec1_sub1">
+            
+            
+            <Rotulo>Subseção I</Rotulo>
+            <NomeAgrupador>
+    Das Entidades com as quais a RFB pode Celebrar Convênios
+
+  </NomeAgrupador>
+            <Artigo id="art24">
+            
+            
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput id="art24_cpt">
+            
+            
+            
+            <p>
+    Para a execução dos atos perante o CPF, a RFB poderá celebrar convênios com as seguintes entidades:
+
+  </p>
+            <Inciso id="art24_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Banco do Brasil S.A.;
+
+  </p>
+            
+          </Inciso><Inciso id="art24_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Caixa Econômica Federal;
+
+  </p>
+            
+          </Inciso><Inciso id="art24_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Empresa Brasileira de Correios e Telégrafos (ECT);
+
+  </p>
+            
+          </Inciso><Inciso id="art24_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    instituições bancárias integrantes da Rede Arrecadadora de Receitas Federais (Rarf);
+
+  </p>
+            
+          </Inciso><Inciso id="art24_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    órgãos públicos estaduais e entidades públicas de atendimento ao cidadão;
+
+  </p>
+            
+          </Inciso><Inciso id="art24_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    órgãos públicos federais;
+
+  </p>
+            
+          </Inciso><Inciso id="art24_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    Associação dos Notários e Registradores do Brasil (ANOREG);
+
+  </p>
+            
+          </Inciso><Inciso id="art24_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    Associação dos Registradores de Pessoas Naturais do Brasil (ARPEN); e
+
+  </p>
+            
+          </Inciso><Inciso id="art24_cpt_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    Comissão de Valores Mobiliários (CVM).
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Subsecao><Subsecao id="cap11_sec1_sub2">
+            
+            
+            <Rotulo>Subseção II</Rotulo>
+            <NomeAgrupador>
+    Dos Convênios Celebrados pela RFB
+
+  </NomeAgrupador>
+            <Artigo id="art25">
+            
+            
+            <Rotulo>Art. 25.</Rotulo>
+            
+            <Caput id="art25_cpt">
+            
+            
+            
+            <p>
+    A RFB poderá celebrar convênio com outros órgãos da administração pública federal a fim de permitir que pratiquem, gratuitamente, os atos previstos nos incisos I e II do caput do art. 2º.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art26">
+            
+            
+            <Rotulo>Art. 26.</Rotulo>
+            
+            <Caput id="art26_cpt">
+            
+            
+            
+            <p>
+    Para praticarem atos perante o CPF, as entidades citadas nos incisos I a IV do caput do art. 24 deverão celebrar convênio com a RFB, conforme modelo referencial constante do Anexo VI desta Instrução Normativa.
+
+  </p>
+            
+          </Caput><Paragrafo id="art26_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As entidades conveniadas mencionadas no caput, a CVM e a ARPEN poderão cobrar dos interessados valor correspondente aos serviços de atendimento, conclusivo ou não conclusivo, e não caberá qualquer ônus financeiro à RFB em função do atendimento realizado, exceto no caso de serviço prestado a título gratuito pela ARPEN previsto em convênio. [Redação dada pelo(a) Instrução Normativa RFB nº 1890, de 14 de maio de 2019]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art26_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O valor referido no § 1º não excederá a quantia de R$ 7,00 (sete reais). [Redação dada pelo(a) Instrução Normativa RFB nº 1588, de 7 de outubro de 2015]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art26_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A prática dos atos previstos neste artigo será realizada de imediato, exceto nos casos previstos no art. 30, e implicará, obrigatoriamente, a entrega do “Comprovante de Inscrição no CPF” ao solicitante, conforme modelo constante do Anexo I desta Instrução Normativa.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art27">
+            
+            
+            <Rotulo>Art. 27.</Rotulo>
+            
+            <Caput id="art27_cpt">
+            
+            
+            
+            <p>
+    Para praticarem atos perante o CPF, as entidades citadas no inciso V do caput do art. 24 deverão celebrar convênio com a RFB, representada pelo Superintendente da Receita Federal do Brasil de sua jurisdição fiscal, conforme o modelo:
+
+  </p>
+            <Inciso id="art27_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    constante do Anexo VII desta Instrução Normativa, se a entidade conveniada emitir algum dos seguintes documentos:
+
+  </p>
+            <Alinea id="art27_cpt_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    Carteira de Identidade;
+
+  </p>
+            
+          </Alinea><Alinea id="art27_cpt_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    Carteira Nacional de Habilitação; ou
+
+  </p>
+            
+          </Alinea><Alinea id="art27_cpt_inc1_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    outros documentos de acesso a serviços de saúde pública, de assistência social ou de previdência;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art27_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    constante do Anexo VIII desta Instrução Normativa, se a entidade conveniada não emitir nenhum dos documentos citados no inciso I do caput.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art27_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os convênios, nos modelos mencionados nos incisos I e II do caput, obrigam a entidade conveniada a efetuar exclusivamente atos de inscrição e de alteração de dados cadastrais.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art27_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O atendimento prestado pelas entidades conveniadas de que trata este artigo será gratuito.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art27_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Os convênios celebrados conforme o modelo constante do Anexo VII desta Instrução Normativa obrigam a entidade conveniada a inserir o número de inscrição no CPF nos documentos que emitir.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art27_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Os convênios celebrados conforme o Anexo VIII desta Instrução Normativa obrigam a entidade conveniada a entregar à pessoa física o “Comprovante de Inscrição no CPF”, consoante modelo constante do Anexo II desta Instrução Normativa, exceto nos casos previstos no art. 30.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Subsecao><Subsecao id="cap11_sec1_sub3">
+            
+            
+            <Rotulo>Subseção III</Rotulo>
+            <NomeAgrupador>
+    Da Identificação dos Atos da Entidade Conveniada
+
+  </NomeAgrupador>
+            <Artigo id="art28">
+            
+            
+            <Rotulo>Art. 28.</Rotulo>
+            
+            <Caput id="art28_cpt">
+            
+            
+            
+            <p>
+    Todos os atos praticados pelas entidades conveniadas serão identificados individualmente mediante a indicação da entidade na qual hajam sido praticados, do local, da data e hora de sua ocorrência, bem como do responsável pela inserção dos dados no sistema CPF.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Subsecao><Subsecao id="cap11_sec1_sub4">
+            
+            
+            <Rotulo>Subseção IV</Rotulo>
+            <NomeAgrupador>
+    Da Responsabilidade da Entidade Conveniada
+
+  </NomeAgrupador>
+            <Artigo id="art29">
+            
+            
+            <Rotulo>Art. 29.</Rotulo>
+            
+            <Caput id="art29_cpt">
+            
+            
+            
+            <p>
+    A conferência dos documentos apresentados e a fidelidade na transcrição dos dados informados perante o CPF serão de responsabilidade da entidade conveniada, ressalvado o disposto no § 2º.
+
+  </p>
+            
+          </Caput><Paragrafo id="art29_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As entidades conveniadas serão responsáveis, por si e por seus funcionários, pelo sigilo das informações de que tiverem conhecimento em decorrência dos atos praticados perante o CPF, inclusive quanto à reparação das irregularidades e dos danos causados ao interessado ou a terceiros.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art29_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Em relação aos atos praticados por intermédio do convênio celebrado com a entidade constante do inciso IX do caput do art. 24 a conferência dos documentos apresentados e a fidelidade na transcrição dos dados informados perante o CPF, bem como a guarda da documentação apresentada serão de responsabilidade das instituições financeiras representantes do investidor estrangeiro no Brasil.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Subsecao><Subsecao id="cap11_sec1_sub5">
+            
+            
+            <Rotulo>Subseção V</Rotulo>
+            <NomeAgrupador>
+    Do Atendimento Não Conclusivo
+
+  </NomeAgrupador>
+            <Artigo id="art30">
+            
+            
+            <Rotulo>Art. 30.</Rotulo>
+            
+            <Caput id="art30_cpt">
+            
+            
+            
+            <p>
+    São não conclusivos os atendimentos iniciados nas entidades conveniadas ou na Internet que necessitem ser finalizados em uma unidade da RFB.
+
+  </p>
+            
+          </Caput><Paragrafo id="art30_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Para o atendimento não conclusivo, será gerado protocolo de atendimento contendo a relação de documentos que devem ser apresentados pelo interessado na RFB, em conformidade com os Anexos III ou IV desta Instrução Normativa.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art30_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021] [Vide o(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art31">
+            
+            
+            <Rotulo>Art. 31.</Rotulo>
+            
+            <Caput id="art31_cpt">
+            
+            
+            
+            <p>
+    Nos casos de solicitações que não tenham atendimento conclusivo:
+
+  </p>
+            <Inciso id="art31_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o código constante no protocolo de atendimento permitirá ao solicitante acompanhar o andamento da solicitação pelo site da RFB na Internet, no endereço eletrônico &lt; https://www.gov.br/receitafederal/pt-br&gt;; e [Redação dada pelo(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021] [Vide o(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021]
+
+  </p>
+            
+          </Inciso><Inciso id="art31_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o código constante no formulário &quot;Ficha Cadastral de Pessoa Física&quot;, para as solicitações efetuadas no exterior, permitirá o seu acompanhamento pelo site da RFB na Internet, no endereço &lt; https://www.gov.br/receitafederal/pt-br&gt;. [Redação dada pelo(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021] [Vide o(a) Instrução Normativa RFB nº 2034, de 24 de junho de 2021]
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Subsecao>
+          </Secao><Secao id="cap11_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Dos Atos Praticados por Entidades Conveniadas
+
+  </NomeAgrupador>
+            <Artigo id="art32">
+            
+            
+            <Rotulo>Art. 32.</Rotulo>
+            
+            <Caput id="art32_cpt">
+            
+            
+            
+            <p>
+    Os atos de inscrição, alteração de dados cadastrais e regularização de situação cadastral “suspensa” são praticados por entidades conveniadas, nos termos dos arts. 25 a 27.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="cap11_sec3">
+            
+            
+            <Rotulo>Seção III</Rotulo>
+            <NomeAgrupador>
+    Dos Atos Praticados por Repartições Diplomáticas Brasileiras no Exterior
+
+  </NomeAgrupador>
+            <Artigo id="art33">
+            
+            
+            <Rotulo>Art. 33.</Rotulo>
+            
+            <Caput id="art33_cpt">
+            
+            
+            
+            <p>
+    As repartições diplomáticas brasileiras no exterior podem praticar, perante o CPF, os atos descritos nos incisos I e II do caput do art. 2º, de forma conclusiva.
+
+  </p>
+            
+          </Caput><Paragrafo id="art33_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As repartições de que trata o caput também podem iniciar o atendimento dos atos descritos nos incisos I, II, V e VI do caput do art. 2º, nos termos do § 2º do art. 30.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art33_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    No caso de atendimento conclusivo, as repartições a que se refere o caput devem imprimir e entregar ao interessado o “Comprovante de Inscrição no CPF”, conforme modelo constante do Anexo II desta Instrução Normativa.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="cap11_sec4">
+            
+            
+            <Rotulo>Seção IV</Rotulo>
+            <NomeAgrupador>
+    Dos Atos Praticados pelo Ministério das Relações Exteriores
+
+  </NomeAgrupador>
+            <Artigo id="art34">
+            
+            
+            <Rotulo>Art. 34.</Rotulo>
+            
+            <Caput id="art34_cpt">
+            
+            
+            
+            <p>
+    O MRE pode praticar, perante o CPF, os atos descritos nos incisos I e II do caput do art. 2º, de forma conclusiva.
+
+  </p>
+            
+          </Caput><Paragrafo id="art34_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O MRE também pode iniciar o atendimento dos atos descritos nos incisos I, II, V e VI do caput do art. 2º nos termos do § 2º do art. 30.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art34_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    No caso de atendimento conclusivo, o MRE deve imprimir e entregar ao interessado o “Comprovante de Inscrição no CPF”, conforme modelo constante do Anexo II desta Instrução Normativa.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="cap12">
+            
+            
+            <Rotulo>CAPÍTULO XII</Rotulo>
+            <NomeAgrupador>
+    DAS Disposições Gerais Sobre Documentos
+
+  </NomeAgrupador>
+            <Artigo id="art35">
+            
+            
+            <Rotulo>Art. 35.</Rotulo>
+            
+            <Caput id="art35_cpt">
+            
+            
+            
+            <p>
+    Os documentos apresentados deverão ser originais ou cópias autenticadas. [Vide o(a) Instrução Normativa RFB nº 1931, de 2 de abril de 2020]
+
+  </p>
+            
+          </Caput><Paragrafo id="art35_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Somente será aceita cópia simples dos documentos se estiver acompanhada do documento original. [Vide o(a) Instrução Normativa RFB nº 1931, de 2 de abril de 2020]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art35_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Poderá ser exigida a tradução juramentada dos documentos apresentados em língua estrangeira. [Vide o(a) Instrução Normativa RFB nº 1931, de 2 de abril de 2020]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art36">
+            
+            
+            <Rotulo>Art. 36.</Rotulo>
+            
+            <Caput id="art36_cpt">
+            
+            
+            
+            <p>
+    Nas solicitações realizadas por procurador, devem ser apresentados:
+
+  </p>
+            <Inciso id="art36_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    os documentos exigidos nos Anexos III ou IV desta Instrução Normativa, conforme o caso;
+
+  </p>
+            
+          </Inciso><Inciso id="art36_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    documento de identificação oficial com foto do procurador;
+
+  </p>
+            
+          </Inciso><Inciso id="art36_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    documento do procurador que comprove sua inscrição no CPF; e
+
+  </p>
+            
+          </Inciso><Inciso id="art36_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    instrumento público ou particular de procuração.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art36_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O instrumento público de procuração lavrado no exterior ou o instrumento particular com firma reconhecida no exterior devem ter sua validade reconhecida por repartição consular brasileira, salvo disposição contrária constante de lei, acordo ou tratado internacional.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap13">
+            
+            
+            <Rotulo>CAPÍTULO XIII</Rotulo>
+            <NomeAgrupador>
+    DAS Disposições Transitórias
+
+  </NomeAgrupador>
+            <Artigo id="art37">
+            
+            
+            <Rotulo>Art. 37.</Rotulo>
+            
+            <Caput id="art37_cpt">
+            
+            
+            
+            <p>
+    O Anexo V desta Instrução Normativa será implementado em até 120 (cento e vinte) dias, contados a partir da data de publicação desta Instrução Normativa.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art37-1">
+            
+            
+            <Rotulo>Art. 37-A.</Rotulo>
+            
+            <Caput id="art37-1_cpt">
+            
+            
+            
+            <p>
+    Em decorrência da pandemia da doença provocada pelo coronavírus identificado em 2019 (Covid-19), os atos cadastrais previstos nos incisos I a VI do art. 2º, praticados durante o período de 20 de março de 2020 a 31 de julho de 2020, podem ser efetivados, de ofício, pela Administração Tributária e cientificados ao interessado, quando cabível, por meio do &quot;Comprovante de Situação Cadastral. [Redação dada pelo(a) Instrução Normativa RFB nº 1961, de 29 de junho de 2020]
+
+  </p>
+            
+          </Caput><Paragrafo id="art37-1_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Além das solicitações previstas nos anexos III e IV desta Instrução Normativa, os pedidos para que sejam praticados os atos cadastrais referidos no caput e para obtenção das informações referidas no art. 23 poderão ser recepcionados pelos meios virtuais disponíveis. [Incluído(a) pelo(a) Instrução Normativa RFB nº 1938, de 15 de abril de 2020]
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="cap14">
+            
+            
+            <Rotulo>CAPÍTULO XIV</Rotulo>
+            <NomeAgrupador>
+    DAS Disposições Finais
+
+  </NomeAgrupador>
+            <Artigo id="art38">
+            
+            
+            <Rotulo>Art. 38.</Rotulo>
+            
+            <Caput id="art38_cpt">
+            
+            
+            
+            <p>
+    Para fins de inscrição no Cadastro Informativo de Créditos Não Quitados do Setor Público Federal (Cadin), nos termos do inciso II do art. 2º da Lei nº 10.522, de 19 de julho de 2002, a situação cadastral nula perante o CPF equivale à situação cancelada.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art39">
+            
+            
+            <Rotulo>Art. 39.</Rotulo>
+            
+            <Caput id="art39_cpt">
+            
+            
+            
+            <p>
+    [Revogado(a) pelo(a) Instrução Normativa RFB nº 1688, de 31 de janeiro de 2017, republicado(a) em 02.02.2017]
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art40">
+            
+            
+            <Rotulo>Art. 40.</Rotulo>
+            
+            <Caput id="art40_cpt">
+            
+            
+            
+            <p>
+    Esta Instrução Normativa entra em vigor na data de sua publicação no Diário Oficial da União.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art41">
+            
+            
+            <Rotulo>Art. 41.</Rotulo>
+            
+            <Caput id="art41_cpt">
+            
+            
+            
+            <p>
+    Ficam revogadas a Instrução Normativa RFB nº 1.042, de 10 de junho de 2010, a Instrução Normativa RFB nº 1.054, de 12 de julho de 2010, a Instrução Normativa RFB nº 1.359, de 13 de maio de 2013, e a Instrução Normativa RFB nº 1.442, de 29 de janeiro de 2014. JORGE ANTONIO DEHER RACHID
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo></Articulacao>
+          
+          <Anexos><ReferenciaAnexo AlvoURN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2015-02-13;1548!anexo1"/><ReferenciaAnexo AlvoURN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2015-02-13;1548!anexo2"/><ReferenciaAnexo AlvoURN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2015-02-13;1548!anexo3"/><ReferenciaAnexo AlvoURN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2015-02-13;1548!anexo4"/><ReferenciaAnexo AlvoURN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2015-02-13;1548!anexo5"/><ReferenciaAnexo AlvoURN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2015-02-13;1548!anexo6"/><ReferenciaAnexo AlvoURN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2015-02-13;1548!anexo7"/><ReferenciaAnexo AlvoURN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2015-02-13;1548!anexo8"/><ReferenciaAnexo AlvoURN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2015-02-13;1548!anexo9"/><ReferenciaAnexo AlvoURN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2015-02-13;1548!anexo10"/><ReferenciaAnexo AlvoURN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2015-02-13;1548!anexo11"/><ReferenciaAnexo AlvoURN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2015-02-13;1548!anexo12"/><ReferenciaAnexo AlvoURN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2015-02-13;1548!anexo13"/><ReferenciaAnexo AlvoURN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2015-02-13;1548!anexo14"/><ReferenciaAnexo AlvoURN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2015-02-13;1548!anexo15"/></Anexos>
+        </Norma></ProjetoNorma>
+    </LexML>

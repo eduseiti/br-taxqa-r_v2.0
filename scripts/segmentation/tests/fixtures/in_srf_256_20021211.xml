@@ -1,0 +1,3177 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2002-12-11;256"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">INSTRUÇÃO NORMATIVA Nº 256, DE 11 DE DEZEMBRO DE 2002 </Epigrafe>
+		  <Ementa id="ementa">Dispõe sobre normas de tributação relativas ao Imposto sobre a Propriedade Territorial Rural e dá outras providências.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    SECRETÁRIO DA RECEITA FEDERAL, no uso da atribuição que lhe confere o inciso III do art. 209 do Regimento Interno da Secretaria da Receita Federal, aprovado pela Portaria MF no 259, de 24 de agosto de 2001, e tendo em vista o disposto na Constituição da República Federativa do Brasil, de 5 de outubro de 1988, na Lei Complementar nº 104, de 10 de janeiro de 2001, nas Leis nº 3.071, de 1º de janeiro de 1916, nº 4.504, de 30 de novembro de 1964, nº 4.771, de 15 de setembro de 1965, nº 5.172, de 25 de outubro de 1966, nº 6.015, de 31 de dezembro de 1973, nº 6.938, de 31 de agosto de 1981, nº 7.511, de 7 de setembro de 1986, nº 7.711, de 22 de dezembro de 1988, nº 7.803, de 18 de julho de 1989, nº 8.218, de 29 de agosto de 1991, nº 8.383, de 30 de dezembro de 1991, nº 8.629, de 25 de fevereiro de 1993, nº 9.250, de 26 de dezembro de 1995, nº 9.393, de 19 de dezembro de 1996, nº 9.430, de 27 de dezembro de 1996, nº 9.532, de 10 de dezembro de 1997, nº 9.985, de 18 de julho de 2000, e nº 10.165, de 27 de dezembro de 2000, no Decreto-lei nº 1.715, de 22 de novembro de 1979, nas Medidas Provisórias nº 2.166-67, de 24 de agosto de 2001, nº 2.183-56, de 24 de agosto de 2001, nº 2.189-49, de 23 de agosto de 2001, e nº 2.200-2, de 24 de agosto de 2001, e nos Decretos nº 70.235, de 6 de março de 1972, nº 1.922, de 5 de junho de 1996, e nº 4.382, de 19 de setembro de 2002, resolve:
+  </p><p>
+    Incidência do Imposto
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    O Imposto sobre a Propriedade Territorial Rural (ITR), de apuração anual, tem como fato gerador a propriedade, o domínio útil ou a posse de imóvel por natureza, localizado fora da zona urbana do município, em 1º de janeiro de cada ano.
+
+  </p>
+            
+          </Caput><Paragrafo id="art1_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O ITR incide sobre a propriedade rural declarada de utilidade ou necessidade pública, ou interesse social, inclusive para fins de reforma agrária:
+
+  </p>
+            <Inciso id="art1_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    até a data da perda da posse pela imissão prévia ou provisória do Poder Público na posse; ou
+
+  </p>
+            
+          </Inciso><Inciso id="art1_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    até a data da perda do direito de propriedade pela transferência ou pela incorporação do imóvel ao patrimônio do Poder Público.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art1_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A desapropriação promovida por pessoa jurídica de direito privado delegatária ou concessionária de serviço público não exclui a incidência do ITR sobre o imóvel rural expropriado, observado o disposto no § 3º do art. 4º.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art2">
+            
+            <TituloDispositivo>Imunidade</TituloDispositivo>
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    São imunes do ITR:
+
+  </p>
+            <Inciso id="art2_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a pequena gleba rural, desde que o proprietário, titular do domínio útil ou possuidor a qualquer título a explore só ou com sua família, e não possua outro imóvel;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    os imóveis rurais pertencentes à União, aos Estados, ao Distrito Federal e aos Municípios;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    os imóveis rurais pertencentes às autarquias e às fundações instituídas e mantidas pelo Poder Público, desde que vinculados às suas finalidades essenciais ou às delas decorrentes; e
+
+  </p>
+            
+          </Inciso><Inciso id="art2_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    os imóveis rurais das instituições de educação e de assistência social, sem fins lucrativos, desde que vinculados às suas finalidades essenciais.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art2_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Pequena gleba rural é o imóvel com área igual ou inferior a:
+
+  </p>
+            <Inciso id="art2_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    cem hectares, se localizado em município compreendido na Amazônia Ocidental ou no Pantanal mato-grossense e sul-mato-grossense;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    cinqüenta hectares, se localizado em município compreendido no Polígono das Secas ou na Amazônia Oriental;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    trinta hectares, se localizado em qualquer outro município.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art2_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As regiões e os municípios a que se refere o § 1º estão relacionados no Anexo I a esta Instrução Normativa.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Sujeita-se à incidência do imposto a pequena gleba rural que tenha área explorada por contrato de arrendamento, comodato ou parceria.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Para o gozo da imunidade, as instituições mencionadas no inciso IV do caput devem prestar os serviços para os quais houverem sido instituídas e os colocar a disposição da população em geral, em caráter complementar às atividades do Estado, sem fins lucrativos, e atender aos seguintes requisitos:
+
+  </p>
+            <Inciso id="art2_par4_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    não distribuir qualquer parcela de seu patrimônio ou de suas rendas, a qualquer título;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par4_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    aplicar integralmente, no País, seus recursos na manutenção e desenvolvimento dos seus objetivos institucionais;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par4_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    não remunerar, por qualquer forma, seus dirigentes pelos serviços prestados;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par4_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    manter escrituração completa de suas receitas e despesas em livros revestidos das formalidades que assegurem a respectiva exatidão;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par4_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    conservar em boa guarda e ordem, pelo prazo de cinco anos, contado da data da emissão, os documentos que comprovem a origem de suas receitas e a efetivação de suas despesas, bem assim a realização de quaisquer outros atos ou operações que venham a modificar sua situação patrimonial;
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par4_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    apresentar, anualmente, declaração de rendimentos, em conformidade com o disposto em ato da Secretaria da Receita Federal (SRF);
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par4_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    assegurar a destinação de seu patrimônio a outra instituição que atenda às condições para o gozo da imunidade, no caso de incorporação, fusão, cisão ou encerramento de suas atividades, ou a órgão público; e
+
+  </p>
+            
+          </Inciso><Inciso id="art2_par4_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    outros requisitos, estabelecidos em lei específica, relacionados com o funcionamento das entidades a que se refere este parágrafo.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo id="art3">
+            
+            <TituloDispositivo>Isenção</TituloDispositivo>
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    São isentos do imposto:
+
+  </p>
+            <Inciso id="art3_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o imóvel rural compreendido em programa oficial de reforma agrária, caracterizado pelas autoridades competentes como assentamento, que, cumulativamente, atenda aos seguintes requisitos:
+
+  </p>
+            <Alinea id="art3_cpt_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    seja explorado por associação ou cooperativa de produção;
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    a fração ideal por família assentada não ultrapasse os limites da pequena gleba rural, fixados no § 1º do art. 2º; e
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_inc1_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    o assentado não possua outro imóvel;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art3_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o conjunto de imóveis rurais de um mesmo proprietário, titular do domínio útil ou possuidor a qualquer título, cuja área total em cada região observe o respectivo limite da pequena gleba, fixado no § 1º do art. 2º, desde que, cumulativamente, o proprietário, o titular do domínio útil ou o possuidor a qualquer título:
+
+  </p>
+            <Alinea id="art3_cpt_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    o explore só ou com sua família, admitida ajuda eventual de terceiros; e
+
+  </p>
+            
+          </Alinea><Alinea id="art3_cpt_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    não possua imóvel urbano.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput><Paragrafo id="art3_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Sujeitam-se ao pagamento do ITR os imóveis rurais que tenham áreas exploradas por contrato de arrendamento, comodato ou parceria.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Entende-se por ajuda eventual de terceiros o trabalho, remunerado ou não, de natureza eventual ou temporária, realizado nas épocas de maiores serviços.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art3_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Para fins do disposto no inciso II do caput, deve ser considerado o somatório das áreas dos imóveis rurais por região em que se localizem, o qual não poderá suplantar o limite da pequena gleba rural da respectiva região.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art4">
+            
+            <TituloDispositivo>Sujeito Passivo da Obrigação Tributária Contribuinte</TituloDispositivo>
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    Contribuinte do ITR é o proprietário de imóvel rural, o titular de seu domínio útil ou o seu possuidor a qualquer título.
+
+  </p>
+            
+          </Caput><Paragrafo id="art4_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    É titular do domínio útil aquele que adquiriu o imóvel rural por enfiteuse ou aforamento.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    É possuidor a qualquer título aquele que tem a posse do imóvel rural, seja por direito real de fruição sobre coisa alheia, no caso do usufrutuário, seja por ocupação, autorizada ou não pelo Poder Público.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Na hipótese de desapropriação do imóvel rural por pessoa jurídica de direito privado delegatária ou concessionária de serviço público, é contribuinte:
+
+  </p>
+            <Inciso id="art4_par3_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o expropriado, em relação aos fatos geradores ocorridos até a data da perda da posse ou da propriedade, observado o disposto no art. 5º;
+
+  </p>
+            
+          </Inciso><Inciso id="art4_par3_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o expropriante, em relação aos fatos geradores ocorridos a partir da imissão prévia ou provisória na posse ou da transferência ou incorporação do imóvel rural ao seu patrimônio.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art4_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Para fins do disposto nesta Instrução Normativa, não se considera contribuinte do ITR o arrendatário, comodatário ou parceiro de imóvel rural explorado por contrato de arrendamento, comodato ou parceria.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art5">
+            
+            <TituloDispositivo>Responsável</TituloDispositivo>
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    É responsável pelo crédito tributário o sucessor, a qualquer título, nos termos dos arts. 128 a 133 da Lei nº 5.172, de 25 de outubro de 1966 - Código Tributário Nacional (CTN), exceto nos casos de:
+
+  </p>
+            <Inciso id="art5_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    aquisição de imóvel rural pelo Poder Público, pelas suas autarquias e fundações, e pelas entidades privadas imunes;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    desapropriação de imóvel rural por necessidade ou utilidade pública ou interesse social, inclusive para fins de reforma agrária, seja ela promovida pelo Poder Público ou por pessoa jurídica de direito privado delegatária ou concessionária de serviço público.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art6">
+            
+            <TituloDispositivo>Domicílio Tributário</TituloDispositivo>
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    Para efeito da legislação do ITR, o domicílio tributário do contribuinte ou responsável é o município de localização do imóvel rural, vedada a eleição de qualquer outro.
+
+  </p>
+            
+          </Caput><Paragrafo id="art6_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O imóvel rural cuja área estenda-se a mais de um município deve ser enquadrado no município em que se localize sua sede ou, se esta não existir, no município onde se encontre a maior parte da área do imóvel.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art6_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Sem prejuízo do disposto no caput deste artigo e no inciso II do art. 47, o sujeito passivo pode informar à SRF endereço, localizado ou não em seu domicílio tributário, que constará no Cadastro de Imóveis Rurais (Cafir) e valerá, até ulterior alteração, somente para fins de intimação ou de qualquer outro ato de comunicação. Apuração do Imposto
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art7">
+            
+            <TituloDispositivo>Disposição Preliminar</TituloDispositivo>
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    A apuração e o pagamento do ITR devem ser efetuados pelo contribuinte ou responsável, independentemente de prévio procedimento da administração tributária, nos prazos e condições estabelecidos pela SRF, sujeitando-se a homologação posterior.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art8">
+            
+            <TituloDispositivo>Determinação da Base de Cálculo Imóvel Rural</TituloDispositivo>
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    Para efeito de determinação da base de cálculo do ITR, considera-se imóvel rural a área contínua, formada de uma ou mais parcelas de terras, localizada na zona rural do município, ainda que, em relação a alguma parte do imóvel, o sujeito passivo detenha apenas a posse.
+
+  </p>
+            
+          </Caput><Paragrafo id="art8_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Considera-se área contínua a área total do prédio rústico, mesmo que fisicamente dividida por ruas, estradas, rodovias, ferrovias, ou por canais ou cursos de água.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art9">
+            
+            <TituloDispositivo>Área Tributável</TituloDispositivo>
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            
+            
+            
+            <p>
+    Área tributável é a área total do imóvel rural, excluídas as áreas:
+
+  </p>
+            <Inciso id="art9_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    de preservação permanente;
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    de reserva legal;
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    de reserva particular do patrimônio natural;
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    sob regime de servidão florestal ou ambiental; [Redação dada pelo(a) Instrução Normativa RFB nº 861, de 17 de julho de 2008]
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    de interesse ecológico para a proteção dos ecossistemas, assim declaradas mediante ato do órgão competente, federal ou estadual, e que ampliem as restrições de uso previstas para as áreas de preservação permanente e de reserva legal;
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    comprovadamente imprestáveis para a atividade rural, declaradas de interesse ecológico mediante ato do órgão competente, federal ou estadual.
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    cobertas por florestas nativas, primárias ou secundárias em estágio médio ou avançado de regeneração; [Incluído(a) pelo(a) Instrução Normativa RFB nº 861, de 17 de julho de 2008]
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    alagadas para fins de constituição de reservatório de usinas hidrelétricas autorizada pelo poder público. [Incluído(a) pelo(a) Instrução Normativa RFB nº 861, de 17 de julho de 2008]
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art9_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A área do imóvel rural que se enquadrar, ainda que parcialmente, em mais de uma das hipóteses previstas no caput deverá ser excluída uma única vez da área total do imóvel, para fins de apuração da área tributável.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A área total do imóvel deve se referir à situação existente na data da efetiva entrega da Declaração do Imposto sobre a Propriedade Territorial Rural (DITR).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Para fins de exclusão da área tributável, as áreas do imóvel rural a que se refere o caput deverão:
+
+  </p>
+            <Inciso id="art9_par3_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    ser obrigatoriamente informadas em Ato Declaratório Ambiental (ADA), protocolado pelo sujeito passivo no Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (Ibama), observada a legislação pertinente; [Redação dada pelo(a) Instrução Normativa RFB nº 861, de 17 de julho de 2008]
+
+  </p>
+            
+          </Inciso><Inciso id="art9_par3_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    estar enquadradas nas hipóteses previstas nos incisos I a VIII do caput em 1º de janeiro do ano de ocorrência do fato gerador do ITR, observado o disposto nos arts. 10 a 14-A. [Redação dada pelo(a) Instrução Normativa RFB nº 861, de 17 de julho de 2008] [Texto decorrente da revogação parcial implementada pelo(a) Instrução Normativa RFB nº 861, de 17 de julho de 2008] [Texto decorrente da revogação parcial implementada pelo(a) Instrução Normativa RFB nº 861, de 17 de julho de 2008] [Texto decorrente da revogação parcial implementada pelo(a) Instrução Normativa RFB nº 861, de 17 de julho de 2008]
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art9_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    No caso de aquisição de área após 1º de janeiro do ano de ocorrência do fato gerador do ITR até a data da efetiva entrega da DITR, a área adquirida, bem como os seus dados de distribuição, nos termos do disposto neste artigo, devem ser informados pelo adquirente, caso ainda não tenham sido declarados pelo alienante, expressando a sua distribuição durante o ano anterior ao de ocorrência do fato gerador do ITR, observado o disposto no § 3º. [Redação dada pelo(a) Instrução Normativa RFB nº 861, de 17 de julho de 2008]
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    A SRF apurará o ITR efetivamente devido e efetuará, de ofício, o lançamento da diferença de imposto com os acréscimos legais cabíveis, nos termos do art. 45, na hipótese de:
+
+  </p>
+            <Inciso id="art9_par6_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    não-atendimento ao disposto nos §§ 3º e 5º; [Redação dada pelo(a) Instrução Normativa RFB nº 861, de 17 de julho de 2008]
+
+  </p>
+            
+          </Inciso><Inciso id="art9_par6_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    lavratura, de ofício, de novo ADA pelo Ibama, nos termos do § 5º do art. 17-O da Lei nº 6.938, de 31 de agosto de 1981, com a redação dada pelo art. 1º da Lei nº 10.165, de 27 de dezembro de 2000.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo id="art10">
+            
+            <TituloDispositivo>Área Não-tributável - Áreas de Preservação Permanente</TituloDispositivo>
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>
+    Consideram-se de preservação permanente:
+
+  </p>
+            <Inciso id="art10_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    as florestas e demais formas de vegetação natural situadas:
+
+  </p>
+            <Alinea id="art10_cpt_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    ao longo dos rios ou de qualquer curso d'água desde o seu nível mais alto em faixa marginal cuja largura mínima será:
+
+  </p>
+            <Item id="art10_cpt_inc1_ali1_ite1">
+            
+            
+            <Rotulo>1.</Rotulo>
+            <p>
+    de trinta metros para os cursos d'água de menos de dez metros de largura;
+
+  </p>
+            
+          </Item><Item id="art10_cpt_inc1_ali1_ite2">
+            
+            
+            <Rotulo>2.</Rotulo>
+            <p>
+    de cinqüenta metros para os cursos d'água que tenham de dez a cinqüenta metros de largura;
+
+  </p>
+            
+          </Item><Item id="art10_cpt_inc1_ali1_ite3">
+            
+            
+            <Rotulo>3.</Rotulo>
+            <p>
+    de cem metros para os cursos d'água que tenham de cinqüenta a duzentos metros de largura;
+
+  </p>
+            
+          </Item><Item id="art10_cpt_inc1_ali1_ite4">
+            
+            
+            <Rotulo>4.</Rotulo>
+            <p>
+    de duzentos metros para os cursos d'água que tenham de duzentos a seiscentos metros de largura;
+
+  </p>
+            
+          </Item><Item id="art10_cpt_inc1_ali1_ite5">
+            
+            
+            <Rotulo>5.</Rotulo>
+            <p>
+    de quinhentos metros para os cursos d'água que tenham largura superior a seiscentos metros;
+
+  </p>
+            
+          </Item>
+          </Alinea><Alinea id="art10_cpt_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    ao redor das lagoas, lagos ou reservatórios d'água naturais ou artificiais;
+
+  </p>
+            
+          </Alinea><Alinea id="art10_cpt_inc1_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    nas nascentes, ainda que intermitentes e nos chamados &quot;olhos d'água&quot;, qualquer que seja a sua situação topográfica, num raio mínimo de cinqüenta metros de largura;
+
+  </p>
+            
+          </Alinea><Alinea id="art10_cpt_inc1_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    no topo de morros, montes, montanhas e serras;
+
+  </p>
+            
+          </Alinea><Alinea id="art10_cpt_inc1_ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    nas encostas ou partes destas, com declividade superior a quarenta e cinco graus, equivalente a cem por cento na linha de maior declive;
+
+  </p>
+            
+          </Alinea><Alinea id="art10_cpt_inc1_ali6">
+            
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    nas restingas, como fixadoras de dunas ou estabilizadoras de mangues;
+
+  </p>
+            
+          </Alinea><Alinea id="art10_cpt_inc1_ali7">
+            
+            
+            <Rotulo>g)</Rotulo>
+            <p>
+    nas bordas dos tabuleiros ou chapadas, a partir da linha de ruptura do relevo, em faixa nunca inferior a cem metros em projeções horizontais;
+
+  </p>
+            
+          </Alinea><Alinea id="art10_cpt_inc1_ali8">
+            
+            
+            <Rotulo>h)</Rotulo>
+            <p>
+    em altitude superior a mil e oitocentos metros, qualquer que seja a vegetação;
+
+  </p>
+            
+          </Alinea>
+          </Inciso><Inciso id="art10_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    as florestas e demais formas de vegetação natural, declaradas de preservação permanente por ato do Poder Público, quando destinadas:
+
+  </p>
+            <Alinea id="art10_cpt_inc2_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    a atenuar a erosão das terras;
+
+  </p>
+            
+          </Alinea><Alinea id="art10_cpt_inc2_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    a fixar as dunas;
+
+  </p>
+            
+          </Alinea><Alinea id="art10_cpt_inc2_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    a formar faixas de proteção ao longo de rodovias e ferrovias;
+
+  </p>
+            
+          </Alinea><Alinea id="art10_cpt_inc2_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    a auxiliar a defesa do território nacional a critério das autoridades militares;
+
+  </p>
+            
+          </Alinea><Alinea id="art10_cpt_inc2_ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    a proteger sítios de excepcional beleza ou de valor científico ou histórico;
+
+  </p>
+            
+          </Alinea><Alinea id="art10_cpt_inc2_ali6">
+            
+            
+            <Rotulo>f)</Rotulo>
+            <p>
+    a asilar exemplares da fauna ou flora ameaçados de extinção;
+
+  </p>
+            
+          </Alinea><Alinea id="art10_cpt_inc2_ali7">
+            
+            
+            <Rotulo>g)</Rotulo>
+            <p>
+    a manter o ambiente necessário à vida das populações silvícolas;
+
+  </p>
+            
+          </Alinea><Alinea id="art10_cpt_inc2_ali8">
+            
+            
+            <Rotulo>h)</Rotulo>
+            <p>
+    a assegurar condições de bem-estar público.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput><Paragrafo id="art10_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A supressão total ou parcial de florestas de preservação permanente só será admitida com prévia autorização do Poder Executivo Federal, quando for necessária à execução de obras, planos, atividades ou projetos de utilidade pública ou interesse social.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As florestas que integram o Patrimônio Indígena ficam sujeitas ao regime de preservação permanente, nos termos da alínea &quot;g&quot; do inciso II do caput.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art11">
+            
+            <TituloDispositivo>Área Não-tributável - Áreas de Reserva Legal</TituloDispositivo>
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            <p>
+    São áreas de reserva legal aquelas cuja vegetação não pode ser suprimida, podendo apenas ser utilizada sob regime de manejo florestal sustentável, de acordo com princípios e critérios técnicos e científicos estabelecidos.
+
+  </p>
+            
+          </Caput><Paragrafo id="art11_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Para fins de exclusão da área tributável, as áreas a que se refere o caput devem estar averbadas à margem da inscrição de matrícula do imóvel, no registro de imóveis competente, na data de ocorrência do respectivo fato gerador.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art11_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Na posse, a reserva legal é assegurada por Termo de Ajustamento de Conduta, firmado pelo possuidor com o órgão ambiental estadual ou federal competente, com força de título executivo e contendo, no mínimo, a localização da reserva legal, as suas características ecológicas básicas e a proibição de supressão de sua vegetação.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art12">
+            
+            <TituloDispositivo>Área Não-tributável - Áreas de Reserva Particular do Patrimônio Natural</TituloDispositivo>
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            
+            
+            
+            <p>
+    Consideram-se de reserva particular do patrimônio natural as áreas privadas gravadas com perpetuidade, averbadas à margem da inscrição de matrícula do imóvel, no registro de imóveis competente, destinadas à conservação da diversidade biológica, nas quais somente poderão ser permitidas a pesquisa científica e a visitação com objetivos turísticos, recreativos e educacionais, reconhecidas pelo Ibama.
+
+  </p>
+            
+          </Caput><Paragrafo id="art12_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Para fins de exclusão da área tributável, as áreas a que se refere o caput devem estar averbadas na data de ocorrência do respectivo fato gerador.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art13">
+            
+            <TituloDispositivo>Área Não-tributável - Áreas de Servidão Florestal</TituloDispositivo>
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>
+    São áreas de servidão florestal aquelas averbadas à margem da inscrição de matrícula do imóvel, no registro de imóveis competente, nas quais o proprietário voluntariamente renuncia, em caráter permanente ou temporário, a direitos de supressão ou exploração da vegetação nativa, localizadas fora das áreas de reserva legal e de preservação permanente.
+
+  </p>
+            
+          </Caput><Paragrafo id="art13_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Para fins de exclusão da área tributável, as áreas a que se refere o caput devem estar averbadas na data de ocorrência do respectivo fato gerador.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art13-1">
+            
+            <TituloDispositivo>Área Não-tributável - Áreas de Servidão Ambiental <i>[Incluído(a) pelo(a) Instrução Normativa RFB nº 861, de 17 de julho de 2008]</i></TituloDispositivo>
+            <Rotulo>Art. 13-A.</Rotulo>
+            
+            <Caput id="art13-1_cpt">
+            
+            
+            
+            <p>
+    São áreas de servidão ambiental aquelas averbadas à margem da inscrição da matrícula do imóvel, no Registro de Imóveis competente, nas quais o proprietário renuncia, em caráter permanente ou temporário, total ou parcialmente, a direito de uso, exploração ou supressão de recursos naturais, localizadas fora das áreas de preservação permanente e reserva legal. Parágrafo único. Para fins de exclusão da área tributável, as áreas a que se refere o caput devem estar averbadas na data de ocorrência do respectivo fato gerador.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art14">
+            
+            <TituloDispositivo>Área Não-tributável - Áreas de Interesse Ecológico</TituloDispositivo>
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            <p>
+    São áreas de interesse ecológico aquelas assim declaradas mediante ato do órgão competente, federal ou estadual, que:
+
+  </p>
+            <Inciso id="art14_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    se destinem à proteção dos ecossistemas e ampliem as restrições de uso previstas para as áreas de preservação permanente e de reserva legal; ou
+
+  </p>
+            
+          </Inciso><Inciso id="art14_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    sejam comprovadamente imprestáveis para a atividade rural.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art14_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Para fins do disposto no inciso II, as áreas comprovadamente imprestáveis para a atividade rural são, exclusivamente, as áreas do imóvel rural declaradas de interesse ecológico mediante ato específico do órgão competente, federal ou estadual.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art14-1">
+            
+            <TituloDispositivo>Área Não-tributável - Áreas Cobertas por Florestas Nativas <i>[Incluído(a) pelo(a) Instrução Normativa RFB nº 861, de 17 de julho de 2008]</i></TituloDispositivo>
+            <Rotulo>Art. 14-A.</Rotulo>
+            
+            <Caput id="art14-1_cpt">
+            
+            
+            
+            <p>
+    São áreas cobertas por florestas nativas aquelas nas quais o proprietário protege as florestas nativas, primárias ou secundárias em estágio médio ou avançado de regeneração, onde o proprietário conserva a vegetação primária - de máxima expressão local, com grande diversidade biológica, e mínimos efeitos de ações humanas, bem como a vegetação secundária - resultante dos processos naturais de sucessão, após supressão total ou parcial da vegetação primária por ações humanas ou causas naturais.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art15">
+            
+            <TituloDispositivo>Área Aproveitável</TituloDispositivo>
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>
+    Área aproveitável, passível de exploração agrícola, pecuária, granjeira, aqüícola ou florestal, é a área total do imóvel, excluídas:
+
+  </p>
+            <Inciso id="art15_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    as áreas não tributáveis a que se referem os incisos I a VIII do caput do art. 9º; [Redação dada pelo(a) Instrução Normativa RFB nº 861, de 17 de julho de 2008]
+
+  </p>
+            
+          </Inciso><Inciso id="art15_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    as áreas ocupadas com benfeitorias úteis e necessárias destinadas à atividade rural.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art15_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    As áreas ocupadas por benfeitorias, construções e instalações destinadas ou empregadas diretamente na exploração de atividade granjeira ou aqüícola são consideradas áreas utilizadas pela atividade rural, nos termos do disposto no inciso IV do art. 17, não devendo ser excluídas da área aproveitável.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            
+            
+            
+            <p>
+    Para fins do disposto no inciso II do art. 15, consideram-se ocupadas por benfeitorias úteis e necessárias destinadas à atividade rural as áreas que contenham instalações que se destinem a aumentar ou facilitar o uso do imóvel rural, bem assim a conservá-lo ou evitar que ele se deteriore, tais como:
+
+  </p>
+            <Inciso id="art16_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    as áreas com casas de moradia, galpões para armazenamento da produção, banheiros para gado, valas, silos, currais, açudes e estradas internas e de acesso;
+
+  </p>
+            
+          </Inciso><Inciso id="art16_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    as áreas com edificações e instalações destinadas a atividades educacionais, recreativas e de assistência à saúde dos trabalhadores rurais;
+
+  </p>
+            
+          </Inciso><Inciso id="art16_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    as áreas com instalações de beneficiamento ou transformação da produção agropecuária e de seu armazenamento.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art17">
+            
+            <TituloDispositivo>Área Utilizada - Disposições Gerais</TituloDispositivo>
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            
+            
+            
+            <p>
+    Área efetivamente utilizada pela atividade rural é a porção da área aproveitável do imóvel rural que, observado o disposto nos arts. 23 a 29, tenha, no ano anterior ao de ocorrência do fato gerador do ITR:
+
+  </p>
+            <Inciso id="art17_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    sido plantada com produtos vegetais;
+
+  </p>
+            
+          </Inciso><Inciso id="art17_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    servido de pastagem, nativa ou plantada, observados, quando aplicáveis, os índices de lotação por zona de pecuária a que refere o art. 24;
+
+  </p>
+            
+          </Inciso><Inciso id="art17_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    sido objeto de exploração extrativa, observados, quando aplicáveis, os índices de rendimento por produto a que refere o art. 26 e a legislação ambiental;
+
+  </p>
+            
+          </Inciso><Inciso id="art17_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    servido para a exploração de atividade granjeira ou aqüícola;
+
+  </p>
+            
+          </Inciso><Inciso id="art17_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    sido objeto de implantação de projeto técnico, nos termos do art. 7º da Lei nº 8.629, de 25 de fevereiro de 1993.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            
+            
+            
+            <p>
+    Observado o disposto nos arts. 23 a 29, considera-se utilizada pela atividade rural a porção da área aproveitável do imóvel rural que, no ano anterior ao de ocorrência do fato gerador do ITR:
+
+  </p>
+            <Inciso id="art18_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    esteja comprovadamente situada em área de ocorrência de calamidade pública decretada pelo Poder Público local e reconhecida pelo Governo federal, da qual tenha resultado frustração de safras ou destruição de pastagens;
+
+  </p>
+            
+          </Inciso><Inciso id="art18_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    tenha sido oficialmente destinada à execução de atividades de pesquisa e experimentação que objetivem o avanço tecnológico da agricultura;
+
+  </p>
+            
+          </Inciso><Inciso id="art18_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    tenha permanecido em descanso para a recuperação do solo, desde que por recomendação técnica expressa, constante de laudo técnico;
+
+  </p>
+            
+          </Inciso><Inciso id="art18_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    tenha sido ocupada com pastagens ainda em formação, às quais não se aplicam os índices de lotação por zona de pecuária a que se refere o art. 24.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art18_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Para fins do disposto no inciso I, o estado de calamidade pública deverá ter sido decretado no ano anterior ao de ocorrência do fato gerador do ITR.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art18_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A área destinada a descanso para a recuperação do solo deverá ser passível de comprovação em procedimento fiscal.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            
+            
+            
+            <p>
+    Para fins de enquadramento nas hipóteses previstas nos arts. 17 e 18, o contribuinte poderá valer-se dos dados sobre a área utilizada e respectiva produção, fornecidos pelo arrendatário, comodatário ou parceiro, quando o imóvel, ou parte dele, estiver sendo explorado em regime de arrendamento, comodato ou parceria.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            
+            
+            
+            <p>
+    No caso de aquisição de área após 1º de janeiro do ano de ocorrência do fato gerador do ITR até a data da efetiva entrega da respectiva DITR, os dados relativos à efetiva utilização da área adquirida devem ser informados pelo adquirente, se esta ainda não houver sido declarada pelo alienante, expressando a sua ocupação durante o ano anterior ao de ocorrência do fato gerador do ITR.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            
+            
+            
+            <p>
+    No caso de consórcio ou intercalação de culturas, considera-se efetivamente utilizada a área total do consórcio ou intercalação.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art22">
+            
+            
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            
+            
+            
+            <p>
+    No caso de mais de um cultivo no ano, com um ou mais produtos, na mesma área, considera-se efetivamente utilizada a maior área cultivada no ano considerado.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art23">
+            
+            <TituloDispositivo>Área Utilizada - Área Plantada com Produtos Vegetais</TituloDispositivo>
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            
+            
+            
+            <p>
+    Área plantada com produtos vegetais é a porção do imóvel explorada com culturas temporárias ou permanentes, inclusive com reflorestamentos de essências exóticas ou nativas, destinadas a consumo próprio ou comércio, considerando-se:
+
+  </p>
+            <Inciso id="art23_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    essências exóticas as espécies florestais originárias de região fitogeográfica diversa daquela em que se localiza o imóvel rural;
+
+  </p>
+            
+          </Inciso><Inciso id="art23_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    essências nativas as espécies florestais originárias da região fitogeográfica em que se localiza o imóvel rural.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art23_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Considera-se área plantada com produtos vegetais a área efetivamente utilizada com a produção de forrageira de corte destinada à alimentação de animais de outro imóvel rural.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art24">
+            
+            <TituloDispositivo>Área Utilizada - Área Servida de Pastagem</TituloDispositivo>
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput id="art24_cpt">
+            
+            
+            
+            <p>
+    Área servida de pastagem é aquela ocupada por pastos naturais, melhorados ou plantados e por forrageiras de corte que tenha, efetivamente, sido utilizada para alimentação de animais de grande e médio porte, observados os índices de lotação por zona de pecuária, estabelecidos em ato da SRF, ouvido o Conselho Nacional de Política Agrícola.
+
+  </p>
+            
+          </Caput><Paragrafo id="art24_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Para fins do disposto no caput, é considerada área servida de pastagem a área ocupada por forrageira de corte efetivamente utilizada para alimentação de animais do mesmo imóvel rural.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art24_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Aplicam-se, até ulterior ato em contrário, os índices constantes da Tabela nº 5, Índices de Rendimentos Mínimos para Pecuária, aprovada pela Instrução Especial do Instituto Nacional de Colonização e Reforma Agrária (Incra) nº 19, de 28 de maio de 1980, aprovada pela Portaria nº 145, de 28 de maio de 1980, do Ministro de Estado da Agricultura, constantes no Anexo I a esta Instrução Normativa.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art24_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Estão dispensados da aplicação dos índices de lotação por zona de pecuária os imóveis rurais com área inferior a:
+
+  </p>
+            <Inciso id="art24_par3_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    mil hectares, se localizados em municípios compreendidos na Amazônia Ocidental ou no Pantanal mato-grossense e sul-mato-grossense;
+
+  </p>
+            
+          </Inciso><Inciso id="art24_par3_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    quinhentos hectares, se localizados em municípios compreendidos no Polígono das Secas ou na Amazônia Oriental;
+
+  </p>
+            
+          </Inciso><Inciso id="art24_par3_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    duzentos hectares, se localizados em qualquer outro município.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art24_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    As regiões e os municípios a que se refere o § 3º estão relacionados no Anexo I a esta Instrução Normativa.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art25">
+            
+            
+            <Rotulo>Art. 25.</Rotulo>
+            
+            <Caput id="art25_cpt">
+            
+            
+            
+            <p>
+    Para fins de cálculo do grau de utilização do imóvel rural, considera-se área servida de pastagem a menor entre a efetivamente utilizada pelo contribuinte e a obtida pelo quociente entre a quantidade de cabeças do rebanho ajustada e o índice de lotação por zona de pecuária, observando-se que:
+
+  </p>
+            <Inciso id="art25_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a quantidade de cabeças do rebanho ajustada é obtida pela soma da quantidade média de cabeças de animais de grande porte e da quarta parte da quantidade média de cabeças de animais de médio porte existentes no imóvel;
+
+  </p>
+            
+          </Inciso><Inciso id="art25_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a quantidade média de cabeças de animais é o somatório da quantidade de cabeças existente a cada mês dividido por doze, independentemente do número de meses em que tenham existido animais no imóvel.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art25_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Consideram-se, dentre outros, animais de médio porte os ovinos e caprinos e animais de grande porte os bovinos, bufalinos, eqüinos, asininos e muares, independentemente de idade ou sexo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art25_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Caso o imóvel rural esteja dispensado da aplicação de índices de lotação por zona de pecuária, considera-se área servida de pastagem a área efetivamente utilizada pelo contribuinte para tais fins.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art26">
+            
+            <TituloDispositivo>Área Utilizada - Área Objeto de Exploração Extrativa</TituloDispositivo>
+            <Rotulo>Art. 26.</Rotulo>
+            
+            <Caput id="art26_cpt">
+            
+            
+            
+            <p>
+    Área objeto de exploração extrativa é aquela servida para a atividade de extração e coleta de produtos vegetais nativos, não plantados, inclusive a exploração madeireira de florestas nativas, observados a legislação ambiental e os índices de rendimento por produto estabelecidos em ato da SRF, ouvido o Conselho Nacional de Política Agrícola.
+
+  </p>
+            
+          </Caput><Paragrafo id="art26_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Aplicam-se, até ulterior ato em contrário, os índices constantes da Tabela nº 3, Índices de Rendimentos Mínimos para Produtos Extrativos Vegetais e Florestais, aprovada pela Instrução Especial Incra nº 19, de 1980, aprovada pela Portaria nº 145, de 1980, do Ministro de Estado da Agricultura, constantes no Anexo II a esta Instrução Normativa.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art26_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Estão dispensados da aplicação dos índices de rendimento por produto os imóveis rurais com área inferior a:
+
+  </p>
+            <Inciso id="art26_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    mil hectares, se localizados em municípios compreendidos na Amazônia Ocidental ou no Pantanal mato-grossense e sul-mato-grossense;
+
+  </p>
+            
+          </Inciso><Inciso id="art26_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    quinhentos hectares, se localizados em municípios compreendidos no Polígono das Secas ou na Amazônia Oriental;
+
+  </p>
+            
+          </Inciso><Inciso id="art26_par2_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    duzentos hectares, se localizados em qualquer outro município.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art26_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    As regiões e os municípios a que se refere o § 2º estão relacionados no Anexo I a esta Instrução Normativa.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art26_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Para fins do disposto no caput, considera-se área de exploração extrativa a área do imóvel rural explorada com produtos vegetais extrativos, mediante plano de manejo sustentado, desde que aprovado pelo Ibama até 31 de dezembro do ano anterior ao de ocorrência do fato gerador do ITR, e cujo cronograma esteja sendo cumprido pelo contribuinte, dispensada, neste caso, a aplicação de índices de rendimento por produto.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art27">
+            
+            
+            <Rotulo>Art. 27.</Rotulo>
+            
+            <Caput id="art27_cpt">
+            
+            
+            
+            <p>
+    Para fins de cálculo do grau de utilização do imóvel rural, a área objeto de exploração extrativa corresponde ao somatório das áreas assim consideradas em relação a cada produto, nos termos do disposto neste artigo.
+
+  </p>
+            
+          </Caput><Paragrafo id="art27_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Considera-se área objeto de exploração extrativa, para cada produto, a menor entre a efetivamente utilizada pelo contribuinte na atividade extrativa deste e a obtida pelo quociente entre a quantidade extraída de cada produto declarado e o respectivo índice de rendimento por hectare.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art27_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Na ausência de índice de rendimento para determinado produto vegetal ou florestal extrativo, considera-se área objeto de exploração extrativa deste, para fins de cálculo do grau de utilização, a área efetivamente utilizada pelo contribuinte na sua exploração.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art28">
+            
+            <TituloDispositivo>Área Utilizada - Área Utilizada para a Exploração de Atividade Granjeira ou Aqüícola</TituloDispositivo>
+            <Rotulo>Art. 28.</Rotulo>
+            
+            <Caput id="art28_cpt">
+            
+            
+            
+            <p>
+    Área utilizada para a exploração de atividade granjeira ou aqüícola é aquela ocupada com benfeitorias, construções e instalações destinadas ou empregadas diretamente na criação, dentre outros, de suínos, coelhos, bichos-da-seda, abelhas, aves, peixes, crustáceos, répteis e anfíbios.
+
+  </p>
+            
+          </Caput><Paragrafo id="art28_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Na apicultura, somente a área ocupada com as benfeitorias úteis e necessárias destinadas à exploração da atividade é considerada área utilizada pela atividade rural.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art29">
+            
+            <TituloDispositivo>Área Utilizada - Área Objeto de Implantação de Projeto Técnico</TituloDispositivo>
+            <Rotulo>Art. 29.</Rotulo>
+            
+            <Caput id="art29_cpt">
+            
+            
+            
+            <p>
+    Área objeto de implantação de projeto técnico é a área do imóvel rural que tenha projeto técnico reconhecido e aprovado pelo Incra e, sem prejuízo dos termos e condições estabelecidos em regulamento por este órgão, atenda aos seguintes requisitos:
+
+  </p>
+            <Inciso id="art29_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    seja elaborado por profissional legalmente habilitado e identificado;
+
+  </p>
+            
+          </Inciso><Inciso id="art29_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    esteja cumprindo o cronograma físico-financeiro originalmente previsto, não admitidas prorrogações de prazo;
+
+  </p>
+            
+          </Inciso><Inciso id="art29_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    preveja que no mínimo oitenta por cento da área total aproveitável do imóvel esteja utilizada pela atividade rural em, no máximo, três anos para as culturas temporárias e cinco anos para as culturas permanentes; e
+
+  </p>
+            
+          </Inciso><Inciso id="art29_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    tenha sido aprovado pelo órgão federal competente até 31 de dezembro do ano anterior ao de ocorrência do fato gerador do ITR.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art29_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os prazos de que trata o inciso III do caput poderão ser prorrogados em até cinqüenta por cento, desde que o projeto receba, anualmente, a aprovação do órgão competente.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art29_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Atendidas as condições previstas nos incisos I a IV do caput, considera-se efetivamente utilizada a área total do projeto técnico, à qual não se aplicarão, no caso de área de pastagem, os índices de lotação por zona de pecuária a que se refere o art. 24.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art29_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Se o projeto técnico não estiver atendendo às condições previstas nos incisos I a IV do caput, a área deverá ser declarada de acordo com a sua real utilização, estando, inclusive, sujeita aos índices de lotação e rendimento previstos nos arts. 24 e 26.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art29_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Encerrado o prazo de implantação do projeto técnico, as áreas do imóvel rural deverão ser declaradas conforme sua utilização no ano anterior ao de ocorrência do fato gerador do ITR.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art30">
+            
+            <TituloDispositivo>Área Não Utilizada</TituloDispositivo>
+            <Rotulo>Art. 30.</Rotulo>
+            
+            <Caput id="art30_cpt">
+            
+            
+            
+            <p>
+    A área não utilizada pela atividade rural corresponde ao somatório das parcelas da área aproveitável do imóvel que, no ano anterior ao de ocorrência do fato gerador do ITR, não tenham sido objeto de qualquer exploração ou tenham sido utilizadas para fins diversos da atividade rural, tais como:
+
+  </p>
+            <Inciso id="art30_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    áreas ocupadas por benfeitorias não abrangidas pelo disposto no art. 16;
+
+  </p>
+            
+          </Inciso><Inciso id="art30_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    áreas ocupadas por jazidas ou minas, exploradas ou não;
+
+  </p>
+            
+          </Inciso><Inciso id="art30_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    áreas imprestáveis para a atividade rural, não declaradas de interesse ecológico por ato do órgão competente;
+
+  </p>
+            
+          </Inciso><Inciso id="art30_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    a área correspondente à diferença entre as áreas declaradas como servidas de pastagem e as áreas consideradas como servidas de pastagem para fins de cálculo do grau de utilização do imóvel rural, observado o disposto nos arts. 24 e 25;
+
+  </p>
+            
+          </Inciso><Inciso id="art30_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    a área correspondente à diferença entre as áreas declaradas de exploração extrativa e as áreas consideradas como de exploração extrativa para fins de cálculo do grau de utilização do imóvel rural, observado o disposto nos arts. 26 e 27.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art30_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    As áreas adquiridas após 1º de janeiro do ano de ocorrência do fato de gerador do ITR até a data da efetiva entrega da respectiva DITR, quando não utilizadas na atividade rural no ano anterior ao de ocorrência do fato gerador do ITR, devem ser assim informadas pelo adquirente, nos termos do disposto neste artigo, caso ainda não hajam sido declaradas pelo alienante.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art31">
+            
+            <TituloDispositivo>Cálculo do Imposto - Grau de Utilização</TituloDispositivo>
+            <Rotulo>Art. 31.</Rotulo>
+            
+            <Caput id="art31_cpt">
+            
+            
+            
+            <p>
+    Grau de utilização é a relação percentual entre a área utilizada pela atividade rural, observado o disposto nos arts. 17 a 29, e a área aproveitável do imóvel rural, definida no art. 15.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art32">
+            
+            <TituloDispositivo>Cálculo do Imposto - Base de Cálculo</TituloDispositivo>
+            <Rotulo>Art. 32.</Rotulo>
+            
+            <Caput id="art32_cpt">
+            
+            
+            
+            <p>
+    Valor da Terra Nua (VTN) é o valor de mercado do solo com sua superfície, bem assim das florestas naturais, das matas nativas e das pastagens naturais que integram o imóvel rural.
+
+  </p>
+            
+          </Caput><Paragrafo id="art32_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Não integram o VTN os valores de mercado relativos a:
+
+  </p>
+            <Inciso id="art32_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    construções, instalações e benfeitorias;
+
+  </p>
+            
+          </Inciso><Inciso id="art32_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    culturas permanentes e temporárias;
+
+  </p>
+            
+          </Inciso><Inciso id="art32_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    pastagens cultivadas e melhoradas;
+
+  </p>
+            
+          </Inciso><Inciso id="art32_par1_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    florestas plantadas.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art32_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O VTN refletirá o preço de mercado de terras, apurado em 1º de janeiro do ano de ocorrência do fato gerador do ITR, e será considerado auto-avaliação da terra nua a preço de mercado.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art32_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Para fins do disposto no inciso I do § 1º, incluem-se no conceito de construções, instalações e benfeitorias os prédios, depósitos, galpões, casas de trabalhadores, estábulos, currais, mangueiras, aviários, pocilgas e outras instalações para abrigo ou tratamento de animais, terreiros e similares para secagem de produtos agrícolas, eletricidade rural, colocação de água subterrânea, abastecimento ou distribuição de águas, barragens, represas, tanques, cercas e, ainda, as benfeitorias não relacionadas com a atividade rural.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art33">
+            
+            
+            <Rotulo>Art. 33.</Rotulo>
+            
+            <Caput id="art33_cpt">
+            
+            
+            
+            <p>
+    O Valor da Terra Nua Tributável (VTNT) é obtido mediante a multiplicação do VTN pelo quociente entre a área tributável, definida no art. 9º, e a área total do imóvel rural.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art34">
+            
+            <TituloDispositivo>Cálculo do Imposto - Alíquota</TituloDispositivo>
+            <Rotulo>Art. 34.</Rotulo>
+            
+            <Caput id="art34_cpt">
+            
+            
+            
+            <p>
+    A alíquota utilizada para cálculo do ITR é estabelecida para cada imóvel rural, com base em sua área total e no respectivo grau de utilização, conforme a tabela seguinte:
+
+  </p>
+            <table id="art34_cpt_tab1"><tr><td>ÁREA TOTAL DO IMÓVEL (em hectares)</td><td colspan="5">GRAU DE UTILIZAÇÃO (em %)</td></tr><tr><td/><td>Maior que 80</td><td>Maior que 65 até 80</td><td>Maior que 50 até 65</td><td>Maior que 30 até 50</td><td>Até 30</td></tr><tr><td>Até 50</td><td>0,03</td><td>0,20</td><td>0,40</td><td>0,70</td><td>1,00</td></tr><tr><td>Maior que 50 até 200</td><td>0,07</td><td>0,40</td><td>0,80</td><td>1,40</td><td>2,00</td></tr><tr><td>Maior que 200 até 500</td><td>0,10</td><td>0,60</td><td>1,30</td><td>2,30</td><td>3,30</td></tr><tr><td>Maior que 500 até 1.000</td><td>0,15</td><td>0,85</td><td>1,90</td><td>3,30</td><td>4,70</td></tr><tr><td>Maior que 1.000 até 5.000</td><td>0,30</td><td>1,60</td><td>3,40</td><td>6,00</td><td>8,60</td></tr><tr><td>Acima de 5.000</td><td>0,45</td><td>3,00</td><td>6,40</td><td>12,00</td><td>20,00</td></tr></table>
+          </Caput>
+          </Artigo><Artigo id="art35">
+            
+            <TituloDispositivo>Cálculo do Imposto - Valor a Ser Pago</TituloDispositivo>
+            <Rotulo>Art. 35.</Rotulo>
+            
+            <Caput id="art35_cpt">
+            
+            
+            
+            <p>
+    O valor do imposto a ser pago é obtido mediante a multiplicação do VTNT pela alíquota correspondente, obtida nos termos do art. 34, considerados a área total e o grau de utilização do imóvel rural.
+
+  </p>
+            
+          </Caput><Paragrafo id="art35_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Na hipótese de inexistir área aproveitável após a exclusão das áreas não tributáveis e das áreas ocupadas com benfeitorias úteis e necessárias, devem ser aplicadas as alíquotas correspondentes aos imóveis rurais com grau de utilização superior a oitenta por cento, observada a área total do imóvel.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art35_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Em nenhuma hipótese o valor do imposto devido será inferior a R$ 10,00 (dez reais). Declaração do Imposto sobre a Propriedade Territorial Rural
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art36">
+            
+            <TituloDispositivo>Disposições Gerais</TituloDispositivo>
+            <Rotulo>Art. 36.</Rotulo>
+            
+            <Caput id="art36_cpt">
+            
+            
+            
+            <p>
+    O sujeito passivo, inclusive o isento, ou a pessoa imune deve apresentar anualmente, em modelo aprovado pela SRF, a Declaração do Imposto sobre a Propriedade Territorial Rural (DITR) correspondente a cada imóvel rural, composta pelos seguintes documentos:
+
+  </p>
+            <Inciso id="art36_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Documento de Informação e Atualização Cadastral do ITR (Diac), mediante o qual o sujeito passivo, inclusive o isento, ou a pessoa imune deve prestar à SRF as informações cadastrais correspondentes a cada imóvel rural e a seu titular;
+
+  </p>
+            
+          </Inciso><Inciso id="art36_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Documento de Informação e Apuração do ITR (Diat), mediante o qual o sujeito passivo deve prestar à SRF as informações necessárias ao cálculo do ITR e apurar o valor do imposto correspondente a cada imóvel rural.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art36_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As informações constantes no Diac integrarão o Cafir, cuja administração cabe à SRF, que pode, a qualquer tempo, solicitar informações visando à sua atualização.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art36_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A inscrição do imóvel rural no Cafir e os efeitos dela decorrentes não geram qualquer direito ao proprietário, ao titular do domínio útil e ao possuidor a qualquer título.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art36_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    As pessoas isentas ou imunes do ITR estão dispensadas de preencher o Diat.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art37">
+            
+            
+            <Rotulo>Art. 37.</Rotulo>
+            
+            <Caput id="art37_cpt">
+            
+            
+            
+            <p>
+    Os termos, locais, formas, prazos e condições para a apresentação da DITR serão fixados anualmente pela SRF em ato administrativo próprio.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art38">
+            
+            <TituloDispositivo>Espólio</TituloDispositivo>
+            <Rotulo>Art. 38.</Rotulo>
+            
+            <Caput id="art38_cpt">
+            
+            
+            
+            <p>
+    O imóvel rural que, na data da efetiva entrega da DITR, pertencer a espólio deve ser declarado em nome deste pelo inventariante ou, se este ainda não houver sido nomeado, pelo cônjuge meeiro, companheiro ou sucessor a qualquer título.
+
+  </p>
+            
+          </Caput><Paragrafo id="art38_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Devem ser também apresentadas em nome do espólio as declarações que deveriam ter sido entregues pelo de cujus e não o foram tempestivamente.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art39">
+            
+            <TituloDispositivo>Condomínio</TituloDispositivo>
+            <Rotulo>Art. 39.</Rotulo>
+            
+            <Caput id="art39_cpt">
+            
+            
+            
+            <p>
+    O imóvel rural que for titulado a várias pessoas, enquanto for mantido indiviso, deve ser declarado por somente um dos titulares, na condição de condômino declarante.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art40">
+            
+            <TituloDispositivo>Assentamento</TituloDispositivo>
+            <Rotulo>Art. 40.</Rotulo>
+            
+            <Caput id="art40_cpt">
+            
+            
+            
+            <p>
+    Na hipótese de assentamento, a DITR deve ser apresentada:
+
+  </p>
+            <Inciso id="art40_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    pelo assentado, em relação à sua parcela de terra, quando esta tiver sido titulada individualizadamente em nome do assentado;
+
+  </p>
+            
+          </Inciso><Inciso id="art40_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    por um dos assentados, na qualidade de condômino declarante, em relação a todo o assentamento, quando este tiver sido titulado em nome coletivo, configurando a existência de condomínio, ainda que a área não seja explorada coletivamente por associação ou cooperativa de produção;
+
+  </p>
+            
+          </Inciso><Inciso id="art40_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    pela associação ou cooperativa em nome da qual tiver sido titulado o assentamento, em relação à área total deste.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art41">
+            
+            <TituloDispositivo>Documentos Comprobatórios</TituloDispositivo>
+            <Rotulo>Art. 41.</Rotulo>
+            
+            <Caput id="art41_cpt">
+            
+            
+            
+            <p>
+    Os documentos que comprovem as informações prestadas na DITR não devem ser anexados à declaração, devendo ser mantidos em boa guarda e ordem à disposição da SRF, até que ocorra a prescrição dos créditos tributários relativos às situações e aos fatos a que se refiram.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art42">
+            
+            <TituloDispositivo>Retificação Retificação Antes de Iniciada a Fiscalização</TituloDispositivo>
+            <Rotulo>Art. 42.</Rotulo>
+            
+            <Caput id="art42_cpt">
+            
+            
+            
+            <p>
+    O sujeito passivo, inclusive o isento, ou a pessoa imune obrigada à apresentação da DITR pode, antes de iniciado o procedimento de lançamento de ofício, retificar a declaração anteriormente entregue mediante apresentação de nova declaração, independentemente de autorização pela autoridade administrativa.
+
+  </p>
+            
+          </Caput><Paragrafo id="art42_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A declaração retificadora a que se refere o caput:
+
+  </p>
+            <Inciso id="art42_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    terá a mesma natureza da declaração originalmente apresentada, substituindo-a integralmente, inclusive para os efeitos de revisão sistemática;
+
+  </p>
+            
+          </Inciso><Inciso id="art42_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    será processada em função da data de sua entrega.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art42_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Na hipótese de a retificação da declaração resultar em aumento do imposto a pagar apurado na declaração retificada, deve-se observar o seguinte procedimento:
+
+  </p>
+            <Inciso id="art42_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    calcular-se-á o novo valor de cada quota, mantendo-se o número de quotas em que o imposto foi parcelado na declaração retificada;
+
+  </p>
+            
+          </Inciso><Inciso id="art42_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    sobre a diferença correspondente a cada quota vencida incidirão acréscimos legais calculados de acordo com o disposto no art. 52.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art42_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Na hipótese de a retificação da declaração resultar em redução do imposto a pagar apurado na declaração retificada, deve-se observar o seguinte procedimento:
+
+  </p>
+            <Inciso id="art42_par3_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    calcular-se-á o novo valor de cada quota, mantendo-se o número de quotas em que o imposto foi parcelado na declaração retificada, desde que respeitado o valor mínimo estabelecido;
+
+  </p>
+            
+          </Inciso><Inciso id="art42_par3_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    os valores pagos a maior relativos às quotas vencidas, bem assim os acréscimos legais referentes a esses valores, poderão ser compensados nas quotas vincendas, ou ser objeto de restituição;
+
+  </p>
+            
+          </Inciso><Inciso id="art42_par3_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    sobre o montante a ser compensado ou restituído incidirão juros equivalentes à taxa referencial do Sistema Especial de Liquidação e de Custódia (Selic) para títulos federais, acumulada mensalmente, calculados a partir do primeiro dia do mês subseqüente ao do pagamento indevido ou maior que o devido até o último dia do mês anterior ao da restituição ou compensação, e de um por cento no mês da restituição ou compensação.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo id="art43">
+            
+            <TituloDispositivo>Retificação Após Iniciada a Fiscalização</TituloDispositivo>
+            <Rotulo>Art. 43.</Rotulo>
+            
+            <Caput id="art43_cpt">
+            
+            
+            
+            <p>
+    O sujeito passivo que, depois de iniciado o procedimento de lançamento de ofício, requerer a retificação da DITR não se eximirá, por isso, das penalidades previstas na legislação tributária.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art44">
+            
+            <TituloDispositivo>Revisão</TituloDispositivo>
+            <Rotulo>Art. 44.</Rotulo>
+            
+            <Caput id="art44_cpt">
+            
+            
+            
+            <p>
+    A DITR está sujeita a revisão pela SRF, que, se for o caso, pode exigir do sujeito passivo a apresentação dos comprovantes necessários à verificação da autenticidade das informações prestadas.
+
+  </p>
+            
+          </Caput><Paragrafo id="art44_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A revisão é feita com elementos de que dispuser a SRF, esclarecimentos verbais ou escritos solicitados ao contribuinte ou por outros meios previstos na legislação.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art44_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O contribuinte que deixar de atender ao pedido de esclarecimentos ficará sujeito ao lançamento de ofício de que trata o art. 45.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art45">
+            
+            <TituloDispositivo>Lançamento de Ofício</TituloDispositivo>
+            <Rotulo>Art. 45.</Rotulo>
+            
+            <Caput id="art45_cpt">
+            
+            
+            
+            <p>
+    O lançamento será efetuado de ofício quando o sujeito passivo:
+
+  </p>
+            <Inciso id="art45_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    não apresentar a DITR;
+
+  </p>
+            
+          </Inciso><Inciso id="art45_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    deixar de atender aos pedidos de esclarecimentos que lhe forem dirigidos, recusar-se a prestá-los ou não os prestar satisfatoriamente no tempo aprazado;
+
+  </p>
+            
+          </Inciso><Inciso id="art45_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    apresentar declaração inexata, considerando-se como tal a que contiver ou omitir qualquer elemento que implique redução do imposto a pagar;
+
+  </p>
+            
+          </Inciso><Inciso id="art45_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    não efetuar ou efetuar com inexatidão o pagamento do imposto devido;
+
+  </p>
+            
+          </Inciso><Inciso id="art45_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    estiver sujeito, por ação ou omissão, à aplicação de penalidade pecuniária.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art45_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O crédito tributário também deve ser lançado de ofício nos casos em que o sujeito passivo tenha informado o enquadramento em hipóteses de imunidade, isenção ou redução do imposto, mas não tenha cumprido ou tenha deixado de cumprir, na data de ocorrência do fato gerador do ITR, os requisitos necessários.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art46">
+            
+            <TituloDispositivo>Sistema de Preços de Terras</TituloDispositivo>
+            <Rotulo>Art. 46.</Rotulo>
+            
+            <Caput id="art46_cpt">
+            
+            
+            
+            <p>
+    No caso de falta de entrega do Diac ou do Diat, bem assim de subavaliação ou prestação de informações inexatas, incorretas ou fraudulentas, a SRF procederá à determinação e ao lançamento de ofício do imposto, considerando as informações sobre preços de terras constantes em sistema por ela instituído, e os dados de área total, área tributável e grau de utilização do imóvel rural apurados em procedimentos de fiscalização.
+
+  </p>
+            
+          </Caput><Paragrafo id="art46_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As informações sobre preços de terras observarão os critérios legalmente estabelecidos e considerarão levantamentos realizados pelas Secretarias de Agricultura das Unidades Federadas ou dos Municípios.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art46_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As multas cobradas em virtude do disposto neste artigo serão aquelas aplicáveis aos demais tributos federais.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art47">
+            
+            <TituloDispositivo>Intimação</TituloDispositivo>
+            <Rotulo>Art. 47.</Rotulo>
+            
+            <Caput id="art47_cpt">
+            
+            
+            
+            <p>
+    O sujeito passivo deve ser intimado do início do procedimento, do pedido de esclarecimentos ou da lavratura do auto de infração:
+
+  </p>
+            <Inciso id="art47_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    pessoalmente, pelo autor do procedimento ou por agente do órgão preparador, na repartição ou fora dela, provada a intimação com a assinatura do sujeito passivo, seu mandatário ou preposto, ou, no caso de recusa, com declaração escrita de quem o intimar;
+
+  </p>
+            
+          </Inciso><Inciso id="art47_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    por via postal, telegráfica ou por qualquer outro meio ou via, com prova de recebimento, no endereço informado para tal fim, conforme previsto no § 2º do art. 6º, ou no domicílio tributário do sujeito passivo;
+
+  </p>
+            
+          </Inciso><Inciso id="art47_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    por edital, quando resultarem improfícuos os meios referidos nos incisos I e II.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art47_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O edital deve ser publicado, uma única vez, em órgão de imprensa oficial local, ou afixado em dependência, franqueada ao público, do órgão encarregado da intimação.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art47_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Considera-se feita a intimação:
+
+  </p>
+            <Inciso id="art47_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    na data da ciência do intimado ou da declaração de quem fizer a intimação, se pessoal;
+
+  </p>
+            
+          </Inciso><Inciso id="art47_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    no caso do inciso II do caput, na data do recebimento ou, se omitida, quinze dias após a data da expedição da intimação;
+
+  </p>
+            
+          </Inciso><Inciso id="art47_par2_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    quinze dias após a publicação ou afixação do edital, se este for o meio utilizado.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art47_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Os meios de intimação previstos nos incisos I e II do caput não estão sujeitos a ordem de preferência.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art48">
+            
+            <TituloDispositivo>Pagamento do Imposto Disposições Preliminares</TituloDispositivo>
+            <Rotulo>Art. 48.</Rotulo>
+            
+            <Caput id="art48_cpt">
+            
+            
+            
+            <p>
+    O pagamento deve ser feito por meio de Documento de Arrecadação de Receitas Federais (Darf), no qual o sujeito passivo deve indicar o código do tributo, o número de inscrição no Cadastro de Pessoas Físicas (CPF) ou no Cadastro Nacional da Pessoa Jurídica (CNPJ), conforme o caso, o número do imóvel rural, além de outros elementos qualificativos ou informativos.
+
+  </p>
+            
+          </Caput><Paragrafo id="art48_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O Darf obedecerá ao modelo aprovado pela SRF e sua utilização pelo sujeito passivo far-se-á de acordo com instruções específicas.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art48_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    É vedada a utilização de Darf para o pagamento de imposto de valor inferior a R$ 10,00 (dez reais).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art49">
+            
+            <TituloDispositivo>Utilização de TODA</TituloDispositivo>
+            <Rotulo>Art. 49.</Rotulo>
+            
+            <Caput id="art49_cpt">
+            
+            
+            
+            <p>
+    É facultado ao sujeito passivo o pagamento de até cinqüenta por cento do valor original do ITR com Títulos da Dívida Agrária (TDA) do tipo escritural.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art50">
+            
+            <TituloDispositivo>Prazo</TituloDispositivo>
+            <Rotulo>Art. 50.</Rotulo>
+            
+            <Caput id="art50_cpt">
+            
+            
+            
+            <p>
+    O imposto deve ser pago até o último dia útil do mês fixado para a entrega da DITR.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art51">
+            
+            <TituloDispositivo>Quotas</TituloDispositivo>
+            <Rotulo>Art. 51.</Rotulo>
+            
+            <Caput id="art51_cpt">
+            
+            
+            
+            <p>
+    À opção do contribuinte, o imposto a pagar pode ser parcelado em até quatro quotas iguais, mensais e consecutivas, observando-se que:
+
+  </p>
+            <Inciso id="art51_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    nenhuma quota será inferior a R$ 50,00 (cinqüenta reais);
+
+  </p>
+            
+          </Inciso><Inciso id="art51_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a primeira quota ou quota única deve ser paga até o último dia útil do mês fixado para a entrega da DITR;
+
+  </p>
+            
+          </Inciso><Inciso id="art51_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    as demais quotas, acrescidas de juros equivalentes à taxa referencial Selic para títulos federais, acumulada mensalmente, calculados a partir do primeiro dia do mês subseqüente ao fixado para a entrega da DITR até o último dia do mês anterior ao do pagamento, e de um por cento no mês do pagamento, vencerão no último dia útil de cada mês;
+
+  </p>
+            
+          </Inciso><Inciso id="art51_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    é facultado ao contribuinte antecipar, total ou parcialmente, o pagamento do imposto ou das quotas.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art52">
+            
+            <TituloDispositivo>Pagamento Fora do Prazo</TituloDispositivo>
+            <Rotulo>Art. 52.</Rotulo>
+            
+            <Caput id="art52_cpt">
+            
+            
+            
+            <p>
+    A falta ou insuficiência de pagamento do imposto, no prazo fixado, sujeita o contribuinte ao pagamento do valor que deixou de ser pago, acrescido de:
+
+  </p>
+            <Inciso id="art52_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    multa de mora calculada à taxa de trinta e três centésimos por cento, por dia de atraso, não podendo ultrapassar a vinte por cento, calculada a partir do primeiro dia útil subseqüente ao do vencimento do prazo previsto para pagamento do imposto até o dia em que ocorrer o seu pagamento;
+
+  </p>
+            
+          </Inciso><Inciso id="art52_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    juros de mora equivalentes à taxa referencial Selic para títulos federais, acumulada mensalmente, calculados a partir do primeiro dia do mês subseqüente ao vencimento do prazo para pagamento até o mês anterior ao do pagamento, e de um por cento no mês do efetivo pagamento.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art53">
+            
+            <TituloDispositivo>Prova de Quitação Incentivos Fiscais e Crédito Rural</TituloDispositivo>
+            <Rotulo>Art. 53.</Rotulo>
+            
+            <Caput id="art53_cpt">
+            
+            
+            
+            <p>
+    A concessão de incentivos fiscais e de crédito rural, em todas as suas modalidades, bem assim a constituição das respectivas contrapartidas ou garantias, ficam condicionadas à comprovação do pagamento do ITR relativo ao imóvel rural, correspondente aos últimos cinco exercícios, ressalvados os casos em que a exigibilidade do imposto esteja suspensa, ou em curso de cobrança executiva em que tenha sido efetivada a penhora.
+
+  </p>
+            
+          </Caput><Paragrafo id="art53_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Aplica-se também o disposto no caput aos créditos tomados pelas cooperativas para repasse aos seus cooperados, bem assim aos tomados para uso próprio.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art53_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    É dispensada a comprovação de regularidade de pagamento do imposto relativo ao imóvel rural para efeito de concessão de financiamento ao amparo do Programa Nacional de Fortalecimento da Agricultura Familiar (Pronaf).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art54">
+            
+            <TituloDispositivo>Registro Público</TituloDispositivo>
+            <Rotulo>Art. 54.</Rotulo>
+            
+            <Caput id="art54_cpt">
+            
+            
+            
+            <p>
+    É obrigatória a comprovação do pagamento do ITR, referente aos cinco últimos exercícios, para serem praticados quaisquer dos atos previstos nos arts. 167 e 168 da Lei nº 6.015, de 31 de dezembro de 1973 - Lei dos Registros Públicos (LRP), observada a ressalva prevista no caput do art. 53.
+
+  </p>
+            
+          </Caput><Paragrafo id="art54_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    São solidariamente responsáveis pelo imposto e pelos acréscimos legais, nos termos do art. 134 do CTN, os serventuários do registro de imóveis que descumprirem o disposto neste artigo, sem prejuízo de outras sanções legais.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art55">
+            
+            <TituloDispositivo>Certidão</TituloDispositivo>
+            <Rotulo>Art. 55.</Rotulo>
+            
+            <Caput id="art55_cpt">
+            
+            
+            
+            <p>
+    A prova de quitação do crédito tributário será feita por meio de certidão emitida, no âmbito de suas atribuições, pela SRF ou pela Procuradoria-Geral da Fazenda Nacional.
+
+  </p>
+            
+          </Caput><Paragrafo id="art55_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A certidão será eficaz, dentro do seu prazo de validade e para o fim a que se destina, perante qualquer órgão ou entidade da Administração Federal, Estadual e Municipal, direta ou indireta.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art55_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Tem os mesmos efeitos previstos neste artigo a certidão de que conste a existência de créditos não vencidos, em curso de cobrança executiva em que tenha sido efetivada a penhora, ou cuja exigibilidade esteja suspensa.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art55_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    No âmbito da SRF, o requerimento e a emissão da Certidão de Regularidade Fiscal do Imóvel Rural obedecerão ao disposto na Instrução Normativa SRF nº 94, de 23 de novembro de 2001.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art56">
+            
+            <TituloDispositivo>Declaração de Inexistência de Débito</TituloDispositivo>
+            <Rotulo>Art. 56.</Rotulo>
+            
+            <Caput id="art56_cpt">
+            
+            
+            
+            <p>
+    Quando se tratar de imóveis com área inferior a duzentos hectares, a comprovação prevista nos arts. 53 e 54 poderá ser substituída por declaração firmada pelo próprio interessado ou procurador, informando, sob as penas da lei, inexistir débito relativo ao imóvel, referente aos últimos cinco exercícios, ou que o débito se acha pendente de decisão administrativa ou judicial.
+
+  </p>
+            
+          </Caput><Paragrafo id="art56_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A declaração de que trata o caput deverá conter, além dos dados que identifiquem a instituição financeira ou o registro de imóveis, o Número do Imóvel na Receita Federal (Nirf), o nome e o número de inscrição no CPF ou no CNPJ do interessado e o código de inscrição no Cadastro de Imóveis Rurais do Incra.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art56_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As instituições financeiras e os registros de imóveis encaminharão à unidade da SRF local, para fins de verificação de veracidade, as declarações firmadas nos termos deste artigo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art56_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A remessa das declarações à SRF deverá ser efetuada até o décimo dia do mês subseqüente àquele em que tiverem sido firmadas.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art56_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Comprovada a falsidade da declaração, o declarante ficará sujeito às sanções civis, administrativas e criminais previstas em lei.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art57">
+            
+            <TituloDispositivo>Fiscalização</TituloDispositivo>
+            <Rotulo>Art. 57.</Rotulo>
+            
+            <Caput id="art57_cpt">
+            
+            
+            
+            <p>
+    A legislação tributária que trata da competência e dos poderes das autoridades administrativas em matéria de fiscalização aplica-se às pessoas naturais ou jurídicas, contribuintes ou não, inclusive às que gozam de imunidade tributária ou de isenção.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art58">
+            
+            
+            <Rotulo>Art. 58.</Rotulo>
+            
+            <Caput id="art58_cpt">
+            
+            
+            
+            <p>
+    Para os efeitos da legislação tributária, não têm aplicação quaisquer disposições legais excludentes ou limitativas do direito de examinar mercadorias, livros, arquivos, documentos, papéis e efeitos comerciais ou fiscais, dos comerciantes, industriais ou produtores, ou da obrigação destes de exibi-los.
+
+  </p>
+            
+          </Caput><Paragrafo id="art58_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Os livros obrigatórios de escrituração comercial e fiscal e os comprovantes dos lançamentos neles efetuados serão conservados até que ocorra a prescrição dos créditos tributários decorrentes das operações a que se refiram.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art59">
+            
+            <TituloDispositivo>Penalidades Multa por Atraso na Entrega da DITR</TituloDispositivo>
+            <Rotulo>Art. 59.</Rotulo>
+            
+            <Caput id="art59_cpt">
+            
+            
+            
+            <p>
+    No caso de apresentação espontânea da DITR fora do prazo estabelecido pela SRF, será cobrada multa de:
+
+  </p>
+            <Inciso id="art59_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    R$ 50,00 (cinqüenta reais), no caso de imóvel rural imune ou isento; ou
+
+  </p>
+            
+          </Inciso><Inciso id="art59_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    um por cento ao mês-calendário ou fração sobre o imposto devido, tratando-se de imóvel sujeito à apuração do imposto, sem prejuízo da multa e dos juros de mora pela falta ou insuficiência do recolhimento do imposto ou quota.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art59_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Em nenhuma hipótese o valor da multa de que trata o caput será inferior a R$ 50,00 (cinqüenta reais).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art60">
+            
+            <TituloDispositivo>Multas de Lançamento de Ofício</TituloDispositivo>
+            <Rotulo>Art. 60.</Rotulo>
+            
+            <Caput id="art60_cpt">
+            
+            
+            
+            <p>
+    Nos casos de lançamento de ofício, serão aplicadas as seguintes multas, calculadas sobre a totalidade ou diferença do ITR:
+
+  </p>
+            <Inciso id="art60_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    de 75%, nos casos de falta de pagamento, de pagamento após o vencimento do prazo, sem o acréscimo de multa moratória, de falta de declaração e nos de declaração inexata, excetuada a hipótese do inciso II;
+
+  </p>
+            
+          </Inciso><Inciso id="art60_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    150%, nos casos de evidente intuito de sonegação, fraude ou conluio, independentemente de outras penalidades administrativas ou criminais cabíveis.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art60_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    As multas de que trata este artigo serão exigidas:
+
+  </p>
+            <Inciso id="art60_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    juntamente com o ITR, quando não houver sido anteriormente pago;
+
+  </p>
+            
+          </Inciso><Inciso id="art60_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    isoladamente, quando o ITR houver sido pago após o vencimento do prazo previsto, mas sem o acréscimo de multa de mora.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art60_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As multas a que se referem os incisos I e II do caput passarão a ser de 112,5% e 225%, respectivamente, nos casos de não atendimento pelo sujeito passivo, no prazo marcado, de intimação para:
+
+  </p>
+            <Inciso id="art60_par2_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    prestar esclarecimentos;
+
+  </p>
+            
+          </Inciso><Inciso id="art60_par2_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    apresentar os arquivos digitais ou sistemas de processamento eletrônico de dados utilizados para registrar negócios e atividades econômicas ou financeiras, escriturar livros ou elaborar documentos de natureza contábil ou fiscal;
+
+  </p>
+            
+          </Inciso><Inciso id="art60_par2_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    apresentar a documentação técnica e atualizada sobre o sistema de processamento de dados por ele utilizado, suficiente para possibilitar a sua auditoria.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art60_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Será concedida redução de cinqüenta por cento da multa de lançamento de ofício ao contribuinte que, notificado, efetuar o pagamento do débito no prazo legal de impugnação.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art60_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Se houver impugnação tempestiva, a redução será de trinta por cento, se o pagamento do débito for efetuado dentro de trinta dias da ciência da decisão de primeira instância.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art60_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Será concedida redução de quarenta por cento da multa de lançamento de ofício ao contribuinte que, notificado, requerer o parcelamento do débito no prazo legal de impugnação.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art60_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    Havendo impugnação tempestiva, a redução será de vinte por cento, se o parcelamento for requerido dentro de trinta dias da ciência da decisão de primeira instância.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art60_par7">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    A rescisão do parcelamento, motivada pelo descumprimento das normas que o regulam, implicará restabelecimento do montante da multa proporcionalmente ao valor da receita não satisfeito.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art61">
+            
+            <TituloDispositivo>Disposições Finais</TituloDispositivo>
+            <Rotulo>Art. 61.</Rotulo>
+            
+            <Caput id="art61_cpt">
+            
+            
+            
+            <p>
+    No processo administrativo fiscal, compreendendo os procedimentos destinados à determinação e exigência do imposto, imposição de penalidades, repetição do indébito e solução de consultas, bem assim a compensação do imposto, observar-se-á a legislação prevista para os demais tributos federais.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art62">
+            
+            
+            <Rotulo>Art. 62.</Rotulo>
+            
+            <Caput id="art62_cpt">
+            
+            
+            
+            <p>
+    Devem ser utilizados os seguintes códigos de receita:
+
+  </p>
+            <Inciso id="art62_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    1070, para o pagamento das quotas ou quota única do ITR;
+
+  </p>
+            
+          </Inciso><Inciso id="art62_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    5300, para o pagamento da multa por atraso na entrega da DITR.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art63">
+            
+            
+            <Rotulo>Art. 63.</Rotulo>
+            
+            <Caput id="art63_cpt">
+            
+            
+            
+            <p>
+    Sem prejuízo do disposto no inciso I do art. 36, fica suspenso por tempo indeterminado o prazo de sessenta dias, previsto no § 1º do art. 6º da Lei nº 9.393, de 19 de dezembro de 1996, para a comunicação à SRF das seguintes alterações ocorridas no imóvel rural:
+
+  </p>
+            <Inciso id="art63_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    desmembramento;
+
+  </p>
+            
+          </Inciso><Inciso id="art63_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    anexação;
+
+  </p>
+            
+          </Inciso><Inciso id="art63_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    transmissão, por alienação da propriedade ou dos direitos a ela inerentes, a qualquer título;
+
+  </p>
+            
+          </Inciso><Inciso id="art63_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    sucessão causa mortis;
+
+  </p>
+            
+          </Inciso><Inciso id="art63_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    cessão de direitos;
+
+  </p>
+            
+          </Inciso><Inciso id="art63_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    constituição de reservas ou usufruto.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art64">
+            
+            
+            <Rotulo>Art. 64.</Rotulo>
+            
+            <Caput id="art64_cpt">
+            
+            
+            
+            <p>
+    Esta Instrução Normativa entra em vigor na data de sua publicação.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art65">
+            
+            
+            <Rotulo>Art. 65.</Rotulo>
+            
+            <Caput id="art65_cpt">
+            
+            
+            
+            <p>
+    Fica formalmente revogada, sem interrupção de sua força normativa, a Instrução Normativa SRF nº 60, de 6 de junho de 2001. EVERARDO MACIEL
+
+  </p>
+            
+          </Caput>
+          </Artigo></Articulacao>
+          
+          <Anexos><ReferenciaAnexo AlvoURN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2002-12-11;256!anexo1"/><ReferenciaAnexo AlvoURN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2002-12-11;256!anexo2"/><ReferenciaAnexo AlvoURN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2002-12-11;256!anexo3"/><ReferenciaAnexo AlvoURN="urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2002-12-11;256!anexo4"/></Anexos>
+        </Norma></ProjetoNorma>
+    </LexML>

@@ -1,0 +1,6708 @@
+{
+ "timestamp": "2026-09-24T21:11:17",
+ "ok": true,
+ "run": {
+  "timestamp": "2026-09-24T21:10:34",
+  "command": "python scripts/segmentation/segment_all.py --jobs 16 --overwrite",
+  "flags": {
+   "only": null,
+   "overwrite": true,
+   "jobs": 16,
+   "max_tokens": 1024,
+   "tokenizer": "max:tiktoken:cl100k_base,hf:Qwen/Qwen3-Embedding-4B",
+   "ementa_max_tokens": 128,
+   "keep_dropped_min_chars": 300,
+   "allow_count_change": false,
+   "out_dir": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/segmented",
+   "grouping_max_tokens": 8192,
+   "skip_validation": false
+  },
+  "saxon": "SaxonC-HE 13.0 from Saxonica",
+  "annex_counts": {
+   "A": 12,
+   "B": 50,
+   "C": 181
+  },
+  "timings": {
+   "1_router_s": 8.7,
+   "2_metadata_s": 4.8,
+   "3_xsl_s": 31.0,
+   "3b_4_split_loose_s": 15.4,
+   "5_non_statutory_s": 9.6,
+   "6_merge_s": 21.2,
+   "total_s": 91.6
+  },
+  "git": {
+   "commit": "9e6addddca290d2662eaa8634834a9c8738fea63",
+   "branch": "segmentation-implementation",
+   "dirty": false,
+   "dirty_files": []
+  },
+  "outputs_sha256": {
+   "chunks_all.csv": "d24a4af12fe86ce69a7411ef2d0f5e70df76ee245166f193d2d65415e9a1a9a5",
+   "chunks_all.csv.gz": "0f495ef04b011926c0e8c476d737e9b716f55ef16cd39e8af65e73042afb920e",
+   "groupings_over_limit.csv": "5f4c9dda097a0c34fde57eb4f5b980449d12c4fbc9fdb518ff6185cb6717cecb",
+   "annex_manifest.csv": "e5eb88b86d38093c19da702f7c9b7fe913da3cf28deb85270621403f7f9a933b"
+  }
+ },
+ "checks": {
+  "csv_schema": {
+   "ok": true,
+   "detail": "chunks_all columns = 27 (6 + 3 + 14 provenance + 3 token counts + texto_sha256)",
+   "examples": []
+  },
+  "non_empty": {
+   "ok": true,
+   "count": 0,
+   "examples": []
+  },
+  "texto_sha256": {
+   "ok": true,
+   "count": 0,
+   "examples": []
+  },
+  "chunk_id_unique": {
+   "ok": true,
+   "dup_chunk_id": 0,
+   "dup_urn_not_ambiguous": 0,
+   "examples": []
+  },
+  "provenance": {
+   "ok": true,
+   "count": 0,
+   "by_kind": {
+    "provenance_missing_id": 0,
+    "provenance_ancestors": 0
+   },
+   "examples": []
+  },
+  "intervals": {
+   "ok": true,
+   "count": 0,
+   "by_kind": {
+    "interval_inverted": 0,
+    "intervals_crossing": 0,
+    "sub_outside_article": 0,
+    "part_outside_unit": 0
+   },
+   "examples": []
+  },
+  "coverage": {
+   "ok": true,
+   "count": 0,
+   "by_kind": {
+    "coverage_art": 0,
+    "coverage_dsp": 0,
+    "coverage_parts": 0,
+    "coverage_agrupamento": 0,
+    "coverage_table": 0
+   },
+   "examples": []
+  },
+  "cap": {
+   "ok": true,
+   "count": 0,
+   "by_kind": {
+    "cap_unflagged": 0,
+    "cap_hard_limit": 0
+   },
+   "examples": [],
+   "uncuttable": [
+    {
+     "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_portaria_2012_1114.xml",
+     "chunk_id": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_portaria_2012_1114#39",
+     "tokens": 1163,
+     "flagged": true
+    }
+   ]
+  },
+  "split_complete": {
+   "ok": true,
+   "count": 0,
+   "by_kind": {
+    "split_incomplete": 0
+   },
+   "examples": []
+  },
+  "text_coverage": {
+   "ok": true,
+   "count": 0,
+   "by_kind": {
+    "text_coverage": 0
+   },
+   "examples": [],
+   "min": 0.9983,
+   "files_below_threshold": []
+  },
+  "grouping_limit": {
+   "ok": true,
+   "limit": 8192,
+   "listed": 243,
+   "over_limit_in_chunks_all": 0,
+   "listed_and_in_chunks_all": 0,
+   "examples": []
+  }
+ },
+ "stats": {
+  "rows_total": 87704,
+  "rows_per_tipo": {
+   "PAR": 21511,
+   "INC": 20617,
+   "ART": 20479,
+   "CPT": 8084,
+   "ALI": 4878,
+   "TXT": 3545,
+   "SEC": 2106,
+   "CAP": 1843,
+   "DSP": 1522,
+   "ITE": 1302,
+   "SSC": 714,
+   "TAB": 706,
+   "TIT": 326,
+   "LIV": 45,
+   "SBT": 21,
+   "PRT": 5
+  },
+  "rows_per_strategy": {
+   "S1": 26252,
+   "S2": 82644,
+   "S3": 87704
+  },
+  "rows_per_categoria": {
+   "main": 71904,
+   "A": 11213,
+   "nao_articulado": 3051,
+   "B": 1041,
+   "C": 495
+  },
+  "rows_per_categoria_tipo": {
+   "A/ALI": 949,
+   "A/ART": 2372,
+   "A/CAP": 204,
+   "A/CPT": 1067,
+   "A/DSP": 393,
+   "A/INC": 2052,
+   "A/ITE": 618,
+   "A/LIV": 2,
+   "A/PAR": 2922,
+   "A/SEC": 371,
+   "A/SSC": 207,
+   "A/TAB": 8,
+   "A/TIT": 33,
+   "A/TXT": 15,
+   "B/ALI": 13,
+   "B/DSP": 626,
+   "B/INC": 59,
+   "B/ITE": 71,
+   "B/TAB": 201,
+   "B/TXT": 71,
+   "C/TAB": 317,
+   "C/TXT": 178,
+   "main/ALI": 3916,
+   "main/ART": 18107,
+   "main/CAP": 1639,
+   "main/CPT": 7017,
+   "main/DSP": 503,
+   "main/INC": 18506,
+   "main/ITE": 613,
+   "main/LIV": 43,
+   "main/PAR": 18589,
+   "main/PRT": 5,
+   "main/SBT": 21,
+   "main/SEC": 1735,
+   "main/SSC": 507,
+   "main/TAB": 2,
+   "main/TIT": 293,
+   "main/TXT": 408,
+   "nao_articulado/TAB": 178,
+   "nao_articulado/TXT": 2873
+  },
+  "files": 664,
+  "tokens_per_tipo": {
+   "ALI": {
+    "reference": {
+     "n": 4878,
+     "p50": 200,
+     "p90": 349,
+     "p99": 573,
+     "max": 1420
+    },
+    "cl100k_base": {
+     "n": 4878,
+     "p50": 191,
+     "p90": 331,
+     "p99": 541,
+     "max": 1257
+    },
+    "qwen3": {
+     "n": 4878,
+     "p50": 200,
+     "p90": 349,
+     "p99": 573,
+     "max": 1420
+    }
+   },
+   "ART": {
+    "reference": {
+     "n": 20479,
+     "p50": 193,
+     "p90": 680,
+     "p99": 1007,
+     "max": 1024
+    },
+    "cl100k_base": {
+     "n": 20479,
+     "p50": 185,
+     "p90": 650,
+     "p99": 965,
+     "max": 1024
+    },
+    "qwen3": {
+     "n": 20479,
+     "p50": 193,
+     "p90": 679,
+     "p99": 1007,
+     "max": 1024
+    }
+   },
+   "CAP": {
+    "reference": {
+     "n": 1843,
+     "p50": 819,
+     "p90": 3540,
+     "p99": 7256,
+     "max": 7941
+    },
+    "cl100k_base": {
+     "n": 1843,
+     "p50": 783,
+     "p90": 3414,
+     "p99": 7035,
+     "max": 7709
+    },
+    "qwen3": {
+     "n": 1843,
+     "p50": 818,
+     "p90": 3540,
+     "p99": 7256,
+     "max": 7941
+    }
+   },
+   "CPT": {
+    "reference": {
+     "n": 8084,
+     "p50": 162,
+     "p90": 356,
+     "p99": 1013,
+     "max": 8103
+    },
+    "cl100k_base": {
+     "n": 8084,
+     "p50": 155,
+     "p90": 339,
+     "p99": 942,
+     "max": 7613
+    },
+    "qwen3": {
+     "n": 8084,
+     "p50": 162,
+     "p90": 356,
+     "p99": 1013,
+     "max": 8103
+    }
+   },
+   "DSP": {
+    "reference": {
+     "n": 1522,
+     "p50": 150,
+     "p90": 592,
+     "p99": 911,
+     "max": 1009
+    },
+    "cl100k_base": {
+     "n": 1522,
+     "p50": 143,
+     "p90": 564,
+     "p99": 856,
+     "max": 995
+    },
+    "qwen3": {
+     "n": 1522,
+     "p50": 150,
+     "p90": 592,
+     "p99": 911,
+     "max": 1009
+    }
+   },
+   "INC": {
+    "reference": {
+     "n": 20617,
+     "p50": 193,
+     "p90": 352,
+     "p99": 569,
+     "max": 4116
+    },
+    "cl100k_base": {
+     "n": 20617,
+     "p50": 182,
+     "p90": 332,
+     "p99": 528,
+     "max": 2891
+    },
+    "qwen3": {
+     "n": 20617,
+     "p50": 193,
+     "p90": 352,
+     "p99": 569,
+     "max": 4116
+    }
+   },
+   "ITE": {
+    "reference": {
+     "n": 1302,
+     "p50": 165,
+     "p90": 295,
+     "p99": 436,
+     "max": 1358
+    },
+    "cl100k_base": {
+     "n": 1302,
+     "p50": 158,
+     "p90": 286,
+     "p99": 428,
+     "max": 1358
+    },
+    "qwen3": {
+     "n": 1302,
+     "p50": 165,
+     "p90": 295,
+     "p99": 436,
+     "max": 1358
+    }
+   },
+   "LIV": {
+    "reference": {
+     "n": 45,
+     "p50": 1613,
+     "p90": 5869,
+     "p99": 8096,
+     "max": 8119
+    },
+    "cl100k_base": {
+     "n": 45,
+     "p50": 1579,
+     "p90": 5692,
+     "p99": 7791,
+     "max": 7833
+    },
+    "qwen3": {
+     "n": 45,
+     "p50": 1613,
+     "p90": 5869,
+     "p99": 8096,
+     "max": 8119
+    }
+   },
+   "PAR": {
+    "reference": {
+     "n": 21511,
+     "p50": 233,
+     "p90": 381,
+     "p99": 642,
+     "max": 5936
+    },
+    "cl100k_base": {
+     "n": 21511,
+     "p50": 222,
+     "p90": 360,
+     "p99": 599,
+     "max": 4349
+    },
+    "qwen3": {
+     "n": 21511,
+     "p50": 233,
+     "p90": 381,
+     "p99": 642,
+     "max": 5936
+    }
+   },
+   "PRT": {
+    "reference": {
+     "n": 5,
+     "p50": 2320,
+     "p90": 6129,
+     "p99": 7303,
+     "max": 7433
+    },
+    "cl100k_base": {
+     "n": 5,
+     "p50": 2293,
+     "p90": 5999,
+     "p99": 7102,
+     "max": 7225
+    },
+    "qwen3": {
+     "n": 5,
+     "p50": 2320,
+     "p90": 6129,
+     "p99": 7303,
+     "max": 7433
+    }
+   },
+   "SBT": {
+    "reference": {
+     "n": 21,
+     "p50": 3753,
+     "p90": 6829,
+     "p99": 7839,
+     "max": 8061
+    },
+    "cl100k_base": {
+     "n": 21,
+     "p50": 3565,
+     "p90": 6491,
+     "p99": 7460,
+     "max": 7668
+    },
+    "qwen3": {
+     "n": 21,
+     "p50": 3753,
+     "p90": 6829,
+     "p99": 7839,
+     "max": 8061
+    }
+   },
+   "SEC": {
+    "reference": {
+     "n": 2106,
+     "p50": 582,
+     "p90": 2088,
+     "p99": 5493,
+     "max": 7839
+    },
+    "cl100k_base": {
+     "n": 2106,
+     "p50": 560,
+     "p90": 2005,
+     "p99": 5244,
+     "max": 7839
+    },
+    "qwen3": {
+     "n": 2106,
+     "p50": 578,
+     "p90": 2088,
+     "p99": 5493,
+     "max": 7831
+    }
+   },
+   "SSC": {
+    "reference": {
+     "n": 714,
+     "p50": 498,
+     "p90": 1885,
+     "p99": 4230,
+     "max": 7771
+    },
+    "cl100k_base": {
+     "n": 714,
+     "p50": 470,
+     "p90": 1786,
+     "p99": 4004,
+     "max": 7436
+    },
+    "qwen3": {
+     "n": 714,
+     "p50": 498,
+     "p90": 1885,
+     "p99": 4230,
+     "max": 7771
+    }
+   },
+   "TAB": {
+    "reference": {
+     "n": 706,
+     "p50": 354,
+     "p90": 981,
+     "p99": 1022,
+     "max": 1163
+    },
+    "cl100k_base": {
+     "n": 706,
+     "p50": 324,
+     "p90": 810,
+     "p99": 965,
+     "max": 1142
+    },
+    "qwen3": {
+     "n": 706,
+     "p50": 354,
+     "p90": 981,
+     "p99": 1022,
+     "max": 1163
+    }
+   },
+   "TIT": {
+    "reference": {
+     "n": 326,
+     "p50": 1532,
+     "p90": 6030,
+     "p99": 7925,
+     "max": 8102
+    },
+    "cl100k_base": {
+     "n": 326,
+     "p50": 1440,
+     "p90": 5740,
+     "p99": 7765,
+     "max": 7895
+    },
+    "qwen3": {
+     "n": 326,
+     "p50": 1532,
+     "p90": 6030,
+     "p99": 7925,
+     "max": 8102
+    }
+   },
+   "TXT": {
+    "reference": {
+     "n": 3545,
+     "p50": 309,
+     "p90": 984,
+     "p99": 1021,
+     "max": 1024
+    },
+    "cl100k_base": {
+     "n": 3545,
+     "p50": 294,
+     "p90": 947,
+     "p99": 997,
+     "max": 1024
+    },
+    "qwen3": {
+     "n": 3545,
+     "p50": 309,
+     "p90": 984,
+     "p99": 1021,
+     "max": 1024
+    }
+   }
+  },
+  "tokens_per_strategy_sum": {
+   "S1": 8195753,
+   "S2": 20940934,
+   "S3": 27029356
+  },
+  "split_units": {
+   "units": 656,
+   "parts": 1752,
+   "leaf_split": 72,
+   "by_tipo": {
+    "ART": 647,
+    "DSP": 9
+   },
+   "head_truncated": 8
+  },
+  "split_list": [
+   {
+    "urn": "urn:lex:br:federal:lei:2004-04-30;10865!art8",
+    "rotulo": "lei_10865_20040430, Art. 8º",
+    "tokens": 16239,
+    "partes": 26,
+    "leaf_split": true,
+    "head_truncated": true,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2013-04-05;1343!art9",
+    "rotulo": "in_rfb_1343_20130405, Art. 9º",
+    "tokens": 14415,
+    "partes": 21,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art35",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 35.",
+    "tokens": 10238,
+    "partes": 12,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2006-12-14;123!art18",
+    "rotulo": "lei_comp_123_20061214, Art. 18.",
+    "tokens": 9947,
+    "partes": 15,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1998-11-27;9718!art5",
+    "rotulo": "lei_9718_19981127, Art. 5º",
+    "tokens": 6997,
+    "partes": 11,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2014-05-13;12973!art2",
+    "rotulo": "lei_12973_20140513, Art. 2º",
+    "tokens": 6846,
+    "partes": 9,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art25",
+    "rotulo": "resol_cgsn_140_20180522, Art. 25.",
+    "tokens": 6771,
+    "partes": 10,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1990-05-11;8036!art20",
+    "rotulo": "lei_8036_19900511, Art. 20.",
+    "tokens": 5978,
+    "partes": 7,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:1999-03-26;3000!art39",
+    "rotulo": "decreto_3000_19990326, Art. 39.",
+    "tokens": 5919,
+    "partes": 7,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-04-30;9358!anexo3!art38",
+    "rotulo": "decreto_9358_20180430.anexo3, Art. 38.",
+    "tokens": 5839,
+    "partes": 7,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2002-07-19;10522!art10-1",
+    "rotulo": "lei_10522_20020719, Art. 10-A.",
+    "tokens": 5530,
+    "partes": 10,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2003-12-29;10833!art3",
+    "rotulo": "lei_10833_20031229, Art. 3º",
+    "tokens": 5481,
+    "partes": 7,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2011-06-24;12431!art1",
+    "rotulo": "lei_12431_20110624, Art. 1º",
+    "tokens": 5475,
+    "partes": 12,
+    "leaf_split": false,
+    "head_truncated": true,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2004-04-30;10865!art21",
+    "rotulo": "lei_10865_20040430, Art. 21.",
+    "tokens": 5422,
+    "partes": 7,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2008-06-23;11727!art32",
+    "rotulo": "lei_11727_20080623, Art. 32.",
+    "tokens": 5212,
+    "partes": 7,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1997-08-13;9481!art1",
+    "rotulo": "lei_9481_19970813, Art. 1º",
+    "tokens": 5135,
+    "partes": 7,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1973-12-31;6015!art167",
+    "rotulo": "lei_6015_19731231, Art. 167.",
+    "tokens": 4987,
+    "partes": 6,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2009-05-27;11941!art47",
+    "rotulo": "lei_11941_20090527, Art. 47.",
+    "tokens": 4912,
+    "partes": 7,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art258",
+    "rotulo": "in_rfb_1911_20191011, Art. 258.",
+    "tokens": 4747,
+    "partes": 7,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2006-12-14;123!art18-1",
+    "rotulo": "lei_comp_123_20061214, Art. 18-A.",
+    "tokens": 4665,
+    "partes": 7,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art881",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 881.",
+    "tokens": 4654,
+    "partes": 7,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art25",
+    "rotulo": "in_rfb_1911_20191011, Art. 25.",
+    "tokens": 4376,
+    "partes": 6,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2004-04-30;10865!art28",
+    "rotulo": "lei_10865_20040430, Art. 28.",
+    "tokens": 4307,
+    "partes": 6,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art100",
+    "rotulo": "constituição_1988_19881005, Art. 100.",
+    "tokens": 4302,
+    "partes": 6,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2009-05-27;11941!art26",
+    "rotulo": "lei_11941_20090527, Art. 26.",
+    "tokens": 4101,
+    "partes": 5,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto.lei:1977-04-13;1535!art1",
+    "rotulo": "decreto_lei_1535_19770413, Art. 1º",
+    "tokens": 4050,
+    "partes": 5,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2010-06-11;12249!art65",
+    "rotulo": "lei_12249_20100611, Art. 65.",
+    "tokens": 4022,
+    "partes": 7,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1995-12-26;9250!art8",
+    "rotulo": "lei_9250_19951226, Art. 8º",
+    "tokens": 3822,
+    "partes": 5,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art5",
+    "rotulo": "constituição_1988_19881005, Art. 5º",
+    "tokens": 3777,
+    "partes": 5,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1996-12-27;9430!art74",
+    "rotulo": "lei_9430_19961227, Art. 74.",
+    "tokens": 3652,
+    "partes": 5,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art15",
+    "rotulo": "resol_cgsn_140_20180522, Art. 15.",
+    "tokens": 3652,
+    "partes": 5,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2009-05-27;11941!art35",
+    "rotulo": "lei_11941_20090527, Art. 35.",
+    "tokens": 3632,
+    "partes": 5,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1990-05-11;8036!art9",
+    "rotulo": "lei_8036_19900511, Art. 9º",
+    "tokens": 3534,
+    "partes": 5,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2014-10-29;1500!art62",
+    "rotulo": "in_rfb_1500_20141029, Art. 62.",
+    "tokens": 3527,
+    "partes": 5,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2016-01-13;13254!art4",
+    "rotulo": "lei_13254_20160113, Art. 4º",
+    "tokens": 3474,
+    "partes": 6,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2003-12-29;10833!art76",
+    "rotulo": "lei_10833_20031229, Art. 76.",
+    "tokens": 3470,
+    "partes": 5,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2006-12-14;123!art13",
+    "rotulo": "lei_comp_123_20061214, Art. 13.",
+    "tokens": 3461,
+    "partes": 5,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1998-03-24;9615!art18-1",
+    "rotulo": "lei_9615_19980324, Art. 18-A.",
+    "tokens": 3409,
+    "partes": 5,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2007-05-31;11482!art1",
+    "rotulo": "lei_11482_20070531, Art. 1º",
+    "tokens": 3344,
+    "partes": 5,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2010-06-11;12249!art114",
+    "rotulo": "lei_12249_20100611, Art. 114.",
+    "tokens": 3303,
+    "partes": 4,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1973-12-31;6015!art213",
+    "rotulo": "lei_6015_19731231, Art. 213.",
+    "tokens": 3298,
+    "partes": 5,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1990-07-13;8069!art52",
+    "rotulo": "lei_8069_19900713, Art. 52.",
+    "tokens": 3275,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1988-12-22;7713!art6",
+    "rotulo": "lei_7713_19881222, Art. 6º",
+    "tokens": 3267,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2014-10-29;1500!art80",
+    "rotulo": "in_rfb_1500_20141029, Art. 80.",
+    "tokens": 3260,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2006-12-14;123!art3",
+    "rotulo": "lei_comp_123_20061214, Art. 3º",
+    "tokens": 3237,
+    "partes": 5,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1997-09-30;9504!art47",
+    "rotulo": "lei_9504_19970930, Art. 47.",
+    "tokens": 3235,
+    "partes": 5,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1995-12-26;9250!art4",
+    "rotulo": "lei_9250_19951226, Art. 4º",
+    "tokens": 3209,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto.lei:1943-05-01;5452!anexo1!art235-3",
+    "rotulo": "decreto_lei_5452_19430501.anexo1, Art. 235-C.",
+    "tokens": 3185,
+    "partes": 5,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2002-09-27;208!art9",
+    "rotulo": "in_srf_208_20020927, Art. 9º",
+    "tokens": 3181,
+    "partes": 5,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2014-10-29;1500!art6",
+    "rotulo": "in_rfb_1500_20141029, Art. 6º",
+    "tokens": 3096,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2015-08-31;1585!art92",
+    "rotulo": "in_rfb_1585_20150831, Art. 92.",
+    "tokens": 3085,
+    "partes": 5,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1998-11-27;9718!art3",
+    "rotulo": "lei_9718_19981127, Art. 3º",
+    "tokens": 3083,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1973-12-31;6015!art176",
+    "rotulo": "lei_6015_19731231, Art. 176.",
+    "tokens": 3050,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1990-05-11;8036!art23",
+    "rotulo": "lei_8036_19900511, Art. 23.",
+    "tokens": 3046,
+    "partes": 5,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art37",
+    "rotulo": "constituição_1988_19881005, Art. 37.",
+    "tokens": 3027,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2012-04-30;12618!art3",
+    "rotulo": "lei_12618_20120430, Art. 3º",
+    "tokens": 2998,
+    "partes": 5,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto.lei:1943-05-01;5452!anexo1!art592",
+    "rotulo": "decreto_lei_5452_19430501.anexo1, Art. 592.",
+    "tokens": 2987,
+    "partes": 5,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2004-04-30;10865!art15",
+    "rotulo": "lei_10865_20040430, Art. 15.",
+    "tokens": 2971,
+    "partes": 5,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:medida.provisoria:2001-09-06;1!art1",
+    "rotulo": "mp_2228-1_20010906, Art. 1º",
+    "tokens": 2959,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art242",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 242.",
+    "tokens": 2953,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2009-05-27;11941!art1",
+    "rotulo": "lei_11941_20090527, Art. 1º",
+    "tokens": 2943,
+    "partes": 6,
+    "leaf_split": false,
+    "head_truncated": true,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1964-12-16;4591!art32",
+    "rotulo": "lei_4591_19641216, Art. 32.",
+    "tokens": 2906,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1916-01-01;3071!art178",
+    "rotulo": "lei_3071_19160101, Art. 178.",
+    "tokens": 2902,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art156-1",
+    "rotulo": "constituição_1988_19881005, Art. 156-A.",
+    "tokens": 2860,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1990-05-11;8036!art5",
+    "rotulo": "lei_8036_19900511, Art. 5º",
+    "tokens": 2860,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art84",
+    "rotulo": "resol_cgsn_140_20180522, Art. 84.",
+    "tokens": 2815,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2003-12-29;10833!art77",
+    "rotulo": "lei_10833_20031229, Art. 77.",
+    "tokens": 2804,
+    "partes": 3,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2006-12-14;123!art21",
+    "rotulo": "lei_comp_123_20061214, Art. 21.",
+    "tokens": 2794,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1964-12-16;4591!art31-6",
+    "rotulo": "lei_4591_19641216, Art. 31-F.",
+    "tokens": 2745,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art63",
+    "rotulo": "in_rfb_1911_20191011, Art. 63.",
+    "tokens": 2740,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2003-12-29;10833!art10",
+    "rotulo": "lei_10833_20031229, Art. 10.",
+    "tokens": 2739,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto.lei:1943-05-01;5452!anexo1!art896",
+    "rotulo": "decreto_lei_5452_19430501.anexo1, Art. 896.",
+    "tokens": 2738,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2012-09-17;12715!art46",
+    "rotulo": "lei_12715_20120917, Art. 46.",
+    "tokens": 2725,
+    "partes": 5,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art2",
+    "rotulo": "resol_cgsn_140_20180522, Art. 2º",
+    "tokens": 2715,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2003-12-29;10833!art2",
+    "rotulo": "lei_10833_20031229, Art. 2º",
+    "tokens": 2697,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2010-06-04;1037!art2",
+    "rotulo": "in_rfb_1037_20100604, Art. 2º",
+    "tokens": 2678,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2006-12-14;123!art26",
+    "rotulo": "lei_comp_123_20061214, Art. 26.",
+    "tokens": 2665,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art155",
+    "rotulo": "constituição_1988_19881005, Art. 155.",
+    "tokens": 2622,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art40",
+    "rotulo": "constituição_1988_19881005, Art. 40.",
+    "tokens": 2611,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art24",
+    "rotulo": "resol_cgsn_140_20180522, Art. 24.",
+    "tokens": 2604,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art755",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 755.",
+    "tokens": 2593,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2023-12-12;14754!art5",
+    "rotulo": "lei_14754_20231212, Art. 5º",
+    "tokens": 2570,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1995-12-26;9249!art9",
+    "rotulo": "lei_9249_19951226, Art. 9º",
+    "tokens": 2566,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2012-09-17;12715!art55",
+    "rotulo": "lei_12715_20120917, Art. 55.",
+    "tokens": 2541,
+    "partes": 3,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2014-05-13;12973!art93",
+    "rotulo": "lei_12973_20140513, Art. 93.",
+    "tokens": 2540,
+    "partes": 3,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto.lei:1943-05-01;5452!anexo1!art670",
+    "rotulo": "decreto_lei_5452_19430501.anexo1, Art. 670.",
+    "tokens": 2538,
+    "partes": 7,
+    "leaf_split": true,
+    "head_truncated": true,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2006-12-14;123!art2",
+    "rotulo": "lei_comp_123_20061214, Art. 2º",
+    "tokens": 2537,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2012-01-18;12594!art87",
+    "rotulo": "lei_12594_20120118, Art. 87.",
+    "tokens": 2531,
+    "partes": 3,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art115",
+    "rotulo": "resol_cgsn_140_20180522, Art. 115.",
+    "tokens": 2530,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1973-12-31;6015!art216-1",
+    "rotulo": "lei_6015_19731231, Art. 216-A.",
+    "tokens": 2492,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1998-03-24;9615!art29",
+    "rotulo": "lei_9615_19980324, Art. 29.",
+    "tokens": 2458,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art251",
+    "rotulo": "in_rfb_1911_20191011, Art. 251.",
+    "tokens": 2444,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art100",
+    "rotulo": "resol_cgsn_140_20180522, Art. 100.",
+    "tokens": 2443,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2003-12-29;10833!art58-10",
+    "rotulo": "lei_10833_20031229, Art. 58-J.",
+    "tokens": 2419,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2012-09-17;12715!art48",
+    "rotulo": "lei_12715_20120917, Art. 48.",
+    "tokens": 2402,
+    "partes": 3,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1990-07-13;8069!art101",
+    "rotulo": "lei_8069_19900713, Art. 101.",
+    "tokens": 2402,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art29",
+    "rotulo": "constituição_1988_19881005, Art. 29.",
+    "tokens": 2392,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1997-09-30;9504!art73",
+    "rotulo": "lei_9504_19970930, Art. 73.",
+    "tokens": 2387,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1997-09-30;9504!art23",
+    "rotulo": "lei_9504_19970930, Art. 23.",
+    "tokens": 2376,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1998-03-24;9615!art28",
+    "rotulo": "lei_9615_19980324, Art. 28.",
+    "tokens": 2369,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art609",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 609.",
+    "tokens": 2346,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto.lei:1943-05-01;5452!anexo1!art702",
+    "rotulo": "decreto_lei_5452_19430501.anexo1, Art. 702.",
+    "tokens": 2344,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1996-12-20;9394!art36",
+    "rotulo": "lei_9394_19961220, Art. 36.",
+    "tokens": 2337,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art212-1",
+    "rotulo": "constituição_1988_19881005, Art. 212-A.",
+    "tokens": 2327,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1990-05-11;8036!art13",
+    "rotulo": "lei_8036_19900511, Art. 13.",
+    "tokens": 2326,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1964-12-16;4591!art43",
+    "rotulo": "lei_4591_19641216, Art. 43.",
+    "tokens": 2299,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art79",
+    "rotulo": "in_rfb_1911_20191011, Art. 79.",
+    "tokens": 2288,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2006-12-28;11437!art7",
+    "rotulo": "lei_11437_20061228, Art. 7º",
+    "tokens": 2284,
+    "partes": 3,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2005-12-21;588!art13",
+    "rotulo": "in_srf_588_20051221, Art. 13.",
+    "tokens": 2261,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2012-09-17;12715!art71",
+    "rotulo": "lei_12715_20120917, Art. 71.",
+    "tokens": 2250,
+    "partes": 3,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2012-09-17;12715!art71",
+    "rotulo": "lei_12715_20120917, Art. 71.",
+    "tokens": 2250,
+    "partes": 3,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2010-06-11;12249!art70",
+    "rotulo": "lei_12249_20100611, Art. 70.",
+    "tokens": 2246,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art5",
+    "rotulo": "resol_cgsn_140_20180522, Art. 5º",
+    "tokens": 2235,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2004-04-30;10865!art37",
+    "rotulo": "lei_10865_20040430, Art. 37.",
+    "tokens": 2212,
+    "partes": 3,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2010-06-11;12249!art117",
+    "rotulo": "lei_12249_20100611, Art. 117.",
+    "tokens": 2206,
+    "partes": 3,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1997-09-30;9504!art11",
+    "rotulo": "lei_9504_19970930, Art. 11.",
+    "tokens": 2201,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art540",
+    "rotulo": "in_rfb_1911_20191011, Art. 540.",
+    "tokens": 2144,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2005-11-21;11196!art65",
+    "rotulo": "lei_11196_20051121, Art. 65.",
+    "tokens": 2137,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2009-05-27;11941!art37",
+    "rotulo": "lei_11941_20090527, Art. 37.",
+    "tokens": 2134,
+    "partes": 3,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art96",
+    "rotulo": "resol_cgsn_140_20180522, Art. 96.",
+    "tokens": 2122,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1997-09-30;9504!art58",
+    "rotulo": "lei_9504_19970930, Art. 58.",
+    "tokens": 2107,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2011-06-24;12431!art3",
+    "rotulo": "lei_12431_20110624, Art. 3º",
+    "tokens": 2104,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1964-11-30;4504!art96",
+    "rotulo": "lei_4504_19641130, Art. 96.",
+    "tokens": 2074,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2006-12-14;123!art65-1",
+    "rotulo": "lei_comp_123_20061214, Art. 65-A.",
+    "tokens": 2073,
+    "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art165",
+    "rotulo": "constituição_1988_19881005, Art. 165.",
+    "tokens": 2071,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2003-12-29;10833!art1",
+    "rotulo": "lei_10833_20031229, Art. 1º",
+    "tokens": 2069,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2014-10-29;1500!art11",
+    "rotulo": "in_rfb_1500_20141029, Art. 11.",
+    "tokens": 2056,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art122",
+    "rotulo": "in_rfb_1911_20191011, Art. 122.",
+    "tokens": 2048,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2006-12-14;123!art61-1",
+    "rotulo": "lei_comp_123_20061214, Art. 61-A.",
+    "tokens": 2045,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2009-06-04;11945!art12-1",
+    "rotulo": "lei_11945_20090604, Art. 12-A.",
+    "tokens": 2040,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2008-06-23;11727!art7",
+    "rotulo": "lei_11727_20080623, Art. 7º",
+    "tokens": 2028,
+    "partes": 3,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1995-09-19;9096!art44",
+    "rotulo": "lei_9096_19950919, Art. 44.",
+    "tokens": 2011,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2005-11-21;11196!art28",
+    "rotulo": "lei_11196_20051121, Art. 28.",
+    "tokens": 2010,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art665",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 665.",
+    "tokens": 2009,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2006-12-14;123!art17",
+    "rotulo": "lei_comp_123_20061214, Art. 17.",
+    "tokens": 2001,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2014-10-29;1500!art19",
+    "rotulo": "in_rfb_1500_20141029, Art. 19.",
+    "tokens": 1996,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art141-5",
+    "rotulo": "resol_cgsn_140_20180522, Art. 141-E.",
+    "tokens": 1994,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2002-07-19;10522!art19",
+    "rotulo": "lei_10522_20020719, Art. 19.",
+    "tokens": 1989,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2004-12-21;11033!art14",
+    "rotulo": "lei_11033_20041221, Art. 14.",
+    "tokens": 1988,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2003-12-29;10833!art58-18",
+    "rotulo": "lei_10833_20031229, Art. 58-R.",
+    "tokens": 1982,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1990-12-11;8112!art222",
+    "rotulo": "lei_8112_19901211, Art. 222.",
+    "tokens": 1982,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2005-11-21;11196!art56",
+    "rotulo": "lei_11196_20051121, Art. 56.",
+    "tokens": 1977,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art36",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 36.",
+    "tokens": 1977,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:medida.provisoria:2001-09-06;1!art39",
+    "rotulo": "mp_2228-1_20010906, Art. 39.",
+    "tokens": 1969,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:1999-03-26;3000!art691",
+    "rotulo": "decreto_3000_19990326, Art. 691.",
+    "tokens": 1968,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2002-09-27;208!art16",
+    "rotulo": "in_srf_208_20020927, Art. 16.",
+    "tokens": 1962,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2015-01-19;13097!art145",
+    "rotulo": "lei_13097_20150119, Art. 145.",
+    "tokens": 1961,
+    "partes": 3,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art576",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 576.",
+    "tokens": 1960,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2014-11-13;13043!art42",
+    "rotulo": "lei_13043_20141113, Art. 42.",
+    "tokens": 1949,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2015-03-16;13105!art85",
+    "rotulo": "lei_13105_20150316, Art. 85.",
+    "tokens": 1949,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2004-04-30;10865!art17",
+    "rotulo": "lei_10865_20040430, Art. 17.",
+    "tokens": 1938,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto.lei:1943-05-01;5452!anexo1!art235-4",
+    "rotulo": "decreto_lei_5452_19430501.anexo1, Art. 235-D.",
+    "tokens": 1928,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1996-12-27;9430!art44",
+    "rotulo": "lei_9430_19961227, Art. 44.",
+    "tokens": 1923,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:1999-03-26;3000!art394",
+    "rotulo": "decreto_3000_19990326, Art. 394.",
+    "tokens": 1916,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1990-07-13;8069!art50",
+    "rotulo": "lei_8069_19900713, Art. 50.",
+    "tokens": 1906,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art836",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 836.",
+    "tokens": 1900,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art40-1",
+    "rotulo": "resol_cgsn_140_20180522, Art. 40-A.",
+    "tokens": 1889,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art59",
+    "rotulo": "resol_cgsn_140_20180522, Art. 59.",
+    "tokens": 1889,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2005-11-21;11196!art96",
+    "rotulo": "lei_11196_20051121, Art. 96.",
+    "tokens": 1885,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:1999-03-26;3000!art504",
+    "rotulo": "decreto_3000_19990326, Art. 504.",
+    "tokens": 1880,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:medida.provisoria:2001-09-06;1!anexo1!art33",
+    "rotulo": "mp_2228-1_20010906.anexo1, Art. 33.",
+    "tokens": 1873,
+    "partes": 3,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2021-12-29;14286!art28",
+    "rotulo": "lei_14286_20211229, Art. 28.",
+    "tokens": 1856,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art166",
+    "rotulo": "constituição_1988_19881005, Art. 166.",
+    "tokens": 1853,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art595",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 595.",
+    "tokens": 1851,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2014-10-31;1505!art3",
+    "rotulo": "in_rfb_1505_20141031, Art. 3º",
+    "tokens": 1831,
+    "partes": 3,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1964-11-30;4504!art50",
+    "rotulo": "lei_4504_19641130, Art. 50.",
+    "tokens": 1831,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": true,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1979-12-19;6766!art18",
+    "rotulo": "lei_6766_19791219, Art. 18.",
+    "tokens": 1827,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2010-06-11;12249!art24",
+    "rotulo": "lei_12249_20100611, Art. 24.",
+    "tokens": 1820,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2017-07-17;1717!art76",
+    "rotulo": "in_rfb_1717_20170717, Art. 76.",
+    "tokens": 1814,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art26",
+    "rotulo": "resol_cgsn_140_20180522, Art. 26.",
+    "tokens": 1805,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1995-09-19;9096!art37",
+    "rotulo": "lei_9096_19950919, Art. 37.",
+    "tokens": 1788,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2004-12-21;11033!art3",
+    "rotulo": "lei_11033_20041221, Art. 3º",
+    "tokens": 1786,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2023-12-12;14754!art14",
+    "rotulo": "lei_14754_20231212, Art. 14.",
+    "tokens": 1784,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-04-30;9358!anexo1!art106",
+    "rotulo": "decreto_9358_20180430.anexo1, Art. 106.",
+    "tokens": 1784,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2014-05-13;12973!art6",
+    "rotulo": "lei_12973_20140513, Art. 6º",
+    "tokens": 1779,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art862",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 862.",
+    "tokens": 1777,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1997-09-30;9504!art39",
+    "rotulo": "lei_9504_19970930, Art. 39.",
+    "tokens": 1765,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art765",
+    "rotulo": "in_rfb_1911_20191011, Art. 765.",
+    "tokens": 1758,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1976-12-15;6404!art183",
+    "rotulo": "lei_6404_19761215, Art. 183.",
+    "tokens": 1756,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1990-07-13;8069!art70-1",
+    "rotulo": "lei_8069_19900713, Art. 70-A.",
+    "tokens": 1756,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1990-12-11;8112!art217",
+    "rotulo": "lei_8112_19901211, Art. 217.",
+    "tokens": 1753,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2014-10-29;1500!art10",
+    "rotulo": "in_rfb_1500_20141029, Art. 10.",
+    "tokens": 1750,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art106-1",
+    "rotulo": "resol_cgsn_140_20180522, Art. 106-A.",
+    "tokens": 1745,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:medida.provisoria:2001-08-24;35!art32",
+    "rotulo": "mp_2158-35_20010824, Art. 32.",
+    "tokens": 1743,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art732",
+    "rotulo": "in_rfb_1911_20191011, Art. 732.",
+    "tokens": 1738,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2005-11-21;11196!art19-1",
+    "rotulo": "lei_11196_20051121, Art. 19-A.",
+    "tokens": 1735,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art446",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 446.",
+    "tokens": 1734,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art508",
+    "rotulo": "in_rfb_1911_20191011, Art. 508.",
+    "tokens": 1732,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2009-08-27;12024!art2-1",
+    "rotulo": "lei_12024_20090827, Art. 2º-A.",
+    "tokens": 1730,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art592",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 592.",
+    "tokens": 1728,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art47",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 47.",
+    "tokens": 1713,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art473",
+    "rotulo": "in_rfb_1911_20191011, Art. 473.",
+    "tokens": 1712,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2009-05-27;11941!art25",
+    "rotulo": "lei_11941_20090527, Art. 25.",
+    "tokens": 1708,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2000-12-19;10101!art2",
+    "rotulo": "lei_10101_20001219, Art. 2º",
+    "tokens": 1700,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1990-07-13;8069!art136",
+    "rotulo": "lei_8069_19900713, Art. 136.",
+    "tokens": 1691,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1998-03-24;9615!art56",
+    "rotulo": "lei_9615_19980324, Art. 56.",
+    "tokens": 1687,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:1999-03-26;3000!art192",
+    "rotulo": "decreto_3000_19990326, Art. 192.",
+    "tokens": 1685,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1991-12-30;8383!art52",
+    "rotulo": "lei_8383_19911230, Art. 52.",
+    "tokens": 1683,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1965-12-09;4886!art10",
+    "rotulo": "lei_4886_19651209, Art. 10.",
+    "tokens": 1679,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art173",
+    "rotulo": "in_rfb_1911_20191011, Art. 173.",
+    "tokens": 1675,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1973-12-31;6015!art195-1",
+    "rotulo": "lei_6015_19731231, Art. 195-A.",
+    "tokens": 1673,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2005-11-21;11196!art17",
+    "rotulo": "lei_11196_20051121, Art. 17.",
+    "tokens": 1669,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2014-10-29;1500!art74",
+    "rotulo": "in_rfb_1500_20141029, Art. 74.",
+    "tokens": 1668,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2015-03-31;1558!art1",
+    "rotulo": "in_rfb_1558_20150331, Art. 1º",
+    "tokens": 1658,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1998-03-24;9615!art27",
+    "rotulo": "lei_9615_19980324, Art. 27.",
+    "tokens": 1658,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art501",
+    "rotulo": "in_rfb_1911_20191011, Art. 501.",
+    "tokens": 1652,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art6",
+    "rotulo": "resol_cgsn_140_20180522, Art. 6º",
+    "tokens": 1648,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2015-01-19;13097!art9",
+    "rotulo": "lei_13097_20150119, Art. 9º",
+    "tokens": 1647,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art640",
+    "rotulo": "in_rfb_1911_20191011, Art. 640.",
+    "tokens": 1644,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2007-05-31;11482!art3",
+    "rotulo": "lei_11482_20070531, Art. 3º",
+    "tokens": 1640,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2010-12-20;12350!art2",
+    "rotulo": "lei_12350_20101220, Art. 2º",
+    "tokens": 1638,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1973-12-31;6015!art19",
+    "rotulo": "lei_6015_19731231, Art. 19.",
+    "tokens": 1638,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2010-06-11;12249!art124",
+    "rotulo": "lei_12249_20100611, Art. 124.",
+    "tokens": 1633,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1990-07-13;8069!art260",
+    "rotulo": "lei_8069_19900713, Art. 260.",
+    "tokens": 1633,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art33",
+    "rotulo": "resol_cgsn_140_20180522, Art. 33.",
+    "tokens": 1630,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2014-11-13;13043!art5",
+    "rotulo": "lei_13043_20141113, Art. 5º",
+    "tokens": 1626,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1996-12-27;9430!art9",
+    "rotulo": "lei_9430_19961227, Art. 9º",
+    "tokens": 1624,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art21",
+    "rotulo": "in_rfb_1911_20191011, Art. 21.",
+    "tokens": 1623,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1997-09-30;9504!art28",
+    "rotulo": "lei_9504_19970930, Art. 28.",
+    "tokens": 1623,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art198",
+    "rotulo": "constituição_1988_19881005, Art. 198.",
+    "tokens": 1621,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2002-09-27;208!art11",
+    "rotulo": "in_srf_208_20020927, Art. 11.",
+    "tokens": 1621,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art141-7",
+    "rotulo": "resol_cgsn_140_20180522, Art. 141-G.",
+    "tokens": 1620,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto.lei:1943-05-01;5452!anexo1!art235-5",
+    "rotulo": "decreto_lei_5452_19430501.anexo1, Art. 235-E.",
+    "tokens": 1618,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2000-12-19;10101!art3",
+    "rotulo": "lei_10101_20001219, Art. 3º",
+    "tokens": 1616,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2010-12-20;12350!art41",
+    "rotulo": "lei_12350_20101220, Art. 41.",
+    "tokens": 1609,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art347",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 347.",
+    "tokens": 1606,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1976-12-15;6404!art110-1",
+    "rotulo": "lei_6404_19761215, Art. 110-A.",
+    "tokens": 1604,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art238",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 238.",
+    "tokens": 1599,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto.lei:1943-05-01;5452!anexo1!art477",
+    "rotulo": "decreto_lei_5452_19430501.anexo1, Art. 477.",
+    "tokens": 1599,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2001-10-11;81!art6",
+    "rotulo": "in_srf_81_20011011, Art. 6º",
+    "tokens": 1588,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2010-06-11;12249!art38",
+    "rotulo": "lei_12249_20100611, Art. 38.",
+    "tokens": 1584,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2017-03-31;1704!art7",
+    "rotulo": "in_rfb_1704_20170331, Art. 7º",
+    "tokens": 1579,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto.lei:1974-12-23;1381!art9",
+    "rotulo": "decreto_lei_1381_19741223, Art. 9º",
+    "tokens": 1578,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1996-12-19;9393!art10",
+    "rotulo": "lei_9393_19961219, Art. 10.",
+    "tokens": 1576,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art683",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 683.",
+    "tokens": 1576,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art167",
+    "rotulo": "constituição_1988_19881005, Art. 167.",
+    "tokens": 1567,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1998-03-24;9615!art56-1",
+    "rotulo": "lei_9615_19980324, Art. 56-A.",
+    "tokens": 1560,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art582",
+    "rotulo": "in_rfb_1911_20191011, Art. 582.",
+    "tokens": 1559,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1990-07-13;8069!art100",
+    "rotulo": "lei_8069_19900713, Art. 100.",
+    "tokens": 1559,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art39-1",
+    "rotulo": "resol_cgsn_140_20180522, Art. 39-A.",
+    "tokens": 1557,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art531",
+    "rotulo": "in_rfb_1911_20191011, Art. 531.",
+    "tokens": 1554,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2004-12-02;10973!art2",
+    "rotulo": "lei_10973_20041202, Art. 2º",
+    "tokens": 1554,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2011-06-24;12431!art4",
+    "rotulo": "lei_12431_20110624, Art. 4º",
+    "tokens": 1554,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art109",
+    "rotulo": "resol_cgsn_140_20180522, Art. 109.",
+    "tokens": 1552,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2014-05-13;12973!art55",
+    "rotulo": "lei_12973_20140513, Art. 55.",
+    "tokens": 1547,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:medida.provisoria:2010-07-27;497!art19",
+    "rotulo": "mp_497_20100727, Art. 19.",
+    "tokens": 1545,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2016-01-13;13254!art6",
+    "rotulo": "lei_13254_20160113, Art. 6º",
+    "tokens": 1544,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1976-12-15;6404!art137",
+    "rotulo": "lei_6404_19761215, Art. 137.",
+    "tokens": 1539,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1990-05-11;8036!art20-4",
+    "rotulo": "lei_8036_19900511, Art. 20-D.",
+    "tokens": 1536,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2010-12-20;12350!art37",
+    "rotulo": "lei_12350_20101220, Art. 37.",
+    "tokens": 1532,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:1999-03-26;3000!art777",
+    "rotulo": "decreto_3000_19990326, Art. 777.",
+    "tokens": 1531,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:1999-03-26;3000!art43",
+    "rotulo": "decreto_3000_19990326, Art. 43.",
+    "tokens": 1525,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1996-12-27;9430!art88",
+    "rotulo": "lei_9430_19961227, Art. 88.",
+    "tokens": 1522,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto.lei:1943-05-01;5452!anexo1!art896-3",
+    "rotulo": "decreto_lei_5452_19430501.anexo1, Art. 896-C.",
+    "tokens": 1522,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2010-12-20;12350!art55",
+    "rotulo": "lei_12350_20101220, Art. 55.",
+    "tokens": 1520,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art195",
+    "rotulo": "constituição_1988_19881005, Art. 195.",
+    "tokens": 1517,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1964-12-16;4591!art67-1",
+    "rotulo": "lei_4591_19641216, Art. 67-A.",
+    "tokens": 1514,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art122",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 122.",
+    "tokens": 1511,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1995-12-26;9249!art13",
+    "rotulo": "lei_9249_19951226, Art. 13.",
+    "tokens": 1510,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2015-08-31;1585!art18",
+    "rotulo": "in_rfb_1585_20150831, Art. 18.",
+    "tokens": 1509,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art12",
+    "rotulo": "resol_cgsn_140_20180522, Art. 12.",
+    "tokens": 1508,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2014-05-13;12973!art54",
+    "rotulo": "lei_12973_20140513, Art. 54.",
+    "tokens": 1501,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2013-04-05;1343!art3",
+    "rotulo": "in_rfb_1343_20130405, Art. 3º",
+    "tokens": 1499,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2010-06-11;12249!art76",
+    "rotulo": "lei_12249_20100611, Art. 76.",
+    "tokens": 1499,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art81",
+    "rotulo": "resol_cgsn_140_20180522, Art. 81.",
+    "tokens": 1496,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art85",
+    "rotulo": "resol_cgsn_140_20180522, Art. 85.",
+    "tokens": 1496,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1996-12-27;9430!art81",
+    "rotulo": "lei_9430_19961227, Art. 81.",
+    "tokens": 1490,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1964-12-16;4591!art31-1",
+    "rotulo": "lei_4591_19641216, Art. 31-A.",
+    "tokens": 1486,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:1999-03-26;3000!art240",
+    "rotulo": "decreto_3000_19990326, Art. 240.",
+    "tokens": 1483,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2016-03-11;1627!art7",
+    "rotulo": "in_rfb_1627_20160311, Art. 7º",
+    "tokens": 1483,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2015-08-31;1585!art46",
+    "rotulo": "in_rfb_1585_20150831, Art. 46.",
+    "tokens": 1481,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2005-11-21;11196!art11-2",
+    "rotulo": "lei_11196_20051121, Art. 11-B.",
+    "tokens": 1478,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2009-05-27;11941!art31",
+    "rotulo": "lei_11941_20090527, Art. 31.",
+    "tokens": 1476,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art143",
+    "rotulo": "in_rfb_1911_20191011, Art. 143.",
+    "tokens": 1470,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2014-11-13;13043!art86",
+    "rotulo": "lei_13043_20141113, Art. 86.",
+    "tokens": 1466,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2004-12-29;11051!art10",
+    "rotulo": "lei_11051_20041229, Art. 10.",
+    "tokens": 1463,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2009-05-27;11941!art3",
+    "rotulo": "lei_11941_20090527, Art. 3º",
+    "tokens": 1461,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1990-12-11;8112!art76-1",
+    "rotulo": "lei_8112_19901211, Art. 76-A.",
+    "tokens": 1453,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art605",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 605.",
+    "tokens": 1450,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art220",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 220.",
+    "tokens": 1448,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1988-12-22;7713!art12-1",
+    "rotulo": "lei_7713_19881222, Art. 12-A.",
+    "tokens": 1446,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2006-12-20;698!art2",
+    "rotulo": "in_srf_698_20061220, Art. 2º",
+    "tokens": 1445,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2014-10-29;1500!anexo13!inc1",
+    "rotulo": "in_rfb_1500_20141029.anexo13, Inciso I",
+    "tokens": 1442,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2005-11-21;11196!art70",
+    "rotulo": "lei_11196_20051121, Art. 70.",
+    "tokens": 1441,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2005-11-21;11196!art14",
+    "rotulo": "lei_11196_20051121, Art. 14.",
+    "tokens": 1439,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1976-12-15;6404!art17",
+    "rotulo": "lei_6404_19761215, Art. 17.",
+    "tokens": 1438,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto.lei:1943-05-01;5452!anexo1!art899",
+    "rotulo": "decreto_lei_5452_19430501.anexo1, Art. 899.",
+    "tokens": 1438,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art201",
+    "rotulo": "constituição_1988_19881005, Art. 201.",
+    "tokens": 1437,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art472",
+    "rotulo": "in_rfb_1911_20191011, Art. 472.",
+    "tokens": 1437,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2024-03-11;2180!art50",
+    "rotulo": "in_rfb_2180_20240311, Art. 50.",
+    "tokens": 1437,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art260",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 260.",
+    "tokens": 1436,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art93",
+    "rotulo": "constituição_1988_19881005, Art. 93.",
+    "tokens": 1435,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:1999-03-26;3000!art658",
+    "rotulo": "decreto_3000_19990326, Art. 658.",
+    "tokens": 1435,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art567",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 567.",
+    "tokens": 1431,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1964-11-30;4506!art57",
+    "rotulo": "lei_4506_19641130, Art. 57.",
+    "tokens": 1425,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art261",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 261.",
+    "tokens": 1425,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto.lei:1976-12-27;1510!art10",
+    "rotulo": "decreto_lei_1510_19761227, Art. 10.",
+    "tokens": 1424,
+    "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art292",
+    "rotulo": "in_rfb_1911_20191011, Art. 292.",
+    "tokens": 1419,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto.lei:1943-05-01;5452!anexo1!art473",
+    "rotulo": "decreto_lei_5452_19430501.anexo1, Art. 473.",
+    "tokens": 1417,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2005-11-21;11196!art64",
+    "rotulo": "lei_11196_20051121, Art. 64.",
+    "tokens": 1413,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art22",
+    "rotulo": "in_rfb_1911_20191011, Art. 22.",
+    "tokens": 1412,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art534",
+    "rotulo": "in_rfb_1911_20191011, Art. 534.",
+    "tokens": 1412,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2024-03-05;2178!art12",
+    "rotulo": "in_rfb_2178_20240305, Art. 12.",
+    "tokens": 1409,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1996-12-20;9394!art26",
+    "rotulo": "lei_9394_19961220, Art. 26.",
+    "tokens": 1407,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art19",
+    "rotulo": "in_rfb_1911_20191011, Art. 19.",
+    "tokens": 1404,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2010-12-20;12350!art8",
+    "rotulo": "lei_12350_20101220, Art. 8º",
+    "tokens": 1403,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1995-01-20;8981!art43",
+    "rotulo": "lei_8981_19950120, Art. 43.",
+    "tokens": 1400,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2014-10-29;1500!art22",
+    "rotulo": "in_rfb_1500_20141029, Art. 22.",
+    "tokens": 1394,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2004-12-29;11051!art29",
+    "rotulo": "lei_11051_20041229, Art. 29.",
+    "tokens": 1392,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2015-01-19;13097!art52",
+    "rotulo": "lei_13097_20150119, Art. 52.",
+    "tokens": 1392,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1964-11-30;4504!art46",
+    "rotulo": "lei_4504_19641130, Art. 46.",
+    "tokens": 1392,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2015-08-31;1585!art34",
+    "rotulo": "in_rfb_1585_20150831, Art. 34.",
+    "tokens": 1391,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2002-07-19;10522!art2",
+    "rotulo": "lei_10522_20020719, Art. 2º",
+    "tokens": 1389,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2010-06-11;12249!art116",
+    "rotulo": "lei_12249_20100611, Art. 116.",
+    "tokens": 1387,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art106",
+    "rotulo": "resol_cgsn_140_20180522, Art. 106.",
+    "tokens": 1385,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2003-12-29;10833!art75",
+    "rotulo": "lei_10833_20031229, Art. 75.",
+    "tokens": 1381,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2004-04-30;10865!art40",
+    "rotulo": "lei_10865_20040430, Art. 40.",
+    "tokens": 1381,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art792",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 792.",
+    "tokens": 1378,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art564",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 564.",
+    "tokens": 1377,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2011-02-21;1131!art8-4",
+    "rotulo": "in_rfb_1131_20110221, Art. 8º-D.",
+    "tokens": 1375,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2004-04-30;10865!art36",
+    "rotulo": "lei_10865_20040430, Art. 36.",
+    "tokens": 1372,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1997-09-30;9504!art26",
+    "rotulo": "lei_9504_19970930, Art. 26.",
+    "tokens": 1369,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2009-06-04;11945!art17",
+    "rotulo": "lei_11945_20090604, Art. 17.",
+    "tokens": 1365,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1994-08-22;8929!art12",
+    "rotulo": "lei_8929_19940822, Art. 12.",
+    "tokens": 1364,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art181",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 181.",
+    "tokens": 1363,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1979-12-19;6766!art4",
+    "rotulo": "lei_6766_19791219, Art. 4º",
+    "tokens": 1360,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2021-12-13;2060!anexo1!ali2",
+    "rotulo": "in_rfb_2060_20211213.anexo1, Alínea b",
+    "tokens": 1358,
+    "partes": 3,
+    "leaf_split": true,
+    "head_truncated": true,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1976-12-15;6404!art141",
+    "rotulo": "lei_6404_19761215, Art. 141.",
+    "tokens": 1351,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2014-05-13;12973!art87",
+    "rotulo": "lei_12973_20140513, Art. 87.",
+    "tokens": 1350,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2014-11-13;13043!art101",
+    "rotulo": "lei_13043_20141113, Art. 101.",
+    "tokens": 1345,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art63",
+    "rotulo": "resol_cgsn_140_20180522, Art. 63.",
+    "tokens": 1345,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2015-08-31;1585!art4",
+    "rotulo": "in_rfb_1585_20150831, Art. 4º",
+    "tokens": 1343,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1976-12-15;6404!art124",
+    "rotulo": "lei_6404_19761215, Art. 124.",
+    "tokens": 1338,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2005-12-28;599!art2",
+    "rotulo": "in_srf_599_20051228, Art. 2º",
+    "tokens": 1337,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art103-2",
+    "rotulo": "constituição_1988_19881005, Art. 103-B.",
+    "tokens": 1334,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1994-08-22;8929!art3",
+    "rotulo": "lei_8929_19940822, Art. 3º",
+    "tokens": 1334,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2010-06-11;12249!art69",
+    "rotulo": "lei_12249_20100611, Art. 69.",
+    "tokens": 1333,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1995-12-26;9249!art15",
+    "rotulo": "lei_9249_19951226, Art. 15.",
+    "tokens": 1333,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art101",
+    "rotulo": "resol_cgsn_140_20180522, Art. 101.",
+    "tokens": 1333,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2021-12-06;2055!art101-1",
+    "rotulo": "in_rfb_2055_20211206, Art. 101-A.",
+    "tokens": 1332,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art660",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 660.",
+    "tokens": 1329,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2006-12-14;123!art23",
+    "rotulo": "lei_comp_123_20061214, Art. 23.",
+    "tokens": 1328,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2005-11-21;11196!art55",
+    "rotulo": "lei_11196_20051121, Art. 55.",
+    "tokens": 1326,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art167-1",
+    "rotulo": "constituição_1988_19881005, Art. 167-A.",
+    "tokens": 1324,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2014-10-29;1500!art94",
+    "rotulo": "in_rfb_1500_20141029, Art. 94.",
+    "tokens": 1322,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2005-11-21;11196!art57-3",
+    "rotulo": "lei_11196_20051121, Art. 57-C.",
+    "tokens": 1321,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art226",
+    "rotulo": "in_rfb_1911_20191011, Art. 226.",
+    "tokens": 1318,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1964-11-30;4504!art95",
+    "rotulo": "lei_4504_19641130, Art. 95.",
+    "tokens": 1318,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art185",
+    "rotulo": "in_rfb_1911_20191011, Art. 185.",
+    "tokens": 1316,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2011-10-26;12513!art6-1",
+    "rotulo": "lei_12513_20111026, Art. 6º-A.",
+    "tokens": 1313,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:1973-01-18;71733!art28",
+    "rotulo": "decreto_71733_19730118, Art. 28.",
+    "tokens": 1312,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1990-07-13;8069!art92",
+    "rotulo": "lei_8069_19900713, Art. 92.",
+    "tokens": 1311,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2003-12-29;10833!art12",
+    "rotulo": "lei_10833_20031229, Art. 12.",
+    "tokens": 1310,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art98",
+    "rotulo": "resol_cgsn_140_20180522, Art. 98.",
+    "tokens": 1310,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art7",
+    "rotulo": "constituição_1988_19881005, Art. 7º",
+    "tokens": 1308,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2015-08-31;1585!art66",
+    "rotulo": "in_rfb_1585_20150831, Art. 66.",
+    "tokens": 1308,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2014-11-13;13043!art2",
+    "rotulo": "lei_13043_20141113, Art. 2º",
+    "tokens": 1307,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art381",
+    "rotulo": "in_rfb_1911_20191011, Art. 381.",
+    "tokens": 1306,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2013-10-22;12871!art3",
+    "rotulo": "lei_12871_20131022, Art. 3º",
+    "tokens": 1304,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art40",
+    "rotulo": "in_rfb_1911_20191011, Art. 40.",
+    "tokens": 1301,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1993-06-25;8668!art20-1",
+    "rotulo": "lei_8668_19930625, Art. 20-A.",
+    "tokens": 1299,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art105",
+    "rotulo": "constituição_1988_19881005, Art. 105.",
+    "tokens": 1298,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2021-12-08;14260!art3",
+    "rotulo": "lei_14260_20211208, Art. 3º",
+    "tokens": 1298,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1996-12-27;9430!art27",
+    "rotulo": "lei_9430_19961227, Art. 27.",
+    "tokens": 1297,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2006-12-14;123!art29",
+    "rotulo": "lei_comp_123_20061214, Art. 29.",
+    "tokens": 1297,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto.lei:1943-05-01;5452!anexo1!art457",
+    "rotulo": "decreto_lei_5452_19430501.anexo1, Art. 457.",
+    "tokens": 1297,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2014-10-29;1500!anexo6!inc1",
+    "rotulo": "in_rfb_1500_20141029.anexo6, Inciso I",
+    "tokens": 1297,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:medida.provisoria:2005-06-15;252!art17",
+    "rotulo": "mp_252_20050615, Art. 17.",
+    "tokens": 1296,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2013-10-22;12871!art19-2",
+    "rotulo": "lei_12871_20131022, Art. 19-B.",
+    "tokens": 1295,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art458",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 458.",
+    "tokens": 1295,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2004-12-02;10973!art19",
+    "rotulo": "lei_10973_20041202, Art. 19.",
+    "tokens": 1294,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1964-12-16;4591!art63",
+    "rotulo": "lei_4591_19641216, Art. 63.",
+    "tokens": 1293,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1999-01-19;9779!art17",
+    "rotulo": "lei_9779_19990119, Art. 17.",
+    "tokens": 1293,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:1963-07-24;52288!anexo1!art11",
+    "rotulo": "decreto_52288_19630724.anexo1, Art. 11.",
+    "tokens": 1293,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art541",
+    "rotulo": "in_rfb_1911_20191011, Art. 541.",
+    "tokens": 1291,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2002-07-19;10522!art37-2",
+    "rotulo": "lei_10522_20020719, Art. 37-B.",
+    "tokens": 1291,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2014-05-13;12973!art9",
+    "rotulo": "lei_12973_20140513, Art. 9º",
+    "tokens": 1291,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2014-11-13;13043!art33",
+    "rotulo": "lei_13043_20141113, Art. 33.",
+    "tokens": 1290,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1997-12-10;9532!art12",
+    "rotulo": "lei_9532_19971210, Art. 12.",
+    "tokens": 1289,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto.lei:1943-05-01;5452!anexo1!art674",
+    "rotulo": "decreto_lei_5452_19430501.anexo1, Art. 674.",
+    "tokens": 1289,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1973-12-31;6015!art54",
+    "rotulo": "lei_6015_19731231, Art. 54.",
+    "tokens": 1288,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art691",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 691.",
+    "tokens": 1285,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2010-06-11;12249!art60",
+    "rotulo": "lei_12249_20100611, Art. 60.",
+    "tokens": 1282,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2022-02-24;2066!art7",
+    "rotulo": "in_rfb_2066_20220224, Art. 7º",
+    "tokens": 1281,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2002-07-19;10522!art10-3",
+    "rotulo": "lei_10522_20020719, Art. 10-C.",
+    "tokens": 1281,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto.lei:1943-05-01;5452!anexo1!art524",
+    "rotulo": "decreto_lei_5452_19430501.anexo1, Art. 524.",
+    "tokens": 1281,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:1973-01-18;71733!art22",
+    "rotulo": "decreto_71733_19730118, Art. 22.",
+    "tokens": 1279,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": true,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto.lei:1943-05-01;5452!anexo1!art75-2",
+    "rotulo": "decreto_lei_5452_19430501.anexo1, Art. 75-B.",
+    "tokens": 1279,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art181",
+    "rotulo": "in_rfb_1911_20191011, Art. 181.",
+    "tokens": 1278,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2002-01-10;10406!art1358-10",
+    "rotulo": "lei_10406_20020110, Art. 1.358-J.",
+    "tokens": 1276,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto.lei:1943-05-01;5452!anexo1!art897",
+    "rotulo": "decreto_lei_5452_19430501.anexo1, Art. 897.",
+    "tokens": 1275,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2015-08-31;1585!art63",
+    "rotulo": "in_rfb_1585_20150831, Art. 63.",
+    "tokens": 1273,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art337",
+    "rotulo": "in_rfb_1911_20191011, Art. 337.",
+    "tokens": 1273,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1997-12-10;9532!art64",
+    "rotulo": "lei_9532_19971210, Art. 64.",
+    "tokens": 1273,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:1999-03-26;3000!art325",
+    "rotulo": "decreto_3000_19990326, Art. 325.",
+    "tokens": 1272,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2024-03-05;2178!art2",
+    "rotulo": "in_rfb_2178_20240305, Art. 2º",
+    "tokens": 1271,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2012-09-17;12715!art4",
+    "rotulo": "lei_12715_20120917, Art. 4º",
+    "tokens": 1270,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2006-12-29;11438!art1",
+    "rotulo": "lei_11438_20061229, Art. 1º",
+    "tokens": 1269,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1990-12-11;8112!art133",
+    "rotulo": "lei_8112_19901211, Art. 133.",
+    "tokens": 1269,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1995-12-26;9250!art10",
+    "rotulo": "lei_9250_19951226, Art. 10.",
+    "tokens": 1269,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2006-12-14;123!art4",
+    "rotulo": "lei_comp_123_20061214, Art. 4º",
+    "tokens": 1262,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1990-12-11;8112!art96-1",
+    "rotulo": "lei_8112_19901211, Art. 96-A.",
+    "tokens": 1261,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2023-12-12;14754!art27",
+    "rotulo": "lei_14754_20231212, Art. 27.",
+    "tokens": 1260,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:1999-03-26;3000!art386",
+    "rotulo": "decreto_3000_19990326, Art. 386.",
+    "tokens": 1259,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2005-12-28;599!art3",
+    "rotulo": "in_srf_599_20051228, Art. 3º",
+    "tokens": 1259,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1973-12-31;6015!art129",
+    "rotulo": "lei_6015_19731231, Art. 129.",
+    "tokens": 1257,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art689",
+    "rotulo": "in_rfb_1911_20191011, Art. 689.",
+    "tokens": 1256,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1973-01-11;5869!art649",
+    "rotulo": "lei_5869_19730111, Art. 649.",
+    "tokens": 1253,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2021-01-13;14119!art15",
+    "rotulo": "lei_14119_20210113, Art. 15.",
+    "tokens": 1252,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2005-11-21;11196!art113",
+    "rotulo": "lei_11196_20051121, Art. 113.",
+    "tokens": 1251,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2021-12-06;2055!art76",
+    "rotulo": "in_rfb_2055_20211206, Art. 76.",
+    "tokens": 1248,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art677",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 677.",
+    "tokens": 1247,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art250",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 250.",
+    "tokens": 1246,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:1999-03-26;3000!art536",
+    "rotulo": "decreto_3000_19990326, Art. 536.",
+    "tokens": 1245,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2014-11-13;13043!art71",
+    "rotulo": "lei_13043_20141113, Art. 71.",
+    "tokens": 1245,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2015-01-19;13097!art8",
+    "rotulo": "lei_13097_20150119, Art. 8º",
+    "tokens": 1243,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto.lei:1943-09-23;5844!art26",
+    "rotulo": "decreto_lei_5844_19430923, Art. 26.",
+    "tokens": 1240,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": true,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1995-09-19;9096!art39",
+    "rotulo": "lei_9096_19950919, Art. 39.",
+    "tokens": 1240,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art270",
+    "rotulo": "in_rfb_1911_20191011, Art. 270.",
+    "tokens": 1238,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1990-05-11;8036!art3",
+    "rotulo": "lei_8036_19900511, Art. 3º",
+    "tokens": 1238,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2015-03-16;13105!art246",
+    "rotulo": "lei_13105_20150316, Art. 246.",
+    "tokens": 1237,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2002-12-11;256!art9",
+    "rotulo": "in_srf_256_20021211, Art. 9º",
+    "tokens": 1236,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2009-05-27;11941!art30",
+    "rotulo": "lei_11941_20090527, Art. 30.",
+    "tokens": 1234,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto.lei:1943-05-01;5452!anexo1!art551",
+    "rotulo": "decreto_lei_5452_19430501.anexo1, Art. 551.",
+    "tokens": 1232,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1976-12-15;6404!art163",
+    "rotulo": "lei_6404_19761215, Art. 163.",
+    "tokens": 1231,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1991-12-23;8313!art18",
+    "rotulo": "lei_8313_19911223, Art. 18.",
+    "tokens": 1230,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2014-10-29;1500!anexo8!inc5",
+    "rotulo": "in_rfb_1500_20141029.anexo8, Inciso V",
+    "tokens": 1230,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:1999-03-26;3000!art241",
+    "rotulo": "decreto_3000_19990326, Art. 241.",
+    "tokens": 1228,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1990-07-13;8069!art8",
+    "rotulo": "lei_8069_19900713, Art. 8º",
+    "tokens": 1228,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2010-12-20;12350!art7",
+    "rotulo": "lei_12350_20101220, Art. 7º",
+    "tokens": 1226,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art83",
+    "rotulo": "resol_cgsn_140_20180522, Art. 83.",
+    "tokens": 1226,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2003-10-01;10741!art15",
+    "rotulo": "lei_10741_20031001, Art. 15.",
+    "tokens": 1225,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2005-11-21;11196!art132",
+    "rotulo": "lei_11196_20051121, Art. 132.",
+    "tokens": 1221,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2006-12-14;123!art38-1",
+    "rotulo": "lei_comp_123_20061214, Art. 38-A.",
+    "tokens": 1220,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1997-09-30;9504!art16-3",
+    "rotulo": "lei_9504_19970930, Art. 16-C.",
+    "tokens": 1215,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2015-03-16;13105!art525",
+    "rotulo": "lei_13105_20150316, Art. 525.",
+    "tokens": 1214,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art102",
+    "rotulo": "constituição_1988_19881005, Art. 102.",
+    "tokens": 1213,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:1999-03-26;3000!art395",
+    "rotulo": "decreto_3000_19990326, Art. 395.",
+    "tokens": 1213,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto.lei:1943-05-01;5452!anexo1!art576",
+    "rotulo": "decreto_lei_5452_19430501.anexo1, Art. 576.",
+    "tokens": 1213,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art523",
+    "rotulo": "in_rfb_1911_20191011, Art. 523.",
+    "tokens": 1211,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2015-08-31;1585!art65",
+    "rotulo": "in_rfb_1585_20150831, Art. 65.",
+    "tokens": 1210,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1976-12-15;6404!art45",
+    "rotulo": "lei_6404_19761215, Art. 45.",
+    "tokens": 1210,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2015-08-31;1585!art70",
+    "rotulo": "in_rfb_1585_20150831, Art. 70.",
+    "tokens": 1209,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2021-12-06;2055!art102",
+    "rotulo": "in_rfb_2055_20211206, Art. 102.",
+    "tokens": 1209,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1990-07-13;8069!art201",
+    "rotulo": "lei_8069_19900713, Art. 201.",
+    "tokens": 1209,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1995-01-20;8981!art21",
+    "rotulo": "lei_8981_19950120, Art. 21.",
+    "tokens": 1209,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art121",
+    "rotulo": "resol_cgsn_140_20180522, Art. 121.",
+    "tokens": 1208,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art80",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 80.",
+    "tokens": 1207,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1990-07-13;8069!art10",
+    "rotulo": "lei_8069_19900713, Art. 10.",
+    "tokens": 1205,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1976-12-15;6404!art202",
+    "rotulo": "lei_6404_19761215, Art. 202.",
+    "tokens": 1203,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2010-06-11;12249!art30",
+    "rotulo": "lei_12249_20100611, Art. 30.",
+    "tokens": 1202,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1996-12-20;9394!art4",
+    "rotulo": "lei_9394_19961220, Art. 4º",
+    "tokens": 1201,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2015-02-13;1548!anexo9!par4",
+    "rotulo": "in_rfb_1548_20150213.anexo9, § 4º",
+    "tokens": 1200,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2021-12-29;14286!art5",
+    "rotulo": "lei_14286_20211229, Art. 5º",
+    "tokens": 1199,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art849",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 849.",
+    "tokens": 1198,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art156-2",
+    "rotulo": "constituição_1988_19881005, Art. 156-B.",
+    "tokens": 1196,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1973-12-31;6015!art221",
+    "rotulo": "lei_6015_19731231, Art. 221.",
+    "tokens": 1196,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art149",
+    "rotulo": "in_rfb_1911_20191011, Art. 149.",
+    "tokens": 1194,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1976-12-15;6404!art136",
+    "rotulo": "lei_6404_19761215, Art. 136.",
+    "tokens": 1191,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art26",
+    "rotulo": "in_rfb_1911_20191011, Art. 26.",
+    "tokens": 1190,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2023-12-12;14754!art17",
+    "rotulo": "lei_14754_20231212, Art. 17.",
+    "tokens": 1190,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art744",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 744.",
+    "tokens": 1185,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:1980-10-30;85306!art7",
+    "rotulo": "decreto_85306_19801030, Art. 7º",
+    "tokens": 1184,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1997-12-10;9532!art11",
+    "rotulo": "lei_9532_19971210, Art. 11.",
+    "tokens": 1184,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-05-03;1888!art7",
+    "rotulo": "in_rfb_1888_20190503, Art. 7º",
+    "tokens": 1183,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2014-07-25;8289!anexo1!ali9",
+    "rotulo": "decreto_8289_20140725.anexo1, Alínea i",
+    "tokens": 1183,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art222",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 222.",
+    "tokens": 1183,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:1999-03-26;3000!art606",
+    "rotulo": "decreto_3000_19990326, Art. 606.",
+    "tokens": 1182,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto.lei:1943-05-01;5452!anexo1!art458",
+    "rotulo": "decreto_lei_5452_19430501.anexo1, Art. 458.",
+    "tokens": 1182,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto.lei:1943-05-01;5452!anexo1!art654",
+    "rotulo": "decreto_lei_5452_19430501.anexo1, Art. 654.",
+    "tokens": 1182,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:medida.provisoria:2001-08-24;35!art57",
+    "rotulo": "mp_2158-35_20010824, Art. 57.",
+    "tokens": 1181,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2019-01-04;13800!art13",
+    "rotulo": "lei_13800_20190104, Art. 13.",
+    "tokens": 1180,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1973-12-31;6015!art176-1",
+    "rotulo": "lei_6015_19731231, Art. 176-A.",
+    "tokens": 1177,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:1999-03-26;3000!art555",
+    "rotulo": "decreto_3000_19990326, Art. 555.",
+    "tokens": 1176,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art491",
+    "rotulo": "in_rfb_1911_20191011, Art. 491.",
+    "tokens": 1174,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:1999-03-26;3000!art547",
+    "rotulo": "decreto_3000_19990326, Art. 547.",
+    "tokens": 1173,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:medida.provisoria:2010-07-27;497!art27",
+    "rotulo": "mp_497_20100727, Art. 27.",
+    "tokens": 1171,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2024-01-09;2172!anexo7!inc2",
+    "rotulo": "in_rfb_2172_20240109.anexo7, Inciso II",
+    "tokens": 1171,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art249",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 249.",
+    "tokens": 1170,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1995-12-26;9249!art10",
+    "rotulo": "lei_9249_19951226, Art. 10.",
+    "tokens": 1169,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1990-07-13;8069!art19-1",
+    "rotulo": "lei_8069_19900713, Art. 19-A.",
+    "tokens": 1168,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art27",
+    "rotulo": "resol_cgsn_140_20180522, Art. 27.",
+    "tokens": 1167,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art122",
+    "rotulo": "resol_cgsn_140_20180522, Art. 122.",
+    "tokens": 1167,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art150",
+    "rotulo": "constituição_1988_19881005, Art. 150.",
+    "tokens": 1166,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art449",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 449.",
+    "tokens": 1166,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2021-12-06;2055!art58",
+    "rotulo": "in_rfb_2055_20211206, Art. 58.",
+    "tokens": 1165,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2023-12-12;14754!art21",
+    "rotulo": "lei_14754_20231212, Art. 21.",
+    "tokens": 1165,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1997-09-30;9504!art36-1",
+    "rotulo": "lei_9504_19970930, Art. 36-A.",
+    "tokens": 1165,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art489",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 489.",
+    "tokens": 1165,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:1999-03-26;3000!art738",
+    "rotulo": "decreto_3000_19990326, Art. 738.",
+    "tokens": 1164,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2014-10-29;1500!anexo4!inc1",
+    "rotulo": "in_rfb_1500_20141029.anexo4, Inciso I",
+    "tokens": 1164,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2006-12-14;123!art65",
+    "rotulo": "lei_comp_123_20061214, Art. 65.",
+    "tokens": 1159,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2009-06-04;11945!art19",
+    "rotulo": "lei_11945_20090604, Art. 19.",
+    "tokens": 1158,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art257",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 257.",
+    "tokens": 1157,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2021-12-13;2060!anexo1!ali2",
+    "rotulo": "in_rfb_2060_20211213.anexo1, Alínea b",
+    "tokens": 1157,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art588",
+    "rotulo": "in_rfb_1911_20191011, Art. 588.",
+    "tokens": 1156,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art55",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 55.",
+    "tokens": 1156,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2014-11-13;13043!art57",
+    "rotulo": "lei_13043_20141113, Art. 57.",
+    "tokens": 1154,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2004-12-29;11053!art1",
+    "rotulo": "lei_11053_20041229, Art. 1º",
+    "tokens": 1152,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art413",
+    "rotulo": "in_rfb_1911_20191011, Art. 413.",
+    "tokens": 1149,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2021-12-06;2055!art149",
+    "rotulo": "in_rfb_2055_20211206, Art. 149.",
+    "tokens": 1149,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:1999-03-26;3000!art62",
+    "rotulo": "decreto_3000_19990326, Art. 62.",
+    "tokens": 1148,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2006-12-14;123!art16",
+    "rotulo": "lei_comp_123_20061214, Art. 16.",
+    "tokens": 1147,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2005-11-21;11196!art31",
+    "rotulo": "lei_11196_20051121, Art. 31.",
+    "tokens": 1143,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art97-1",
+    "rotulo": "resol_cgsn_140_20180522, Art. 97-A.",
+    "tokens": 1143,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1964-11-30;4506!art18",
+    "rotulo": "lei_4506_19641130, Art. 18.",
+    "tokens": 1142,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1993-07-20;8685!art1-1",
+    "rotulo": "lei_8685_19930720, Art. 1º-A.",
+    "tokens": 1142,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2015-01-19;13097!art117",
+    "rotulo": "lei_13097_20150119, Art. 117.",
+    "tokens": 1141,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1990-12-11;8112!art219",
+    "rotulo": "lei_8112_19901211, Art. 219.",
+    "tokens": 1139,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-04-30;9358!anexo1!art110",
+    "rotulo": "decreto_9358_20180430.anexo1, Art. 110.",
+    "tokens": 1137,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2012-09-17;12715!art42",
+    "rotulo": "lei_12715_20120917, Art. 42.",
+    "tokens": 1136,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2015-03-16;13105!art1071",
+    "rotulo": "lei_13105_20150316, Art. 1.071.",
+    "tokens": 1136,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1965-11-29;4862!art35",
+    "rotulo": "lei_4862_19651129, Art. 35.",
+    "tokens": 1136,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art72",
+    "rotulo": "resol_cgsn_140_20180522, Art. 72.",
+    "tokens": 1136,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art591",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 591.",
+    "tokens": 1134,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1990-12-11;8112!art60-2",
+    "rotulo": "lei_8112_19901211, Art. 60-B.",
+    "tokens": 1132,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art876",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 876.",
+    "tokens": 1132,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2002-07-19;10522!art18",
+    "rotulo": "lei_10522_20020719, Art. 18.",
+    "tokens": 1130,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1973-01-11;5869!art655",
+    "rotulo": "lei_5869_19730111, Art. 655.",
+    "tokens": 1129,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1998-03-24;9615!art11",
+    "rotulo": "lei_9615_19980324, Art. 11.",
+    "tokens": 1128,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art800",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 800.",
+    "tokens": 1128,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2017-07-17;1717!art143",
+    "rotulo": "in_rfb_1717_20170717, Art. 143.",
+    "tokens": 1125,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art153",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 153.",
+    "tokens": 1125,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1995-09-19;9096!art50-2",
+    "rotulo": "lei_9096_19950919, Art. 50-B.",
+    "tokens": 1123,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2014-11-13;13043!art34",
+    "rotulo": "lei_13043_20141113, Art. 34.",
+    "tokens": 1120,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2017-03-30;13428!art2",
+    "rotulo": "lei_13428_20170330, Art. 2º",
+    "tokens": 1120,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1976-12-15;6404!art176",
+    "rotulo": "lei_6404_19761215, Art. 176.",
+    "tokens": 1120,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1994-02-04;8852!art1",
+    "rotulo": "lei_8852_19940204, Art. 1º",
+    "tokens": 1120,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1973-12-31;6015!art169",
+    "rotulo": "lei_6015_19731231, Art. 169.",
+    "tokens": 1119,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art851",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 851.",
+    "tokens": 1118,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2010-12-20;12350!art50",
+    "rotulo": "lei_12350_20101220, Art. 50.",
+    "tokens": 1116,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2002-09-27;208!art8",
+    "rotulo": "in_srf_208_20020927, Art. 8º",
+    "tokens": 1113,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2014-10-29;1500!art8",
+    "rotulo": "in_rfb_1500_20141029, Art. 8º",
+    "tokens": 1112,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1998-03-24;9615!art46-1",
+    "rotulo": "lei_9615_19980324, Art. 46-A.",
+    "tokens": 1112,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:1999-03-26;3000!art249",
+    "rotulo": "decreto_3000_19990326, Art. 249.",
+    "tokens": 1111,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2010-06-04;1037!art1",
+    "rotulo": "in_rfb_1037_20100604, Art. 1º",
+    "tokens": 1110,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1963-07-17;4242!art40",
+    "rotulo": "lei_4242_19630717, Art. 40.",
+    "tokens": 1109,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1997-12-10;9532!art82",
+    "rotulo": "lei_9532_19971210, Art. 82.",
+    "tokens": 1109,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2006-12-14;123!art56",
+    "rotulo": "lei_comp_123_20061214, Art. 56.",
+    "tokens": 1109,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art154",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 154.",
+    "tokens": 1109,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art219",
+    "rotulo": "in_rfb_1911_20191011, Art. 219.",
+    "tokens": 1108,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2004-12-21;11033!art2",
+    "rotulo": "lei_11033_20041221, Art. 2º",
+    "tokens": 1108,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art21",
+    "rotulo": "constituição_1988_19881005, Art. 21.",
+    "tokens": 1107,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2010-06-11;12249!art41",
+    "rotulo": "lei_12249_20100611, Art. 41.",
+    "tokens": 1107,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto.lei:1943-05-01;5452!anexo1!art879",
+    "rotulo": "decreto_lei_5452_19430501.anexo1, Art. 879.",
+    "tokens": 1107,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2010-06-11;12249!art52",
+    "rotulo": "lei_12249_20100611, Art. 52.",
+    "tokens": 1105,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1991-12-30;8383!art86",
+    "rotulo": "lei_8383_19911230, Art. 86.",
+    "tokens": 1105,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2006-12-28;11437!art9",
+    "rotulo": "lei_11437_20061228, Art. 9º",
+    "tokens": 1104,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2016-03-16;13259!art4",
+    "rotulo": "lei_13259_20160316, Art. 4º",
+    "tokens": 1104,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2015-08-31;1585!art28",
+    "rotulo": "in_rfb_1585_20150831, Art. 28.",
+    "tokens": 1102,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art172",
+    "rotulo": "in_rfb_1911_20191011, Art. 172.",
+    "tokens": 1099,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:1999-03-26;3000!art783",
+    "rotulo": "decreto_3000_19990326, Art. 783.",
+    "tokens": 1098,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2014-10-29;1500!art90",
+    "rotulo": "in_rfb_1500_20141029, Art. 90.",
+    "tokens": 1098,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1997-09-30;9504!art57-2",
+    "rotulo": "lei_9504_19970930, Art. 57-B.",
+    "tokens": 1097,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2002-11-13;10559!art2",
+    "rotulo": "lei_10559_20021113, Art. 2º",
+    "tokens": 1096,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1996-12-27;9430!art25",
+    "rotulo": "lei_9430_19961227, Art. 25.",
+    "tokens": 1096,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto.lei:1943-05-01;5452!anexo1!art326",
+    "rotulo": "decreto_lei_5452_19430501.anexo1, Art. 326.",
+    "tokens": 1096,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1973-01-11;5869!art585",
+    "rotulo": "lei_5869_19730111, Art. 585.",
+    "tokens": 1095,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:1999-03-26;3000!art55",
+    "rotulo": "decreto_3000_19990326, Art. 55.",
+    "tokens": 1094,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2015-03-16;13105!art313",
+    "rotulo": "lei_13105_20150316, Art. 313.",
+    "tokens": 1094,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2011-06-24;12431!art6",
+    "rotulo": "lei_12431_20110624, Art. 6º",
+    "tokens": 1093,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art162",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 162.",
+    "tokens": 1092,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2004-12-21;11033!art21",
+    "rotulo": "lei_11033_20041221, Art. 21.",
+    "tokens": 1091,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art153",
+    "rotulo": "resol_cgsn_140_20180522, Art. 153.",
+    "tokens": 1091,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art133",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 133.",
+    "tokens": 1091,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art629",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 629.",
+    "tokens": 1091,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art302",
+    "rotulo": "in_rfb_1911_20191011, Art. 302.",
+    "tokens": 1090,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:medida.provisoria:2010-07-27;497!art22",
+    "rotulo": "mp_497_20100727, Art. 22.",
+    "tokens": 1090,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2001-10-11;84!art20",
+    "rotulo": "in_srf_84_20011011, Art. 20.",
+    "tokens": 1088,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2003-12-29;10833!art4",
+    "rotulo": "lei_10833_20031229, Art. 4º",
+    "tokens": 1085,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art635",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 635.",
+    "tokens": 1085,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art669",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 669.",
+    "tokens": 1084,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art71",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 71.",
+    "tokens": 1083,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2014-10-29;1500!art104",
+    "rotulo": "in_rfb_1500_20141029, Art. 104.",
+    "tokens": 1082,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1997-09-30;9504!art37",
+    "rotulo": "lei_9504_19970930, Art. 37.",
+    "tokens": 1082,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art141-6",
+    "rotulo": "resol_cgsn_140_20180522, Art. 141-F.",
+    "tokens": 1082,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2014-10-29;1500!art13",
+    "rotulo": "in_rfb_1500_20141029, Art. 13.",
+    "tokens": 1080,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2024-03-11;2180!art37",
+    "rotulo": "in_rfb_2180_20240311, Art. 37.",
+    "tokens": 1080,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1973-01-11;5869!art656",
+    "rotulo": "lei_5869_19730111, Art. 656.",
+    "tokens": 1080,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1995-12-26;9250!art12",
+    "rotulo": "lei_9250_19951226, Art. 12.",
+    "tokens": 1079,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2014-10-29;1500!art5",
+    "rotulo": "in_rfb_1500_20141029, Art. 5º",
+    "tokens": 1078,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2004-12-29;11053!art6",
+    "rotulo": "lei_11053_20041229, Art. 6º",
+    "tokens": 1078,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1997-09-30;9504!art99",
+    "rotulo": "lei_9504_19970930, Art. 99.",
+    "tokens": 1077,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2002-01-10;10406!art1783-1",
+    "rotulo": "lei_10406_20020110, Art. 1.783-A.",
+    "tokens": 1076,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1990-07-13;8069!art166",
+    "rotulo": "lei_8069_19900713, Art. 166.",
+    "tokens": 1076,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto.lei:1943-05-01;5452!anexo1!art428",
+    "rotulo": "decreto_lei_5452_19430501.anexo1, Art. 428.",
+    "tokens": 1075,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2015-01-19;13097!art54",
+    "rotulo": "lei_13097_20150119, Art. 54.",
+    "tokens": 1072,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1973-01-11;5869!art527",
+    "rotulo": "lei_5869_19730111, Art. 527.",
+    "tokens": 1072,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1993-07-20;8685!art4",
+    "rotulo": "lei_8685_19930720, Art. 4º",
+    "tokens": 1072,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1990-12-11;8112!art230",
+    "rotulo": "lei_8112_19901211, Art. 230.",
+    "tokens": 1071,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-04-30;9358!anexo3!art31",
+    "rotulo": "decreto_9358_20180430.anexo3, Art. 31.",
+    "tokens": 1071,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1995-09-19;9096!art34",
+    "rotulo": "lei_9096_19950919, Art. 34.",
+    "tokens": 1070,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2006-12-14;123!art9",
+    "rotulo": "lei_comp_123_20061214, Art. 9º",
+    "tokens": 1069,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2006-12-14;123!art31",
+    "rotulo": "lei_comp_123_20061214, Art. 31.",
+    "tokens": 1069,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art32",
+    "rotulo": "in_rfb_1911_20191011, Art. 32.",
+    "tokens": 1066,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2012-04-30;12618!art5",
+    "rotulo": "lei_12618_20120430, Art. 5º",
+    "tokens": 1062,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto.lei:1943-05-01;5452!anexo1!art200",
+    "rotulo": "decreto_lei_5452_19430501.anexo1, Art. 200.",
+    "tokens": 1062,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2002-01-10;10406!art853-1",
+    "rotulo": "lei_10406_20020110, Art. 853-A.",
+    "tokens": 1061,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2003-12-29;10833!art58-15",
+    "rotulo": "lei_10833_20031229, Art. 58-O.",
+    "tokens": 1061,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art806",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 806.",
+    "tokens": 1061,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1973-12-31;6015!art288-1",
+    "rotulo": "lei_6015_19731231, Art. 288-A.",
+    "tokens": 1060,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto.lei:1943-05-01;5452!anexo1!art394-1",
+    "rotulo": "decreto_lei_5452_19430501.anexo1, Art. 394-A.",
+    "tokens": 1060,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto.lei:1943-05-01;5452!anexo1!art461",
+    "rotulo": "decreto_lei_5452_19430501.anexo1, Art. 461.",
+    "tokens": 1060,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1972-10-10;5809!art29",
+    "rotulo": "lei_5809_19721010, Art. 29.",
+    "tokens": 1059,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2021-12-08;14260!art4",
+    "rotulo": "lei_14260_20211208, Art. 4º",
+    "tokens": 1058,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1998-03-24;9615!art27-1",
+    "rotulo": "lei_9615_19980324, Art. 27-A.",
+    "tokens": 1058,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2006-12-14;123!art18-3",
+    "rotulo": "lei_comp_123_20061214, Art. 18-C.",
+    "tokens": 1058,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1990-07-13;8069!art90",
+    "rotulo": "lei_8069_19900713, Art. 90.",
+    "tokens": 1057,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art103",
+    "rotulo": "resol_cgsn_140_20180522, Art. 103.",
+    "tokens": 1057,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2007-05-02;11472!art1",
+    "rotulo": "lei_11472_20070502, Art. 1º",
+    "tokens": 1056,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:medida.provisoria:2001-09-06;1!art33",
+    "rotulo": "mp_2228-1_20010906, Art. 33.",
+    "tokens": 1056,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art64",
+    "rotulo": "resol_cgsn_140_20180522, Art. 64.",
+    "tokens": 1056,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1973-01-11;5869!art273",
+    "rotulo": "lei_5869_19730111, Art. 273.",
+    "tokens": 1055,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2006-12-14;123!art1",
+    "rotulo": "lei_comp_123_20061214, Art. 1º",
+    "tokens": 1055,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art17",
+    "rotulo": "constituição_1988_19881005, Art. 17.",
+    "tokens": 1054,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1996-12-20;9394!art5",
+    "rotulo": "lei_9394_19961220, Art. 5º",
+    "tokens": 1052,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto.lei:1943-05-01;5452!anexo1!art894",
+    "rotulo": "decreto_lei_5452_19430501.anexo1, Art. 894.",
+    "tokens": 1048,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:medida.provisoria:2001-09-06;1!anexo1!art33",
+    "rotulo": "mp_2228-1_20010906.anexo1, Art. 33.",
+    "tokens": 1048,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art14",
+    "rotulo": "constituição_1988_19881005, Art. 14.",
+    "tokens": 1047,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2006-12-28;11437!art8",
+    "rotulo": "lei_11437_20061228, Art. 8º",
+    "tokens": 1047,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1991-12-23;8313!art3",
+    "rotulo": "lei_8313_19911223, Art. 3º",
+    "tokens": 1047,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:medida.provisoria:2001-09-06;1!anexo1!art33",
+    "rotulo": "mp_2228-1_20010906.anexo1, Art. 33.",
+    "tokens": 1045,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art658",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 658.",
+    "tokens": 1044,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2004-12-29;11051!art1",
+    "rotulo": "lei_11051_20041229, Art. 1º",
+    "tokens": 1042,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2010-06-11;12249!art74",
+    "rotulo": "lei_12249_20100611, Art. 74.",
+    "tokens": 1042,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art355",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 355.",
+    "tokens": 1042,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1992-12-23;8541!art29",
+    "rotulo": "lei_8541_19921223, Art. 29.",
+    "tokens": 1041,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art84",
+    "rotulo": "constituição_1988_19881005, Art. 84.",
+    "tokens": 1040,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art71",
+    "rotulo": "in_rfb_1911_20191011, Art. 71.",
+    "tokens": 1040,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2009-05-27;11941!art79",
+    "rotulo": "lei_11941_20090527, Art. 79.",
+    "tokens": 1040,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1966-10-25;5172!art91",
+    "rotulo": "lei_5172_19661025, Art. 91.",
+    "tokens": 1040,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art60",
+    "rotulo": "resol_cgsn_140_20180522, Art. 60.",
+    "tokens": 1039,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2005-11-21;11196!art13",
+    "rotulo": "lei_11196_20051121, Art. 13.",
+    "tokens": 1038,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2012-09-17;12715!art43",
+    "rotulo": "lei_12715_20120917, Art. 43.",
+    "tokens": 1038,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2015-03-16;13105!art1037",
+    "rotulo": "lei_13105_20150316, Art. 1.037.",
+    "tokens": 1037,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1996-12-27;9430!art83",
+    "rotulo": "lei_9430_19961227, Art. 83.",
+    "tokens": 1037,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art966",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 966.",
+    "tokens": 1036,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1988-12-22;7713!art35",
+    "rotulo": "lei_7713_19881222, Art. 35.",
+    "tokens": 1035,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art305",
+    "rotulo": "in_rfb_1911_20191011, Art. 305.",
+    "tokens": 1034,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art730",
+    "rotulo": "in_rfb_1911_20191011, Art. 730.",
+    "tokens": 1034,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:1999-03-26;3000!art964",
+    "rotulo": "decreto_3000_19990326, Art. 964.",
+    "tokens": 1033,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1991-12-30;8383!art96",
+    "rotulo": "lei_8383_19911230, Art. 96.",
+    "tokens": 1033,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art362",
+    "rotulo": "in_rfb_1911_20191011, Art. 362.",
+    "tokens": 1032,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:1999-03-26;3000!art90",
+    "rotulo": "decreto_3000_19990326, Art. 90.",
+    "tokens": 1031,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2006-12-14;123!art39",
+    "rotulo": "lei_comp_123_20061214, Art. 39.",
+    "tokens": 1031,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2024-03-11;2180!art7",
+    "rotulo": "in_rfb_2180_20240311, Art. 7º",
+    "tokens": 1030,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2002-01-10;10406!art1584",
+    "rotulo": "lei_10406_20020110, Art. 1.584.",
+    "tokens": 1030,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art465",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 465.",
+    "tokens": 1028,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:decreto.lei:1974-12-23;1381!art6",
+    "rotulo": "decreto_lei_1381_19741223, Art. 6º",
+    "tokens": 1027,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art724",
+    "rotulo": "in_rfb_1911_20191011, Art. 724.",
+    "tokens": 1027,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1964-11-30;4504!art53",
+    "rotulo": "lei_4504_19641130, Art. 53.",
+    "tokens": 1027,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1997-09-30;9504!art66",
+    "rotulo": "lei_9504_19970930, Art. 66.",
+    "tokens": 1027,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art144",
+    "rotulo": "constituição_1988_19881005, Art. 144.",
+    "tokens": 1026,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art212",
+    "rotulo": "in_rfb_1911_20191011, Art. 212.",
+    "tokens": 1026,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2014-11-13;13043!art43",
+    "rotulo": "lei_13043_20141113, Art. 43.",
+    "tokens": 1025,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:1995-01-20;8981!art32",
+    "rotulo": "lei_8981_19950120, Art. 32.",
+    "tokens": 1025,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   }
+  ],
+  "ns_split_units": 342,
+  "over_cap_non_basic": {
+   "ALI": {
+    "over_cap": 4,
+    "over_8192": 0,
+    "n": 4878
+   },
+   "CAP": {
+    "over_cap": 780,
+    "over_8192": 0,
+    "n": 1843
+   },
+   "CPT": {
+    "over_cap": 78,
+    "over_8192": 0,
+    "n": 8084
+   },
+   "INC": {
+    "over_cap": 23,
+    "over_8192": 0,
+    "n": 20617
+   },
+   "ITE": {
+    "over_cap": 1,
+    "over_8192": 0,
+    "n": 1302
+   },
+   "LIV": {
+    "over_cap": 30,
+    "over_8192": 0,
+    "n": 45
+   },
+   "PAR": {
+    "over_cap": 43,
+    "over_8192": 0,
+    "n": 21511
+   },
+   "PRT": {
+    "over_cap": 5,
+    "over_8192": 0,
+    "n": 5
+   },
+   "SBT": {
+    "over_cap": 16,
+    "over_8192": 0,
+    "n": 21
+   },
+   "SEC": {
+    "over_cap": 600,
+    "over_8192": 0,
+    "n": 2106
+   },
+   "SSC": {
+    "over_cap": 152,
+    "over_8192": 0,
+    "n": 714
+   },
+   "TIT": {
+    "over_cap": 204,
+    "over_8192": 0,
+    "n": 326
+   }
+  },
+  "groupings_over_limit": {
+   "TIT": 84,
+   "CAP": 76,
+   "LIV": 43,
+   "SEC": 19,
+   "PRT": 13,
+   "SBT": 5,
+   "SSC": 3
+  },
+  "id_ambiguo_rows": 1803,
+  "id_ambiguo_basic_rows": 1195,
+  "dropped_agrupamentos": {
+   "preliminar": 44,
+   "assinatura": 392,
+   "localDataFecho": 13
+  },
+  "kept_long_dropped": [
+   {
+    "arquivo": "urn_lex_br_advocacia.geral.uniao_parecer_2018-12-28_93.xml",
+    "id": "pp1_agr3",
+    "nome": "preliminar",
+    "chars": 328
+   },
+   {
+    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta.interna_2013-02-15_5.xml",
+    "id": "pp1_agr2",
+    "nome": "preliminar",
+    "chars": 1551
+   },
+   {
+    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta.interna_2013-11-04_29.xml",
+    "id": "pp1_agr2",
+    "nome": "preliminar",
+    "chars": 1235
+   },
+   {
+    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2021-06-29_111.xml",
+    "id": "pp1_agrf1",
+    "nome": "localDataFecho",
+    "chars": 362
+   },
+   {
+    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2021-09-21_142.xml",
+    "id": "pp1_agrf5",
+    "nome": "localDataFecho",
+    "chars": 408
+   },
+   {
+    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_sumula_2012-09-30_1549.xml",
+    "id": "pp1_agr3",
+    "nome": "preliminar",
+    "chars": 710
+   },
+   {
+    "arquivo": "urn_lex_br_procuradoria.geral.fazenda.nacional_ato.declaratorio_2014-01-02_1.xml",
+    "id": "pp1_agr3",
+    "nome": "preliminar",
+    "chars": 360
+   },
+   {
+    "arquivo": "urn_lex_br_procuradoria.geral.fazenda.nacional_nota.pgfn_2015_1040.xml",
+    "id": "pp1_agr4",
+    "nome": "preliminar",
+    "chars": 346
+   },
+   {
+    "arquivo": "urn_lex_br_superior.tribunal.justica_recurso.especial_2012-10-24_1306393.xml",
+    "id": "pp1_agr2",
+    "nome": "preliminar",
+    "chars": 1934
+   },
+   {
+    "arquivo": "urn_lex_br_supremo.tribunal.federal_plenario_acordao_adi_2021-05-17_5583.xml",
+    "id": "pp1_agr3",
+    "nome": "preliminar",
+    "chars": 424
+   },
+   {
+    "arquivo": "urn_lex_br_supremo.tribunal.federal_plenario_acordao_re_2021-03-15_855091.xml",
+    "id": "pp1_agr3",
+    "nome": "preliminar",
+    "chars": 1124
+   }
+  ],
+  "meta_sources": {
+   "epi=agrupamento,ementa=agrupamento": 119,
+   "epi=ementa-agrupamento-title,ementa=campo-assunto": 1,
+   "parent=urn,epi=agrupamento,ementa=agrupamento": 1,
+   "epi=agrupamento,ementa=none": 3,
+   "epi=first-section-heading,ementa=none": 1,
+   "epi=preliminar-first-line,ementa=none": 5,
+   "epi=agrupamento,ementa=campo-assunto": 104,
+   "epi=preliminar-first-line,ementa=agrupamento": 1,
+   "parent=stem,statutory": 181
+  },
+  "text_coverage_distribution": {
+   "n": 664,
+   "p50": 1000,
+   "p90": 1000,
+   "p99": 1000,
+   "max": 1000
+  },
+  "gemini_sample": {
+   "status": "run",
+   "model": "gemini-embedding-2",
+   "random_sample": {
+    "n": 500,
+    "gemini_gt_reference": 2,
+    "max_excess": 60,
+    "ratio_gemini_over_reference": {
+     "p50": 0.883,
+     "p99": 0.964,
+     "max": 1.099
+    },
+    "max_gemini": 4847,
+    "gemini_over_8192": []
+   },
+   "largest_chunks": {
+    "n": 100,
+    "gemini_gt_reference": 0,
+    "max_excess": 0,
+    "ratio_gemini_over_reference": {
+     "p50": 0.878,
+     "p99": 0.926,
+     "max": 0.929
+    },
+    "max_gemini": 7253,
+    "gemini_over_8192": []
+   },
+   "errors": 0,
+   "error_examples": []
+  }
+ }
+}
