@@ -1,13 +1,14 @@
 {
- "timestamp": "2026-09-24T20:37:07",
+ "timestamp": "2026-09-24T21:10:34",
  "git": {
-  "commit": "aadd584cdc320a77c4a9547609977831f3f9c8f4",
+  "commit": "9e6addddca290d2662eaa8634834a9c8738fea63",
   "branch": "segmentation-implementation",
   "dirty": false,
   "dirty_files": []
  },
  "outputs_sha256": {
   "chunks_all.csv": "d24a4af12fe86ce69a7411ef2d0f5e70df76ee245166f193d2d65415e9a1a9a5",
+  "chunks_all.csv.gz": "0f495ef04b011926c0e8c476d737e9b716f55ef16cd39e8af65e73042afb920e",
   "groupings_over_limit.csv": "5f4c9dda097a0c34fde57eb4f5b980449d12c4fbc9fdb518ff6185cb6717cecb",
   "annex_manifest.csv": "e5eb88b86d38093c19da702f7c9b7fe913da3cf28deb85270621403f7f9a933b"
  },
@@ -32,1532 +33,1532 @@
   "C": 181
  },
  "timings": {
-  "1_router_s": 9.0,
+  "1_router_s": 8.7,
   "2_metadata_s": 4.8,
-  "3_xsl_s": 30.7,
-  "3b_4_split_loose_s": 15.8,
-  "5_non_statutory_s": 9.3,
-  "6_merge_s": 18.3,
-  "total_s": 88.7
+  "3_xsl_s": 31.0,
+  "3b_4_split_loose_s": 15.4,
+  "5_non_statutory_s": 9.6,
+  "6_merge_s": 21.2,
+  "total_s": 91.6
  },
  "xsl": [
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/ade_codac_23_20191204.xml",
    "rows": 2,
    "max_num_final": 8,
-   "duration_ms": 29.9
+   "duration_ms": 32.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/ade_cosit_30_20010723.xml",
    "rows": 2,
    "max_num_final": 6,
-   "duration_ms": 29.8
+   "duration_ms": 32.3
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/ade_rfb_2_20240306.xml",
    "rows": 14,
    "max_num_final": 34,
-   "duration_ms": 31.3
+   "duration_ms": 34.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/ade_rfb_3_20240402.xml",
    "rows": 5,
    "max_num_final": 20,
-   "duration_ms": 32.2
+   "duration_ms": 29.0
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/ade_srf_72_20051222.xml",
    "rows": 2,
    "max_num_final": 8,
-   "duration_ms": 36.9
+   "duration_ms": 31.1
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/adi_rfb_12_20161123.xml",
    "rows": 2,
    "max_num_final": 8,
-   "duration_ms": 36.0
+   "duration_ms": 31.3
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/adi_rfb_18_20071206.xml",
    "rows": 13,
    "max_num_final": 32,
-   "duration_ms": 38.9
+   "duration_ms": 30.3
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/adi_rfb_1_20160118.xml",
    "rows": 6,
    "max_num_final": 20,
-   "duration_ms": 31.0
+   "duration_ms": 33.9
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/adi_srf_14_20040504.xml",
    "rows": 7,
    "max_num_final": 14,
-   "duration_ms": 30.5
+   "duration_ms": 33.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/adi_srf_14_20051201.xml",
    "rows": 2,
    "max_num_final": 8,
-   "duration_ms": 27.9
+   "duration_ms": 33.6
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/adi_srf_16_20051222.xml",
    "rows": 3,
    "max_num_final": 12,
-   "duration_ms": 30.7
+   "duration_ms": 30.0
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/adi_srf_24_20041004.xml",
    "rows": 1,
    "max_num_final": 4,
-   "duration_ms": 33.0
+   "duration_ms": 32.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/adi_srf_26_20031226.xml",
    "rows": 1,
    "max_num_final": 4,
-   "duration_ms": 31.4
+   "duration_ms": 28.6
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/adi_srf_2_20070327.xml",
    "rows": 3,
    "max_num_final": 8,
-   "duration_ms": 29.8
+   "duration_ms": 30.3
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/adi_srf_5_20050427.xml",
    "rows": 3,
    "max_num_final": 12,
-   "duration_ms": 36.3
+   "duration_ms": 33.3
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/adi_srf_7_20040325.xml",
    "rows": 3,
    "max_num_final": 12,
-   "duration_ms": 27.7
+   "duration_ms": 29.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/adi_srf_8_20030423.xml",
    "rows": 7,
    "max_num_final": 20,
-   "duration_ms": 29.6
+   "duration_ms": 31.0
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/circ_bc_3432_20090203.xml",
    "rows": 97,
    "max_num_final": 264,
-   "duration_ms": 49.5
+   "duration_ms": 55.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/constituição_1988_19881005.xml",
    "rows": 2985,
    "max_num_final": 6132,
-   "duration_ms": 8116.1
+   "duration_ms": 7931.6
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_21177_19460527.xml",
    "rows": 1,
    "max_num_final": 4,
-   "duration_ms": 29.9
+   "duration_ms": 28.6
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_27784_19500216.xml",
    "rows": 0,
    "max_num_final": 0,
-   "duration_ms": 30.0
+   "duration_ms": 31.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_3000_19990326.xml",
    "rows": 5015,
    "max_num_final": 10900,
-   "duration_ms": 22011.8
+   "duration_ms": 21813.1
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_361_19911210.xml",
    "rows": 2,
    "max_num_final": 8,
-   "duration_ms": 34.3
+   "duration_ms": 32.8
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_4897_20031125.xml",
    "rows": 9,
    "max_num_final": 22,
-   "duration_ms": 32.5
+   "duration_ms": 28.3
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_50656_19610524.xml",
    "rows": 134,
    "max_num_final": 398,
-   "duration_ms": 62.8
+   "duration_ms": 60.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_5128_20040706.xml",
    "rows": 3,
    "max_num_final": 12,
-   "duration_ms": 28.1
+   "duration_ms": 31.1
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_52288_19630724.xml",
    "rows": 80,
    "max_num_final": 180,
-   "duration_ms": 53.2
+   "duration_ms": 52.7
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_56435_19650608.xml",
    "rows": 171,
    "max_num_final": 448,
-   "duration_ms": 68.3
+   "duration_ms": 77.7
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_57784_19660211.xml",
    "rows": 55,
    "max_num_final": 162,
-   "duration_ms": 37.3
+   "duration_ms": 29.8
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_57942_19660310.xml",
    "rows": 29,
    "max_num_final": 58,
-   "duration_ms": 34.5
+   "duration_ms": 35.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_59308_19660923.xml",
    "rows": 0,
    "max_num_final": 0,
-   "duration_ms": 25.3
+   "duration_ms": 22.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_59309_19660923.xml",
    "rows": 0,
    "max_num_final": 0,
-   "duration_ms": 25.9
+   "duration_ms": 23.3
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_59566_19661114.xml",
    "rows": 292,
    "max_num_final": 690,
-   "duration_ms": 178.4
+   "duration_ms": 183.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_61078_19670726.xml",
    "rows": 289,
    "max_num_final": 736,
-   "duration_ms": 146.2
+   "duration_ms": 148.7
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_62125_19680116.xml",
    "rows": 0,
    "max_num_final": 0,
-   "duration_ms": 26.5
+   "duration_ms": 27.1
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_63151_19680822.xml",
    "rows": 0,
    "max_num_final": 0,
-   "duration_ms": 27.6
+   "duration_ms": 27.1
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_67542_19701112.xml",
    "rows": 278,
    "max_num_final": 854,
-   "duration_ms": 136.4
+   "duration_ms": 123.0
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_7030_20091214.xml",
    "rows": 3,
    "max_num_final": 12,
-   "duration_ms": 32.9
+   "duration_ms": 30.0
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_70951_19720809.xml",
    "rows": 287,
    "max_num_final": 684,
-   "duration_ms": 187.4
+   "duration_ms": 191.9
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_71733_19730118.xml",
    "rows": 172,
    "max_num_final": 358,
-   "duration_ms": 121.7
+   "duration_ms": 101.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_75102_19741220.xml",
    "rows": 140,
    "max_num_final": 370,
-   "duration_ms": 64.0
+   "duration_ms": 65.1
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_8289_20140725.xml",
    "rows": 3,
    "max_num_final": 12,
-   "duration_ms": 30.7
+   "duration_ms": 30.6
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_85306_19801030.xml",
    "rows": 76,
    "max_num_final": 186,
-   "duration_ms": 52.4
+   "duration_ms": 45.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_85801_19810310.xml",
    "rows": 0,
    "max_num_final": 0,
-   "duration_ms": 30.3
+   "duration_ms": 29.9
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_86006_19810514.xml",
    "rows": 0,
    "max_num_final": 0,
-   "duration_ms": 30.7
+   "duration_ms": 30.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_86084_19810608.xml",
    "rows": 0,
    "max_num_final": 0,
-   "duration_ms": 31.1
+   "duration_ms": 22.7
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_8624_20151229.xml",
    "rows": 3,
    "max_num_final": 12,
-   "duration_ms": 24.0
+   "duration_ms": 32.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_86365_19810915.xml",
    "rows": 2,
    "max_num_final": 8,
-   "duration_ms": 34.2
+   "duration_ms": 32.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_87563_19820913.xml",
    "rows": 25,
    "max_num_final": 50,
-   "duration_ms": 29.0
+   "duration_ms": 29.3
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_93153_19860822.xml",
    "rows": 0,
    "max_num_final": 0,
-   "duration_ms": 30.3
+   "duration_ms": 29.9
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_9358_20180430.xml",
    "rows": 3,
    "max_num_final": 12,
-   "duration_ms": 36.3
+   "duration_ms": 34.9
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_95711_19880210.xml",
    "rows": 2,
    "max_num_final": 8,
-   "duration_ms": 30.4
+   "duration_ms": 34.3
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_9580_20181122.xml",
    "rows": 5,
    "max_num_final": 20,
-   "duration_ms": 32.0
+   "duration_ms": 31.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_legislativo_92_19751105.xml",
    "rows": 2,
    "max_num_final": 8,
-   "duration_ms": 29.7
+   "duration_ms": 26.3
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_lei_1301_19731231.xml",
    "rows": 12,
    "max_num_final": 28,
-   "duration_ms": 29.3
+   "duration_ms": 32.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_lei_1381_19741223.xml",
    "rows": 113,
    "max_num_final": 234,
-   "duration_ms": 61.7
+   "duration_ms": 58.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_lei_1493_19761207.xml",
    "rows": 39,
    "max_num_final": 96,
-   "duration_ms": 40.8
+   "duration_ms": 31.1
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_lei_1510_19761227.xml",
    "rows": 39,
    "max_num_final": 102,
-   "duration_ms": 35.8
+   "duration_ms": 34.8
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_lei_1535_19770413.xml",
    "rows": 4,
    "max_num_final": 16,
-   "duration_ms": 35.2
+   "duration_ms": 31.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_lei_167_19670214.xml",
    "rows": 243,
    "max_num_final": 580,
-   "duration_ms": 131.0
+   "duration_ms": 137.7
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_lei_2396_19871221.xml",
    "rows": 45,
    "max_num_final": 108,
-   "duration_ms": 33.0
+   "duration_ms": 37.7
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_lei_271_19670228.xml",
    "rows": 32,
    "max_num_final": 74,
-   "duration_ms": 32.8
+   "duration_ms": 32.6
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_lei_5452_19430501.xml",
    "rows": 4,
    "max_num_final": 10,
-   "duration_ms": 36.4
+   "duration_ms": 31.1
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_lei_5844_19430923.xml",
    "rows": 710,
    "max_num_final": 1632,
-   "duration_ms": 653.1
+   "duration_ms": 610.1
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_lei_58_19371210.xml",
    "rows": 93,
    "max_num_final": 224,
-   "duration_ms": 44.0
+   "duration_ms": 52.3
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_lei_8795_19460123.xml",
    "rows": 32,
    "max_num_final": 82,
-   "duration_ms": 36.1
+   "duration_ms": 33.9
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1008_20100209.xml",
    "rows": 3,
    "max_num_final": 12,
-   "duration_ms": 27.0
+   "duration_ms": 27.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1037_20100604.xml",
    "rows": 109,
    "max_num_final": 224,
-   "duration_ms": 63.3
+   "duration_ms": 52.1
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1131_20110221.xml",
    "rows": 437,
    "max_num_final": 962,
-   "duration_ms": 342.5
+   "duration_ms": 327.3
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1343_20130405.xml",
    "rows": 44,
    "max_num_final": 98,
-   "duration_ms": 66.1
+   "duration_ms": 75.0
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1500_20141029.xml",
    "rows": 983,
    "max_num_final": 2052,
-   "duration_ms": 1155.3
+   "duration_ms": 1131.0
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1505_20141031.xml",
    "rows": 5,
    "max_num_final": 20,
-   "duration_ms": 23.9
+   "duration_ms": 26.6
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1531_20141219.xml",
    "rows": 5,
    "max_num_final": 12,
-   "duration_ms": 31.8
+   "duration_ms": 29.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1548_20150213.xml",
    "rows": 253,
    "max_num_final": 540,
-   "duration_ms": 135.5
+   "duration_ms": 150.3
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1558_20150331.xml",
    "rows": 15,
    "max_num_final": 60,
-   "duration_ms": 32.3
+   "duration_ms": 38.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1585_20150831.xml",
    "rows": 1012,
    "max_num_final": 2060,
-   "duration_ms": 1219.2
+   "duration_ms": 1188.9
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1627_20160311.xml",
    "rows": 196,
    "max_num_final": 418,
-   "duration_ms": 101.9
+   "duration_ms": 90.7
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1645_20160530.xml",
    "rows": 39,
    "max_num_final": 84,
-   "duration_ms": 37.8
+   "duration_ms": 38.6
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1704_20170331.xml",
    "rows": 208,
    "max_num_final": 440,
-   "duration_ms": 115.0
+   "duration_ms": 115.6
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1717_20170717.xml",
    "rows": 763,
    "max_num_final": 1716,
-   "duration_ms": 706.9
+   "duration_ms": 739.3
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1888_20190503.xml",
    "rows": 99,
    "max_num_final": 206,
-   "duration_ms": 56.8
+   "duration_ms": 57.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1911_20191011.xml",
    "rows": 4282,
    "max_num_final": 9352,
-   "duration_ms": 15051.6
+   "duration_ms": 14915.0
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_2055_20211206.xml",
    "rows": 773,
    "max_num_final": 1720,
-   "duration_ms": 709.3
+   "duration_ms": 727.8
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_2060_20211213.xml",
    "rows": 30,
    "max_num_final": 70,
-   "duration_ms": 30.5
+   "duration_ms": 30.7
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_2066_20220224.xml",
    "rows": 88,
    "max_num_final": 188,
-   "duration_ms": 53.9
+   "duration_ms": 41.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_2172_20240109.xml",
    "rows": 310,
    "max_num_final": 652,
-   "duration_ms": 172.4
+   "duration_ms": 179.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_2178_20240305.xml",
    "rows": 175,
    "max_num_final": 362,
-   "duration_ms": 86.4
+   "duration_ms": 94.7
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_2180_20240311.xml",
    "rows": 331,
    "max_num_final": 706,
-   "duration_ms": 211.1
+   "duration_ms": 219.7
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_936_20090505.xml",
    "rows": 16,
    "max_num_final": 42,
-   "duration_ms": 35.6
+   "duration_ms": 34.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_srf_107_19880714.xml",
    "rows": 47,
    "max_num_final": 94,
-   "duration_ms": 36.8
+   "duration_ms": 36.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_srf_118_20001228.xml",
    "rows": 67,
    "max_num_final": 154,
-   "duration_ms": 40.7
+   "duration_ms": 40.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_srf_165_19981231.xml",
    "rows": 9,
    "max_num_final": 22,
-   "duration_ms": 27.2
+   "duration_ms": 29.7
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_srf_208_20020927.xml",
    "rows": 293,
    "max_num_final": 632,
-   "duration_ms": 172.0
+   "duration_ms": 161.3
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_srf_23_19830325.xml",
    "rows": 0,
    "max_num_final": 0,
-   "duration_ms": 27.7
+   "duration_ms": 24.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_srf_256_20021211.xml",
    "rows": 345,
    "max_num_final": 746,
-   "duration_ms": 209.0
+   "duration_ms": 195.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_srf_283_20030114.xml",
    "rows": 12,
    "max_num_final": 34,
-   "duration_ms": 32.9
+   "duration_ms": 35.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_srf_4_19990113.xml",
    "rows": 4,
    "max_num_final": 10,
-   "duration_ms": 33.9
+   "duration_ms": 31.6
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_srf_588_20051221.xml",
    "rows": 129,
    "max_num_final": 282,
-   "duration_ms": 75.8
+   "duration_ms": 74.0
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_srf_599_20051228.xml",
    "rows": 58,
    "max_num_final": 122,
-   "duration_ms": 44.2
+   "duration_ms": 37.1
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_srf_67_19880421.xml",
    "rows": 0,
    "max_num_final": 0,
-   "duration_ms": 34.4
+   "duration_ms": 31.8
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_srf_698_20061220.xml",
    "rows": 44,
    "max_num_final": 102,
-   "duration_ms": 38.3
+   "duration_ms": 33.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_srf_76_20010918.xml",
    "rows": 42,
    "max_num_final": 100,
-   "duration_ms": 36.4
+   "duration_ms": 37.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_srf_81_20011011.xml",
    "rows": 146,
    "max_num_final": 318,
-   "duration_ms": 80.6
+   "duration_ms": 67.9
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_srf_83_20011011.xml",
    "rows": 140,
    "max_num_final": 312,
-   "duration_ms": 68.7
+   "duration_ms": 69.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_srf_84_20011011.xml",
    "rows": 185,
    "max_num_final": 408,
-   "duration_ms": 96.9
+   "duration_ms": 78.7
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_10101_20001219.xml",
    "rows": 65,
    "max_num_final": 138,
-   "duration_ms": 38.2
+   "duration_ms": 42.7
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_10200_20010214.xml",
    "rows": 5,
    "max_num_final": 20,
-   "duration_ms": 31.2
+   "duration_ms": 31.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_10406_20020110.xml",
    "rows": 4933,
    "max_num_final": 12852,
-   "duration_ms": 19786.7
+   "duration_ms": 19689.8
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_10451_20020510.xml",
    "rows": 35,
    "max_num_final": 92,
-   "duration_ms": 31.4
+   "duration_ms": 32.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_10522_20020719.xml",
    "rows": 421,
    "max_num_final": 900,
-   "duration_ms": 326.5
+   "duration_ms": 342.1
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_10559_20021113.xml",
    "rows": 88,
    "max_num_final": 196,
-   "duration_ms": 54.2
+   "duration_ms": 48.8
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_10698_20030702.xml",
    "rows": 6,
    "max_num_final": 18,
-   "duration_ms": 29.0
+   "duration_ms": 28.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_10741_20031001.xml",
    "rows": 382,
    "max_num_final": 928,
-   "duration_ms": 259.1
+   "duration_ms": 296.9
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_10833_20031229.xml",
    "rows": 684,
    "max_num_final": 1496,
-   "duration_ms": 910.7
+   "duration_ms": 867.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_10865_20040430.xml",
    "rows": 446,
    "max_num_final": 946,
-   "duration_ms": 487.5
+   "duration_ms": 494.3
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_10973_20041202.xml",
    "rows": 252,
    "max_num_final": 538,
-   "duration_ms": 168.0
+   "duration_ms": 177.9
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_11033_20041221.xml",
    "rows": 111,
    "max_num_final": 254,
-   "duration_ms": 71.6
+   "duration_ms": 66.0
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_11051_20041229.xml",
    "rows": 103,
    "max_num_final": 262,
-   "duration_ms": 76.4
+   "duration_ms": 83.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_11053_20041229.xml",
    "rows": 58,
    "max_num_final": 124,
-   "duration_ms": 41.8
+   "duration_ms": 38.1
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_11196_20051121.xml",
    "rows": 671,
    "max_num_final": 1500,
-   "duration_ms": 928.5
+   "duration_ms": 982.9
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_11312_20060627.xml",
    "rows": 31,
    "max_num_final": 66,
-   "duration_ms": 38.6
+   "duration_ms": 32.3
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_11324_20060719.xml",
    "rows": 9,
    "max_num_final": 36,
-   "duration_ms": 30.3
+   "duration_ms": 27.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_11437_20061228.xml",
    "rows": 64,
    "max_num_final": 156,
-   "duration_ms": 54.2
+   "duration_ms": 46.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_11438_20061229.xml",
    "rows": 70,
    "max_num_final": 156,
-   "duration_ms": 48.2
+   "duration_ms": 42.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_11472_20070502.xml",
    "rows": 2,
    "max_num_final": 8,
-   "duration_ms": 29.4
+   "duration_ms": 29.9
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_11482_20070531.xml",
    "rows": 53,
    "max_num_final": 152,
-   "duration_ms": 52.1
+   "duration_ms": 52.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_11524_20070924.xml",
    "rows": 85,
    "max_num_final": 200,
-   "duration_ms": 52.7
+   "duration_ms": 62.0
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_11727_20080623.xml",
    "rows": 119,
    "max_num_final": 298,
-   "duration_ms": 111.7
+   "duration_ms": 118.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_11773_20080917.xml",
    "rows": 7,
    "max_num_final": 20,
-   "duration_ms": 36.8
+   "duration_ms": 31.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_11795_20081008.xml",
    "rows": 170,
    "max_num_final": 402,
-   "duration_ms": 88.5
+   "duration_ms": 85.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_11941_20090527.xml",
    "rows": 152,
    "max_num_final": 376,
-   "duration_ms": 180.8
+   "duration_ms": 169.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_11945_20090604.xml",
    "rows": 125,
    "max_num_final": 302,
-   "duration_ms": 82.2
+   "duration_ms": 96.8
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_12024_20090827.xml",
    "rows": 82,
    "max_num_final": 220,
-   "duration_ms": 54.2
+   "duration_ms": 58.1
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_12190_20100113.xml",
    "rows": 6,
    "max_num_final": 24,
-   "duration_ms": 29.1
+   "duration_ms": 28.6
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_12249_20100611.xml",
    "rows": 603,
    "max_num_final": 1388,
-   "duration_ms": 740.5
+   "duration_ms": 716.0
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_12350_20101220.xml",
    "rows": 404,
    "max_num_final": 876,
-   "duration_ms": 318.6
+   "duration_ms": 346.9
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_12431_20110624.xml",
    "rows": 254,
    "max_num_final": 590,
-   "duration_ms": 210.1
+   "duration_ms": 196.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_12513_20111026.xml",
    "rows": 130,
    "max_num_final": 286,
-   "duration_ms": 78.1
+   "duration_ms": 74.0
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_12594_20120118.xml",
    "rows": 375,
    "max_num_final": 864,
-   "duration_ms": 273.7
+   "duration_ms": 274.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_12618_20120430.xml",
    "rows": 184,
    "max_num_final": 398,
-   "duration_ms": 136.2
+   "duration_ms": 111.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_12715_20120917.xml",
    "rows": 367,
    "max_num_final": 854,
-   "duration_ms": 304.4
+   "duration_ms": 303.3
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_12794_20130402.xml",
    "rows": 87,
    "max_num_final": 194,
-   "duration_ms": 57.2
+   "duration_ms": 42.6
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_12832_20130620.xml",
    "rows": 3,
    "max_num_final": 12,
-   "duration_ms": 28.8
+   "duration_ms": 27.8
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_12871_20131022.xml",
    "rows": 248,
    "max_num_final": 546,
-   "duration_ms": 132.6
+   "duration_ms": 138.6
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_12973_20140513.xml",
    "rows": 533,
    "max_num_final": 1180,
-   "duration_ms": 709.3
+   "duration_ms": 692.9
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_13043_20141113.xml",
    "rows": 304,
    "max_num_final": 776,
-   "duration_ms": 294.0
+   "duration_ms": 320.0
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_13097_20150119.xml",
    "rows": 492,
    "max_num_final": 1248,
-   "duration_ms": 570.2
+   "duration_ms": 537.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_13105_20150316.xml",
    "rows": 4756,
    "max_num_final": 10482,
-   "duration_ms": 16998.3
+   "duration_ms": 16646.9
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_13149_20150721.xml",
    "rows": 7,
    "max_num_final": 28,
-   "duration_ms": 27.7
+   "duration_ms": 26.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_13254_20160113.xml",
    "rows": 113,
    "max_num_final": 236,
-   "duration_ms": 75.1
+   "duration_ms": 69.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_13259_20160316.xml",
    "rows": 24,
    "max_num_final": 54,
-   "duration_ms": 32.0
+   "duration_ms": 34.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_13315_20160720.xml",
    "rows": 9,
    "max_num_final": 28,
-   "duration_ms": 26.1
+   "duration_ms": 26.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_13428_20170330.xml",
    "rows": 20,
    "max_num_final": 50,
-   "duration_ms": 33.1
+   "duration_ms": 35.6
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_13466_20170712.xml",
    "rows": 5,
    "max_num_final": 20,
-   "duration_ms": 30.7
+   "duration_ms": 33.1
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_13800_20190104.xml",
    "rows": 212,
    "max_num_final": 446,
-   "duration_ms": 114.6
+   "duration_ms": 128.6
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_14119_20210113.xml",
    "rows": 147,
    "max_num_final": 324,
-   "duration_ms": 87.0
+   "duration_ms": 84.3
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_14260_20211208.xml",
    "rows": 46,
    "max_num_final": 120,
-   "duration_ms": 40.0
+   "duration_ms": 32.1
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_14286_20211229.xml",
    "rows": 184,
    "max_num_final": 398,
-   "duration_ms": 118.0
+   "duration_ms": 108.3
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_14754_20231212.xml",
    "rows": 368,
    "max_num_final": 782,
-   "duration_ms": 236.7
+   "duration_ms": 256.7
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_2579_19550823.xml",
    "rows": 7,
    "max_num_final": 22,
-   "duration_ms": 36.4
+   "duration_ms": 30.6
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_3071_19160101.xml",
    "rows": 3092,
    "max_num_final": 9190,
-   "duration_ms": 10364.3
+   "duration_ms": 10012.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_4242_19630717.xml",
    "rows": 199,
    "max_num_final": 500,
-   "duration_ms": 125.0
+   "duration_ms": 97.7
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_4504_19641130.xml",
    "rows": 772,
    "max_num_final": 1672,
-   "duration_ms": 785.4
+   "duration_ms": 782.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_4506_19641130.xml",
    "rows": 483,
    "max_num_final": 1044,
-   "duration_ms": 330.4
+   "duration_ms": 299.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_4591_19641216.xml",
    "rows": 506,
    "max_num_final": 1076,
-   "duration_ms": 431.0
+   "duration_ms": 426.6
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_4862_19651129.xml",
    "rows": 133,
    "max_num_final": 344,
-   "duration_ms": 77.2
+   "duration_ms": 76.0
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_4886_19651209.xml",
    "rows": 190,
    "max_num_final": 434,
-   "duration_ms": 88.3
+   "duration_ms": 99.6
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_5172_19661025.xml",
    "rows": 809,
    "max_num_final": 1846,
-   "duration_ms": 989.7
+   "duration_ms": 913.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_5809_19721010.xml",
    "rows": 294,
    "max_num_final": 640,
-   "duration_ms": 181.6
+   "duration_ms": 152.6
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_5869_19730111.xml",
    "rows": 3741,
    "max_num_final": 9042,
-   "duration_ms": 13226.4
+   "duration_ms": 13458.1
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_6015_19731231.xml",
    "rows": 1306,
    "max_num_final": 2992,
-   "duration_ms": 2313.5
+   "duration_ms": 2283.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_6404_19761215.xml",
    "rows": 1440,
    "max_num_final": 3002,
-   "duration_ms": 2571.0
+   "duration_ms": 2509.0
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_6766_19791219.xml",
    "rows": 324,
    "max_num_final": 708,
-   "duration_ms": 213.0
+   "duration_ms": 215.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_7070_19821220.xml",
    "rows": 20,
    "max_num_final": 46,
-   "duration_ms": 29.9
+   "duration_ms": 31.1
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_7290_19841219.xml",
    "rows": 4,
    "max_num_final": 16,
-   "duration_ms": 32.0
+   "duration_ms": 35.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_7713_19881222.xml",
    "rows": 251,
    "max_num_final": 576,
-   "duration_ms": 151.4
+   "duration_ms": 146.6
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_7739_19890316.xml",
    "rows": 81,
    "max_num_final": 182,
-   "duration_ms": 41.9
+   "duration_ms": 38.0
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_8023_19900412.xml",
    "rows": 56,
    "max_num_final": 140,
-   "duration_ms": 42.5
+   "duration_ms": 37.0
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_8036_19900511.xml",
    "rows": 388,
    "max_num_final": 822,
-   "duration_ms": 317.0
+   "duration_ms": 303.3
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_8059_19900704.xml",
    "rows": 68,
    "max_num_final": 172,
-   "duration_ms": 39.6
+   "duration_ms": 40.0
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_8069_19900713.xml",
    "rows": 1452,
    "max_num_final": 3218,
-   "duration_ms": 2863.7
+   "duration_ms": 2881.6
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_8112_19901211.xml",
    "rows": 1089,
    "max_num_final": 2438,
-   "duration_ms": 1656.1
+   "duration_ms": 1656.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_8134_19901227.xml",
    "rows": 119,
    "max_num_final": 274,
-   "duration_ms": 62.9
+   "duration_ms": 60.7
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_8242_19911012.xml",
    "rows": 39,
    "max_num_final": 94,
-   "duration_ms": 34.6
+   "duration_ms": 35.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_8313_19911223.xml",
    "rows": 226,
    "max_num_final": 504,
-   "duration_ms": 131.2
+   "duration_ms": 126.0
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_8383_19911230.xml",
    "rows": 480,
    "max_num_final": 1044,
-   "duration_ms": 416.4
+   "duration_ms": 350.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_8541_19921223.xml",
    "rows": 256,
    "max_num_final": 574,
-   "duration_ms": 170.3
+   "duration_ms": 148.1
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_8668_19930625.xml",
    "rows": 109,
    "max_num_final": 256,
-   "duration_ms": 56.2
+   "duration_ms": 63.3
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_8685_19930720.xml",
    "rows": 70,
    "max_num_final": 160,
-   "duration_ms": 44.5
+   "duration_ms": 44.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_8794_19931221.xml",
    "rows": 3,
    "max_num_final": 12,
-   "duration_ms": 30.9
+   "duration_ms": 28.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_8852_19940204.xml",
    "rows": 51,
    "max_num_final": 110,
-   "duration_ms": 41.0
+   "duration_ms": 37.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_8929_19940822.xml",
    "rows": 137,
    "max_num_final": 296,
-   "duration_ms": 70.1
+   "duration_ms": 79.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_8971_19941229.xml",
    "rows": 10,
    "max_num_final": 28,
-   "duration_ms": 29.5
+   "duration_ms": 34.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_8981_19950120.xml",
    "rows": 479,
    "max_num_final": 1078,
-   "duration_ms": 400.2
+   "duration_ms": 409.0
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_9003_19950316.xml",
    "rows": 13,
    "max_num_final": 46,
-   "duration_ms": 32.8
+   "duration_ms": 36.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_9096_19950919.xml",
    "rows": 383,
    "max_num_final": 862,
-   "duration_ms": 268.4
+   "duration_ms": 283.8
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_9140_19951204.xml",
    "rows": 53,
    "max_num_final": 126,
-   "duration_ms": 37.8
+   "duration_ms": 34.0
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_9249_19951226.xml",
    "rows": 208,
    "max_num_final": 452,
-   "duration_ms": 135.1
+   "duration_ms": 133.3
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_9250_19951226.xml",
    "rows": 237,
    "max_num_final": 516,
-   "duration_ms": 168.9
+   "duration_ms": 184.0
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_9278_19960510.xml",
    "rows": 19,
    "max_num_final": 56,
-   "duration_ms": 27.6
+   "duration_ms": 32.7
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_9307_19960923.xml",
    "rows": 182,
    "max_num_final": 406,
-   "duration_ms": 86.5
+   "duration_ms": 83.6
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_9393_19961219.xml",
    "rows": 145,
    "max_num_final": 306,
-   "duration_ms": 84.1
+   "duration_ms": 82.3
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_9394_19961220.xml",
    "rows": 740,
    "max_num_final": 1588,
-   "duration_ms": 825.9
+   "duration_ms": 808.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_9430_19961227.xml",
    "rows": 566,
    "max_num_final": 1228,
-   "duration_ms": 566.6
+   "duration_ms": 582.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_9468_19970710.xml",
    "rows": 65,
    "max_num_final": 154,
-   "duration_ms": 36.2
+   "duration_ms": 40.9
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_9481_19970813.xml",
    "rows": 48,
    "max_num_final": 106,
-   "duration_ms": 43.2
+   "duration_ms": 37.0
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_9504_19970930.xml",
    "rows": 901,
    "max_num_final": 1910,
-   "duration_ms": 1129.6
+   "duration_ms": 1083.7
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_9532_19971210.xml",
    "rows": 324,
    "max_num_final": 734,
-   "duration_ms": 189.5
+   "duration_ms": 235.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_9615_19980324.xml",
    "rows": 695,
    "max_num_final": 1484,
-   "duration_ms": 761.4
+   "duration_ms": 735.0
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_9718_19981127.xml",
    "rows": 151,
    "max_num_final": 322,
-   "duration_ms": 106.9
+   "duration_ms": 121.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_9779_19990119.xml",
    "rows": 74,
    "max_num_final": 172,
-   "duration_ms": 47.5
+   "duration_ms": 44.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_9784_19990129.xml",
    "rows": 273,
    "max_num_final": 642,
-   "duration_ms": 153.9
+   "duration_ms": 128.8
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_9959_20000127.xml",
    "rows": 43,
    "max_num_final": 106,
-   "duration_ms": 36.1
+   "duration_ms": 35.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_comp_109_20010529.xml",
    "rows": 336,
    "max_num_final": 734,
-   "duration_ms": 190.6
+   "duration_ms": 183.3
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_comp_123_20061214.xml",
    "rows": 1160,
    "max_num_final": 2464,
-   "duration_ms": 1900.6
+   "duration_ms": 1869.8
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/mp_2158-35_20010824.xml",
    "rows": 284,
    "max_num_final": 684,
-   "duration_ms": 265.5
+   "duration_ms": 236.3
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/mp_2159-70_20010824.xml",
    "rows": 27,
    "max_num_final": 70,
-   "duration_ms": 34.5
+   "duration_ms": 33.7
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/mp_2189-49_20010823.xml",
    "rows": 53,
    "max_num_final": 122,
-   "duration_ms": 41.9
+   "duration_ms": 42.6
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/mp_2228-1_20010906.xml",
    "rows": 380,
    "max_num_final": 842,
-   "duration_ms": 278.4
+   "duration_ms": 265.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/mp_252_20050615.xml",
    "rows": 276,
    "max_num_final": 646,
-   "duration_ms": 181.6
+   "duration_ms": 165.7
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/mp_497_20100727.xml",
    "rows": 113,
    "max_num_final": 266,
-   "duration_ms": 75.2
+   "duration_ms": 81.8
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/mp_670_20150310.xml",
    "rows": 5,
    "max_num_final": 20,
-   "duration_ms": 22.2
+   "duration_ms": 25.0
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/port_conj_tse_srf_74_20060110.xml",
    "rows": 42,
    "max_num_final": 88,
-   "duration_ms": 31.9
+   "duration_ms": 34.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/resol_cgpc_26_20080929.xml",
    "rows": 141,
    "max_num_final": 322,
-   "duration_ms": 88.9
+   "duration_ms": 70.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/resol_cgsn_140_20180522.xml",
    "rows": 1715,
    "max_num_final": 3544,
-   "duration_ms": 3286.3
+   "duration_ms": 3449.7
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_5128_20040706.anexo1.xml",
    "rows": 84,
    "max_num_final": 240,
-   "duration_ms": 42.7
+   "duration_ms": 43.8
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_52288_19630724.anexo1.xml",
    "rows": 22,
    "max_num_final": 46,
-   "duration_ms": 32.7
+   "duration_ms": 29.6
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_8289_20140725.anexo1.xml",
    "rows": 100,
    "max_num_final": 200,
-   "duration_ms": 50.7
+   "duration_ms": 45.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_8624_20151229.anexo1.xml",
    "rows": 175,
    "max_num_final": 450,
-   "duration_ms": 86.0
+   "duration_ms": 93.7
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_86365_19810915.anexo1.xml",
    "rows": 81,
    "max_num_final": 240,
-   "duration_ms": 45.3
+   "duration_ms": 42.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_9358_20180430.anexo1.xml",
    "rows": 277,
    "max_num_final": 624,
-   "duration_ms": 149.8
+   "duration_ms": 115.9
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_9358_20180430.anexo2.xml",
    "rows": 20,
    "max_num_final": 40,
-   "duration_ms": 30.0
+   "duration_ms": 29.6
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_9358_20180430.anexo3.xml",
    "rows": 460,
    "max_num_final": 996,
-   "duration_ms": 238.7
+   "duration_ms": 264.6
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_9358_20180430.anexo4.xml",
    "rows": 125,
    "max_num_final": 296,
-   "duration_ms": 64.8
+   "duration_ms": 58.6
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_9580_20181122.anexo1.xml",
    "rows": 6201,
    "max_num_final": 13210,
-   "duration_ms": 29201.8
+   "duration_ms": 29409.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_legislativo_92_19751105.anexo1.xml",
    "rows": 132,
    "max_num_final": 326,
-   "duration_ms": 88.4
+   "duration_ms": 85.3
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/decreto_lei_5452_19430501.anexo1.xml",
    "rows": 3522,
    "max_num_final": 8046,
-   "duration_ms": 13286.5
+   "duration_ms": 13136.8
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1500_20141029.anexo13.xml",
    "rows": 3,
    "max_num_final": 6,
-   "duration_ms": 30.6
+   "duration_ms": 29.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1500_20141029.anexo4.xml",
    "rows": 2,
    "max_num_final": 4,
-   "duration_ms": 32.9
+   "duration_ms": 35.8
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1500_20141029.anexo6.xml",
    "rows": 2,
    "max_num_final": 4,
-   "duration_ms": 34.1
+   "duration_ms": 33.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1500_20141029.anexo8.xml",
    "rows": 1,
    "max_num_final": 2,
-   "duration_ms": 35.3
+   "duration_ms": 31.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1548_20150213.anexo11.xml",
    "rows": 30,
    "max_num_final": 60,
-   "duration_ms": 34.2
+   "duration_ms": 31.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1548_20150213.anexo13.xml",
    "rows": 26,
    "max_num_final": 52,
-   "duration_ms": 29.7
+   "duration_ms": 34.0
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1548_20150213.anexo4.xml",
    "rows": 10,
    "max_num_final": 20,
-   "duration_ms": 27.2
+   "duration_ms": 29.8
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1548_20150213.anexo9.xml",
    "rows": 24,
    "max_num_final": 48,
-   "duration_ms": 30.9
+   "duration_ms": 32.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1717_20170717.anexo1.xml",
    "rows": 11,
    "max_num_final": 22,
-   "duration_ms": 28.9
+   "duration_ms": 41.9
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1717_20170717.anexo2.xml",
    "rows": 3,
    "max_num_final": 6,
-   "duration_ms": 33.0
+   "duration_ms": 31.9
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1717_20170717.anexo4.xml",
    "rows": 2,
    "max_num_final": 4,
-   "duration_ms": 28.2
+   "duration_ms": 38.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1717_20170717.anexo5.xml",
    "rows": 3,
    "max_num_final": 6,
-   "duration_ms": 36.2
+   "duration_ms": 30.6
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1717_20170717.anexo6.xml",
    "rows": 1,
    "max_num_final": 2,
-   "duration_ms": 36.9
+   "duration_ms": 29.7
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1911_20191011.anexo10.xml",
    "rows": 1,
    "max_num_final": 2,
-   "duration_ms": 27.0
+   "duration_ms": 27.1
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1911_20191011.anexo12.xml",
    "rows": 1,
    "max_num_final": 2,
-   "duration_ms": 29.8
+   "duration_ms": 29.7
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1911_20191011.anexo14.xml",
    "rows": 1,
    "max_num_final": 2,
-   "duration_ms": 28.0
+   "duration_ms": 30.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1911_20191011.anexo16.xml",
@@ -1569,199 +1570,199 @@
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1911_20191011.anexo18.xml",
    "rows": 4,
    "max_num_final": 8,
-   "duration_ms": 30.6
+   "duration_ms": 36.0
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1911_20191011.anexo22.xml",
    "rows": 1,
    "max_num_final": 2,
-   "duration_ms": 38.2
+   "duration_ms": 33.7
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1911_20191011.anexo24.xml",
    "rows": 1,
    "max_num_final": 2,
-   "duration_ms": 30.7
+   "duration_ms": 23.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1911_20191011.anexo26.xml",
    "rows": 1,
    "max_num_final": 2,
-   "duration_ms": 31.5
+   "duration_ms": 33.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1911_20191011.anexo38.xml",
    "rows": 1,
    "max_num_final": 2,
-   "duration_ms": 28.6
+   "duration_ms": 29.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1911_20191011.anexo40.xml",
    "rows": 4,
    "max_num_final": 8,
-   "duration_ms": 30.5
+   "duration_ms": 32.6
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1911_20191011.anexo52.xml",
    "rows": 1,
    "max_num_final": 2,
-   "duration_ms": 33.1
+   "duration_ms": 29.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1911_20191011.anexo54.xml",
    "rows": 1,
    "max_num_final": 2,
-   "duration_ms": 35.0
+   "duration_ms": 32.3
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1911_20191011.anexo6.xml",
    "rows": 1,
    "max_num_final": 2,
-   "duration_ms": 45.7
+   "duration_ms": 46.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1911_20191011.anexo60.xml",
    "rows": 3,
    "max_num_final": 6,
-   "duration_ms": 32.4
+   "duration_ms": 29.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_1911_20191011.anexo8.xml",
    "rows": 1,
    "max_num_final": 2,
-   "duration_ms": 30.5
+   "duration_ms": 27.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_2055_20211206.anexo1.xml",
    "rows": 11,
    "max_num_final": 22,
-   "duration_ms": 37.7
+   "duration_ms": 33.8
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_2055_20211206.anexo2.xml",
    "rows": 3,
    "max_num_final": 6,
-   "duration_ms": 30.4
+   "duration_ms": 32.0
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_2055_20211206.anexo4.xml",
    "rows": 2,
    "max_num_final": 4,
-   "duration_ms": 28.0
+   "duration_ms": 30.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_2055_20211206.anexo5.xml",
    "rows": 3,
    "max_num_final": 6,
-   "duration_ms": 35.2
+   "duration_ms": 30.3
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_2055_20211206.anexo6.xml",
    "rows": 1,
    "max_num_final": 2,
-   "duration_ms": 32.5
+   "duration_ms": 31.7
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_2060_20211213.anexo1.xml",
    "rows": 33,
    "max_num_final": 66,
-   "duration_ms": 35.5
+   "duration_ms": 31.1
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_2172_20240109.anexo4.xml",
    "rows": 2,
    "max_num_final": 4,
-   "duration_ms": 32.7
+   "duration_ms": 29.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_2172_20240109.anexo6.xml",
    "rows": 2,
    "max_num_final": 4,
-   "duration_ms": 28.5
+   "duration_ms": 32.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_2172_20240109.anexo7.xml",
    "rows": 2,
    "max_num_final": 4,
-   "duration_ms": 37.0
+   "duration_ms": 31.3
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_rfb_2172_20240109.anexo8.xml",
    "rows": 5,
    "max_num_final": 10,
-   "duration_ms": 34.2
+   "duration_ms": 31.9
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_srf_208_20020927.anexo4.xml",
    "rows": 3,
    "max_num_final": 6,
-   "duration_ms": 30.5
+   "duration_ms": 34.7
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_srf_256_20021211.anexo1.xml",
    "rows": 1,
    "max_num_final": 2,
-   "duration_ms": 28.8
+   "duration_ms": 25.6
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_srf_256_20021211.anexo2.xml",
    "rows": 138,
    "max_num_final": 276,
-   "duration_ms": 479.7
+   "duration_ms": 519.4
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_srf_698_20061220.anexo2.xml",
    "rows": 4,
    "max_num_final": 8,
-   "duration_ms": 27.0
+   "duration_ms": 28.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_srf_698_20061220.anexo4.xml",
    "rows": 16,
    "max_num_final": 32,
-   "duration_ms": 29.0
+   "duration_ms": 27.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/in_srf_81_20011011.anexo4.xml",
    "rows": 1,
    "max_num_final": 2,
-   "duration_ms": 29.0
+   "duration_ms": 27.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_5809_19721010.anexo1.xml",
    "rows": 1,
    "max_num_final": 2,
-   "duration_ms": 29.8
+   "duration_ms": 32.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_8242_19911012.anexo1.xml",
    "rows": 3,
    "max_num_final": 12,
-   "duration_ms": 33.1
+   "duration_ms": 33.2
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_9140_19951204.anexo1.xml",
    "rows": 136,
    "max_num_final": 272,
-   "duration_ms": 50.0
+   "duration_ms": 52.8
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_9140_19951204.anexo2.xml",
    "rows": 10,
    "max_num_final": 20,
-   "duration_ms": 32.3
+   "duration_ms": 31.5
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/lei_9504_19970930.anexo1.xml",
    "rows": 121,
    "max_num_final": 242,
-   "duration_ms": 47.6
+   "duration_ms": 56.0
   },
   {
    "source": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/lexml/articulados/mp_2228-1_20010906.anexo1.xml",
    "rows": 11,
    "max_num_final": 28,
-   "duration_ms": 27.7
+   "duration_ms": 27.8
   }
  ],
  "metadata": {
@@ -3532,7 +3533,7 @@
    "rows_after_split": 2,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.01
+   "seconds": 0.02
   },
   {
    "arquivo": "adi_rfb_12_20161123.xml",
@@ -3541,7 +3542,7 @@
    "rows_after_split": 2,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.02
+   "seconds": 0.01
   },
   {
    "arquivo": "adi_rfb_18_20071206.xml",
@@ -3559,7 +3560,7 @@
    "rows_after_split": 6,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.02
+   "seconds": 0.03
   },
   {
    "arquivo": "adi_srf_14_20040504.xml",
@@ -3568,7 +3569,7 @@
    "rows_after_split": 7,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.02
+   "seconds": 0.03
   },
   {
    "arquivo": "adi_srf_14_20051201.xml",
@@ -3622,7 +3623,7 @@
    "rows_after_split": 3,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.03
+   "seconds": 0.02
   },
   {
    "arquivo": "adi_srf_7_20040325.xml",
@@ -3651,7 +3652,7 @@
    "loose_stats": {
     "meta_source": "statutory"
    },
-   "seconds": 0.13
+   "seconds": 0.14
   },
   {
    "arquivo": "constituição_1988_19881005.xml",
@@ -3904,7 +3905,7 @@
    "rows_after_split": 3028,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 4.97
+   "seconds": 4.56
   },
   {
    "arquivo": "decreto_21177_19460527.xml",
@@ -3913,7 +3914,7 @@
    "rows_after_split": 1,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.01
+   "seconds": 0.02
   },
   {
    "arquivo": "decreto_27784_19500216.xml",
@@ -4148,7 +4149,7 @@
    "rows_after_split": 5047,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 5.1
+   "seconds": 4.85
   },
   {
    "arquivo": "decreto_361_19911210.xml",
@@ -4166,7 +4167,7 @@
    "rows_after_split": 9,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.02
+   "seconds": 0.03
   },
   {
    "arquivo": "decreto_50656_19610524.xml",
@@ -4177,7 +4178,7 @@
    "loose_stats": {
     "meta_source": "statutory"
    },
-   "seconds": 0.26
+   "seconds": 0.25
   },
   {
    "arquivo": "decreto_5128_20040706.xml",
@@ -4220,7 +4221,7 @@
    "loose_stats": {
     "meta_source": "statutory"
    },
-   "seconds": 0.11
+   "seconds": 0.13
   },
   {
    "arquivo": "decreto_57942_19660310.xml",
@@ -4229,7 +4230,7 @@
    "rows_after_split": 29,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.04
+   "seconds": 0.03
   },
   {
    "arquivo": "decreto_59308_19660923.xml",
@@ -4238,7 +4239,7 @@
    "rows_after_split": 0,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.01
+   "seconds": 0.02
   },
   {
    "arquivo": "decreto_59309_19660923.xml",
@@ -4258,7 +4259,7 @@
    "loose_stats": {
     "meta_source": "statutory"
    },
-   "seconds": 0.25
+   "seconds": 0.24
   },
   {
    "arquivo": "decreto_61078_19670726.xml",
@@ -4269,7 +4270,7 @@
    "loose_stats": {
     "meta_source": "statutory"
    },
-   "seconds": 0.23
+   "seconds": 0.24
   },
   {
    "arquivo": "decreto_62125_19680116.xml",
@@ -4287,7 +4288,7 @@
    "rows_after_split": 0,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.02
+   "seconds": 0.01
   },
   {
    "arquivo": "decreto_67542_19701112.xml",
@@ -4298,7 +4299,7 @@
    "loose_stats": {
     "meta_source": "statutory"
    },
-   "seconds": 0.54
+   "seconds": 0.49
   },
   {
    "arquivo": "decreto_7030_20091214.xml",
@@ -4346,7 +4347,7 @@
    "loose_stats": {
     "meta_source": "statutory"
    },
-   "seconds": 0.26
+   "seconds": 0.29
   },
   {
    "arquivo": "decreto_75102_19741220.xml",
@@ -4357,7 +4358,7 @@
    "loose_stats": {
     "meta_source": "statutory"
    },
-   "seconds": 0.14
+   "seconds": 0.13
   },
   {
    "arquivo": "decreto_8289_20140725.xml",
@@ -4366,7 +4367,7 @@
    "rows_after_split": 3,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.02
+   "seconds": 0.03
   },
   {
    "arquivo": "decreto_85306_19801030.xml",
@@ -4396,7 +4397,7 @@
    "rows_after_split": 0,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.01
+   "seconds": 0.02
   },
   {
    "arquivo": "decreto_86006_19810514.xml",
@@ -4405,7 +4406,7 @@
    "rows_after_split": 0,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.02
+   "seconds": 0.01
   },
   {
    "arquivo": "decreto_86084_19810608.xml",
@@ -4414,7 +4415,7 @@
    "rows_after_split": 0,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.02
+   "seconds": 0.01
   },
   {
    "arquivo": "decreto_8624_20151229.xml",
@@ -4452,7 +4453,7 @@
    "rows_after_split": 0,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.02
+   "seconds": 0.01
   },
   {
    "arquivo": "decreto_9358_20180430.xml",
@@ -4461,7 +4462,7 @@
    "rows_after_split": 3,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.02
+   "seconds": 0.03
   },
   {
    "arquivo": "decreto_95711_19880210.xml",
@@ -4470,7 +4471,7 @@
    "rows_after_split": 2,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.03
+   "seconds": 0.02
   },
   {
    "arquivo": "decreto_9580_20181122.xml",
@@ -4479,7 +4480,7 @@
    "rows_after_split": 5,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.02
+   "seconds": 0.04
   },
   {
    "arquivo": "decreto_legislativo_92_19751105.xml",
@@ -4497,7 +4498,7 @@
    "rows_after_split": 12,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.03
+   "seconds": 0.04
   },
   {
    "arquivo": "decreto_lei_1381_19741223.xml",
@@ -4525,7 +4526,7 @@
    "rows_after_split": 115,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.16
+   "seconds": 0.14
   },
   {
    "arquivo": "decreto_lei_1493_19761207.xml",
@@ -4572,7 +4573,7 @@
    "rows_after_split": 8,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.45
+   "seconds": 0.42
   },
   {
    "arquivo": "decreto_lei_167_19670214.xml",
@@ -4599,7 +4600,7 @@
    "rows_after_split": 32,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.03
+   "seconds": 0.04
   },
   {
    "arquivo": "decreto_lei_5452_19430501.xml",
@@ -4608,7 +4609,7 @@
    "rows_after_split": 4,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.02
+   "seconds": 0.01
   },
   {
    "arquivo": "decreto_lei_5844_19430923.xml",
@@ -4627,7 +4628,7 @@
    "rows_after_split": 711,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.34
+   "seconds": 0.38
   },
   {
    "arquivo": "decreto_lei_58_19371210.xml",
@@ -4645,7 +4646,7 @@
    "rows_after_split": 32,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.04
+   "seconds": 0.03
   },
   {
    "arquivo": "in_rfb_1008_20100209.xml",
@@ -4682,7 +4683,7 @@
    "rows_after_split": 112,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.64
+   "seconds": 0.63
   },
   {
    "arquivo": "in_rfb_1131_20110221.xml",
@@ -4701,7 +4702,7 @@
    "rows_after_split": 438,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.31
+   "seconds": 0.28
   },
   {
    "arquivo": "in_rfb_1343_20130405.xml",
@@ -4729,7 +4730,7 @@
    "rows_after_split": 65,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 1.32
+   "seconds": 1.27
   },
   {
    "arquivo": "in_rfb_1500_20141029.xml",
@@ -4867,7 +4868,7 @@
    "loose_stats": {
     "meta_source": "statutory"
    },
-   "seconds": 2.57
+   "seconds": 2.07
   },
   {
    "arquivo": "in_rfb_1505_20141031.xml",
@@ -4886,7 +4887,7 @@
    "rows_after_split": 7,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.24
+   "seconds": 0.22
   },
   {
    "arquivo": "in_rfb_1531_20141219.xml",
@@ -4895,7 +4896,7 @@
    "rows_after_split": 5,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.02
+   "seconds": 0.03
   },
   {
    "arquivo": "in_rfb_1548_20150213.xml",
@@ -4904,7 +4905,7 @@
    "rows_after_split": 253,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.11
+   "seconds": 0.09
   },
   {
    "arquivo": "in_rfb_1558_20150331.xml",
@@ -5023,7 +5024,7 @@
    "rows_after_split": 1025,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 1.55
+   "seconds": 1.22
   },
   {
    "arquivo": "in_rfb_1627_20160311.xml",
@@ -5051,7 +5052,7 @@
    "rows_after_split": 39,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.04
+   "seconds": 0.03
   },
   {
    "arquivo": "in_rfb_1704_20170331.xml",
@@ -5117,7 +5118,7 @@
    "rows_after_split": 100,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.08
+   "seconds": 0.1
   },
   {
    "arquivo": "in_rfb_1911_20191011.xml",
@@ -5559,7 +5560,7 @@
    "rows_after_split": 4351,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 7.6
+   "seconds": 7.19
   },
   {
    "arquivo": "in_rfb_2055_20211206.xml",
@@ -5614,7 +5615,7 @@
    "rows_after_split": 778,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.6
+   "seconds": 0.62
   },
   {
    "arquivo": "in_rfb_2060_20211213.xml",
@@ -5623,7 +5624,7 @@
    "rows_after_split": 30,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.03
+   "seconds": 0.04
   },
   {
    "arquivo": "in_rfb_2066_20220224.xml",
@@ -5642,7 +5643,7 @@
    "rows_after_split": 89,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.11
+   "seconds": 0.1
   },
   {
    "arquivo": "in_rfb_2172_20240109.xml",
@@ -5651,7 +5652,7 @@
    "rows_after_split": 310,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.1
+   "seconds": 0.11
   },
   {
    "arquivo": "in_rfb_2178_20240305.xml",
@@ -5752,7 +5753,7 @@
    "rows_after_split": 9,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.03
+   "seconds": 0.02
   },
   {
    "arquivo": "in_srf_208_20020927.xml",
@@ -5798,7 +5799,7 @@
    "rows_after_split": 301,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.52
+   "seconds": 0.51
   },
   {
    "arquivo": "in_srf_23_19830325.xml",
@@ -5826,7 +5827,7 @@
    "rows_after_split": 346,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.2
+   "seconds": 0.19
   },
   {
    "arquivo": "in_srf_283_20030114.xml",
@@ -5844,7 +5845,7 @@
    "rows_after_split": 4,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.02
+   "seconds": 0.01
   },
   {
    "arquivo": "in_srf_588_20051221.xml",
@@ -5863,7 +5864,7 @@
    "rows_after_split": 131,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.18
+   "seconds": 0.19
   },
   {
    "arquivo": "in_srf_599_20051228.xml",
@@ -5891,7 +5892,7 @@
    "rows_after_split": 60,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.16
+   "seconds": 0.18
   },
   {
    "arquivo": "in_srf_67_19880421.xml",
@@ -5919,7 +5920,7 @@
    "rows_after_split": 45,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.12
+   "seconds": 0.11
   },
   {
    "arquivo": "in_srf_76_20010918.xml",
@@ -5956,7 +5957,7 @@
    "rows_after_split": 140,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.07
+   "seconds": 0.06
   },
   {
    "arquivo": "in_srf_84_20011011.xml",
@@ -5975,7 +5976,7 @@
    "rows_after_split": 186,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.13
+   "seconds": 0.12
   },
   {
    "arquivo": "lei_10101_20001219.xml",
@@ -6003,7 +6004,7 @@
    "rows_after_split": 67,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.19
+   "seconds": 0.23
   },
   {
    "arquivo": "lei_10200_20010214.xml",
@@ -6058,7 +6059,7 @@
    "rows_after_split": 4937,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 2.79
+   "seconds": 2.67
   },
   {
    "arquivo": "lei_10451_20020510.xml",
@@ -6133,7 +6134,7 @@
    "rows_after_split": 436,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.86
+   "seconds": 0.77
   },
   {
    "arquivo": "lei_10559_20021113.xml",
@@ -6180,7 +6181,7 @@
    "rows_after_split": 383,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.35
+   "seconds": 0.26
   },
   {
    "arquivo": "lei_10833_20031229.xml",
@@ -6298,7 +6299,7 @@
    "rows_after_split": 713,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 2.48
+   "seconds": 2.13
   },
   {
    "arquivo": "lei_10865_20040430.xml",
@@ -6380,7 +6381,7 @@
    "rows_after_split": 492,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 4.1
+   "seconds": 3.69
   },
   {
    "arquivo": "lei_10973_20041202.xml",
@@ -6408,7 +6409,7 @@
    "rows_after_split": 254,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.32
+   "seconds": 0.29
   },
   {
    "arquivo": "lei_11033_20041221.xml",
@@ -6491,7 +6492,7 @@
    "rows_after_split": 106,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.3
+   "seconds": 0.29
   },
   {
    "arquivo": "lei_11053_20041229.xml",
@@ -6519,7 +6520,7 @@
    "rows_after_split": 60,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.17
+   "seconds": 0.15
   },
   {
    "arquivo": "lei_11196_20051121.xml",
@@ -6685,7 +6686,7 @@
    "rows_after_split": 31,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.04
+   "seconds": 0.03
   },
   {
    "arquivo": "lei_11324_20060719.xml",
@@ -6694,7 +6695,7 @@
    "rows_after_split": 9,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.03
+   "seconds": 0.04
   },
   {
    "arquivo": "lei_11437_20061228.xml",
@@ -6750,7 +6751,7 @@
    "rows_after_split": 71,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.1
+   "seconds": 0.11
   },
   {
    "arquivo": "lei_11472_20070502.xml",
@@ -6769,7 +6770,7 @@
    "rows_after_split": 3,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.09
+   "seconds": 0.11
   },
   {
    "arquivo": "lei_11482_20070531.xml",
@@ -6797,7 +6798,7 @@
    "rows_after_split": 58,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.34
+   "seconds": 0.33
   },
   {
    "arquivo": "lei_11524_20070924.xml",
@@ -6834,7 +6835,7 @@
    "rows_after_split": 127,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 1.05
+   "seconds": 0.99
   },
   {
    "arquivo": "lei_11773_20080917.xml",
@@ -6843,7 +6844,7 @@
    "rows_after_split": 7,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.03
+   "seconds": 0.02
   },
   {
    "arquivo": "lei_11795_20081008.xml",
@@ -6852,7 +6853,7 @@
    "rows_after_split": 170,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.08
+   "seconds": 0.07
   },
   {
    "arquivo": "lei_11941_20090527.xml",
@@ -6952,7 +6953,7 @@
    "rows_after_split": 178,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 2.77
+   "seconds": 2.58
   },
   {
    "arquivo": "lei_11945_20090604.xml",
@@ -6989,7 +6990,7 @@
    "rows_after_split": 129,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.37
+   "seconds": 0.39
   },
   {
    "arquivo": "lei_12024_20090827.xml",
@@ -7017,7 +7018,7 @@
    "rows_after_split": 6,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.02
+   "seconds": 0.03
   },
   {
    "arquivo": "lei_12249_20100611.xml",
@@ -7162,7 +7163,7 @@
    "rows_after_split": 629,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 2.62
+   "seconds": 2.28
   },
   {
    "arquivo": "lei_12350_20101220.xml",
@@ -7235,7 +7236,7 @@
    "rows_after_split": 411,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.87
+   "seconds": 0.82
   },
   {
    "arquivo": "lei_12431_20110624.xml",
@@ -7284,7 +7285,7 @@
     "meta_source": "statutory",
     "meta_truncated": true
    },
-   "seconds": 1.03
+   "seconds": 0.93
   },
   {
    "arquivo": "lei_12513_20111026.xml",
@@ -7303,7 +7304,7 @@
    "rows_after_split": 131,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.18
+   "seconds": 0.14
   },
   {
    "arquivo": "lei_12594_20120118.xml",
@@ -7322,7 +7323,7 @@
    "rows_after_split": 377,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.62
+   "seconds": 0.51
   },
   {
    "arquivo": "lei_12618_20120430.xml",
@@ -7444,7 +7445,7 @@
    "rows_after_split": 87,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.05
+   "seconds": 0.07
   },
   {
    "arquivo": "lei_12832_20130620.xml",
@@ -7481,7 +7482,7 @@
    "rows_after_split": 250,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.25
+   "seconds": 0.23
   },
   {
    "arquivo": "lei_12973_20140513.xml",
@@ -7554,7 +7555,7 @@
    "rows_after_split": 548,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 2.55
+   "seconds": 2.15
   },
   {
    "arquivo": "lei_13043_20141113.xml",
@@ -7657,7 +7658,7 @@
     "meta_source": "statutory",
     "meta_truncated": true
    },
-   "seconds": 1.77
+   "seconds": 1.41
   },
   {
    "arquivo": "lei_13097_20150119.xml",
@@ -7721,7 +7722,7 @@
    "rows_after_split": 499,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 1.33
+   "seconds": 0.98
   },
   {
    "arquivo": "lei_13105_20150316.xml",
@@ -7785,7 +7786,7 @@
    "rows_after_split": 4762,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 2.8
+   "seconds": 2.57
   },
   {
    "arquivo": "lei_13149_20150721.xml",
@@ -7850,7 +7851,7 @@
    "rows_after_split": 9,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.03
+   "seconds": 0.02
   },
   {
    "arquivo": "lei_13428_20170330.xml",
@@ -7869,7 +7870,7 @@
    "rows_after_split": 21,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.09
+   "seconds": 0.08
   },
   {
    "arquivo": "lei_13466_20170712.xml",
@@ -7878,7 +7879,7 @@
    "rows_after_split": 5,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.02
+   "seconds": 0.04
   },
   {
    "arquivo": "lei_13800_20190104.xml",
@@ -7972,7 +7973,7 @@
    "rows_after_split": 187,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.37
+   "seconds": 0.35
   },
   {
    "arquivo": "lei_14754_20231212.xml",
@@ -8027,7 +8028,7 @@
    "rows_after_split": 375,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.64
+   "seconds": 0.6
   },
   {
    "arquivo": "lei_2579_19550823.xml",
@@ -8055,7 +8056,7 @@
    "rows_after_split": 3095,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 1.76
+   "seconds": 1.78
   },
   {
    "arquivo": "lei_4242_19630717.xml",
@@ -8074,7 +8075,7 @@
    "rows_after_split": 200,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.18
+   "seconds": 0.2
   },
   {
    "arquivo": "lei_4504_19641130.xml",
@@ -8129,7 +8130,7 @@
    "rows_after_split": 779,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.7
+   "seconds": 0.71
   },
   {
    "arquivo": "lei_4506_19641130.xml",
@@ -8157,7 +8158,7 @@
    "rows_after_split": 485,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.36
+   "seconds": 0.33
   },
   {
    "arquivo": "lei_4591_19641216.xml",
@@ -8221,7 +8222,7 @@
    "rows_after_split": 517,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 1.04
+   "seconds": 0.93
   },
   {
    "arquivo": "lei_4862_19651129.xml",
@@ -8240,7 +8241,7 @@
    "rows_after_split": 134,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.16
+   "seconds": 0.14
   },
   {
    "arquivo": "lei_4886_19651209.xml",
@@ -8259,7 +8260,7 @@
    "rows_after_split": 191,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.16
+   "seconds": 0.14
   },
   {
    "arquivo": "lei_5172_19661025.xml",
@@ -8278,7 +8279,7 @@
    "rows_after_split": 810,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.43
+   "seconds": 0.42
   },
   {
    "arquivo": "lei_5809_19721010.xml",
@@ -8297,7 +8298,7 @@
    "rows_after_split": 295,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.15
+   "seconds": 0.18
   },
   {
    "arquivo": "lei_5869_19730111.xml",
@@ -8363,7 +8364,7 @@
    "loose_stats": {
     "meta_source": "statutory"
    },
-   "seconds": 2.77
+   "seconds": 2.61
   },
   {
    "arquivo": "lei_6015_19731231.xml",
@@ -8481,7 +8482,7 @@
    "rows_after_split": 1329,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 2.02
+   "seconds": 1.98
   },
   {
    "arquivo": "lei_6404_19761215.xml",
@@ -8592,7 +8593,7 @@
    "loose_stats": {
     "meta_source": "statutory"
    },
-   "seconds": 1.45
+   "seconds": 1.64
   },
   {
    "arquivo": "lei_6766_19791219.xml",
@@ -8620,7 +8621,7 @@
    "rows_after_split": 326,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.29
+   "seconds": 0.26
   },
   {
    "arquivo": "lei_7070_19821220.xml",
@@ -8629,7 +8630,7 @@
    "rows_after_split": 20,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.03
+   "seconds": 0.02
   },
   {
    "arquivo": "lei_7290_19841219.xml",
@@ -8675,7 +8676,7 @@
    "rows_after_split": 256,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.45
+   "seconds": 0.46
   },
   {
    "arquivo": "lei_7739_19890316.xml",
@@ -8684,7 +8685,7 @@
    "rows_after_split": 81,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.05
+   "seconds": 0.04
   },
   {
    "arquivo": "lei_8023_19900412.xml",
@@ -8693,7 +8694,7 @@
    "rows_after_split": 56,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.03
+   "seconds": 0.04
   },
   {
    "arquivo": "lei_8036_19900511.xml",
@@ -8766,7 +8767,7 @@
    "rows_after_split": 409,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 1.21
+   "seconds": 1.13
   },
   {
    "arquivo": "lei_8059_19900704.xml",
@@ -8775,7 +8776,7 @@
    "rows_after_split": 68,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.04
+   "seconds": 0.05
   },
   {
    "arquivo": "lei_8069_19900713.xml",
@@ -8911,7 +8912,7 @@
    "rows_after_split": 1470,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 1.97
+   "seconds": 1.95
   },
   {
    "arquivo": "lei_8112_19901211.xml",
@@ -8993,7 +8994,7 @@
    "rows_after_split": 1100,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 1.03
+   "seconds": 1.06
   },
   {
    "arquivo": "lei_8134_19901227.xml",
@@ -9002,7 +9003,7 @@
    "rows_after_split": 119,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.08
+   "seconds": 0.06
   },
   {
    "arquivo": "lei_8242_19911012.xml",
@@ -9039,7 +9040,7 @@
    "rows_after_split": 228,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.26
+   "seconds": 0.24
   },
   {
    "arquivo": "lei_8383_19911230.xml",
@@ -9076,7 +9077,7 @@
    "rows_after_split": 483,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.51
+   "seconds": 0.41
   },
   {
    "arquivo": "lei_8541_19921223.xml",
@@ -9097,7 +9098,7 @@
    "loose_stats": {
     "meta_source": "statutory"
    },
-   "seconds": 0.23
+   "seconds": 0.26
   },
   {
    "arquivo": "lei_8668_19930625.xml",
@@ -9118,7 +9119,7 @@
    "loose_stats": {
     "meta_source": "statutory"
    },
-   "seconds": 0.15
+   "seconds": 0.14
   },
   {
    "arquivo": "lei_8685_19930720.xml",
@@ -9211,7 +9212,7 @@
    "rows_after_split": 10,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.03
+   "seconds": 0.02
   },
   {
    "arquivo": "lei_8981_19950120.xml",
@@ -9248,7 +9249,7 @@
    "rows_after_split": 482,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.51
+   "seconds": 0.42
   },
   {
    "arquivo": "lei_9003_19950316.xml",
@@ -9257,7 +9258,7 @@
    "rows_after_split": 13,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.03
+   "seconds": 0.02
   },
   {
    "arquivo": "lei_9096_19950919.xml",
@@ -9312,7 +9313,7 @@
    "rows_after_split": 389,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.6
+   "seconds": 0.56
   },
   {
    "arquivo": "lei_9140_19951204.xml",
@@ -9321,7 +9322,7 @@
    "rows_after_split": 53,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.05
+   "seconds": 0.04
   },
   {
    "arquivo": "lei_9249_19951226.xml",
@@ -9369,7 +9370,7 @@
    "loose_stats": {
     "meta_source": "statutory"
    },
-   "seconds": 0.37
+   "seconds": 0.41
   },
   {
    "arquivo": "lei_9250_19951226.xml",
@@ -9424,7 +9425,7 @@
    "rows_after_split": 19,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.02
+   "seconds": 0.03
   },
   {
    "arquivo": "lei_9307_19960923.xml",
@@ -9452,7 +9453,7 @@
    "rows_after_split": 146,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.13
+   "seconds": 0.12
   },
   {
    "arquivo": "lei_9394_19961220.xml",
@@ -9498,7 +9499,7 @@
    "rows_after_split": 745,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.78
+   "seconds": 0.64
   },
   {
    "arquivo": "lei_9430_19961227.xml",
@@ -9580,7 +9581,7 @@
    "rows_after_split": 578,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.87
+   "seconds": 0.92
   },
   {
    "arquivo": "lei_9468_19970710.xml",
@@ -9608,7 +9609,7 @@
    "rows_after_split": 54,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.24
+   "seconds": 0.27
   },
   {
    "arquivo": "lei_9504_19970930.xml",
@@ -9746,7 +9747,7 @@
    "loose_stats": {
     "meta_source": "statutory"
    },
-   "seconds": 2.07
+   "seconds": 1.99
   },
   {
    "arquivo": "lei_9532_19971210.xml",
@@ -9792,7 +9793,7 @@
    "rows_after_split": 328,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.35
+   "seconds": 0.36
   },
   {
    "arquivo": "lei_9615_19980324.xml",
@@ -9883,7 +9884,7 @@
    "rows_after_split": 710,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 1.37
+   "seconds": 1.04
   },
   {
    "arquivo": "lei_9718_19981127.xml",
@@ -9930,7 +9931,7 @@
    "rows_after_split": 75,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.12
+   "seconds": 0.13
   },
   {
    "arquivo": "lei_9784_19990129.xml",
@@ -9957,7 +9958,7 @@
    "rows_after_split": 336,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.14
+   "seconds": 0.13
   },
   {
    "arquivo": "lei_comp_123_20061214.xml",
@@ -10165,7 +10166,7 @@
    "rows_after_split": 1216,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 4.51
+   "seconds": 4.08
   },
   {
    "arquivo": "mp_2158-35_20010824.xml",
@@ -10195,7 +10196,7 @@
    "loose_stats": {
     "meta_source": "statutory"
    },
-   "seconds": 0.42
+   "seconds": 0.48
   },
   {
    "arquivo": "mp_2159-70_20010824.xml",
@@ -10215,7 +10216,7 @@
    "loose_stats": {
     "meta_source": "statutory"
    },
-   "seconds": 0.08
+   "seconds": 0.07
   },
   {
    "arquivo": "mp_2228-1_20010906.xml",
@@ -10254,7 +10255,7 @@
    "loose_stats": {
     "meta_source": "statutory"
    },
-   "seconds": 0.71
+   "seconds": 0.66
   },
   {
    "arquivo": "mp_252_20050615.xml",
@@ -10273,7 +10274,7 @@
    "rows_after_split": 277,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.21
+   "seconds": 0.24
   },
   {
    "arquivo": "mp_497_20100727.xml",
@@ -10310,7 +10311,7 @@
    "rows_after_split": 116,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.36
+   "seconds": 0.35
   },
   {
    "arquivo": "mp_670_20150310.xml",
@@ -10328,7 +10329,7 @@
    "rows_after_split": 42,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.03
+   "seconds": 0.04
   },
   {
    "arquivo": "resol_cgpc_26_20080929.xml",
@@ -10337,7 +10338,7 @@
    "rows_after_split": 141,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.09
+   "seconds": 0.08
   },
   {
    "arquivo": "resol_cgsn_140_20180522.xml",
@@ -10680,7 +10681,7 @@
    "rows_after_split": 1781,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 4.67
+   "seconds": 4.26
   },
   {
    "arquivo": "decreto_5128_20040706.anexo1.xml",
@@ -10692,7 +10693,7 @@
     "split_units": 1,
     "meta_source": "parent=stem,statutory"
    },
-   "seconds": 0.29
+   "seconds": 0.32
   },
   {
    "arquivo": "decreto_52288_19630724.anexo1.xml",
@@ -10743,7 +10744,7 @@
    "loose_stats": {
     "meta_source": "parent=stem,statutory"
    },
-   "seconds": 0.18
+   "seconds": 0.17
   },
   {
    "arquivo": "decreto_86365_19810915.anexo1.xml",
@@ -10754,7 +10755,7 @@
    "loose_stats": {
     "meta_source": "parent=stem,statutory"
    },
-   "seconds": 0.11
+   "seconds": 0.09
   },
   {
    "arquivo": "decreto_9358_20180430.anexo1.xml",
@@ -10784,7 +10785,7 @@
    "loose_stats": {
     "meta_source": "parent=stem,statutory"
    },
-   "seconds": 0.46
+   "seconds": 0.48
   },
   {
    "arquivo": "decreto_9358_20180430.anexo2.xml",
@@ -10795,7 +10796,7 @@
    "loose_stats": {
     "meta_source": "parent=stem,statutory"
    },
-   "seconds": 0.08
+   "seconds": 0.07
   },
   {
    "arquivo": "decreto_9358_20180430.anexo3.xml",
@@ -10825,7 +10826,7 @@
    "loose_stats": {
     "meta_source": "parent=stem,statutory"
    },
-   "seconds": 0.82
+   "seconds": 0.7
   },
   {
    "arquivo": "decreto_9358_20180430.anexo4.xml",
@@ -10836,7 +10837,7 @@
    "loose_stats": {
     "meta_source": "parent=stem,statutory"
    },
-   "seconds": 0.13
+   "seconds": 0.12
   },
   {
    "arquivo": "decreto_9580_20181122.anexo1.xml",
@@ -11362,7 +11363,7 @@
     "meta_source": "parent=stem,statutory",
     "annex_title_prefix_only": "ANEXO"
    },
-   "seconds": 9.03
+   "seconds": 8.63
   },
   {
    "arquivo": "decreto_legislativo_92_19751105.anexo1.xml",
@@ -11374,7 +11375,7 @@
     "meta_source": "parent=stem,statutory",
     "annex_title_prefix_only": "ANEXO"
    },
-   "seconds": 0.21
+   "seconds": 0.18
   },
   {
    "arquivo": "decreto_lei_5452_19430501.anexo1.xml",
@@ -11627,7 +11628,7 @@
    "rows_after_split": 3564,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 4.29
+   "seconds": 3.9
   },
   {
    "arquivo": "in_rfb_1500_20141029.anexo13.xml",
@@ -11646,7 +11647,7 @@
    "rows_after_split": 4,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.07
+   "seconds": 0.06
   },
   {
    "arquivo": "in_rfb_1500_20141029.anexo4.xml",
@@ -11665,7 +11666,7 @@
    "rows_after_split": 3,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.07
+   "seconds": 0.06
   },
   {
    "arquivo": "in_rfb_1500_20141029.anexo6.xml",
@@ -11684,7 +11685,7 @@
    "rows_after_split": 3,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.05
+   "seconds": 0.06
   },
   {
    "arquivo": "in_rfb_1500_20141029.anexo8.xml",
@@ -11717,7 +11718,7 @@
    "loose_stats": {
     "meta_source": "parent=stem,statutory"
    },
-   "seconds": 0.09
+   "seconds": 0.08
   },
   {
    "arquivo": "in_rfb_1548_20150213.anexo13.xml",
@@ -11728,7 +11729,7 @@
    "loose_stats": {
     "meta_source": "parent=stem,statutory"
    },
-   "seconds": 0.09
+   "seconds": 0.08
   },
   {
    "arquivo": "in_rfb_1548_20150213.anexo4.xml",
@@ -11741,7 +11742,7 @@
     "meta_source": "parent=stem,statutory",
     "annex_title_prefix_only": "ANEXO I (Anexo III da Instrução Normativa RFB nº 1.548, de 13 de fevereiro de 2015)"
    },
-   "seconds": 0.15
+   "seconds": 0.14
   },
   {
    "arquivo": "in_rfb_1548_20150213.anexo9.xml",
@@ -11763,7 +11764,7 @@
     "meta_source": "parent=stem,statutory",
     "annex_title_prefix_only": "ANEXO ÚNICO"
    },
-   "seconds": 0.17
+   "seconds": 0.18
   },
   {
    "arquivo": "in_rfb_1717_20170717.anexo1.xml",
@@ -11775,7 +11776,7 @@
     "meta_source": "parent=stem,statutory",
     "annex_title_prefix_only": "ANEXO I - Pedido de Restituição ou de Ressarcimento"
    },
-   "seconds": 0.14
+   "seconds": 0.16
   },
   {
    "arquivo": "in_rfb_1717_20170717.anexo2.xml",
@@ -11787,7 +11788,7 @@
     "meta_source": "parent=stem,statutory",
     "annex_title_prefix_only": "ANEXO II - Pedido de Restituição de Direito Creditório Decorrente de Cancelamento ou de Retificação de Declaração de Importação"
    },
-   "seconds": 0.12
+   "seconds": 0.13
   },
   {
    "arquivo": "in_rfb_1717_20170717.anexo4.xml",
@@ -11799,7 +11800,7 @@
     "meta_source": "parent=stem,statutory",
     "annex_title_prefix_only": "Anexo III"
    },
-   "seconds": 0.1
+   "seconds": 0.12
   },
   {
    "arquivo": "in_rfb_1717_20170717.anexo5.xml",
@@ -11836,7 +11837,7 @@
     "meta_source": "parent=stem,statutory",
     "annex_title_prefix_only": "ANEXO V PRODUTOS PARA USO EM LABORATÓRIO DE ANATOMIA PATOLÓGICA, CITOLÓGICA OU DE ANÁLISES CLÍNICAS E EM HOSPITAIS,"
    },
-   "seconds": 0.34
+   "seconds": 0.39
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo12.xml",
@@ -11849,7 +11850,7 @@
     "meta_source": "parent=stem,statutory",
     "annex_title_prefix_only": "ANEXO VI BENS CONTEMPLADOS NO REGIME ESPECIAL DE REINTEGRAÇÃO DE VALORES TRIBUTÁRIOS PARA AS EMPRESAS EXPORTADORAS"
    },
-   "seconds": 0.4
+   "seconds": 0.45
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo14.xml",
@@ -11861,7 +11862,7 @@
     "meta_source": "parent=stem,statutory",
     "annex_title_prefix_only": "ANEXO VII"
    },
-   "seconds": 0.3
+   "seconds": 0.33
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo16.xml",
@@ -11872,7 +11873,7 @@
    "loose_stats": {
     "meta_source": "parent=stem,statutory"
    },
-   "seconds": 0.29
+   "seconds": 0.32
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo18.xml",
@@ -11883,7 +11884,7 @@
    "loose_stats": {
     "meta_source": "parent=stem,statutory"
    },
-   "seconds": 0.29
+   "seconds": 0.31
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo22.xml",
@@ -11895,7 +11896,7 @@
     "meta_source": "parent=stem,statutory",
     "annex_title_prefix_only": "ANEXO XI Medicamentos Monodrogas Identificados com Tarja Vermelha ou Preta"
    },
-   "seconds": 0.54
+   "seconds": 0.47
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo24.xml",
@@ -11908,7 +11909,7 @@
     "meta_source": "parent=stem,statutory",
     "annex_title_prefix_only": "ANEXO XII MEDICAMENTOS EM ASSOCIAÇÕES IDENTIFICADOS COM TARJA VERMELHA OU PRETA"
    },
-   "seconds": 0.71
+   "seconds": 0.65
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo26.xml",
@@ -11920,7 +11921,7 @@
     "meta_source": "parent=stem,statutory",
     "annex_title_prefix_only": "ANEXO XIII SUBSTÂNCIAS PARA MEDICAMENTOS UTILIZADOS EM NUTRIÇÃO PARENTERAL, HEMODIÁLISE E DIÁLISE PERITONEAL, SUBSTITUTOS DO"
    },
-   "seconds": 0.34
+   "seconds": 0.37
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo38.xml",
@@ -11932,7 +11933,7 @@
     "meta_source": "parent=stem,statutory",
     "annex_title_prefix_only": "ANEXO XIX"
    },
-   "seconds": 0.19
+   "seconds": 0.18
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo40.xml",
@@ -11944,7 +11945,7 @@
     "meta_source": "parent=stem,statutory",
     "annex_title_prefix_only": "ANEXO XX"
    },
-   "seconds": 0.29
+   "seconds": 0.32
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo52.xml",
@@ -11956,7 +11957,7 @@
     "meta_source": "parent=stem,statutory",
     "annex_title_prefix_only": "ANEXO XXVI MINISTÉRIO DA ECONOMIA SECRETARIA ESPECIAL DA RECEITA FEDERAL DO BRASIL"
    },
-   "seconds": 0.32
+   "seconds": 0.37
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo54.xml",
@@ -11968,7 +11969,7 @@
     "meta_source": "parent=stem,statutory",
     "annex_title_prefix_only": "ANEXO XXVII"
    },
-   "seconds": 0.32
+   "seconds": 0.36
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo6.xml",
@@ -11980,7 +11981,7 @@
     "meta_source": "parent=stem,statutory",
     "annex_title_prefix_only": "ANEXO III PRODUTOS QUÍMICOS DO CAPÍTULO 29 DA TIPI"
    },
-   "seconds": 0.61
+   "seconds": 0.53
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo60.xml",
@@ -11992,7 +11993,7 @@
     "meta_source": "parent=stem,statutory",
     "annex_title_prefix_only": "ANEXO XXX MINISTÉRIO DA ECONOMIA SECRETARIA ESPECIAL DA RECEITA FEDERAL DO BRASIL"
    },
-   "seconds": 0.32
+   "seconds": 0.36
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo8.xml",
@@ -12005,7 +12006,7 @@
     "meta_source": "parent=stem,statutory",
     "annex_title_prefix_only": "ANEXO IV INTERMEDIÁRIOS DE SÍNTESE DESTINADOS À FABRICAÇÃO DOS PRODUTOS RELACIONADOS NO ANEXO III"
    },
-   "seconds": 0.66
+   "seconds": 0.64
   },
   {
    "arquivo": "in_rfb_2055_20211206.anexo1.xml",
@@ -12017,7 +12018,7 @@
     "meta_source": "parent=stem,statutory",
     "annex_title_prefix_only": "Anexo I - PEDIDO DE RESTITUIÇÃO OU DE RESSARCIMENTO"
    },
-   "seconds": 0.15
+   "seconds": 0.14
   },
   {
    "arquivo": "in_rfb_2055_20211206.anexo2.xml",
@@ -12029,7 +12030,7 @@
     "meta_source": "parent=stem,statutory",
     "annex_title_prefix_only": "Anexo II - Pedido de Restituição DE DIREITO CREdITÓRIO DECORRENTE DE CANCELAMENTO OU DE retificação de DECLARAÇÃO DE IMPORTAçÃO"
    },
-   "seconds": 0.13
+   "seconds": 0.12
   },
   {
    "arquivo": "in_rfb_2055_20211206.anexo4.xml",
@@ -12041,7 +12042,7 @@
     "meta_source": "parent=stem,statutory",
     "annex_title_prefix_only": "Anexo III"
    },
-   "seconds": 0.1
+   "seconds": 0.13
   },
   {
    "arquivo": "in_rfb_2055_20211206.anexo5.xml",
@@ -12053,7 +12054,7 @@
     "meta_source": "parent=stem,statutory",
     "annex_title_prefix_only": "Anexo IV - DECLARAÇÃO DE COMPENSAÇÃO"
    },
-   "seconds": 0.12
+   "seconds": 0.13
   },
   {
    "arquivo": "in_rfb_2055_20211206.anexo6.xml",
@@ -12095,7 +12096,7 @@
    "loose_stats": {
     "meta_source": "parent=stem,statutory"
    },
-   "seconds": 0.32
+   "seconds": 0.28
   },
   {
    "arquivo": "in_rfb_2172_20240109.anexo4.xml",
@@ -12106,7 +12107,7 @@
    "loose_stats": {
     "meta_source": "parent=stem,statutory"
    },
-   "seconds": 0.07
+   "seconds": 0.06
   },
   {
    "arquivo": "in_rfb_2172_20240109.anexo6.xml",
@@ -12117,7 +12118,7 @@
    "loose_stats": {
     "meta_source": "parent=stem,statutory"
    },
-   "seconds": 0.07
+   "seconds": 0.08
   },
   {
    "arquivo": "in_rfb_2172_20240109.anexo7.xml",
@@ -12165,7 +12166,7 @@
     "meta_source": "parent=stem,statutory",
     "annex_title_prefix_only": "Anexo II"
    },
-   "seconds": 0.07
+   "seconds": 0.08
   },
   {
    "arquivo": "in_srf_256_20021211.anexo1.xml",
@@ -12189,7 +12190,7 @@
     "meta_source": "parent=stem,statutory",
     "annex_title_prefix_only": "ANEXO I Tabela de Municípios, Localização e Índices de"
    },
-   "seconds": 0.98
+   "seconds": 1.13
   },
   {
    "arquivo": "in_srf_698_20061220.anexo2.xml",
@@ -12212,7 +12213,7 @@
    "loose_stats": {
     "meta_source": "parent=stem,statutory"
    },
-   "seconds": 0.07
+   "seconds": 0.09
   },
   {
    "arquivo": "in_srf_81_20011011.anexo4.xml",
@@ -12234,7 +12235,7 @@
    "loose_stats": {
     "meta_source": "parent=stem,statutory"
    },
-   "seconds": 0.09
+   "seconds": 0.1
   },
   {
    "arquivo": "lei_8242_19911012.anexo1.xml",
@@ -12245,7 +12246,7 @@
    "loose_stats": {
     "meta_source": "parent=stem,statutory"
    },
-   "seconds": 0.06
+   "seconds": 0.05
   },
   {
    "arquivo": "lei_9140_19951204.anexo1.xml",
@@ -12254,7 +12255,7 @@
    "rows_after_split": 136,
    "loose_rows": 0,
    "loose_stats": {},
-   "seconds": 0.11
+   "seconds": 0.1
   },
   {
    "arquivo": "lei_9140_19951204.anexo2.xml",
@@ -12265,7 +12266,7 @@
    "loose_stats": {
     "meta_source": "parent=stem,statutory"
    },
-   "seconds": 0.05
+   "seconds": 0.06
   },
   {
    "arquivo": "lei_9504_19970930.anexo1.xml",
@@ -12277,7 +12278,7 @@
     "meta_source": "parent=stem,statutory",
     "annex_title_prefix_only": "ANEXO"
    },
-   "seconds": 0.18
+   "seconds": 0.15
   },
   {
    "arquivo": "mp_2228-1_20010906.anexo1.xml",
@@ -12317,7 +12318,7 @@
     "meta_source": "parent=stem,statutory",
     "annex_title_prefix_only": "ANEXO I"
    },
-   "seconds": 0.33
+   "seconds": 0.27
   }
  ],
  "non_statutory": [
@@ -12351,7 +12352,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": true
    },
-   "seconds": 4.13
+   "seconds": 4.27
   },
   {
    "arquivo": "urn_lex_br_congresso.nacional_ato.declaratorio_2005_38.xml",
@@ -12428,7 +12429,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 2.98
+   "seconds": 3.31
   },
   {
    "arquivo": "urn_lex_br_federal_solucao.consulta_2019-03-25_6007.xml",
@@ -12484,7 +12485,7 @@
     "meta_source": "epi=ementa-agrupamento-title,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 1.58
+   "seconds": 1.66
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_conselho.administrativo.recursos.fiscais_sumula_2010-12-21_42.xml",
@@ -12525,7 +12526,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.09
+   "seconds": 0.1
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_portaria_1977-08-25_454.xml",
@@ -12546,7 +12547,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.05
+   "seconds": 0.07
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_portaria_1979-03-01_80.xml",
@@ -12572,7 +12573,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.05
+   "seconds": 0.06
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_portaria_1980-04-25_227.xml",
@@ -12593,7 +12594,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.04
+   "seconds": 0.05
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_portaria_2018-06-07_277!anexo1.xml",
@@ -12609,7 +12610,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO ÚNICO"
    },
-   "seconds": 5.29
+   "seconds": 5.45
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_portaria_2018-06-07_277.xml",
@@ -12630,7 +12631,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.03
+   "seconds": 0.04
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_ato.declaratorio_1978-07-13_11.xml",
@@ -12651,7 +12652,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.04
+   "seconds": 0.03
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_ato.declaratorio_1979-02-28_8.xml",
@@ -12666,7 +12667,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.03
+   "seconds": 0.04
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_ato.declaratorio_1979-07-27_16.xml",
@@ -12702,7 +12703,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 1.21
+   "seconds": 1.17
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_ato.declaratorio_1986-06-25_29.xml",
@@ -12723,7 +12724,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.04
+   "seconds": 0.05
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_ato.declaratorio_1989-08-21_20.xml",
@@ -12744,7 +12745,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.03
+   "seconds": 0.04
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_ato.declaratorio_1989-12-13_25.xml",
@@ -12791,7 +12792,7 @@
     "meta_source": "epi=agrupamento,ementa=none",
     "meta_truncated": false
    },
-   "seconds": 0.04
+   "seconds": 0.06
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_ato.declaratorio_1996-12-27_28.xml",
@@ -12812,7 +12813,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.03
+   "seconds": 0.04
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_ato.declaratorio_1997-01-13_7.xml",
@@ -12875,7 +12876,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.04
+   "seconds": 0.05
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_ato.declaratorio_1999-01-07_3.xml",
@@ -12896,7 +12897,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.04
+   "seconds": 0.05
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_ato.declaratorio_1999-04-01_9.xml",
@@ -12917,7 +12918,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.04
+   "seconds": 0.05
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_ato.declaratorio_1999-09-14_24.xml",
@@ -12959,7 +12960,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.03
+   "seconds": 0.04
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_ato.declaratorio_1999-11-26_95.xml",
@@ -13001,7 +13002,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.04
+   "seconds": 0.03
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_ato.declaratorio_2000-01-18_2.xml",
@@ -13022,7 +13023,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.04
+   "seconds": 0.03
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_ato.declaratorio_2000-04-26_28.xml",
@@ -13043,7 +13044,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.03
+   "seconds": 0.04
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_ato.declaratorio_2000-06-27_48.xml",
@@ -13064,7 +13065,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.04
+   "seconds": 0.03
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_ato.declaratorio_2000-10-25_19.xml",
@@ -13085,7 +13086,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.03
+   "seconds": 0.04
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_ato.declaratorio_2000-11-27_47.xml",
@@ -13106,7 +13107,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.04
+   "seconds": 0.03
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1970-07-08_130.xml",
@@ -13121,7 +13122,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.04
+   "seconds": 0.03
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1970-07-27_179.xml",
@@ -13136,7 +13137,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": true
    },
-   "seconds": 0.06
+   "seconds": 0.07
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1971-03-15_250.xml",
@@ -13151,7 +13152,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.04
+   "seconds": 0.06
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1973-09-13_129.xml",
@@ -13202,7 +13203,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.05
+   "seconds": 0.07
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1975-06-30_72.xml",
@@ -13223,7 +13224,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": true
    },
-   "seconds": 0.06
+   "seconds": 0.07
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1975-10-23_130.xml",
@@ -13244,7 +13245,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.05
+   "seconds": 0.06
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1976-03-31_25.xml",
@@ -13274,7 +13275,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.04
+   "seconds": 0.05
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1976-08-31_62.xml",
@@ -13289,7 +13290,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.05
+   "seconds": 0.06
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1976-09-14_68.xml",
@@ -13304,7 +13305,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.07
+   "seconds": 0.06
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1977-05-30_36.xml",
@@ -13319,7 +13320,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.04
+   "seconds": 0.06
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1978-06-20_60.xml",
@@ -13340,7 +13341,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.11
+   "seconds": 0.1
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1978-10-16_90.xml",
@@ -13355,7 +13356,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.13
+   "seconds": 0.1
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1980-01-15_2.xml",
@@ -13370,7 +13371,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.05
+   "seconds": 0.07
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1980-10-31_38.xml",
@@ -13396,7 +13397,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.11
+   "seconds": 0.1
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1981-08-17_32.xml",
@@ -13453,7 +13454,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.06
+   "seconds": 0.07
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1985-02-04_1.xml",
@@ -13474,7 +13475,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.05
+   "seconds": 0.07
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1986-02-18_6.xml",
@@ -13495,7 +13496,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.07
+   "seconds": 0.06
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1986-08-25_66.xml",
@@ -13516,7 +13517,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.04
+   "seconds": 0.05
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1992-08-17_10.xml",
@@ -13531,7 +13532,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.08
+   "seconds": 0.09
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1992-09-30_11.xml",
@@ -13567,7 +13568,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": true
    },
-   "seconds": 0.3
+   "seconds": 0.26
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1994-03-17_1.xml",
@@ -13582,7 +13583,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.05
+   "seconds": 0.07
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1995-08-08_1.xml",
@@ -13689,7 +13690,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.41
+   "seconds": 0.45
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_2008_1888.xml",
@@ -13715,7 +13716,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.27
+   "seconds": 0.29
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_2011_2118.xml",
@@ -13766,7 +13767,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.71
+   "seconds": 0.73
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_2014-08-04_6.xml",
@@ -13822,7 +13823,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.53
+   "seconds": 0.57
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_2021_10167.xml",
@@ -13905,7 +13906,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 2.22
+   "seconds": 2.33
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_servico_2026_carne.leao.xml",
@@ -13941,7 +13942,7 @@
     "meta_source": "epi=preliminar-first-line,ementa=none",
     "meta_truncated": false
    },
-   "seconds": 0.09
+   "seconds": 0.06
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_servico_2026_dimob.xml",
@@ -13962,7 +13963,7 @@
     "meta_source": "epi=preliminar-first-line,ementa=none",
     "meta_truncated": false
    },
-   "seconds": 0.04
+   "seconds": 0.07
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_servico_2026_dirf.xml",
@@ -13983,7 +13984,7 @@
     "meta_source": "epi=preliminar-first-line,ementa=none",
     "meta_truncated": false
    },
-   "seconds": 0.06
+   "seconds": 0.04
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_servico_2026_dmed.xml",
@@ -14004,7 +14005,7 @@
     "meta_source": "epi=preliminar-first-line,ementa=none",
     "meta_truncated": false
    },
-   "seconds": 0.05
+   "seconds": 0.04
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_servico_2026_doi.xml",
@@ -14046,7 +14047,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 1.19
+   "seconds": 1.33
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta.interna_2012-04-17_4.xml",
@@ -14072,7 +14073,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.36
+   "seconds": 0.44
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta.interna_2012-05-17_7.xml",
@@ -14098,7 +14099,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.19
+   "seconds": 0.24
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta.interna_2012-06-28_11.xml",
@@ -14140,7 +14141,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.49
+   "seconds": 0.52
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta.interna_2013-05-15_12.xml",
@@ -14191,7 +14192,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 2.66
+   "seconds": 3.02
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta.interna_2013-08-13_20.xml",
@@ -14247,7 +14248,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.86
+   "seconds": 0.74
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta.interna_2013-08-30_23.xml",
@@ -14300,7 +14301,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.29
+   "seconds": 0.35
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta.interna_2014-01-14_2.xml",
@@ -14326,7 +14327,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.69
+   "seconds": 0.79
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta.interna_2014-06-05_10.xml",
@@ -14341,7 +14342,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.33
+   "seconds": 0.42
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta.interna_2015-05-18_6.xml",
@@ -14362,7 +14363,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.95
+   "seconds": 1.18
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2009-03-09_15.xml",
@@ -14393,7 +14394,7 @@
     "meta_source": "epi=preliminar-first-line,ementa=agrupamento",
     "meta_truncated": true
    },
-   "seconds": 0.61
+   "seconds": 0.54
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2013-11-04_19.xml",
@@ -14434,7 +14435,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": true
    },
-   "seconds": 0.26
+   "seconds": 0.3
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2013-12-10_48.xml",
@@ -14455,7 +14456,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.47
+   "seconds": 0.56
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2013-12-16_53.xml",
@@ -14470,7 +14471,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.2
+   "seconds": 0.19
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2013-12-30_70.xml",
@@ -14485,7 +14486,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.06
+   "seconds": 0.09
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2013-12-31_73.xml",
@@ -14506,7 +14507,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.87
+   "seconds": 1.06
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2014-02-20_60.xml",
@@ -14521,7 +14522,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.18
+   "seconds": 0.17
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2014-03-28_70.xml",
@@ -14536,7 +14537,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.17
+   "seconds": 0.2
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2014-03-31_81.xml",
@@ -14551,7 +14552,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.23
+   "seconds": 0.25
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2014-04-02_82.xml",
@@ -14572,7 +14573,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.56
+   "seconds": 0.68
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2014-04-03_98.xml",
@@ -14593,7 +14594,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.48
+   "seconds": 0.56
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2014-04-07_102.xml",
@@ -14623,7 +14624,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 1.01
+   "seconds": 1.12
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2014-04-28_125.xml",
@@ -14679,7 +14680,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.67
+   "seconds": 0.8
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2014-06-02_134.xml",
@@ -14694,7 +14695,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.43
+   "seconds": 0.41
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2014-06-11_153.xml",
@@ -14709,7 +14710,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.72
+   "seconds": 0.6
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2014-08-14_224.xml",
@@ -14745,7 +14746,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.51
+   "seconds": 0.45
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2014-09-15_256.xml",
@@ -14821,7 +14822,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.75
+   "seconds": 0.64
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2014-11-07_313.xml",
@@ -14836,7 +14837,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 1.47
+   "seconds": 1.57
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2014-11-17_325.xml",
@@ -14898,7 +14899,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 2.06
+   "seconds": 2.11
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2014-12-17_356.xml",
@@ -14954,7 +14955,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.19
+   "seconds": 0.23
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2015-02-26_33.xml",
@@ -14975,7 +14976,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.06
+   "seconds": 0.08
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2015-03-24_79.xml",
@@ -15006,7 +15007,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.48
+   "seconds": 0.45
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2015-06-05_140.xml",
@@ -15042,7 +15043,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.34
+   "seconds": 0.31
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2015-08-05_204.xml",
@@ -15063,7 +15064,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.36
+   "seconds": 0.43
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2015-12-09_231.xml",
@@ -15078,7 +15079,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.4
+   "seconds": 0.41
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2016-02-29_15.xml",
@@ -15104,7 +15105,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.15
+   "seconds": 0.18
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2017-01-16_14.xml",
@@ -15130,7 +15131,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": true
    },
-   "seconds": 1.05
+   "seconds": 1.16
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2017-04-24_208.xml",
@@ -15156,7 +15157,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": true
    },
-   "seconds": 0.78
+   "seconds": 0.86
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2017-05-19_240.xml",
@@ -15177,7 +15178,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": true
    },
-   "seconds": 0.33
+   "seconds": 0.34
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2017-05-26_261.xml",
@@ -15213,7 +15214,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 1.07
+   "seconds": 1.01
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2017-06-20_320.xml",
@@ -15234,7 +15235,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": true
    },
-   "seconds": 0.17
+   "seconds": 0.15
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2017-07-06_354.xml",
@@ -15255,7 +15256,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 1.34
+   "seconds": 1.51
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2017-10-17_503.xml",
@@ -15297,7 +15298,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.18
+   "seconds": 0.17
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2017-12-27_656.xml",
@@ -15333,7 +15334,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.33
+   "seconds": 0.41
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2017-12-27_674.xml",
@@ -15354,7 +15355,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.81
+   "seconds": 0.91
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2018-09-24_147.xml",
@@ -15369,7 +15370,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.51
+   "seconds": 0.46
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2018-09-26_152.xml",
@@ -15384,7 +15385,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.82
+   "seconds": 0.84
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2018-09-26_164.xml",
@@ -15399,7 +15400,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.21
+   "seconds": 0.24
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2018-11-16_207.xml",
@@ -15420,7 +15421,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.24
+   "seconds": 0.22
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2018-12-26_284.xml",
@@ -15441,7 +15442,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.25
+   "seconds": 0.26
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2018-12-26_309.xml",
@@ -15462,7 +15463,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.39
+   "seconds": 0.36
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2018-12-28_337.xml",
@@ -15477,7 +15478,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.44
+   "seconds": 0.55
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2019-01-03_6.xml",
@@ -15503,7 +15504,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": true
    },
-   "seconds": 1.26
+   "seconds": 1.36
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2019-02-14_42.xml",
@@ -15544,7 +15545,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": true
    },
-   "seconds": 1.35
+   "seconds": 1.28
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2019-03-25_106.xml",
@@ -15559,7 +15560,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.24
+   "seconds": 0.27
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2019-03-26_116.xml",
@@ -15611,7 +15612,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.19
+   "seconds": 0.25
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2019-06-14_201.xml",
@@ -15626,7 +15627,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.26
+   "seconds": 0.24
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2019-06-24_206.xml",
@@ -15641,7 +15642,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 1.14
+   "seconds": 1.24
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2019-06-25_215.xml",
@@ -15656,7 +15657,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.13
+   "seconds": 0.16
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2019-08-19_240.xml",
@@ -15671,7 +15672,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.27
+   "seconds": 0.3
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2019-09-25_264.xml",
@@ -15686,7 +15687,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.43
+   "seconds": 0.39
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2020-06-23_60.xml",
@@ -15717,7 +15718,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.79
+   "seconds": 0.85
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2020-06-23_66.xml",
@@ -15732,7 +15733,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": true
    },
-   "seconds": 0.61
+   "seconds": 0.54
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2020-06-24_69.xml",
@@ -15747,7 +15748,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 1.22
+   "seconds": 1.26
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2020-07-29_92.xml",
@@ -15762,7 +15763,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.27
+   "seconds": 0.26
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2020-09-28_100.xml",
@@ -15788,7 +15789,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.64
+   "seconds": 0.7
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2020-09-28_114.xml",
@@ -15814,7 +15815,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.4
+   "seconds": 0.41
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2020-12-01_135.xml",
@@ -15840,7 +15841,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.71
+   "seconds": 0.64
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2020-12-08_138.xml",
@@ -15876,7 +15877,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.71
+   "seconds": 0.69
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2021-03-03_4.xml",
@@ -15902,7 +15903,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.15
+   "seconds": 0.16
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2021-03-04_7.xml",
@@ -15923,7 +15924,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 1.23
+   "seconds": 1.37
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2021-03-18_19.xml",
@@ -15954,7 +15955,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.71
+   "seconds": 0.79
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2021-03-24_48.xml",
@@ -15975,7 +15976,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.54
+   "seconds": 0.64
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2021-03-29_63.xml",
@@ -16001,7 +16002,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": true
    },
-   "seconds": 0.56
+   "seconds": 0.52
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2021-03-30_72.xml",
@@ -16022,7 +16023,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 1.26
+   "seconds": 1.21
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2021-06-29_111.xml",
@@ -16049,7 +16050,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.51
+   "seconds": 0.46
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2021-06-29_115.xml",
@@ -16080,7 +16081,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.51
+   "seconds": 0.6
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2021-09-14_134.xml",
@@ -16101,7 +16102,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.24
+   "seconds": 0.2
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2021-09-21_142.xml",
@@ -16138,7 +16139,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.36
+   "seconds": 0.34
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2021-09-21_144.xml",
@@ -16164,7 +16165,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 3.17
+   "seconds": 3.31
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2021-09-24_157.xml",
@@ -16200,7 +16201,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.64
+   "seconds": 0.66
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2021-09-27_161.xml",
@@ -16226,7 +16227,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.39
+   "seconds": 0.35
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2021-09-27_167.xml",
@@ -16257,7 +16258,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.53
+   "seconds": 0.49
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2021-09-27_171.xml",
@@ -16283,7 +16284,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.51
+   "seconds": 0.45
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2021-12-14_200.xml",
@@ -16319,7 +16320,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.37
+   "seconds": 0.44
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2021-12-16_209.xml",
@@ -16365,7 +16366,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 1.08
+   "seconds": 1.19
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2021-12-22_221.xml",
@@ -16386,7 +16387,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.44
+   "seconds": 0.37
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2022-04-20_17.xml",
@@ -16412,7 +16413,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.25
+   "seconds": 0.27
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2022-06-14_23.xml",
@@ -16484,7 +16485,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.61
+   "seconds": 0.56
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2023-04-03_76.xml",
@@ -16515,7 +16516,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": true
    },
-   "seconds": 0.44
+   "seconds": 0.51
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2023-04-04_82.xml",
@@ -16561,7 +16562,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 1.15
+   "seconds": 1.23
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2023-05-10_98.xml",
@@ -16622,7 +16623,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.35
+   "seconds": 0.36
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2023-06-23_123.xml",
@@ -16648,7 +16649,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.87
+   "seconds": 1.03
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2023-07-14_140.xml",
@@ -16669,7 +16670,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.72
+   "seconds": 0.83
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2023-08-07_159.xml",
@@ -16721,7 +16722,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.55
+   "seconds": 0.57
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2023-08-07_162.xml",
@@ -16799,7 +16800,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.53
+   "seconds": 0.61
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2023-08-16_180.xml",
@@ -16820,7 +16821,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.14
+   "seconds": 0.16
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2023-08-18_181.xml",
@@ -16861,7 +16862,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.49
+   "seconds": 0.45
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2023-08-29_194.xml",
@@ -16882,7 +16883,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.25
+   "seconds": 0.28
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2023-08-30_202.xml",
@@ -16918,7 +16919,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.38
+   "seconds": 0.37
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2023-09-04_204.xml",
@@ -16949,7 +16950,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.25
+   "seconds": 0.23
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2023-09-21_217.xml",
@@ -16975,7 +16976,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.58
+   "seconds": 0.57
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2023-09-21_218.xml",
@@ -16996,7 +16997,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.09
+   "seconds": 0.11
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2023-09-25_224.xml",
@@ -17022,7 +17023,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.5
+   "seconds": 0.55
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2023-10-30_264.xml",
@@ -17043,7 +17044,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.28
+   "seconds": 0.24
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2024-03-22_50.xml",
@@ -17084,7 +17085,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.58
+   "seconds": 0.53
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2024-03-26_64.xml",
@@ -17125,7 +17126,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 1.24
+   "seconds": 1.3
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2024-06-24_179.xml",
@@ -17186,7 +17187,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": true
    },
-   "seconds": 0.21
+   "seconds": 0.19
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2024-07-16_211.xml",
@@ -17343,7 +17344,7 @@
     "meta_source": "epi=agrupamento,ementa=campo-assunto",
     "meta_truncated": false
    },
-   "seconds": 0.13
+   "seconds": 0.14
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.divergencia_2008-05-30_27.xml",
@@ -17389,7 +17390,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.54
+   "seconds": 0.53
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.divergencia_2012-09-27_16.xml",
@@ -17410,7 +17411,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.03
+   "seconds": 0.04
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.divergencia_2013-09-16_19.xml",
@@ -17461,7 +17462,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": true
    },
-   "seconds": 0.72
+   "seconds": 0.73
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.divergencia_2014-08-14_10.xml",
@@ -17487,7 +17488,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.43
+   "seconds": 0.49
   },
   {
    "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_sumula_2012-09-30_1549.xml",
@@ -17550,7 +17551,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.37
+   "seconds": 0.34
   },
   {
    "arquivo": "urn_lex_br_procuradoria.geral.fazenda.nacional_ato.declaratorio_2002-08-12_4.xml",
@@ -17571,7 +17572,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.03
+   "seconds": 0.04
   },
   {
    "arquivo": "urn_lex_br_procuradoria.geral.fazenda.nacional_ato.declaratorio_2005-02-18_1.xml",
@@ -17597,7 +17598,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.03
+   "seconds": 0.06
   },
   {
    "arquivo": "urn_lex_br_procuradoria.geral.fazenda.nacional_ato.declaratorio_2006-11-16_4.xml",
@@ -17618,7 +17619,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.05
+   "seconds": 0.06
   },
   {
    "arquivo": "urn_lex_br_procuradoria.geral.fazenda.nacional_ato.declaratorio_2006-11-16_5.xml",
@@ -17639,7 +17640,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.03
+   "seconds": 0.04
   },
   {
    "arquivo": "urn_lex_br_procuradoria.geral.fazenda.nacional_ato.declaratorio_2006-11-16_6.xml",
@@ -17681,7 +17682,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.03
+   "seconds": 0.04
   },
   {
    "arquivo": "urn_lex_br_procuradoria.geral.fazenda.nacional_ato.declaratorio_2008-12-01_14.xml",
@@ -17749,7 +17750,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.03
+   "seconds": 0.04
   },
   {
    "arquivo": "urn_lex_br_procuradoria.geral.fazenda.nacional_ato.declaratorio_2011-12-20_13.xml",
@@ -17818,7 +17819,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.04
+   "seconds": 0.05
   },
   {
    "arquivo": "urn_lex_br_procuradoria.geral.fazenda.nacional_ato.declaratorio_2016-05-03_5.xml",
@@ -17839,7 +17840,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.04
+   "seconds": 0.05
   },
   {
    "arquivo": "urn_lex_br_procuradoria.geral.fazenda.nacional_ato.declaratorio_2018-03-12_1.xml",
@@ -17860,7 +17861,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.04
+   "seconds": 0.06
   },
   {
    "arquivo": "urn_lex_br_procuradoria.geral.fazenda.nacional_ato.declaratorio_2018-04-03_2.xml",
@@ -17959,7 +17960,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.22
+   "seconds": 0.21
   },
   {
    "arquivo": "urn_lex_br_procuradoria.geral.fazenda.nacional_nota.pgfn_2018_48.xml",
@@ -17995,7 +17996,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.24
+   "seconds": 0.26
   },
   {
    "arquivo": "urn_lex_br_superior.tribunal.justica_parecer_2013-12-10_2271.xml",
@@ -18036,7 +18037,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.56
+   "seconds": 0.54
   },
   {
    "arquivo": "urn_lex_br_superior.tribunal.justica_parecer_2018_110.xml",
@@ -18097,7 +18098,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.53
+   "seconds": 0.54
   },
   {
    "arquivo": "urn_lex_br_superior.tribunal.justica_parecer_2022-11-10_15069.xml",
@@ -18143,7 +18144,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.83
+   "seconds": 0.88
   },
   {
    "arquivo": "urn_lex_br_superior.tribunal.justica_recurso.especial_2012-10-24_1306393.xml",
@@ -18210,7 +18211,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.92
+   "seconds": 0.91
   },
   {
    "arquivo": "urn_lex_br_superior.tribunal.justica_sumula_1995-05-09_136.xml",
@@ -18225,7 +18226,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.45
+   "seconds": 0.49
   },
   {
    "arquivo": "urn_lex_br_supremo.tribunal.federal_plenario_acordao_adi_2021-05-17_5583.xml",
@@ -18257,7 +18258,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": true
    },
-   "seconds": 0.07
+   "seconds": 0.08
   },
   {
    "arquivo": "urn_lex_br_supremo.tribunal.federal_plenario_acordao_adi_2022-06-06_5422.xml",
@@ -18283,7 +18284,7 @@
     "meta_source": "epi=agrupamento,ementa=none",
     "meta_truncated": false
    },
-   "seconds": 0.09
+   "seconds": 0.11
   },
   {
    "arquivo": "urn_lex_br_supremo.tribunal.federal_plenario_acordao_re_2021-03-15_855091.xml",
@@ -18315,7 +18316,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": false
    },
-   "seconds": 0.04
+   "seconds": 0.06
   },
   {
    "arquivo": "urn_lex_br_tribunal.superior.eleitoral_resolucao.tse_2006-05-23_22205.xml",
@@ -18341,7 +18342,7 @@
     "meta_source": "epi=agrupamento,ementa=agrupamento",
     "meta_truncated": true
    },
-   "seconds": 0.26
+   "seconds": 0.29
   },
   {
    "arquivo": "ade_rfb_3_20240402.anexo1.xml",
@@ -18373,7 +18374,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO II"
    },
-   "seconds": 0.04
+   "seconds": 0.05
   },
   {
    "arquivo": "ade_rfb_3_20240402.anexo3.xml",
@@ -18389,7 +18390,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO III"
    },
-   "seconds": 0.1
+   "seconds": 0.11
   },
   {
    "arquivo": "decreto_71733_19730118.anexo1.xml",
@@ -18405,7 +18406,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "Anexo I ao decreto que regulamenta a Lei de retribuição no Exterior"
    },
-   "seconds": 0.09
+   "seconds": 0.1
   },
   {
    "arquivo": "decreto_71733_19730118.anexo10.xml",
@@ -18421,7 +18422,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO III"
    },
-   "seconds": 0.08
+   "seconds": 0.1
   },
   {
    "arquivo": "decreto_71733_19730118.anexo11.xml",
@@ -18437,7 +18438,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "Anexo IV ao decreto que regulamenta a Lei de retribuição no Exterior"
    },
-   "seconds": 0.08
+   "seconds": 0.09
   },
   {
    "arquivo": "decreto_71733_19730118.anexo12.xml",
@@ -18453,7 +18454,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "Anexo V ao Decreto que regulamenta a Lei de Retribuição no Exterior"
    },
-   "seconds": 0.07
+   "seconds": 0.08
   },
   {
    "arquivo": "decreto_71733_19730118.anexo13.xml",
@@ -18469,7 +18470,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "Anexo VI"
    },
-   "seconds": 0.06
+   "seconds": 0.07
   },
   {
    "arquivo": "decreto_71733_19730118.anexo2.xml",
@@ -18485,7 +18486,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "Anexo II ao decreto que regulamenta a Lei de Retribuição no Exterior"
    },
-   "seconds": 0.07
+   "seconds": 0.1
   },
   {
    "arquivo": "decreto_71733_19730118.anexo3.xml",
@@ -18501,7 +18502,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "Anexo II ao decreto que regulamenta a Lei de Retribuição no Exterior"
    },
-   "seconds": 0.09
+   "seconds": 0.1
   },
   {
    "arquivo": "decreto_71733_19730118.anexo4.xml",
@@ -18517,7 +18518,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "Anexo II ao decreto que regulamenta a Lei de Retribuição no Exterior"
    },
-   "seconds": 0.26
+   "seconds": 0.31
   },
   {
    "arquivo": "decreto_71733_19730118.anexo5.xml",
@@ -18533,7 +18534,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "Anexo II ao decreto que regulamenta a Lei de Retribuição no Exterior"
    },
-   "seconds": 0.25
+   "seconds": 0.34
   },
   {
    "arquivo": "decreto_71733_19730118.anexo6.xml",
@@ -18549,7 +18550,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "Anexo III ao decreto que regulamenta a Lei de Retribuição no Exterior TABELAS III – VALORES DAS DIÁRIAS NO EXTERIOR (Art 22, § 2º )"
    },
-   "seconds": 0.09
+   "seconds": 0.1
   },
   {
    "arquivo": "decreto_71733_19730118.anexo7.xml",
@@ -18565,7 +18566,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO III (Redação dada pelo Decreto nº 1.656, de 1995) TABELA III Valores das Diárias no Exterior (art. 22) A – Servidores Civis e Militares"
    },
-   "seconds": 0.13
+   "seconds": 0.12
   },
   {
    "arquivo": "decreto_71733_19730118.anexo8.xml",
@@ -18581,7 +18582,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO III (Redação dada pelo Decreto nº 1.656, de 1995)"
    },
-   "seconds": 0.07
+   "seconds": 0.06
   },
   {
    "arquivo": "decreto_71733_19730118.anexo9.xml",
@@ -18597,7 +18598,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO III A - Valores de Diárias no Exterior (Redação dada pelo Decreto nº 3.643, de 2000)"
    },
-   "seconds": 0.09
+   "seconds": 0.12
   },
   {
    "arquivo": "decreto_8624_20151229.anexo2.xml",
@@ -18629,7 +18630,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO 2"
    },
-   "seconds": 0.04
+   "seconds": 0.06
   },
   {
    "arquivo": "decreto_lei_167_19670214.anexo1.xml",
@@ -18644,7 +18645,7 @@
     "meta_source": "parent=stem,statutory",
     "meta_truncated": false
    },
-   "seconds": 0.09
+   "seconds": 0.13
   },
   {
    "arquivo": "decreto_lei_58_19371210.anexo1.xml",
@@ -18659,7 +18660,7 @@
     "meta_source": "parent=stem,statutory",
     "meta_truncated": false
    },
-   "seconds": 0.04
+   "seconds": 0.05
   },
   {
    "arquivo": "in_rfb_1500_20141029.anexo1.xml",
@@ -18675,7 +18676,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO I"
    },
-   "seconds": 0.09
+   "seconds": 0.1
   },
   {
    "arquivo": "in_rfb_1500_20141029.anexo10.xml",
@@ -18691,7 +18692,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO VI"
    },
-   "seconds": 0.11
+   "seconds": 0.1
   },
   {
    "arquivo": "in_rfb_1500_20141029.anexo11.xml",
@@ -18707,7 +18708,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO VI"
    },
-   "seconds": 0.1
+   "seconds": 0.13
   },
   {
    "arquivo": "in_rfb_1500_20141029.anexo12.xml",
@@ -18723,7 +18724,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO VII"
    },
-   "seconds": 0.09
+   "seconds": 0.1
   },
   {
    "arquivo": "in_rfb_1500_20141029.anexo14.xml",
@@ -18739,7 +18740,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO VIII"
    },
-   "seconds": 0.1
+   "seconds": 0.12
   },
   {
    "arquivo": "in_rfb_1500_20141029.anexo15.xml",
@@ -18771,7 +18772,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO IX"
    },
-   "seconds": 0.09
+   "seconds": 0.1
   },
   {
    "arquivo": "in_rfb_1500_20141029.anexo17.xml",
@@ -18787,7 +18788,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO IX LIMITES ANUAIS REFERENTES AO DESCONTO SIMPLIFICADO"
    },
-   "seconds": 0.09
+   "seconds": 0.1
   },
   {
    "arquivo": "in_rfb_1500_20141029.anexo18.xml",
@@ -18883,7 +18884,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO III"
    },
-   "seconds": 0.09
+   "seconds": 0.1
   },
   {
    "arquivo": "in_rfb_1500_20141029.anexo7.xml",
@@ -18899,7 +18900,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO IV"
    },
-   "seconds": 0.09
+   "seconds": 0.1
   },
   {
    "arquivo": "in_rfb_1500_20141029.anexo9.xml",
@@ -18947,7 +18948,7 @@
     "meta_truncated": true,
     "annex_title_prefix_only": "ANEXO XV"
    },
-   "seconds": 0.05
+   "seconds": 0.07
   },
   {
    "arquivo": "in_rfb_1505_20141031.anexo3.xml",
@@ -18963,7 +18964,7 @@
     "meta_truncated": true,
     "annex_title_prefix_only": "ANEXO XVI"
    },
-   "seconds": 0.05
+   "seconds": 0.07
   },
   {
    "arquivo": "in_rfb_1505_20141031.anexo4.xml",
@@ -18995,7 +18996,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO ÚNICO"
    },
-   "seconds": 0.05
+   "seconds": 0.04
   },
   {
    "arquivo": "in_rfb_1548_20150213.anexo1.xml",
@@ -19011,7 +19012,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "Anexo I"
    },
-   "seconds": 0.05
+   "seconds": 0.06
   },
   {
    "arquivo": "in_rfb_1548_20150213.anexo10.xml",
@@ -19027,7 +19028,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "Anexo VII"
    },
-   "seconds": 0.06
+   "seconds": 0.05
   },
   {
    "arquivo": "in_rfb_1548_20150213.anexo12.xml",
@@ -19091,7 +19092,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "Anexo II"
    },
-   "seconds": 0.06
+   "seconds": 0.05
   },
   {
    "arquivo": "in_rfb_1548_20150213.anexo3.xml",
@@ -19139,7 +19140,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO II (Anexo IV da Instrução Normativa RFB nº 1.548, de 13 de fevereiro de 2015)"
    },
-   "seconds": 0.13
+   "seconds": 0.14
   },
   {
    "arquivo": "in_rfb_1548_20150213.anexo7.xml",
@@ -19171,7 +19172,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "Anexo VI"
    },
-   "seconds": 0.05
+   "seconds": 0.06
   },
   {
    "arquivo": "in_rfb_1585_20150831.anexo1.xml",
@@ -19187,7 +19188,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO I"
    },
-   "seconds": 0.09
+   "seconds": 0.1
   },
   {
    "arquivo": "in_rfb_1585_20150831.anexo2.xml",
@@ -19203,7 +19204,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO II"
    },
-   "seconds": 0.09
+   "seconds": 0.1
   },
   {
    "arquivo": "in_rfb_1585_20150831.anexo3.xml",
@@ -19219,7 +19220,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO III"
    },
-   "seconds": 0.09
+   "seconds": 0.1
   },
   {
    "arquivo": "in_rfb_1717_20170717.anexo3.xml",
@@ -19267,7 +19268,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO VI - BENS CONTEMPLADOS NO REGIME ESPECIAL DE REINTEGRAÇÃO DE VALORES TRIBUTÁRIOS PARA AS EMPRESAS EXPORTADORAS (REINTEGRA)"
    },
-   "seconds": 0.28
+   "seconds": 0.31
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo13.xml",
@@ -19299,7 +19300,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO VIII - DECLARAÇÃO"
    },
-   "seconds": 0.29
+   "seconds": 0.3
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo17.xml",
@@ -19315,7 +19316,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO IX - DECLARAÇÃO"
    },
-   "seconds": 0.29
+   "seconds": 0.3
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo19.xml",
@@ -19331,7 +19332,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO X - COMPROVANTE MENSAL DE RETENÇÃO CONTRIBUIÇÃO PARA O PIS/PASEP E COFINS"
    },
-   "seconds": 0.29
+   "seconds": 0.33
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo2.xml",
@@ -19347,7 +19348,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO I AUTOPEÇAS"
    },
-   "seconds": 0.33
+   "seconds": 0.35
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo20.xml",
@@ -19363,7 +19364,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO X"
    },
-   "seconds": 0.32
+   "seconds": 0.35
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo21.xml",
@@ -19379,7 +19380,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO XI - MEDICAMENTOS MONODROGAS IDENTIFICADOS COM TARJA VERMELHA OU PRETA"
    },
-   "seconds": 0.31
+   "seconds": 0.34
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo23.xml",
@@ -19411,7 +19412,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO XIII - SUBSTÂNCIAS PARA MEDICAMENTOS UTILIZADOS EM NUTRIÇÃO PARENTERAL, HEMODIÁLISE E DIÁLISE PERITONEAL, SUBSTITUTOS DO PLASMA E EXPANSORES PLASMÁTICOS, IDENTIFICADOS COM TARJA VERMELHA"
    },
-   "seconds": 0.28
+   "seconds": 0.33
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo27.xml",
@@ -19427,7 +19428,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO XIV - SOLICITAÇÃO DE HABILITAÇÃO"
    },
-   "seconds": 0.28
+   "seconds": 0.32
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo28.xml",
@@ -19443,7 +19444,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO XIV MINISTÉRIO DA ECONOMIA SECRETARIA ESPECIAL DA RECEITA FEDERAL DO BRASIL"
    },
-   "seconds": 0.32
+   "seconds": 0.38
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo29.xml",
@@ -19459,7 +19460,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO XV - MÁQUINAS, APARELHOS, INSTRUMENTOS E EQUIPAMENTOS – ZONA FRANCA DE MANAUS"
    },
-   "seconds": 0.3
+   "seconds": 0.31
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo3.xml",
@@ -19475,7 +19476,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO II - AUTOPEÇAS"
    },
-   "seconds": 0.28
+   "seconds": 0.3
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo30.xml",
@@ -19491,7 +19492,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO XV MÁQUINAS, APARELHOS, INSTRUMENTOS E EQUIPAMENTOS – ZONA FRANCA DE MANAUS"
    },
-   "seconds": 0.46
+   "seconds": 0.53
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo31.xml",
@@ -19507,7 +19508,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO XVI - DECLARAÇÃO"
    },
-   "seconds": 0.29
+   "seconds": 0.3
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo32.xml",
@@ -19523,7 +19524,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO XVI"
    },
-   "seconds": 0.31
+   "seconds": 0.35
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo33.xml",
@@ -19539,7 +19540,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO XVII - DECLARAÇÃO"
    },
-   "seconds": 0.29
+   "seconds": 0.3
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo34.xml",
@@ -19555,7 +19556,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO XVII"
    },
-   "seconds": 0.32
+   "seconds": 0.34
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo35.xml",
@@ -19587,7 +19588,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO XVIII"
    },
-   "seconds": 0.31
+   "seconds": 0.34
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo37.xml",
@@ -19603,7 +19604,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO XIX - DECLARAÇÃO"
    },
-   "seconds": 0.29
+   "seconds": 0.3
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo39.xml",
@@ -19619,7 +19620,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO XX - REQUERIMENTO DE HABILITAÇÃO"
    },
-   "seconds": 0.28
+   "seconds": 0.34
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo4.xml",
@@ -19651,7 +19652,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO XXI - SOLICITAÇÃO DE HABILITAÇÃO DE PESSOA JURÍDICA AO REGIME ESPECIAL DE AQUISIÇÃO DE BENS DE CAPITAL PARA EMPRESAS EXPORTADORAS (RECAP)"
    },
-   "seconds": 0.28
+   "seconds": 0.33
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo42.xml",
@@ -19667,7 +19668,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO XXI"
    },
-   "seconds": 0.31
+   "seconds": 0.37
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo43.xml",
@@ -19683,7 +19684,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO XXII - TERMO DE COMPROMISSO - REGIME ESPECIAL DE AQUISIÇÃO DE BENS DE CAPITAL PARA EMPRESAS EXPORTADORAS (RECAP)"
    },
-   "seconds": 0.28
+   "seconds": 0.32
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo44.xml",
@@ -19699,7 +19700,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO XXII"
    },
-   "seconds": 0.32
+   "seconds": 0.36
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo45.xml",
@@ -19715,7 +19716,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO XXIII - TERMO DE COMPROMISSO - REGIME ESPECIAL DE AQUISIÇÃO DE BENS DE CAPITAL PARA EMPRESAS EXPORTADORAS (RECAP)"
    },
-   "seconds": 0.28
+   "seconds": 0.33
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo46.xml",
@@ -19731,7 +19732,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO XXIII"
    },
-   "seconds": 0.32
+   "seconds": 0.36
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo47.xml",
@@ -19747,7 +19748,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO XXIV - MÁQUINAS, APARELHOS, INSTRUMENTOS E EQUIPAMENTOS – RECAP"
    },
-   "seconds": 0.31
+   "seconds": 0.32
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo48.xml",
@@ -19763,7 +19764,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO XXIV Máquinas, Aparelhos, Instrumentos e Equipamentos – Recap"
    },
-   "seconds": 0.31
+   "seconds": 0.34
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo49.xml",
@@ -19779,7 +19780,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO XXV - MÁQUINAS, APARELHOS, INSTRUMENTOS E EQUIPAMENTOS – RECAP"
    },
-   "seconds": 0.31
+   "seconds": 0.33
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo5.xml",
@@ -19811,7 +19812,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO XXV Máquinas, Aparelhos, Instrumentos e Equipamentos – Recap"
    },
-   "seconds": 0.45
+   "seconds": 0.53
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo51.xml",
@@ -19827,7 +19828,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO XXVI - SOLICITAÇÃO DE HABILITAÇÃO"
    },
-   "seconds": 0.29
+   "seconds": 0.32
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo53.xml",
@@ -19843,7 +19844,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO XXVII - SOLICITAÇÃO DE CO-HABILITAÇÃO"
    },
-   "seconds": 0.28
+   "seconds": 0.34
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo55.xml",
@@ -19859,7 +19860,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO XXVIII - PEDIDO DE HABILITAÇÃO AO REGIME DE ENTREGA DE EMBALAGENS NO MERCADO INTERNO EM RAZÃO DA COMERCIALIZAÇÃO A EMPRESA SEDIADA NO EXTERIOR (REMICEX)"
    },
-   "seconds": 0.29
+   "seconds": 0.32
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo56.xml",
@@ -19875,7 +19876,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO XXVIII"
    },
-   "seconds": 0.3
+   "seconds": 0.35
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo57.xml",
@@ -19891,7 +19892,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO XXIX - TERMO DE OPÇÃO A"
    },
-   "seconds": 0.31
+   "seconds": 0.33
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo58.xml",
@@ -19923,7 +19924,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO XXX - SOLICITAÇÃO DE HABILITAÇÃO E TERMO DE COMPROMISSO"
    },
-   "seconds": 0.29
+   "seconds": 0.32
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo7.xml",
@@ -19939,7 +19940,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO IV - INTERMEDIÁRIOS DE SÍNTESE DESTINADOS À FABRICAÇÃO DOS PRODUTOS RELACIONADOS NO ANEXO III"
    },
-   "seconds": 0.29
+   "seconds": 0.32
   },
   {
    "arquivo": "in_rfb_1911_20191011.anexo9.xml",
@@ -19955,7 +19956,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO V - PRODUTOS PARA USO EM LABORATÓRIO DE ANATOMIA PATOLÓGICA, CITOLÓGICA OU DE ANÁLISES CLÍNICAS E EM HOSPITAIS, CLÍNICAS E CONSULTÓRIOS MÉDICOS E ODONTOLÓGICOS E EM CAMPANHAS DE SAÚDE REALIZADAS PELO PODER PÚBLICO"
    },
-   "seconds": 0.3
+   "seconds": 0.33
   },
   {
    "arquivo": "in_rfb_2055_20211206.anexo3.xml",
@@ -19971,7 +19972,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "Anexo III - Pedido de Reembolso de Quotas de SALÁRIO-FAMÍLIA E DE SALÁRIO-MATERNIDADE"
    },
-   "seconds": 0.09
+   "seconds": 0.08
   },
   {
    "arquivo": "in_rfb_2172_20240109.anexo1.xml",
@@ -19987,7 +19988,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "Anexo I"
    },
-   "seconds": 0.05
+   "seconds": 0.06
   },
   {
    "arquivo": "in_rfb_2172_20240109.anexo10.xml",
@@ -20003,7 +20004,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO VI (Anexo VI da Instrução Normativa RFB nº 2.172, de 9 de janeiro de 2024)"
    },
-   "seconds": 0.06
+   "seconds": 0.07
   },
   {
    "arquivo": "in_rfb_2172_20240109.anexo11.xml",
@@ -20019,7 +20020,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "Anexo VII"
    },
-   "seconds": 0.06
+   "seconds": 0.07
   },
   {
    "arquivo": "in_rfb_2172_20240109.anexo12.xml",
@@ -20099,7 +20100,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "Anexo II"
    },
-   "seconds": 0.06
+   "seconds": 0.07
   },
   {
    "arquivo": "in_rfb_2172_20240109.anexo5.xml",
@@ -20163,7 +20164,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "Anexo I"
    },
-   "seconds": 0.14
+   "seconds": 0.12
   },
   {
    "arquivo": "in_srf_208_20020927.anexo3.xml",
@@ -20195,7 +20196,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "Anexo II"
    },
-   "seconds": 0.06
+   "seconds": 0.07
   },
   {
    "arquivo": "in_srf_256_20021211.anexo4.xml",
@@ -20211,7 +20212,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "Anexo II"
    },
-   "seconds": 0.07
+   "seconds": 0.06
   },
   {
    "arquivo": "in_srf_588_20051221.anexo1.xml",
@@ -20243,7 +20244,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO I"
    },
-   "seconds": 0.04
+   "seconds": 0.05
   },
   {
    "arquivo": "in_srf_698_20061220.anexo3.xml",
@@ -20291,7 +20292,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "Anexo I"
    },
-   "seconds": 0.12
+   "seconds": 0.11
   },
   {
    "arquivo": "in_srf_81_20011011.anexo3.xml",
@@ -20307,7 +20308,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO II"
    },
-   "seconds": 0.05
+   "seconds": 0.06
   },
   {
    "arquivo": "in_srf_84_20011011.anexo1.xml",
@@ -20323,7 +20324,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO ÚNICO"
    },
-   "seconds": 0.1
+   "seconds": 0.12
   },
   {
    "arquivo": "lei_10101_20001219.anexo1.xml",
@@ -20339,7 +20340,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO"
    },
-   "seconds": 0.05
+   "seconds": 0.04
   },
   {
    "arquivo": "lei_10833_20031229.anexo1.xml",
@@ -20355,7 +20356,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO ÚNICO"
    },
-   "seconds": 0.1
+   "seconds": 0.12
   },
   {
    "arquivo": "lei_11945_20090604.anexo1.xml",
@@ -20387,7 +20388,7 @@
     "meta_truncated": true,
     "annex_title_prefix_only": "ANEXO I"
    },
-   "seconds": 0.27
+   "seconds": 0.32
   },
   {
    "arquivo": "lei_12249_20100611.anexo2.xml",
@@ -20403,7 +20404,7 @@
     "meta_truncated": true,
     "annex_title_prefix_only": "ANEXO II (Vide Lei nº 9.933, de 20/12/1999)"
    },
-   "seconds": 1.01
+   "seconds": 1.12
   },
   {
    "arquivo": "lei_12249_20100611.anexo3.xml",
@@ -20419,7 +20420,7 @@
     "meta_truncated": true,
     "annex_title_prefix_only": "ANEXO III"
    },
-   "seconds": 0.15
+   "seconds": 0.17
   },
   {
    "arquivo": "lei_12249_20100611.anexo4.xml",
@@ -20435,7 +20436,7 @@
     "meta_truncated": true,
     "annex_title_prefix_only": "ANEXO IV"
    },
-   "seconds": 0.15
+   "seconds": 0.16
   },
   {
    "arquivo": "lei_12249_20100611.anexo5.xml",
@@ -20451,7 +20452,7 @@
     "meta_truncated": true,
     "annex_title_prefix_only": "ANEXO V"
    },
-   "seconds": 0.15
+   "seconds": 0.16
   },
   {
    "arquivo": "lei_12249_20100611.anexo6.xml",
@@ -20467,7 +20468,7 @@
     "meta_truncated": true,
     "annex_title_prefix_only": "ANEXO VI"
    },
-   "seconds": 0.15
+   "seconds": 0.17
   },
   {
    "arquivo": "lei_12249_20100611.anexo7.xml",
@@ -20483,7 +20484,7 @@
     "meta_truncated": true,
     "annex_title_prefix_only": "ANEXO VII"
    },
-   "seconds": 0.15
+   "seconds": 0.17
   },
   {
    "arquivo": "lei_12249_20100611.anexo8.xml",
@@ -20499,7 +20500,7 @@
     "meta_truncated": true,
     "annex_title_prefix_only": "ANEXO VIII"
    },
-   "seconds": 0.14
+   "seconds": 0.17
   },
   {
    "arquivo": "lei_12249_20100611.anexo9.xml",
@@ -20515,7 +20516,7 @@
     "meta_truncated": true,
     "annex_title_prefix_only": "ANEXO IX"
    },
-   "seconds": 0.14
+   "seconds": 0.15
   },
   {
    "arquivo": "lei_12715_20120917.anexo1.xml",
@@ -20531,7 +20532,7 @@
     "meta_truncated": true,
     "annex_title_prefix_only": "ANEXO"
    },
-   "seconds": 0.7
+   "seconds": 0.84
   },
   {
    "arquivo": "lei_12794_20130402.anexo1.xml",
@@ -20547,7 +20548,7 @@
     "meta_truncated": true,
     "annex_title_prefix_only": "ANEXO I"
    },
-   "seconds": 0.34
+   "seconds": 0.42
   },
   {
    "arquivo": "lei_12794_20130402.anexo2.xml",
@@ -20563,7 +20564,7 @@
     "meta_truncated": true,
     "annex_title_prefix_only": "ANEXO II"
    },
-   "seconds": 0.05
+   "seconds": 0.06
   },
   {
    "arquivo": "lei_13097_20150119.anexo1.xml",
@@ -20579,7 +20580,7 @@
     "meta_truncated": true,
     "annex_title_prefix_only": "ANEXO I"
    },
-   "seconds": 0.33
+   "seconds": 0.37
   },
   {
    "arquivo": "lei_13097_20150119.anexo2.xml",
@@ -20595,7 +20596,7 @@
     "meta_truncated": true,
     "annex_title_prefix_only": "ANEXO II"
    },
-   "seconds": 0.18
+   "seconds": 0.19
   },
   {
    "arquivo": "lei_13097_20150119.anexo3.xml",
@@ -20611,7 +20612,7 @@
     "meta_truncated": true,
     "annex_title_prefix_only": "ANEXO III"
    },
-   "seconds": 0.21
+   "seconds": 0.25
   },
   {
    "arquivo": "lei_5809_19721010.anexo2.xml",
@@ -20627,7 +20628,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO I A LEI DE REMUNERAÇÃO NO EXTERIOR(Denominação do Anexo dada pela Lei nº 13.328, de 29/7/2016)"
    },
-   "seconds": 0.06
+   "seconds": 0.07
   },
   {
    "arquivo": "lei_5809_19721010.anexo3.xml",
@@ -20643,7 +20644,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO II"
    },
-   "seconds": 0.26
+   "seconds": 0.27
   },
   {
    "arquivo": "lei_6015_19731231.anexo1.xml",
@@ -20658,7 +20659,7 @@
     "meta_source": "parent=stem,statutory",
     "meta_truncated": false
    },
-   "seconds": 0.16
+   "seconds": 0.19
   },
   {
    "arquivo": "lei_8036_19900511.anexo1.xml",
@@ -20674,7 +20675,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO"
    },
-   "seconds": 0.08
+   "seconds": 0.07
   },
   {
    "arquivo": "lei_8383_19911230.anexo1.xml",
@@ -20690,7 +20691,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO I"
    },
-   "seconds": 0.06
+   "seconds": 0.07
   },
   {
    "arquivo": "lei_8383_19911230.anexo2.xml",
@@ -20754,7 +20755,7 @@
     "meta_truncated": true,
     "annex_title_prefix_only": "ANEXO II"
    },
-   "seconds": 0.15
+   "seconds": 0.16
   },
   {
    "arquivo": "lei_comp_123_20061214.anexo3.xml",
@@ -20770,7 +20771,7 @@
     "meta_truncated": true,
     "annex_title_prefix_only": "ANEXO III"
    },
-   "seconds": 0.19
+   "seconds": 0.23
   },
   {
    "arquivo": "lei_comp_123_20061214.anexo4.xml",
@@ -20786,7 +20787,7 @@
     "meta_truncated": true,
     "annex_title_prefix_only": "ANEXO IV"
    },
-   "seconds": 0.17
+   "seconds": 0.23
   },
   {
    "arquivo": "lei_comp_123_20061214.anexo5.xml",
@@ -20802,7 +20803,7 @@
     "meta_truncated": true,
     "annex_title_prefix_only": "ANEXO V"
    },
-   "seconds": 0.14
+   "seconds": 0.17
   },
   {
    "arquivo": "lei_comp_123_20061214.anexo6.xml",
@@ -20834,7 +20835,7 @@
     "meta_truncated": true,
     "annex_title_prefix_only": "ANEXO VII"
    },
-   "seconds": 0.14
+   "seconds": 0.15
   },
   {
    "arquivo": "mp_2158-35_20010824.anexo1.xml",
@@ -20882,7 +20883,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO I"
    },
-   "seconds": 0.15
+   "seconds": 0.16
   },
   {
    "arquivo": "resol_cgsn_140_20180522.anexo10.xml",
@@ -20898,7 +20899,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO V Alíquotas e Partilha do Simples Nacional - Receitas de prestação de serviços descritos no inciso V do § 1º do art. 25,"
    },
-   "seconds": 0.17
+   "seconds": 0.18
   },
   {
    "arquivo": "resol_cgsn_140_20180522.anexo11.xml",
@@ -20914,7 +20915,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO VI"
    },
-   "seconds": 0.14
+   "seconds": 0.15
   },
   {
    "arquivo": "resol_cgsn_140_20180522.anexo12.xml",
@@ -20930,7 +20931,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO VI DA RESOLUÇÃO CGSN Nº 140, DE 2018. (ART. 8º, § 1º)"
    },
-   "seconds": 0.16
+   "seconds": 0.2
   },
   {
    "arquivo": "resol_cgsn_140_20180522.anexo13.xml",
@@ -20946,7 +20947,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO VII"
    },
-   "seconds": 0.15
+   "seconds": 0.17
   },
   {
    "arquivo": "resol_cgsn_140_20180522.anexo14.xml",
@@ -20962,7 +20963,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO VII DA RESOLUÇÃO CGSN Nº 140, DE 2018. (ART. 8º, § 2º) Códigos previstos na CNAE que abrangem concomitantemente atividade impeditiva e permitida ao Simples Nacional"
    },
-   "seconds": 0.18
+   "seconds": 0.24
   },
   {
    "arquivo": "resol_cgsn_140_20180522.anexo15.xml",
@@ -20978,7 +20979,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO VIII"
    },
-   "seconds": 0.17
+   "seconds": 0.16
   },
   {
    "arquivo": "resol_cgsn_140_20180522.anexo16.xml",
@@ -20994,7 +20995,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO VIII Modelo do Comprovante de Pagamento"
    },
-   "seconds": 0.13
+   "seconds": 0.15
   },
   {
    "arquivo": "resol_cgsn_140_20180522.anexo17.xml",
@@ -21010,7 +21011,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO IX"
    },
-   "seconds": 0.17
+   "seconds": 0.23
   },
   {
    "arquivo": "resol_cgsn_140_20180522.anexo18.xml",
@@ -21042,7 +21043,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO X"
    },
-   "seconds": 0.16
+   "seconds": 0.15
   },
   {
    "arquivo": "resol_cgsn_140_20180522.anexo2.xml",
@@ -21058,7 +21059,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO I"
    },
-   "seconds": 0.16
+   "seconds": 0.15
   },
   {
    "arquivo": "resol_cgsn_140_20180522.anexo20.xml",
@@ -21090,7 +21091,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO XI"
    },
-   "seconds": 0.17
+   "seconds": 0.16
   },
   {
    "arquivo": "resol_cgsn_140_20180522.anexo22.xml",
@@ -21106,7 +21107,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO XI"
    },
-   "seconds": 0.44
+   "seconds": 0.38
   },
   {
    "arquivo": "resol_cgsn_140_20180522.anexo23.xml",
@@ -21122,7 +21123,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "Anexo XII"
    },
-   "seconds": 0.14
+   "seconds": 0.15
   },
   {
    "arquivo": "resol_cgsn_140_20180522.anexo3.xml",
@@ -21154,7 +21155,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO II"
    },
-   "seconds": 0.19
+   "seconds": 0.25
   },
   {
    "arquivo": "resol_cgsn_140_20180522.anexo5.xml",
@@ -21170,7 +21171,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO III"
    },
-   "seconds": 0.15
+   "seconds": 0.14
   },
   {
    "arquivo": "resol_cgsn_140_20180522.anexo6.xml",
@@ -21186,7 +21187,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO III"
    },
-   "seconds": 0.19
+   "seconds": 0.21
   },
   {
    "arquivo": "resol_cgsn_140_20180522.anexo7.xml",
@@ -21202,7 +21203,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO IV"
    },
-   "seconds": 0.14
+   "seconds": 0.15
   },
   {
    "arquivo": "resol_cgsn_140_20180522.anexo8.xml",
@@ -21218,7 +21219,7 @@
     "meta_truncated": false,
     "annex_title_prefix_only": "ANEXO IV"
    },
-   "seconds": 0.18
+   "seconds": 0.21
   },
   {
    "arquivo": "resol_cgsn_140_20180522.anexo9.xml",

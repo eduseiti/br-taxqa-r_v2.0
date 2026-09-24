@@ -290,7 +290,7 @@ cannot be embedded as they are if S3 is run (Q7); `segmented/` is 256 MB
   `chunks_all.csv`, `groupings_over_limit.csv` and `annex_manifest.csv`. `chunks_all.csv` has a new
   column **`texto_sha256`** (first 16 hex digits of the SHA-256 of `Texto`); embeddings should be
   keyed by `chunk_id` + `texto_sha256`. New validation check `texto_sha256`: ok. The reference run was
-  made at commit `aadd584` (clean): 87,704 rows, `chunks_all.csv` sha256 `d24a4af1…a1a9a5`. Only
+  made at commit `7b145ba` (clean; `aadd584` before the history rewrite below): 87,704 rows, `chunks_all.csv` sha256 `d24a4af1…a1a9a5`. Only
   the merged files changed relative to the previous run; the 1,300 per-file CSV/sidecar files came
   out byte-identical, so the pipeline is deterministic.
 - **Manual sample review** (seeded random sample: 5 unsplit ART, 5 ART parts, 5 DSP, 8 TXT, 5 TAB,
@@ -324,3 +324,23 @@ cannot be embedded as they are if S3 is run (Q7); `segmented/` is 256 MB
   **no chunk in `chunks_all.csv` would be truncated by `gemini-embedding-2`**. At most, a basic
   unit at the 1,024 cap could count ≈ 1,125 Gemini tokens (ratio 1.099), which affects granularity
   only.
+
+## Addendum — GitHub 100 MB limit: `chunks_all.csv` versioned as gzip (2026-09-24)
+
+- The push of `segmentation-implementation` was rejected: two versions of `segmented/chunks_all.csv`
+  (132 MB and 131 MB) were in the local commits, over GitHub's 100 MB file limit. `git-lfs` is not
+  installed. The user chose to **version a gzip instead** (over Git LFS or not versioning it).
+- **History rewrite (local, unpushed commits only):** backup branch
+  `backup/segmentation-before-lfs-fix`, then
+  `git filter-branch --index-filter 'git rm --cached --ignore-unmatch segmented/chunks_all.csv' origin/main..segmentation-implementation`.
+  New hashes: `5255a80` (unchanged), `3816ec8`→`c1f7535`, `aadd584`→`7b145ba`, `be704f4`→`7cb3a2d`,
+  `82d31b2`→`c2e7f9d`, `484564e`→`406bac6`. No blob over 20 MB is left in the unpushed history.
+- `segment_all.py` now also writes **`segmented/chunks_all.csv.gz`** (gzip with mtime 0 and no file
+  name, so it is byte-deterministic: re-gzipping gives the same SHA-256; 20.4 MB). The plain CSV is
+  gitignored. `run_info.json` records both SHA-256s. `validate_segments.py` reads the `.gz` when the
+  CSV is absent (fresh clone), and `pd.read_csv("segmented/chunks_all.csv.gz")` works directly.
+- Re-run at `9e6addd` (clean): **`chunks_all.csv` SHA-256 unchanged (`d24a4af1…a1a9a5`)**, so the
+  frozen chunk set is the same; `.gz` SHA-256 `0f495ef0…fb920e`. All validation checks pass, Gemini
+  check included.
+- After a successful push, the backup branch (which still holds the large blobs locally) can be
+  deleted: `git branch -D backup/segmentation-before-lfs-fix`. It must not be pushed.
