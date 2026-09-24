@@ -138,18 +138,37 @@ Details that matter here:
 
 Corpus facts (from `lexml/`, excluding `Alteracao` content):
 
-| | `articulados` (468 XML) | `nao_articulados` (235 XML) |
+| | `articulados` (468 XML = 225 main + 243 annex files) | `nao_articulados` (235 XML) |
 |---|---:|---:|
-| Artigo | 19,393 | 0 |
+| Artigo | 19,393 (of which 2,231 in annex files) | 0 |
 | Caput | 19,393 | 0 |
 | Parágrafo | 21,620 | 0 |
 | Inciso | 20,703 | 0 |
 | Alínea | 5,349 | 0 |
 | Item | 2,148 | 0 |
 | Groupings (Parte … Subseção) | 5,278 | — |
-| Anexo | 243 | 1 |
 | Agrupamento / Bloco / `p` | — | 2,675 / 1,306 / 23,284 |
 | Text characters | ≈ 23.7 M | ≈ 4.5 M |
+
+The 225 main documents all have a `ProjetoNorma` root. The parser writes each annex to a **separate
+file** (`<stem>.anexoN.xml`, root `Anexo` → `DocumentoArticulado` or `DocumentoGenerico`); annexes
+are not `<Anexo>` elements inside the main documents. By **content** they fall into three categories
+(correction added 2026-09-24; see §6, item 3):
+
+| Category | Root | Files | Articles | Examples |
+|---|---|---:|---:|---|
+| **A – has `Artigo`** | `DocumentoArticulado` | 8 | 1,111 | `decreto_lei_5452_19430501.anexo1` (CLT, 922 arts.), `decreto_9358_20180430.anexo1` |
+| | `DocumentoGenerico` | 4 | 1,120 | **`decreto_9580_20181122.anexo1` (RIR/2018)**, `decreto_5128_20040706.anexo1`, `mp_2228-1_20010906.anexo1` |
+| **B – dispositivos, no `Artigo`** | `DocumentoArticulado` | 18 | 0 | `decreto_9358_20180430.anexo2`, `decreto_8289_20140725.anexo1`, `in_rfb_1548_20150213.anexo11` |
+| | `DocumentoGenerico` | 32 | 0 | `in_rfb_1500_20141029.anexo8`, `in_rfb_1717_20170717.anexo1` |
+| **C – plain text / tables** | `DocumentoGenerico` | 181 | 0 | `ade_rfb_3_20240402.anexo1..3`, `in_rfb_1500_20141029.anexo1` |
+
+The root element is therefore **not** a reliable signal: four `DocumentoGenerico` annexes (including
+the RIR/2018, likely the most-cited source in the IRPF Q&A) contain articles nested in
+`PartePrincipal` → `Livro`/`Capitulo`/`Secao`/`Artigo`, while 18 `DocumentoArticulado` annexes contain
+only orphan `Item`/`Alinea`/`Inciso`/`Paragrafo` elements directly under `Articulacao` (often with a
+`TituloDispositivo`). Orphan dispositivos also occur directly under `PartePrincipal` in
+`DocumentoGenerico` annexes.
 
 ## 5. Recommended strategies
 
@@ -228,13 +247,37 @@ This is [L]'s footnote-7 rule, and the XSL already applies it to incisos, alíne
    ("O disposto na alínea a do inciso II:"). Add the caput's opening sentence (its own `p` only,
    not its incisos). Cross-references such as "alínea a do inciso II" remain unresolved inside the
    chunk; [L] lists inter-article relationships as future work.
-3. **Emit annexes.** The 243 statutory `Anexo` elements are not output by the XSL. In IRPF material
-   they often hold tables and schedules. Add them as core chunks (as in [F]'s non-normative
-   components) in all strategies.
-4. **Treat non-statutory documents identically in all strategies.** The `nao_articulados` files have
-   no `Artigo`, only `Agrupamento` / `Bloco` / `p`, so the article baseline does not apply. Use one
-   fixed treatment — e.g. `Agrupamento`-level chunks with metadata, split by `p` above a token cap —
-   unchanged across S1–S3, so the comparison stays about statutory segmentation.
+3. **Segment annex files by content, not by root element** (categories in §4). The XSL processes
+   annex files, but they carry no `Ementa`/`Epigrafe`, so `$escopo` is empty; category B yields
+   `INC`/`ALI`/`ITE` rows with an empty article label and drops orphan `Paragrafo`s (paragraphs are only
+   reached through `Caput`); category C yields no rows at all. Rules:
+   1. **Category A → statutory**, identical to the main documents in S1/S2/S3. Metadata = the
+      **parent** document's Epígrafe + Ementa + the annex label.
+   2. **Category B → top-level dispositivo as the basic unit.** Each top-level `Item` / `Alinea` /
+      `Inciso` / `Paragrafo` (with its `TituloDispositivo` and subtree) plays the role of an article:
+      S1 indexes these units; S2 adds their descendants with the ancestor path (§5.2). Same metadata
+      as rule 1.
+   3. **Category C → the non-statutory treatment** of item 4, fixed across strategies. Same metadata
+      as rule 1.
+4. **Treat non-statutory documents identically in all strategies.** The `nao_articulados` files and
+   category-C annexes have no `Artigo`, only `Agrupamento` / `Bloco` / `p` / `table`, so the article
+   baseline does not apply. Use one fixed treatment — e.g. `Agrupamento`-level chunks with metadata,
+   split by `p` above a token cap; one chunk per table, split by rows with the header repeated when
+   too large — unchanged across S1–S3, so the comparison stays about statutory segmentation.
+5. **Implementation split** (recommended):
+   - **Statutory (main documents, annex categories A and B): an amended copy of the XSL** in this
+     repo's `scripts/`, leaving the original in `lexml-parser-projeto-lei` untouched. It keeps the
+     link to [L]'s implementation. Parent-document metadata can be passed in without restructuring:
+     `$sigla` and `$escopo` are already `xsl:param`s, and `run_segmentation_csv.py` already groups
+     `.anexoN` files by family stem (it just passes no parameters yet).
+   - **Non-statutory (`nao_articulados` and category-C annexes): separate Python code (lxml).**
+     Token caps need the embedding model's tokenizer, which XSLT cannot count; splitting tables by
+     rows with repeated headers is simple in Python and painful in XSLT; and `Agrupamento`/`Bloco`
+     share no templates with the article logic.
+   - **Both emit the same CSV schema** (`Tipo, Rotulo, Num_Inicio, Num_Final, Texto, urn`), including
+     the XSL's nested interval numbering (`calculaPos`: a parent's interval encloses its
+     descendants'), so containment de-duplication works uniformly: X covers Y when
+     `Num_Inicio_X ≤ Num_Inicio_Y` and `Num_Final_Y ≤ Num_Final_X`.
 
 ## 7. Retrieval and evaluation notes
 
