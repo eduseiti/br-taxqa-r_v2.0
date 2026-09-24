@@ -309,31 +309,60 @@ def check_file(args: tuple) -> dict:
 # Gemini countTokens sample (plan §2.6)
 # --------------------------------------------------------------------------------------------
 
-def gemini_sample(df: pd.DataFrame, n: int, model: str) -> dict:
+def gemini_sample(df: pd.DataFrame, n: int, model: str, n_largest: int = 100, threads: int = 8) -> dict:
+    """countTokens for a seeded random sample + the n_largest chunks (the ones that could reach the
+    8,192-token input limit). Compared with the reference count (plan §2.6)."""
+    from concurrent.futures import ThreadPoolExecutor
     key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
     if not key:
         return {"status": "not run", "reason": "no GEMINI_API_KEY / GOOGLE_API_KEY in the environment"}
     rng = random.Random(20260924)
-    idx = rng.sample(range(len(df)), min(n, len(df)))
-    out, errors = [], []
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:countTokens?key={key}"
-    for i in idx:
+    rand_idx = rng.sample(range(len(df)), min(n, len(df)))
+    big_idx = list(df["n_tokens"].reset_index(drop=True).nlargest(n_largest).index)
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:countTokens"
+
+    def count(i: int):
         body = json.dumps({"contents": [{"parts": [{"text": df.iloc[i]["Texto"]}]}]}).encode()
-        try:
-            req = urllib.request.Request(url, body, {"Content-Type": "application/json"})
-            with urllib.request.urlopen(req, timeout=60) as fh:
-                g = json.loads(fh.read())["totalTokens"]
-            out.append((int(df.iloc[i]["n_tokens"]), int(g)))
-        except Exception as exc:  # noqa: BLE001
-            errors.append(str(exc)[:200])
-            if len(errors) > 5:
-                break
-    if not out:
+        for attempt in range(4):
+            try:
+                req = urllib.request.Request(url, body, {"Content-Type": "application/json", "x-goog-api-key": key})
+                with urllib.request.urlopen(req, timeout=60) as fh:
+                    return i, int(json.loads(fh.read())["totalTokens"]), None
+            except urllib.error.HTTPError as exc:
+                if exc.code in (429, 500, 503) and attempt < 3:
+                    import time
+                    time.sleep(2 ** attempt)
+                    continue
+                return i, None, f"HTTP {exc.code}"
+            except Exception as exc:  # noqa: BLE001
+                return i, None, f"{type(exc).__name__}: {str(exc)[:120]}"
+
+    todo = sorted(set(rand_idx) | set(big_idx))
+    got, errors = {}, []
+    with ThreadPoolExecutor(threads) as pool:
+        for k, (i, g, e) in enumerate(pool.map(count, todo), 1):
+            if g is None:
+                errors.append(e)
+            else:
+                got[i] = g
+            if k % 100 == 0 or k == len(todo):
+                print(f"  gemini countTokens {k}/{len(todo)}", flush=True)
+    if not got:
         return {"status": "failed", "errors": errors[:5]}
-    over = [(r, g) for r, g in out if g > r]
-    return {"status": "run", "model": model, "n": len(out), "gemini_gt_reference": len(over),
-            "max_excess": max((g - r for r, g in over), default=0),
-            "max_gemini": max(g for _, g in out), "errors": errors[:5]}
+
+    def summary(idx):
+        pairs = [(int(df.iloc[i]["n_tokens"]), got[i], df.iloc[i]["chunk_id"], df.iloc[i]["Tipo"]) for i in idx if i in got]
+        ratio = pd.Series([g / r for r, g, _, _ in pairs if r])
+        over = [p for p in pairs if p[1] > p[0]]
+        return {"n": len(pairs), "gemini_gt_reference": len(over),
+                "max_excess": max((g - r for r, g, _, _ in over), default=0),
+                "ratio_gemini_over_reference": {"p50": round(ratio.median(), 3), "p99": round(ratio.quantile(.99), 3),
+                                                "max": round(ratio.max(), 3)},
+                "max_gemini": max(g for _, g, _, _ in pairs),
+                "gemini_over_8192": [{"chunk_id": c, "tipo": t, "reference": r, "gemini": g}
+                                     for r, g, c, t in pairs if g > HARD_LIMIT]}
+    return {"status": "run", "model": model, "random_sample": summary(rand_idx),
+            "largest_chunks": summary(big_idx), "errors": len(errors), "error_examples": errors[:5]}
 
 
 # --------------------------------------------------------------------------------------------
@@ -479,7 +508,8 @@ def main(argv=None) -> int:
     stats["kept_long_dropped"] = kept
     stats["meta_sources"] = dict(Counter(r["stats"].get("meta_source", "") for r in run_info.get("non_statutory", [])))
     stats["text_coverage_distribution"] = pct(pd.Series(cov_vals) * 1000) if cov_vals else {}
-    stats["gemini_sample"] = gemini_sample(df[df["Tipo"].isin(strategies.S3)], args.gemini_sample, args.gemini_model)
+    stats["gemini_sample"] = gemini_sample(df[df["Tipo"].isin(strategies.S3)].reset_index(drop=True),
+                                           args.gemini_sample, args.gemini_model)
 
     ok = all(c["ok"] for c in checks.values())
     report = {"timestamp": datetime.now().isoformat(timespec="seconds"), "ok": ok,

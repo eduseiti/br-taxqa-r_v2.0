@@ -308,5 +308,19 @@ cannot be embedded as they are if S3 is run (Q7); `segmented/` is 256 MB
   - Parse artifacts in the source labels/text: e.g. `decreto_9358.anexo1` items whose `Rotulo` "6."
     precedes the real number ("6. 29 examinar…"), and old tables flattened into text
     (`lei_4504` art. 50, "ALÍQUOTAAté 2 ...").
-- **Still open:** Gemini `countTokens` sample (needs `GEMINI_API_KEY`/`GOOGLE_API_KEY`). The largest
-  S2 chunk has 8,103 reference tokens; 37 sub-article chunks are above 2,000.
+- **Gemini `countTokens` check (plan §2.6) — done.** The key is read from `~/keys/gemini_api_key` (outside
+  the repository) only for the command that runs the check:
+  `GEMINI_API_KEY="$(cat ~/keys/gemini_api_key)" .venv/bin/python scripts/segmentation/validate_segments.py`.
+  The user's first attempt looked hung: 500 sequential requests plus the validation took ≈ 3 min with no
+  output. The check now uses 8 threads with retries, prints progress, sends the key in the
+  `x-goog-api-key` header instead of the URL, and adds the **100 largest chunks** to the 500 random
+  ones. Model `gemini-embedding-2` (it lists `countTokens`). Result over the S3 chunk set (0 errors):
+  - random sample (500): Gemini/reference ratio p50 **0.883**, p99 0.964, max 1.099; only 2 chunks
+    count more in Gemini than in the reference (by at most 60 tokens); max 4,847 Gemini tokens;
+  - 100 largest chunks (reference counts up to 8,192): ratio p50 0.878, max 0.929; **max 7,253 Gemini
+    tokens; none above 8,192**.
+
+  So Gemini tokenizes this corpus ≈ 12 % more compactly than the max(cl100k, Qwen3) reference, and
+  **no chunk in `chunks_all.csv` would be truncated by `gemini-embedding-2`**. At most, a basic
+  unit at the 1,024 cap could count ≈ 1,125 Gemini tokens (ratio 1.099), which affects granularity
+  only.

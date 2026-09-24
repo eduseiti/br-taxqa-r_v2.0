@@ -1,5 +1,5 @@
 {
- "timestamp": "2026-09-24T20:37:26",
+ "timestamp": "2026-09-24T20:49:20",
  "ok": true,
  "run": {
   "timestamp": "2026-09-24T20:37:07",
@@ -6674,8 +6674,13 @@
    "max": 1000
   },
   "gemini_sample": {
-   "status": "not run",
-   "reason": "no GEMINI_API_KEY / GOOGLE_API_KEY in the environment"
+   "status": "run",
+   "model": "gemini-embedding-2",
+   "n": 500,
+   "gemini_gt_reference": 2,
+   "max_excess": 60,
+   "max_gemini": 4847,
+   "errors": []
   }
  }
 }

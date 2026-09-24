@@ -88,8 +88,9 @@ addendum).
   1.5 k chars), case facts, and court-case headers.
 - Text coverage (word multiset of the S1 bodies vs. document text): minimum 99.8 %, every file
   ≥ 98 %.
-- Gemini `countTokens` sample: **not run**, since there is no `GEMINI_API_KEY`/`GOOGLE_API_KEY` in
-  this environment. `validate_segments.py` runs it (500 chunks, model `gemini-embedding-2`) when a key
-  is set.
+- Gemini `countTokens` check (`gemini-embedding-2`, run later on 2026-09-24): 500 random + the 100
+  largest chunks. Gemini counts ≈ 12 % fewer tokens than the reference (ratio p50 0.88, max 1.10);
+  the largest chunk counts 7,253 Gemini tokens, so **none is above 8,192** and nothing would be
+  truncated.
 - Outputs: `segmented/chunks_all.csv` is 148 MB (groupings account for most of it), and
   `segmented/` is 256 MB in total.
