@@ -1,6 +1,6 @@
 # Segmentation report
 
-- Generated: 2026-09-24T20:49:20
+- Generated: 2026-09-24T20:51:17
 - Overall: **OK**
 - Command: `python scripts/segmentation/segment_all.py --jobs 16 --overwrite`
 - Flags: `{"only": null, "overwrite": true, "jobs": 16, "max_tokens": 1024, "tokenizer": "max:tiktoken:cl100k_base,hf:Qwen/Qwen3-Embedding-4B", "ementa_max_tokens": 128, "keep_dropped_min_chars": 300, "allow_count_change": false, "out_dir": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/segmented", "grouping_max_tokens": 8192, "skip_validation": false}`
@@ -148,4 +148,4 @@ Grouping chunks above 8192 tokens are not in chunks_all.csv (S3 option 2): 243 l
 - Long 'dropped' Agrupamentos kept as TXT (D2): 11
 - Non-statutory metadata sources: {'epi=agrupamento,ementa=agrupamento': 119, 'epi=ementa-agrupamento-title,ementa=campo-assunto': 1, 'parent=urn,epi=agrupamento,ementa=agrupamento': 1, 'epi=agrupamento,ementa=none': 3, 'epi=first-section-heading,ementa=none': 1, 'epi=preliminar-first-line,ementa=none': 5, 'epi=agrupamento,ementa=campo-assunto': 104, 'epi=preliminar-first-line,ementa=agrupamento': 1, 'parent=stem,statutory': 181}
 - Text coverage (‰) distribution: {'n': 664, 'p50': 1000, 'p90': 1000, 'p99': 1000, 'max': 1000}; files below 98%: []
-- Gemini countTokens sample: {'status': 'run', 'model': 'gemini-embedding-2', 'n': 500, 'gemini_gt_reference': 2, 'max_excess': 60, 'max_gemini': 4847, 'errors': []}
+- Gemini countTokens sample: {'status': 'run', 'model': 'gemini-embedding-2', 'random_sample': {'n': 500, 'gemini_gt_reference': 2, 'max_excess': 60, 'ratio_gemini_over_reference': {'p50': np.float64(0.883), 'p99': np.float64(0.964), 'max': np.float64(1.099)}, 'max_gemini': 4847, 'gemini_over_8192': []}, 'largest_chunks': {'n': 100, 'gemini_gt_reference': 0, 'max_excess': 0, 'ratio_gemini_over_reference': {'p50': np.float64(0.878), 'p99': np.float64(0.926), 'max': np.float64(0.929)}, 'max_gemini': 7253, 'gemini_over_8192': []}, 'errors': 0, 'error_examples': []}

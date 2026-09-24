@@ -1,5 +1,5 @@
 {
- "timestamp": "2026-09-24T20:49:20",
+ "timestamp": "2026-09-24T20:51:17",
  "ok": true,
  "run": {
   "timestamp": "2026-09-24T20:37:07",
@@ -6676,11 +6676,32 @@
   "gemini_sample": {
    "status": "run",
    "model": "gemini-embedding-2",
-   "n": 500,
-   "gemini_gt_reference": 2,
-   "max_excess": 60,
-   "max_gemini": 4847,
-   "errors": []
+   "random_sample": {
+    "n": 500,
+    "gemini_gt_reference": 2,
+    "max_excess": 60,
+    "ratio_gemini_over_reference": {
+     "p50": 0.883,
+     "p99": 0.964,
+     "max": 1.099
+    },
+    "max_gemini": 4847,
+    "gemini_over_8192": []
+   },
+   "largest_chunks": {
+    "n": 100,
+    "gemini_gt_reference": 0,
+    "max_excess": 0,
+    "ratio_gemini_over_reference": {
+     "p50": 0.878,
+     "p99": 0.926,
+     "max": 0.929
+    },
+    "max_gemini": 7253,
+    "gemini_over_8192": []
+   },
+   "errors": 0,
+   "error_examples": []
   }
  }
 }
