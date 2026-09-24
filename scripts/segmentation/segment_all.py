@@ -21,6 +21,8 @@ from __future__ import annotations
 
 import argparse
 import fnmatch
+import hashlib
+import subprocess
 import re
 import json
 import multiprocessing as mp
@@ -48,7 +50,7 @@ PROV_COLS = ["chunk_id", "doc_urn", "anexo_urn", "nivel", "unidade_id", "artigo_
              "agrupadores_ids", "agrupadores_rotulos", "citacao", "parte", "n_partes",
              "cobre_ids", "parcial_ids", "id_ambiguo"]
 EXTRA_COLS = ["arquivo", "segmentador", "categoria"]
-TOKEN_COLS = ["n_tokens", "n_tokens_cl100k", "n_tokens_qwen3"]
+TOKEN_COLS = ["n_tokens", "n_tokens_cl100k", "n_tokens_qwen3", "texto_sha256"]
 GROUP_TIPOS = ("PRT", "LIV", "TIT", "SBT", "CAP", "SEC", "SSC")
 
 
@@ -201,11 +203,33 @@ def w_provenance(args: tuple) -> list[dict]:
     texts = [r["Texto"] for r in out]
     per = [lf.count_many(texts) for lf in leaves]
     for i, r in enumerate(out):
+        r["texto_sha256"] = hashlib.sha256(r["Texto"].encode("utf-8")).hexdigest()[:16]
         r["n_tokens"] = max(p[i] for p in per)
         r["n_tokens_cl100k"] = per[0][i] if len(per) > 0 else ""
         r["n_tokens_qwen3"] = per[1][i] if len(per) > 1 else ""
     _TOK.clear_cache()
     return out
+
+
+def git_state() -> dict:
+    """Code version of the run: HEAD commit and whether the segmentation code/inputs had
+    uncommitted changes (a dirty run cannot be traced back to a commit exactly)."""
+    def git(*a):
+        return subprocess.run(["git", *a], cwd=HERE, capture_output=True, text=True).stdout.strip()
+    try:
+        dirty = git("status", "--porcelain", "--", str(HERE), str(ART_DIR.parent))
+        return {"commit": git("rev-parse", "HEAD"), "branch": git("rev-parse", "--abbrev-ref", "HEAD"),
+                "dirty": bool(dirty), "dirty_files": dirty.splitlines()[:20]}
+    except OSError:
+        return {"commit": None}
+
+
+def file_sha256(path: Path) -> str:
+    h = hashlib.sha256()
+    with open(path, "rb") as fh:
+        for block in iter(lambda: fh.read(1 << 20), b""):
+            h.update(block)
+    return h.hexdigest()
 
 
 # --------------------------------------------------------------------------------------------
@@ -335,6 +359,10 @@ def main(argv=None) -> int:
     timings["total_s"] = round(time.time() - t_all, 1)
     run_info = {
         "timestamp": datetime.now().isoformat(timespec="seconds"),
+        "git": git_state(),
+        "outputs_sha256": {name: file_sha256(out / name)
+                           for name in ("chunks_all.csv", "groupings_over_limit.csv", "annex_manifest.csv")
+                           if (out / name).exists()},
         "command": " ".join([Path(sys.executable).name] + sys.argv),
         "flags": {k: (str(v) if isinstance(v, Path) else v) for k, v in vars(args).items()},
         "saxon": rxs.saxon_version(),

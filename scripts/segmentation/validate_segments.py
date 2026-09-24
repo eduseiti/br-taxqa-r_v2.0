@@ -375,12 +375,16 @@ def main(argv=None) -> int:
                 bad_schema.append(c.name)
             elif any(len(r) != 6 for r in [list(x.values()) for x in read_rows(c)]):
                 bad_schema.append(c.name)
-    expected_cols = 6 + 3 + 14 + 3
+    expected_cols = 6 + 3 + 14 + 4
     checks["csv_schema"] = {"ok": not bad_schema and df.shape[1] == expected_cols,
-                            "detail": f"chunks_all columns = {df.shape[1]} (6 + 3 + 14 provenance + 3 token counts)",
+                            "detail": f"chunks_all columns = {df.shape[1]} (6 + 3 + 14 provenance + 3 token counts + texto_sha256)",
                             "examples": bad_schema[:10]}
     empty = df[df["Texto"].map(lambda t: not body_of(t).strip())]
     checks["non_empty"] = {"ok": empty.empty, "count": len(empty), "examples": empty["chunk_id"].head(10).tolist()}
+    import hashlib
+    bad_hash = df[df["Texto"].map(lambda t: hashlib.sha256(t.encode("utf-8")).hexdigest()[:16]) != df["texto_sha256"]]
+    checks["texto_sha256"] = {"ok": bad_hash.empty, "count": len(bad_hash),
+                              "examples": bad_hash["chunk_id"].head(10).tolist()}
     dup_cid = df[df["chunk_id"].duplicated(keep=False)]
     dup_urn = df[df["urn"].duplicated(keep=False) & (df["id_ambiguo"] == 0)]
     checks["chunk_id_unique"] = {"ok": dup_cid.empty and dup_urn.empty,
@@ -479,7 +483,8 @@ def main(argv=None) -> int:
 
     ok = all(c["ok"] for c in checks.values())
     report = {"timestamp": datetime.now().isoformat(timespec="seconds"), "ok": ok,
-              "run": {k: run_info.get(k) for k in ("timestamp", "command", "flags", "saxon", "annex_counts", "timings")},
+              "run": {k: run_info.get(k) for k in ("timestamp", "command", "flags", "saxon", "annex_counts",
+                                                   "timings", "git", "outputs_sha256")},
               "checks": checks, "stats": stats}
     (seg / "segmentation_report.json").write_text(json.dumps(report, ensure_ascii=False, indent=1, default=str),
                                                   encoding="utf-8")
@@ -495,6 +500,8 @@ def render_md(rep: dict, cap: int) -> str:
           f"- Overall: **{'OK' if rep['ok'] else 'FAILED'}**", f"- Command: `{run.get('command')}`",
           f"- Flags: `{json.dumps(run.get('flags'), ensure_ascii=False)}`",
           f"- Saxon: {run.get('saxon')}; annex categories: {run.get('annex_counts')}",
+          f"- Code: {json.dumps(run.get('git'), ensure_ascii=False)}",
+          f"- Output checksums (sha256): {json.dumps(run.get('outputs_sha256'))}",
           f"- Timings (s): {run.get('timings')}", "", "## Checks", "", "| Check | Result | Detail |", "|---|---|---|"]
     for k, v in ck.items():
         detail = {kk: vv for kk, vv in v.items() if kk not in ("ok", "examples", "uncuttable", "files_below_threshold")}
