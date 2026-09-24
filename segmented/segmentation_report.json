@@ -1,8 +1,8 @@
 {
- "timestamp": "2026-09-24T20:10:35",
+ "timestamp": "2026-09-24T20:37:26",
  "ok": true,
  "run": {
-  "timestamp": "2026-09-24T20:10:18",
+  "timestamp": "2026-09-24T20:37:07",
   "command": "python scripts/segmentation/segment_all.py --jobs 16 --overwrite",
   "flags": {
    "only": null,
@@ -24,22 +24,38 @@
    "C": 181
   },
   "timings": {
-   "1_router_s": 9.7,
-   "2_metadata_s": 4.7,
-   "3_xsl_s": 30.5,
-   "3b_4_split_loose_s": 15.5,
+   "1_router_s": 9.0,
+   "2_metadata_s": 4.8,
+   "3_xsl_s": 30.7,
+   "3b_4_split_loose_s": 15.8,
    "5_non_statutory_s": 9.3,
-   "6_merge_s": 19.8,
-   "total_s": 90.3
+   "6_merge_s": 18.3,
+   "total_s": 88.7
+  },
+  "git": {
+   "commit": "aadd584cdc320a77c4a9547609977831f3f9c8f4",
+   "branch": "segmentation-implementation",
+   "dirty": false,
+   "dirty_files": []
+  },
+  "outputs_sha256": {
+   "chunks_all.csv": "d24a4af12fe86ce69a7411ef2d0f5e70df76ee245166f193d2d65415e9a1a9a5",
+   "groupings_over_limit.csv": "5f4c9dda097a0c34fde57eb4f5b980449d12c4fbc9fdb518ff6185cb6717cecb",
+   "annex_manifest.csv": "e5eb88b86d38093c19da702f7c9b7fe913da3cf28deb85270621403f7f9a933b"
   }
  },
  "checks": {
   "csv_schema": {
    "ok": true,
-   "detail": "chunks_all columns = 26 (6 + 3 + 14 provenance + 3 token counts)",
+   "detail": "chunks_all columns = 27 (6 + 3 + 14 provenance + 3 token counts + texto_sha256)",
    "examples": []
   },
   "non_empty": {
+   "ok": true,
+   "count": 0,
+   "examples": []
+  },
+  "texto_sha256": {
    "ok": true,
    "count": 0,
    "examples": []

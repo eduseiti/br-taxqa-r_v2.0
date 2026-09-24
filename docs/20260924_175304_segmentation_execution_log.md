@@ -282,3 +282,31 @@ cannot be embedded as they are if S3 is run (Q7); `segmented/` is 256 MB
   Código Civil PARTE ESPECIAL (179 k tokens). **S3 = 87,704 chunks** (5,060 groupings kept); S1 and S2
   unchanged (26,252 / 82,644). `chunks_all.csv` shrinks from 148 MB to 130 MB.
 - The user accepted the other defaults and deviations (D1–D3 and the smaller ones in the table above).
+
+## Addendum — freeze for embedding and manual sample review (2026-09-24)
+
+- **Freeze.** `run_info.json` records the git commit of the run (`git.commit`, and `git.dirty`,
+  true when `scripts/segmentation` or `lexml/` had uncommitted changes) and the SHA-256 of
+  `chunks_all.csv`, `groupings_over_limit.csv` and `annex_manifest.csv`. `chunks_all.csv` has a new
+  column **`texto_sha256`** (first 16 hex digits of the SHA-256 of `Texto`); embeddings should be
+  keyed by `chunk_id` + `texto_sha256`. New validation check `texto_sha256`: ok. The reference run was
+  made at commit `aadd584` (clean): 87,704 rows, `chunks_all.csv` sha256 `d24a4af1…a1a9a5`. Only
+  the merged files changed relative to the previous run; the 1,300 per-file CSV/sidecar files came
+  out byte-identical, so the pipeline is deterministic.
+- **Manual sample review** (seeded random sample: 5 unsplit ART, 5 ART parts, 5 DSP, 8 TXT, 5 TAB,
+  plus the earlier spot checks). Metadata prefixes are clean; article parts read coherently, with the
+  article label and caput sentence in HEAD; DSP, TXT and statutory TAB chunks are as intended.
+  Findings, all from the source/parse rather than the segmentation, none blocking:
+  - **Prose parsed as tables:** 52 of 623 loose tables (45 in `nao_articulados`, 7 in statutory
+    files) hold running text, ≈ 47 k chars ≈ 0.2 % of the corpus. Examples: the one-column STJ case
+    list of `portaria_2012_1114` (which also holds the one uncuttable 1,163-token row) and paragraphs
+    of some soluções de consulta. They come out as `Tabela: 13. Primeiramente, … | ; faz-se …`: the
+    text is complete, but with table separators. Possible later fix: serialize one-column or
+    prose-like tables as plain text.
+  - Boilerplate `nota` groups (e.g. the AGU electronic-signature notice) are kept as TXT, as §5.2
+    specifies for `nota`.
+  - Parse artifacts in the source labels/text: e.g. `decreto_9358.anexo1` items whose `Rotulo` "6."
+    precedes the real number ("6. 29 examinar…"), and old tables flattened into text
+    (`lei_4504` art. 50, "ALÍQUOTAAté 2 ...").
+- **Still open:** Gemini `countTokens` sample (needs `GEMINI_API_KEY`/`GOOGLE_API_KEY`). The largest
+  S2 chunk has 8,103 reference tokens; 37 sub-article chunks are above 2,000.

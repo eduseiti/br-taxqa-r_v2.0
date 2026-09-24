@@ -1,18 +1,21 @@
 # Segmentation report
 
-- Generated: 2026-09-24T20:10:35
+- Generated: 2026-09-24T20:37:26
 - Overall: **OK**
 - Command: `python scripts/segmentation/segment_all.py --jobs 16 --overwrite`
 - Flags: `{"only": null, "overwrite": true, "jobs": 16, "max_tokens": 1024, "tokenizer": "max:tiktoken:cl100k_base,hf:Qwen/Qwen3-Embedding-4B", "ementa_max_tokens": 128, "keep_dropped_min_chars": 300, "allow_count_change": false, "out_dir": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/segmented", "grouping_max_tokens": 8192, "skip_validation": false}`
 - Saxon: SaxonC-HE 13.0 from Saxonica; annex categories: {'A': 12, 'B': 50, 'C': 181}
-- Timings (s): {'1_router_s': 9.7, '2_metadata_s': 4.7, '3_xsl_s': 30.5, '3b_4_split_loose_s': 15.5, '5_non_statutory_s': 9.3, '6_merge_s': 19.8, 'total_s': 90.3}
+- Code: {"commit": "aadd584cdc320a77c4a9547609977831f3f9c8f4", "branch": "segmentation-implementation", "dirty": false, "dirty_files": []}
+- Output checksums (sha256): {"chunks_all.csv": "d24a4af12fe86ce69a7411ef2d0f5e70df76ee245166f193d2d65415e9a1a9a5", "groupings_over_limit.csv": "5f4c9dda097a0c34fde57eb4f5b980449d12c4fbc9fdb518ff6185cb6717cecb", "annex_manifest.csv": "e5eb88b86d38093c19da702f7c9b7fe913da3cf28deb85270621403f7f9a933b"}
+- Timings (s): {'1_router_s': 9.0, '2_metadata_s': 4.8, '3_xsl_s': 30.7, '3b_4_split_loose_s': 15.8, '5_non_statutory_s': 9.3, '6_merge_s': 18.3, 'total_s': 88.7}
 
 ## Checks
 
 | Check | Result | Detail |
 |---|---|---|
-| csv_schema | ok | {"detail": "chunks_all columns = 26 (6 + 3 + 14 provenance + 3 token counts)"} |
+| csv_schema | ok | {"detail": "chunks_all columns = 27 (6 + 3 + 14 provenance + 3 token counts + texto_sha256)"} |
 | non_empty | ok | {"count": 0} |
+| texto_sha256 | ok | {"count": 0} |
 | chunk_id_unique | ok | {"dup_chunk_id": 0, "dup_urn_not_ambiguous": 0} |
 | provenance | ok | {"count": 0, "by_kind": {"provenance_missing_id": 0, "provenance_ancestors": 0}} |
 | intervals | ok | {"count": 0, "by_kind": {"interval_inverted": 0, "intervals_crossing": 0, "sub_outside_article": 0, "part_outside_unit": 0}} |
