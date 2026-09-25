@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-25T20:15:28+00:00",
+  "kind": "queries",
+  "script": {
+    "version": "0.1.0",
+    "git": {
+      "commit": "3dfdf77ee532d57bce3c87928e0abb62a7b420bc",
+      "dirty": false,
+      "dirty_files": []
+    },
+    "argv": [
+      "scripts/embedding/embed.py",
+      "queries",
+      "--model",
+      "jua-4b-mixed",
+      "--resume",
+      "--pause-after",
+      "--skip-parity",
+      "--no-progress"
+    ]
+  },
+  "model": {
+    "slug": "jua-4b-mixed",
+    "provider": "tei",
+    "model_id": "ufca-llms/jua-4B-mixed",
+    "revision": "57f491c1718171c0ad71d723c4f6b2030684c4eb",
+    "dim": 2560,
+    "template": "Instruct: {instruction}\nQuery: {text}",
+    "instruction_name": "irpf",
+    "instruction": "Given a question about Brazilian personal income tax (IRPF), retrieve the legal provisions that answer it",
+    "tokenizer": "hf:ufca-llms/jua-4B-mixed@57f491c1718171c0ad71d723c4f6b2030684c4eb",
+    "max_input_tokens": 8192
+  },
+  "server": {
+    "info": {
+      "model_id": "/repository",
+      "model_sha": null,
+      "model_dtype": "float16",
+      "served_model_name": "/repository",
+      "model_type": {
+        "embedding": {
+          "pooling": "last_token"
+        }
+      },
+      "max_concurrent_requests": 512,
+      "max_input_length": 40960,
+      "max_batch_tokens": 40960,
+      "max_batch_requests": null,
+      "max_client_batch_size": 64,
+      "auto_truncate": false,
+      "tokenization_workers": 6,
+      "version": "1.9.4",
+      "sha": "e80ef225ed0e6cb1717ce632a6a84b6cf211bb67",
+      "docker_label": "sha-e80ef22"
+    },
+    "endpoint": {
+      "name": "jua-4b-mixed-bgc",
+      "namespace": "eduseiti",
+      "repository": "ufca-llms/jua-4B-mixed",
+      "revision": "57f491c1718171c0ad71d723c4f6b2030684c4eb",
+      "config": {
+        "name": "jua-4b-mixed-bgc",
+        "type": "private",
+        "provider": {
+          "vendor": "aws",
+          "region": "us-east-1"
+        },
+        "compute": {
+          "id": "aws-us-east-1-nvidia-l4-x1",
+          "accelerator": "gpu",
+          "instanceType": "nvidia-l4",
+          "instanceSize": "x1",
+          "scaling": {
+            "minReplica": 0,
+            "maxReplica": 1,
+            "scaleToZeroTimeout": 15,
+            "metric": "hardwareUsage",
+            "measure": {
+              "hardwareUsage": 80.0
+            },
+            "threshold": 80.0
+          }
+        },
+        "experimentalFeatures": {
+          "cacheHttpResponses": false,
+          "loadBalancer": null,
+          "mcpLb": null,
+          "privileged": null,
+          "kgateway": null,
+          "skipRepoDownload": null,
+          "priorityClass": null,
+          "failureStrategy": null
+        },
+        "notifications": {
+          "email": true,
+          "push": true
+        },
+        "model": {
+          "repository": "ufca-llms/jua-4B-mixed",
+          "revision": "57f491c1718171c0ad71d723c4f6b2030684c4eb",
+          "task": "sentence-similarity",
+          "framework": "pytorch",
+          "image": {
+            "custom": {
+              "healthRoute": "/health",
+              "port": 80,
+              "url": "ghcr.io/huggingface/text-embeddings-inference:89-1.9.4",
+              "credentials": {
+                "username": "",
+                "password": null
+              }
+            }
+          },
+          "env": {
+            "AUTO_TRUNCATE": "false",
+            "MAX_BATCH_TOKENS": "40960",
+            "MAX_CLIENT_BATCH_SIZE": "64",
+            "MODEL_ID": "/repository"
+          },
+          "fromCatalog": false
+        },
+        "healthRoute": "/health",
+        "tags": []
+      }
+    },
+    "fingerprint": {
+      "model_id": "ufca-llms/jua-4B-mixed",
+      "revision": "57f491c1718171c0ad71d723c4f6b2030684c4eb",
+      "endpoint_repository": "ufca-llms/jua-4B-mixed",
+      "endpoint_revision": "57f491c1718171c0ad71d723c4f6b2030684c4eb",
+      "endpoint_image": {
+        "custom": {
+          "healthRoute": "/health",
+          "port": 80,
+          "url": "ghcr.io/huggingface/text-embeddings-inference:89-1.9.4",
+          "credentials": {
+            "username": "",
+            "password": null
+          }
+        }
+      },
+      "server_model_id": "/repository",
+      "server_model_sha": null,
+      "server_dtype": "float16",
+      "server_version": "1.9.4",
+      "pooling": "last_token"
+    }
+  },
+  "input": {
+    "path": "/work/unicamp/articles/RAG_evaluation/br-taxqa-document-fetcher/questions_QA_2024_v1.1.json",
+    "sha256": "097abfc4f885ea36e512e6beae39a826b981191aa0b320960828e51ccc081585",
+    "id_field": "question_number",
+    "text_field": "question_text",
+    "rows": 715,
+    "tokens": {
+      "total": 43021,
+      "max": 158,
+      "p50": 57,
+      "p90": 83,
+      "p99": 114
+    }
+  },
+  "output": {
+    "shape": [
+      715,
+      2560
+    ],
+    "dtype": "float32",
+    "norm_min": 1.0,
+    "norm_max": 1.0000001192092896,
+    "norms_ok": true,
+    "sha256": {
+      "vectors.npy": "bcf30223a164f5f601f2638b251599a0916a663bdd99aef799eec5cf9c135ec3",
+      "queries.csv": "c495d1b2c1bd03f747cbebbd75ed2fb7aa3d512e38593018b4566819cb456fc2"
+    }
+  },
+  "run": {
+    "start": "2026-09-25T20:15:13+00:00",
+    "end": "2026-09-25T20:15:27+00:00",
+    "n_texts": 715,
+    "n_tokens": 43021,
+    "wall_s": 13.5,
+    "requests": 12,
+    "retries": 0,
+    "errors": 0,
+    "renormalized": 0,
+    "tokens_per_s": 3186.7,
+    "n_sessions": 1,
+    "sessions": [
+      {
+        "start": "2026-09-25T20:15:13+00:00",
+        "n_skipped": 0,
+        "n_texts": 715,
+        "n_tokens": 43021,
+        "renormalized": 0,
+        "status": "complete",
+        "end": "2026-09-25T20:15:27+00:00",
+        "wall_s": 13.5,
+        "tokens_per_s": 3197.4,
+        "requests": 12,
+        "retries": 0,
+        "errors": 0
+      }
+    ]
+  },
+  "parity": {
+    "status": "skipped (--skip-parity)"
+  },
+  "cost_ledger": "embeddings/costs.csv"
+}
