@@ -4,3 +4,5 @@ __pycache__/
 
 # ~130 MB, above GitHub's 100 MB limit: the gzipped copy chunks_all.csv.gz is versioned instead
 segmented/chunks_all.csv
+
+.env

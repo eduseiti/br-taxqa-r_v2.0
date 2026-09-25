@@ -222,15 +222,32 @@ magnitude, and replace them with the rate measured in the first 5 minutes of the
 8. **Container / engine: Text Embeddings Inference.** It is usually pre-selected for models
    tagged `text-embeddings-inference`. **For `jua-4B-mixed` it may not be**, since the repo lacks
    the tag. Select TEI by hand; if the UI refuses, see §3.8.
+   - **What worked for `jua-4B-mixed` (2026-09-25).** The repo has no `library_name` and its
+     `pipeline_tag` is `sentence-similarity`, so the UI offers the Default engine, which asks for
+     a custom `handler.py`. A **Custom container** was used instead, on the original repo at the
+     pinned revision:
+     - image `ghcr.io/huggingface/text-embeddings-inference:89-1.9.4` (`89` = Ada, for L4/L40S;
+       `86` for A10G; no prefix for A100). Pin the full patch version;
+     - port `80`, health route `/health`;
+     - env `MODEL_ID=/repository`, `AUTO_TRUNCATE=false`, `MAX_BATCH_TOKENS=40960`,
+       `MAX_CLIENT_BATCH_SIZE=64`.
+
+     `/info` then shows `model_id: /repository` and no model SHA, so record the revision from the
+     endpoint's configuration page. The §3.4 smoke tests passed: 2,560 dimensions, norm 1,
+     sensible ranking, and an input over 40,960 tokens was rejected.
 9. **Engine settings.** Set these in the TEI configuration panel; the environment-variable name is
    given in brackets:
    - **Max Tokens per batch** [`MAX_BATCH_TOKENS`]:
-     - `32768` on L4 / A10G;
+     - `40960` on L4 / A10G (the minimum for the Qwen3 models, see below);
      - `65536` on L40S;
      - it must be at least the model's max input length when `AUTO_TRUNCATE=false`, otherwise
-       TEI refuses to start. For the Qwen3 models the config max is 40,960 positions, but TEI
-       uses the tokenizer's `model_max_length`. If TEI fails at startup with a max-length
-       message, raise `MAX_BATCH_TOKENS` above the value it prints.
+       TEI refuses to start. TEI takes that length from `sentence_bert_config.json`
+       (`max_seq_length`), and since neither jua nor Qwen3-Embedding-4B has that file, it falls
+       back to `config.json` `max_position_embeddings` = **40,960** (it logs the warning
+       "Could not find a Sentence Transformers config", which is harmless). Found on the first jua
+       endpoint (2026-09-25), which failed to start with `32768`. The server then accepts inputs up
+       to 40,960 tokens, so the 8192 limit is enforced by the client guard (§5.5). If TEI fails
+       at startup with a max-length message, raise `MAX_BATCH_TOKENS` to the value it prints.
    - **Max Concurrent Requests** [`MAX_CONCURRENT_REQUESTS`]: leave the default (512).
    - **Pooling** [`POOLING`]: **leave empty**, so it's read from `1_Pooling/config.json`, which is
      last-token for all three models. Set `last-token` only if TEI logs a different choice.
