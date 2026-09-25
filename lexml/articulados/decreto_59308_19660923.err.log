@@ -1,4 +1,4 @@
-# CMD: java -jar /tmp/claude-0/-work-unicamp-articles-RAG-evaluation-lexml-parser-projeto-lei/4e4ae71e-dfba-49e3-8901-26c7e43b2a76/scratchpad/phase2.jar parse -m application/vnd.openxmlformats-officedocument.wordprocessingml.document -i original/articulados/decreto_59308_19660923.docx -o lexml/articulados_phase2/decreto_59308_19660923.xml --write-errors-to-file lexml/articulados_phase2/decreto_59308_19660923.err.log -a federal -t decreto -n 59308 --data 1966-09-23 --linker /usr/local/bin/linkertool
+# CMD: java -jar /work/unicamp/articles/RAG_evaluation/lexml-parser-projeto-lei/target/lexml-parser-projeto-lei-1.15.0-onejar.jar parse -m application/vnd.openxmlformats-officedocument.wordprocessingml.document -i ../br-taxqa-r_v2.0/original/articulados/decreto_59308_19660923.docx -o lexml/articulados/decreto_59308_19660923.xml --write-errors-to-file lexml/articulados/decreto_59308_19660923.err.log -a federal -t decreto -n 59308 --data 1966-09-23 --linker /usr/local/bin/linkertool
 # ---
 Problem type = [9: Articulação não identificada, categoria: [1: Erro de técnica legislativa]], pos = List(), msg = None, context=List()
 

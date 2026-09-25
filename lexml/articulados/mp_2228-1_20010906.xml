@@ -1,11 +1,11 @@
 <LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
       <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
       <Metadado>
-      <Identificacao URN="urn:lex:br:federal:medida.provisoria:2001-09-06;1"/>
+      <Identificacao URN="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1"/>
     </Metadado>
       <ProjetoNorma><Norma>
           <ParteInicial>
-      <Epigrafe id="epigrafe">MEDIDA PROVISÓRIA Nº 1, DE 6 DE SETEMBRO DE 2001 </Epigrafe>
+      <Epigrafe id="epigrafe">MEDIDA PROVISÓRIA Nº 2.228-1, DE 6 DE SETEMBRO DE 2001 </Epigrafe>
 		  <Ementa id="ementa">Estabelece princípios gerais da Política Nacional do Cinema, cria o Conselho Superior do Cinema e a Agência Nacional do Cinema - ANCINE, institui o Programa de Apoio ao Desenvolvimento do Cinema Nacional - PRODECINE, autoriza a criação de Fundos de Financiamento da Indústria Cinematográfica Nacional - FUNCINES, altera a legislação sobre a Contribuição para o Desenvolvimento da Indústria Cinematográfica Nacional e dá outras providências.
 </Ementa>
       <Preambulo id="preambulo"><p>
@@ -3686,6 +3686,6 @@
           </Caput>
           </Artigo></Articulacao>
           <ParteFinal><LocalDataFecho><p>Brasília, 6 de setembro de 2001; 180o da Independência e 113o da República.</p></LocalDataFecho><Assinatura><NomePessoa>FERNANDO HENRIQUE CARDOSO</NomePessoa><NomePessoa>Sérgio Silva do Amaral</NomePessoa><NomePessoa>Francisco Weffort</NomePessoa><NomePessoa>Pedro Parente</NomePessoa><NomePessoa>Este texto não substitui o publicado no DOU de 10.9.2001</NomePessoa></Assinatura></ParteFinal>
-          <Anexos><ReferenciaAnexo AlvoURN="urn:lex:br:federal:medida.provisoria:2001-09-06;1!anexo1"/><ReferenciaAnexo AlvoURN="urn:lex:br:federal:medida.provisoria:2001-09-06;1!anexo2"/></Anexos>
+          <Anexos><ReferenciaAnexo AlvoURN="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!anexo1"/><ReferenciaAnexo AlvoURN="urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!anexo2"/></Anexos>
         </Norma></ProjetoNorma>
     </LexML>
