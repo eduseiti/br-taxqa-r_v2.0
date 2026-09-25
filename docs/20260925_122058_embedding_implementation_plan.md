@@ -100,36 +100,43 @@ Model facts checked in the repos' own files on 2026-09-25:
 4. **L2-normalized vectors at native dimension.** There is no MRL reduction in the main runs.
    Normalize on the client side too, since it is idempotent and protects against provider
    differences.
-5. **Embed each unique text once.** The corpus has 87,704 rows but **84,569 distinct
+5. **Embed each unique text once.** The corpus has 87,702 rows but **84,568 distinct
    `texto_sha256`**. Store vectors per unique text and map them back to `chunk_id` (§4.1). Check
    that the full text matches for equal hashes (the hash is truncated to 16 hex characters).
 6. **Record provenance.** For each run, record the model and revision, provider, engine version,
    dtype, prompts, input file SHA-256, the parity-check result, timings and the approximate cost
    (§4.4).
 
-### 1.5 Corpus and query facts (measured 2026-09-25)
+### 1.5 Corpus and query facts (measured 2026-09-25, after the metadata fixes of §2 step 0)
 
 | Item | Value |
 |---|---|
-| Chunk rows / unique texts | 87,704 / 84,569 |
-| Rows by `Tipo` | PAR 21,511 · INC 20,617 · ART 20,479 · CPT 8,084 · ALI 4,878 · TXT 3,545 · SEC 2,106 · CAP 1,843 · DSP 1,522 · ITE 1,302 · SSC 714 · TAB 706 · TIT 326 · LIV 45 · SBT 21 · PRT 5 |
-| Qwen3 tokens: total / p50 / p90 / p99 / max | 27.0 M / 210 / 540 / 2,009 / 8,119 |
-| cl100k tokens: total / max | 25.8 M / 7,895 |
+| Chunk rows / unique texts | 87,702 / 84,568 |
+| Rows by `Tipo` | PAR 21,511 · INC 20,617 · ART 20,477 · CPT 8,084 · ALI 4,878 · TXT 3,545 · SEC 2,106 · CAP 1,843 · DSP 1,522 · ITE 1,302 · SSC 714 · TAB 706 · TIT 326 · LIV 45 · SBT 21 · PRT 5 |
+| Qwen3 tokens: total / p50 / p90 / p99 / max | 27.0 M / 210 / 539 / 2,009 / 8,119 |
+| cl100k tokens: total / max | 25.7 M / 7,895 |
 | Rows > 2,048 Qwen3 tokens | 847 |
 | Queries | 715 questions in `../br-taxqa-document-fetcher/questions_QA_2024_v1.1.json` (`question_number`, `question_text`, …) |
 
-Expected output sizes as float32 over 84,569 texts: 2560 dimensions ≈ 0.87 GB, 3584 ≈ 1.21 GB,
+Expected output sizes as float32 over 84,568 texts: 2560 dimensions ≈ 0.87 GB, 3584 ≈ 1.21 GB,
 3072 ≈ 1.04 GB. All are above GitHub's 100 MB file limit (§4.2).
 
 ---
 
 ## 2. Work breakdown (order of execution)
 
-0. **Fix the Constitution metadata** (§8.2). In
-   `lexml/articulados/constituição_1988_19881005.xml`, set the epígrafe to
-   `Constituição da República Federativa do Brasil` and the URN to
-   `urn:lex:br:federal:constituicao:1988-10-05;1988`. Then re-run segmentation and re-freeze
-   `segmented/chunks_all.csv.gz`. Every embedding run depends on the final chunk text.
+0. **Fix synthesized document metadata** (§8.2). **Done 2026-09-25**, see
+   `docs/20260925_125514_constitution_metadata_fix.md` (§5 there). The statutory parser was fixed
+   (`../lexml-parser-projeto-lei/work_history/20260925_130918_numero_complemento_and_constituicao_epigrafe_fix.md`),
+   `original/articulados` re-parsed, and `lexml/articulados` updated. Segmentation was then
+   re-run. As a result:
+   - the Constitution and MPs 2.158-35, 2.159-70, 2.189-49 and 2.228-1 now have correct URNs and
+     epígrafes;
+   - the chunks have 87,702 rows / 84,568 unique texts (§1.5).
+
+   **Still to do before the first embedding run:** commit the parser fix, `lexml/articulados` and
+   the re-frozen `segmented/` (fix doc §5.4). Every embedding run depends on the final chunk
+   text.
 1. **Scaffold `scripts/embedding/`** (§6.1): config file, CLI skeleton, README, pinned requirements,
    `.env.example`, and a `.gitignore` entry for `embeddings/**/*.npy` and `.env`.
 2. **Providers** (§5.3): `tei`, `openai`, `gemini`, all behind one interface.
@@ -352,7 +359,7 @@ embeddings/
     corpus/
       vectors.npy          float32 [n_texts, dim], L2-normalized, rows in text_id order
       texts.csv            row, text_id (texto_sha256), n_tokens (model tokenizer)
-      chunk_map.csv.gz     chunk_id, text_id   (87,704 rows → 84,569 texts)
+      chunk_map.csv.gz     chunk_id, text_id   (87,702 rows → 84,568 texts)
       manifest.json        provenance (§4.4)
     queries/
       vectors.npy          float32 [n_queries, dim]
@@ -686,7 +693,7 @@ python scripts/embedding/embed.py costs    [summary|add|reconcile --provider ope
 
 The following checks go into the model's manifest and the execution log:
 
-1. Coverage: every one of the 84,569 unique texts has exactly one vector, and all 87,704 chunk ids
+1. Coverage: every one of the 84,568 unique texts has exactly one vector, and all 87,702 chunk ids
    map to a text.
 2. Norms are 1 ± 1e-3, values are finite, and there are no duplicate vectors for different texts
    (except the exact near-duplicates found by a `cos > 0.9999` scan, which should be reported).
@@ -779,38 +786,14 @@ metadata (strategy doc §6, item 1), e.g.:
 **Default: `title: none`.** This decision changes the **document** vectors, so changing it later
 means paying to embed the whole corpus again. Confirm it before the Gemini run.
 
-**Data-quality item found while checking this (2026-09-25):** the Constitution chunks' metadata
-reads `CONSTITUICAO Nº 1, DE 5 DE OUTUBRO DE 1988`, with no accent and a "Nº 1" the Constitution
-doesn't have. It is in the text of **3,018 chunks**, so **fix it (and re-freeze
-`chunks_all.csv.gz`) before any embedding run** (§2 step 0). Details:
-
-- **Origin:** the statutory parser, not segmentation. `lexml/articulados/constituição_1988_19881005.err.log`
-  shows it was called with `-t constituicao --data 1988-10-05` and no number. The parser then
-  **synthesized** both
-  - the URN `urn:lex:br:federal:constituicao:1988-10-05;1` (`Metadado/Identificacao/@URN`), and
-  - the epígrafe `<Epigrafe id="epigrafe">CONSTITUICAO Nº 1, DE 5 DE OUTUBRO DE 1988 </Epigrafe>`
-    from its type, number and date.
-
-  The segmentation step (`scripts/segmentation/common.py`, `statutory_main_meta`) copies the
-  `Epigrafe` into every chunk as-is.
-- **Fix 1, the epígrafe (decided 2026-09-25):** replace it with the Constitution's actual title,
-  **`Constituição da República Federativa do Brasil`**. The chunk prefix becomes
-  `[ Constituição da República Federativa do Brasil ] Art. 5º …`. The Constitution has no
-  `Ementa` in the XML, so the prefix is only the title, as today.
-- **Fix 2, the URN (found while checking fix 1):** `lexml-linker` writes the Constitution as
-  `urn:lex:br:federal:constituicao:1988-10-05;1988`, which is the standard LexML URN. It appears
-  **1,303 times** in `lexml/` against a single `;1`, which is the document's own `Identificacao`.
-  Because of this, the `urn` / `doc_urn` of the Constitution chunks don't match the references
-  to it, so gold references can't be matched to Constitution chunks. Change it to `;1988`.
-- **Where to fix:** in `lexml/articulados/constituição_1988_19881005.xml`, not in the segmentation
-  code, so the XML stays the single source of truth. Change the `Epigrafe` text and the
-  `Identificacao/@URN`. Record the manual edit in a comment at the top of the matching
-  `.err.log`, and in the segmentation execution log. Also check whether the parser can take the
-  number (`1988`) and the title as options, so a re-parse doesn't bring the problem back.
-- **Then:** re-run `segment_all.py --overwrite` and check that the only changes in `chunks_all.csv`
-  are the 3,018 Constitution rows (`Texto`, `texto_sha256`, token counts, `urn`/`doc_urn`). Update
-  `run_info.json` and the segmentation report, and commit the re-frozen `chunks_all.csv.gz` **before**
-  any embedding run. The corpus counts in §1.5 change slightly and need to be measured again.
+**Data-quality item found while checking this (2026-09-25), now fixed:** the Constitution chunks'
+metadata read `CONSTITUICAO Nº 1, DE 5 DE OUTUBRO DE 1988`, an epígrafe the statutory parser built
+because it was run without a document number. Its URN had the same cause (`…;1` instead of the
+linker's `…;1988`). Both were corrected in the LexML XML; the epígrafe is now **`Constituição da
+República Federativa do Brasil`**. The same bug affected four MPs (2.158-35, 2.159-70,
+2.189-49, 2.228-1). All five documents were then fixed at the source, in the statutory parser, and
+re-parsed. Details, the diffs and the checks are in
+`docs/20260925_125514_constitution_metadata_fix.md` (§5).
 
 ---
 

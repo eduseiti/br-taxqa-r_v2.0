@@ -1,8 +1,8 @@
 {
- "timestamp": "2026-09-24T21:11:17",
+ "timestamp": "2026-09-25T16:17:43",
  "ok": true,
  "run": {
-  "timestamp": "2026-09-24T21:10:34",
+  "timestamp": "2026-09-25T16:16:30",
   "command": "python scripts/segmentation/segment_all.py --jobs 16 --overwrite",
   "flags": {
    "only": null,
@@ -24,25 +24,25 @@
    "C": 181
   },
   "timings": {
-   "1_router_s": 8.7,
-   "2_metadata_s": 4.8,
-   "3_xsl_s": 31.0,
-   "3b_4_split_loose_s": 15.4,
-   "5_non_statutory_s": 9.6,
-   "6_merge_s": 21.2,
-   "total_s": 91.6
+   "1_router_s": 14.8,
+   "2_metadata_s": 4.9,
+   "3_xsl_s": 33.0,
+   "3b_4_split_loose_s": 15.2,
+   "5_non_statutory_s": 8.8,
+   "6_merge_s": 21.3,
+   "total_s": 98.9
   },
   "git": {
-   "commit": "9e6addddca290d2662eaa8634834a9c8738fea63",
-   "branch": "segmentation-implementation",
+   "commit": "ecd68e5b049efb5e6f764086d1093f5638eed36b",
+   "branch": "main",
    "dirty": false,
    "dirty_files": []
   },
   "outputs_sha256": {
-   "chunks_all.csv": "d24a4af12fe86ce69a7411ef2d0f5e70df76ee245166f193d2d65415e9a1a9a5",
-   "chunks_all.csv.gz": "0f495ef04b011926c0e8c476d737e9b716f55ef16cd39e8af65e73042afb920e",
-   "groupings_over_limit.csv": "5f4c9dda097a0c34fde57eb4f5b980449d12c4fbc9fdb518ff6185cb6717cecb",
-   "annex_manifest.csv": "e5eb88b86d38093c19da702f7c9b7fe913da3cf28deb85270621403f7f9a933b"
+   "chunks_all.csv": "fcacf9a46545f15a3e5cc682ae7d9b057f80c395944e523142d9dfb8055dde37",
+   "chunks_all.csv.gz": "f3db09046bb475bfcab1dfe84f4805a40a8fcd2629f252577c3aa492d1855f9b",
+   "groupings_over_limit.csv": "2b8c9416d73a52910293f456749611f572c107a2628ea45253140b1bddb40061",
+   "annex_manifest.csv": "557fcb053e3d80e12013bee2f439fe990fad60289c859ce8b3f7fec5990d1c60"
   }
  },
  "checks": {
@@ -144,11 +144,11 @@
   }
  },
  "stats": {
-  "rows_total": 87704,
+  "rows_total": 87702,
   "rows_per_tipo": {
    "PAR": 21511,
    "INC": 20617,
-   "ART": 20479,
+   "ART": 20477,
    "CPT": 8084,
    "ALI": 4878,
    "TXT": 3545,
@@ -164,20 +164,20 @@
    "PRT": 5
   },
   "rows_per_strategy": {
-   "S1": 26252,
-   "S2": 82644,
-   "S3": 87704
+   "S1": 26250,
+   "S2": 82642,
+   "S3": 87702
   },
   "rows_per_categoria": {
-   "main": 71904,
-   "A": 11213,
+   "main": 71903,
+   "A": 11212,
    "nao_articulado": 3051,
    "B": 1041,
    "C": 495
   },
   "rows_per_categoria_tipo": {
    "A/ALI": 949,
-   "A/ART": 2372,
+   "A/ART": 2371,
    "A/CAP": 204,
    "A/CPT": 1067,
    "A/DSP": 393,
@@ -199,7 +199,7 @@
    "C/TAB": 317,
    "C/TXT": 178,
    "main/ALI": 3916,
-   "main/ART": 18107,
+   "main/ART": 18106,
    "main/CAP": 1639,
    "main/CPT": 7017,
    "main/DSP": 503,
@@ -222,7 +222,7 @@
    "ALI": {
     "reference": {
      "n": 4878,
-     "p50": 200,
+     "p50": 199,
      "p90": 349,
      "p99": 573,
      "max": 1420
@@ -236,7 +236,7 @@
     },
     "qwen3": {
      "n": 4878,
-     "p50": 200,
+     "p50": 199,
      "p90": 349,
      "p99": 573,
      "max": 1420
@@ -244,21 +244,21 @@
    },
    "ART": {
     "reference": {
-     "n": 20479,
+     "n": 20477,
      "p50": 193,
-     "p90": 680,
-     "p99": 1007,
+     "p90": 679,
+     "p99": 1008,
      "max": 1024
     },
     "cl100k_base": {
-     "n": 20479,
+     "n": 20477,
      "p50": 185,
-     "p90": 650,
+     "p90": 649,
      "p99": 965,
-     "max": 1024
+     "max": 1023
     },
     "qwen3": {
-     "n": 20479,
+     "n": 20477,
      "p50": 193,
      "p90": 679,
      "p99": 1007,
@@ -278,7 +278,7 @@
      "p50": 783,
      "p90": 3414,
      "p99": 7035,
-     "max": 7709
+     "max": 7697
     },
     "qwen3": {
      "n": 1843,
@@ -298,8 +298,8 @@
     },
     "cl100k_base": {
      "n": 8084,
-     "p50": 155,
-     "p90": 339,
+     "p50": 154,
+     "p90": 338,
      "p99": 942,
      "max": 7613
     },
@@ -314,7 +314,7 @@
    "DSP": {
     "reference": {
      "n": 1522,
-     "p50": 150,
+     "p50": 149,
      "p90": 592,
      "p99": 911,
      "max": 1009
@@ -328,7 +328,7 @@
     },
     "qwen3": {
      "n": 1522,
-     "p50": 150,
+     "p50": 149,
      "p90": 592,
      "p99": 911,
      "max": 1009
@@ -337,7 +337,7 @@
    "INC": {
     "reference": {
      "n": 20617,
-     "p50": 193,
+     "p50": 192,
      "p90": 352,
      "p99": 569,
      "max": 4116
@@ -351,7 +351,7 @@
     },
     "qwen3": {
      "n": 20617,
-     "p50": 193,
+     "p50": 192,
      "p90": 352,
      "p99": 569,
      "max": 4116
@@ -361,21 +361,21 @@
     "reference": {
      "n": 1302,
      "p50": 165,
-     "p90": 295,
+     "p90": 293,
      "p99": 436,
      "max": 1358
     },
     "cl100k_base": {
      "n": 1302,
      "p50": 158,
-     "p90": 286,
-     "p99": 428,
+     "p90": 284,
+     "p99": 425,
      "max": 1358
     },
     "qwen3": {
      "n": 1302,
      "p50": 165,
-     "p90": 295,
+     "p90": 293,
      "p99": 436,
      "max": 1358
     }
@@ -415,7 +415,7 @@
      "n": 21511,
      "p50": 222,
      "p90": 360,
-     "p99": 599,
+     "p99": 598,
      "max": 4349
     },
     "qwen3": {
@@ -478,21 +478,21 @@
      "p50": 582,
      "p90": 2088,
      "p99": 5493,
-     "max": 7839
+     "max": 7827
     },
     "cl100k_base": {
      "n": 2106,
      "p50": 560,
      "p90": 2005,
      "p99": 5244,
-     "max": 7839
+     "max": 7827
     },
     "qwen3": {
      "n": 2106,
      "p50": 578,
      "p90": 2088,
      "p99": 5493,
-     "max": 7831
+     "max": 7817
     }
    },
    "SSC": {
@@ -589,16 +589,16 @@
    }
   },
   "tokens_per_strategy_sum": {
-   "S1": 8195753,
-   "S2": 20940934,
-   "S3": 27029356
+   "S1": 8192365,
+   "S2": 20905355,
+   "S3": 26992755
   },
   "split_units": {
-   "units": 656,
-   "parts": 1752,
+   "units": 655,
+   "parts": 1749,
    "leaf_split": 72,
    "by_tipo": {
-    "ART": 647,
+    "ART": 646,
     "DSP": 9
    },
    "head_truncated": 8
@@ -812,9 +812,9 @@
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art100",
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1988!art100",
     "rotulo": "constituição_1988_19881005, Art. 100.",
-    "tokens": 4302,
+    "tokens": 4288,
     "partes": 6,
     "leaf_split": false,
     "head_truncated": false,
@@ -857,9 +857,9 @@
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art5",
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1988!art5",
     "rotulo": "constituição_1988_19881005, Art. 5º",
-    "tokens": 3777,
+    "tokens": 3765,
     "partes": 5,
     "leaf_split": false,
     "head_truncated": false,
@@ -1091,9 +1091,9 @@
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art37",
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1988!art37",
     "rotulo": "constituição_1988_19881005, Art. 37.",
-    "tokens": 3027,
+    "tokens": 3015,
     "partes": 4,
     "leaf_split": false,
     "head_truncated": false,
@@ -1127,9 +1127,9 @@
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:medida.provisoria:2001-09-06;1!art1",
+    "urn": "urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art1",
     "rotulo": "mp_2228-1_20010906, Art. 1º",
-    "tokens": 2959,
+    "tokens": 2965,
     "partes": 4,
     "leaf_split": false,
     "head_truncated": false,
@@ -1172,8 +1172,8 @@
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art156-1",
-    "rotulo": "constituição_1988_19881005, Art. 156-A.",
+    "urn": "urn:lex:br:federal:lei:1990-05-11;8036!art5",
+    "rotulo": "lei_8036_19900511, Art. 5º",
     "tokens": 2860,
     "partes": 4,
     "leaf_split": false,
@@ -1181,9 +1181,9 @@
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:lei:1990-05-11;8036!art5",
-    "rotulo": "lei_8036_19900511, Art. 5º",
-    "tokens": 2860,
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1988!art156-1",
+    "rotulo": "constituição_1988_19881005, Art. 156-A.",
+    "tokens": 2846,
     "partes": 4,
     "leaf_split": false,
     "head_truncated": false,
@@ -1298,18 +1298,9 @@
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art155",
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1988!art155",
     "rotulo": "constituição_1988_19881005, Art. 155.",
-    "tokens": 2622,
-    "partes": 3,
-    "leaf_split": false,
-    "head_truncated": false,
-    "uncuttable": []
-   },
-   {
-    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art40",
-    "rotulo": "constituição_1988_19881005, Art. 40.",
-    "tokens": 2611,
+    "tokens": 2610,
     "partes": 3,
     "leaf_split": false,
     "head_truncated": false,
@@ -1320,6 +1311,15 @@
     "rotulo": "resol_cgsn_140_20180522, Art. 24.",
     "tokens": 2604,
     "partes": 4,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1988!art40",
+    "rotulo": "constituição_1988_19881005, Art. 40.",
+    "tokens": 2597,
+    "partes": 3,
     "leaf_split": false,
     "head_truncated": false,
     "uncuttable": []
@@ -1469,18 +1469,18 @@
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art29",
-    "rotulo": "constituição_1988_19881005, Art. 29.",
-    "tokens": 2392,
+    "urn": "urn:lex:br:federal:lei:1997-09-30;9504!art73",
+    "rotulo": "lei_9504_19970930, Art. 73.",
+    "tokens": 2387,
     "partes": 3,
     "leaf_split": false,
     "head_truncated": false,
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:lei:1997-09-30;9504!art73",
-    "rotulo": "lei_9504_19970930, Art. 73.",
-    "tokens": 2387,
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1988!art29",
+    "rotulo": "constituição_1988_19881005, Art. 29.",
+    "tokens": 2378,
     "partes": 3,
     "leaf_split": false,
     "head_truncated": false,
@@ -1532,18 +1532,18 @@
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art212-1",
-    "rotulo": "constituição_1988_19881005, Art. 212-A.",
-    "tokens": 2327,
+    "urn": "urn:lex:br:federal:lei:1990-05-11;8036!art13",
+    "rotulo": "lei_8036_19900511, Art. 13.",
+    "tokens": 2326,
     "partes": 3,
     "leaf_split": false,
     "head_truncated": false,
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:lei:1990-05-11;8036!art13",
-    "rotulo": "lei_8036_19900511, Art. 13.",
-    "tokens": 2326,
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1988!art212-1",
+    "rotulo": "constituição_1988_19881005, Art. 212-A.",
+    "tokens": 2313,
     "partes": 3,
     "leaf_split": false,
     "head_truncated": false,
@@ -1721,18 +1721,18 @@
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art165",
-    "rotulo": "constituição_1988_19881005, Art. 165.",
-    "tokens": 2071,
+    "urn": "urn:lex:br:federal:lei:2003-12-29;10833!art1",
+    "rotulo": "lei_10833_20031229, Art. 1º",
+    "tokens": 2069,
     "partes": 3,
     "leaf_split": false,
     "head_truncated": false,
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:lei:2003-12-29;10833!art1",
-    "rotulo": "lei_10833_20031229, Art. 1º",
-    "tokens": 2069,
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1988!art165",
+    "rotulo": "constituição_1988_19881005, Art. 165.",
+    "tokens": 2057,
     "partes": 3,
     "leaf_split": false,
     "head_truncated": false,
@@ -1892,9 +1892,9 @@
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:medida.provisoria:2001-09-06;1!art39",
+    "urn": "urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art39",
     "rotulo": "mp_2228-1_20010906, Art. 39.",
-    "tokens": 1969,
+    "tokens": 1975,
     "partes": 3,
     "leaf_split": false,
     "head_truncated": false,
@@ -2045,10 +2045,10 @@
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:medida.provisoria:2001-09-06;1!anexo1!art33",
+    "urn": "urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!anexo1!art33",
     "rotulo": "mp_2228-1_20010906.anexo1, Art. 33.",
-    "tokens": 1873,
-    "partes": 3,
+    "tokens": 1879,
+    "partes": 2,
     "leaf_split": true,
     "head_truncated": false,
     "uncuttable": []
@@ -2063,19 +2063,19 @@
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art166",
-    "rotulo": "constituição_1988_19881005, Art. 166.",
-    "tokens": 1853,
-    "partes": 2,
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art595",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 595.",
+    "tokens": 1851,
+    "partes": 3,
     "leaf_split": false,
     "head_truncated": false,
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art595",
-    "rotulo": "decreto_9580_20181122.anexo1, Art. 595.",
-    "tokens": 1851,
-    "partes": 3,
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1988!art166",
+    "rotulo": "constituição_1988_19881005, Art. 166.",
+    "tokens": 1839,
+    "partes": 2,
     "leaf_split": false,
     "head_truncated": false,
     "uncuttable": []
@@ -2243,20 +2243,20 @@
     "uncuttable": []
    },
    {
+    "urn": "urn:lex:br:federal:medida.provisoria:2001-08-24;2158-35!art32",
+    "rotulo": "mp_2158-35_20010824, Art. 32.",
+    "tokens": 1749,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
     "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art106-1",
     "rotulo": "resol_cgsn_140_20180522, Art. 106-A.",
     "tokens": 1745,
     "partes": 3,
     "leaf_split": false,
-    "head_truncated": false,
-    "uncuttable": []
-   },
-   {
-    "urn": "urn:lex:br:federal:medida.provisoria:2001-08-24;35!art32",
-    "rotulo": "mp_2158-35_20010824, Art. 32.",
-    "tokens": 1743,
-    "partes": 2,
-    "leaf_split": true,
     "head_truncated": false,
     "uncuttable": []
    },
@@ -2576,15 +2576,6 @@
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art198",
-    "rotulo": "constituição_1988_19881005, Art. 198.",
-    "tokens": 1621,
-    "partes": 2,
-    "leaf_split": false,
-    "head_truncated": false,
-    "uncuttable": []
-   },
-   {
     "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal:instrucao.normativa:2002-09-27;208!art11",
     "rotulo": "in_srf_208_20020927, Art. 11.",
     "tokens": 1621,
@@ -2626,6 +2617,15 @@
     "tokens": 1609,
     "partes": 2,
     "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1988!art198",
+    "rotulo": "constituição_1988_19881005, Art. 198.",
+    "tokens": 1607,
+    "partes": 2,
+    "leaf_split": false,
     "head_truncated": false,
     "uncuttable": []
    },
@@ -2720,15 +2720,6 @@
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art167",
-    "rotulo": "constituição_1988_19881005, Art. 167.",
-    "tokens": 1567,
-    "partes": 2,
-    "leaf_split": false,
-    "head_truncated": false,
-    "uncuttable": []
-   },
-   {
     "urn": "urn:lex:br:federal:lei:1998-03-24;9615!art56-1",
     "rotulo": "lei_9615_19980324, Art. 56-A.",
     "tokens": 1560,
@@ -2788,6 +2779,15 @@
     "tokens": 1554,
     "partes": 2,
     "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1988!art167",
+    "rotulo": "constituição_1988_19881005, Art. 167.",
+    "tokens": 1553,
+    "partes": 2,
+    "leaf_split": false,
     "head_truncated": false,
     "uncuttable": []
    },
@@ -2900,15 +2900,6 @@
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art195",
-    "rotulo": "constituição_1988_19881005, Art. 195.",
-    "tokens": 1517,
-    "partes": 2,
-    "leaf_split": false,
-    "head_truncated": false,
-    "uncuttable": []
-   },
-   {
     "urn": "urn:lex:br:federal:lei:1964-12-16;4591!art67-1",
     "rotulo": "lei_4591_19641216, Art. 67-A.",
     "tokens": 1514,
@@ -2948,6 +2939,15 @@
     "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art12",
     "rotulo": "resol_cgsn_140_20180522, Art. 12.",
     "tokens": 1508,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1988!art195",
+    "rotulo": "constituição_1988_19881005, Art. 195.",
+    "tokens": 1503,
     "partes": 2,
     "leaf_split": false,
     "head_truncated": false,
@@ -3188,15 +3188,6 @@
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art201",
-    "rotulo": "constituição_1988_19881005, Art. 201.",
-    "tokens": 1437,
-    "partes": 2,
-    "leaf_split": false,
-    "head_truncated": false,
-    "uncuttable": []
-   },
-   {
     "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2019-10-11;1911!art472",
     "rotulo": "in_rfb_1911_20191011, Art. 472.",
     "tokens": 1437,
@@ -3218,15 +3209,6 @@
     "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art260",
     "rotulo": "decreto_9580_20181122.anexo1, Art. 260.",
     "tokens": 1436,
-    "partes": 2,
-    "leaf_split": false,
-    "head_truncated": false,
-    "uncuttable": []
-   },
-   {
-    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art93",
-    "rotulo": "constituição_1988_19881005, Art. 93.",
-    "tokens": 1435,
     "partes": 2,
     "leaf_split": false,
     "head_truncated": false,
@@ -3273,6 +3255,24 @@
     "rotulo": "decreto_lei_1510_19761227, Art. 10.",
     "tokens": 1424,
     "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1988!art93",
+    "rotulo": "constituição_1988_19881005, Art. 93.",
+    "tokens": 1423,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1988!art201",
+    "rotulo": "constituição_1988_19881005, Art. 201.",
+    "tokens": 1423,
+    "partes": 2,
     "leaf_split": false,
     "head_truncated": false,
     "uncuttable": []
@@ -3611,15 +3611,6 @@
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art103-2",
-    "rotulo": "constituição_1988_19881005, Art. 103-B.",
-    "tokens": 1334,
-    "partes": 2,
-    "leaf_split": false,
-    "head_truncated": false,
-    "uncuttable": []
-   },
-   {
     "urn": "urn:lex:br:federal:lei:1994-08-22;8929!art3",
     "rotulo": "lei_8929_19940822, Art. 3º",
     "tokens": 1334,
@@ -3692,9 +3683,9 @@
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art167-1",
-    "rotulo": "constituição_1988_19881005, Art. 167-A.",
-    "tokens": 1324,
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1988!art103-2",
+    "rotulo": "constituição_1988_19881005, Art. 103-B.",
+    "tokens": 1322,
     "partes": 2,
     "leaf_split": false,
     "head_truncated": false,
@@ -3755,6 +3746,15 @@
     "uncuttable": []
    },
    {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1988!art167-1",
+    "rotulo": "constituição_1988_19881005, Art. 167-A.",
+    "tokens": 1312,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
     "urn": "urn:lex:br:federal:decreto:1973-01-18;71733!art28",
     "rotulo": "decreto_71733_19730118, Art. 28.",
     "tokens": 1312,
@@ -3785,15 +3785,6 @@
     "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art98",
     "rotulo": "resol_cgsn_140_20180522, Art. 98.",
     "tokens": 1310,
-    "partes": 2,
-    "leaf_split": false,
-    "head_truncated": false,
-    "uncuttable": []
-   },
-   {
-    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art7",
-    "rotulo": "constituição_1988_19881005, Art. 7º",
-    "tokens": 1308,
     "partes": 2,
     "leaf_split": false,
     "head_truncated": false,
@@ -3854,15 +3845,6 @@
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art105",
-    "rotulo": "constituição_1988_19881005, Art. 105.",
-    "tokens": 1298,
-    "partes": 2,
-    "leaf_split": false,
-    "head_truncated": false,
-    "uncuttable": []
-   },
-   {
     "urn": "urn:lex:br:federal:lei:2021-12-08;14260!art3",
     "rotulo": "lei_14260_20211208, Art. 3º",
     "tokens": 1298,
@@ -3902,6 +3884,15 @@
     "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2014-10-29;1500!anexo6!inc1",
     "rotulo": "in_rfb_1500_20141029.anexo6, Inciso I",
     "tokens": 1297,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1988!art7",
+    "rotulo": "constituição_1988_19881005, Art. 7º",
+    "tokens": 1296,
     "partes": 2,
     "leaf_split": false,
     "head_truncated": false,
@@ -4028,6 +4019,15 @@
     "urn": "urn:lex:br:federal:lei:1973-12-31;6015!art54",
     "rotulo": "lei_6015_19731231, Art. 54.",
     "tokens": 1288,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1988!art105",
+    "rotulo": "constituição_1988_19881005, Art. 105.",
+    "tokens": 1286,
     "partes": 2,
     "leaf_split": false,
     "head_truncated": false,
@@ -4529,15 +4529,6 @@
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art102",
-    "rotulo": "constituição_1988_19881005, Art. 102.",
-    "tokens": 1213,
-    "partes": 2,
-    "leaf_split": false,
-    "head_truncated": false,
-    "uncuttable": []
-   },
-   {
     "urn": "urn:lex:br:federal:decreto:1999-03-26;3000!art395",
     "rotulo": "decreto_3000_19990326, Art. 395.",
     "tokens": 1213,
@@ -4664,6 +4655,15 @@
     "uncuttable": []
    },
    {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1988!art102",
+    "rotulo": "constituição_1988_19881005, Art. 102.",
+    "tokens": 1201,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
     "urn": "urn:lex:br:federal:lei:1996-12-20;9394!art4",
     "rotulo": "lei_9394_19961220, Art. 4º",
     "tokens": 1201,
@@ -4694,15 +4694,6 @@
     "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art849",
     "rotulo": "decreto_9580_20181122.anexo1, Art. 849.",
     "tokens": 1198,
-    "partes": 2,
-    "leaf_split": false,
-    "head_truncated": false,
-    "uncuttable": []
-   },
-   {
-    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art156-2",
-    "rotulo": "constituição_1988_19881005, Art. 156-B.",
-    "tokens": 1196,
     "partes": 2,
     "leaf_split": false,
     "head_truncated": false,
@@ -4750,6 +4741,15 @@
     "tokens": 1190,
     "partes": 2,
     "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:medida.provisoria:2001-08-24;2158-35!art57",
+    "rotulo": "mp_2158-35_20010824, Art. 57.",
+    "tokens": 1187,
+    "partes": 2,
+    "leaf_split": true,
     "head_truncated": false,
     "uncuttable": []
    },
@@ -4808,6 +4808,15 @@
     "uncuttable": []
    },
    {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1988!art156-2",
+    "rotulo": "constituição_1988_19881005, Art. 156-B.",
+    "tokens": 1182,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
     "urn": "urn:lex:br:federal:decreto:1999-03-26;3000!art606",
     "rotulo": "decreto_3000_19990326, Art. 606.",
     "tokens": 1182,
@@ -4831,15 +4840,6 @@
     "tokens": 1182,
     "partes": 2,
     "leaf_split": false,
-    "head_truncated": false,
-    "uncuttable": []
-   },
-   {
-    "urn": "urn:lex:br:federal:medida.provisoria:2001-08-24;35!art57",
-    "rotulo": "mp_2158-35_20010824, Art. 57.",
-    "tokens": 1181,
-    "partes": 2,
-    "leaf_split": true,
     "head_truncated": false,
     "uncuttable": []
    },
@@ -4946,15 +4946,6 @@
     "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art122",
     "rotulo": "resol_cgsn_140_20180522, Art. 122.",
     "tokens": 1167,
-    "partes": 2,
-    "leaf_split": false,
-    "head_truncated": false,
-    "uncuttable": []
-   },
-   {
-    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art150",
-    "rotulo": "constituição_1988_19881005, Art. 150.",
-    "tokens": 1166,
     "partes": 2,
     "leaf_split": false,
     "head_truncated": false,
@@ -5083,6 +5074,15 @@
     "tokens": 1154,
     "partes": 2,
     "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1988!art150",
+    "rotulo": "constituição_1988_19881005, Art. 150.",
+    "tokens": 1152,
+    "partes": 2,
+    "leaf_split": false,
     "head_truncated": false,
     "uncuttable": []
    },
@@ -5483,15 +5483,6 @@
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art21",
-    "rotulo": "constituição_1988_19881005, Art. 21.",
-    "tokens": 1107,
-    "partes": 2,
-    "leaf_split": false,
-    "head_truncated": false,
-    "uncuttable": []
-   },
-   {
     "urn": "urn:lex:br:federal:lei:2010-06-11;12249!art41",
     "rotulo": "lei_12249_20100611, Art. 41.",
     "tokens": 1107,
@@ -5612,6 +5603,15 @@
     "urn": "urn:lex:br:federal:decreto.lei:1943-05-01;5452!anexo1!art326",
     "rotulo": "decreto_lei_5452_19430501.anexo1, Art. 326.",
     "tokens": 1096,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1988!art21",
+    "rotulo": "constituição_1988_19881005, Art. 21.",
+    "tokens": 1095,
     "partes": 2,
     "leaf_split": false,
     "head_truncated": false,
@@ -5969,6 +5969,15 @@
     "uncuttable": []
    },
    {
+    "urn": "urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!art33",
+    "rotulo": "mp_2228-1_20010906, Art. 33.",
+    "tokens": 1062,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
     "urn": "urn:lex:br:federal:decreto.lei:1943-05-01;5452!anexo1!art200",
     "rotulo": "decreto_lei_5452_19430501.anexo1, Art. 200.",
     "tokens": 1062,
@@ -6095,15 +6104,6 @@
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:medida.provisoria:2001-09-06;1!art33",
-    "rotulo": "mp_2228-1_20010906, Art. 33.",
-    "tokens": 1056,
-    "partes": 2,
-    "leaf_split": false,
-    "head_truncated": false,
-    "uncuttable": []
-   },
-   {
     "urn": "urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2018-05-22;140!art64",
     "rotulo": "resol_cgsn_140_20180522, Art. 64.",
     "tokens": 1056,
@@ -6131,8 +6131,8 @@
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art17",
-    "rotulo": "constituição_1988_19881005, Art. 17.",
+    "urn": "urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!anexo1!art33",
+    "rotulo": "mp_2228-1_20010906.anexo1, Art. 33.",
     "tokens": 1054,
     "partes": 2,
     "leaf_split": false,
@@ -6149,27 +6149,18 @@
     "uncuttable": []
    },
    {
+    "urn": "urn:lex:br:federal:medida.provisoria:2001-09-06;2228-1!anexo1!art33",
+    "rotulo": "mp_2228-1_20010906.anexo1, Art. 33.",
+    "tokens": 1051,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
     "urn": "urn:lex:br:federal:decreto.lei:1943-05-01;5452!anexo1!art894",
     "rotulo": "decreto_lei_5452_19430501.anexo1, Art. 894.",
     "tokens": 1048,
-    "partes": 2,
-    "leaf_split": false,
-    "head_truncated": false,
-    "uncuttable": []
-   },
-   {
-    "urn": "urn:lex:br:federal:medida.provisoria:2001-09-06;1!anexo1!art33",
-    "rotulo": "mp_2228-1_20010906.anexo1, Art. 33.",
-    "tokens": 1048,
-    "partes": 2,
-    "leaf_split": false,
-    "head_truncated": false,
-    "uncuttable": []
-   },
-   {
-    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art14",
-    "rotulo": "constituição_1988_19881005, Art. 14.",
-    "tokens": 1047,
     "partes": 2,
     "leaf_split": false,
     "head_truncated": false,
@@ -6194,18 +6185,18 @@
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:medida.provisoria:2001-09-06;1!anexo1!art33",
-    "rotulo": "mp_2228-1_20010906.anexo1, Art. 33.",
-    "tokens": 1045,
+    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art658",
+    "rotulo": "decreto_9580_20181122.anexo1, Art. 658.",
+    "tokens": 1044,
     "partes": 2,
     "leaf_split": false,
     "head_truncated": false,
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art658",
-    "rotulo": "decreto_9580_20181122.anexo1, Art. 658.",
-    "tokens": 1044,
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1988!art17",
+    "rotulo": "constituição_1988_19881005, Art. 17.",
+    "tokens": 1042,
     "partes": 2,
     "leaf_split": false,
     "head_truncated": false,
@@ -6242,15 +6233,6 @@
     "urn": "urn:lex:br:federal:lei:1992-12-23;8541!art29",
     "rotulo": "lei_8541_19921223, Art. 29.",
     "tokens": 1041,
-    "partes": 2,
-    "leaf_split": false,
-    "head_truncated": false,
-    "uncuttable": []
-   },
-   {
-    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art84",
-    "rotulo": "constituição_1988_19881005, Art. 84.",
-    "tokens": 1040,
     "partes": 2,
     "leaf_split": false,
     "head_truncated": false,
@@ -6332,6 +6314,15 @@
     "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art966",
     "rotulo": "decreto_9580_20181122.anexo1, Art. 966.",
     "tokens": 1036,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1988!art14",
+    "rotulo": "constituição_1988_19881005, Art. 14.",
+    "tokens": 1035,
     "partes": 2,
     "leaf_split": false,
     "head_truncated": false,
@@ -6473,8 +6464,8 @@
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1!art144",
-    "rotulo": "constituição_1988_19881005, Art. 144.",
+    "urn": "urn:lex:br:federal:constituicao:1988-10-05;1988!art84",
+    "rotulo": "constituição_1988_19881005, Art. 84.",
     "tokens": 1026,
     "partes": 2,
     "leaf_split": false,
@@ -6581,8 +6572,8 @@
    "SBT": 5,
    "SSC": 3
   },
-  "id_ambiguo_rows": 1803,
-  "id_ambiguo_basic_rows": 1195,
+  "id_ambiguo_rows": 1802,
+  "id_ambiguo_basic_rows": 1194,
   "dropped_agrupamentos": {
    "preliminar": 44,
    "assinatura": 392,
@@ -6680,13 +6671,13 @@
    "random_sample": {
     "n": 500,
     "gemini_gt_reference": 2,
-    "max_excess": 60,
+    "max_excess": 61,
     "ratio_gemini_over_reference": {
-     "p50": 0.883,
-     "p99": 0.964,
-     "max": 1.099
+     "p50": 0.886,
+     "p99": 0.96,
+     "max": 1.101
     },
-    "max_gemini": 4847,
+    "max_gemini": 6220,
     "gemini_over_8192": []
    },
    "largest_chunks": {

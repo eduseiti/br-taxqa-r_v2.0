@@ -1,13 +1,13 @@
 # Segmentation report
 
-- Generated: 2026-09-24T21:11:17
+- Generated: 2026-09-25T16:17:43
 - Overall: **OK**
 - Command: `python scripts/segmentation/segment_all.py --jobs 16 --overwrite`
 - Flags: `{"only": null, "overwrite": true, "jobs": 16, "max_tokens": 1024, "tokenizer": "max:tiktoken:cl100k_base,hf:Qwen/Qwen3-Embedding-4B", "ementa_max_tokens": 128, "keep_dropped_min_chars": 300, "allow_count_change": false, "out_dir": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/segmented", "grouping_max_tokens": 8192, "skip_validation": false}`
 - Saxon: SaxonC-HE 13.0 from Saxonica; annex categories: {'A': 12, 'B': 50, 'C': 181}
-- Code: {"commit": "9e6addddca290d2662eaa8634834a9c8738fea63", "branch": "segmentation-implementation", "dirty": false, "dirty_files": []}
-- Output checksums (sha256): {"chunks_all.csv": "d24a4af12fe86ce69a7411ef2d0f5e70df76ee245166f193d2d65415e9a1a9a5", "chunks_all.csv.gz": "0f495ef04b011926c0e8c476d737e9b716f55ef16cd39e8af65e73042afb920e", "groupings_over_limit.csv": "5f4c9dda097a0c34fde57eb4f5b980449d12c4fbc9fdb518ff6185cb6717cecb", "annex_manifest.csv": "e5eb88b86d38093c19da702f7c9b7fe913da3cf28deb85270621403f7f9a933b"}
-- Timings (s): {'1_router_s': 8.7, '2_metadata_s': 4.8, '3_xsl_s': 31.0, '3b_4_split_loose_s': 15.4, '5_non_statutory_s': 9.6, '6_merge_s': 21.2, 'total_s': 91.6}
+- Code: {"commit": "ecd68e5b049efb5e6f764086d1093f5638eed36b", "branch": "main", "dirty": false, "dirty_files": []}
+- Output checksums (sha256): {"chunks_all.csv": "fcacf9a46545f15a3e5cc682ae7d9b057f80c395944e523142d9dfb8055dde37", "chunks_all.csv.gz": "f3db09046bb475bfcab1dfe84f4805a40a8fcd2629f252577c3aa492d1855f9b", "groupings_over_limit.csv": "2b8c9416d73a52910293f456749611f572c107a2628ea45253140b1bddb40061", "annex_manifest.csv": "557fcb053e3d80e12013bee2f439fe990fad60289c859ce8b3f7fec5990d1c60"}
+- Timings (s): {'1_router_s': 14.8, '2_metadata_s': 4.9, '3_xsl_s': 33.0, '3b_4_split_loose_s': 15.2, '5_non_statutory_s': 8.8, '6_merge_s': 21.3, 'total_s': 98.9}
 
 ## Checks
 
@@ -27,21 +27,21 @@
 
 ## Rows
 
-- Total rows: 87704 in 664 files
-- Per strategy: {'S1': 26252, 'S2': 82644, 'S3': 87704}
+- Total rows: 87702 in 664 files
+- Per strategy: {'S1': 26250, 'S2': 82642, 'S3': 87702}
 
 | Tipo | Rows | ref p50 | p90 | p99 | max |
 |---|---:|---:|---:|---:|---:|
 | PAR | 21511 | 233 | 381 | 642 | 5936 |
-| INC | 20617 | 193 | 352 | 569 | 4116 |
-| ART | 20479 | 193 | 680 | 1007 | 1024 |
+| INC | 20617 | 192 | 352 | 569 | 4116 |
+| ART | 20477 | 193 | 679 | 1008 | 1024 |
 | CPT | 8084 | 162 | 356 | 1013 | 8103 |
-| ALI | 4878 | 200 | 349 | 573 | 1420 |
+| ALI | 4878 | 199 | 349 | 573 | 1420 |
 | TXT | 3545 | 309 | 984 | 1021 | 1024 |
-| SEC | 2106 | 582 | 2088 | 5493 | 7839 |
+| SEC | 2106 | 582 | 2088 | 5493 | 7827 |
 | CAP | 1843 | 819 | 3540 | 7256 | 7941 |
-| DSP | 1522 | 150 | 592 | 911 | 1009 |
-| ITE | 1302 | 165 | 295 | 436 | 1358 |
+| DSP | 1522 | 149 | 592 | 911 | 1009 |
+| ITE | 1302 | 165 | 293 | 436 | 1358 |
 | SSC | 714 | 498 | 1885 | 4230 | 7771 |
 | TAB | 706 | 354 | 981 | 1022 | 1163 |
 | TIT | 326 | 1532 | 6030 | 7925 | 8102 |
@@ -53,28 +53,28 @@ Tokens per tokenizer (p50 / p99 / max):
 
 | Tipo | cl100k_base | Qwen3 |
 |---|---|---|
-| ALI | 191 / 541 / 1257 | 200 / 573 / 1420 |
-| ART | 185 / 965 / 1024 | 193 / 1007 / 1024 |
-| CAP | 783 / 7035 / 7709 | 818 / 7256 / 7941 |
-| CPT | 155 / 942 / 7613 | 162 / 1013 / 8103 |
-| DSP | 143 / 856 / 995 | 150 / 911 / 1009 |
-| INC | 182 / 528 / 2891 | 193 / 569 / 4116 |
-| ITE | 158 / 428 / 1358 | 165 / 436 / 1358 |
+| ALI | 191 / 541 / 1257 | 199 / 573 / 1420 |
+| ART | 185 / 965 / 1023 | 193 / 1007 / 1024 |
+| CAP | 783 / 7035 / 7697 | 818 / 7256 / 7941 |
+| CPT | 154 / 942 / 7613 | 162 / 1013 / 8103 |
+| DSP | 143 / 856 / 995 | 149 / 911 / 1009 |
+| INC | 182 / 528 / 2891 | 192 / 569 / 4116 |
+| ITE | 158 / 425 / 1358 | 165 / 436 / 1358 |
 | LIV | 1579 / 7791 / 7833 | 1613 / 8096 / 8119 |
-| PAR | 222 / 599 / 4349 | 233 / 642 / 5936 |
+| PAR | 222 / 598 / 4349 | 233 / 642 / 5936 |
 | PRT | 2293 / 7102 / 7225 | 2320 / 7303 / 7433 |
 | SBT | 3565 / 7460 / 7668 | 3753 / 7839 / 8061 |
-| SEC | 560 / 5244 / 7839 | 578 / 5493 / 7831 |
+| SEC | 560 / 5244 / 7827 | 578 / 5493 / 7817 |
 | SSC | 470 / 4004 / 7436 | 498 / 4230 / 7771 |
 | TAB | 324 / 965 / 1142 | 354 / 1022 / 1163 |
 | TIT | 1440 / 7765 / 7895 | 1532 / 7925 / 8102 |
 | TXT | 294 / 997 / 1024 | 309 / 1021 / 1024 |
 
-- Per category: {'main': 71904, 'A': 11213, 'nao_articulado': 3051, 'B': 1041, 'C': 495}
+- Per category: {'main': 71903, 'A': 11212, 'nao_articulado': 3051, 'B': 1041, 'C': 495}
 
 ## Split units (cap 1024)
 
-- ART/DSP units split: 656 into 1752 parts ({'ART': 647, 'DSP': 9}); within-leaf splits: 72; truncated HEAD (D3): 8
+- ART/DSP units split: 655 into 1749 parts ({'ART': 646, 'DSP': 9}); within-leaf splits: 72; truncated HEAD (D3): 8
 - Non-statutory TXT/TAB units split: 342
 - Uncuttable over-cap rows: 1
 
@@ -103,12 +103,12 @@ Tokens per tokenizer (p50 / p99 / max):
 | decreto_9580_20181122.anexo1, Art. 881. | 4654 | 7 |  |
 | in_rfb_1911_20191011, Art. 25. | 4376 | 6 |  |
 | lei_10865_20040430, Art. 28. | 4307 | 6 |  |
-| constituição_1988_19881005, Art. 100. | 4302 | 6 |  |
+| constituição_1988_19881005, Art. 100. | 4288 | 6 |  |
 | lei_11941_20090527, Art. 26. | 4101 | 5 | yes |
 | decreto_lei_1535_19770413, Art. 1º | 4050 | 5 | yes |
 | lei_12249_20100611, Art. 65. | 4022 | 7 |  |
 | lei_9250_19951226, Art. 8º | 3822 | 5 |  |
-| constituição_1988_19881005, Art. 5º | 3777 | 5 |  |
+| constituição_1988_19881005, Art. 5º | 3765 | 5 |  |
 | lei_9430_19961227, Art. 74. | 3652 | 5 |  |
 | resol_cgsn_140_20180522, Art. 15. | 3652 | 5 |  |
 | lei_11941_20090527, Art. 35. | 3632 | 5 | yes |
@@ -120,7 +120,7 @@ Tokens per tokenizer (p50 / p99 / max):
 | lei_9615_19980324, Art. 18-A. | 3409 | 5 |  |
 | lei_11482_20070531, Art. 1º | 3344 | 5 |  |
 | lei_12249_20100611, Art. 114. | 3303 | 4 | yes |
-| … 616 more (see segmentation_report.json) | | | |
+| … 615 more (see segmentation_report.json) | | | |
 
 ## Over-cap rows that are not split (Q7)
 
@@ -143,9 +143,9 @@ Grouping chunks above 8192 tokens are not in chunks_all.csv (S3 option 2): 243 l
 
 ## Other
 
-- Rows with `id_ambiguo = 1`: 1803 (basic units: 1195)
+- Rows with `id_ambiguo = 1`: 1802 (basic units: 1194)
 - Dropped Agrupamentos (Q4): {'preliminar': 44, 'assinatura': 392, 'localDataFecho': 13}
 - Long 'dropped' Agrupamentos kept as TXT (D2): 11
 - Non-statutory metadata sources: {'epi=agrupamento,ementa=agrupamento': 119, 'epi=ementa-agrupamento-title,ementa=campo-assunto': 1, 'parent=urn,epi=agrupamento,ementa=agrupamento': 1, 'epi=agrupamento,ementa=none': 3, 'epi=first-section-heading,ementa=none': 1, 'epi=preliminar-first-line,ementa=none': 5, 'epi=agrupamento,ementa=campo-assunto': 104, 'epi=preliminar-first-line,ementa=agrupamento': 1, 'parent=stem,statutory': 181}
 - Text coverage (‰) distribution: {'n': 664, 'p50': 1000, 'p90': 1000, 'p99': 1000, 'max': 1000}; files below 98%: []
-- Gemini countTokens sample: {'status': 'run', 'model': 'gemini-embedding-2', 'random_sample': {'n': 500, 'gemini_gt_reference': 2, 'max_excess': 60, 'ratio_gemini_over_reference': {'p50': np.float64(0.883), 'p99': np.float64(0.964), 'max': np.float64(1.099)}, 'max_gemini': 4847, 'gemini_over_8192': []}, 'largest_chunks': {'n': 100, 'gemini_gt_reference': 0, 'max_excess': 0, 'ratio_gemini_over_reference': {'p50': np.float64(0.878), 'p99': np.float64(0.926), 'max': np.float64(0.929)}, 'max_gemini': 7253, 'gemini_over_8192': []}, 'errors': 0, 'error_examples': []}
+- Gemini countTokens sample: {'status': 'run', 'model': 'gemini-embedding-2', 'random_sample': {'n': 500, 'gemini_gt_reference': 2, 'max_excess': 61, 'ratio_gemini_over_reference': {'p50': np.float64(0.886), 'p99': np.float64(0.96), 'max': np.float64(1.101)}, 'max_gemini': 6220, 'gemini_over_8192': []}, 'largest_chunks': {'n': 100, 'gemini_gt_reference': 0, 'max_excess': 0, 'ratio_gemini_over_reference': {'p50': np.float64(0.878), 'p99': np.float64(0.926), 'max': np.float64(0.929)}, 'max_gemini': 7253, 'gemini_over_8192': []}, 'errors': 0, 'error_examples': []}
