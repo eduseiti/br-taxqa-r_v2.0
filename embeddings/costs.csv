@@ -1,0 +1,4 @@
+row_id,timestamp_start,timestamp_end,model_slug,activity,run_id,provider,billing_unit,quantity,unit_price_usd,price_checked,usd,source,reconciles,notes
+4a6510280305475db252bfaa43bbf7eb,2026-09-25T19:50:50+00:00,2026-09-25T19:52:35+00:00,jua-4b-mixed,smoke,20260925T195048-b217ab,hf_endpoint,replica_minutes,1,0.8,2026-09-25,0.0133,auto_estimate,,
+7f20fe252e664e38808f35965a79211f,2026-09-25T19:52:35+00:00,,jua-4b-mixed,idle,20260925T195048-b217ab,hf_endpoint,replica_minutes,15,0.8,2026-09-25,0.2,auto_estimate,,endpoint left running: scale-to-zero timeout expected before billing stops
+9800b0e8c0af4909b81333728b7f35f3,2026-09-25T19:52:59+00:00,,jua-4b-mixed,smoke,,hf_endpoint,replica_minutes,1.0,0.8,2026-09-25,0.013333333333333334,auto_estimate,,correction for run 20260925T195048-b217ab: meter missed the first minute of start-up (fixed in endpoint.ensure_running)

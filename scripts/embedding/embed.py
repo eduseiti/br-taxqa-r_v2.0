@@ -109,7 +109,7 @@ class EndpointSession:
         if self.ep is not None:
             self.meter = endpoint.Meter(self.ep, self.cfg.out_dir / "endpoint_meter.jsonl", self.run_id).start()
             try:
-                endpoint.ensure_running(self.ep, self.resume)
+                endpoint.ensure_running(self.ep, self.resume, on_resume=self.meter.sample)
             except BaseException:
                 self.meter.stop()
                 raise

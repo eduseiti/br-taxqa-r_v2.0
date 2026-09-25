@@ -81,8 +81,10 @@ def scale_to_zero_minutes(ep) -> int:
     return int(ep.raw.get("compute", {}).get("scaling", {}).get("scaleToZeroTimeout") or 0)
 
 
-def ensure_running(ep, resume: bool, timeout: int = 1800) -> None:
-    """Paused endpoints must be resumed explicitly; scaled-to-zero ones wake on the first request."""
+def ensure_running(ep, resume: bool, timeout: int = 1800, on_resume=None) -> None:
+    """Paused endpoints must be resumed explicitly; scaled-to-zero ones wake on the first request.
+    ``on_resume`` is called right after the resume request (the meter samples there, so the
+    start-up minutes are billed from the resume, not from the next poll)."""
     ep.fetch()
     s = state(ep)["state"]
     if s == "paused":
@@ -91,6 +93,8 @@ def ensure_running(ep, resume: bool, timeout: int = 1800) -> None:
                               f"`embed.py endpoint --model … resume`")
         log.info("resuming endpoint %s …", ep.name)
         ep.resume()
+        if on_resume:
+            on_resume()
         ep.wait(timeout=timeout)
         log.info("endpoint %s is running", ep.name)
     elif s == "failed":
@@ -106,7 +110,7 @@ class Meter:
         self._stop = threading.Event()
         self._thread = threading.Thread(target=self._loop, daemon=True)
 
-    def _sample(self) -> None:
+    def sample(self) -> None:
         try:
             self.ep.fetch()
             s = {"ts": time.time(), **state(self.ep)}
@@ -124,10 +128,10 @@ class Meter:
 
     def _loop(self) -> None:
         while not self._stop.wait(self.interval):
-            self._sample()
+            self.sample()
 
     def start(self) -> "Meter":
-        self._sample()
+        self.sample()
         self._thread.start()
         return self
 
@@ -135,7 +139,7 @@ class Meter:
         """Stops polling; returns ``{start, end, replica_minutes, final_state}``."""
         self._stop.set()
         self._thread.join(timeout=5)
-        self._sample()
+        self.sample()
         if not self.samples:
             return {"replica_minutes": 0.0, "final_state": None}
         return {"start": self.samples[0]["ts"], "end": self.samples[-1]["ts"],

@@ -1,0 +1,171 @@
+{
+  "created_at": "2026-09-25T19:50:48+00:00",
+  "model": "jua-4b-mixed",
+  "checks": {
+    "max_input_length": {
+      "ok": true,
+      "value": 40960
+    },
+    "auto_truncate_off": {
+      "ok": true,
+      "value": false
+    },
+    "pooling": {
+      "ok": true,
+      "value": "last_token"
+    },
+    "tokenizer_matches_server": {
+      "ok": true,
+      "value": {
+        "client": [
+          9,
+          35,
+          45
+        ],
+        "server": [
+          9,
+          35,
+          45
+        ]
+      }
+    },
+    "endpoint_repository": {
+      "ok": true,
+      "value": "ufca-llms/jua-4B-mixed"
+    },
+    "endpoint_revision": {
+      "ok": true,
+      "value": "57f491c1718171c0ad71d723c4f6b2030684c4eb"
+    },
+    "dimension": {
+      "ok": true,
+      "value": 2560
+    },
+    "normalized": {
+      "ok": true,
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "finite": {
+      "ok": true,
+      "value": null
+    }
+  },
+  "server_info": {
+    "model_id": "/repository",
+    "model_sha": null,
+    "model_dtype": "float16",
+    "served_model_name": "/repository",
+    "model_type": {
+      "embedding": {
+        "pooling": "last_token"
+      }
+    },
+    "max_concurrent_requests": 512,
+    "max_input_length": 40960,
+    "max_batch_tokens": 40960,
+    "max_batch_requests": null,
+    "max_client_batch_size": 64,
+    "auto_truncate": false,
+    "tokenization_workers": 6,
+    "version": "1.9.4",
+    "sha": "e80ef225ed0e6cb1717ce632a6a84b6cf211bb67",
+    "docker_label": "sha-e80ef22"
+  },
+  "endpoint": {
+    "name": "jua-4b-mixed-bgc",
+    "namespace": "eduseiti",
+    "repository": "ufca-llms/jua-4B-mixed",
+    "revision": "57f491c1718171c0ad71d723c4f6b2030684c4eb",
+    "config": {
+      "name": "jua-4b-mixed-bgc",
+      "type": "private",
+      "provider": {
+        "vendor": "aws",
+        "region": "us-east-1"
+      },
+      "compute": {
+        "id": "aws-us-east-1-nvidia-l4-x1",
+        "accelerator": "gpu",
+        "instanceType": "nvidia-l4",
+        "instanceSize": "x1",
+        "scaling": {
+          "minReplica": 0,
+          "maxReplica": 1,
+          "scaleToZeroTimeout": 15,
+          "metric": "hardwareUsage",
+          "measure": {
+            "hardwareUsage": 80.0
+          },
+          "threshold": 80.0
+        }
+      },
+      "experimentalFeatures": {
+        "cacheHttpResponses": false,
+        "loadBalancer": null,
+        "mcpLb": null,
+        "privileged": null,
+        "kgateway": null,
+        "skipRepoDownload": null,
+        "priorityClass": null,
+        "failureStrategy": null
+      },
+      "notifications": {
+        "email": true,
+        "push": true
+      },
+      "model": {
+        "repository": "ufca-llms/jua-4B-mixed",
+        "revision": "57f491c1718171c0ad71d723c4f6b2030684c4eb",
+        "task": "sentence-similarity",
+        "framework": "pytorch",
+        "image": {
+          "custom": {
+            "healthRoute": "/health",
+            "port": 80,
+            "url": "ghcr.io/huggingface/text-embeddings-inference:89-1.9.4",
+            "credentials": {
+              "username": "",
+              "password": null
+            }
+          }
+        },
+        "env": {
+          "AUTO_TRUNCATE": "false",
+          "MAX_BATCH_TOKENS": "40960",
+          "MAX_CLIENT_BATCH_SIZE": "64",
+          "MODEL_ID": "/repository"
+        },
+        "fromCatalog": false
+      },
+      "healthRoute": "/health",
+      "tags": []
+    }
+  },
+  "server_fingerprint": {
+    "model_id": "ufca-llms/jua-4B-mixed",
+    "revision": "57f491c1718171c0ad71d723c4f6b2030684c4eb",
+    "endpoint_repository": "ufca-llms/jua-4B-mixed",
+    "endpoint_revision": "57f491c1718171c0ad71d723c4f6b2030684c4eb",
+    "endpoint_image": {
+      "custom": {
+        "healthRoute": "/health",
+        "port": 80,
+        "url": "ghcr.io/huggingface/text-embeddings-inference:89-1.9.4",
+        "credentials": {
+          "username": "",
+          "password": null
+        }
+      }
+    },
+    "server_model_id": "/repository",
+    "server_model_sha": null,
+    "server_dtype": "float16",
+    "server_version": "1.9.4",
+    "pooling": "last_token"
+  },
+  "passed": true
+}
