@@ -1,0 +1,6 @@
+# Optional: the parity reference (plan §5.4) runs the model card's sentence-transformers usage.
+# About 8 GB of RAM for a 4B model in bf16 on CPU.
+-r requirements.txt
+sentence-transformers==6.1.0
+transformers==5.17.0
+torch==2.11.0

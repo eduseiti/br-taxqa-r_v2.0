@@ -6,3 +6,13 @@ __pycache__/
 segmented/chunks_all.csv
 
 .env
+
+# Embedding outputs: vectors (~1 GB per model) are released on the HF Hub, not in git. Only the
+# small provenance files are versioned (plan §4.2).
+embeddings/**
+!embeddings/**/
+!embeddings/costs.csv
+!embeddings/**/manifest.json
+!embeddings/**/parity.json
+!embeddings/**/check.json
+!embeddings/**/endpoint_meter.jsonl

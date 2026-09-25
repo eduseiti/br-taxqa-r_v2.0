@@ -11,7 +11,9 @@ S1 and S2 are filters on `Tipo`, so they need no extra embedding.
 **released with the research data**, so clarity, reproducibility and ease of use are requirements,
 not extras (§6).
 
-Status: **plan only; no code written yet.**
+Status (2026-09-25, evening): **steps 0–6 implemented for the `tei` provider** (`scripts/embedding/`,
+see §10). Only the `jua-4b-mixed` endpoint exists; the user works with jua alone for now, so the
+OpenAI and Gemini providers and the other two endpoints are deferred.
 
 ---
 
@@ -134,9 +136,8 @@ Expected output sizes as float32 over 84,568 texts: 2560 dimensions ≈ 0.87 GB,
      epígrafes;
    - the chunks have 87,702 rows / 84,568 unique texts (§1.5).
 
-   **Still to do before the first embedding run:** commit the parser fix, `lexml/articulados` and
-   the re-frozen `segmented/` (fix doc §5.4). Every embedding run depends on the final chunk
-   text.
+   All of it was committed (`ebf6567` in the parser repo; `ecd68e5` and `d3581fb` here, with a
+   clean `run_info.json`).
 1. **Scaffold `scripts/embedding/`** (§6.1): config file, CLI skeleton, README, pinned requirements,
    `.env.example`, and a `.gitignore` entry for `embeddings/**/*.npy` and `.env`.
 2. **Providers** (§5.3): `tei`, `openai`, `gemini`, all behind one interface.
@@ -939,3 +940,41 @@ this to work, **each provider's charges must be attributable to this experiment 
 4. `embed.py costs summary --model …`, then note anything unusual (retries, restarts) with
    `costs add --notes` or in the execution log.
 5. After 1–2 days, reconcile (§9.4) and update the execution log with the actual amounts.
+
+---
+
+## 10. Implementation notes (2026-09-25)
+
+`scripts/embedding/` follows §5–§6 with these differences, all recorded here so the plan stays the
+reference:
+
+- **Scope.** Providers `tei` (with the `openai_compat` mode) and `fake`. `openai` and `gemini`,
+  and the token-priced ledger rows, `costs reconcile` and `costs import` (§9.2, §9.4) are deferred
+  until those models are run. `models.yaml` has entries for jua, Qwen3 and inf-retriever.
+- **Token counting** lives in the config (`tokenizer` spec) rather than in the `Provider`
+  interface. For TEI, `check` compares the client counts with the server's `/tokenize` on three
+  probes. With jua's `tokenizer.json`, the corpus is 26,319,851 tokens, max **8,120** (the
+  `<|endoftext|>` the server appends is counted), 1,323 requests of ≤ 64 inputs / 32,768 tokens.
+- **Queries go to `queries/<instruction_name>/`**, not `queries/`, so the instruction ablation
+  (§8.1) keeps each variant.
+- **Shards live next to their output** (`corpus/_shards/`, `queries/<name>/_shards/`), with a
+  `state.json` holding the run fingerprint (template, instruction, input SHA-256, server
+  fingerprint). A resume with a different fingerprint is refused.
+- **Server fingerprint** (parity gate, §5.4): with the custom TEI container, `/info` reports
+  `model_id: /repository` and no SHA, so the fingerprint also takes the endpoint's own
+  repository, revision and image from the endpoint API (`ep.raw`), plus TEI's dtype, version and
+  pooling.
+- **Endpoint URL**: read from the endpoint API when `ENDPOINT_URL_…` is unset.
+- **Parity reference**: sentence-transformers 6.1.0, model loaded with `model_kwargs={"dtype":
+  torch.bfloat16}` (transformers 5 renamed `torch_dtype`); the pooled output is cast to float32
+  and normalized there, since normalizing in bf16 leaves norms at 1 ± 6e-4. It is cached in
+  `embeddings/<model>/parity_reference.npz` (not versioned), keyed by model, revision and the
+  exact strings.
+- **Parity sample** (`scripts/embedding/parity_sample.json`, versioned): the 5 longest texts
+  (8,061–8,119 Qwen3 tokens), then 59 texts round-robin over the 16 `Tipo`s at increasing length
+  quantiles (median 330 tokens), and questions 001, 045, …, 671 (every ~45th). No RNG.
+- **Extra outputs**: `check.json` (smoke test result, versioned), `run.log` (not versioned). The
+  `.gitignore` keeps only manifests, `check.json`, `parity.json`, `endpoint_meter.jsonl` and
+  `costs.csv` under `embeddings/`.
+- **Tests**: 26 pytest tests with the fake provider (no network or GPU), covering the §6.4 list.
+

@@ -1,0 +1,66 @@
+# Model registry for scripts/embedding/embed.py (plan §5.2). No model-specific settings live in
+# the code: adding a model means adding an entry here.
+#
+# Templates: {text} is the chunk or question; {instruction} is defaults.instructions[<name>].
+# Revisions are pinned Hub commits (2026-09-25). Prices are per hour for HF endpoints.
+
+defaults:
+  instruction_name: irpf                     # plan §8.1 (D1)
+  instructions:
+    irpf: "Given a question about Brazilian personal income tax (IRPF), retrieve the legal provisions that answer it"
+    web_search: "Given a web search query, retrieve relevant passages that answer the query"
+    jua_legal: "Given a Brazilian legal search query, retrieve relevant legal passages or documents."
+  max_input_tokens: 8192
+  normalize: true
+  parity: {median_cos: 0.999, min_cos: 0.995, top1_all: true}    # plan §5.4 (D7, provisional)
+
+models:
+  jua-4b-mixed:
+    provider: tei
+    model_id: ufca-llms/jua-4B-mixed
+    revision: 57f491c1718171c0ad71d723c4f6b2030684c4eb
+    # Custom container ghcr.io/huggingface/text-embeddings-inference:89-1.9.4 on an L4 (plan §3.3 step 8)
+    endpoint_name: jua-4b-mixed-bgc
+    endpoint_namespace: eduseiti
+    endpoint_url_env: ENDPOINT_URL_JUA_4B_MIXED   # optional: read from the endpoint API when unset
+    dim: 2560
+    tokenizer: hf:ufca-llms/jua-4B-mixed@57f491c1718171c0ad71d723c4f6b2030684c4eb
+    query_template: "Instruct: {instruction}\nQuery: {text}"     # as on its card (note the space)
+    document_template: "{text}"
+    expected_pooling: last_token
+    request: {max_inputs: 64, max_request_tokens: 32768, concurrency: 8}
+    price: {usd_per_hour: 0.80, instance: nvidia-l4, checked: "2026-09-25"}
+    reference: {dtype: bfloat16}
+
+  # Not set up yet (the user works with jua only for now); kept so the registry matches the plan.
+  qwen3-emb-4b:
+    provider: tei
+    model_id: Qwen/Qwen3-Embedding-4B
+    revision: 5cf2132abc99cad020ac570b19d031efec650f2b
+    endpoint_url_env: ENDPOINT_URL_QWEN3_EMB_4B
+    endpoint_name: qwen3-emb-4b-brtaxqa
+    dim: 2560
+    tokenizer: hf:Qwen/Qwen3-Embedding-4B@5cf2132abc99cad020ac570b19d031efec650f2b
+    query_template: "Instruct: {instruction}\nQuery:{text}"      # as in its ST config (no space)
+    document_template: "{text}"
+    expected_pooling: last_token
+    request: {max_inputs: 64, max_request_tokens: 32768, concurrency: 8}
+    price: {usd_per_hour: 0.80, instance: nvidia-l4, checked: "2026-09-25"}
+    reference: {dtype: bfloat16}
+
+  inf-retriever-v1:
+    provider: tei
+    model_id: infly/inf-retriever-v1
+    revision: 6c5b3f3156c0a705e30608f8ef6375d965b0f18f
+    endpoint_url_env: ENDPOINT_URL_INF_RETRIEVER_V1
+    endpoint_name: inf-retriever-v1-brtaxqa
+    dim: 3584
+    tokenizer: hf:infly/inf-retriever-v1@6c5b3f3156c0a705e30608f8ef6375d965b0f18f
+    query_template: "Instruct: {instruction}\nQuery: {text}"
+    document_template: "{text}"
+    expected_pooling: last_token
+    request: {max_inputs: 64, max_request_tokens: 65536, concurrency: 8}
+    price: {usd_per_hour: 1.80, instance: nvidia-l40s, checked: "2026-09-25"}
+    reference: {dtype: bfloat16, trust_remote_code: true}
+
+  # openai-te3-large, openai-te3-small, gemini-emb-2: plan §5.2; providers not implemented yet.
