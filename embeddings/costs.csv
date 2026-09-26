@@ -5,3 +5,4 @@ row_id,timestamp_start,timestamp_end,model_slug,activity,run_id,provider,billing
 83cafe07b0834cd380842645cc93dd6b,2026-09-25T20:12:33+00:00,,jua-4b-mixed,idle,,hf_endpoint,replica_minutes,-5.0,0.8,2026-09-25,-0.06666666666666667,auto_estimate,,"correction for run 20260925T195048-b217ab: paused manually at 20:02:38 after 10 idle min, not the 15 estimated"
 e786aff79a1e44eba195b10f52915852,2026-09-25T20:12:36+00:00,2026-09-25T20:15:27+00:00,jua-4b-mixed,queries,20260925T201235-b445a3,hf_endpoint,replica_minutes,3,0.8,2026-09-25,0.04,auto_estimate,,
 da9f5ee971bc41819b19deaa6b24b59c,2026-09-26T03:12:51+00:00,2026-09-26T03:14:02+00:00,jua-4b-mixed,parity,20260926T031250-04e63b,hf_endpoint,replica_minutes,2,0.8,2026-09-25,0.0267,auto_estimate,,
+2654aa06d87d4d28a6c495d7c4eed7a8,2026-09-26T11:13:26+00:00,2026-09-26T12:38:39+00:00,jua-4b-mixed,corpus,20260926T111325-0ae6f7,hf_endpoint,replica_minutes,86,0.8,2026-09-25,1.1467,auto_estimate,,
