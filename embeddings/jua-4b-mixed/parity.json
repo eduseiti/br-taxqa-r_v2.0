@@ -1,0 +1,485 @@
+{
+  "created_at": "2026-09-26T03:14:02+00:00",
+  "model": "jua-4b-mixed",
+  "server_fingerprint": {
+    "model_id": "ufca-llms/jua-4B-mixed",
+    "revision": "57f491c1718171c0ad71d723c4f6b2030684c4eb",
+    "endpoint_repository": "ufca-llms/jua-4B-mixed",
+    "endpoint_revision": "57f491c1718171c0ad71d723c4f6b2030684c4eb",
+    "endpoint_image": {
+      "custom": {
+        "healthRoute": "/health",
+        "port": 80,
+        "url": "ghcr.io/huggingface/text-embeddings-inference:89-1.9.4",
+        "credentials": {
+          "username": "",
+          "password": null
+        }
+      }
+    },
+    "server_model_id": "/repository",
+    "server_model_sha": null,
+    "server_dtype": "float16",
+    "server_version": "1.9.4",
+    "pooling": "last_token"
+  },
+  "server_info": {
+    "model_id": "/repository",
+    "model_sha": null,
+    "model_dtype": "float16",
+    "served_model_name": "/repository",
+    "model_type": {
+      "embedding": {
+        "pooling": "last_token"
+      }
+    },
+    "max_concurrent_requests": 512,
+    "max_input_length": 40960,
+    "max_batch_tokens": 40960,
+    "max_batch_requests": null,
+    "max_client_batch_size": 64,
+    "auto_truncate": false,
+    "tokenization_workers": 6,
+    "version": "1.9.4",
+    "sha": "e80ef225ed0e6cb1717ce632a6a84b6cf211bb67",
+    "docker_label": "sha-e80ef22"
+  },
+  "reference": {
+    "library": "sentence-transformers 6.1.0",
+    "torch": "2.11.0+cpu",
+    "dtype": "bfloat16",
+    "loaded_dtype": "torch.bfloat16",
+    "device": "cpu",
+    "model_id": "ufca-llms/jua-4B-mixed",
+    "revision": "57f491c1718171c0ad71d723c4f6b2030684c4eb",
+    "wall_s": 8022.2
+  },
+  "instruction_name": "irpf",
+  "sample_sha256": "bdef2a060a4800a1821f5c99d0dfbb0e9bfb01665b2ad0088ad05be998a39490",
+  "thresholds": {
+    "median_cos": 0.999,
+    "min_cos": 0.995,
+    "top1_all": true
+  },
+  "metrics": {
+    "cos_min": 0.9991905093193054,
+    "cos_p1": 0.9992798566818237,
+    "cos_median": 0.9997859597206116,
+    "cos_min_texts": 0.9991905093193054,
+    "cos_min_queries": 0.9997623562812805,
+    "top1_agree": 16,
+    "n_queries": 16,
+    "kendall_tau_min": 0.97817462682724,
+    "kendall_tau_median": 0.9900793433189392
+  },
+  "checks": {
+    "cos_median": true,
+    "cos_min": true,
+    "top1": true
+  },
+  "passed": true,
+  "per_item_cos": [
+    0.999598,
+    0.999304,
+    0.999479,
+    0.999598,
+    0.999191,
+    0.999655,
+    0.999788,
+    0.99986,
+    0.999812,
+    0.999657,
+    0.999695,
+    0.999698,
+    0.999759,
+    0.999784,
+    0.999832,
+    0.999784,
+    0.999841,
+    0.999804,
+    0.999722,
+    0.999844,
+    0.999785,
+    0.999734,
+    0.999778,
+    0.999674,
+    0.999785,
+    0.999857,
+    0.999782,
+    0.999796,
+    0.999725,
+    0.999762,
+    0.999734,
+    0.999787,
+    0.999861,
+    0.999813,
+    0.999667,
+    0.999799,
+    0.999789,
+    0.999764,
+    0.999851,
+    0.999766,
+    0.999783,
+    0.999798,
+    0.999789,
+    0.999788,
+    0.999823,
+    0.999862,
+    0.999754,
+    0.999824,
+    0.99982,
+    0.999667,
+    0.99966,
+    0.99976,
+    0.999841,
+    0.999709,
+    0.999825,
+    0.999581,
+    0.999793,
+    0.999598,
+    0.999766,
+    0.999777,
+    0.999425,
+    0.999668,
+    0.9997,
+    0.999544,
+    0.999762,
+    0.999862,
+    0.999824,
+    0.999843,
+    0.999856,
+    0.999804,
+    0.999839,
+    0.99986,
+    0.99979,
+    0.999837,
+    0.999833,
+    0.999823,
+    0.999798,
+    0.999824,
+    0.999819,
+    0.999831
+  ],
+  "items": [
+    {
+      "id": "2ed2f45b7c1653b3",
+      "kind": "text"
+    },
+    {
+      "id": "4d415d8efbaac288",
+      "kind": "text"
+    },
+    {
+      "id": "be45a84194816150",
+      "kind": "text"
+    },
+    {
+      "id": "ae8ca8d99d137905",
+      "kind": "text"
+    },
+    {
+      "id": "ada0911a5dca724f",
+      "kind": "text"
+    },
+    {
+      "id": "5552d2cff4f1ee82",
+      "kind": "text"
+    },
+    {
+      "id": "e78fedc4ad6257b1",
+      "kind": "text"
+    },
+    {
+      "id": "0eddcb3780f00bd0",
+      "kind": "text"
+    },
+    {
+      "id": "c6826111d6d4f17c",
+      "kind": "text"
+    },
+    {
+      "id": "4862ac24b0d96a3f",
+      "kind": "text"
+    },
+    {
+      "id": "8e87e8e245ef1c0a",
+      "kind": "text"
+    },
+    {
+      "id": "268f7cf74276671d",
+      "kind": "text"
+    },
+    {
+      "id": "eebee05173237c6c",
+      "kind": "text"
+    },
+    {
+      "id": "0b20b7d5dcb8f402",
+      "kind": "text"
+    },
+    {
+      "id": "e913166f6cbd66c2",
+      "kind": "text"
+    },
+    {
+      "id": "60fc4aed6bbdf42d",
+      "kind": "text"
+    },
+    {
+      "id": "030dc3141e384875",
+      "kind": "text"
+    },
+    {
+      "id": "01e9da0f9634db4b",
+      "kind": "text"
+    },
+    {
+      "id": "21b07c3511e27996",
+      "kind": "text"
+    },
+    {
+      "id": "708c519c858618d2",
+      "kind": "text"
+    },
+    {
+      "id": "f7eb40c8380dda7e",
+      "kind": "text"
+    },
+    {
+      "id": "c09d1878692965ec",
+      "kind": "text"
+    },
+    {
+      "id": "219a01d7e034e516",
+      "kind": "text"
+    },
+    {
+      "id": "786b8ce3666713b4",
+      "kind": "text"
+    },
+    {
+      "id": "cb8c9ccdf0432269",
+      "kind": "text"
+    },
+    {
+      "id": "2fef2ac7ed9503a0",
+      "kind": "text"
+    },
+    {
+      "id": "acebdd3b7214455c",
+      "kind": "text"
+    },
+    {
+      "id": "16b96a43adfe5972",
+      "kind": "text"
+    },
+    {
+      "id": "525693aa55aef1a2",
+      "kind": "text"
+    },
+    {
+      "id": "bef1249f0e5a4b70",
+      "kind": "text"
+    },
+    {
+      "id": "b7df73de8e92d3b2",
+      "kind": "text"
+    },
+    {
+      "id": "71fb4461acdd1570",
+      "kind": "text"
+    },
+    {
+      "id": "8ec37aa61caef115",
+      "kind": "text"
+    },
+    {
+      "id": "548cb97051b6878e",
+      "kind": "text"
+    },
+    {
+      "id": "40b8417254ccf6d8",
+      "kind": "text"
+    },
+    {
+      "id": "ed37b83cce3bd353",
+      "kind": "text"
+    },
+    {
+      "id": "a75f005c390d6f1e",
+      "kind": "text"
+    },
+    {
+      "id": "95ef9dd72132cd2e",
+      "kind": "text"
+    },
+    {
+      "id": "8ece71a13e8c9aa4",
+      "kind": "text"
+    },
+    {
+      "id": "262b0e0e141c12e1",
+      "kind": "text"
+    },
+    {
+      "id": "f3b88f01918cd015",
+      "kind": "text"
+    },
+    {
+      "id": "bdbaf9e6267a05ed",
+      "kind": "text"
+    },
+    {
+      "id": "1efa542a3e8d0380",
+      "kind": "text"
+    },
+    {
+      "id": "e763e3d708352bc1",
+      "kind": "text"
+    },
+    {
+      "id": "8e3deec4a8398ff0",
+      "kind": "text"
+    },
+    {
+      "id": "499a674c5cc2036c",
+      "kind": "text"
+    },
+    {
+      "id": "988bb07e55bdc7c6",
+      "kind": "text"
+    },
+    {
+      "id": "02434c4730237385",
+      "kind": "text"
+    },
+    {
+      "id": "4c7cf70d316e5261",
+      "kind": "text"
+    },
+    {
+      "id": "9b432eb1730bc48b",
+      "kind": "text"
+    },
+    {
+      "id": "778e8877331cd3bd",
+      "kind": "text"
+    },
+    {
+      "id": "ae8baa5db4bc1443",
+      "kind": "text"
+    },
+    {
+      "id": "137550f944c32ff6",
+      "kind": "text"
+    },
+    {
+      "id": "eca7c6d2dbe86fbb",
+      "kind": "text"
+    },
+    {
+      "id": "d87f6eaf121faf2a",
+      "kind": "text"
+    },
+    {
+      "id": "4a0e6186f30c7433",
+      "kind": "text"
+    },
+    {
+      "id": "1c7b56da11ee7c36",
+      "kind": "text"
+    },
+    {
+      "id": "2612d64a30fb7292",
+      "kind": "text"
+    },
+    {
+      "id": "0c8fb48ab2c4bf40",
+      "kind": "text"
+    },
+    {
+      "id": "4455ff50e4693888",
+      "kind": "text"
+    },
+    {
+      "id": "ec013909cbf234f6",
+      "kind": "text"
+    },
+    {
+      "id": "d2e71d284875eb34",
+      "kind": "text"
+    },
+    {
+      "id": "e0a5680e199ea709",
+      "kind": "text"
+    },
+    {
+      "id": "54499d351672319b",
+      "kind": "text"
+    },
+    {
+      "id": "001",
+      "kind": "query"
+    },
+    {
+      "id": "045",
+      "kind": "query"
+    },
+    {
+      "id": "090",
+      "kind": "query"
+    },
+    {
+      "id": "135",
+      "kind": "query"
+    },
+    {
+      "id": "179",
+      "kind": "query"
+    },
+    {
+      "id": "224",
+      "kind": "query"
+    },
+    {
+      "id": "269",
+      "kind": "query"
+    },
+    {
+      "id": "313",
+      "kind": "query"
+    },
+    {
+      "id": "358",
+      "kind": "query"
+    },
+    {
+      "id": "403",
+      "kind": "query"
+    },
+    {
+      "id": "447",
+      "kind": "query"
+    },
+    {
+      "id": "492",
+      "kind": "query"
+    },
+    {
+      "id": "537",
+      "kind": "query"
+    },
+    {
+      "id": "581",
+      "kind": "query"
+    },
+    {
+      "id": "626",
+      "kind": "query"
+    },
+    {
+      "id": "671",
+      "kind": "query"
+    }
+  ]
+}

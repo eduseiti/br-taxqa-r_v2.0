@@ -6,3 +6,7 @@
 {"run_id": "20260925T201235-b445a3", "time": "2026-09-25T20:13:36+00:00", "state": "initializing", "ready": 0, "target": 1}
 {"run_id": "20260925T201235-b445a3", "time": "2026-09-25T20:14:36+00:00", "state": "initializing", "ready": 0, "target": 1}
 {"run_id": "20260925T201235-b445a3", "time": "2026-09-25T20:15:27+00:00", "state": "paused", "ready": 0, "target": 0}
+{"run_id": "20260926T031250-04e63b", "time": "2026-09-26T03:12:51+00:00", "state": "paused", "ready": 0, "target": 1}
+{"run_id": "20260926T031250-04e63b", "time": "2026-09-26T03:12:52+00:00", "state": "pending", "ready": 0, "target": 1}
+{"run_id": "20260926T031250-04e63b", "time": "2026-09-26T03:13:52+00:00", "state": "running", "ready": 1, "target": 1}
+{"run_id": "20260926T031250-04e63b", "time": "2026-09-26T03:14:02+00:00", "state": "paused", "ready": 0, "target": 0}
