@@ -1,0 +1,341 @@
+{
+  "_comment": "Hand-verified resolutions of BR-TaxQA-R v1.1 reference file names that the automatic matcher (prefix + number + date against original/) cannot resolve, or resolves wrongly. Keys are the v1.1 'file' values. document_id null means the cited act is not in the v2.0 corpus. See docs/20260927_*_dataset_v2_format_and_reference_fixes.md.",
+  "files": {
+    "Acordo para Evitar a Dupla Tributação em Matéria de Impostos sobre a Renda e o Capital firmado entre o Brasil e a Alemanha.txt": {
+      "document_id": "decreto_legislativo_92_19751105",
+      "reason": "user fix (Q141): the accord is the Decreto Legislativo nº 92, de 1975; v1.1 held a Receita Federal web page"
+    },
+    "Convenção Postal Universal.txt": {
+      "document_id": "decreto_9358_20180430",
+      "reason": "user fix (Q150): the Convenção Postal Universal is promulgated by Decreto nº 9.358, de 30 de abril de 2018"
+    },
+    "Convenção de Berna da União Postal Universal (UPU).txt": {
+      "document_id": "decreto_9358_20180430",
+      "reason": "same UPU convention as 'Convenção Postal Universal.txt' (Q150 raw reference is just 'UPU'); v1.1 held a Wikipedia article"
+    },
+    "Convenção sobre Privilégios e Imunidades das Nações Unidas.txt": {
+      "document_id": "decreto_27784_19500216",
+      "reason": "canonical list maps it to Decreto 52.288 (the Agências Especializadas convention); the UN convention is promulgated by Decreto 27.784/1950, which Q150's answer itself cites next to it"
+    },
+    "Acórdão do RE nº 855.091RS (Tema 808).txt": {
+      "document_id": "re_855091_tema_808",
+      "reason": "court decision, no act number/date in stem"
+    },
+    "Ato Declaratório do Presidente da Mesa do Congresso Nacional nº 38, de 14 de outubro de 2005.txt": {
+      "document_id": "ad_mesa_cn_38_20051014",
+      "reason": "type prefix not in fetcher ACT_TYPES"
+    },
+    "Ação Direta de Inconstitucionalidade (ADI) nº 5.422, do Supremo Tribunal Federal.txt": {
+      "document_id": "adi_5422_STF",
+      "reason": "court decision"
+    },
+    "Ação Direta de Inconstitucionalidade nº 5.583DF do Supremo Tribunal Federal (STF).txt": {
+      "document_id": "adi_5583_STF",
+      "reason": "court decision"
+    },
+    "Constituição Federal de 1988.txt": {
+      "document_id": "constituição_1988_19881005",
+      "reason": "no act number"
+    },
+    "Declaração de Benefícios Fiscais (DFB).txt": {
+      "document_id": "declaracao_benficios_fiscais_DBF",
+      "reason": "service description page"
+    },
+    "Declaração de Imposto de Renda Retido na Fonte (DIRF).txt": {
+      "document_id": "declaração_de_imposto_de_renda_retido_na_fonte_DIRF",
+      "reason": "service description page"
+    },
+    "Declaração de Serviços Médicos e de Saúde (Dmed).txt": {
+      "document_id": "declaracao_de_servicos_medicos_e_de_saude_DMED",
+      "reason": "service description page"
+    },
+    "Declaração de informações sobre Atividades Imobiliárias (Dimob).txt": {
+      "document_id": "declaracao_de_informacoes_sobre_atividades_imobiliarias_DIMOB",
+      "reason": "service description page"
+    },
+    "Declaração sobre Operações Imobiliárias (DOI).txt": {
+      "document_id": "declaracao_sobre_operacoes_imobiliarias_DOI",
+      "reason": "service description page"
+    },
+    "Sistema de Recolhimento Mensal Obrigatório (Carnê-Leão).txt": {
+      "document_id": "sistema_de_recolhimento_mensal_obrigatorio_CARNE_LEAO",
+      "reason": "service description page"
+    },
+    "Documento de Informação e Apuração do ITR (Diat).txt": {
+      "document_id": null,
+      "status": "not_in_corpus",
+      "reason": "fetched (br-taxqa-document-fetcher/output_manual/documents/documento_de_informacao_e_apuracao_do_ITR_DIAT.docx) but never copied to original/, so it has no LexML file"
+    },
+    "Instrução Normativa RFB nº 1.131.txt": {
+      "document_id": "in_rfb_1131_20110221",
+      "reason": "canonical date off by one day (act reads 21/02/2011)"
+    },
+    "Instrução Normativa RFB nº 67.txt": {
+      "document_id": "in_srf_67_19880421",
+      "reason": "canonical órgão wrong: the act is IN SRF nº 67, de 21/04/1988"
+    },
+    "Lei nº 1.535.txt": {
+      "document_id": "decreto_lei_1535_19770413",
+      "reason": "it is a Decreto-Lei; canonical date wrong (act reads 13/04/1977)"
+    },
+    "Nota PGFN CRJ nº 1.040 2015.txt": {
+      "document_id": "nota_pgfn_crj_1040_2015",
+      "reason": "stem has year only"
+    },
+    "Nota PGFN CRJ nº 1.104 2017.txt": {
+      "document_id": "nota_pgfn_crj_1104_2017",
+      "reason": "stem has year only"
+    },
+    "Nota PGFNCRJ nº 1.114, de 14 de junho de 2012.txt": {
+      "document_id": "nota_pgfn_crj_1114_2012",
+      "reason": "stem has year only"
+    },
+    "Nota SEI nº 48 2018 CRJPGACETPGFN-MF.txt": {
+      "document_id": "nota_sei_48_2018",
+      "reason": "stem has year only"
+    },
+    "PMF nº 80, de 1979.txt": {
+      "document_id": "port_mf_80_19790301",
+      "reason": "Portaria MF, canonical bucket 'outros'"
+    },
+    "Parecer PGFN nº 1.888 2008.txt": {
+      "document_id": "parecer_pgfn_pga_1888_2008",
+      "reason": "stem has year only"
+    },
+    "Parecer PGFN nº 2118 2011.txt": {
+      "document_id": "parecer_pgfn_crj_2118_2011",
+      "reason": "stem has year only"
+    },
+    "Parecer PGFN nº 2683 2008.txt": {
+      "document_id": "parecer_pgfn_pga_2683_2008",
+      "reason": "stem has year only"
+    },
+    "Parecer PGFN nº 701 2016.txt": {
+      "document_id": "parecer_pgfn_crj_701_2016",
+      "reason": "stem has year only"
+    },
+    "Parecer PGFNCAT nº 1.503, de 19 de julho de 2010, aprovado pelo Ministro de Estado da Fazenda em 26 de julho de 2010.txt": {
+      "document_id": "parecer_pgfncat_1503_2010",
+      "reason": "stem has year only"
+    },
+    "Parecer SEI Nº 110 2018 CRJPGACETPGFN-MF, aprovado pelo Despacho nº 3482020PGFN-ME, de 26 de agosto de 2020.txt": {
+      "document_id": "parecer_sei_110_2018",
+      "reason": "same act as 'Parecer SEI nº 110 2018 CRJPGACETPGFN-MF.txt'"
+    },
+    "Parecer SEI nº 110 2018 CRJPGACETPGFN-MF.txt": {
+      "document_id": "parecer_sei_110_2018",
+      "reason": "stem has year only"
+    },
+    "Parecer SEI nº 10167 2021 ME.txt": {
+      "document_id": "parecer_sei_10167_2021",
+      "reason": "stem has year only"
+    },
+    "Parecer SEI nº 15069 2022 ME.txt": {
+      "document_id": "parecer_sei_15069_2022",
+      "reason": "stem has year only"
+    },
+    "Parecer nº 93 2018 DECOR CGU AGU.txt": {
+      "document_id": "parecer_93_2018_decor_cgu_agu",
+      "reason": "stem has year only"
+    },
+    "REsp nº 1.306.393DF_ Tema Repetitivo nº 535.txt": {
+      "document_id": "REsp_1306393",
+      "reason": "court decision"
+    },
+    "Súmula Carf nº 42.txt": {
+      "document_id": "sumula_carf_42",
+      "reason": "no date in stem"
+    },
+    "Súmula nº 125 do Superior Tribunal de Justiça (STJ).txt": {
+      "document_id": "sumula_stj_125",
+      "reason": "no date in stem"
+    },
+    "Súmula nº 136 do Superior Tribunal de Justiça (STJ).txt": {
+      "document_id": "sumula_stj_136",
+      "reason": "no date in stem"
+    },
+    "Parecer PGFNCAT nº 815 2010.txt": {
+      "document_id": null,
+      "status": "not_in_corpus",
+      "reason": "original/nao_articulados/parecer_pgfncat_815_2010_nota_pgfn_crj_981_2015.docx holds Nota PGFN/CRJ nº 981/2015 (same act as nota_pgfn_981_20151104), not Parecer PGFN/CAT nº 815/2010"
+    },
+    "Parecer Normativo CST nº 38, de 1975.txt": {
+      "document_id": null,
+      "status": "not_in_corpus",
+      "reason": "corpus holds PN CST nº 38, de 31/10/1980 (cooperatives), a different act; the cited 1975 opinion (professional services, Q253/Q255) is absent"
+    },
+    "Parecer Normativo CST nº 72, de 1979.txt": {
+      "document_id": null,
+      "status": "not_in_corpus",
+      "reason": "corpus holds PN CST nº 72, de 30/06/1975 (pre-operating expenses), a different act; the cited 1979 opinion (estate capital gains, Q607) is absent"
+    },
+    "Resolução TSE nº 22.250, de 2006.txt": {
+      "document_id": null,
+      "status": "not_in_corpus",
+      "reason": "corpus holds Resolução TSE nº 22.205, de 23/05/2006, a different act with no art. 14; the cited 22.250 (Q438, art. 14) is absent"
+    },
+    "Solução de Consulta Cosit nº 50.txt": {
+      "document_id": null,
+      "status": "not_in_corpus",
+      "reason": "cited SC Cosit nº 50, de 22/06/2020 is not in the corpus; the automatic match sc_cosit_50_20240322 is SC Cosit nº 50/2024, IRPJ of Sociedades de Crédito Direto, a different act"
+    },
+    "Solução de Consulta Cosit nº 69.txt": {
+      "document_id": null,
+      "status": "not_in_corpus",
+      "reason": "cited SC Cosit nº 69, de 30/12/2013 is not in the corpus; the automatic match sc_cosit_69_20200624 is SC Cosit nº 69/2020, IRPJ lucro presumido prizes, a different act"
+    },
+    "Solução de Consulta Cosit nº 64.txt": {
+      "document_id": null,
+      "status": "not_in_corpus",
+      "reason": "cited SC Cosit nº 64, de 07/03/2014 is not in the corpus; the automatic match sc_cosit_64_20240326 is SC Cosit nº 64/2024, interval between working shifts, a different act"
+    },
+    "Solução de Consulta Cosit nº 194.txt": {
+      "document_id": null,
+      "status": "not_in_corpus",
+      "reason": "cited SC Cosit nº 194, de 05/08/2015 is not in the corpus; the automatic match sc_cosit_194_20230829 is SC Cosit nº 194/2023, PIS/Pasep cerealistas, a different act"
+    },
+    "Solução de Consulta Cosit nº 140.txt": {
+      "document_id": null,
+      "status": "not_in_corpus",
+      "reason": "cited SC Cosit nº 140, de 21/09/2021 is not in the corpus; the automatic match sc_cosit_140_20230714 is SC Cosit nº 140/2023, IRPJ lucro presumido ICMS-DIFAL, a different act"
+    },
+    "Solução de Consulta Interna Cosit nº 27, de 7 de julho de 2008.txt": {
+      "document_id": null,
+      "status": "not_in_corpus",
+      "reason": "cited SCI Cosit nº 27, de 07/07/2008 is not in the corpus; the automatic match sd_cosit_27_20080530 is Solução de Divergência Cosit nº 27/2008, IRRF/Cide on remittances abroad, a different act"
+    },
+    "Lei nº 8.794.txt": {
+      "document_id": null,
+      "status": "not_in_corpus",
+      "reason": "cited Decreto-Lei nº 8.794, de 23/01/1946 is not in the corpus; the automatic match lei_8794_19931221 is Lei nº 8.794/1993, a budget credit, a different act"
+    },
+    "Ato Declaratório PGFN nº 2.txt": {
+      "document_id": null,
+      "status": "not_in_corpus",
+      "reason": "cited AD PGFN nº 2, de 10/03/2016 is not in the corpus; the automatic match ad_pgfn_2_20180403 is AD PGFN nº 2/2018, a different act"
+    },
+    "Ato Declaratório PGFN nº 3.txt": {
+      "document_id": null,
+      "status": "not_in_corpus",
+      "reason": "cited AD PGFN nº 3, de 30/03/2016 is not in the corpus; the automatic match ad_pgfn_3_20080918 is AD PGFN nº 3/2008, a different act"
+    },
+    "Solução de Consulta Cosit nº 179.txt": {
+      "document_id": null,
+      "status": "not_in_corpus",
+      "reason": "cited SC Cosit nº 179, de 16/08/2023 is not in the corpus; the automatic match sc_cosit_179_20240624 is SC Cosit nº 179/2024, compensatory alimony, a different act"
+    },
+    "Solução de Consulta Cosit nº 75.txt": {
+      "document_id": null,
+      "status": "not_in_corpus",
+      "reason": "cited SC Cosit nº 75, de 25/06/2020 is not in the corpus; the automatic match sc_cosit_75_20230331 is SC Cosit nº 75/2023, software royalties, a different act"
+    },
+    "Solução de Consulta Cosit nº 123.txt": {
+      "document_id": null,
+      "status": "not_in_corpus",
+      "reason": "cited SC Cosit nº 123, de 13/09/2021 is not in the corpus; the automatic match sc_cosit_123_20230623 is SC Cosit nº 123/2023, Cofins bonificações, a different act"
+    },
+    "Solução de Consulta Cosit nº 7.txt": {
+      "document_id": null,
+      "status": "not_in_corpus",
+      "reason": "cited SC Cosit nº 7, de 13/01/2017 is not in the corpus; the automatic match sc_cosit_7_20210304 is SC Cosit nº 7/2021, IRPJ real-estate activity, a different act"
+    },
+    "Parecer Cosit nº 30, de 28 de setembro de 2001.txt": {
+      "document_id": null,
+      "status": "not_in_corpus",
+      "reason": "cited Parecer Cosit nº 30, de 28/09/2001 is not in the corpus; the automatic match ade_cosit_30_20010723 is ADE Cosit nº 30/2001, US dollar rate, a different act"
+    },
+    "Solução de Consulta Cosit nº 354.txt": {
+      "document_id": null,
+      "status": "not_in_corpus",
+      "reason": "cited SC Cosit nº 354, de 17/12/2014 is not in the corpus; the automatic match sc_cosit_354_20170706 is SC Cosit nº 354/2017, pension-plan extraordinary contributions, a different act"
+    },
+    "Solução de Consulta Cosit nº 173.txt": {
+      "document_id": null,
+      "status": "not_in_corpus",
+      "reason": "cited SC Cosit nº 173, de 03/07/2015 is not in the corpus; the automatic match sc_cosit_173_20230811 is SC Cosit nº 173/2023, PIS/Pasep credits, a different act"
+    },
+    "Solução de Consulta Cosit nº 214.txt": {
+      "document_id": null,
+      "status": "not_in_corpus",
+      "reason": "cited SC Cosit nº 214, de 20/12/2021 is not in the corpus; the automatic match sc_cosit_214_20240719 is SC Cosit nº 214/2024, assignment of real-estate rights, a different act"
+    },
+    "Ato Declaratório RFB nº 3.txt": {
+      "document_id": null,
+      "status": "not_in_corpus",
+      "reason": "cited ADI RFB nº 3, de 27/04/2016 is not in the corpus; the automatic match ade_rfb_3_20240402 is ADE RFB nº 3/2024, TIPI table, a different act"
+    },
+    "Solução de Consulta Cosit nº 211.txt": {
+      "document_id": null,
+      "status": "not_in_corpus",
+      "reason": "cited SC Cosit nº 211, de 24/06/2019 is not in the corpus; the automatic match sc_cosit_211_20240716 is SC Cosit nº 211/2024, Simples Nacional, a different act"
+    },
+    "Solução de Consulta Cosit nº 183.txt": {
+      "document_id": null,
+      "status": "not_in_corpus",
+      "reason": "cited SC Cosit nº 183, de 25/06/2014 is not in the corpus; the automatic match sc_cosit_134_20140602 is SC Cosit nº 134/2014, CIDE (v1.1 already held this wrong text), a different act"
+    },
+    "Solução de Consulta Cosit nº 166.txt": {
+      "document_id": null,
+      "status": "not_in_corpus",
+      "reason": "cited SC Cosit nº 166, de 28/05/2019 is not in the corpus; the automatic match sc_cosit_166_20230807 is SC Cosit nº 166/2023, residential-property exemption, a different act"
+    },
+    "Instrução Normativa RFB nº 1.997, de 21 de novembro de 2019.txt": {
+      "document_id": null,
+      "status": "not_in_corpus",
+      "reason": "cited IN RFB nº 1.997, de 21/11/2019 is not in the corpus; the automatic match in_rfb_1911_20191011 is IN RFB nº 1.911/2019 (canonical record mislabelled), a different act"
+    }
+  },
+  "drop": [
+    {
+      "question_number": "277",
+      "file": "Solução de Consulta Interna Cosit nº 5, de 28 de março de 2006.txt",
+      "reason": "user fix: no such act exists; v1.1 held the unrelated Ato Declaratório Executivo Cosit nº 5, de 24/02/2006"
+    },
+    {
+      "question_number": "025",
+      "file": "Lei nº 9.532.txt",
+      "reason": "v1 'embedded' reference absent from the answer text (the answer cites nothing); LLM extraction artefact present since v1.0"
+    },
+    {
+      "question_number": "025",
+      "file": "Instrução Normativa RFB nº 1.997, de 21 de novembro de 2019.txt",
+      "reason": "v1 'embedded' reference absent from the answer text (the answer cites nothing); LLM extraction artefact present since v1.0"
+    },
+    {
+      "question_number": "025",
+      "file": "Código Tributário Nacional (CTN).txt",
+      "reason": "v1 'embedded' reference absent from the answer text (the answer cites nothing); LLM extraction artefact present since v1.0"
+    },
+    {
+      "question_number": "081",
+      "file": "Lei nº 9.532.txt",
+      "reason": "v1 'embedded' reference absent from the answer text (the answer cites nothing); LLM extraction artefact present since v1.0"
+    },
+    {
+      "question_number": "081",
+      "file": "Decreto nº 3.000.txt",
+      "reason": "v1 'embedded' reference absent from the answer text (the answer cites nothing); LLM extraction artefact present since v1.0"
+    },
+    {
+      "question_number": "081",
+      "file": "Instrução Normativa RFB nº 1.505, de 05 de agosto de 2014.txt",
+      "reason": "v1 'embedded' reference absent from the answer text (the answer cites nothing); LLM extraction artefact present since v1.0"
+    }
+  ],
+  "reassign": [
+    {
+      "question_number": "160",
+      "file": "Convenção de Viena sobre o Direito dos Tratados.txt",
+      "cited_title": "Acordo sobre o Novo Banco de Desenvolvimento",
+      "document_id": "decreto_8624_20151229",
+      "reason": "v1.1 attached the Vienna Convention file to the NDB agreement; the NDB agreement is promulgated by Decreto nº 8.624/2015 (annex 1), which Q160 also cites"
+    },
+    {
+      "question_number": "362",
+      "file": "Circular do Banco Central do Brasil nº 3.432, de 3 de fevereiro de 2009.txt",
+      "cited_title": "Regulamento da Receita Federal do Brasil - RIR/2018",
+      "document_id": "decreto_9580_20181122",
+      "reason": "v1.1 attached the Circular BCB 3.432 file to 'art. 66 do RIR/2018'; the RIR/2018 is Decreto nº 9.580/2018"
+    }
+  ]
+}

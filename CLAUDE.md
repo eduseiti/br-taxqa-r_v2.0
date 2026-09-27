@@ -38,6 +38,11 @@ segmentation, embedding or retrieval code.
     `urn_lex_br_ministerio.fazenda_secretaria.receita.federal_ato.declaratorio_1979-12-20_84.xml`).
 - **`scripts/`** — code for the experiment pipeline: segmentation (the amended copy of the XSL for
   statutory documents, Python code for non-statutory ones), embedding, RAG and nugget evaluation.
+- **`dataset/`** — the v2.0 dataset as HF JSON Lines configs (`questions`, `references`,
+  `documents`), built by `scripts/dataset/build_v2_dataset.py`. References point at `original/`
+  stems and LexML URNs. Hand-verified corrections to the v1.1 references are in
+  `scripts/dataset/reference_overrides.json`; the rationale is in
+  `docs/20260927_180401_dataset_v2_format_and_reference_fixes.md`.
 - **`segmented/`** — segmentation outputs (chunk CSVs with the
   `Tipo, Rotulo, Num_Inicio, Num_Final, Texto, urn` schema) that feed the embedding step.
 

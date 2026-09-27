@@ -355,6 +355,13 @@ covered by `contradicts`.
 
 ### 4.5 Legal-provision score (secondary, D6)
 
+> **Update 2026-09-27:** the gold citations now come from `dataset/references.jsonl` (v2.0).
+> It has one row per (question, cited act), resolved to a corpus `document_id` / `document_urn`
+> with LexML `article_ids`, and the v1.1 reference errors are corrected. 42 references whose act is
+> not in the corpus are marked `not_in_corpus`. See
+> `docs/20260927_180401_dataset_v2_format_and_reference_fixes.md`. The v1.1 fields named below
+> are superseded.
+
 - **Gold citations** per question come from the dataset itself. `references` and
   `formatted_references` hold the reference block that `answer_cleaned` removed, and
   `formatted_embedded_references` holds the citations inside the answer text (569 questions have
