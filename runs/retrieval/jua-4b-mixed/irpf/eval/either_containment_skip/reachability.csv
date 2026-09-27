@@ -1,0 +1,10 @@
+strategy,level,questions,gold_items,reachable,reachable_by_split_parts_only,reachable_partial_only,unreachable,questions_with_reachable_gold,only_ambiguous_matches,main_and_annex_both_have_it,annex_A_items,unreachable:document_without_chunks,unreachable:article_not_in_lexml,unreachable:no_lexml_id
+S1,document,594,1687,1673,0,0,14,591,0,0,272,14,0,0
+S1,article,553,1957,1933,0,0,24,549,0,3,541,8,16,0
+S1,provision,558,2229,2160,173,0,69,548,0,4,580,0,0,69
+S2,document,594,1687,1673,0,0,14,591,0,0,272,14,0,0
+S2,article,553,1957,1933,0,0,24,549,0,3,541,8,16,0
+S2,provision,558,2229,2160,163,0,69,548,0,4,580,0,0,69
+S3,document,594,1687,1673,0,0,14,591,0,0,272,14,0,0
+S3,article,553,1957,1933,0,0,24,549,0,3,541,8,16,0
+S3,provision,558,2229,2160,65,0,69,548,0,4,580,0,0,69

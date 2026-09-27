@@ -1,7 +1,7 @@
 # RAG Pipeline Implementation Plan (retrieval first)
 
 **Generated:** 2026-09-27 20:43:56 (local time, from `date +%Y%m%d_%H%M%S`)
-**Status:** plan only. Nothing has been implemented or run.
+**Status:** Phase 1 (retrieval + legal-provision test) implemented and run: `docs/20260927_222210_retrieval_legal_provision_test_jua.md`. Phases 2–5 are still plans.
 **Goal:** build the full RAG pipeline for the segmentation experiment (retrieval → context
 selection → answer generation → hand-off to nugget evaluation), but implement and run **only the
 retrieval stage first**. The first run is a **legal-provision retrieval test** with the existing

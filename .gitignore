@@ -16,3 +16,14 @@ embeddings/**
 !embeddings/**/parity.json
 !embeddings/**/check.json
 !embeddings/**/endpoint_meter.jsonl
+
+# RAG runs: rankings, per-question tables and contexts are released on the HF Hub, not in git. Only
+# provenance and small result files are versioned (RAG plan §5).
+runs/**
+!runs/**/
+!runs/**/manifest.json
+!runs/**/metrics.csv
+!runs/**/comparisons.csv
+!runs/**/reachability.csv
+!runs/**/report.md
+!runs/costs.csv

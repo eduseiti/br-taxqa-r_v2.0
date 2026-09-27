@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "kind": "retrieval_evaluation",
+  "created_at": "2026-09-27T22:21:09+00:00",
+  "script": {
+    "package": "ragpipe",
+    "version": "0.1.0",
+    "git": {
+      "commit": "5de9f91e7bc74d278bca243e2edd595a0ceb3948",
+      "dirty": true,
+      "dirty_files": [
+        "gitignore",
+        "runs/",
+        "scripts/rag/"
+      ]
+    },
+    "argv": [
+      "scripts/rag/rag.py",
+      "evaluate",
+      "--retrieval",
+      "runs/retrieval/jua-4b-mixed/irpf"
+    ]
+  },
+  "config_hash": "71fc41de3de61546a6ca31fe64814144ebfa060d5e6ee3b505db845f2d454cde",
+  "eval_id": "either_containment_skip",
+  "params": {
+    "annex_rule": "either",
+    "budgets": [
+      1000,
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "unit_ks": [
+      1,
+      3,
+      5,
+      10,
+      20,
+      50,
+      100
+    ],
+    "raw_ks": [
+      1,
+      5,
+      10,
+      20,
+      50,
+      100,
+      1000
+    ],
+    "dedup": "containment",
+    "overflow": "skip",
+    "token_counter": "qwen3",
+    "gain": "binary",
+    "max_unit_position": 1000,
+    "comparisons": [
+      [
+        "S1",
+        "S2"
+      ],
+      [
+        "S2",
+        "S3"
+      ]
+    ],
+    "n_resamples": 10000,
+    "seed": 13,
+    "strategies": [
+      "S1",
+      "S2",
+      "S3"
+    ]
+  },
+  "inputs": {
+    "retrieval_manifest": {
+      "path": "runs/retrieval/jua-4b-mixed/irpf/manifest.json",
+      "config_hash": "881fc0f2d56dd0bfa625fefff6b0ca49cb22c9e4398d02d3969c505b6b52a3fd"
+    },
+    "chunks": {
+      "path": "segmented/chunks_all.csv.gz",
+      "sha256": "f3db09046bb475bfcab1dfe84f4805a40a8fcd2629f252577c3aa492d1855f9b"
+    },
+    "questions": {
+      "path": "dataset/questions.jsonl",
+      "sha256": "c94f1a658dca2eb67cbc668db8e21d20c12ab8449fa1d3967311f09915cf0b0a"
+    },
+    "references": {
+      "path": "dataset/references.jsonl",
+      "sha256": "7420ea7abe13bd5115231732798e79e048f28b1ef810b13068f31a0512aca59f"
+    },
+    "documents": {
+      "path": "dataset/documents.jsonl",
+      "sha256": "d02b6266645a105dc21bfe49f5c4c1b1f3baef913d27a2fc92165e287c52af87"
+    },
+    "chapters": {
+      "path": "scripts/rag/data/pr_irpf_2024_chapters.csv",
+      "sha256": "d11588869d03c90793e6c1ba6d154935b1184e4444c15817f0affa666208c5e4"
+    }
+  },
+  "retrieval": {
+    "embedding": {
+      "slug": "jua-4b-mixed",
+      "model_id": "ufca-llms/jua-4B-mixed",
+      "revision": "57f491c1718171c0ad71d723c4f6b2030684c4eb",
+      "dim": 2560,
+      "instruction_name": "irpf",
+      "instruction": "Given a question about Brazilian personal income tax (IRPF), retrieve the legal provisions that answer it",
+      "query_template": "Instruct: {instruction}\nQuery: {text}",
+      "document_template": "{text}"
+    },
+    "retriever": {
+      "name": "dense",
+      "similarity": "cosine (dot product of L2-normalized float32 vectors)",
+      "search": "exact brute force",
+      "tie_break": "text_id ascending",
+      "block_size": 128
+    },
+    "top_n": 1000
+  },
+  "gold": {
+    "questions_with_gold": {
+      "document": 594,
+      "article": 553,
+      "provision": 558
+    },
+    "gold_items": {
+      "document": 1687,
+      "article": 1957,
+      "provision": 2229
+    },
+    "references": 1919,
+    "references_not_in_corpus": 42
+  },
+  "outputs": {
+    "metrics.csv": {
+      "sha256": "f8240132593f7efc6642dc191377332652f92862cd3a86a82b3641e30dcf92ba"
+    },
+    "metrics_by_chapter.csv.gz": {
+      "sha256": "1e03ab7e500da9634d4b7415f1eeda5b6d88f54c273da2056dcd35981208f67e"
+    },
+    "comparisons.csv": {
+      "sha256": "486c8ef14915f7aed0f367a31d0d8c12211f1245962039fc0d72009480eaa6b7"
+    },
+    "reachability.csv": {
+      "sha256": "87a8d2cc234e36db3cd21bc4ac8cd7a770880ff385c9fc40d350aa4406e582d7"
+    },
+    "per_question.csv.gz": {
+      "sha256": "ccb5da5de6857da14a951face0e1f8a5d9e01b3414d98b55a2bc756c1d6335df"
+    },
+    "per_item.csv.gz": {
+      "sha256": "80627e386c4ac1e5c900d1dca4b7eb241b846a4a644fa12fa3ff0ff4661cf8cf"
+    }
+  },
+  "timings_s": {
+    "load": 1.07,
+    "score": 6.87,
+    "aggregate": 5.09,
+    "total": 15.93
+  }
+}

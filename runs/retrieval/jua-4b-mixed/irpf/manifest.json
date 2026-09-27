@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "kind": "retrieval",
+  "created_at": "2026-09-27T22:19:39+00:00",
+  "script": {
+    "package": "ragpipe",
+    "version": "0.1.0",
+    "git": {
+      "commit": "5de9f91e7bc74d278bca243e2edd595a0ceb3948",
+      "dirty": true,
+      "dirty_files": [
+        "runs/",
+        "scripts/rag/"
+      ]
+    },
+    "argv": [
+      "scripts/rag/rag.py",
+      "retrieve",
+      "--embedding",
+      "jua-4b-mixed"
+    ]
+  },
+  "config_hash": "881fc0f2d56dd0bfa625fefff6b0ca49cb22c9e4398d02d3969c505b6b52a3fd",
+  "params": {
+    "embedding": "jua-4b-mixed",
+    "instruction": "irpf",
+    "retriever": "dense",
+    "top_n": 1000,
+    "strategies": [
+      "S1",
+      "S2",
+      "S3"
+    ]
+  },
+  "embedding": {
+    "slug": "jua-4b-mixed",
+    "model_id": "ufca-llms/jua-4B-mixed",
+    "revision": "57f491c1718171c0ad71d723c4f6b2030684c4eb",
+    "dim": 2560,
+    "instruction_name": "irpf",
+    "instruction": "Given a question about Brazilian personal income tax (IRPF), retrieve the legal provisions that answer it",
+    "query_template": "Instruct: {instruction}\nQuery: {text}",
+    "document_template": "{text}"
+  },
+  "retriever": {
+    "name": "dense",
+    "similarity": "cosine (dot product of L2-normalized float32 vectors)",
+    "search": "exact brute force",
+    "tie_break": "text_id ascending",
+    "block_size": 128
+  },
+  "strategies": {
+    "path": "scripts/rag/strategies.yaml",
+    "sha256": "5c9c5d9e0670075bcb0f762c6db9308ab65bea681f78ea780856eb7b6e33f96a",
+    "strategies": {
+      "S1": {
+        "tipos": [
+          "ART",
+          "DSP",
+          "TAB",
+          "TXT"
+        ],
+        "description": "Article (or top-level dispositivo) + non-statutory units"
+      },
+      "S2": {
+        "tipos": [
+          "ALI",
+          "ART",
+          "CPT",
+          "DSP",
+          "INC",
+          "ITE",
+          "PAR",
+          "TAB",
+          "TXT"
+        ],
+        "description": "S1 + sub-article units with ancestor path"
+      },
+      "S3": {
+        "tipos": [
+          "ALI",
+          "ART",
+          "CAP",
+          "CPT",
+          "DSP",
+          "INC",
+          "ITE",
+          "LIV",
+          "PAR",
+          "PRT",
+          "SBT",
+          "SEC",
+          "SSC",
+          "TAB",
+          "TIT",
+          "TXT"
+        ],
+        "description": "S2 + grouping chunks"
+      }
+    },
+    "grouping_tipos": [
+      "CAP",
+      "LIV",
+      "PRT",
+      "SBT",
+      "SEC",
+      "SSC",
+      "TIT"
+    ],
+    "unit_precedence": [
+      "PRT",
+      "LIV",
+      "TIT",
+      "SBT",
+      "CAP",
+      "SEC",
+      "SSC",
+      "ART",
+      "DSP",
+      "TXT",
+      "TAB",
+      "CPT",
+      "PAR",
+      "INC",
+      "ALI",
+      "ITE"
+    ]
+  },
+  "inputs": {
+    "chunks": {
+      "path": "segmented/chunks_all.csv.gz",
+      "sha256": "f3db09046bb475bfcab1dfe84f4805a40a8fcd2629f252577c3aa492d1855f9b"
+    },
+    "questions": {
+      "path": "dataset/questions.jsonl",
+      "sha256": "c94f1a658dca2eb67cbc668db8e21d20c12ab8449fa1d3967311f09915cf0b0a"
+    },
+    "references": {
+      "path": "dataset/references.jsonl",
+      "sha256": "7420ea7abe13bd5115231732798e79e048f28b1ef810b13068f31a0512aca59f"
+    },
+    "documents": {
+      "path": "dataset/documents.jsonl",
+      "sha256": "d02b6266645a105dc21bfe49f5c4c1b1f3baef913d27a2fc92165e287c52af87"
+    },
+    "strategies_yaml": {
+      "path": "scripts/rag/strategies.yaml",
+      "sha256": "5c9c5d9e0670075bcb0f762c6db9308ab65bea681f78ea780856eb7b6e33f96a"
+    },
+    "corpus_vectors": {
+      "path": "embeddings/jua-4b-mixed/corpus/vectors.npy",
+      "sha256": "d4e00f0e34b6269634e25c97db1aa299149092c354e69488a1c61b8915c7c636"
+    },
+    "corpus_texts": {
+      "path": "embeddings/jua-4b-mixed/corpus/texts.csv",
+      "sha256": "07ee615cb4ffd5b9410ce8a40650c34fb818042488b55406e7ce142835b9a850"
+    },
+    "chunk_map": {
+      "path": "embeddings/jua-4b-mixed/corpus/chunk_map.csv.gz",
+      "sha256": "d8166ba3fe87328c468bfa32781ce2e16370e63c60e45ee23d3b8499559a7cfb"
+    },
+    "query_vectors": {
+      "path": "embeddings/jua-4b-mixed/queries/irpf/vectors.npy",
+      "sha256": "bcf30223a164f5f601f2638b251599a0916a663bdd99aef799eec5cf9c135ec3"
+    },
+    "queries": {
+      "path": "embeddings/jua-4b-mixed/queries/irpf/queries.csv",
+      "sha256": "c495d1b2c1bd03f747cbebbd75ed2fb7aa3d512e38593018b4566819cb456fc2"
+    }
+  },
+  "checks": {
+    "ok": true,
+    "errors": [],
+    "warnings": [
+      "11 cited document(s) without chunks (unreachable gold): decreto_27784_19500216, decreto_59308_19660923, decreto_59309_19660923, decreto_62125_19680116, decreto_63151_19680822, decreto_85801_19810310, decreto_86006_19810514, decreto_86084_19810608, decreto_93153_19860822, in_srf_23_19830325, in_srf_67_19880421"
+    ],
+    "info": {
+      "chunks": 87702,
+      "unique_texts": 84568,
+      "corpus_vectors": [
+        84568,
+        2560
+      ],
+      "query_vectors": [
+        715,
+        2560
+      ],
+      "questions": 715,
+      "references": 1919,
+      "references_not_in_corpus": 42,
+      "documents": 459,
+      "documents_without_chunks": 11,
+      "cited_documents_without_chunks": [
+        "decreto_27784_19500216",
+        "decreto_59308_19660923",
+        "decreto_59309_19660923",
+        "decreto_62125_19680116",
+        "decreto_63151_19680822",
+        "decreto_85801_19810310",
+        "decreto_86006_19810514",
+        "decreto_86084_19810608",
+        "decreto_93153_19860822",
+        "in_srf_23_19830325",
+        "in_srf_67_19880421"
+      ]
+    }
+  },
+  "counts": {
+    "S1": {
+      "chunk_rows": 26250,
+      "candidate_texts": 26208,
+      "ranking_rows": 715000,
+      "texts_with_aliases": 37
+    },
+    "S2": {
+      "chunk_rows": 82642,
+      "candidate_texts": 79508,
+      "ranking_rows": 715000,
+      "texts_with_aliases": 3128
+    },
+    "S3": {
+      "chunk_rows": 87702,
+      "candidate_texts": 84568,
+      "ranking_rows": 715000,
+      "texts_with_aliases": 3128
+    }
+  },
+  "outputs": {
+    "S1": {
+      "path": "S1/rankings.csv.gz",
+      "sha256": "92d8fc1632151da6b6c03df8c654d381b08269ebd40adddaeb085e278a693857"
+    },
+    "S2": {
+      "path": "S2/rankings.csv.gz",
+      "sha256": "3a343ce9b43fad8d42ba33046313cf8ababac1bd95acc9c96e4f59b5a0985fb7"
+    },
+    "S3": {
+      "path": "S3/rankings.csv.gz",
+      "sha256": "8e63a54b3b12fe73e2e6c3d7449726c6bf8ba3ccf2f1e0908de103928c56340b"
+    }
+  },
+  "timings_s": {
+    "load_and_check": 1.42,
+    "index": 0.54,
+    "search": 2.36,
+    "write": 6.7,
+    "total": 11.03
+  }
+}

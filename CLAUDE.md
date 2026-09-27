@@ -43,6 +43,10 @@ segmentation, embedding or retrieval code.
   stems and LexML URNs. Hand-verified corrections to the v1.1 references are in
   `scripts/dataset/reference_overrides.json`; the rationale is in
   `docs/20260927_180401_dataset_v2_format_and_reference_fixes.md`.
+- **`runs/`** — RAG pipeline outputs (`scripts/rag/rag.py`): `retrieval/<embedding>/<instruction>/`
+  holds the rankings per strategy and `eval/<eval_id>/` the legal-provision retrieval test
+  (`report.md`, `metrics.csv`). Only manifests and small result files are in git. Rankings and
+  per-question tables are regenerated in about 30 s (`retrieve` + `evaluate`).
 - **`segmented/`** — segmentation outputs (chunk CSVs with the
   `Tipo, Rotulo, Num_Inicio, Num_Final, Texto, urn` schema) that feed the embedding step.
 
