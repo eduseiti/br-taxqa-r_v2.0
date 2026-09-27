@@ -77,6 +77,13 @@ The field-by-field schema is in `dataset/README.md`. Design choices:
   Paragraph/inciso/alínea lists are kept as v1.1 had them, only trimmed of `§`. v1.1 lost which
   inciso belongs to which paragraph, and that cannot be recovered reliably. Provision-level URNs
   are left to the §4.5 implementation (`lexml-linker` on `references_text`).
+
+  > **Correction (2026-09-27, `docs/20260927_213420_reference_provisions_from_citation_text.md`):**
+  > the paragraph above was wrong. The nesting is in the citation text, which v1.1 keeps, and
+  > `lexml-linker` has no role in the gold references. The provisions are now parsed from the
+  > text (`scripts/dataset/citations.py`) into nested LexML `fragment_id`s. The same fix restores
+  > article ranges that v1.1 cut short and drops articles v1.1 invented. The `provisions` schema
+  > above is replaced; see `dataset/README.md`.
 - **Answers as strings** (lines joined with `\n`), as the nuggetization plan §2 prepares them.
 - **Traceability:** each reference keeps `v1_file`, `resolution` and `resolution_note`. Every
   hand decision is in `scripts/dataset/reference_overrides.json`, with a reason.
@@ -278,7 +285,9 @@ the DBF/Dimob/Dmed/DOI/Carnê-Leão pages, Parecer Cosit 26/2000 and SC Cosit 15
 6. The fetcher's `canonical_referred_documents.json` still carries the errors in §5.2a–b. The
    corrections live only in `reference_overrides.json`.
 7. Not verified: any remaining v1.1 extraction errors in provision details (paragraph/inciso lists),
-   beyond the article-existence check.
+   beyond the article-existence check. **Resolved 2026-09-27:** provisions are now parsed from the
+   citation text and cross-checked against v1.1
+   (`docs/20260927_213420_reference_provisions_from_citation_text.md`).
 
 ## 8. Files
 

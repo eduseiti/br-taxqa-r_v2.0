@@ -1,13 +1,14 @@
 {
- "timestamp": "2026-09-27T18:07:04",
+ "timestamp": "2026-09-27T21:34:00",
  "git": {
-  "commit": "50487bd0c4a11737cadd64872327ce05175c753c",
+  "commit": "4f6147a9b56f6f90bc92b45297d907a1455f18a9",
   "dirty": true
  },
  "inputs_sha256": {
   "questions": "097abfc4f885ea36e512e6beae39a826b981191aa0b320960828e51ccc081585",
   "canonical": "7fcbf7e2f5506a1ff61d80b74979f17549bf731d9bd1c724e6381718200fc4b6",
-  "reference_overrides": "654551aadf893f53685169cd865b52419a9f525c223104f359710203ebdb7687",
+  "reference_overrides": "3a4240030c13298440a4279838e75347c3e004b09f7e37c760f76f1f4368ddb2",
+  "citations_py": "b25a8eb82852dd1eb2100603c31b4b06244403775f76c7d22dd6f3229b67c079",
   "nonstat_lexml_map": "cbde91390a006c32cb1e0b88ad900c4e4d62c7e1fd046489e107cb3386f9289e"
  },
  "counts": {
@@ -396,10 +397,30 @@
   "Solução de Consulta Cosit nº 153.txt"
  ],
  "validation": {
-  "article_ids_checked": 1811,
-  "article_ids_found_in_main_xml": 1385,
-  "article_ids_found_only_in_annex_xml": 407,
+  "article_ids_checked": 2051,
+  "article_ids_found_in_main_xml": 1448,
+  "article_ids_found_only_in_annex_xml": 575,
   "article_ids_missing": [
+   {
+    "reference_id": "149-01",
+    "document_id": "decreto_27784_19500216",
+    "article_id": "art5"
+   },
+   {
+    "reference_id": "149-03",
+    "document_id": "decreto_59308_19660923",
+    "article_id": "art5"
+   },
+   {
+    "reference_id": "150-05",
+    "document_id": "decreto_59308_19660923",
+    "article_id": "art5"
+   },
+   {
+    "reference_id": "150-12",
+    "document_id": "decreto_27784_19500216",
+    "article_id": "art5"
+   },
    {
     "reference_id": "152-01",
     "document_id": "decreto_57942_19660310",
@@ -414,6 +435,36 @@
     "reference_id": "153-04",
     "document_id": "decreto_361_19911210",
     "article_id": "art13"
+   },
+   {
+    "reference_id": "154-01",
+    "document_id": "decreto_86084_19810608",
+    "article_id": "art9"
+   },
+   {
+    "reference_id": "155-01",
+    "document_id": "decreto_87563_19820913",
+    "article_id": "art15"
+   },
+   {
+    "reference_id": "157-02",
+    "document_id": "decreto_8289_20140725",
+    "article_id": "art13"
+   },
+   {
+    "reference_id": "158-02",
+    "document_id": "decreto_85801_19810310",
+    "article_id": "art12"
+   },
+   {
+    "reference_id": "158-02",
+    "document_id": "decreto_85801_19810310",
+    "article_id": "art6"
+   },
+   {
+    "reference_id": "159-01",
+    "document_id": "decreto_93153_19860822",
+    "article_id": "art7"
    },
    {
     "reference_id": "312-02",
@@ -434,11 +485,6 @@
     "reference_id": "584-01",
     "document_id": "lei_6404_19761215",
     "article_id": "art252"
-   },
-   {
-    "reference_id": "611-01",
-    "document_id": "in_srf_107_19880714",
-    "article_id": "art1"
    },
    {
     "reference_id": "617-01",
@@ -494,6 +540,313 @@
     "reference_id": "699-04",
     "document_id": "lei_13043_20141113",
     "article_id": "art16"
+   }
+  ],
+  "provisions": {
+   "found_in_main": 1626,
+   "found_in_annex": 615,
+   "without_id": 36,
+   "missing": 41
+  },
+  "fragment_ids_missing": [
+   {
+    "reference_id": "018-01",
+    "document_id": "lei_9250_19951226",
+    "label": "art. 10, inciso X",
+    "fragment_id": "art10_cpt_inc10"
+   },
+   {
+    "reference_id": "093-02",
+    "document_id": "lei_6015_19731231",
+    "label": "art. 167, inciso I, item 24",
+    "fragment_id": "art167_cpt_inc1_ite24"
+   },
+   {
+    "reference_id": "093-02",
+    "document_id": "lei_6015_19731231",
+    "label": "art. 167, inciso I, item 25",
+    "fragment_id": "art167_cpt_inc1_ite25"
+   },
+   {
+    "reference_id": "093-06",
+    "document_id": "lei_6015_19731231",
+    "label": "art. 167, inciso I, item 24",
+    "fragment_id": "art167_cpt_inc1_ite24"
+   },
+   {
+    "reference_id": "093-06",
+    "document_id": "lei_6015_19731231",
+    "label": "art. 167, inciso I, item 25",
+    "fragment_id": "art167_cpt_inc1_ite25"
+   },
+   {
+    "reference_id": "142-03",
+    "document_id": "decreto_56435_19650608",
+    "label": "art. 34, alínea ‘d’",
+    "fragment_id": "art34_cpt_ali4"
+   },
+   {
+    "reference_id": "149-01",
+    "document_id": "decreto_27784_19500216",
+    "label": "art. V",
+    "fragment_id": "art5"
+   },
+   {
+    "reference_id": "149-03",
+    "document_id": "decreto_59308_19660923",
+    "label": "art. V",
+    "fragment_id": "art5"
+   },
+   {
+    "reference_id": "150-05",
+    "document_id": "decreto_59308_19660923",
+    "label": "art. V",
+    "fragment_id": "art5"
+   },
+   {
+    "reference_id": "150-12",
+    "document_id": "decreto_27784_19500216",
+    "label": "art. V",
+    "fragment_id": "art5"
+   },
+   {
+    "reference_id": "152-01",
+    "document_id": "decreto_57942_19660310",
+    "label": "art. 10, alínea “b”",
+    "fragment_id": "art10_cpt_ali2"
+   },
+   {
+    "reference_id": "153-01",
+    "document_id": "decreto_57942_19660310",
+    "label": "art. 1º",
+    "fragment_id": "art1"
+   },
+   {
+    "reference_id": "153-04",
+    "document_id": "decreto_361_19911210",
+    "label": "art. 13",
+    "fragment_id": "art13"
+   },
+   {
+    "reference_id": "154-01",
+    "document_id": "decreto_86084_19810608",
+    "label": "art. IX, item 2",
+    "fragment_id": "art9_cpt_ite2"
+   },
+   {
+    "reference_id": "155-01",
+    "document_id": "decreto_87563_19820913",
+    "label": "art. XV, alínea “b”",
+    "fragment_id": "art15_cpt_ali2"
+   },
+   {
+    "reference_id": "157-01",
+    "document_id": "decreto_5128_20040706",
+    "label": "art. 21, alínea “d”",
+    "fragment_id": "art21_cpt_ali4"
+   },
+   {
+    "reference_id": "157-02",
+    "document_id": "decreto_8289_20140725",
+    "label": "art. XIII, item 2",
+    "fragment_id": "art13_cpt_ite2"
+   },
+   {
+    "reference_id": "158-02",
+    "document_id": "decreto_85801_19810310",
+    "label": "art. XII",
+    "fragment_id": "art12"
+   },
+   {
+    "reference_id": "158-02",
+    "document_id": "decreto_85801_19810310",
+    "label": "art. VI",
+    "fragment_id": "art6"
+   },
+   {
+    "reference_id": "159-01",
+    "document_id": "decreto_93153_19860822",
+    "label": "art. VII",
+    "fragment_id": "art7"
+   },
+   {
+    "reference_id": "209-01",
+    "document_id": "lei_6015_19731231",
+    "label": "art. 167, inciso I, item 7",
+    "fragment_id": "art167_cpt_inc1_ite7"
+   },
+   {
+    "reference_id": "312-02",
+    "document_id": "lei_11941_20090527",
+    "label": "art. 56",
+    "fragment_id": "art56"
+   },
+   {
+    "reference_id": "460-03",
+    "document_id": "in_rfb_2178_20240305",
+    "label": "art. 11, § 2º, inciso II",
+    "fragment_id": "art11_par2_inc2"
+   },
+   {
+    "reference_id": "480-02",
+    "document_id": "decreto_59566_19661114",
+    "label": "art. 3º",
+    "fragment_id": "art3"
+   },
+   {
+    "reference_id": "560-15",
+    "document_id": "mp_2158-35_20010824",
+    "label": "art. 24, § 6º, inciso I",
+    "fragment_id": "art24_par6_inc1"
+   },
+   {
+    "reference_id": "560-15",
+    "document_id": "mp_2158-35_20010824",
+    "label": "art. 24, § 6º, inciso II",
+    "fragment_id": "art24_par6_inc2"
+   },
+   {
+    "reference_id": "584-01",
+    "document_id": "lei_6404_19761215",
+    "label": "art. 252",
+    "fragment_id": "art252"
+   },
+   {
+    "reference_id": "617-01",
+    "document_id": "mp_2158-35_20010824",
+    "label": "art. 24",
+    "fragment_id": "art24"
+   },
+   {
+    "reference_id": "618-02",
+    "document_id": "mp_2158-35_20010824",
+    "label": "art. 24",
+    "fragment_id": "art24"
+   },
+   {
+    "reference_id": "618-09",
+    "document_id": "mp_2158-35_20010824",
+    "label": "art. 24",
+    "fragment_id": "art24"
+   },
+   {
+    "reference_id": "620-01",
+    "document_id": "mp_2158-35_20010824",
+    "label": "art. 24",
+    "fragment_id": "art24"
+   },
+   {
+    "reference_id": "620-08",
+    "document_id": "mp_2158-35_20010824",
+    "label": "art. 24",
+    "fragment_id": "art24"
+   },
+   {
+    "reference_id": "621-02",
+    "document_id": "mp_2158-35_20010824",
+    "label": "art. 24",
+    "fragment_id": "art24"
+   },
+   {
+    "reference_id": "624-04",
+    "document_id": "mp_2158-35_20010824",
+    "label": "art. 24, § 5º",
+    "fragment_id": "art24_par5"
+   },
+   {
+    "reference_id": "677-02",
+    "document_id": "lei_13043_20141113",
+    "label": "art. 16",
+    "fragment_id": "art16"
+   },
+   {
+    "reference_id": "677-04",
+    "document_id": "lei_13043_20141113",
+    "label": "art. 16",
+    "fragment_id": "art16"
+   },
+   {
+    "reference_id": "683-02",
+    "document_id": "lei_12350_20101220",
+    "label": "art. 45, § 3º",
+    "fragment_id": "art45_par3"
+   },
+   {
+    "reference_id": "699-02",
+    "document_id": "lei_13043_20141113",
+    "label": "art. 16",
+    "fragment_id": "art16"
+   },
+   {
+    "reference_id": "699-04",
+    "document_id": "lei_13043_20141113",
+    "label": "art. 16",
+    "fragment_id": "art16"
+   },
+   {
+    "reference_id": "708-01",
+    "document_id": "lei_11033_20041221",
+    "label": "art. 3º, parágrafo único",
+    "fragment_id": "art3_par1u"
+   },
+   {
+    "reference_id": "708-11",
+    "document_id": "lei_11033_20041221",
+    "label": "art. 3º, parágrafo único",
+    "fragment_id": "art3_par1u"
+   }
+  ],
+  "citation_chains_not_attributed": [],
+  "v1_article_ids_not_in_citation_text": [
+   {
+    "reference_id": "150-01",
+    "cited_title": "Convenção de Berna da União Postal Universal (UPU)",
+    "v1_article_ids": [
+     "art1"
+    ],
+    "citation_text": []
+   },
+   {
+    "reference_id": "150-02",
+    "cited_title": "Convenção Postal Universal",
+    "v1_article_ids": [
+     "art10"
+    ],
+    "citation_text": []
+   },
+   {
+    "reference_id": "239-05",
+    "cited_title": "Lei nº 8.036, de 11 de maio de 1990 - Lei do Fundo de Garantia do Tempo de Serviço (FGTS)",
+    "v1_article_ids": [
+     "art1",
+     "art2",
+     "art13",
+     "art14",
+     "art20",
+     "art22",
+     "art23"
+    ],
+    "citation_text": []
+   },
+   {
+    "reference_id": "611-01",
+    "cited_title": "Instrução Normativa SRF nº 107, de 14 de julho de 1988",
+    "v1_article_ids": [
+     "art1"
+    ],
+    "citation_text": [
+     "Instrução Normativa SRF nº 107, de 14 de julho de 1988, inciso 1.8"
+    ]
+   },
+   {
+    "reference_id": "652-01",
+    "cited_title": "Lei nº 9.615, de 24 de março de 1998",
+    "v1_article_ids": [
+     "art1"
+    ],
+    "citation_text": [
+     "Lei nº 9.615, de 24 de março de 1998"
+    ]
    }
   ],
   "documents_without_chunks": [

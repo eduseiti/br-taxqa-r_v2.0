@@ -63,7 +63,10 @@ All files are JSON Lines with a fixed schema: every key is present in every row 
 | `document_urn` | string \| null | LexML URN of that document (same as `doc_urn` of the chunks) |
 | `resolution` | string | `auto_exact`, `auto_undated`, `override` (hand-verified) or `not_in_corpus` |
 | `resolution_note` | string \| null | why, for `override` and `not_in_corpus` |
-| `provisions` | list[struct] | cited provisions: `article` (as cited), `article_ids` (LexML ids, ranges expanded, e.g. `art12-1` for art. 12-A), `paragraphs`, `incisos`, `alineas`, `items` |
+| `citation_text` | list[string] | the source text the provisions were parsed from (pieces of the reference block, or embedded citations) |
+| `article_ids` | list[string] | distinct cited articles as LexML ids (ranges expanded; `art12-1` for art. 12-A, `art1u` for artigo único) |
+| `provisions` | list[struct] | one row per cited unit: `label` (e.g. "art. 12, § 1º, inciso II"), `article_id`, `fragment_id` (LexML id with the full path, e.g. `art12_par1_inc2`, `art1_cpt_inc10`; `null` when the unit has no id form), `annex`, `lexml_file` (LexML file holding the fragment, main or annex; `null` when not found) |
+| `provisions_note` | string \| null | reason, when the provisions come from a hand-verified override |
 | `annexes` | list[string] | cited annexes |
 | `v1_file` | string | the v1.1 `file` value, for traceability |
 
@@ -91,6 +94,11 @@ references = load_dataset("path/to/dataset", "references", split="test")
 documents  = load_dataset("path/to/dataset", "documents",  split="test")
 ```
 
+The nesting of a citation is kept in `fragment_id`: "art. 1º, inciso X e parágrafo único" gives
+`art1_cpt_inc10` and `art1_par1u`, and "art. 12, § 1º, inciso II" gives `art12_par1_inc2`. These are
+the ids of the LexML XML, so a corpus unit covers a gold provision when its id equals the
+`fragment_id` or is its ancestor (prefix up to a `_`).
+
 Gold citations of one question, at document level:
 
 ```python
@@ -104,6 +112,9 @@ refs = references.filter(lambda r: r["question_number"] == "001" and r["document
 - `all_formatted_references` is gone (it was the concatenation of the two reference lists);
   `formatted_references` / `formatted_embedded_references` became `references` rows with `origin`.
 - References point at corpus documents and LexML URNs instead of `.txt` file names.
+- Provisions are parsed from the citation text of the Q&A document, keeping which inciso belongs
+  to which paragraph (v1.1 stored flat paragraph/inciso lists), expanding article ranges that v1.1
+  cut short, and dropping articles v1.1 attached to acts cited without any.
 - Corrections (details in `build_report.json` and the repository notes):
   - Q277: the "Solução de Consulta Interna Cosit nº 5, de 28 de março de 2006" reference is removed
     (no such act exists).

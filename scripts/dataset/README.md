@@ -19,11 +19,22 @@ python3 scripts/dataset/build_v2_dataset.py --help
 Needs `lxml`. The build fails if a v1.1 reference file name resolves to no document and has no entry
 in `reference_overrides.json`, so a new or renamed reference cannot be lost silently.
 
+Provisions are parsed from the Q&A citation text by `citations.py` (design and cross-check in
+`docs/20260927_213420_reference_provisions_from_citation_text.md`). The build also fails if a
+citation in the text cannot be attributed to any v1.1 reference. Tests:
+
+```bash
+python3 -m pytest scripts/dataset/tests
+```
+
 ## Data files
 
 - `reference_overrides.json`: hand-verified resolutions, keyed by v1.1 `file` value.
   `document_id: null` + `status: not_in_corpus` marks an act that is absent from the corpus. The
-  `drop` list removes single (question, file) references. Every entry has a `reason`.
+  `drop` list removes single (question, file) references. The `citations` list replaces the
+  provisions parsed from the text of one (question, origin, file) reference with a citation written
+  by hand, for the few the text cannot express as written (treaty numbering, a typo, "a referida
+  lei"). Every entry has a `reason`.
 - `nonstat_lexml_map.tsv`: `original/nao_articulados/<stem>.docx` → `lexml/nao_articulados/<urn file>.xml`.
   Those XMLs are named after their URN, so the stem is not in the name. The map was made by
   re-parsing each `.docx` with `../lexml_parser_non_statutory` (`python -m lexml_nonstat parse`)

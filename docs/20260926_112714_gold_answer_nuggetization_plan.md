@@ -355,6 +355,11 @@ covered by `contradicts`.
 
 ### 4.5 Legal-provision score (secondary, D6)
 
+> **Update 2026-09-27 (later):** `references.jsonl` provisions are now parsed from the citation
+> text, with nested LexML `fragment_id`s (`art12_par1_inc2`) and the file that holds them
+> (`docs/20260927_213420_reference_provisions_from_citation_text.md`). The dispositivo level below
+> can match against these ids directly.
+>
 > **Update 2026-09-27:** the gold citations now come from `dataset/references.jsonl` (v2.0).
 > It has one row per (question, cited act), resolved to a corpus `document_id` / `document_urn`
 > with LexML `article_ids`, and the v1.1 reference errors are corrected. 42 references whose act is

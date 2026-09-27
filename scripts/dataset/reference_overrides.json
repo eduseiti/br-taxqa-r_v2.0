@@ -337,5 +337,48 @@
       "document_id": "decreto_9580_20181122",
       "reason": "v1.1 attached the Circular BCB 3.432 file to 'art. 66 do RIR/2018'; the RIR/2018 is Decreto nº 9.580/2018"
     }
+  ],
+  "_comment_citations": "'citations' replaces the provisions parsed from the Q&A citation text (scripts/dataset/citations.py) for one question's reference, identified by question_number + origin + v1.1 file. 'citation' is parsed by the same parser. Used only where the source text cannot be parsed as written; every entry gives the source wording and the reason.",
+  "citations": [
+    {
+      "question_number": "143",
+      "origin": "explicit",
+      "file": "Convenção de Viena, Decreto nº 56.435, de 8 de junho de 1965.txt",
+      "source": "art. 37, 2",
+      "citation": "art. 37, caput, item 2",
+      "reason": "treaty numbering: '37, 2' is numbered paragraph 2 of article 37, which the LexML of decreto_56435_19650608 holds as art37_cpt_ite2"
+    },
+    {
+      "question_number": "144",
+      "origin": "explicit",
+      "file": "Convenção de Viena, Decreto nº 56.435, de 8 de junho de 1965.txt",
+      "source": "art. 37, 2 e 4",
+      "citation": "art. 37, caput, itens 2 e 4",
+      "reason": "treaty numbering: numbered paragraphs 2 and 4 of article 37 (art37_cpt_ite2, art37_cpt_ite4 in the LexML)"
+    },
+    {
+      "question_number": "154",
+      "origin": "explicit",
+      "file": "Decreto nº 86.084.txt",
+      "source": "art. IX, 2",
+      "citation": "art. IX, item 2",
+      "reason": "treaty numbering: numbered paragraph 2 of article IX, written as an item as in the other treaty decrees of the corpus (this decree's LexML has no articles yet)"
+    },
+    {
+      "question_number": "517",
+      "origin": "embedded",
+      "file": "Lei nº 11.524.txt",
+      "source": "o artigo 3º da referida lei … o inciso III do § 1º do mesmo artigo",
+      "citation": "art. 3º; inciso III do § 1º do art. 3º",
+      "reason": "the answer refers to Lei nº 11.524/2007 as 'a referida lei' without naming it in these two citations"
+    },
+    {
+      "question_number": "511",
+      "origin": "explicit",
+      "file": "Instrução Normativa RFB nº 83.txt",
+      "source": "art. 5º; § 2º, inciso III",
+      "citation": "art. 5º e § 2º, inciso III",
+      "reason": "the source separates '§ 2º, inciso III' from 'art. 5º' with ';' (typo for ','); both the article and its § 2º, inciso III are kept"
+    }
   ]
 }

@@ -15,6 +15,13 @@ Outputs (in --out, default ``dataset/``)
   documents.jsonl   one row per document of the v2.0 corpus (original/ + lexml/)
   build_report.json counts, unresolved references and validation results
 
+Provisions (articles, paragraphs, incisos, alíneas, items) are parsed from the citation text of the
+Q&A document (v1.1 ``references`` / ``embedded_references``) by ``citations.py``, which keeps the
+nesting as LexML fragment ids (``art1_cpt_inc10``, ``art12_par1_inc2``). The v1.1 structured lists
+(``formatted_references``) are used only to know which acts a question cites and how they resolve;
+their flat paragraph/inciso lists lost the nesting and are not used. Cases the text cannot express
+as written are in the ``citations`` section of reference_overrides.json.
+
 Every v1.1 reference is resolved to a document stem of ``original/`` by, in order:
   1. a hand-verified entry in reference_overrides.json (may say "not in corpus", drop a single
      question's reference, or reassign a single question's reference to another document);
@@ -36,6 +43,8 @@ from datetime import datetime
 from pathlib import Path
 
 from lxml import etree
+
+from citations import RIR, attribute, chain_units, parse
 
 ROOT = Path(__file__).resolve().parents[2]
 HERE = Path(__file__).resolve().parent
@@ -117,23 +126,33 @@ def clean_list(xs):
     return [re.sub(r"^§+\s*", "", str(x)).strip() for x in (xs or []) if str(x).strip()]
 
 
-def provisions_of(entry):
-    out = []
+def v1_article_ids(entry):
+    """Article ids of a v1.1 entry (used only to cross-check the text-derived provisions)."""
+    ids = []
     for a in entry.get("artigos") or []:
         a = a if isinstance(a, dict) else {"artigo": str(a)}
-        out.append({
-            "article": (a.get("artigo") or "").strip() or None,
-            "article_ids": article_ids(a.get("artigo")),
-            "paragraphs": clean_list(a.get("parágrafos")),
-            "incisos": clean_list(a.get("incisos")),
-            "alineas": clean_list(a.get("alíneas")),
-            "items": clean_list(a.get("itens")) + clean_list(a.get("detalhes")),
-        })
-    # a few v1.1 entries carry paragraphs/incisos/items outside any article
-    if any(entry.get(k) for k in ("parágrafos", "incisos", "itens")):
-        out.append({"article": None, "article_ids": [], "paragraphs": clean_list(entry.get("parágrafos")),
-                    "incisos": clean_list(entry.get("incisos")), "alineas": [],
-                    "items": clean_list(entry.get("itens"))})
+        ids += [i for i in article_ids(a.get("artigo")) if i not in ids]
+    return ids
+
+
+def locate(fragment, doc_ids, prefer_annex):
+    """LexML file of the document that holds ``fragment``: main file first, or the annex files first
+    when the citation is to an annex or to the RIR/2018 (the annex of Decreto nº 9.580). None if absent."""
+    main_file, main_ids, annexes = doc_ids
+    order = list(annexes.items()) + [(main_file, main_ids)] if prefer_annex else [(main_file, main_ids)] + list(annexes.items())
+    return next((f for f, ids in order if fragment in ids), None)
+
+
+def provisions_from(units, doc_ids, cited_title):
+    """Rows of ``provisions``: one per cited unit, with its nested LexML fragment id and the file holding it."""
+    out = []
+    for u in units:
+        frag = u.fragment_id
+        found = None
+        if frag and doc_ids:
+            found = locate(frag, doc_ids, prefer_annex=bool(u.annex) or bool(RIR.search(cited_title or "")))
+        out.append({"label": u.label, "article_id": u.article_id, "fragment_id": frag, "annex": u.annex,
+                    "lexml_file": found})
     return out
 
 
@@ -171,7 +190,8 @@ def load_documents():
                 "lexml_file": str(lexml.relative_to(ROOT)),
                 "lexml_annex_files": sorted({str(p.relative_to(ROOT)) for p in annexes}),
             }
-            ids[stem] = (xml_ids, set().union(*(xml_info(p)[2] for p in annexes)))
+            ids[stem] = (docs[stem]["lexml_file"], xml_ids,
+                         {str(p.relative_to(ROOT)): xml_info(p)[2] for p in annexes})
     return docs, ids
 
 
@@ -207,6 +227,8 @@ def main():
     ov_all = json.load(open(HERE / "reference_overrides.json", encoding="utf-8"))
     overrides = ov_all["files"]
     drops = {(d["question_number"], d["file"]): d["reason"] for d in ov_all["drop"]}
+    # (question, origin, file) -> citation text replacing the parsed provisions
+    cite_ov = {(c["question_number"], c["origin"], c["file"]): c for c in ov_all.get("citations", [])}
     # (question, file, cited title) -> document: v1.1 attached the wrong file to that one citation
     reassign = {(d["question_number"], d["file"], d["cited_title"]): (d["document_id"], d["reason"])
                 for d in ov_all.get("reassign", [])}
@@ -223,18 +245,22 @@ def main():
     if unresolved:
         sys.exit("unresolved v1.1 file names (add them to reference_overrides.json):\n  " + "\n  ".join(unresolved))
 
-    q_rows, r_rows, dropped, skipped_empty = [], [], [], []
+    q_rows, r_rows, dropped, skipped_empty, orphans, v1_only = [], [], [], [], [], []
     doc_questions, doc_v1files = defaultdict(set), defaultdict(set)
     for q in questions:
         qn = q["question_number"]
         k = 0
         q_docs = set()
-        for origin, field in (("explicit", "formatted_references"), ("embedded", "formatted_embedded_references")):
-            for e in q[field] or []:
+        for origin, field, raw in (("explicit", "formatted_references", "references"),
+                                   ("embedded", "formatted_embedded_references", "embedded_references")):
+            entries = [e for e in q[field] or [] if e.get("file")]
+            skipped_empty += [{"question_number": qn, "field": field, "entry": e} for e in q[field] or [] if not e.get("file")]
+            atts, orph = attribute([e.get("título") or "" for e in entries], q[raw], continuation=origin == "explicit")
+            overridden = {f for (qq, o, f) in cite_ov if qq == qn and o == origin}
+            orphans += [{"question_number": qn, "origin": origin, "chain": c.text, "text": re.sub(r"\s+", " ", t)}
+                        for t, c in orph if not overridden]
+            for e, att in zip(entries, atts):
                 fname = e.get("file")
-                if not fname:
-                    skipped_empty.append({"question_number": qn, "field": field, "entry": e})
-                    continue
                 if (qn, fname) in drops:
                     dropped.append({"question_number": qn, "origin": origin, "cited_title": e.get("título"),
                                     "v1_file": fname, "reason": drops[(qn, fname)]})
@@ -242,7 +268,15 @@ def main():
                 doc_id, how, note = resolved[fname]
                 if (qn, fname, e.get("título")) in reassign:
                     (doc_id, note), how = reassign[(qn, fname, e.get("título"))], "override"
+                ov = cite_ov.get((qn, origin, fname))
+                units = parse(ov["citation"]) if ov else [u for ch in att.chains for u in chain_units(ch)]
+                provisions = provisions_from(units, xml_ids.get(doc_id), e.get("título"))
+                art_ids = list(dict.fromkeys(p["article_id"] for p in provisions if p["article_id"]))
                 k += 1
+                missing_v1 = [a for a in v1_article_ids(e) if a not in art_ids]
+                if missing_v1:
+                    v1_only.append({"reference_id": f"{qn}-{k:02d}", "cited_title": e.get("título"),
+                                    "v1_article_ids": missing_v1, "citation_text": att.pieces})
                 r_rows.append({
                     "reference_id": f"{qn}-{k:02d}",
                     "question_number": qn,
@@ -252,8 +286,11 @@ def main():
                     "document_urn": docs[doc_id]["urn"] if doc_id else None,
                     "resolution": how,
                     "resolution_note": note,
-                    "provisions": provisions_of(e),
-                    "annexes": clean_list(e.get("anexos")),
+                    "citation_text": att.pieces,
+                    "article_ids": art_ids,
+                    "provisions": provisions,
+                    "provisions_note": ov["reason"] if ov else None,
+                    "annexes": list(dict.fromkeys(clean_list(e.get("anexos")) + [p["annex"] for p in provisions if p["annex"] and not p["article_id"]])),
                     "v1_file": fname,
                 })
                 if doc_id:
@@ -279,20 +316,30 @@ def main():
 
     # ------------------------------------------------------------ validation
     art_total = art_found = art_in_annex = 0
-    art_missing = []
+    art_missing, frag_missing = [], []
+    frag_counts = Counter()
     for r in r_rows:
         if not r["document_id"]:
             continue
+        main_file, main_ids, annexes = xml_ids[r["document_id"]]
+        annex_ids = set().union(*annexes.values()) if annexes else set()
+        for aid in r["article_ids"]:
+            art_total += 1
+            if aid in main_ids:
+                art_found += 1
+            elif aid in annex_ids:
+                art_in_annex += 1
+            else:
+                art_missing.append((r["reference_id"], r["document_id"], aid))
         for p in r["provisions"]:
-            for aid in p["article_ids"]:
-                art_total += 1
-                main_ids, annex_ids = xml_ids[r["document_id"]]
-                if aid in main_ids:
-                    art_found += 1
-                elif aid in annex_ids:
-                    art_in_annex += 1
-                else:
-                    art_missing.append((r["reference_id"], r["document_id"], aid))
+            if not p["fragment_id"]:
+                frag_counts["without_id"] += 1
+            elif p["lexml_file"] is None:
+                frag_counts["missing"] += 1
+                frag_missing.append({"reference_id": r["reference_id"], "document_id": r["document_id"],
+                                     "label": p["label"], "fragment_id": p["fragment_id"]})
+            else:
+                frag_counts["found_in_main" if p["lexml_file"] == main_file else "found_in_annex"] += 1
     chunk_urns = set()
     with gzip.open(args.chunks, "rt", encoding="utf-8") as fh:
         for row in csv.DictReader(fh):
@@ -310,6 +357,7 @@ def main():
         "git": {"commit": commit, "dirty": dirty},
         "inputs_sha256": {"questions": sha256(args.questions), "canonical": sha256(args.canonical),
                           "reference_overrides": sha256(HERE / "reference_overrides.json"),
+                          "citations_py": sha256(HERE / "citations.py"),
                           "nonstat_lexml_map": sha256(HERE / "nonstat_lexml_map.tsv")},
         "counts": {
             "questions": len(q_rows),
@@ -332,6 +380,10 @@ def main():
             "article_ids_found_in_main_xml": art_found,
             "article_ids_found_only_in_annex_xml": art_in_annex,
             "article_ids_missing": [{"reference_id": a, "document_id": b, "article_id": c} for a, b, c in art_missing],
+            "provisions": dict(frag_counts),
+            "fragment_ids_missing": frag_missing,
+            "citation_chains_not_attributed": orphans,
+            "v1_article_ids_not_in_citation_text": v1_only,
             "documents_without_chunks": sorted(d["document_id"] for d in d_rows if d["urn"] not in chunk_urns),
             "cited_documents_without_chunks": sorted(d["document_id"] for d in d_rows if d["n_questions"] and d["urn"] not in chunk_urns),
             "duplicate_urns": {u: sorted(d["document_id"] for d in d_rows if d["urn"] == u) for u, n in urn_count.items() if n > 1},
@@ -348,7 +400,10 @@ def main():
     c = report["counts"]
     print(f"questions {c['questions']}  references {c['references']} {dict(c['references_by_resolution'])}  "
           f"documents {c['documents']} (cited {c['documents_cited']})  dropped {len(dropped)}  "
-          f"articles found {art_found}+{art_in_annex} (annex)/{art_total}")
+          f"articles found {art_found}+{art_in_annex} (annex)/{art_total}  provisions {dict(frag_counts)}")
+    if orphans:
+        sys.exit(f"{len(orphans)} citation chains not attributed to any reference (build_report.json -> "
+                 "validation.citation_chains_not_attributed); add a 'citations' override")
 
 
 if __name__ == "__main__":
