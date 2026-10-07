@@ -199,11 +199,6 @@
       "status": "not_in_corpus",
       "reason": "cited SC Cosit nº 140, de 21/09/2021 is not in the corpus; the automatic match sc_cosit_140_20230714 is SC Cosit nº 140/2023, IRPJ lucro presumido ICMS-DIFAL, a different act"
     },
-    "Solução de Consulta Interna Cosit nº 27, de 7 de julho de 2008.txt": {
-      "document_id": null,
-      "status": "not_in_corpus",
-      "reason": "cited SCI Cosit nº 27, de 07/07/2008 is not in the corpus; the automatic match sd_cosit_27_20080530 is Solução de Divergência Cosit nº 27/2008, IRRF/Cide on remittances abroad, a different act"
-    },
     "Lei nº 8.794.txt": {
       "document_id": null,
       "status": "not_in_corpus",
@@ -290,6 +285,11 @@
       "question_number": "277",
       "file": "Solução de Consulta Interna Cosit nº 5, de 28 de março de 2006.txt",
       "reason": "user fix: no such act exists; v1.1 held the unrelated Ato Declaratório Executivo Cosit nº 5, de 24/02/2006"
+    },
+    {
+      "question_number": "187",
+      "file": "Solução de Consulta Interna Cosit nº 27, de 7 de julho de 2008.txt",
+      "reason": "user fix (2026-10-07): SCI Cosit nº 27, de 07/07/2008 cannot be found; v1/v2 matched the unrelated Solução de Divergência Cosit nº 27, de 30/05/2008, and the fetched SCI Cosit nº 24, de 27/06/2008 is a different act"
     },
     {
       "question_number": "025",
