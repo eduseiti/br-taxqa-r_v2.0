@@ -1,15 +1,16 @@
 # Corpus Fixes and Full Rebuild Plan (LexML → segmentation → dataset → embeddings → RAG)
 
 **Generated:** 2026-10-07 18:08:33 (local time, from `date +%Y%m%d_%H%M%S`)
-**Status:** plan. **Updated 2026-10-07** after four rounds of user review (§8): B1, B2 and B3 done;
+**Status:** plan. **Updated 2026-10-07** after five rounds of user review (§8): B1, B2 and B3 done;
 fix 3 (Q187) added; PDF route tested; the user's `.docx` repairs for item 2 checked by re-parsing
-(§3.1.1). Everything else is still to do.
+(§3.1.1); the §1.2 removals (D3) done and Resolução TSE nº 22.250/2006 fetched (commit `7c44d73`).
+Everything else is still to do.
 **Builds on:** `docs/20260927_180401_dataset_v2_format_and_reference_fixes.md` (**the dataset note**;
 §5.2, §7) and `docs/20261005_184116_segmentation_s3_vs_lima_ementa_and_caput_strategy_plan.md`
 (**the caput plan**; D-A, D-B, C1–C10).
 **Trigger:** the user's corrections to `original/` in commits `1db1c58` (Resolução TSE 22.205
 renamed) and `ce032e6` (22 wrong documents replaced, Diat added, 11 documents moved to
-`original/nao_articulados`).
+`original/nao_articulados`), then `a575acc` and `7c44d73` (the follow-ups listed in §8).
 
 ---
 
@@ -48,8 +49,8 @@ It also covers:
 
 | Change | Files |
 |---|---|
-| Replaced in `articulados/` | `ade_rfb_3_20240402` → `adi_rfb_3_20160427`; added `decreto-lei_8794_19460123` (but `lei_8794_19931221` is still there, see 1.2) |
-| Replaced in `nao_articulados/` (`.docx`) | `ad_pgfn_2_20180403` → `ad_pgfn_2_20160310`; `ad_pgfn_3_20080918` → `ad_pgfn_3_20160330` (**B1**); `pn_cst_38_19801031` → `pn_cst_38_19750324`; `pn_cst_72_nodate` → `pn_cst_72_19791218`; `resol_tse_22_20060523` → `resol_tse_22205_20060523` (rename only) |
+| Replaced in `articulados/` | `ade_rfb_3_20240402` → `adi_rfb_3_20160427`; `lei_8794_19931221` → `decreto_lei_8794_19460123` (added as `decreto-lei_…`, renamed to the `decreto_lei` prefix the build expects, and the old file removed in `7c44d73`; see 1.2) |
+| Replaced in `nao_articulados/` (`.docx`) | `ad_pgfn_2_20180403` → `ad_pgfn_2_20160310`; `ad_pgfn_3_20080918` → `ad_pgfn_3_20160330` (**B1**); `pn_cst_38_19801031` → `pn_cst_38_19750324`; `pn_cst_72_nodate` → `pn_cst_72_19791218`; `resol_tse_22_20060523` → `resol_tse_22205_20060523` (rename only), then → `resol_tse_22250_20060629` (the cited act, fetched by the user; `7c44d73`) |
 | Replaced in `nao_articulados/` (`.odt`, now `.docx`) | `sc_cosit_69_20200624` → `sc_cosit_69_20131230`; `sc_cosit_140_20230714` → `sc_cosit_140_20210921`; `sc_cosit_194_20230829` → `sc_cosit_194_20150805`. Converted by the user; the word counts equal the ODTs' (142/163/179). **Note:** these three hold only the published ementa (DOU), not the full SC text |
 | Replaced in `nao_articulados/` (`.pdf`, renamed to the §1.3 stems) | SC Cosit 7/2017, 50/2020, 64/2014, 75/2020, 123/2021, 166/2019, 173/2015, 179/2023, 183/2014 (replaces `sc_cosit_134_20140602`), 211/2019, 214/2021, 354/2014; SCI Cosit 24/2008 (replaces `sd_cosit_27_20080530`; **B2**) |
 | Added | `documento_de_informacao_e_apuracao_do_ITR_DIAT.docx` |
@@ -63,12 +64,45 @@ cited only through the wrong matches that the new files replace.
 
 ### 1.2 Remaining corpus issues
 
-| Item | State | Proposed action |
+All four were settled by the user in commit `7c44d73` (2026-10-07):
+
+| Item | State | Action |
 |---|---|---|
-| Resolução TSE nº 22.250/2006 (Q438, art. 14) | still not in the corpus; `resol_tse_22205_20060523` is a different act | Keep 438-03 `not_in_corpus`. Fetch 22.250 later. Recommendation: **remove** `resol_tse_22205` (it is cited by no question) |
-| `lei_8794_19931221` | still in `articulados/`, cited by no question (the wrong match for DL 8.794/1946) | **Remove**, like the other wrong matches |
-| `ade_cosit_30_20010723` | cited by no question (the wrong match for "Parecer Cosit nº 30") | **Remove** (it follows from fix 1, §2.1) |
-| `parecer_pgfncat_815_2010_nota_pgfn_crj_981_2015.docx` | a duplicate of `nota_pgfn_981_20151104` (dataset note §7.4) | **Remove** (it follows from fix 2, §2.2) |
+| Resolução TSE nº 22.250/2006 (Q438, art. 14) | `resol_tse_22205_20060523` was a different act | **Done:** `resol_tse_22250_20060629.docx` fetched into `nao_articulados/`; `resol_tse_22205_20060523.docx` removed. **Q438 resolution fixed:** `"resolucao_tse": "resol_tse"` added to `PREFIX` (`build_v2_dataset.py`) and the `not_in_corpus` override deleted (62 `files` entries left). 438-03 now resolves `auto_undated` to `resol_tse_22250_20060629`, and `auto_exact` once R4 sets the canonical record's date (index 344) to 2006-06-29. The file has art. 14. **Moved to `articulados/`** (2026-10-07) after rejoining its hard-wrapped lines, so the statutory parse gives `art1…art50` and `art14` gets its own `Artigo` id (below the table) |
+| `lei_8794_19931221` | cited by no question (the wrong match for DL 8.794/1946) | **Done:** removed. `decreto-lei_8794_19460123.docx` renamed to `decreto_lei_8794_19460123.docx` |
+| `ade_cosit_30_20010723` | cited by no question (the wrong match for "Parecer Cosit nº 30") | **Done:** removed (fix 1, §2.1) |
+| `parecer_pgfncat_815_2010_nota_pgfn_crj_981_2015.docx` | a duplicate of `nota_pgfn_981_20151104` (dataset note §7.4) | **Done:** removed (fix 2, §2.2) |
+
+**Statutory parse of Res. TSE 22.250 (tested 2026-10-07, scratchpad only).** Jar rebuilt from the
+parser's HEAD (`ebf6567`, `mvn -Ponejar package`; the old `phase2.jar` path no longer exists). It
+reproduces `lexml/articulados/lei_9250_19951226.xml` byte for byte.
+
+- **As fetched, it fails.** The `.docx` has a hard break after every printed line (610 paragraphs for
+  50 articles). Wrapped citations that start a line ("9.504/97, art. 24…", "22.") are read as
+  dispositivos, and only 12 articles are top-level; the rest fall into a bogus `anexo1`.
+- **With the lines rejoined, it is clean.** One paragraph per dispositivo (281 paragraphs): a line
+  starts a paragraph only if it begins with a marker (`Art.`, `§`, `Parágrafo único`, `I –`, `a)`,
+  TÍTULO/CAPÍTULO/Seção + title) **and** the previous line ends with `.`, `:` or `;`. Otherwise it is
+  a wrapped citation such as "(Lei nº 9.504/97, art. 28," / "§ 2º).". Result: 0 parser warnings;
+  `art1…art50` in order; 80 parágrafos, 95 incisos, 5 alíneas; 2 títulos, 11 capítulos, 10 seções;
+  `art14` complete; URN `urn:lex:br:tribunal.superior.eleitoral:resolucao:2006-06-29;22250`. All but
+  8 of the 5,938 source words are in the XML (the "Relator …" line is skipped as post-epigraph).
+- **Profile:** `-a tribunal.superior.eleitoral -t resolucao -n 22250 --data 2006-06-29
+  --prof-regex-epigrafe '^resolucao' --prof-regex-pos-epigrafe '^relator' --prof-regex-preambulo
+  '^o tribunal superior eleitoral' --prof-epigrafe-head 'RESOLUÇÃO'`. Without the epigraph regex the
+  parse stops at "Epígrafe ausente"; with `^ementa` in the post-epigraph regex it stops at "Ementa
+  ausente". `batch_parse.py` needs these for the `resol_tse` stem in R3b.
+- **R3b caveat:** in this shell `LANG=en_US.UTF-8` is set but that locale is not installed, so the
+  JVM decodes non-ASCII arguments wrongly (`--prof-epigrafe-head 'RESOLUÇÃO'` → `RESOLU����O`). Run
+  the parser with `LC_ALL=C.UTF-8`. The committed `lexml/` has no replacement characters.
+- **Adopted (2026-10-07):** `original/articulados/resol_tse_22250_20060629.docx` is the rejoined file
+  (moved from `nao_articulados/` with `git mv`; the as-fetched file is in `git` history). It was made
+  with the new `scripts/lexml/rejoin_docx_lines.py`, which moves the runs of each wrapped line into
+  the previous paragraph, so formatting is kept:
+  `python3 scripts/lexml/rejoin_docx_lines.py <fetched>.docx original/articulados/resol_tse_22250_20060629.docx
+  --start '^RESOLUÇÃO' --start '^Relator' --start '^Ementa' --start '^O Tribunal Superior Eleitoral'
+  --start '^Sala de Sessões' --start '^Brasília,'`. Its output has the same paragraph text as the
+  tested version, and the parse is byte-identical (0 warnings).
 
 Removing uncited wrong matches keeps the corpus defined as "documents referred to by the Q&A".
 Leaving them in only adds distractors that no question needs.
@@ -157,7 +191,7 @@ The act does not exist. Only Q313 uses this v1.1 file name, and it is the last r
 |---|---|
 | `scripts/dataset/reference_overrides.json → drop` | add `{"question_number": "313", "file": "Parecer Cosit nº 30, de 28 de setembro de 2001.txt", "reason": "user fix (2026-10-07): no such act exists; v1/v2 matched the unrelated ADE Cosit nº 30, de 23/07/2001 (US dollar rate)"}` |
 | `reference_overrides.json → files` | delete the `"Parecer Cosit nº 30, de 28 de setembro de 2001.txt"` `not_in_corpus` entry (the drop makes it dead; the build should refuse dead overrides, §3.3) |
-| `original/articulados/ade_cosit_30_20010723.docx` + `lexml/articulados/ade_cosit_30_20010723.{xml,err.log}` | remove (§1.2) |
+| `original/articulados/ade_cosit_30_20010723.docx` + `lexml/articulados/ade_cosit_30_20010723.{xml,err.log}` | `.docx` **done** (removed in `7c44d73`); the LexML files go in R2 |
 | `../br-taxqa-document-fetcher/output_canonical/canonical_referred_documents.json` (index 293) | mark the record `"status": "nonexistent_act"`, with `canonical_name: null` and a `correction` field (§3.3) |
 | `dataset/references.jsonl`, `questions.jsonl` (`document_ids`, `n_unresolved_references`: 1 → 0), `build_report.json` (`dropped_references` gains it), `dataset/README.md` counts | regenerated by the build |
 | `docs/20260927_180401_…md` §5.2a table row and §6 counts | append a dated correction note; don't rewrite the row |
@@ -175,7 +209,7 @@ as `249-04` (→ `nota_pgfn_981_20151104`). There are two ways to apply the fix:
 | Place | Change |
 |---|---|
 | `reference_overrides.json → files["Parecer PGFNCAT nº 815 2010.txt"]` | `{"document_id": "nota_pgfn_981_20151104", "reason": "user fix (2026-10-07): the citation is replaced by Nota PGFN/CRJ nº 981/2015 (the document v1 held under this name; also cited as 249-04)"}` |
-| `original/nao_articulados/parecer_pgfncat_815_2010_nota_pgfn_crj_981_2015.docx` | remove (duplicate, dataset note §7.4) |
+| `original/nao_articulados/parecer_pgfncat_815_2010_nota_pgfn_crj_981_2015.docx` | **done** (removed in `7c44d73`; duplicate, dataset note §7.4) |
 | `lexml/nao_articulados/urn_lex_br_ministerio.fazenda_secretaria.receita.federal_sumula_2015_981.xml` and its row in `scripts/dataset/nonstat_lexml_map.tsv` | remove (this is also the wrong URN of item 5) |
 | fetcher canonical record (index 332) | `canonical_name: "Nota PGFN/CRJ nº 981/2015"`, `type_slug: nota_pgfn`, `number: 981`, `correction` field (§3.3) |
 | `dataset/*`, `build_report.json` (`unresolved_references` loses 249-03; Q249 `n_unresolved_references` 1 → 0) | regenerated |
@@ -325,7 +359,9 @@ Consequences:
    - `Solução de Consulta Interna Cosit nº 27…` → `status: "not_found"` (fix 3: the act cannot be
      found; the record's current target, SD Cosit 27/2008, is a different act);
    - `Solução de Consulta Cosit nº 183.txt` → nº **183**, 25/06/2014 (the record had 134);
-   - IN RFB 1.997/2019 (§5.2b) and the Convenção … Nações Unidas (→ `decreto_27784`).
+   - IN RFB 1.997/2019 (§5.2b) and the Convenção … Nações Unidas (→ `decreto_27784`);
+   - `Resolução TSE nº 22.250, de 2006.txt` (index 344) → `date: 2006-06-29` (now in `original/`).
+     The build's `PREFIX` already has `resolucao_tse → resol_tse` (§1.2).
    Also regenerate `output_canonical/by_type/*.md`, and record the change in a dated note in the
    fetcher repo.
 2. **Make this repo trust the corrected list.** Delete from `reference_overrides.json → files` every
@@ -380,9 +416,9 @@ Each step ends with its check. Commit after each **R**-step, so that a failure c
 
 | Step | What | Commands / files | Check |
 |---|---|---|---|
-| **R0** | Decisions (§7) + blocker B4 (B1–B3 done) | §1.2 removals | `git status` shows exactly the intended `original/` changes |
+| **R0** | Decisions (§7) + blocker B4 (B1–B3 done) | §1.2 removals **done** (`7c44d73`) | `git status` shows exactly the intended `original/` changes |
 | **R1** | PDF → cleaned text (§1.3; ODTs already converted) | `scripts/lexml/pdf_to_text.py` → `lexml/nao_articulados/_text/`; `build_v2_dataset.load_documents` globs `*.pdf` too | §1.3 checks (i), (ii) |
-| **R2** | Clean stale LexML | delete `lexml/articulados/{11 moved stems, ade_rfb_3_20240402, ade_cosit_30_20010723, lei_8794_19931221}.*`, and every `lexml/nao_articulados/*.xml` (fully regenerated in R3) | for each folder, the set of `lexml` stems equals the set of `original` stems |
+| **R2** | Clean stale LexML | delete `lexml/articulados/{11 moved stems, ade_rfb_3_20240402, ade_cosit_30_20010723, lei_8794_19931221}.*` (`decreto_lei_8794_19460123` and `resol_tse_22250_20060629` are new and parsed in R3b; the latter with the TSE profile of §1.2 and `LC_ALL=C.UTF-8`), and every `lexml/nao_articulados/*.xml` (fully regenerated in R3) | for each folder, the set of `lexml` stems equals the set of `original` stems |
 | **R3a** | `.docx` repairs for item 2: MP 2.158-35, Lei 11.941 and Decreto 59.566 **done**; Lei 6.404 and Lei 13.043 **done** (Lei 13.043 heading typos optional); then the repairs that the audit finds | edit the `.docx` (pre-edit copies stay in `git` history; list the edits in the results note) | §3.1.1 re-parse check per document: top-level ids = `.docx` article labels, no duplicate-label warnings |
 | **R3b** | Re-parse **statutory**: all of `original/articulados` (≈ 205 stems), with a pinned, reproducible jar | `../lexml-parser-projeto-lei/scripts/batch_parse.py` with a pinned jar: the old logs point at `phase2.jar` in another session's scratchpad (`/tmp/claude-0/-work-unicamp-articles-RAG-evaluation-lexml-parser-projeto-lei/…/phase2.jar`, still present and used for the §3.1.1 check). Copy it to a stable path, or rebuild it from the parser repo's commit and check that both produce identical XML, and record its SHA-256 in `lexml/articulados/PARSER_VERSION`, `--prof-regex-justificativa` never-match (2b), `--linker /usr/local/bin/linkertool` | `skipped_report.txt` reviewed; `audit_article_coverage.py` (§3.1) passes or lists `unmatchable` |
 | **R3c** | Re-parse **non-statutory**: all of `original/nao_articulados` (≈ 247 stems), declared URNs (§3.2) | `python -m lexml_nonstat parse -o lexml/nao_articulados/ …` + `fix_nonstat_urns.py` until `--urn` exists upstream; regenerate `scripts/dataset/nonstat_lexml_map.tsv` from the output | XSD-valid; URN = `nonstat_metadata.tsv`; linker round trip (§3.2 step 3) |
@@ -396,15 +432,15 @@ Each step ends with its check. Commit after each **R**-step, so that a failure c
 
 **Expected dataset deltas after R5** (to check, not to force):
 
-- `not_in_corpus`: 42 → **1** reference: 438-03 (Res. TSE 22.250/2006). 249-03 is re-pointed
-  (fix 2), 313-06 and 187-02 are dropped (fixes 1 and 3), and the other 38 resolve
+- `not_in_corpus`: 42 → **0**. 249-03 is re-pointed (fix 2), 313-06 and 187-02 are dropped
+  (fixes 1 and 3), 438-03 resolves to `resol_tse_22250_20060629` (§1.2), and the other 38 resolve
   `auto_exact` to the new documents (SCs, ADs, ADI 3/2016, DL 8.794/1946, PN CST 38/1975 and
   72/1979, Diat).
-- Questions with ≥ 1 unresolved reference: 37 → 1 (Q438).
+- Questions with ≥ 1 unresolved reference: 37 → **0** (Q438 included).
 - Dropped references: 7 → **9** (+ 313-06, 187-02).
 - Q179 unchanged (B1 restored); Q249 and Q313 `n_unresolved_references` → 0.
-- Corpus documents: 459 → **457**. After B1 and B2, `original/` holds 461 files (`.docx` + `.pdf` +
-  `.odt`); then −4 (D3 removals).
+- Corpus documents: 459 → **458**. After B1 and B2, `original/` held 461 files (`.docx` + `.pdf`);
+  `7c44d73` removed 4 (D3) and added Res. TSE 22.250, so it now holds **458**.
 - `article_ids_missing`: 28 → only the `unmatchable` list.
 
 ---
@@ -430,7 +466,7 @@ Each step ends with its check. Commit after each **R**-step, so that a failure c
 |---|---|---|
 | D1 | B1: restore `ad_pgfn_3_20080918` (Q179)? | **Decided: yes, done** |
 | D2 | B2: SCI 24/2008 PDF and Q187 | **Decided:** PDF removed; 187-02 dropped (fix 3) |
-| D3 | Remove the uncited wrong matches (`lei_8794_19931221`, `ade_cosit_30_20010723`, `resol_tse_22205_20060523`) and the Nota-981 duplicate? | **Yes** |
+| D3 | Remove the uncited wrong matches (`lei_8794_19931221`, `ade_cosit_30_20010723`, `resol_tse_22205_20060523`) and the Nota-981 duplicate? | **Decided: yes, done** (`7c44d73`); Res. TSE 22.250 fetched as well |
 | D4 | Q249: re-point 249-03 (a) or drop it (b)? | **(a)**, stable ids |
 | D5 | MP 2.158-35 art. 24 and other revoked articles: keep them as text marked "revogado" (2a)? | **Done for MP 2.158-35** (the user used a source without strike runs). For other documents, the audit decides; whatever the source, each article must appear once, in its 2023 wording |
 | D6 | Lei 13.043 art. 16 (2e): add the DOU text, or mark it unmatchable? | **Done** (Planalto source). The remaining Lei 13.043 items are in §3.1.1 |
@@ -483,3 +519,31 @@ Each step ends with its check. Commit after each **R**-step, so that a failure c
   duplicate ids, 0 duplicate-label warnings. All five item-2 `.docx` repairs are done.
 - To confirm: the art. 22 § 1º wording kept is the first one ("…referido no caput poderá variar…").
 - Optional: heading typos in Lei 13.043 ("D a …", "Do s …", "REPÚBLIC A").
+
+**2026-10-07, fifth review (§1.2 removals, commit `7c44d73`):**
+
+- `decreto-lei_8794_19460123.docx` renamed to `decreto_lei_8794_19460123.docx` (the build's
+  `decreto_lei` prefix; the hyphenated name would not have resolved).
+- Removed: `lei_8794_19931221.docx`, `ade_cosit_30_20010723.docx`,
+  `parecer_pgfncat_815_2010_nota_pgfn_crj_981_2015.docx`, `resol_tse_22205_20060523.docx`.
+- Added: `resol_tse_22250_20060629.docx` (`nao_articulados/`), the act Q438 cites. `original/` now
+  holds 458 files.
+- Q438: `resolucao_tse → resol_tse` added to the build's `PREFIX`, and the `not_in_corpus` override
+  deleted. `resolve()` returns `resol_tse_22250_20060629` (`auto_undated`); the
+  `port_conj_tse_srf_74` record is unaffected; `scripts/dataset/tests` pass (36). Open: the act sits
+  in `nao_articulados/`, so `art14` will lack an `Artigo` id (§1.2).
+- D3 done. The stale LexML of the removed documents (including
+  `…resolucao.tse_2006-05-23_22205.xml` and `…sumula_2015_981.xml`) is deleted in R2 (B4).
+- The commit also added the Word lock file `original/articulados/.~lock.lei_13043_20141113_fix.docx#`,
+  which is already deleted in the working tree; commit that deletion (and consider a `.~lock.*`
+  entry in `.gitignore`).
+
+**2026-10-07, sixth review (Res. TSE 22.250 to the statutory path):**
+
+- The as-fetched `.docx` breaks the statutory parse (hard line breaks; 12 of 50 articles top-level).
+  Rejoined with the new `scripts/lexml/rejoin_docx_lines.py` and moved to
+  `original/articulados/resol_tse_22250_20060629.docx`. Parse check: 0 warnings, `art1…art50`, `art14`
+  complete (§1.2). `resolve()` still returns it for 438-03.
+- The parser jar for R3b can be rebuilt from `../lexml-parser-projeto-lei` HEAD (`ebf6567`) with
+  `mvn -Ponejar package`; it reproduces `lei_9250_19951226.xml` byte for byte. The `phase2.jar` path
+  in the `.err.log` files no longer exists.

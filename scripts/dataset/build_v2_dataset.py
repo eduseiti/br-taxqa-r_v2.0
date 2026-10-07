@@ -64,7 +64,7 @@ PREFIX = {
     "parecer_cosit": "par_cosit", "parecer_normativo": "pn_cst", "parecer_normativo_cosit": "pn_cosit",
     "parecer_normativo_cst": "pn_cst", "parecer_pgfn": "par_pgfn",
     "portaria_conjunta": "port_conj_tse_srf", "portaria_mf": "port_mf",
-    "resolucao_cgpc": "resol_cgpc", "resolucao_cgsn": "resol_cgsn",
+    "resolucao_cgpc": "resol_cgpc", "resolucao_cgsn": "resol_cgsn", "resolucao_tse": "resol_tse",
     "solucao_de_consulta": "sc", "solucao_de_consulta_cosit": "sc_cosit",
     "solucao_de_consulta_interna_cosit": "sci_cosit", "solucao_de_divergencia_cosit": "sd_cosit",
 }
