@@ -1,9 +1,9 @@
 {
- "timestamp": "2026-09-25T16:17:43",
+ "timestamp": "2026-10-08T00:41:16",
  "ok": true,
  "run": {
-  "timestamp": "2026-09-25T16:16:30",
-  "command": "python scripts/segmentation/segment_all.py --jobs 16 --overwrite",
+  "timestamp": "2026-10-08T00:40:48",
+  "command": "python scripts/segmentation/segment_all.py --jobs 16 --overwrite --allow-count-change --variants caput --frozen /tmp/claude-0/-work-doutorado-artigos-RAG-evaluation-br-taxqa-r-v2-0/24a96df7-849b-42d8-8bd9-be98b91c2eda/scratchpad/frozen/chunks_all.csv.gz --frozen-lexml-rev 0ce50c5",
   "flags": {
    "only": null,
    "overwrite": true,
@@ -12,43 +12,48 @@
    "tokenizer": "max:tiktoken:cl100k_base,hf:Qwen/Qwen3-Embedding-4B",
    "ementa_max_tokens": 128,
    "keep_dropped_min_chars": 300,
-   "allow_count_change": false,
-   "out_dir": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/segmented",
+   "allow_count_change": true,
+   "out_dir": "/work/doutorado/artigos/RAG_evaluation/br-taxqa-r_v2.0/segmented",
    "grouping_max_tokens": 8192,
-   "skip_validation": false
+   "skip_validation": false,
+   "variants": "caput",
+   "frozen": "/tmp/claude-0/-work-doutorado-artigos-RAG-evaluation-br-taxqa-r-v2-0/24a96df7-849b-42d8-8bd9-be98b91c2eda/scratchpad/frozen/chunks_all.csv.gz",
+   "frozen_lexml_rev": "0ce50c5"
   },
   "saxon": "SaxonC-HE 13.0 from Saxonica",
   "annex_counts": {
    "A": 12,
    "B": 50,
-   "C": 181
+   "C": 179
   },
   "timings": {
-   "1_router_s": 14.8,
-   "2_metadata_s": 4.9,
-   "3_xsl_s": 33.0,
-   "3b_4_split_loose_s": 15.2,
-   "5_non_statutory_s": 8.8,
-   "6_merge_s": 21.3,
-   "total_s": 98.9
+   "1_router_s": 1.8,
+   "2_metadata_s": 1.5,
+   "3_xsl_s": 25.4,
+   "3b_4_split_loose_s": 9.1,
+   "5_non_statutory_s": 4.5,
+   "6_merge_s": 19.2,
+   "total_s": 62.2
   },
   "git": {
-   "commit": "ecd68e5b049efb5e6f764086d1093f5638eed36b",
+   "commit": "bf79a583e23bd114d93cba7dcc20b8d6789fddde",
    "branch": "main",
-   "dirty": false,
-   "dirty_files": []
+   "dirty": true,
+   "dirty_files": [
+    "M scripts/segmentation/README.md"
+   ]
   },
   "outputs_sha256": {
-   "chunks_all.csv": "fcacf9a46545f15a3e5cc682ae7d9b057f80c395944e523142d9dfb8055dde37",
-   "chunks_all.csv.gz": "f3db09046bb475bfcab1dfe84f4805a40a8fcd2629f252577c3aa492d1855f9b",
-   "groupings_over_limit.csv": "2b8c9416d73a52910293f456749611f572c107a2628ea45253140b1bddb40061",
-   "annex_manifest.csv": "557fcb053e3d80e12013bee2f439fe990fad60289c859ce8b3f7fec5990d1c60"
+   "chunks_all.csv": "9ddfa9abb25a18e8bd13aa5980745c306c9f91de4c0005ff98adf38fa6e2c876",
+   "chunks_all.csv.gz": "d1b9cf7e2dbbdaa269c332bf7e5ac4b70f8d465a417a7e71c58d7ff1dcb525ff",
+   "groupings_over_limit.csv": "7c754784db0c1bf164c05546856a4dc5a4ff27ab36cc369d17419dcfe14c3bea",
+   "annex_manifest.csv": "2d87cb3a8e40d6c988113a4576ed010f7c11044553632ba384707e4c0395076d"
   }
  },
  "checks": {
   "csv_schema": {
    "ok": true,
-   "detail": "chunks_all columns = 27 (6 + 3 + 14 provenance + 3 token counts + texto_sha256)",
+   "detail": "chunks_all columns = 29 (6 + 3 + 16 provenance + 3 token counts + texto_sha256)",
    "examples": []
   },
   "non_empty": {
@@ -109,8 +114,8 @@
    "examples": [],
    "uncuttable": [
     {
-     "arquivo": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_portaria_2012_1114.xml",
-     "chunk_id": "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_portaria_2012_1114#39",
+     "arquivo": "urn_lex_br_procuradoria.geral.fazenda.nacional_nota_2012_1114.xml",
+     "chunk_id": "urn_lex_br_procuradoria.geral.fazenda.nacional_nota_2012_1114#39",
      "tokens": 1163,
      "flagged": true
     }
@@ -141,39 +146,217 @@
    "over_limit_in_chunks_all": 0,
    "listed_and_in_chunks_all": 0,
    "examples": []
+  },
+  "variant_twins": {
+   "ok": true,
+   "count": 0,
+   "variants": 30166,
+   "examples": []
+  },
+  "base_no_caput": {
+   "ok": true,
+   "count": 0,
+   "examples": []
+  },
+  "diff_vs_frozen": {
+   "ok": true,
+   "report_only": true,
+   "lexml_rev": "0ce50c5",
+   "files_unchanged_lexml": 569,
+   "files_changed_or_new_or_removed": 147,
+   "rows_compared": 75979,
+   "rows_text_differs": 0,
+   "rows_only_new": 0,
+   "rows_only_frozen": 0,
+   "examples": [],
+   "changed_files": [
+    "ade_cosit_30_20010723.xml",
+    "ade_rfb_3_20240402.anexo1.xml",
+    "ade_rfb_3_20240402.anexo2.xml",
+    "ade_rfb_3_20240402.anexo3.xml",
+    "ade_rfb_3_20240402.xml",
+    "adi_rfb_3_20160427.xml",
+    "decreto_59566_19661114.xml",
+    "decreto_9580_20181122.anexo1.xml",
+    "decreto_lei_8794_19460123.xml",
+    "lei_10833_20031229.xml",
+    "lei_11941_20090527.xml",
+    "lei_13043_20141113.xml",
+    "lei_6404_19761215.xml",
+    "lei_8242_19911012.anexo1.xml",
+    "lei_8794_19931221.xml",
+    "lei_9504_19970930.xml",
+    "mp_2158-35_20010824.anexo1.xml",
+    "mp_2158-35_20010824.anexo2.xml",
+    "mp_2158-35_20010824.xml",
+    "mp_2189-49_20010823.xml",
+    "resol_tse_22250_20060629.xml",
+    "urn_lex_br_congresso.nacional_ato.declaratorio_2005-10-14_38.xml",
+    "urn_lex_br_congresso.nacional_ato.declaratorio_2005_38.xml",
+    "urn_lex_br_federal_decreto_1950-02-16_27784.xml",
+    "urn_lex_br_federal_decreto_1966-09-23_59308.xml",
+    "urn_lex_br_federal_decreto_1966-09-23_59309.xml",
+    "urn_lex_br_federal_decreto_1968-01-16_62125.xml",
+    "urn_lex_br_federal_decreto_1968-08-22_63151.xml",
+    "urn_lex_br_federal_decreto_1981-03-10_85801.xml",
+    "urn_lex_br_federal_decreto_1981-05-14_86006.xml",
+    "urn_lex_br_federal_decreto_1981-06-08_86084.xml",
+    "urn_lex_br_federal_decreto_1986-08-22_93153.xml",
+    "urn_lex_br_federal_parecer_2010_1503.xml",
+    "urn_lex_br_federal_solucao.consulta_2019-03-25_6007.xml",
+    "urn_lex_br_ministerio.fazenda_parecer_2008_2683.xml",
+    "urn_lex_br_ministerio.fazenda_portaria_1979-03-01_80.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_ato.declaratorio_1978-07-13_11.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_ato.declaratorio_1979-07-27_16.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_ato.declaratorio_1979-12-20_84.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_instrucao.normativa_1979-12-20_84.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_instrucao.normativa_1983-03-25_23.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_instrucao.normativa_1988-04-21_67.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1971-03-15_250.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1973-09-13_129.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1975-03-24_38.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1975-06-30_72.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1976-03-31_25.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1976-06-30_44.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1976-09-14_68.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1977-05-30_36.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1978-10-16_90.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1979-12-18_72.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1980-10-31_38.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_1981-08-17_32.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_2000-06-29_26.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_2008_1888.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_2011_2118.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_2016_701.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_parecer_2021_10167.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_portaria_2012_1114.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_servico_2026_diat.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta.interna_2012-06-28_11.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta.interna_2014-01-14_2.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2013-12-30_69.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2014-03-07_64.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2014-03-31_81.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2014-06-02_134.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2014-06-25_183.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2014-12-17_354.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2015-07-03_173.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2015-08-05_194.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2017-01-13_7.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2017-05-26_261.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2017-07-06_354.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2018-09-26_152.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2018-09-26_164.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2019-03-25_6007.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2019-05-28_166.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2019-06-24_211.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2019-09-25_264.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2020-06-22_50.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2020-06-24_69.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2020-06-25_75.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2020-07-29_92.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2020-09-28_114.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2020-12-08_138.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2021-03-04_7.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2021-03-24_48.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2021-09-13_123.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2021-09-21_140.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2021-09-24_157.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2021-12-16_209.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2021-12-20_214.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2021-12-22_221.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2022-04-20_17.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2023-03-31_75.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2023-04-04_82.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2023-06-23_123.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2023-07-14_140.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2023-08-07_159.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2023-08-07_161.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2023-08-07_166.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2023-08-11_173.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2023-08-16_179.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2023-08-29_194.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2023-09-04_204.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2023-09-21_218.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2023-09-25_224.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2023-10-30_264.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2024-03-22_50.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2024-03-26_64.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2024-06-24_179.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2024-07-16_211.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.consulta_2024-07-19_214.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.divergencia_2008-05-30_27.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_solucao.divergencia_2012-09-27_16.xml",
+    "urn_lex_br_ministerio.fazenda_secretaria.receita.federal_sumula_2015_981.xml",
+    "urn_lex_br_procuradoria.geral.fazenda.nacional_ato.declaratorio_2014-01-02_1.xml",
+    "urn_lex_br_procuradoria.geral.fazenda.nacional_ato.declaratorio_2016-03-10_2.xml",
+    "urn_lex_br_procuradoria.geral.fazenda.nacional_ato.declaratorio_2016-03-30_3.xml",
+    "urn_lex_br_procuradoria.geral.fazenda.nacional_ato.declaratorio_2018-04-03_2.xml",
+    "urn_lex_br_procuradoria.geral.fazenda.nacional_despacho.pgfn_2020-11-05_348.xml",
+    "urn_lex_br_procuradoria.geral.fazenda.nacional_nota.pgfn_2015-11-04_981.xml",
+    "urn_lex_br_procuradoria.geral.fazenda.nacional_nota.pgfn_2015_1040.xml",
+    "urn_lex_br_procuradoria.geral.fazenda.nacional_nota.pgfn_2018_48.xml",
+    "urn_lex_br_procuradoria.geral.fazenda.nacional_nota_2012_1114.xml",
+    "urn_lex_br_procuradoria.geral.fazenda.nacional_nota_2015-11-04_981.xml",
+    "urn_lex_br_procuradoria.geral.fazenda.nacional_nota_2015_1040.xml",
+    "urn_lex_br_procuradoria.geral.fazenda.nacional_nota_2017-10-11_1104.xml",
+    "urn_lex_br_procuradoria.geral.fazenda.nacional_nota_2018_48.xml",
+    "urn_lex_br_procuradoria.geral.fazenda.nacional_parecer_2008_1888.xml",
+    "urn_lex_br_procuradoria.geral.fazenda.nacional_parecer_2008_2683.xml",
+    "urn_lex_br_procuradoria.geral.fazenda.nacional_parecer_2010_1503.xml",
+    "urn_lex_br_procuradoria.geral.fazenda.nacional_parecer_2011_2118.xml",
+    "urn_lex_br_procuradoria.geral.fazenda.nacional_parecer_2013-12-10_2271.xml",
+    "urn_lex_br_procuradoria.geral.fazenda.nacional_parecer_2016_701.xml",
+    "urn_lex_br_procuradoria.geral.fazenda.nacional_parecer_2018_110.xml",
+    "urn_lex_br_procuradoria.geral.fazenda.nacional_parecer_2021_10167.xml",
+    "urn_lex_br_procuradoria.geral.fazenda.nacional_parecer_2022-11-10_15069.xml",
+    "urn_lex_br_superior.tribunal.justica_parecer_2013-12-10_2271.xml",
+    "urn_lex_br_superior.tribunal.justica_parecer_2018_110.xml",
+    "urn_lex_br_superior.tribunal.justica_parecer_2022-11-10_15069.xml",
+    "urn_lex_br_superior.tribunal.justica_solucao.consulta_2017-10-11_1104.xml",
+    "urn_lex_br_superior.tribunal.justica_sumula_1994-12-06_125.xml",
+    "urn_lex_br_supremo.tribunal.federal_plenario_acordao_adi_2021-05-17_5583.xml",
+    "urn_lex_br_supremo.tribunal.federal_plenario_acordao_adi_2022-06-06_5422.xml",
+    "urn_lex_br_tribunal.superior.eleitoral_resolucao.tse_2006-05-23_22205.xml"
+   ]
   }
  },
  "stats": {
-  "rows_total": 87702,
+  "rows_total": 88600,
   "rows_per_tipo": {
-   "PAR": 21511,
-   "INC": 20617,
-   "ART": 20477,
-   "CPT": 8084,
-   "ALI": 4878,
-   "TXT": 3545,
-   "SEC": 2106,
-   "CAP": 1843,
-   "DSP": 1522,
-   "ITE": 1302,
+   "PAR": 21813,
+   "INC": 20867,
+   "ART": 20662,
+   "CPT": 8209,
+   "ALI": 4938,
+   "TXT": 3497,
+   "SEC": 2128,
+   "CAP": 1863,
+   "DSP": 1519,
+   "ITE": 1305,
    "SSC": 714,
-   "TAB": 706,
-   "TIT": 326,
+   "TAB": 686,
+   "TIT": 328,
    "LIV": 45,
    "SBT": 21,
    "PRT": 5
   },
   "rows_per_strategy": {
-   "S1": 26250,
-   "S2": 82642,
-   "S3": 87702
+   "S1": 26364,
+   "S2": 83496,
+   "S3": 88600,
+   "S2C": 83496,
+   "S4": 88600
+  },
+  "rows_per_variant": {
+   "base": 88600,
+   "caput": 30166
   },
   "rows_per_categoria": {
-   "main": 71903,
+   "main": 72861,
    "A": 11212,
-   "nao_articulado": 3051,
+   "nao_articulado": 2997,
    "B": 1041,
-   "C": 495
+   "C": 489
   },
   "rows_per_categoria_tipo": {
    "A/ALI": 949,
@@ -196,187 +379,187 @@
    "B/ITE": 71,
    "B/TAB": 201,
    "B/TXT": 71,
-   "C/TAB": 317,
-   "C/TXT": 178,
-   "main/ALI": 3916,
-   "main/ART": 18106,
-   "main/CAP": 1639,
-   "main/CPT": 7017,
-   "main/DSP": 503,
-   "main/INC": 18506,
-   "main/ITE": 613,
+   "C/TAB": 313,
+   "C/TXT": 176,
+   "main/ALI": 3976,
+   "main/ART": 18291,
+   "main/CAP": 1659,
+   "main/CPT": 7142,
+   "main/DSP": 500,
+   "main/INC": 18756,
+   "main/ITE": 616,
    "main/LIV": 43,
-   "main/PAR": 18589,
+   "main/PAR": 18891,
    "main/PRT": 5,
    "main/SBT": 21,
-   "main/SEC": 1735,
+   "main/SEC": 1757,
    "main/SSC": 507,
    "main/TAB": 2,
-   "main/TIT": 293,
-   "main/TXT": 408,
-   "nao_articulado/TAB": 178,
-   "nao_articulado/TXT": 2873
+   "main/TIT": 295,
+   "main/TXT": 400,
+   "nao_articulado/TAB": 162,
+   "nao_articulado/TXT": 2835
   },
-  "files": 664,
+  "files": 672,
   "tokens_per_tipo": {
    "ALI": {
     "reference": {
-     "n": 4878,
-     "p50": 199,
-     "p90": 349,
-     "p99": 573,
+     "n": 4938,
+     "p50": 174,
+     "p90": 299,
+     "p99": 461,
      "max": 1420
     },
     "cl100k_base": {
-     "n": 4878,
-     "p50": 191,
-     "p90": 331,
-     "p99": 541,
+     "n": 4938,
+     "p50": 166,
+     "p90": 282,
+     "p99": 425,
      "max": 1257
     },
     "qwen3": {
-     "n": 4878,
-     "p50": 199,
-     "p90": 349,
-     "p99": 573,
+     "n": 4938,
+     "p50": 174,
+     "p90": 299,
+     "p99": 461,
      "max": 1420
     }
    },
    "ART": {
     "reference": {
-     "n": 20477,
-     "p50": 193,
-     "p90": 679,
+     "n": 20662,
+     "p50": 194,
+     "p90": 678,
      "p99": 1008,
      "max": 1024
     },
     "cl100k_base": {
-     "n": 20477,
-     "p50": 185,
-     "p90": 649,
-     "p99": 965,
+     "n": 20662,
+     "p50": 186,
+     "p90": 648,
+     "p99": 964,
      "max": 1023
     },
     "qwen3": {
-     "n": 20477,
-     "p50": 193,
-     "p90": 679,
+     "n": 20662,
+     "p50": 194,
+     "p90": 678,
      "p99": 1007,
      "max": 1024
     }
    },
    "CAP": {
     "reference": {
-     "n": 1843,
-     "p50": 819,
-     "p90": 3540,
-     "p99": 7256,
+     "n": 1863,
+     "p50": 822,
+     "p90": 3583,
+     "p99": 7252,
      "max": 7941
     },
     "cl100k_base": {
-     "n": 1843,
-     "p50": 783,
-     "p90": 3414,
-     "p99": 7035,
+     "n": 1863,
+     "p50": 788,
+     "p90": 3419,
+     "p99": 7029,
      "max": 7697
     },
     "qwen3": {
-     "n": 1843,
-     "p50": 818,
-     "p90": 3540,
-     "p99": 7256,
+     "n": 1863,
+     "p50": 822,
+     "p90": 3545,
+     "p99": 7252,
      "max": 7941
     }
    },
    "CPT": {
     "reference": {
-     "n": 8084,
+     "n": 8209,
      "p50": 162,
      "p90": 356,
-     "p99": 1013,
+     "p99": 1009,
      "max": 8103
     },
     "cl100k_base": {
-     "n": 8084,
-     "p50": 154,
-     "p90": 338,
-     "p99": 942,
+     "n": 8209,
+     "p50": 155,
+     "p90": 339,
+     "p99": 934,
      "max": 7613
     },
     "qwen3": {
-     "n": 8084,
+     "n": 8209,
      "p50": 162,
      "p90": 356,
-     "p99": 1013,
+     "p99": 1009,
      "max": 8103
     }
    },
    "DSP": {
     "reference": {
-     "n": 1522,
+     "n": 1519,
      "p50": 149,
-     "p90": 592,
+     "p90": 594,
      "p99": 911,
      "max": 1009
     },
     "cl100k_base": {
-     "n": 1522,
+     "n": 1519,
      "p50": 143,
-     "p90": 564,
+     "p90": 566,
      "p99": 856,
      "max": 995
     },
     "qwen3": {
-     "n": 1522,
+     "n": 1519,
      "p50": 149,
-     "p90": 592,
+     "p90": 594,
      "p99": 911,
      "max": 1009
     }
    },
    "INC": {
     "reference": {
-     "n": 20617,
-     "p50": 192,
-     "p90": 352,
-     "p99": 569,
-     "max": 4116
+     "n": 20867,
+     "p50": 169,
+     "p90": 285,
+     "p99": 473,
+     "max": 3967
     },
     "cl100k_base": {
-     "n": 20617,
-     "p50": 182,
-     "p90": 332,
-     "p99": 528,
-     "max": 2891
+     "n": 20867,
+     "p50": 160,
+     "p90": 268,
+     "p99": 439,
+     "max": 2759
     },
     "qwen3": {
-     "n": 20617,
-     "p50": 192,
-     "p90": 352,
-     "p99": 569,
-     "max": 4116
+     "n": 20867,
+     "p50": 169,
+     "p90": 285,
+     "p99": 473,
+     "max": 3967
     }
    },
    "ITE": {
     "reference": {
-     "n": 1302,
-     "p50": 165,
-     "p90": 293,
-     "p99": 436,
+     "n": 1305,
+     "p50": 157,
+     "p90": 286,
+     "p99": 419,
      "max": 1358
     },
     "cl100k_base": {
-     "n": 1302,
-     "p50": 158,
-     "p90": 284,
-     "p99": 425,
+     "n": 1305,
+     "p50": 150,
+     "p90": 277,
+     "p99": 394,
      "max": 1358
     },
     "qwen3": {
-     "n": 1302,
-     "p50": 165,
-     "p90": 293,
-     "p99": 436,
+     "n": 1305,
+     "p50": 157,
+     "p90": 286,
+     "p99": 418,
      "max": 1358
     }
    },
@@ -405,25 +588,25 @@
    },
    "PAR": {
     "reference": {
-     "n": 21511,
-     "p50": 233,
-     "p90": 381,
-     "p99": 642,
-     "max": 5936
+     "n": 21813,
+     "p50": 150,
+     "p90": 253,
+     "p99": 482,
+     "max": 5776
     },
     "cl100k_base": {
-     "n": 21511,
-     "p50": 222,
-     "p90": 360,
-     "p99": 598,
-     "max": 4349
+     "n": 21813,
+     "p50": 142,
+     "p90": 239,
+     "p99": 459,
+     "max": 4205
     },
     "qwen3": {
-     "n": 21511,
-     "p50": 233,
-     "p90": 381,
-     "p99": 642,
-     "max": 5936
+     "n": 21813,
+     "p50": 150,
+     "p90": 253,
+     "p99": 482,
+     "max": 5776
     }
    },
    "PRT": {
@@ -474,24 +657,24 @@
    },
    "SEC": {
     "reference": {
-     "n": 2106,
-     "p50": 582,
-     "p90": 2088,
-     "p99": 5493,
+     "n": 2128,
+     "p50": 584,
+     "p90": 2098,
+     "p99": 5471,
      "max": 7827
     },
     "cl100k_base": {
-     "n": 2106,
-     "p50": 560,
-     "p90": 2005,
-     "p99": 5244,
+     "n": 2128,
+     "p50": 562,
+     "p90": 2015,
+     "p99": 5231,
      "max": 7827
     },
     "qwen3": {
-     "n": 2106,
-     "p50": 578,
-     "p90": 2088,
-     "p99": 5493,
+     "n": 2128,
+     "p50": 582,
+     "p90": 2098,
+     "p99": 5471,
      "max": 7817
     }
    },
@@ -520,22 +703,22 @@
    },
    "TAB": {
     "reference": {
-     "n": 706,
-     "p50": 354,
+     "n": 686,
+     "p50": 370,
      "p90": 981,
      "p99": 1022,
      "max": 1163
     },
     "cl100k_base": {
-     "n": 706,
-     "p50": 324,
+     "n": 686,
+     "p50": 332,
      "p90": 810,
-     "p99": 965,
+     "p99": 966,
      "max": 1142
     },
     "qwen3": {
-     "n": 706,
-     "p50": 354,
+     "n": 686,
+     "p50": 370,
      "p90": 981,
      "p99": 1022,
      "max": 1163
@@ -543,60 +726,62 @@
    },
    "TIT": {
     "reference": {
-     "n": 326,
-     "p50": 1532,
-     "p90": 6030,
-     "p99": 7925,
+     "n": 328,
+     "p50": 1556,
+     "p90": 6009,
+     "p99": 7923,
      "max": 8102
     },
     "cl100k_base": {
-     "n": 326,
-     "p50": 1440,
-     "p90": 5740,
-     "p99": 7765,
+     "n": 328,
+     "p50": 1478,
+     "p90": 5788,
+     "p99": 7760,
      "max": 7895
     },
     "qwen3": {
-     "n": 326,
-     "p50": 1532,
-     "p90": 6030,
-     "p99": 7925,
+     "n": 328,
+     "p50": 1556,
+     "p90": 6009,
+     "p99": 7923,
      "max": 8102
     }
    },
    "TXT": {
     "reference": {
-     "n": 3545,
-     "p50": 309,
-     "p90": 984,
-     "p99": 1021,
+     "n": 3497,
+     "p50": 305,
+     "p90": 981,
+     "p99": 1020,
      "max": 1024
     },
     "cl100k_base": {
-     "n": 3545,
-     "p50": 294,
+     "n": 3497,
+     "p50": 293,
      "p90": 947,
-     "p99": 997,
+     "p99": 998,
      "max": 1024
     },
     "qwen3": {
-     "n": 3545,
-     "p50": 309,
-     "p90": 984,
-     "p99": 1021,
+     "n": 3497,
+     "p50": 305,
+     "p90": 981,
+     "p99": 1020,
      "max": 1024
     }
    }
   },
   "tokens_per_strategy_sum": {
-   "S1": 8192365,
-   "S2": 20905355,
-   "S3": 26992755
+   "S1": 8195602,
+   "S2": 18482019,
+   "S3": 24646703,
+   "S2C": 21078321,
+   "S4": 27243005
   },
   "split_units": {
    "units": 655,
-   "parts": 1749,
-   "leaf_split": 72,
+   "parts": 1746,
+   "leaf_split": 70,
    "by_tipo": {
     "ART": 646,
     "DSP": 9
@@ -754,15 +939,6 @@
     "tokens": 4987,
     "partes": 6,
     "leaf_split": false,
-    "head_truncated": false,
-    "uncuttable": []
-   },
-   {
-    "urn": "urn:lex:br:federal:lei:2009-05-27;11941!art47",
-    "rotulo": "lei_11941_20090527, Art. 47.",
-    "tokens": 4912,
-    "partes": 7,
-    "leaf_split": true,
     "head_truncated": false,
     "uncuttable": []
    },
@@ -1302,6 +1478,15 @@
     "rotulo": "constituição_1988_19881005, Art. 155.",
     "tokens": 2610,
     "partes": 3,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2014-11-13;13043!art42",
+    "rotulo": "lei_13043_20141113, Art. 42.",
+    "tokens": 2605,
+    "partes": 4,
     "leaf_split": false,
     "head_truncated": false,
     "uncuttable": []
@@ -1937,11 +2122,11 @@
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:lei:2014-11-13;13043!art42",
-    "rotulo": "lei_13043_20141113, Art. 42.",
-    "tokens": 1949,
+    "urn": "urn:lex:br:federal:lei:2014-11-13;13043!art56",
+    "rotulo": "lei_13043_20141113, Art. 56.",
+    "tokens": 1952,
     "partes": 3,
-    "leaf_split": false,
+    "leaf_split": true,
     "head_truncated": false,
     "uncuttable": []
    },
@@ -2542,7 +2727,7 @@
    {
     "urn": "urn:lex:br:federal:lei:2014-11-13;13043!art5",
     "rotulo": "lei_13043_20141113, Art. 5º",
-    "tokens": 1626,
+    "tokens": 1629,
     "partes": 2,
     "leaf_split": true,
     "head_truncated": false,
@@ -3044,6 +3229,15 @@
     "uncuttable": []
    },
    {
+    "urn": "urn:lex:br:federal:lei:2014-11-13;13043!art86",
+    "rotulo": "lei_13043_20141113, Art. 86.",
+    "tokens": 1480,
+    "partes": 2,
+    "leaf_split": true,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
     "urn": "urn:lex:br:federal:lei:2005-11-21;11196!art11-2",
     "rotulo": "lei_11196_20051121, Art. 11-B.",
     "tokens": 1478,
@@ -3071,15 +3265,6 @@
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:lei:2014-11-13;13043!art86",
-    "rotulo": "lei_13043_20141113, Art. 86.",
-    "tokens": 1466,
-    "partes": 2,
-    "leaf_split": true,
-    "head_truncated": false,
-    "uncuttable": []
-   },
-   {
     "urn": "urn:lex:br:federal:lei:2004-12-29;11051!art10",
     "rotulo": "lei_11051_20041229, Art. 10.",
     "tokens": 1463,
@@ -3091,6 +3276,15 @@
    {
     "urn": "urn:lex:br:federal:lei:2009-05-27;11941!art3",
     "rotulo": "lei_11941_20090527, Art. 3º",
+    "tokens": 1461,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2014-11-13;13043!art16",
+    "rotulo": "lei_13043_20141113, Art. 16.",
     "tokens": 1461,
     "partes": 2,
     "leaf_split": false,
@@ -3800,9 +3994,9 @@
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:lei:2014-11-13;13043!art2",
-    "rotulo": "lei_13043_20141113, Art. 2º",
-    "tokens": 1307,
+    "urn": "urn:lex:br:federal:lei:2014-11-13;13043!art33",
+    "rotulo": "lei_13043_20141113, Art. 33.",
+    "tokens": 1308,
     "partes": 2,
     "leaf_split": false,
     "head_truncated": false,
@@ -3989,15 +4183,6 @@
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:lei:2014-11-13;13043!art33",
-    "rotulo": "lei_13043_20141113, Art. 33.",
-    "tokens": 1290,
-    "partes": 2,
-    "leaf_split": false,
-    "head_truncated": false,
-    "uncuttable": []
-   },
-   {
     "urn": "urn:lex:br:federal:lei:1997-12-10;9532!art12",
     "rotulo": "lei_9532_19971210, Art. 12.",
     "tokens": 1289,
@@ -4111,6 +4296,15 @@
     "tokens": 1276,
     "partes": 2,
     "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2014-11-13;13043!art71",
+    "rotulo": "lei_13043_20141113, Art. 71.",
+    "tokens": 1276,
+    "partes": 2,
+    "leaf_split": true,
     "head_truncated": false,
     "uncuttable": []
    },
@@ -4327,15 +4521,6 @@
     "tokens": 1245,
     "partes": 2,
     "leaf_split": false,
-    "head_truncated": false,
-    "uncuttable": []
-   },
-   {
-    "urn": "urn:lex:br:federal:lei:2014-11-13;13043!art71",
-    "rotulo": "lei_13043_20141113, Art. 71.",
-    "tokens": 1245,
-    "partes": 2,
-    "leaf_split": true,
     "head_truncated": false,
     "uncuttable": []
    },
@@ -4745,15 +4930,6 @@
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:medida.provisoria:2001-08-24;2158-35!art57",
-    "rotulo": "mp_2158-35_20010824, Art. 57.",
-    "tokens": 1187,
-    "partes": 2,
-    "leaf_split": true,
-    "head_truncated": false,
-    "uncuttable": []
-   },
-   {
     "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art744",
     "rotulo": "decreto_9580_20181122.anexo1, Art. 744.",
     "tokens": 1185,
@@ -5071,7 +5247,7 @@
    {
     "urn": "urn:lex:br:federal:lei:2014-11-13;13043!art57",
     "rotulo": "lei_13043_20141113, Art. 57.",
-    "tokens": 1154,
+    "tokens": 1153,
     "partes": 2,
     "leaf_split": true,
     "head_truncated": false,
@@ -5231,6 +5407,15 @@
     "uncuttable": []
    },
    {
+    "urn": "urn:lex:br:federal:lei:2014-11-13;13043!art2",
+    "rotulo": "lei_13043_20141113, Art. 2º",
+    "tokens": 1134,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
     "urn": "urn:lex:br:federal:decreto:2018-11-22;9580!anexo1!art591",
     "rotulo": "decreto_9580_20181122.anexo1, Art. 591.",
     "tokens": 1134,
@@ -5321,15 +5506,6 @@
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:lei:2014-11-13;13043!art34",
-    "rotulo": "lei_13043_20141113, Art. 34.",
-    "tokens": 1120,
-    "partes": 2,
-    "leaf_split": true,
-    "head_truncated": false,
-    "uncuttable": []
-   },
-   {
     "urn": "urn:lex:br:federal:lei:2017-03-30;13428!art2",
     "rotulo": "lei_13428_20170330, Art. 2º",
     "tokens": 1120,
@@ -5353,6 +5529,15 @@
     "tokens": 1120,
     "partes": 2,
     "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2014-11-13;13043!art34",
+    "rotulo": "lei_13043_20141113, Art. 34.",
+    "tokens": 1119,
+    "partes": 2,
+    "leaf_split": true,
     "head_truncated": false,
     "uncuttable": []
    },
@@ -5395,6 +5580,15 @@
    {
     "urn": "urn:lex:br:ministerio.fazenda;secretaria.receita.federal.brasil:instrucao.normativa:2014-10-29;1500!art8",
     "rotulo": "in_rfb_1500_20141029, Art. 8º",
+    "tokens": 1112,
+    "partes": 2,
+    "leaf_split": false,
+    "head_truncated": false,
+    "uncuttable": []
+   },
+   {
+    "urn": "urn:lex:br:federal:lei:2014-11-13;13043!art17",
+    "rotulo": "lei_13043_20141113, Art. 17.",
     "tokens": 1112,
     "partes": 2,
     "leaf_split": false,
@@ -6482,15 +6676,6 @@
     "uncuttable": []
    },
    {
-    "urn": "urn:lex:br:federal:lei:2014-11-13;13043!art43",
-    "rotulo": "lei_13043_20141113, Art. 43.",
-    "tokens": 1025,
-    "partes": 2,
-    "leaf_split": true,
-    "head_truncated": false,
-    "uncuttable": []
-   },
-   {
     "urn": "urn:lex:br:federal:lei:1995-01-20;8981!art32",
     "rotulo": "lei_8981_19950120, Art. 32.",
     "tokens": 1025,
@@ -6500,32 +6685,32 @@
     "uncuttable": []
    }
   ],
-  "ns_split_units": 342,
+  "ns_split_units": 319,
   "over_cap_non_basic": {
    "ALI": {
     "over_cap": 4,
     "over_8192": 0,
-    "n": 4878
+    "n": 4938
    },
    "CAP": {
-    "over_cap": 780,
+    "over_cap": 790,
     "over_8192": 0,
-    "n": 1843
+    "n": 1863
    },
    "CPT": {
     "over_cap": 78,
     "over_8192": 0,
-    "n": 8084
+    "n": 8209
    },
    "INC": {
     "over_cap": 23,
     "over_8192": 0,
-    "n": 20617
+    "n": 20867
    },
    "ITE": {
     "over_cap": 1,
     "over_8192": 0,
-    "n": 1302
+    "n": 1305
    },
    "LIV": {
     "over_cap": 30,
@@ -6533,9 +6718,9 @@
     "n": 45
    },
    "PAR": {
-    "over_cap": 43,
+    "over_cap": 24,
     "over_8192": 0,
-    "n": 21511
+    "n": 21813
    },
    "PRT": {
     "over_cap": 5,
@@ -6548,9 +6733,9 @@
     "n": 21
    },
    "SEC": {
-    "over_cap": 600,
+    "over_cap": 609,
     "over_8192": 0,
-    "n": 2106
+    "n": 2128
    },
    "SSC": {
     "over_cap": 152,
@@ -6558,9 +6743,9 @@
     "n": 714
    },
    "TIT": {
-    "over_cap": 204,
+    "over_cap": 206,
     "over_8192": 0,
-    "n": 326
+    "n": 328
    }
   },
   "groupings_over_limit": {
@@ -6572,12 +6757,12 @@
    "SBT": 5,
    "SSC": 3
   },
-  "id_ambiguo_rows": 1802,
+  "id_ambiguo_rows": 1804,
   "id_ambiguo_basic_rows": 1194,
   "dropped_agrupamentos": {
-   "preliminar": 44,
-   "assinatura": 392,
-   "localDataFecho": 13
+   "preliminar": 64,
+   "assinatura": 388,
+   "localDataFecho": 18
   },
   "kept_long_dropped": [
    {
@@ -6618,12 +6803,12 @@
    },
    {
     "arquivo": "urn_lex_br_procuradoria.geral.fazenda.nacional_ato.declaratorio_2014-01-02_1.xml",
-    "id": "pp1_agr3",
+    "id": "pp1_agr2",
     "nome": "preliminar",
-    "chars": 360
+    "chars": 391
    },
    {
-    "arquivo": "urn_lex_br_procuradoria.geral.fazenda.nacional_nota.pgfn_2015_1040.xml",
+    "arquivo": "urn_lex_br_procuradoria.geral.fazenda.nacional_nota_2015_1040.xml",
     "id": "pp1_agr4",
     "nome": "preliminar",
     "chars": 346
@@ -6648,52 +6833,27 @@
    }
   ],
   "meta_sources": {
-   "epi=agrupamento,ementa=agrupamento": 119,
-   "epi=ementa-agrupamento-title,ementa=campo-assunto": 1,
+   "epi=agrupamento,ementa=agrupamento": 125,
    "parent=urn,epi=agrupamento,ementa=agrupamento": 1,
-   "epi=agrupamento,ementa=none": 3,
+   "epi=agrupamento,ementa=none": 6,
    "epi=first-section-heading,ementa=none": 1,
    "epi=preliminar-first-line,ementa=none": 5,
+   "epi=urn,ementa=agrupamento": 1,
    "epi=agrupamento,ementa=campo-assunto": 104,
    "epi=preliminar-first-line,ementa=agrupamento": 1,
-   "parent=stem,statutory": 181
+   "epi=ementa-agrupamento-title,ementa=campo-assunto": 1,
+   "parent=stem,statutory": 179
   },
   "text_coverage_distribution": {
-   "n": 664,
+   "n": 672,
    "p50": 1000,
    "p90": 1000,
    "p99": 1000,
    "max": 1000
   },
   "gemini_sample": {
-   "status": "run",
-   "model": "gemini-embedding-2",
-   "random_sample": {
-    "n": 500,
-    "gemini_gt_reference": 2,
-    "max_excess": 61,
-    "ratio_gemini_over_reference": {
-     "p50": 0.886,
-     "p99": 0.96,
-     "max": 1.101
-    },
-    "max_gemini": 6220,
-    "gemini_over_8192": []
-   },
-   "largest_chunks": {
-    "n": 100,
-    "gemini_gt_reference": 0,
-    "max_excess": 0,
-    "ratio_gemini_over_reference": {
-     "p50": 0.878,
-     "p99": 0.926,
-     "max": 0.929
-    },
-    "max_gemini": 7253,
-    "gemini_over_8192": []
-   },
-   "errors": 0,
-   "error_examples": []
+   "status": "not run",
+   "reason": "no GEMINI_API_KEY / GOOGLE_API_KEY in the environment"
   }
  }
 }

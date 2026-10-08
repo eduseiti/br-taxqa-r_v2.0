@@ -253,7 +253,7 @@ original.
 | **X1** | New param `metadados` (full prefix, from Python). When `metadados` is empty, fall back to `normalize-space(//Epigrafe) \|\| ' \| ' \|\| normalize-space(//Ementa)`, for standalone use. `sigla` stays. | 14–15 | §6.1 |
 | **X2** | Remove every `ancestor::*/NomeAgrupador` / `ancestor-or-self::*/NomeAgrupador` loop from the context of `CPT`, `PAR`, `ART` and the groupings. The prefix becomes `[ $metadados ]` for every `Tipo`. | 67, 78, 89, 99…159 | §6.1 |
 | **X3** | Replace the six hand-written enumeration-context expressions with **one function** `lx:caminho($n)`. It walks `$n/ancestor::*[self::Artigo or self::Caput or self::Paragrafo or self::Inciso or self::Alinea or self::Item]` in document order and emits each ancestor's `Rotulo`, `TituloDispositivo` and `string()` of its **direct** `p` children. Use `string(p)`, never `p/text()`, so `span`/`Remissao` text is kept (bug at 182–183, 196). | 168–171, 181–184, 194–197 | §5.2 |
-| **X3b** | In `lx:caminho`, when `$n` has a `Paragrafo` ancestor, insert `../Caput/p` (own `p` only) right after the article `Rotulo`. This applies to `PAR` rows too, whose context today is only the ementa. | 73–82 + X3 | §6.2 |
+| **X3b** | In `lx:caminho`, when `$n` has a `Paragrafo` ancestor, insert `../Caput/p` (own `p` only) right after the article `Rotulo`. This applies to `PAR` rows too, whose context today is only the ementa. *Superseded by `docs/20261005_184116_*` (D-A): X3b is now the `caput_em_paragrafo=frase` option; the default `nao` writes no caput text.* | 73–82 + X3 | §6.2 |
 | **X4** | Replace the per-type content expressions (`descendant::p`, `descendant::p//text()\|descendant::Rotulo`, …) with **one function** `lx:texto($n)`: `$n`'s own `Rotulo`, `TituloDispositivo`, `p`, table text, then the same for every descendant, in document order. Groupings include their **own** `Rotulo` + `NomeAgrupador` (today `descendant::` skips the grouping's own label, which only reaches the text through the context loop removed by X2). `CPT`/`PAR` content gains the inciso/alínea labels that `descendant::p` drops today. | 65, 76, 87, 97…157, 167, 180, 193 | §6.1 |
 | **X5** | Iterate `//Caput[parent::Artigo]` and `//Paragrafo[not(ancestor::Alteracao)]` independently, so a `Paragrafo` outside an `Artigo` (category B) gets a row and the nested loop no longer decides coverage. **Skip the `CPT` row when the article has no `Paragrafo`**, because its text would duplicate the `ART` row (see Q5). | 62–83 | §6.2, §6.3.2 |
 | **X6** | In **every** document (category-B annexes, but also the 21 main documents and any A annex that have orphan dispositivos, §0): emit a **`DSP`** row for each `Caput`/`Paragrafo`/`Inciso`/`Alinea`/`Item` that has no dispositivo ancestor (not in `Alteracao`), with content `lx:texto(.)`, and treat it as the root of `lx:caminho` for its descendants. `Rotulo` column: `sigla, <Rotulo>` (e.g. `in_rfb_1717_20170717.anexo1, Item 3`). Descendant `INC`/`ALI`/`ITE`/`PAR` labels drop the empty `Art.` part. | new | §6.3.2 |
@@ -274,6 +274,10 @@ doc §5.2 example: `[ LEI Nº 9.250, … | Altera a Legislação … ] Art. 8º 
 – das deduções relativas: b) a pagamentos de despesas com instrução … até o limite anual individual
 de: 10. R$ 3.561,50 …`. In the same file, `art8_par2` (`PAR`) must contain `Art. 8º`, the caput
 sentence, and then `§ 2º O disposto na alínea a do inciso II: …`.
+
+> **Superseded (2026-10-05, `docs/20261005_184116_*` D-A):** the base `art8_par2` row is now
+> `Art. 8º § 2º O disposto na alínea a do inciso II: …` (no caput sentence); the text above is its
+> `caput` variant (S4/S2c), produced with `caput_em_paragrafo=frase`. The `ITE` target is unchanged.
 
 ### 3.3 Driver (`run_xsl_segmentation.py`)
 

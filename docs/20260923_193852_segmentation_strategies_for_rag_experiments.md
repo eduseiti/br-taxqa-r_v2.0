@@ -11,11 +11,20 @@ the gold answers in `docs/P&R IRPF 2024 - v1.0 - 2024.05.03.pdf` using nuggets.
 | ID | Strategy | Status |
 |---|---|---|
 | **S1** | Article (flat) + metadata | Baseline |
-| **S2** | Article + sub-article units (caput, §, inciso, alínea, item), each with its **ancestor path** (no siblings) + metadata | Main hypothesis |
+| **S2** | Article + sub-article units (caput, §, inciso, alínea, item), each with its **ancestor path** (no siblings) + metadata; paragraph chunks carry the article label, **not** the caput | Main hypothesis |
 | S3 | S2 + grouping chunks (parte, livro, título, capítulo, seção, subseção) | Optional |
+| S4 | S3 with the caput's opening sentence after the article label in paragraph-family chunks (S2c: the same for S2) | Optional (added 2026-10-05) |
+| S5 | S3 with the full caput in paragraph-family chunks | Optional, later |
 
-All three come from **one** embedding run per embedding model (S1 and S2 are filters over the S3
-chunk set), which saves budget for sweeping context size, the generator LLM and the embedding model.
+All of them come from **one** embedding run per embedding model: S1–S3 are `Tipo` filters over one
+chunk set, and S4/S2c swap in a second text variant of the paragraph-family chunks (column
+`variante`). This saves budget for sweeping context size, the generator LLM and the embedding model.
+
+> **Update 2026-10-05/08:** decisions D-A/D-B of
+> `docs/20261005_184116_segmentation_s3_vs_lima_ementa_and_caput_strategy_plan.md` removed the caput
+> sentence from the paragraph chunks of S2/S3 (§6 item 2 below is reversed) and added S4/S2c/S5. In
+> [F]'s terms, S1 = "Core Chunks + Metadata" and S2 = "Hierarchical" without hierarchy titles and
+> groupings. Since the 2026-10-08 rebuild the chunk counts are in `segmented/segmentation_report.md`.
 
 **Sources discussed:**
 
@@ -246,7 +255,9 @@ This is [L]'s footnote-7 rule, and the XSL already applies it to incisos, alíne
    - **Keep the ancestor-path context** on enumerations (§5.2).
    - Put the metadata in **every** strategy, including the baseline, so the comparison measures
      segmentation rather than the presence of context.
-2. **Add the caput to paragraph-level chunks.** For `PAR` chunks and incisos/alíneas/itens inside
+2. **Add the caput to paragraph-level chunks.** *(Reversed on 2026-10-05, caput plan D-A/D-B: the
+   S1–S3 paragraph chunks keep only the article label; the caput sentence moved to the S4/S2c
+   variant, and this Art. 8, § 2 example is now the S4 rationale.)* For `PAR` chunks and incisos/alíneas/itens inside
    paragraphs, the XSL context is only `Art. Nº` + the paragraph text. In LexML the caput is a
    sibling of the paragraph, not its ancestor, but paragraphs often depend on it — e.g. Art. 8, § 2
    ("O disposto na alínea a do inciso II:"). Add the caput's opening sentence (its own `p` only,
