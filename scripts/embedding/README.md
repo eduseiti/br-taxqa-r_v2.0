@@ -15,7 +15,7 @@ the OpenAI and Gemini providers are not implemented yet.
 embeddings/<model>/
   corpus/vectors.npy        float32 [n_texts, dim], L2-normalized, rows in text_id order
   corpus/texts.csv          row, text_id (= texto_sha256), n_tokens (model tokenizer)
-  corpus/chunk_map.csv.gz   chunk_id, text_id   (87,702 chunks -> 84,568 unique texts)
+  corpus/chunk_map.csv.gz   chunk_id, text_id   (118,766 chunks -> 115,582 unique texts since 2026-10-08)
   corpus/manifest.json      provenance: model + revision, server /info, endpoint config, input and
                             output SHA-256, token stats, sessions, timings, parity result
   queries/<instruction>/vectors.npy, queries.csv (row, query_id, n_tokens, text_sent), manifest.json
@@ -71,6 +71,13 @@ E="scripts/embedding/embed.py"
 - **Resumable:** every completed request is written to `<output>/_shards/`. After an interruption,
   run the same command again; only the missing texts are sent. A resume with a different
   configuration (template, instruction, input file, server) is refused unless `--overwrite`.
+- **Embed by text hash (`corpus --extend`):** after a new segmentation run, reuse the finalized
+  vectors of every text that is still in the input (texts are keyed by `texto_sha256`) and send only
+  the new texts. Refused unless the store was made with the same model, revision, template,
+  dimension and server configuration. Texts no longer in the input are dropped from the new store.
+  The manifest's `extend` block records the previous manifest and input, and the reused, embedded
+  and dropped counts. The 2026-10-08 rebuild sent 32,194 of 115,582 texts this way
+  (`--extend --dry-run` shows the count first).
 - **No truncation:** every text is counted with the model's own tokenizer and the run stops if one
   is over `max_input_tokens` (8,192); the server also has truncation off.
 - **Endpoint:** a paused endpoint is resumed only with `--resume`. `corpus` pauses it when done

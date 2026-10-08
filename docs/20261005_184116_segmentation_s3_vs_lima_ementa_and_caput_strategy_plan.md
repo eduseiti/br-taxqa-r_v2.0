@@ -12,6 +12,11 @@ Retrieval*, arXiv:2411.07739v1 (re-read from arXiv for this note); [F] = Fernand
 Oliveira, Lotufo, Pereira, *Structural Segmentation for Brazilian Legal Document Retrieval*
 (`../Artigo chunks legislação.pdf`).
 **Data checked:** `segmented/chunks_all.csv.gz` (87,702 rows, the frozen set used by the RAG runs).
+**Update 2026-10-08:** implemented in the corpus rebuild with the defaults Q1–Q3 (128-token ementa,
+caput sentence kept in split-part HEADs, S5 later). C4, C5 and C9 were adapted to a changed corpus
+(`docs/20261007_180833_corpus_fixes_and_full_rebuild_plan.md` §4): fresh chunk ids (`#c<seq>` for
+caput rows), `diff_vs_frozen` instead of the two invariants, and `embed.py corpus --extend` (embed by
+text hash). Counts and IR results: `docs/20261008_010441_corpus_rebuild_results.md`.
 
 ---
 

@@ -38,7 +38,7 @@ repository scripts or downloaded from the Hub):
 ```bash
 R=scripts/rag/rag.py
 .venv/bin/python $R check    --embedding jua-4b-mixed                          # input checks only
-.venv/bin/python $R retrieve --embedding jua-4b-mixed                          # S1, S2, S3; top-1000 (≈10 s)
+.venv/bin/python $R retrieve --embedding jua-4b-mixed                          # S1, S2, S3, S2c, S4; top-1000 (≈20 s)
 .venv/bin/python $R evaluate --retrieval runs/retrieval/jua-4b-mixed/irpf      # ≈15 s
 .venv/bin/python $R compare  --retrieval runs/retrieval/jua-4b-mixed/irpf --a S1 --b S2
 ```
@@ -50,7 +50,7 @@ Options (every subcommand has `--help` with an example):
 | Subcommand | Main options |
 |---|---|
 | `check` | `--embedding` (required), `--instruction` (default `irpf`, or the only one), `--no-hash` |
-| `retrieve` | `--strategies S1,S2,S3`, `--top-n 1000`, `--force` (replace a run made with other settings) |
+| `retrieve` | `--strategies S1,S2,S3,S2c,S4`, `--top-n 1000`, `--force` (replace a run made with other settings) |
 | `evaluate` | `--annex-rule {either,main_first}`, `--budgets 1000,…,16000`, `--unit-ks`, `--raw-ks`, `--dedup {containment,none}`, `--overflow {skip,stop}`, `--comparisons S1:S2,S2:S3`, `--eval-id` |
 | `compare` | `--a`, `--b`, `--views budget,unit,raw`, `--eval-id` |
 | `report` | `--eval <eval dir>` (regenerate `report.md`) |
@@ -60,13 +60,21 @@ Input locations default to the repository layout and can be changed with `--chun
 
 ## What is measured
 
-**Strategies** (`strategies.yaml`): the chunk types each one indexes.
+**Strategies** (`strategies.yaml`): the chunk types each one indexes and the text variant it
+prefers per unit (`variantes`; caput plan `docs/20261005_184116_*`). Paragraph-family chunks have a
+`base` text (article label + paragraph) and a `caput` text (with the caput's opening sentence).
+Counts of the 2026-10-08 chunk set (`d1b9cf7e…`):
 
-| | Tipos | Chunks | Texts |
-|---|---|---:|---:|
-| S1 | ART, DSP, TXT, TAB | 26,250 | 26,208 |
-| S2 | S1 + CPT, PAR, INC, ALI, ITE | 82,642 | 79,508 |
-| S3 | S2 + PRT, LIV, TIT, SBT, CAP, SEC, SSC | 87,702 | 84,568 |
+| | Tipos | Variants | Chunks | Texts |
+|---|---|---|---:|---:|
+| S1 | ART, DSP, TXT, TAB | base | 26,364 | 26,323 |
+| S2 | S1 + CPT, PAR, INC, ALI, ITE | base | 83,496 | 83,330 |
+| S3 | S2 + PRT, LIV, TIT, SBT, CAP, SEC, SSC | base | 88,600 | 88,434 |
+| S2c | as S2 | caput, base | 83,496 | 80,325 |
+| S4 | as S3 | caput, base | 88,600 | 85,429 |
+
+A `caput` row is indexed instead of its base twin, never next to it; the evaluation treats only the
+indexed rows as members of a strategy (`strategies.member_mask`).
 
 Vectors are stored per unique text, so a ranked item is **one text**. It is represented by its
 coarsest chunk (`unit_precedence`), and the other chunks with that text are its aliases.
@@ -134,8 +142,8 @@ seeds). A run directory refuses to be overwritten by a run with another configur
 
 ## Extending
 
-- **A strategy:** add an entry to `strategies.yaml` (the Tipos it indexes and, optionally, the
-  expected chunk count). No code change.
+- **A strategy:** add an entry to `strategies.yaml` (the Tipos it indexes, optionally `variantes`
+  and the expected chunk count). No code change.
 - **A retriever:** a class with `name`, `info()` and `search(query_ids, candidate_rows, top_n)`
   (`ragpipe/retrievers/base.py`). Override `search_many` to share work across strategies.
 - **An embedding model or instruction:** embed with `scripts/embedding/embed.py`, then

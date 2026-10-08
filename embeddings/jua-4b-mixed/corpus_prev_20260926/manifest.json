@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-26T12:39:01+00:00",
+  "kind": "corpus",
+  "script": {
+    "version": "0.1.0",
+    "git": {
+      "commit": "9211d305d35141833c0a3e621aacc54025847386",
+      "dirty": false,
+      "dirty_files": []
+    },
+    "argv": [
+      "scripts/embedding/embed.py",
+      "corpus",
+      "--model",
+      "jua-4b-mixed",
+      "--resume",
+      "--no-progress"
+    ]
+  },
+  "model": {
+    "slug": "jua-4b-mixed",
+    "provider": "tei",
+    "model_id": "ufca-llms/jua-4B-mixed",
+    "revision": "57f491c1718171c0ad71d723c4f6b2030684c4eb",
+    "dim": 2560,
+    "template": "{text}",
+    "instruction_name": null,
+    "instruction": null,
+    "tokenizer": "hf:ufca-llms/jua-4B-mixed@57f491c1718171c0ad71d723c4f6b2030684c4eb",
+    "max_input_tokens": 8192
+  },
+  "server": {
+    "info": {
+      "model_id": "/repository",
+      "model_sha": null,
+      "model_dtype": "float16",
+      "served_model_name": "/repository",
+      "model_type": {
+        "embedding": {
+          "pooling": "last_token"
+        }
+      },
+      "max_concurrent_requests": 512,
+      "max_input_length": 40960,
+      "max_batch_tokens": 40960,
+      "max_batch_requests": null,
+      "max_client_batch_size": 64,
+      "auto_truncate": false,
+      "tokenization_workers": 6,
+      "version": "1.9.4",
+      "sha": "e80ef225ed0e6cb1717ce632a6a84b6cf211bb67",
+      "docker_label": "sha-e80ef22"
+    },
+    "endpoint": {
+      "name": "jua-4b-mixed-bgc",
+      "namespace": "eduseiti",
+      "repository": "ufca-llms/jua-4B-mixed",
+      "revision": "57f491c1718171c0ad71d723c4f6b2030684c4eb",
+      "config": {
+        "name": "jua-4b-mixed-bgc",
+        "type": "private",
+        "provider": {
+          "vendor": "aws",
+          "region": "us-east-1"
+        },
+        "compute": {
+          "id": "aws-us-east-1-nvidia-l4-x1",
+          "accelerator": "gpu",
+          "instanceType": "nvidia-l4",
+          "instanceSize": "x1",
+          "scaling": {
+            "minReplica": 0,
+            "maxReplica": 1,
+            "scaleToZeroTimeout": 15,
+            "metric": "hardwareUsage",
+            "measure": {
+              "hardwareUsage": 80.0
+            },
+            "threshold": 80.0
+          }
+        },
+        "experimentalFeatures": {
+          "cacheHttpResponses": false,
+          "loadBalancer": null,
+          "mcpLb": null,
+          "privileged": null,
+          "kgateway": null,
+          "skipRepoDownload": null,
+          "priorityClass": null,
+          "failureStrategy": null
+        },
+        "notifications": {
+          "email": true,
+          "push": true
+        },
+        "model": {
+          "repository": "ufca-llms/jua-4B-mixed",
+          "revision": "57f491c1718171c0ad71d723c4f6b2030684c4eb",
+          "task": "sentence-similarity",
+          "framework": "pytorch",
+          "image": {
+            "custom": {
+              "healthRoute": "/health",
+              "port": 80,
+              "url": "ghcr.io/huggingface/text-embeddings-inference:89-1.9.4",
+              "credentials": {
+                "username": "",
+                "password": null
+              }
+            }
+          },
+          "env": {
+            "AUTO_TRUNCATE": "false",
+            "MAX_BATCH_TOKENS": "40960",
+            "MAX_CLIENT_BATCH_SIZE": "64",
+            "MODEL_ID": "/repository"
+          },
+          "fromCatalog": false
+        },
+        "healthRoute": "/health",
+        "tags": []
+      }
+    },
+    "fingerprint": {
+      "model_id": "ufca-llms/jua-4B-mixed",
+      "revision": "57f491c1718171c0ad71d723c4f6b2030684c4eb",
+      "endpoint_repository": "ufca-llms/jua-4B-mixed",
+      "endpoint_revision": "57f491c1718171c0ad71d723c4f6b2030684c4eb",
+      "endpoint_image": {
+        "custom": {
+          "healthRoute": "/health",
+          "port": 80,
+          "url": "ghcr.io/huggingface/text-embeddings-inference:89-1.9.4",
+          "credentials": {
+            "username": "",
+            "password": null
+          }
+        }
+      },
+      "server_model_id": "/repository",
+      "server_model_sha": null,
+      "server_dtype": "float16",
+      "server_version": "1.9.4",
+      "pooling": "last_token"
+    }
+  },
+  "input": {
+    "path": "/work/doutorado/artigos/RAG_evaluation/br-taxqa-r_v2.0/segmented/chunks_all.csv.gz",
+    "sha256": "f3db09046bb475bfcab1dfe84f4805a40a8fcd2629f252577c3aa492d1855f9b",
+    "id_col": "chunk_id",
+    "text_col": "Texto",
+    "rows": 87702,
+    "unique_texts": 84568,
+    "tokens": {
+      "total": 26319851,
+      "max": 8120,
+      "p50": 211,
+      "p90": 549,
+      "p99": 2057
+    }
+  },
+  "output": {
+    "shape": [
+      84568,
+      2560
+    ],
+    "dtype": "float32",
+    "norm_min": 1.0,
+    "norm_max": 1.0000001192092896,
+    "norms_ok": true,
+    "sha256": {
+      "vectors.npy": "d4e00f0e34b6269634e25c97db1aa299149092c354e69488a1c61b8915c7c636",
+      "texts.csv": "07ee615cb4ffd5b9410ce8a40650c34fb818042488b55406e7ce142835b9a850",
+      "chunk_map.csv.gz": "d8166ba3fe87328c468bfa32781ce2e16370e63c60e45ee23d3b8499559a7cfb"
+    }
+  },
+  "run": {
+    "start": "2026-09-26T11:14:05+00:00",
+    "end": "2026-09-26T12:38:38+00:00",
+    "n_texts": 84568,
+    "n_tokens": 26319851,
+    "wall_s": 5072.8,
+    "requests": 1341,
+    "retries": 18,
+    "errors": 0,
+    "renormalized": 0,
+    "tokens_per_s": 5188.4,
+    "n_sessions": 1,
+    "sessions": [
+      {
+        "start": "2026-09-26T11:14:05+00:00",
+        "n_skipped": 0,
+        "n_texts": 84568,
+        "n_tokens": 26319851,
+        "renormalized": 0,
+        "status": "complete",
+        "end": "2026-09-26T12:38:38+00:00",
+        "wall_s": 5072.8,
+        "tokens_per_s": 5188.4,
+        "requests": 1341,
+        "retries": 18,
+        "errors": 0
+      }
+    ]
+  },
+  "parity": {
+    "status": "passed",
+    "path": "embeddings/jua-4b-mixed/parity.json",
+    "created_at": "2026-09-26T03:14:02+00:00",
+    "metrics": {
+      "cos_min": 0.9991905093193054,
+      "cos_p1": 0.9992798566818237,
+      "cos_median": 0.9997859597206116,
+      "cos_min_texts": 0.9991905093193054,
+      "cos_min_queries": 0.9997623562812805,
+      "top1_agree": 16,
+      "n_queries": 16,
+      "kendall_tau_min": 0.97817462682724,
+      "kendall_tau_median": 0.9900793433189392
+    }
+  },
+  "cost_ledger": "embeddings/costs.csv"
+}

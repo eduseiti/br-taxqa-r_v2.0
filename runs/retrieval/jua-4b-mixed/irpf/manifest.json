@@ -1,26 +1,36 @@
 {
   "schema_version": 1,
   "kind": "retrieval",
-  "created_at": "2026-09-27T22:19:39+00:00",
+  "created_at": "2026-10-08T01:03:44+00:00",
   "script": {
     "package": "ragpipe",
     "version": "0.1.0",
     "git": {
-      "commit": "5de9f91e7bc74d278bca243e2edd595a0ceb3948",
+      "commit": "7d88bd693be1559804ae02f4be08bc91d48f2a8f",
       "dirty": true,
       "dirty_files": [
-        "runs/",
-        "scripts/rag/"
+        "LAUDE.md",
+        "docs/20260927_180401_dataset_v2_format_and_reference_fixes.md",
+        "docs/20260927_222210_retrieval_legal_provision_test_jua.md",
+        "docs/20261005_184116_segmentation_s3_vs_lima_ementa_and_caput_strategy_plan.md",
+        "docs/20261007_180833_corpus_fixes_and_full_rebuild_plan.md",
+        "embeddings/costs.csv",
+        "embeddings/jua-4b-mixed/corpus/manifest.json",
+        "embeddings/jua-4b-mixed/endpoint_meter.jsonl",
+        "scripts/embedding/README.md",
+        "scripts/rag/strategies.yaml",
+        "embeddings/jua-4b-mixed/corpus_prev_20260926/"
       ]
     },
     "argv": [
       "scripts/rag/rag.py",
       "retrieve",
       "--embedding",
-      "jua-4b-mixed"
+      "jua-4b-mixed",
+      "--force"
     ]
   },
-  "config_hash": "881fc0f2d56dd0bfa625fefff6b0ca49cb22c9e4398d02d3969c505b6b52a3fd",
+  "config_hash": "6bf1dfdd513367984116baaa16b24c6bae76d55376479dfee0b7d17879798233",
   "params": {
     "embedding": "jua-4b-mixed",
     "instruction": "irpf",
@@ -29,7 +39,9 @@
     "strategies": [
       "S1",
       "S2",
-      "S3"
+      "S3",
+      "S2c",
+      "S4"
     ]
   },
   "embedding": {
@@ -51,7 +63,7 @@
   },
   "strategies": {
     "path": "scripts/rag/strategies.yaml",
-    "sha256": "5c9c5d9e0670075bcb0f762c6db9308ab65bea681f78ea780856eb7b6e33f96a",
+    "sha256": "1e862b7f22028452b1610099ff5fc5c2ae189505fce9822d7f37cf47d75602be",
     "strategies": {
       "S1": {
         "tipos": [
@@ -59,6 +71,9 @@
           "DSP",
           "TAB",
           "TXT"
+        ],
+        "variantes": [
+          "base"
         ],
         "description": "Article (or top-level dispositivo) + non-statutory units"
       },
@@ -74,7 +89,10 @@
           "TAB",
           "TXT"
         ],
-        "description": "S1 + sub-article units with ancestor path"
+        "variantes": [
+          "base"
+        ],
+        "description": "S1 + sub-article units with ancestor path (paragraphs without the caput)"
       },
       "S3": {
         "tipos": [
@@ -95,7 +113,53 @@
           "TIT",
           "TXT"
         ],
+        "variantes": [
+          "base"
+        ],
         "description": "S2 + grouping chunks"
+      },
+      "S2c": {
+        "tipos": [
+          "ALI",
+          "ART",
+          "CPT",
+          "DSP",
+          "INC",
+          "ITE",
+          "PAR",
+          "TAB",
+          "TXT"
+        ],
+        "variantes": [
+          "caput",
+          "base"
+        ],
+        "description": "S2 with the caput sentence in paragraph-family chunks"
+      },
+      "S4": {
+        "tipos": [
+          "ALI",
+          "ART",
+          "CAP",
+          "CPT",
+          "DSP",
+          "INC",
+          "ITE",
+          "LIV",
+          "PAR",
+          "PRT",
+          "SBT",
+          "SEC",
+          "SSC",
+          "TAB",
+          "TIT",
+          "TXT"
+        ],
+        "variantes": [
+          "caput",
+          "base"
+        ],
+        "description": "S3 with the caput sentence in paragraph-family chunks"
       }
     },
     "grouping_tipos": [
@@ -129,35 +193,35 @@
   "inputs": {
     "chunks": {
       "path": "segmented/chunks_all.csv.gz",
-      "sha256": "f3db09046bb475bfcab1dfe84f4805a40a8fcd2629f252577c3aa492d1855f9b"
+      "sha256": "d1b9cf7e2dbbdaa269c332bf7e5ac4b70f8d465a417a7e71c58d7ff1dcb525ff"
     },
     "questions": {
       "path": "dataset/questions.jsonl",
-      "sha256": "c94f1a658dca2eb67cbc668db8e21d20c12ab8449fa1d3967311f09915cf0b0a"
+      "sha256": "b2d29142cdff89484a2bf0492b41152764b2ae4257a66521fbfe430978da4f5b"
     },
     "references": {
       "path": "dataset/references.jsonl",
-      "sha256": "7420ea7abe13bd5115231732798e79e048f28b1ef810b13068f31a0512aca59f"
+      "sha256": "a7b088daa3ac4e7d7c9a45d1f00b1319d5d16f5b169846477690fbbde2393e17"
     },
     "documents": {
       "path": "dataset/documents.jsonl",
-      "sha256": "d02b6266645a105dc21bfe49f5c4c1b1f3baef913d27a2fc92165e287c52af87"
+      "sha256": "0654a5cae6c47c9604904ecf594f5e8a3d8b6d700b508c1a193a8c3cbe522cad"
     },
     "strategies_yaml": {
       "path": "scripts/rag/strategies.yaml",
-      "sha256": "5c9c5d9e0670075bcb0f762c6db9308ab65bea681f78ea780856eb7b6e33f96a"
+      "sha256": "1e862b7f22028452b1610099ff5fc5c2ae189505fce9822d7f37cf47d75602be"
     },
     "corpus_vectors": {
       "path": "embeddings/jua-4b-mixed/corpus/vectors.npy",
-      "sha256": "d4e00f0e34b6269634e25c97db1aa299149092c354e69488a1c61b8915c7c636"
+      "sha256": "33a35e107f0e357cfd806df2f326bbbdbfd5e108ccfe285f800979e8c5094022"
     },
     "corpus_texts": {
       "path": "embeddings/jua-4b-mixed/corpus/texts.csv",
-      "sha256": "07ee615cb4ffd5b9410ce8a40650c34fb818042488b55406e7ce142835b9a850"
+      "sha256": "437e91bee4b22460d4048091ea8492f696e137105e7629e72eb5203bd93188fd"
     },
     "chunk_map": {
       "path": "embeddings/jua-4b-mixed/corpus/chunk_map.csv.gz",
-      "sha256": "d8166ba3fe87328c468bfa32781ce2e16370e63c60e45ee23d3b8499559a7cfb"
+      "sha256": "e8a023532de9f95f6323a288b687e12bb4f23c7937b692ee4cf36c4f914def55"
     },
     "query_vectors": {
       "path": "embeddings/jua-4b-mixed/queries/irpf/vectors.npy",
@@ -171,14 +235,12 @@
   "checks": {
     "ok": true,
     "errors": [],
-    "warnings": [
-      "11 cited document(s) without chunks (unreachable gold): decreto_27784_19500216, decreto_59308_19660923, decreto_59309_19660923, decreto_62125_19680116, decreto_63151_19680822, decreto_85801_19810310, decreto_86006_19810514, decreto_86084_19810608, decreto_93153_19860822, in_srf_23_19830325, in_srf_67_19880421"
-    ],
+    "warnings": [],
     "info": {
-      "chunks": 87702,
-      "unique_texts": 84568,
+      "chunks": 118766,
+      "unique_texts": 115582,
       "corpus_vectors": [
-        84568,
+        115582,
         2560
       ],
       "query_vectors": [
@@ -186,64 +248,72 @@
         2560
       ],
       "questions": 715,
-      "references": 1919,
-      "references_not_in_corpus": 42,
-      "documents": 459,
-      "documents_without_chunks": 11,
-      "cited_documents_without_chunks": [
-        "decreto_27784_19500216",
-        "decreto_59308_19660923",
-        "decreto_59309_19660923",
-        "decreto_62125_19680116",
-        "decreto_63151_19680822",
-        "decreto_85801_19810310",
-        "decreto_86006_19810514",
-        "decreto_86084_19810608",
-        "decreto_93153_19860822",
-        "in_srf_23_19830325",
-        "in_srf_67_19880421"
-      ]
+      "references": 1917,
+      "references_not_in_corpus": 0,
+      "documents": 458,
+      "documents_without_chunks": 0,
+      "cited_documents_without_chunks": []
     }
   },
   "counts": {
     "S1": {
-      "chunk_rows": 26250,
-      "candidate_texts": 26208,
+      "chunk_rows": 26364,
+      "candidate_texts": 26323,
       "ranking_rows": 715000,
-      "texts_with_aliases": 37
+      "texts_with_aliases": 36
     },
     "S2": {
-      "chunk_rows": 82642,
-      "candidate_texts": 79508,
+      "chunk_rows": 83496,
+      "candidate_texts": 83330,
       "ranking_rows": 715000,
-      "texts_with_aliases": 3128
+      "texts_with_aliases": 161
     },
     "S3": {
-      "chunk_rows": 87702,
-      "candidate_texts": 84568,
+      "chunk_rows": 88600,
+      "candidate_texts": 88434,
       "ranking_rows": 715000,
-      "texts_with_aliases": 3128
+      "texts_with_aliases": 161
+    },
+    "S2c": {
+      "chunk_rows": 83496,
+      "candidate_texts": 80325,
+      "ranking_rows": 715000,
+      "texts_with_aliases": 3165
+    },
+    "S4": {
+      "chunk_rows": 88600,
+      "candidate_texts": 85429,
+      "ranking_rows": 715000,
+      "texts_with_aliases": 3165
     }
   },
   "outputs": {
     "S1": {
       "path": "S1/rankings.csv.gz",
-      "sha256": "92d8fc1632151da6b6c03df8c654d381b08269ebd40adddaeb085e278a693857"
+      "sha256": "fea51838ba440a16d060e435c029b09b685f02523e73fbc2e76b994784e4c4c5"
     },
     "S2": {
       "path": "S2/rankings.csv.gz",
-      "sha256": "3a343ce9b43fad8d42ba33046313cf8ababac1bd95acc9c96e4f59b5a0985fb7"
+      "sha256": "dbb68e6ec597f27e9f931aa9d25391be13c36325858bef4c2e615dbc778bc818"
     },
     "S3": {
       "path": "S3/rankings.csv.gz",
-      "sha256": "8e63a54b3b12fe73e2e6c3d7449726c6bf8ba3ccf2f1e0908de103928c56340b"
+      "sha256": "e22ef832023d13dc8b6e5478d4db3ab01baa9f065ce0e7ebba6c94a32eb27145"
+    },
+    "S2c": {
+      "path": "S2c/rankings.csv.gz",
+      "sha256": "2cf8c5ccbba45259d5586ccc7a544f07d08645874039d8dfef1791498489c308"
+    },
+    "S4": {
+      "path": "S4/rankings.csv.gz",
+      "sha256": "d7bc2c4c1b1f1068e23b3bcced97960d6d4458574bc68b46352d9bd25ad0663e"
     }
   },
   "timings_s": {
-    "load_and_check": 1.42,
-    "index": 0.54,
-    "search": 2.36,
-    "write": 6.7,
-    "total": 11.03
+    "load_and_check": 1.98,
+    "index": 1.09,
+    "search": 4.23,
+    "write": 12.02,
+    "total": 19.32
   }
 }

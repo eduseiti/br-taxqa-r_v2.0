@@ -1,27 +1,42 @@
 # Segmentation strategies indexed by the retrieval stage (plan §3.1,
 # docs/20260927_204356_rag_pipeline_implementation_plan.md; strategy doc §5).
 #
-# A strategy is the set of chunk `Tipo`s it indexes. Adding a strategy = adding an entry here.
+# A strategy is the set of chunk `Tipo`s it indexes and the list of text variants it prefers
+# (`variantes`, default [base]; caput plan docs/20261005_184116_*, §4.2): per unit, the row of the
+# first listed variant that exists. Paragraph-family chunks exist twice since the caput plan: `base`
+# (article label + paragraph, S1-S3) and `caput` (with the caput's opening sentence, S2c/S4).
+# Adding a strategy = adding an entry here.
+#
 # `expected_rows` is checked at load time with a warning (not an error): it guards against running
 # on a chunk file other than the one the numbers were measured on.
 #
-# expected_rows measured on segmented/chunks_all.csv.gz, SHA-256 f3db0904…55f9b (2026-09-27).
-# (The plan quotes 26,252 / 82,644 / 87,947 from the 2026-09-24 run; the current file drops the
-# over-limit grouping chunks listed in segmented/groupings_over_limit.csv.)
+# expected_rows measured on segmented/chunks_all.csv.gz, SHA-256 d1b9cf7e…525ff (2026-10-08,
+# corpus rebuild docs/20261007_180833_*). Before the rebuild (SHA-256 f3db0904…55f9b) S1/S2/S3 had
+# 26,250 / 82,642 / 87,702 rows, and S2/S3 had the caput sentence in paragraph chunks (= S2c/S4 now).
 
 strategies:
   S1:
     tipos: [ART, DSP, TXT, TAB]
     description: "Article (or top-level dispositivo) + non-statutory units"
-    expected_rows: 26250
+    expected_rows: 26364
   S2:
     tipos: [ART, DSP, TXT, TAB, CPT, PAR, INC, ALI, ITE]
-    description: "S1 + sub-article units with ancestor path"
-    expected_rows: 82642
+    description: "S1 + sub-article units with ancestor path (paragraphs without the caput)"
+    expected_rows: 83496
   S3:
     tipos: [ART, DSP, TXT, TAB, CPT, PAR, INC, ALI, ITE, PRT, LIV, TIT, SBT, CAP, SEC, SSC]
     description: "S2 + grouping chunks"
-    expected_rows: 87702
+    expected_rows: 88600
+  S2c:
+    tipos: [ART, DSP, TXT, TAB, CPT, PAR, INC, ALI, ITE]
+    variantes: [caput, base]
+    description: "S2 with the caput sentence in paragraph-family chunks"
+    expected_rows: 83496
+  S4:
+    tipos: [ART, DSP, TXT, TAB, CPT, PAR, INC, ALI, ITE, PRT, LIV, TIT, SBT, CAP, SEC, SSC]
+    variantes: [caput, base]
+    description: "S3 with the caput sentence in paragraph-family chunks"
+    expected_rows: 88600
 
 # Grouping unit types: matched to articles by interval containment (plan §4.2 G2).
 grouping_tipos: [PRT, LIV, TIT, SBT, CAP, SEC, SSC]

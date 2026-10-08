@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "kind": "retrieval_evaluation",
+  "created_at": "2026-10-08T01:04:16+00:00",
+  "script": {
+    "package": "ragpipe",
+    "version": "0.1.0",
+    "git": {
+      "commit": "7d88bd693be1559804ae02f4be08bc91d48f2a8f",
+      "dirty": true,
+      "dirty_files": [
+        "LAUDE.md",
+        "docs/20260927_180401_dataset_v2_format_and_reference_fixes.md",
+        "docs/20260927_222210_retrieval_legal_provision_test_jua.md",
+        "docs/20261005_184116_segmentation_s3_vs_lima_ementa_and_caput_strategy_plan.md",
+        "docs/20261007_180833_corpus_fixes_and_full_rebuild_plan.md",
+        "embeddings/costs.csv",
+        "embeddings/jua-4b-mixed/corpus/manifest.json",
+        "embeddings/jua-4b-mixed/endpoint_meter.jsonl",
+        "runs/retrieval/jua-4b-mixed/irpf/manifest.json",
+        "scripts/embedding/README.md",
+        "scripts/rag/strategies.yaml",
+        "embeddings/jua-4b-mixed/corpus_prev_20260926/",
+        "runs/retrieval/jua-4b-mixed/irpf/eval/v2c_either_containment_skip/"
+      ]
+    },
+    "argv": [
+      "scripts/rag/rag.py",
+      "evaluate",
+      "--retrieval",
+      "runs/retrieval/jua-4b-mixed/irpf",
+      "--eval-id",
+      "v2c_either_containment_skip",
+      "--comparisons",
+      "S1:S2,S2:S3,S2:S2c,S3:S4,S1:S2c"
+    ]
+  },
+  "config_hash": "61800a48f70e11f50a7cb7609d3fdb3ad70a42dc09bda607fdfc73035fece838",
+  "eval_id": "v2c_either_containment_skip",
+  "params": {
+    "annex_rule": "either",
+    "budgets": [
+      1000,
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "unit_ks": [
+      1,
+      3,
+      5,
+      10,
+      20,
+      50,
+      100
+    ],
+    "raw_ks": [
+      1,
+      5,
+      10,
+      20,
+      50,
+      100,
+      1000
+    ],
+    "dedup": "containment",
+    "overflow": "skip",
+    "token_counter": "qwen3",
+    "gain": "binary",
+    "max_unit_position": 1000,
+    "comparisons": [
+      [
+        "S1",
+        "S2"
+      ],
+      [
+        "S2",
+        "S3"
+      ],
+      [
+        "S2",
+        "S2c"
+      ],
+      [
+        "S3",
+        "S4"
+      ],
+      [
+        "S1",
+        "S2c"
+      ]
+    ],
+    "n_resamples": 10000,
+    "seed": 13,
+    "strategies": [
+      "S1",
+      "S2",
+      "S3",
+      "S2c",
+      "S4"
+    ]
+  },
+  "inputs": {
+    "retrieval_manifest": {
+      "path": "runs/retrieval/jua-4b-mixed/irpf/manifest.json",
+      "config_hash": "6bf1dfdd513367984116baaa16b24c6bae76d55376479dfee0b7d17879798233"
+    },
+    "chunks": {
+      "path": "segmented/chunks_all.csv.gz",
+      "sha256": "d1b9cf7e2dbbdaa269c332bf7e5ac4b70f8d465a417a7e71c58d7ff1dcb525ff"
+    },
+    "questions": {
+      "path": "dataset/questions.jsonl",
+      "sha256": "b2d29142cdff89484a2bf0492b41152764b2ae4257a66521fbfe430978da4f5b"
+    },
+    "references": {
+      "path": "dataset/references.jsonl",
+      "sha256": "a7b088daa3ac4e7d7c9a45d1f00b1319d5d16f5b169846477690fbbde2393e17"
+    },
+    "documents": {
+      "path": "dataset/documents.jsonl",
+      "sha256": "0654a5cae6c47c9604904ecf594f5e8a3d8b6d700b508c1a193a8c3cbe522cad"
+    },
+    "chapters": {
+      "path": "scripts/rag/data/pr_irpf_2024_chapters.csv",
+      "sha256": "d11588869d03c90793e6c1ba6d154935b1184e4444c15817f0affa666208c5e4"
+    }
+  },
+  "retrieval": {
+    "embedding": {
+      "slug": "jua-4b-mixed",
+      "model_id": "ufca-llms/jua-4B-mixed",
+      "revision": "57f491c1718171c0ad71d723c4f6b2030684c4eb",
+      "dim": 2560,
+      "instruction_name": "irpf",
+      "instruction": "Given a question about Brazilian personal income tax (IRPF), retrieve the legal provisions that answer it",
+      "query_template": "Instruct: {instruction}\nQuery: {text}",
+      "document_template": "{text}"
+    },
+    "retriever": {
+      "name": "dense",
+      "similarity": "cosine (dot product of L2-normalized float32 vectors)",
+      "search": "exact brute force",
+      "tie_break": "text_id ascending",
+      "block_size": 128
+    },
+    "top_n": 1000
+  },
+  "gold": {
+    "questions_with_gold": {
+      "document": 596,
+      "article": 553,
+      "provision": 558
+    },
+    "gold_items": {
+      "document": 1725,
+      "article": 1958,
+      "provision": 2230
+    },
+    "references": 1917,
+    "references_not_in_corpus": 0
+  },
+  "outputs": {
+    "metrics.csv": {
+      "sha256": "6027189b9a822ff08199dcfa027481e8f7dc195248178ca3dd85ba69cb927c68"
+    },
+    "metrics_by_chapter.csv.gz": {
+      "sha256": "5289c0f8c93a808673c363801fbb6c2e50edc658b56dcdc53dc76d22dec7308c"
+    },
+    "comparisons.csv": {
+      "sha256": "6dc37d6c6d7fbbeab609f63216098f4b9cfd5504f6255f70cada4fe1d42367e8"
+    },
+    "reachability.csv": {
+      "sha256": "dca1f4a4e06c5ebcad5d4668549b8627ffb42d8416b2d1bb05dc5a5131a1d9af"
+    },
+    "per_question.csv.gz": {
+      "sha256": "aa9a87050154bbb514c6bf074037b928051208c02a47340d4f03ee3122d507c1"
+    },
+    "per_item.csv.gz": {
+      "sha256": "cf73e44cf324ab1dd83288ad54f57d3d4c3c5d63a52b209fa17b9b44511a2001"
+    }
+  },
+  "timings_s": {
+    "load": 1.46,
+    "score": 13.65,
+    "aggregate": 11.49,
+    "total": 31.73
+  }
+}

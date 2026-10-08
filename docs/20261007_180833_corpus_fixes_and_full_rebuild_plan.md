@@ -5,6 +5,8 @@
 fix 3 (Q187) added; PDF route tested; the user's `.docx` repairs for item 2 checked by re-parsing
 (§3.1.1); the §1.2 removals (D3) done and Resolução TSE nº 22.250/2006 fetched (commit `7c44d73`).
 Everything else is still to do.
+**Executed 2026-10-08 (R1–R10):** results, deviations and open points in
+`docs/20261008_010441_corpus_rebuild_results.md`.
 **Builds on:** `docs/20260927_180401_dataset_v2_format_and_reference_fixes.md` (**the dataset note**;
 §5.2, §7) and `docs/20261005_184116_segmentation_s3_vs_lima_ementa_and_caput_strategy_plan.md`
 (**the caput plan**; D-A, D-B, C1–C10).

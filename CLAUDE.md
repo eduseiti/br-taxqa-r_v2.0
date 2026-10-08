@@ -12,10 +12,13 @@ whether statutory or non-statutory.
 It is used for RAG experiments that test whether **hierarchical segmentation** of these documents
 gives better chunks for answering the **prose** questions of the Q&A document. System answers are
 compared with the gold answers using nuggets. The chosen segmentation strategies (S1 article
-baseline, S2 article + ancestor-path sub-units, optional S3 + groupings), the annex rules and the
-implementation split are recorded in
-`docs/20260923_193852_segmentation_strategies_for_rag_experiments.md`. Read it before working on
-segmentation, embedding or retrieval code.
+baseline, S2 article + ancestor-path sub-units (paragraphs without the caput), optional S3 +
+groupings, optional S4 = S3 + caput sentence in paragraph chunks (S2c: the same for S2; S5: full
+caput, later)), the annex rules and the implementation split are recorded in
+`docs/20260923_193852_segmentation_strategies_for_rag_experiments.md`; the caput variants in
+`docs/20261005_184116_segmentation_s3_vs_lima_ementa_and_caput_strategy_plan.md`. Read them before
+working on segmentation, embedding or retrieval code. The corpus was last rebuilt end to end on
+2026-10-08 (`docs/20261007_180833_corpus_fixes_and_full_rebuild_plan.md` and its results note).
 
 ## Folders
 
@@ -24,7 +27,8 @@ segmentation, embedding or retrieval code.
 - **`original/`** — the fetched source documents as `.docx`:
   - `articulados/` — statutory documents (laws, decrees, INs, ADEs…), named
     `<type>_<number>_<YYYYMMDD>.docx` (e.g. `lei_9250_19951226.docx`);
-  - `nao_articulados/` — non-statutory documents (pareceres, soluções de consulta, court decisions…).
+  - `nao_articulados/` — non-statutory documents (pareceres, soluções de consulta, court decisions…),
+    as `.docx` or, for 12 soluções de consulta, born-digital `.pdf`.
 - **`lexml/`** — the LexML XML produced from `original/`:
   - `articulados/` — one `<stem>.xml` per main document (root `ProjetoNorma`) plus one
     `<stem>.anexoN.xml` per annex. Annexes are separate files whose root is `Anexo` →
@@ -33,11 +37,15 @@ segmentation, embedding or retrieval code.
     parser command line and output; `skipped_report.txt` lists parse failures.
   - `nao_articulados/` — non-statutory documents, named from their URN
     (`urn_lex_br_<authority>_<type>_<date>_<number>.xml`), root `DocumentoGenerico` with
-    `Agrupamento` / `Bloco` / `p` / `table`. Documents that failed statutory parsing may appear here
-    under their URN name (e.g. `in_srf_84_19791220` →
-    `urn_lex_br_ministerio.fazenda_secretaria.receita.federal_ato.declaratorio_1979-12-20_84.xml`).
-- **`scripts/`** — code for the experiment pipeline: segmentation (the amended copy of the XSL for
-  statutory documents, Python code for non-statutory ones), embedding, RAG and nugget evaluation.
+    `Agrupamento` / `Bloco` / `p` / `table`. Every URN is **declared** in
+    `scripts/lexml/nonstat_metadata.tsv` (stem → URN) and passed to the parser with `--metadata`;
+    `scripts/dataset/nonstat_lexml_map.tsv` (stem → XML file) is generated from this folder.
+    `_text/` holds the cleaned text of the PDF sources (the parser input). Each folder has a
+    `PARSER_VERSION` file with the parser commit and command line.
+- **`scripts/`** — code for the experiment pipeline: `lexml/` (corpus preparation: PDF → text,
+  `.docx` repairs, declared URNs, article-coverage audit), segmentation (the amended copy of the XSL
+  for statutory documents, Python code for non-statutory ones), embedding, RAG and nugget
+  evaluation.
 - **`dataset/`** — the v2.0 dataset as HF JSON Lines configs (`questions`, `references`,
   `documents`), built by `scripts/dataset/build_v2_dataset.py`. References point at `original/`
   stems and LexML URNs. Hand-verified corrections to the v1.1 references are in

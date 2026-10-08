@@ -7,6 +7,12 @@
 **Outputs:** `runs/retrieval/jua-4b-mixed/irpf/` (rankings) and
 `runs/retrieval/jua-4b-mixed/irpf/eval/either_containment_skip/` (`report.md` has every table).
 
+> **Note (2026-10-08):** this test ran on the **old corpus** (chunk file `f3db0904…`). By the
+> definitions of `docs/20261005_184116_*`, its S2/S3 are **S2c/S4**: the paragraph chunks carried the
+> caput sentence. The corpus was rebuilt on 2026-10-08 and the retrieval re-run with S1/S2/S3/S2c/S4;
+> see `docs/20261008_010441_corpus_rebuild_results.md`. The rankings under `runs/retrieval/jua-4b-mixed/irpf/S*/` now belong to the new run.
+> This evaluation's `report.md`/`metrics.csv` are kept as they were.
+
 ---
 
 ## 1. What was run

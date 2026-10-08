@@ -7,6 +7,14 @@ takes its gold citations from the dataset. v1.1 references point at `.txt` file 
 corpus, some of which are duplicated or wrong. The v2.0 corpus (`original/` → `lexml/` → `segmented/`)
 uses different names. So the references had to be re-keyed to v2.0 documents and corrected.
 
+> **Update 2026-10-08:** the 26 wrong acts of §5.2a are now in the corpus and resolve automatically
+> through the fetcher's corrected canonical list (`not_in_corpus` 42 → 0). Q313 "Parecer Cosit nº
+> 30/2001" and Q187 "SCI Cosit nº 27/2008" were dropped, and Q249 points at Nota PGFN/CRJ nº
+> 981/2015. §7 items 1 (documents without chunks), 2 (missing articles; only treaty articles remain,
+> as `unmatchable`), 3 (missing acts, fetched by the user), 4 (the Nota-981 duplicate, removed),
+> 5 (URNs, now declared) and 6 (canonical list) are done; item 7 is still open. See `docs/20261007_180833_corpus_fixes_and_full_rebuild_plan.md` and
+> `docs/20261008_010441_corpus_rebuild_results.md`. The §5.2a table and §6 counts below are kept as written on 2026-09-27.
+
 ---
 
 ## 1. Request
