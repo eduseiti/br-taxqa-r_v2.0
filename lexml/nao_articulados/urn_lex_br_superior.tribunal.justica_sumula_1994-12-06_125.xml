@@ -583,18 +583,21 @@
           <Bloco nome="ordem">4</Bloco>
           <Agrupamento id="pp1_agh7_agh5_txt1" nome="texto">
             <p>O Sr. Ministro Cesar Asfor Rocha: Sr. Presidente, o meu entendimento é de que cabe imposto de renda nos dois casos. Juntarei voto proferido em caso análogo.</p>
-            <p>
-              <b>ANEXO</b>
-            </p>
+          </Agrupamento>
+        </AgrupamentoHierarquico>
+        <AgrupamentoHierarquico id="pp1_agh7_agh6" nome="subsecao">
+          <NomeAgrupador>ANEXO</NomeAgrupador>
+          <Bloco nome="ordem">5</Bloco>
+          <Agrupamento id="pp1_agh7_agh6_txt1" nome="texto">
             <p>
               <b>RECURSO ESPECIAL N. 47.692-SP</b>
             </p>
           </Agrupamento>
         </AgrupamentoHierarquico>
-        <AgrupamentoHierarquico id="pp1_agh7_agh6" nome="subsecao">
+        <AgrupamentoHierarquico id="pp1_agh7_agh7" nome="subsecao">
           <NomeAgrupador>VOTO VENCIDO EM PARTE</NomeAgrupador>
-          <Bloco nome="ordem">5</Bloco>
-          <Agrupamento id="pp1_agh7_agh6_txt1" nome="texto">
+          <Bloco nome="ordem">6</Bloco>
+          <Agrupamento id="pp1_agh7_agh7_txt1" nome="texto">
             <p>O Sr. Ministro Cesar Asfor Rocha (Relator):</p>
             <p>Tributário. Imposto de renda. Indenização pecuniária referente a férias e licença-prêmio não gozadas por necessidade do serviço. Incidência.</p>
             <p>Incide imposto sobre a renda auferida de indenização pecuniária relativa a períodos de licença-prêmio e férias não gozadas em face da necessidade do serviço.</p>

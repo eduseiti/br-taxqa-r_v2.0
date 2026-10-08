@@ -1,0 +1,131 @@
+<LexML xmlns="http://www.lexml.gov.br/1.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <Metadado>
+    <Identificacao URN="urn:lex:br:procuradoria.geral.fazenda.nacional:parecer:2008;2683"/>
+  </Metadado>
+  <DocumentoGenerico>
+    <PartePrincipal id="pp1">
+      <Agrupamento id="pp1_agr1" nome="epigrafe">
+        <p>PARECER PGFN/PGA/Nº 2683/2008</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agr2" nome="ementa">
+        <p>Ato Declaratório do PGFN. Dispensa de contestar e recorrer. Não constituição do crédito tributário. Desnecessidade de retenção na fonte. Impossibilidade de inscrição em DAU.</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agr3" nome="texto">
+        <p>Trata-se do Memo RFB/GAB/Nº 138/2008, de 13 de novembro de 2008, o qual encaminha a Nota Cosit nº 364, de mesma data. Tal Nota se propôs a analisar as minutas de pareceres da PGFN que fundamentarão uma nova leva de atos declaratórios, a serem editados nos termos do <Remissao xlink:href="urn:lex:br:federal:lei:2002;10522!art19">art. 19 da Lei nº 10.522/2002</Remissao>. Tal apreciação foi feita previamente ao encaminhamento dos pareceres ao Senhor Ministro de Estado da Fazenda.</p>
+        <p>A questão a ser respondida no presente Parecer foi assim formulada pela RFB:</p>
+        <p class="quote">
+          <i>9.2. O segundo comentário diz respeito ao procedimento a ser adotado pelas fontes pagadoras dos rendimentos de que trata a matéria. Tanto a Lei, como os pareceres da PGFN não tratam do assunto.</i>
+        </p>
+        <p class="quote">
+          <i>9.2.1. A questão principal é quanto à obrigatoriedade de as fontes pagadoras continuarem a fazer as retenções determinadas em lei, posto que os pareceres da PGFN não reconhecem a correção da tese adotada pelo STJ de isenção ou a nãotributação, mas tão somente que aquela Procuradoria deixará de recorrer das ações novos ou desistirá das ações existentes.</i>
+        </p>
+        <p class="omissis">
+          <i>....</i>
+        </p>
+        <p class="quote">
+          <i>9.2.3. Assim, tendo em vista de que tanto a Lei, como os pareceres da PGFN não tratam do assunto resta dúvida se o texto da Lei dá margem à RFB de determinar que as fontes pagadoras podem deixar de efetuar as retenções, e que na hipótese de ter havido o recolhimento fazer a revisão de ofício ou deferir pedidos de restituição e de compensação, além das questões da contagem de prazo para efeito de juros e decadência.</i>
+        </p>
+        <p>Com o escopo de responder a indagação acima, transcreve-se o texto legal pertinente, qual seja o <Remissao xlink:href="urn:lex:br:federal:lei:2002;10522!art19">art. 19 da Lei nº 10.522/2002</Remissao>, com a redação dada pela <Remissao xlink:href="urn:lex:br:federal:lei:2004;11033">Lei nº 11.033/2004</Remissao>:</p>
+        <p class="quote">
+          <i>Art. 19. Fica a Procuradoria-Geral da Fazenda Nacional autorizada a não contestar, a não interpor recurso ou a desistir do que tenha sido interposto, desde que inexista outro fundamento relevante, na hipótese de a decisão versar sobre:</i>
+        </p>
+        <ul>
+          <li>
+            <i>- matérias de que trata o art. 18;</i>
+          </li>
+          <li>
+            <i>- matérias que, em virtude de jurisprudência pacífica do Supremo Tribunal Federal, ou do Superior Tribunal de Justiça, sejam objeto de ato declaratório do ProcuradorGeral da Fazenda Nacional, aprovado pelo Ministro de Estado da Fazenda.</i>
+          </li>
+        </ul>
+        <p class="quote">
+          <i>§ 1</i>
+          <i>
+            <sup>o</sup>
+          </i>
+          <i> Nas matérias de que trata este artigo, o Procurador da Fazenda Nacional que atuar no feito deverá, expressamente, reconhecer a procedência do pedido, quando citado para apresentar resposta, hipótese em que não haverá condenação em honorários, ou manifestar o seu desinteresse em recorrer, quando intimado da decisão judicial.</i>
+        </p>
+      </Agrupamento>
+      <AgrupamentoHierarquico id="pp1_agh1" nome="secao">
+        <Rotulo>2</Rotulo>
+        <Bloco nome="ordem">0</Bloco>
+        <Agrupamento id="pp1_agh1_txt1" nome="texto">
+          <p class="quote">
+            <i>§ 2</i>
+            <i>
+              <sup>o</sup>
+            </i>
+            <i> A sentença, ocorrendo a hipótese do § 1</i>
+            <i>
+              <sup>o</sup>
+            </i>
+            <i>, não se subordinará ao duplo grau de jurisdição obrigatório.</i>
+          </p>
+          <p class="quote">
+            <i>§ 3</i>
+            <i>
+              <sup>o</sup>
+            </i>
+            <i> Encontrando-se o processo no Tribunal, poderá o relator da remessa negar-lhe seguimento, desde que, intimado o Procurador da Fazenda Nacional, haja manifestação de desinteresse.</i>
+          </p>
+          <p class="quote">
+            <i>§ 4</i>
+            <i>
+              <sup>o</sup>
+            </i>
+            <i> A Secretaria da Receita Federal não constituirá os créditos tributários relativos às matérias de que trata o inciso II do </i>
+            <b>
+              <i>caput</i>
+            </b>
+            <i> deste artigo.</i>
+          </p>
+          <p class="quote">
+            <i>§ 5</i>
+            <i>
+              <sup>o</sup>
+            </i>
+            <i> Na hipótese de créditos tributários já constituídos, a autoridade lançadora deverá rever de ofício o lançamento, para efeito de alterar total ou parcialmente o crédito tributário, conforme o caso.</i>
+          </p>
+          <ul>
+            <li>Uma vez editado o ato declaratório do PGFN a que alude o dispositivo, com a aprovação do Ministro da Fazenda, tem-se algumas conseqüências indubitáveis: (i) o Procurador da Fazenda Nacional está dispensado de contestar/impugnar e de recorrer naquela matéria, bem como requererá a desistência dos recursos já interpostos; e, (ii) caso o objeto do ato declaratório seja um tributo administrado pela Secretaria da Receita Federal do Brasil, esta não constituirá novos créditos tributários relativos àquela hipótese de incidência, bem como reverá de ofício os lançamentos já efetuados.</li>
+            <li>A dúvida exposta pela RFB consiste basicamente em saber se, na hipótese do ato declaratório do PGFN versar sobre um tributo passível de retenção na fonte, a fonte pagadora também poderá não reter o tributo em face do dito ato declaratório.</li>
+            <li>A resposta é positiva e já foi firmada pela Coordenação-Geral da Representação Judicial da Fazenda Nacional – CRJ nas Notas CRJ 60/2007 e 1006/2007, as quais seguem em anexo por cópia.</li>
+            <li>E não poderia ser diferente, eis que, por força do § 4º do art. 19 da Lei nº 10.522/2002 o crédito tributário sequer será constituído nessas hipóteses. Ora, qual a lógica de se fazer a retenção na fonte de um tributo que não é devido por força de lei? Ou dito de outra forma, qual a razão em se manter essa obrigatoriedade quanto à fonte se, caso tal retenção não ocorra não poderá haver a constituição do crédito tributário pelo lançamento de ofício da autoridade?</li>
+            <li>Se isso não bastasse, apenas se imagine a situação na qual, debalde o ato declaratório do PGFN e a aprovação ministerial, a fonte faça a retenção. Ora, como tal retenção é indevida, pois o crédito tributário não pode ser constituído, o resultado desse ato será levar o contribuinte a formular pedido de restituição junto à administração tributária, o que contraria o princípio da eficiência que deve reger a Administração Pública como um todo, além de se constituir num desrespeito ao cidadão, já tão atormentado pela ineficiência de um Estado burocrático e pantagruélico.</li>
+            <li>A fim de que não se tenha dúvida: a edição de ato declaratório nos termos do art. 19 da Lei nº 10.522/2002 tem o condão de, quando for o caso, desobrigar a fonte a reter o tributo devido pelo contribuinte, eis que se está diante de hipótese na qual o crédito tributário não pode ser constituído (§ 4º).</li>
+            <li>Em face disso, e sabendo-se que nem todos tomam conhecimento dos atos declaratórios editados pela PGFN, não obstante publicados e divulgados oficialmente e pela imprensa especializada, seria deveras oportuno que a RFB também disponibilizasse tais informações pelos seus canais oficiais, na medida em que tal proceder facilita a todos (administração tributária, fonte, contribuinte).</li>
+            <li>Esclareça-se também que, a par da desnecessidade de retenção na fonte nessas hipóteses, caso ela tenha ocorrido, além do direito à restituição já mencionado, o contribuinte poderá</li>
+          </ul>
+        </Agrupamento>
+      </AgrupamentoHierarquico>
+      <AgrupamentoHierarquico id="pp1_agh2" nome="secao">
+        <Rotulo>3</Rotulo>
+        <Bloco nome="ordem">1</Bloco>
+        <Agrupamento id="pp1_agh2_txt1" nome="texto">
+          <p>valer-se de pedido de compensação, ou então caberá a revisão de ofício, sempre respeitado o prazo prescricional.</p>
+          <ul>
+            <li>Alfim, a edição de ato declaratório pelo PGFN, nos termos do art. 19 da Lei nº 10.522/2002, tem o condão de vincular a atividade do Procurador da Fazenda Nacional na sua atuação não só judicial, mas também na sua atividade administrativa, como se dá, por exemplo, com o ato de inscrição de crédito da União na respectiva Dívida Ativa e a conseqüente cobrança. Não há dúvidas que os Procuradores da Fazenda Nacional deverão adequar a cobrança do crédito ao quanto posto no ato declaratório, tal qual ocorre com a RFB e a revisão do lançamento (§ 5º).</li>
+            <li>Além disso, o ato declaratório do PGFN poderá versar não só sobre a incidência ou não de um dado tributo, mas também sobre alguma atividade administrativa dos Procuradores da Fazenda Nacional que tenha reflexo na atividade judicial. Nessas hipóteses, claro está que uma vez dispensada a apresentação de contestação e a interposição de recurso, não faz nenhum sentido que administrativamente continue-se praticando o mesmo ato que não deverá mais ser defendido judicialmente. As razões que levam a essa conclusão são as mesmas que presidem o raciocínio acima exposto.</li>
+            <li>Portanto, a interpretação a ser dada ao art. 19 da Lei nº 10.522/2002 quanto ao alcance dos atos declaratórios do PGFN sobre a administração tributária (PGFN e RFB) ou sobre terceiros (no caso da presente análise, os responsáveis pela retenção de tributos na fonte) há de ser ampla, prestigiando-se o princípio constitucional da eficiência da administração pública (art. 37 da CR/88).</li>
+          </ul>
+          <p>À consideração superior.</p>
+          <p>PROCURADORIA-GERAL DA FAZENDA NACIONAL, em 28 de novembro de</p>
+          <p>2008.</p>
+        </Agrupamento>
+      </AgrupamentoHierarquico>
+      <Agrupamento id="pp1_agrf1" nome="assinatura">
+        <p>FABRÍCIO DA SOLLER</p>
+        <p>Procurador-Geral Adjunto da Fazenda Nacional</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agrf2" nome="nota">
+        <p>Aprovo. Encaminhe-se o presente Parecer à RFB, e dê-se ampla divulgação no âmbito</p>
+        <p>da PGFN.</p>
+        <p>PROCURADORIA-GERAL DA FAZENDA NACIONAL, em 1º de dezembro de</p>
+        <p>2008.</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agrf3" nome="assinatura">
+        <p>LUÍS INÁCIO LUCENA ADAMS</p>
+        <p>Procurador-Geral da Fazenda Nacional</p>
+      </Agrupamento>
+    </PartePrincipal>
+  </DocumentoGenerico>
+</LexML>

@@ -1,0 +1,38 @@
+<LexML xmlns="http://www.lexml.gov.br/1.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <Metadado>
+    <Identificacao URN="urn:lex:br:federal:decreto:1986-08-22;93153"/>
+  </Metadado>
+  <DocumentoGenerico>
+    <PartePrincipal id="pp1">
+      <Agrupamento id="pp1_agr1" nome="epigrafe">
+        <p><Remissao xlink:href="urn:lex:br:federal:decreto:1986-08-22;93153">DECRETO Nº 93.153, DE 22 DE AGOSTO DE 1986</Remissao>.</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agr2" nome="preliminar">
+        <table id="pp1_tab1">
+          <tr>
+            <td/>
+            <td>Promulga o Convênio Constitutivo da Corporação Interamericana de Investimentos.</td>
+          </tr>
+        </table>
+      </Agrupamento>
+      <Agrupamento id="pp1_agr3" nome="ementa">
+        <p>O PRESIDENTE DA REPÚBLICA, CONSIDERANDO que o Congresso Nacional aprovou, pelo <Remissao xlink:href="urn:lex:br:federal:decreto.legislativo:1986-06-30;13">Decreto Legislativo nº 13, de 30 de junho de 1986</Remissao>, o Convênio Constitutivo da Corporação Interamericana de Investimentos, concluído em Washington, a 19 de novembro de 1984,</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agr4" nome="texto">
+        <p>CONSIDERANDO que o instrumento de ratificação foi depositado, pelo Brasil, junto ao Banco Interamericano de Desenvolvimento, em Washington, a 11 de agosto de 1986,</p>
+        <p>
+          <b>DECRETA:</b>
+        </p>
+        <p>Artigo. 1º - O Convênio Constitutivo da Corporação Interamericana de Investimentos, apenso por cópia ao presente Decreto, será executado e cumprido tão inteiramente como nele se contém.</p>
+        <p>Artigo. 2º - Este Decreto entra em vigor na data de sua publicação, revogadas as disposições em contrário.</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agrf1" nome="localDataFecho">
+        <p>Brasília, em 22 de agosto de 1986; 165º da Independência e 98º da República.</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agrf2" nome="nota">
+        <p>JOSÉ SARNEY Roberto Costa de Abreu Sodré</p>
+        <p>Este texto não substitui o publicado no DOU 25.8.1986</p>
+      </Agrupamento>
+    </PartePrincipal>
+  </DocumentoGenerico>
+</LexML>

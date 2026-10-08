@@ -1,0 +1,36 @@
+<LexML xmlns="http://www.lexml.gov.br/1.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <Metadado>
+    <Identificacao URN="urn:lex:br:federal:decreto:1981-05-14;86006"/>
+  </Metadado>
+  <DocumentoGenerico>
+    <PartePrincipal id="pp1">
+      <Agrupamento id="pp1_agr1" nome="epigrafe">
+        <p><Remissao xlink:href="urn:lex:br:federal:decreto:1981-05-14;86006">Decreto nº 86.006, de 14 de maio de 1981</Remissao></p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agr2" nome="ementa">
+        <p>Promulga o Acordo Brasil, FAO sobre o Estabelecimento de um Escritório de Representação da FAO em Brasília.</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agr3" nome="texto">
+        <p>Texto compilado Texto atualizado Texto para impressão Ver mais .. Ocultar</p>
+        <p>
+          <b>O PRESIDENTE DA REPÚBLICA,</b>
+        </p>
+        <p>CONSIDERANDO que o Congresso Nacional aprovou, pelo <Remissao xlink:href="urn:lex:br:federal:decreto.legislativo:1980-11-24;122">Decreto Legislativo nº 122, de 24 de novembro de 1980</Remissao>, o Acordo sobre o Estabelecimento de um Escritório de Representação da Organização das Nações Unidas para Alimentação e Agricultura (FAO) em Brasília, celebrado entre o Brasil e a FAO, em Roma, a 19 de novembro de 1979;</p>
+        <p>CONSIDERANDO que o Acordo em apreço entrou em vigor, nos termos de seu Artigo VII, a 15 de janeiro de 1981.</p>
+        <p>
+          <b>DECRETA:</b>
+        </p>
+        <p>Art . 1º, O Acordo sobre o Estabelecimento de um Escritório de Representação da FAO em Brasília será executado e cumprido tão inteiramente como nele se contém.</p>
+        <p>Art . 2º - Este Decreto entra em vigor na data de sua publicação, revogadas as disposições em contrário.</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agrf1" nome="assinatura">
+        <p>Brasília, em 14 de maio de 1981; 160º da Independência e 93º da República.</p>
+        <p>JOÃO FIGUEIREDO</p>
+      </Agrupamento>
+      <Agrupamento id="pp1_agrf2" nome="nota">
+        <p>R.S. Guerreiro</p>
+        <p>Este texto não substitui o publicado no D.O.U. de 15.5.1981</p>
+      </Agrupamento>
+    </PartePrincipal>
+  </DocumentoGenerico>
+</LexML>
