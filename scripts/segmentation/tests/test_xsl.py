@@ -6,8 +6,8 @@ import re
 
 import pytest
 
-from common import (NSMAP, Positions, ORPHAN_TYPES, doc_urn, has_disp_ancestor, in_alteracao, L,
-                    parse, rotulo, row_text, xsl_row_elements)
+from common import (NSMAP, Positions, ORPHAN_TYPES, doc_urn, has_disp_ancestor, in_alteracao,
+                    in_article_paragraph, L, parse, rotulo, row_text, xsl_row_elements)
 from conftest import fixture_path
 
 GROUPS = ("PRT", "LIV", "TIT", "SBT", "CAP", "SEC", "SSC")
@@ -55,10 +55,31 @@ def test_worked_target(xsl_out):
                     r"até o limite anual individual de: .*10\. R\$ 3\.561,50", body(ite["Texto"]))
     assert "1. R$ 2.198,00" not in ite["Texto"]           # no sibling items
     assert ite["Rotulo"] == "lei_9250_19951226, Art. 8º, caput, Inciso II, Alínea b, Item 10"
+    # caput plan D-A: the base PAR row has the article label and the paragraph, no caput sentence
     par = by["art8_par2"]
-    assert re.match(r"Art\. 8º A base de cálculo .* somas: § 2º O disposto na alínea a do inciso II:",
-                    body(par["Texto"]))
+    assert body(par["Texto"]).startswith("Art. 8º § 2º O disposto na alínea a do inciso II:")
+    assert "A base de cálculo" not in par["Texto"]
+    assert by["art8_par2_inc1"]["Texto"].split(" ] ", 1)[1].startswith("Art. 8º § 2º O disposto na alínea a")
     assert "CÂMARA DOS DEPUTADOS" not in meta
+
+
+def test_worked_target_caput_sentence(xsl_out):
+    """caput_em_paragrafo='frase' gives the old X3b texts (the S4/S2c caput variant); caput-side
+    and non-paragraph rows are the same with both settings."""
+    _, base_rows, _ = xsl_out("lei_9250_19951226.xml")
+    _, rows, _ = xsl_out("lei_9250_19951226.xml", caput="frase")
+    by = {r["urn"].rsplit("!", 1)[1]: r for r in rows}
+    assert re.match(r"Art\. 8º A base de cálculo .* somas: § 2º O disposto na alínea a do inciso II:",
+                    body(by["art8_par2"]["Texto"]))
+    tree = parse(fixture_path("lei_9250_19951226.xml"))
+    els = xsl_row_elements(tree)
+    assert len(rows) == len(base_rows) == len(els)
+    for b, r, (_, e) in zip(base_rows, rows, els):
+        if in_article_paragraph(e):
+            continue
+        assert b["Texto"] == r["Texto"], b["urn"]
+    assert by["art8_cpt_inc2_ali2_ite10"]["Texto"] == \
+        next(b for b in base_rows if b["urn"].endswith("!art8_cpt_inc2_ali2_ite10"))["Texto"]
 
 
 def test_remission_text_kept(xsl_out):
@@ -127,11 +148,14 @@ def test_labels_without_separator(xsl_out):
             assert not re.search(r"(Inciso|Alínea|Item)(,|$)", r["Rotulo"]), r["Rotulo"]
 
 
+@pytest.mark.parametrize("caput", [("nao", "nenhum"), ("frase", "frase")], ids=["nao", "frase"])
 @pytest.mark.parametrize("name", ["lei_9250_19951226.xml", "decreto_3000_19990326.xml",
                                   "circ_bc_3432_20090203.xml", "in_srf_256_20021211.anexo2.xml"])
-def test_python_xsl_parity(xsl_out, name):
-    """Every row: Python selection, label, interval and text == XSL (Python mirror, plan §5b)."""
-    _, rows, meta = xsl_out(name)
+def test_python_xsl_parity(xsl_out, name, caput):
+    """Every row: Python selection, label, interval and text == XSL (Python mirror, plan §5b), with
+    both caput_em_paragrafo settings."""
+    xsl_caput, py_caput = caput
+    _, rows, meta = xsl_out(name, caput=xsl_caput)
     tree = parse(fixture_path(name))
     els = xsl_row_elements(tree)
     pos = Positions(tree)
@@ -143,4 +167,4 @@ def test_python_xsl_parity(xsl_out, name):
         assert r["urn"] == f"{urn}!{e.get('id')}"
         assert r["Rotulo"] == rotulo(e, sig)
         assert (int(r["Num_Inicio"]), int(r["Num_Final"])) == pos[e]
-        assert r["Texto"] == row_text(e, meta)
+        assert r["Texto"] == row_text(e, meta, py_caput)

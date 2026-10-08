@@ -18,6 +18,16 @@ Structural checks (each reported as pass/fail with examples):
   text_coverage    per file, word-multiset coverage of the S1 bodies over the document text
                    (outside Alteracao, main-document preamble, dropped Agrupamentos, prefix-only
                    elements and statutory grouping labels) >= 98 %
+  variant_twins    every non-base row (caput plan: variante = caput) has exactly one base twin
+                   (chunk_id <stem>#c<seq> ↔ <stem>#<seq>) with the same arquivo, urn, Tipo and
+                   interval, and only paragraph-family Tipos have variants
+  base_no_caput    the caput variant is the base text plus one inserted segment (the caput
+                   sentence), so the base row does not hold it
+  diff_vs_frozen   (report only, with --frozen) for documents whose LexML did not change since
+                   --frozen-lexml-rev, base rows equal the frozen rows, except paragraph-family
+                   rows, whose frozen text is now the caput variant
+
+The structural checks above the variant checks run on the base rows.
 
 Statistics: rows per Tipo / strategy / category; token percentiles per Tipo and tokenizer; split
 units; over-cap sub-article and grouping rows (Q7); optional Gemini countTokens sample (§2.6).
@@ -369,6 +379,76 @@ def gemini_sample(df: pd.DataFrame, n: int, model: str, n_largest: int = 100, th
 # report
 # --------------------------------------------------------------------------------------------
 
+FAMILY = ("PAR", "INC", "ALI", "ITE")
+
+
+def variant_checks(base: pd.DataFrame, variants: pd.DataFrame) -> tuple[dict, dict]:
+    """variant_twins and base_no_caput (see the module docstring)."""
+    by_id = base.set_index("chunk_id")
+    twin_err, ins_err = [], []
+    for r in variants.itertuples(index=False):
+        bid = re.sub(r"#c(\d+)$", r"#\1", r.chunk_id)
+        if bid == r.chunk_id or bid not in by_id.index:
+            twin_err.append(f"{r.chunk_id}: no base twin")
+            continue
+        b = by_id.loc[bid]
+        if (b["arquivo"], b["urn"], b["Tipo"], b["Num_Inicio"], b["Num_Final"]) != \
+                (r.arquivo, r.urn, r.Tipo, r.Num_Inicio, r.Num_Final) or r.Tipo not in FAMILY:
+            twin_err.append(f"{r.chunk_id}: twin differs or Tipo {r.Tipo} is not paragraph-family")
+            continue
+        bt, vt = b["Texto"], r.Texto
+        n = 0
+        while n < min(len(bt), len(vt)) and bt[n] == vt[n]:
+            n += 1
+        inserted = vt[n: len(vt) - (len(bt) - n)] if len(vt) > len(bt) else ""
+        if not inserted.strip() or vt[n + len(inserted):] != bt[n:]:
+            ins_err.append(f"{r.chunk_id}: variant is not the base text plus one inserted segment")
+    dup = variants["chunk_id"].map(lambda c: re.sub(r"#c(\d+)$", r"#\1", c)).duplicated(keep=False)
+    twin_err += [f"{c}: several variants of one base row" for c in variants.loc[dup, "chunk_id"]]
+    return ({"ok": not twin_err, "count": len(twin_err), "variants": len(variants), "examples": twin_err[:10]},
+            {"ok": not ins_err, "count": len(ins_err), "examples": ins_err[:10]})
+
+
+def diff_vs_frozen(base: pd.DataFrame, variants: pd.DataFrame, frozen_path: Path, rev: str | None) -> dict:
+    """Report: rows of documents with unchanged LexML compared with the frozen chunk set."""
+    import hashlib
+    import subprocess
+    frozen = pd.read_csv(frozen_path, dtype=str, keep_default_na=False)
+    root = ART_DIR.parent.parent
+
+    def unchanged(arquivo: str) -> bool:
+        if rev is None:
+            return True
+        for d in (ART_DIR, NAO_DIR):
+            path = d / arquivo
+            if path.exists():
+                rel = path.relative_to(root).as_posix()
+                old = subprocess.run(["git", "-C", str(root), "show", f"{rev}:{rel}"], capture_output=True)
+                return old.returncode == 0 and hashlib.sha256(old.stdout).digest() == \
+                    hashlib.sha256(path.read_bytes()).digest()
+        return False
+
+    files = sorted(set(base["arquivo"]) | set(frozen["arquivo"]))
+    same = {f for f in files if f in set(frozen["arquivo"]) and f in set(base["arquivo"]) and unchanged(f)}
+    cap_by_base = {re.sub(r"#c(\d+)$", r"#\1", r.chunk_id): r.Texto for r in variants.itertuples(index=False)}
+    new = base[base["arquivo"].isin(same)].assign(expected=lambda d: [cap_by_base.get(c, t) for c, t in
+                                                                     zip(d["chunk_id"], d["Texto"])])
+    old = frozen[frozen["arquivo"].isin(same)]
+    key = ["arquivo", "Tipo", "urn", "Num_Inicio", "Num_Final", "parte"]
+    new_k = new.assign(parte=new["parte"].astype(str), Num_Inicio=new["Num_Inicio"].astype(str),
+                       Num_Final=new["Num_Final"].astype(str))
+    m = new_k.merge(old[key + ["Texto"]], on=key, how="outer", suffixes=("", "_frozen"), indicator=True)
+    both = m[m["_merge"] == "both"]
+    diff_text = both[both["expected"] != both["Texto_frozen"]]
+    changed_files = sorted(set(files) - same)
+    return {"ok": True, "report_only": True, "lexml_rev": rev,
+            "files_unchanged_lexml": len(same), "files_changed_or_new_or_removed": len(changed_files),
+            "rows_compared": len(both), "rows_text_differs": len(diff_text),
+            "rows_only_new": int((m["_merge"] == "left_only").sum()),
+            "rows_only_frozen": int((m["_merge"] == "right_only").sum()),
+            "examples": diff_text["urn"].head(10).tolist(), "changed_files": changed_files}
+
+
 def pct(s: pd.Series) -> dict:
     if s.empty:
         return {}
@@ -384,6 +464,8 @@ def main(argv=None) -> int:
     p.add_argument("--grouping-max-tokens", type=int, default=8192)
     p.add_argument("--gemini-sample", type=int, default=500)
     p.add_argument("--gemini-model", default="gemini-embedding-2")
+    p.add_argument("--frozen", type=Path, default=None, help="previous chunks_all.csv(.gz) (diff_vs_frozen)")
+    p.add_argument("--frozen-lexml-rev", default=None, help="git revision of lexml/ that produced --frozen")
     args = p.parse_args(argv)
     seg = args.seg_dir
     checks: dict = {}
@@ -396,6 +478,11 @@ def main(argv=None) -> int:
               "n_tokens_qwen3", "id_ambiguo"):
         df[c] = pd.to_numeric(df[c])
     run_info = json.loads((seg / "run_info.json").read_text(encoding="utf-8")) if (seg / "run_info.json").exists() else {}
+    if "variante" not in df.columns:
+        df["variante"], df["contexto_ids"] = "base", ""
+    full = df
+    variants = full[full["variante"] != "base"]
+    df = full[full["variante"] == "base"]
 
     # ---- schema ----
     bad_schema = []
@@ -407,17 +494,17 @@ def main(argv=None) -> int:
                 bad_schema.append(c.name)
             elif any(len(r) != 6 for r in [list(x.values()) for x in read_rows(c)]):
                 bad_schema.append(c.name)
-    expected_cols = 6 + 3 + 14 + 4
-    checks["csv_schema"] = {"ok": not bad_schema and df.shape[1] == expected_cols,
-                            "detail": f"chunks_all columns = {df.shape[1]} (6 + 3 + 14 provenance + 3 token counts + texto_sha256)",
+    expected_cols = 6 + 3 + 16 + 4
+    checks["csv_schema"] = {"ok": not bad_schema and full.shape[1] == expected_cols,
+                            "detail": f"chunks_all columns = {full.shape[1]} (6 + 3 + 16 provenance + 3 token counts + texto_sha256)",
                             "examples": bad_schema[:10]}
     empty = df[df["Texto"].map(lambda t: not body_of(t).strip())]
     checks["non_empty"] = {"ok": empty.empty, "count": len(empty), "examples": empty["chunk_id"].head(10).tolist()}
     import hashlib
-    bad_hash = df[df["Texto"].map(lambda t: hashlib.sha256(t.encode("utf-8")).hexdigest()[:16]) != df["texto_sha256"]]
+    bad_hash = full[full["Texto"].map(lambda t: hashlib.sha256(t.encode("utf-8")).hexdigest()[:16]) != full["texto_sha256"]]
     checks["texto_sha256"] = {"ok": bad_hash.empty, "count": len(bad_hash),
                               "examples": bad_hash["chunk_id"].head(10).tolist()}
-    dup_cid = df[df["chunk_id"].duplicated(keep=False)]
+    dup_cid = full[full["chunk_id"].duplicated(keep=False)]
     dup_urn = df[df["urn"].duplicated(keep=False) & (df["id_ambiguo"] == 0)]
     checks["chunk_id_unique"] = {"ok": dup_cid.empty and dup_urn.empty,
                                  "dup_chunk_id": len(dup_cid), "dup_urn_not_ambiguous": len(dup_urn),
@@ -475,18 +562,24 @@ def main(argv=None) -> int:
                                 "listed_and_in_chunks_all": len(overlap),
                                 "examples": in_all["chunk_id"].head(10).tolist()}
 
+    # ---- text variants (caput plan C5) ----
+    checks["variant_twins"], checks["base_no_caput"] = variant_checks(df, variants)
+    if args.frozen:
+        checks["diff_vs_frozen"] = diff_vs_frozen(df, variants, args.frozen, args.frozen_lexml_rev)
+
     # ---- statistics ----
     stats: dict = {}
     stats["rows_total"] = len(df)
     stats["rows_per_tipo"] = df["Tipo"].value_counts().to_dict()
-    stats["rows_per_strategy"] = {s: int(strategies.strategy_mask(df["Tipo"], s).sum()) for s in ("S1", "S2", "S3")}
+    stats["rows_per_strategy"] = {s: int(strategies.strategy_mask(full, s).sum()) for s in strategies.STRATEGIES}
+    stats["rows_per_variant"] = full["variante"].value_counts().to_dict()
     stats["rows_per_categoria"] = df["categoria"].value_counts().to_dict()
     stats["rows_per_categoria_tipo"] = {f"{a}/{b}": int(n) for (a, b), n in df.groupby(["categoria", "Tipo"]).size().items()}
     stats["files"] = int(df["arquivo"].nunique())
     stats["tokens_per_tipo"] = {t: {"reference": pct(g["n_tokens"]), "cl100k_base": pct(g["n_tokens_cl100k"]),
                                     "qwen3": pct(g["n_tokens_qwen3"])} for t, g in df.groupby("Tipo")}
-    stats["tokens_per_strategy_sum"] = {s: int(df.loc[strategies.strategy_mask(df["Tipo"], s), "n_tokens"].sum())
-                                        for s in ("S1", "S2", "S3")}
+    stats["tokens_per_strategy_sum"] = {s: int(full.loc[strategies.strategy_mask(full, s), "n_tokens"].sum())
+                                        for s in strategies.STRATEGIES}
     split = [s for r in run_info.get("statutory_post", []) for s in r["split"]]
     stats["split_units"] = {"units": len(split), "parts": sum(s["partes"] for s in split),
                             "leaf_split": sum(1 for s in split if s["leaf_split"])}
@@ -537,14 +630,16 @@ def render_md(rep: dict, cap: int) -> str:
           f"- Output checksums (sha256): {json.dumps(run.get('outputs_sha256'))}",
           f"- Timings (s): {run.get('timings')}", "", "## Checks", "", "| Check | Result | Detail |", "|---|---|---|"]
     for k, v in ck.items():
-        detail = {kk: vv for kk, vv in v.items() if kk not in ("ok", "examples", "uncuttable", "files_below_threshold")}
+        detail = {kk: vv for kk, vv in v.items() if kk not in ("ok", "examples", "uncuttable", "files_below_threshold",
+                                                                  "changed_files")}
         L_.append(f"| {k} | {'ok' if v['ok'] else '**FAIL**'} | {json.dumps(detail, ensure_ascii=False, default=str)[:300]} |")
     fails = [(k, v["examples"]) for k, v in ck.items() if v.get("examples")]
     if fails:
         L_ += ["", "### Examples", ""]
         for k, ex in fails:
             L_.append(f"- **{k}**: " + "; ".join(f"`{e}`" for e in ex[:8]))
-    L_ += ["", "## Rows", "", f"- Total rows: {st['rows_total']} in {st['files']} files",
+    L_ += ["", "## Rows", "", f"- Total base rows: {st['rows_total']} in {st['files']} files; rows per variant: "
+           f"{st.get('rows_per_variant')}",
            f"- Per strategy: {st['rows_per_strategy']}", "", "| Tipo | Rows | ref p50 | p90 | p99 | max |",
            "|---|---:|---:|---:|---:|---:|"]
     for t, n in sorted(st["rows_per_tipo"].items(), key=lambda x: -x[1]):

@@ -140,23 +140,37 @@ def in_article_paragraph(n) -> bool:
                for a in [n, *n.iterancestors()])
 
 
-def caminho_parts(n, include_self: bool = False) -> list[str]:
-    """lx:caminho: path of the dispositivo ancestors of n (plus n itself if include_self)."""
+CAPUT_MODES = ("nenhum", "frase", "completo")
+
+
+def caminho_parts(n, include_self: bool = False, caput: str = "nenhum") -> list[str]:
+    """lx:caminho: path of the dispositivo ancestors of n (plus n itself if include_self).
+
+    ``caput`` sets what follows the article label for paragraph-family units (n is, or is inside, a
+    Paragrafo of an Artigo; caput plan D-A/D-B): ``nenhum`` (default, XSL ``caput_em_paragrafo=nao``)
+    adds nothing, ``frase`` adds the caput's own p (XSL ``frase``, the S4/S2c ``caput`` variant) and
+    ``completo`` adds the whole caput text, incisos/alíneas/itens included (S5).
+    """
+    if caput not in CAPUT_MODES:
+        raise ValueError(f"caput must be one of {CAPUT_MODES}: {caput!r}")
     ancs = disp_ancestors(n)
     if include_self:
         ancs = ancs + [n]
-    em_par = in_article_paragraph(n)
+    em_par = caput != "nenhum" and in_article_paragraph(n)
     parts: list[str] = []
     for a in ancs:
         parts += own_parts(a)
         if em_par and L(a) == "Artigo":
             for cpt in child_elems(a, "Caput"):
-                parts += [norm(xstring(p)) for p in child_elems(cpt, "p")]
+                if caput == "frase":
+                    parts += [norm(xstring(p)) for p in child_elems(cpt, "p")]
+                else:
+                    parts.append(texto(cpt))
     return parts
 
 
-def caminho(n) -> str:
-    return norm(" ".join(caminho_parts(n)))
+def caminho(n, caput: str = "nenhum") -> str:
+    return norm(" ".join(caminho_parts(n, caput=caput)))
 
 
 def prefixo(meta: str) -> str:
@@ -164,9 +178,9 @@ def prefixo(meta: str) -> str:
     return f"[ {meta} ] " if meta else "[ ] "
 
 
-def row_text(n, meta: str) -> str:
-    """Texto column of an XSL row for element n."""
-    return prefixo(meta) + norm(caminho(n) + " " + texto(n))
+def row_text(n, meta: str, caput: str = "nenhum") -> str:
+    """Texto column of an XSL row for element n (``caput``: see caminho_parts)."""
+    return prefixo(meta) + norm(caminho(n, caput) + " " + texto(n))
 
 
 _CURTO = re.compile(r"^\s*([^\s–—\-).]+).*$")

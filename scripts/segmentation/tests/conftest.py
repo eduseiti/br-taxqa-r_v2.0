@@ -41,13 +41,15 @@ def xsl_out(tmp_path_factory, tok):
     cache: dict = {}
     base = tmp_path_factory.mktemp("xsl")
 
-    def run(name: str, original: bool = False) -> tuple[Path, list[dict], str]:
-        key = (name, original)
+    def run(name: str, original: bool = False, caput: str = "nao") -> tuple[Path, list[dict], str]:
+        """``caput``: the XSL param caput_em_paragrafo ('nao' = base rows, 'frase' = old X3b)."""
+        key = (name, original, caput)
         if key not in cache:
             xml = fixture_path(name)
             meta = metadata_for(xml, tok).text()
-            out = base / ("orig" if original else "new") / (name[:-4] + ".csv")
-            rec = run_jobs([Job(xml, out, {} if original else {"metadados": meta})],
+            out = base / ("orig" if original else f"new_{caput}") / (name[:-4] + ".csv")
+            params = {} if original else {"metadados": meta, "caput_em_paragrafo": caput}
+            rec = run_jobs([Job(xml, out, params)],
                            ORIG_XSL if original else NEW_XSL, 1)[0]
             assert rec["status"] == "success", rec["error"]
             cache[key] = (out, read_rows(out), meta)

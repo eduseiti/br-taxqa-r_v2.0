@@ -91,7 +91,7 @@ class ArticleSplitter:
         if not children:  # e is a leaf (only possible for the root: other leaves are handled below)
             return self.leaf_pieces(e, ancestors)
         for c in children:
-            head = caminho_parts(c)
+            head = caminho_parts(c, caput="frase")  # caput plan Q2: HEAD keeps the caput
             body = body_of_element(c)
             if self.fits(head, [body]):
                 out.append(Item(head, body, c, True, ancestors=ancestors))
@@ -107,7 +107,7 @@ class ArticleSplitter:
         """Text leaf over the cap: pieces at sentence (then word) boundaries; every piece keeps
         HEAD + the leaf's label."""
         self.leaf_split = True
-        head = caminho_parts(c)
+        head = caminho_parts(c, caput="frase")  # caput plan Q2: HEAD keeps the caput
         if L(c) in DISPOSITIVOS:
             label = [norm(x.xpath("string()")) for x in c if L(x) in ("Rotulo", "TituloDispositivo")]
             text = norm(" ".join(norm(x.xpath("string()")) for x in c if L(x) == "p"))

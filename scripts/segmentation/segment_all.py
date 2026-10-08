@@ -10,7 +10,8 @@
 5.  segment_non_statutory document mode on lexml/nao_articulados/* and category C
                                                                         -> segmented/non_statutory/*.csv
 6.  merge into segmented/chunks_all.csv (+ arquivo, segmentador, categoria, provenance §2.7,
-    token counts)
+    token counts); with --variants caput (default), every paragraph-family XSL row is followed by
+    its caput-sentence variant row (add_caput_variants.py, caput plan D-A/D-B)
 7.  validate_segments -> segmented/segmentation_report.{md,json}; non-zero exit on failure
 
 Usage:
@@ -44,11 +45,12 @@ from common import (AGRUPADORES, ANEXO_RE, ART_DIR, DEFAULT_EMENTA_MAX_TOKENS,  
                     agrupadores, citacao, disp_ancestors, doc_urn, get_tokenizer, is_annex_tree,
                     metadata_for, parse, read_prov, read_rows, xsl_row_elements)
 import classify_annexes  # noqa: E402
+from add_caput_variants import VARIANTS, caput_variant  # noqa: E402
 import run_xsl_segmentation as rxs  # noqa: E402
 
 PROV_COLS = ["chunk_id", "doc_urn", "anexo_urn", "nivel", "unidade_id", "artigo_id",
              "agrupadores_ids", "agrupadores_rotulos", "citacao", "parte", "n_partes",
-             "cobre_ids", "parcial_ids", "id_ambiguo"]
+             "cobre_ids", "parcial_ids", "id_ambiguo", "variante", "contexto_ids"]
 EXTRA_COLS = ["arquivo", "segmentador", "categoria"]
 TOKEN_COLS = ["n_tokens", "n_tokens_cl100k", "n_tokens_qwen3", "texto_sha256"]
 GROUP_TIPOS = ("PRT", "LIV", "TIT", "SBT", "CAP", "SEC", "SSC")
@@ -153,6 +155,7 @@ def w_provenance(args: tuple) -> list[dict]:
     for rec in read_prov(csv_path):
         prov[rec["urn"]].append(rec)
     stem = xml.name[:-4]
+    variants = _CFG.get("variants", ())
     out = []
     current_split: dict = {}
     for seq, r in enumerate(rows, 1):
@@ -198,7 +201,13 @@ def w_provenance(args: tuple) -> list[dict]:
                        cobre_ids=";".join(cobre), parcial_ids=";".join(parcial))
             ids = [uid, *cobre]
         row["id_ambiguo"] = int(any(all_ids.get(i, 0) > 1 for i in ids if i))
+        row.update(variante="base", contexto_ids="")
         out.append(row)
+        if "caput" in variants and row["segmentador"] == "xsl":
+            cv = caput_variant(e, r["Tipo"], r["Texto"])
+            if cv is not None:
+                out.append({**row, "Texto": cv[0], "chunk_id": f"{stem}#c{seq}", "variante": "caput",
+                            "contexto_ids": cv[1]})
     leaves = _TOK.leaves() if _TOK.kind == "max" else [_TOK]
     texts = [r["Texto"] for r in out]
     per = [lf.count_many(texts) for lf in leaves]
@@ -262,11 +271,21 @@ def main(argv=None) -> int:
                    help="S3 grouping chunks (PRT…SSC) above this many reference tokens are left out of "
                         "chunks_all.csv and listed in groupings_over_limit.csv (0 = keep all)")
     p.add_argument("--skip-validation", action="store_true")
+    p.add_argument("--variants", default="caput",
+                   help=f"comma-separated text variants to add ({', '.join(VARIANTS)}; '' = none)")
+    p.add_argument("--frozen", type=Path, default=None,
+                   help="previous chunks_all.csv.gz for the diff_vs_frozen report of the validation")
+    p.add_argument("--frozen-lexml-rev", default=None,
+                   help="git revision of lexml/ that produced --frozen (documents whose LexML is "
+                        "unchanged since then are compared row by row)")
     args = p.parse_args(argv)
+    variants = tuple(v for v in args.variants.split(",") if v)
+    if set(variants) - set(VARIANTS):
+        p.error(f"unknown variants: {set(variants) - set(VARIANTS)}")
 
     cfg = {"tokenizer": args.tokenizer, "max_tokens": args.max_tokens,
            "ementa_max_tokens": args.ementa_max_tokens,
-           "keep_dropped_min_chars": args.keep_dropped_min_chars}
+           "keep_dropped_min_chars": args.keep_dropped_min_chars, "variants": variants}
     out = args.out_dir
     stat_dir, ns_dir = out / "statutory", out / "non_statutory"
     timings: dict = {}
@@ -302,7 +321,9 @@ def main(argv=None) -> int:
     t0 = time.time()
     jobs = [rxs.Job(x, stat_dir / (x.name[:-4] + ".csv"), {"metadados": meta_of[x.name]["text"],
                                                                # document-uri() URL-encodes non-ASCII names
-                                                               "sigla": x.name[:-4]})
+                                                               "sigla": x.name[:-4],
+                                                               # caput plan D-A: base rows carry no caput
+                                                               "caput_em_paragrafo": "nao"})
             for x in stat_files]
     xsl_recs = rxs.run_jobs(jobs, n_jobs=args.jobs, overwrite=True)
     failures = [r for r in xsl_recs if r["status"] != "success"]
@@ -401,9 +422,13 @@ def main(argv=None) -> int:
         return 0
     # 7. validation --------------------------------------------------------------------------
     import validate_segments
-    return validate_segments.main(["--seg-dir", str(out), "--jobs", str(args.jobs),
-                                   "--max-tokens", str(args.max_tokens),
-                                   "--grouping-max-tokens", str(args.grouping_max_tokens)])
+    vargs = ["--seg-dir", str(out), "--jobs", str(args.jobs), "--max-tokens", str(args.max_tokens),
+             "--grouping-max-tokens", str(args.grouping_max_tokens)]
+    if args.frozen:
+        vargs += ["--frozen", str(args.frozen)]
+        if args.frozen_lexml_rev:
+            vargs += ["--frozen-lexml-rev", args.frozen_lexml_rev]
+    return validate_segments.main(vargs)
 
 
 if __name__ == "__main__":

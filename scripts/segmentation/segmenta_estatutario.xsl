@@ -9,6 +9,9 @@
     X3  one ancestor-path function lx:caminho (Rotulo + TituloDispositivo + string() of the own p of
         each dispositivo ancestor; string(), not p/text(), so span/Remissao text is kept).
     X3b caput sentence inserted after the article label for units inside a Paragrafo (and PAR rows).
+        Switchable since 2026-10-05 (caput plan D-A/D-B, docs/20261005_184116_*): param
+        `caput_em_paragrafo` = 'nao' (default: no caput text; S1-S3 `base` rows) | 'frase' (the caput's
+        own p after the label; the S4/S2c `caput` variant, produced in Python by add_caput_variants.py).
     X4  one content function lx:texto (own Rotulo, TituloDispositivo, NomeAgrupador, p and tables,
         then the same for every descendant, in document order).
     X5  CPT and PAR iterated independently; CPT only when the article has a Paragrafo.
@@ -36,6 +39,8 @@
     <xsl:param name="sigla"><xsl:value-of select="substring-before($filename, '.xml')"/></xsl:param>
     <!-- X1: full metadata prefix, computed once in Python (common.metadata_for) -->
     <xsl:param name="metadados" as="xs:string" select="''"/>
+    <!-- X3b (caput plan D-A): 'nao' = paragraph-family paths carry no caput text; 'frase' = old X3b -->
+    <xsl:param name="caput_em_paragrafo" as="xs:string" select="'nao'"/>
 
     <xsl:variable name="meta" as="xs:string" select="if (normalize-space($metadados) ne '')
         then normalize-space($metadados)
@@ -75,12 +80,13 @@
     </xsl:function>
 
     <!-- X3/X3b: ancestor path. For each dispositivo ancestor: its Rotulo, TituloDispositivo and own p
-         (string(), so span/Remissao text is kept). For units inside a Paragrafo of an article (and
-         for the Paragrafo itself), the caput's own p follows the article label. -->
+         (string(), so span/Remissao text is kept). With caput_em_paragrafo='frase', for units inside a
+         Paragrafo of an article (and for the Paragrafo itself), the caput's own p follows the article
+         label. -->
     <xsl:function name="lx:caminho" as="xs:string">
         <xsl:param name="n" as="element()"/>
         <xsl:variable name="ancs" select="$n/ancestor::*[self::Artigo or self::Caput or self::Paragrafo or self::Inciso or self::Alinea or self::Item]"/>
-        <xsl:variable name="emPar" as="xs:boolean" select="exists($n/ancestor-or-self::Paragrafo[parent::Artigo])"/>
+        <xsl:variable name="emPar" as="xs:boolean" select="$caput_em_paragrafo eq 'frase' and exists($n/ancestor-or-self::Paragrafo[parent::Artigo])"/>
         <xsl:sequence select="normalize-space(string-join(
             for $a in $ancs return (
                 (for $x in $a/(Rotulo|TituloDispositivo|p) return normalize-space(string($x))),
