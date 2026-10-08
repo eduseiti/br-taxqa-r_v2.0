@@ -1,0 +1,14 @@
+# Cited articles with no LexML element (rebuild plan §3.1, cause 2f; decision D7: score them at document level until the treaty texts are fetched).
+# Read by scripts/lexml/audit_article_coverage.py (gate) and scripts/dataset/build_v2_dataset.py (references -> unmatchable_reasons).
+document_id	article_id	reason
+decreto_361_19911210	art13	treaty article: the .docx holds only the promulgating decree (2 articles); the treaty text is absent
+decreto_57942_19660310	art1	treaty article: the treaty text has no article markers the statutory parser reads
+decreto_57942_19660310	art10	treaty article: the treaty text has no article markers the statutory parser reads
+decreto_8289_20140725	art13	treaty article: annex 1 numbers its articles "Artigo I…XIV", which the statutory parser does not read as Artigo
+decreto_87563_19820913	art15	treaty article: the treaty numbers its articles "ARTIGO I…XXV", which the statutory parser does not read as Artigo
+decreto_27784_19500216	art5	treaty article of a non-statutory document (moved to nao_articulados in ce032e6); the treaty text is absent
+decreto_59308_19660923	art5	treaty article of a non-statutory document (moved to nao_articulados in ce032e6)
+decreto_86084_19810608	art9	treaty article of a non-statutory document (moved to nao_articulados in ce032e6)
+decreto_85801_19810310	art6	treaty article of a non-statutory document (moved to nao_articulados in ce032e6); the treaty text is absent
+decreto_85801_19810310	art12	treaty article of a non-statutory document (moved to nao_articulados in ce032e6); the treaty text is absent
+decreto_93153_19860822	art7	treaty article of a non-statutory document (moved to nao_articulados in ce032e6); the treaty text is absent
