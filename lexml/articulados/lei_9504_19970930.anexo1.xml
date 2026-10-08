@@ -22,32 +22,6 @@
 </p><p>Endereço Comercial: _______________________Telefone:________________
 </p><p>LOCAL__________________DATA_____/_____/_____
 </p><p>ASSINATURA_________________ASSINATURA_________________________
-</p><p>LOCAL______________________DATA_____/_____/_____
-</p><p>____________________________ _________________________
-</p><p>ASSINATURA______________________________ASSINATURA_________________
-</p><p>LOCAL________________________DATA_____/_____/_____
-</p><p>ASSINATURA__________________ASSINATURA____________________
-</p><p>LOCAL__________________________DATA_____/_____/_____
-</p><p>ASSINATURA______________________________ASSINATURA_________________
-</p><p>Obs.: As Obrigações a Pagar deverão ser deduzidas dos saldos financeiros (caixa e banco), sendo demonstradas mediante Demonstração de Obrigações a Pagar (Modelo 11) devidamente assinada pelo Tesoureiro.
-</p><p>FICHA DE QUALIFICAÇÃO DO COMITÊ FINANCEIRO (MODELO 6)
-</p><p>Partido:__________________________________________________________________
-</p><p>Direção/Comitê Financeiro/Candidato: ___________Único? Sim: ______Não :____
-</p><p>Eleição:___________________________________UF/Município:_____________
-</p><p>Número da Conta Bancária: ___________Banco: _______Agência _______
-</p><p>Endereço: _________________________________________________________________
-</p><table id="anexo1_tab32"><tr><td>NOME DOS MEMBROS</td><td>FUNÇÕES</td></tr></table><p>LOCAL______________________________DATA_____/_____/_____
-</p><p>ASSINATURA______________________________ASSINATURA_________________
-</p><p>LOCAL________________ DATA_____/____/_____
-</p><p>ASSINATURA______________________________ASSINATURA_________________
-</p><p>LOCAL_____________________________________ DATA_____/_____/_____
-</p><p>ASSINATURA______________________________ASSINATURA_________________________
-</p><p>LOCAL________________ DATA_____/____/_____
-</p><p>ASSINATURA___________________ASSINATURA_____________________
-</p><p>LOCAL___________________________ DATA_____/_____/_____
-</p><p>ASSINATURA______________________ASSINATURA_________________
-</p><p>LOCAL___________________________ DATA_____/_____/_____
-</p><p>ASSINATURA_________________ASSINATURA__________________
 </p><Alinea id="ali1">
             
             <TituloDispositivo>INSTRUÇÕES DE PREENCHIMENTO</TituloDispositivo>
@@ -309,7 +283,10 @@
   </p>
             <table id="ali2_ite10_tab1"><tr><td>DATA</td><td>NUMERAÇÃO</td><td>QUANTIDADE</td><td>RECEBIDOS DE</td></tr></table>
           </Item>
-          </Alinea><Item id="ite1">
+          </Alinea><p>LOCAL______________________DATA_____/_____/_____
+</p><p>____________________________ _________________________
+</p><p>ASSINATURA______________________________ASSINATURA_________________
+</p><Item id="ite1">
             
             <TituloDispositivo>INSTRUÇÕES DE PREENCHIMENTO</TituloDispositivo>
             <Rotulo>1.</Rotulo>
@@ -390,7 +367,9 @@
 
   </p>
             <table id="ite9_tab1"><tr><td>DATA</td><td>NÚMERODOS RECIBOS</td><td>ESPÉCIE DO RECURSO</td><td>DOADOR/CONTRIBUINTE</td><td>CGC/CPF</td><td>VALORES</td></tr><tr><td>UFIR</td><td>R$</td><td/><td/><td/><td/></tr><tr><td>TOTAL/TRANSPORTAR</td><td/><td/><td/><td/><td/></tr></table>
-          </Item><Item id="ite1">
+          </Item><p>LOCAL________________________DATA_____/_____/_____
+</p><p>ASSINATURA__________________ASSINATURA____________________
+</p><Item id="ite1">
             
             <TituloDispositivo>INSTRUÇÕES DE PREENCHIMENTO</TituloDispositivo>
             <Rotulo>1.</Rotulo>
@@ -516,7 +495,9 @@
 
   </p>
             <table id="ite12_tab1"><tr><td>DATA DO RECEBIMENTO</td><td>IDENTIFICAÇÃO EMITENTE/DOADOR</td><td>IDENTIFICAÇÃO DO CHEQUE</td><td>VALORES</td><td/><td/><td/></tr><tr><td>NOME</td><td>CGC/CPF</td><td>DATA DA EMISSÃO</td><td>Nº BCO</td><td>Nº AG.</td><td>Nº CHEQUE</td><td>R$</td></tr><tr><td>TOTAL/TRANSPORTAR</td><td/><td/><td/><td/><td/><td/></tr></table>
-          </Item><Item id="ite1">
+          </Item><p>LOCAL__________________________DATA_____/_____/_____
+</p><p>ASSINATURA______________________________ASSINATURA_________________
+</p><Item id="ite1">
             
             <TituloDispositivo>INSTRUÇÕES DE PREENCHIMENTO</TituloDispositivo>
             <Rotulo>1.</Rotulo>
@@ -660,7 +641,16 @@
 
   </p>
             <table id="ite10_tab1"><tr><td>PARTIDO/COMITÊ/CANDIDATO:</td><td/><td/></tr><tr><td>ELEIÇÃO:</td><td>UF/MUNICÍPIO</td><td/></tr><tr><td>TÍTULO DA CONTA</td><td>TOTAL -R$</td><td/></tr><tr><td>1 - RECEITAS</td><td/><td/></tr><tr><td>DOAÇÕES E CONTRIBUIÇÕES</td><td/><td/></tr><tr><td>Recursos Próprios</td><td/><td/></tr><tr><td>Recursos de Pessoas Físicas</td><td/><td/></tr><tr><td>Recursos de Pessoas Jurídicas</td><td/><td/></tr><tr><td>Transferências Financeiras Recebidas</td><td/><td/></tr><tr><td>FUNDO PARTIDÁRIO</td><td/><td/></tr><tr><td>Cotas Recebidas</td><td/><td/></tr><tr><td>RECEITAS FINANCEIRAS</td><td/><td/></tr><tr><td>Variações Monetárias Ativas</td><td/><td/></tr><tr><td>Rendas de Aplicações</td><td/><td/></tr><tr><td>OUTRAS RECEITAS</td><td/><td/></tr><tr><td>Vendas de Bens de Uso</td><td/><td/></tr><tr><td>F.PARTIDÁRIO</td><td>O. RECURSOS</td><td>TOTAL - R$</td></tr><tr><td>2 - DESPESAS</td><td/><td/></tr><tr><td>Despesas com Pessoal</td><td/><td/></tr><tr><td>Encargos Sociais</td><td/><td/></tr><tr><td>Impostos</td><td/><td/></tr><tr><td>Aluguéis</td><td/><td/></tr><tr><td>Despesas de Viagens</td><td/><td/></tr><tr><td>Honorários Profissionais</td><td/><td/></tr><tr><td>Locações de Bens Móveis</td><td/><td/></tr><tr><td>Despesas Postais</td><td/><td/></tr><tr><td>Materiais de Expediente</td><td/><td/></tr><tr><td>Despesas com Veículos</td><td/><td/></tr><tr><td>Propagandas e Publicidade</td><td/><td/></tr><tr><td>Serviços Prestados por Terceiros</td><td/><td/></tr><tr><td>Cachês de Artistas ou Animadores</td><td/><td/></tr><tr><td>Materiais Impressos</td><td/><td/></tr><tr><td>Lanches e Refeições</td><td/><td/></tr><tr><td>Energia Elétrica</td><td/><td/></tr><tr><td>Despesas de Manutenção e Reparo</td><td/><td/></tr><tr><td>Montagem de Palanques e Equipamentos</td><td/><td/></tr><tr><td>Despesas com Pesquisas ou Testes Eleitorais</td><td/><td/></tr><tr><td>Despesas de Eventos Promocionais</td><td/><td/></tr><tr><td>Despesas Financeiras</td><td/><td/></tr><tr><td>Produção Audiovisuais</td><td/><td/></tr><tr><td>Outras Despesas</td><td/><td/></tr><tr><td>3 - TRANSFERÊNCIAS FINANCEIRAS EFETUADAS</td><td/><td/></tr><tr><td>4- IMOBILIZAÇÕES - TOTAL</td><td/><td/></tr><tr><td>Bens Móveis</td><td/><td/></tr><tr><td>Bens Imóveis</td><td/><td/></tr><tr><td>SALDO (+1-2-3-4=5) TOTAL</td><td/><td/></tr><tr><td>Saldo em Caixa</td><td/><td/></tr><tr><td>Saldo em Banco</td><td/><td/></tr><tr><td>Banco (...)</td><td/><td/></tr></table>
-          </Item><Item id="ite1">
+          </Item><p>Obs.: As Obrigações a Pagar deverão ser deduzidas dos saldos financeiros (caixa e banco), sendo demonstradas mediante Demonstração de Obrigações a Pagar (Modelo 11) devidamente assinada pelo Tesoureiro.
+</p><p>FICHA DE QUALIFICAÇÃO DO COMITÊ FINANCEIRO (MODELO 6)
+</p><p>Partido:__________________________________________________________________
+</p><p>Direção/Comitê Financeiro/Candidato: ___________Único? Sim: ______Não :____
+</p><p>Eleição:___________________________________UF/Município:_____________
+</p><p>Número da Conta Bancária: ___________Banco: _______Agência _______
+</p><p>Endereço: _________________________________________________________________
+</p><table id="anexo1_tab32"><tr><td>NOME DOS MEMBROS</td><td>FUNÇÕES</td></tr></table><p>LOCAL______________________________DATA_____/_____/_____
+</p><p>ASSINATURA______________________________ASSINATURA_________________
+</p><Item id="ite1">
             
             <TituloDispositivo>INSTRUÇÕES DE PREENCHIMENTO</TituloDispositivo>
             <Rotulo>1.</Rotulo>
@@ -768,7 +758,9 @@
 
   </p>
             <table id="ite11_tab1"><tr><td>CANDIDATO</td><td>LIMITE EM R$</td></tr><tr><td>NOME</td><td>NÚMERO</td></tr><tr><td>TOTAL / TRANSPORTAR</td><td/></tr></table>
-          </Item><Item id="ite1">
+          </Item><p>LOCAL________________ DATA_____/____/_____
+</p><p>ASSINATURA______________________________ASSINATURA_________________
+</p><Item id="ite1">
             
             <TituloDispositivo>INSTRUÇÕES DE PREENCHIMENTO</TituloDispositivo>
             <Rotulo>1.</Rotulo>
@@ -858,7 +850,9 @@
 
   </p>
             <table id="ite8_tab1"><tr><td>DATA</td><td>NUMERAÇÃO</td><td>QUANTIDADE</td><td>DISTRIBUÍDO A</td></tr></table>
-          </Item><Item id="ite1">
+          </Item><p>LOCAL_____________________________________ DATA_____/_____/_____
+</p><p>ASSINATURA______________________________ASSINATURA_________________________
+</p><Item id="ite1">
             
             <TituloDispositivo>INSTRUÇÕES DE PREENCHIMENTO</TituloDispositivo>
             <Rotulo>1.</Rotulo>
@@ -930,7 +924,9 @@
 
   </p>
             <table id="ite8_tab1"><tr><td>DATA</td><td>NOME DO PARTIDO/COMITÊ/CANDIDATOBENEFICIÁRIO</td><td>VALORESR$</td></tr><tr><td>TOTAL / TRANSPORTAR</td><td/><td/></tr></table>
-          </Item><Item id="ite1">
+          </Item><p>LOCAL________________ DATA_____/____/_____
+</p><p>ASSINATURA___________________ASSINATURA_____________________
+</p><Item id="ite1">
             
             <TituloDispositivo>INSTRUÇÕES DE PREENCHIMENTO</TituloDispositivo>
             <Rotulo>1.</Rotulo>
@@ -993,7 +989,9 @@
 
   </p>
             <table id="ite7_tab1"><tr><td>COMITÊSFINANCEIROS VINCULADOS</td><td>VALORES R$</td><td/></tr><tr><td>ARRECADADOS</td><td>APLICADOS</td><td>SALDOS</td></tr><tr><td>TOTAIS/TRANSPORTAR</td><td/><td/></tr></table>
-          </Item><Item id="ite1">
+          </Item><p>LOCAL___________________________ DATA_____/_____/_____
+</p><p>ASSINATURA______________________ASSINATURA_________________
+</p><Item id="ite1">
             
             <TituloDispositivo>INSTRUÇÕES DE PREENCHIMENTO</TituloDispositivo>
             <Rotulo>1.</Rotulo>
@@ -1074,7 +1072,9 @@
 
   </p>
             <table id="ite6_tab1"><tr><td>CIRCUNSCRIÇÃO</td><td>VALORES EM R$</td></tr><tr><td>TOTAL/TRANSPORTAR</td><td/></tr></table>
-          </Item><Item id="ite1">
+          </Item><p>LOCAL___________________________ DATA_____/_____/_____
+</p><p>ASSINATURA_________________ASSINATURA__________________
+</p><Item id="ite1">
             
             <TituloDispositivo>INSTRUÇÕES DE PREENCHIMENTO</TituloDispositivo>
             <Rotulo>1.</Rotulo>

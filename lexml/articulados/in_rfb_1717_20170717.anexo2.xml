@@ -8,9 +8,7 @@
         <p>ANEXO II - Pedido de Restituição de Direito Creditório Decorrente de Cancelamento ou de Retificação de Declaração de Importação</p>
         <p>Pedido de Restituição de Direito Creditório Decorrente de Cancelamento ou de
 </p><p>Retificação de Declaração de Importação – Anexo II
-</p><table id="anexo2_tab3"><tr><td/><td><b>Nome/ Nome Empresarial</b></td><td><b>CPF CNPJ</b></td></tr><tr><td/><td/><td/></tr></table><table id="anexo2_tab4"><tr><td/><td><b>Valor da Restituição Solicitado neste Pedido (em reais e sem a atualização de valor)</b></td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td>Nome do Banco (para crédito)</td><td/><td/><td>Nº Banco</td><td/><td/><td>Nº Agência</td><td/><td/><td>Nº Conta-corrente</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr></table><p>IN RFB 1717/2017 v.1.00.00 1/2
-</p><p>IN RFB 1717/2017 v.1.00.00 2/2
-</p><Item id="ite3">
+</p><table id="anexo2_tab3"><tr><td/><td><b>Nome/ Nome Empresarial</b></td><td><b>CPF CNPJ</b></td></tr><tr><td/><td/><td/></tr></table><table id="anexo2_tab4"><tr><td/><td><b>Valor da Restituição Solicitado neste Pedido (em reais e sem a atualização de valor)</b></td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td>Nome do Banco (para crédito)</td><td/><td/><td>Nº Banco</td><td/><td/><td>Nº Agência</td><td/><td/><td>Nº Conta-corrente</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr></table><Item id="ite3">
             
             
             <Rotulo>3.</Rotulo>
@@ -19,7 +17,8 @@
 
   </p>
             <table id="ite3_tab1"><tr><td/><td><b>Número de Registro das DI</b></td></tr><tr><td/><td/></tr><tr><td>Observações: As Declarações de Importação (DI) listadas devem estar relacionadas à única opção assinalada no quadro (“OPÇÃO”). O detalhamento de cada uma das DI listadas deverá ser individualizado por DI e anexado ao presente documento, observando-se o modelo do “Demonstrativo das Declarações de Importação – Cancelamento ou Retificação” (folha 2, quadros 7 e 8).</td><td/></tr></table><table id="ite3_tab2"><tr><td/><td><b>Pedido Retificador</b></td><td/><td/><td><b>Número do Processo do Pedido Retificado</b></td></tr><tr><td>SIM NÃO</td><td/><td/><td/><td/></tr><tr><td/><td>Outras Informações</td><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/></tr><tr><td>Solicito a restituição da importância acima mencionada, declarando, sob as penas da Lei nº 4.729, de 14 de julho de 1965, e da Lei nº 8.137, de 27 de dezembro de 1990, que as informações prestadas neste pedido são a expressão da verdade e que as importâncias ora requeridas não foram pleiteadas por via judicial nem compensadas.</td><td/><td/><td/><td/></tr></table><table id="ite3_tab3"><tr><td/><td><b>Nome</b></td><td/><td/><td/><td><b>CPF</b></td></tr><tr><td/><td/><td/><td/><td/><td/></tr><tr><td/><td>Data</td><td/><td>Assinatura (este documento pode ser assinado digitalmente com uso de certificado digital no padrão ICP Brasil)</td><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/></tr></table>
-          </Item><Item id="ite7">
+          </Item><p>IN RFB 1717/2017 v.1.00.00 1/2
+</p><Item id="ite7">
             
             <TituloDispositivo>Demonstrativo das Declarações de Importação – Cancelamento ou Retificação</TituloDispositivo>
             <Rotulo>7.</Rotulo>
@@ -37,7 +36,8 @@
 
   </p>
             <table id="ite8_tab1"><tr><td><b>Código de Receita</b></td><td><b>Valor Pago (em reais) (A)</b></td><td><b>Valor Devido após a Retificação da Declaração de Importação (em reais) * (B)</b></td><td><b>Valor a Restituir (em reais) (C) = (A) – (B)</b></td></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/></tr><tr><td>* Na hipótese de cancelamento de DI, não preencher a coluna relacionada com o “Valor Devido após a Retificação da Declaração de Importação” (B).</td><td/><td/><td/></tr></table><table id="ite8_tab2"><tr><td/><td><b>Outras Informações</b></td><td/></tr><tr><td/><td/><td/></tr></table>
-          </Item>
+          </Item><p>IN RFB 1717/2017 v.1.00.00 2/2
+</p>
       </PartePrincipal>
     </DocumentoGenerico>
       </Anexo>

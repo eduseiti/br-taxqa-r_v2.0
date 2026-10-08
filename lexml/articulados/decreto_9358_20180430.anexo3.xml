@@ -22,7 +22,7 @@
   </NomeAgrupador>
             <Artigo id="art1">
             
-            
+            <TituloDispositivo>Definições</TituloDispositivo>
             <Rotulo>Art. 1º</Rotulo>
             
             <Caput id="art1_cpt">
@@ -32,7 +32,7 @@
             
             <Item id="art1_cpt_ite1">
             
-            <TituloDispositivo>Definições</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     No âmbito da Convenção Postal Universal, os termos a seguir são definidos da seguinte forma:
@@ -124,7 +124,7 @@
           </Caput>
           </Artigo><Artigo id="art2">
             
-            
+            <TituloDispositivo>Designação da(s) entidade(s) encarregada(s) de cumprir com as obrigações decorrentes da adesão à Convenção</TituloDispositivo>
             <Rotulo>Art. 2º</Rotulo>
             
             <Caput id="art2_cpt">
@@ -134,7 +134,7 @@
             
             <Item id="art2_cpt_ite1">
             
-            <TituloDispositivo>Designação da(s) entidade(s) encarregada(s) de cumprir com as obrigações decorrentes da adesão à Convenção</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Os Países-membros devem notificar a Secretaria Internacional, nos seis meses seguintes ao encerramento do Congresso, o nome e o endereço do órgão governamental encarregado de supervisionar os assuntos postais. Além disso, os Países-membros devem comunicar à Secretaria Internacional, nos seis meses seguintes ao encerramento do Congresso, o nome e o endereço do(s) operador(es) designado(s) oficialmente para garantir a exploração dos serviços postais e cumprir com as obrigações decorrentes dos Atos da União em seu território. Entre dois Congressos, qualquer mudança referente aos órgãos governamentais e aos operadores designados oficialmente deve ser notificada à Secretaria Internacional o mais rápido possível.
@@ -145,7 +145,7 @@
           </Caput>
           </Artigo><Artigo id="art3">
             
-            
+            <TituloDispositivo>Serviço Postal Universal</TituloDispositivo>
             <Rotulo>Art. 3º</Rotulo>
             
             <Caput id="art3_cpt">
@@ -155,7 +155,7 @@
             
             <Item id="art3_cpt_ite1">
             
-            <TituloDispositivo>Serviço Postal Universal</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Para fortalecer o conceito de unidade do território postal da União, os países membros zelam para que todos os utentes/clientes usufruam do direito a um serviço postal universal que corresponda a uma oferta de serviços postais básicos de qualidade, fornecidos permanentemente em qualquer ponto do seu território, a preços acessíveis.
@@ -193,7 +193,7 @@
           </Caput>
           </Artigo><Artigo id="art4">
             
-            
+            <TituloDispositivo>Liberdade de trânsito</TituloDispositivo>
             <Rotulo>Art. 4º</Rotulo>
             
             <Caput id="art4_cpt">
@@ -203,7 +203,7 @@
             
             <Item id="art4_cpt_ite1">
             <!--Link: urn:lex:br:federal:constituicao:1988-10-05;1988!art1-->
-            <TituloDispositivo>Liberdade de trânsito</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     O princípio da liberdade de trânsito é enunciado no <span xlink:href="urn:lex:br:federal:constituicao:1988-10-05;1988!art1">artigo primeiro da Constituição</span>. Obriga a que cada administração postal encaminhe sempre pelas vias mais rápidas e pelos meios mais seguros que utiliza para os seus próprios objetos, as expedições fechadas e os objetos de correspondência a descoberto que lhe são entregues por uma outra administração postal. Este princípio aplica-se igualmente aos objetos ou às expedições mal encaminhadas.
@@ -250,7 +250,7 @@
           </Caput>
           </Artigo><Artigo id="art5">
             
-            
+            <TituloDispositivo>Pertença dos objetos postais. Recolha. Modificação ou correção de endereço. Reexpedição. Devolução ao remetente dos objetos de distribuição impossível</TituloDispositivo>
             <Rotulo>Art. 5º</Rotulo>
             
             <Caput id="art5_cpt">
@@ -258,10 +258,7 @@
             
             
             
-            
-          </Caput>
-          </Artigo>
-          </Capitulo><Item id="ite1">
+            <Item id="art5_cpt_ite1">
             
             
             <Rotulo>1.</Rotulo>
@@ -270,7 +267,7 @@
 
   </p>
             
-          </Item><Item id="ite2">
+          </Item><Item id="art5_cpt_ite2">
             
             
             <Rotulo>2.</Rotulo>
@@ -279,7 +276,7 @@
 
   </p>
             
-          </Item><Item id="ite3">
+          </Item><Item id="art5_cpt_ite3">
             
             
             <Rotulo>3.</Rotulo>
@@ -288,9 +285,11 @@
 
   </p>
             
-          </Item><Artigo id="art6">
+          </Item>
+          </Caput>
+          </Artigo><Artigo id="art6">
             
-            
+            <TituloDispositivo>Taxas</TituloDispositivo>
             <Rotulo>Art. 6º</Rotulo>
             
             <Caput id="art6_cpt">
@@ -300,7 +299,7 @@
             
             <Item id="art6_cpt_ite1">
             
-            <TituloDispositivo>Taxas</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     As taxas relativas aos diferentes serviços postais internacionais e especiais são fixadas pelas administrações postais, em conformidade com os princípios enunciados na Convenção e nos Regulamentos. Em princípio devem ser fixadas com base nos custos correspondentes ao fornecimento desses serviços.
@@ -365,7 +364,7 @@
           </Caput>
           </Artigo><Artigo id="art7">
             
-            
+            <TituloDispositivo>Isenção das taxas postais</TituloDispositivo>
             <Rotulo>Art. 7º</Rotulo>
             
             <Caput id="art7_cpt">
@@ -375,7 +374,7 @@
             
             <Item id="art7_cpt_ite1">
             
-            <TituloDispositivo>Isenção das taxas postais</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Princípio
@@ -467,7 +466,7 @@
           </Caput>
           </Artigo><Artigo id="art8">
             
-            
+            <TituloDispositivo>Selos postais</TituloDispositivo>
             <Rotulo>Art. 8º</Rotulo>
             
             <Caput id="art8_cpt">
@@ -477,7 +476,7 @@
             
             <Item id="art8_cpt_ite1">
             
-            <TituloDispositivo>Selos postais</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     O termo «selo postal» é protegido em virtude da presente Convenção e é reservado exclusivamente aos selos que preenchem as condições deste artigo e dos Regulamentos.
@@ -713,7 +712,7 @@
           </Caput>
           </Artigo><Artigo id="art9">
             
-            
+            <TituloDispositivo>Segurança postal</TituloDispositivo>
             <Rotulo>Art. 9º</Rotulo>
             
             <Caput id="art9_cpt">
@@ -723,7 +722,7 @@
             
             <Item id="art9_cpt_ite1">
             
-            <TituloDispositivo>Segurança postal</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Os Países-membros adotam e implementam uma estratégia de ação em matéria de segurança, a todos os níveis das operações postais, a fim de conservar e aumentar a confiança do público nos serviços postais, e no interesse de todos os agentes implicados. Uma estratégia deste tipo deverá implicar a troca de informações relativas à segurança e à proteção de transporte e de trânsito das expedições entre os Países-membros.
@@ -734,7 +733,7 @@
           </Caput>
           </Artigo><Artigo id="art10">
             
-            
+            <TituloDispositivo>Meio ambiente</TituloDispositivo>
             <Rotulo>Art. 10.</Rotulo>
             
             <Caput id="art10_cpt">
@@ -744,7 +743,7 @@
             
             <Item id="art10_cpt_ite1">
             
-            <TituloDispositivo>Meio ambiente</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Os Países-membros devem adotar e aplicar uma estratégia ambiental dinâmica a todos os níveis da exploração postal e promover a sensibilização para as questões ambientais no âmbito dos serviços postais.
@@ -755,7 +754,7 @@
           </Caput>
           </Artigo><Artigo id="art11">
             
-            
+            <TituloDispositivo>Infrações</TituloDispositivo>
             <Rotulo>Art. 11.</Rotulo>
             
             <Caput id="art11_cpt">
@@ -765,7 +764,7 @@
             
             <Item id="art11_cpt_ite1">
             
-            <TituloDispositivo>Infrações</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Objetos postais
@@ -912,7 +911,7 @@
             
             <Rotulo>3.</Rotulo>
             <p>
-    1. Em relação às sanções, nenhuma distinção deve ser feita entre os atos previstos no parágrafo 2, quer se trate de meios de franquia nacionais ou estrangeiros; esta disposição não pode ser sujeita a nenhuma condição de reciprocidade legal ou convencional . Segunda Parte Regras aplicáveis aos objetos de correspondência e às encomendas postais Capítulo 1
+    1. Em relação às sanções, nenhuma distinção deve ser feita entre os atos previstos no parágrafo 2, quer se trate de meios de franquia nacionais ou estrangeiros; esta disposição não pode ser sujeita a nenhuma condição de reciprocidade legal ou convencional . Segunda Parte Regras aplicáveis aos objetos de correspondência e às encomendas postais Capítulo 1 Oferta de prestações
 
   </p>
             
@@ -920,7 +919,7 @@
           </Caput>
           </Artigo><Artigo id="art12">
             
-            <TituloDispositivo>Oferta de prestações</TituloDispositivo>
+            <TituloDispositivo>Serviços de base</TituloDispositivo>
             <Rotulo>Art. 12.</Rotulo>
             
             <Caput id="art12_cpt">
@@ -930,7 +929,7 @@
             
             <Item id="art12_cpt_ite1">
             
-            <TituloDispositivo>Serviços de base</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Os Países membros asseguram a admissão, o tratamento, o transporte e a distribuição dos objetos de correspondência.
@@ -1040,7 +1039,7 @@
           </Caput>
           </Artigo><Artigo id="art13">
             
-            
+            <TituloDispositivo>Serviços suplementares</TituloDispositivo>
             <Rotulo>Art. 13.</Rotulo>
             
             <Caput id="art13_cpt">
@@ -1050,7 +1049,7 @@
             
             <Item id="art13_cpt_ite1">
             
-            <TituloDispositivo>Serviços suplementares</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Os Países-membros garantem os seguintes serviços suplementares obrigatórios:
@@ -1313,7 +1312,7 @@
           </Caput>
           </Artigo><Artigo id="art14">
             
-            
+            <TituloDispositivo>Correio eletrônico, EMS, logística integrada e novos serviços</TituloDispositivo>
             <Rotulo>Art. 14.</Rotulo>
             
             <Caput id="art14_cpt">
@@ -1323,7 +1322,7 @@
             
             <Item id="art14_cpt_ite1">
             
-            <TituloDispositivo>Correio eletrônico, EMS, logística integrada e novos serviços</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     As administrações postais podem acordar entre si participarem nos seguintes serviços descritos nos Regulamentos:
@@ -1379,7 +1378,7 @@
           </Caput>
           </Artigo><Artigo id="art15">
             
-            
+            <TituloDispositivo>Objetos não admitidos. Proibições</TituloDispositivo>
             <Rotulo>Art. 15.</Rotulo>
             
             <Caput id="art15_cpt">
@@ -1387,9 +1386,7 @@
             
             
             
-            
-          </Caput>
-          </Artigo><Item id="ite1">
+            <Item id="art15_cpt_ite1">
             
             
             <Rotulo>1.</Rotulo>
@@ -1398,7 +1395,7 @@
 
   </p>
             
-          </Item><Item id="ite1">
+          </Item><Item id="art15_cpt_ite1">
             
             
             <Rotulo>1.</Rotulo>
@@ -1407,7 +1404,7 @@
 
   </p>
             
-          </Item><Item id="ite1">
+          </Item><Item id="art15_cpt_ite1">
             
             
             <Rotulo>1.</Rotulo>
@@ -1416,7 +1413,7 @@
 
   </p>
             
-          </Item><Item id="ite1">
+          </Item><Item id="art15_cpt_ite1">
             
             
             <Rotulo>1.</Rotulo>
@@ -1425,7 +1422,7 @@
 
   </p>
             
-          </Item><Item id="ite2">
+          </Item><Item id="art15_cpt_ite2">
             
             
             <Rotulo>2.</Rotulo>
@@ -1434,7 +1431,7 @@
 
   </p>
             
-          </Item><Item id="ite2">
+          </Item><Item id="art15_cpt_ite2">
             
             
             <Rotulo>2.</Rotulo>
@@ -1443,7 +1440,7 @@
 
   </p>
             
-          </Item><Item id="ite2">
+          </Item><Item id="art15_cpt_ite2">
             
             
             <Rotulo>2.</Rotulo>
@@ -1452,7 +1449,7 @@
 
   </p>
             
-          </Item><Item id="ite2">
+          </Item><Item id="art15_cpt_ite2">
             
             
             <Rotulo>2.</Rotulo>
@@ -1461,7 +1458,7 @@
 
   </p>
             
-          </Item><Item id="ite2">
+          </Item><Item id="art15_cpt_ite2">
             
             
             <Rotulo>2.</Rotulo>
@@ -1470,7 +1467,7 @@
 
   </p>
             
-          </Item><Item id="ite2">
+          </Item><Item id="art15_cpt_ite2">
             
             
             <Rotulo>2.</Rotulo>
@@ -1479,7 +1476,7 @@
 
   </p>
             
-          </Item><Item id="ite2">
+          </Item><Item id="art15_cpt_ite2">
             
             
             <Rotulo>2.</Rotulo>
@@ -1488,7 +1485,7 @@
 
   </p>
             
-          </Item><Item id="ite3">
+          </Item><Item id="art15_cpt_ite3">
             
             
             <Rotulo>3.</Rotulo>
@@ -1497,7 +1494,7 @@
 
   </p>
             
-          </Item><Item id="ite3">
+          </Item><Item id="art15_cpt_ite3">
             
             
             <Rotulo>3.</Rotulo>
@@ -1506,7 +1503,7 @@
 
   </p>
             
-          </Item><Item id="ite3">
+          </Item><Item id="art15_cpt_ite3">
             
             
             <Rotulo>3.</Rotulo>
@@ -1515,7 +1512,7 @@
 
   </p>
             
-          </Item><Item id="ite3">
+          </Item><Item id="art15_cpt_ite3">
             
             
             <Rotulo>3.</Rotulo>
@@ -1524,7 +1521,7 @@
 
   </p>
             
-          </Item><Item id="ite3">
+          </Item><Item id="art15_cpt_ite3">
             
             
             <Rotulo>3.</Rotulo>
@@ -1533,7 +1530,7 @@
 
   </p>
             
-          </Item><Item id="ite4">
+          </Item><Item id="art15_cpt_ite4">
             
             
             <Rotulo>4.</Rotulo>
@@ -1542,7 +1539,7 @@
 
   </p>
             
-          </Item><Item id="ite4">
+          </Item><Item id="art15_cpt_ite4">
             
             
             <Rotulo>4.</Rotulo>
@@ -1551,7 +1548,7 @@
 
   </p>
             
-          </Item><Item id="ite4">
+          </Item><Item id="art15_cpt_ite4">
             
             
             <Rotulo>4.</Rotulo>
@@ -1560,7 +1557,7 @@
 
   </p>
             
-          </Item><Item id="ite4">
+          </Item><Item id="art15_cpt_ite4">
             
             
             <Rotulo>4.</Rotulo>
@@ -1569,7 +1566,7 @@
 
   </p>
             
-          </Item><Item id="ite4">
+          </Item><Item id="art15_cpt_ite4">
             
             
             <Rotulo>4.</Rotulo>
@@ -1578,7 +1575,7 @@
 
   </p>
             
-          </Item><Item id="ite4">
+          </Item><Item id="art15_cpt_ite4">
             
             
             <Rotulo>4.</Rotulo>
@@ -1587,7 +1584,7 @@
 
   </p>
             
-          </Item><Item id="ite4">
+          </Item><Item id="art15_cpt_ite4">
             
             
             <Rotulo>4.</Rotulo>
@@ -1596,7 +1593,7 @@
 
   </p>
             
-          </Item><Item id="ite4">
+          </Item><Item id="art15_cpt_ite4">
             
             
             <Rotulo>4.</Rotulo>
@@ -1605,7 +1602,7 @@
 
   </p>
             
-          </Item><Item id="ite5">
+          </Item><Item id="art15_cpt_ite5">
             
             
             <Rotulo>5.</Rotulo>
@@ -1614,7 +1611,7 @@
 
   </p>
             
-          </Item><Item id="ite5">
+          </Item><Item id="art15_cpt_ite5">
             
             
             <Rotulo>5.</Rotulo>
@@ -1623,7 +1620,7 @@
 
   </p>
             
-          </Item><Item id="ite5">
+          </Item><Item id="art15_cpt_ite5">
             
             
             <Rotulo>5.</Rotulo>
@@ -1632,7 +1629,7 @@
 
   </p>
             
-          </Item><Item id="ite5">
+          </Item><Item id="art15_cpt_ite5">
             
             
             <Rotulo>5.</Rotulo>
@@ -1641,7 +1638,7 @@
 
   </p>
             
-          </Item><Item id="ite6">
+          </Item><Item id="art15_cpt_ite6">
             
             
             <Rotulo>6.</Rotulo>
@@ -1650,7 +1647,7 @@
 
   </p>
             
-          </Item><Item id="ite6">
+          </Item><Item id="art15_cpt_ite6">
             
             
             <Rotulo>6.</Rotulo>
@@ -1659,7 +1656,7 @@
 
   </p>
             
-          </Item><Item id="ite6">
+          </Item><Item id="art15_cpt_ite6">
             
             
             <Rotulo>6.</Rotulo>
@@ -1668,7 +1665,7 @@
 
   </p>
             
-          </Item><Item id="ite6">
+          </Item><Item id="art15_cpt_ite6">
             
             
             <Rotulo>6.</Rotulo>
@@ -1677,7 +1674,7 @@
 
   </p>
             
-          </Item><Item id="ite6">
+          </Item><Item id="art15_cpt_ite6">
             
             
             <Rotulo>6.</Rotulo>
@@ -1686,7 +1683,7 @@
 
   </p>
             
-          </Item><Item id="ite6">
+          </Item><Item id="art15_cpt_ite6">
             
             
             <Rotulo>6.</Rotulo>
@@ -1695,7 +1692,7 @@
 
   </p>
             
-          </Item><Item id="ite6">
+          </Item><Item id="art15_cpt_ite6">
             
             
             <Rotulo>6.</Rotulo>
@@ -1704,7 +1701,7 @@
 
   </p>
             
-          </Item><Item id="ite7">
+          </Item><Item id="art15_cpt_ite7">
             
             
             <Rotulo>7.</Rotulo>
@@ -1713,7 +1710,7 @@
 
   </p>
             
-          </Item><Item id="ite7">
+          </Item><Item id="art15_cpt_ite7">
             
             
             <Rotulo>7.</Rotulo>
@@ -1722,7 +1719,7 @@
 
   </p>
             
-          </Item><Item id="ite7">
+          </Item><Item id="art15_cpt_ite7">
             
             
             <Rotulo>7.</Rotulo>
@@ -1731,7 +1728,7 @@
 
   </p>
             
-          </Item><Item id="ite7">
+          </Item><Item id="art15_cpt_ite7">
             
             
             <Rotulo>7.</Rotulo>
@@ -1740,7 +1737,7 @@
 
   </p>
             
-          </Item><Item id="ite8">
+          </Item><Item id="art15_cpt_ite8">
             
             
             <Rotulo>8.</Rotulo>
@@ -1749,7 +1746,7 @@
 
   </p>
             
-          </Item><Item id="ite8">
+          </Item><Item id="art15_cpt_ite8">
             
             
             <Rotulo>8.</Rotulo>
@@ -1758,9 +1755,11 @@
 
   </p>
             
-          </Item><Artigo id="art16">
+          </Item>
+          </Caput>
+          </Artigo><Artigo id="art16">
             
-            
+            <TituloDispositivo>Matérias radioativas e matérias biológicas admissíveis</TituloDispositivo>
             <Rotulo>Art. 16.</Rotulo>
             
             <Caput id="art16_cpt">
@@ -1770,7 +1769,7 @@
             
             <Item id="art16_cpt_ite1">
             
-            <TituloDispositivo>Matérias radioativas e matérias biológicas admissíveis</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     As matérias radioativas são admitidas nos objetos de correspondência e nas encomendas postais no âmbito das relações entre as administrações postais, que acordaram quanto à aceitação destes objetos, seja nas suas relações recíprocas, seja num único sentido, mediante as condições seguintes:
@@ -1862,7 +1861,7 @@
           </Caput>
           </Artigo><Artigo id="art17">
             
-            
+            <TituloDispositivo>Reclamações</TituloDispositivo>
             <Rotulo>Art. 17.</Rotulo>
             
             <Caput id="art17_cpt">
@@ -1872,7 +1871,7 @@
             
             <Item id="art17_cpt_ite1">
             
-            <TituloDispositivo>Reclamações</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Cada administração postal é obrigada a aceitar as reclamações referentes a um objeto depositado no seu próprio serviço ou no serviço de uma outra administração postal , desde que estas reclamações sejam apresentadas num prazo de seis meses a contar do dia seguinte ao dia de depósito de um objeto. O período de seis meses refere-se às relações entre reclamantes e administrações postais e não cobre a transmissão das reclamações entre as administrações postais.
@@ -1910,7 +1909,7 @@
           </Caput>
           </Artigo><Artigo id="art18">
             
-            
+            <TituloDispositivo>Controlo alfandegário. Direitos aduaneiros e outros direitos</TituloDispositivo>
             <Rotulo>Art. 18.</Rotulo>
             
             <Caput id="art18_cpt">
@@ -1918,9 +1917,7 @@
             
             
             
-            
-          </Caput>
-          </Artigo><Item id="ite1">
+            <Item id="art18_cpt_ite1">
             
             
             <Rotulo>1.</Rotulo>
@@ -1929,7 +1926,7 @@
 
   </p>
             
-          </Item><Item id="ite2">
+          </Item><Item id="art18_cpt_ite2">
             
             
             <Rotulo>2.</Rotulo>
@@ -1938,7 +1935,7 @@
 
   </p>
             
-          </Item><Item id="ite3">
+          </Item><Item id="art18_cpt_ite3">
             
             
             <Rotulo>3.</Rotulo>
@@ -1947,7 +1944,7 @@
 
   </p>
             
-          </Item><Item id="ite4">
+          </Item><Item id="art18_cpt_ite4">
             
             
             <Rotulo>4.</Rotulo>
@@ -1956,9 +1953,11 @@
 
   </p>
             
-          </Item><Artigo id="art19">
+          </Item>
+          </Caput>
+          </Artigo><Artigo id="art19">
             
-            
+            <TituloDispositivo>Permuta de expedições fechadas com unidades militares</TituloDispositivo>
             <Rotulo>Art. 19.</Rotulo>
             
             <Caput id="art19_cpt">
@@ -1968,7 +1967,7 @@
             
             <Item id="art19_cpt_ite1">
             
-            <TituloDispositivo>Permuta de expedições fechadas com unidades militares</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Podem ser permutadas expedições fechadas de correspondências por intermédio dos serviços terrestres, marítimos ou aéreos de outros países:
@@ -2033,7 +2032,7 @@
           </Caput>
           </Artigo><Artigo id="art20">
             
-            
+            <TituloDispositivo>Normas e objetivos em matéria de qualidade de serviço</TituloDispositivo>
             <Rotulo>Art. 20.</Rotulo>
             
             <Caput id="art20_cpt">
@@ -2043,7 +2042,7 @@
             
             <Item id="art20_cpt_ite1">
             
-            <TituloDispositivo>Normas e objetivos em matéria de qualidade de serviço</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     As administrações devem fixar e publicar suas normas e seus objetivos em matéria de distribuição dos objetos de correspondência e das encomendas de chegada.
@@ -2073,7 +2072,7 @@
             
             <Rotulo>4.</Rotulo>
             <p>
-    As administrações postais devem avaliar a aplicação das normas de qualidade de serviço . Capítulo 2
+    As administrações postais devem avaliar a aplicação das normas de qualidade de serviço . Capítulo 2 Responsabilidade
 
   </p>
             
@@ -2081,7 +2080,7 @@
           </Caput>
           </Artigo><Artigo id="art21">
             
-            <TituloDispositivo>Responsabilidade</TituloDispositivo>
+            <TituloDispositivo>Responsabilidade das administrações postais. Indenizações</TituloDispositivo>
             <Rotulo>Art. 21.</Rotulo>
             
             <Caput id="art21_cpt">
@@ -2089,9 +2088,7 @@
             
             
             
-            
-          </Caput>
-          </Artigo><Item id="ite1">
+            <Item id="art21_cpt_ite1">
             
             
             <Rotulo>1.</Rotulo>
@@ -2100,7 +2097,7 @@
 
   </p>
             
-          </Item><Item id="ite1">
+          </Item><Item id="art21_cpt_ite1">
             
             
             <Rotulo>1.</Rotulo>
@@ -2109,7 +2106,7 @@
 
   </p>
             
-          </Item><Item id="ite1">
+          </Item><Item id="art21_cpt_ite1">
             
             
             <Rotulo>1.</Rotulo>
@@ -2118,7 +2115,7 @@
 
   </p>
             
-          </Item><Item id="ite1">
+          </Item><Item id="art21_cpt_ite1">
             
             
             <Rotulo>1.</Rotulo>
@@ -2127,7 +2124,7 @@
 
   </p>
             
-          </Item><Item id="ite1">
+          </Item><Item id="art21_cpt_ite1">
             
             
             <Rotulo>1.</Rotulo>
@@ -2136,7 +2133,7 @@
 
   </p>
             
-          </Item><Item id="ite1">
+          </Item><Item id="art21_cpt_ite1">
             
             
             <Rotulo>1.</Rotulo>
@@ -2145,7 +2142,7 @@
 
   </p>
             
-          </Item><Item id="ite1">
+          </Item><Item id="art21_cpt_ite1">
             
             
             <Rotulo>1.</Rotulo>
@@ -2154,7 +2151,7 @@
 
   </p>
             
-          </Item><Item id="ite1">
+          </Item><Item id="art21_cpt_ite1">
             
             
             <Rotulo>1.</Rotulo>
@@ -2163,7 +2160,7 @@
 
   </p>
             
-          </Item><Item id="ite1">
+          </Item><Item id="art21_cpt_ite1">
             
             
             <Rotulo>1.</Rotulo>
@@ -2172,7 +2169,7 @@
 
   </p>
             
-          </Item><Item id="ite1">
+          </Item><Item id="art21_cpt_ite1">
             
             
             <Rotulo>1.</Rotulo>
@@ -2181,7 +2178,7 @@
 
   </p>
             
-          </Item><Item id="ite1">
+          </Item><Item id="art21_cpt_ite1">
             
             
             <Rotulo>1.</Rotulo>
@@ -2190,7 +2187,7 @@
 
   </p>
             
-          </Item><Item id="ite2">
+          </Item><Item id="art21_cpt_ite2">
             
             
             <Rotulo>2.</Rotulo>
@@ -2199,7 +2196,7 @@
 
   </p>
             
-          </Item><Item id="ite2">
+          </Item><Item id="art21_cpt_ite2">
             
             
             <Rotulo>2.</Rotulo>
@@ -2208,7 +2205,7 @@
 
   </p>
             
-          </Item><Item id="ite2">
+          </Item><Item id="art21_cpt_ite2">
             
             
             <Rotulo>2.</Rotulo>
@@ -2217,7 +2214,7 @@
 
   </p>
             
-          </Item><Item id="ite3">
+          </Item><Item id="art21_cpt_ite3">
             
             
             <Rotulo>3.</Rotulo>
@@ -2226,7 +2223,7 @@
 
   </p>
             
-          </Item><Item id="ite3">
+          </Item><Item id="art21_cpt_ite3">
             
             
             <Rotulo>3.</Rotulo>
@@ -2235,7 +2232,7 @@
 
   </p>
             
-          </Item><Item id="ite4">
+          </Item><Item id="art21_cpt_ite4">
             
             
             <Rotulo>4.</Rotulo>
@@ -2244,7 +2241,7 @@
 
   </p>
             
-          </Item><Item id="ite4">
+          </Item><Item id="art21_cpt_ite4">
             
             
             <Rotulo>4.</Rotulo>
@@ -2253,7 +2250,7 @@
 
   </p>
             
-          </Item><Item id="ite4">
+          </Item><Item id="art21_cpt_ite4">
             
             
             <Rotulo>4.</Rotulo>
@@ -2262,7 +2259,7 @@
 
   </p>
             
-          </Item><Item id="ite4">
+          </Item><Item id="art21_cpt_ite4">
             
             
             <Rotulo>4.</Rotulo>
@@ -2271,7 +2268,7 @@
 
   </p>
             
-          </Item><Item id="ite5">
+          </Item><Item id="art21_cpt_ite5">
             
             
             <Rotulo>5.</Rotulo>
@@ -2280,7 +2277,7 @@
 
   </p>
             
-          </Item><Item id="ite5">
+          </Item><Item id="art21_cpt_ite5">
             
             
             <Rotulo>5.</Rotulo>
@@ -2289,7 +2286,7 @@
 
   </p>
             
-          </Item><Item id="ite5">
+          </Item><Item id="art21_cpt_ite5">
             
             
             <Rotulo>5.</Rotulo>
@@ -2298,7 +2295,7 @@
 
   </p>
             
-          </Item><Item id="ite6">
+          </Item><Item id="art21_cpt_ite6">
             
             
             <Rotulo>6.</Rotulo>
@@ -2307,7 +2304,7 @@
 
   </p>
             
-          </Item><Item id="ite7">
+          </Item><Item id="art21_cpt_ite7">
             
             
             <Rotulo>7.</Rotulo>
@@ -2316,7 +2313,7 @@
 
   </p>
             
-          </Item><Item id="ite8">
+          </Item><Item id="art21_cpt_ite8">
             
             
             <Rotulo>8.</Rotulo>
@@ -2325,7 +2322,7 @@
 
   </p>
             
-          </Item><Item id="ite9">
+          </Item><Item id="art21_cpt_ite9">
             
             
             <Rotulo>9.</Rotulo>
@@ -2334,7 +2331,7 @@
 
   </p>
             
-          </Item><Item id="ite9">
+          </Item><Item id="art21_cpt_ite9">
             
             
             <Rotulo>9.</Rotulo>
@@ -2343,7 +2340,7 @@
 
   </p>
             
-          </Item><Item id="ite9">
+          </Item><Item id="art21_cpt_ite9">
             
             
             <Rotulo>9.</Rotulo>
@@ -2352,7 +2349,7 @@
 
   </p>
             
-          </Item><Item id="ite10">
+          </Item><Item id="art21_cpt_ite10">
             
             
             <Rotulo>10.</Rotulo>
@@ -2361,9 +2358,11 @@
 
   </p>
             
-          </Item><Artigo id="art22">
+          </Item>
+          </Caput>
+          </Artigo><Artigo id="art22">
             
-            
+            <TituloDispositivo>Não responsabilidade das administrações postais</TituloDispositivo>
             <Rotulo>Art. 22.</Rotulo>
             
             <Caput id="art22_cpt">
@@ -2373,7 +2372,7 @@
             
             <Item id="art22_cpt_ite1">
             
-            <TituloDispositivo>Não responsabilidade das administrações postais</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     As administrações postais deixam de ser responsáveis pelos objetos registados, pelos objetos com entrega comprovada, pelas encomendas e pelos objetos com valor declarado cuja entrega já tenham efetuado nas condições estipuladas na sua regulamentação para os objetos da mesma natureza. A responsabilidade é todavia mantida:
@@ -2519,7 +2518,7 @@
           </Caput>
           </Artigo><Artigo id="art23">
             
-            
+            <TituloDispositivo>Responsabilidade do remetente</TituloDispositivo>
             <Rotulo>Art. 23.</Rotulo>
             
             <Caput id="art23_cpt">
@@ -2529,7 +2528,7 @@
             
             <Item id="art23_cpt_ite1">
             
-            <TituloDispositivo>Responsabilidade do remetente</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     O remetente de um objeto de correspondência é responsável pelos danos corporais sofridos pelos agentes dos correios e por quaisquer danos causados aos outros objetos postais e ao equipamento postal em consequência da expedição de objetos não admitidos para transporte ou da inobservância das condições de admissão.
@@ -2567,7 +2566,7 @@
           </Caput>
           </Artigo><Artigo id="art24">
             
-            
+            <TituloDispositivo>Pagamento da indenização</TituloDispositivo>
             <Rotulo>Art. 24.</Rotulo>
             
             <Caput id="art24_cpt">
@@ -2577,7 +2576,7 @@
             
             <Item id="art24_cpt_ite1">
             
-            <TituloDispositivo>Pagamento da indenização</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Sem prejuízo de direito de recurso contra a administração responsável, a obrigação de pagar a indenização e de restituir as taxas e direitos cabe, conforme o caso, à administração de origem ou à administração de destino.
@@ -2597,7 +2596,7 @@
           </Caput>
           </Artigo><Artigo id="art25">
             
-            
+            <TituloDispositivo>Recuperação eventual da indenização junto do remetente ou do destinatário</TituloDispositivo>
             <Rotulo>Art. 25.</Rotulo>
             
             <Caput id="art25_cpt">
@@ -2607,7 +2606,7 @@
             
             <Item id="art25_cpt_ite1">
             
-            <TituloDispositivo>Recuperação eventual da indenização junto do remetente ou do destinatário</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Se, após o pagamento da indenização, um objeto registado ou um objeto com valor declarado, ou uma parte do conteúdo anteriormente considerado como perdido, for encontrado, o remetente ou, conforme o caso, o destinatário, é avisado de que o objeto será mantido à sua disposição por um período de três meses contra o reembolso do montante da indenização paga. É-lhe perguntado ao mesmo tempo a quem o objeto deve ser entregue. Em caso de recusa ou de ausência de resposta no prazo concedido, a mesma providência será tomada junto do destinatário ou do remetente, conforme o caso, e concedendo-lhe o mesmo prazo de resposta.
@@ -2636,7 +2635,7 @@
           </Caput>
           </Artigo><Artigo id="art26">
             
-            
+            <TituloDispositivo>Reciprocidade aplicável às reservas relativas à responsabilidade</TituloDispositivo>
             <Rotulo>Art. 26.</Rotulo>
             
             <Caput id="art26_cpt">
@@ -2646,10 +2645,10 @@
             
             <Item id="art26_cpt_ite1">
             
-            <TituloDispositivo>Reciprocidade aplicável às reservas relativas à responsabilidade</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
-    Por derrogação das disposições dos artigos 22 a 25, qualquer País-membro que se reserve o direito de não pagar uma indenização ao abrigo da responsabilidade não tem direito a uma indenização deste tipo por parte de um outro País-membro que aceita assumir a responsabilidade em conformidade com as disposições dos artigos supracitados. Capítulo 3
+    Por derrogação das disposições dos artigos 22 a 25, qualquer País-membro que se reserve o direito de não pagar uma indenização ao abrigo da responsabilidade não tem direito a uma indenização deste tipo por parte de um outro País-membro que aceita assumir a responsabilidade em conformidade com as disposições dos artigos supracitados. Capítulo 3 Disposições específicas das correspondências
 
   </p>
             
@@ -2657,7 +2656,7 @@
           </Caput>
           </Artigo><Artigo id="art27">
             
-            <TituloDispositivo>Disposições específicas das correspondências</TituloDispositivo>
+            <TituloDispositivo>Depósito no estrangeiro de objetos de correspondência</TituloDispositivo>
             <Rotulo>Art. 27.</Rotulo>
             
             <Caput id="art27_cpt">
@@ -2667,7 +2666,7 @@
             
             <Item id="art27_cpt_ite1">
             
-            <TituloDispositivo>Depósito no estrangeiro de objetos de correspondência</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Nenhum País membro é obrigado a encaminhar ou distribuir aos destinatários os objetos de correspondência que remetentes residentes no seu território depositarem ou mandarem depositar num país estrangeiro, visando beneficiar das condições tarifárias mais favoráveis que aí são aplicadas .
@@ -2697,7 +2696,7 @@
             
             <Rotulo>4.</Rotulo>
             <p>
-    Nenhum País membro é obrigado a encaminhar ou entregar aos destinatários os objetos de correspondência que os remetentes depositaram ou mandaram depositar em grande quantidade num país que não aquele em que residem se o montante dos encargos terminais a receber for inferior à importância que seria recolhida se a correspondência tivesse sido depositada no país onde residem os remetentes. As administrações de destino têm o direito de exigir da administração de depósito uma remuneração com base nos custos suportados, que não poderá ser superior ao montante mais elevado das duas fórmulas seguintes: 80% da tarifa interna aplicável aos objetos equivalentes, ou 0,14 DES por objeto mais 1 DES por quilograma. Se a administração de depósito não aceitar pagar o montante exigido dentro de um prazo fixado pela administração de destino, esta pode devolver os objetos à administração de depósito, tendo direito a ser reembolsada das despesas de devolução, ou a tratá-los de acordo com a sua própria legislação. Terceira Parte Remuneração Capítulo 1
+    Nenhum País membro é obrigado a encaminhar ou entregar aos destinatários os objetos de correspondência que os remetentes depositaram ou mandaram depositar em grande quantidade num país que não aquele em que residem se o montante dos encargos terminais a receber for inferior à importância que seria recolhida se a correspondência tivesse sido depositada no país onde residem os remetentes. As administrações de destino têm o direito de exigir da administração de depósito uma remuneração com base nos custos suportados, que não poderá ser superior ao montante mais elevado das duas fórmulas seguintes: 80% da tarifa interna aplicável aos objetos equivalentes, ou 0,14 DES por objeto mais 1 DES por quilograma. Se a administração de depósito não aceitar pagar o montante exigido dentro de um prazo fixado pela administração de destino, esta pode devolver os objetos à administração de depósito, tendo direito a ser reembolsada das despesas de devolução, ou a tratá-los de acordo com a sua própria legislação. Terceira Parte Remuneração Capítulo 1 Disposições específicas das correspondências
 
   </p>
             
@@ -2705,7 +2704,7 @@
           </Caput>
           </Artigo><Artigo id="art28">
             
-            <TituloDispositivo>Disposições específicas das correspondências</TituloDispositivo>
+            <TituloDispositivo>Encargos terminais. Disposições gerais</TituloDispositivo>
             <Rotulo>Art. 28.</Rotulo>
             
             <Caput id="art28_cpt">
@@ -2713,9 +2712,7 @@
             
             
             
-            
-          </Caput>
-          </Artigo><Item id="ite1">
+            <Item id="art28_cpt_ite1">
             
             
             <Rotulo>1.</Rotulo>
@@ -2724,7 +2721,7 @@
 
   </p>
             
-          </Item><Item id="ite2">
+          </Item><Item id="art28_cpt_ite2">
             
             
             <Rotulo>2.</Rotulo>
@@ -2733,7 +2730,7 @@
 
   </p>
             
-          </Item><Item id="ite3">
+          </Item><Item id="art28_cpt_ite3">
             
             
             <Rotulo>3.</Rotulo>
@@ -2742,7 +2739,7 @@
 
   </p>
             
-          </Item><Item id="ite4">
+          </Item><Item id="art28_cpt_ite4">
             
             
             <Rotulo>4.</Rotulo>
@@ -2751,7 +2748,7 @@
 
   </p>
             
-          </Item><Item id="ite4">
+          </Item><Item id="art28_cpt_ite4">
             
             
             <Rotulo>4.</Rotulo>
@@ -2760,7 +2757,7 @@
 
   </p>
             
-          </Item><Item id="ite4">
+          </Item><Item id="art28_cpt_ite4">
             
             
             <Rotulo>4.</Rotulo>
@@ -2769,7 +2766,7 @@
 
   </p>
             
-          </Item><Item id="ite4">
+          </Item><Item id="art28_cpt_ite4">
             
             
             <Rotulo>4.</Rotulo>
@@ -2778,7 +2775,7 @@
 
   </p>
             
-          </Item><Item id="ite4">
+          </Item><Item id="art28_cpt_ite4">
             
             
             <Rotulo>4.</Rotulo>
@@ -2787,7 +2784,7 @@
 
   </p>
             
-          </Item><Item id="ite4">
+          </Item><Item id="art28_cpt_ite4">
             
             
             <Rotulo>4.</Rotulo>
@@ -2796,7 +2793,7 @@
 
   </p>
             
-          </Item><Item id="ite5">
+          </Item><Item id="art28_cpt_ite5">
             
             
             <Rotulo>5.</Rotulo>
@@ -2805,7 +2802,7 @@
 
   </p>
             
-          </Item><Item id="ite6">
+          </Item><Item id="art28_cpt_ite6">
             
             
             <Rotulo>6.</Rotulo>
@@ -2814,7 +2811,7 @@
 
   </p>
             
-          </Item><Item id="ite7">
+          </Item><Item id="art28_cpt_ite7">
             
             
             <Rotulo>7.</Rotulo>
@@ -2823,7 +2820,7 @@
 
   </p>
             
-          </Item><Item id="ite8">
+          </Item><Item id="art28_cpt_ite8">
             
             
             <Rotulo>8.</Rotulo>
@@ -2832,9 +2829,11 @@
 
   </p>
             
-          </Item><Artigo id="art29">
+          </Item>
+          </Caput>
+          </Artigo><Artigo id="art29">
             
-            
+            <TituloDispositivo>Encargos terminais. Disposições aplicáveis às permutas entre países do sistema alvo</TituloDispositivo>
             <Rotulo>Art. 29.</Rotulo>
             
             <Caput id="art29_cpt">
@@ -2842,9 +2841,7 @@
             
             
             
-            
-          </Caput>
-          </Artigo><Item id="ite1">
+            <Item id="art29_cpt_ite1">
             
             
             <Rotulo>1.</Rotulo>
@@ -2853,7 +2850,7 @@
 
   </p>
             
-          </Item><Item id="ite2">
+          </Item><Item id="art29_cpt_ite2">
             
             
             <Rotulo>2.</Rotulo>
@@ -2862,7 +2859,7 @@
 
   </p>
             
-          </Item><Item id="ite2">
+          </Item><Item id="art29_cpt_ite2">
             
             
             <Rotulo>2.</Rotulo>
@@ -2871,7 +2868,7 @@
 
   </p>
             
-          </Item><Item id="ite2">
+          </Item><Item id="art29_cpt_ite2">
             
             
             <Rotulo>2.</Rotulo>
@@ -2880,7 +2877,7 @@
 
   </p>
             
-          </Item><Item id="ite2">
+          </Item><Item id="art29_cpt_ite2">
             
             
             <Rotulo>2.</Rotulo>
@@ -2889,7 +2886,7 @@
 
   </p>
             
-          </Item><Item id="ite2">
+          </Item><Item id="art29_cpt_ite2">
             
             
             <Rotulo>2.</Rotulo>
@@ -2898,7 +2895,7 @@
 
   </p>
             
-          </Item><Item id="ite3">
+          </Item><Item id="art29_cpt_ite3">
             
             
             <Rotulo>3.</Rotulo>
@@ -2907,7 +2904,7 @@
 
   </p>
             
-          </Item><Item id="ite3">
+          </Item><Item id="art29_cpt_ite3">
             
             
             <Rotulo>3.</Rotulo>
@@ -2916,7 +2913,7 @@
 
   </p>
             
-          </Item><Item id="ite3">
+          </Item><Item id="art29_cpt_ite3">
             
             
             <Rotulo>3.</Rotulo>
@@ -2925,7 +2922,7 @@
 
   </p>
             
-          </Item><Item id="ite3">
+          </Item><Item id="art29_cpt_ite3">
             
             
             <Rotulo>3.</Rotulo>
@@ -2934,7 +2931,7 @@
 
   </p>
             
-          </Item><Item id="ite3">
+          </Item><Item id="art29_cpt_ite3">
             
             
             <Rotulo>3.</Rotulo>
@@ -2943,7 +2940,7 @@
 
   </p>
             
-          </Item><Item id="ite4">
+          </Item><Item id="art29_cpt_ite4">
             
             
             <Rotulo>4.</Rotulo>
@@ -2952,7 +2949,7 @@
 
   </p>
             
-          </Item><Item id="ite4">
+          </Item><Item id="art29_cpt_ite4">
             
             
             <Rotulo>4.</Rotulo>
@@ -2961,7 +2958,7 @@
 
   </p>
             
-          </Item><Item id="ite4">
+          </Item><Item id="art29_cpt_ite4">
             
             
             <Rotulo>4.</Rotulo>
@@ -2970,7 +2967,7 @@
 
   </p>
             
-          </Item><Item id="ite4">
+          </Item><Item id="art29_cpt_ite4">
             
             
             <Rotulo>4.</Rotulo>
@@ -2979,7 +2976,7 @@
 
   </p>
             
-          </Item><Item id="ite4">
+          </Item><Item id="art29_cpt_ite4">
             
             
             <Rotulo>4.</Rotulo>
@@ -2988,7 +2985,7 @@
 
   </p>
             
-          </Item><Item id="ite5">
+          </Item><Item id="art29_cpt_ite5">
             
             
             <Rotulo>5.</Rotulo>
@@ -2997,7 +2994,7 @@
 
   </p>
             
-          </Item><Item id="ite5">
+          </Item><Item id="art29_cpt_ite5">
             
             
             <Rotulo>5.</Rotulo>
@@ -3006,7 +3003,7 @@
 
   </p>
             
-          </Item><Item id="ite6">
+          </Item><Item id="art29_cpt_ite6">
             
             
             <Rotulo>6.</Rotulo>
@@ -3015,7 +3012,7 @@
 
   </p>
             
-          </Item><Item id="ite7">
+          </Item><Item id="art29_cpt_ite7">
             
             
             <Rotulo>7.</Rotulo>
@@ -3024,7 +3021,7 @@
 
   </p>
             
-          </Item><Item id="ite8">
+          </Item><Item id="art29_cpt_ite8">
             
             
             <Rotulo>8.</Rotulo>
@@ -3033,9 +3030,11 @@
 
   </p>
             
-          </Item><Artigo id="art30">
+          </Item>
+          </Caput>
+          </Artigo><Artigo id="art30">
             
-            
+            <TituloDispositivo>Encargos terminais – Disposições aplicáveis aos fluxos de correio para, desde e entre os países do sistema de transição</TituloDispositivo>
             <Rotulo>Art. 30.</Rotulo>
             
             <Caput id="art30_cpt">
@@ -3045,7 +3044,7 @@
             
             <Item id="art30_cpt_ite1">
             
-            <TituloDispositivo>Encargos terminais – Disposições aplicáveis aos fluxos de correio para, desde e entre os países do sistema de transição</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Remuneração
@@ -3191,7 +3190,7 @@
           </Caput>
           </Artigo><Artigo id="art31">
             
-            
+            <TituloDispositivo>Fundo para a melhoria da qualidade de serviço</TituloDispositivo>
             <Rotulo>Art. 31.</Rotulo>
             
             <Caput id="art31_cpt">
@@ -3201,7 +3200,7 @@
             
             <Item id="art31_cpt_ite1">
             
-            <TituloDispositivo>Fundo para a melhoria da qualidade de serviço</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Exceto para os sacos M e os objetos em quantidade, os encargos terminais pagos por todos os países e territórios aos países classificados pelo Conselho econômico e social na categoria dos países menos avançados são objeto de um aumento que corresponde a 16,5% da taxa de 3,727 DES por quilograma, indicado no artigo 26, destinado ao Fundo para a melhoria da qualidade de serviço (FMQS) para melhorar a qualidade de serviço nos países menos avançados. Não é efetuado nenhum pagamento deste tipo entre os países menos avançados.
@@ -3257,7 +3256,7 @@
           </Caput>
           </Artigo><Artigo id="art32">
             
-            
+            <TituloDispositivo>Direitos de trânsito</TituloDispositivo>
             <Rotulo>Art. 32.</Rotulo>
             
             <Caput id="art32_cpt">
@@ -3267,10 +3266,10 @@
             
             <Item id="art32_cpt_ite1">
             
-            <TituloDispositivo>Direitos de trânsito</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
-    As expedições fechadas e os objetos em trânsito a descoberto permutados entre duas administrações ou entre duas estações do mesmo país por meio dos serviços de uma ou várias outras administrações (serviços terceiros), estão sujeitos ao pagamento dos direitos de trânsito. Estes constituem uma retribuição pelas prestações de serviço referentes ao trânsito terrestre, ao trânsito marítimo e ao trânsito aéreo. Capítulo 2
+    As expedições fechadas e os objetos em trânsito a descoberto permutados entre duas administrações ou entre duas estações do mesmo país por meio dos serviços de uma ou várias outras administrações (serviços terceiros), estão sujeitos ao pagamento dos direitos de trânsito. Estes constituem uma retribuição pelas prestações de serviço referentes ao trânsito terrestre, ao trânsito marítimo e ao trânsito aéreo. Capítulo 2 Outras disposições
 
   </p>
             
@@ -3278,7 +3277,7 @@
           </Caput>
           </Artigo><Artigo id="art33">
             
-            <TituloDispositivo>Outras disposições</TituloDispositivo>
+            <TituloDispositivo>Taxa de base e disposições relativas aos encargos de transporte aéreo</TituloDispositivo>
             <Rotulo>Art. 33.</Rotulo>
             
             <Caput id="art33_cpt">
@@ -3288,7 +3287,7 @@
             
             <Item id="art33_cpt_ite1">
             
-            <TituloDispositivo>Taxa de base e disposições relativas aos encargos de transporte aéreo</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     A taxa de base a aplicar à liquidação das contas entre administrações a título dos transportes aéreos, é aprovada pelos Conselho de Operações Postais. É calculada pela Secretaria Internacional segundo uma fórmula especificada no Regulamento das Correspondências.
@@ -3371,7 +3370,7 @@
           </Caput>
           </Artigo><Artigo id="art34">
             
-            
+            <TituloDispositivo>Quotas-partes terrestres e marítimas das encomendas postais</TituloDispositivo>
             <Rotulo>Art. 34.</Rotulo>
             
             <Caput id="art34_cpt">
@@ -3381,7 +3380,7 @@
             
             <Item id="art34_cpt_ite1">
             
-            <TituloDispositivo>Quotas-partes terrestres e marítimas das encomendas postais</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     As encomendas permutadas entre duas administrações postais são submetidas às quotas-partes territoriais de chegada, calculadas, combinando a taxa de base por encomenda e a taxa de base por quilograma, fixadas pelo Regulamento.
@@ -3473,7 +3472,7 @@
           </Caput>
           </Artigo><Artigo id="art35">
             
-            
+            <TituloDispositivo>Poder do Conselho de Operações Postais para fixar o montante dos encargos e das quotas-partes</TituloDispositivo>
             <Rotulo>Art. 35.</Rotulo>
             
             <Caput id="art35_cpt">
@@ -3483,7 +3482,7 @@
             
             <Item id="art35_cpt_ite1">
             
-            <TituloDispositivo>Poder do Conselho de Operações Postais para fixar o montante dos encargos e das quotas-partes</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     O Conselho de Operações Postais tem o poder de fixar os encargos e as quotas-partes seguintes, que devem ser liquidados pelas administrações postais de acordo com as condições enumeradas nos Regulamentos:
@@ -3540,7 +3539,7 @@
             
             <Rotulo>2.</Rotulo>
             <p>
-    A revisão, que poderá ser feita graças a uma metodologia que assegure uma remuneração equitativa às administrações que prestam os serviços, deverá apoiar-se em dados econômicos e financeiros fiáveis e representativos. A eventual modificação que venha a ser decidida, entrará em vigor numa data fixada pelo Conselho de Operações Postais. Quarta parte
+    A revisão, que poderá ser feita graças a uma metodologia que assegure uma remuneração equitativa às administrações que prestam os serviços, deverá apoiar-se em dados econômicos e financeiros fiáveis e representativos. A eventual modificação que venha a ser decidida, entrará em vigor numa data fixada pelo Conselho de Operações Postais. Quarta parte Disposições finais
 
   </p>
             
@@ -3548,7 +3547,7 @@
           </Caput>
           </Artigo><Artigo id="art36">
             
-            <TituloDispositivo>Disposições finais</TituloDispositivo>
+            <TituloDispositivo>Condições de aprovação das propostas relativas à Convenção e aos Regulamentos</TituloDispositivo>
             <Rotulo>Art. 36.</Rotulo>
             
             <Caput id="art36_cpt">
@@ -3558,7 +3557,7 @@
             
             <Item id="art36_cpt_ite1">
             
-            <TituloDispositivo>Condições de aprovação das propostas relativas à Convenção e aos Regulamentos</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Para se tornarem executórias, as propostas submetidas ao Congresso e relativas à presente Convenção, devem ser aprovadas pela maioria dos Países-membros presentes e votantes dispondo do direito de voto . Pelo menos metade dos países membros representados no Congresso dispondo do direito de voto deve estar presente no momento do voto.
@@ -3614,7 +3613,7 @@
           </Caput>
           </Artigo><Artigo id="art37">
             
-            
+            <TituloDispositivo>Reservas apresentas durante o Congresso</TituloDispositivo>
             <Rotulo>Art. 37.</Rotulo>
             
             <Caput id="art37_cpt">
@@ -3624,7 +3623,7 @@
             
             <Item id="art37_cpt_ite1">
             
-            <TituloDispositivo>Reservas apresentas durante o Congresso</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Uma reserva incompatível com o objeto e a finalidade da União não é autorizada.
@@ -3680,7 +3679,7 @@
           </Caput>
           </Artigo><Artigo id="art38">
             
-            
+            <TituloDispositivo>Entrada em vigor e duração da Convenção</TituloDispositivo>
             <Rotulo>Art. 38.</Rotulo>
             
             <Caput id="art38_cpt">
@@ -3690,7 +3689,7 @@
             
             <Item id="art38_cpt_ite1">
             
-            <TituloDispositivo>Entrada em vigor e duração da Convenção</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     A presente Convenção entrará em vigor a 1 de Janeiro de 2006 e permanecerá em vigor até à entrada em execução dos Atos do próximo Congresso. E, por ser verdade, Os Plenipotenciários dos Governos dos Países-membros assinaram a presente Convenção num exemplar que ficará arquivado junto do Diretor Geral da Secretaria Internacional. Será entregue uma cópia a cada Parte pela Secretaria Internacional da União Postal Universal . Feito em Bucareste , a 5 de Outubro de 2004. PROTOCOLO FINAL DA CONVENÇÃO POSTAL UNIVERSAL No momento de se proceder à assinatura da Convenção Postal Universal concluída nesta data, os Plenipotenciários abaixo assinados convencionaram o seguinte: Artigo I Direito de propriedade sobre os objetos postais. Retirada. Modificação ou correção de endereço
@@ -4266,7 +4265,8 @@
             
           </Item>
           </Caput>
-          </Artigo></Articulacao>
+          </Artigo>
+          </Capitulo></Articulacao>
     </DocumentoArticulado>
       </Anexo>
     </LexML>

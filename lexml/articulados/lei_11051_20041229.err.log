@@ -1,7 +1,8 @@
-# CMD: java -jar /work/doutorado/artigos/RAG_evaluation/lexml-parser-projeto-lei/target/lexml-parser-projeto-lei-1.15.0-onejar.jar parse -m application/vnd.openxmlformats-officedocument.wordprocessingml.document -i original/articulados/lei_11051_20041229.docx -o lexml/articulados_new/lei_11051_20041229.xml --write-errors-to-file lexml/articulados_new/lei_11051_20041229.err.log -a federal -t lei -n 11051 --data 2004-12-29 --prof-regex-justificativa '(?!)' --linker /usr/local/bin/linkertool
+# CMD: java -jar /work/unicamp/articles/RAG_evaluation/lexml-parser-projeto-lei/target/lexml-parser-projeto-lei-1.15.0-onejar.jar parse -m application/vnd.openxmlformats-officedocument.wordprocessingml.document -i original/articulados/lei_11051_20041229.docx -o lexml/articulados_new/lei_11051_20041229.xml --write-errors-to-file lexml/articulados_new/lei_11051_20041229.err.log -a federal -t lei -n 11051 --data 2004-12-29 --prof-regex-justificativa '(?!)' --linker /usr/local/bin/linkertool
 # ---
 Setting up logging
 Calling Configurator
+Warning: Nashorn engine is planned to be removed from a future JDK release
 Configurator.initialize finished
 Logging set up
 

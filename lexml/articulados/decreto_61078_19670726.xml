@@ -32,7 +32,7 @@
     </ParteInicial>
           <Articulacao><Artigo id="art1">
             
-            
+            <TituloDispositivo>Definições</TituloDispositivo>
             <Rotulo>Art. 1º</Rotulo>
             
             <Caput id="art1_cpt">
@@ -42,7 +42,7 @@
             
             <Item id="art1_cpt_ite1">
             
-            <TituloDispositivo>Definições</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Para os fins da presente Convenção, as expressões abaixo devem ser entendidas como a seguir se explica:
@@ -178,7 +178,7 @@
   </NomeAgrupador>
             <Artigo id="art2">
             
-            
+            <TituloDispositivo>Estabelecimento das Relações Consulares</TituloDispositivo>
             <Rotulo>Art. 2º</Rotulo>
             
             <Caput id="art2_cpt">
@@ -188,7 +188,7 @@
             
             <Item id="art2_cpt_ite1">
             
-            <TituloDispositivo>Estabelecimento das Relações Consulares</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     O estabelecimento de relações consulares entre Estados far-se-á por consentimento mútuo.
@@ -217,22 +217,22 @@
           </Caput>
           </Artigo><Artigo id="art3">
             
-            
+            <TituloDispositivo>Exercício das funções consulares</TituloDispositivo>
             <Rotulo>Art. 3º</Rotulo>
             
             <Caput id="art3_cpt">
             
             
             
-            
+            <p>
+    As funções consulares serão exercidas por repartições consulares. Serão também exercidas por missões diplomáticas de conformidade com as disposições da presente Convenção.
+
+  </p>
             
           </Caput>
-          </Artigo>
-          </Secao><p>Exercício das funções consulares
-</p><p>As funções consulares serão exercidas por repartições consulares. Serão também exercidas por missões diplomáticas de conformidade com as disposições da presente Convenção.
-</p><Artigo id="art4">
+          </Artigo><Artigo id="art4">
             
-            
+            <TituloDispositivo>Estabelecimento de uma repartição consular</TituloDispositivo>
             <Rotulo>Art. 4º</Rotulo>
             
             <Caput id="art4_cpt">
@@ -242,7 +242,7 @@
             
             <Item id="art4_cpt_ite1">
             
-            <TituloDispositivo>Estabelecimento de uma repartição consular</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Uma repartição consular não pode ser estabelecida no território do Estado receptor sem seu consentimento.
@@ -289,19 +289,18 @@
           </Caput>
           </Artigo><Artigo id="art5">
             
-            
+            <TituloDispositivo>Funções Consulares</TituloDispositivo>
             <Rotulo>Art. 5º</Rotulo>
             
             <Caput id="art5_cpt">
             
             
             
-            
-            
-          </Caput>
-          </Artigo><p>Funções Consulares
-</p><p>As funções consulares consistem em:
-</p><Alinea id="ali1">
+            <p>
+    As funções consulares consistem em:
+
+  </p>
+            <Alinea id="art5_cpt_ali1">
             
             
             <Rotulo>a)</Rotulo>
@@ -310,7 +309,7 @@
 
   </p>
             
-          </Alinea><Alinea id="ali2">
+          </Alinea><Alinea id="art5_cpt_ali2">
             
             
             <Rotulo>b)</Rotulo>
@@ -319,7 +318,7 @@
 
   </p>
             
-          </Alinea><Alinea id="ali3">
+          </Alinea><Alinea id="art5_cpt_ali3">
             
             
             <Rotulo>c)</Rotulo>
@@ -328,7 +327,7 @@
 
   </p>
             
-          </Alinea><Alinea id="ali4">
+          </Alinea><Alinea id="art5_cpt_ali4">
             
             
             <Rotulo>d)</Rotulo>
@@ -337,7 +336,7 @@
 
   </p>
             
-          </Alinea><Alinea id="ali5">
+          </Alinea><Alinea id="art5_cpt_ali5">
             
             
             <Rotulo>e)</Rotulo>
@@ -346,7 +345,7 @@
 
   </p>
             
-          </Alinea><Alinea id="ali6">
+          </Alinea><Alinea id="art5_cpt_ali6">
             
             
             <Rotulo>f)</Rotulo>
@@ -355,7 +354,7 @@
 
   </p>
             
-          </Alinea><Alinea id="ali7">
+          </Alinea><Alinea id="art5_cpt_ali7">
             
             
             <Rotulo>g)</Rotulo>
@@ -364,7 +363,7 @@
 
   </p>
             
-          </Alinea><Alinea id="ali8">
+          </Alinea><Alinea id="art5_cpt_ali8">
             
             
             <Rotulo>h)</Rotulo>
@@ -373,7 +372,7 @@
 
   </p>
             
-          </Alinea><Alinea id="ali9">
+          </Alinea><Alinea id="art5_cpt_ali9">
             
             
             <Rotulo>i)</Rotulo>
@@ -382,7 +381,7 @@
 
   </p>
             
-          </Alinea><Alinea id="ali10">
+          </Alinea><Alinea id="art5_cpt_ali10">
             
             
             <Rotulo>j)</Rotulo>
@@ -391,7 +390,7 @@
 
   </p>
             
-          </Alinea><Alinea id="ali11">
+          </Alinea><Alinea id="art5_cpt_ali11">
             
             
             <Rotulo>k)</Rotulo>
@@ -400,7 +399,7 @@
 
   </p>
             
-          </Alinea><Alinea id="ali12">
+          </Alinea><Alinea id="art5_cpt_ali12">
             
             
             <Rotulo>l)</Rotulo>
@@ -409,7 +408,7 @@
 
   </p>
             
-          </Alinea><Alinea id="ali13">
+          </Alinea><Alinea id="art5_cpt_ali13">
             
             
             <Rotulo>m)</Rotulo>
@@ -418,51 +417,56 @@
 
   </p>
             
-          </Alinea><Artigo id="art6">
+          </Alinea>
+          </Caput>
+          </Artigo><Artigo id="art6">
             
-            
+            <TituloDispositivo>Exercício de funções consulares fora da jurisdição consular</TituloDispositivo>
             <Rotulo>Art. 6º</Rotulo>
             
             <Caput id="art6_cpt">
             
             
             
-            
+            <p>
+    Em circunstâncias especiais, o funcionário consular poderá, com o consentimento do Estado receptor, exercer suas funções fora de sua jurisdição consular.
+
+  </p>
             
           </Caput>
-          </Artigo><p>Exercício de funções consulares fora da jurisdição consular
-</p><p>Em circunstâncias especiais, o funcionário consular poderá, com o consentimento do Estado receptor, exercer suas funções fora de sua jurisdição consular.
-</p><Artigo id="art7">
+          </Artigo><Artigo id="art7">
             
-            
+            <TituloDispositivo>Exercício de funções consulares em Terceiros Estados</TituloDispositivo>
             <Rotulo>Art. 7º</Rotulo>
             
             <Caput id="art7_cpt">
             
             
             
-            
+            <p>
+    O Estado que envia poderá, depois de notificação aos Estados interessados, e a não ser que um deles isso se opuser expressamente, encarregar uma repartição consular estabelecida em um Estado do exercício de funções consulares em outro Estado.
+
+  </p>
             
           </Caput>
-          </Artigo><p>Exercício de funções consulares em Terceiros Estados
-</p><p>O Estado que envia poderá, depois de notificação aos Estados interessados, e a não ser que um deles isso se opuser expressamente, encarregar uma repartição consular estabelecida em um Estado do exercício de funções consulares em outro Estado.
-</p><Artigo id="art8">
+          </Artigo><Artigo id="art8">
             
-            
+            <TituloDispositivo>Exercício de funções consulares por conta de terceiro Estado</TituloDispositivo>
             <Rotulo>Art. 8º</Rotulo>
             
             <Caput id="art8_cpt">
             
             
             
-            
+            <p>
+    Uma repartição consular do Estado que envia poderá, depois da notificação competente ao Estado receptor e sempre que êste não se opuser, exercer funções consulares por conta de um terceiro Estado.
+
+  </p>
             
           </Caput>
-          </Artigo><p>Exercício de funções consulares por conta de terceiro Estado
-</p><p>Uma repartição consular do Estado que envia poderá, depois da notificação competente ao Estado receptor e sempre que êste não se opuser, exercer funções consulares por conta de um terceiro Estado.
-</p><Artigo id="art9">
+          </Artigo><Artigo id="art9">
             
-            
+            <TituloDispositivo>Categorias de chefes de repartição consular</TituloDispositivo>
             <Rotulo>Art. 9º</Rotulo>
             
             <Caput id="art9_cpt">
@@ -472,7 +476,7 @@
             
             <Item id="art9_cpt_ite1">
             
-            <TituloDispositivo>Categorias de chefes de repartição consular</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Os chefes de repartição consular se dividem em quatro categorias, a saber:
@@ -528,7 +532,7 @@
           </Caput>
           </Artigo><Artigo id="art10">
             
-            
+            <TituloDispositivo>Nomeação e admissão dos chefes de repartição consular</TituloDispositivo>
             <Rotulo>Art. 10.</Rotulo>
             
             <Caput id="art10_cpt">
@@ -538,7 +542,7 @@
             
             <Item id="art10_cpt_ite1">
             
-            <TituloDispositivo>Nomeação e admissão dos chefes de repartição consular</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Os Chefes de repartição consular serão nomeados pelo Estado que envia e serão admitidos ao exercício de suas funções pelo Estado receptor.
@@ -558,7 +562,7 @@
           </Caput>
           </Artigo><Artigo id="art11">
             
-            
+            <TituloDispositivo>Carta-patente ou notificação da nomeação</TituloDispositivo>
             <Rotulo>Art. 11.</Rotulo>
             
             <Caput id="art11_cpt">
@@ -568,7 +572,7 @@
             
             <Item id="art11_cpt_ite1">
             
-            <TituloDispositivo>Carta-patente ou notificação da nomeação</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     O chefe da repartição consular será munido, pelo Estado que envia, de um documento, sob a forma de carta-patente ou instrumento similar, feito para cada nomeação, que ateste sua qualidade e que indique, como regra geral, seu nome completo, sua classe e categoria, a jurisdição consular e a sêde da repartição consular.
@@ -597,7 +601,7 @@
           </Caput>
           </Artigo><Artigo id="art12">
             
-            
+            <TituloDispositivo>Exequatur</TituloDispositivo>
             <Rotulo>Art. 12.</Rotulo>
             
             <Caput id="art12_cpt">
@@ -607,7 +611,7 @@
             
             <Item id="art12_cpt_ite1">
             
-            <TituloDispositivo>Exequatur</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     O Chefe da repartição consular será admitido no exercício de suas funções por uma autorização do Estado receptor denominada &quot;exequatur&quot;, qualquer que seja a forma dessa autorização.
@@ -636,36 +640,37 @@
           </Caput>
           </Artigo><Artigo id="art13">
             
-            
+            <TituloDispositivo>Admissão provisória do chefe da repartição consular</TituloDispositivo>
             <Rotulo>Art. 13.</Rotulo>
             
             <Caput id="art13_cpt">
             
             
             
-            
+            <p>
+    Até que lhe tenha sido concedido o exequatur, o chefe da repartição consular poderá ser admitido provisòriamente no exercício de suas funções. Neste caso, ser-lhe-ão aplicáveis as disposições da presente Convenção.
+
+  </p>
             
           </Caput>
-          </Artigo><p>Admissão provisória do chefe da repartição consular
-</p><p>Até que lhe tenha sido concedido o exequatur, o chefe da repartição consular poderá ser admitido provisòriamente no exercício de suas funções. Neste caso, ser-lhe-ão aplicáveis as disposições da presente Convenção.
-</p><Artigo id="art14">
+          </Artigo><Artigo id="art14">
             
-            
+            <TituloDispositivo>Notificação às autoridades da jurisdição consular</TituloDispositivo>
             <Rotulo>Art. 14.</Rotulo>
             
             <Caput id="art14_cpt">
             
             
             
-            
+            <p>
+    Logo que o chefe da repartição consular fôr admitido, ainda que provisòriamente, no exercício de suas funções, o Estado receptor notificará imediatamente às autoridades competentes da jurisdição consular. Estará também obrigado a cuidar de que sejam tomadas as medidas necessárias a fim de que o chefe da repartição consular possa cumprir os deveres de seu cargo e beneficiar-se do tratamento previsto pelas disposições da presente Convenção.
+
+  </p>
             
           </Caput>
-          </Artigo><p>Notificação às autoridades da jurisdição consular
-</p><p>Logo que o chefe da repartição consular fôr admitido, ainda que provisòriamente, no exercício de suas funções, o Estado receptor notificará imediatamente às autoridades competentes da jurisdição consular.
-</p><p>Estará também obrigado a cuidar de que sejam tomadas as medidas necessárias a fim de que o chefe da repartição consular possa cumprir os deveres de seu cargo e beneficiar-se do tratamento previsto pelas disposições da presente Convenção.
-</p><Artigo id="art15">
+          </Artigo><Artigo id="art15">
             
-            
+            <TituloDispositivo>Exercício a título temporário das funções de chefe da repartição consular</TituloDispositivo>
             <Rotulo>Art. 15.</Rotulo>
             
             <Caput id="art15_cpt">
@@ -675,7 +680,7 @@
             
             <Item id="art15_cpt_ite1">
             
-            <TituloDispositivo>Exercício a título temporário das funções de chefe da repartição consular</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Se o chefe da repartição consular não puder exercer suas funções ou se seu lugar fôr considerado vago, um chefe interino poderá atuar, provisòriamente, como tal.
@@ -713,7 +718,7 @@
           </Caput>
           </Artigo><Artigo id="art16">
             
-            
+            <TituloDispositivo>Precedência entre os chefes de repartições consulares</TituloDispositivo>
             <Rotulo>Art. 16.</Rotulo>
             
             <Caput id="art16_cpt">
@@ -723,7 +728,7 @@
             
             <Item id="art16_cpt_ite1">
             
-            <TituloDispositivo>Precedência entre os chefes de repartições consulares</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     A ordem de precedência dos chefes de repartição consular será estabelecida, em cada classe, em função da data da concessão do exequatur.
@@ -779,7 +784,7 @@
           </Caput>
           </Artigo><Artigo id="art17">
             
-            
+            <TituloDispositivo>Prática de atos diplomáticos por funcionários consulares</TituloDispositivo>
             <Rotulo>Art. 17.</Rotulo>
             
             <Caput id="art17_cpt">
@@ -789,7 +794,7 @@
             
             <Item id="art17_cpt_ite1">
             
-            <TituloDispositivo>Prática de atos diplomáticos por funcionários consulares</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Num Estado em que o Estado que envia não tiver missão diplomática e não estiver representado pela de um terceiro Estado, um funcionário consular poderá ser incumbido, com o consentimento do Estado receptor, e sem prejuízo de seu status consular, de praticar atos diplomáticos. A prática desses atos por um funcionário consular não lhe dará direito a privilégios e imunidades diplomáticas.
@@ -816,11 +821,11 @@
             
             
             
-            
-            
-          </Caput>
-          </Artigo><p>Nomeação da mesma pessoa, como funcionário consular, por dois ou mais Estados.
-</p><Item id="ite1">
+            <p>
+    Nomeação da mesma pessoa, como funcionário consular, por dois ou mais Estados.
+
+  </p>
+            <Item id="art18_cpt_ite1">
             
             
             <Rotulo>1.</Rotulo>
@@ -829,9 +834,11 @@
 
   </p>
             
-          </Item><Artigo id="art19">
+          </Item>
+          </Caput>
+          </Artigo><Artigo id="art19">
             
-            
+            <TituloDispositivo>Nomeação de membros do pessoal consular</TituloDispositivo>
             <Rotulo>Art. 19.</Rotulo>
             
             <Caput id="art19_cpt">
@@ -841,7 +848,7 @@
             
             <Item id="art19_cpt_ite1">
             
-            <TituloDispositivo>Nomeação de membros do pessoal consular</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Respeitadas as disposições dos artigos 20, 22 e 23, o Estado que envia poderá nomear livremente os membros do pessoal consular.
@@ -879,19 +886,20 @@
           </Caput>
           </Artigo><Artigo id="art20">
             
-            
+            <TituloDispositivo>Número de membros da repartição consular</TituloDispositivo>
             <Rotulo>Art. 20.</Rotulo>
             
             <Caput id="art20_cpt">
             
             
             
-            
+            <p>
+    Na ausência de acôrdo expresso sôbre o número de membros da repartição consular, o Estado receptor poderá exigir que êste número seja mantido nos limites do que considera razoável e normal, segundo as circunstâncias e condições da jurisdição consular e as necessidades da repartição consular em apreço.
+
+  </p>
             
           </Caput>
-          </Artigo><p>Número de membros da repartição consular
-</p><p>Na ausência de acôrdo expresso sôbre o número de membros da repartição consular, o Estado receptor poderá exigir que êste número seja mantido nos limites do que considera razoável e normal, segundo as circunstâncias e condições da jurisdição consular e as necessidades da repartição consular em apreço.
-</p><Artigo id="art21">
+          </Artigo><Artigo id="art21">
             
             
             <Rotulo>Art. 21.</Rotulo>
@@ -900,12 +908,13 @@
             
             
             
-            
+            <p>
+    Precedência entre as funcionários consulares de uma repartição consular. A ordem de precedência entre os funcionários consulares de uma repartição consular e quaisquer modificações a mesma serão comunicadas ao Ministério das Relações Exteriores do Estado receptor, ou à autoridade indicada por êste Ministério, pela missão diplomática do Estado que envia ou, na falta de tal missão no Estado receptor, pelo chefe da repartição consular.
+
+  </p>
             
           </Caput>
-          </Artigo><p>Precedência entre as funcionários consulares de uma repartição consular.
-</p><p>A ordem de precedência entre os funcionários consulares de uma repartição consular e quaisquer modificações a mesma serão comunicadas ao Ministério das Relações Exteriores do Estado receptor, ou à autoridade indicada por êste Ministério, pela missão diplomática do Estado que envia ou, na falta de tal missão no Estado receptor, pelo chefe da repartição consular.
-</p><Artigo id="art22">
+          </Artigo><Artigo id="art22">
             
             
             <Rotulo>Art. 22.</Rotulo>
@@ -914,11 +923,11 @@
             
             
             
-            
-            
-          </Caput>
-          </Artigo><p>Nacionalidade dos funcionários consulares.
-</p><Item id="ite1">
+            <p>
+    Nacionalidade dos funcionários consulares.
+
+  </p>
+            <Item id="art22_cpt_ite1">
             
             
             <Rotulo>1.</Rotulo>
@@ -927,7 +936,7 @@
 
   </p>
             
-          </Item><Item id="ite2">
+          </Item><Item id="art22_cpt_ite2">
             
             
             <Rotulo>2.</Rotulo>
@@ -936,7 +945,7 @@
 
   </p>
             
-          </Item><Item id="ite3">
+          </Item><Item id="art22_cpt_ite3">
             
             
             <Rotulo>3.</Rotulo>
@@ -945,7 +954,9 @@
 
   </p>
             
-          </Item><Artigo id="art23">
+          </Item>
+          </Caput>
+          </Artigo><Artigo id="art23">
             
             
             <Rotulo>Art. 23.</Rotulo>
@@ -954,11 +965,11 @@
             
             
             
-            
-            
-          </Caput>
-          </Artigo><p>Funcionário declarado &quot;persona non grata&quot;.
-</p><Item id="ite1">
+            <p>
+    Funcionário declarado &quot;persona non grata&quot;.
+
+  </p>
+            <Item id="art23_cpt_ite1">
             
             
             <Rotulo>1.</Rotulo>
@@ -967,7 +978,7 @@
 
   </p>
             
-          </Item><Item id="ite2">
+          </Item><Item id="art23_cpt_ite2">
             
             
             <Rotulo>2.</Rotulo>
@@ -976,7 +987,7 @@
 
   </p>
             
-          </Item><Item id="ite3">
+          </Item><Item id="art23_cpt_ite3">
             
             
             <Rotulo>3.</Rotulo>
@@ -985,7 +996,7 @@
 
   </p>
             
-          </Item><Item id="ite4">
+          </Item><Item id="art23_cpt_ite4">
             
             
             <Rotulo>4.</Rotulo>
@@ -994,9 +1005,11 @@
 
   </p>
             
-          </Item><Artigo id="art24">
+          </Item>
+          </Caput>
+          </Artigo><Artigo id="art24">
             
-            
+            <TituloDispositivo>Notificação ao Estado receptor das nomeações, chegadas e partidas</TituloDispositivo>
             <Rotulo>Art. 24.</Rotulo>
             
             <Caput id="art24_cpt">
@@ -1006,7 +1019,7 @@
             
             <Item id="art24_cpt_ite1">
             
-            <TituloDispositivo>Notificação ao Estado receptor das nomeações, chegadas e partidas</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     O Ministério das Relações Exteriores do Estado receptor, ou a autoridade indicada por êste Ministério será notificado de:
@@ -1060,7 +1073,8 @@
           </Item>
           </Alinea>
           </Caput>
-          </Artigo><Secao id="sec2">
+          </Artigo>
+          </Secao><Secao id="sec2">
             
             
             <Rotulo>Seção II</Rotulo>
@@ -1077,12 +1091,11 @@
             
             
             
-            
-            
-          </Caput>
-          </Artigo>
-          </Secao><p>Término das funções de um membro da repartição consular As funções de um membro da repartição terminam inter alia:
-</p><Alinea id="ali1">
+            <p>
+    Término das funções de um membro da repartição consular As funções de um membro da repartição terminam inter alia:
+
+  </p>
+            <Alinea id="art25_cpt_ali1">
             
             
             <Rotulo>a)</Rotulo>
@@ -1091,7 +1104,7 @@
 
   </p>
             
-          </Alinea><Alinea id="ali2">
+          </Alinea><Alinea id="art25_cpt_ali2">
             
             
             <Rotulo>b)</Rotulo>
@@ -1100,7 +1113,7 @@
 
   </p>
             
-          </Alinea><Alinea id="ali3">
+          </Alinea><Alinea id="art25_cpt_ali3">
             
             
             <Rotulo>c)</Rotulo>
@@ -1109,21 +1122,24 @@
 
   </p>
             
-          </Alinea><Artigo id="art26">
+          </Alinea>
+          </Caput>
+          </Artigo><Artigo id="art26">
             
-            
+            <TituloDispositivo>Partida do território do Estado receptor</TituloDispositivo>
             <Rotulo>Art. 26.</Rotulo>
             
             <Caput id="art26_cpt">
             
             
             
-            
+            <p>
+    O Estado receptor deverá, mesmo no caso de conflito armado, conceder aos membros da repartição consular e aos membros do pessoal privado, que não forem nacionais do Estado receptor, assim como aos seus membros de suas famílias que com eles vivam, qualquer que seja sua nacionalidade o tempo e as facilidades necessárias para preparar sua partida e deixar o território o mais cedo possível depois do término das suas funções. Deverá, especialmente, se fôr o caso pôr a sua disposição os meios de transporte necessários para essas pessoas e seus bens, exceto os bens adquiridos no Estado receptor e cuja exportação estiver proibida no momento da saída.
+
+  </p>
             
           </Caput>
-          </Artigo><p>Partida do território do Estado receptor
-</p><p>O Estado receptor deverá, mesmo no caso de conflito armado, conceder aos membros da repartição consular e aos membros do pessoal privado, que não forem nacionais do Estado receptor, assim como aos seus membros de suas famílias que com eles vivam, qualquer que seja sua nacionalidade o tempo e as facilidades necessárias para preparar sua partida e deixar o território o mais cedo possível depois do término das suas funções. Deverá, especialmente, se fôr o caso pôr a sua disposição os meios de transporte necessários para essas pessoas e seus bens, exceto os bens adquiridos no Estado receptor e cuja exportação estiver proibida no momento da saída.
-</p><Artigo id="art27">
+          </Artigo><Artigo id="art27">
             
             
             <Rotulo>Art. 27.</Rotulo>
@@ -1132,11 +1148,11 @@
             
             
             
-            
-            
-          </Caput>
-          </Artigo><p>Proteção dos locais e arquivos consulares e dos interesses do Estado que envia em circunstâncias excepcionais.
-</p><Item id="ite1">
+            <p>
+    Proteção dos locais e arquivos consulares e dos interesses do Estado que envia em circunstâncias excepcionais.
+
+  </p>
+            <Item id="art27_cpt_ite1">
             
             
             <Rotulo>1.</Rotulo>
@@ -1145,7 +1161,7 @@
 
   </p>
             
-          </Item><Alinea id="ali1">
+          </Item><Alinea id="art27_cpt_ali1">
             
             
             <Rotulo>a)</Rotulo>
@@ -1154,7 +1170,7 @@
 
   </p>
             
-          </Alinea><Alinea id="ali2">
+          </Alinea><Alinea id="art27_cpt_ali2">
             
             
             <Rotulo>b)</Rotulo>
@@ -1163,7 +1179,7 @@
 
   </p>
             
-          </Alinea><Alinea id="ali3">
+          </Alinea><Alinea id="art27_cpt_ali3">
             
             
             <Rotulo>c)</Rotulo>
@@ -1171,7 +1187,7 @@
     o Estado que envia poderá confiar a proteção de seus interesses e dos interesses de seus nacionais a um terceiro Estado aceitável pelo Estado receptor.
 
   </p>
-            <Item id="ali3_ite2">
+            <Item id="art27_cpt_ali3_ite2">
             
             
             <Rotulo>2.</Rotulo>
@@ -1181,7 +1197,7 @@
   </p>
             
           </Item>
-          </Alinea><Alinea id="ali1">
+          </Alinea><Alinea id="art27_cpt_ali1">
             
             
             <Rotulo>a)</Rotulo>
@@ -1190,7 +1206,7 @@
 
   </p>
             
-          </Alinea><Alinea id="ali2">
+          </Alinea><Alinea id="art27_cpt_ali2">
             
             
             <Rotulo>b)</Rotulo>
@@ -1199,7 +1215,10 @@
 
   </p>
             
-          </Alinea><Capitulo id="cap2">
+          </Alinea>
+          </Caput>
+          </Artigo>
+          </Secao><Capitulo id="cap2">
             
             
             <Rotulo>CAPÍTULO II</Rotulo>
@@ -1217,23 +1236,22 @@
   </NomeAgrupador>
             <Artigo id="art28">
             
-            
+            <TituloDispositivo>Facilidades concedidas à repartição consular em suas atividades</TituloDispositivo>
             <Rotulo>Art. 28.</Rotulo>
             
             <Caput id="art28_cpt">
             
             
             
-            
+            <p>
+    O Estado receptor concederá todas as facilidades para o exercício das funções da repartição consular.
+
+  </p>
             
           </Caput>
-          </Artigo>
-          </Secao>
-          </Capitulo><p>Facilidades concedidas à repartição consular em suas atividades
-</p><p>O Estado receptor concederá todas as facilidades para o exercício das funções da repartição consular.
-</p><Artigo id="art29">
+          </Artigo><Artigo id="art29">
             
-            
+            <TituloDispositivo>Uso da bandeira e escudo nacionais</TituloDispositivo>
             <Rotulo>Art. 29.</Rotulo>
             
             <Caput id="art29_cpt">
@@ -1243,7 +1261,7 @@
             
             <Item id="art29_cpt_ite1">
             
-            <TituloDispositivo>Uso da bandeira e escudo nacionais</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     O Estado que envia terá direito a atualizar sua bandeira e escudo nacionais no Estado receptor, de acôrdo com as disposições do presente artigo.
@@ -1272,7 +1290,7 @@
           </Caput>
           </Artigo><Artigo id="art30">
             
-            
+            <TituloDispositivo>Acomodações</TituloDispositivo>
             <Rotulo>Art. 30.</Rotulo>
             
             <Caput id="art30_cpt">
@@ -1282,7 +1300,7 @@
             
             <Item id="art30_cpt_ite1">
             
-            <TituloDispositivo>Acomodações</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     O Estado receptor deverá facilitar, de acôrdo com suas leis e regulamentos, a aquisição, em seu território, pelo Estado que envia, de acomodações necessárias à repartição consular, ou ajudá-la a obter acomodações de outra maneira.
@@ -1302,7 +1320,7 @@
           </Caput>
           </Artigo><Artigo id="art31">
             
-            
+            <TituloDispositivo>Inviolabilidade dos locais consulares</TituloDispositivo>
             <Rotulo>Art. 31.</Rotulo>
             
             <Caput id="art31_cpt">
@@ -1312,7 +1330,7 @@
             
             <Item id="art31_cpt_ite1">
             
-            <TituloDispositivo>Inviolabilidade dos locais consulares</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Os locais consulares serão invioláveis na medida do previsto pelo presente artigo.
@@ -1350,7 +1368,7 @@
           </Caput>
           </Artigo><Artigo id="art32">
             
-            
+            <TituloDispositivo>Isenção fiscal dos locais consulares</TituloDispositivo>
             <Rotulo>Art. 32.</Rotulo>
             
             <Caput id="art32_cpt">
@@ -1360,7 +1378,7 @@
             
             <Item id="art32_cpt_ite1">
             
-            <TituloDispositivo>Isenção fiscal dos locais consulares</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Os locais consulares e a residência do chefe da repartição consular de carreira de que fôr proprietário o Estado que envia ou pessoa que atue em seu nome, estarão isentos de quaisquer impostos e taxas nacionais, regionais e municipais, excetuadas as taxas cobradas em pagamento de serviços especificos prestados.
@@ -1380,19 +1398,20 @@
           </Caput>
           </Artigo><Artigo id="art33">
             
-            
+            <TituloDispositivo>Inviolabilidade dos arquivos e documentos consulares</TituloDispositivo>
             <Rotulo>Art. 33.</Rotulo>
             
             <Caput id="art33_cpt">
             
             
             
-            
+            <p>
+    Os arquivos e documentos consulares serão sempre invioláveis, onde quer que estejam.
+
+  </p>
             
           </Caput>
-          </Artigo><p>Inviolabilidade dos arquivos e documentos consulares
-</p><p>Os arquivos e documentos consulares serão sempre invioláveis, onde quer que estejam.
-</p><Artigo id="art34">
+          </Artigo><Artigo id="art34">
             
             
             <Rotulo>Art. 34.</Rotulo>
@@ -1401,13 +1420,15 @@
             
             
             
-            
+            <p>
+    Liberdade de movimento Sem prejuízo de suas leis e regulamentos relativos às zonas cujo acesso fôr proibido ou limitado por razões de segurança nacional, o Estado receptor assegurará a liberdade de movimento e circulação em seu território a todos os membros da repartição consular.
+
+  </p>
             
           </Caput>
-          </Artigo><p>Liberdade de movimento Sem prejuízo de suas leis e regulamentos relativos às zonas cujo acesso fôr proibido ou limitado por razões de segurança nacional, o Estado receptor assegurará a liberdade de movimento e circulação em seu território a todos os membros da repartição consular.
-</p><Artigo id="art35">
+          </Artigo><Artigo id="art35">
             
-            
+            <TituloDispositivo>Liberdade de comunicação</TituloDispositivo>
             <Rotulo>Art. 35.</Rotulo>
             
             <Caput id="art35_cpt">
@@ -1417,7 +1438,7 @@
             
             <Item id="art35_cpt_ite1">
             
-            <TituloDispositivo>Liberdade de comunicação</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     O Estado receptor permitirá e protegerá a liberdade de comunicação da repartição consular para todos os fins oficiais. Ao se comunicar com o Govêrno, com as missões diplomáticas e outras repartições consulares do Estado que envia, onde quer que estejam, a repartição consular poderá empregar todos os meios de comunicação, apropriados, inclusive correios diplomáticos e consulares, malas diplomáticas e consulares e mensagens em código ou cifra. Todavia, a repartição consular só poderá instalar e usar uma emissora de rádio com o consentimento do Estado receptor.
@@ -1482,7 +1503,7 @@
           </Caput>
           </Artigo><Artigo id="art36">
             
-            
+            <TituloDispositivo>Comunicação com os nacionais do Estado que envia</TituloDispositivo>
             <Rotulo>Art. 36.</Rotulo>
             
             <Caput id="art36_cpt">
@@ -1492,7 +1513,7 @@
             
             <Item id="art36_cpt_ite1">
             
-            <TituloDispositivo>Comunicação com os nacionais do Estado que envia</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     A fim de facilitar o exercício das funções consulares relativas aos nacionais do Estado que envia:
@@ -1539,19 +1560,18 @@
           </Caput>
           </Artigo><Artigo id="art37">
             
-            
+            <TituloDispositivo>Informações em casos de morte, tutela, curatela, naufrágio e acidente aéreo</TituloDispositivo>
             <Rotulo>Art. 37.</Rotulo>
             
             <Caput id="art37_cpt">
             
             
             
-            
-            
-          </Caput>
-          </Artigo><p>Informações em casos de morte, tutela, curatela, naufrágio e acidente aéreo
-</p><p>Quando as autoridades competentes do Estado receptor possuírem as informações correspondentes, estarão obrigadas a:
-</p><Alinea id="ali1">
+            <p>
+    Quando as autoridades competentes do Estado receptor possuírem as informações correspondentes, estarão obrigadas a:
+
+  </p>
+            <Alinea id="art37_cpt_ali1">
             
             
             <Rotulo>a)</Rotulo>
@@ -1560,7 +1580,7 @@
 
   </p>
             
-          </Alinea><Alinea id="ali2">
+          </Alinea><Alinea id="art37_cpt_ali2">
             
             
             <Rotulo>b)</Rotulo>
@@ -1569,7 +1589,7 @@
 
   </p>
             
-          </Alinea><Alinea id="ali3">
+          </Alinea><Alinea id="art37_cpt_ali3">
             
             
             <Rotulo>c)</Rotulo>
@@ -1578,21 +1598,22 @@
 
   </p>
             
-          </Alinea><Artigo id="art38">
+          </Alinea>
+          </Caput>
+          </Artigo><Artigo id="art38">
             
-            
+            <TituloDispositivo>Comunicações com as autoridades do Estado receptor</TituloDispositivo>
             <Rotulo>Art. 38.</Rotulo>
             
             <Caput id="art38_cpt">
             
             
             
-            
-            
-          </Caput>
-          </Artigo><p>Comunicações com as autoridades do Estado receptor
-</p><p>No exercício de sua funções, os funcionários consulares poderão comunicar-se com:
-</p><Alinea id="ali1">
+            <p>
+    No exercício de sua funções, os funcionários consulares poderão comunicar-se com:
+
+  </p>
+            <Alinea id="art38_cpt_ali1">
             
             
             <Rotulo>a)</Rotulo>
@@ -1601,7 +1622,7 @@
 
   </p>
             
-          </Alinea><Alinea id="ali2">
+          </Alinea><Alinea id="art38_cpt_ali2">
             
             
             <Rotulo>b)</Rotulo>
@@ -1610,9 +1631,11 @@
 
   </p>
             
-          </Alinea><Artigo id="art39">
+          </Alinea>
+          </Caput>
+          </Artigo><Artigo id="art39">
             
-            
+            <TituloDispositivo>Direitos e emolumentos consulares</TituloDispositivo>
             <Rotulo>Art. 39.</Rotulo>
             
             <Caput id="art39_cpt">
@@ -1622,7 +1645,7 @@
             
             <Item id="art39_cpt_ite1">
             
-            <TituloDispositivo>Direitos e emolumentos consulares</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     A repartição consular poderá cobrar no território do Estado receptor os direitos e emolumentos que as leis e os regulamentos do Estado que envia prescreverem para os atos consulares.
@@ -1640,7 +1663,8 @@
             
           </Item>
           </Caput>
-          </Artigo><Secao id="sec2">
+          </Artigo>
+          </Secao><Secao id="cap2_sec2">
             
             
             <Rotulo>Seção II</Rotulo>
@@ -1650,22 +1674,22 @@
   </NomeAgrupador>
             <Artigo id="art40">
             
-            
+            <TituloDispositivo>Proteção aos funcionários consulares</TituloDispositivo>
             <Rotulo>Art. 40.</Rotulo>
             
             <Caput id="art40_cpt">
             
             
             
-            
+            <p>
+    O Estado receptor tratará os funcionários consulares com o devido respeito e adotará todas as medidas adequadas para evitar qualquer atentado a sua pessoa, liberdade ou dignidade.
+
+  </p>
             
           </Caput>
-          </Artigo>
-          </Secao><p>Proteção aos funcionários consulares
-</p><p>O Estado receptor tratará os funcionários consulares com o devido respeito e adotará todas as medidas adequadas para evitar qualquer atentado a sua pessoa, liberdade ou dignidade.
-</p><Artigo id="art41">
+          </Artigo><Artigo id="art41">
             
-            
+            <TituloDispositivo>Inviolabilidade pessoal dos funcionário consulares</TituloDispositivo>
             <Rotulo>Art. 41.</Rotulo>
             
             <Caput id="art41_cpt">
@@ -1675,7 +1699,7 @@
             
             <Item id="art41_cpt_ite1">
             
-            <TituloDispositivo>Inviolabilidade pessoal dos funcionário consulares</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Os funcionários consulares não poderão ser detidos ou presos preventivamente, exceto em caso de crime grave e em decorrência de decisão de autoridade judiciária competente.
@@ -1704,21 +1728,22 @@
           </Caput>
           </Artigo><Artigo id="art42">
             
-            
+            <TituloDispositivo>Notificação em caso de detenção, prisão preventiva ou instauração de processo</TituloDispositivo>
             <Rotulo>Art. 42.</Rotulo>
             
             <Caput id="art42_cpt">
             
             
             
-            
+            <p>
+    Em caso de detenção, prisão preventiva de um membro do pessoal consular ou de instauração de processo penal contra o mesmo, o Estado receptor deverá notificar imediatamente o chefe da repartição consular. Se êste último fôr o objeto de tais medidas, o Estado receptor levará o fato ao conhecimento do Estado que enviar, por via diplomática.
+
+  </p>
             
           </Caput>
-          </Artigo><p>Notificação em caso de detenção, prisão preventiva ou instauração de processo
-</p><p>Em caso de detenção, prisão preventiva de um membro do pessoal consular ou de instauração de processo penal contra o mesmo, o Estado receptor deverá notificar imediatamente o chefe da repartição consular. Se êste último fôr o objeto de tais medidas, o Estado receptor levará o fato ao conhecimento do Estado que enviar, por via diplomática.
-</p><Artigo id="art43">
+          </Artigo><Artigo id="art43">
             
-            
+            <TituloDispositivo>Imunidade de Jurisdição</TituloDispositivo>
             <Rotulo>Art. 43.</Rotulo>
             
             <Caput id="art43_cpt">
@@ -1728,7 +1753,7 @@
             
             <Item id="art43_cpt_ite1">
             
-            <TituloDispositivo>Imunidade de Jurisdição</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Os funcionários consulares e os empregados consulares não estão sujeitos à Jurisdição das autoridades judiciárias e administrativas do Estado receptor pelos atos realizados no exercício das funções consulares.
@@ -1766,7 +1791,7 @@
           </Caput>
           </Artigo><Artigo id="art44">
             
-            
+            <TituloDispositivo>Obrigação de prestar depoimento</TituloDispositivo>
             <Rotulo>Art. 44.</Rotulo>
             
             <Caput id="art44_cpt">
@@ -1776,7 +1801,7 @@
             
             <Item id="art44_cpt_ite1">
             
-            <TituloDispositivo>Obrigação de prestar depoimento</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Os membros de uma repartição consular poderão ser chamados a depôr como testemunhas no decorrer de um processo judiciário ou administrativo. Um empregado consular ou um membro do pessoal de serviço não poderá negar-se a depor como testemunha, exceto nos casos mencionados no parágrafo 3 do presente artigo. Se um funcionário consular recusar-se a prestar depoimento, nenhuma medida coercitiva ou qualquer outra sanção ser-lhe-á aplicada.
@@ -1805,7 +1830,7 @@
           </Caput>
           </Artigo><Artigo id="art45">
             
-            
+            <TituloDispositivo>Renúncia aos privilégios e imunidades</TituloDispositivo>
             <Rotulo>Art. 45.</Rotulo>
             
             <Caput id="art45_cpt">
@@ -1815,7 +1840,7 @@
             
             <Item id="art45_cpt_ite1">
             
-            <TituloDispositivo>Renúncia aos privilégios e imunidades</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     O Estado que envia poderá renunciar, com relação a um membro da repartição consular, aos privilégios e imunidades previstos nos artigos 41, 43 e 44.
@@ -1853,7 +1878,7 @@
           </Caput>
           </Artigo><Artigo id="art46">
             
-            
+            <TituloDispositivo>Isenção do registro de estrangeiros e da autorização de residência</TituloDispositivo>
             <Rotulo>Art. 46.</Rotulo>
             
             <Caput id="art46_cpt">
@@ -1863,7 +1888,7 @@
             
             <Item id="art46_cpt_ite1">
             
-            <TituloDispositivo>Isenção do registro de estrangeiros e da autorização de residência</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Os funcionários e empregados consulares e os membros de suas famílias que com êles vivam estarão isentos de tôdas as obrigações previstas pelas leis e regulamentos do Estado receptor relativas ao registro de estrangeiros e à autorização de residência.
@@ -1883,7 +1908,7 @@
           </Caput>
           </Artigo><Artigo id="art47">
             
-            
+            <TituloDispositivo>Isenção de autorização de trabalho</TituloDispositivo>
             <Rotulo>Art. 47.</Rotulo>
             
             <Caput id="art47_cpt">
@@ -1893,7 +1918,7 @@
             
             <Item id="art47_cpt_ite1">
             
-            <TituloDispositivo>Isenção de autorização de trabalho</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Os membros da repartição consular estarão isentos, em relação aos serviços prestados ao Estado que envia, de quaisquer obrigações relativas à autorização de trabalho exigida pelas leis e regulamentos do Estado receptor referentes ao emprêgo de mão de obra estrangeira.
@@ -1913,7 +1938,7 @@
           </Caput>
           </Artigo><Artigo id="art48">
             
-            
+            <TituloDispositivo>Isenção do regime de previdência social</TituloDispositivo>
             <Rotulo>Art. 48.</Rotulo>
             
             <Caput id="art48_cpt">
@@ -1923,7 +1948,7 @@
             
             <Item id="art48_cpt_ite1">
             
-            <TituloDispositivo>Isenção do regime de previdência social</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Sem prejuízo do disposto no parágrafo 3 do presente artigo, os membros da repartição consular, com relação aos serviços prestados ao Estado que envia, e os membros de sua família que com êles vivam, estarão isentos das disposições de previdência social em vigor no Estado receptor.
@@ -1979,7 +2004,7 @@
           </Caput>
           </Artigo><Artigo id="art49">
             
-            
+            <TituloDispositivo>Isenção fiscal</TituloDispositivo>
             <Rotulo>Art. 49.</Rotulo>
             
             <Caput id="art49_cpt">
@@ -1989,7 +2014,7 @@
             
             <Item id="art49_cpt_ite1">
             
-            <TituloDispositivo>Isenção fiscal</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Os funcionários e empregados consulares, assim como os membros de suas famílias que com êles vivam, estarão isentos de quaisquer impostos e taxas, pessoais ou reais, nacionais, regionais ou municipais, com exceção dos:
@@ -2072,7 +2097,7 @@
           </Caput>
           </Artigo><Artigo id="art50">
             
-            
+            <TituloDispositivo>Isenção de impostos e de inspeção Alfandegária</TituloDispositivo>
             <Rotulo>Art. 50.</Rotulo>
             
             <Caput id="art50_cpt">
@@ -2082,7 +2107,7 @@
             
             <Item id="art50_cpt_ite1">
             
-            <TituloDispositivo>Isenção de impostos e de inspeção Alfandegária</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     O Estado receptor, de acôrdo com as leis e regulamentos que adotar, permitirá a entrada e concederá isenção de quaisquer impostos alfandegários, tributos e despesas conexas, com exceção das despesas de depósito, de transporte e serviços análogos, para:
@@ -2136,12 +2161,11 @@
             
             
             
-            
-            
-          </Caput>
-          </Artigo><p>Sucessão de um membro da repartição consular ou de um membro de sua família.
-</p><p>No caso de morte de um membro da repartição consular ou de um membro de sua família que com êle viva o Estado receptor será obrigado a:
-</p><Alinea id="ali1">
+            <p>
+    Sucessão de um membro da repartição consular ou de um membro de sua família. No caso de morte de um membro da repartição consular ou de um membro de sua família que com êle viva o Estado receptor será obrigado a:
+
+  </p>
+            <Alinea id="art51_cpt_ali1">
             
             
             <Rotulo>a)</Rotulo>
@@ -2150,7 +2174,7 @@
 
   </p>
             
-          </Alinea><Alinea id="ali2">
+          </Alinea><Alinea id="art51_cpt_ali2">
             
             
             <Rotulo>b)</Rotulo>
@@ -2159,23 +2183,26 @@
 
   </p>
             
-          </Alinea><Artigo id="art52">
+          </Alinea>
+          </Caput>
+          </Artigo><Artigo id="art52">
             
-            
+            <TituloDispositivo>Isenção de prestação de serviços pessoais</TituloDispositivo>
             <Rotulo>Art. 52.</Rotulo>
             
             <Caput id="art52_cpt">
             
             
             
-            
+            <p>
+    O Estado receptor deverá isentar os membros da repartição consular e os membros de sua família que com êles vivam da prestação de qualquer serviço pessoal, de qualquer serviço de interêsse público, seja qual fôr sua natureza, bem como de encargos militares tais como requisição contribuições e alojamentos militares.
+
+  </p>
             
           </Caput>
-          </Artigo><p>Isenção de prestação de serviços pessoais
-</p><p>O Estado receptor deverá isentar os membros da repartição consular e os membros de sua família que com êles vivam da prestação de qualquer serviço pessoal, de qualquer serviço de interêsse público, seja qual fôr sua natureza, bem como de encargos militares tais como requisição contribuições e alojamentos militares.
-</p><Artigo id="art53">
+          </Artigo><Artigo id="art53">
             
-            
+            <TituloDispositivo>Comêço e fim dos privilégios e imunidades consulares</TituloDispositivo>
             <Rotulo>Art. 53.</Rotulo>
             
             <Caput id="art53_cpt">
@@ -2185,7 +2212,7 @@
             
             <Item id="art53_cpt_ite1">
             
-            <TituloDispositivo>Comêço e fim dos privilégios e imunidades consulares</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Todo membro da repartição consular gozará dos privilégios e imunidades previstos pela presente Convenção desde o momento em que entre no território do Estado receptor para chegar a seu pôsto, ou, se êle já se encontrar nesse território, desde o momento em que assumir suas funções na repartição consular.
@@ -2232,7 +2259,7 @@
           </Caput>
           </Artigo><Artigo id="art54">
             
-            
+            <TituloDispositivo>Obrigação dos terceiros Estados</TituloDispositivo>
             <Rotulo>Art. 54.</Rotulo>
             
             <Caput id="art54_cpt">
@@ -2242,7 +2269,7 @@
             
             <Item id="art54_cpt_ite1">
             
-            <TituloDispositivo>Obrigação dos terceiros Estados</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Se um funcionário consular atravessa o território ou se encontra no território de um terceiro Estado que lhe concedeu um visto, no caso dêste visto ter sido necessário, para ir assumir ou reassumir suas funções na sua repartição consular ou para voltar ao Estado que envia, o terceiro Estado conceder-lhe-á as imunidades previstas em outros artigos da presente Convenção necessárias para facilitar-lhe a travessia e o regresso. O terceiro Estado concederá o mesmo tratamento aos membros da família que com êle vivam e que gozem dêsses privilégios e imunidades, quer acompanhem o funcionário consular quer viajem separadamente para reunir-se a êle ou regressar ao Estado que envia.
@@ -2280,7 +2307,7 @@
           </Caput>
           </Artigo><Artigo id="art55">
             
-            
+            <TituloDispositivo>Respeito às leis e regulamentos do Estado receptor</TituloDispositivo>
             <Rotulo>Art. 55.</Rotulo>
             
             <Caput id="art55_cpt">
@@ -2290,7 +2317,7 @@
             
             <Item id="art55_cpt_ite1">
             
-            <TituloDispositivo>Respeito às leis e regulamentos do Estado receptor</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Sem prejuízo de seus privilégios e imunidades tôdas as pessoas que se beneficiem dêsses privilégios e imunidades deverão respeitar as lei e regulamentos do Estado receptor. Terão igualmente o dever de não se imiscuir nos assuntos internos do referido Estado.
@@ -2319,21 +2346,22 @@
           </Caput>
           </Artigo><Artigo id="art56">
             
-            
+            <TituloDispositivo>Seguro contra danos causados a terceiros</TituloDispositivo>
             <Rotulo>Art. 56.</Rotulo>
             
             <Caput id="art56_cpt">
             
             
             
-            
+            <p>
+    Os membros da repartição consular deverão cumprir tôdas as obrigações impostas pelas leis e regulamentos do Estado receptor relativas ao seguro de responsabilidade civil por danos causados a terceiros pela utilização de qualquer veículo, navio ou aeronave.
+
+  </p>
             
           </Caput>
-          </Artigo><p>Seguro contra danos causados a terceiros
-</p><p>Os membros da repartição consular deverão cumprir tôdas as obrigações impostas pelas leis e regulamentos do Estado receptor relativas ao seguro de responsabilidade civil por danos causados a terceiros pela utilização de qualquer veículo, navio ou aeronave.
-</p><Artigo id="art57">
+          </Artigo><Artigo id="art57">
             
-            
+            <TituloDispositivo>Disposições especiais relativas às atividades privadas de caráter lucrativo</TituloDispositivo>
             <Rotulo>Art. 57.</Rotulo>
             
             <Caput id="art57_cpt">
@@ -2343,7 +2371,7 @@
             
             <Item id="art57_cpt_ite1">
             
-            <TituloDispositivo>Disposições especiais relativas às atividades privadas de caráter lucrativo</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Os funcionários consulares de carreira não exercerão, em proveito próprio, nenhuma atividade profissional ou comercial no Estado receptor.
@@ -2388,7 +2416,9 @@
             
           </Alinea>
           </Caput>
-          </Artigo><Capitulo id="cap3">
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="cap3">
             
             
             <Rotulo>CAPÍTULO III</Rotulo>
@@ -2398,7 +2428,7 @@
   </NomeAgrupador>
             <Artigo id="art58">
             
-            
+            <TituloDispositivo>Disposições gerais relativas às facilidades, privilégios e imunidades</TituloDispositivo>
             <Rotulo>Art. 58.</Rotulo>
             
             <Caput id="art58_cpt">
@@ -2408,7 +2438,7 @@
             
             <Item id="art58_cpt_ite1">
             
-            <TituloDispositivo>Disposições gerais relativas às facilidades, privilégios e imunidades</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Os artigos 28, 29, 30, 34, 35, 36, 37, 38 e 39 parágrafo 3 do artigo 54 e os parágrafos 2 e 3 do artigo 55 aplicar-se-ão às repartições consulares dirigidas por um funcionário consular honorário. Ademais, as facilidades, privilégios e imunidades destas repartições consulares serão reguladas pelos artigos 59, 60, 61 e 62.
@@ -2446,22 +2476,22 @@
           </Caput>
           </Artigo><Artigo id="art59">
             
-            
+            <TituloDispositivo>Proteção dos locais consulares</TituloDispositivo>
             <Rotulo>Art. 59.</Rotulo>
             
             <Caput id="art59_cpt">
             
             
             
-            
+            <p>
+    O Estado receptor adotará tôdas as medidas apropriadas para proteger os locais consulares de uma repartição consular dirigida por um funcionário consular honorário contra qualquer intrusão ou dano e para evitar perturbações à tranqüilidade da repartição consular ou ofensas à sua dignidade.
+
+  </p>
             
           </Caput>
-          </Artigo>
-          </Capitulo><p>Proteção dos locais consulares
-</p><p>O Estado receptor adotará tôdas as medidas apropriadas para proteger os locais consulares de uma repartição consular dirigida por um funcionário consular honorário contra qualquer intrusão ou dano e para evitar perturbações à tranqüilidade da repartição consular ou ofensas à sua dignidade.
-</p><Artigo id="art60">
+          </Artigo><Artigo id="art60">
             
-            
+            <TituloDispositivo>Isenção fiscal dos locais consulares</TituloDispositivo>
             <Rotulo>Art. 60.</Rotulo>
             
             <Caput id="art60_cpt">
@@ -2471,7 +2501,7 @@
             
             <Item id="art60_cpt_ite1">
             
-            <TituloDispositivo>Isenção fiscal dos locais consulares</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Os locais consulares de uma repartição consular dirigida por funcionário consular honorário, de que seja proprietário ou locatário o Estado que envia, estarão isentos de todos os impostos e taxas nacionais, regionais e municipais, exceto os que representem remuneração por serviços específicos prestados.
@@ -2491,61 +2521,65 @@
           </Caput>
           </Artigo><Artigo id="art61">
             
-            
+            <TituloDispositivo>Inviolabilidade dos arquivos e documentos consulares</TituloDispositivo>
             <Rotulo>Art. 61.</Rotulo>
             
             <Caput id="art61_cpt">
             
             
             
-            
+            <p>
+    Os arquivos e documentos consulares de uma repartição consular, cujo chefe fôr um funcionário consular honorário, serão sempre invioláveis onde quer que se encontrem, desde que estejam separados de outros papéis e documentos e, especialmente, da correspondência particular de chefe da repartição consular, da de qualquer pessoa que com êle trabalhe, bem como dos objetos, livros e documentos relacionados com sua profissão ou negócios.
+
+  </p>
             
           </Caput>
-          </Artigo><p>Inviolabilidade dos arquivos e documentos consulares
-</p><p>Os arquivos e documentos consulares de uma repartição consular, cujo chefe fôr um funcionário consular honorário, serão sempre invioláveis onde quer que se encontrem, desde que estejam separados de outros papéis e documentos e, especialmente, da correspondência particular de chefe da repartição consular, da de qualquer pessoa que com êle trabalhe, bem como dos objetos, livros e documentos relacionados com sua profissão ou negócios.
-</p><Artigo id="art62">
+          </Artigo><Artigo id="art62">
             
-            
+            <TituloDispositivo>Isenção de direitos alfandegários</TituloDispositivo>
             <Rotulo>Art. 62.</Rotulo>
             
             <Caput id="art62_cpt">
             
             
             
-            
+            <p>
+    De acôrdo com as leis e regulamentos que adotar, o Estado receptor permitirá e entrada com isenção de todos os direitos alfandegários, taxas e despesas conexas, com exceção das de depósito, transporte e serviços análogos, dos seguintes artigos, desde que sejam destinados exclusivamente ao uso oficial de uma repartição consular dirigida por funcionário consular honorário; escudos, bandeiras, letreiros, sinetes e selos, livros impressos oficiais, mobiliário de escritório, material e equipamento de escritório e artigos similares fornecidos à repartição consular pelo Estado que envia ou por solicitação dêste.
+
+  </p>
             
           </Caput>
-          </Artigo><p>Isenção de direitos alfandegários
-</p><p>De acôrdo com as leis e regulamentos que adotar, o Estado receptor permitirá e entrada com isenção de todos os direitos alfandegários, taxas e despesas conexas, com exceção das de depósito, transporte e serviços análogos, dos seguintes artigos, desde que sejam destinados exclusivamente ao uso oficial de uma repartição consular dirigida por funcionário consular honorário; escudos, bandeiras, letreiros, sinetes e selos, livros impressos oficiais, mobiliário de escritório, material e equipamento de escritório e artigos similares fornecidos à repartição consular pelo Estado que envia ou por solicitação dêste.
-</p><Artigo id="art63">
+          </Artigo><Artigo id="art63">
             
-            
+            <TituloDispositivo>Processo Penal</TituloDispositivo>
             <Rotulo>Art. 63.</Rotulo>
             
             <Caput id="art63_cpt">
             
             
             
-            
+            <p>
+    Quando um processo penal fôr instaurado contra funcionário consular honorário, êste é obrigado a se apresentar as autoridades competentes. Entretanto, o processo deverá ser conduzido com as deferências devidas ao funcionário consular honorário interessado, em razão de sua posição oficial, e, exceto no caso em que esteja prêso ou detido, de maneira a pertubar o menos possível o exercício das funções consulares. Quando fôr necessário decretar a prisão preventiva de um funcionário consular honorário, o processo correspondente deverá iniciar-se o mais breve possível.
+
+  </p>
             
           </Caput>
-          </Artigo><p>Processo Penal
-</p><p>Quando um processo penal fôr instaurado contra funcionário consular honorário, êste é obrigado a se apresentar as autoridades competentes. Entretanto, o processo deverá ser conduzido com as deferências devidas ao funcionário consular honorário interessado, em razão de sua posição oficial, e, exceto no caso em que esteja prêso ou detido, de maneira a pertubar o menos possível o exercício das funções consulares. Quando fôr necessário decretar a prisão preventiva de um funcionário consular honorário, o processo correspondente deverá iniciar-se o mais breve possível.
-</p><Artigo id="art64">
+          </Artigo><Artigo id="art64">
             
-            
+            <TituloDispositivo>Proteção dos Funcionários consulares honorários</TituloDispositivo>
             <Rotulo>Art. 64.</Rotulo>
             
             <Caput id="art64_cpt">
             
             
             
-            
+            <p>
+    O Estado receptor é obrigado a conceder ao funcionário consular honorário a proteção de que possa necessitar em razão de sua posição oficial.
+
+  </p>
             
           </Caput>
-          </Artigo><p>Proteção dos Funcionários consulares honorários
-</p><p>O Estado receptor é obrigado a conceder ao funcionário consular honorário a proteção de que possa necessitar em razão de sua posição oficial.
-</p><Artigo id="art65">
+          </Artigo><Artigo id="art65">
             
             
             <Rotulo>Art. 65.</Rotulo>
@@ -2554,53 +2588,59 @@
             
             
             
-            
+            <p>
+    Isenção do registro de estrangeiros e da autorização de residência O funcionários consulares honorários, com exceção dos que exercerem no Estado receptor atividade profissional ou comercial em proveito próprio, estarão isentos de quaisquer obrigações previstas pelas leis e regulamentos do Estado receptor em matéria de registro de estrangeiros e de autorização de residência.
+
+  </p>
             
           </Caput>
-          </Artigo><p>Isenção do registro de estrangeiros e da autorização de residência O funcionários consulares honorários, com exceção dos que exercerem no Estado receptor atividade profissional ou comercial em proveito próprio, estarão isentos de quaisquer obrigações previstas pelas leis e regulamentos do Estado receptor em matéria de registro de estrangeiros e de autorização de residência.
-</p><Artigo id="art66">
+          </Artigo><Artigo id="art66">
             
-            
+            <TituloDispositivo>Isenção Fiscal</TituloDispositivo>
             <Rotulo>Art. 66.</Rotulo>
             
             <Caput id="art66_cpt">
             
             
             
-            
+            <p>
+    Os funcionários consulares honorários estarão isentos de quaisquer impostos e taxas sôbre as remunerações e os emolumentos que recebam do Estado que envia em razão do exercício das funções consulares.
+
+  </p>
             
           </Caput>
-          </Artigo><p>Isenção Fiscal
-</p><p>Os funcionários consulares honorários estarão isentos de quaisquer impostos e taxas sôbre as remunerações e os emolumentos que recebam do Estado que envia em razão do exercício das funções consulares.
-</p><Artigo id="art67">
+          </Artigo><Artigo id="art67">
             
-            
+            <TituloDispositivo>Isenção de prestação de serviços pessoais</TituloDispositivo>
             <Rotulo>Art. 67.</Rotulo>
             
             <Caput id="art67_cpt">
             
             
             
-            
+            <p>
+    O Estado receptor isentará os funcionários consulares honorários da prestação de quaisquer serviços pessoais ou de interêsse público, qualquer que seja sua natureza, assim como das obrigações de caráter militar, especialmente e requisições, contribuições e alojamentos militares.
+
+  </p>
             
           </Caput>
-          </Artigo><p>Isenção de prestação de serviços pessoais
-</p><p>O Estado receptor isentará os funcionários consulares honorários da prestação de quaisquer serviços pessoais ou de interêsse público, qualquer que seja sua natureza, assim como das obrigações de caráter militar, especialmente e requisições, contribuições e alojamentos militares.
-</p><Artigo id="art68">
+          </Artigo><Artigo id="art68">
             
-            
+            <TituloDispositivo>Caráter facultativo da instituição dos funcionários consulares honorários</TituloDispositivo>
             <Rotulo>Art. 68.</Rotulo>
             
             <Caput id="art68_cpt">
             
             
             
-            
+            <p>
+    Cada Estado poderá decidir livremente se nomeará ou receberá funcionários consulares honorários.
+
+  </p>
             
           </Caput>
-          </Artigo><p>Caráter facultativo da instituição dos funcionários consulares honorários
-</p><p>Cada Estado poderá decidir livremente se nomeará ou receberá funcionários consulares honorários.
-</p><Capitulo id="cap4">
+          </Artigo>
+          </Capitulo><Capitulo id="cap4">
             
             
             <Rotulo>CAPÍTULO IV</Rotulo>
@@ -2610,7 +2650,7 @@
   </NomeAgrupador>
             <Artigo id="art69">
             
-            
+            <TituloDispositivo>Agentes consulares que não sejam chefes de repartição consular</TituloDispositivo>
             <Rotulo>Art. 69.</Rotulo>
             
             <Caput id="art69_cpt">
@@ -2620,7 +2660,7 @@
             
             <Item id="art69_cpt_ite1">
             
-            <TituloDispositivo>Agentes consulares que não sejam chefes de repartição consular</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Cada Estado poderá decidir livremente se estabelecerá ou admitirá agências consulares dirigidas por agentes consulares que não tenham sido designados chefes de repartição consular pelo Estado que envia.
@@ -2640,7 +2680,7 @@
           </Caput>
           </Artigo><Artigo id="art70">
             
-            
+            <TituloDispositivo>Exercício de funções consulares pelas missões diplomáticas</TituloDispositivo>
             <Rotulo>Art. 70.</Rotulo>
             
             <Caput id="art70_cpt">
@@ -2650,7 +2690,7 @@
             
             <Item id="art70_cpt_ite1">
             
-            <TituloDispositivo>Exercício de funções consulares pelas missões diplomáticas</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     As disposições da presente Convenção aplicar-se-ão também, na medida em que o contexto o permitir, ao exercício das funções consulares por missões diplomáticas.
@@ -2706,7 +2746,7 @@
           </Caput>
           </Artigo><Artigo id="art71">
             
-            
+            <TituloDispositivo>Nacionais ou residentes permanentes do Estado receptor</TituloDispositivo>
             <Rotulo>Art. 71.</Rotulo>
             
             <Caput id="art71_cpt">
@@ -2716,7 +2756,7 @@
             
             <Item id="art71_cpt_ite1">
             
-            <TituloDispositivo>Nacionais ou residentes permanentes do Estado receptor</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Salvo se o Estado receptor conceder outras facilidades, privilégios e imunidades, os funcionários consulares que sejam nacionais ou residentes permanentes dêsse Estado somente gozarão de imunidade de jurisdição e de inviolabilidade pessoal pelos atos oficiais realizados no exercício de suas funções e do privilégio estabelecido no parágrafo 3 do artigo 44. No que diz respeito a êsses funcionários consulares, o Estado receptor deverá também cumprir a obrigação prevista no artigo 42. Se um processo penal fôr instaurado contra êsses funcionários consulares, as diligências deverão ser conduzidas, exceto no caso em que o funcionário estiver prêso ou detido, de maneira a que se pertube o menos possível o exercício das funções consulares.
@@ -2736,7 +2776,7 @@
           </Caput>
           </Artigo><Artigo id="art72">
             
-            
+            <TituloDispositivo>Não discriminação entre Estados</TituloDispositivo>
             <Rotulo>Art. 72.</Rotulo>
             
             <Caput id="art72_cpt">
@@ -2746,7 +2786,7 @@
             
             <Item id="art72_cpt_ite1">
             
-            <TituloDispositivo>Não discriminação entre Estados</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     O Estado receptor não discriminará entre os Estados ao aplicar as disposições da presente Convenção.
@@ -2784,7 +2824,7 @@
           </Caput>
           </Artigo><Artigo id="art73">
             
-            
+            <TituloDispositivo>Relação entre a presente Convenção e outros acôrdos internacionais</TituloDispositivo>
             <Rotulo>Art. 73.</Rotulo>
             
             <Caput id="art73_cpt">
@@ -2794,7 +2834,7 @@
             
             <Item id="art73_cpt_ite1">
             
-            <TituloDispositivo>Relação entre a presente Convenção e outros acôrdos internacionais</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     As disposições da presente Convenção não prejudicarão outros acôrdos internacionais em vigor entre as partes contratantes dos mesmos.
@@ -2823,50 +2863,52 @@
   </NomeAgrupador>
             <Artigo id="art74">
             
-            
+            <TituloDispositivo>Assinatura</TituloDispositivo>
             <Rotulo>Art. 74.</Rotulo>
             
             <Caput id="art74_cpt">
             
             
             
-            
+            <p>
+    A presente Convenção ficará aberta à assinatura de todos os Estados Membros da Organização das Nações Unidas ou de qualquer organização especializada, bem como de todo Estado Parte do Estatuto da Côrte Internacional de Justiça e de qualquer outro Estado convidado pela Assembléia-Geral das Nações Unidas a se tornar parte da Convenção, da seguinte maneira, até 31 de outubro de 1963, no Ministério Federal dos Negócios Estrangeiros da Áustria e depois, até 31 de março de 1964, na Sede da Organização das Nações Unidas, em Nova York.
+
+  </p>
             
           </Caput>
-          </Artigo>
-          </Capitulo><p>Assinatura
-</p><p>A presente Convenção ficará aberta à assinatura de todos os Estados Membros da Organização das Nações Unidas ou de qualquer organização especializada, bem como de todo Estado Parte do Estatuto da Côrte Internacional de Justiça e de qualquer outro Estado convidado pela Assembléia-Geral das Nações Unidas a se tornar parte da Convenção, da seguinte maneira, até 31 de outubro de 1963, no Ministério Federal dos Negócios Estrangeiros da Áustria e depois, até 31 de março de 1964, na Sede da Organização das Nações Unidas, em Nova York.
-</p><Artigo id="art75">
+          </Artigo><Artigo id="art75">
             
-            
+            <TituloDispositivo>Ratificação</TituloDispositivo>
             <Rotulo>Art. 75.</Rotulo>
             
             <Caput id="art75_cpt">
             
             
             
-            
+            <p>
+    A presente Convenção está sujeita a ratificação. Os instrumentos de ratificação serão depositados junto ao Secretário-Geral das Nações Unidas.
+
+  </p>
             
           </Caput>
-          </Artigo><p>Ratificação
-</p><p>A presente Convenção está sujeita a ratificação. Os instrumentos de ratificação serão depositados junto ao Secretário-Geral das Nações Unidas.
-</p><Artigo id="art76">
+          </Artigo><Artigo id="art76">
             
-            
+            <TituloDispositivo>Adesão</TituloDispositivo>
             <Rotulo>Art. 76.</Rotulo>
             
             <Caput id="art76_cpt">
             
             
             
-            
+            <p>
+    A presente Convenção ficará aberta à adesão dos Estados pertencentes a qualquer das quatro categorias mencionadas no artigo 74. Os instrumentos de adesão serão depositados junto ao Secretário-Geral das Nações Unidas.
+
+  </p>
             
           </Caput>
-          </Artigo><p>Adesão
-</p><p>A presente Convenção ficará aberta à adesão dos Estados pertencentes a qualquer das quatro categorias mencionadas no artigo 74. Os instrumentos de adesão serão depositados junto ao Secretário-Geral das Nações Unidas.
-</p><Artigo id="art77">
+          </Artigo><Artigo id="art77">
             
-            
+            <TituloDispositivo>Entrada em vigor</TituloDispositivo>
             <Rotulo>Art. 77.</Rotulo>
             
             <Caput id="art77_cpt">
@@ -2876,7 +2918,7 @@
             
             <Item id="art77_cpt_ite1">
             
-            <TituloDispositivo>Entrada em vigor</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     A presente Convenção entrará em vigor no trigésimo dia que se seguir à data em que seja depositado junto ao Secretário-Geral da Organização das Nações Unidas o vigésimo-segundo instrumento de ratificação ou adesão.
@@ -2896,19 +2938,18 @@
           </Caput>
           </Artigo><Artigo id="art78">
             
-            
+            <TituloDispositivo>Notificações pelo Secretário-Geral</TituloDispositivo>
             <Rotulo>Art. 78.</Rotulo>
             
             <Caput id="art78_cpt">
             
             
             
-            
-            
-          </Caput>
-          </Artigo><p>Notificações pelo Secretário-Geral
-</p><p>O Secretário-Geral da Organização das Nações Unidas notificará a todos os Estados pertencentes a qualquer das quatro categorias mencionadas no artigo 74:
-</p><Alinea id="ali1">
+            <p>
+    O Secretário-Geral da Organização das Nações Unidas notificará a todos os Estados pertencentes a qualquer das quatro categorias mencionadas no artigo 74:
+
+  </p>
+            <Alinea id="art78_cpt_ali1">
             
             
             <Rotulo>a)</Rotulo>
@@ -2917,7 +2958,7 @@
 
   </p>
             
-          </Alinea><Alinea id="ali2">
+          </Alinea><Alinea id="art78_cpt_ali2">
             
             
             <Rotulo>b)</Rotulo>
@@ -2926,23 +2967,25 @@
 
   </p>
             
-          </Alinea><Artigo id="art79">
+          </Alinea>
+          </Caput>
+          </Artigo><Artigo id="art79">
             
-            
+            <TituloDispositivo>Textos autênticos</TituloDispositivo>
             <Rotulo>Art. 79.</Rotulo>
             
             <Caput id="art79_cpt">
             
             
             
-            
+            <p>
+    O original da presente Convenção, cujos textos em chinês, espanhol, francês, inglês e russo serão igualmente autênticos, será depositado junto ao Secretário-Geral da Organização das Nações Unidas, que enviará cópias autenticadas a todos os Estados pertencentes a qualquer das quatro categorias mencionadas no artigo 74. Em fé do que os plenipotenciários abaixo assinados, devidamente autorizados por seus respectivos Govêrnos, assinaram a presente Convenção. Feito em Viena, aos vinte e quatro de abril de mil novecentos e sessenta e três.
+
+  </p>
             
           </Caput>
-          </Artigo><p>Textos autênticos
-</p><p>O original da presente Convenção, cujos textos em chinês, espanhol, francês, inglês e russo serão igualmente autênticos, será depositado junto ao Secretário-Geral da Organização das Nações Unidas, que enviará cópias autenticadas a todos os Estados pertencentes a qualquer das quatro categorias mencionadas no artigo 74.
-</p><p>Em fé do que os plenipotenciários abaixo assinados, devidamente autorizados por seus respectivos Govêrnos, assinaram a presente Convenção.
-</p><p>Feito em Viena, aos vinte e quatro de abril de mil novecentos e sessenta e três.
-</p></Articulacao>
+          </Artigo>
+          </Capitulo></Articulacao>
           
           
         </Norma></ProjetoNorma>

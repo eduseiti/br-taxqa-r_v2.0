@@ -1,9 +1,14 @@
-# Statutory LexML of this folder (rebuild plan docs/20261007_180833_corpus_fixes_and_full_rebuild_plan.md, R3b)
+# Statutory LexML of this folder (re-parse after docs/20261008_190226_reference_fixes_and_label_only_articles_investigation.md, 2026-10-08)
 parser_repo: ../lexml-parser-projeto-lei
-parser_commit: ebf6567b3ebd2794b716339cc19ac25734216122
-jar: target/lexml-parser-projeto-lei-1.15.0-onejar.jar (mvn -Ponejar package -DskipTests, built 2026-10-08)
-jar_sha256: 5196351950546324ddc27cd6752cc13ee557e7b89c1eafa7d4a6ac8bfd46a766
-driver: scripts/batch_parse.py --no-justificativa --linker /usr/local/bin/linkertool (batch_parse.py at 6142756; see that repo's work_history/20261008_001450_*)
-linker: /usr/local/bin/linkertool -> lexml-linker/dist-newstyle/.../linkertool, sha256 ba7d0a50ac5c94efc3c521d0098dda2ea63a201b0ab53f17279cf05bba4f014f
+parser_commit: c587f6b9229d17e9b6009221696c7ab8fb2d2d08 + UNCOMMITTED working tree (treaty-article and annex-rendering fix, work_history/20261008_200135_*; git diff + new ArtigoSemCaputTest.scala sha256 360b7167e90d54d850a213c429414030d922bac32f07edbde0ea43d775432d43). Replace with the commit id once committed.
+jar: target/lexml-parser-projeto-lei-1.15.0-onejar.jar (LC_ALL=C.UTF-8 mvn -Ponejar package -DskipTests, built 2026-10-08 20:11 UTC)
+jar_sha256: 4f1b97aff60a1079fbe8d7e31550396505b22442765c907920c716f2f4003b8c
+driver: python3 ../lexml-parser-projeto-lei/scripts/batch_parse.py --no-justificativa --linker /usr/local/bin/linkertool original/articulados lexml/articulados_new (run from this repo; batch_parse.py at 6142756), then copied over lexml/articulados/
+linker: /usr/local/bin/linkertool -> lexml-linker/dist-newstyle/.../linkertool sha256 6b4cf7683bf0483f35e1712e54ce578d113a44b0115f46240fc9bc433303b28f (rebuilt with the "art. N, caput" fix)
 locale: LC_ALL=C.UTF-8 (set by batch_parse.py)
-reproducibility: 440 of the 451 files shared with the previous parse are byte-identical; the other 11 differ by the .docx repairs (7 files of 6 documents) or by Remissao links only (4 files, same text)
+result: 209 .docx converted, 0 skipped, 0 failed; 386 XML files
+changes vs the previous parse (commit 6c6fdde of this repo): 98 XML files differ
+  - 38: the treaty-article / annex-rendering fix (label-only articles 440 -> 1; source paragraphs dropped from articulated annexes restored; generic annexes in source order); no article id gained or lost
+  - 54: Remissao links only (linker fix); same text and ids
+  - 6: parser commit c587f6b (fake LIVROs from "Livro diário/razão/de Apuração" removed in RIR/1999 decreto_3000, lei_6404, decreto_lei_58 annex 1; Lei 6.766 "III-A"; lei_4886 art10_cpt_inc1) and the user's lei_12431 .docx fix
+reproducibility: the XML is byte-identical to an independent run of the same jar on the same inputs (scratch run, 386/386 files)

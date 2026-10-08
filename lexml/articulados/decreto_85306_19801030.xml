@@ -84,22 +84,22 @@
   </NomeAgrupador>
             <Artigo id="art2">
             
-            
+            <TituloDispositivo>Inviolabilidade dos Arquivos</TituloDispositivo>
             <Rotulo>Art. 2º</Rotulo>
             
             <Caput id="art2_cpt">
             
             
             
-            
+            <p>
+    Os arquivos da INTELSAT serão invioláveis onde que estejam localizados.
+
+  </p>
             
           </Caput>
-          </Artigo>
-          </Capitulo><p>Inviolabilidade dos Arquivos
-</p><p>Os arquivos da INTELSAT serão invioláveis onde que estejam localizados.
-</p><Artigo id="art3">
+          </Artigo><Artigo id="art3">
             
-            
+            <TituloDispositivo>Imunidade de Jurisdição e Execução</TituloDispositivo>
             <Rotulo>Art. 3º</Rotulo>
             
             <Caput id="art3_cpt">
@@ -109,7 +109,7 @@
             
             <Item id="art3_cpt_ite1">
             
-            <TituloDispositivo>Imunidade de Jurisdição e Execução</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Dentro do quadro das suas atividades autorizadas pelos Acordos da INTELSAT, a INTELSAT terá imunidade de jurisdição e imunidade de execução exceto:
@@ -210,7 +210,7 @@
           </Caput>
           </Artigo><Artigo id="art4">
             
-            
+            <TituloDispositivo>Disposições Fiscais e Aduaneiras</TituloDispositivo>
             <Rotulo>Art. 4º</Rotulo>
             
             <Caput id="art4_cpt">
@@ -220,7 +220,7 @@
             
             <Item id="art4_cpt_ite1">
             
-            <TituloDispositivo>Disposições Fiscais e Aduaneiras</TituloDispositivo>
+            
             <Rotulo>1.</Rotulo>
             <p>
     Dentro da esfera das suas atividades autorizadas pelos Acordos da INTELSAT, a INTELSAT e sua propriedade estarão isentas de qualquer imposto nacional e taxação direta nacional sobre propriedade.
@@ -267,33 +267,36 @@
           </Caput>
           </Artigo><Artigo id="art5">
             
-            
+            <TituloDispositivo>Comunicações</TituloDispositivo>
             <Rotulo>Art. 5º</Rotulo>
             
             <Caput id="art5_cpt">
             
             
             
-            
+            <p>
+    Com relação às suas comunicações oficiais e a transferência de todos seus documentos, a INTELSAT gozará no território de cada Parte Contratante, de tratamento não menos favorável do que aquele concedido a outras organizações intergovernamentais não-regionais no tocante a prioridades, tarifas e taxas relativas a correspondência e a todas as formas de telecomunicações enquanto compatível com quaisquer convenções internacionais, regulamentos e acordos dos quais aquela Parte Contratante seja parte. Nenhuma censura será aplicada a comunicações oficiais da INTELSAT por quaisquer meios de comunicação.
+
+  </p>
             
           </Caput>
-          </Artigo><p>Comunicações
-</p><p>Com relação às suas comunicações oficiais e a transferência de todos seus documentos, a INTELSAT gozará no território de cada Parte Contratante, de tratamento não menos favorável do que aquele concedido a outras organizações intergovernamentais não-regionais no tocante a prioridades, tarifas e taxas relativas a correspondência e a todas as formas de telecomunicações enquanto compatível com quaisquer convenções internacionais, regulamentos e acordos dos quais aquela Parte Contratante seja parte. Nenhuma censura será aplicada a comunicações oficiais da INTELSAT por quaisquer meios de comunicação.
-</p><Artigo id="art6">
+          </Artigo><Artigo id="art6">
             
-            
+            <TituloDispositivo>Restrições</TituloDispositivo>
             <Rotulo>Art. 6º</Rotulo>
             
             <Caput id="art6_cpt">
             
             
             
-            
+            <p>
+    Dentro da esfera das suas atividades autorizadas pelos Acordos da INTELSAT, os fundos em poder da INTELSAT não estarão sujeitos a controles, restrições, regulamentos ou moratória de qualquer espécie, desde que as operações que envolvam esses fundos estejam de acordo com as leis da Parte Contratante.
+
+  </p>
             
           </Caput>
-          </Artigo><p>Restrições
-</p><p>Dentro da esfera das suas atividades autorizadas pelos Acordos da INTELSAT, os fundos em poder da INTELSAT não estarão sujeitos a controles, restrições, regulamentos ou moratória de qualquer espécie, desde que as operações que envolvam esses fundos estejam de acordo com as leis da Parte Contratante.
-</p><Capitulo id="cap2">
+          </Artigo>
+          </Capitulo><Capitulo id="cap2">
             
             
             <Rotulo>CAPÍTULO II</Rotulo>
@@ -550,12 +553,11 @@
             
             
             
-            
-            
-          </Caput>
-          </Artigo>
-          </Capitulo><p>Os privilégios, isenções e imunidades estabelecidos neste protocolo não são concedidos para benefício pessoal dos indivíduos. Se tais privilégios, isenções e imunidades impedir o curso da justiça, em todos os casos onde eles possam ser renunciados sem prejuízo do desempenho eficiente das funções da INTELSAT, as autoridades abaixo mencionadas concorrerão em renunciar a tais privilégios, isenções e imunidades:
-</p><Alinea id="ali1">
+            <p>
+    Os privilégios, isenções e imunidades estabelecidos neste protocolo não são concedidos para benefício pessoal dos indivíduos. Se tais privilégios, isenções e imunidades impedir o curso da justiça, em todos os casos onde eles possam ser renunciados sem prejuízo do desempenho eficiente das funções da INTELSAT, as autoridades abaixo mencionadas concorrerão em renunciar a tais privilégios, isenções e imunidades:
+
+  </p>
+            <Alinea id="art9_cpt_ali1">
             
             
             <Rotulo>a)</Rotulo>
@@ -564,7 +566,7 @@
 
   </p>
             
-          </Alinea><Alinea id="ali2">
+          </Alinea><Alinea id="art9_cpt_ali2">
             
             
             <Rotulo>b)</Rotulo>
@@ -573,7 +575,7 @@
 
   </p>
             
-          </Alinea><Alinea id="ali3">
+          </Alinea><Alinea id="art9_cpt_ali3">
             
             
             <Rotulo>c)</Rotulo>
@@ -582,7 +584,7 @@
 
   </p>
             
-          </Alinea><Alinea id="ali4">
+          </Alinea><Alinea id="art9_cpt_ali4">
             
             
             <Rotulo>d)</Rotulo>
@@ -591,7 +593,10 @@
 
   </p>
             
-          </Alinea><Capitulo id="cap5">
+          </Alinea>
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="cap5">
             
             
             <Rotulo>CAPÍTULO V</Rotulo>
@@ -601,62 +606,66 @@
   </NomeAgrupador>
             <Artigo id="art10">
             
-            
+            <TituloDispositivo>Medidas de precaução</TituloDispositivo>
             <Rotulo>Art. 10.</Rotulo>
             
             <Caput id="art10_cpt">
             
             
             
-            
+            <p>
+    Cada Parte Contratante reserva-se o direito de tomar todas as medidas necessárias no interesse de sua segurança.
+
+  </p>
             
           </Caput>
-          </Artigo>
-          </Capitulo><p>Medidas de precaução
-</p><p>Cada Parte Contratante reserva-se o direito de tomar todas as medidas necessárias no interesse de sua segurança.
-</p><Artigo id="art11">
+          </Artigo><Artigo id="art11">
             
-            
+            <TituloDispositivo>Cooperação com as Partes Contratantes</TituloDispositivo>
             <Rotulo>Art. 11.</Rotulo>
             
             <Caput id="art11_cpt">
             
             
             
-            
+            <p>
+    A INTELSAT e os membros do seu quadro de funcionários cooperação permanente com as autoridades competentes das Partes Contratantes envolvidas, a fim de facilitar a correta aplicação da justiça, assegurar a observância das leis e regulamentos das Partes Contratantes e prevenir qualquer abuso dos privilégios, isenções e imunidades estabelecidos neste Protocolo.
+
+  </p>
             
           </Caput>
-          </Artigo><p>Cooperação com as Partes Contratantes
-</p><p>A INTELSAT e os membros do seu quadro de funcionários cooperação permanente com as autoridades competentes das Partes Contratantes envolvidas, a fim de facilitar a correta aplicação da justiça, assegurar a observância das leis e regulamentos das Partes Contratantes e prevenir qualquer abuso dos privilégios, isenções e imunidades estabelecidos neste Protocolo.
-</p><Artigo id="art12">
+          </Artigo><Artigo id="art12">
             
-            
+            <TituloDispositivo>Acordos Complementares</TituloDispositivo>
             <Rotulo>Art. 12.</Rotulo>
             
             <Caput id="art12_cpt">
             
             
             
-            
+            <p>
+    A INTELSAT pode concluir acordos complementares com uma ou mais Partes Contratantes para aplicar as disposições deste Protocolo no que diz respeito a tal Parte ou Partes Contratantes, ou outros acordos para assegurar o funcionamento eficiente da INTELSAT.
+
+  </p>
             
           </Caput>
-          </Artigo><p>Acordos Complementares
-</p><p>A INTELSAT pode concluir acordos complementares com uma ou mais Partes Contratantes para aplicar as disposições deste Protocolo no que diz respeito a tal Parte ou Partes Contratantes, ou outros acordos para assegurar o funcionamento eficiente da INTELSAT.
-</p><Artigo id="art13">
+          </Artigo><Artigo id="art13">
             
-            
+            <TituloDispositivo>Solução de Controvérsias</TituloDispositivo>
             <Rotulo>Art. 13.</Rotulo>
             
             <Caput id="art13_cpt">
             
             
             
-            
+            <p>
+    Qualquer controvérsia que surja entre a INTELSAT e uma Parte Contratante ou entre Partes Contratantes a respeito da interpretação ou aplicação deste Protocolo que não for resolvida por negociação ou por outro método acordado, será submetida a um tribunal integrado por 3 árbitros, para decisão final. Dois dos árbitros serão escolhidos por cada uma das Partes da controvérsia dentro de sessenta (60) dias, a partir da notificação de uma parte à outra, de sua intenção de submeter a controvérsia a arbitragem. O terceiro árbitro, que será o presidente do tribunal, será escolhido pelos dois outros árbitros. Caso os dois outros árbitros não cheguem a um acordo sobre o terceiro dentro de sessenta (60) dias a partir da data da nomeação do segundo árbitro, o terceiro árbitro será escolhido pelo Secretário Geral das Nações Unidas.
+
+  </p>
             
           </Caput>
-          </Artigo><p>Solução de Controvérsias
-</p><p>Qualquer controvérsia que surja entre a INTELSAT e uma Parte Contratante ou entre Partes Contratantes a respeito da interpretação ou aplicação deste Protocolo que não for resolvida por negociação ou por outro método acordado, será submetida a um tribunal integrado por 3 árbitros, para decisão final. Dois dos árbitros serão escolhidos por cada uma das Partes da controvérsia dentro de sessenta (60) dias, a partir da notificação de uma parte à outra, de sua intenção de submeter a controvérsia a arbitragem. O terceiro árbitro, que será o presidente do tribunal, será escolhido pelos dois outros árbitros. Caso os dois outros árbitros não cheguem a um acordo sobre o terceiro dentro de sessenta (60) dias a partir da data da nomeação do segundo árbitro, o terceiro árbitro será escolhido pelo Secretário Geral das Nações Unidas.
-</p><Capitulo id="cap6">
+          </Artigo>
+          </Capitulo><Capitulo id="cap6">
             
             
             <Rotulo>CAPÍTULO VI</Rotulo>
@@ -712,12 +721,13 @@
             
             
             
-            
+            <p>
+    Qualquer Parte da INTELSAT pode, no momento do depósito de seu instrumento de ratificação, aceitação, aprovação ou adesão, fazer reservas a qualquer disposição deste Protocolo. As reservas poderão ser retiradas a qualquer momento através de uma declaração para esse fim, dirigida ao Diretor-Geral da INTELSAT. A menos que indicado de outra forma na declaração, uma retirada terá efeito quando do seu recebimento pelo Diretor-Geral.
+
+  </p>
             
           </Caput>
-          </Artigo>
-          </Capitulo><p>Qualquer Parte da INTELSAT pode, no momento do depósito de seu instrumento de ratificação, aceitação, aprovação ou adesão, fazer reservas a qualquer disposição deste Protocolo. As reservas poderão ser retiradas a qualquer momento através de uma declaração para esse fim, dirigida ao Diretor-Geral da INTELSAT. A menos que indicado de outra forma na declaração, uma retirada terá efeito quando do seu recebimento pelo Diretor-Geral.
-</p><Artigo id="art16">
+          </Artigo><Artigo id="art16">
             
             
             <Rotulo>Art. 16.</Rotulo>
@@ -825,7 +835,8 @@
             
           </Item>
           </Caput>
-          </Artigo></Articulacao>
+          </Artigo>
+          </Capitulo></Articulacao>
           
           
         </Norma></ProjetoNorma>

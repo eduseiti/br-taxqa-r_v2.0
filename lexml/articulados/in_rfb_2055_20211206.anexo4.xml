@@ -6,8 +6,7 @@
         <DocumentoGenerico>
       <PartePrincipal id="anexo4_pp">
         <p>Anexo III</p>
-        <table id="anexo4_tab1"><tr><td/><td><b>Nome/ Nome Empresarial</b></td><td><b>CPF CNPJ</b></td></tr><tr><td/><td/><td/></tr></table><table id="anexo4_tab2"><tr><td/><td><b>Valor do Reembolso Solicitado neste Pedido (em reais e sem a atualização de valor)</b></td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td>Nome do Banco (para crédito)</td><td/><td/><td>Nº Banco</td><td/><td/><td>Nº Agência</td><td/><td/><td>Nº Conta-corrente</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr></table><p>v.1.00.00 1/1 [Incluído(a) por republicação parcial em 13 de dezembro de 2021]
-</p><Item id="ite3">
+        <table id="anexo4_tab1"><tr><td/><td><b>Nome/ Nome Empresarial</b></td><td><b>CPF CNPJ</b></td></tr><tr><td/><td/><td/></tr></table><table id="anexo4_tab2"><tr><td/><td><b>Valor do Reembolso Solicitado neste Pedido (em reais e sem a atualização de valor)</b></td><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td>Nome do Banco (para crédito)</td><td/><td/><td>Nº Banco</td><td/><td/><td>Nº Agência</td><td/><td/><td>Nº Conta-corrente</td></tr><tr><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/><td/></tr></table><Item id="ite3">
             
             
             <Rotulo>3.</Rotulo>
@@ -25,7 +24,8 @@
 
   </p>
             <table id="ite4_tab1"><tr><td><b>Competência</b></td><td><b>Valor do Salário-Família [SF]</b></td><td><b>Valor do Salário- Maternidade [SM]</b></td><td><b>Valor Total na Competência [SF] + [SM] (A)</b></td><td><b>Valor Total da Dedução na Competência (B)</b></td><td><b>Valor Total das Compensações em Competências Posteriores (C)</b></td><td><b>Valor do Reembolso Solicitado (D) = (A) - (B) - (C)</b></td></tr><tr><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/><td/></tr></table><table id="ite4_tab2"><tr><td/><td><b>Outras Informações</b></td></tr><tr><td/><td/></tr><tr><td>Solicito o reembolso da importância acima mencionada, declarando, sob as penas da Lei nº 4.729, de 14 de julho de 1965, e da Lei nº 8.137, de 27 de dezembro de 1990, que as informações prestadas neste pedido são a expressão da verdade e que as importâncias ora requeridas não foram pleiteadas por via judicial nem compensadas.</td><td/></tr></table><table id="ite4_tab3"><tr><td/><td><b>Nome</b></td><td/><td/><td/><td><b>CPF</b></td></tr><tr><td/><td/><td/><td/><td/><td/></tr><tr><td/><td>Data</td><td/><td>Assinatura (este documento pode ser assinado digitalmente com uso de certificado digital no padrão ICP Brasil)</td><td/><td/></tr><tr><td/><td/><td/><td/><td/><td/></tr></table>
-          </Item>
+          </Item><p>v.1.00.00 1/1 [Incluído(a) por republicação parcial em 13 de dezembro de 2021]
+</p>
       </PartePrincipal>
     </DocumentoGenerico>
       </Anexo>
