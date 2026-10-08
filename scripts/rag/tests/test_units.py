@@ -14,7 +14,7 @@ from ragpipe.context import Cutoff, select
 from ragpipe.data import Paths, check_inputs, load_chunks, load_dataset, load_embedding
 from ragpipe.relevance import GoldItem, Matcher, gold_items
 from ragpipe.runs import sha256_file
-from ragpipe.strategies import attach_text_rows, build_index, load_strategies
+from ragpipe.strategies import attach_text_rows, build_index, load_strategies, member_mask
 
 from conftest import A, D, L
 
@@ -50,6 +50,17 @@ def test_strategy_filter_and_aliases(loaded):
     rep, alias = ids[s2.members(shared[0])]
     assert chunks.set_index("chunk_id").loc[rep, "Tipo"] == "ART"          # coarsest chunk represents the text
     assert chunks.set_index("chunk_id").loc[alias, "Tipo"] == "INC"
+
+
+def test_member_mask_with_caput_variants():
+    """S2c/S4 (caput plan §4.2): a caput row replaces its base twin; other units keep the base row."""
+    ch = pd.DataFrame({"chunk_id": ["d#1", "d#2", "d#c2", "d#3", "d#c3", "d#4"],
+                       "Tipo": ["ART", "PAR", "PAR", "INC", "INC", "CAP"],
+                       "variante": ["base", "base", "caput", "base", "caput", "base"]})
+    s2 = ["ART", "PAR", "INC"]
+    assert ch["chunk_id"][member_mask(ch, s2)].tolist() == ["d#1", "d#2", "d#3"]
+    assert ch["chunk_id"][member_mask(ch, s2, ("caput", "base"))].tolist() == ["d#1", "d#c2", "d#c3"]
+    assert ch["chunk_id"][member_mask(ch.drop(columns="variante"), s2)].tolist() == ["d#1", "d#2", "d#c2", "d#3", "d#c3"]
 
 
 def test_unknown_strategy_is_reported(repo):

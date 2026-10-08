@@ -26,7 +26,7 @@ log = logging.getLogger("ragpipe")
 #: Chunk columns used by the pipeline (``Texto`` is loaded only on request).
 CHUNK_COLS = ["chunk_id", "Tipo", "arquivo", "categoria", "doc_urn", "unidade_id", "artigo_id", "citacao",
               "parte", "n_partes", "cobre_ids", "parcial_ids", "id_ambiguo", "n_tokens_qwen3",
-              "Num_Inicio", "Num_Final"]
+              "Num_Inicio", "Num_Final", "variante"]
 INT_COLS = ["parte", "n_partes", "id_ambiguo", "n_tokens_qwen3", "Num_Inicio", "Num_Final"]
 
 
@@ -60,7 +60,11 @@ def load_chunks(path: Path, with_text: bool = False) -> pd.DataFrame:
         raise InputError(f"chunk file {rel(path)} not found; run scripts/segmentation/segment_all.py "
                          "or download segmented/chunks_all.csv.gz from the Hub")
     cols = CHUNK_COLS + (["Texto", "Rotulo"] if with_text else [])
-    df = pd.read_csv(path, dtype=str, keep_default_na=False, usecols=cols)[cols]
+    header = pd.read_csv(path, dtype=str, nrows=0).columns
+    df = pd.read_csv(path, dtype=str, keep_default_na=False, usecols=[c for c in cols if c in header])
+    if "variante" not in df.columns:  # chunk files from before the caput plan: one text per unit
+        df["variante"] = "base"
+    df = df[cols]
     for c in INT_COLS:
         df[c] = pd.to_numeric(df[c], errors="raise").astype(np.int64)
     if df["chunk_id"].duplicated().any():

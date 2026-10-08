@@ -40,6 +40,7 @@ from .context import Cutoff, select
 from .data import InputError, Paths, load_chapters, load_chunks, load_dataset
 from .relevance import LEVELS, GoldItem, Matcher, gold_items
 from .retrieval import load_rankings
+from .strategies import member_mask
 from .runs import (base_manifest, prepare_run_dir, read_json, rel, sha256_file, sha256_json, write_csv,
                    write_json)
 
@@ -142,11 +143,11 @@ def unit_positions(rt: RankedTexts, ranked: np.ndarray, level: str, matcher: Mat
 # Per strategy: item positions and context statistics
 # ================================================================================================
 
-def evaluate_strategy(name: str, tipos: frozenset[str], rt: RankedTexts, gold: dict[str, dict[str, list[GoldItem]]],
-                      matcher: Matcher, chunks_tipo: np.ndarray, statutory: dict[str, bool],
+def evaluate_strategy(name: str, in_strategy: np.ndarray, rt: RankedTexts, gold: dict[str, dict[str, list[GoldItem]]],
+                      matcher: Matcher, statutory: dict[str, bool],
                       cfg: EvalConfig) -> tuple[list[dict], list[dict]]:
-    """Rows of the per-item table and of the context table for one strategy."""
-    in_strategy = np.isin(chunks_tipo, list(tipos))
+    """Rows of the per-item table and of the context table for one strategy (``in_strategy``: the
+    chunk-table rows it indexes, :func:`.strategies.member_mask`)."""
     cutoffs = [Cutoff("budget", b) for b in cfg.budgets]
     item_rows, ctx_rows = [], []
     empty = np.empty(0, dtype=np.int64)
@@ -428,12 +429,11 @@ def run_evaluation(retrieval_dir: Path, cfg: EvalConfig, paths: Paths = Paths())
     prepare_run_dir(out_dir, config_hash, cfg.force)
 
     item_rows, ctx_rows = [], []
-    tipo = chunks["Tipo"].to_numpy()
     for name in names:
         ts = time.time()
         rt = ranked_texts(load_rankings(retrieval_dir, name), chunks, file_index)
-        i_rows, c_rows = evaluate_strategy(name, frozenset(sdefs[name]["tipos"]), rt, gold, matcher, tipo,
-                                           statutory, cfg)
+        in_strategy = member_mask(chunks, frozenset(sdefs[name]["tipos"]), sdefs[name].get("variantes", ["base"]))
+        i_rows, c_rows = evaluate_strategy(name, in_strategy, rt, gold, matcher, statutory, cfg)
         item_rows += i_rows
         ctx_rows += c_rows
         log.info("%s: %d gold items scored in %.1fs", name, len(i_rows), time.time() - ts)

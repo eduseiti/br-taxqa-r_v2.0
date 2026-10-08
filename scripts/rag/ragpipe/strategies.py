@@ -1,5 +1,11 @@
 """Strategy definitions (``strategies.yaml``) and the text ↔ chunk aliasing of a strategy (plan §3.1, §3.3).
 
+A strategy is a set of chunk ``Tipo``s and a list of text variants (column ``variante``; caput plan
+§4.2, ``docs/20261005_184116_*``): per unit, the row of the first listed variant that exists is
+indexed. ``[base]`` (default) is S1–S3; ``[caput, base]`` is S2c/S4, whose paragraph-family chunks
+carry the caput sentence. A ``caput`` row's ``chunk_id`` is ``<stem>#c<seq>``, its base twin's
+``<stem>#<seq>``.
+
 Vectors are stored per unique text, and several chunks can share one text (an ``ART`` whose only
 content is one inciso has the text of that ``INC``). Inside a strategy each ranked item is therefore
 **one text**, represented by its coarsest chunk (``unit_precedence``); the other chunks of the
@@ -28,6 +34,22 @@ class Strategy:
     tipos: frozenset[str]
     description: str
     expected_rows: int | None
+    variantes: tuple[str, ...] = ("base",)
+
+
+def member_mask(chunks: pd.DataFrame, tipos, variantes=("base",)) -> np.ndarray:
+    """Chunk-table rows a strategy indexes: its ``Tipo``s, and per unit the first listed variant."""
+    m = chunks["Tipo"].isin(tipos)
+    if "variante" not in chunks.columns:
+        return m.to_numpy()
+    base_ids = chunks["chunk_id"].str.replace(r"#c(\d+)$", r"#\1", regex=True)
+    out = m & False
+    taken: set = set()
+    for v in variantes:
+        mv = m & (chunks["variante"] == v) & ~base_ids.isin(taken)
+        out |= mv
+        taken |= set(base_ids[mv])
+    return out.to_numpy()
 
 
 @dataclass(frozen=True)
@@ -50,7 +72,8 @@ class StrategyConfig:
 
     def to_dict(self) -> dict:
         return {"path": rel(self.path), "sha256": self.sha256,
-                "strategies": {s.name: {"tipos": sorted(s.tipos), "description": s.description}
+                "strategies": {s.name: {"tipos": sorted(s.tipos), "variantes": list(s.variantes),
+                                        "description": s.description}
                                for s in self.strategies.values()},
                 "grouping_tipos": sorted(self.grouping_tipos), "unit_precedence": list(self.unit_precedence)}
 
@@ -65,7 +88,10 @@ def load_strategies(path: Path) -> StrategyConfig:
         if missing:
             raise InputError(f"{rel(path)}: strategy {name} uses Tipo(s) {sorted(missing)} absent from "
                              "unit_precedence")
-        strategies[name] = Strategy(name, tipos, s.get("description", ""), s.get("expected_rows"))
+        variantes = tuple(s.get("variantes", ["base"]))
+        if not variantes or "base" not in variantes:
+            raise InputError(f"{rel(path)}: strategy {name}: variantes must list 'base' (the fallback)")
+        strategies[name] = Strategy(name, tipos, s.get("description", ""), s.get("expected_rows"), variantes)
     return StrategyConfig(strategies, frozenset(cfg.get("grouping_tipos", [])), prec, Path(path),
                           sha256_file(path))
 
@@ -119,7 +145,7 @@ def build_index(chunks: pd.DataFrame, strategy: Strategy, precedence: tuple[str,
     ``chunks`` must carry ``text_row`` (see :func:`attach_text_rows`).
     """
     rank = {t: i for i, t in enumerate(precedence)}
-    sub = chunks.loc[chunks["Tipo"].isin(strategy.tipos), ["text_row", "Tipo"]]
+    sub = chunks.loc[member_mask(chunks, strategy.tipos, strategy.variantes), ["text_row", "Tipo"]]
     if strategy.expected_rows is not None and len(sub) != strategy.expected_rows:
         log.warning("strategy %s: %d chunk rows, strategies.yaml expects %d (other chunk file?)",
                     strategy.name, len(sub), strategy.expected_rows)
