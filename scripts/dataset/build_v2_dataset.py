@@ -8,6 +8,7 @@ Inputs
   original/, lexml/, segmented/chunks_all.csv.gz of this repository
   scripts/dataset/reference_overrides.json   hand-verified resolutions and dropped references
   scripts/dataset/nonstat_lexml_map.tsv      original/nao_articulados stem -> lexml/nao_articulados file
+  scripts/lexml/unmatchable_articles.tsv     cited articles known to have no LexML element (reason)
 
 Outputs (in --out, default ``dataset/``)
   questions.jsonl   one row per question (715)
@@ -28,6 +29,14 @@ Every v1.1 reference is resolved to a document stem of ``original/`` by, in orde
   2. exact match of stem prefix + number + date (from the canonical record);
   3. prefix + number when the canonical record has no date.
 A reference that none of these resolves makes the build fail, so no reference is silently lost.
+Corrections to the canonical list live in the fetcher (a record's ``correction`` field), whose
+reason becomes the ``resolution_note``; a record with ``status`` (``nonexistent_act``,
+``not_found``) resolves to no document.
+
+Guards (rebuild plan §3.3): the build fails on a dead override (a ``files`` entry for a file name
+that is not in the canonical list, or that every citing reference drops) and on a contradiction (``not_in_corpus``
+while the canonical record resolves automatically); it warns on a redundant override (same answer as
+the automatic resolution) and lists the documents no question cites.
 """
 
 import argparse
@@ -152,7 +161,7 @@ def provisions_from(units, doc_ids, cited_title):
         if frag and doc_ids:
             found = locate(frag, doc_ids, prefer_annex=bool(u.annex) or bool(RIR.search(cited_title or "")))
         out.append({"label": u.label, "article_id": u.article_id, "fragment_id": frag, "annex": u.annex,
-                    "lexml_file": found})
+                    "lexml_file": found, "matchable": bool(frag and found)})
     return out
 
 
@@ -171,7 +180,9 @@ def load_documents():
     nonstat = {r["stem"]: r["lexml_file"] for r in csv.DictReader(open(HERE / "nonstat_lexml_map.tsv"), delimiter="\t")}
     docs, ids = {}, {}
     for statutory, folder in ((True, "articulados"), (False, "nao_articulados")):
-        for f in sorted((ROOT / "original" / folder).glob("*.docx")):
+        # non-statutory sources may be PDFs (parsed from lexml/nao_articulados/_text/<stem>.txt)
+        suffixes = (".docx",) if statutory else (".docx", ".pdf")
+        for f in sorted(p for p in (ROOT / "original" / folder).iterdir() if p.suffix in suffixes):
             stem = f.stem
             lexml = ROOT / "lexml" / folder / (f"{stem}.xml" if statutory else nonstat[stem])
             urn, title, xml_ids = xml_info(lexml)
@@ -197,6 +208,21 @@ def load_documents():
 
 # ---------------------------------------------------------------- resolution
 
+def resolve_auto(canon_rec, stems):
+    """(document_id, resolution, note) from the canonical record alone (no overrides)."""
+    note = (canon_rec.get("correction") or {}).get("reason")
+    if canon_rec.get("status"):
+        return None, canon_rec["status"], note
+    pfx, num, date = PREFIX.get(canon_rec["type_slug"]), norm_number(canon_rec["number"]), norm_date(canon_rec["date"])
+    parsed = {s: m for s in stems if (m := STEM_RE.match(s))}
+    if pfx and num:
+        hits = [s for s, m in parsed.items() if m["prefix"] == pfx and norm_number(m["num"]) == num
+                and (m["date"] == date if date else True)]
+        if len(hits) == 1:
+            return hits[0], "auto_exact" if date else "auto_undated", note
+    return None, None, None
+
+
 def resolve(canon_rec, stems, overrides):
     """(document_id, resolution, note) for one v1.1 file name."""
     ov = overrides.get(canon_rec["filename"])
@@ -204,14 +230,48 @@ def resolve(canon_rec, stems, overrides):
         if ov["document_id"] and ov["document_id"] not in stems:
             sys.exit(f"override points at unknown stem: {ov['document_id']}")
         return ov["document_id"], ("override" if ov["document_id"] else ov.get("status", "not_in_corpus")), ov["reason"]
-    pfx, num, date = PREFIX.get(canon_rec["type_slug"]), norm_number(canon_rec["number"]), norm_date(canon_rec["date"])
-    parsed = {s: m for s in stems if (m := STEM_RE.match(s))}
-    if pfx and num:
-        hits = [s for s, m in parsed.items() if m["prefix"] == pfx and norm_number(m["num"]) == num
-                and (m["date"] == date if date else True)]
-        if len(hits) == 1:
-            return hits[0], "auto_exact" if date else "auto_undated", None
-    return None, None, None
+    return resolve_auto(canon_rec, stems)
+
+
+def check_overrides(canon, overrides, docs, drops, questions):
+    """Build guards on ``files`` overrides (rebuild plan §3.3). Returns warnings; exits on errors."""
+    cited = defaultdict(set)  # v1.1 file name -> questions citing it
+    for q in questions:
+        for field in ("formatted_references", "formatted_embedded_references"):
+            for e in q[field] or []:
+                if e.get("file"):
+                    cited[e["file"]].add(q["question_number"])
+    errors, warnings = [], []
+    for fname, ov in overrides.items():
+        if fname not in canon:
+            errors.append(f"dead override (no canonical record): {fname}")
+            continue
+        qs = cited.get(fname, set())
+        if qs and all((q, fname) in drops for q in qs):
+            errors.append(f"dead override (every reference using it is dropped): {fname}")
+            continue
+        if not qs:  # still needed: every canonical file name must resolve
+            warnings.append(f"override for a file name no question cites: {fname}")
+        auto = resolve_auto(canon[fname], docs)
+        if ov["document_id"] is None and auto[1] in ("auto_exact", "auto_undated"):
+            errors.append(f"contradiction: override says {ov.get('status', 'not_in_corpus')} but the canonical "
+                          f"record resolves to {auto[0]}: {fname}")
+        elif ov["document_id"] is not None and auto[0] == ov["document_id"]:
+            warnings.append(f"redundant override (the canonical record resolves to the same document): {fname}")
+    if errors:
+        sys.exit("reference_overrides.json:\n  " + "\n  ".join(errors))
+    return warnings
+
+
+def load_unmatchable():
+    """(document_id, article_id) -> reason, from scripts/lexml/unmatchable_articles.tsv."""
+    path = ROOT / "scripts" / "lexml" / "unmatchable_articles.tsv"
+    out = {}
+    if path.exists():
+        for row in csv.DictReader((ln for ln in open(path, encoding="utf-8") if not ln.startswith("#")),
+                                  delimiter="\t"):
+            out[(row["document_id"], row["article_id"])] = row["reason"]
+    return out
 
 
 def main():
@@ -224,6 +284,7 @@ def main():
 
     questions = json.load(open(args.questions, encoding="utf-8"))
     canon = {c["filename"]: c for c in json.load(open(args.canonical, encoding="utf-8"))}
+    unmatchable = load_unmatchable()
     ov_all = json.load(open(HERE / "reference_overrides.json", encoding="utf-8"))
     overrides = ov_all["files"]
     drops = {(d["question_number"], d["file"]): d["reason"] for d in ov_all["drop"]}
@@ -237,6 +298,9 @@ def main():
         if doc_id not in docs:
             sys.exit(f"reassign points at unknown stem: {doc_id}")
 
+    override_warnings = check_overrides(canon, overrides, docs, drops, questions)
+    for w in override_warnings:
+        print("warning:", w, file=sys.stderr)
     resolved = {}
     for fname, rec in canon.items():
         resolved[fname] = resolve(rec, docs, overrides)
@@ -272,6 +336,12 @@ def main():
                 units = parse(ov["citation"]) if ov else [u for ch in att.chains for u in chain_units(ch)]
                 provisions = provisions_from(units, xml_ids.get(doc_id), e.get("título"))
                 art_ids = list(dict.fromkeys(p["article_id"] for p in provisions if p["article_id"]))
+                if doc_id:
+                    _, main_ids, annexes = xml_ids[doc_id]
+                    all_ids = main_ids.union(*annexes.values())
+                    art_unmatchable = [a for a in art_ids if a not in all_ids]
+                else:
+                    art_unmatchable = []
                 k += 1
                 missing_v1 = [a for a in v1_article_ids(e) if a not in art_ids]
                 if missing_v1:
@@ -288,6 +358,9 @@ def main():
                     "resolution_note": note,
                     "citation_text": att.pieces,
                     "article_ids": art_ids,
+                    "article_ids_unmatchable": art_unmatchable,
+                    "unmatchable_reasons": {a: unmatchable[(doc_id, a)] for a in art_unmatchable
+                                            if (doc_id, a) in unmatchable},
                     "provisions": provisions,
                     "provisions_note": ov["reason"] if ov else None,
                     "annexes": list(dict.fromkeys(clean_list(e.get("anexos")) + [p["annex"] for p in provisions if p["annex"] and not p["article_id"]])),
@@ -346,19 +419,26 @@ def main():
             chunk_urns.add(row["doc_urn"])
     urn_count = Counter(d["urn"] for d in d_rows)
 
-    try:
-        commit = subprocess.check_output(["git", "-C", str(ROOT), "rev-parse", "HEAD"], text=True).strip()
-        dirty = bool(subprocess.check_output(["git", "-C", str(ROOT), "status", "--porcelain"], text=True).strip())
-    except Exception:
-        commit, dirty = None, None
+    def git_state(repo):
+        try:
+            commit = subprocess.check_output(["git", "-C", str(repo), "rev-parse", "HEAD"], text=True).strip()
+            dirty = bool(subprocess.check_output(["git", "-C", str(repo), "status", "--porcelain"], text=True).strip())
+        except Exception:
+            commit, dirty = None, None
+        return commit, dirty
+
+    commit, dirty = git_state(ROOT)
+    fetcher_commit, fetcher_dirty = git_state(Path(args.canonical).resolve().parents[1])
 
     report = {
         "timestamp": datetime.now().isoformat(timespec="seconds"),
-        "git": {"commit": commit, "dirty": dirty},
+        "git": {"commit": commit, "dirty": dirty,
+                "fetcher_commit": fetcher_commit, "fetcher_dirty": fetcher_dirty},
         "inputs_sha256": {"questions": sha256(args.questions), "canonical": sha256(args.canonical),
                           "reference_overrides": sha256(HERE / "reference_overrides.json"),
                           "citations_py": sha256(HERE / "citations.py"),
                           "nonstat_lexml_map": sha256(HERE / "nonstat_lexml_map.tsv")},
+        "override_warnings": override_warnings,
         "counts": {
             "questions": len(q_rows),
             "questions_with_references": sum(1 for q in q_rows if any(r["question_number"] == q["question_number"] for r in r_rows)),
@@ -379,7 +459,10 @@ def main():
             "article_ids_checked": art_total,
             "article_ids_found_in_main_xml": art_found,
             "article_ids_found_only_in_annex_xml": art_in_annex,
-            "article_ids_missing": [{"reference_id": a, "document_id": b, "article_id": c} for a, b, c in art_missing],
+            "article_ids_missing": [{"reference_id": a, "document_id": b, "article_id": c,
+                                     "unmatchable_reason": unmatchable.get((b, c))} for a, b, c in art_missing],
+            "article_ids_missing_unexplained": sorted({f"{b} {c}" for _, b, c in art_missing if (b, c) not in unmatchable}),
+            "provisions_unmatchable": sum(1 for r in r_rows if r["document_id"] for p in r["provisions"] if not p["matchable"]),
             "provisions": dict(frag_counts),
             "fragment_ids_missing": frag_missing,
             "citation_chains_not_attributed": orphans,
@@ -401,6 +484,9 @@ def main():
     print(f"questions {c['questions']}  references {c['references']} {dict(c['references_by_resolution'])}  "
           f"documents {c['documents']} (cited {c['documents_cited']})  dropped {len(dropped)}  "
           f"articles found {art_found}+{art_in_annex} (annex)/{art_total}  provisions {dict(frag_counts)}")
+    if report["documents_not_cited"]:
+        print(f"warning: {len(report['documents_not_cited'])} documents no question cites "
+              "(build_report.json -> documents_not_cited)", file=sys.stderr)
     if orphans:
         sys.exit(f"{len(orphans)} citation chains not attributed to any reference (build_report.json -> "
                  "validation.citation_chains_not_attributed); add a 'citations' override")
