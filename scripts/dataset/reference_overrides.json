@@ -195,6 +195,11 @@
       "question_number": "313",
       "file": "Parecer Cosit nº 30, de 28 de setembro de 2001.txt",
       "reason": "user fix (2026-10-07): no such act exists; v1/v2 matched the unrelated ADE Cosit nº 30, de 23/07/2001 (US dollar rate)"
+    },
+    {
+      "question_number": "144",
+      "file": "Convenção de Viena sobre o Direito dos Tratados.txt",
+      "reason": "user fix (2026-10-08): the 'Convenção de Viena' of Q144 is the Convention on Diplomatic Relations (Decreto nº 56.435/1965, already reference 144-01), not the Convention on the Law of Treaties (Decreto nº 7.030/2009); review answers note §2.1, N1"
     }
   ],
   "reassign": [
@@ -254,6 +259,70 @@
       "source": "art. 5º; § 2º, inciso III",
       "citation": "art. 5º e § 2º, inciso III",
       "reason": "the source separates '§ 2º, inciso III' from 'art. 5º' with ';' (typo for ','); both the article and its § 2º, inciso III are kept"
+    },
+    {
+      "question_number": "018",
+      "origin": "explicit",
+      "file": "Lei nº 9.250, de 26 de dezembro de 1995.txt",
+      "source": "art.10, inciso X",
+      "citation": "art. 10, inciso IX",
+      "reason": "user fix (2026-10-08, review answers note §2.3 (c)): art. 10 of Lei 9.250 ends at inciso IX, whose amount (R$ 16.754,34) is the one the answer quotes; 'inciso X' is a citation error in the P&R"
+    },
+    {
+      "question_number": "093",
+      "origin": "explicit",
+      "file": "Lei nº 6.015.txt",
+      "source": "art. 167, inciso I, itens 24 e 25",
+      "citation": "art. 167, inciso I, alíneas \"x\" e \"y\"",
+      "reason": "user fix (2026-10-08, review answers note §2.3 (c)): the Câmara compilation of Lei 6.015 letters the items of art. 167, I as alíneas a), b)…; the official text numbers them 1), 2)…. items 24 and 25 are alíneas \"x\" and \"y\" (art167_cpt_inc1_ali24, ali25), same content"
+    },
+    {
+      "question_number": "093",
+      "origin": "embedded",
+      "file": "Lei nº 6.015.txt",
+      "source": "art. 167, inciso I, itens 24 e 25",
+      "citation": "art. 167, inciso I, alíneas \"x\" e \"y\"",
+      "reason": "user fix (2026-10-08, review answers note §2.3 (c)): the Câmara compilation of Lei 6.015 letters the items of art. 167, I as alíneas a), b)…; the official text numbers them 1), 2)…. items 24 and 25 are alíneas \"x\" and \"y\" (art167_cpt_inc1_ali24, ali25), same content"
+    },
+    {
+      "question_number": "209",
+      "origin": "explicit",
+      "file": "Lei nº 6.015.txt",
+      "source": "arts. 167, inciso I, item 7, e 220, inciso V",
+      "citation": "arts. 167, inciso I, alínea \"g\", e 220, inciso V",
+      "reason": "user fix (2026-10-08, review answers note §2.3 (c)): the Câmara compilation of Lei 6.015 letters the items of art. 167, I as alíneas a), b)…; the official text numbers them 1), 2)…. Item 7 is alínea \"g\" (art167_cpt_inc1_ali7), same content"
+    },
+    {
+      "question_number": "460",
+      "origin": "explicit",
+      "file": "Instrução Normativa RFB nº 2.178.txt",
+      "source": "art. 11, § 2º, inciso II",
+      "citation": "art. 11, § 3º, inciso II",
+      "reason": "user fix (2026-10-08, review answers note §2.3 (c)): § 2º of art. 11 (trusts) has no incisos; the R$ 5.000,00 threshold the answer applies is § 3º, inciso II; citation error in the P&R"
+    },
+    {
+      "question_number": "683",
+      "origin": "explicit",
+      "file": "Lei nº 12.350.txt",
+      "source": "art. 45, § 3º",
+      "citation": "art. 45",
+      "reason": "user fix (2026-10-08, review answers note §2.3 (c)): art. 45 rewrites art. 8 of Lei 9.959 and the cited § 3º is inside that quoted wording, which has no id of its own; mapped to the whole article (Q683 also cites Lei 9.959 art. 8 § 3º directly, 683-01)"
+    },
+    {
+      "question_number": "708",
+      "origin": "explicit",
+      "file": "Lei nº 11.033.txt",
+      "source": "art. 3º, incisos II a V, e parágrafo único",
+      "citation": "art. 3º, incisos II a V, e § 1º",
+      "reason": "user fix (2026-10-08, review answers note §2.3 (c)): Lei 14.754/2023 turned the parágrafo único of art. 3 into § 1º (from 2024-01-01); the corpus text has the new numbering (art3_par1)"
+    },
+    {
+      "question_number": "708",
+      "origin": "embedded",
+      "file": "Lei nº 11.033.txt",
+      "source": "parágrafo único do art. 3º",
+      "citation": "§ 1º do art. 3º",
+      "reason": "user fix (2026-10-08, review answers note §2.3 (c)): Lei 14.754/2023 turned the parágrafo único of art. 3 into § 1º (from 2024-01-01); the corpus text has the new numbering (art3_par1)"
     }
   ]
 }
