@@ -1,4 +1,4 @@
-# CMD: java -jar /tmp/claude-0/-work-unicamp-articles-RAG-evaluation-lexml-parser-projeto-lei/4e4ae71e-dfba-49e3-8901-26c7e43b2a76/scratchpad/phase2.jar parse -m application/vnd.openxmlformats-officedocument.wordprocessingml.document -i original/articulados/lei_8023_19900412.docx -o lexml/articulados_phase2/lei_8023_19900412.xml --write-errors-to-file lexml/articulados_phase2/lei_8023_19900412.err.log -a federal -t lei -n 8023 --data 1990-04-12 --linker /usr/local/bin/linkertool
+# CMD: java -jar /work/doutorado/artigos/RAG_evaluation/lexml-parser-projeto-lei/target/lexml-parser-projeto-lei-1.15.0-onejar.jar parse -m application/vnd.openxmlformats-officedocument.wordprocessingml.document -i original/articulados/lei_8023_19900412.docx -o lexml/articulados_new/lei_8023_19900412.xml --write-errors-to-file lexml/articulados_new/lei_8023_19900412.err.log -a federal -t lei -n 8023 --data 1990-04-12 --prof-regex-justificativa '(?!)' --linker /usr/local/bin/linkertool
 # ---
 Problem type = [3: Dispositivos com descontinuidade., categoria: [1: Erro de técnica legislativa]], pos = ArraySeq(Art. 11., Art. 13.), msg = None, context=List()
 

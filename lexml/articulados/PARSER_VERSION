@@ -1,0 +1,9 @@
+# Statutory LexML of this folder (rebuild plan docs/20261007_180833_corpus_fixes_and_full_rebuild_plan.md, R3b)
+parser_repo: ../lexml-parser-projeto-lei
+parser_commit: ebf6567b3ebd2794b716339cc19ac25734216122
+jar: target/lexml-parser-projeto-lei-1.15.0-onejar.jar (mvn -Ponejar package -DskipTests, built 2026-10-08)
+jar_sha256: 5196351950546324ddc27cd6752cc13ee557e7b89c1eafa7d4a6ac8bfd46a766
+driver: scripts/batch_parse.py --no-justificativa --linker /usr/local/bin/linkertool (batch_parse.py at 6142756; see that repo's work_history/20261008_001450_*)
+linker: /usr/local/bin/linkertool -> lexml-linker/dist-newstyle/.../linkertool, sha256 ba7d0a50ac5c94efc3c521d0098dda2ea63a201b0ab53f17279cf05bba4f014f
+locale: LC_ALL=C.UTF-8 (set by batch_parse.py)
+reproducibility: 440 of the 451 files shared with the previous parse are byte-identical; the other 11 differ by the .docx repairs (7 files of 6 documents) or by Remissao links only (4 files, same text)

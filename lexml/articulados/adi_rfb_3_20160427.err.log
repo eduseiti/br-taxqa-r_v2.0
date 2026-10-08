@@ -1,0 +1,12 @@
+# CMD: java -jar /work/doutorado/artigos/RAG_evaluation/lexml-parser-projeto-lei/target/lexml-parser-projeto-lei-1.15.0-onejar.jar parse -m application/vnd.openxmlformats-officedocument.wordprocessingml.document -i original/articulados/adi_rfb_3_20160427.docx -o lexml/articulados_new/adi_rfb_3_20160427.xml --write-errors-to-file lexml/articulados_new/adi_rfb_3_20160427.err.log -a 'ministerio.fazenda;secretaria.receita.federal.brasil' -t ato.declaratorio.interpretativo -n 3 --data 2016-04-27 --prof-regex-epigrafe '^ato declaratorio interpretativo' --prof-regex-epigrafe-continuacao '^ato declaratorio interpretativo%^n[oº°˚]' --prof-regex-pos-epigrafe '^\[%^publicado no%^norma federal' --prof-regex-preambulo '^(o |a )?secretari[oa]%^[ao] coordenador%^a diretoria colegiada%^o ministro presidente%^o presidente d%^o comite gestor' --prof-epigrafe-head 'ATO DECLARATÓRIO INTERPRETATIVO' --prof-regex-justificativa '(?!)' --linker /usr/local/bin/linkertool
+# ---
+Setting up logging
+Calling Configurator
+Configurator.initialize finished
+Logging set up
+
+[DEBUG reconhecePreambulo] preAmbulo: 'List(Paragraph(O SECRETÁRIO DA RECEITA FEDERAL DO BRASIL, no uso das atribuições que lhe conferem os incisos III e XXVI do art. 280 do Regimento Interno da Secretaria da Receita Federal do Brasil, aprovado pela Portaria MF nº 203, de 14 de maio de 2012, e tendo em vista o disposto no § 2º do art. 62 da Constituição Federal, declara:, fechasAspas = false))'
+
+[DEBUG reconhecePreambulo] posPreambulo1 ++ posPreambulo: 'List(Paragraph(Art. 1º Os arts. 1º e 2º da Lei nº 13.259, de 16 de março de 2016, conversão da Medida Provisória nº 692, de 22 de setembro de 2015, produzirão efeitos a partir de 1º de janeiro de 2017., fechasAspas = false), Paragraph(JORGE ANTONIO DEHER RACHID, fechasAspas = false))'
+
+[DEBUG parseArticulacao] elementos: 'MarcadoresResult(List((Articulacao,List(Paragraph(Art. 1º Os arts. 1º e 2º da Lei nº 13.259, de 16 de março de 2016, conversão da Medida Provisória nº 692, de 22 de setembro de 2015, produzirão efeitos a partir de 1º de janeiro de 2017., fechasAspas = false), Paragraph(JORGE ANTONIO DEHER RACHID, fechasAspas = false)))))'

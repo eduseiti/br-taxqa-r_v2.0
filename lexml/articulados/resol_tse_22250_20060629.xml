@@ -1,0 +1,2596 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <!--       xsi:schemaLocation="http://www.lexml.gov.br/1.0 http://projeto.lexml.gov.br/esquemas/lexml-br-rigido.xsd" > -->
+      <Metadado>
+      <Identificacao URN="urn:lex:br:tribunal.superior.eleitoral:resolucao:2006-06-29;22250"/>
+    </Metadado>
+      <ProjetoNorma><Norma>
+          <ParteInicial>
+      <Epigrafe id="epigrafe">RESOLUÇÃO Nº 22.250, DE 29 DE JUNHO DE 2006 </Epigrafe>
+		  <Ementa id="ementa">Ementa:Dispõe sobre a arrecadação e a aplicação de recursos nas campanhas eleitorais e sobre a prestação de contas.
+</Ementa>
+      <Preambulo id="preambulo"><p>
+    O Tribunal Superior Eleitoral, usando das atribuições que lhe conferem o art. 23, IX, do Código Eleitoral, o art. 105 da Lei nº 9.504, de 30 de setembro de 1997, e o art. 2º da Lei nº 11.300, de 10 de maio de 2006, resolve:
+  </p></Preambulo>
+    </ParteInicial>
+          <Articulacao><Titulo id="tit1">
+            
+            
+            <Rotulo>TÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DA ARRECADAÇÃO E APLICAÇÃO DE RECURSOS
+
+  </NomeAgrupador>
+            <Capitulo id="tit1_cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DAS DISPOSIÇÕES GERAIS
+
+  </NomeAgrupador>
+            <Artigo id="art1">
+            
+            
+            <Rotulo>Art. 1º</Rotulo>
+            
+            <Caput id="art1_cpt">
+            
+            
+            
+            <p>
+    Sob pena de rejeição das contas, a arrecadação de recursos e a realização de gastos por candidatos e comitês financeiros só poderão ocorrer após observância dos seguintes requisitos:
+
+  </p>
+            <Inciso id="art1_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    solicitação do registro do candidato;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    solicitação do registro do comitê financeiro;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    inscrição no Cadastro Nacional da Pessoa Jurídica (CNPJ);
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    abertura de conta bancária específica para a movimentação financeira de campanha, salvo para os candidatos a vice e a suplente;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    obtenção dos recibos eleitorais.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art1_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Para os fins destas instruções, são considerados recursos, ainda que fornecidos pelo próprio candidato:
+
+  </p>
+            <Inciso id="art1_par1u_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    cheque ou transferência bancária;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_par1u_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    título de crédito;
+
+  </p>
+            
+          </Inciso><Inciso id="art1_par1u_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    bens e serviços estimáveis em dinheiro.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Secao id="tit1_cap1_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Do Limite de Gastos
+
+  </NomeAgrupador>
+            <Artigo id="art2">
+            
+            
+            <Rotulo>Art. 2º</Rotulo>
+            
+            <Caput id="art2_cpt">
+            
+            
+            
+            <p>
+    Juntamente com o pedido de registro de seus candidatos, os partidos políticos comunicarão à Justiça Eleitoral os valores máximos de gastos que farão por candidatura em cada eleição em que concorrerem (Lei nº 9.504/97, art. 18, cabeça do artigo).
+
+  </p>
+            
+          </Caput><Paragrafo id="art2_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os valores máximos de gastos relativos à candidatura de vice ou de suplente serão incluídos naqueles pertinentes à candidatura do titular e serão informados pelo partido político a que forem filiados os candidatos a presidente da República, governador ou senador.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Tratando-se de coligação, cada partido político que a integra fixará para seus candidatos o valor máximo de gastos de que trata este artigo (Lei nº 9.504/97, art. 18, § 1º).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art2_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Gastar recursos além dos valores declarados nos termos deste artigo sujeita o responsável ao pagamento de multa no valor de cinco a dez vezes a quantia em excesso, a qual deverá ser recolhida no prazo de cinco dias úteis, contados da intimação; o responsável pode responder, ainda, por abuso do poder econômico, nos termos do art. 22 da Lei Complementar nº 64/90 (Lei nº 9.504/97, art. 18, § 2º).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="tit1_cap1_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Dos Recibos Eleitorais
+
+  </NomeAgrupador>
+            <Artigo id="art3">
+            
+            
+            <Rotulo>Art. 3º</Rotulo>
+            
+            <Caput id="art3_cpt">
+            
+            
+            
+            <p>
+    Os recibos eleitorais são documentos oficiais que viabilizam e tornam legítima a arrecadação de recursos para a campanha, considerando-se imprescindíveis seja qual for a natureza do recurso, ainda que do próprio candidato, não se eximindo desta obrigação aquele que, por qualquer motivo, não disponha dos recibos.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art4">
+            
+            
+            <Rotulo>Art. 4º</Rotulo>
+            
+            <Caput id="art4_cpt">
+            
+            
+            
+            <p>
+    Os diretórios nacionais dos partidos políticos são responsáveis pela confecção dos recibos eleitorais, conforme anexo I, e pela distribuição aos respectivos comitês financeiros nacionais, estaduais ou distritais, que deverão repassá-los aos candidatos antes do início da arrecadação de recursos.
+
+  </p>
+            
+          </Caput><Paragrafo id="art4_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O diretório nacional poderá delegar aos diretórios regionais, por autorização expressa, competência para confecção e distribuição dos recibos eleitorais, sem prejuízo da responsabilidade prevista no caputdeste artigo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os recibos terão numeração seriada única com onze dígitos, devendo ser iniciada com o número do partido político.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art4_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O candidato que não receber os recibos eleitorais deverá retirálos no respectivo comitê financeiro, antes do início da arrecadação.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art5">
+            
+            
+            <Rotulo>Art. 5º</Rotulo>
+            
+            <Caput id="art5_cpt">
+            
+            
+            
+            <p>
+    Os diretórios nacionais dos partidos políticos deverão informar, por meio do Sistema de Recibos Eleitorais, instituído pelo Tribunal Superior Eleitoral:
+
+  </p>
+            <Inciso id="art5_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a relação dos recibos eleitorais distribuídos, com indicação da numeração seqüencial e dos respectivos comitês financeiros beneficiários;
+
+  </p>
+            
+          </Inciso><Inciso id="art5_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    o nome, o endereço, o número de inscrição no CNPJ e o telefone da empresa responsável pela confecção dos recibos eleitorais, bem como o valor, o número, a data de emissão do documento fiscal e a quantidade de recibos confeccionados.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art5_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    As informações de que trata este artigo deverão ser encaminhadas até oito dias após cada eleição.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="tit1_cap1_sec3">
+            
+            
+            <Rotulo>Seção III</Rotulo>
+            <NomeAgrupador>
+    Dos Comitês Financeiros dos Partidos Políticos
+
+  </NomeAgrupador>
+            <Artigo id="art6">
+            
+            
+            <Rotulo>Art. 6º</Rotulo>
+            
+            <Caput id="art6_cpt">
+            
+            
+            
+            <p>
+    Até dez dias úteis após a escolha de seus candidatos em convenção, o partido constituirá comitês financeiros, com a finalidade de arrecadar recursos e aplicá-los nas campanhas eleitorais, podendo optar pela criação de (Lei nº 9.504/97, art. 19, cabeça do artigo):
+
+  </p>
+            <Inciso id="art6_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    um único comitê que compreenda todas as eleições de determinada circunscrição; ou II - um comitê para cada eleição em que o partido apresente candidato próprio, na forma descrita a seguir:
+
+  </p>
+            <Alinea id="art6_cpt_inc1_ali1">
+            
+            
+            <Rotulo>a)</Rotulo>
+            <p>
+    comitê financeiro nacional para presidente da República;
+
+  </p>
+            
+          </Alinea><Alinea id="art6_cpt_inc1_ali2">
+            
+            
+            <Rotulo>b)</Rotulo>
+            <p>
+    comitê financeiro estadual ou distrital para governador;
+
+  </p>
+            
+          </Alinea><Alinea id="art6_cpt_inc1_ali3">
+            
+            
+            <Rotulo>c)</Rotulo>
+            <p>
+    comitê financeiro estadual ou distrital para senador;
+
+  </p>
+            
+          </Alinea><Alinea id="art6_cpt_inc1_ali4">
+            
+            
+            <Rotulo>d)</Rotulo>
+            <p>
+    comitê financeiro estadual ou distrital para deputado federal;
+
+  </p>
+            
+          </Alinea><Alinea id="art6_cpt_inc1_ali5">
+            
+            
+            <Rotulo>e)</Rotulo>
+            <p>
+    comitê financeiro estadual ou distrital para deputado estadual ou distrital.
+
+  </p>
+            
+          </Alinea>
+          </Inciso>
+          </Caput><Paragrafo id="art6_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Na eleição presidencial é obrigatória a criação de comitê financeiro nacional e facultativa a de comitês estaduais ou distrital (Lei nº 9.504/97, art. 19, § 2º).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art6_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os comitês financeiros serão constituídos por tantos membros quantos forem indicados pelo partido, sendo obrigatória a designação de, no mínimo, um presidente e um tesoureiro.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art6_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O partido coligado, nas eleições majoritárias, estará dispensado de constituir comitê financeiro, desde que não apresente candidato próprio.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art6_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Não será admitida a constituição de comitê financeiro de coligação partidária.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art7">
+            
+            
+            <Rotulo>Art. 7º</Rotulo>
+            
+            <Caput id="art7_cpt">
+            
+            
+            
+            <p>
+    O comitê financeiro tem por atribuição (Lei nº 9.504/97, arts. 19, 28, §§ 1º e 2º, e 29):
+
+  </p>
+            <Inciso id="art7_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    arrecadar e aplicar recursos de campanha;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    distribuir aos candidatos os recibos eleitorais;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    fornecer aos candidatos orientação sobre os procedimentos de arrecadação e de aplicação de recursos e sobre as respectivas prestações de contas;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    encaminhar à Justiça Eleitoral a prestação de contas dos candidatos às eleições majoritárias, que abrangerá a de seus vices e suplentes;
+
+  </p>
+            
+          </Inciso><Inciso id="art7_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    encaminhar à Justiça Eleitoral a prestação de contas dos candidatos às eleições proporcionais, caso estes não o façam diretamente.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art8">
+            
+            
+            <Rotulo>Art. 8º</Rotulo>
+            
+            <Caput id="art8_cpt">
+            
+            
+            
+            <p>
+    Os comitês financeiros serão registrados, até cinco dias após sua constituição, perante o tribunal eleitoral responsável pelo registro dos candidatos (Lei nº 9.504/97, art. 19, § 3º).
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art9">
+            
+            
+            <Rotulo>Art. 9º</Rotulo>
+            
+            <Caput id="art9_cpt">
+            
+            
+            
+            <p>
+    O pedido de registro do comitê financeiro será protocolado, autuado em classe própria, distribuído por dependência ao relator do pedido de registro dos respectivos candidatos e instruído com:
+
+  </p>
+            <Inciso id="art9_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    cópia da ata da reunião lavrada pelo partido, na qual foi deliberada sua constituição, com a data desta e especificação do tipo de comitê;
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    relação nominal de seus membros, com suas funções, os números de identificação no Cadastro de Pessoas Físicas (CPF) e respectivas assinaturas;
+
+  </p>
+            
+          </Inciso><Inciso id="art9_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    endereço, número do fac-símile ou endereço do correio eletrônico por meio dos quais receberá intimações e comunicados da Justiça Eleitoral.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art9_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A Justiça Eleitoral colocará à disposição dos comitês financeiros sistema próprio para registro das informações a que se referem os incisos II e III deste artigo.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O comitê financeiro deverá encaminhar os formulários devidamente assinados e acompanhados dos respectivos disquetes.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Distribuídos os autos, a Secretaria Judiciária do tribunal eleitoral, de ofício, remeterá o processo à unidade técnica responsável pela análise das contas, para manifestação sobre a regularidade, ou não, da constituição do comitê financeiro, sugerindo, se for o caso, as diligências necessárias.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Em seguida, os autos serão conclusos ao relator, que, se for o caso, determinará o cumprimento de diligências, assinalando prazo não superior a setenta e duas horas, sob pena de indeferimento do pedido de registro do comitê.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Regular a documentação, será deferido o registro do comitê e remetidos os autos à unidade técnica, onde permanecerão até a prestação de contas.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art9_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    Não apresentado o pedido de registro do comitê financeiro, a Secretaria Judiciária certificará o fato nos autos do processo de registro de candidatura, comunicando-o à unidade técnica responsável pela análise das contas partidárias.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="tit1_cap1_sec4">
+            
+            
+            <Rotulo>Seção IV</Rotulo>
+            <NomeAgrupador>
+    Da Conta Bancária
+
+  </NomeAgrupador>
+            <Artigo id="art10">
+            
+            
+            <Rotulo>Art. 10.</Rotulo>
+            
+            <Caput id="art10_cpt">
+            
+            
+            
+            <p>
+    É obrigatória a abertura de conta bancária específica em nome do candidato e do comitê financeiro, para registro de todo o movimento financeiro da campanha, inclusive dos recursos próprios dos candidatos e dos oriundos da comercialização de produtos e realização de eventos, vedado o uso de conta bancária preexistente (Lei nº 9.504/97, art. 22, cabeça do artigo).
+
+  </p>
+            
+          </Caput><Paragrafo id="art10_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A obrigação prevista neste artigo independe de o candidato ou comitê disporem de recursos financeiros.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os candidatos a vice e os suplentes não serão obrigados a abrir conta bancária específica, mas, se o fizerem, os documentos respectivos deverão compor a prestação de contas dos titulares.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A conta bancária vincular-se-á à inscrição no CNPJ que será atribuída em conformidade com o disposto na Instrução Normativa Conjunta SRF/TSE nº 609, de 10 de janeiro de 2006.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    A movimentação bancária de qualquer natureza será feita por meio de cheque nominal ou transferência bancária.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    Os bancos são obrigados a acatar o pedido de abertura de conta de qualquer comitê financeiro ou candidato escolhido em convenção, sendo-lhes vedado condicioná-la a depósito mínimo (Lei nº 9.504/97, art. 22, § 1º).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art10_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    O uso de recursos financeiros para pagamentos de gastos eleitorais que não provenham da conta específica de que trata a cabeça deste artigo implicará a desaprovação da prestação de contas do partido ou candidato; comprovado abuso do poder econômico, será cancelado o registro da candidatura ou cassado o diploma, se já houver sido outorgado (Lei nº 9.504/97, art. 22, § 3º, acrescentado pela Lei nº 11.300/2006).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art11">
+            
+            
+            <Rotulo>Art. 11.</Rotulo>
+            
+            <Caput id="art11_cpt">
+            
+            
+            
+            <p>
+    A conta bancária deve ser aberta mediante a apresentação dos seguintes documentos:
+
+  </p>
+            <Inciso id="art11_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Requerimento de Abertura de Conta Eleitoral (RACE), conforme anexo II, disponível na página dos tribunais eleitorais;
+
+  </p>
+            
+          </Inciso><Inciso id="art11_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    comprovante de inscrição no CNPJ para as eleições, disponível na página da Secretaria da Receita Federal.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art11_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    No caso de comitê financeiro, a conta bancária aberta para campanha eleitoral deve ser identificada com a denominação “ELEIÇÕES (ano) - COMITÊ FINANCEIRO - cargo eletivo ou a expressão ÚNICO - sigla do partido”.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art11_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    No caso de candidato, a conta bancária aberta para campanha eleitoral deve ser identificada com a denominação “ELEIÇÕES (ano) - nome do candidato - cargo eletivo”.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="tit1_cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DA ARRECADAÇÃO
+
+  </NomeAgrupador>
+            <Secao id="tit1_cap2_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Das Origens dos Recursos
+
+  </NomeAgrupador>
+            <Artigo id="art12">
+            
+            
+            <Rotulo>Art. 12.</Rotulo>
+            
+            <Caput id="art12_cpt">
+            
+            
+            
+            <p>
+    Os recursos destinados às campanhas eleitorais, respeitados os limites previstos nestas instruções, são os seguintes:
+
+  </p>
+            <Inciso id="art12_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    recursos próprios;
+
+  </p>
+            
+          </Inciso><Inciso id="art12_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    doações de pessoas físicas;
+
+  </p>
+            
+          </Inciso><Inciso id="art12_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    doações de pessoas jurídicas;
+
+  </p>
+            
+          </Inciso><Inciso id="art12_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    doações de comitês financeiros ou partidos;
+
+  </p>
+            
+          </Inciso><Inciso id="art12_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    repasse de recursos provenientes do Fundo Partidário;
+
+  </p>
+            
+          </Inciso><Inciso id="art12_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    receita decorrente da comercialização de bens ou da realização de eventos.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art13">
+            
+            
+            <Rotulo>Art. 13.</Rotulo>
+            
+            <Caput id="art13_cpt">
+            
+            
+            
+            <p>
+    É vedado a partido e a candidato receber, direta ou indiretamente, doação em dinheiro ou estimável em dinheiro, inclusive por meio de publicidade de qualquer espécie, procedente de (Lei nº 9.504/97, art. 24, I a XI - incisos VIII a XI acrescentados pela Lei nº 11 . 3 0 0 / 2 0 0 6 ) :
+
+  </p>
+            <Inciso id="art13_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    entidade ou governo estrangeiro;
+
+  </p>
+            
+          </Inciso><Inciso id="art13_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    órgão da administração pública direta e indireta ou fundação mantida com recursos provenientes do poder público;
+
+  </p>
+            
+          </Inciso><Inciso id="art13_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    concessionário ou permissionário de serviço público;
+
+  </p>
+            
+          </Inciso><Inciso id="art13_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    entidade de direito privado que receba, na condição de beneficiária, contribuição compulsória em virtude de disposição legal;
+
+  </p>
+            
+          </Inciso><Inciso id="art13_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    entidade de utilidade pública;
+
+  </p>
+            
+          </Inciso><Inciso id="art13_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    entidade de classe ou sindical;
+
+  </p>
+            
+          </Inciso><Inciso id="art13_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    pessoa jurídica sem fins lucrativos que receba recursos do exterior;
+
+  </p>
+            
+          </Inciso><Inciso id="art13_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    entidades beneficentes e religiosas;
+
+  </p>
+            
+          </Inciso><Inciso id="art13_cpt_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    entidades esportivas que recebam recursos públicos;
+
+  </p>
+            
+          </Inciso><Inciso id="art13_cpt_inc10">
+            
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    organizações não-governamentais que recebam recursos públicos;
+
+  </p>
+            
+          </Inciso><Inciso id="art13_cpt_inc11">
+            
+            
+            <Rotulo>XI –</Rotulo>
+            <p>
+    organizações da sociedade civil de interesse público.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art13_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O uso de recursos recebidos de fontes vedadas constitui irregularidade insanável e causa para rejeição das contas, ainda que o valor seja restituído.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="tit1_cap2_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Das Doações
+
+  </NomeAgrupador>
+            <Artigo id="art14">
+            
+            
+            <Rotulo>Art. 14.</Rotulo>
+            
+            <Caput id="art14_cpt">
+            
+            
+            
+            <p>
+    A partir do registro dos comitês financeiros, pessoas físicas e jurídicas poderão fazer doações mediante cheque ou transferência bancária, ou ainda em bens e serviços estimáveis em dinheiro, para campanhas eleitorais. As doações e contribuições ficam limitadas (Lei nº 9.504/97, arts. 23, § 1º, I e II e 81, § 1º):
+
+  </p>
+            <Inciso id="art14_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a 10% dos rendimentos brutos auferidos no ano anterior à eleição, no caso de pessoa física;
+
+  </p>
+            
+          </Inciso><Inciso id="art14_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    a 2% do faturamento bruto do ano anterior à eleição, no caso de pessoa jurídica;
+
+  </p>
+            
+          </Inciso><Inciso id="art14_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    ao valor máximo do limite de gastos estabelecido pelo partido e informado à Justiça Eleitoral, caso o candidato utilize recursos próprios.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art14_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Toda doação a candidato ou a comitê financeiro, inclusive recursos próprios aplicados na campanha, deverá fazer-se mediante recibo eleitoral (Lei nº 9.504/97, art. 23, § 2º).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art14_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A doação de quantia acima dos limites fixados neste artigo sujeita o infrator ao pagamento de multa no valor de cinco a dez vezes a quantia em excesso, sem prejuízo de responder o candidato por abuso do poder econômico, nos termos do art. 22 da Lei Complementar nº 64/90 (Lei nº 9.504/97, arts. 23, § 3º, e 81, § 2º).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art14_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Sem prejuízo do disposto no § 2º deste artigo, a pessoa jurídica que ultrapassar o limite de doação, fixado no inciso II deste artigo, estará sujeita à proibição de participar de licitações públicas e de celebrar contratos com o poder público pelo período de cinco anos, por decisão da Justiça Eleitoral, em processo no qual seja assegurada a ampla defesa (Lei nº 9.504/97, art. 81, § 3º).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art14_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Para verificação da observância dos limites estabelecidos, após consolidação dos valores doados, a Justiça Eleitoral poderá solicitar informações de todos os órgãos que, em razão de sua competência, possam colaborar na apuração.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art15">
+            
+            
+            <Rotulo>Art. 15.</Rotulo>
+            
+            <Caput id="art15_cpt">
+            
+            
+            
+            <p>
+    As doações realizadas entre candidatos e comitês financeiros deverão fazer-se mediante recibo eleitoral e não estarão sujeitas aos limites fixados no art. 14 destas instruções, à exceção daquelas oriundas de recursos próprios dos doadores, se candidatos.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art16">
+            
+            
+            <Rotulo>Art. 16.</Rotulo>
+            
+            <Caput id="art16_cpt">
+            
+            
+            
+            <p>
+    As doações de recursos financeiros somente poderão ser efetuadas na conta mencionada no art. 10 desta resolução por meio de (Lei nº 9.504/97, art. 23, § 4º, com nova redação dada pela Lei nº 11.300/2006, e § 5º, acrescentado pela Lei nº 11.300/2006):
+
+  </p>
+            <Inciso id="art16_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    cheques cruzados e nominais ou transferência eletrônica de depósitos;
+
+  </p>
+            
+          </Inciso><Inciso id="art16_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    depósitos em espécie devidamente identificados com o nome e o número de inscrição no CPF ou CNPJ do doador até os limites fixados nos incisos I e II do art. 14.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art16_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O depósito de doações, em qualquer montante, realizado diretamente em conta bancária, não exime o candidato ou comitê financeiro de emitir o correspondente recibo eleitoral.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art17">
+            
+            
+            <Rotulo>Art. 17.</Rotulo>
+            
+            <Caput id="art17_cpt">
+            
+            
+            
+            <p>
+    Ficam vedadas quaisquer doações em dinheiro, bem como de troféus, prêmios, ajudas de qualquer espécie feitas por candidato, entre o registro e a eleição, a pessoas físicas ou jurídicas (Lei nº 9.504/97, art. 23, § 5º, acrescentado pela Lei nº 11.300/2006).
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="tit1_cap2_sec3">
+            
+            
+            <Rotulo>Seção III</Rotulo>
+            <NomeAgrupador>
+    Da Comercialização de Bens e da Realização de Eventos
+
+  </NomeAgrupador>
+            <Artigo id="art18">
+            
+            
+            <Rotulo>Art. 18.</Rotulo>
+            
+            <Caput id="art18_cpt">
+            
+            
+            
+            <p>
+    Para a comercialização de bens ou a promoção de eventos que se destinem a arrecadar recursos para campanha eleitoral, o comitê financeiro ou candidato deverá:
+
+  </p>
+            <Inciso id="art18_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    comunicar sua realização, formalmente e com antecedência mínima de cinco dias, ao tribunal eleitoral, que poderá determinar a sua fiscalização;
+
+  </p>
+            
+          </Inciso><Inciso id="art18_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    comprovar a sua realização na prestação de contas, apresentando todos os documentos a ela pertinentes, inclusive os de natureza fiscal.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art18_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Os recursos arrecadados com a venda de bens ou com a realização de eventos, destinados a angariar recursos para a campanha eleitoral, serão considerados doação e estarão sujeitos aos limites legais e à emissão de recibos eleitorais.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art18_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O montante bruto dos recursos arrecadados deverá, antes de sua utilização, ser depositado na conta bancária específica.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao><Secao id="tit1_cap2_sec4">
+            
+            
+            <Rotulo>Seção IV</Rotulo>
+            <NomeAgrupador>
+    Da Data Limite para a Arrecadação e Despesas
+
+  </NomeAgrupador>
+            <Artigo id="art19">
+            
+            
+            <Rotulo>Art. 19.</Rotulo>
+            
+            <Caput id="art19_cpt">
+            
+            
+            
+            <p>
+    Os candidatos e comitês financeiros poderão arrecadar recursos e contrair obrigações até o dia da eleição.
+
+  </p>
+            
+          </Caput><Paragrafo id="art19_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Excepcionalmente, será permitida a arrecadação de recursos após o prazo fixado na cabeça deste artigo, exclusivamente para quitação de despesas já contraídas e não pagas até aquela data, as quais deverão estar integralmente quitadas até a data da entrega da prestação de contas à Justiça Eleitoral.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art19_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As despesas já contraídas e não pagas até a data a que se refere a cabeça deste artigo deverão ser comprovadas por documento fiscal emitido na data de sua realização.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao>
+          </Capitulo><Capitulo id="tit1_cap3">
+            
+            
+            <Rotulo>CAPÍTULO III</Rotulo>
+            <NomeAgrupador>
+    DOS GASTOS ELEITORAIS
+
+  </NomeAgrupador>
+            <Secao id="tit1_cap3_sec1">
+            
+            
+            <Rotulo>Seção I</Rotulo>
+            <NomeAgrupador>
+    Disposições Preliminares
+
+  </NomeAgrupador>
+            <Artigo id="art20">
+            
+            
+            <Rotulo>Art. 20.</Rotulo>
+            
+            <Caput id="art20_cpt">
+            
+            
+            
+            <p>
+    São considerados gastos eleitorais, sujeitos a registro e aos limites fixados (Lei nº 9.504/97, art. 26, com incisos acrescentados pela Lei nº 11.300/2006):
+
+  </p>
+            <Inciso id="art20_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    confecção de material impresso de qualquer natureza e tamanho;
+
+  </p>
+            
+          </Inciso><Inciso id="art20_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    propaganda e publicidade direta ou indireta, por qualquer meio de divulgação, destinada a conquistar votos;
+
+  </p>
+            
+          </Inciso><Inciso id="art20_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    aluguel de locais para a promoção de atos de campanha eleitoral;
+
+  </p>
+            
+          </Inciso><Inciso id="art20_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    despesas com transporte ou deslocamento de candidato e de pessoal a serviço das candidaturas (Lei nº 9.504/97, art. 26, inciso IV, com nova redação dada pela Lei nº 11.300/2006);
+
+  </p>
+            
+          </Inciso><Inciso id="art20_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    correspondências e remessas postais;
+
+  </p>
+            
+          </Inciso><Inciso id="art20_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    instalação, organização e funcionamento de comitês e serviços necessários às eleições;
+
+  </p>
+            
+          </Inciso><Inciso id="art20_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    remuneração ou gratificação de qualquer espécie, paga a quem preste serviços às candidaturas ou aos comitês eleitorais;
+
+  </p>
+            
+          </Inciso><Inciso id="art20_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    montagem e operação de carros de som, de propaganda e de assemelhados;
+
+  </p>
+            
+          </Inciso><Inciso id="art20_cpt_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    a realização de comícios ou eventos destinados à promoção de candidatura (Lei nº 9.504/97, art. 26, inciso IX, com nova redação dada pela Lei nº 11.300/2006);
+
+  </p>
+            
+          </Inciso><Inciso id="art20_cpt_inc10">
+            
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    produção de programas de rádio, televisão ou vídeo, inclusive os destinados à propaganda gratuita;
+
+  </p>
+            
+          </Inciso><Inciso id="art20_cpt_inc11">
+            
+            
+            <Rotulo>XI –</Rotulo>
+            <p>
+    realização de pesquisas ou testes pré-eleitorais;
+
+  </p>
+            
+          </Inciso><Inciso id="art20_cpt_inc12">
+            
+            
+            <Rotulo>XII –</Rotulo>
+            <p>
+    aluguel de bens particulares para veiculação, por qualquer meio, de propaganda eleitoral;
+
+  </p>
+            
+          </Inciso><Inciso id="art20_cpt_inc13">
+            
+            
+            <Rotulo>XIII –</Rotulo>
+            <p>
+    criação e inclusão de páginas na Internet;
+
+  </p>
+            
+          </Inciso><Inciso id="art20_cpt_inc14">
+            
+            
+            <Rotulo>XIV –</Rotulo>
+            <p>
+    multas aplicadas, até as eleições, aos partidos ou aos candidatos por infração do disposto na legislação eleitoral;
+
+  </p>
+            
+          </Inciso><Inciso id="art20_cpt_inc15">
+            
+            
+            <Rotulo>XV –</Rotulo>
+            <p>
+    doações para outros candidatos ou comitês financeiros;
+
+  </p>
+            
+          </Inciso><Inciso id="art20_cpt_inc16">
+            
+            
+            <Rotulo>XVI –</Rotulo>
+            <p>
+    produção de jingles, vinhetas e slogans para propaganda eleitoral (Lei nº 9.504/97, art. 26, inciso XVII, acrescentado pela Lei nº 11 . 3 0 0 / 2 0 0 6 ) .
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art20_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O material impresso deve conter o número de inscrição, no CNPJ, da empresa que o confeccionou.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art20_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os gastos efetuados por comitê financeiro, em benefício de candidato ou de outro comitê, serão considerados doações e computados no limite de gastos do doador.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art20_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O beneficiário das doações referidas no § 2º deste artigo deverá registrá-las como receita estimável em dinheiro, emitindo o correspondente recibo eleitoral.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art20_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O pagamento das despesas contraídas pelos candidatos será de sua responsabilidade, cabendo aos comitês financeiros responder apenas pelos gastos que realizarem.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art21">
+            
+            
+            <Rotulo>Art. 21.</Rotulo>
+            
+            <Caput id="art21_cpt">
+            
+            
+            
+            <p>
+    É vedada na campanha eleitoral a confecção, utilização, distribuição por comitê, candidato, ou com a sua autorização, de camisetas, chaveiros, bonés, canetas, brindes, cestas básicas ou quaisquer outros bens ou materiais que possam proporcionar vantagem ao eleitor (Lei nº 9.504/97, art. 39, § 6º, acrescentado pela Lei nº 11 . 3 0 0 / 2 0 0 6 ) .
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art22">
+            
+            
+            <Rotulo>Art. 22.</Rotulo>
+            
+            <Caput id="art22_cpt">
+            
+            
+            
+            <p>
+    Qualquer eleitor poderá realizar gastos, em apoio a candidato de sua preferência, até a quantia equivalente a um mil UFIR, não sujeitos a contabilização, desde que não reembolsados (Lei nº 9.504/97, art. 27).
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Secao><Secao id="tit1_cap3_sec2">
+            
+            
+            <Rotulo>Seção II</Rotulo>
+            <NomeAgrupador>
+    Dos Recursos Não Identificados
+
+  </NomeAgrupador>
+            <Artigo id="art23">
+            
+            
+            <Rotulo>Art. 23.</Rotulo>
+            
+            <Caput id="art23_cpt">
+            
+            
+            
+            <p>
+    Os recursos de origem não identificada não poderão ser utilizados pelos candidatos ou comitês financeiros.
+
+  </p>
+            
+          </Caput><Paragrafo id="art23_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A falta de identificação do doador e/ou da informação de números de identificação inválidos no CPF ou no CNPJ caracteriza o recurso como de origem não identificada.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art23_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Os recursos de que trata este artigo comporão sobras de campanha.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Secao>
+          </Capitulo>
+          </Titulo><Titulo id="tit2">
+            
+            
+            <Rotulo>TÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DA PRESTAÇÃO DE CONTAS
+
+  </NomeAgrupador>
+            <Artigo id="art24">
+            
+            
+            <Rotulo>Art. 24.</Rotulo>
+            
+            <Caput id="art24_cpt">
+            
+            
+            
+            <p>
+    O candidato é solidariamente responsável com a pessoa indicada na forma do art. 20 da Lei nº 9.504/97 pela veracidade das informações financeiras e contábeis de sua campanha, devendo ambos assinar a respectiva prestação de contas (Lei nº 9.504/97, art. 21, com nova redação dada pela Lei nº 11.300/2006).
+
+  </p>
+            
+          </Caput><Paragrafo id="art24_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    O candidato não se exime da responsabilidade prevista neste artigo, alegando ignorância sobre a origem e a destinação dos recursos recebidos em campanha, ou deixando de assinar as peças integrantes da prestação de contas.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Capitulo id="tit2_cap1">
+            
+            
+            <Rotulo>CAPÍTULO I</Rotulo>
+            <NomeAgrupador>
+    DO PRAZO PARA A PRESTAÇÃO DE CONTAS
+
+  </NomeAgrupador>
+            <Artigo id="art25">
+            
+            
+            <Rotulo>Art. 25.</Rotulo>
+            
+            <Caput id="art25_cpt">
+            
+            
+            
+            <p>
+    As contas de candidatos e de comitês financeiros deverão ser prestadas à Justiça Eleitoral até o trigésimo dia posterior à eleição (Lei nº 9.504/97, art. 29, III).
+
+  </p>
+            
+          </Caput><Paragrafo id="art25_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O candidato que disputar o segundo turno deverá apresentar as contas referentes aos dois turnos até o trigésimo dia após a sua realização (Lei nº 9.504/97, art. 29, IV).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art25_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A prestação de contas de comitê financeiro único de partido que tenha candidato ao segundo turno, relativa à movimentação financeira realizada até o primeiro turno, deverá ser apresentada no prazo referente às eleições proporcionais e à de senador.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art25_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Encerrado o segundo turno, o comitê financeiro de que trata o § 2º deste artigo deverá encaminhar, no prazo fixado para apresentação de contas de segundo turno, a prestação de contas complementar, que abrange a arrecadação e a aplicação dos recursos de toda a campanha eleitoral.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="tit2_cap2">
+            
+            
+            <Rotulo>CAPÍTULO II</Rotulo>
+            <NomeAgrupador>
+    DA OBRIGAÇÃO DE PRESTAR CONTAS
+
+  </NomeAgrupador>
+            <Artigo id="art26">
+            
+            
+            <Rotulo>Art. 26.</Rotulo>
+            
+            <Caput id="art26_cpt">
+            
+            
+            
+            <p>
+    Deverão prestar contas à Justiça Eleitoral:
+
+  </p>
+            <Inciso id="art26_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    os candidatos;
+
+  </p>
+            
+          </Inciso><Inciso id="art26_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    os comitês financeiros de partidos políticos.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art26_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O candidato que renunciar à candidatura ou dela desistir, bem como aquele que tiver seu registro indeferido pelo tribunal eleitoral deverão prestar contas correspondentes ao período em que participaram do processo eleitoral.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art26_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Se o candidato falecer, a obrigação de prestar contas, referentes ao período em que realizou campanha, será de responsabilidade de seu administrador financeiro, ou, na sua ausência, no que for possível, da respectiva direção partidária.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art26_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    Os candidatos às eleições majoritárias elaborarão a prestação de contas abrangendo as de seus vices ou suplentes, encaminhando-a, por intermédio do comitê financeiro, à Justiça Eleitoral (Lei nº 9.504/97, art. 28, § 1º).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art26_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    Os candidatos às eleições proporcionais elaborarão a prestação de contas, que será encaminhada à Justiça Eleitoral, diretamente por eles ou por intermédio do comitê financeiro (Lei nº 9.504/97, art. 28, § 2º).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art26_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    A ausência de movimentação de recursos de campanha, financeiros ou não, não isenta o candidato ou o comitê financeiro do dever de prestar contas na forma estabelecida nestas instruções, com a prova dessa ausência por extratos bancários, sem prejuízo de outras provas que a Justiça Eleitoral entenda necessárias.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="tit2_cap3">
+            
+            
+            <Rotulo>CAPÍTULO III</Rotulo>
+            <NomeAgrupador>
+    DAS SOBRAS DE CAMPANHA
+
+  </NomeAgrupador>
+            <Artigo id="art27">
+            
+            
+            <Rotulo>Art. 27.</Rotulo>
+            
+            <Caput id="art27_cpt">
+            
+            
+            
+            <p>
+    Se, ao final da campanha, ocorrer sobra de recursos financeiros, em qualquer montante, essa deverá ser declarada na prestação de contas e, após julgados todos os recursos, transferida ao partido ou coligação, neste caso para divisão entre os partidos que a compõem (Lei nº 9.504/97, art. 31, cabeça do artigo).
+
+  </p>
+            
+          </Caput><Paragrafo id="art27_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    As sobras de recursos financeiros de campanha serão utilizadas pelos partidos políticos, de forma integral e exclusiva, na criação e manutenção de instituto ou fundação de pesquisa e de doutrinação e educação política (Lei nº 9.504/97, art. 31, parágrafo único).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art28">
+            
+            
+            <Rotulo>Art. 28.</Rotulo>
+            
+            <Caput id="art28_cpt">
+            
+            
+            
+            <p>
+    Constituem sobras de campanha:
+
+  </p>
+            <Inciso id="art28_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    a diferença positiva entre os recursos arrecadados e as despesas realizadas em campanha;
+
+  </p>
+            
+          </Inciso><Inciso id="art28_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    os recursos de origem não identificada.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="tit2_cap4">
+            
+            
+            <Rotulo>CAPÍTULO IV</Rotulo>
+            <NomeAgrupador>
+    DAS PEÇAS E DOCUMENTOS A SEREM APRESENTADOS
+
+  </NomeAgrupador>
+            <Artigo id="art29">
+            
+            
+            <Rotulo>Art. 29.</Rotulo>
+            
+            <Caput id="art29_cpt">
+            
+            
+            
+            <p>
+    A prestação de contas deverá ser instruída com os seguintes documentos, ainda que não haja movimentação de recursos financeiros ou estimáveis em dinheiro:
+
+  </p>
+            <Inciso id="art29_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    Ficha de Qualificação do Candidato ou do Comitê Financeiro, conforme o caso;
+
+  </p>
+            
+          </Inciso><Inciso id="art29_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    Demonstrativo dos Recibos Eleitorais Recebidos;
+
+  </p>
+            
+          </Inciso><Inciso id="art29_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    Demonstrativo dos Recibos Eleitorais Distribuídos, no caso de prestação de contas de comitê financeiro;
+
+  </p>
+            
+          </Inciso><Inciso id="art29_cpt_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    Demonstrativo dos Recursos Arrecadados;
+
+  </p>
+            
+          </Inciso><Inciso id="art29_cpt_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    Demonstrativo das Despesas Pagas após a Eleição;
+
+  </p>
+            
+          </Inciso><Inciso id="art29_cpt_inc6">
+            
+            
+            <Rotulo>VI –</Rotulo>
+            <p>
+    Demonstrativo de Receitas e Despesas;
+
+  </p>
+            
+          </Inciso><Inciso id="art29_cpt_inc7">
+            
+            
+            <Rotulo>VII –</Rotulo>
+            <p>
+    Demonstrativo do Resultado da Comercialização de Bens e da Realização de Eventos;
+
+  </p>
+            
+          </Inciso><Inciso id="art29_cpt_inc8">
+            
+            
+            <Rotulo>VIII –</Rotulo>
+            <p>
+    Conciliação Bancária;
+
+  </p>
+            
+          </Inciso><Inciso id="art29_cpt_inc9">
+            
+            
+            <Rotulo>IX –</Rotulo>
+            <p>
+    Termo de Entrega à Justiça Eleitoral dos recibos eleitorais não utilizados, acompanhado dos respectivos recibos;
+
+  </p>
+            
+          </Inciso><Inciso id="art29_cpt_inc10">
+            
+            
+            <Rotulo>X –</Rotulo>
+            <p>
+    Relatório de Despesas Efetuadas;
+
+  </p>
+            
+          </Inciso><Inciso id="art29_cpt_inc11">
+            
+            
+            <Rotulo>XI –</Rotulo>
+            <p>
+    Demonstrativo de Doações Efetuadas a Candidatos ou a Comitês Financeiros;
+
+  </p>
+            
+          </Inciso><Inciso id="art29_cpt_inc12">
+            
+            
+            <Rotulo>XII –</Rotulo>
+            <p>
+    extratos da conta bancária aberta em nome do candidato ou do comitê financeiro, conforme o caso, demonstrando a movimentação ou a ausência de movimentação financeira ocorrida no período de campanha;
+
+  </p>
+            
+          </Inciso><Inciso id="art29_cpt_inc13">
+            
+            
+            <Rotulo>XIII –</Rotulo>
+            <p>
+    canhotos dos recibos eleitorais utilizados em campanha.
+
+  </p>
+            
+          </Inciso>
+          </Caput><Paragrafo id="art29_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    O Demonstrativo dos Recursos Arrecadados conterá todas as doações recebidas, devidamente identificadas, inclusive os recursos próprios, as quais, quando forem estimáveis em dinheiro, serão acompanhadas de notas explicativas com descrição, quantidade, valor unitário e avaliação pelos preços praticados no mercado, com indicação da origem da avaliação e do respectivo recibo eleitoral.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art29_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    O Demonstrativo das Despesas Pagas após a Eleição deverá discriminar as obrigações assumidas até a data do pleito e pagas após esta data.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art29_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    O Demonstrativo de Receitas e Despesas especificará as receitas, as despesas, os saldos e as eventuais sobras de campanha.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art29_par4">
+            
+            
+            <Rotulo>§ 4º</Rotulo>
+            <p>
+    O Demonstrativo do Resultado da Comercialização de Bens e da Realização de Eventos evidenciará:
+
+  </p>
+            <Inciso id="art29_par4_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    o período da comercialização ou realização do evento;
+
+  </p>
+            
+          </Inciso><Inciso id="art29_par4_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    seu valor total;
+
+  </p>
+            
+          </Inciso><Inciso id="art29_par4_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    o valor da aquisição dos bens e serviços ou de seus insumos, ainda que recebidos em doação;
+
+  </p>
+            
+          </Inciso><Inciso id="art29_par4_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    as especificações necessárias à identificação da operação;
+
+  </p>
+            
+          </Inciso><Inciso id="art29_par4_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    a identificação dos doadores.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art29_par5">
+            
+            
+            <Rotulo>§ 5º</Rotulo>
+            <p>
+    A Conciliação Bancária, contendo os débitos e os créditos ainda não lançados pela instituição bancária, deverá ser apresentada quando houver diferença entre o saldo financeiro do Demonstrativo de Receitas e Despesas e o saldo bancário registrado em extrato, de forma a justificá-la.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art29_par6">
+            
+            
+            <Rotulo>§ 6º</Rotulo>
+            <p>
+    Os extratos bancários referidos no inciso XII deste artigo deverão ser entregues em sua forma definitiva, sendo vedada a apresentação de extratos parciais ou que omitam qualquer movimentação ocorrida, sem validade legal ou sujeitos à alteração.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art29_par7">
+            
+            
+            <Rotulo>§ 7º</Rotulo>
+            <p>
+    O Termo de Entrega dos recibos eleitorais não utilizados, referidos no inciso IX deste artigo, integrará os autos de prestação de contas, e ao tribunal eleitoral caberá a guarda dos recibos eleitorais até o trânsito em julgado da decisão sobre prestação de contas, após o que deverão ser inutilizados.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art29_par8">
+            
+            
+            <Rotulo>§ 8º</Rotulo>
+            <p>
+    Os documentos integrantes da prestação de contas deverão ser obrigatoriamente assinados:
+
+  </p>
+            <Inciso id="art29_par8_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    pelo candidato e respectivo administrador financeiro de campanha, caso exista; ou II - no caso de comitê financeiro, pelo seu presidente e pelo tesoureiro.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art29_par9">
+            
+            
+            <Rotulo>§ 9º</Rotulo>
+            <p>
+    As peças referidas nos incisos I a XI deste artigo serão impressas exclusivamente mediante a utilização do Sistema de Prestação de Contas Eleitorais (SPCE), sem prejuízo de sua apresentação em disquete.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art30">
+            
+            
+            <Rotulo>Art. 30.</Rotulo>
+            
+            <Caput id="art30_cpt">
+            
+            
+            
+            <p>
+    A comprovação das receitas arrecadadas dar-se-á pelos canhotos dos recibos eleitorais emitidos e extratos bancários, juntamente com a apresentação dos recibos eleitorais não utilizados.
+
+  </p>
+            
+          </Caput><Paragrafo id="art30_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Na hipótese da arrecadação de bens e serviços estimáveis em dinheiro, a comprovação das receitas dar-se-á pela apresentação, além dos canhotos de recibos eleitorais emitidos, dos seguintes documentos:
+
+  </p>
+            <Inciso id="art30_par1u_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    nota fiscal de doação de bens ou serviços, quando o doador for pessoa jurídica;
+
+  </p>
+            
+          </Inciso><Inciso id="art30_par1u_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    documentos fiscais emitidos em nome do doador ou termo de doação por ele firmado, quando se tratar de bens ou serviços doados por pessoa física;
+
+  </p>
+            
+          </Inciso><Inciso id="art30_par1u_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    termo de cessão, ou documento equivalente, quando se tratar de bens pertencentes ao doador, pessoa física ou jurídica, cedidos temporariamente ao candidato ou ao comitê.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo>
+          </Artigo><Artigo id="art31">
+            
+            
+            <Rotulo>Art. 31.</Rotulo>
+            
+            <Caput id="art31_cpt">
+            
+            
+            
+            <p>
+    A documentação fiscal relacionada aos gastos eleitorais realizados pelos candidatos ou comitês financeiros deverá ser emitida em nome destes, observada a exigência de apresentação, em original ou cópia autenticada, da correspondente nota fiscal ou recibo, este último apenas nas hipóteses permitidas pela legislação fiscal.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo><Capitulo id="tit2_cap5">
+            
+            
+            <Rotulo>CAPÍTULO V</Rotulo>
+            <NomeAgrupador>
+    DO PROCESSAMENTO DA PRESTAÇÃO DE CONTAS
+
+  </NomeAgrupador>
+            <Artigo id="art32">
+            
+            
+            <Rotulo>Art. 32.</Rotulo>
+            
+            <Caput id="art32_cpt">
+            
+            
+            
+            <p>
+    A prestação de contas deverá ser elaborada por meio do SPCE, instituído pelo Tribunal Superior Eleitoral.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art33">
+            
+            
+            <Rotulo>Art. 33.</Rotulo>
+            
+            <Caput id="art33_cpt">
+            
+            
+            
+            <p>
+    Apresentada a prestação de contas, se o número de controle gerado pelo sistema no disquete for idêntico ao existente nas peças por esse impressas, o tribunal eleitoral emitirá o correspondente termo de recebimento da prestação de contas.
+
+  </p>
+            
+          </Caput><Paragrafo id="art33_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Não serão consideradas recebidas na base de dados da Justiça Eleitoral as prestações de contas que apresentarem:
+
+  </p>
+            <Inciso id="art33_par1_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    divergência entre o número de controle constante das peças impressas e o constante do disquete;
+
+  </p>
+            
+          </Inciso><Inciso id="art33_par1_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    inconsistência ou ausência de dados;
+
+  </p>
+            
+          </Inciso><Inciso id="art33_par1_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    falha de leitura do disquete;
+
+  </p>
+            
+          </Inciso><Inciso id="art33_par1_inc4">
+            
+            
+            <Rotulo>IV –</Rotulo>
+            <p>
+    ausência do número de controle nas peças impressas;
+
+  </p>
+            
+          </Inciso><Inciso id="art33_par1_inc5">
+            
+            
+            <Rotulo>V –</Rotulo>
+            <p>
+    qualquer outra falha que impeça a recepção eletrônica das contas na base de dados da Justiça Eleitoral.
+
+  </p>
+            
+          </Inciso>
+          </Paragrafo><Paragrafo id="art33_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Ocorrendo quaisquer das hipóteses especificadas no § 1º deste artigo, o SPCE emitirá aviso de impossibilidade técnica de análise da prestação de contas, a qual deverá ser reapresentada.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="tit2_cap6">
+            
+            
+            <Rotulo>CAPÍTULO VI</Rotulo>
+            <NomeAgrupador>
+    DA ANÁLISE E JULGAMENTO DAS CONTAS
+
+  </NomeAgrupador>
+            <Artigo id="art34">
+            
+            
+            <Rotulo>Art. 34.</Rotulo>
+            
+            <Caput id="art34_cpt">
+            
+            
+            
+            <p>
+    Para efetuar o exame das contas, a Justiça Eleitoral poderá requisitar técnicos do Tribunal de Contas da União, dos estados, do Distrito Federal, bem como de tribunais e conselhos de contas dos municípios, pelo tempo que for necessário (Lei nº 9.504/97, art. 30, § 3º).
+
+  </p>
+            
+          </Caput><Paragrafo id="art34_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Para a requisição de técnicos prevista nestas instruções, devem ser observados os impedimentos aplicáveis aos integrantes de mesas receptoras de votos, previstos no art. 120, § 1º, incisos I, II e III, do Código Eleitoral.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art34_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As razões de recusa apresentadas pelos técnicos requisitados serão submetidas à apreciação da Justiça Eleitoral e somente poderão ser alegadas até cinco dias a contar da designação, salvo na hipótese de motivos supervenientes (Código Eleitoral, art. 120, § 4º).
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art35">
+            
+            
+            <Rotulo>Art. 35.</Rotulo>
+            
+            <Caput id="art35_cpt">
+            
+            
+            
+            <p>
+    Havendo indício de irregularidade na prestação de contas, a Justiça Eleitoral poderá requisitar diretamente do candidato ou do comitê financeiro informações adicionais, bem como determinar diligências para a complementação dos dados ou para o saneamento das falhas (Lei nº 9.504/97, art. 30, § 4º).
+
+  </p>
+            
+          </Caput><Paragrafo id="art35_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Sempre que o cumprimento de diligências implicar alteração das peças, será obrigatória a apresentação da prestação de contas retificadora, impressa e em novo disquete gerado pelo SPCE.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art35_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As diligências mencionadas na cabeça deste artigo devem ser cumpridas no prazo de setenta e duas horas, a contar da intimação, o qual poderá ser prorrogado a critério do relator.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art36">
+            
+            
+            <Rotulo>Art. 36.</Rotulo>
+            
+            <Caput id="art36_cpt">
+            
+            
+            
+            <p>
+    Emitido parecer técnico pela rejeição das contas ou pela aprovação com ressalvas, o relator abrirá vista dos autos ao candidato ou ao comitê financeiro, para manifestação em setenta e duas horas, a contar da intimação.
+
+  </p>
+            
+          </Caput><Paragrafo id="art36_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Na hipótese da cabeça deste artigo, havendo a emissão de novo parecer técnico que conclua pela existência de irregularidades sobre as quais não se tenha dado oportunidade de manifestação ao candidato ou ao comitê financeiro, o relator abrirá nova vista dos autos para manifestação em igual prazo.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art37">
+            
+            
+            <Rotulo>Art. 37.</Rotulo>
+            
+            <Caput id="art37_cpt">
+            
+            
+            
+            <p>
+    O Ministério Público Eleitoral terá vista dos autos da prestação de contas, devendo emitir parecer no prazo de quarenta e oito horas.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art38">
+            
+            
+            <Rotulo>Art. 38.</Rotulo>
+            
+            <Caput id="art38_cpt">
+            
+            
+            
+            <p>
+    Erros formais e materiais corrigidos não implicam rejeição das contas, nem aplicação de sanção a candidato ou partido (Lei nº 9.504/97, art. 30, § 2º).
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art39">
+            
+            
+            <Rotulo>Art. 39.</Rotulo>
+            
+            <Caput id="art39_cpt">
+            
+            
+            
+            <p>
+    O tribunal eleitoral verificará a regularidade das contas, decidindo (Lei nº 9.504/97, art. 30, cabeça do artigo):
+
+  </p>
+            <Inciso id="art39_cpt_inc1">
+            
+            
+            <Rotulo>I –</Rotulo>
+            <p>
+    pela aprovação, quando estiverem regulares;
+
+  </p>
+            
+          </Inciso><Inciso id="art39_cpt_inc2">
+            
+            
+            <Rotulo>II –</Rotulo>
+            <p>
+    pela aprovação com ressalvas, quando verificadas falhas que não lhes comprometam a regularidade;
+
+  </p>
+            
+          </Inciso><Inciso id="art39_cpt_inc3">
+            
+            
+            <Rotulo>III –</Rotulo>
+            <p>
+    pela rejeição, quando verificadas falhas que lhes comprometam a regularidade.
+
+  </p>
+            
+          </Inciso>
+          </Caput>
+          </Artigo><Artigo id="art40">
+            
+            
+            <Rotulo>Art. 40.</Rotulo>
+            
+            <Caput id="art40_cpt">
+            
+            
+            
+            <p>
+    A decisão que julgar as contas dos candidatos eleitos será publicada em sessão até 8 (oito) dias antes da diplomação (Lei nº 9.504/97, art. 30, § 1º, com nova redação dada pela Lei nº 11 . 3 0 0 / 2 0 0 6 ) .
+
+  </p>
+            
+          </Caput><Paragrafo id="art40_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Rejeitadas as contas, a Justiça Eleitoral remeterá cópia de todo o processo ao Ministério Público Eleitoral para os fins previstos no art. 22 da Lei Complementar no 64, de 18 de maio de 1990 (Lei nº 9.504/97, art. 22, § 4º, acrescentado pela Lei nº 11 . 3 0 0 / 2 0 0 6 ) .
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art41">
+            
+            
+            <Rotulo>Art. 41.</Rotulo>
+            
+            <Caput id="art41_cpt">
+            
+            
+            
+            <p>
+    Nenhum candidato poderá ser diplomado até que as suas contas tenham sido julgadas.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art42">
+            
+            
+            <Rotulo>Art. 42.</Rotulo>
+            
+            <Caput id="art42_cpt">
+            
+            
+            
+            <p>
+    A Justiça Eleitoral divulgará os nomes dos candidatos que não apresentaram as contas referentes às campanhas e encaminhará cópia dessa relação ao Ministério Público.
+
+  </p>
+            
+          </Caput><Paragrafo id="art42_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    A não-apresentação de contas de campanha impede a obtenção de certidão de quitação eleitoral no curso do mandato ao qual o interessado concorreu (Res.-TSE nº 21.823, de 15.6.2004).
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art42_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    A partir do dia imediato ao término do prazo para apresentação das contas, proceder-se-á, no cadastro eleitoral, ao registro relativo à apresentação, ou não, da prestação de contas, com base nas informações inseridas no SPCE.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="tit2_cap7">
+            
+            
+            <Rotulo>CAPÍTULO VII</Rotulo>
+            <NomeAgrupador>
+    DA FISCALIZAÇÃO
+
+  </NomeAgrupador>
+            <Artigo id="art43">
+            
+            
+            <Rotulo>Art. 43.</Rotulo>
+            
+            <Caput id="art43_cpt">
+            
+            
+            
+            <p>
+    Os candidatos e os partidos políticos deverão manter à disposição da Justiça Eleitoral, pelo prazo de 180 dias, contados da decisão final que tiver julgado as contas, todos os documentos a elas concernentes, inclusive os relativos à movimentação de recursos (Lei nº 9.504/97, art. 32).
+
+  </p>
+            
+          </Caput><Paragrafo id="art43_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    Pendente de julgamento qualquer processo judicial relativo às contas, a documentação correspondente deverá ser conservada até a sua decisão final.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art44">
+            
+            
+            <Rotulo>Art. 44.</Rotulo>
+            
+            <Caput id="art44_cpt">
+            
+            
+            
+            <p>
+    O Ministério Público Eleitoral e os partidos políticos participantes das eleições poderão acompanhar o exame das prestações de contas.
+
+  </p>
+            
+          </Caput><Paragrafo id="art44_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    No caso de acompanhamento por partidos políticos, será exigida indicação expressa e formal, respeitado o limite de um por partido, em cada circunscrição.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art45">
+            
+            
+            <Rotulo>Art. 45.</Rotulo>
+            
+            <Caput id="art45_cpt">
+            
+            
+            
+            <p>
+    Os processos relativos às prestações de contas são públicos e podem ser livremente consultados pelos interessados na Justiça Eleitoral, que poderão obter cópia de suas peças, respondendo pelos custos e pelo uso que fizerem dos documentos recebidos.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art46">
+            
+            
+            <Rotulo>Art. 46.</Rotulo>
+            
+            <Caput id="art46_cpt">
+            
+            
+            
+            <p>
+    Os partidos políticos, as coligações e os candidatos são obrigados, durante a campanha eleitoral, a divulgar, pela rede mundial de computadores (Internet), nos dias 6 de agosto e 6 de setembro, relatório discriminando os recursos em dinheiro ou estimáveis em dinheiro que tenham recebido para financiamento da campanha eleitoral e os gastos que realizarem, em sítio criado pela Justiça Eleitoral para esse fim, exigindo-se a indicação dos nomes dos doadores e os respectivos valores doados somente na prestação de contas final de que tratam os incisos III e IV do art. 29 da Lei nº 9.504/97 (Lei nº 9.504/97, art. 28, § 4º, acrescentado pela Lei nº 11.300/2006).
+
+  </p>
+            
+          </Caput><Paragrafo id="art46_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Doadores e fornecedores poderão, no curso da campanha, prestar informações, diretamente à Justiça Eleitoral, sobre doações aos candidatos e comitês financeiros e sobre despesas por eles efetuadas. Identificado o responsável pelas informações, inclusive com o número de inscrição no CPF ou no CNPJ, o relator determinará, imediatamente, quando possível, a sua inclusão em sistema informatizado específico para divulgação nas páginas dos tribunais eleitorais.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art46_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    As informações prestadas à Justiça Eleitoral poderão ser utilizadas para subsidiar o exame das prestações de contas de campanha eleitoral.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art46_par3">
+            
+            
+            <Rotulo>§ 3º</Rotulo>
+            <p>
+    A falsidade das informações prestadas sujeitará o infrator às penas dos arts. 348 e seguintes do Código Eleitoral.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art47">
+            
+            
+            <Rotulo>Art. 47.</Rotulo>
+            
+            <Caput id="art47_cpt">
+            
+            
+            
+            <p>
+    Qualquer partido político ou coligação poderá representar à Justiça Eleitoral relatando fatos e indicando provas e pedir a abertura de investigação judicial para apurar condutas em desacordo com as normas desta Lei, relativas à arrecadação e aos gastos de recursos.
+
+  </p>
+            
+          </Caput><Paragrafo id="art47_par1">
+            
+            
+            <Rotulo>§ 1º</Rotulo>
+            <p>
+    Na apuração de que trata este artigo, aplicar-se-á o procedimento previsto no art. 22 da Lei Complementar no 64, de 18 de maio de 1990, no que couber.
+
+  </p>
+            
+          </Paragrafo><Paragrafo id="art47_par2">
+            
+            
+            <Rotulo>§ 2º</Rotulo>
+            <p>
+    Comprovados captação ou gastos ilícitos de recursos, para fins eleitorais, será negado diploma ao candidato, ou cassado, se já houver sido outorgado (Lei nº 9.504/97, art. 30-A, acrescentado pela Leinº 11 . 3 0 0 / 2 0 0 6 ) .
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo>
+          </Capitulo><Capitulo id="tit2_cap8">
+            
+            
+            <Rotulo>CAPÍTULO VIII</Rotulo>
+            <NomeAgrupador>
+    DAS DISPOSIÇÕES FINAIS
+
+  </NomeAgrupador>
+            <Artigo id="art48">
+            
+            
+            <Rotulo>Art. 48.</Rotulo>
+            
+            <Caput id="art48_cpt">
+            
+            
+            
+            <p>
+    O partido político que, por intermédio do comitê financeiro, descumprir as normas referentes à arrecadação e aplicação de recursos fixadas na Lei nº 9.504/97, bem como nestas instruções, perderá o direito ao recebimento da quota do Fundo Partidário do ano seguinte, sem prejuízo de os candidatos beneficiados responderem por abuso do poder econômico (Lei nº 9.504/97, art. 25).
+
+  </p>
+            
+          </Caput><Paragrafo id="art48_par1u">
+            
+            
+            <Rotulo>Parágrafo único.</Rotulo>
+            <p>
+    A sanção a que se refere este artigo será aplicada exclusivamente ao órgão partidário a que estiver vinculado o comitê financeiro.
+
+  </p>
+            
+          </Paragrafo>
+          </Artigo><Artigo id="art49">
+            
+            
+            <Rotulo>Art. 49.</Rotulo>
+            
+            <Caput id="art49_cpt">
+            
+            
+            
+            <p>
+    Estas instruções entrarão em vigor na data de sua publicação.
+
+  </p>
+            
+          </Caput>
+          </Artigo><Artigo id="art50">
+            
+            
+            <Rotulo>Art. 50.</Rotulo>
+            
+            <Caput id="art50_cpt">
+            <!--Link: urn:lex:br:tribunal.superior.eleitoral:resolucao:2006-03-03;22160-->
+            
+            
+            <p>
+    Fica revogada a <span xlink:href="urn:lex:br:tribunal.superior.eleitoral:resolucao:2006-03-03;22160">Resolução nº 22.160, de 3 de março de 2006</span>. Marco Aurélio - Presidente. Gerardo Grossi - Relator. Cezar Peluso. Carlos Ayres Britto. Cesar Asfor Rocha. José Delgado. Caputo Bastos. Sala de Sessões do Tribunal Superior Eleitoral.
+
+  </p>
+            
+          </Caput>
+          </Artigo>
+          </Capitulo>
+          </Titulo></Articulacao>
+          <ParteFinal><LocalDataFecho><p>Brasília, 29 de junho de 2006.</p></LocalDataFecho></ParteFinal>
+          
+        </Norma></ProjetoNorma>
+    </LexML>

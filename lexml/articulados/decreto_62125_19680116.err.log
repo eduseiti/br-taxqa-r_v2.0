@@ -1,6 +1,0 @@
-# CMD: java -jar /work/unicamp/articles/RAG_evaluation/lexml-parser-projeto-lei/target/lexml-parser-projeto-lei-1.15.0-onejar.jar parse -m application/vnd.openxmlformats-officedocument.wordprocessingml.document -i ../br-taxqa-r_v2.0/original/articulados/decreto_62125_19680116.docx -o lexml/articulados/decreto_62125_19680116.xml --write-errors-to-file lexml/articulados/decreto_62125_19680116.err.log -a federal -t decreto -n 62125 --data 1968-01-16 --linker /usr/local/bin/linkertool
-# ---
-Problem type = [9: Articulação não identificada, categoria: [1: Erro de técnica legislativa]], pos = List(), msg = None, context=List()
-
-Problem type = [10: Erro de validação do esquema XML, categoria: [4: Erro de validação do esquema XML]], pos = List(), msg = Some(Erro de validação do esquema XML. systemid: null, publicid:null, lineno: 121, column:25, error: cvc-complex-type.2.4.b: The content of element 'Articulacao' is not complete. One of '{"http://www.lexml.gov.br/1.0":_Parte, "http://www.lexml.gov.br/1.0":_Livro, "http://www.lexml.gov.br/1.0":_Titulo, "http://www.lexml.gov.br/1.0":_Subtitulo, "http://www.lexml.gov.br/1.0":_Capitulo, "http://www.lexml.gov.br/1.0":_Secao, "http://www.lexml.gov.br/1.0":_Artigo, "http://www.lexml.gov.br/1.0":AgrupamentoHierarquico}' is expected.), context=List()
-

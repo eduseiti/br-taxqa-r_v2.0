@@ -1,0 +1,13 @@
+<LexML xsi:schemaLocation="http://www.lexml.gov.br/1.0 ../xsd/lexml-br-rigido.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.lexml.gov.br/1.0">
+      <Metadado>
+      <Identificacao URN="urn:lex:br:federal:medida.provisoria:2001-08-24;2158-35!anexo2"/>
+    </Metadado>
+      <Anexo>
+        <DocumentoGenerico>
+      <PartePrincipal id="anexo2_pp">
+        <p><b>ANEXO II</b></p>
+        <table id="anexo2_tab1"><tr><td>Valor dos prêmios oferecidos pelo requerente</td><td>Valor da remuneração da Caixa Econômica Federal</td></tr><tr><td>até R$ 1.000,00 de R$ 1.000,01 a R$ 5.000,00 de R$ 5.000,01 a R$ 10.000,00 de R$ 10.000,01 a R$ 50.000,00 de R$ 50.000,01 a R$ 100.000,00 de R$ 100.000,01 a R$ 500.000,00 de R$ 500.000,01 a R$ 1.667.000,00 acima de R$ 1.667.000,01</td><td>R$ 20,00 R$ 100,00 R$ 200,00 R$ 1.000,00 R$ 2.500,00 R$ 8.000,00 R$ 25.000,00 R$ 50.000,00</td></tr></table>
+      </PartePrincipal>
+    </DocumentoGenerico>
+      </Anexo>
+    </LexML>
