@@ -49,9 +49,9 @@ All files are JSON Lines with a fixed schema: every key is present in every row 
 | `references_text` | list[string] | the raw reference block (grey box) of the answer |
 | `embedded_references_text` | list[string] | raw citations found inside the answer text |
 | `document_ids` | list[string] | distinct corpus documents cited (resolved references only) |
-| `n_unresolved_references` | int | references whose act is not in the corpus |
+| `n_unresolved_references` | int | references whose act is not in the corpus (0 for every question since the 2026-10-08 rebuild) |
 
-### `references` — one row per cited act per question (1,919)
+### `references` — one row per cited act per question (1,917)
 
 | Field | Type | Content |
 |---|---|---|
@@ -61,16 +61,18 @@ All files are JSON Lines with a fixed schema: every key is present in every row 
 | `cited_title` | string | the act as cited |
 | `document_id` | string \| null | corpus document (`documents.document_id`); `null` when the act is not in the corpus |
 | `document_urn` | string \| null | LexML URN of that document (same as `doc_urn` of the chunks) |
-| `resolution` | string | `auto_exact`, `auto_undated`, `override` (hand-verified) or `not_in_corpus` |
-| `resolution_note` | string \| null | why, for `override` and `not_in_corpus` |
+| `resolution` | string | `auto_exact`, `auto_undated`, `override` (hand-verified) or `not_in_corpus` (none since 2026-10-08) |
+| `resolution_note` | string \| null | why, for `override` and `not_in_corpus`, and for an automatic resolution whose canonical record was corrected by hand (the fetcher's `correction.reason`) |
 | `citation_text` | list[string] | the source text the provisions were parsed from (pieces of the reference block, or embedded citations) |
 | `article_ids` | list[string] | distinct cited articles as LexML ids (ranges expanded; `art12-1` for art. 12-A, `art1u` for artigo único) |
-| `provisions` | list[struct] | one row per cited unit: `label` (e.g. "art. 12, § 1º, inciso II"), `article_id`, `fragment_id` (LexML id with the full path, e.g. `art12_par1_inc2`, `art1_cpt_inc10`; `null` when the unit has no id form), `annex`, `lexml_file` (LexML file holding the fragment, main or annex; `null` when not found) |
+| `article_ids_unmatchable` | list[string] | cited articles with no element in the document's LexML (no chunk can hold them; score at document level) |
+| `unmatchable_reasons` | dict | article id → reason, from `scripts/lexml/unmatchable_articles.tsv` (treaty articles) |
+| `provisions` | list[struct] | one row per cited unit: `label` (e.g. "art. 12, § 1º, inciso II"), `article_id`, `fragment_id` (LexML id with the full path, e.g. `art12_par1_inc2`, `art1_cpt_inc10`; `null` when the unit has no id form), `annex`, `lexml_file` (LexML file holding the fragment, main or annex; `null` when not found), `matchable` (`fragment_id` found in a LexML file) |
 | `provisions_note` | string \| null | reason, when the provisions come from a hand-verified override |
 | `annexes` | list[string] | cited annexes |
 | `v1_file` | string | the v1.1 `file` value, for traceability |
 
-### `documents` — one row per corpus document (459)
+### `documents` — one row per corpus document (458)
 
 | Field | Type | Content |
 |---|---|---|
@@ -122,5 +124,9 @@ refs = references.filter(lambda r: r["question_number"] == "001" and r["document
     "Convenção sobre Privilégios e Imunidades das Nações Unidas" → Decreto nº 27.784/1950.
   - Q141: the Brazil–Germany double-taxation accord → Decreto Legislativo nº 92/1975.
   - Q025, Q081: six "embedded" references that do not occur in the answer text are removed.
-  - 42 references are marked `not_in_corpus`: the cited act was never fetched, and the file that
-    v1.1 used for it was a different act with the same number.
+  - 42 references were marked `not_in_corpus`: the cited act was never fetched, and the file that
+    v1.1 used for it was a different act with the same number. **Since the 2026-10-08 rebuild** the
+    cited acts are in the corpus and these references resolve (`auto_exact`), Q313's "Parecer Cosit
+    nº 30, de 28/09/2001" (no such act) and Q187's "SCI Cosit nº 27/2008" (not found) are removed,
+    and Q249's "Parecer PGFN/CAT nº 815/2010" points at Nota PGFN/CRJ nº 981/2015
+    (`docs/20261007_180833_corpus_fixes_and_full_rebuild_plan.md` §2).

@@ -1,32 +1,41 @@
 {
- "timestamp": "2026-09-27T21:34:00",
+ "timestamp": "2026-10-08T00:41:40",
  "git": {
-  "commit": "4f6147a9b56f6f90bc92b45297d907a1455f18a9",
-  "dirty": true
+  "commit": "280121b7f887104a4385990ecf888851bada9f54",
+  "dirty": false,
+  "fetcher_commit": "c7f4b8faf8b8df84520e6e957d7a0890513f4a52",
+  "fetcher_dirty": false
  },
  "inputs_sha256": {
   "questions": "097abfc4f885ea36e512e6beae39a826b981191aa0b320960828e51ccc081585",
-  "canonical": "7fcbf7e2f5506a1ff61d80b74979f17549bf731d9bd1c724e6381718200fc4b6",
-  "reference_overrides": "3a4240030c13298440a4279838e75347c3e004b09f7e37c760f76f1f4368ddb2",
+  "canonical": "cc5eec6c22bde4da1e6d6081b4f524ffd55ceca9748d6c60924e171e3247e6ae",
+  "reference_overrides": "c2369509bf6d4278d710e5037d45c1085492b2477fea044ba6d6f7478b0e1de0",
   "citations_py": "b25a8eb82852dd1eb2100603c31b4b06244403775f76c7d22dd6f3229b67c079",
-  "nonstat_lexml_map": "cbde91390a006c32cb1e0b88ad900c4e4d62c7e1fd046489e107cb3386f9289e"
+  "nonstat_lexml_map": "95e6506ba446a68c3016e207f499773d2a6022274975f2fd45d3ed5872b531cd"
  },
+ "override_warnings": [
+  "redundant override (the canonical record resolves to the same document): Convenção Postal Universal.txt",
+  "override for a file name no question cites: Declaração de Benefícios Fiscais (DFB).txt",
+  "override for a file name no question cites: Declaração de Serviços Médicos e de Saúde (Dmed).txt",
+  "override for a file name no question cites: Declaração de informações sobre Atividades Imobiliárias (Dimob).txt",
+  "override for a file name no question cites: Declaração sobre Operações Imobiliárias (DOI).txt",
+  "override for a file name no question cites: Sistema de Recolhimento Mensal Obrigatório (Carnê-Leão).txt"
+ ],
  "counts": {
   "questions": 715,
   "questions_with_references": 596,
-  "references": 1919,
+  "references": 1917,
   "references_by_origin": {
-   "explicit": 1475,
+   "explicit": 1473,
    "embedded": 444
   },
   "references_by_resolution": {
-   "auto_exact": 1776,
+   "auto_exact": 1816,
    "auto_undated": 30,
-   "override": 71,
-   "not_in_corpus": 42
+   "override": 71
   },
-  "documents": 459,
-  "documents_cited": 424,
+  "documents": 458,
+  "documents_cited": 447,
   "v1_files_in_canonical": 478
  },
  "dropped_references": [
@@ -73,11 +82,25 @@
    "reason": "v1 'embedded' reference absent from the answer text (the answer cites nothing); LLM extraction artefact present since v1.0"
   },
   {
+   "question_number": "187",
+   "origin": "explicit",
+   "cited_title": "Solução de Consulta Interna Cosit nº 27, de 7 de julho de 2008",
+   "v1_file": "Solução de Consulta Interna Cosit nº 27, de 7 de julho de 2008.txt",
+   "reason": "user fix (2026-10-07): SCI Cosit nº 27, de 07/07/2008 cannot be found; v1/v2 matched the unrelated Solução de Divergência Cosit nº 27, de 30/05/2008, and the fetched SCI Cosit nº 24, de 27/06/2008 is a different act"
+  },
+  {
    "question_number": "277",
    "origin": "explicit",
    "cited_title": "Solução de Consulta Interna Cosit nº 5, de 28 de março de 2006",
    "v1_file": "Solução de Consulta Interna Cosit nº 5, de 28 de março de 2006.txt",
    "reason": "user fix: no such act exists; v1.1 held the unrelated Ato Declaratório Executivo Cosit nº 5, de 24/02/2006"
+  },
+  {
+   "question_number": "313",
+   "origin": "explicit",
+   "cited_title": "Parecer Cosit nº 30, de 28 de setembro de 2001",
+   "v1_file": "Parecer Cosit nº 30, de 28 de setembro de 2001.txt",
+   "reason": "user fix (2026-10-07): no such act exists; v1/v2 matched the unrelated ADE Cosit nº 30, de 23/07/2001 (US dollar rate)"
   }
  ],
  "skipped_empty_v1_entries": [
@@ -96,264 +119,8 @@
    }
   }
  ],
- "unresolved_references": [
-  {
-   "reference_id": "097-04",
-   "cited_title": "Solução de Consulta Cosit nº 50, de 22 de junho de 2020",
-   "v1_file": "Solução de Consulta Cosit nº 50.txt",
-   "resolution_note": "cited SC Cosit nº 50, de 22/06/2020 is not in the corpus; the automatic match sc_cosit_50_20240322 is SC Cosit nº 50/2024, IRPJ of Sociedades de Crédito Direto, a different act"
-  },
-  {
-   "reference_id": "129-06",
-   "cited_title": "Solução de Consulta Cosit nº 69, de 30 de dezembro de 2013",
-   "v1_file": "Solução de Consulta Cosit nº 69.txt",
-   "resolution_note": "cited SC Cosit nº 69, de 30/12/2013 is not in the corpus; the automatic match sc_cosit_69_20200624 is SC Cosit nº 69/2020, IRPJ lucro presumido prizes, a different act"
-  },
-  {
-   "reference_id": "148-04",
-   "cited_title": "Solução de Consulta Cosit nº 64, de 7 de março de 2014",
-   "v1_file": "Solução de Consulta Cosit nº 64.txt",
-   "resolution_note": "cited SC Cosit nº 64, de 07/03/2014 is not in the corpus; the automatic match sc_cosit_64_20240326 is SC Cosit nº 64/2024, interval between working shifts, a different act"
-  },
-  {
-   "reference_id": "148-05",
-   "cited_title": "Solução de Consulta Cosit nº 194, de 5 de agosto de 2015",
-   "v1_file": "Solução de Consulta Cosit nº 194.txt",
-   "resolution_note": "cited SC Cosit nº 194, de 05/08/2015 is not in the corpus; the automatic match sc_cosit_194_20230829 is SC Cosit nº 194/2023, PIS/Pasep cerealistas, a different act"
-  },
-  {
-   "reference_id": "149-08",
-   "cited_title": "Solução de Consulta Cosit nº 64, de 7 de março de 2014",
-   "v1_file": "Solução de Consulta Cosit nº 64.txt",
-   "resolution_note": "cited SC Cosit nº 64, de 07/03/2014 is not in the corpus; the automatic match sc_cosit_64_20240326 is SC Cosit nº 64/2024, interval between working shifts, a different act"
-  },
-  {
-   "reference_id": "149-09",
-   "cited_title": "Solução de Consulta Cosit nº 194, de 5 de agosto de 2015",
-   "v1_file": "Solução de Consulta Cosit nº 194.txt",
-   "resolution_note": "cited SC Cosit nº 194, de 05/08/2015 is not in the corpus; the automatic match sc_cosit_194_20230829 is SC Cosit nº 194/2023, PIS/Pasep cerealistas, a different act"
-  },
-  {
-   "reference_id": "150-16",
-   "cited_title": "Solução de Consulta Cosit nº 194, de 5 de agosto de 2015",
-   "v1_file": "Solução de Consulta Cosit nº 194.txt",
-   "resolution_note": "cited SC Cosit nº 194, de 05/08/2015 is not in the corpus; the automatic match sc_cosit_194_20230829 is SC Cosit nº 194/2023, PIS/Pasep cerealistas, a different act"
-  },
-  {
-   "reference_id": "180-04",
-   "cited_title": "Solução de Consulta Cosit nº 140, de 21 de setembro de 2021",
-   "v1_file": "Solução de Consulta Cosit nº 140.txt",
-   "resolution_note": "cited SC Cosit nº 140, de 21/09/2021 is not in the corpus; the automatic match sc_cosit_140_20230714 is SC Cosit nº 140/2023, IRPJ lucro presumido ICMS-DIFAL, a different act"
-  },
-  {
-   "reference_id": "187-02",
-   "cited_title": "Solução de Consulta Interna Cosit nº 27, de 7 de julho de 2008",
-   "v1_file": "Solução de Consulta Interna Cosit nº 27, de 7 de julho de 2008.txt",
-   "resolution_note": "cited SCI Cosit nº 27, de 07/07/2008 is not in the corpus; the automatic match sd_cosit_27_20080530 is Solução de Divergência Cosit nº 27/2008, IRRF/Cide on remittances abroad, a different act"
-  },
-  {
-   "reference_id": "188-04",
-   "cited_title": "Decreto-Lei nº 8.794, de 23 de janeiro de 1946",
-   "v1_file": "Lei nº 8.794.txt",
-   "resolution_note": "cited Decreto-Lei nº 8.794, de 23/01/1946 is not in the corpus; the automatic match lei_8794_19931221 is Lei nº 8.794/1993, a budget credit, a different act"
-  },
-  {
-   "reference_id": "230-03",
-   "cited_title": "Ato Declaratório PGFN Nº 2, de 10 de março de 2016",
-   "v1_file": "Ato Declaratório PGFN nº 2.txt",
-   "resolution_note": "cited AD PGFN nº 2, de 10/03/2016 is not in the corpus; the automatic match ad_pgfn_2_20180403 is AD PGFN nº 2/2018, a different act"
-  },
-  {
-   "reference_id": "234-04",
-   "cited_title": "Solução de Consulta Cosit nº 179, de 16 de agosto de 2023",
-   "v1_file": "Solução de Consulta Cosit nº 179.txt",
-   "resolution_note": "cited SC Cosit nº 179, de 16/08/2023 is not in the corpus; the automatic match sc_cosit_179_20240624 is SC Cosit nº 179/2024, compensatory alimony, a different act"
-  },
-  {
-   "reference_id": "249-03",
-   "cited_title": "Parecer PGFN/CAT nº 815/2010",
-   "v1_file": "Parecer PGFNCAT nº 815 2010.txt",
-   "resolution_note": "original/nao_articulados/parecer_pgfncat_815_2010_nota_pgfn_crj_981_2015.docx holds Nota PGFN/CRJ nº 981/2015 (same act as nota_pgfn_981_20151104), not Parecer PGFN/CAT nº 815/2010"
-  },
-  {
-   "reference_id": "253-01",
-   "cited_title": "Parecer Normativo CST nº 38, de 1975",
-   "v1_file": "Parecer Normativo CST nº 38, de 1975.txt",
-   "resolution_note": "corpus holds PN CST nº 38, de 31/10/1980 (cooperatives), a different act; the cited 1975 opinion (professional services, Q253/Q255) is absent"
-  },
-  {
-   "reference_id": "255-03",
-   "cited_title": "Parecer Normativo CST nº 38, de 1975",
-   "v1_file": "Parecer Normativo CST nº 38, de 1975.txt",
-   "resolution_note": "corpus holds PN CST nº 38, de 31/10/1980 (cooperatives), a different act; the cited 1975 opinion (professional services, Q253/Q255) is absent"
-  },
-  {
-   "reference_id": "280-08",
-   "cited_title": "Ato Declaratório PGFN nº 3, de 30 de março de 2016",
-   "v1_file": "Ato Declaratório PGFN nº 3.txt",
-   "resolution_note": "cited AD PGFN nº 3, de 30/03/2016 is not in the corpus; the automatic match ad_pgfn_3_20080918 is AD PGFN nº 3/2008, a different act"
-  },
-  {
-   "reference_id": "280-11",
-   "cited_title": "Solução de Consulta Cosit nº 75, de 25 de junho de 2020",
-   "v1_file": "Solução de Consulta Cosit nº 75.txt",
-   "resolution_note": "cited SC Cosit nº 75, de 25/06/2020 is not in the corpus; the automatic match sc_cosit_75_20230331 is SC Cosit nº 75/2023, software royalties, a different act"
-  },
-  {
-   "reference_id": "281-07",
-   "cited_title": "Solução de Consulta Cosit nº 75, de 25 de junho de 2020",
-   "v1_file": "Solução de Consulta Cosit nº 75.txt",
-   "resolution_note": "cited SC Cosit nº 75, de 25/06/2020 is not in the corpus; the automatic match sc_cosit_75_20230331 is SC Cosit nº 75/2023, software royalties, a different act"
-  },
-  {
-   "reference_id": "282-09",
-   "cited_title": "Solução de Consulta Cosit nº 179, de 16 de agosto de 2023",
-   "v1_file": "Solução de Consulta Cosit nº 179.txt",
-   "resolution_note": "cited SC Cosit nº 179, de 16/08/2023 is not in the corpus; the automatic match sc_cosit_179_20240624 is SC Cosit nº 179/2024, compensatory alimony, a different act"
-  },
-  {
-   "reference_id": "305-04",
-   "cited_title": "Solução de Consulta Cosit nº 123, de 13 de setembro de 2021",
-   "v1_file": "Solução de Consulta Cosit nº 123.txt",
-   "resolution_note": "cited SC Cosit nº 123, de 13/09/2021 is not in the corpus; the automatic match sc_cosit_123_20230623 is SC Cosit nº 123/2023, Cofins bonificações, a different act"
-  },
-  {
-   "reference_id": "306-05",
-   "cited_title": "Solução de Consulta Cosit nº 123, de 13 de setembro de 2021",
-   "v1_file": "Solução de Consulta Cosit nº 123.txt",
-   "resolution_note": "cited SC Cosit nº 123, de 13/09/2021 is not in the corpus; the automatic match sc_cosit_123_20230623 is SC Cosit nº 123/2023, Cofins bonificações, a different act"
-  },
-  {
-   "reference_id": "307-04",
-   "cited_title": "Solução de Consulta Cosit nº 7, de 13 de janeiro de 2017",
-   "v1_file": "Solução de Consulta Cosit nº 7.txt",
-   "resolution_note": "cited SC Cosit nº 7, de 13/01/2017 is not in the corpus; the automatic match sc_cosit_7_20210304 is SC Cosit nº 7/2021, IRPJ real-estate activity, a different act"
-  },
-  {
-   "reference_id": "313-06",
-   "cited_title": "Parecer Cosit nº 30, de 28 de setembro de 2001",
-   "v1_file": "Parecer Cosit nº 30, de 28 de setembro de 2001.txt",
-   "resolution_note": "cited Parecer Cosit nº 30, de 28/09/2001 is not in the corpus; the automatic match ade_cosit_30_20010723 is ADE Cosit nº 30/2001, US dollar rate, a different act"
-  },
-  {
-   "reference_id": "316-03",
-   "cited_title": "Ato Declaratório PGFN nº 2, de 10 de março de 2016",
-   "v1_file": "Ato Declaratório PGFN nº 2.txt",
-   "resolution_note": "cited AD PGFN nº 2, de 10/03/2016 is not in the corpus; the automatic match ad_pgfn_2_20180403 is AD PGFN nº 2/2018, a different act"
-  },
-  {
-   "reference_id": "356-01",
-   "cited_title": "Solução de Consulta Cosit nº 354, de 17 de dezembro de 2014",
-   "v1_file": "Solução de Consulta Cosit nº 354.txt",
-   "resolution_note": "cited SC Cosit nº 354, de 17/12/2014 is not in the corpus; the automatic match sc_cosit_354_20170706 is SC Cosit nº 354/2017, pension-plan extraordinary contributions, a different act"
-  },
-  {
-   "reference_id": "356-02",
-   "cited_title": "Solução de Consulta Cosit nº 354, de 17 de dezembro de 2014",
-   "v1_file": "Solução de Consulta Cosit nº 354.txt",
-   "resolution_note": "cited SC Cosit nº 354, de 17/12/2014 is not in the corpus; the automatic match sc_cosit_354_20170706 is SC Cosit nº 354/2017, pension-plan extraordinary contributions, a different act"
-  },
-  {
-   "reference_id": "361-05",
-   "cited_title": "Solução de Consulta Cosit nº 173, de 3 de julho de 2015",
-   "v1_file": "Solução de Consulta Cosit nº 173.txt",
-   "resolution_note": "cited SC Cosit nº 173, de 03/07/2015 is not in the corpus; the automatic match sc_cosit_173_20230811 is SC Cosit nº 173/2023, PIS/Pasep credits, a different act"
-  },
-  {
-   "reference_id": "375-01",
-   "cited_title": "Solução de Consulta Cosit nº 173, de 3 de julho de 2015",
-   "v1_file": "Solução de Consulta Cosit nº 173.txt",
-   "resolution_note": "cited SC Cosit nº 173, de 03/07/2015 is not in the corpus; the automatic match sc_cosit_173_20230811 is SC Cosit nº 173/2023, PIS/Pasep credits, a different act"
-  },
-  {
-   "reference_id": "438-03",
-   "cited_title": "Resolução TSE nº 22.250, de 2006",
-   "v1_file": "Resolução TSE nº 22.250, de 2006.txt",
-   "resolution_note": "corpus holds Resolução TSE nº 22.205, de 23/05/2006, a different act with no art. 14; the cited 22.250 (Q438, art. 14) is absent"
-  },
-  {
-   "reference_id": "460-05",
-   "cited_title": "Solução de Consulta Cosit nº 214, de 20 de dezembro de 2021",
-   "v1_file": "Solução de Consulta Cosit nº 214.txt",
-   "resolution_note": "cited SC Cosit nº 214, de 20/12/2021 is not in the corpus; the automatic match sc_cosit_214_20240719 is SC Cosit nº 214/2024, assignment of real-estate rights, a different act"
-  },
-  {
-   "reference_id": "559-03",
-   "cited_title": "Ato Declaratório Interpretativo RFB nº 3, de 27 de abril de 2016",
-   "v1_file": "Ato Declaratório RFB nº 3.txt",
-   "resolution_note": "cited ADI RFB nº 3, de 27/04/2016 is not in the corpus; the automatic match ade_rfb_3_20240402 is ADE RFB nº 3/2024, TIPI table, a different act"
-  },
-  {
-   "reference_id": "560-11",
-   "cited_title": "Solução de Consulta Cosit nº 211, de 24 de junho de 2019",
-   "v1_file": "Solução de Consulta Cosit nº 211.txt",
-   "resolution_note": "cited SC Cosit nº 211, de 24/06/2019 is not in the corpus; the automatic match sc_cosit_211_20240716 is SC Cosit nº 211/2024, Simples Nacional, a different act"
-  },
-  {
-   "reference_id": "562-03",
-   "cited_title": "Solução de Consulta Cosit nº 211, de 24 de junho de 2019",
-   "v1_file": "Solução de Consulta Cosit nº 211.txt",
-   "resolution_note": "cited SC Cosit nº 211, de 24/06/2019 is not in the corpus; the automatic match sc_cosit_211_20240716 is SC Cosit nº 211/2024, Simples Nacional, a different act"
-  },
-  {
-   "reference_id": "580-03",
-   "cited_title": "Solução de Consulta Cosit nº 183, de 25 de junho de 2014",
-   "v1_file": "Solução de Consulta Cosit nº 183.txt",
-   "resolution_note": "cited SC Cosit nº 183, de 25/06/2014 is not in the corpus; the automatic match sc_cosit_134_20140602 is SC Cosit nº 134/2014, CIDE (v1.1 already held this wrong text), a different act"
-  },
-  {
-   "reference_id": "607-02",
-   "cited_title": "Parecer Normativo CST nº 72, de 1979",
-   "v1_file": "Parecer Normativo CST nº 72, de 1979.txt",
-   "resolution_note": "corpus holds PN CST nº 72, de 30/06/1975 (pre-operating expenses), a different act; the cited 1979 opinion (estate capital gains, Q607) is absent"
-  },
-  {
-   "reference_id": "610-03",
-   "cited_title": "Solução de Consulta Cosit nº 166, de 28 de maio de 2019",
-   "v1_file": "Solução de Consulta Cosit nº 166.txt",
-   "resolution_note": "cited SC Cosit nº 166, de 28/05/2019 is not in the corpus; the automatic match sc_cosit_166_20230807 is SC Cosit nº 166/2023, residential-property exemption, a different act"
-  },
-  {
-   "reference_id": "611-02",
-   "cited_title": "Solução de Consulta Cosit nº 166, de 28 de maio de 2019",
-   "v1_file": "Solução de Consulta Cosit nº 166.txt",
-   "resolution_note": "cited SC Cosit nº 166, de 28/05/2019 is not in the corpus; the automatic match sc_cosit_166_20230807 is SC Cosit nº 166/2023, residential-property exemption, a different act"
-  },
-  {
-   "reference_id": "614-01",
-   "cited_title": "Solução de Consulta Cosit nº 166, de 28 de maio de 2019",
-   "v1_file": "Solução de Consulta Cosit nº 166.txt",
-   "resolution_note": "cited SC Cosit nº 166, de 28/05/2019 is not in the corpus; the automatic match sc_cosit_166_20230807 is SC Cosit nº 166/2023, residential-property exemption, a different act"
-  },
-  {
-   "reference_id": "627-05",
-   "cited_title": "Ato Declaratório Interpretativo RFB nº 3, de 27 de abril de 2016",
-   "v1_file": "Ato Declaratório RFB nº 3.txt",
-   "resolution_note": "cited ADI RFB nº 3, de 27/04/2016 is not in the corpus; the automatic match ade_rfb_3_20240402 is ADE RFB nº 3/2024, TIPI table, a different act"
-  },
-  {
-   "reference_id": "627-06",
-   "cited_title": "Solução de Consulta Cosit nº 214, de 20 de dezembro de 2021",
-   "v1_file": "Solução de Consulta Cosit nº 214.txt",
-   "resolution_note": "cited SC Cosit nº 214, de 20/12/2021 is not in the corpus; the automatic match sc_cosit_214_20240719 is SC Cosit nº 214/2024, assignment of real-estate rights, a different act"
-  },
-  {
-   "reference_id": "634-07",
-   "cited_title": "Documento de Informação e Apuração do ITR (Diat)",
-   "v1_file": "Documento de Informação e Apuração do ITR (Diat).txt",
-   "resolution_note": "fetched (br-taxqa-document-fetcher/output_manual/documents/documento_de_informacao_e_apuracao_do_ITR_DIAT.docx) but never copied to original/, so it has no LexML file"
-  },
-  {
-   "reference_id": "645-03",
-   "cited_title": "Solução de Consulta Cosit nº 50, de 22 de junho de 2020",
-   "v1_file": "Solução de Consulta Cosit nº 50.txt",
-   "resolution_note": "cited SC Cosit nº 50, de 22/06/2020 is not in the corpus; the automatic match sc_cosit_50_20240322 is SC Cosit nº 50/2024, IRPJ of Sociedades de Crédito Direto, a different act"
-  }
- ],
+ "unresolved_references": [],
  "documents_not_cited": [
-  "ad_pgfn_2_20180403",
-  "ade_cosit_30_20010723",
-  "ade_rfb_3_20240402",
   "declaracao_benficios_fiscais_DBF",
   "declaracao_de_informacoes_sobre_atividades_imobiliarias_DIMOB",
   "declaracao_de_servicos_medicos_e_de_saude_DMED",
@@ -362,29 +129,8 @@
   "in_rfb_1911_20191011",
   "lei_3071_19160101",
   "lei_5869_19730111",
-  "lei_8794_19931221",
   "par_cosit_26_20000629",
-  "parecer_pgfncat_815_2010_nota_pgfn_crj_981_2015",
-  "pn_cst_38_19801031",
-  "pn_cst_72_nodate",
-  "resol_tse_22_20060523",
-  "sc_cosit_123_20230623",
-  "sc_cosit_134_20140602",
-  "sc_cosit_140_20230714",
   "sc_cosit_153_20140611",
-  "sc_cosit_166_20230807",
-  "sc_cosit_173_20230811",
-  "sc_cosit_179_20240624",
-  "sc_cosit_194_20230829",
-  "sc_cosit_211_20240716",
-  "sc_cosit_214_20240719",
-  "sc_cosit_354_20170706",
-  "sc_cosit_50_20240322",
-  "sc_cosit_64_20240326",
-  "sc_cosit_69_20200624",
-  "sc_cosit_75_20230331",
-  "sc_cosit_7_20210304",
-  "sd_cosit_27_20080530",
   "sistema_de_recolhimento_mensal_obrigatorio_CARNE_LEAO"
  ],
  "v1_files_not_cited_by_questions": [
@@ -397,156 +143,96 @@
   "Solução de Consulta Cosit nº 153.txt"
  ],
  "validation": {
-  "article_ids_checked": 2051,
-  "article_ids_found_in_main_xml": 1448,
+  "article_ids_checked": 2052,
+  "article_ids_found_in_main_xml": 1464,
   "article_ids_found_only_in_annex_xml": 575,
   "article_ids_missing": [
    {
     "reference_id": "149-01",
     "document_id": "decreto_27784_19500216",
-    "article_id": "art5"
+    "article_id": "art5",
+    "unmatchable_reason": "treaty article of a non-statutory document (moved to nao_articulados in ce032e6); the treaty text is absent"
    },
    {
     "reference_id": "149-03",
     "document_id": "decreto_59308_19660923",
-    "article_id": "art5"
+    "article_id": "art5",
+    "unmatchable_reason": "treaty article of a non-statutory document (moved to nao_articulados in ce032e6)"
    },
    {
     "reference_id": "150-05",
     "document_id": "decreto_59308_19660923",
-    "article_id": "art5"
+    "article_id": "art5",
+    "unmatchable_reason": "treaty article of a non-statutory document (moved to nao_articulados in ce032e6)"
    },
    {
     "reference_id": "150-12",
     "document_id": "decreto_27784_19500216",
-    "article_id": "art5"
+    "article_id": "art5",
+    "unmatchable_reason": "treaty article of a non-statutory document (moved to nao_articulados in ce032e6); the treaty text is absent"
    },
    {
     "reference_id": "152-01",
     "document_id": "decreto_57942_19660310",
-    "article_id": "art10"
+    "article_id": "art10",
+    "unmatchable_reason": "treaty article: the treaty text has no article markers the statutory parser reads"
    },
    {
     "reference_id": "153-01",
     "document_id": "decreto_57942_19660310",
-    "article_id": "art1"
+    "article_id": "art1",
+    "unmatchable_reason": "treaty article: the treaty text has no article markers the statutory parser reads"
    },
    {
     "reference_id": "153-04",
     "document_id": "decreto_361_19911210",
-    "article_id": "art13"
+    "article_id": "art13",
+    "unmatchable_reason": "treaty article: the .docx holds only the promulgating decree (2 articles); the treaty text is absent"
    },
    {
     "reference_id": "154-01",
     "document_id": "decreto_86084_19810608",
-    "article_id": "art9"
+    "article_id": "art9",
+    "unmatchable_reason": "treaty article of a non-statutory document (moved to nao_articulados in ce032e6)"
    },
    {
     "reference_id": "155-01",
     "document_id": "decreto_87563_19820913",
-    "article_id": "art15"
+    "article_id": "art15",
+    "unmatchable_reason": "treaty article: the treaty numbers its articles \"ARTIGO I…XXV\", which the statutory parser does not read as Artigo"
    },
    {
     "reference_id": "157-02",
     "document_id": "decreto_8289_20140725",
-    "article_id": "art13"
+    "article_id": "art13",
+    "unmatchable_reason": "treaty article: annex 1 numbers its articles \"Artigo I…XIV\", which the statutory parser does not read as Artigo"
    },
    {
     "reference_id": "158-02",
     "document_id": "decreto_85801_19810310",
-    "article_id": "art12"
+    "article_id": "art12",
+    "unmatchable_reason": "treaty article of a non-statutory document (moved to nao_articulados in ce032e6); the treaty text is absent"
    },
    {
     "reference_id": "158-02",
     "document_id": "decreto_85801_19810310",
-    "article_id": "art6"
+    "article_id": "art6",
+    "unmatchable_reason": "treaty article of a non-statutory document (moved to nao_articulados in ce032e6); the treaty text is absent"
    },
    {
     "reference_id": "159-01",
     "document_id": "decreto_93153_19860822",
-    "article_id": "art7"
-   },
-   {
-    "reference_id": "312-02",
-    "document_id": "lei_11941_20090527",
-    "article_id": "art56"
-   },
-   {
-    "reference_id": "480-02",
-    "document_id": "decreto_59566_19661114",
-    "article_id": "art3"
-   },
-   {
-    "reference_id": "560-15",
-    "document_id": "mp_2158-35_20010824",
-    "article_id": "art24"
-   },
-   {
-    "reference_id": "584-01",
-    "document_id": "lei_6404_19761215",
-    "article_id": "art252"
-   },
-   {
-    "reference_id": "617-01",
-    "document_id": "mp_2158-35_20010824",
-    "article_id": "art24"
-   },
-   {
-    "reference_id": "618-02",
-    "document_id": "mp_2158-35_20010824",
-    "article_id": "art24"
-   },
-   {
-    "reference_id": "618-09",
-    "document_id": "mp_2158-35_20010824",
-    "article_id": "art24"
-   },
-   {
-    "reference_id": "620-01",
-    "document_id": "mp_2158-35_20010824",
-    "article_id": "art24"
-   },
-   {
-    "reference_id": "620-08",
-    "document_id": "mp_2158-35_20010824",
-    "article_id": "art24"
-   },
-   {
-    "reference_id": "621-02",
-    "document_id": "mp_2158-35_20010824",
-    "article_id": "art24"
-   },
-   {
-    "reference_id": "624-04",
-    "document_id": "mp_2158-35_20010824",
-    "article_id": "art24"
-   },
-   {
-    "reference_id": "677-02",
-    "document_id": "lei_13043_20141113",
-    "article_id": "art16"
-   },
-   {
-    "reference_id": "677-04",
-    "document_id": "lei_13043_20141113",
-    "article_id": "art16"
-   },
-   {
-    "reference_id": "699-02",
-    "document_id": "lei_13043_20141113",
-    "article_id": "art16"
-   },
-   {
-    "reference_id": "699-04",
-    "document_id": "lei_13043_20141113",
-    "article_id": "art16"
+    "article_id": "art7",
+    "unmatchable_reason": "treaty article of a non-statutory document (moved to nao_articulados in ce032e6); the treaty text is absent"
    }
   ],
+  "article_ids_missing_unexplained": [],
+  "provisions_unmatchable": 61,
   "provisions": {
-   "found_in_main": 1626,
+   "found_in_main": 1643,
    "found_in_annex": 615,
    "without_id": 36,
-   "missing": 41
+   "missing": 25
   },
   "fragment_ids_missing": [
    {
@@ -676,112 +362,16 @@
     "fragment_id": "art167_cpt_inc1_ite7"
    },
    {
-    "reference_id": "312-02",
-    "document_id": "lei_11941_20090527",
-    "label": "art. 56",
-    "fragment_id": "art56"
-   },
-   {
     "reference_id": "460-03",
     "document_id": "in_rfb_2178_20240305",
     "label": "art. 11, § 2º, inciso II",
     "fragment_id": "art11_par2_inc2"
    },
    {
-    "reference_id": "480-02",
-    "document_id": "decreto_59566_19661114",
-    "label": "art. 3º",
-    "fragment_id": "art3"
-   },
-   {
-    "reference_id": "560-15",
-    "document_id": "mp_2158-35_20010824",
-    "label": "art. 24, § 6º, inciso I",
-    "fragment_id": "art24_par6_inc1"
-   },
-   {
-    "reference_id": "560-15",
-    "document_id": "mp_2158-35_20010824",
-    "label": "art. 24, § 6º, inciso II",
-    "fragment_id": "art24_par6_inc2"
-   },
-   {
-    "reference_id": "584-01",
-    "document_id": "lei_6404_19761215",
-    "label": "art. 252",
-    "fragment_id": "art252"
-   },
-   {
-    "reference_id": "617-01",
-    "document_id": "mp_2158-35_20010824",
-    "label": "art. 24",
-    "fragment_id": "art24"
-   },
-   {
-    "reference_id": "618-02",
-    "document_id": "mp_2158-35_20010824",
-    "label": "art. 24",
-    "fragment_id": "art24"
-   },
-   {
-    "reference_id": "618-09",
-    "document_id": "mp_2158-35_20010824",
-    "label": "art. 24",
-    "fragment_id": "art24"
-   },
-   {
-    "reference_id": "620-01",
-    "document_id": "mp_2158-35_20010824",
-    "label": "art. 24",
-    "fragment_id": "art24"
-   },
-   {
-    "reference_id": "620-08",
-    "document_id": "mp_2158-35_20010824",
-    "label": "art. 24",
-    "fragment_id": "art24"
-   },
-   {
-    "reference_id": "621-02",
-    "document_id": "mp_2158-35_20010824",
-    "label": "art. 24",
-    "fragment_id": "art24"
-   },
-   {
-    "reference_id": "624-04",
-    "document_id": "mp_2158-35_20010824",
-    "label": "art. 24, § 5º",
-    "fragment_id": "art24_par5"
-   },
-   {
-    "reference_id": "677-02",
-    "document_id": "lei_13043_20141113",
-    "label": "art. 16",
-    "fragment_id": "art16"
-   },
-   {
-    "reference_id": "677-04",
-    "document_id": "lei_13043_20141113",
-    "label": "art. 16",
-    "fragment_id": "art16"
-   },
-   {
     "reference_id": "683-02",
     "document_id": "lei_12350_20101220",
     "label": "art. 45, § 3º",
     "fragment_id": "art45_par3"
-   },
-   {
-    "reference_id": "699-02",
-    "document_id": "lei_13043_20141113",
-    "label": "art. 16",
-    "fragment_id": "art16"
-   },
-   {
-    "reference_id": "699-04",
-    "document_id": "lei_13043_20141113",
-    "label": "art. 16",
-    "fragment_id": "art16"
    },
    {
     "reference_id": "708-01",
@@ -849,32 +439,8 @@
     ]
    }
   ],
-  "documents_without_chunks": [
-   "decreto_27784_19500216",
-   "decreto_59308_19660923",
-   "decreto_59309_19660923",
-   "decreto_62125_19680116",
-   "decreto_63151_19680822",
-   "decreto_85801_19810310",
-   "decreto_86006_19810514",
-   "decreto_86084_19810608",
-   "decreto_93153_19860822",
-   "in_srf_23_19830325",
-   "in_srf_67_19880421"
-  ],
-  "cited_documents_without_chunks": [
-   "decreto_27784_19500216",
-   "decreto_59308_19660923",
-   "decreto_59309_19660923",
-   "decreto_62125_19680116",
-   "decreto_63151_19680822",
-   "decreto_85801_19810310",
-   "decreto_86006_19810514",
-   "decreto_86084_19810608",
-   "decreto_93153_19860822",
-   "in_srf_23_19830325",
-   "in_srf_67_19880421"
-  ],
+  "documents_without_chunks": [],
+  "cited_documents_without_chunks": [],
   "duplicate_urns": {}
  }
 }
