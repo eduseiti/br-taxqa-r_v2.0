@@ -133,3 +133,32 @@ def test_repo_registry_loads():
     jua = models["jua-4b-mixed"]
     assert jua.dim == 2560 and jua.revision.startswith("57f491c")
     assert jua.render_query("q").endswith("\nQuery: q")
+
+
+def test_corpus_extend_embeds_only_new_texts(cli, corpus_path, tmp_path):
+    """--extend (embed by text hash): texts already in the finalized store are reused, only new
+    ones are sent, removed ones are dropped, and the result equals a full run."""
+    from embedding.corpus import text_hash
+    out = tmp_path / "embeddings" / "fake-8" / "corpus"
+    assert cli("corpus", "--model", "fake-8", "--input", str(corpus_path), "--no-progress") == 0
+    first = _load(out / "manifest.json")
+    df = pd.read_csv(corpus_path, dtype=str)
+    df = df[df["chunk_id"] != "doc#5"]                                   # one text removed
+    new = pd.DataFrame({"chunk_id": ["doc#9", "doc#c3"], "Texto": ["Art. 9º Nono.", "Art. 1º Caput § 1º Parágrafo."],
+                        "Tipo": ["ART", "PAR"]})
+    new["texto_sha256"] = new["Texto"].map(text_hash)
+    df = pd.concat([df, new.assign(n_tokens=new["Texto"].str.len().astype(str))], ignore_index=True)
+    p2 = tmp_path / "chunks2.csv.gz"
+    df.to_csv(p2, index=False)
+    assert cli("corpus", "--model", "fake-8", "--input", str(p2), "--no-progress") == 0   # refuses silently
+    assert _load(out / "manifest.json") == first
+    assert cli("corpus", "--model", "fake-8", "--input", str(p2), "--extend", "--no-progress") == 0
+    m = _load(out / "manifest.json")
+    assert m["extend"]["reused_texts"] == 4 and m["extend"]["embedded_texts"] == 2
+    assert m["extend"]["dropped_texts"] == 1
+    assert m["run"]["n_texts"] == 2 and m["output"]["shape"] == [6, 8]
+    v = np.load(out / "vectors.npy")
+    texts = pd.read_csv(out / "texts.csv", dtype=str)
+    c = load_corpus(p2)
+    assert list(texts["text_id"]) == list(c.texts["text_id"])
+    assert np.allclose(v, FakeProvider(8).embed(c.texts["text"].tolist()))

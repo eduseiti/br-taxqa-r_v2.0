@@ -407,21 +407,61 @@ def cmd_parity(args, cfg: ModelConfig) -> int:
     return 0 if res["passed"] else 1
 
 
+def previous_store(out: Path, cfg: ModelConfig, inp: dict) -> dict:
+    """The finalized corpus store in ``out``, for ``--extend``: text_id -> row, plus checks that its
+    vectors are interchangeable with a new run (same model, revision, template, dimension)."""
+    man_path = out / "manifest.json"
+    if not man_path.exists():
+        raise StoreError(f"--extend: no finalized store in {rel(out)}")
+    man = read_json(man_path)
+    m = man["model"]
+    want = {"model_id": cfg.model_id, "revision": cfg.revision, "dim": cfg.dim, "template": inp["template"]}
+    diff = {k: (m.get(k), v) for k, v in want.items() if m.get(k) != v}
+    if diff:
+        raise StoreError(f"--extend: the stored vectors were made with a different configuration: {diff}")
+    texts = pd.read_csv(out / "texts.csv", dtype={"text_id": str})
+    if sha256_file(out / "vectors.npy") != man["output"]["sha256"]["vectors.npy"]:
+        raise StoreError("--extend: vectors.npy does not match its manifest")
+    return {"manifest": man, "manifest_sha256": sha256_file(man_path),
+            "row": dict(zip(texts["text_id"], texts["row"])), "server": man["server"]["fingerprint"]}
+
+
+def seed_reused(store: ShardStore, prev: dict, ids: list[str], out: Path, block: int = 4096) -> int:
+    """Copy the stored vectors of the texts that are still in the input into the shard store, so
+    only new texts are sent and ``assemble`` works unchanged. Returns the number reused."""
+    done = store.done_ids()
+    reuse = [i for i in ids if i in prev["row"] and i not in done]
+    if reuse:
+        V = np.load(out / "vectors.npy", mmap_mode="r")
+        for j in range(0, len(reuse), block):
+            part = reuse[j:j + block]
+            store.write(part, np.asarray(V[[prev["row"][i] for i in part]]))
+    return sum(1 for i in ids if i in prev["row"])
+
+
 def cmd_embed(args, cfg: ModelConfig, kind: str) -> int:
     inp = corpus_inputs(cfg, args) if kind == "corpus" else query_inputs(cfg, args)
     out: Path = inp["out"]
-    if (out / "manifest.json").exists() and not args.overwrite:
-        print(f"{rel(out)} is already finalized; --overwrite to redo it")
+    extend = getattr(args, "extend", False)
+    if (out / "manifest.json").exists() and not (args.overwrite or extend):
+        print(f"{rel(out)} is already finalized; --overwrite to redo it, or --extend to embed only new texts")
         return 0
+    prev = previous_store(out, cfg, inp) if extend else None
+    if prev:
+        new = sum(1 for i in inp["ids"] if i not in prev["row"])
+        log.info("--extend: %d of %d texts are in the stored vectors; %d new", len(inp["ids"]) - new,
+                 len(inp["ids"]), new)
     n_tok = count_tokens(cfg, inp["texts"])
     guard(inp["ids"], n_tok, cfg.max_input_tokens)
     mi, mt = cfg.request_opt("max_inputs", 32), cfg.request_opt("max_request_tokens", 16384)
     conc = args.concurrency or cfg.request_opt("concurrency", 4)
     if args.dry_run:
         from embedding.runner import pack
-        nreq = len(pack(n_tok, mi, mt))
-        print(f"{kind}: {len(inp['ids'])} texts, {sum(n_tok):,} tokens (max {max(n_tok)}), "
-              f"{nreq} requests of <= {mi} inputs / {mt} tokens, concurrency {conc}")
+        sent = [n for i, n in zip(inp["ids"], n_tok) if not prev or i not in prev["row"]]
+        nreq = len(pack(sent, mi, mt))
+        print(f"{kind}: {len(inp['ids'])} texts, {len(sent)} to send, {sum(sent):,} tokens "
+              f"(max {max(sent, default=0)}), {nreq} requests of <= {mi} inputs / {mt} tokens, concurrency {conc}")
+        n_tok = sent
         tps, price = cfg.request_opt("expected_tokens_per_s", None), cfg.price.get("usd_per_hour")
         if tps and price:
             h = sum(n_tok) / tps / 3600
@@ -436,18 +476,38 @@ def cmd_embed(args, cfg: ModelConfig, kind: str) -> int:
         info = prov.info()
         sfp = server_fingerprint(cfg, info, es.desc)
         gate = parity_gate(cfg, sfp, args.skip_parity)
-        store.open(store_fingerprint(cfg, inp, sfp), overwrite=args.overwrite)
+        extra = {"cost_ledger": "embeddings/costs.csv"}
+        if prev:
+            if prev["server"] != sfp:
+                raise StoreError("--extend: the stored vectors come from a different server configuration "
+                                 f"({prev['server']} vs {sfp})")
+            fp = store_fingerprint(cfg, inp, sfp) | {"extends": prev["manifest_sha256"]}
+            store.open(fp, overwrite=args.overwrite)
+            reused = seed_reused(store, prev, inp["ids"], out)
+            extra["extend"] = {"previous_manifest_sha256": prev["manifest_sha256"],
+                               "previous_input": prev["manifest"]["input"],
+                               "previous_output_sha256": prev["manifest"]["output"]["sha256"],
+                               "reused_texts": reused, "embedded_texts": len(inp["ids"]) - reused,
+                               "dropped_texts": len(set(prev["row"]) - set(inp["ids"]))}
+        else:
+            store.open(store_fingerprint(cfg, inp, sfp), overwrite=args.overwrite)
         st = store.state()
         st["context"] = {"server_info": info, "endpoint": es.desc, "parity": gate, "run_id": es.run_id}
+        if prev:
+            st["context"]["extend"] = extra["extend"]
         write_json(store.state_path, st)
         run(prov, store, inp["ids"], inp["texts"], n_tok, cfg.dim, mi, mt, conc, progress=not args.no_progress)
-    finalize(cfg, inp, n_tok, store, {"cost_ledger": "embeddings/costs.csv"})
+    finalize(cfg, inp, n_tok, store, extra)
     return 0
 
 
 def cmd_finalize(args, cfg: ModelConfig) -> int:
     inp = corpus_inputs(cfg, args) if args.kind == "corpus" else query_inputs(cfg, args)
-    finalize(cfg, inp, count_tokens(cfg, inp["texts"]), ShardStore(inp["out"]), {"cost_ledger": "embeddings/costs.csv"})
+    store = ShardStore(inp["out"])
+    extra = {"cost_ledger": "embeddings/costs.csv"}
+    if (store.state() or {}).get("context", {}).get("extend"):
+        extra["extend"] = store.state()["context"]["extend"]
+    finalize(cfg, inp, count_tokens(cfg, inp["texts"]), store, extra)
     return 0
 
 
@@ -554,6 +614,10 @@ def build_parser() -> argparse.ArgumentParser:
         corpus_args(sp) if kind == "corpus" else query_args(sp)
         sp.add_argument("--dry-run", action="store_true", help="count tokens and requests; send nothing")
         sp.add_argument("--overwrite", action="store_true", help="discard existing shards / outputs")
+        if kind == "corpus":
+            sp.add_argument("--extend", action="store_true",
+                            help="embed by text hash: reuse the finalized vectors of every text still in the "
+                                 "input and send only the new texts (same model, revision, template and server)")
         sp.add_argument("--skip-parity", action="store_true", help="run without a passing parity.json")
         sp.add_argument("--concurrency", type=int, default=None)
         sp.add_argument("--no-progress", action="store_true")
