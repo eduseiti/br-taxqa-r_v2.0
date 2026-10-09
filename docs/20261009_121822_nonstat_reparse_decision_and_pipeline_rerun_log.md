@@ -643,9 +643,19 @@ python3 -m pytest -q scripts/dataset/tests
   `python3 scripts/dataset/build_v2_dataset.py --questions ../br-taxqa-document-fetcher/questions_QA_2024_v1.1.json`
   (exit 0, same summary line as §8.3). Only `build_report.json` changed (`commit ffbc7a3…`, `dirty: false`,
   timestamp); the three `.jsonl` files were byte-identical. Committed with this status update.
-- X1/X2: `lexml/articulados/PARSER_VERSION` → `4c85e81` and jar sha256 `a018af01…`.
-- X5: delete `../lexml_parser_non_statutory/.cache/linker` (stale, pre-`51874d9`).
-- X7: `validate_segments.diff_vs_frozen` should compare variant by variant (§8.2).
+- ~~X1/X2~~ **done**: `lexml/articulados/PARSER_VERSION` now names `4c85e81` and jar sha256 `a018af01…6c57`
+  (old jar hash kept for the record) and adds a `verification` line pointing at §5.2.
+- ~~X5~~ **done**: `rm -rf ../lexml_parser_non_statutory/.cache/linker` (16,315 pre-`51874d9` entries, 20 MB;
+  gitignored there). `.cache/linker_51874d9` and `.cache/referee` remain.
+- ~~X7~~ **done**: `diff_vs_frozen` compares variant by variant (key + `variante`) when the frozen set has a
+  `variante` column, and keeps the old caput-vs-frozen comparison for older sets; it reports `by_variant`.
+  New `scripts/segmentation/tests/test_diff_vs_frozen.py` (3 tests). On the real data (R7 frozen set,
+  `--frozen-lexml-rev 280121b`): 364 unchanged files, 31,605 rows compared, **0 differ** (was 8,555).
+- Pre-existing test failure (not from X7; it fails on the committed tree too):
+  `test_python_segmenters.py::test_loose_offset_keeps_intervals_disjoint` expects a loose tax table before
+  LIVRO I in `decreto_9580_20181122.anexo1.xml` (RIR/2018). Since the statutory re-parse `a94c2bf` that
+  table is no longer before LIVRO I (first `<table` at offset 368,028, after `<Livro` at 482; at `0ef6d67` it
+  was at 519, before `<Livro` at 1,036), so the test's premise is stale. The other 47 segmentation tests pass.
 - The fetcher's dirty submodule (`br_legal_parser`) makes `fetcher_dirty: true`.
 - Vectors and rankings exist only on the computer that made them. Back up `embeddings/jua-4b-mixed/corpus/`
   (≈ 1 GB) or release it on the HF Hub, so a later `--extend` run can reuse it.

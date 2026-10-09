@@ -24,8 +24,9 @@ Structural checks (each reported as pass/fail with examples):
   base_no_caput    the caput variant is the base text plus one inserted segment (the caput
                    sentence), so the base row does not hold it
   diff_vs_frozen   (report only, with --frozen) for documents whose LexML did not change since
-                   --frozen-lexml-rev, base rows equal the frozen rows, except paragraph-family
-                   rows, whose frozen text is now the caput variant
+                   --frozen-lexml-rev, the rows equal the frozen rows: variant by variant when the
+                   frozen set has a `variante` column; otherwise (a set older than the caput plan)
+                   base rows, except paragraph-family rows, whose frozen text is now the caput variant
 
 The structural checks above the variant checks run on the base rows.
 
@@ -430,11 +431,16 @@ def diff_vs_frozen(base: pd.DataFrame, variants: pd.DataFrame, frozen_path: Path
 
     files = sorted(set(base["arquivo"]) | set(frozen["arquivo"]))
     same = {f for f in files if f in set(frozen["arquivo"]) and f in set(base["arquivo"]) and unchanged(f)}
-    cap_by_base = {re.sub(r"#c(\d+)$", r"#\1", r.chunk_id): r.Texto for r in variants.itertuples(index=False)}
-    new = base[base["arquivo"].isin(same)].assign(expected=lambda d: [cap_by_base.get(c, t) for c, t in
-                                                                     zip(d["chunk_id"], d["Texto"])])
-    old = frozen[frozen["arquivo"].isin(same)]
     key = ["arquivo", "Tipo", "urn", "Num_Inicio", "Num_Final", "parte"]
+    if "variante" in frozen.columns:  # the frozen set has base and caput rows: compare like with like
+        new = pd.concat([base, variants])
+        new = new[new["arquivo"].isin(same)].assign(expected=lambda d: d["Texto"])
+        key.append("variante")
+    else:  # frozen before the caput plan: its paragraph-family rows hold what is now the caput variant
+        cap_by_base = {re.sub(r"#c(\d+)$", r"#\1", r.chunk_id): r.Texto for r in variants.itertuples(index=False)}
+        new = base[base["arquivo"].isin(same)].assign(expected=lambda d: [cap_by_base.get(c, t) for c, t in
+                                                                         zip(d["chunk_id"], d["Texto"])])
+    old = frozen[frozen["arquivo"].isin(same)]
     new_k = new.assign(parte=new["parte"].astype(str), Num_Inicio=new["Num_Inicio"].astype(str),
                        Num_Final=new["Num_Final"].astype(str))
     m = new_k.merge(old[key + ["Texto"]], on=key, how="outer", suffixes=("", "_frozen"), indicator=True)
@@ -443,6 +449,7 @@ def diff_vs_frozen(base: pd.DataFrame, variants: pd.DataFrame, frozen_path: Path
     changed_files = sorted(set(files) - same)
     return {"ok": True, "report_only": True, "lexml_rev": rev,
             "files_unchanged_lexml": len(same), "files_changed_or_new_or_removed": len(changed_files),
+            "by_variant": "variante" in frozen.columns,
             "rows_compared": len(both), "rows_text_differs": len(diff_text),
             "rows_only_new": int((m["_merge"] == "left_only").sum()),
             "rows_only_frozen": int((m["_merge"] == "right_only").sum()),
