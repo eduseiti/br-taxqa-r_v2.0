@@ -651,11 +651,17 @@ python3 -m pytest -q scripts/dataset/tests
   `variante` column, and keeps the old caput-vs-frozen comparison for older sets; it reports `by_variant`.
   New `scripts/segmentation/tests/test_diff_vs_frozen.py` (3 tests). On the real data (R7 frozen set,
   `--frozen-lexml-rev 280121b`): 364 unchanged files, 31,605 rows compared, **0 differ** (was 8,555).
-- Pre-existing test failure (not from X7; it fails on the committed tree too):
-  `test_python_segmenters.py::test_loose_offset_keeps_intervals_disjoint` expects a loose tax table before
-  LIVRO I in `decreto_9580_20181122.anexo1.xml` (RIR/2018). Since the statutory re-parse `a94c2bf` that
-  table is no longer before LIVRO I (first `<table` at offset 368,028, after `<Livro` at 482; at `0ef6d67` it
-  was at 519, before `<Livro` at 1,036), so the test's premise is stale. The other 47 segmentation tests pass.
+- ~~Stale test~~ **fixed**: `test_python_segmenters.py::test_loose_offset_keeps_intervals_disjoint` failed on
+  the committed tree too (not from X7). It expected a loose tax table before LIVRO I in
+  `decreto_9580_20181122.anexo1.xml` (RIR/2018). That table was a **parser defect of the old parse**: the
+  `.docx` writes art. 677, VI as "V I", so `art677` had only items I–V and the item's 2015 table
+  (`anexo1_tab2`, a duplicate-looking copy of art. 122, VI's) was pushed before LIVRO I as loose text
+  (`DocumentoGenerico`). The re-parse `a94c2bf` puts it in `art677_cpt_inc6` (`DocumentoArticulado`), which is
+  right. The test now uses the fixture `in_rfb_1500_20141029.anexo8.xml` (five loose RRA tables after the XSL
+  `DSP` of item V; the XML matches the `.docx`, where items II–IV have no caption paragraphs), and a new
+  `test_rir_2018_tax_table_is_in_its_article` pins the RIR/2018 fix. Segmentation suite: 49 passed.
+  Leftover: RIR/2018 still has one loose paragraph, the footnote mark `*` that followed the misplaced table;
+  it is a one-character `TXT` chunk (`articulacao_p1-p1`) in the corpus, harmless for retrieval.
 - The fetcher's dirty submodule (`br_legal_parser`) makes `fetcher_dirty: true`.
 - Vectors and rankings exist only on the computer that made them. Back up `embeddings/jua-4b-mixed/corpus/`
   (≈ 1 GB) or release it on the HF Hub, so a later `--extend` run can reuse it.

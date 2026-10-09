@@ -21,7 +21,7 @@ from segment_non_statutory import segment_document, segment_loose
     ("decreto_8289_20140725.anexo1.xml", "B", True),        # preamble text
     ("ade_rfb_3_20240402.anexo1.xml", "C", False),
     ("in_srf_256_20021211.anexo2.xml", "B", True),         # 148 loose p/table next to 138 dispositivos
-    ("decreto_9580_20181122.anexo1.xml", "A", True),       # tax table before LIVRO I
+    ("decreto_9580_20181122.anexo1.xml", "A", True),       # a stray "*" paragraph in Articulacao
 ])
 def test_router(tok, name, cat, loose):
     d = classify(fixture_path(name), tok)
@@ -85,22 +85,40 @@ def test_table_header_repeated(tmp_path, tok):
 
 
 def test_loose_offset_keeps_intervals_disjoint(tmp_path, xsl_out, tok):
-    """decreto_9580.anexo1 (RIR/2018): the tax table before LIVRO I is appended after the XSL rows."""
-    csv_path, rows, meta = xsl_out("decreto_9580_20181122.anexo1.xml")
+    """in_rfb_1500.anexo8 (RRA accumulated tables): the loose tables are appended after the XSL rows.
+
+    Until the statutory re-parse a94c2bf this test used decreto_9580.anexo1 (RIR/2018), whose tax table
+    of art. 677, VI ("V I" in the .docx) was misplaced before LIVRO I; see the next test."""
+    name = "in_rfb_1500_20141029.anexo8.xml"
+    csv_path, rows, meta = xsl_out(name)
     local = tmp_path / csv_path.name
     local.write_text(csv_path.read_text(encoding="utf-8"), encoding="utf-8")
     max_final = max(int(r["Num_Final"]) for r in rows)
-    res = segment_loose(fixture_path("decreto_9580_20181122.anexo1.xml"), local, max_final + 1, tok)
+    res = segment_loose(fixture_path(name), local, max_final + 1, tok)
     new = read_rows(local)[len(rows):]
-    assert len(new) == len(res.rows) > 0
+    assert len(new) == len(res.rows) == 5
     assert min(int(r["Num_Inicio"]) for r in new) == max_final + 1
-    tab = next(r for r in new if r["Tipo"] == "TAB")
-    assert "TABELA PROGRESSIVA MENSAL" in tab["Texto"]
-    assert "V I - para os meses de abril a dezembro" in tab["Texto"]          # caption
-    assert not any(body_of(r["Texto"]) == "ANEXO" for r in new)               # title: prefix only
-    prov = read_prov(local)
-    txt = [p for p in prov if p["nivel"] == "TXT"]
-    assert all(p["sintetico"] and p["unidade_id"].startswith("anexo1_pp_p") for p in txt)
+    starts = [int(r["Num_Inicio"]) for r in new]
+    assert all(int(a["Num_Final"]) < b for a, b in zip(new, starts[1:]))       # disjoint, in order
+    assert all(r["Tipo"] == "TAB" and "Parcela a Deduzir do Imposto" in r["Texto"] for r in new)
+    assert "I - para o ano-calendário de 2011" in body_of(new[0]["Texto"])     # caption
+    title = "ANEXO IV COMPOSIÇÃO DA TABELA ACUMULADA"
+    assert all(f"Anexo 8 – {title} ]" in r["Texto"] for r in new)              # title: prefix only
+    assert not any(body_of(r["Texto"]) == title for r in new)
+    prov = read_prov(local)[-len(new):]
+    assert [p["unidade_id"] for p in prov] == [f"anexo8_tab{k}" for k in range(2, 7)]
+    assert not any(p["sintetico"] for p in prov)
+
+
+def test_rir_2018_tax_table_is_in_its_article():
+    """decreto_9580.anexo1 (RIR/2018): since a94c2bf the 2015 table of art. 677, VI is inside the article,
+    not loose before LIVRO I (docs/20261009_121822_*, §10.2)."""
+    tree = parse(fixture_path("decreto_9580_20181122.anexo1.xml"))
+    ns = {"l": "http://www.lexml.gov.br/1.0"}
+    assert not [e for e in loose_elements(tree, True) if e.tag.endswith("table")]
+    inc6 = tree.find(".//l:Inciso[@id='art677_cpt_inc6']", ns)
+    assert inc6 is not None
+    assert "Até 1.903,98" in "".join(inc6.find("l:table", ns).itertext())
 
 
 def test_synthetic_loose_ids(tmp_path, xsl_out, tok):
