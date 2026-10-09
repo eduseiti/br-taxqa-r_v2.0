@@ -1,15 +1,15 @@
 {
- "timestamp": "2026-10-08T00:41:40",
+ "timestamp": "2026-10-09T13:01:09",
  "git": {
-  "commit": "280121b7f887104a4385990ecf888851bada9f54",
-  "dirty": false,
+  "commit": "a94c2bf6ef663439a98f91ca29068a8c4e976c4b",
+  "dirty": true,
   "fetcher_commit": "c7f4b8faf8b8df84520e6e957d7a0890513f4a52",
-  "fetcher_dirty": false
+  "fetcher_dirty": true
  },
  "inputs_sha256": {
   "questions": "097abfc4f885ea36e512e6beae39a826b981191aa0b320960828e51ccc081585",
   "canonical": "cc5eec6c22bde4da1e6d6081b4f524ffd55ceca9748d6c60924e171e3247e6ae",
-  "reference_overrides": "c2369509bf6d4278d710e5037d45c1085492b2477fea044ba6d6f7478b0e1de0",
+  "reference_overrides": "5af9b6e6db27a58f91685a83ac36ac53d558a558743ed41c97f835984bf64b96",
   "citations_py": "b25a8eb82852dd1eb2100603c31b4b06244403775f76c7d22dd6f3229b67c079",
   "nonstat_lexml_map": "95e6506ba446a68c3016e207f499773d2a6022274975f2fd45d3ed5872b531cd"
  },
@@ -24,18 +24,18 @@
  "counts": {
   "questions": 715,
   "questions_with_references": 596,
-  "references": 1917,
+  "references": 1916,
   "references_by_origin": {
    "explicit": 1473,
-   "embedded": 444
+   "embedded": 443
   },
   "references_by_resolution": {
-   "auto_exact": 1816,
+   "auto_exact": 1815,
    "auto_undated": 30,
    "override": 71
   },
-  "documents": 458,
-  "documents_cited": 447,
+  "documents": 453,
+  "documents_cited": 446,
   "v1_files_in_canonical": 478
  },
  "dropped_references": [
@@ -82,6 +82,13 @@
    "reason": "v1 'embedded' reference absent from the answer text (the answer cites nothing); LLM extraction artefact present since v1.0"
   },
   {
+   "question_number": "144",
+   "origin": "embedded",
+   "cited_title": "Convenção de Viena sobre o Direito dos Tratados",
+   "v1_file": "Convenção de Viena sobre o Direito dos Tratados.txt",
+   "reason": "user fix (2026-10-08): the 'Convenção de Viena' of Q144 is the Convention on Diplomatic Relations (Decreto nº 56.435/1965, already reference 144-01), not the Convention on the Law of Treaties (Decreto nº 7.030/2009); review answers note §2.1, N1"
+  },
+  {
    "question_number": "187",
    "origin": "explicit",
    "cited_title": "Solução de Consulta Interna Cosit nº 27, de 7 de julho de 2008",
@@ -125,10 +132,6 @@
   "declaracao_de_informacoes_sobre_atividades_imobiliarias_DIMOB",
   "declaracao_de_servicos_medicos_e_de_saude_DMED",
   "declaracao_sobre_operacoes_imobiliarias_DOI",
-  "in_rfb_1505_20141031",
-  "in_rfb_1911_20191011",
-  "lei_3071_19160101",
-  "lei_5869_19730111",
   "par_cosit_26_20000629",
   "sc_cosit_153_20140611",
   "sistema_de_recolhimento_mensal_obrigatorio_CARNE_LEAO"
@@ -227,50 +230,14 @@
    }
   ],
   "article_ids_missing_unexplained": [],
-  "provisions_unmatchable": 61,
+  "provisions_unmatchable": 49,
   "provisions": {
-   "found_in_main": 1643,
-   "found_in_annex": 615,
+   "found_in_main": 1654,
+   "found_in_annex": 616,
    "without_id": 36,
-   "missing": 25
+   "missing": 13
   },
   "fragment_ids_missing": [
-   {
-    "reference_id": "018-01",
-    "document_id": "lei_9250_19951226",
-    "label": "art. 10, inciso X",
-    "fragment_id": "art10_cpt_inc10"
-   },
-   {
-    "reference_id": "093-02",
-    "document_id": "lei_6015_19731231",
-    "label": "art. 167, inciso I, item 24",
-    "fragment_id": "art167_cpt_inc1_ite24"
-   },
-   {
-    "reference_id": "093-02",
-    "document_id": "lei_6015_19731231",
-    "label": "art. 167, inciso I, item 25",
-    "fragment_id": "art167_cpt_inc1_ite25"
-   },
-   {
-    "reference_id": "093-06",
-    "document_id": "lei_6015_19731231",
-    "label": "art. 167, inciso I, item 24",
-    "fragment_id": "art167_cpt_inc1_ite24"
-   },
-   {
-    "reference_id": "093-06",
-    "document_id": "lei_6015_19731231",
-    "label": "art. 167, inciso I, item 25",
-    "fragment_id": "art167_cpt_inc1_ite25"
-   },
-   {
-    "reference_id": "142-03",
-    "document_id": "decreto_56435_19650608",
-    "label": "art. 34, alínea ‘d’",
-    "fragment_id": "art34_cpt_ali4"
-   },
    {
     "reference_id": "149-01",
     "document_id": "decreto_27784_19500216",
@@ -326,12 +293,6 @@
     "fragment_id": "art15_cpt_ali2"
    },
    {
-    "reference_id": "157-01",
-    "document_id": "decreto_5128_20040706",
-    "label": "art. 21, alínea “d”",
-    "fragment_id": "art21_cpt_ali4"
-   },
-   {
     "reference_id": "157-02",
     "document_id": "decreto_8289_20140725",
     "label": "art. XIII, item 2",
@@ -354,36 +315,6 @@
     "document_id": "decreto_93153_19860822",
     "label": "art. VII",
     "fragment_id": "art7"
-   },
-   {
-    "reference_id": "209-01",
-    "document_id": "lei_6015_19731231",
-    "label": "art. 167, inciso I, item 7",
-    "fragment_id": "art167_cpt_inc1_ite7"
-   },
-   {
-    "reference_id": "460-03",
-    "document_id": "in_rfb_2178_20240305",
-    "label": "art. 11, § 2º, inciso II",
-    "fragment_id": "art11_par2_inc2"
-   },
-   {
-    "reference_id": "683-02",
-    "document_id": "lei_12350_20101220",
-    "label": "art. 45, § 3º",
-    "fragment_id": "art45_par3"
-   },
-   {
-    "reference_id": "708-01",
-    "document_id": "lei_11033_20041221",
-    "label": "art. 3º, parágrafo único",
-    "fragment_id": "art3_par1u"
-   },
-   {
-    "reference_id": "708-11",
-    "document_id": "lei_11033_20041221",
-    "label": "art. 3º, parágrafo único",
-    "fragment_id": "art3_par1u"
    }
   ],
   "citation_chains_not_attributed": [],
