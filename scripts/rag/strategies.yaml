@@ -10,33 +10,35 @@
 # `expected_rows` is checked at load time with a warning (not an error): it guards against running
 # on a chunk file other than the one the numbers were measured on.
 #
-# expected_rows measured on segmented/chunks_all.csv.gz, SHA-256 d1b9cf7e…525ff (2026-10-08,
-# corpus rebuild docs/20261007_180833_*). Before the rebuild (SHA-256 f3db0904…55f9b) S1/S2/S3 had
-# 26,250 / 82,642 / 87,702 rows, and S2/S3 had the caput sentence in paragraph chunks (= S2c/S4 now).
+# expected_rows measured on segmented/chunks_all.csv.gz, SHA-256 a6087b7f…326a (2026-10-09, re-parse and
+# re-segmentation docs/20261009_121822_*). On 2026-10-08 (SHA-256 d1b9cf7e…525ff, corpus rebuild
+# docs/20261007_180833_*) S1/S2/S3 had 26,364 / 83,496 / 88,600 rows. Before that rebuild (SHA-256
+# f3db0904…55f9b) S1/S2/S3 had 26,250 / 82,642 / 87,702 rows, and S2/S3 had the caput sentence in
+# paragraph chunks (= S2c/S4 now).
 
 strategies:
   S1:
     tipos: [ART, DSP, TXT, TAB]
     description: "Article (or top-level dispositivo) + non-statutory units"
-    expected_rows: 26364
+    expected_rows: 21497
   S2:
     tipos: [ART, DSP, TXT, TAB, CPT, PAR, INC, ALI, ITE]
     description: "S1 + sub-article units with ancestor path (paragraphs without the caput)"
-    expected_rows: 83496
+    expected_rows: 73118
   S3:
     tipos: [ART, DSP, TXT, TAB, CPT, PAR, INC, ALI, ITE, PRT, LIV, TIT, SBT, CAP, SEC, SSC]
     description: "S2 + grouping chunks"
-    expected_rows: 88600
+    expected_rows: 77080
   S2c:
     tipos: [ART, DSP, TXT, TAB, CPT, PAR, INC, ALI, ITE]
     variantes: [caput, base]
     description: "S2 with the caput sentence in paragraph-family chunks"
-    expected_rows: 83496
+    expected_rows: 73118
   S4:
     tipos: [ART, DSP, TXT, TAB, CPT, PAR, INC, ALI, ITE, PRT, LIV, TIT, SBT, CAP, SEC, SSC]
     variantes: [caput, base]
     description: "S3 with the caput sentence in paragraph-family chunks"
-    expected_rows: 88600
+    expected_rows: 77080
 
 # Grouping unit types: matched to articles by interval containment (plan §4.2 G2).
 grouping_tipos: [PRT, LIV, TIT, SBT, CAP, SEC, SSC]
