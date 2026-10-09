@@ -1,8 +1,8 @@
 # Statutory LexML of this folder (re-parse after docs/20261008_190226_reference_fixes_and_label_only_articles_investigation.md, 2026-10-08)
 parser_repo: ../lexml-parser-projeto-lei
-parser_commit: c587f6b9229d17e9b6009221696c7ab8fb2d2d08 + UNCOMMITTED working tree (treaty-article and annex-rendering fix, work_history/20261008_200135_*; git diff + new ArtigoSemCaputTest.scala sha256 360b7167e90d54d850a213c429414030d922bac32f07edbde0ea43d775432d43). Replace with the commit id once committed.
-jar: target/lexml-parser-projeto-lei-1.15.0-onejar.jar (LC_ALL=C.UTF-8 mvn -Ponejar package -DskipTests, built 2026-10-08 20:11 UTC)
-jar_sha256: 4f1b97aff60a1079fbe8d7e31550396505b22442765c907920c716f2f4003b8c
+parser_commit: 4c85e81de4bffaa7cdacb4b405f0d04d66e87bd5 ("Fixing parser errors", 2026-10-08; the treaty-article and annex-rendering fix, work_history/20261008_200135_*). The parse itself ran on c587f6b + that fix uncommitted; the committed tree differs from it only in ArtigoSemCaputTest.scala (360b7167… then, 0afda6e4… now), and the re-parse below confirms identical output.
+jar: target/lexml-parser-projeto-lei-1.15.0-onejar.jar (LC_ALL=C.UTF-8 mvn -q -Ponejar package -DskipTests at 4c85e81, clean tree, built 2026-10-09 12:07 local)
+jar_sha256: a018af018ffd88ccd96316418df78788a443201aa4217a6545fecac59f6c6c57 (the jar of the original parse, built 2026-10-08 20:11 UTC from the uncommitted tree, was 4f1b97aff60a1079fbe8d7e31550396505b22442765c907920c716f2f4003b8c; jar bytes differ between builds because of build timestamps)
 driver: python3 ../lexml-parser-projeto-lei/scripts/batch_parse.py --no-justificativa --linker /usr/local/bin/linkertool original/articulados lexml/articulados_new (run from this repo; batch_parse.py at 6142756), then copied over lexml/articulados/
 linker: /usr/local/bin/linkertool -> lexml-linker/dist-newstyle/.../linkertool sha256 6b4cf7683bf0483f35e1712e54ce578d113a44b0115f46240fc9bc433303b28f (rebuilt with the "art. N, caput" fix)
 locale: LC_ALL=C.UTF-8 (set by batch_parse.py)
@@ -12,3 +12,4 @@ changes vs the previous parse (commit 6c6fdde of this repo): 98 XML files differ
   - 54: Remissao links only (linker fix); same text and ids
   - 6: parser commit c587f6b (fake LIVROs from "Livro diário/razão/de Apuração" removed in RIR/1999 decreto_3000, lei_6404, decreto_lei_58 annex 1; Lei 6.766 "III-A"; lei_4886 art10_cpt_inc1) and the user's lei_12431 .docx fix
 reproducibility: the XML is byte-identical to an independent run of the same jar on the same inputs (scratch run, 386/386 files)
+verification (2026-10-09, docs/20261009_121822_* §5.2): the 4c85e81 jar re-parsed original/articulados with the same driver and linker: converted=209 skipped=0 failed=0, 386/386 XML byte-identical to this folder
