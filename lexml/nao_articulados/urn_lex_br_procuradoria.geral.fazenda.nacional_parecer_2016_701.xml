@@ -17,7 +17,7 @@
       <Agrupamento id="pp1_agr4" nome="texto">
         <p>Jurisprudência pacífica do Egrégio Superior</p>
         <p>Tribunal de Justiça.</p>
-        <p>Aplicação do art. 19, II, da <Remissao xlink:href="urn:lex:br:federal:lei:2002-07-19;10522">Lei n 10.522, de 19 de julho de 2002</Remissao>, e do <Remissao xlink:href="urn:lex:br:federal:decreto:1997-10-10;2346!art5">art. 5º do Decreto n 2.346, de 10 de outubro de 1997</Remissao>. Procuradoria-Geral da Fazenda Nacional autorizada a não contestar, a não interpor recursos e a desistir dos já interpostos.</p>
+        <p>Aplicação do <Remissao xlink:href="urn:lex:br:federal:lei:2002-07-19;10522!art19_cpt_inc2">art. 19, II, da Lei n 10.522, de 19 de julho de 2002</Remissao>, e do <Remissao xlink:href="urn:lex:br:federal:decreto:1997-10-10;2346!art5">art. 5º do Decreto n 2.346, de 10 de outubro de 1997</Remissao>. Procuradoria-Geral da Fazenda Nacional autorizada a não contestar, a não interpor recursos e a desistir dos já interpostos.</p>
       </Agrupamento>
       <AgrupamentoHierarquico id="pp1_agh1" nome="secao">
         <NomeAgrupador>I</NomeAgrupador>
@@ -32,9 +32,101 @@
       </AgrupamentoHierarquico>
       <AgrupamentoHierarquico id="pp1_agh2" nome="secao">
         <NomeAgrupador>II</NomeAgrupador>
+        <AgrupamentoHierarquico id="pp1_agh2_agh1" nome="subsecao">
+          <NomeAgrupador>DESNECESSIDADE.</NomeAgrupador>
+          <Bloco nome="ordem">0</Bloco>
+          <Agrupamento id="pp1_agh2_agh1_txt1" nome="texto">
+            <p><b>O entendimento jurisprudencial desta Primeira Seção é no sentido de que, após a concessão da isenção do Imposto de Renda sobre os proventos de aposentadoria ou reforma percebidos por portadores de moléstias graves, nos termos </b><Remissao xlink:href="urn:lex:br:federal:lei:1988;7713!art6_cpt_inc14"><b>art. 6º, inciso XIV, da Lei 7.713/88</b></Remissao><b>, o fato de a Junta Médica constatar a ausência de sintomas da doença pela provável cura não justifica a revogação do benefício isencional, tendo em vista que a finalidade desse benefício é diminuir o sacrifícios dos aposentados, aliviando-os dos encargos financeiros.</b> Precedentes: REsp 1125064 / DF, Segunda Turma, rel. Ministra Eliana Calmon, DJe 14/04/2010; REsp 967693 / DF, Segunda Turma, rel. Min. Humberto Martins, DJ 18/09/2007; REsp 734541 / SP, Primeira Turma, rel. Ministro Luiz Fux, DJ 20/02/2006; MS 15261 / DF, Primeira Seção, Rel. Min.</p>
+            <p>Mauro Campbell Marques, julgado em 22.09.2010.</p>
+            <p>Mandado de segurança concedido.</p>
+            <p>(MS 21.706/DF, Rel. Ministro MAURO CAMPBELL MARQUES, PRIMEIRA</p>
+            <p>SEÇÃO, julgado em 23/09/2015, DJe 30/09/2015)</p>
+            <p>TRIBUTÁRIO. ISENÇÃO DO IMPOSTO DE RENDA SOBRE PROVENTOS DE REFORMA DE PORTADOR DE NEOPLASIA MALIGNA. DEMONSTRAÇÃO DA CONTEMPORANEIDADE DOS SINTOMAS. DESNECESSIDADE.</p>
+            <p class="omissis">(...)</p>
+            <ul>
+              <li>
+                <b>Há entendimento jurisprudencial desta Primeira Seção no sentido de que, após a concessão da isenção do Imposto de Renda sobre os proventos de aposentadoria ou reforma percebidos por portadores de moléstias graves, nos termos art. 6º, inciso XIV, da Lei 7.713/88, o fato de a Junta Médica constatar a ausência de sintomas da doença pela provável cura não justifica a revogação do benefício isencional, tendo em vista que a finalidade desse benefício é diminuir o sacrifícios dos aposentados, aliviando-os dos encargos financeiros.</b>
+              </li>
+              <li>Em conformidade com o § 4º do 14 da Lei 12.016/2009 e as Súmulas 269 e 271 do STF, não procede o pleito de devolução dos valores descontados a título de Imposto de Renda.</li>
+              <li>Mandado de segurança parcialmente concedido.</li>
+            </ul>
+            <p>(MS 15.261/DF, Rel. Ministro MAURO CAMPBELL MARQUES, PRIMEIRA</p>
+            <p>SEÇÃO, julgado em 22/09/2010, DJe 05/10/2010)</p>
+            <p>
+              <b>Primeira Turma:</b>
+            </p>
+            <p>TRIBUTÁRIO E PROCESSUAL CIVIL. ISENÇÃO DE IMPOSTO DE RENDA. REVISÃO DO BENEFÍCIO. PORTADOR DE NEOPLASIA MALIGNA. CONTEMPORANEIDADE DOS SINTOMAS. DESNECESSIDADE. LAUDO PERICIAL. SERVIÇO MÉDICO OFICIAL. PRESCINDIBILIDADE. LIVRE CONVICÇÃO MOTIVADA DO MAGISTRADO.</p>
+            <ul>
+              <li><b>A jurisprudência desta Corte firmou-se no sentido de que "após a concessão da isenção do Imposto de Renda sobre os proventos de aposentadoria ou reforma percebidos por portadores de moléstias graves, nos termos art. 6º, inciso XIV, da Lei 7.713/88, o fato de a Junta Médica constatar a ausência de sintomas da doença não justifica a revogação do benefício isencional, tendo em vista que a finalidade desse benefício é diminuir o sacrifícios dos aposentados, aliviando-os dos encargos financeiros.</b>" (REsp 1.202.820/RS, Rel. Ministro Mauro Campbell Marques, Segunda Turma, DJe 15/10/2010). No mesmo sentido: MS 15.261/DF, Rel. Ministro Mauro Campbell Marques, Primeira Seção, DJe 05/10/2010, REsp 1.088.379/DF, Rel. Ministro Francisco Falcão, Primeira Turma, DJe 29/10/2008.</li>
+              <li>O magistrado não está vinculado aos laudos médicos oficiais, podendo decidir o feito de acordo com outras provas juntadas aos autos, sendo livre seu convencimento. Precedentes: AgRg no AREsp 276.420/SE, Rel. Ministro Arnaldo Esteves Lima, Primeira Turma, DJe 15/04/2013; AgRg no AREsp 263.157/PE, Rel. Ministra Eliana Calmon, Segunda Turma, DJe 14/08/2013.</li>
+              <li>No caso, ficou consignado que a parte agravada é portadora de neoplasia maligna, que, muito embora tenha existido cirurgia que extirpou lesões decorrentes da enfermidade, ainda necessita de acompanhamento contínuo, em razão da existência de outras áreas afetadas pela doença.</li>
+              <li>Agravo regimental a que se nega provimento.</li>
+            </ul>
+            <p>(AgRg no AREsp 371.436/MS, Rel. Ministro SÉRGIO KUKINA, PRIMEIRA</p>
+            <p>TURMA, julgado em 03/04/2014, DJe 11/04/2014)</p>
+            <p>***</p>
+            <p>TRIBUTÁRIO. AGRAVO REGIMENTAL NO AGRAVO EM RECURSO ESPECIAL. IMPOSTO DE RENDA. NEOPLASIA MALIGNA. CONTEMPORANEIDADE DOS SINTOMAS. DESNECESSIDADE. ISENÇÃO. AGRAVO NÃO PROVIDO.</p>
+            <ul>
+              <li><b>"Reconhecida a neoplasia maligna, não se exige a demonstração da contemporaneidade dos sintomas, nem a indicação de validade do laudo pericial, ou a comprovação de recidiva da enfermidade, para que o contribuinte faça jus à isenção de Imposto de Renda prevista no art. 6º, inciso XIV, da Lei 7.713/88"</b> (REsp 1.125.064/DF, Rel. Ministra ELIANA CALMON, Segunda Turma, DJe 14/04/10).</li>
+              <li>Agravo regimental não provido.</li>
+            </ul>
+            <p>(AgRg no AREsp 436.073/RS, Rel. Ministro ARNALDO ESTEVES LIMA, PRIMEIRA TURMA, julgado em 17/12/2013, DJe 06/02/2014)</p>
+            <p>***</p>
+            <p>TRIBUTÁRIO. RECURSO ESPECIAL. IMPOSTO DE RENDA. ISENÇÃO. INCIDÊNCIA DO <Remissao xlink:href="urn:lex:br:federal:lei:1988;7713!art6_cpt_inc14">ART. 6º, XIV, DA LEI 7.713/1988</Remissao>. NEOPLASIA MALIGNA. DEMONSTRAÇÃO DA CONTEMPORANEIDADE DOS SINTOMAS.</p>
+            <p>DESNECESSIDADE. PRECEDENTES.</p>
+            <p>PRESCRIÇÃO. ARTIGO 3º DA LC 118/2005. DETERMINAÇÃO DE APLICAÇÃO RETROATIVA. DIREITO INTERTEMPORAL. FATOS GERADORES ANTERIORES À LC 118/2005. APLICAÇÃO DA TESE DOS "CINCO MAIS CINCO". RECURSO ESPECIAL REPETITIVO 1.002.932-SP (ART. 543-C DO CPC)</p>
+            <ul>
+              <li>Hipótese em que se analisa, para os efeitos de isenção do imposto de renda previsto no art. 6º, XIV, da Lei 7.713/88, a necessidade ou não da contemporaneidade dos sintomas de neoplasia maligna do autor, militar reformado do Exército, que se submeteu à retirada da lesão cancerígena.</li>
+              <li>O Tribunal de origem, mantendo incólume a sentença, afastou o reconhecimento do direito à isenção do imposto de renda, por estar o autor curado da neoplasia maligna, por não necessitar de tratamento coadjuvante em razão da doença, e em face da perspectiva de recidiva do tumor ser muito baixa.</li>
+              <li>O recorrente argumenta que o laudo emitido pela Junta de Inspeção Médica não representa instrumento hábil a permitir a cassação da isenção de IR ao requerente, e, portanto, não pode ser considerado, em face do art. 6º, XIV, da Lei 7.713/88. Quanto ao prazo prescricional, requer a prevalência da tese dos "cinco mais cinco".</li>
+              <li><b>"Reconhecida a neoplasia maligna, não se exige a demonstração da contemporaneidade dos sintomas, nem a indicação de validade do laudo pericial, ou a comprovação de recidiva da enfermidade, para que o contribuinte faça jus à isenção de imposto de renda prevista no art. 6º, XIV, da Lei 7.713/88. Precedentes</b> do STJ"(RMS 32.061/RS, 2ª Turma, Rel. Min. Eliana Calmon, DJe de 20.8.2010).</li>
+            </ul>
+            <p class="omissis">(...)</p>
+            <p>8. Recurso especial provido.</p>
+            <p>(REsp 1235131/RS, Rel. Ministro BENEDITO GONÇALVES, PRIMEIRA TURMA, julgado em 22/03/2011, DJe 25/03/2011)</p>
+            <p>***</p>
+            <p>
+              <b>Segunda Turma:</b>
+            </p>
+            <p>TRIBUTÁRIO. AGRAVO REGIMENTAL NO AGRAVO EM RECURSO ESPECIAL. ISENÇÃO DE IMPOSTO DE RENDA. MOLÉSTIA GRAVE. NEOPLASIA MALIGNA. DEMONSTRAÇÃO DA CONTEMPORANEIDADE DOS SINTOMAS. DESNECESSIDADE.</p>
+            <ul>
+              <li>Após a concessão da isenção do imposto de renda <b>sobre os proventos de aposentadoria, pensão ou reforma</b> percebidos por portadores de moléstias graves, nos termos art. 6º, inciso XIV, da Lei 7.713/88, <b>o fato de se constatar a ausência de sintomas da doença não justifica a revogação do benefício isencional, tendo em vista que a finalidade desse benefício é diminuir o sacrifício dos beneficiários, aliviando-os dos encargos financeiros.</b> Precedentes.</li>
+              <li>Os arts. 6º, XIV, da Lei n. 7.713/88, e 30 da Lei n. 9.250/95, não podem limitar a liberdade que o Código de Processo Civil confere ao magistrado na apreciação e valoração jurídica das provas constantes dos autos, <b>razão pela qual o benefício de isenção do imposto de renda pode ser confirmado quando a neoplasia maligna for comprovada, independentemente da contemporaneidade dos sintomas da doença.</b> Precedentes.</li>
+              <li>Agravo regimental não provido.</li>
+            </ul>
+            <p>(AgRg no AREsp 701.863/RS, Rel. Ministro MAURO CAMPBELL MARQUES,</p>
+            <p>SEGUNDA TURMA, julgado em 16/06/2015, DJe 23/06/2015)</p>
+            <p>***</p>
+            <p>TRIBUTÁRIO. AGRAVO REGIMENTAL NO RECURSO ESPECIAL. IMPOSTO DE RENDA. NEOPLASIA MALIGNA. ISENÇÃO. CONTEMPORANEIDADE DOS SINTOMAS. DESNECESSIDADE.</p>
+            <ul>
+              <li>Hipótese em que agrava o Ministério Público Federal de decisão que deu provimento ao recurso especial para reconhecer indevida a incidência do imposto de renda sobre os proventos de aposentadoria auferidos pelo autor.</li>
+              <li>A par de ser admitida a valoração da prova em sede especial, <b>a jurisprudência desta Corte Superior não exige a demonstração de contemporaneidade dos sintomas ou a comprovação de recidiva da enfermidade para a manutenção da regra isencional.</b></li>
+              <li><b>"Há entendimento jurisprudencial desta Primeira Seção no sentido de que, após a concessão da isenção do Imposto de Renda sobre os proventos de aposentadoria ou reforma percebidos por portadores de moléstias graves, nos termos art. 6º, inciso XIV, da Lei 7.713/88, o fato de a Junta Médica constatar a ausência de sintomas da doença pela provável cura não justifica a revogação do benefício isencional, tendo em vista que a finalidade desse benefício é diminuir o sacrifícios dos aposentados, aliviando-os dos encargos financeiros</b>" (MS 15.261/DF, Rel. Ministro Mauro Campbell Marques, Primeira Seção, DJe 5/10/2010).</li>
+              <li>Agravo regimental a que se nega provimento.</li>
+            </ul>
+            <p>(AgRg no REsp 1403771/RS, Rel. Ministro OG FERNANDES, SEGUNDA TURMA, julgado em 20/11/2014, DJe 10/12/2014)</p>
+            <p>***</p>
+            <p>TRIBUTÁRIO. <Remissao xlink:href="urn:lex:br:federal:lei.complementar:2005;118">LEI COMPLEMENTAR 118/05</Remissao>. IRPF. AIDS. <Remissao xlink:href="urn:lex:br:federal:lei:1988;7713!art6">ART. 6º DA LEI Nº 7.713/88</Remissao>. ISENÇÃO. POSSIBILIDADE. PRECEDENTES. SÚMULA 83 DO STJ.</p>
+            <p>FUNDAMENTO DA DECISÃO AGRAVADA NÃO ATACADO. SÚMULA 182 DO</p>
+            <p>STJ.</p>
+            <ul>
+              <li><b>"Reconhecida a neoplasia maligna, não se exige a demonstração da contemporaneidade dos sintomas, nem a indicação de validade do laudo pericial, ou a comprovação de recidiva da enfermidade, para que o contribuinte faça jus à isenção de imposto de renda prevista no art. 6º, XIV, da Lei 7.713/88. Precedentes</b> do STJ"(RMS 32.061/RS, 2ª Turma, Rel. Min. Eliana Calmon, DJe de 20.8.2010).</li>
+              <li>É inviável o agravo que deixa de atacar os fundamentos da decisão agravada.</li>
+            </ul>
+            <p>Incide a Súmula 182 do STJ.</p>
+            <ul>
+              <li>Fundamentada a decisão agravada no sentido de que o acórdão recorrido está em sintonia com o atual entendimento do STJ, deveria a recorrente demonstrar que outra é a positivação do Direito na jurisprudência do STJ.</li>
+              <li>A tese jurídica debatida no Recurso Especial deve ter sido objeto de discussão no acórdão atacado. Inexistindo esta circunstância, desmerece ser conhecida por ausência de prequestionamento. Súmula 282 do STF.</li>
+              <li>Agravo Regimental não conhecido.</li>
+            </ul>
+            <p>(AgRg no AREsp 436.268/RS, Rel. Ministro HERMAN BENJAMIN, SEGUNDA</p>
+            <p>TURMA, julgado em 25/02/2014, DJe 27/03/2014)</p>
+            <p>***</p>
+          </Agrupamento>
+        </AgrupamentoHierarquico>
         <Bloco nome="ordem">1</Bloco>
         <Agrupamento id="pp1_agh2_txt1" nome="texto">
-          <p>4. A tese defendida pela União em juízo aponta ofensa ao art. 6º, XIV, da <Remissao xlink:href="urn:lex:br:federal:lei:1988;7713">Lei nº 7.713, de 1988</Remissao>, ao <Remissao xlink:href="urn:lex:br:federal:lei:1995-12-26;9250!art30_par1">art. 30, § 1º, da Lei nº 9.250, de 26 de dezembro de 1995</Remissao>, ao art. 39, XXXIII e <Remissao xlink:href="urn:lex:br:federal:decreto:19996-03-26;3000!par4">§ 4º do Decreto nº 3.000, de 26 de março de 1999<sup>6</sup></Remissao>, e ao art. 111, II, do Código</p>
+          <p>4. A tese defendida pela União em juízo aponta ofensa ao <Remissao xlink:href="urn:lex:br:federal:lei:1988;7713!art6_cpt_inc14">art. 6º, XIV, da Lei nº 7.713, de 1988</Remissao>, ao <Remissao xlink:href="urn:lex:br:federal:lei:1995-12-26;9250!art30_par1">art. 30, § 1º, da Lei nº 9.250, de 26 de dezembro de 1995</Remissao>, ao <Remissao xlink:href="urn:lex:br:federal:decreto:19996-03-26;3000!art39_cpt_inc33">art. 39, XXXIII</Remissao> e <Remissao xlink:href="urn:lex:br:federal:decreto:19996-03-26;3000!art39_par4">§ 4º do Decreto nº 3.000, de 26 de março de 1999<sup>6</sup></Remissao>, e ao art. 111, II, do Código</p>
           <p>3 o</p>
           <p>§ 4 A Secretaria da Receita Federal do Brasil não constituirá os créditos tributários relativos às matérias de que tratam os incisos II, IV e V do caput, após manifestação da Procuradoria-Geral da Fazenda Nacional nos casos dos incisos IV e V do caput. § 5<sup>o</sup> As unidades da Secretaria da Receita Federal do Brasil deverão reproduzir, em suas decisões sobre as matérias a que se refere o caput, o entendimento adotado nas decisões definitivas de mérito, que versem sobre essas matérias, após manifestação da Procuradoria-Geral da Fazenda Nacional nos casos dos incisos IV e V do caput. § 6<sup>o</sup> - (VETADO). § 7<sup>o</sup> Na hipótese de créditos tributários já constituídos, a autoridade lançadora deverá rever de ofício o lançamento, para efeito de alterar total ou parcialmente o crédito tributário, conforme o caso, após manifestação da Procuradoria-Geral da Fazenda Nacional nos casos dos incisos IV e V do caput.</p>
           <p>Tributário Nacional. Argumenta-se que, a partir da interpretação restritiva e literal da norma que outorga a isenção, somente fazem <i>jus</i> ao benefício fiscal em questão os contribuintes efetivamente <b>portadores</b> de moléstia grave devidamente comprovada por laudo médico emitido na forma da lei. Sendo assim, a constatação em laudo médico quanto à ausência de sintomas da enfermidade, a indiciar provável cura, justificaria a não concessão ou a revogação do benefício isencional.</p>
@@ -46,94 +138,7 @@
             <b>1ª Seção:</b>
           </p>
           <p>MANDADO DE SEGURANÇA. TRIBUTÁRIO. IMPOSTO DE RENDA. ISENÇÃO</p>
-          <p>COM BASE NO ART. 6º, XIV, DA <Remissao xlink:href="urn:lex:br:federal:lei:1988;7713">LEI 7.713/1988</Remissao>. NEOPLASIA MALIGNA. DEMONSTRAÇÃO DA CONTEMPORANEIDADE DOS SINTOMAS.</p>
-          <p>DESNECESSIDADE.</p>
-          <p><b>O entendimento jurisprudencial desta Primeira Seção é no sentido de que, após a concessão da isenção do Imposto de Renda sobre os proventos de aposentadoria ou reforma percebidos por portadores de moléstias graves, nos termos </b><Remissao xlink:href="urn:lex:br:federal:lei:1988;7713!art6_cpt_inc14"><b>art. 6º, inciso XIV, da Lei 7.713/88</b></Remissao><b>, o fato de a Junta Médica constatar a ausência de sintomas da doença pela provável cura não justifica a revogação do benefício isencional, tendo em vista que a finalidade desse benefício é diminuir o sacrifícios dos aposentados, aliviando-os dos encargos financeiros.</b> Precedentes: REsp 1125064 / DF, Segunda Turma, rel. Ministra Eliana Calmon, DJe 14/04/2010; REsp 967693 / DF, Segunda Turma, rel. Min. Humberto Martins, DJ 18/09/2007; REsp 734541 / SP, Primeira Turma, rel. Ministro Luiz Fux, DJ 20/02/2006; MS 15261 / DF, Primeira Seção, Rel. Min.</p>
-          <p>Mauro Campbell Marques, julgado em 22.09.2010.</p>
-          <p>Mandado de segurança concedido.</p>
-          <p>(MS 21.706/DF, Rel. Ministro MAURO CAMPBELL MARQUES, PRIMEIRA</p>
-          <p>SEÇÃO, julgado em 23/09/2015, DJe 30/09/2015)</p>
-          <p>TRIBUTÁRIO. ISENÇÃO DO IMPOSTO DE RENDA SOBRE PROVENTOS DE REFORMA DE PORTADOR DE NEOPLASIA MALIGNA. DEMONSTRAÇÃO DA CONTEMPORANEIDADE DOS SINTOMAS. DESNECESSIDADE.</p>
-          <p class="omissis">(...)</p>
-          <ul>
-            <li>
-              <b>Há entendimento jurisprudencial desta Primeira Seção no sentido de que, após a concessão da isenção do Imposto de Renda sobre os proventos de aposentadoria ou reforma percebidos por portadores de moléstias graves, nos termos art. 6º, inciso XIV, da Lei 7.713/88, o fato de a Junta Médica constatar a ausência de sintomas da doença pela provável cura não justifica a revogação do benefício isencional, tendo em vista que a finalidade desse benefício é diminuir o sacrifícios dos aposentados, aliviando-os dos encargos financeiros.</b>
-            </li>
-            <li>Em conformidade com o § 4º do 14 da Lei 12.016/2009 e as Súmulas 269 e 271 do STF, não procede o pleito de devolução dos valores descontados a título de Imposto de Renda.</li>
-            <li>Mandado de segurança parcialmente concedido.</li>
-          </ul>
-          <p>(MS 15.261/DF, Rel. Ministro MAURO CAMPBELL MARQUES, PRIMEIRA</p>
-          <p>SEÇÃO, julgado em 22/09/2010, DJe 05/10/2010)</p>
-          <p>
-            <b>Primeira Turma:</b>
-          </p>
-          <p>TRIBUTÁRIO E PROCESSUAL CIVIL. ISENÇÃO DE IMPOSTO DE RENDA. REVISÃO DO BENEFÍCIO. PORTADOR DE NEOPLASIA MALIGNA. CONTEMPORANEIDADE DOS SINTOMAS. DESNECESSIDADE. LAUDO PERICIAL. SERVIÇO MÉDICO OFICIAL. PRESCINDIBILIDADE. LIVRE CONVICÇÃO MOTIVADA DO MAGISTRADO.</p>
-          <ul>
-            <li><b>A jurisprudência desta Corte firmou-se no sentido de que "após a concessão da isenção do Imposto de Renda sobre os proventos de aposentadoria ou reforma percebidos por portadores de moléstias graves, nos termos art. 6º, inciso XIV, da Lei 7.713/88, o fato de a Junta Médica constatar a ausência de sintomas da doença não justifica a revogação do benefício isencional, tendo em vista que a finalidade desse benefício é diminuir o sacrifícios dos aposentados, aliviando-os dos encargos financeiros.</b>" (REsp 1.202.820/RS, Rel. Ministro Mauro Campbell Marques, Segunda Turma, DJe 15/10/2010). No mesmo sentido: MS 15.261/DF, Rel. Ministro Mauro Campbell Marques, Primeira Seção, DJe 05/10/2010, REsp 1.088.379/DF, Rel. Ministro Francisco Falcão, Primeira Turma, DJe 29/10/2008.</li>
-            <li>O magistrado não está vinculado aos laudos médicos oficiais, podendo decidir o feito de acordo com outras provas juntadas aos autos, sendo livre seu convencimento. Precedentes: AgRg no AREsp 276.420/SE, Rel. Ministro Arnaldo Esteves Lima, Primeira Turma, DJe 15/04/2013; AgRg no AREsp 263.157/PE, Rel. Ministra Eliana Calmon, Segunda Turma, DJe 14/08/2013.</li>
-            <li>No caso, ficou consignado que a parte agravada é portadora de neoplasia maligna, que, muito embora tenha existido cirurgia que extirpou lesões decorrentes da enfermidade, ainda necessita de acompanhamento contínuo, em razão da existência de outras áreas afetadas pela doença.</li>
-            <li>Agravo regimental a que se nega provimento.</li>
-          </ul>
-          <p>(AgRg no AREsp 371.436/MS, Rel. Ministro SÉRGIO KUKINA, PRIMEIRA</p>
-          <p>TURMA, julgado em 03/04/2014, DJe 11/04/2014)</p>
-          <p>***</p>
-          <p>TRIBUTÁRIO. AGRAVO REGIMENTAL NO AGRAVO EM RECURSO ESPECIAL. IMPOSTO DE RENDA. NEOPLASIA MALIGNA. CONTEMPORANEIDADE DOS SINTOMAS. DESNECESSIDADE. ISENÇÃO. AGRAVO NÃO PROVIDO.</p>
-          <ul>
-            <li><b>"Reconhecida a neoplasia maligna, não se exige a demonstração da contemporaneidade dos sintomas, nem a indicação de validade do laudo pericial, ou a comprovação de recidiva da enfermidade, para que o contribuinte faça jus à isenção de Imposto de Renda prevista no art. 6º, inciso XIV, da Lei 7.713/88"</b> (REsp 1.125.064/DF, Rel. Ministra ELIANA CALMON, Segunda Turma, DJe 14/04/10).</li>
-            <li>Agravo regimental não provido.</li>
-          </ul>
-          <p>(AgRg no AREsp 436.073/RS, Rel. Ministro ARNALDO ESTEVES LIMA, PRIMEIRA TURMA, julgado em 17/12/2013, DJe 06/02/2014)</p>
-          <p>***</p>
-          <p>TRIBUTÁRIO. RECURSO ESPECIAL. IMPOSTO DE RENDA. ISENÇÃO. INCIDÊNCIA DO ART. 6º, XIV, DA <Remissao xlink:href="urn:lex:br:federal:lei:1988;7713">LEI 7.713/1988</Remissao>. NEOPLASIA MALIGNA. DEMONSTRAÇÃO DA CONTEMPORANEIDADE DOS SINTOMAS.</p>
-          <p>DESNECESSIDADE. PRECEDENTES.</p>
-          <p>PRESCRIÇÃO. ARTIGO 3º DA LC 118/2005. DETERMINAÇÃO DE APLICAÇÃO RETROATIVA. DIREITO INTERTEMPORAL. FATOS GERADORES ANTERIORES À LC 118/2005. APLICAÇÃO DA TESE DOS "CINCO MAIS CINCO". RECURSO ESPECIAL REPETITIVO 1.002.932-SP (ART. 543-C DO CPC)</p>
-          <ul>
-            <li>Hipótese em que se analisa, para os efeitos de isenção do imposto de renda previsto no art. 6º, XIV, da Lei 7.713/88, a necessidade ou não da contemporaneidade dos sintomas de neoplasia maligna do autor, militar reformado do Exército, que se submeteu à retirada da lesão cancerígena.</li>
-            <li>O Tribunal de origem, mantendo incólume a sentença, afastou o reconhecimento do direito à isenção do imposto de renda, por estar o autor curado da neoplasia maligna, por não necessitar de tratamento coadjuvante em razão da doença, e em face da perspectiva de recidiva do tumor ser muito baixa.</li>
-            <li>O recorrente argumenta que o laudo emitido pela Junta de Inspeção Médica não representa instrumento hábil a permitir a cassação da isenção de IR ao requerente, e, portanto, não pode ser considerado, em face do art. 6º, XIV, da Lei 7.713/88. Quanto ao prazo prescricional, requer a prevalência da tese dos "cinco mais cinco".</li>
-            <li><b>"Reconhecida a neoplasia maligna, não se exige a demonstração da contemporaneidade dos sintomas, nem a indicação de validade do laudo pericial, ou a comprovação de recidiva da enfermidade, para que o contribuinte faça jus à isenção de imposto de renda prevista no art. 6º, XIV, da Lei 7.713/88. Precedentes</b> do STJ"(RMS 32.061/RS, 2ª Turma, Rel. Min. Eliana Calmon, DJe de 20.8.2010).</li>
-          </ul>
-          <p class="omissis">(...)</p>
-          <p>8. Recurso especial provido.</p>
-          <p>(REsp 1235131/RS, Rel. Ministro BENEDITO GONÇALVES, PRIMEIRA TURMA, julgado em 22/03/2011, DJe 25/03/2011)</p>
-          <p>***</p>
-          <p>
-            <b>Segunda Turma:</b>
-          </p>
-          <p>TRIBUTÁRIO. AGRAVO REGIMENTAL NO AGRAVO EM RECURSO ESPECIAL. ISENÇÃO DE IMPOSTO DE RENDA. MOLÉSTIA GRAVE. NEOPLASIA MALIGNA. DEMONSTRAÇÃO DA CONTEMPORANEIDADE DOS SINTOMAS. DESNECESSIDADE.</p>
-          <ul>
-            <li>Após a concessão da isenção do imposto de renda <b>sobre os proventos de aposentadoria, pensão ou reforma</b> percebidos por portadores de moléstias graves, nos termos art. 6º, inciso XIV, da Lei 7.713/88, <b>o fato de se constatar a ausência de sintomas da doença não justifica a revogação do benefício isencional, tendo em vista que a finalidade desse benefício é diminuir o sacrifício dos beneficiários, aliviando-os dos encargos financeiros.</b> Precedentes.</li>
-            <li>Os arts. 6º, XIV, da Lei n. 7.713/88, e 30 da Lei n. 9.250/95, não podem limitar a liberdade que o Código de Processo Civil confere ao magistrado na apreciação e valoração jurídica das provas constantes dos autos, <b>razão pela qual o benefício de isenção do imposto de renda pode ser confirmado quando a neoplasia maligna for comprovada, independentemente da contemporaneidade dos sintomas da doença.</b> Precedentes.</li>
-            <li>Agravo regimental não provido.</li>
-          </ul>
-          <p>(AgRg no AREsp 701.863/RS, Rel. Ministro MAURO CAMPBELL MARQUES,</p>
-          <p>SEGUNDA TURMA, julgado em 16/06/2015, DJe 23/06/2015)</p>
-          <p>***</p>
-          <p>TRIBUTÁRIO. AGRAVO REGIMENTAL NO RECURSO ESPECIAL. IMPOSTO DE RENDA. NEOPLASIA MALIGNA. ISENÇÃO. CONTEMPORANEIDADE DOS SINTOMAS. DESNECESSIDADE.</p>
-          <ul>
-            <li>Hipótese em que agrava o Ministério Público Federal de decisão que deu provimento ao recurso especial para reconhecer indevida a incidência do imposto de renda sobre os proventos de aposentadoria auferidos pelo autor.</li>
-            <li>A par de ser admitida a valoração da prova em sede especial, <b>a jurisprudência desta Corte Superior não exige a demonstração de contemporaneidade dos sintomas ou a comprovação de recidiva da enfermidade para a manutenção da regra isencional.</b></li>
-            <li><b>"Há entendimento jurisprudencial desta Primeira Seção no sentido de que, após a concessão da isenção do Imposto de Renda sobre os proventos de aposentadoria ou reforma percebidos por portadores de moléstias graves, nos termos art. 6º, inciso XIV, da Lei 7.713/88, o fato de a Junta Médica constatar a ausência de sintomas da doença pela provável cura não justifica a revogação do benefício isencional, tendo em vista que a finalidade desse benefício é diminuir o sacrifícios dos aposentados, aliviando-os dos encargos financeiros</b>" (MS 15.261/DF, Rel. Ministro Mauro Campbell Marques, Primeira Seção, DJe 5/10/2010).</li>
-            <li>Agravo regimental a que se nega provimento.</li>
-          </ul>
-          <p>(AgRg no REsp 1403771/RS, Rel. Ministro OG FERNANDES, SEGUNDA TURMA, julgado em 20/11/2014, DJe 10/12/2014)</p>
-          <p>***</p>
-          <p>TRIBUTÁRIO. <Remissao xlink:href="urn:lex:br:federal:lei.complementar:1905;118">LEI COMPLEMENTAR 118/05</Remissao>. IRPF. AIDS. <Remissao xlink:href="urn:lex:br:federal:lei:1988;7713!art6">ART. 6º DA LEI Nº 7.713/88</Remissao>. ISENÇÃO. POSSIBILIDADE. PRECEDENTES. SÚMULA 83 DO STJ.</p>
-          <p>FUNDAMENTO DA DECISÃO AGRAVADA NÃO ATACADO. SÚMULA 182 DO</p>
-          <p>STJ.</p>
-          <ul>
-            <li><b>"Reconhecida a neoplasia maligna, não se exige a demonstração da contemporaneidade dos sintomas, nem a indicação de validade do laudo pericial, ou a comprovação de recidiva da enfermidade, para que o contribuinte faça jus à isenção de imposto de renda prevista no art. 6º, XIV, da Lei 7.713/88. Precedentes</b> do STJ"(RMS 32.061/RS, 2ª Turma, Rel. Min. Eliana Calmon, DJe de 20.8.2010).</li>
-            <li>É inviável o agravo que deixa de atacar os fundamentos da decisão agravada.</li>
-          </ul>
-          <p>Incide a Súmula 182 do STJ.</p>
-          <ul>
-            <li>Fundamentada a decisão agravada no sentido de que o acórdão recorrido está em sintonia com o atual entendimento do STJ, deveria a recorrente demonstrar que outra é a positivação do Direito na jurisprudência do STJ.</li>
-            <li>A tese jurídica debatida no Recurso Especial deve ter sido objeto de discussão no acórdão atacado. Inexistindo esta circunstância, desmerece ser conhecida por ausência de prequestionamento. Súmula 282 do STF.</li>
-            <li>Agravo Regimental não conhecido.</li>
-          </ul>
-          <p>(AgRg no AREsp 436.268/RS, Rel. Ministro HERMAN BENJAMIN, SEGUNDA</p>
-          <p>TURMA, julgado em 25/02/2014, DJe 27/03/2014)</p>
-          <p>***</p>
+          <p>COM BASE NO <Remissao xlink:href="urn:lex:br:federal:lei:1988;7713!art6_cpt_inc14">ART. 6º, XIV, DA LEI 7.713/1988</Remissao>. NEOPLASIA MALIGNA. DEMONSTRAÇÃO DA CONTEMPORANEIDADE DOS SINTOMAS.</p>
         </Agrupamento>
       </AgrupamentoHierarquico>
       <Agrupamento id="pp1_agrf1" nome="assinatura">
@@ -182,7 +187,7 @@
         <p>Documento: 40515/2016</p>
         <p>Interessado: PGFN/CRJ</p>
         <p>Assunto: Tributário. Isenção. Imposto de Renda incidente sobre os proventos</p>
-        <p>de aposentadoria, pensão ou reforma percebidos por portadores de moléstias graves, nos termos do <Remissao xlink:href="urn:lex:br:federal:lei:1988;7713!art6_cpt_inc14">art. 6º, incisos XIV</Remissao> e <Remissao xlink:href="urn:lex:br:federal:lei:1988;7713!art6_cpt_inc21">XXI, da Lei nº 7.713, de 1988</Remissao>, independentemente da comprovação da contemporaneidade dos sintomas ou da recidiva da enfermidade. Jurisprudência pacífica do Egrégio Superior Tribunal de Justiça. Aplicação do art. 19, II, da <Remissao xlink:href="urn:lex:br:federal:lei:2002-07-19;10522">Lei nº 10.522, de 19 de julho de 2002</Remissao>, e do <Remissao xlink:href="urn:lex:br:federal:decreto:1997-10-10;2346!art5">art. 5º do Decreto nº 2.346, de 10 de outubro de 1997</Remissao>. Procuradoria-Geral da Fazenda Nacional autorizada a não contestar, a não interpor recursos e a desistir dos já interpostos.</p>
+        <p>de aposentadoria, pensão ou reforma percebidos por portadores de moléstias graves, nos termos do <Remissao xlink:href="urn:lex:br:federal:lei:1988;7713!art6_cpt_inc14">art. 6º, incisos XIV</Remissao> e <Remissao xlink:href="urn:lex:br:federal:lei:1988;7713!art6_cpt_inc21">XXI, da Lei nº 7.713, de 1988</Remissao>, independentemente da comprovação da contemporaneidade dos sintomas ou da recidiva da enfermidade. Jurisprudência pacífica do Egrégio Superior Tribunal de Justiça. Aplicação do <Remissao xlink:href="urn:lex:br:federal:lei:2002-07-19;10522!art19_cpt_inc2">art. 19, II, da Lei nº 10.522, de 19 de julho de 2002</Remissao>, e do <Remissao xlink:href="urn:lex:br:federal:decreto:1997-10-10;2346!art5">art. 5º do Decreto nº 2.346, de 10 de outubro de 1997</Remissao>. Procuradoria-Geral da Fazenda Nacional autorizada a não contestar, a não interpor recursos e a desistir dos já interpostos.</p>
         <p>Trata-se do PARECER PGFN/CRJ/Nº 771/2016, da lavra da Procuradora GEILA LÍDIA BARRETO BARBOSA DINIZ, com a qual manifesto minha concordância.</p>
         <p>De acordo.</p>
         <p>PROCURADORIA-GERAL DA FAZENDA NACIONAL, em 27 de abril de</p>

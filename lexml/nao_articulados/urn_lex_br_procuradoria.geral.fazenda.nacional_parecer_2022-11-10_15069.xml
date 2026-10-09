@@ -20,7 +20,7 @@
       </Agrupamento>
       <Agrupamento id="pp1_agr4" nome="texto">
         <p class="quote">Tributário. IRPF. Isenção. Venda de imóvel. Aplicação do ganho de capital para quitação de débito de imóvel adquirindo anteriormente. <Remissao xlink:href="urn:lex:br:federal:lei:2005-11-21;11196!art39">Art. 39 da Lei nº 11.196, de 21 de novembro de 2005</Remissao>.</p>
-        <p class="quote">Jurisprudência pacífica do Egrégio Superior Tribunal de Justiça. Portaria PGFN nº 502, de 12 de maio de 2016, art. 2º, VII, e §§ 4º e 5º. <Remissao xlink:href="urn:lex:br:federal:lei:2002-07-19;10522">Lei nº 10.522, de 19 de julho de 2002</Remissao>, arts. 19, VI, b, e 19-A, III.</p>
+        <p class="quote">Jurisprudência pacífica do Egrégio Superior Tribunal de Justiça. Portaria PGFN nº 502, de 12 de maio de 2016, art. 2º, VII, e §§ 4º e 5º. <Remissao xlink:href="urn:lex:br:federal:lei:2002-07-19;10522!art19_cpt_inc6">Lei nº 10.522, de 19 de julho de 2002, arts. 19, VI</Remissao>, b, e 19-A, III.</p>
         <p class="quote">Nota SEI nº 48/2018/CRJ/PGACET/PGFN-MF.</p>
         <p class="quote">Processo SEI nº 10951.104219/2021-24</p>
       </Agrupamento>
@@ -83,13 +83,13 @@
             <li>Na Primeira Turma, a discussão foi iniciada com o julgamento do REsp 1.668.268/SP, de relatoria da Min. Regina Helena Costa, que concluiu que:</li>
           </ul>
           <p>TRIBUTÁRIO. RECURSO ESPECIAL. CÓDIGO DE PROCESSO CIVIL DE 2015. APLICABILIDADE. IMPOSTO SOBRE A RENDA DE PESSOA FÍSICA - IRPF.</p>
-          <p>ALIENAÇÃO DE IMÓVEL RESIDENCIAL. GANHO DE CAPITAL. <Remissao xlink:href="urn:lex:br:federal:lei:1905;11196">LEI N. 11.196/05</Remissao></p>
+          <p>ALIENAÇÃO DE IMÓVEL RESIDENCIAL. GANHO DE CAPITAL. <Remissao xlink:href="urn:lex:br:federal:lei:2005;11196">LEI N. 11.196/05</Remissao></p>
           <p>("LEI DO BEM"). VALORES PARCIALMENTE DESTINADOS À QUITAÇÃO DE</p>
           <p>FINANCIAMENTO IMOBILIÁRIO DE OUTRO IMÓVEL RESIDENCIAL. DIREITO À ISENÇÃO. RESTRIÇÃO IMPOSTA POR INSTRUÇÃO NORMATIVA. ILEGALIDADE. PRECEDENTE. MAJORAÇÃO DE HONORÁRIOS RECURSAIS. ART. 85, § 11, DO CPC/15. IMPOSSIBILIDADE.</p>
           <p>- Consoante o decidido pelo Plenário desta Corte na sessão realizada em 09.03.2016, o regime</p>
           <p>recursal será determinado pela data da publicação do provimento jurisdicional impugnado.</p>
           <p>Aplica-se o Código de Processo Civil de 2015.</p>
-          <p>- A isenção prevista no <Remissao xlink:href="urn:lex:br:federal:lei:1905;11196!art39_par2">art. 39, § 2º, da Lei n. 11.196/05</Remissao>, alcança as hipóteses nas quais oproduto da venda de imóvel por pessoa física seja destinado, total ou parcialmente, à quitação ou amortização de financiamento de outro imóvel residencial que o alienante já possui.</p>
+          <p>- A isenção prevista no <Remissao xlink:href="urn:lex:br:federal:lei:2005;11196!art39_par2">art. 39, § 2º, da Lei n. 11.196/05</Remissao>, alcança as hipóteses nas quais oproduto da venda de imóvel por pessoa física seja destinado, total ou parcialmente, à quitação ou amortização de financiamento de outro imóvel residencial que o alienante já possui.</p>
           <p>Precedente.</p>
           <ul>
             <li>- Ilegalidade do art. 2º, § 11, inciso I, da Instrução Normativa SRF n. 599/05.</li>
@@ -127,6 +127,13 @@
       <AgrupamentoHierarquico id="pp1_agh3" nome="secao">
         <Rotulo>1.22 –</Rotulo>
         <NomeAgrupador>"1.22 – Imposto de Renda (IR)</NomeAgrupador>
+        <AgrupamentoHierarquico id="pp1_agh3_agh1" nome="subsecao">
+          <NomeAgrupador>III</NomeAgrupador>
+          <Bloco nome="ordem">0</Bloco>
+          <Agrupamento id="pp1_agh3_agh1_txt1" nome="texto">
+            <p>Por todo o exposto, proponho a submissão da <a xlink:href="https://drive.google.com/file/d/1L9B7zPwXM8j_7ZS_w72HNYZJ86Ra6bla/view?usp=share_link">Nota SEI nº 48/2018/CRJ/PGACET/PGFN-MF </a>à apreciação do Sr. Procurador-Geral da Fazenda Nacional, para os fins do <Remissao xlink:href="urn:lex:br:federal:lei:2002-07-19;10522!art19-1_cpt">art. 19-A, <i>caput</i></Remissao> e <Remissao xlink:href="urn:lex:br:federal:lei:2002-07-19;10522!art19-1_cpt_inc3">inciso III, da </Remissao><a xlink:href="https://www.planalto.gov.br/ccivil_03/leis/2002/l10522.htm"><Remissao xlink:href="urn:lex:br:federal:lei:2002-07-19;10522!art19-1_cpt_inc3">Lei nº 10.522, de 19 de julho de 2002</Remissao></a>, retificando-se apenas o "Observação 2":</p>
+          </Agrupamento>
+        </AgrupamentoHierarquico>
         <Bloco nome="ordem">2</Bloco>
         <Agrupamento id="pp1_agh3_txt1" nome="texto">
           <p><b>IRPF. Isenção prevista no </b><Remissao xlink:href="urn:lex:br:federal:lei:2005;11196!art39"><b>art. 39 da Lei nº 11.196, de 2005</b></Remissao><b>. Venda de imóvel residencial com o objetivo de quitar, total ou parcialmente, débito remanescente de aquisição a prazo ou prestação de imóvel residencial já possuído pelo alienante.</b></p>
@@ -157,11 +164,7 @@
             <li>Ao revés de Ato Declaratório, a vinculação dar-se-á por meio de manifestação da PGFN sobre a matéria em questão, nos termos do art. 19-A, III, da <a xlink:href="https://www.planalto.gov.br/ccivil_03/leis/2002/l10522.htm">Lei nº 10.522, de 19 de julho de 2002</a><sup>[3]</sup>.</li>
             <li>Considerando que a SERFB foi cientificada da dispensa, tecendo questionamentos e</li>
           </ul>
-          <p><a xlink:href="https://drive.google.com/file/d/1L9B7zPwXM8j_7ZS_w72HNYZJ86Ra6bla/view?usp=share_link">considerações por intermédio da Nota Cosit nº 3, de 2019 (23540272), resta cabível a submissão da Nota SEI nº 48/2018/CRJ/PGACET/PGFN-MF ao Procurador-Geral da Fazenda Nacional, para os fins do art. 19</a>A, <Remissao xlink:href="urn:lex:br:federal:lei:2002;10522!cpt"><i>caput</i></Remissao><i> </i>e <Remissao xlink:href="urn:lex:br:federal:lei:2002;10522!cpt_inc3">inciso III, da </Remissao><a xlink:href="https://www.planalto.gov.br/ccivil_03/leis/2002/l10522.htm"><Remissao xlink:href="urn:lex:br:federal:lei:2002;10522!cpt_inc3">Lei nº 10.522, de 2002</Remissao></a>.</p>
-          <p>
-            <b>III</b>
-          </p>
-          <p>Por todo o exposto, proponho a submissão da <a xlink:href="https://drive.google.com/file/d/1L9B7zPwXM8j_7ZS_w72HNYZJ86Ra6bla/view?usp=share_link">Nota SEI nº 48/2018/CRJ/PGACET/PGFN-MF </a>à apreciação do Sr. Procurador-Geral da Fazenda Nacional, para os fins do art. 19-A, <Remissao xlink:href="urn:lex:br:federal:lei:2002-07-19;10522!cpt"><i>caput</i></Remissao> e <Remissao xlink:href="urn:lex:br:federal:lei:2002-07-19;10522!cpt_inc3">inciso III, da </Remissao><a xlink:href="https://www.planalto.gov.br/ccivil_03/leis/2002/l10522.htm"><Remissao xlink:href="urn:lex:br:federal:lei:2002-07-19;10522!cpt_inc3">Lei nº 10.522, de 19 de julho de 2002</Remissao></a>, retificando-se apenas o "Observação 2":</p>
+          <p><a xlink:href="https://drive.google.com/file/d/1L9B7zPwXM8j_7ZS_w72HNYZJ86Ra6bla/view?usp=share_link">considerações por intermédio da Nota Cosit nº 3, de 2019 (23540272), resta cabível a submissão da Nota SEI nº 48/2018/CRJ/PGACET/PGFN-MF ao Procurador-Geral da Fazenda Nacional, para os fins do </a><a xlink:href="https://drive.google.com/file/d/1L9B7zPwXM8j_7ZS_w72HNYZJ86Ra6bla/view?usp=share_link"><Remissao xlink:href="urn:lex:br:federal:lei:2002;10522!art19_cpt">art. 19</Remissao></a><Remissao xlink:href="urn:lex:br:federal:lei:2002;10522!art19_cpt">A, <i>caput</i></Remissao><i> </i>e <Remissao xlink:href="urn:lex:br:federal:lei:2002;10522!art19_cpt_inc3">inciso III, da </Remissao><a xlink:href="https://www.planalto.gov.br/ccivil_03/leis/2002/l10522.htm"><Remissao xlink:href="urn:lex:br:federal:lei:2002;10522!art19_cpt_inc3">Lei nº 10.522, de 2002</Remissao></a>.</p>
         </Agrupamento>
       </AgrupamentoHierarquico>
       <AgrupamentoHierarquico id="pp1_agh4" nome="secao">
@@ -246,7 +249,7 @@
         <p>Procuradoria-Geral da Fazenda Nacional</p>
         <p>DESPACHO Nº 482/2022/PGFN-ME</p>
         <p>Processo nº 10951.104219/2021-24</p>
-        <p>APROVO, para os fins do art. 19-A, <Remissao xlink:href="urn:lex:br:federal:lei:2002-07-19;10522!cpt">caput</Remissao> e <Remissao xlink:href="urn:lex:br:federal:lei:2002-07-19;10522!cpt_inc3">inciso III, da Lei nº 10.522, de 19 de julho de 2002</Remissao>, a Nota SEI 48/2018/CRJ/PGFN/PGACET-MF (SEI nº 17518142), com as retificações propostas pelo Parecer SEI nº 15069/2022/ME (SEI nº 29361262), que conclui o seguinte:</p>
+        <p>APROVO, para os fins do <Remissao xlink:href="urn:lex:br:federal:lei:2002-07-19;10522!art19-1_cpt">art. 19-A, caput</Remissao> e <Remissao xlink:href="urn:lex:br:federal:lei:2002-07-19;10522!art19-1_cpt_inc3">inciso III, da Lei nº 10.522, de 19 de julho de 2002</Remissao>, a Nota SEI 48/2018/CRJ/PGFN/PGACET-MF (SEI nº 17518142), com as retificações propostas pelo Parecer SEI nº 15069/2022/ME (SEI nº 29361262), que conclui o seguinte:</p>
         <p>"1.22 – Imposto de Renda (IR)</p>
         <p>ab) IRPF. Isenção prevista no <Remissao xlink:href="urn:lex:br:federal:lei:2005;11196!art39">art. 39 da Lei nº 11.196, de 2005</Remissao>. Venda de imóvel residencial com o objetivo de quitar, total ou parcialmente, débito remanescente de aquisição a prazo ou prestação de imóvel residencial já possuído pelo alienante.</p>
         <p>Resumo: O STJ pacificou o entendimento no sentido de que a isenção do Imposto de Renda sobre o ganho de capital nas operações de alienação de imóvel, prevista no <Remissao xlink:href="urn:lex:br:federal:lei:2005;11196!art39">art. 39 da Lei nº 11.196, de 2005</Remissao>, aplica-se à hipótese de venda de imóvel residencial por pessoa física com o objetivo de quitar, total ou parcialmente, débito remanescente de aquisição a prazo ou prestação de imóvel residencial já possuído pelo alienante. Reconheceu, portanto, a ilegalidade do art. 2º, §11, inciso I, da Instrução Normativa SRF nº 599, de 2005.</p>

@@ -28,7 +28,7 @@
         <Bloco nome="ordem">0</Bloco>
         <Agrupamento id="pp1_agh1_txt1" nome="texto">
           <p>Trata-se de mensagem eletrônica oriunda da Coordenação de Atuação da Fazenda Nacional perante o Superior Tribunal de Justiça (CASTJ), datada de 26 de março de 2018, que propõe que esta Coordenação-Geral de Representação Judicial da Procuradoria-Geral da Fazenda Nacional (CRJ/PGFN) examine, nos termos do art. 2º, §§ 4º e 5º, da Portaria PGFN nº 502, de 2016, a viabilidade de incluir na lista nacional de dispensa de contestar e recorrer o seguinte tema:</p>
-          <p class="quote">“IRPF. A isenção prevista no <Remissao xlink:href="urn:lex:br:federal:lei:1905;11196!art39_par2">art. 39, § 2º, da Lei n. 11.196/05</Remissao>, alcança as hipóteses nas quais o produto da venda de imóvel por pessoa física seja destinado, total ou parcialmente, à quitação ou amortização de financiamento de outro imóvel residencial que o alienante já possui. Precedente. Ilegalidade do art. 2º, § 11, inciso I, da Instrução Normativa SRF n. 599/05”.</p>
+          <p class="quote">“IRPF. A isenção prevista no <Remissao xlink:href="urn:lex:br:federal:lei:2005;11196!art39_par2">art. 39, § 2º, da Lei n. 11.196/05</Remissao>, alcança as hipóteses nas quais o produto da venda de imóvel por pessoa física seja destinado, total ou parcialmente, à quitação ou amortização de financiamento de outro imóvel residencial que o alienante já possui. Precedente. Ilegalidade do art. 2º, § 11, inciso I, da Instrução Normativa SRF n. 599/05”.</p>
           <p>A fim de demonstrar o entendimento pacífico das Turmas de Direito Público do Superior Tribunal de Justiça em sentido desfavorável à Fazenda Nacional, a CASTJ indica os seguintes <i>leading cases</i>: REsp 1668268/SP, Rel. Ministra REGINA HELENA COSTA, PRIMEIRA TURMA, julgado em 13/03/2018, DJe 22/03/2018; REsp 1469478/SC, Rel. Ministro HERMAN BENJAMIN, Rel. p/ Acórdão Ministro MAURO CAMPBELL MARQUES, SEGUNDA TURMA, julgado em 25/10/2016, DJe</p>
           <p>19/12/2016.</p>
           <p>É a breve síntese da consulta. Passamos a examiná-la.</p>
@@ -60,17 +60,10 @@
       <AgrupamentoHierarquico id="pp1_agh4" nome="secao">
         <NomeAgrupador>Instrução Normativa SRF nº 599, de 28 de dezembro de 2005</NomeAgrupador>
         <AgrupamentoHierarquico id="pp1_agh4_agh1" nome="subsecao">
-          <NomeAgrupador>III</NomeAgrupador>
-          <Bloco nome="ordem">0</Bloco>
-          <Agrupamento id="pp1_agh4_agh1_txt1" nome="texto">
-            <p>Ante o exposto, com fulcro no art. 2º, VII, §§ 4º e 5º, III, da Portaria PGFN nº 502, de2016, e à luz do entendimento consolidado do Egrégio Superior Tribunal de Justiça, propõe-se a seguinte inclusão na lista de temas com dispensa de contestação e recursos da PGFN:</p>
-          </Agrupamento>
-        </AgrupamentoHierarquico>
-        <AgrupamentoHierarquico id="pp1_agh4_agh2" nome="subsecao">
           <Rotulo>1.22 –</Rotulo>
           <NomeAgrupador>1.22 – Imposto de Renda (IR)</NomeAgrupador>
-          <Bloco nome="ordem">1</Bloco>
-          <Agrupamento id="pp1_agh4_agh2_txt1" nome="texto">
+          <Bloco nome="ordem">0</Bloco>
+          <Agrupamento id="pp1_agh4_agh1_txt1" nome="texto">
             <p class="quote"><b>IRPF. Isenção prevista no </b><Remissao xlink:href="urn:lex:br:federal:lei:2005;11196!art39"><b>art. 39 da Lei nº 11.196, de 2005</b></Remissao><b>. Venda de imóvel residencial com o objetivo de quitar, total ou parcialmente, débito remanescente de aquisição a prazo ou prestação de imóvel residencial já possuído pelo alienante.</b></p>
             <p class="quote"><b>Resumo: </b>O STJ pacificou o entendimento no sentido de que a isenção do Imposto de Renda sobre o ganho de capital nas operações de alienação de imóvel, prevista no <Remissao xlink:href="urn:lex:br:federal:lei:2005;11196!art39">art. 39 da Lei nº 11.196, de 2005</Remissao>, aplica-se à hipótese de venda de imóvel residencial por pessoa física com o objetivo de quitar, total ou parcialmente, débito remanescente de aquisição a prazo ou prestação de imóvel residencial já possuído pelo alienante. Reconheceu, portanto, a ilegalidade do art. 2º, §11, inciso I, da Instrução Normativa SRF nº 599, de 2005.</p>
             <p class="quote"><b>Observação 1:</b> a dispensa de impugnação em juízo deve abranger, igualmente, os casos em que se discute o reconhecimento da isenção quando o produto da venda do imóvel residencial é empregado na quitação ou amortização de imóvel residencial <b>em construção ou planta</b> (art. 2º, II, da IN nº 599, de 2005) <b>adquirido anteriormente à alienação</b>.</p>
@@ -102,7 +95,7 @@
             <li>Entretanto, o STJ vem se manifestando no sentido de que o art. 2º, §11, inciso I, da Instrução Normativa nº 599, de 2005, ao afastar a isenção quando houver aplicação dos recursos para quitação ou amortização de financiamento de outro imóvel que o contribuinte já possui, restringe indevidamente o conteúdo do art. 39 da Lei nº 11.196, de 2005, padecendo, portanto, de ilegalidade. A Corte Superior ampara a sua interpretação nos seguintes fundamentos:<ul><li>a literalidade da norma insculpida no art. 39 da Lei nº 11.196, de 2005, exige apenas aaplicação “do produto da venda na aquisição de imóveis residenciais localizados no País”, não havendo qualquer discrímen que estabeleça o momento em que essa aquisição deva ocorrer;</li><li>a finalidade do benefício fiscal de prestigiar a aplicação dos recursos no próprio setorimobiliário é melhor alcançada quando se permite que o produto da venda de imóvel residencial anterior seja empregado na quitação de débito remanescente do imóvel já adquirido ou de parcelas do financiamento em curso firmado anteriormente;</li><li>a restrição contida na IN nº 559, de 2005, torna a regra isentiva de difícil aplicação,porquanto destoa da realidade do mercado imobiliário para pessoas físicas, onde prevalecem os contratos de financiamento de longo prazo e o início da aquisição do segundo imóvel antes mesmo da realização da venda do primeiro.</li></ul></li>
             <li>Essa é a orientação observada por ambas as Turmas que compõem a 1ª Seção do STJ, conforme se depreende das ementas dos seguintes julgados:</li>
           </ul>
-          <p class="quote">TRIBUTÁRIO. RECURSO ESPECIAL. CÓDIGO DE PROCESSO CIVIL DE 2015. APLICABILIDADE. IMPOSTO SOBRE A RENDA DE PESSOA FÍSICA - IRPF. <b>ALIENAÇÃO DE IMÓVEL RESIDENCIAL. GANHO DE CAPITAL. </b><Remissao xlink:href="urn:lex:br:federal:lei:1905;11196"><b>LEI N. 11.196/05</b></Remissao><b> ("LEI DO BEM"). VALORES PARCIALMENTE DESTINADOS À QUITAÇÃO DE FINANCIAMENTO IMOBILIÁRIO DE OUTRO IMÓVEL RESIDENCIAL. DIREITO À ISENÇÃO. RESTRIÇÃO IMPOSTA POR INSTRUÇÃO NORMATIVA. ILEGALIDADE.</b></p>
+          <p class="quote">TRIBUTÁRIO. RECURSO ESPECIAL. CÓDIGO DE PROCESSO CIVIL DE 2015. APLICABILIDADE. IMPOSTO SOBRE A RENDA DE PESSOA FÍSICA - IRPF. <b>ALIENAÇÃO DE IMÓVEL RESIDENCIAL. GANHO DE CAPITAL. </b><Remissao xlink:href="urn:lex:br:federal:lei:2005;11196"><b>LEI N. 11.196/05</b></Remissao><b> ("LEI DO BEM"). VALORES PARCIALMENTE DESTINADOS À QUITAÇÃO DE FINANCIAMENTO IMOBILIÁRIO DE OUTRO IMÓVEL RESIDENCIAL. DIREITO À ISENÇÃO. RESTRIÇÃO IMPOSTA POR INSTRUÇÃO NORMATIVA. ILEGALIDADE.</b></p>
           <p class="quote"><b>PRECEDENTE.</b> MAJORAÇÃO DE HONORÁRIOS RECURSAIS. ART. 85, § 11, DO CPC/15. IMPOSSIBILIDADE.</p>
           <ul>
             <li>- Consoante o decidido pelo Plenário desta Corte na sessão realizada em 09.03.2016, oregime recursal será determinado pela data da publicação do provimento jurisdicional impugnado. Aplica-se o Código de Processo Civil de 2015.</li>
@@ -154,6 +147,10 @@
             <li>Considerando a orientação firmada pelo STJ e a regra de hermenêutica jurídica segundo a qual “onde há o mesmo fundamento deve haver o mesmo direito” (<i>Ubi eadem ratio ibi idem jus</i>), entende-se que a dispensa de impugnação em juízo deve abranger, igualmente, os casos em que se discute o reconhecimento da isenção quando o produto da venda do imóvel residencial é empregado na quitação ou amortização de outro imóvel residencial <b>em construção ou planta </b>(art. 2º, §10, inciso II, da IN nº 599, de 2005) <b>adquirido anteriormente à alienação.</b></li>
             <li>Diversamente, tratando-se de mero <b>terreno</b>, sem comprovação da destinação residencial, tem-se afastada a regra isentiva (art. 2º, §11, inciso II, da IN nº 599, de 2005), independentemente do momento em que se deu a aquisição, porquanto não satisfeito requisito exigido pelo art. 39 da Lei nº 11.196, de 2005, para fruição do benefício (aquisição de imóveis <b>residenciais</b> localizados no País).</li>
           </ul>
+          <p>
+            <b>III</b>
+          </p>
+          <p>Ante o exposto, com fulcro no art. 2º, VII, §§ 4º e 5º, III, da Portaria PGFN nº 502, de2016, e à luz do entendimento consolidado do Egrégio Superior Tribunal de Justiça, propõe-se a seguinte inclusão na lista de temas com dispensa de contestação e recursos da PGFN:</p>
         </Agrupamento>
       </AgrupamentoHierarquico>
       <Agrupamento id="pp1_agrf1" nome="assinatura">
