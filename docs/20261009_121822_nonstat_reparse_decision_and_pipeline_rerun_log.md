@@ -12,9 +12,10 @@ command recorded for audit and reproduction.
 morning, when the dataset build was blocked because fetcher commit `c7f4b8f` was only on the user's
 other computer. §8–§10 date from the afternoon, after the user brought the commit over and decided to
 go on without the other computer's referee cache. They record the execution and the **updated IR
-result (eval `v2d_either_containment_skip`, §9)**. Nothing is committed: `lexml/nao_articulados/`,
-`segmented/`, `dataset/`, `scripts/rag/strategies.yaml`, `embeddings/` manifests, `runs/` and the
-user's two `.docx` fixes are working-tree changes. Scratch outputs and tools are in
+result (eval `v2d_either_containment_skip`, §9)**. Committed on 2026-10-09 (§10.2):
+`a80a5cf` (`.docx` fixes + `lexml/nao_articulados/`), `f13bcf3` (`segmented/`), `31293c5` (`dataset/`),
+`ffbc7a3` (`strategies.yaml`, `embeddings/` manifests, `runs/`, this note), then the clean-tree dataset
+rebuild (`build_report.json` only). Scratch outputs and tools are in
 `$S` = `/tmp/claude-0/-work-unicamp-articles-RAG-evaluation-br-taxqa-r-v2-0/36df1725-581b-4996-9f90-469e4024fdaa/scratchpad`
 (volatile; the scripts the reproduction needs are inlined or described in §3.4 and §8.2).
 
@@ -636,10 +637,12 @@ python3 -m pytest -q scripts/dataset/tests
 
 ### 10.2 Still open
 
-- **Commit** (the user's call). Suggested split: (1) the two `.docx` fixes + `lexml/nao_articulados`;
-  (2) `segmented/`; (3) `dataset/`; (4) `scripts/rag/strategies.yaml` + `embeddings/` manifests and costs
-  + `runs/…/v2d_either_containment_skip` + this note. Then re-run `build_v2_dataset.py` on the clean tree,
-  as R5 did, so `build_report.json` records `dirty: false`.
+- ~~Commit~~ **done**: (1) `a80a5cf` the two `.docx` fixes + `lexml/nao_articulados`; (2) `f13bcf3`
+  `segmented/`; (3) `31293c5` `dataset/`; (4) `ffbc7a3` `scripts/rag/strategies.yaml` + `embeddings/`
+  manifests and costs + `runs/` + this note. Then, on the clean tree at `ffbc7a3`:
+  `python3 scripts/dataset/build_v2_dataset.py --questions ../br-taxqa-document-fetcher/questions_QA_2024_v1.1.json`
+  (exit 0, same summary line as §8.3). Only `build_report.json` changed (`commit ffbc7a3…`, `dirty: false`,
+  timestamp); the three `.jsonl` files were byte-identical. Committed with this status update.
 - X1/X2: `lexml/articulados/PARSER_VERSION` → `4c85e81` and jar sha256 `a018af01…`.
 - X5: delete `../lexml_parser_non_statutory/.cache/linker` (stale, pre-`51874d9`).
 - X7: `validate_segments.diff_vs_frozen` should compare variant by variant (§8.2).
