@@ -2,6 +2,7 @@
 
 **Generated:** 2026-09-26 11:27:14 (local time, from `date +%Y%m%d_%H%M%S`)
 **Status:** plan only. Nothing has been implemented or run.
+**Superseded by** `docs/20261011_224049_gold_answer_nuggetization_plan_v2.md` (2026-10-11).
 **Goal:** turn the 715 gold answers of BR-TaxQA-R into **legal nuggets** (short, self-contained,
 atomic statements), and define how the answers of the RAG aggregator LLM are scored against them.
 The segmentation experiment (`docs/20260923_193852_segmentation_strategies_for_rag_experiments.md`)
