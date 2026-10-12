@@ -1,0 +1,27 @@
+{
+ "model": "qwen3.8-max",
+ "registry": {
+  "provider": "openai_compat",
+  "base_url": "https://dashscope-intl.aliyuncs.com/compatible-mode/v1",
+  "model_id": "qwen3.8-max-0902",
+  "api_key_env": "DASHSCOPE_API_KEY",
+  "params": {
+   "response_format": "json_object",
+   "enable_thinking": true,
+   "thinking_budget": 2048,
+   "max_tokens": 16000
+  },
+  "price": {
+   "usd_per_million_input": 2.0,
+   "usd_per_million_cached_input": 0.2,
+   "usd_per_million_output": 6.0,
+   "batch_discount": 0.0,
+   "checked": "2026-10-11",
+   "note": "no batch in Singapore; cached rate assumed 10 % of input"
+  }
+ },
+ "sample": "stratified_30",
+ "prompt": "scripts/nuggets/prompts/create_v4.pt.md",
+ "prompt_sha256": "534b27cf0b5f06ea3c0f8566e723902a72ca3cf6c67afba575e45eabc2a9a656",
+ "schema_sha256": "37e8bb2115fc32e427d84d454fb94268ccc7a75480bb607dda294fc516808363"
+}

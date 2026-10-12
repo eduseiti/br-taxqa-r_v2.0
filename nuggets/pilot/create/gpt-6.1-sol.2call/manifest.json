@@ -1,0 +1,8 @@
+{
+ "mode": "2-call: texts of the source set, importance from a second call",
+ "source": "gpt-6.1-sol",
+ "model": "gpt-6.1-sol",
+ "sample": "stratified_30",
+ "importance_prompt": "importance_v1",
+ "importance_prompt_sha256": "05c66a4795a3dde3a812bd9f3ae28da3b41e60c847818f1e040da37fee0b7b34"
+}

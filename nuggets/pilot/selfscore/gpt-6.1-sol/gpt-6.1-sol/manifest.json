@@ -1,0 +1,23 @@
+{
+ "judge": "gpt-6.1-sol",
+ "registry": {
+  "provider": "openai",
+  "model_id": "gpt-6.1-sol",
+  "api_key_env": "OPENAI_API_KEY",
+  "params": {
+   "reasoning_effort": "medium",
+   "max_output_tokens": 32000
+  },
+  "price": {
+   "usd_per_million_input": 2.0,
+   "usd_per_million_cached_input": 0.1,
+   "usd_per_million_output": 10.0,
+   "batch_discount": 0.5,
+   "checked": "2026-10-11"
+  }
+ },
+ "nugget_set": "gpt-6.1-sol",
+ "sample": "stratified_30",
+ "prompt": "scripts/nuggets/prompts/assign_v2.pt.md",
+ "prompt_sha256": "6e63c936a6556b0f82d268fb3eb929a1dc4da9862703f3b10aceb7706f45b5a8"
+}

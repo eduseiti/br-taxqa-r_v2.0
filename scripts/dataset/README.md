@@ -52,6 +52,11 @@ python3 -m pytest scripts/dataset/tests
   provisions parsed from the text of one (question, origin, file) reference with a citation written
   by hand, for the few the text cannot express as written (treaty numbering, a typo, "a referida
   lei"). Every entry has a `reason`.
+- `answer_overrides.json`: hand-verified fixes to v1.1 `answer_cleaned` (the gold answer), as
+  `find`/`replace` edits per question, each pinned to the SHA-256 of the v1.1 text and to an exact
+  occurrence count, so a changed input makes the build fail. Also the rule that removes the lines made
+  only of punctuation left by the v1 cleaning (`build_report.json` → `answer_overrides`). Why:
+  `docs/20261012_192640_nuggetization_phase1_pilot.md` §8.
 - `nonstat_lexml_map.tsv`: `original/nao_articulados/<stem>.{docx,pdf}` → `lexml/nao_articulados/<urn file>.xml`.
   Those XMLs are named after their URN, so the stem is not in the name. Since the 2026-10-08 rebuild
   every non-statutory source is parsed with a **declared** URN (`scripts/lexml/nonstat_metadata.tsv`,

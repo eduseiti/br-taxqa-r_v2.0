@@ -1,0 +1,122 @@
+{"question_number": "503", "a": "Q503_N01", "b": ["Q503_N01"], "relation": "same", "note": ""}
+{"question_number": "503", "a": "Q503_N02", "b": ["Q503_N02"], "relation": "same", "note": ""}
+{"question_number": "291", "a": "Q291_N01", "b": ["Q291_N01"], "relation": "same", "note": ""}
+{"question_number": "403", "a": "Q403_N01", "b": ["Q403_N01"], "relation": "same", "note": ""}
+{"question_number": "023", "a": "Q023_N01", "b": ["Q023_N01"], "relation": "same", "note": ""}
+{"question_number": "023", "a": "Q023_N02", "b": ["Q023_N02"], "relation": "same", "note": ""}
+{"question_number": "711", "a": "Q711_N01", "b": ["Q711_N01", "Q711_N02"], "relation": "same", "note": "A1 engloba a regra geral (B1) e a ressalva sobre decisão judicial (B2)."}
+{"question_number": "705", "a": "Q705_N01", "b": ["Q705_N01"], "relation": "same", "note": ""}
+{"question_number": "705", "a": "Q705_N02", "b": ["Q705_N02"], "relation": "same", "note": ""}
+{"question_number": "705", "a": "Q705_N03", "b": ["Q705_N03"], "relation": "same", "note": ""}
+{"question_number": "039", "a": "Q039_N01", "b": ["Q039_N01"], "relation": "same", "note": ""}
+{"question_number": "039", "a": "Q039_N02", "b": ["Q039_N02"], "relation": "same", "note": ""}
+{"question_number": "054", "a": "Q054_N01", "b": ["Q054_N01"], "relation": "a_broader", "note": "A1 explicita a premissa da pergunta de que os erros não influenciam no saldo do imposto a pagar ou a restituir, enquanto B1 reproduz o texto direto da resposta."}
+{"question_number": "336", "a": "Q336_N01", "b": ["Q336_N01"], "relation": "same", "note": ""}
+{"question_number": "336", "a": "Q336_N02", "b": ["Q336_N02"], "relation": "same", "note": ""}
+{"question_number": "710", "a": "Q710_N01", "b": ["Q710_N01"], "relation": "same", "note": ""}
+{"question_number": "622", "a": "Q622_N01", "b": ["Q622_N01"], "relation": "same", "note": ""}
+{"question_number": "622", "a": "Q622_N02", "b": [], "relation": "none", "note": "B não menciona a exigência de informar a moeda estrangeira em cheques de viagem na Declaração de Ajuste Anual."}
+{"question_number": "440", "a": "Q440_N01", "b": ["Q440_N01"], "relation": "same", "note": "Ambos tratam do momento de dedução dos honorários advocatícios decorrentes de decisão judicial na Declaração de Ajuste Anual."}
+{"question_number": "440", "a": "Q440_N02", "b": ["Q440_N02"], "relation": "same", "note": "Ambos tratam da indicação dos honorários advocatícios na ficha de Pagamentos Efetuados no ano em que forem pagos."}
+{"question_number": "259", "a": "Q259_N01", "b": ["Q259_N01"], "relation": "same", "note": ""}
+{"question_number": "259", "a": "Q259_N02", "b": ["Q259_N02"], "relation": "same", "note": ""}
+{"question_number": "665", "a": "Q665_N01", "b": ["Q665_N01"], "relation": "same", "note": ""}
+{"question_number": "665", "a": "Q665_N02", "b": ["Q665_N02"], "relation": "same", "note": ""}
+{"question_number": "665", "a": "Q665_N03", "b": ["Q665_N03"], "relation": "same", "note": ""}
+{"question_number": "285", "a": "Q285_N01", "b": ["Q285_N01"], "relation": "same", "note": ""}
+{"question_number": "285", "a": "Q285_N02", "b": ["Q285_N02"], "relation": "same", "note": ""}
+{"question_number": "498", "a": "Q498_N01", "b": ["Q498_N01"], "relation": "overlap", "note": "Ambos tratam da continuidade do patrimônio recebido pelo sucessor, mas A1 menciona a sucessão legítima causa mortis e B1 menciona o espólio como universalidade de bens."}
+{"question_number": "498", "a": "Q498_N02", "b": ["Q498_N02"], "relation": "b_broader", "note": "B2 abrange a compensação de prejuízos pelo espólio (A2) e também a compensação posterior pelo meeiro ou herdeiro (A3)."}
+{"question_number": "498", "a": "Q498_N03", "b": ["Q498_N02"], "relation": "b_broader", "note": "B2 cobre a compensação pelo meeiro ou herdeiro após o inventário com suas condições, além de incluir a compensação pelo espólio."}
+{"question_number": "113", "a": "Q113_N01", "b": ["Q113_N01"], "relation": "b_broader", "note": "B1 reúne em uma única sentença os rendimentos/ganhos no exterior por residentes (A1) e os rendimentos/ganhos no Brasil por não residentes (A2)."}
+{"question_number": "113", "a": "Q113_N02", "b": ["Q113_N01"], "relation": "b_broader", "note": "B1 abrange a tributação de não residentes no Brasil (A2) juntamente com a tributação de residentes com rendimentos no exterior (A1)."}
+{"question_number": "113", "a": "Q113_N03", "b": ["Q113_N02"], "relation": "same", "note": ""}
+{"question_number": "679", "a": "Q679_N01", "b": ["Q679_N01"], "relation": "b_broader", "note": "B1 adiciona a finalidade de apuração e pagamento do imposto mensal sobre ganhos líquidos, que A1 não menciona."}
+{"question_number": "679", "a": "Q679_N02", "b": ["Q679_N02"], "relation": "a_broader", "note": "A2 inclui a finalidade de apuração e pagamento mensal sobre ganhos líquidos, que no conjunto B foi alocada em B1."}
+{"question_number": "679", "a": "Q679_N03", "b": ["Q679_N03"], "relation": "same", "note": "Ambos tratam da compensação de perdas em operações de day trade apenas com ganhos da mesma espécie no mês ou subsequentes."}
+{"question_number": "679", "a": "Q679_N04", "b": ["Q679_N04"], "relation": "same", "note": ""}
+{"question_number": "564", "a": "Q564_N01", "b": ["Q564_N01"], "relation": "same", "note": ""}
+{"question_number": "564", "a": "Q564_N02", "b": ["Q564_N02"], "relation": "same", "note": ""}
+{"question_number": "564", "a": "Q564_N03", "b": ["Q564_N03"], "relation": "same", "note": ""}
+{"question_number": "564", "a": "Q564_N04", "b": ["Q564_N04"], "relation": "same", "note": ""}
+{"question_number": "350", "a": "Q350_N01", "b": ["Q350_N01"], "relation": "b_broader", "note": "B1 inclui a fundamentação legal (art. 35 da Lei nº 9.250/1995) além da regra de dependência dos pais."}
+{"question_number": "350", "a": "Q350_N02", "b": ["Q350_N02"], "relation": "same", "note": ""}
+{"question_number": "350", "a": "Q350_N03", "b": ["Q350_N03"], "relation": "same", "note": ""}
+{"question_number": "676", "a": "Q676_N01", "b": ["Q676_N01"], "relation": "same", "note": ""}
+{"question_number": "676", "a": "Q676_N02", "b": ["Q676_N02"], "relation": "same", "note": ""}
+{"question_number": "676", "a": "Q676_N03", "b": ["Q676_N03"], "relation": "same", "note": ""}
+{"question_number": "676", "a": "Q676_N04", "b": ["Q676_N04"], "relation": "same", "note": ""}
+{"question_number": "244", "a": "Q244_N01", "b": ["Q244_N01"], "relation": "same", "note": ""}
+{"question_number": "244", "a": "Q244_N02", "b": ["Q244_N02"], "relation": "same", "note": ""}
+{"question_number": "244", "a": "Q244_N03", "b": ["Q244_N03"], "relation": "same", "note": ""}
+{"question_number": "028", "a": "Q028_N01", "b": ["Q028_N01", "Q028_N02"], "relation": "overlap", "note": "A1 engloba o procedimento no computador descrito em B2 e a exigência de iniciar nova declaração contida em B1 (que em B é tratada como condição geral)."}
+{"question_number": "028", "a": "Q028_N02", "b": ["Q028_N03"], "relation": "same", "note": "Ambos descrevem o mesmo passo a passo para acessar a declaração pré-preenchida pelo Meu Imposto de Renda no e-CAC."}
+{"question_number": "533", "a": "Q533_N01", "b": ["Q533_N01"], "relation": "same", "note": ""}
+{"question_number": "533", "a": "Q533_N02", "b": ["Q533_N02"], "relation": "same", "note": ""}
+{"question_number": "533", "a": "Q533_N03", "b": ["Q533_N03"], "relation": "same", "note": ""}
+{"question_number": "533", "a": "Q533_N04", "b": ["Q533_N04"], "relation": "same", "note": ""}
+{"question_number": "533", "a": "Q533_N05", "b": ["Q533_N05"], "relation": "same", "note": ""}
+{"question_number": "703", "a": "Q703_N01", "b": ["Q703_N01"], "relation": "same", "note": ""}
+{"question_number": "703", "a": "Q703_N02", "b": ["Q703_N02"], "relation": "same", "note": ""}
+{"question_number": "703", "a": "Q703_N03", "b": ["Q703_N03"], "relation": "same", "note": ""}
+{"question_number": "703", "a": "Q703_N04", "b": ["Q703_N04"], "relation": "same", "note": ""}
+{"question_number": "703", "a": "Q703_N05", "b": ["Q703_N05"], "relation": "same", "note": ""}
+{"question_number": "703", "a": "Q703_N06", "b": ["Q703_N06"], "relation": "same", "note": "B6 inclui a menção expressa ao artigo de lei, mas expressam a mesma regra."}
+{"question_number": "073", "a": "Q073_N01", "b": ["Q073_N01", "Q073_N02"], "relation": "same", "note": "A1 combina a condição temporal descrita em B1 com o procedimento via e-CAC detalhado em B2."}
+{"question_number": "073", "a": "Q073_N02", "b": ["Q073_N01", "Q073_N03"], "relation": "same", "note": "A2 combina a condição temporal descrita em B1 com a opção via declaração retificadora em B3."}
+{"question_number": "073", "a": "Q073_N03", "b": ["Q073_N04"], "relation": "same", "note": ""}
+{"question_number": "073", "a": "Q073_N04", "b": ["Q073_N05"], "relation": "same", "note": ""}
+{"question_number": "073", "a": "Q073_N05", "b": ["Q073_N06"], "relation": "same", "note": ""}
+{"question_number": "073", "a": "Q073_N06", "b": ["Q073_N07", "Q073_N08"], "relation": "same", "note": "A6 junta os dois canais de requisição (PERES e e-CAC), que B detalha em B7 e B8 com o caminho completo de navegação."}
+{"question_number": "507", "a": "Q507_N01", "b": ["Q507_N01"], "relation": "same", "note": ""}
+{"question_number": "507", "a": "Q507_N02", "b": ["Q507_N02"], "relation": "same", "note": ""}
+{"question_number": "507", "a": "Q507_N03", "b": ["Q507_N03"], "relation": "same", "note": ""}
+{"question_number": "507", "a": "Q507_N04", "b": ["Q507_N04"], "relation": "same", "note": ""}
+{"question_number": "507", "a": "Q507_N05", "b": ["Q507_N05"], "relation": "same", "note": ""}
+{"question_number": "507", "a": "Q507_N06", "b": ["Q507_N06"], "relation": "same", "note": ""}
+{"question_number": "507", "a": "Q507_N07", "b": ["Q507_N07"], "relation": "same", "note": ""}
+{"question_number": "624", "a": "Q624_N01", "b": ["Q624_N01"], "relation": "b_broader", "note": "B1 engloba a possibilidade de atualização de A1 e a alíquota de 8% de A2."}
+{"question_number": "624", "a": "Q624_N02", "b": ["Q624_N01"], "relation": "b_broader", "note": "B1 contém a regra de tributação de 8% de A2 e a permissão geral de atualização de A1."}
+{"question_number": "624", "a": "Q624_N03", "b": ["Q624_N02"], "relation": "same", "note": ""}
+{"question_number": "624", "a": "Q624_N04", "b": ["Q624_N03"], "relation": "same", "note": ""}
+{"question_number": "624", "a": "Q624_N05", "b": ["Q624_N04"], "relation": "same", "note": ""}
+{"question_number": "624", "a": "Q624_N06", "b": ["Q624_N05"], "relation": "same", "note": ""}
+{"question_number": "624", "a": "Q624_N07", "b": ["Q624_N06"], "relation": "same", "note": ""}
+{"question_number": "624", "a": "Q624_N08", "b": ["Q624_N07"], "relation": "same", "note": ""}
+{"question_number": "624", "a": "Q624_N09", "b": ["Q624_N08"], "relation": "same", "note": ""}
+{"question_number": "624", "a": "Q624_N10", "b": ["Q624_N09"], "relation": "b_broader", "note": "B9 detalha os itens que compõem o patrimônio líquido (capital social, reservas, lucros acumulados) que A10 omitiu."}
+{"question_number": "624", "a": "Q624_N11", "b": ["Q624_N10"], "relation": "same", "note": ""}
+{"question_number": "624", "a": "Q624_N12", "b": ["Q624_N11"], "relation": "same", "note": ""}
+{"question_number": "624", "a": "Q624_N13", "b": ["Q624_N12"], "relation": "same", "note": ""}
+{"question_number": "624", "a": "Q624_N14", "b": ["Q624_N13"], "relation": "same", "note": ""}
+{"question_number": "624", "a": "Q624_N15", "b": ["Q624_N14"], "relation": "b_broader", "note": "B14 aborda o momento do acréscimo patrimonial e a inclusão na ficha de Bens e Direitos (dividida em A15 e A16)."}
+{"question_number": "624", "a": "Q624_N16", "b": ["Q624_N14"], "relation": "b_broader", "note": "B14 também inclui a regra sobre o momento do acréscimo patrimonial tratada em A15."}
+{"question_number": "624", "a": "Q624_N17", "b": ["Q624_N15"], "relation": "same", "note": ""}
+{"question_number": "624", "a": "Q624_N18", "b": ["Q624_N16"], "relation": "b_broader", "note": "B16 inclui a ressalva de que o valor é informado sem a redução do IRPF apurado na Abex."}
+{"question_number": "624", "a": "Q624_N19", "b": ["Q624_N17"], "relation": "same", "note": ""}
+{"question_number": "624", "a": "Q624_N20", "b": ["Q624_N18"], "relation": "same", "note": ""}
+{"question_number": "624", "a": "Q624_N21", "b": ["Q624_N19"], "relation": "same", "note": ""}
+{"question_number": "624", "a": "Q624_N22", "b": ["Q624_N20"], "relation": "same", "note": ""}
+{"question_number": "624", "a": "Q624_N23", "b": ["Q624_N21"], "relation": "same", "note": ""}
+{"question_number": "706", "a": "Q706_N01", "b": ["Q706_N01"], "relation": "same", "note": ""}
+{"question_number": "706", "a": "Q706_N02", "b": ["Q706_N02"], "relation": "same", "note": ""}
+{"question_number": "706", "a": "Q706_N03", "b": ["Q706_N03"], "relation": "same", "note": ""}
+{"question_number": "706", "a": "Q706_N04", "b": ["Q706_N04"], "relation": "same", "note": ""}
+{"question_number": "706", "a": "Q706_N05", "b": ["Q706_N05"], "relation": "same", "note": ""}
+{"question_number": "706", "a": "Q706_N06", "b": ["Q706_N06"], "relation": "same", "note": ""}
+{"question_number": "706", "a": "Q706_N07", "b": ["Q706_N07"], "relation": "b_broader", "note": "B especifica a fundamentação legal nos arts. 2º e 3º da Lei nº 12.431/2011."}
+{"question_number": "706", "a": "Q706_N08", "b": ["Q706_N08"], "relation": "b_broader", "note": "B inclui a caracterização das carteiras dos fundos de índice de renda fixa."}
+{"question_number": "706", "a": "Q706_N09", "b": ["Q706_N09"], "relation": "b_broader", "note": "B inclui a caracterização das carteiras dos fundos de índice de renda fixa."}
+{"question_number": "706", "a": "Q706_N10", "b": ["Q706_N10"], "relation": "b_broader", "note": "B inclui a caracterização das carteiras dos fundos de índice de renda fixa."}
+{"question_number": "706", "a": "Q706_N11", "b": ["Q706_N11"], "relation": "same", "note": ""}
+{"question_number": "706", "a": "Q706_N12", "b": ["Q706_N12"], "relation": "b_broader", "note": "B menciona expressamente a Lei nº 14.754/2023."}
+{"question_number": "330", "a": "Q330_N01", "b": ["Q330_N01"], "relation": "same", "note": ""}
+{"question_number": "330", "a": "Q330_N02", "b": ["Q330_N02"], "relation": "a_broader", "note": "A2 inclui também o limite de 12% da base de cálculo, omitido em B2."}
+{"question_number": "330", "a": "Q330_N03", "b": ["Q330_N03"], "relation": "a_broader", "note": "A3 explicita a aplicação tanto da condição de recolhimento previdenciário quanto do limite de 12% ao Fapi, enquanto B3 menciona apenas a condição de recolhimento."}
+{"question_number": "330", "a": "Q330_N04", "b": ["Q330_N04"], "relation": "same", "note": ""}
+{"question_number": "330", "a": "Q330_N05", "b": ["Q330_N05"], "relation": "same", "note": ""}
+{"question_number": "330", "a": "Q330_N06", "b": ["Q330_N06"], "relation": "same", "note": ""}
+{"question_number": "330", "a": "Q330_N07", "b": ["Q330_N07"], "relation": "same", "note": ""}
+{"question_number": "330", "a": "Q330_N08", "b": ["Q330_N08"], "relation": "same", "note": ""}
+{"question_number": "330", "a": "Q330_N09", "b": ["Q330_N09", "Q330_N10"], "relation": "same", "note": "A9 engloba as instruções de preenchimento dos campos 'Valor pago' e 'Contribuição do ente público patrocinador' que B separa em B9 e B10."}
+{"question_number": "330", "a": "Q330_N10", "b": ["Q330_N11", "Q330_N12"], "relation": "same", "note": "A10 engloba as instruções de preenchimento de ambos os campos no caso de contribuição facultativa, divididas em B11 e B12."}

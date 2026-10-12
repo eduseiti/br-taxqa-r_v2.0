@@ -34,3 +34,6 @@ runs/**
 # sample.json). Docs: 20261012_154616_nuggetization_preview_open_items_resolution.md §3.
 nuggets/**/cache/
 nuggets/**/input/
+
+# Batch jobs: inputs and full requests are large and regenerable; the small job records are versioned
+nuggets/**/batches/*.jsonl

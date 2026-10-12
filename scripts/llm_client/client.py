@@ -27,11 +27,66 @@ class BudgetExceeded(LLMError):
     pass
 
 
+class BatchDeferred(LLMError):
+    """Batch mode: the request was not in the cache and was queued for a batch job instead of called."""
+
+
+class QuotaExhausted(LLMError):
+    """A per-day provider quota (e.g. Gemini 3.1 Pro: 250 requests per model per day on our tier).
+    Not retried: waiting minutes does not help."""
+
+
+BATCH_TAG = "batch:"     # ledger rows of batch results: tag prefix; billed at BATCH_DISCOUNT off
+BATCH_DISCOUNT = 0.5     # OpenAI and Gemini Batch APIs (registry batch_discount; checked at submit)
+
+
 def ledger_total(ledger: Path) -> float:
+    """Billed USD so far: ``usd_standard`` is always the synchronous price; batch rows count at half."""
     if not Path(ledger).exists():
         return 0.0
     with open(ledger, newline="") as f:
-        return sum(float(r["usd_standard"]) for r in csv.DictReader(f))
+        return sum(float(r["usd_standard"]) * ((1 - BATCH_DISCOUNT) if r["tag"].startswith(BATCH_TAG) else 1)
+                   for r in csv.DictReader(f))
+
+
+# ---------------------------------------------------------------- request bodies and response parsing
+# Shared by the synchronous calls and the batch jobs (batch.py), so both send and read the same thing.
+def openai_body(model_id: str, params: dict, system: str, user: str, schema: dict, schema_name: str) -> dict:
+    return {"model": model_id, "instructions": system, "input": user,
+            "reasoning": {"effort": params["reasoning_effort"]},
+            "text": {"format": {"type": "json_schema", "name": schema_name, "schema": schema, "strict": True}},
+            "max_output_tokens": params.get("max_output_tokens", 32000)}
+
+
+def parse_openai(d: dict):
+    """Responses API object (dict) → (text, usage, served model, meta)."""
+    text = "".join(c.get("text", "") for o in d.get("output") or [] if o.get("type") == "message"
+                   for c in o.get("content") or [] if c.get("type") == "output_text")
+    u = d.get("usage") or {}
+    usage = Usage(u.get("input_tokens", 0), (u.get("input_tokens_details") or {}).get("cached_tokens") or 0,
+                  u.get("output_tokens", 0), (u.get("output_tokens_details") or {}).get("reasoning_tokens") or 0)
+    st = d.get("status")
+    return text, usage, d.get("model"), {"finish": st, "truncated": st != "completed"}
+
+
+def gemini_body(params: dict, system: str, user: str, schema: dict) -> dict:
+    return {"systemInstruction": {"parts": [{"text": system}]},
+            "contents": [{"role": "user", "parts": [{"text": user}]}],
+            "generationConfig": {"responseMimeType": "application/json", "responseJsonSchema": schema,
+                                 "thinkingConfig": {"thinkingLevel": params["thinking_level"]},
+                                 "maxOutputTokens": params.get("max_output_tokens", 32768)}}
+
+
+def parse_gemini(d: dict, model_id: str = ""):
+    """GenerateContentResponse (dict) → (text, usage, served model, meta)."""
+    cand = (d.get("candidates") or [{}])[0]
+    text = "".join(pt.get("text", "") for pt in cand.get("content", {}).get("parts", []) if not pt.get("thought"))
+    m = d.get("usageMetadata", {})
+    thoughts = m.get("thoughtsTokenCount", 0)
+    usage = Usage(m.get("promptTokenCount", 0), m.get("cachedContentTokenCount", 0),
+                  m.get("candidatesTokenCount", 0) + thoughts, thoughts)
+    fin = cand.get("finishReason")
+    return text, usage, d.get("modelVersion", model_id), {"finish": fin, "truncated": fin != "STOP"}
 
 
 @dataclass
@@ -74,6 +129,7 @@ class LLM:
         call, so concurrent workers can overshoot by at most one call each."""
         self.name, self.cfg = name, cfg
         self.budget_usd = budget_usd
+        self.batch = None        # a batch.BatchRecorder: cache misses are queued instead of called
         self.provider = cfg["provider"]
         self.model_id = cfg["model_id"]
         self.params = cfg.get("params", {})
@@ -91,21 +147,33 @@ class LLM:
 
     # ------------------------------------------------------------------ public
     def complete_json(self, system: str, user: str, schema: dict, schema_name: str,
-                      validate=None, tag: str = "", max_attempts: int = 3) -> Result:
+                      validate=None, tag: str = "", max_attempts: int = 3, replicate: int = 0) -> Result:
         """Return the parsed JSON. ``validate(data)`` may raise to reject a reply; rejected or
-        truncated replies are retried (not cached) up to ``max_attempts`` times."""
+        truncated replies are retried (not cached) up to ``max_attempts`` times. ``replicate`` > 0
+        enters only the cache key, so an identical request gets a fresh sample (same-model noise)."""
         req = {"provider": self.provider, "model": self.model_id, "params": self.params,
                "system": system, "user": user, "schema": schema}
+        if replicate:
+            req["replicate"] = replicate
         ck = hashlib.sha256(json.dumps(req, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
         cpath = self.cache_dir / f"{ck}.json"
         if cpath.exists():
             rec = json.loads(cpath.read_text())
             u = Usage(**rec["usage"])
-            data = json.loads(rec["text"])
-            if validate:
-                validate(data)
-            return Result(data, rec["text"], u, u.cost(self.price), rec["model_served"], True, ck,
-                          rec.get("latency_s", 0.0), rec.get("attempts", 1), rec.get("meta", {}))
+            try:
+                data = json.loads(rec["text"])
+                if validate:
+                    validate(data)
+                return Result(data, rec["text"], u, u.cost(self.price), rec["model_served"], True, ck,
+                              rec.get("latency_s", 0.0), rec.get("attempts", 1), rec.get("meta", {}))
+            except Exception:  # noqa: BLE001
+                # a batch result is cached before the command's own validation, which may reject it:
+                # call again (the synchronous retry loop below). A synchronous record never fails here.
+                if not rec.get("batch"):
+                    raise
+        if self.batch is not None and self.provider in ("openai", "gemini"):
+            self.batch.add(self, ck, req, self.body(system, user, schema, schema_name), tag)
+            raise BatchDeferred(tag)
         last = None
         spent = Usage()
         for attempt in range(1, max_attempts + 1):
@@ -143,46 +211,38 @@ class LLM:
                 return getattr(self, f"_call_{self.provider}")(system, user, schema, schema_name)
             except Exception as e:  # noqa: BLE001
                 status = getattr(e, "status_code", None) or getattr(getattr(e, "response", None), "status_code", None)
+                if status == 429 and "PerDay" in str(e):
+                    raise QuotaExhausted(str(e)) from e
                 if wait is None or status not in (408, 429, 500, 502, 503, 504, None):
                     raise
                 time.sleep(wait)
 
+    def body(self, system, user, schema, schema_name) -> dict:
+        """The provider request body (batch jobs send exactly this)."""
+        if self.provider == "openai":
+            return openai_body(self.model_id, self.params, system, user, schema, schema_name)
+        if self.provider == "gemini":
+            return gemini_body(self.params, system, user, schema)
+        raise LLMError(f"no batch body for provider {self.provider}")
+
     def _call_openai(self, system, user, schema, schema_name):
-        p = self.params
-        r = self._oa.responses.create(
-            model=self.model_id, instructions=system, input=user,
-            reasoning={"effort": p["reasoning_effort"]},
-            text={"format": {"type": "json_schema", "name": schema_name, "schema": schema, "strict": True}},
-            max_output_tokens=p.get("max_output_tokens", 32000))
-        u = r.usage
-        usage = Usage(u.input_tokens, u.input_tokens_details.cached_tokens or 0,
-                      u.output_tokens, u.output_tokens_details.reasoning_tokens or 0)
-        meta = {"finish": r.status, "truncated": r.status != "completed"}
-        return r.model_dump(), r.output_text, usage, r.model, meta
+        r = self._oa.responses.create(**openai_body(self.model_id, self.params, system, user, schema, schema_name))
+        d = r.model_dump()
+        text, usage, served, meta = parse_openai(d)
+        return d, text, usage, served, meta
 
     def _call_gemini(self, system, user, schema, schema_name):
-        p = self.params
-        body = {"systemInstruction": {"parts": [{"text": system}]},
-                "contents": [{"role": "user", "parts": [{"text": user}]}],
-                "generationConfig": {"responseMimeType": "application/json", "responseJsonSchema": schema,
-                                     "thinkingConfig": {"thinkingLevel": p["thinking_level"]},
-                                     "maxOutputTokens": p.get("max_output_tokens", 32768)}}
+        body = gemini_body(self.params, system, user, schema)
         h = httpx.post(GEMINI_URL.format(model=self.model_id), headers={"x-goog-api-key": self._key},
                        json=body, timeout=600)
         if h.status_code != 200:
-            err = LLMError(f"gemini HTTP {h.status_code}: {h.text[:300]}")
+            err = LLMError(f"gemini HTTP {h.status_code}: {h.text[:300]}"
+                           + (" [GenerateRequestsPerDayPerProjectPerModel]" if "PerDay" in h.text else ""))
             err.status_code = h.status_code
             raise err
         d = h.json()
-        cand = d["candidates"][0]
-        text = "".join(pt.get("text", "") for pt in cand.get("content", {}).get("parts", [])
-                       if not pt.get("thought"))
-        m = d.get("usageMetadata", {})
-        thoughts = m.get("thoughtsTokenCount", 0)
-        usage = Usage(m.get("promptTokenCount", 0), m.get("cachedContentTokenCount", 0),
-                      m.get("candidatesTokenCount", 0) + thoughts, thoughts)
-        fin = cand.get("finishReason")
-        return d, text, usage, d.get("modelVersion", self.model_id), {"finish": fin, "truncated": fin != "STOP"}
+        text, usage, served, meta = parse_gemini(d, self.model_id)
+        return d, text, usage, served, meta
 
     def _call_openai_compat(self, system, user, schema, schema_name):
         p = dict(self.params)
@@ -203,6 +263,7 @@ class LLM:
 
     # ------------------------------------------------------------------ ledger
     def _log(self, tag, attempt, u: Usage, served, dt, finish):
+        """One ledger row. ``usd_standard`` is the synchronous price; batch rows carry the ``batch:`` tag."""
         if not self.ledger:
             return
         row = {"ts": datetime.now().isoformat(timespec="seconds"), "model": self.name, "served": served,

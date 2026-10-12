@@ -1,15 +1,16 @@
 {
- "timestamp": "2026-10-09T17:39:43",
+ "timestamp": "2026-10-12T19:57:23",
  "git": {
-  "commit": "ffbc7a377f16ac101d50031577a780ea9d4a3f24",
-  "dirty": false,
+  "commit": "674dfd89bb2af09e199a6908ddee5e3800668862",
+  "dirty": true,
   "fetcher_commit": "c7f4b8faf8b8df84520e6e957d7a0890513f4a52",
-  "fetcher_dirty": true
+  "fetcher_dirty": false
  },
  "inputs_sha256": {
   "questions": "097abfc4f885ea36e512e6beae39a826b981191aa0b320960828e51ccc081585",
   "canonical": "cc5eec6c22bde4da1e6d6081b4f524ffd55ceca9748d6c60924e171e3247e6ae",
   "reference_overrides": "5af9b6e6db27a58f91685a83ac36ac53d558a558743ed41c97f835984bf64b96",
+  "answer_overrides": "2d57885c944d4a63d2ea0d6a737122213215f90b027be1a1a8bffb93371b8fff",
   "citations_py": "b25a8eb82852dd1eb2100603c31b4b06244403775f76c7d22dd6f3229b67c079",
   "nonstat_lexml_map": "95e6506ba446a68c3016e207f499773d2a6022274975f2fd45d3ed5872b531cd"
  },
@@ -21,6 +22,60 @@
   "override for a file name no question cites: Declaração sobre Operações Imobiliárias (DOI).txt",
   "override for a file name no question cites: Sistema de Recolhimento Mensal Obrigatório (Carnê-Leão).txt"
  ],
+ "answer_overrides": {
+  "edited": [
+   "035",
+   "037",
+   "040",
+   "066",
+   "122",
+   "129",
+   "135",
+   "150",
+   "168",
+   "171",
+   "177",
+   "186",
+   "201",
+   "319",
+   "326",
+   "327",
+   "402",
+   "419",
+   "442",
+   "460",
+   "483",
+   "578",
+   "622",
+   "625",
+   "653"
+  ],
+  "punctuation_lines_dropped": {
+   "053": 1,
+   "079": 1,
+   "092": 1,
+   "093": 1,
+   "177": 1,
+   "219": 1,
+   "220": 1,
+   "234": 1,
+   "240": 1,
+   "243": 1,
+   "249": 1,
+   "281": 1,
+   "289": 1,
+   "300": 1,
+   "335": 1,
+   "373": 1,
+   "558": 1,
+   "560": 1,
+   "598": 1,
+   "647": 1,
+   "676": 1,
+   "708": 1,
+   "715": 1
+  }
+ },
  "counts": {
   "questions": 715,
   "questions_with_references": 596,

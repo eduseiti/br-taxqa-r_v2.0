@@ -1,0 +1,377 @@
+{
+ "_doc": [
+  "Corrections to v1.1 answer_cleaned (the gold answer). The v1 cleaning is line-based: it drops a",
+  "line from a leading '(' to the next '.', and, on a line with 'consulte ... pergunta N', everything from the",
+  "line start to the pointer, so content before a pointer and parentheticals at a line start were lost.",
+  "Each entry: v1_sha256 = SHA-256 of the v1.1 answer_cleaned (lines joined with \\n) it applies to; every",
+  "'find' must occur exactly 'count' times. After the edits, lines made only of punctuation (left by the",
+  "same cleaning) are dropped from every answer, or appended to the previous line when that line has no",
+  "final punctuation (rule drop_punctuation_only_lines). Inventory and",
+  "rationale: docs/20261012_192640_nuggetization_phase1_pilot.md §8 and its update."
+ ],
+ "rules": {
+  "drop_punctuation_only_lines": true
+ },
+ "answers": [
+  {
+   "question_number": "035",
+   "reason": "lost text: the v1 cleaning removed the line start up to the pointer “(consulte as perguntas 026 a 031)”",
+   "v1_sha256": "4f979763d3f990de2ca642e3935cd896626ad9e4cdad7cf45c44ee794eed3f08",
+   "edits": [
+    {
+     "find": "no endereço\na 031).\n",
+     "replace": "no endereço\nhttp://www.gov.br/receitafederal/pt-br ou do “Meu Imposto de Renda”.\n",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "question_number": "037",
+   "reason": "lost text before the pointer “(consulte as perguntas 026 a 031)”",
+   "v1_sha256": "ac48a7207ad0a0877063444a507f1b980700335712c19e7d4a897320a078f05b",
+   "edits": [
+    {
+     "find": "site da RFB na\na 031)\n",
+     "replace": "site da RFB na\nInternet ou do “Meu Imposto de Renda”\n",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "question_number": "040",
+   "reason": "lost item c) before the pointer “(consulte as perguntas 026 a 031)” (the open quote is as in the source)",
+   "v1_sha256": "c60ee13df1fef3f512e19e31962fc8fc5570a1038cc19639c01aaffc81eb97ad",
+   "edits": [
+    {
+     "find": "“Entregar Declaração”;\na 031), na hipótese",
+     "replace": "“Entregar Declaração”;\nc) utilizando o “Meu Imposto de Renda, na hipótese",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "question_number": "066",
+   "reason": "lost item 3.2 before the pointer “(consulte as perguntas 026 a 031)”",
+   "v1_sha256": "71df3b6b4d23dc20018afbd26475b5e77dd86b78423d8e75c82d453c71e9ac98",
+   "edits": [
+    {
+     "find": "da 2ª quota;\na 031) e formalizado",
+     "replace": "da 2ª quota;\n3.2 - é autorizado mediante a utilização do PGD ou acesso ao “Meu Imposto de Renda” e formalizado",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "question_number": "122",
+   "reason": "lost parenthetical that is content (the PIX alternative)",
+   "v1_sha256": "01868be5e889555e7f7502619017bf028a377bd8a76d86d999f684f47abda6a5",
+   "edits": [
+    {
+     "find": "efetuado o crédito\n.\n",
+     "replace": "efetuado o crédito\n(ou, alternativamente, informar a chave PIX do titular da declaração).\n",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "question_number": "129",
+   "reason": "lost items IV and VI (text before the pointer “(Consulte a pergunta 415)”); empty “Atenção:” left by two pointer-only lines",
+   "v1_sha256": "71167afa9d6cb53f9eb723a618306bb8840865f9e475feb6a1f38ffabccd1c5b",
+   "edits": [
+    {
+     "find": "benefício;\n);\nV –",
+     "replace": "benefício;\nIV - as despesas escrituradas em livro-caixa, quando permitidas;\nV –",
+     "count": 1
+    },
+    {
+     "find": "alimentandos;\n);\nVII –",
+     "replace": "alimentandos;\nVI - as despesas escrituradas em livro-caixa, quando permitidas;\nVII –",
+     "count": 1
+    },
+    {
+     "find": "residentes no Brasil.\nAtenção:\n;\n.\n",
+     "replace": "residentes no Brasil.\n",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "question_number": "135",
+   "reason": "parenthetical removed at line start: “(Holanda)”; “.” left by the pointer “(Consulte a pergunta 141)”",
+   "v1_sha256": "da7d2068d8e77a3d3e2cd23707c1db93a0fb27d8b7550d9d026b34a19dceb708",
+   "edits": [
+    {
+     "find": "Países Baixos\n\nSuíça",
+     "replace": "Países Baixos\n(Holanda)\nSuíça",
+     "count": 1
+    },
+    {
+     "find": "Estados Unidos da América\n.\nOs países",
+     "replace": "Estados Unidos da América.\nOs países",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "question_number": "150",
+   "reason": "acronym removed: “(UPU)”, twice",
+   "v1_sha256": "c19205bc308328eab3b3d537e6a056424d14ce22fd3dfe69281b673522e835c4",
+   "edits": [
+    {
+     "find": "à União Postal Universal  Decreto",
+     "replace": "à União Postal Universal (UPU) Decreto",
+     "count": 1
+    },
+    {
+     "find": "Universal Postal Union\n.\n",
+     "replace": "Universal Postal Union\n(UPU).\n",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "question_number": "168",
+   "reason": "lost text before the pointer “(consulte as perguntas 131, 135, 139 e 141)”",
+   "v1_sha256": "6e31c0a798e07dfdc2dbeaf5db22c3df8ead2aba6276a515d658659e9a4a64e2",
+   "edits": [
+    {
+     "find": "regras de\n), que possibilitem",
+     "replace": "regras de\nreciprocidade de tratamento, que possibilitem",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "question_number": "171",
+   "reason": "half-removed pointer parenthetical “(tratando-se de pensão paga em cumprimento de sentença estrangeira, consulte a pergunta 353)”: removed whole (pure delegation)",
+   "v1_sha256": "bb9a9ba438156ef495ecbc3b91df5be1124d81c31932ed6179418c8cc22f4b8f",
+   "edits": [
+    {
+     "find": "a seguir transcrito (tratando-se de pensão paga em cumprimento de\n);\n",
+     "replace": "a seguir transcrito;\n",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "question_number": "177",
+   "reason": "acronym removed at line start: “(Fapi)”",
+   "v1_sha256": "8b7a3f5c7a212714e32f064326b3cb9d73ce714d654b5aa2b861901926b170d1",
+   "edits": [
+    {
+     "find": "Programada Individual\n.\nAtenção",
+     "replace": "Programada Individual\n(Fapi).\nAtenção",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "question_number": "186",
+   "reason": "lost end of sentence before the pointer “Consulte a pergunta 297”",
+   "v1_sha256": "e7be87b744ea1923c65ac74f80aec558dc5ae5c5681ffb5580738a9a416f8636",
+   "edits": [
+    {
+     "find": "sujeitando-se à incidência\n.\nAtenção:",
+     "replace": "sujeitando-se à incidência\ndo Imposto sobre a Renda na Fonte e na DAA.\nAtenção:",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "question_number": "201",
+   "reason": "acronym removed at line start: “(DAA)”",
+   "v1_sha256": "233f475d1df682b1314fa721b39ad0f1864ceb87de8289dbb3c5abaa26dfd9f5",
+   "edits": [
+    {
+     "find": "Declaração de Ajuste Anual\n.\n",
+     "replace": "Declaração de Ajuste Anual\n(DAA).\n",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "question_number": "319",
+   "reason": "acronym removed at line start: “(DAA)”",
+   "v1_sha256": "4792115db103c6b4b922b02b10d2e6ad83c1a3d7fbf13aa95f9347aa1b875c84",
+   "edits": [
+    {
+     "find": "Declaração de Ajuste Anual\n.\n",
+     "replace": "Declaração de Ajuste Anual\n(DAA).\n",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "question_number": "326",
+   "reason": "lost end of sentence before the pointer “Consulte a pergunta 330”; two “);” left by “(Consulte a pergunta 415)”",
+   "v1_sha256": "430c046cd4d5df99403a70babfb6f940e1869d8dbdbe5bb39e7fbfa302e762f8",
+   "edits": [
+    {
+     "find": "documentalmente\n);\n•\nimportâncias",
+     "replace": "documentalmente;\n•\nimportâncias",
+     "count": 1
+    },
+    {
+     "find": "documentalmente\n);\n•\na importâncias",
+     "replace": "documentalmente;\n•\na importâncias",
+     "count": 1
+    },
+    {
+     "find": "base de cálculo do imposto\n.\n3 - As deduções",
+     "replace": "base de cálculo do imposto\ndevido na declaração.\n3 - As deduções",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "question_number": "327",
+   "reason": "acronym removed at line start: “(DAA)”",
+   "v1_sha256": "608eb381ec33159f25d2792b93175975a2ff18c88ca31ae353bd121d1ce6a843",
+   "edits": [
+    {
+     "find": "Declaração de Ajuste Anual\n.\n",
+     "replace": "Declaração de Ajuste Anual\n(DAA).\n",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "question_number": "402",
+   "reason": "acronym removed at line start: “(DAA)”",
+   "v1_sha256": "9d7902e0892cdead12bf7088bea57fd922859712f915e167c35d6548ca3a3e3c",
+   "edits": [
+    {
+     "find": "Declaração de Ajuste Anual\n.\n",
+     "replace": "Declaração de Ajuste Anual\n(DAA).\n",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "question_number": "419",
+   "reason": "acronym removed at line start: “(RFB)”",
+   "v1_sha256": "86c68c47e3564393a5f56a6e366e448e8c4935fdce1c282a4eebf0070967b1ef",
+   "edits": [
+    {
+     "find": "do\nBrasil\n\ndisponibiliza",
+     "replace": "do\nBrasil\n(RFB)\ndisponibiliza",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "question_number": "442",
+   "reason": "lost internal cross-reference “(especificado no final da pergunta)”, 8 times",
+   "v1_sha256": "dd676f37d5b4fef82f84d319cf83d0bcc1c56ad75ad7dcd8fc5d7d1fe011fea6",
+   "edits": [
+    {
+     "find": "Limite Global de Dedução\n.\nI-A)",
+     "replace": "Limite Global de Dedução\n(especificado no final da pergunta).\nI-A)",
+     "count": 1
+    },
+    {
+     "find": "Limite Global de Dedução .\nII-A)",
+     "replace": "Limite Global de Dedução (especificado no final da pergunta).\nII-A)",
+     "count": 1
+    },
+    {
+     "find": "Limite Global de Dedução ; e\n- a comprovação",
+     "replace": "Limite Global de Dedução (especificado no final da pergunta); e\n- a comprovação",
+     "count": 1
+    },
+    {
+     "find": "Limite Global de Dedução\n:\n1) 80%",
+     "replace": "Limite Global de Dedução\n(especificado no final da pergunta):\n1) 80%",
+     "count": 1
+    },
+    {
+     "find": "Limite Global de Dedução ;\n- a comprovação",
+     "replace": "Limite Global de Dedução (especificado no final da pergunta);\n- a comprovação",
+     "count": 2
+    },
+    {
+     "find": "beneficiário” ;\n- o valor",
+     "replace": "beneficiário” (especificado no final da pergunta);\n- o valor",
+     "count": 1
+    },
+    {
+     "find": "Limite Global de Dedução .\nVII –",
+     "replace": "Limite Global de Dedução (especificado no final da pergunta).\nVII –",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "question_number": "460",
+   "reason": "acronym removed at line start: “(e-CAC)”",
+   "v1_sha256": "e8ea12a84a5d34da7a67a5ca13145d0f2ac89599fb9a9b45e9832a1b00ce00f9",
+   "edits": [
+    {
+     "find": "ao\nContribuinte\n\nda\nRFB",
+     "replace": "ao\nContribuinte\n(e-CAC)\nda\nRFB",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "question_number": "483",
+   "reason": "acronym removed at line start: “(DAA)”",
+   "v1_sha256": "69013681484c62d2106c83926b98d0b32f011894ca988c8acb5f7a258d03d476",
+   "edits": [
+    {
+     "find": "Declaração de Ajuste Anual\n.\n",
+     "replace": "Declaração de Ajuste Anual\n(DAA).\n",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "question_number": "578",
+   "reason": "lost parenthetical that is content",
+   "v1_sha256": "b8be15a9748da0c696f0d25720505ec943450a01b9e27aaff65670d2d63d07d8",
+   "edits": [
+    {
+     "find": "previsto no contrato\n.\nNa hipótese",
+     "replace": "previsto no contrato\n(falta de pagamento do preço ajustado, no caso).\nNa hipótese",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "question_number": "622",
+   "reason": "answer truncated mid-sentence: the line with the pointer “Consulte a pergunta 459” was removed",
+   "v1_sha256": "737a27bc292ea52a1bc0432b833a28f52244a958f73c5abd136e7d1995c86046",
+   "edits": [
+    {
+     "find": "deve ser informada na Declaração de\n",
+     "replace": "deve ser informada na Declaração de\nBens e Direitos da mesma forma prevista para a moeda estrangeira mantida em espécie.\n",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "question_number": "625",
+   "reason": "lost end of sentence (with a date) before the pointer “Consulte a pergunta 624”",
+   "v1_sha256": "e9b646b6ea6d339a1182c9486d7bee1b829e853b33b379de0c189c850b906f1f",
+   "edits": [
+    {
+     "find": "poderão ter seus valores\n.\nO contribuinte",
+     "replace": "poderão ter seus valores\natualizados para o valor de mercado em 31 de dezembro de 2023.\nO contribuinte",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "question_number": "653",
+   "reason": "lost end of sentence before the pointer “(consulte a pergunta 677)”",
+   "v1_sha256": "7bdf44f76b306bca4e28629fd34625fb1d5a58d460c0d77a79e56930a5cef4b3",
+   "edits": [
+    {
+     "find": "apuração de ganhos\n).\n",
+     "replace": "apuração de ganhos\nlíquidos em renda variável.\n",
+     "count": 1
+    }
+   ]
+  }
+ ]
+}

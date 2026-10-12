@@ -5,4 +5,4 @@ JSON, normalized token usage and the cost. Every raw response is cached on disk,
 request, so a rerun reads the cache instead of calling the API (reasoning models are not
 deterministic; the cache is what makes reruns exact).
 """
-from .client import LLM, BudgetExceeded, LLMError, Result, Usage, load_registry  # noqa: F401
+from .client import LLM, BatchDeferred, BudgetExceeded, LLMError, QuotaExhausted, Result, Usage, load_registry  # noqa: F401

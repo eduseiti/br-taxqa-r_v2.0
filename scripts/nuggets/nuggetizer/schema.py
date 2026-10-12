@@ -36,6 +36,70 @@ class AssignmentList(_Strict):
     assignments: list[Assignment]
 
 
+class ImportanceLabel(_Strict):
+    nugget: int
+    justification: str
+    importance: Importance
+
+
+class ImportanceList(_Strict):
+    labels: list[ImportanceLabel]
+
+
+Relation = Literal["same", "a_broader", "b_broader", "overlap", "conflict", "none"]
+
+
+class Alignment(_Strict):
+    a: int
+    b: list[int]
+    relation: Relation
+    note: str
+
+
+class AlignmentList(_Strict):
+    alignments: list[Alignment]
+
+
+class Reconstruction(_Strict):
+    answer: str
+
+
+class MissingFact(_Strict):
+    source_span: str
+    problem: Literal["missing", "altered"]
+    description: str
+
+
+class MissingList(_Strict):
+    missing: list[MissingFact]
+
+
+class NuggetAudit(_Strict):
+    nugget: int
+    c1_faithful: bool
+    c2_self_contained: bool
+    c3_one_unit: bool
+    c4_importance: bool
+    problem: str
+    fix: str
+
+
+class Omission(_Strict):
+    source_span: str
+    fact: str
+
+
+class Redundant(_Strict):
+    a: int
+    b: int
+
+
+class Audit(_Strict):
+    nuggets: list[NuggetAudit]
+    omissions: list[Omission]
+    redundant: list[Redundant]
+
+
 def strict_schema(model: type[BaseModel]) -> dict:
     """Inline ``$defs``, drop titles, require every property, forbid extras (OpenAI strict mode)."""
     raw = model.model_json_schema()

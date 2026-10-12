@@ -4,17 +4,19 @@ Turns the 715 gold answers into **legal nuggets** (short, self-contained, atomic
 answers of the RAG generators can be scored against them. Design:
 `docs/20261011_224049_gold_answer_nuggetization_plan_v2.md` (**plan v2**).
 
-**Status (2026-10-12): preview done, phase 1 pilot not started.** A minimal phase 0 (plan v2 §4) is
-implemented: three providers, cache, cost ledger, budget cap, sampling, creation, validation, gold
-self-score and a report. It was exercised on 10 questions in three runs (≈ $2.63 in total). Read, in
-this order:
+**Status (2026-10-12): phase 1 pilot done** on `stratified_30` (`nuggets/pilot/`, $7.97; two 3.1 Pro
+items wait for a daily quota, pilot note §11). Every phase 1 item of plan v2 §4 is implemented: three
+families, replicates, the 2-call mode, alignment, round trip, two auditors with repair, planted-error
+auditor test, known-answer tests and the pilot report. **Phase 2 waits for the user's gate decisions**
+(pilot note §12). Read, in this order:
 
 1. `docs/20261012_114025_nuggetization_preview_10_questions.md` — preview v1: API findings, first
    cost estimate, open items;
 2. `docs/20261012_154616_nuggetization_preview_open_items_resolution.md` — decisions on R8/judge,
    granularity and git;
-3. `docs/20261012_160349_nuggetization_preview_v2_execution.md` — v2/v3 runs, **final cost
-   estimate (§10–§11)**, pointer rule (§13), next steps (§12).
+3. `docs/20261012_160349_nuggetization_preview_v2_execution.md` — v2/v3 runs, pointer rule (§13);
+4. `docs/20261012_192640_nuggetization_phase1_pilot.md` — **the pilot**: results, `answer_cleaned`
+   content loss (§8), Gemini 3.1 Pro daily quota (§9), **cost estimate (§10)**, decisions (§12).
 
 ## Layout
 
@@ -23,7 +25,8 @@ scripts/llm_client/           provider-neutral client (shared with RAG Phase 3 l
   client.py                   LLM.complete_json(): openai (Responses API), gemini (REST), openai_compat (Qwen);
                               disk cache keyed by the request; ledger rows; --budget cap (BudgetExceeded)
 scripts/nuggets/
-  nuggets.py                  CLI: sample, create, validate, selfscore, report
+  nuggets.py                  CLI: sample, create [--replicate], importance, validate, selfscore, align,
+                              roundtrip, audit, repair, plant, known build|judge, report, pilotreport
   models.yaml                 registry: model ids, medium-effort params (D12), prices (checked 2026-10-11)
   prompts/                    create_v1..v4.pt.md, assign_v1..v2.pt.md (pt-BR; see "Prompts" below)
   nuggetizer/
@@ -31,7 +34,10 @@ scripts/nuggets/
     schema.py                 pydantic models → strict JSON schemas sent to the APIs
     values.py                 pt-BR value extraction (R$, %, dates, years)
     validate.py               mechanical checks (plan v2 §3.3, §3.5.1), flags
+    known_answer.py           known-answer test builders G V Y N D C W E and metrics (plan v2 §5.7)
+    planted.py                one planted error per question, to measure auditor sensitivity
     report.py                 report.md: nuggets side by side, validation, self-score, tokens, cost extrapolation
+    pilot_report.py           report_pilot.md: agreement, 1 vs 2 calls, round trip, audit, known-answer, costs
 nuggets/<run>/                outputs (see "Outputs")
 ```
 
@@ -65,6 +71,25 @@ done
 $P $N $O report                             # nuggets/pilot/report.md
 ```
 
+The rest of the phase 1 pilot, as run (pilot note §1; set names: `<model>.rN` replicate, `.2call`,
+`.repN` repaired, `.planted`):
+
+```bash
+$P $N $O create --models gpt-6.1-sol --replicate 2                      # and 3: same-model noise
+$P $N $O importance --source gpt-6.1-sol                                # 2-call mode → create/gpt-6.1-sol.2call
+$P $N $O align --pairs gpt-6.1-sol:gemini-3.1-pro,gpt-6.1-sol:qwen3.8-max,gemini-3.1-pro:qwen3.8-max
+$P $N $O roundtrip --set gpt-6.1-sol                                    # Flash writes, Qwen checks (check_v2)
+for a in gemini-3.1-pro qwen3.8-max; do
+  $P $N $O audit --set gpt-6.1-sol --auditor $a --others gemini-3.1-pro,qwen3.8-max
+done
+$P $N $O repair --set gpt-6.1-sol --auditors gemini-3.1-pro,qwen3.8-max --new gpt-6.1-sol.rep1
+$P $N $O validate                                                       # then audit/selfscore on .rep1
+$P $N $O known build --set gpt-6.1-sol.rep1
+$P $N $O known judge --set gpt-6.1-sol.rep1 --judge gemini-3.8-flash     # and gemini-3.1-pro
+$P $N $O plant --set gpt-6.1-sol.rep1                                   # then audit the .planted set
+$P $N $O pilotreport                                                    # nuggets/pilot/report_pilot.md
+```
+
 - `--sample` names a list in `<out>/sample.json`. `preview_10` = one question per answer-length
   decile (o200k tokens of question + answer, seed 13); `stratified_30` = three per decile, and its
   first pick per decile is `preview_10`. Questions 001 and 003 are the prompt's worked examples and
@@ -73,6 +98,35 @@ $P $N $O report                             # nuggets/pilot/report.md
 - Several `selfscore` processes may run in parallel on the same `--out`. The ledger is shared, and
   the budget cap reads it before every call.
 
+## Batch mode (OpenAI and Gemini Batch APIs, 50 % off)
+
+Any command can run in batch mode. With the global `--batch`, cache hits are served as usual, and every
+uncached OpenAI or Gemini request is **queued** instead of called. At the end, one job per model is
+submitted (`<out>/batches/`), and the command stops **without writing its outputs**. Qwen
+(`openai_compat`, no batch in Singapore) is still called synchronously.
+
+```bash
+$P $N $O --batch create --models gpt-6.1-sol,gemini-3.1-pro,qwen3.8-max   # submits the GPT and Gemini jobs
+$P $N --out nuggets/<run> batch wait                 # polls every 2 min; caches results as they finish
+$P $N $O create --models gpt-6.1-sol,gemini-3.1-pro,qwen3.8-max           # same command, no --batch: all cached
+```
+
+- `batch status` lists the jobs; `batch collect` polls once; `batch wait` polls until no job is open
+  (jobs finish within 24 h; Gemini expires them after 48 h).
+- **Budget:** a job is billed whole, so the cap is checked **at submission**: ledger + estimated job
+  cost (the mean cost of the same role and model in the ledger, else a rough token estimate) must stay
+  under `--budget`, or nothing is submitted.
+- **Ledger:** each result is a row tagged `batch:<tag>`. `usd_standard` stays the synchronous price;
+  the budget cap and `report_pilot.md` count batch rows at half (`BATCH_DISCOUNT`).
+- A batch result the command's validation rejects (e.g. it misses a nugget number) is called again
+  synchronously when the command is rerun.
+- `batches/*.json` (job records) are versioned; `batches/*.jsonl` (inputs, full requests) are gitignored.
+- Gemini 3.1 Pro's **250 requests/day** quota does not apply to batch jobs (their limit is queued tokens:
+  5M for 3.1 Pro at Tier 1, so a full set goes in one or two jobs).
+
+A command that hits a daily quota stops after the other items finish, with `QuotaBlocked`. Completed
+calls are cached, so rerunning the same command after the reset resumes where it stopped.
+
 ## Prompts
 
 | Prompt | Status | Note |
@@ -80,9 +134,14 @@ $P $N $O report                             # nuggets/pilot/report.md
 | `create_v1` | superseded | preview v1 |
 | `create_v2` | **rejected** | R2 "one nugget per listed object": GPT over-split illustrative lists (execution note §3) |
 | `create_v3` | superseded | R2 "follow the answer's structure"; passed both acceptance checks (execution note §8–§9) |
-| **`create_v4`** | **current, not run yet** | `create_v3` + pointer rule: a sentence that only delegates to another question gives no nugget (execution note §13) |
+| **`create_v4`** | **current; pilot passed** | `create_v3` + pointer rule: a sentence that only delegates to another question gives no nugget (execution note §13; pilot note §2) |
 | `assign_v1` | superseded | penalized the implicit P&R period (R8) |
 | **`assign_v2`** | **current** | implicit period: a missing exercício 2024 / ano-calendário 2023 is not a defect; another year is `contradicts` |
+| `importance_v1` | tested, not adopted | 2-call mode: importance in a second call (pilot note §4) |
+| `align_v1` | current | cross-set alignment, relation per nugget (`gemini-3.8-flash`) |
+| `roundtrip_write_v1`, `roundtrip_check_v2` | current | round trip; `check_v1` listed missing legal citations as omissions (pilot note §6.2) |
+| `audit_v1` | current | checks C1–C6 of plan v1 §3.4.1, omissions, redundant pairs |
+| `repair_v1` | current | appended to the creation prompt; current nuggets + issues both auditors agree on |
 
 **Rule for prompt examples:** never quote or paraphrase a question of `stratified_30` in a prompt;
 the sample would then measure leakage. Invent examples (as in `create_v3`/`v4`). Make a new
@@ -103,7 +162,8 @@ nuggets/<run>/
 ```
 
 Existing runs: `nuggets/preview/` (v1 prompts), `nuggets/preview_v2/` (rejected `create_v2`,
-creation only), `nuggets/preview_v3/` (`create_v3` + `assign_v2`). A full copy, caches included,
+creation only), `nuggets/preview_v3/` (`create_v3` + `assign_v2`), `nuggets/pilot/` (phase 1; extra folders
+`align/`, `roundtrip/`, `audit/`, `known/`, and `report_pilot.md`). A full copy, caches included,
 is in `../nuggets_backup_20261012_132700/` (outside the repo). From the pilot on, the caches go to
 a private HF dataset repo at the end of each phase (resolution note §3.2).
 
@@ -121,6 +181,10 @@ v3 cache cannot serve `create_v4` (different prompt text).
   cap is **cumulative per `--out`**: for a second step in the same folder, set it to the amount
   already spent plus the new allowance.
 - **Always pass `--budget`**, and stop and report if a run hits it or costs more than expected.
+- **Gemini 3.1 Pro has a daily quota of 250 requests per model** on our tier. The client raises
+  `QuotaExhausted` at once (no backoff); `known judge` writes partial results and a rerun completes them
+  from the cache. Full runs with 3.1 Pro need the Batch API (pilot note §9.1).
+- Measured on the pilot (`stratified_30`, standard prices): pilot note §10 and `report_pilot.md` §1, §9.
 - Measured on `preview_10` with `create_v3`/`assign_v2` (standard prices, per 10 questions):
   creation GPT $0.111, Gemini 3.1 Pro $0.327, Qwen3.8-Max $0.146; self-score layout above $0.369.
   So **one full creation + self-score loop on `stratified_30` is ≈ $2.9**. Reasoning length varies
@@ -143,8 +207,13 @@ v3 cache cannot serve `create_v4` (different prompt text).
 | `unit_uncovered` | warning | another uncovered sentence (possible omission) |
 | `verdict_polarity`, `many_nuggets` | warning | a "Não" verdict nugget without a negation; more than 40 nuggets |
 
-Flags (filled by the validator, copied to every nugget): `has_pointer`. Plan v2 §3.1 also foresees
-`temporal`, `short_answer` and `procedimento_pgd`, which are **not implemented yet**.
+Flags (filled by the validator from the answer, copied to every nugget): `has_pointer`, `temporal` (the
+answer states an R$, % or date value; the "provision amended after 2024-05-03" half of plan v2 §3.1 is not
+implemented), `short_answer` (< 80 characters), `procedimento_pgd` (ficha / PGD / campo / código NN).
+
+Coverage rule: a sentence counts as covered when spans cover ≥ 50 % of it; an enumerated item from 30 %
+(spans may leave out a long parenthetical); every exact occurrence of a span counts (answers repeat items
+verbatim). Pilot note §2.1.
 
 ## Provider notes (checked 2026-10-12)
 
@@ -158,21 +227,16 @@ Flags (filled by the validator, copied to every nugget): `has_pointer`. Plan v2 
   **`response_format: json_schema` returned malformed JSON**, so `json_object` + pydantic + retry is
   used. The context cache hits automatically.
 
-## Before / during the phase 1 pilot: what is still missing
+## Before phase 2: what is still missing
 
-Plan v2 §4 phase 1 needs items that are **not implemented**:
+1. ~~Batch API submit/collect~~ **done** (see "Batch mode").
+2. Known-answer builders (phase 4, pilot note §7): W without near-duplicate neighbours; D/C tests whose fact
+   is restated elsewhere; V with another period's value from the corpus; the Flash rewrite for conditions
+   that are not delimited by punctuation.
+3. `--dry-run`, a `fake` provider and tests (plan v2 phase 0 gate).
+4. The corpus half of the `temporal` flag.
 
-1. **Same-model noise runs** (two more `gpt-6.1-sol` runs on the same prompt). Because of the cache
-   semantics above, identical requests in the same `--out` return the cached response. This needs a
-   `--replicate N` (or run tag) that enters the cache key, or a separate `--out` per replicate.
-2. **Two-call mode** (importance in a second call, plan v2 §3.2).
-3. **Known-answer tests** (plan v2 §5.7: corruption builders, metrics), the **two auditors** with the
-   repair loop (§3.5.3), **cross-set alignment** (many-to-one, §3.5.2) and the **round trip**
-   (§3.5.4).
-4. The `temporal`, `short_answer` and `procedimento_pgd` flags; `--dry-run`; a `fake` provider and
-   tests (plan v2 phase 0 gate).
-5. **Batch API** submit/collect (needed for phase 2, not for the pilot).
-
-Open decisions carried into the pilot: the automatic gate thresholds (plan v2 §3.5.6); whether to
-add the optional "expanded" secondary score on `has_pointer` questions (execution note §13.5 item 4);
-effort escalation for long answers (plan v2 §9 item 5).
+Open decisions (pilot note §12): prompt and call mode (recommended `create_v4`, one call), gate thresholds,
+the `answer_cleaned` content loss in ≈ 14 answers (pilot note §8), the quota/Batch route, cache backup to
+the private HF repo, and, still from the plan, the optional "expanded" score on `has_pointer` questions and
+the open-weight Qwen judge.

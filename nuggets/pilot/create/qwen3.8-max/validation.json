@@ -1,0 +1,721 @@
+{
+ "totals": {
+  "errors": 0,
+  "warnings": 45
+ },
+ "questions": [
+  {
+   "question_number": "503",
+   "n_nuggets": 2,
+   "n_vital": 2,
+   "char_coverage": 0.979,
+   "flags": {
+    "has_pointer": false,
+    "temporal": false,
+    "short_answer": false,
+    "procedimento_pgd": false
+   },
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "291",
+   "n_nuggets": 1,
+   "n_vital": 1,
+   "char_coverage": 0.968,
+   "flags": {
+    "has_pointer": false,
+    "temporal": false,
+    "short_answer": false,
+    "procedimento_pgd": false
+   },
+   "errors": [],
+   "warnings": [
+    {
+     "nugget_id": null,
+     "code": "unit_uncovered",
+     "detail": "Não."
+    }
+   ],
+   "uncovered_units": [
+    "Não."
+   ]
+  },
+  {
+   "question_number": "403",
+   "n_nuggets": 1,
+   "n_vital": 1,
+   "char_coverage": 1.0,
+   "flags": {
+    "has_pointer": false,
+    "temporal": false,
+    "short_answer": true,
+    "procedimento_pgd": false
+   },
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "023",
+   "n_nuggets": 2,
+   "n_vital": 1,
+   "char_coverage": 0.994,
+   "flags": {
+    "has_pointer": false,
+    "temporal": false,
+    "short_answer": false,
+    "procedimento_pgd": true
+   },
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "711",
+   "n_nuggets": 2,
+   "n_vital": 1,
+   "char_coverage": 0.989,
+   "flags": {
+    "has_pointer": false,
+    "temporal": false,
+    "short_answer": false,
+    "procedimento_pgd": false
+   },
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "705",
+   "n_nuggets": 3,
+   "n_vital": 3,
+   "char_coverage": 0.979,
+   "flags": {
+    "has_pointer": false,
+    "temporal": false,
+    "short_answer": false,
+    "procedimento_pgd": false
+   },
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "039",
+   "n_nuggets": 2,
+   "n_vital": 1,
+   "char_coverage": 0.997,
+   "flags": {
+    "has_pointer": false,
+    "temporal": false,
+    "short_answer": false,
+    "procedimento_pgd": false
+   },
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "054",
+   "n_nuggets": 1,
+   "n_vital": 1,
+   "char_coverage": 1.0,
+   "flags": {
+    "has_pointer": false,
+    "temporal": false,
+    "short_answer": false,
+    "procedimento_pgd": false
+   },
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "336",
+   "n_nuggets": 2,
+   "n_vital": 2,
+   "char_coverage": 0.995,
+   "flags": {
+    "has_pointer": false,
+    "temporal": false,
+    "short_answer": false,
+    "procedimento_pgd": false
+   },
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "710",
+   "n_nuggets": 1,
+   "n_vital": 1,
+   "char_coverage": 0.515,
+   "flags": {
+    "has_pointer": true,
+    "temporal": true,
+    "short_answer": false,
+    "procedimento_pgd": false
+   },
+   "errors": [],
+   "warnings": [
+    {
+     "nugget_id": null,
+     "code": "pointer_uncovered",
+     "detail": "Quando as operações forem realizadas em bolsa, aplica-se o tratamento tributário previsto na pergunta 674."
+    }
+   ],
+   "uncovered_units": [
+    "Quando as operações forem realizadas em bolsa, aplica-se o tratamento tributário previsto na pergunta 674."
+   ]
+  },
+  {
+   "question_number": "622",
+   "n_nuggets": 1,
+   "n_vital": 1,
+   "char_coverage": 0.603,
+   "flags": {
+    "has_pointer": false,
+    "temporal": false,
+    "short_answer": false,
+    "procedimento_pgd": false
+   },
+   "errors": [],
+   "warnings": [
+    {
+     "nugget_id": null,
+     "code": "unit_uncovered",
+     "detail": "A moeda estrangeira representada por cheques de viagem deve ser informada na Declaração de"
+    }
+   ],
+   "uncovered_units": [
+    "A moeda estrangeira representada por cheques de viagem deve ser informada na Declaração de"
+   ]
+  },
+  {
+   "question_number": "440",
+   "n_nuggets": 2,
+   "n_vital": 2,
+   "char_coverage": 0.981,
+   "flags": {
+    "has_pointer": false,
+    "temporal": false,
+    "short_answer": false,
+    "procedimento_pgd": true
+   },
+   "errors": [],
+   "warnings": [
+    {
+     "nugget_id": "Q440_N02",
+     "code": "backreference",
+     "detail": "tais"
+    }
+   ],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "259",
+   "n_nuggets": 2,
+   "n_vital": 2,
+   "char_coverage": 0.783,
+   "flags": {
+    "has_pointer": false,
+    "temporal": false,
+    "short_answer": false,
+    "procedimento_pgd": false
+   },
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "665",
+   "n_nuggets": 3,
+   "n_vital": 2,
+   "char_coverage": 0.996,
+   "flags": {
+    "has_pointer": false,
+    "temporal": false,
+    "short_answer": false,
+    "procedimento_pgd": false
+   },
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "285",
+   "n_nuggets": 2,
+   "n_vital": 1,
+   "char_coverage": 0.978,
+   "flags": {
+    "has_pointer": false,
+    "temporal": true,
+    "short_answer": false,
+    "procedimento_pgd": false
+   },
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "498",
+   "n_nuggets": 2,
+   "n_vital": 1,
+   "char_coverage": 0.962,
+   "flags": {
+    "has_pointer": false,
+    "temporal": false,
+    "short_answer": false,
+    "procedimento_pgd": false
+   },
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "113",
+   "n_nuggets": 2,
+   "n_vital": 1,
+   "char_coverage": 0.998,
+   "flags": {
+    "has_pointer": false,
+    "temporal": false,
+    "short_answer": false,
+    "procedimento_pgd": false
+   },
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "679",
+   "n_nuggets": 4,
+   "n_vital": 4,
+   "char_coverage": 0.985,
+   "flags": {
+    "has_pointer": false,
+    "temporal": false,
+    "short_answer": false,
+    "procedimento_pgd": false
+   },
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "564",
+   "n_nuggets": 4,
+   "n_vital": 3,
+   "char_coverage": 0.978,
+   "flags": {
+    "has_pointer": false,
+    "temporal": false,
+    "short_answer": false,
+    "procedimento_pgd": false
+   },
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "350",
+   "n_nuggets": 3,
+   "n_vital": 1,
+   "char_coverage": 0.985,
+   "flags": {
+    "has_pointer": false,
+    "temporal": true,
+    "short_answer": false,
+    "procedimento_pgd": false
+   },
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "676",
+   "n_nuggets": 4,
+   "n_vital": 2,
+   "char_coverage": 0.723,
+   "flags": {
+    "has_pointer": false,
+    "temporal": true,
+    "short_answer": false,
+    "procedimento_pgd": false
+   },
+   "errors": [],
+   "warnings": [
+    {
+     "nugget_id": "Q676_N01",
+     "code": "value_without_period",
+     "detail": ""
+    },
+    {
+     "nugget_id": "Q676_N02",
+     "code": "value_without_period",
+     "detail": ""
+    },
+    {
+     "nugget_id": "Q676_N03",
+     "code": "value_without_period",
+     "detail": ""
+    }
+   ],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "244",
+   "n_nuggets": 3,
+   "n_vital": 3,
+   "char_coverage": 0.987,
+   "flags": {
+    "has_pointer": false,
+    "temporal": false,
+    "short_answer": false,
+    "procedimento_pgd": false
+   },
+   "errors": [],
+   "warnings": [
+    {
+     "nugget_id": "Q244_N02",
+     "code": "backreference",
+     "detail": "tais"
+    }
+   ],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "028",
+   "n_nuggets": 3,
+   "n_vital": 3,
+   "char_coverage": 0.986,
+   "flags": {
+    "has_pointer": true,
+    "temporal": false,
+    "short_answer": false,
+    "procedimento_pgd": true
+   },
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "533",
+   "n_nuggets": 5,
+   "n_vital": 5,
+   "char_coverage": 0.997,
+   "flags": {
+    "has_pointer": false,
+    "temporal": false,
+    "short_answer": false,
+    "procedimento_pgd": false
+   },
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "703",
+   "n_nuggets": 6,
+   "n_vital": 6,
+   "char_coverage": 0.689,
+   "flags": {
+    "has_pointer": false,
+    "temporal": true,
+    "short_answer": false,
+    "procedimento_pgd": false
+   },
+   "errors": [],
+   "warnings": [
+    {
+     "nugget_id": "Q703_N02",
+     "code": "value_without_period",
+     "detail": ""
+    },
+    {
+     "nugget_id": "Q703_N03",
+     "code": "value_without_period",
+     "detail": ""
+    }
+   ],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "073",
+   "n_nuggets": 8,
+   "n_vital": 3,
+   "char_coverage": 0.878,
+   "flags": {
+    "has_pointer": false,
+    "temporal": false,
+    "short_answer": false,
+    "procedimento_pgd": false
+   },
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "507",
+   "n_nuggets": 7,
+   "n_vital": 5,
+   "char_coverage": 0.964,
+   "flags": {
+    "has_pointer": false,
+    "temporal": false,
+    "short_answer": false,
+    "procedimento_pgd": true
+   },
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "624",
+   "n_nuggets": 21,
+   "n_vital": 9,
+   "char_coverage": 0.961,
+   "flags": {
+    "has_pointer": false,
+    "temporal": true,
+    "short_answer": false,
+    "procedimento_pgd": true
+   },
+   "errors": [],
+   "warnings": [
+    {
+     "nugget_id": "Q624_N11",
+     "code": "span_fuzzy",
+     "detail": ""
+    },
+    {
+     "nugget_id": "Q624_N19",
+     "code": "span_fuzzy",
+     "detail": ""
+    }
+   ],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "706",
+   "n_nuggets": 12,
+   "n_vital": 6,
+   "char_coverage": 0.713,
+   "flags": {
+    "has_pointer": false,
+    "temporal": true,
+    "short_answer": false,
+    "procedimento_pgd": false
+   },
+   "errors": [],
+   "warnings": [
+    {
+     "nugget_id": "Q706_N01",
+     "code": "value_without_period",
+     "detail": ""
+    },
+    {
+     "nugget_id": "Q706_N02",
+     "code": "value_without_period",
+     "detail": ""
+    },
+    {
+     "nugget_id": "Q706_N03",
+     "code": "value_without_period",
+     "detail": ""
+    },
+    {
+     "nugget_id": "Q706_N04",
+     "code": "value_without_period",
+     "detail": ""
+    },
+    {
+     "nugget_id": "Q706_N05",
+     "code": "value_without_period",
+     "detail": ""
+    },
+    {
+     "nugget_id": "Q706_N06",
+     "code": "value_without_period",
+     "detail": ""
+    },
+    {
+     "nugget_id": "Q706_N08",
+     "code": "value_without_period",
+     "detail": ""
+    },
+    {
+     "nugget_id": "Q706_N09",
+     "code": "value_without_period",
+     "detail": ""
+    },
+    {
+     "nugget_id": "Q706_N10",
+     "code": "value_without_period",
+     "detail": ""
+    }
+   ],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "330",
+   "n_nuggets": 12,
+   "n_vital": 5,
+   "char_coverage": 0.371,
+   "flags": {
+    "has_pointer": false,
+    "temporal": true,
+    "short_answer": false,
+    "procedimento_pgd": true
+   },
+   "errors": [],
+   "warnings": [
+    {
+     "nugget_id": "Q330_N05",
+     "code": "value_without_period",
+     "detail": ""
+    },
+    {
+     "nugget_id": "Q330_N07",
+     "code": "span_fuzzy",
+     "detail": ""
+    },
+    {
+     "nugget_id": "Q330_N10",
+     "code": "backreference",
+     "detail": "o mesmo"
+    },
+    {
+     "nugget_id": null,
+     "code": "unit_uncovered",
+     "detail": "José Maurício recebeu um total de rendimentos tributáveis de R$ 100.000,00 e o ente público patrocinador efetuou contrib"
+    },
+    {
+     "nugget_id": null,
+     "code": "unit_uncovered",
+     "detail": "R$ 8.000,00 Como a contribuição do patrocinador foi igual à do contribuinte, toda a parcela de contribuição efetuada pel"
+    },
+    {
+     "nugget_id": null,
+     "code": "unit_uncovered",
+     "detail": "As demais contribuições somaram R$ 10.000,00 (R$ 7.000,00 + R$ 3.000,00), não atingindo o limite de 12% e, portanto, são"
+    },
+    {
+     "nugget_id": null,
+     "code": "unit_uncovered",
+     "detail": "O contribuinte pode deduzir, portanto, o valor de R$ 18.000,00 (R$ 8.000,00 + R$ 7.000,00 + R$ 3.000,00)."
+    },
+    {
+     "nugget_id": null,
+     "code": "unit_uncovered",
+     "detail": "Regina recebeu um total de rendimentos tributáveis de R$ 100.000,00 e o ente público patrocinador efetuou contribuição p"
+    },
+    {
+     "nugget_id": null,
+     "code": "unit_uncovered",
+     "detail": "R$ 7.500,00 A contribuição da participante limitada à do patrocinador (R$ 6.500,00) é dedutível."
+    },
+    {
+     "nugget_id": null,
+     "code": "unit_uncovered",
+     "detail": "R$ 11.000,00 (R$ 7.000,00 + R$ 3.000,00 + R$ 1.000,00) é menor do que 12% dos rendimentos tributáveis (R$ 12.000,00), po"
+    },
+    {
+     "nugget_id": null,
+     "code": "unit_uncovered",
+     "detail": "A contribuinte poderá deduzir, portanto, R$ 17.500,00 (R$ 6.500,00 + R$ 11.000,00)."
+    },
+    {
+     "nugget_id": null,
+     "code": "unit_uncovered",
+     "detail": "Susanna recebeu um total de rendimentos tributáveis de R$ 100.000,00 e o ente público patrocinador efetuou contribuição "
+    },
+    {
+     "nugget_id": null,
+     "code": "unit_uncovered",
+     "detail": "R$ 7.500,00 A contribuição da participante limitada à do patrocinador (R$ 6.500,00) é dedutível."
+    },
+    {
+     "nugget_id": null,
+     "code": "unit_uncovered",
+     "detail": "R$ 13.000,00 (R$ 9.000,00 + R$ 3.000,00 + R$ 1.000,00) é maior do que 12% dos rendimentos tributáveis (R$ 12.000,00), po"
+    },
+    {
+     "nugget_id": null,
+     "code": "unit_uncovered",
+     "detail": "A contribuinte poderá deduzir, portanto, R$ 18.500,00 (R$ 6.500,00 + R$ 12.000,00)."
+    },
+    {
+     "nugget_id": null,
+     "code": "unit_uncovered",
+     "detail": "Mirza, servidora pública federal, no ano-calendário de 2023, efetuou mensalmente contribuições obrigatórias ao Funpresp "
+    },
+    {
+     "nugget_id": null,
+     "code": "unit_uncovered",
+     "detail": "O ente patrocinador recolheu igual valor."
+    },
+    {
+     "nugget_id": null,
+     "code": "unit_uncovered",
+     "detail": "Houve, também, recolhimento no valor de R$ 2.000,00 relativo ao 13º, tanto pela servidora quanto pelo ente patrocinador."
+    },
+    {
+     "nugget_id": null,
+     "code": "unit_uncovered",
+     "detail": "Clarice, servidora pública federal, no ano-calendário de 2023, efetuou mensalmente contribuições obrigatórias ao Funpres"
+    },
+    {
+     "nugget_id": null,
+     "code": "unit_uncovered",
+     "detail": "O ente patrocinador recolheu igual valor."
+    },
+    {
+     "nugget_id": null,
+     "code": "unit_uncovered",
+     "detail": "Houve, também, recolhimento no valor de R$ 2.000,00 relativo ao 13º, tanto pela servidora quanto pelo ente patrocinador."
+    },
+    {
+     "nugget_id": null,
+     "code": "unit_uncovered",
+     "detail": "A servidora efetuou, ainda, o recolhimento mensal de contribuição facultativa no valor de R$ 500,00."
+    },
+    {
+     "nugget_id": null,
+     "code": "unit_uncovered",
+     "detail": "Em relação a essa contribuição facultativa, não há recolhimento por parte do ente patrocinador."
+    },
+    {
+     "nugget_id": null,
+     "code": "unit_uncovered",
+     "detail": "Campo “Valor pago”: (R$ 2.000,00 x 12) + (R$ 500,00 x 12) = R$ 30.000,00 Campo “Contribuição do ente público patrocinado"
+    }
+   ],
+   "uncovered_units": [
+    "José Maurício recebeu um total de rendimentos tributáveis de R$ 100.000,00 e o ente público patrocinador efetuou contribuição para a entidade de previdência complementar de que trata o § 15 do art. 40 da Constituição Federal no valor de R$ 8.000,00.",
+    "R$ 8.000,00 Como a contribuição do patrocinador foi igual à do contribuinte, toda a parcela de contribuição efetuada pelo contribuinte à previdência complementar (R$ 8.000,00) é dedutível.",
+    "As demais contribuições somaram R$ 10.000,00 (R$ 7.000,00 + R$ 3.000,00), não atingindo o limite de 12% e, portanto, são integralmente dedutíveis.",
+    "O contribuinte pode deduzir, portanto, o valor de R$ 18.000,00 (R$ 8.000,00 + R$ 7.000,00 + R$ 3.000,00).",
+    "Regina recebeu um total de rendimentos tributáveis de R$ 100.000,00 e o ente público patrocinador efetuou contribuição para a entidade de previdência complementar de que trata o § 15 do art. 40 da Constituição Federal no valor de R$ 6.500,00.",
+    "R$ 7.500,00 A contribuição da participante limitada à do patrocinador (R$ 6.500,00) é dedutível.",
+    "R$ 11.000,00 (R$ 7.000,00 + R$ 3.000,00 + R$ 1.000,00) é menor do que 12% dos rendimentos tributáveis (R$ 12.000,00), portanto, esse valor de R$ 11.000,00 poderá ser deduzido.",
+    "A contribuinte poderá deduzir, portanto, R$ 17.500,00 (R$ 6.500,00 + R$ 11.000,00).",
+    "Susanna recebeu um total de rendimentos tributáveis de R$ 100.000,00 e o ente público patrocinador efetuou contribuição para a entidade de previdência complementar de que trata o § 15 do art. 40 da Constituição Federal no valor de R$ 6.500,00.",
+    "R$ 7.500,00 A contribuição da participante limitada à do patrocinador (R$ 6.500,00) é dedutível.",
+    "R$ 13.000,00 (R$ 9.000,00 + R$ 3.000,00 + R$ 1.000,00) é maior do que 12% dos rendimentos tributáveis (R$ 12.000,00), portanto, somente parte desse valor (R$ 12.000,00) poderá ser deduzido.",
+    "A contribuinte poderá deduzir, portanto, R$ 18.500,00 (R$ 6.500,00 + R$ 12.000,00).",
+    "Mirza, servidora pública federal, no ano-calendário de 2023, efetuou mensalmente contribuições obrigatórias ao Funpresp no valor de R$ 2.000,00.",
+    "O ente patrocinador recolheu igual valor.",
+    "Houve, também, recolhimento no valor de R$ 2.000,00 relativo ao 13º, tanto pela servidora quanto pelo ente patrocinador.",
+    "Clarice, servidora pública federal, no ano-calendário de 2023, efetuou mensalmente contribuições obrigatórias ao Funpresp no valor de R$ 2.000,00.",
+    "O ente patrocinador recolheu igual valor.",
+    "Houve, também, recolhimento no valor de R$ 2.000,00 relativo ao 13º, tanto pela servidora quanto pelo ente patrocinador.",
+    "A servidora efetuou, ainda, o recolhimento mensal de contribuição facultativa no valor de R$ 500,00.",
+    "Em relação a essa contribuição facultativa, não há recolhimento por parte do ente patrocinador.",
+    "Campo “Valor pago”: (R$ 2.000,00 x 12) + (R$ 500,00 x 12) = R$ 30.000,00 Campo “Contribuição do ente público patrocinador”: R$ 2.000,00 x 12 = R$ 24.000,00"
+   ]
+  }
+ ]
+}

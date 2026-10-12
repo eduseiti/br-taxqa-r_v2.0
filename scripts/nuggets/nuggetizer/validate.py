@@ -12,6 +12,7 @@ BACKREF = re.compile(r"\b(esse|essa|esses|essas|tal|tais|o referido|a referida|o
                      r"neste caso|nesse caso|nessa hipótese|nesta hipótese)\b", re.I)
 ITEM = re.compile(r"^\s*(\d{1,2}|[a-z]|[IVX]{1,4})\s*[-–)]\s+")
 POINTER = re.compile(r"pergunta\s+(n[ºo°]\s*)?\d{3}", re.I)
+PGD = re.compile(r"\bficha\b|\bPGD\b|programa (gerador|IRPF)|\baba\b|\bcampo\b|\bc[óo]digo \d{2}\b", re.I)
 NEG = re.compile(r"\b(não|nem|nenhum|nenhuma|vedad[oa]s?|nunca)\b", re.I)
 
 
@@ -46,9 +47,9 @@ def locate(span: str, ans_n: str) -> tuple[str, list[tuple[int, int]]]:
     sp = norm(ITEM.sub("", span))
     if not sp:
         return "missing", []
-    i = ans_n.find(sp)
-    if i >= 0:
-        return "exact", [(i, i + len(sp))]
+    hits = [m.start() for m in re.finditer(re.escape(sp), ans_n)]
+    if hits:   # every occurrence: answers repeat items verbatim (e.g. the same rate in two tables)
+        return "exact", [(i, i + len(sp)) for i in hits]
     sm = SequenceMatcher(None, ans_n, sp, autojunk=False)
     blocks = [b for b in sm.get_matching_blocks() if b.size >= 12]
     got = sum(b.size for b in blocks)
@@ -67,7 +68,10 @@ def validate(q: dict, nuggets: list[dict]) -> dict:
     errors, warnings = [], []
     seen = {}
     # question-level flags, copied to every nugget so a slice is one filter (plan v2 §3.1)
-    flags = {"has_pointer": bool(POINTER.search(answer))}
+    # temporal: the answer states a value (R$, %, date); the "provision amended after 2024-05-03" half
+    # of plan v2 §3.1 needs the corpus and is not implemented. short_answer: under 80 characters (plan v2 §2).
+    flags = {"has_pointer": bool(POINTER.search(answer)), "temporal": bool(values.extract(answer)),
+             "short_answer": len(answer.strip()) < 80, "procedimento_pgd": bool(PGD.search(answer))}
     for nug in nuggets:
         nid, txt, iss = nug["nugget_id"], nug["text"], []
         nug["values"] = values.extract(txt)
@@ -125,8 +129,10 @@ def validate(q: dict, nuggets: list[dict]) -> dict:
             continue
         pos = i + len(un)
         cov = sum(covered[i:i + len(un)]) / max(len(un), 1)
-        if cov < 0.5 and not u.rstrip().endswith(":"):   # lead-ins ("Atenção:", "às seguintes alíquotas:")
-            is_item, is_ptr = bool(ITEM.match(u)), bool(POINTER.search(u))
+        is_item, is_ptr = bool(ITEM.match(u)), bool(POINTER.search(u))
+        # an item counts as covered when some span takes a real part of it (plan v2 §3.5.1); spans that
+        # leave out a long parenthetical ("(… encontra-se na Linha 03 …)") cover less than half
+        if cov < (0.3 if is_item else 0.5) and not u.rstrip().endswith(":"):   # lead-ins ("Atenção:")
             # a sentence that only delegates to another question gives no nugget (create_v4): expected,
             # listed under its own code so that a missed content part of a mixed sentence can be checked
             code = ("pointer_uncovered" if is_ptr else

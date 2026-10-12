@@ -7,6 +7,7 @@ Inputs
                act type, number, date)
   original/, lexml/, segmented/chunks_all.csv.gz of this repository
   scripts/dataset/reference_overrides.json   hand-verified resolutions and dropped references
+  scripts/dataset/answer_overrides.json      hand-verified fixes to v1.1 answer_cleaned (gold answer)
   scripts/dataset/nonstat_lexml_map.tsv      original/nao_articulados stem -> lexml/nao_articulados file
   scripts/lexml/unmatchable_articles.tsv     cited articles known to have no LexML element (reason)
 
@@ -32,6 +33,11 @@ A reference that none of these resolves makes the build fail, so no reference is
 Corrections to the canonical list live in the fetcher (a record's ``correction`` field), whose
 reason becomes the ``resolution_note``; a record with ``status`` (``nonexistent_act``,
 ``not_found``) resolves to no document.
+
+Gold answers: ``answer_cleaned`` is v1.1's, with the edits of answer_overrides.json (text the v1
+cleaning lost before a "consulte a pergunta N" pointer or in a parenthetical at a line start), and then
+without the lines made only of punctuation that the same cleaning left. An edit whose v1 text changed
+(SHA-256) or whose ``find`` does not occur exactly ``count`` times makes the build fail.
 
 Guards (rebuild plan §3.3): the build fails on a dead override (a ``files`` entry for a file name
 that is not in the canonical list, or that every citing reference drops) and on a contradiction (``not_in_corpus``
@@ -263,6 +269,51 @@ def check_overrides(canon, overrides, docs, drops, questions):
     return warnings
 
 
+PUNCT_LINE = re.compile(r"^\s*[.;,:)]+\s*$")
+
+
+def load_answer_overrides(questions):
+    ov = json.load(open(HERE / "answer_overrides.json", encoding="utf-8"))
+    qnums = {q["question_number"] for q in questions}
+    by_q = {}
+    for a in ov["answers"]:
+        if a["question_number"] not in qnums:
+            sys.exit(f"answer_overrides.json: unknown question {a['question_number']}")
+        by_q[a["question_number"]] = a
+    return by_q, ov["rules"]
+
+
+def clean_answer(qn, text, by_q, rules, log):
+    """v1.1 answer_cleaned -> v2.0 gold answer (answer_overrides.json). ``log`` collects what changed."""
+    a = by_q.get(qn)
+    if a:
+        got = hashlib.sha256(text.encode("utf-8")).hexdigest()
+        if got != a["v1_sha256"]:
+            sys.exit(f"answer_overrides.json: v1 answer_cleaned of {qn} changed (sha256 {got[:12]}…)")
+        for e in a["edits"]:
+            n = text.count(e["find"])
+            if n != e.get("count", 1):
+                sys.exit(f"answer_overrides.json: {qn}: find occurs {n} times, expected {e.get('count', 1)}: "
+                         f"{e['find'][:60]!r}")
+            text = text.replace(e["find"], e["replace"])
+        log["edited"].append(qn)
+    if rules.get("drop_punctuation_only_lines"):
+        # a punctuation-only line ends the previous line when that one has no final punctuation
+        # ("… se da união resultou filho" + "."); otherwise it is a leftover and is dropped
+        kept, n = [], 0
+        for x in text.split("\n"):
+            if PUNCT_LINE.match(x):
+                n += 1
+                if kept and kept[-1].strip() and not re.search(r"[.;:!?)]\s*$", kept[-1]):
+                    kept[-1] = kept[-1].rstrip() + x.strip()
+                continue
+            kept.append(x)
+        if n:
+            log["punctuation_lines_dropped"][qn] = n
+            text = "\n".join(kept)
+    return text
+
+
 def load_unmatchable():
     """(document_id, article_id) -> reason, from scripts/lexml/unmatchable_articles.tsv."""
     path = ROOT / "scripts" / "lexml" / "unmatchable_articles.tsv"
@@ -293,6 +344,8 @@ def main():
     # (question, file, cited title) -> document: v1.1 attached the wrong file to that one citation
     reassign = {(d["question_number"], d["file"], d["cited_title"]): (d["document_id"], d["reason"])
                 for d in ov_all.get("reassign", [])}
+    answer_ov, answer_rules = load_answer_overrides(questions)
+    answer_log = {"edited": [], "punctuation_lines_dropped": {}}
     docs, xml_ids = load_documents()
     for doc_id, _ in reassign.values():
         if doc_id not in docs:
@@ -375,7 +428,7 @@ def main():
             "question_summary": q["question_summary"],
             "question_text": q["question_text"],
             "answer": "\n".join(q["answer"]),
-            "answer_cleaned": "\n".join(q["answer_cleaned"]),
+            "answer_cleaned": clean_answer(qn, "\n".join(q["answer_cleaned"]), answer_ov, answer_rules, answer_log),
             "linked_questions": q["linked_questions"],
             "references_text": q["references"],
             "embedded_references_text": q["embedded_references"],
@@ -436,9 +489,12 @@ def main():
                 "fetcher_commit": fetcher_commit, "fetcher_dirty": fetcher_dirty},
         "inputs_sha256": {"questions": sha256(args.questions), "canonical": sha256(args.canonical),
                           "reference_overrides": sha256(HERE / "reference_overrides.json"),
+                          "answer_overrides": sha256(HERE / "answer_overrides.json"),
                           "citations_py": sha256(HERE / "citations.py"),
                           "nonstat_lexml_map": sha256(HERE / "nonstat_lexml_map.tsv")},
         "override_warnings": override_warnings,
+        "answer_overrides": {"edited": answer_log["edited"],
+                             "punctuation_lines_dropped": answer_log["punctuation_lines_dropped"]},
         "counts": {
             "questions": len(q_rows),
             "questions_with_references": sum(1 for q in q_rows if any(r["question_number"] == q["question_number"] for r in r_rows)),

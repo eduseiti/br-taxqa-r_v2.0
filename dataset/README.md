@@ -44,7 +44,7 @@ All files are JSON Lines with a fixed schema: every key is present in every row 
 | `question_summary` | string | the short heading above the question |
 | `question_text` | string | the question |
 | `answer` | string | full answer as extracted from the PDF, lines joined with `\n` |
-| `answer_cleaned` | string | **gold answer**: `answer` without the reference block and "Consulte a pergunta N" lines |
+| `answer_cleaned` | string | **gold answer**: `answer` without the reference block and "Consulte a pergunta N" pointers (v1.1's text, with the fixes listed under "Changes from v1.1") |
 | `linked_questions` | list[string] | questions the answer refers to |
 | `references_text` | list[string] | the raw reference block (grey box) of the answer |
 | `embedded_references_text` | list[string] | raw citations found inside the answer text |
@@ -117,6 +117,14 @@ refs = references.filter(lambda r: r["question_number"] == "001" and r["document
 - Provisions are parsed from the citation text of the Q&A document, keeping which inciso belongs
   to which paragraph (v1.1 stored flat paragraph/inciso lists), expanding article ranges that v1.1
   cut short, and dropping articles v1.1 attached to acts cited without any.
+- **Gold answers (`answer_cleaned`), 2026-10-12:** the v1 cleaning was line-based and also removed
+  text that is part of the answer: the words before a "consulte a pergunta N" pointer on the same line
+  (e.g. Q622 ended mid-sentence; Q625 lost "atualizados para o valor de mercado em 31 de dezembro de
+  2023"; Q129 lost items IV and VI) and parentheticals at a line start ("(ou, alternativamente,
+  informar a chave PIX …)", "(DAA)", "(Holanda)"). 25 answers are restored by hand-verified edits
+  (`scripts/dataset/answer_overrides.json`), and lines made only of punctuation left by the same
+  cleaning are removed (22 more answers). 47 answers differ from v1.1; `build_report.json` →
+  `answer_overrides` lists them. Pointers to other questions stay removed.
 - Corrections (details in `build_report.json` and the repository notes):
   - Q277: the "Solução de Consulta Interna Cosit nº 5, de 28 de março de 2006" reference is removed
     (no such act exists).
