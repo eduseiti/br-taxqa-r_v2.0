@@ -1,0 +1,112 @@
+{
+ "totals": {
+  "errors": 0,
+  "warnings": 2
+ },
+ "questions": [
+  {
+   "question_number": "503",
+   "n_nuggets": 4,
+   "n_vital": 4,
+   "char_coverage": 0.993,
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "023",
+   "n_nuggets": 3,
+   "n_vital": 1,
+   "char_coverage": 0.994,
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "039",
+   "n_nuggets": 2,
+   "n_vital": 1,
+   "char_coverage": 0.997,
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "710",
+   "n_nuggets": 2,
+   "n_vital": 2,
+   "char_coverage": 0.522,
+   "errors": [],
+   "warnings": [
+    {
+     "nugget_id": null,
+     "code": "unit_uncovered",
+     "detail": "Quando as operações forem realizadas em bolsa, aplica-se o tratamento tributário previsto na pergunta 674."
+    }
+   ],
+   "uncovered_units": [
+    "Quando as operações forem realizadas em bolsa, aplica-se o tratamento tributário previsto na pergunta 674."
+   ]
+  },
+  {
+   "question_number": "259",
+   "n_nuggets": 7,
+   "n_vital": 7,
+   "char_coverage": 0.984,
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "498",
+   "n_nuggets": 6,
+   "n_vital": 3,
+   "char_coverage": 0.932,
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "564",
+   "n_nuggets": 4,
+   "n_vital": 3,
+   "char_coverage": 0.978,
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "244",
+   "n_nuggets": 9,
+   "n_vital": 3,
+   "char_coverage": 0.998,
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "703",
+   "n_nuggets": 15,
+   "n_vital": 15,
+   "char_coverage": 0.689,
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "624",
+   "n_nuggets": 41,
+   "n_vital": 19,
+   "char_coverage": 0.961,
+   "errors": [],
+   "warnings": [
+    {
+     "nugget_id": null,
+     "code": "many_nuggets",
+     "detail": "41"
+    }
+   ],
+   "uncovered_units": []
+  }
+ ]
+}

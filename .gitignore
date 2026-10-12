@@ -28,3 +28,9 @@ runs/**
 !runs/**/report.md
 !runs/costs.csv
 .~lock.*
+
+# Nuggets: raw API responses (cache/) are backed up on a private HF dataset repo and released with
+# the frozen nuggets, not in git; input/ is regenerated from dataset/questions.jsonl (SHA-256 in
+# sample.json). Docs: 20261012_154616_nuggetization_preview_open_items_resolution.md §3.
+nuggets/**/cache/
+nuggets/**/input/

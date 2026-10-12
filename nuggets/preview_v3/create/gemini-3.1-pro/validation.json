@@ -1,0 +1,123 @@
+{
+ "totals": {
+  "errors": 0,
+  "warnings": 4
+ },
+ "questions": [
+  {
+   "question_number": "503",
+   "n_nuggets": 2,
+   "n_vital": 2,
+   "char_coverage": 0.979,
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "023",
+   "n_nuggets": 2,
+   "n_vital": 1,
+   "char_coverage": 0.994,
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "039",
+   "n_nuggets": 2,
+   "n_vital": 1,
+   "char_coverage": 0.997,
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "710",
+   "n_nuggets": 2,
+   "n_vital": 2,
+   "char_coverage": 0.802,
+   "errors": [],
+   "warnings": [
+    {
+     "nugget_id": "Q710_N01",
+     "code": "backreference",
+     "detail": "esses"
+    }
+   ],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "259",
+   "n_nuggets": 2,
+   "n_vital": 2,
+   "char_coverage": 0.783,
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "498",
+   "n_nuggets": 2,
+   "n_vital": 2,
+   "char_coverage": 0.493,
+   "errors": [],
+   "warnings": [
+    {
+     "nugget_id": null,
+     "code": "unit_uncovered",
+     "detail": "Considerando que o espólio é uma universalidade de bens e direitos, que há uma sucessão legítima por transferência causa"
+    }
+   ],
+   "uncovered_units": [
+    "Considerando que o espólio é uma universalidade de bens e direitos, que há uma sucessão legítima por transferência causa mortis e que o sucessor recebe o patrimônio na mesma situação em que se encontrava quando em poder da pessoa falecida, sem solução de continuidade, o saldo de prejuízos não compensado pelo de cujus pode sê-lo pelo espólio e, após o encerramento do inventário, pelo meeiro ou herdeiro, proporcionalmente à parcela da unidade rural recebida, desde que nela o meeiro ou herdeiro continue a explorar atividade rural."
+   ]
+  },
+  {
+   "question_number": "564",
+   "n_nuggets": 3,
+   "n_vital": 2,
+   "char_coverage": 0.829,
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "244",
+   "n_nuggets": 3,
+   "n_vital": 1,
+   "char_coverage": 0.998,
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "703",
+   "n_nuggets": 6,
+   "n_vital": 6,
+   "char_coverage": 0.689,
+   "errors": [],
+   "warnings": [
+    {
+     "nugget_id": "Q703_N02",
+     "code": "value_without_period",
+     "detail": ""
+    },
+    {
+     "nugget_id": "Q703_N03",
+     "code": "value_without_period",
+     "detail": ""
+    }
+   ],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "624",
+   "n_nuggets": 23,
+   "n_vital": 4,
+   "char_coverage": 0.923,
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  }
+ ]
+}

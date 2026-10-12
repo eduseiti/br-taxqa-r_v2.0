@@ -1,0 +1,24 @@
+{
+ "judge": "gemini-3.8-flash",
+ "registry": {
+  "provider": "gemini",
+  "model_id": "gemini-3.8-flash",
+  "api_key_env": "GEMINI_API_KEY",
+  "params": {
+   "thinking_level": "medium",
+   "max_output_tokens": 32768
+  },
+  "price": {
+   "usd_per_million_input": 0.75,
+   "usd_per_million_cached_input": 0.075,
+   "usd_per_million_output": 3.75,
+   "batch_discount": 0.5,
+   "checked": "2026-10-11",
+   "note": "doubles on 2027-01-01"
+  }
+ },
+ "nugget_set": "gpt-6.1-sol",
+ "sample": "preview_10",
+ "prompt": "scripts/nuggets/prompts/assign_v2.pt.md",
+ "prompt_sha256": "6e63c936a6556b0f82d268fb3eb929a1dc4da9862703f3b10aceb7706f45b5a8"
+}

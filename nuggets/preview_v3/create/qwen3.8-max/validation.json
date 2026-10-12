@@ -1,0 +1,132 @@
+{
+ "totals": {
+  "errors": 0,
+  "warnings": 6
+ },
+ "questions": [
+  {
+   "question_number": "503",
+   "n_nuggets": 2,
+   "n_vital": 2,
+   "char_coverage": 0.979,
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "023",
+   "n_nuggets": 2,
+   "n_vital": 2,
+   "char_coverage": 0.994,
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "039",
+   "n_nuggets": 2,
+   "n_vital": 1,
+   "char_coverage": 0.994,
+   "errors": [],
+   "warnings": [
+    {
+     "nugget_id": "Q039_N01",
+     "code": "span_fuzzy",
+     "detail": ""
+    }
+   ],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "710",
+   "n_nuggets": 2,
+   "n_vital": 2,
+   "char_coverage": 0.794,
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "259",
+   "n_nuggets": 3,
+   "n_vital": 3,
+   "char_coverage": 0.984,
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "498",
+   "n_nuggets": 2,
+   "n_vital": 1,
+   "char_coverage": 0.996,
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "564",
+   "n_nuggets": 4,
+   "n_vital": 3,
+   "char_coverage": 0.977,
+   "errors": [],
+   "warnings": [
+    {
+     "nugget_id": "Q564_N02",
+     "code": "span_fuzzy",
+     "detail": ""
+    }
+   ],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "244",
+   "n_nuggets": 4,
+   "n_vital": 3,
+   "char_coverage": 0.982,
+   "errors": [],
+   "warnings": [],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "703",
+   "n_nuggets": 6,
+   "n_vital": 6,
+   "char_coverage": 0.689,
+   "errors": [],
+   "warnings": [
+    {
+     "nugget_id": "Q703_N02",
+     "code": "value_without_period",
+     "detail": ""
+    },
+    {
+     "nugget_id": "Q703_N03",
+     "code": "value_without_period",
+     "detail": ""
+    }
+   ],
+   "uncovered_units": []
+  },
+  {
+   "question_number": "624",
+   "n_nuggets": 21,
+   "n_vital": 6,
+   "char_coverage": 0.961,
+   "errors": [],
+   "warnings": [
+    {
+     "nugget_id": "Q624_N11",
+     "code": "span_fuzzy",
+     "detail": ""
+    },
+    {
+     "nugget_id": "Q624_N19",
+     "code": "span_fuzzy",
+     "detail": ""
+    }
+   ],
+   "uncovered_units": []
+  }
+ ]
+}

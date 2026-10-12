@@ -1,0 +1,7 @@
+# Runtime for scripts/nuggets and scripts/llm_client (Python 3.12), versions installed on 2026-10-12.
+httpx==0.28.1
+openai==3.29.0
+pydantic==2.14.1
+python-dotenv==1.2.2
+PyYAML==6.0.3
+tiktoken==0.14.0

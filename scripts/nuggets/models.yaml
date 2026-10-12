@@ -1,0 +1,36 @@
+# LLM registry for the nugget pipeline. Prices per 1M tokens, checked 2026-10-11 (plan v2 §6.4).
+# Reasoning effort is medium for every call (plan v2, D12). Parameters checked against each API
+# with probe calls on 2026-10-12 (preview run).
+models:
+  gpt-6.1-sol:
+    provider: openai
+    model_id: gpt-6.1-sol
+    api_key_env: OPENAI_API_KEY
+    params: {reasoning_effort: medium, max_output_tokens: 32000}   # no temperature (W7)
+    price: {usd_per_million_input: 2.00, usd_per_million_cached_input: 0.10,
+            usd_per_million_output: 10.00, batch_discount: 0.5, checked: 2026-10-11}
+  gemini-3.1-pro:
+    provider: gemini
+    model_id: gemini-3.1-pro-preview
+    api_key_env: GEMINI_API_KEY
+    params: {thinking_level: medium, max_output_tokens: 32768}
+    price: {usd_per_million_input: 2.00, usd_per_million_cached_input: 0.20,
+            usd_per_million_output: 12.00, batch_discount: 0.5, checked: 2026-10-11}
+  gemini-3.8-flash:
+    provider: gemini
+    model_id: gemini-3.8-flash
+    api_key_env: GEMINI_API_KEY
+    params: {thinking_level: medium, max_output_tokens: 32768}
+    price: {usd_per_million_input: 0.75, usd_per_million_cached_input: 0.075,
+            usd_per_million_output: 3.75, batch_discount: 0.5, checked: 2026-10-11,
+            note: "doubles on 2027-01-01"}
+  qwen3.8-max:
+    provider: openai_compat
+    base_url: https://dashscope-intl.aliyuncs.com/compatible-mode/v1
+    model_id: qwen3.8-max-0902        # dated snapshot listed by the API on 2026-10-12
+    api_key_env: DASHSCOPE_API_KEY
+    # json_schema mode returned malformed JSON in the probe; json_object + pydantic + retry instead
+    params: {response_format: json_object, enable_thinking: true, thinking_budget: 2048, max_tokens: 16000}
+    price: {usd_per_million_input: 2.00, usd_per_million_cached_input: 0.20,
+            usd_per_million_output: 6.00, batch_discount: 0.0, checked: 2026-10-11,
+            note: "no batch in Singapore; cached rate assumed 10 % of input"}
