@@ -201,7 +201,7 @@ def main():
     sp.add_parser("sample").set_defaults(fn=cmd_sample)
     p = sp.add_parser("create")
     p.add_argument("--models", type=lambda s: s.split(","), required=True)
-    p.add_argument("--prompt", default="create_v2", help="file stem in prompts/")
+    p.add_argument("--prompt", default="create_v4", help="file stem in prompts/")
     p.set_defaults(fn=cmd_create)
     sp.add_parser("validate").set_defaults(fn=cmd_validate)
     p = sp.add_parser("selfscore")

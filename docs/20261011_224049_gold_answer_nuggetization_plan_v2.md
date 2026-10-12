@@ -2,6 +2,10 @@
 
 **Generated:** 2026-10-11 22:40:49 (local time, from `date +%Y%m%d_%H%M%S`)
 **Status:** plan only. Nothing in `scripts/nuggets/` has been implemented or run.
+**Status update (2026-10-12):** a minimal phase 0 is implemented and a 10-question preview has been
+run. Current state, prompts and missing pieces: `scripts/nuggets/README.md`. Decisions that amend
+this plan (judge prompt and R8, R2 granularity, pointer sentences, git layout, measured costs):
+`docs/20261012_114025_*`, `docs/20261012_154616_*` and `docs/20261012_160349_*`.
 **Revised 2026-10-11 (later):** the human audit cannot be run in the near term. It is **postponed**,
 not dropped. §3.5 (nugget robustness without people), §5.6 (robustness of the conclusions) and §5.7
 (known-answer tests, which also replace the human judge calibration) take its place, and the release

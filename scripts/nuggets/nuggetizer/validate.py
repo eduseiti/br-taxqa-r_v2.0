@@ -66,6 +66,8 @@ def validate(q: dict, nuggets: list[dict]) -> dict:
     covered = [False] * len(ans_n)
     errors, warnings = [], []
     seen = {}
+    # question-level flags, copied to every nugget so a slice is one filter (plan v2 §3.1)
+    flags = {"has_pointer": bool(POINTER.search(answer))}
     for nug in nuggets:
         nid, txt, iss = nug["nugget_id"], nug["text"], []
         nug["values"] = values.extract(txt)
@@ -91,10 +93,14 @@ def validate(q: dict, nuggets: list[dict]) -> dict:
             iss.append(("warning", "backreference", m.group(0)))
         if nug["values"] and not values.PERIOD.search(txt):
             iss.append(("warning", "value_without_period", ""))
+        m = POINTER.search(txt)
+        if m:   # create_v4: pointers never appear in a nugget's text
+            iss.append(("warning", "pointer_in_text", m.group(0)))
         key = norm(txt)
         if key in seen:
             iss.append(("error", "duplicate_of", seen[key]))
         seen.setdefault(key, nid)
+        nug["flags"] = dict(flags)
         nug["issues"] = [{"severity": s, "code": c, "detail": d} for s, c, d in iss]
         for s, c, d in iss:
             (errors if s == "error" else warnings).append({"nugget_id": nid, "code": c, "detail": d})
@@ -121,12 +127,15 @@ def validate(q: dict, nuggets: list[dict]) -> dict:
         cov = sum(covered[i:i + len(un)]) / max(len(un), 1)
         if cov < 0.5 and not u.rstrip().endswith(":"):   # lead-ins ("Atenção:", "às seguintes alíquotas:")
             is_item, is_ptr = bool(ITEM.match(u)), bool(POINTER.search(u))
-            code = "enum_item_uncovered" if is_item and not is_ptr else "unit_uncovered"
+            # a sentence that only delegates to another question gives no nugget (create_v4): expected,
+            # listed under its own code so that a missed content part of a mixed sentence can be checked
+            code = ("pointer_uncovered" if is_ptr else
+                    "enum_item_uncovered" if is_item else "unit_uncovered")
             (errors if code == "enum_item_uncovered" else warnings).append(
                 {"nugget_id": None, "code": code, "detail": u[:120]})
             uncovered.append(u)
     coverage = sum(covered) / max(len(covered), 1)
     return {"question_number": q["question_number"], "n_nuggets": len(nuggets),
             "n_vital": sum(n["importance"] == "vital" for n in nuggets),
-            "char_coverage": round(coverage, 3), "errors": errors, "warnings": warnings,
+            "char_coverage": round(coverage, 3), "flags": flags, "errors": errors, "warnings": warnings,
             "uncovered_units": uncovered}

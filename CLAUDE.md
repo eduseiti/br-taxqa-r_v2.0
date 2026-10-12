@@ -20,6 +20,14 @@ caput, later)), the annex rules and the implementation split are recorded in
 working on segmentation, embedding or retrieval code. The corpus was last rebuilt end to end on
 2026-10-08 (`docs/20261007_180833_corpus_fixes_and_full_rebuild_plan.md` and its results note).
 
+**Nuggetization** (gold answers → nuggets, and later scoring of system answers) is designed in
+`docs/20261011_224049_gold_answer_nuggetization_plan_v2.md`. A preview on 10 questions is done and
+the **phase 1 pilot is next**. Start from `scripts/nuggets/README.md` (status, commands, current
+prompts `create_v4` / `assign_v2`, budget cap, what is still missing); the decisions and costs are in
+the three `docs/20261012_*nuggetization*` notes. **Costs are tracked for the paper:** pass
+`--budget` on every LLM run, and stop and report to the user before continuing if anything costs more
+than expected.
+
 ## Folders
 
 - **`docs/`** — the Q&A source PDF and dated notes (audits, design decisions). Check here first
@@ -44,8 +52,8 @@ working on segmentation, embedding or retrieval code. The corpus was last rebuil
     `PARSER_VERSION` file with the parser commit and command line.
 - **`scripts/`** — code for the experiment pipeline: `lexml/` (corpus preparation: PDF → text,
   `.docx` repairs, declared URNs, article-coverage audit), segmentation (the amended copy of the XSL
-  for statutory documents, Python code for non-statutory ones), embedding, RAG and nugget
-  evaluation.
+  for statutory documents, Python code for non-statutory ones), embedding, RAG (`rag/`), nugget
+  creation and evaluation (`nuggets/`), and the LLM client shared by them (`llm_client/`).
 - **`dataset/`** — the v2.0 dataset as HF JSON Lines configs (`questions`, `references`,
   `documents`), built by `scripts/dataset/build_v2_dataset.py`. References point at `original/`
   stems and LexML URNs. Hand-verified corrections to the v1.1 references are in
@@ -55,6 +63,10 @@ working on segmentation, embedding or retrieval code. The corpus was last rebuil
   holds the rankings per strategy and `eval/<eval_id>/` the legal-provision retrieval test
   (`report.md`, `metrics.csv`). Only manifests and small result files are in git. Rankings and
   per-question tables are regenerated in about 30 s (`retrieve` + `evaluate`).
+- **`nuggets/`** — nugget pipeline outputs (`scripts/nuggets/nuggets.py`), one folder per run
+  (`preview/`, `preview_v2/`, `preview_v3/`; `pilot/` next): nuggets, validation, self-score
+  labels, the cost ledger `costs.csv` and `report.md`. Raw API responses (`cache/`) and the input
+  copy (`input/`) are gitignored; the caches are backed up outside git (see `scripts/nuggets/README.md`).
 - **`segmented/`** — segmentation outputs (chunk CSVs with the
   `Tipo, Rotulo, Num_Inicio, Num_Final, Texto, urn` schema) that feed the embedding step.
 

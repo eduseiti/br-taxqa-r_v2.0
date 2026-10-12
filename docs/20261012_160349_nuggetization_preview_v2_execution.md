@@ -1,13 +1,15 @@
 # Nuggetization preview v2/v3 — execution log
 
 **Generated:** 2026-10-12 16:03:49 (local time, from `date +%Y%m%d_%H%M%S`). **Updated** the same day
-with the v3 run (§7–§11).
+with the v3 run (§7–§11), and on 2026-10-12 16:38:48 with the pointer-rule discussion and
+resolution (§13).
 **Implements:** `docs/20261012_154616_nuggetization_preview_open_items_resolution.md` (the resolution
 note) §5, steps 1–4.
 **Status:** **done.** The v2 creation prompt had an unexpected side effect (§3). The run was paused and
 reported, and the user chose the "follow the answer's structure" fix (§5, option 1). With it
 (`create_v3`) and the judge fix (`assign_v2`), **both acceptance criteria of the resolution note pass**
-(§8, §9). The prompts for the phase 1 pilot are `create_v3` and `assign_v2`.
+(§8, §9). After the pointer-rule decision (§13), the prompts for the phase 1 pilot are
+**`create_v4`** and **`assign_v2`**.
 **Outputs:** `nuggets/preview_v2/` (creation only, the rejected R2 variant) and `nuggets/preview_v3/`
 (final; report `nuggets/preview_v3/report.md`). The v1 preview in `nuggets/preview/` is unchanged
 and kept as the "before" state.
@@ -292,11 +294,125 @@ presentation:
 With Flash as primary judge, a 40-run grid scored with three sets is ≈ 40 × 3 × $1.26 × 1.5 ≈
 **$230**. With 3.1 Pro it is ≈ **$850**.
 
-## 12. Next steps
+## 12. Next steps (status updated 2026-10-12 16:38)
 
-1. Commit the code, the docs and the small outputs of `nuggets/preview*/` (`cache/` and `input/`
-   are ignored).
-2. Back up the three `cache/` folders (1.1–1.9 MB each) outside git (resolution note §3.2).
-3. Decide the pointer rule (§9) and fold it into `create_v3` (→ `create_v4`) before the pilot.
+1. ~~Commit the code, the docs and the small outputs of `nuggets/preview*/`.~~ **Done:** commit
+   `381be3c`, pushed by the user.
+2. ~~Back up the three `cache/` folders outside git.~~ **Done by the user:** the whole `nuggets/`
+   folder was copied to `../nuggets_backup_20261012_132700/` (outside the repo). The private HF
+   dataset repo of the resolution note §3.2 is still the target from the pilot on.
+3. ~~Decide the pointer rule (§9) and fold it into `create_v4`.~~ **Decided and implemented:** §13.
 4. Phase 1 pilot on `stratified_30` with the remaining pilot items of plan v2 §4 (1 vs 2 calls,
-   same-model noise, known-answer tests, auditors), with a `--budget` cap on every run.
+   same-model noise, known-answer tests, auditors), with `create_v4`, `assign_v2` and a `--budget`
+   cap on every run. `create_v4` has not been run yet (§13.5).
+
+---
+
+## 13. Pointer sentences: discussion and resolution (2026-10-12)
+
+### 13.1 The question
+
+§9 recommended that a sentence that only delegates to another question give **no nugget**. The user
+asked: if a system answer also includes, correctly, what the pointed answer says, is it penalized?
+Compared with an answer that leaves it out, shouldn't the more complete answer be graded better?
+
+### 13.2 How the scores treat extra correct content
+
+The nugget scores (V_strict, V, A_strict, A; plan v2 §5.3) are **recall** scores: the share of the
+gold nuggets that the system answer supports. There is no precision term. Content that matches no
+nugget counts neither for nor against the answer.
+
+Take two answers to Q710 (gold: "Quando as operações forem realizadas em bolsa, aplica-se o
+tratamento tributário previsto na pergunta 674. Já operações de mútuo e de compra vinculada à
+revenda … são equiparadas às operações de renda fixa …"):
+
+- **A:** the gold content, plus a correct explanation of how gold operations in bolsa are taxed (the
+  content of Q674);
+- **B:** only the gold content.
+
+With no pointer nugget, A and B get the **same score**. A is **not penalized**, and its extra correct
+content is **not rewarded**. Extra content can lower a score only when it conflicts with a nugget
+(`contradicts`); correct content does not.
+
+### 13.3 Why the v3 pointer nugget is worse than no nugget
+
+In v3 all three families made a `vital` nugget from the pointer sentence ("as operações de compra e
+venda de ouro realizadas em bolsa seguem o tratamento aplicável às operações em bolsa"). That
+nugget rewards *mentioning the delegation*, not its substance:
+- B gets credit only if it repeats the pointer sentence;
+- A may or may not get credit, depending on whether the judge accepts the concrete bolsa rules as
+  support for an almost empty statement. The judges already hesitated on the gold answer itself
+  (§9).
+
+That is noise on a `vital` nugget. Without it, A and B are scored on what the Receita actually wrote.
+
+### 13.4 Should the more complete answer score higher? Options considered
+
+| Option | Effect | Assessment |
+|---|---|---|
+| **(a) No nugget for a pure delegation sentence** | A = B on the gold content | The gold answer is the reference by definition (v1 §3.4.1), and the Receita chose to delegate |
+| (b) Keep an `okay` pointer nugget | Credit for repeating the delegation | Noisy (§13.3), even at `okay` |
+| (c) **Expand** the pointer: import the pointed question's nuggets into this question | A > B | It **changes the reference**: Q710's gold becomes Q710 + Q674. If Q674 has ≈ 10 nuggets, they swamp Q710's 2 in the per-question average, unless they are kept out of the denominator as "bonus", which breaks the 0–1 scale and comparability with TREC-style scores. It **disagrees with the retrieval evaluation**: `references.jsonl` for Q710 does not include Q674's provisions, so retrieval and answer scoring would use different notions of what is relevant. **Chains:** the pointed answer may point further. Plan v2 §2 already decided "`linked_questions` are not expanded" |
+
+**Effect on the paper's comparisons.** The same rule applies to every strategy, so it cancels in the
+paired tests (S2 − S1, etc.). It biases a comparison only if one strategy systematically brings in
+the pointed content and its answers then go uncredited. That would make a difference look
+**smaller**, never flip its sign.
+
+**Scale** (all 715 gold answers, counted on 2026-10-12): **57 answers (8 %)** contain a pointer
+("pergunta NNN"), in **69 sentences**. Most of those sentences carry content around the pointer
+(e.g. "… desde que se enquadre como … (ver pergunta X)"), and that content still gets nuggets.
+Only pure delegation sentences like Q710's lose their nugget, so the affected set is a subset of
+the 69. 237 questions have non-empty `linked_questions`, which is a broader field than in-text
+pointers.
+
+### 13.5 Resolution (user, 2026-10-12)
+
+1. **Main nugget set: option (a)**, implemented in `scripts/nuggets/prompts/create_v4.pt.md`
+   (= `create_v3` + a rewritten "Remissões" bullet):
+   - a sentence that **only delegates** the treatment to another question gives **no nugget**, even
+     when it says to which situation the delegation applies; empty nuggets such as "aplica-se um
+     tratamento específico" are named as forbidden;
+   - a remission that **limits a verdict or a rule** of the answer itself still gives a **condition**
+     nugget, without the question number. This keeps worked example 1 (Q003, "Não, a menos que se
+     enquadre nas hipóteses previstas na resposta à pergunta 001") consistent with the rule: a flat
+     "Não" would be wrong there, so the exception is real content. In Q710 the remission adds
+     nothing to judge;
+   - a sentence that also states other content gives the nugget for that content.
+
+   The examples in the new bullet are neutral ("pergunta 300", "essas operações"). The first draft
+   quoted Q710's own wording ("pergunta 674", "operações em bolsa"); it was rewritten because Q710 is
+   in `preview_10` and `stratified_30` (the same leak avoided for Q259 in §8).
+2. **A question-level `has_pointer` flag**, filled by the validator (plan v2 §3.1: flags are not
+   produced by the LLM). It is copied to every nugget's `flags` and to the question's entry in
+   `validation.json`, so the pointer slice is one filter.
+3. **Validator changes** (`scripts/nuggets/nuggetizer/validate.py`):
+   - an uncovered answer unit that contains a pointer is reported as **`pointer_uncovered`**
+     (expected under `create_v4`). It used to be `unit_uncovered`, or `enum_item_uncovered` (a hard
+     error) when the unit was an enumerated item. It stays a warning under its own code, because a
+     *mixed* sentence whose content part was missed would also land there and is worth a look;
+   - a nugget whose text contains a pointer ("pergunta NNN") gets a **`pointer_in_text`** warning.
+4. **Optional, later: an "expanded" secondary score on the pointer slice.** Since all 715 questions
+   are nuggetized, the pointed question's nuggets are a lookup, not new creation calls. They can be
+   added as `okay` nuggets for a secondary score on the `has_pointer` questions only, leaving the
+   main metric unchanged. The extra judge cost is cents per run. It answers the user's question
+   empirically: does crediting the pointed content change any conclusion? To be decided when the
+   scoring plan (phase 5) is fixed.
+
+**Validator test (no API cost)**, on scratch copies of the committed outputs:
+- v3 nuggets: Q710 is the only `has_pointer` question of `preview_10`, flagged in all three sets. No
+  `pointer_uncovered`, because the v3 pointer nuggets cover the sentence; that is the behaviour
+  `create_v4` removes.
+- v1 GPT nuggets (made no pointer nugget): Q710 now gives `pointer_uncovered` ("Quando as operações
+  forem realizadas em bolsa, aplica-se o tratamento …") instead of `unit_uncovered`.
+
+The committed `nuggets/preview*/` outputs were **not** revalidated, so they still show the old
+codes. Reproducing them requires the validator of commit `381be3c`.
+
+`nuggets.py create` now defaults to `--prompt create_v4`; `selfscore` already defaulted to `assign_v2`.
+Before this change, the `create` default was still `create_v2`, the rejected variant.
+
+**Not run yet:** `create_v4` itself (no API call was made for this change). Options: check it on
+`preview_10` (≈ $0.60, cap $0.90), or let the first pilot run be its check. The expected outcome on
+Q710 is no pointer nugget in any family, one `pointer_uncovered` warning per set, and a gold
+self-score of 100 % on Q710.
