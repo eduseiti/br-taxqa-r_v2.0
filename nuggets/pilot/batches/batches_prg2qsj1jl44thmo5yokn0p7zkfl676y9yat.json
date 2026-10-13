@@ -1,0 +1,25 @@
+{
+ "job": "batches/prg2qsj1jl44thmo5yokn0p7zkfl676y9yat",
+ "provider": "gemini",
+ "model": "gemini-3.1-pro",
+ "model_id": "gemini-3.1-pro-preview",
+ "created": "2026-10-13T03:25:53",
+ "n_requests": 5,
+ "estimated_usd_billed": 0.0397,
+ "note": "--out nuggets/pilot --sample stratified_30 --budget 13.00 --batch known judge --set gpt-6.1-sol.rep1 --judge gemini-3.1-pro",
+ "state": "collected",
+ "input_file": "gemini-3.1-pro_20261013_032545.input.jsonl",
+ "requests_file": "batches_prg2qsj1jl44thmo5yokn0p7zkfl676y9yat.requests.jsonl",
+ "tags": [
+  "known"
+ ],
+ "last_poll": {
+  "ts": "2026-10-13T03:30:10",
+  "state": "BATCH_STATE_SUCCEEDED"
+ },
+ "provider_state": "BATCH_STATE_SUCCEEDED",
+ "n_cached": 5,
+ "n_failed": 0,
+ "errors": {},
+ "collected": "2026-10-13T03:30:11"
+}

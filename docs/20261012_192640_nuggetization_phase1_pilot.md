@@ -5,15 +5,17 @@
 preview (`docs/20261012_160349_nuggetization_preview_v2_execution.md`, which fixed `create_v4` and `assign_v2`).
 **Outputs:** `nuggets/pilot/`: `report_pilot.md` (all pilot measurements), `report.md` (nuggets side by side
 and per-question detail), `costs.csv` (ledger), one folder per stage (§1).
-**Status:** **done, except two 3.1 Pro items blocked by a daily quota** (§9.1): 5 of 141 known-answer
-tests and the Pro half of the planted-error auditor test. They run automatically after the quota resets
-and this note will be updated with them (§11). Every phase 1 item of plan v2 §4 was run. Two items were
-added: the planted-error auditor test (§6.3) and a dataset check of `answer_cleaned` (§8).
-**Cost: $7.97** at standard prices, 914 ledgered calls, 1 retry (§10). The Pro runs still pending add
-≈ $1.2. Expected before the run: ≈ $11; cap $15. No cap was hit.
+**Status:** **done.** Every phase 1 item of plan v2 §4 was run. Two items were added: the planted-error
+auditor test (§6.3) and a dataset check of `answer_cleaned` (§8). The last two 3.1 Pro items, blocked by a
+daily quota (§9.1), were completed on 2026-10-13 through the Batch API (§11).
+**Cost: $8.62** at standard prices, **$8.29 billed** (35 calls via Batch at half price), 949 ledgered calls,
+1 retry (§10). Expected before the run: ≈ $11; cap $15. No cap was hit.
 
 **Updated 2026-10-12 20:03:05:** §13 records the follow-up work the user approved: the `answer_cleaned` fix
 (§8 → done) and Batch API support (§9.1 → done).
+
+**Updated 2026-10-13 03:30:59:** the pending 3.1 Pro items ran through Batch (§11); §6.3, §7, §9.1 and §10 now
+include them.
 
 **Gate of phase 1 (plan v2 §4):** "the user picks prompt and call mode from the report". Recommendation:
 **`create_v4`, one call** (§4, §5). Both choices and the other decisions for phase 2 are in §12.
@@ -212,7 +214,13 @@ apply, so additions are over-represented and value changes rare.
 | Auditor | Planted errors flagged | On the expected check | Other nuggets flagged |
 |---|---:|---:|---:|
 | `qwen3.8-max` | **29/30** | 29/30 | 4/102 (3.9 %) |
-| `gemini-3.1-pro` | pending (§9.1) | | |
+| `gemini-3.1-pro` | **29/30** | 29/30 | 0/102 (0.0 %) |
+| **both** | 28/30 | | |
+
+3.1 Pro missed only Q703_N03 ("addition"), and that one is a **flaw of the planted test**: the nugget is
+already about a non-resident investor, so the appended "inclusive quando o contribuinte for não residente no
+Brasil" changes nothing. Not flagging it is correct, so Pro caught 29 of the 29 real errors. A phase 4
+version of `planted.py` should skip an addition clause that the nugget already implies.
 
 Qwen missed only one merge (Q705). Its false-flag rate on undamaged nuggets matches its rate on the clean set
 (3.7 % after repair), so **its low flag rate on the real nuggets means few errors, not leniency**.
@@ -243,14 +251,14 @@ Gate ≥ 98 % passed by every judge, by a narrow margin. Both causes are known:
 | Type | Flash detection (as `contradicts`) | Flash specificity | Pro detection (as `contradicts`) | Pro specificity |
 |---|---:|---:|---:|---:|
 | G gold | — | 99 % | — | 99 % |
-| V value changed | **100 % (100 %)** [15] | 100 % | 100 % (100 %) [8] | 100 % |
+| V value changed | **100 % (100 %)** [15] | 100 % | 100 % (100 %) [15] | 100 % |
 | Y year changed | **100 % (100 %)** [6] | 100 % | 100 % (100 %) [6] | 100 % |
 | N verdict flipped | **100 % (100 %)** [5] | 100 % | **60 % (40 %)** [5] | 100 % |
-| D span deleted | 88 % [26] | 96 % | 92 % [25] | 91 % |
+| D span deleted | 88 % [26] | 96 % | 92 % [26] | 91 % |
 | C condition removed | 78 % [9] | 100 % | 89 % [9] | 100 % |
-| W wrong question | 97 % [135] | — | 96 % [122] | — |
-| E empty | 100 % [135] | — | 100 % [110] | — |
-| **Pooled** | sens. 97.3 %, spec. 98.5 %, **BA 97.9 %**; `contradicts` precision 90 % | | sens. 96.5 %, spec. 97.1 %, **BA 96.8 %** (136/141 tests, §9.1); precision 94 % | |
+| W wrong question | 97 % [135] | — | 96 % [135] | — |
+| E empty | 100 % [135] | — | 100 % [135] | — |
+| **Pooled** | sens. 97.3 %, spec. 98.5 %, **BA 97.9 %**; `contradicts` precision 90 % | | sens. 97.0 %, spec. 97.2 %, **BA 97.1 %** (all 141 tests); precision 96 % of 24 | |
 
 - **Gate "sensitivity ≥ 0.90 on value, year and verdict corruptions" (§3.5.6): Flash passes (100 % on all
   three). 3.1 Pro fails on verdicts** (3 of 5): it reconciles a leading "Não" with an affirmative body
@@ -313,11 +321,14 @@ quota. `known judge` writes partial results; rerunning the same command complete
 
 **Consequence for phase 2:** at 250 requests per day, 3.1 Pro cannot run synchronously over 715 questions
 (second set: 715; auditor 1: ≈ 750; known-answer subset: ≈ 300). Phase 2 needs the **Batch API** (plan v2
-§6.3, not implemented yet; batch quotas are separate) or a higher quota tier. Flash, GPT and Qwen raised no
-quota errors.
+§6.3; implemented since, §13.2; batch quotas are separate) or a higher quota tier. Flash, GPT and Qwen
+raised no quota errors.
 
-**Pending (runs automatically after the reset, ≈ 00:00 UTC 2026-10-13):** 5 Pro known-answer tests (507_D,
-706_E, 330_V, 330_W, 330_E) and the Pro half of the planted-error test (30 calls). ≈ $1.2 in total.
+**The reset is at 00:00 UTC, not midnight Pacific.** The 429 at 03:25 UTC on 2026-10-13 said "retry in
+20h34m", i.e. at 00:00 UTC. The probe (one request every 15 min since 19:24 UTC) was refused until 03:25,
+when a single request went through and the next ones were refused again. We made no other Pro calls in
+between, so the quota did not visibly reset at 00:00 UTC on 2026-10-13. The window is unclear; do not
+plan synchronous Pro runs around it, use Batch.
 
 ### 9.2 Other
 
@@ -333,16 +344,20 @@ All at standard prices, from `nuggets/pilot/costs.csv` (`report_pilot.md` §1 ha
 | Provider | Roles | Calls | Cost |
 |---|---|---:|---:|
 | OpenAI `gpt-6.1-sol` | creation ×3, importance, repair, self-score | 151 | $1.04 |
-| Gemini `gemini-3.1-pro` | creation, auditor, self-score, known-answer | 200 | $3.97 |
+| Gemini `gemini-3.1-pro` | creation, auditor (+ planted), self-score, known-answer | 235 | $4.62 standard, $4.29 billed |
 | Gemini `gemini-3.8-flash` | alignment, round-trip writer, self-score, known-answer | 382 | $1.31 |
 | Alibaba `qwen3.8-max` | creation, auditor (+ planted), round-trip checker, self-score | 181 | $1.65 |
-| **Total** | | **914** | **$7.97** |
+| **Total** | | **949** | **$8.62 standard, $8.29 billed** |
 
 The plan's pilot items (§6.4: OpenAI ≈ $5–7, Gemini ≈ $2, Alibaba < $1) cost less on OpenAI (one call per
 question at ≈ $0.009, one replicate pair instead of prompt iterations) and more on Gemini, because the pilot
 also ran the 3.1 Pro auditor and the full known-answer set with 3.1 Pro.
 
-**Running total of the nuggetization work:** preview $2.63 + pilot $7.97 = **$10.60** (+ ≈ $1.2 pending).
+The 35 Pro calls that finished the pilot went through Batch: $0.65 at standard prices, **$0.32 billed**
+(estimated at submission: $0.30). The ≈ $1.2 expected for them had overestimated the output length.
+
+**Running total of the nuggetization work (billed):** preview $2.63 + pilot $8.29 = **$10.92**, plus the batch
+live test of §13.3 ($0.035).
 
 ### 10.1 Updated estimate, phases 1–4 (from the pilot's per-call costs, `report_pilot.md` §9)
 
@@ -367,20 +382,28 @@ With the ±25 % margin of the preview note §11 on the measured part (≈ $61): 
 (phase 5), per answer run and nugget set: Flash Batch ≈ $1.2–1.3 at gold-answer length, unchanged from
 the preview estimate (× 1.5 until real answer lengths are known).
 
-## 11. Pending items of this pilot (auto-run after the quota reset)
+## 11. Pending items of this pilot (done 2026-10-13 via Batch)
 
-`after_reset.sh` (scratchpad) probes 3.1 Pro every 15 minutes, then runs:
+`after_reset.sh` (scratchpad) waited for the Pro quota. Its probe got through at 03:25 UTC, but the real
+calls were refused again at once (§9.1). The two items were then sent as two Batch jobs (30 + 5 requests: 30
+planted audits and 5 known-answer tests); both succeeded within 5 minutes, 35/35 results, 0 failed:
 
 ```bash
-$P $N $O known judge --set gpt-6.1-sol.rep1 --judge gemini-3.1-pro      # 5 missing tests, rest cached
-$P $N $O audit --set gpt-6.1-sol.rep1.planted --auditor gemini-3.1-pro  # Pro half of §6.3
-$P $N $O pilotreport                                                    # refresh report_pilot.md
+O="--out nuggets/pilot --sample stratified_30 --budget 13.00"
+$P $N $O --batch known judge --set gpt-6.1-sol.rep1 --judge gemini-3.1-pro      # 5 missing tests
+$P $N $O --batch audit --set gpt-6.1-sol.rep1.planted --auditor gemini-3.1-pro  # Pro half of §6.3
+$P $N --out nuggets/pilot batch wait --every 60
+# the same two commands without --batch (outputs from the cache), then:
+$P $N $O pilotreport
 ```
 
-If this session ends first, the same commands complete the pilot (cap `--budget 13.00`). §6.3 and §7 of this
-note will be updated with the results.
+Results are in §6.3 (Pro 29/30 planted errors) and §7 (Pro BA 97.1 % on all 141 tests). None of the §7
+conclusions changes: Pro still flips only 60 % of verdicts, and Flash stays the judge candidate.
 
 ## 12. Decisions for the user (phase 1 gate and before phase 2)
+
+**Status 2026-10-13:** items 1–3 closed as recommended (with (a) and (b) of item 3); 4–5 done; the open
+items are tracked in `docs/20261013_103834_nuggetization_open_decisions.md`.
 
 1. **Prompt: `create_v4`** (recommended; §2, §5–§7). No iteration was needed.
 2. **Call mode: one call** (recommended; §4).
@@ -391,8 +414,9 @@ note will be updated with the results.
    ≤ 2 % gate is meaningful.
 4. **`answer_cleaned` content loss (§8):** fix the ≈ 14 answers in the v2.0 build before phase 2
    (recommended; it changes gold answers that are also the RAG reference), or keep them and flag them.
+   **Done (§13.1).**
 5. **Gemini 3.1 Pro quota (§9.1):** implement Batch submit/collect before phase 2 (README "still missing"
-   item 5; recommended), or raise the quota tier.
+   item 5; recommended), or raise the quota tier. **Done (§13.2, §13.3); used for §11.**
 6. **Phase 4 builder fixes (§7):** W without near-duplicate neighbours; D/C dropping tests whose fact is
    restated; the corpus "other period" V.
 7. **Cache backup** to the private HF dataset repo (§9.2): say when, and I will push it.
@@ -459,4 +483,23 @@ rerun without `--batch` writes its outputs from the cache. Usage and rules: `scr
   Completed calls are cached, so a rerun after the reset resumes. This is why no "partial outputs"
   mode was added for `create`/`audit`: the cache already makes them resumable, and partial nugget sets
   would break the later steps.
-- **Live test:** §13.3.
+- **Live test:** §13.3 (passed).
+
+### 13.3 Batch live test (2026-10-12 21:55)
+
+Scratch output folder, sample `tiny_2` (Q023, Q503), `create` with GPT-6.1 Sol and Gemini 3.8 Flash, `--budget 0.50`.
+
+| Step | Result |
+|---|---|
+| Synchronous `create` (replicate 0) | 4 calls OK, outputs written |
+| `--batch create --replicate 1` | 2 jobs submitted at 20:02 (1 OpenAI, 1 Gemini, 2 requests each); no outputs written; resume message printed |
+| `batch wait --every 60` | Gemini collected after **≈3 min**; OpenAI `completed` in **≈1 h 53 min**; 2/2 cached each, 0 failed, 0 without a result |
+| Rerun without `--batch` | all 4 items `[cache]`; `create/<model>.r1/` written; token counts equal the batch rows |
+| Ledger | 4 `batch:create:…:r1` rows, `latency_s` 0.0; cost counted at half |
+
+- Both result paths work: the OpenAI output file and the Gemini `responsesFile`.
+- Test cost: **$0.035** ($0.023 sync + $0.023 standard / 2 for batch).
+- OpenAI's turnaround is far slower than Gemini's on this tiny job (both within the 24 h window). Phase 2
+  should plan for hours, not minutes, and keep using `batch wait`.
+- Batch quotas are separate from the synchronous daily cap (§9.1), so the 3.1 Pro runs of phase 2 can go through
+  `--batch` without waiting for the per-day reset.

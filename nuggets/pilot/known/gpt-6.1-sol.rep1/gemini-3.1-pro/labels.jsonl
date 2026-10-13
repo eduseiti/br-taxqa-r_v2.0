@@ -403,6 +403,12 @@
 {"test_id": "507_Y", "nugget_id": "Q507_N04", "label": "support", "justification": "A resposta confirma a necessidade de preenchimento do Demonstrativo da Atividade Rural para as duas partes."}
 {"test_id": "507_Y", "nugget_id": "Q507_N05", "label": "contradicts", "justification": "A resposta menciona o programa IRPF 2025, contradizendo o ano-base do contexto, que é o IRPF 2024."}
 {"test_id": "507_Y", "nugget_id": "Q507_N06", "label": "support", "justification": "A resposta detalha a compensação do imposto pago no exterior nos mesmos termos exigidos pelo nugget."}
+{"test_id": "507_D", "nugget_id": "Q507_N01", "label": "support", "justification": "A resposta reproduz integralmente a regra sobre o cálculo do resultado da atividade rural no Brasil."}
+{"test_id": "507_D", "nugget_id": "Q507_N02", "label": "support", "justification": "A resposta contém a instrução completa sobre o cálculo e conversão da atividade rural no exterior."}
+{"test_id": "507_D", "nugget_id": "Q507_N03", "label": "not_support", "justification": "A resposta não menciona as regras e vedações de compensação de resultados negativos e positivos entre o Brasil e o exterior."}
+{"test_id": "507_D", "nugget_id": "Q507_N04", "label": "support", "justification": "A resposta indica expressamente que deve ser preenchido o Demonstrativo da Atividade Rural para as atividades no Brasil e no exterior."}
+{"test_id": "507_D", "nugget_id": "Q507_N05", "label": "support", "justification": "A resposta afirma claramente que o programa IRPF 2024 consolida os resultados positivos automaticamente."}
+{"test_id": "507_D", "nugget_id": "Q507_N06", "label": "support", "justification": "A resposta descreve todas as condições para a compensação do imposto pago no exterior na DAA."}
 {"test_id": "507_W", "nugget_id": "Q507_N01", "label": "not_support", "justification": "A resposta não menciona a forma de consolidação das atividades no Brasil (individualmente, em conjunto, etc.)."}
 {"test_id": "507_W", "nugget_id": "Q507_N02", "label": "support", "justification": "A resposta explica detalhadamente a forma de cálculo separada por país e as respectivas conversões cambiais, conforme o nugget."}
 {"test_id": "507_W", "nugget_id": "Q507_N03", "label": "partial_support", "justification": "A resposta menciona a vedação de compensação entre Brasil e exterior e a permissão para o exterior em anos posteriores, mas omite a permissão de compensar resultados do próprio Brasil entre si."}
@@ -613,6 +619,18 @@
 {"test_id": "706_W", "nugget_id": "Q706_N10", "label": "not_support", "justification": "A resposta não menciona a tributação de Fundos de Índice de Renda Fixa com prazo de repactuação superior a 720 dias."}
 {"test_id": "706_W", "nugget_id": "Q706_N11", "label": "not_support", "justification": "A resposta não menciona os ganhos de capital auferidos por cotistas de Fundos de Índice de Renda Fixa."}
 {"test_id": "706_W", "nugget_id": "Q706_N12", "label": "not_support", "justification": "A resposta não menciona as alterações na tributação a partir de 2024."}
+{"test_id": "706_E", "nugget_id": "Q706_N01", "label": "not_support", "justification": "A resposta não apresenta a tributação para fundos de longo prazo com prazo até seis meses."}
+{"test_id": "706_E", "nugget_id": "Q706_N02", "label": "not_support", "justification": "A resposta não apresenta a tributação para fundos de longo prazo com prazo de seis meses a doze meses."}
+{"test_id": "706_E", "nugget_id": "Q706_N03", "label": "not_support", "justification": "A resposta não apresenta a tributação para fundos de longo prazo com prazo de doze a vinte e quatro meses."}
+{"test_id": "706_E", "nugget_id": "Q706_N04", "label": "not_support", "justification": "A resposta não apresenta a tributação para fundos de longo prazo com prazo acima de vinte e quatro meses."}
+{"test_id": "706_E", "nugget_id": "Q706_N05", "label": "not_support", "justification": "A resposta não apresenta a tributação para fundos de curto prazo com prazo de até seis meses."}
+{"test_id": "706_E", "nugget_id": "Q706_N06", "label": "not_support", "justification": "A resposta não apresenta a tributação para fundos de curto prazo com prazo acima de seis meses."}
+{"test_id": "706_E", "nugget_id": "Q706_N07", "label": "not_support", "justification": "A resposta não menciona a isenção para fundos de investimento em infraestrutura."}
+{"test_id": "706_E", "nugget_id": "Q706_N08", "label": "not_support", "justification": "A resposta não aborda a tributação de Fundos de Índice de Renda Fixa com prazo médio inferior a 180 dias."}
+{"test_id": "706_E", "nugget_id": "Q706_N09", "label": "not_support", "justification": "A resposta não aborda a tributação de Fundos de Índice de Renda Fixa com prazo médio entre 180 e 720 dias."}
+{"test_id": "706_E", "nugget_id": "Q706_N10", "label": "not_support", "justification": "A resposta não aborda a tributação de Fundos de Índice de Renda Fixa com prazo médio superior a 720 dias."}
+{"test_id": "706_E", "nugget_id": "Q706_N11", "label": "not_support", "justification": "A resposta não explica a tributação dos ganhos de capital em Fundos de Índice de Renda Fixa."}
+{"test_id": "706_E", "nugget_id": "Q706_N12", "label": "not_support", "justification": "A resposta não menciona alterações na tributação a partir de 2024."}
 {"test_id": "330_G", "nugget_id": "Q330_N01", "label": "support", "justification": "A resposta especifica o limite de 12% para a soma dessas três modalidades de contribuição previdenciária e suas condições de custeio."}
 {"test_id": "330_G", "nugget_id": "Q330_N02", "label": "support", "justification": "A resposta cita expressamente (no item 1) a condição de recolhimento à previdência social e o limite de 12%."}
 {"test_id": "330_G", "nugget_id": "Q330_N03", "label": "support", "justification": "O item 2 da resposta afirma que a regra do item 1 (limite de 12% e recolhimento à previdência social) se aplica ao Fapi."}
@@ -626,6 +644,19 @@
 {"test_id": "330_G", "nugget_id": "Q330_N11", "label": "support", "justification": "O inciso II, alínea a, cobre o preenchimento do somatório obrigatório e facultativo, sem o 13º."}
 {"test_id": "330_G", "nugget_id": "Q330_N12", "label": "support", "justification": "O inciso II, alínea b, estipula o preenchimento apenas da parcela obrigatória sem o 13º como contribuição do ente público."}
 {"test_id": "330_G", "nugget_id": "Q330_N13", "label": "support", "justification": "O Exemplo 5 da resposta declara textualmente que não há recolhimento por parte do patrocinador na contribuição facultativa."}
+{"test_id": "330_V", "nugget_id": "Q330_N01", "label": "contradicts", "justification": "A resposta afirma que o limite é de 14,5% dos rendimentos computados, contradizendo o limite de 12% do nugget."}
+{"test_id": "330_V", "nugget_id": "Q330_N02", "label": "contradicts", "justification": "A resposta menciona um limite de 14,5% para essas deduções, enquanto o nugget determina um limite de 12%."}
+{"test_id": "330_V", "nugget_id": "Q330_N03", "label": "contradicts", "justification": "A resposta aplica o limite de 14,5% também para o Fapi, contradizendo o percentual de 12% do nugget."}
+{"test_id": "330_V", "nugget_id": "Q330_N04", "label": "contradicts", "justification": "A resposta indica que essa dedução não se sujeita ao limite de 14,5%, contradizendo o valor de 12% mencionado no nugget."}
+{"test_id": "330_V", "nugget_id": "Q330_N05", "label": "contradicts", "justification": "A resposta afirma que o valor excedente está sujeito ao limite de 14,5%, e não 12% como diz o nugget."}
+{"test_id": "330_V", "nugget_id": "Q330_N06", "label": "contradicts", "justification": "A resposta afirma que o limite mantido para beneficiários de aposentadoria ou pensão é de 14,5%, contradizendo os 12% do nugget."}
+{"test_id": "330_V", "nugget_id": "Q330_N07", "label": "contradicts", "justification": "A resposta indica que se aplica ao declarante o limite de 14,5%, contradizendo o limite de 12% do nugget."}
+{"test_id": "330_V", "nugget_id": "Q330_N08", "label": "support", "justification": "A resposta explicita integralmente as condições de recolhimento em nome do dependente maior de 16 anos."}
+{"test_id": "330_V", "nugget_id": "Q330_N09", "label": "support", "justification": "A resposta descreve corretamente o preenchimento do campo 'Valor pago' com o total das contribuições obrigatórias, excetuando o 13º salário."}
+{"test_id": "330_V", "nugget_id": "Q330_N10", "label": "support", "justification": "A resposta confirma que o campo 'Contribuição do ente público patrocinador' deve ser preenchido com o mesmo valor das contribuições obrigatórias do contribuinte."}
+{"test_id": "330_V", "nugget_id": "Q330_N11", "label": "support", "justification": "A resposta orienta exatamente a somar as contribuições obrigatórias e facultativas, exceto o 13º salário, para o campo 'Valor pago'."}
+{"test_id": "330_V", "nugget_id": "Q330_N12", "label": "support", "justification": "A resposta afirma que o campo 'Contribuição do ente público patrocinador' deve conter apenas o total das contribuições obrigatórias, exceto o 13º salário."}
+{"test_id": "330_V", "nugget_id": "Q330_N13", "label": "support", "justification": "A resposta afirma claramente que não há recolhimento por parte do ente patrocinador em relação a contribuições facultativas."}
 {"test_id": "330_Y", "nugget_id": "Q330_N01", "label": "support", "justification": "A resposta menciona integralmente as regras e limites de 12% para dedução de previdência complementar e Fapi conforme exigido."}
 {"test_id": "330_Y", "nugget_id": "Q330_N02", "label": "support", "justification": "A resposta especifica as condições de recolhimento e o limite de 12% para as entidades domiciliadas no País (item 1)."}
 {"test_id": "330_Y", "nugget_id": "Q330_N03", "label": "support", "justification": "A resposta afirma explicitamente que o disposto aplica-se inclusive ao Fapi (item 2)."}
@@ -665,3 +696,29 @@
 {"test_id": "330_C", "nugget_id": "Q330_N11", "label": "partial_support", "justification": "A resposta omite a exceção explícita sobre a exclusão da contribuição do 13º salário neste item, limitando-se a citar a soma com a linha 3."}
 {"test_id": "330_C", "nugget_id": "Q330_N12", "label": "support", "justification": "A resposta (no item II.b) detalha como preencher o campo do patrocinador com a ressalva do 13º salário e a indicação do comprovante."}
 {"test_id": "330_C", "nugget_id": "Q330_N13", "label": "support", "justification": "A resposta (no Exemplo 5) declara explicitamente que não há recolhimento por parte do ente patrocinador em relação à contribuição facultativa."}
+{"test_id": "330_W", "nugget_id": "Q330_N01", "label": "not_support", "justification": "A resposta não aborda o limite de 12% para contribuições à previdência complementar."}
+{"test_id": "330_W", "nugget_id": "Q330_N02", "label": "not_support", "justification": "A resposta não menciona a exigência de recolhimento para a previdência oficial como condição para deduzir a previdência complementar."}
+{"test_id": "330_W", "nugget_id": "Q330_N03", "label": "not_support", "justification": "A resposta não trata das contribuições ao Fapi e seus limites."}
+{"test_id": "330_W", "nugget_id": "Q330_N04", "label": "not_support", "justification": "A resposta não discorre sobre a previdência complementar pública ou a parcela limitada à alíquota do ente patrocinador."}
+{"test_id": "330_W", "nugget_id": "Q330_N05", "label": "not_support", "justification": "A resposta não menciona o tratamento da parcela excedente de previdência complementar pública."}
+{"test_id": "330_W", "nugget_id": "Q330_N06", "label": "not_support", "justification": "A resposta não aborda a dispensa da condição de recolhimento para aposentados ou pensionistas."}
+{"test_id": "330_W", "nugget_id": "Q330_N07", "label": "not_support", "justification": "A resposta não faz referência à dedução de planos de previdência complementar de dependentes."}
+{"test_id": "330_W", "nugget_id": "Q330_N08", "label": "not_support", "justification": "A resposta não fala sobre as condições adicionais para dependentes com mais de 16 anos."}
+{"test_id": "330_W", "nugget_id": "Q330_N09", "label": "not_support", "justification": "A resposta não menciona a forma de preenchimento para contribuições obrigatórias ao Funpresp."}
+{"test_id": "330_W", "nugget_id": "Q330_N10", "label": "not_support", "justification": "A resposta não aborda o preenchimento do campo da contribuição do ente público patrocinador no caso do Funpresp."}
+{"test_id": "330_W", "nugget_id": "Q330_N11", "label": "not_support", "justification": "A resposta não explica o preenchimento para contribuições obrigatórias e facultativas conjuntas ao Funpresp."}
+{"test_id": "330_W", "nugget_id": "Q330_N12", "label": "not_support", "justification": "A resposta não fala sobre o preenchimento do campo do ente patrocinador quando há contribuições facultativas."}
+{"test_id": "330_W", "nugget_id": "Q330_N13", "label": "not_support", "justification": "A resposta não menciona a ausência de recolhimento patronal para contribuições facultativas ao Funpresp."}
+{"test_id": "330_E", "nugget_id": "Q330_N01", "label": "not_support", "justification": "A resposta afirma que não há informação suficiente, não mencionando o limite de 12% ou quaisquer outras regras para dedução."}
+{"test_id": "330_E", "nugget_id": "Q330_N02", "label": "not_support", "justification": "A resposta não aborda a condição de recolhimento à Previdência Social ou o limite de 12%."}
+{"test_id": "330_E", "nugget_id": "Q330_N03", "label": "not_support", "justification": "A resposta omite as regras de dedução do Fapi."}
+{"test_id": "330_E", "nugget_id": "Q330_N04", "label": "not_support", "justification": "A resposta não informa a exceção ao limite de 12% para previdência complementar pública limitada à contribuição do patrocinador."}
+{"test_id": "330_E", "nugget_id": "Q330_N05", "label": "not_support", "justification": "A resposta não aborda o tratamento da contribuição excedente ao limite do ente público patrocinador."}
+{"test_id": "330_E", "nugget_id": "Q330_N06", "label": "not_support", "justification": "A resposta não menciona a dispensa de recolhimento à previdência social para aposentados e pensionistas."}
+{"test_id": "330_E", "nugget_id": "Q330_N07", "label": "not_support", "justification": "A resposta não menciona as regras para quando o titular do plano é dependente do declarante."}
+{"test_id": "330_E", "nugget_id": "Q330_N08", "label": "not_support", "justification": "A resposta não trata da condição de recolhimento previdenciário para dependentes com mais de 16 anos."}
+{"test_id": "330_E", "nugget_id": "Q330_N09", "label": "not_support", "justification": "A resposta não traz instruções sobre como declarar contribuições obrigatórias ao Funpresp."}
+{"test_id": "330_E", "nugget_id": "Q330_N10", "label": "not_support", "justification": "A resposta não orienta sobre o preenchimento do campo de contribuição do ente público no caso do Funpresp."}
+{"test_id": "330_E", "nugget_id": "Q330_N11", "label": "not_support", "justification": "A resposta não explica o preenchimento do campo 'Valor pago' quando há contribuições facultativas e obrigatórias ao Funpresp."}
+{"test_id": "330_E", "nugget_id": "Q330_N12", "label": "not_support", "justification": "A resposta omite instruções sobre o campo 'Contribuição do ente público patrocinador' com contribuições adicionais ao Funpresp."}
+{"test_id": "330_E", "nugget_id": "Q330_N13", "label": "not_support", "justification": "A resposta não menciona a ausência de contrapartida do ente patrocinador em relação às contribuições facultativas."}

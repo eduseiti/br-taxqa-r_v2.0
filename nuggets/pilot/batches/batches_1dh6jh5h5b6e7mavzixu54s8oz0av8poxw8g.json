@@ -1,0 +1,25 @@
+{
+ "job": "batches/1dh6jh5h5b6e7mavzixu54s8oz0av8poxw8g",
+ "provider": "gemini",
+ "model": "gemini-3.1-pro",
+ "model_id": "gemini-3.1-pro-preview",
+ "created": "2026-10-13T03:26:00",
+ "n_requests": 30,
+ "estimated_usd_billed": 0.2601,
+ "note": "--out nuggets/pilot --sample stratified_30 --budget 13.00 --batch audit --set gpt-6.1-sol.rep1.planted --auditor gemini-3.1-pro",
+ "state": "collected",
+ "input_file": "gemini-3.1-pro_20261013_032553.input.jsonl",
+ "requests_file": "batches_1dh6jh5h5b6e7mavzixu54s8oz0av8poxw8g.requests.jsonl",
+ "tags": [
+  "audit"
+ ],
+ "last_poll": {
+  "ts": "2026-10-13T03:30:08",
+  "state": "BATCH_STATE_SUCCEEDED"
+ },
+ "provider_state": "BATCH_STATE_SUCCEEDED",
+ "n_cached": 30,
+ "n_failed": 0,
+ "errors": {},
+ "collected": "2026-10-13T03:30:09"
+}

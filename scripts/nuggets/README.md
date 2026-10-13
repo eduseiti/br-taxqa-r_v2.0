@@ -4,8 +4,8 @@ Turns the 715 gold answers into **legal nuggets** (short, self-contained, atomic
 answers of the RAG generators can be scored against them. Design:
 `docs/20261011_224049_gold_answer_nuggetization_plan_v2.md` (**plan v2**).
 
-**Status (2026-10-12): phase 1 pilot done** on `stratified_30` (`nuggets/pilot/`, $7.97; two 3.1 Pro
-items wait for a daily quota, pilot note §11). Every phase 1 item of plan v2 §4 is implemented: three
+**Status (2026-10-13): phase 1 pilot done** on `stratified_30` (`nuggets/pilot/`, $8.29 billed; the last
+two 3.1 Pro items ran through Batch, pilot note §11). Every phase 1 item of plan v2 §4 is implemented: three
 families, replicates, the 2-call mode, alignment, round trip, two auditors with repair, planted-error
 auditor test, known-answer tests and the pilot report. **Phase 2 waits for the user's gate decisions**
 (pilot note §12). Read, in this order:
@@ -183,7 +183,8 @@ v3 cache cannot serve `create_v4` (different prompt text).
 - **Always pass `--budget`**, and stop and report if a run hits it or costs more than expected.
 - **Gemini 3.1 Pro has a daily quota of 250 requests per model** on our tier. The client raises
   `QuotaExhausted` at once (no backoff); `known judge` writes partial results and a rerun completes them
-  from the cache. Full runs with 3.1 Pro need the Batch API (pilot note §9.1).
+  from the cache. Full runs with 3.1 Pro need the Batch API (pilot note §9.1). The reset time is unclear
+(the 429 points to 00:00 UTC, but the quota stayed blocked until about 03:25 UTC), so do not plan around it.
 - Measured on the pilot (`stratified_30`, standard prices): pilot note §10 and `report_pilot.md` §1, §9.
 - Measured on `preview_10` with `create_v3`/`assign_v2` (standard prices, per 10 questions):
   creation GPT $0.111, Gemini 3.1 Pro $0.327, Qwen3.8-Max $0.146; self-score layout above $0.369.
@@ -236,7 +237,7 @@ verbatim). Pilot note §2.1.
 3. `--dry-run`, a `fake` provider and tests (plan v2 phase 0 gate).
 4. The corpus half of the `temporal` flag.
 
-Open decisions (pilot note §12): prompt and call mode (recommended `create_v4`, one call), gate thresholds,
-the `answer_cleaned` content loss in ≈ 14 answers (pilot note §8), the quota/Batch route, cache backup to
+Decisions: `docs/20261013_103834_nuggetization_open_decisions.md`. Closed: `create_v4`, one call, gate
+thresholds (+ "flagged by both" on any check, each auditor ≥ 80 % of planted errors). Open: phase 4 builder fixes, cache backup to
 the private HF repo, and, still from the plan, the optional "expanded" score on `has_pointer` questions and
 the open-weight Qwen judge.
