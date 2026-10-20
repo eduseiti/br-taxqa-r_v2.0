@@ -15,6 +15,7 @@ is decided.
 | 3 | Acceptance thresholds | **Plan v2 §3.5.6 thresholds, plus (a) and (b) below** | 2026-10-13 | Pilot note §6, §7, §12 |
 | 4 | `answer_cleaned` content loss | Fixed in the v2.0 build (`scripts/dataset/answer_overrides.json`; 47 answers changed) | 2026-10-12 | Pilot note §8, §13.1 |
 | 5 | Gemini 3.1 Pro daily quota | Batch API mode (`--batch`, `batch wait`) | 2026-10-12 | Pilot note §9.1, §13.2–§13.3; used to finish the pilot (§11) |
+| 6 | LLM access for phase 2 | **OpenRouter for all four models**, `flex` tier for GPT and Gemini (half price, synchronous; no 250/day quota); direct route kept as fallback; no parity check before phase 2 (compared on the 30 pilot questions afterwards); $150 prepaid. Not implemented yet | 2026-10-20 | `docs/20261020_130829_openrouter_support_plan.md` §7 |
 
 ### 1.1 Thresholds adopted (decision 3)
 
@@ -70,7 +71,9 @@ the pointer itself. Optionally, score such answers a second time with the target
 An open-weight Qwen model as a judge next to Gemini Flash, for reproducibility with an open model. It would be
 served from an HF endpoint; estimated $10–25, not measured.
 
-**To decide:** whether to include it, and when to test it (it needs its own known-answer run).
+**To decide:** whether to include it, and when to test it (it needs its own known-answer run). If it is
+included, the user will probably prefer an HF endpoint, as for the embeddings, over OpenRouter (2026-10-20;
+OpenRouter plan §7).
 
 ## 3. Not open (for the record)
 
