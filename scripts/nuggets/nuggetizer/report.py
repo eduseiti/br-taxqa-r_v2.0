@@ -20,7 +20,7 @@ def base_model(set_name: str) -> str:
 
 
 def _jl(p: Path):
-    return [json.loads(x) for x in p.read_text().splitlines() if x.strip()] if p.exists() else []
+    return [json.loads(x) for x in p.read_text().split("\n") if x.strip()] if p.exists() else []   # not splitlines(): U+2028
 
 
 def _esc(s) -> str:

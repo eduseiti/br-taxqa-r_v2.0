@@ -85,6 +85,9 @@ OpenRouter plan §7).
 
 ## 4. Next step
 
+**Update 2026-10-21:** phases 2–4 done (`docs/20261021_155704_nuggetization_phases_2_to_4_execution.md`). The
+builder fixes of §2.1 were implemented and used. New open items are in that note's §6.
+
 With decisions 1–3 closed, **phase 2** can start on the 715 questions: creation by the three families,
 the two auditors with repair, and Gemini 3.1 Pro and GPT through Batch, with `--budget` on every run (pilot
 note §10.1 has the estimate).

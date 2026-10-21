@@ -2,25 +2,35 @@
 
 Built from the gold answer and one nugget set, deterministically (seeded). Each test records the
 nuggets it targets, the nuggets whose expected label is ambiguous (``excluded``) and, implicitly,
-that every other nugget should still be ``support``. The pilot builds the rule-based types only:
-G, V (± a plausible step; the "another period's value from the corpus" variant is left to phase 4),
-Y, N, D, C (clause delimited by punctuation; no LLM rewrite), W and E.
+that every other nugget should still be ``support``. Rule-based types: G, V (± a plausible step),
+VP (a real value of the corpus, phase 4), Y, N, D, C (clause delimited by punctuation; no LLM
+rewrite), W and E.
+
+Phase 4 fixes of the pilot's test artifacts (pilot note §7): D and C skip a deletion whose content
+is restated in the rest of the answer, and W skips a substitute answer that restates a nugget (a
+near-duplicate question). Both use ``restated`` (content-word bigram containment).
 """
 from __future__ import annotations
 
 import random
 import re
+from collections import Counter
 from statistics import mean
 
 from . import values
 from .validate import ITEM, norm
 
 EMPTY = "Não há informação suficiente nos dispositivos fornecidos."
-TARGET_TYPES = ["V", "Y", "N", "D", "C"]
+TARGET_TYPES = ["V", "VP", "Y", "N", "D", "C"]
 # a clause opened by a conditional marker after a comma, a semicolon or at the start of the span (not
 # at a hard line wrap of the PDF); "caso" as a noun ("no caso dos ativos") is not a marker
 CONDITION = re.compile(r"(?:,\s*|;\s*|^)(desde que|exceto|salvo|caso(?!\s+d[eoa]s?\b|\s+em\b)|a menos que|"
                        r"contanto que|somente se|se)\s[^,;.:]+", re.I)
+STOP = set("a o as os de da do das dos e em no na nos nas um uma uns umas por pela pelo pelas pelos para com "
+           "que se ao aos à às ou é são ser foi como mais sua seu suas seus este esta esse essa isso".split())
+RESTATED = 0.5      # D / C: share of the removed fragment's bigrams still in the corrupted answer
+W_RESTATED = 0.4    # W: share of a nugget's bigrams found in the substitute answer
+_MONEY = re.compile(r"(?<![\d.,])\d{1,3}(?:\.\d{3})*,\d{2}(?![\d,])")
 CITATION_TAIL = re.compile(r"n[º°o]\s*[\d.]+(?:/\d+)?,?\s*(?:de\s+\d{1,2}º?\s+de\s+\w+\s+)?de\s*$", re.I)
 
 
@@ -31,6 +41,47 @@ def find(span: str, text: str) -> tuple[int, int] | None:
         return None
     m = re.search(r"\s+".join(re.escape(t) for t in toks), text)
     return (m.start(), m.end()) if m else None
+
+
+def _bigrams(s: str) -> set[tuple[str, str]]:
+    w = [t for t in re.findall(r"\w+", norm(s)) if t not in STOP]
+    return set(zip(w, w[1:]))
+
+
+def restated(fragment: str, text: str) -> float:
+    """Share of the content-word bigrams of ``fragment`` that also occur in ``text``."""
+    b = _bigrams(fragment)
+    return len(b & _bigrams(text)) / len(b) if b else 0.0
+
+
+class CorpusValues:
+    """Real alternative amounts from the legal corpus (VP tests, plan v2 §5.7): for an amount of the answer,
+    another R$ amount written within ``window`` characters of it in an article of the corpus, between 0.75×
+    and 1.34× of it and at least 2 % away (often the same item in another year's table or amendment, not always). Amounts under
+    R$ 10 are skipped."""
+
+    def __init__(self, texts: list[str], window: int = 300):
+        self.texts, self.window, self._memo = texts, window, {}
+
+    def alternative(self, num: str) -> str | None:
+        if num not in self._memo:
+            pat = re.compile(rf"(?<![\d.,]){re.escape(num)}(?![\d,])")
+            x0, best = values._num(num), Counter()
+            if x0 < 10:
+                self._memo[num] = None
+                return None
+            for t in self.texts:
+                if num not in t:
+                    continue
+                for m in pat.finditer(t):
+                    lo, hi = max(0, m.start() - self.window), m.end() + self.window
+                    for o in _MONEY.finditer(t, lo, hi):
+                        y = values._num(o.group(0))
+                        # not a bracket edge one cent away (2.112,00 → 2.112,01): at least 2 % apart
+                        if 0.75 * x0 <= y <= 1.34 * x0 and abs(y - x0) >= 0.02 * x0:
+                            best[o.group(0)] += 1
+            self._memo[num] = min(best, key=lambda k: (-best[k], k)) if best else None
+        return self._memo[num]
 
 
 def _br(x: float, cents: bool) -> str:
@@ -67,7 +118,17 @@ def _overlap(a: tuple[int, int], b: tuple[int, int]) -> int:
     return max(0, min(a[1], b[1]) - max(a[0], b[0]))
 
 
-def build(q: dict, nuggets: list[dict], all_qs: list[dict], seed: int = 13) -> list[dict]:
+def _replace_all(ans: str, old: str, new: str) -> str:
+    text, pos = ans, 0
+    while (i := text.find(old, pos)) >= 0:
+        text = text[:i] + new + text[i + len(old):]
+        text = _drop_spelled(text, i + len(new))
+        pos = i + len(new)
+    return text
+
+
+def build(q: dict, nuggets: list[dict], all_qs: list[dict], seed: int = 13,
+          corpus: CorpusValues | None = None) -> list[dict]:
     rng = random.Random(f"{seed}:{q['question_number']}")
     ans = q["answer_cleaned"].strip()
     qn = q["question_number"]
@@ -106,14 +167,25 @@ def build(q: dict, nuggets: list[dict], all_qs: list[dict], seed: int = 13) -> l
         v = uniq[rng.choice(sorted(uniq))]
         new = _bump(v)
         if new and new != v["raw"]:
-            text, pos = ans, 0
-            while (i := text.find(v["raw"], pos)) >= 0:
-                text = text[:i] + new + text[i + len(v["raw"]):]
-                text = _drop_spelled(text, i + len(new))
-                pos = i + len(new)
             targets = [n["nugget_id"] for n in nuggets
                        if any(w["kind"] == v["kind"] and w["normalized"] == v["normalized"] for w in n.get("values") or [])]
-            add("V", text, targets, detail=f"{v['raw']} → {new}")
+            add("V", _replace_all(ans, v["raw"], new), targets, detail=f"{v['raw']} → {new}")
+
+    # VP: one R$ amount replaced by a real neighbouring amount of the corpus (another period's value)
+    if corpus is not None:
+        alts = []
+        for key in sorted(k for k in uniq if k[0] == "brl"):
+            v = uniq[key]
+            num = v["raw"].replace("R$", "").strip()
+            alt = corpus.alternative(num) if "," in num else None
+            if alt and alt not in ans:
+                alts.append((v, num, alt))
+        if alts:
+            v, num, alt = alts[rng.randrange(len(alts))]
+            targets = [n["nugget_id"] for n in nuggets
+                       if any(w["kind"] == "brl" and w["normalized"] == v["normalized"] for w in n.get("values") or [])]
+            add("VP", _replace_all(ans, v["raw"], v["raw"].replace(num, alt)), targets,
+                detail=f"{v['raw']} → R$ {alt} (corpus)")
 
     # Y: a year inside a target nugget's span moved by one, citation years left alone
     ycands = []
@@ -142,17 +214,27 @@ def build(q: dict, nuggets: list[dict], all_qs: list[dict], seed: int = 13) -> l
     direct = [n["nugget_id"] for n in nuggets if n["category"] == "resposta_direta"]
     if m and direct:
         flip = "Não" if m.group(1) == "Sim" else "Sim"
-        add("N", ans[:m.start(1)] + flip + ans[m.end(1):], direct, detail=f"{m.group(1)} → {flip}")
+        # a verdict nugget that restates the body ("Sim. O contribuinte deve apresentar somente uma…") is still
+        # supported by the unchanged body: ambiguous, like a D deletion the rest of the answer implies
+        body = ans[m.end(1):]
+        amb = [x for x in direct if restated(next(n["text"] for n in nuggets if n["nugget_id"] == x), body) >= RESTATED]
+        add("N", ans[:m.start(1)] + flip + ans[m.end(1):], [x for x in direct if x not in amb], excluded=amb,
+            detail=f"{m.group(1)} → {flip}" + (f"; restated in the body: {', '.join(amb)}" if amb else ""))
 
     # D: the span of one vital nugget deleted
+    # not the verdict: the rest of the answer usually implies it (pilot 503_D, 679_D); N tests verdicts
     dc = [n["nugget_id"] for n in nuggets if n["importance"] == "vital" and loc[n["nugget_id"]]
+          and n["category"] != "resposta_direta"
           and (loc[n["nugget_id"]][1] - loc[n["nugget_id"]][0]) < 0.8 * len(ans)]
-    if dc:
-        nid = rng.choice(dc)
+    rng.shuffle(dc)
+    for nid in dc:      # the first deletion whose content is not restated in the rest of the answer
         r = loc[nid]
-        inside, partial = touched(r)
         text = re.sub(r"[ \t]{2,}", " ", ans[:r[0]] + ans[r[1]:]).strip()
-        add("D", text, inside, excluded=partial, detail=f"span of {nid} deleted")
+        rs = restated(ans[r[0]:r[1]], text)
+        if rs < RESTATED:
+            inside, partial = touched(r)
+            add("D", text, inside, excluded=partial, detail=f"span of {nid} deleted (restated {rs:.2f})")
+            break
 
     # C: a delimited condition clause removed from one nugget's span
     cc = []
@@ -166,20 +248,32 @@ def build(q: dict, nuggets: list[dict], all_qs: list[dict], seed: int = 13) -> l
             if 15 <= len(clause) <= 0.7 * (r[1] - r[0]) and (norm(clause)[:40] in norm(n["text"])
                                                               or n["category"] == "condicao"):
                 cc.append((n["nugget_id"], r[0] + m.start(), r[0] + m.end()))
-    if cc:
-        nid, a, b = rng.choice(sorted(set(cc)))
-        inside, partial = touched((a, b))
-        others = [x for x, *_ in cc if x != nid and _overlap(loc[x], (a, b))]
+    cc = sorted(set(cc))
+    rng.shuffle(cc)
+    for nid, a, b in cc:    # the first condition not restated elsewhere in the answer
         text = ans[:a] + ans[b:]
-        add("C", text, [nid], excluded=inside + partial + others, detail=f"removed: «{ans[a:b].strip()}»")
+        rs = restated(ans[a:b], text)
+        if rs < RESTATED:
+            inside, partial = touched((a, b))
+            others = [x for x, *_ in cc if x != nid and _overlap(loc[x], (a, b))]
+            add("C", text, [nid], excluded=inside + partial + others,
+                detail=f"removed: «{ans[a:b].strip()}» (restated {rs:.2f})")
+            break
 
     # W: the answer of the nearest question with another summary (same part of the P&R)
     num = int(qn)
     pool = sorted((x for x in all_qs if x["question_summary"] != q["question_summary"] and x["question_number"] != qn),
                   key=lambda x: (abs(int(x["question_number"]) - num), x["question_number"]))
-    if pool:
-        w = pool[0]
-        add("W", w["answer_cleaned"].strip(), ids, detail=f"answer of Q{w['question_number']} ({w['question_summary']})")
+    skipped = []
+    for w in pool:          # the nearest one that restates none of the nuggets (no near-duplicate)
+        wa = w["answer_cleaned"].strip()
+        rs = max((restated(n["text"], wa) for n in nuggets), default=0.0)
+        rs = max(rs, max((restated(n["source_span"], wa) for n in nuggets), default=0.0))
+        if rs < W_RESTATED:
+            add("W", wa, ids, detail=f"answer of Q{w['question_number']} ({w['question_summary']})"
+                + (f"; skipped near-duplicates {', '.join(skipped)}" if skipped else ""))
+            break
+        skipped.append(f"Q{w['question_number']} ({rs:.2f})")
 
     add("E", EMPTY, ids)
     return tests
@@ -201,7 +295,7 @@ def metrics(tests: list[dict], labels: dict[str, dict[str, str]], nuggets: dict[
         for nid, l in lab.items():
             if l == "contradicts":
                 contra_all += 1
-                contra_target += nid in tset and t["type"] in ("V", "Y", "N")
+                contra_target += nid in tset and t["type"] in ("V", "VP", "Y", "N")
             if nid in excl:
                 continue
             if nid in tset:

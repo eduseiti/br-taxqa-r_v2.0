@@ -30,6 +30,7 @@ sys.path[:0] = [str(HERE), str(HERE.parent)]
 from dotenv import load_dotenv  # noqa: E402
 
 from llm_client import LLM, BatchDeferred, QuotaExhausted, load_registry, route_config  # noqa: E402
+from llm_client.client import LLMError  # noqa: E402
 from llm_client import batch as llm_batch  # noqa: E402
 from nuggetizer import data, pilot_report, report, schema  # noqa: E402
 from nuggetizer.validate import validate  # noqa: E402
@@ -47,7 +48,8 @@ def jl_write(path: Path, rows):
 
 
 def jl_read(path: Path):
-    return [json.loads(x) for x in Path(path).read_text().splitlines() if x.strip()]
+    # split on "\n" only: str.splitlines() also splits on U+2028 etc., which can occur inside a justification
+    return [json.loads(x) for x in Path(path).read_text().split("\n") if x.strip()]
 
 
 def questions(out: Path, sample: str) -> list[dict]:
@@ -76,6 +78,16 @@ def llm(name: str, out: Path, budget: float | None, route: str | None = None) ->
     m = LLM(name, model_cfg(name, route), out / "cache", out / "costs.csv", budget_usd=budget)
     m.batch = BATCH
     return m
+
+
+def longer(m: LLM, factor: int = 2) -> LLM:
+    """A copy of ``m`` with ``factor`` × its output-token limit, for a reply truncated at the limit (Qwen
+    auditing the 115 nuggets of Q442). The limit is in the params, so it enters only these calls' cache keys."""
+    import copy
+    m2 = copy.copy(m)
+    k = "max_output_tokens" if "max_output_tokens" in m.params else "max_tokens"
+    m2.params = {**m.params, k: m.params[k] * factor}
+    return m2
 
 
 def prompt(name: str) -> Path:
@@ -161,7 +173,21 @@ def cmd_sample(a):
                                  f"excluding prompt examples {sorted(data.PROMPT_EXAMPLES)}",
          "dataset_sha256": sha(REPO / "dataset" / "questions.jsonl"),
          "preview_10": data.stratified(qs, 1), "stratified_30": data.stratified(qs, 3)}
-    assert set(s["preview_10"]) <= set(s["stratified_30"])
+    if a.keep_from:
+        # the answer fixes of the v2.0 build moved some answer lengths, so the deciles shifted: keep the
+        # pilot's lists as they were (stratified_30 is also the RAG pilot sample)
+        old = json.loads(Path(a.keep_from).read_text())
+        s.update({k: old[k] for k in ("preview_10", "stratified_30")},
+                 kept_from=a.keep_from, kept_dataset_sha256=old["dataset_sha256"])
+    # full phase 2 set (prompt examples included: they need nuggets for scoring; flagged by the validator),
+    # and stratified_70 = stratified_30 + 4 more per current decile, for the 10 % checks of plan v2 §5.7
+    s["all"] = [q["question_number"] for q in qs]
+    s7, per = data.stratified(qs, 7), {}
+    for i, n in enumerate(s7):          # s7 is decile-major, 7 per decile
+        if n not in s["stratified_30"]:
+            per.setdefault(i // 7, []).append(n)
+    s["stratified_70"] = s["stratified_30"] + [n for d in sorted(per) for n in per[d][:4]]
+    assert set(s["preview_10"]) <= set(s["stratified_30"]) <= set(s["stratified_70"])
     (out / "sample.json").write_text(json.dumps(s, indent=1))
     print("preview_10:", " ".join(s["preview_10"]))
 
@@ -421,7 +447,13 @@ def cmd_audit(a):
             if any(not (1 <= x["a"] <= len(qn) and 1 <= x["b"] <= len(qn)) for x in d["redundant"]):
                 raise ValueError("redundant index out of range")
 
-        r = m.complete_json(system, user, sch, "audit", validate=check, tag=f"audit:{a.set}:{q['question_number']}")
+        tag = f"audit:{a.set}:{q['question_number']}"
+        try:
+            r = m.complete_json(system, user, sch, "audit", validate=check, tag=tag)
+        except LLMError as e:
+            if "truncated" not in str(e):
+                raise
+            r = longer(m).complete_json(system, user, sch, "audit", validate=check, tag=tag + ":long")
         rows = [{"nugget_id": qn[x["nugget"] - 1]["nugget_id"], **{k: v for k, v in x.items() if k != "nugget"}}
                 for x in r.data["nuggets"]]
         qrow = {"question_number": q["question_number"], "n_candidates": len(c), "omissions": r.data["omissions"],
@@ -491,12 +523,24 @@ def agreed_issues(out: Path, set_name: str, auditors: list[str], qs: list[dict])
     return issues
 
 
+def validator_issues(out: Path, set_name: str) -> dict[str, list[str]]:
+    """Per question, the hard validator errors only (phase 2: before the auditors run)."""
+    val = json.loads((out / "create" / set_name / "validation.json").read_text())
+    ids = {qn: [n["nugget_id"] for n in ns] for qn, ns in by_question(set_nuggets(out, set_name)).items()}
+    issues = {}
+    for vq in val["questions"]:
+        for e in vq["errors"]:
+            where = f"nugget {ids[vq['question_number']].index(e['nugget_id']) + 1}" if e["nugget_id"] else "resposta"
+            issues.setdefault(vq["question_number"], []).append(f"Erro mecânico ({where}): {e['code']} {e['detail']}")
+    return issues
+
+
 def cmd_repair(a):
     out = Path(a.out)
     system = prompt(a.create_prompt).read_text() + prompt(a.prompt).read_text()
     sch = schema.strict_schema(schema.LLMNuggetList)
     qs = questions(out, a.sample)
-    issues = agreed_issues(out, a.set, a.auditors, qs)
+    issues = agreed_issues(out, a.set, a.auditors, qs) if a.auditors else validator_issues(out, a.set)
     src = by_question(set_nuggets(out, a.set))
     m = llm(a.model, out, a.budget)
     print(f"repair {a.set}: {len(issues)} questions with agreed issues, {sum(map(len, issues.values()))} issues")
@@ -530,6 +574,43 @@ def cmd_repair(a):
                    repaired=sorted(issues), create_prompt=a.create_prompt, repair_prompt=a.prompt)
 
 
+# ------------------------------------------------------------------ phase 3: freeze (plan v2 §3.5.3, D10)
+def cmd_freeze(a):
+    """Write the frozen set: nuggets still flagged by both auditors on C1 are dropped; every other auditor
+    flag (one auditor, or both on another check) is kept and listed on the nugget (``audit``). Stability:
+    how many families made a matching nugget (plan v2 §3.5.2), from the alignments of ``--aligned``; null
+    for the questions whose nuggets changed after that set."""
+    out, dest = Path(a.out), Path(a.dest)
+    nugs = set_nuggets(out, a.set)
+    aud = {x: {r["nugget_id"]: r for r in jl_read(out / "audit" / a.set / x / "nuggets.jsonl")} for x in a.auditors}
+    al = {}
+    for o in a.others:
+        al[o] = {r["a"]: r["relation"] for r in jl_read(out / "align" / f"{a.aligned}__{o}" / "alignment.jsonl")}
+    base = {n["nugget_id"]: n["text"] for n in set_nuggets(out, a.aligned)}
+    keep, dropped = [], []
+    for n in nugs:
+        fl = {x: [k for k in CHECKS if not aud[x][n["nugget_id"]][k]] for x in a.auditors if n["nugget_id"] in aud[x]}
+        fl = {x: v for x, v in fl.items() if v}
+        n = {**n, "audit": {x: {"failed": v, "problem": aud[x][n["nugget_id"]]["problem"]} for x, v in fl.items()}}
+        same_text = base.get(n["nugget_id"]) == n["text"]
+        n["stability"] = (1 + sum(al[o].get(n["nugget_id"]) in pilot_report.MATCH for o in a.others)
+                          if same_text and all(n["nugget_id"] in al[o] for o in a.others) else None)
+        if len(fl) == len(a.auditors) and all("c1_faithful" in v for v in fl.values()):
+            dropped.append(n)
+        else:
+            keep.append(n)
+    for qn, ns in by_question(keep).items():     # renumber after a drop; the source id is kept
+        for i, n in enumerate(ns, 1):
+            n["source_nugget_id"], n["nugget_id"], n["ordinal"] = n["nugget_id"], f"Q{qn}_N{i:02d}", i
+    jl_write(dest / "nuggets.jsonl", keep)
+    jl_write(dest / "dropped.jsonl", dropped)
+    write_manifest(dest, mode="freeze (plan v2 §3.5.3, D10)", source=a.set, auditors=a.auditors, aligned=a.aligned,
+                   others=a.others, n_nuggets=len(keep), n_dropped=len(dropped),
+                   n_flagged_one=sum(len(n["audit"]) == 1 for n in keep),
+                   n_flagged_both=sum(len(n["audit"]) == 2 for n in keep))
+    print(f"frozen {len(keep)} nuggets ({len(dropped)} dropped) → {dest}")
+
+
 # ------------------------------------------------------------------ phase 1: planted errors (auditor test)
 def cmd_plant(a):
     from nuggetizer import planted
@@ -558,17 +639,24 @@ def cmd_known(a):
     nugs = by_question(set_nuggets(out, a.set))
     if a.action == "build":
         allq = jl_read(out / "input" / "questions.jsonl")
-        tests = [t for q in qs for t in ka.build(q, nugs[q["question_number"]], allq)]
+        corpus = None
+        if a.corpus:        # article chunks (S1) of the legal corpus, for the VP tests
+            import csv
+            csv.field_size_limit(sys.maxsize)
+            with open(a.corpus, newline="") as f:
+                corpus = ka.CorpusValues([r["Texto"] for r in csv.DictReader(f)
+                                          if r["Tipo"] == "ART" and r["variante"] == "base"])
+        tests = [t for q in qs for t in ka.build(q, nugs[q["question_number"]], allq, corpus=corpus)]
         jl_write(d / "tests.jsonl", tests)
         print(f"{len(tests)} tests:", dict(sorted(Counter(t["type"] for t in tests).items())))
         return
-    tests = jl_read(d / "tests.jsonl")
+    qd = {q["question_number"]: q for q in qs}
+    tests = [t for t in jl_read(d / "tests.jsonl") if t["question_number"] in qd]
     if a.types:
         tests = [t for t in tests if t["type"] in a.types]
     system = prompt(a.prompt).read_text()
     sch = schema.strict_schema(schema.AssignmentList)
     m = llm(a.judge, out, a.budget)
-    qd = {q["question_number"]: q for q in qs}
 
     def one(t):
         q, qn = qd[t["question_number"]], nugs[t["question_number"]]
@@ -583,7 +671,7 @@ def cmd_known(a):
         return rows, call_row(q, "known", a.judge, r, test_id=t["test_id"], n_nuggets=len(qn))
 
     res = run_all(tests, one, a.workers)
-    jd = d / a.judge
+    jd = d / (a.judge + (f".{a.name}" if a.name else ""))
     jl_write(jd / "labels.jsonl", [x for rows, _ in res for x in rows])
     jl_write(jd / "calls.jsonl", [c for _, c in res if c])
     missing = [t["test_id"] for t, (_, c) in zip(tests, res) if c is None]
@@ -642,7 +730,9 @@ def cmd_openrouter_key(a):
 def cmd_pilotreport(a):
     out = Path(a.out)
     path = pilot_report.build(out, questions(out, a.sample), load_registry(HERE / "models.yaml"),
-                              jl_read(out / "input" / "questions.jsonl"))
+                              jl_read(out / "input" / "questions.jsonl"), primary=a.primary, others=tuple(a.others),
+                              sample_name=a.sample,
+                              name="report_pilot.md" if a.sample == "stratified_30" else "report_full.md")
     print("report:", path)
 
 
@@ -661,7 +751,10 @@ def main():
                     help="OpenRouter (default; registry `openrouter:` blocks, flex for GPT/Gemini) or the direct "
                          "provider APIs (the route of the preview and pilot runs and of their caches)")
     sp = ap.add_subparsers(dest="cmd", required=True)
-    sp.add_parser("sample").set_defaults(fn=cmd_sample)
+    p = sp.add_parser("sample")
+    p.add_argument("--keep-from", default=None,
+                   help="sample.json whose preview_10 / stratified_30 lists are kept verbatim")
+    p.set_defaults(fn=cmd_sample)
     p = sp.add_parser("create")
     p.add_argument("--models", type=lambda s: s.split(","), required=True)
     p.add_argument("--prompt", default="create_v4", help="file stem in prompts/")
@@ -703,12 +796,20 @@ def main():
     p.set_defaults(fn=cmd_audit)
     p = sp.add_parser("repair", help="repair the issues both auditors agree on")
     p.add_argument("--set", required=True)
-    p.add_argument("--auditors", type=lambda s: s.split(","), required=True)
+    p.add_argument("--auditors", type=lambda s: s.split(","), default=None,
+                   help="the two auditors; omitted: repair the hard validator errors only (phase 2)")
     p.add_argument("--new", required=True, help="name of the repaired set")
     p.add_argument("--model", default="gpt-6.1-sol")
     p.add_argument("--create-prompt", default="create_v4")
     p.add_argument("--prompt", default="repair_v1")
     p.set_defaults(fn=cmd_repair)
+    p = sp.add_parser("freeze", help="write the frozen set (C1 failures of both auditors dropped)")
+    p.add_argument("--set", required=True)
+    p.add_argument("--auditors", type=lambda s: s.split(","), default=["gemini-3.1-pro", "qwen3.8-max"])
+    p.add_argument("--aligned", required=True, help="primary set of the cross-family alignments")
+    p.add_argument("--others", type=lambda s: s.split(","), required=True, help="the other families' sets")
+    p.add_argument("--dest", default=str(REPO / "nuggets" / "gold" / "v0-auto"))
+    p.set_defaults(fn=cmd_freeze)
     p = sp.add_parser("plant", help="one planted error per question, to test the auditors")
     p.add_argument("--set", required=True)
     p.set_defaults(fn=cmd_plant)
@@ -717,10 +818,16 @@ def main():
     p.add_argument("--set", required=True)
     p.add_argument("--judge", default="gemini-3.8-flash")
     p.add_argument("--types", type=lambda s: s.split(","), default=None)
+    p.add_argument("--corpus", default=str(REPO / "segmented" / "chunks_all.csv"),
+                   help="build: chunk CSV whose article chunks give the VP values ('' to skip VP)")
+    p.add_argument("--name", default=None, help="judge: output folder <judge>.<name> (e.g. a subset run)")
     p.add_argument("--prompt", default="assign_v2")
     p.set_defaults(fn=cmd_known)
     sp.add_parser("report").set_defaults(fn=cmd_report)
-    sp.add_parser("pilotreport").set_defaults(fn=cmd_pilotreport)
+    p = sp.add_parser("pilotreport", help="report_pilot.md (stratified_30) or report_full.md (other samples)")
+    p.add_argument("--primary", default="gpt-6.1-sol", help="primary set of the alignments")
+    p.add_argument("--others", type=lambda s: s.split(","), default=["gemini-3.1-pro", "qwen3.8-max"])
+    p.set_defaults(fn=cmd_pilotreport)
     p = sp.add_parser("batch", help="batch jobs of --out: status | collect | wait")
     p.add_argument("action", choices=["status", "collect", "wait"])
     p.add_argument("--every", type=int, default=120, help="wait: seconds between polls")

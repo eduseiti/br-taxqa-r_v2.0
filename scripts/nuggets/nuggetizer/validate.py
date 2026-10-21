@@ -5,6 +5,7 @@ import re
 from difflib import SequenceMatcher
 
 from . import values
+from .data import PROMPT_EXAMPLES
 
 # The P&R's own period: allowed in nuggets even when the question and answer do not state it (R8).
 DOC_YEARS = {"2023", "2024"}
@@ -13,6 +14,7 @@ BACKREF = re.compile(r"\b(esse|essa|esses|essas|tal|tais|o referido|a referida|o
 ITEM = re.compile(r"^\s*(\d{1,2}|[a-z]|[IVX]{1,4})\s*[-–)]\s+")
 POINTER = re.compile(r"pergunta\s+(n[ºo°]\s*)?\d{3}", re.I)
 PGD = re.compile(r"\bficha\b|\bPGD\b|programa (gerador|IRPF)|\baba\b|\bcampo\b|\bc[óo]digo \d{2}\b", re.I)
+R10_EXAMPLES = {"617", "620"}     # answers that are worked numerical examples (plan v2 R10)
 NEG = re.compile(r"\b(não|nem|nenhum|nenhuma|vedad[oa]s?|nunca)\b", re.I)
 
 
@@ -71,7 +73,9 @@ def validate(q: dict, nuggets: list[dict]) -> dict:
     # temporal: the answer states a value (R$, %, date); the "provision amended after 2024-05-03" half
     # of plan v2 §3.1 needs the corpus and is not implemented. short_answer: under 80 characters (plan v2 §2).
     flags = {"has_pointer": bool(POINTER.search(answer)), "temporal": bool(values.extract(answer)),
-             "short_answer": len(answer.strip()) < 80, "procedimento_pgd": bool(PGD.search(answer))}
+             "short_answer": len(answer.strip()) < 80, "procedimento_pgd": bool(PGD.search(answer)),
+             # the creation prompt's worked examples (data.PROMPT_EXAMPLES): their nuggets saw the answer
+             "prompt_example": q["question_number"] in PROMPT_EXAMPLES}
     for nug in nuggets:
         nid, txt, iss = nug["nugget_id"], nug["text"], []
         nug["values"] = values.extract(txt)
@@ -111,8 +115,12 @@ def validate(q: dict, nuggets: list[dict]) -> dict:
 
     # answer-level checks
     if not any(n["importance"] == "vital" for n in nuggets):
-        errors.append({"nugget_id": None, "code": "no_vital", "detail": ""})
-    verdict = re.match(r"\s*(Sim|Não)\b", answer)
+        # an answer that delegates to another question may hold only an Atenção note (Q316): a warning
+        (warnings if flags["has_pointer"] else errors).append(
+            {"nugget_id": None, "code": "no_vital_pointer" if flags["has_pointer"] else "no_vital", "detail": ""})
+    # a verdict is "Sim"/"Não" followed by punctuation; "Não havendo acordo…" or "Não se caracterizam…"
+    # (Q131, Q255) open a sentence and are not a verdict
+    verdict = re.match(r"\s*(Sim|Não)\s*[.,;!]", answer)
     direct = [n for n in nuggets if n["category"] == "resposta_direta"]
     if verdict and len(direct) != 1:
         errors.append({"nugget_id": None, "code": "verdict_count", "detail": f"{len(direct)} resposta_direta"})
@@ -135,7 +143,9 @@ def validate(q: dict, nuggets: list[dict]) -> dict:
         if cov < (0.3 if is_item else 0.5) and not u.rstrip().endswith(":"):   # lead-ins ("Atenção:")
             # a sentence that only delegates to another question gives no nugget (create_v4): expected,
             # listed under its own code so that a missed content part of a mixed sentence can be checked
+            # R10 (plan v2 §3.2): the lettered items of a worked numerical example give no nugget
             code = ("pointer_uncovered" if is_ptr else
+                    "enum_item_worked_example" if is_item and q["question_number"] in R10_EXAMPLES else
                     "enum_item_uncovered" if is_item else "unit_uncovered")
             (errors if code == "enum_item_uncovered" else warnings).append(
                 {"nugget_id": None, "code": code, "detail": u[:120]})

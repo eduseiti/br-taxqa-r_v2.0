@@ -1,0 +1,10 @@
+{
+ "nugget_set": "gpt-6.1-sol.rep2",
+ "judge": "gemini-3.1-pro",
+ "sample": "stratified_70",
+ "types": null,
+ "assign_prompt": "assign_v2",
+ "missing_tests": [],
+ "route": "openrouter",
+ "assign_prompt_sha256": "6e63c936a6556b0f82d268fb3eb929a1dc4da9862703f3b10aceb7706f45b5a8"
+}

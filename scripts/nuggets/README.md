@@ -4,7 +4,11 @@ Turns the 715 gold answers into **legal nuggets** (short, self-contained, atomic
 answers of the RAG generators can be scored against them. Design:
 `docs/20261011_224049_gold_answer_nuggetization_plan_v2.md` (**plan v2**).
 
-**Status (2026-10-13): phase 1 pilot done** on `stratified_30` (`nuggets/pilot/`, $8.29 billed; the last
+**Status (2026-10-21): phases 2–4 done** on the 715 questions (`nuggets/full/`, $65.34 billed, 4 h 15 min; the
+frozen set is `nuggets/gold/v0-auto/`): `docs/20261021_155704_nuggetization_phases_2_to_4_execution.md`. Next:
+phase 5 (scoring), after the RAG answer runs. Open items: that note's §6.
+
+**Earlier status (2026-10-13): phase 1 pilot done** on `stratified_30` (`nuggets/pilot/`, $8.29 billed; the last
 two 3.1 Pro items ran through Batch, pilot note §11). Every phase 1 item of plan v2 §4 is implemented: three
 families, replicates, the 2-call mode, alignment, round trip, two auditors with repair, planted-error
 auditor test, known-answer tests and the pilot report. **Phase 2 waits for the user's gate decisions**

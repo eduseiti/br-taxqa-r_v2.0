@@ -1,0 +1,13 @@
+{
+ "nugget_set": "gpt-6.1-sol.rep1",
+ "auditor": "qwen3.8-max",
+ "sample": "all",
+ "only": null,
+ "others": [
+  "gemini-3.1-pro.rep0",
+  "qwen3.8-max.rep0"
+ ],
+ "audit_prompt": "audit_v1",
+ "route": "openrouter",
+ "audit_prompt_sha256": "d036be9790740ec9af293e23dcf1adb3b4500d2319f35b1a4dc640220154e1f6"
+}

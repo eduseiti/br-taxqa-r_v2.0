@@ -1,0 +1,11 @@
+{
+ "nugget_set": "gpt-6.1-sol.rep0",
+ "writer": "gemini-3.8-flash",
+ "checker": "qwen3.8-max",
+ "sample": "all",
+ "write_prompt": "roundtrip_write_v1",
+ "check_prompt": "roundtrip_check_v2",
+ "route": "openrouter",
+ "write_prompt_sha256": "d0f25103f97bacd88240bc5f18b10eb2526e610ebc43be09f593463f240b3764",
+ "check_prompt_sha256": "b2a1bb3512427a5551c851f8bac6328c1c21962741c62c419f93e636a65e74fd"
+}

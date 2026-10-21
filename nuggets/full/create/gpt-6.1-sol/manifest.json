@@ -1,0 +1,38 @@
+{
+ "model": "gpt-6.1-sol",
+ "replicate": 0,
+ "route": "openrouter",
+ "registry": {
+  "provider": "openrouter",
+  "model_id": "openai/gpt-6.1-sol",
+  "api_key_env": "OPENROUTER_API_KEY",
+  "params": {
+   "reasoning": {
+    "effort": "medium"
+   },
+   "max_tokens": 32000,
+   "response_format": "json_schema"
+  },
+  "price": {
+   "usd_per_million_input": 2.0,
+   "usd_per_million_cached_input": 0.1,
+   "usd_per_million_output": 10.0,
+   "batch_discount": 0.5,
+   "checked": "2026-10-11"
+  },
+  "route": "openrouter",
+  "routing": {
+   "only": [
+    "openai/flex"
+   ],
+   "allow_fallbacks": false,
+   "require_parameters": true,
+   "data_collection": "deny"
+  },
+  "served_provider": "OpenAI"
+ },
+ "sample": "all",
+ "prompt": "scripts/nuggets/prompts/create_v4.pt.md",
+ "prompt_sha256": "534b27cf0b5f06ea3c0f8566e723902a72ca3cf6c67afba575e45eabc2a9a656",
+ "schema_sha256": "37e8bb2115fc32e427d84d454fb94268ccc7a75480bb607dda294fc516808363"
+}

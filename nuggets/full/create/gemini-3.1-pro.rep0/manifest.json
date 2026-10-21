@@ -1,0 +1,22 @@
+{
+ "mode": "repair",
+ "source": "gemini-3.1-pro",
+ "auditors": null,
+ "model": "gemini-3.1-pro",
+ "sample": "all",
+ "repaired": [
+  "290",
+  "326",
+  "340",
+  "349",
+  "442",
+  "456",
+  "630",
+  "661"
+ ],
+ "create_prompt": "create_v4",
+ "repair_prompt": "repair_v1",
+ "route": "openrouter",
+ "create_prompt_sha256": "534b27cf0b5f06ea3c0f8566e723902a72ca3cf6c67afba575e45eabc2a9a656",
+ "repair_prompt_sha256": "5531a4bb78933e227c1a295aebea11af86bfd028d484980af04101f833801b80"
+}

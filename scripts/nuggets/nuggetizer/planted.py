@@ -25,6 +25,8 @@ COND = re.compile(r",\s*(desde que|exceto|salvo|caso|a menos que|contanto que|so
 QUANT = [(r"\bsomente\b", ""), (r"\bapenas\b", ""), (r"\baté\b", "acima de"), (r"\bqualquer\b", "algum"),
          (r"\btodos os\b", "alguns"), (r"\btodas as\b", "algumas")]
 ADDITION = ", inclusive quando o contribuinte for não residente no Brasil"
+# the addition changes nothing when the nugget is already about non-residents (pilot Q703_N03)
+IMPLIED = re.compile(r"n[ãa]o[- ]residente|residente no exterior|residente no brasil|residência", re.I)
 EXPECTED = {"value": "c1_faithful", "polarity": "c1_faithful", "condition": "c1_faithful",
             "quantifier": "c1_faithful", "addition": "c1_faithful", "merge": "c3_one_unit",
             "importance": "c4_importance"}
@@ -61,7 +63,7 @@ def _try(kind: str, nugs: list[dict], rng: random.Random):
                 if re.search(pat, t):
                     n["text"] = re.sub(r"\s{2,}", " ", re.sub(pat, rep, t, count=1))
                     return i, n, f"{pat} → '{rep}'", None
-        elif kind == "addition" and t.rstrip().endswith("."):
+        elif kind == "addition" and t.rstrip().endswith(".") and not IMPLIED.search(t):
             n["text"] = t.rstrip()[:-1] + ADDITION + "."
             return i, n, "scope clause appended", None
         elif kind == "merge" and len(nugs) >= 3:

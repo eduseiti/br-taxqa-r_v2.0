@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/scripts/nuggets/nuggets.py", line 852, in <module>
+    main()
+  File "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/scripts/nuggets/nuggets.py", line 840, in main
+    a.fn(a)
+  File "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/scripts/nuggets/nuggets.py", line 682, in cmd_known
+    for x in jl_read(jd / "labels.jsonl"):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/scripts/nuggets/nuggets.py", line 51, in jl_read
+    return [json.loads(x) for x in Path(path).read_text().splitlines() if x.strip()]
+            ^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 92 (char 91)

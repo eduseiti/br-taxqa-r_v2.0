@@ -24,7 +24,9 @@ working on segmentation, embedding or retrieval code. The corpus was last rebuil
 `docs/20261011_224049_gold_answer_nuggetization_plan_v2.md`. The preview (10 questions) and the
 **phase 1 pilot** (`stratified_30`, `docs/20261012_192640_nuggetization_phase1_pilot.md`) are done;
 the phase 1 gate is closed (`create_v4`, one call, thresholds in
-`docs/20261013_103834_nuggetization_open_decisions.md`, which also tracks the open decisions); **phase 2 is next**. Start from `scripts/nuggets/README.md`
+`docs/20261013_103834_nuggetization_open_decisions.md`, which also tracks the open decisions). **Phases 2–4 are
+done** (`docs/20261021_155704_nuggetization_phases_2_to_4_execution.md`; frozen set `nuggets/gold/v0-auto/`);
+phase 5 (scoring) is next. Start from `scripts/nuggets/README.md`
 (status, commands, current prompts `create_v4` / `assign_v2`, budget cap, what is still missing); the
 decisions and costs are in the `docs/20261012_*nuggetization*` notes. All LLM calls go through **OpenRouter** by default
 (`--route openrouter`, one key `OPENROUTER_API_KEY`, flex endpoints for GPT/Gemini;

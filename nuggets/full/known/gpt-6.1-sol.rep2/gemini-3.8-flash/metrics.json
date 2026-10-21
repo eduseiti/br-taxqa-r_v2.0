@@ -1,0 +1,90 @@
+{
+ "G": {
+  "tests": 715,
+  "targets": 0,
+  "sensitivity": null,
+  "contradicts_rate": null,
+  "nontargets": 3175,
+  "specificity": 0.998740157480315,
+  "v_strict": 0.9957983193277311
+ },
+ "V": {
+  "tests": 191,
+  "targets": 261,
+  "sensitivity": 0.9693486590038314,
+  "contradicts_rate": 0.9616858237547893,
+  "nontargets": 1270,
+  "specificity": 1.0,
+  "v_strict": 0.6915685612650034
+ },
+ "VP": {
+  "tests": 27,
+  "targets": 34,
+  "sensitivity": 1.0,
+  "contradicts_rate": 1.0,
+  "nontargets": 251,
+  "specificity": 1.0,
+  "v_strict": 0.6983363523218595
+ },
+ "Y": {
+  "tests": 142,
+  "targets": 145,
+  "sensitivity": 0.9862068965517241,
+  "contradicts_rate": 0.9793103448275862,
+  "nontargets": 1106,
+  "specificity": 0.9810126582278481,
+  "v_strict": 0.7392516135440111
+ },
+ "D": {
+  "tests": 458,
+  "targets": 528,
+  "sensitivity": 0.9734848484848485,
+  "contradicts_rate": 0.001893939393939394,
+  "nontargets": 2177,
+  "specificity": 0.9853008727606798,
+  "v_strict": 0.6181479389838207
+ },
+ "C": {
+  "tests": 202,
+  "targets": 202,
+  "sensitivity": 0.8910891089108911,
+  "contradicts_rate": 0.009900990099009901,
+  "nontargets": 1139,
+  "specificity": 0.9877085162423178,
+  "v_strict": 0.6843895152281874
+ },
+ "W": {
+  "tests": 715,
+  "targets": 3175,
+  "sensitivity": 0.9892913385826771,
+  "contradicts_rate": 0.030236220472440945,
+  "nontargets": 0,
+  "specificity": null,
+  "v_strict": 0.018860877684407095
+ },
+ "E": {
+  "tests": 715,
+  "targets": 3175,
+  "sensitivity": 1.0,
+  "contradicts_rate": 0.0,
+  "nontargets": 0,
+  "specificity": null,
+  "v_strict": 0.0
+ },
+ "N": {
+  "tests": 189,
+  "targets": 113,
+  "sensitivity": 0.9557522123893806,
+  "contradicts_rate": 0.9380530973451328,
+  "nontargets": 302,
+  "specificity": 0.9536423841059603,
+  "v_strict": 0.42385361552028217
+ },
+ "_pooled": {
+  "sensitivity": 0.9888641425389755,
+  "specificity": 0.9909766454352441,
+  "balanced_accuracy": 0.9899203939871097,
+  "contradicts_precision": 0.7464985994397759,
+  "contradicts_labels": 714
+ }
+}

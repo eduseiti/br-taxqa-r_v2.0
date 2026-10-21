@@ -1,0 +1,18 @@
+{
+ "mode": "freeze (plan v2 §3.5.3, D10)",
+ "source": "gpt-6.1-sol.rep2",
+ "auditors": [
+  "gemini-3.1-pro",
+  "qwen3.8-max"
+ ],
+ "aligned": "gpt-6.1-sol.rep0",
+ "others": [
+  "gemini-3.1-pro.rep0",
+  "qwen3.8-max.rep0"
+ ],
+ "n_nuggets": 3175,
+ "n_dropped": 0,
+ "n_flagged_one": 134,
+ "n_flagged_both": 1,
+ "route": "openrouter"
+}
