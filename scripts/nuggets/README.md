@@ -66,7 +66,7 @@ If `.venv/bin/pip` is missing (the venv of the other machine's layout), use
 `nuggets.py` loads `.env` (repo root, gitignored) with `python-dotenv`; no shell sourcing is needed.
 
 - **Default route, `--route openrouter`:** only `OPENROUTER_API_KEY=sk-or-v1-...` is needed. The key has a
-  credit limit of **$80** (a second cap behind `--budget`) and **expires on 2026-11-20**: renew it before
+  credit limit of **$100** (raised from $80 on 2026-10-21; a second cap behind `--budget`) and **expires on 2026-11-20**: renew it before
   then, on both machines. `nuggets.py openrouter-key` prints its limit, usage and expiry (free).
 - **`--route direct`** (the preview and pilot runs, and their caches): `OPENAI_API_KEY`, `GEMINI_API_KEY`
   and `DASHSCOPE_API_KEY` (Alibaba Model Studio, **Singapore** region). Setup: plan v2 §8.
