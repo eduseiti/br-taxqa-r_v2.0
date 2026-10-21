@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import datetime as _dt
+import functools
 import gzip
 import hashlib
 import io
@@ -51,8 +52,10 @@ def now_iso() -> str:
     return _dt.datetime.now(_dt.timezone.utc).replace(microsecond=0).isoformat()
 
 
+@functools.lru_cache(maxsize=None)
 def git_info(repo: Path = REPO) -> dict:
-    """Commit and dirty flag of the repository (``None`` values outside a git checkout)."""
+    """Commit and dirty flag of the repository (``None`` values outside a git checkout); computed once
+    per process (``git status`` takes seconds on a large checkout, and a command writes many manifests)."""
     def run(*args: str) -> str | None:
         try:
             return subprocess.run(["git", "-C", str(repo), *args], capture_output=True, text=True,
@@ -66,7 +69,9 @@ def git_info(repo: Path = REPO) -> dict:
 
 
 def script_info() -> dict:
-    return {"package": "ragpipe", "version": __version__, "git": git_info(), "argv": sys.argv}
+    g = git_info()
+    return {"package": "ragpipe", "version": __version__,
+            "git": {**g, "dirty_files": list(g["dirty_files"])}, "argv": sys.argv}
 
 
 def rel(path: Path) -> str:
@@ -104,6 +109,14 @@ def write_csv(df: pd.DataFrame, path: Path) -> None:
             gz.write(data)
     else:
         path.write_bytes(data)
+
+
+def write_jsonl_gz(rows: list[dict], path: Path) -> None:
+    """Byte-reproducible JSON Lines ``.jsonl.gz`` (no file name, mtime 0)."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    data = "".join(json.dumps(r, ensure_ascii=False) + "\n" for r in rows).encode("utf-8")
+    with open(path, "wb") as raw, gzip.GzipFile(filename="", mode="wb", fileobj=raw, mtime=0, compresslevel=6) as gz:
+        gz.write(data)
 
 
 def prepare_run_dir(path: Path, config_hash: str, force: bool) -> None:

@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "kind": "retrieval_evaluation",
+  "created_at": "2026-10-21T21:19:31+00:00",
+  "script": {
+    "package": "ragpipe",
+    "version": "0.1.0",
+    "git": {
+      "commit": "50a2f6467e3c30f2ed403ac7030021bf462157e0",
+      "dirty": true,
+      "dirty_files": [
+        "gitignore",
+        "CLAUDE.md",
+        "scripts/rag/README.md",
+        "scripts/rag/rag.py",
+        "scripts/rag/ragpipe/context.py",
+        "scripts/rag/ragpipe/data.py",
+        "scripts/rag/ragpipe/evaluation.py",
+        "scripts/rag/ragpipe/runs.py",
+        "scripts/rag/tests/test_pipeline.py",
+        "scripts/rag/tests/test_units.py",
+        "docs/20261021_210251_rag_phase2_contexts_execution.md",
+        "runs/retrieval/jua-4b-mixed/irpf/eval/either_containment_merge_skip/",
+        "scripts/rag/prompts/",
+        "scripts/rag/ragpipe/contexts.py",
+        "scripts/rag/tests/test_contexts.py"
+      ]
+    },
+    "argv": [
+      "scripts/rag/rag.py",
+      "evaluate",
+      "--retrieval",
+      "runs/retrieval/jua-4b-mixed/irpf",
+      "--force"
+    ]
+  },
+  "config_hash": "7ded05fc7e12e125178df5c6733f916446269aac6bb3dd3e7654927b221b9f43",
+  "eval_id": "either_containment_merge_skip",
+  "params": {
+    "annex_rule": "either",
+    "budgets": [
+      1000,
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "unit_ks": [
+      1,
+      3,
+      5,
+      10,
+      20,
+      50,
+      100
+    ],
+    "raw_ks": [
+      1,
+      5,
+      10,
+      20,
+      50,
+      100,
+      1000
+    ],
+    "dedup": "containment_merge",
+    "overflow": "skip",
+    "token_counter": "qwen3",
+    "gain": "binary",
+    "max_unit_position": 1000,
+    "comparisons": [
+      [
+        "S1",
+        "S2"
+      ],
+      [
+        "S2",
+        "S3"
+      ],
+      [
+        "S2",
+        "S2c"
+      ],
+      [
+        "S3",
+        "S4"
+      ],
+      [
+        "S1",
+        "S2c"
+      ]
+    ],
+    "n_resamples": 10000,
+    "seed": 13,
+    "strategies": [
+      "S1",
+      "S2",
+      "S3",
+      "S2c",
+      "S4"
+    ]
+  },
+  "inputs": {
+    "retrieval_manifest": {
+      "path": "runs/retrieval/jua-4b-mixed/irpf/manifest.json",
+      "config_hash": "6d12aed5ce72c0a65481b40960015057ab1828ee978cb6b2673232a7bac0aa13"
+    },
+    "chunks": {
+      "path": "segmented/chunks_all.csv.gz",
+      "sha256": "a6087b7f19ff5b02cc0863523b6dd423f6feddf291fe9f11e7f08d45146c326a"
+    },
+    "questions": {
+      "path": "dataset/questions.jsonl",
+      "sha256": "5612b1eb2adc096107f61e366a09088332db0cc47a5a97ae0f1abb7c09a05baa"
+    },
+    "references": {
+      "path": "dataset/references.jsonl",
+      "sha256": "ffc7e6b748f68b428b124dc5a3baa7e0d57aaaef419f7d50ff2596bd62aec9f7"
+    },
+    "documents": {
+      "path": "dataset/documents.jsonl",
+      "sha256": "5b7c5b42020046c420eb89fff56c945481a14aceb4cb28970f85eb5b21ee73aa"
+    },
+    "chapters": {
+      "path": "scripts/rag/data/pr_irpf_2024_chapters.csv",
+      "sha256": "d11588869d03c90793e6c1ba6d154935b1184e4444c15817f0affa666208c5e4"
+    }
+  },
+  "retrieval": {
+    "embedding": {
+      "slug": "jua-4b-mixed",
+      "model_id": "ufca-llms/jua-4B-mixed",
+      "revision": "57f491c1718171c0ad71d723c4f6b2030684c4eb",
+      "dim": 2560,
+      "instruction_name": "irpf",
+      "instruction": "Given a question about Brazilian personal income tax (IRPF), retrieve the legal provisions that answer it",
+      "query_template": "Instruct: {instruction}\nQuery: {text}",
+      "document_template": "{text}"
+    },
+    "retriever": {
+      "name": "dense",
+      "similarity": "cosine (dot product of L2-normalized float32 vectors)",
+      "search": "exact brute force",
+      "tie_break": "text_id ascending",
+      "block_size": 128
+    },
+    "top_n": 1000
+  },
+  "gold": {
+    "questions_with_gold": {
+      "document": 596,
+      "article": 553,
+      "provision": 558
+    },
+    "gold_items": {
+      "document": 1724,
+      "article": 1958,
+      "provision": 2230
+    },
+    "references": 1916,
+    "references_not_in_corpus": 0
+  },
+  "outputs": {
+    "metrics.csv": {
+      "sha256": "6d319576dead2a697a518519f17220ae90f83d5d87a8f94e7e391b742652e901"
+    },
+    "metrics_by_chapter.csv.gz": {
+      "sha256": "c27323c18587db5a4e5fc73332d4eb76f2d6865a5726d14b0a823aa13983144d"
+    },
+    "comparisons.csv": {
+      "sha256": "e0c061760a9d1e59d5e25d2c65df2574efb969835154417b58b73568ce812f7e"
+    },
+    "reachability.csv": {
+      "sha256": "253f415d8be6385a67024928935c4d0aae0f572667f77c2ff547b930035959eb"
+    },
+    "per_question.csv.gz": {
+      "sha256": "3f61733d5640b897ce8991b39e66ad23463b4590a9846a304e320c552b93afd6"
+    },
+    "per_item.csv.gz": {
+      "sha256": "d7374fbb7b59a8c94731148265b9d293c5208da788d2f1e9c90cc1d989032d72"
+    }
+  },
+  "timings_s": {
+    "load": 1.79,
+    "score": 105.87,
+    "aggregate": 13.48,
+    "total": 129.26
+  }
+}

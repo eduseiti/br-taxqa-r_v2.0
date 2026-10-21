@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """RAG pipeline of the BR-TaxQA-R v2.0 segmentation experiment — Phase 1: retrieval and its
-evaluation (the legal-provision test).
+evaluation (the legal-provision test); Phase 2: generator contexts.
 
 Plan: docs/20260927_204356_rag_pipeline_implementation_plan.md. Usage (from the repository root):
 
@@ -9,6 +9,8 @@ Plan: docs/20260927_204356_rag_pipeline_implementation_plan.md. Usage (from the 
   python scripts/rag/rag.py evaluate --retrieval runs/retrieval/jua-4b-mixed/irpf [--annex-rule either]
   python scripts/rag/rag.py compare  --retrieval runs/retrieval/jua-4b-mixed/irpf --a S1 --b S2
   python scripts/rag/rag.py report   --eval runs/retrieval/jua-4b-mixed/irpf/eval/either_containment_skip
+  python scripts/rag/rag.py context  --retrieval runs/retrieval/jua-4b-mixed/irpf [--sets S2@budget=4000,closed_book]
+  python scripts/rag/rag.py show-context --context runs/contexts/jua-4b-mixed/irpf/S2_budget4000 --questions 012
 """
 
 from __future__ import annotations
@@ -25,6 +27,7 @@ sys.path.insert(0, str(HERE))
 
 import pandas as pd  # noqa: E402
 
+from ragpipe.contexts import DEFAULT_SETS, ContextConfig, load_contexts, run_contexts  # noqa: E402
 from ragpipe.data import (InputError, Paths, check_inputs, default_instruction, load_chunks,  # noqa: E402
                           load_dataset, load_embedding)
 from ragpipe.evaluation import EvalConfig, compare, run_evaluation  # noqa: E402
@@ -118,6 +121,36 @@ def cmd_report(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_context(args: argparse.Namespace) -> int:
+    paths = paths_from(args)
+    cfg = ContextConfig(sets=tuple(str_list(args.sets)), dedup=args.dedup, overflow=args.overflow, order=args.order,
+                        template=args.template, annex_rule=args.annex_rule, oracle_strategy=args.oracle_strategy,
+                        seed=args.seed, count_tokens=not args.no_token_count, eval_id=args.eval_id, force=args.force)
+    out = run_contexts(Path(args.retrieval), cfg, paths)
+    print(f"contexts written under {rel(out)} (see summary.csv)")
+    return 0
+
+
+def cmd_show_context(args: argparse.Namespace) -> int:
+    lines = {ln["question_number"]: ln for ln in load_contexts(Path(args.context))}
+    for q in str_list(args.questions):
+        ln = lines.get(q)
+        if ln is None:
+            raise InputError(f"question {q} not in {args.context}")
+        cov = "; ".join(f"{lv} {len(c['full'])}/{c['n']}" for lv, c in ln["gold"].items() if c["n"])
+        print(f"## {ln['context_id']} — question {q}" + (f" (donor {ln['donor_question']})" if "donor_question" in ln
+                                                        else ""))
+        print(f"{ln['n_texts']} texts, {ln['context_tokens_qwen3']} text tokens, "
+              f"{ln['rendered_tokens_qwen3']} rendered tokens (Qwen3); gold in context: {cov or 'no gold'}\n")
+        for it in ln["items"]:
+            print(f"  {it['n']:>3}  rank {it['rank'] if it['rank'] is not None else '-':>4}  {it['tokens_qwen3']:>5} tok  "
+                  f"{it['chunk_id']}  {it['fonte']}")
+        if not args.no_text:
+            print("\n" + (ln["context"] if args.max_chars <= 0 else ln["context"][:args.max_chars]))
+        print()
+    return 0
+
+
 # ------------------------------------------------------------------------------------------------
 # Parser
 # ------------------------------------------------------------------------------------------------
@@ -166,10 +199,10 @@ def build_parser() -> argparse.ArgumentParser:
     sp.add_argument("--budgets", default="1000,2000,4000,8000,16000", help="token budgets (Qwen3 tokens)")
     sp.add_argument("--unit-ks", default="1,3,5,10,20,50,100", help="cutoffs of the unit-projection view")
     sp.add_argument("--raw-ks", default="1,5,10,20,50,100,1000", help="cutoffs of the raw-rank view")
-    sp.add_argument("--dedup", choices=("containment", "none"), default="containment")
+    sp.add_argument("--dedup", choices=("containment_merge", "containment", "none"), default="containment_merge")
     sp.add_argument("--overflow", choices=("skip", "stop"), default="skip")
     sp.add_argument("--strategies", help="comma list (default: all in the retrieval run)")
-    sp.add_argument("--comparisons", help="pairs A:B, comma separated (default S1:S2,S2:S3)")
+    sp.add_argument("--comparisons", help="pairs A:B, comma separated (default S1:S2,S2:S3,S2:S2c,S3:S4,S1:S2c)")
     sp.add_argument("--resamples", type=int, default=10_000)
     sp.add_argument("--seed", type=int, default=13)
     sp.add_argument("--eval-id", help="output name under eval/ (default <annex_rule>_<dedup>_<overflow>)")
@@ -195,6 +228,36 @@ def build_parser() -> argparse.ArgumentParser:
                                       "runs/retrieval/jua-4b-mixed/irpf/eval/either_containment_skip"))
     sp.add_argument("--eval", required=True, help="evaluation directory")
     sp.set_defaults(func=cmd_report)
+
+    sp = sub.add_parser("context", help="stage C: build the generator contexts (plan §6)", formatter_class=fmt,
+                        epilog=epilog("python scripts/rag/rag.py context --retrieval runs/retrieval/jua-4b-mixed/irpf "
+                                      "--sets S1@budget=4000,S2@budget=4000,closed_book,oracle@budget=4000"))
+    sp.add_argument("--retrieval", required=True, help="retrieval run directory")
+    sp.add_argument("--sets", default=",".join(DEFAULT_SETS),
+                    help="context sets: <strategy>@budget=<tokens> | <strategy>@k=<n> | closed_book | "
+                         "oracle@<cutoff> | wrong:<strategy>@<cutoff> (default: the pilot grid)")
+    sp.add_argument("--dedup", choices=("containment_merge", "containment", "none"), default="containment_merge")
+    sp.add_argument("--overflow", choices=("skip", "stop"), default="skip")
+    sp.add_argument("--order", choices=("score", "document"), default="score",
+                    help="order of the selected texts in the context (default: retrieval score)")
+    sp.add_argument("--template", default="context_v1", help="prompts/<name>.pt.md (default context_v1)")
+    sp.add_argument("--annex-rule", choices=ANNEX_RULES, default="either", help="G3 rule for gold coverage and oracle")
+    sp.add_argument("--oracle-strategy", default="S1", help="units of the oracle context (default S1: articles)")
+    sp.add_argument("--seed", type=int, default=13, help="seed of the wrong-context donors")
+    sp.add_argument("--eval-id", help="evaluation for the consistency check (default: a matching one)")
+    sp.add_argument("--no-token-count", action="store_true", help="skip Qwen3 counts of the rendered contexts")
+    sp.add_argument("--force", action="store_true", help="replace context sets made with another configuration")
+    common(sp)
+    sp.set_defaults(func=cmd_context)
+
+    sp = sub.add_parser("show-context", help="print the contexts of some questions", formatter_class=fmt,
+                        epilog=epilog("python scripts/rag/rag.py show-context --context "
+                                      "runs/contexts/jua-4b-mixed/irpf/S2_budget4000 --questions 012,345"))
+    sp.add_argument("--context", required=True, help="context set directory")
+    sp.add_argument("--questions", required=True, help="comma list of question numbers")
+    sp.add_argument("--no-text", action="store_true", help="list the items only")
+    sp.add_argument("--max-chars", type=int, default=0, help="truncate the rendered context (0: full)")
+    sp.set_defaults(func=cmd_show_context)
     return p
 
 

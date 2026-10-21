@@ -69,7 +69,9 @@ than expected.
 - **`runs/`** — RAG pipeline outputs (`scripts/rag/rag.py`): `retrieval/<embedding>/<instruction>/`
   holds the rankings per strategy and `eval/<eval_id>/` the legal-provision retrieval test
   (`report.md`, `metrics.csv`). Only manifests and small result files are in git. Rankings and
-  per-question tables are regenerated in about 30 s (`retrieve` + `evaluate`).
+  per-question tables are regenerated in about 30 s (`retrieve` + `evaluate`). `contexts/<embedding>/<instruction>/`
+  holds the generator contexts (RAG Phase 2, `rag.py context`, ≈ 70 s; `summary.csv` and manifests in git):
+  `docs/20261021_210251_rag_phase2_contexts_execution.md`.
 - **`nuggets/`** — nugget pipeline outputs (`scripts/nuggets/nuggets.py`), one folder per run
   (`preview/`, `preview_v2/`, `preview_v3/`; `pilot/` next): nuggets, validation, self-score
   labels, the cost ledger `costs.csv` and `report.md`. Raw API responses (`cache/`) and the input

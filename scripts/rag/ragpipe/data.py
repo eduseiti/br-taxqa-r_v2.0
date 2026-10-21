@@ -27,6 +27,8 @@ log = logging.getLogger("ragpipe")
 CHUNK_COLS = ["chunk_id", "Tipo", "arquivo", "categoria", "doc_urn", "unidade_id", "artigo_id", "citacao",
               "parte", "n_partes", "cobre_ids", "parcial_ids", "id_ambiguo", "n_tokens_qwen3",
               "Num_Inicio", "Num_Final", "variante"]
+#: Extra columns loaded with ``with_text=True`` (context rendering, plan §6.2).
+TEXT_COLS = ["Texto", "Rotulo", "anexo_urn", "texto_sha256"]
 INT_COLS = ["parte", "n_partes", "id_ambiguo", "n_tokens_qwen3", "Num_Inicio", "Num_Final"]
 
 
@@ -59,9 +61,12 @@ def load_chunks(path: Path, with_text: bool = False) -> pd.DataFrame:
     if not Path(path).exists():
         raise InputError(f"chunk file {rel(path)} not found; run scripts/segmentation/segment_all.py "
                          "or download segmented/chunks_all.csv.gz from the Hub")
-    cols = CHUNK_COLS + (["Texto", "Rotulo"] if with_text else [])
+    cols = CHUNK_COLS + (TEXT_COLS if with_text else [])
     header = pd.read_csv(path, dtype=str, nrows=0).columns
     df = pd.read_csv(path, dtype=str, keep_default_na=False, usecols=[c for c in cols if c in header])
+    for c in TEXT_COLS:
+        if c in cols and c not in df.columns:
+            df[c] = ""
     if "variante" not in df.columns:  # chunk files from before the caput plan: one text per unit
         df["variante"] = "base"
     df = df[cols]

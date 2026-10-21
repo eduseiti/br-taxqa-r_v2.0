@@ -61,10 +61,10 @@ class EvalConfig:
     budgets: tuple[int, ...] = (1000, 2000, 4000, 8000, 16000)
     unit_ks: tuple[int, ...] = (1, 3, 5, 10, 20, 50, 100)
     raw_ks: tuple[int, ...] = (1, 5, 10, 20, 50, 100, 1000)
-    dedup: str = "containment"
+    dedup: str = "containment_merge"
     overflow: str = "skip"
     strategies: list[str] | None = None
-    comparisons: tuple[tuple[str, str], ...] = (("S1", "S2"), ("S2", "S3"))
+    comparisons: tuple[tuple[str, str], ...] = (("S1", "S2"), ("S2", "S3"), ("S2", "S2c"), ("S3", "S4"), ("S1", "S2c"))
     n_resamples: int = 10_000
     seed: int = 13
     eval_id: str | None = None

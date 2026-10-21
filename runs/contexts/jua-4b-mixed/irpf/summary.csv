@@ -1,0 +1,14 @@
+context_id,dedup,overflow,order,template,annex_rule,oracle_strategy,seed,token_counter,set,strategy,cutoff,questions,empty_contexts,mean_texts,mean_context_tokens_qwen3,mean_rendered_tokens_qwen3,mean_rendered_chars,document_questions,document_recall,document_hit,article_questions,article_recall,article_hit,provision_questions,provision_recall,provision_hit,consistency_mismatches
+S1_budget2000,containment_merge,skip,score,context_v1,either,S1,13,qwen3,retrieval,S1,budget=2000,715,0,6.271,1985,2244.8,6729.2,596,0.479593,0.776846,553,0.266081,0.466546,558,0.239613,0.435484,0
+S1_budget4000,containment_merge,skip,score,context_v1,either,S1,13,qwen3,retrieval,S1,budget=4000,715,0,11.084,3983.6,4447.3,13374,596,0.605797,0.86745,553,0.383486,0.605787,558,0.35329,0.577061,0
+S1_budget8000,containment_merge,skip,score,context_v1,either,S1,13,qwen3,retrieval,S1,budget=8000,715,0,20.951,7984.7,8869.1,26719.6,596,0.71763,0.927852,553,0.480307,0.707052,558,0.456279,0.682796,0
+S2_budget2000,containment_merge,skip,score,context_v1,either,S1,13,qwen3,retrieval,S2,budget=2000,715,0,7.141,1983.5,2294,6750.7,596,0.588662,0.870805,553,0.40192,0.629295,558,0.283866,0.480287,0
+S2_budget4000,containment_merge,skip,score,context_v1,either,S1,13,qwen3,retrieval,S2,budget=4000,715,0,12.576,3983.7,4532.2,13398.3,596,0.682982,0.926174,553,0.494819,0.719711,558,0.404185,0.629032,0
+S2_budget8000,containment_merge,skip,score,context_v1,either,S1,13,qwen3,retrieval,S2,budget=8000,715,0,24.027,7983.8,9035,26761,596,0.771837,0.954698,553,0.586787,0.808318,558,0.506652,0.732975,0
+S2c_budget4000,containment_merge,skip,score,context_v1,either,S1,13,qwen3,retrieval,S2c,budget=4000,715,0,11.592,3982.8,4482.8,13341.1,596,0.666441,0.917785,553,0.468044,0.703436,558,0.401725,0.62724,0
+S3_budget4000,containment_merge,skip,score,context_v1,either,S1,13,qwen3,retrieval,S3,budget=4000,715,0,11.561,3983.5,4500.3,13368.6,596,0.674341,0.916107,553,0.493948,0.707052,558,0.409265,0.620072,0
+S4_budget4000,containment_merge,skip,score,context_v1,either,S1,13,qwen3,retrieval,S4,budget=4000,715,0,10.641,3983.1,4455.6,13323.9,596,0.65468,0.902685,553,0.467501,0.699819,558,0.407999,0.62724,0
+closed_book,containment_merge,skip,score,context_v1,either,S1,13,qwen3,closed_book,,,715,715,0,0,0,0,596,0,0,553,0,0,558,0,0,
+oracle_budget16000,containment_merge,skip,score,context_v1,either,S1,13,qwen3,oracle,,budget=16000,715,119,10.627,4979,5443,16178.3,596,0.974031,1,553,0.94626,0.980108,558,0.924695,0.969534,
+oracle_budget4000,containment_merge,skip,score,context_v1,either,S1,13,qwen3,oracle,,budget=4000,715,119,4.703,2062,2264.6,6806.3,596,0.884264,1,553,0.802903,0.902351,558,0.7695,0.879928,
+wrong-S2_budget4000,containment_merge,skip,score,context_v1,either,S1,13,qwen3,wrong,S2,budget=4000,715,0,12.108,3983.7,4511.9,13386.4,596,0,0,553,0,0,558,0,0,

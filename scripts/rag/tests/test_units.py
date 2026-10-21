@@ -141,14 +141,26 @@ def test_containment_dedup_and_budget():
     tokens = np.array([500, 100, 300, 400, 50])
     iv = [[(0, 1, 10)], [(0, 3, 4)], [(1, 1, 2)], [(0, 20, 30)], [(0, 21, 22)]]
     ranked = [0, 1, 2, 4, 3]
-    assert select(ranked, tokens, iv, Cutoff("k", 5)) == [0, 2, 3, 4]              # inciso 1 dropped
+    assert select(ranked, tokens, iv, Cutoff("k", 5), dedup="containment") == [0, 2, 3, 4]              # inciso 1 dropped
     assert select(ranked, tokens, iv, Cutoff("k", 5), dedup="none") == [0, 1, 2, 3, 4]
     # budget 900: 500 + (inciso dropped) + 300 = 800; 50 fits (850); 400 does not
-    assert select(ranked, tokens, iv, Cutoff("budget", 900)) == [0, 2, 3]
+    assert select(ranked, tokens, iv, Cutoff("budget", 900), dedup="containment") == [0, 2, 3]
     # overflow=stop halts at the first text that does not fit; skip keeps filling
-    assert select([0, 3, 2, 4], tokens, iv, Cutoff("budget", 850), overflow="stop") == [0]
-    assert select([0, 3, 2, 4], tokens, iv, Cutoff("budget", 850), overflow="skip") == [0, 2, 3]
-    assert select([], tokens, iv, Cutoff("budget", 900)) == []
+    assert select([0, 3, 2, 4], tokens, iv, Cutoff("budget", 850), overflow="stop", dedup="containment") == [0]
+    assert select([0, 3, 2, 4], tokens, iv, Cutoff("budget", 850), overflow="skip", dedup="containment") == [0, 2, 3]
+    assert select([], tokens, iv, Cutoff("budget", 900), dedup="containment") == []
+
+
+def test_containment_merge():
+    tokens = np.array([500, 100, 300, 400, 50])
+    iv = [[(0, 1, 10)], [(0, 3, 4)], [(1, 1, 2)], [(0, 20, 30)], [(0, 21, 22)]]
+    ranked = [0, 1, 2, 4, 3]
+    m = dict(dedup="containment_merge")
+    assert select(ranked, tokens, iv, Cutoff("k", 5), **m) == [0, 2, 4]            # parent 3 replaces child 4
+    assert select(ranked, tokens, iv, Cutoff("budget", 900), **m) == [0, 2, 3]     # 850 used; 3 needs 400 − 50
+    assert select(ranked, tokens, iv, Cutoff("budget", 1200), **m) == [0, 2, 4]
+    # the parent takes the place of its first child: ranked texts 4, 0, 3 → context 3, 0
+    assert select([4, 0, 3], tokens, iv, Cutoff("k", 5), **m) == [2, 1]
 
 
 def test_cutoff_parse():

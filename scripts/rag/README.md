@@ -4,8 +4,10 @@ Tests whether **hierarchical segmentation** of the legal documents cited by the 
 Respostas IRPF 2024* gives better chunks for answering its questions. This directory holds the
 pipeline code. Design: `docs/20260927_204356_rag_pipeline_implementation_plan.md`.
 
-**Status: Phase 1 (retrieval and its evaluation, "the legal-provision test").** Context formatting
-(Phase 2) and answer generation (Phase 3) are not implemented yet.
+**Status: Phase 1 (retrieval and its evaluation, "the legal-provision test") and Phase 2 (generator
+contexts, `context`).** Answer generation (Phase 3) is not implemented yet. Phase 2 run and decisions:
+`docs/20261021_210251_rag_phase2_contexts_execution.md`; the first evaluation's plan, costs and grounding
+safeguards: `docs/20261021_194457_first_rag_evaluation_readiness_costs_and_grounding.md`.
 
 ## Stages
 
@@ -22,6 +24,7 @@ Stages talk only through files, so each one can be rerun, replaced or released o
 |---|---|---|
 | R — retrieve | `segmented/chunks_all.csv.gz`, `embeddings/<model>/…`, `dataset/questions.jsonl` | `runs/retrieval/<model>/<instruction>/<strategy>/rankings.csv.gz` |
 | RE — evaluate | rankings, chunks, `dataset/references.jsonl` + `documents.jsonl` | `runs/retrieval/<model>/<instruction>/eval/<eval_id>/…` |
+| C — context | rankings, chunks (with text), dataset, `prompts/context_v1.pt.md` | `runs/contexts/<model>/<instruction>/<context_id>/contexts.jsonl.gz` |
 
 ## Install
 
@@ -43,7 +46,15 @@ R=scripts/rag/rag.py
 .venv/bin/python $R compare  --retrieval runs/retrieval/jua-4b-mixed/irpf --a S1 --b S2
 ```
 
-Then read `runs/retrieval/jua-4b-mixed/irpf/eval/either_containment_skip/report.md`.
+Then read `runs/retrieval/jua-4b-mixed/irpf/eval/either_containment_merge_skip/report.md`.
+
+Phase 2, the generator contexts (≈ 70 s for the 12 pilot sets × 715 questions, half of it loading):
+
+```bash
+.venv/bin/python $R context --retrieval runs/retrieval/jua-4b-mixed/irpf        # the pilot sets (below)
+.venv/bin/python $R context --retrieval runs/retrieval/jua-4b-mixed/irpf --sets S2@budget=16000,oracle@budget=8000
+.venv/bin/python $R show-context --context runs/contexts/jua-4b-mixed/irpf/S2_budget4000 --questions 012,345
+```
 
 Options (every subcommand has `--help` with an example):
 
@@ -51,9 +62,11 @@ Options (every subcommand has `--help` with an example):
 |---|---|
 | `check` | `--embedding` (required), `--instruction` (default `irpf`, or the only one), `--no-hash` |
 | `retrieve` | `--strategies S1,S2,S3,S2c,S4`, `--top-n 1000`, `--force` (replace a run made with other settings) |
-| `evaluate` | `--annex-rule {either,main_first}`, `--budgets 1000,…,16000`, `--unit-ks`, `--raw-ks`, `--dedup {containment,none}`, `--overflow {skip,stop}`, `--comparisons S1:S2,S2:S3`, `--eval-id` |
+| `evaluate` | `--annex-rule {either,main_first}`, `--budgets 1000,…,16000`, `--unit-ks`, `--raw-ks`, `--dedup {containment,containment_merge,none}`, `--overflow {skip,stop}`, `--comparisons S1:S2,S2:S3`, `--eval-id` |
 | `compare` | `--a`, `--b`, `--views budget,unit,raw`, `--eval-id` |
 | `report` | `--eval <eval dir>` (regenerate `report.md`) |
+| `context` | `--sets` (specs below), `--dedup`, `--overflow`, `--order {score,document}`, `--template`, `--annex-rule`, `--oracle-strategy S1`, `--seed`, `--eval-id`, `--no-token-count`, `--force` |
+| `show-context` | `--context <set dir>`, `--questions`, `--no-text`, `--max-chars` |
 
 Input locations default to the repository layout and can be changed with `--chunks`, `--dataset`,
 `--embeddings-dir`, `--runs-dir` and `--strategies-file`.
@@ -110,6 +123,52 @@ slice: `all`, `explicit`/`embedded` (origin of the reference), `statutory`/`non_
 **Paired comparisons** (S1 vs S2, S2 vs S3): mean per-question difference, with a 95 % paired
 bootstrap CI (10,000 resamples, seed 13) and a two-sided sign-flip permutation p-value.
 
+## Contexts (Phase 2)
+
+A **context set** is one way of building the context of every question (`--sets`, comma list):
+
+| Spec | Context id | Context |
+|---|---|---|
+| `S2@budget=4000` | `S2_budget4000` | the strategy's ranking cut by the budget selection (containment de-duplication, `skip` overflow): **the same texts as the evaluation's budget view** |
+| `S3@k=10` | `S3_k10` | the first k texts after de-duplication |
+| `closed_book` | `closed_book` | empty: what the generator knows without retrieval |
+| `oracle@budget=4000` | `oracle_budget4000` | the question's gold articles (rules G1–G3, annex rule) as S1 article units, plus the chunks of gold documents with no gold article; ordered by S1 rank (unranked after, in file order), cut by the budget. A gold document none of whose gold articles is matchable (e.g. a treaty's "art. IX") adds its chunks. Empty for the 119 questions without resolved gold |
+| `wrong:S2@budget=4000` | `wrong-S2_budget4000` | the S2 context of a **donor** question: another P&R chapter, no shared gold document, no chunk of the question's gold documents in the donor context (seeded permutation). Control for answers from the model's own knowledge |
+
+The default `--sets` is the pilot grid: S1, S2, S3, S2c, S4 at 4k; S1, S2 at 2k and 8k; closed-book;
+oracle at 4k; wrong S2 at 4k. Non-default options add a suffix to the id (`S2_budget4000_order-document`).
+
+**Rendering** (`prompts/context_v1.pt.md`): one block per text, joined by a blank line:
+
+```
+[Documento 1] INSTRUÇÃO NORMATIVA Nº 1.500, DE 29 DE OUTUBRO DE 2014 — Receita Federal do Brasil — Art. 3º, § 1º
+[ INSTRUÇÃO NORMATIVA Nº 1.500, … | Dispõe sobre … ] Art. 3º … § 1º …
+```
+
+The header is the document title, the issuing body when the title lacks it (RFB/SRF acts), `Anexo`
+for annex chunks, the chunk's citation path (`citacao`) and `(parte p de n)` for a split article.
+The budget counts only the chunk texts (`n_tokens_qwen3`); the headers add ≈ 10–17 % (S1 ≈ 11 %, S2 ≈ 15 %
+at 4k: more, shorter texts); the rendered Qwen3 count is in each line (`rendered_tokens_qwen3`).
+
+**De-duplication** (`--dedup`, also an `evaluate` option): **`containment_merge` (default since 2026-10-21)**
+drops a text inside an already selected chunk, and lets a parent ranked *after* its selected children
+replace them (in the first child's place; it needs only its extra tokens), so no text repeats.
+`containment` (the Phase 1 rule, eval `v2d_either_containment_skip`) keeps such a parent next to its
+child, whose text is then sent twice (9–15 % of the 4k context in S2–S4). `none` keeps everything.
+Effect on the legal-provision test: Phase 2 note §4.
+
+**Budget fill** (`--overflow`): texts are taken in rank order and never truncated. With `skip` (default)
+a text that does not fit the remaining budget is passed over and filling goes on with lower-ranked texts
+that fit, until no remaining candidate fits; with `stop` filling ends at the first text that does not fit.
+So a context is at most the budget: at 4k, 16 tokens short on average (max ≈ 70). The late, small texts
+that fill the gap can come from deep ranks (S2 4k: median deepest rank 36, p90 333), but they carry only
+1–6 % of the context tokens.
+
+**Gold coverage per context** (`gold` field): for each level, the gold items fully (`full`) or partly
+(`any`) held by the context, by the evaluation's rules. For retrieval sets it is checked against the
+evaluation's `budget_full_<B>` (`consistency_with_evaluation` in the manifest: 0 mismatches expected).
+It is the per-question link between retrieval and answer scores (phase 5).
+
 ## Output formats
 
 `runs/retrieval/<embedding>/<instruction>/`:
@@ -126,6 +185,14 @@ bootstrap CI (10,000 resamples, seed 13) and a two-sided sign-flip permutation p
 | `eval/<eval_id>/metrics_by_chapter.csv.gz` | as `metrics.csv`, with `slice = chapter:<name>` | no |
 | `eval/<eval_id>/per_question.csv.gz` | one row per question × strategy × level × view × cutoff × gold set (for other tests) | no |
 | `eval/<eval_id>/per_item.csv.gz` | one row per gold item × strategy: `rank_full`, `rank_any`, `unit_pos`, `budget_full_<B>`, `budget_any_<B>`, reachability flags | no |
+
+`runs/contexts/<embedding>/<instruction>/`:
+
+| File | Content | In git |
+|---|---|---|
+| `summary.csv` | one row per context set: options, counts, mean texts / tokens, gold recall and hit per level, consistency mismatches | yes |
+| `<context_id>/manifest.json` | parameters, input hashes (retrieval manifest, chunks, dataset, template), counts, donor rule, consistency check | yes |
+| `<context_id>/contexts.jsonl.gz` | one line per question: `context_id, question_number, kind, [donor_question], n_texts, context_tokens_qwen3, rendered_tokens_qwen3, rendered_chars, items[{n, text_id, chunk_id, alias_chunk_ids, rank, score, document_id, arquivo, tipo, citacao, tokens_qwen3, fonte}], gold{level: {n, full, any}}, context` | no (Hub) |
 
 Example lines:
 
@@ -161,7 +228,9 @@ ragpipe/strategies.py  strategy filters, text ↔ chunk aliasing
 ragpipe/retrievers/    Retriever protocol, dense retriever
 ragpipe/retrieval.py   stage R driver
 ragpipe/relevance.py   gold items and the gold ↔ chunk matcher (shared with answer evaluation)
-ragpipe/context.py     containment de-duplication, k / budget selection
+ragpipe/context.py     containment de-duplication, k / budget selection, header and template rendering
+ragpipe/contexts.py    stage C driver: context sets, oracle, wrong-context donors, gold coverage
+prompts/               context_v1.pt.md (context template)
 ragpipe/metrics.py     IR metrics, paired bootstrap / permutation
 ragpipe/evaluation.py  stage RE driver and aggregation
 ragpipe/report.py      metrics → markdown

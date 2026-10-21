@@ -78,7 +78,7 @@ def test_evaluation_metrics(repo):
     assert set(m["gold"]) == {"all", "reachable"}
     assert {"explicit", "embedded", "annex_A"} <= set(m["slice"])
     comp = pd.read_csv(edir / "comparisons.csv")
-    assert set(zip(comp["a"], comp["b"])) == {("S1", "S2"), ("S2", "S3")}
+    assert set(zip(comp["a"], comp["b"])) == {("S1", "S2"), ("S2", "S3"), ("S2", "S2c"), ("S3", "S4"), ("S1", "S2c")}
     assert (edir / "report.md").read_text().startswith("# Retrieval evaluation — fake / irpf")
     chap = pd.read_csv(edir / "metrics_by_chapter.csv.gz")
     assert set(chap["slice"]) == {"chapter:A", "chapter:B"}
@@ -115,7 +115,7 @@ def test_annex_rule_main_first(repo):
     rdir, _ = run_all(repo)
     edir = run_evaluation(rdir, EvalConfig(annex_rule="main_first", budgets=(16000,), unit_ks=(1,), raw_ks=(1,),
                                            n_resamples=100), repo)
-    assert edir.name == "main_first_containment_skip"
+    assert edir.name == "main_first_containment_merge_skip"
     it = pd.read_csv(edir / "per_item.csv.gz", dtype={"question_number": str})
     a1 = it[(it.level == "article") & (it.item == "decreto_9_20000101|art1")]
     assert a1["main_and_annex"].all()
