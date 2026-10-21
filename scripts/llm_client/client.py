@@ -1,5 +1,6 @@
-"""Providers ``openai`` (Responses API), ``gemini`` (REST generateContent) and ``openai_compat``
-(Chat Completions, e.g. Alibaba Model Studio for Qwen), a disk cache and a cost ledger."""
+"""Providers ``openai`` (Responses API), ``gemini`` (REST generateContent), ``openai_compat``
+(Chat Completions, e.g. Alibaba Model Studio for Qwen) and ``openrouter`` (Chat Completions through
+OpenRouter, pinned upstream provider), a disk cache and a cost ledger."""
 from __future__ import annotations
 
 import csv
@@ -16,6 +17,7 @@ import httpx
 import yaml
 
 GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+OPENROUTER = "https://openrouter.ai/api/v1"
 _ledger_lock = threading.Lock()
 
 
@@ -31,6 +33,14 @@ class BatchDeferred(LLMError):
     """Batch mode: the request was not in the cache and was queued for a batch job instead of called."""
 
 
+class CreditsExhausted(LLMError):
+    """OpenRouter HTTP 402: the key's credit limit or the account balance is used up. Not retried."""
+
+
+class RouteMismatch(LLMError):
+    """OpenRouter served the request from another upstream provider than the registry pins."""
+
+
 class QuotaExhausted(LLMError):
     """A per-day provider quota (e.g. Gemini 3.1 Pro: 250 requests per model per day on our tier).
     Not retried: waiting minutes does not help."""
@@ -40,13 +50,41 @@ BATCH_TAG = "batch:"     # ledger rows of batch results: tag prefix; billed at B
 BATCH_DISCOUNT = 0.5     # OpenAI and Gemini Batch APIs (registry batch_discount; checked at submit)
 
 
+LEDGER_FIELDS = ["ts", "model", "served", "tag", "attempt", "finish", "input", "cached_input", "output",
+                 "reasoning", "usd_standard", "latency_s", "route", "provider_served", "usd_billed"]
+
+
+def row_billed(r: dict) -> float:
+    """Billed USD of one ledger row: ``usd_billed`` when the provider reported it (OpenRouter), else
+    ``usd_standard`` (the synchronous list price), batch rows at half."""
+    if r.get("usd_billed") not in (None, ""):
+        return float(r["usd_billed"])
+    return float(r["usd_standard"]) * ((1 - BATCH_DISCOUNT) if r["tag"].startswith(BATCH_TAG) else 1)
+
+
 def ledger_total(ledger: Path) -> float:
-    """Billed USD so far: ``usd_standard`` is always the synchronous price; batch rows count at half."""
+    """Billed USD so far (``row_billed`` summed)."""
     if not Path(ledger).exists():
         return 0.0
     with open(ledger, newline="") as f:
-        return sum(float(r["usd_standard"]) * ((1 - BATCH_DISCOUNT) if r["tag"].startswith(BATCH_TAG) else 1)
-                   for r in csv.DictReader(f))
+        return sum(row_billed(r) for r in csv.DictReader(f))
+
+
+def route_config(cfg: dict, route: str = "direct") -> dict:
+    """The registry entry of one model for ``route``: ``direct`` (as written) or ``openrouter`` (its
+    ``openrouter`` block over the entry: model id, params, upstream routing, key, price overrides)."""
+    if route == "direct":
+        return {**cfg, "route": "direct"}
+    if route != "openrouter":
+        raise LLMError(f"unknown route {route}")
+    o = cfg.get("openrouter")
+    if not o:
+        raise LLMError(f"no openrouter block for {cfg.get('model_id')}")
+    base = {k: v for k, v in cfg.items() if k not in ("openrouter", "base_url")}
+    return {**base, "route": "openrouter", "provider": "openrouter", "model_id": o["model_id"],
+            "api_key_env": o.get("api_key_env", "OPENROUTER_API_KEY"), "params": o["params"],
+            "routing": o["routing"], "served_provider": o.get("served_provider"),
+            "price": {**cfg["price"], **o.get("price", {})}}
 
 
 # ---------------------------------------------------------------- request bodies and response parsing
@@ -87,6 +125,31 @@ def parse_gemini(d: dict, model_id: str = ""):
                   m.get("candidatesTokenCount", 0) + thoughts, thoughts)
     fin = cand.get("finishReason")
     return text, usage, d.get("modelVersion", model_id), {"finish": fin, "truncated": fin != "STOP"}
+
+
+def openrouter_body(model_id: str, params: dict, routing: dict, system: str, user: str, schema: dict,
+                    schema_name: str) -> dict:
+    """Chat Completions body. ``params.response_format``: ``json_schema`` (strict) or ``json_object``
+    (Qwen: pydantic + retry, as on the direct route)."""
+    fmt = params.get("response_format", "json_schema")
+    rf = ({"type": "json_schema", "json_schema": {"name": schema_name, "schema": schema, "strict": True}}
+          if fmt == "json_schema" else {"type": fmt})
+    return {"model": model_id, "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}],
+            "response_format": rf, "reasoning": params["reasoning"], "max_tokens": params.get("max_tokens", 32000),
+            "provider": routing}
+
+
+def parse_openrouter(d: dict):
+    """Chat completion (dict) → (text, usage, served model, meta). ``meta`` carries the upstream provider,
+    the billed cost (``usage.cost``) and the generation id (for ``/generation?id=``)."""
+    ch = (d.get("choices") or [{}])[0]
+    u = d.get("usage") or {}
+    usage = Usage(u.get("prompt_tokens", 0), (u.get("prompt_tokens_details") or {}).get("cached_tokens") or 0,
+                  u.get("completion_tokens", 0), (u.get("completion_tokens_details") or {}).get("reasoning_tokens") or 0)
+    fin = ch.get("finish_reason")
+    return (ch.get("message") or {}).get("content") or "", usage, d.get("model"), {
+        "finish": fin, "native_finish": ch.get("native_finish_reason"), "truncated": fin != "stop",
+        "provider": d.get("provider"), "usd_billed": u.get("cost"), "generation_id": d.get("id")}
 
 
 @dataclass
@@ -131,8 +194,11 @@ class LLM:
         self.budget_usd = budget_usd
         self.batch = None        # a batch.BatchRecorder: cache misses are queued instead of called
         self.provider = cfg["provider"]
+        self.route = cfg.get("route", "direct")
         self.model_id = cfg["model_id"]
         self.params = cfg.get("params", {})
+        self.routing = cfg.get("routing")
+        self.served_provider = cfg.get("served_provider")
         self.price = cfg["price"]
         self.cache_dir = Path(cache_dir)
         self.cache_dir.mkdir(parents=True, exist_ok=True)
@@ -153,6 +219,8 @@ class LLM:
         enters only the cache key, so an identical request gets a fresh sample (same-model noise)."""
         req = {"provider": self.provider, "model": self.model_id, "params": self.params,
                "system": system, "user": user, "schema": schema}
+        if self.routing is not None:     # openrouter only, so direct-route keys are unchanged
+            req["routing"] = self.routing
         if replicate:
             req["replicate"] = replicate
         ck = hashlib.sha256(json.dumps(req, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
@@ -187,7 +255,10 @@ class LLM:
             dt = time.time() - t0
             for f in ("input", "cached_input", "output", "reasoning"):
                 setattr(spent, f, getattr(spent, f) + getattr(u, f))
-            self._log(tag, attempt, u, served, dt, meta.get("finish"))
+            self._log(tag, attempt, u, served, dt, meta.get("finish"), meta)
+            if self.served_provider and meta.get("provider") != self.served_provider:
+                raise RouteMismatch(f"{self.name} {tag}: served by {meta.get('provider')!r}, "
+                                    f"expected {self.served_provider!r} (allow_fallbacks should prevent this)")
             try:
                 if meta.get("truncated"):
                     raise LLMError(f"truncated response ({meta.get('finish')})")
@@ -209,6 +280,8 @@ class LLM:
         for wait in (5, 15, 45, 90, None):
             try:
                 return getattr(self, f"_call_{self.provider}")(system, user, schema, schema_name)
+            except CreditsExhausted:
+                raise
             except Exception as e:  # noqa: BLE001
                 status = getattr(e, "status_code", None) or getattr(getattr(e, "response", None), "status_code", None)
                 if status == 429 and "PerDay" in str(e):
@@ -244,6 +317,25 @@ class LLM:
         text, usage, served, meta = parse_gemini(d, self.model_id)
         return d, text, usage, served, meta
 
+    def _call_openrouter(self, system, user, schema, schema_name):
+        body = openrouter_body(self.model_id, self.params, self.routing, system, user, schema, schema_name)
+        h = httpx.post(f"{OPENROUTER}/chat/completions", json=body, timeout=900,
+                       headers={"Authorization": f"Bearer {self._key}", "X-Title": "BR-TaxQA-R nuggets"})
+        if h.status_code == 402:
+            raise CreditsExhausted(f"openrouter HTTP 402: {h.text[:300]}")
+        d = h.json() if h.headers.get("content-type", "").startswith("application/json") else {}
+        err = d.get("error") or ((d.get("choices") or [{}])[0].get("error"))
+        if h.status_code != 200 or err or (d.get("choices") or [{}])[0].get("finish_reason") == "error":
+            # an upstream failure can come back as HTTP 200 with an error object: retried like a 502
+            code = (err or {}).get("code") if isinstance(err, dict) else None
+            e = LLMError(f"openrouter HTTP {h.status_code}: {json.dumps(err)[:300] if err else h.text[:300]}")
+            e.status_code = h.status_code if h.status_code != 200 else (code if isinstance(code, int) else 502)
+            if e.status_code == 402:
+                raise CreditsExhausted(str(e))
+            raise e
+        text, usage, served, meta = parse_openrouter(d)
+        return d, text, usage, served, meta
+
     def _call_openai_compat(self, system, user, schema, schema_name):
         p = dict(self.params)
         extra = {}
@@ -262,18 +354,32 @@ class LLM:
             {"finish": fin, "truncated": fin != "stop"}
 
     # ------------------------------------------------------------------ ledger
-    def _log(self, tag, attempt, u: Usage, served, dt, finish):
-        """One ledger row. ``usd_standard`` is the synchronous price; batch rows carry the ``batch:`` tag."""
+    def _log(self, tag, attempt, u: Usage, served, dt, finish, meta: dict | None = None):
+        """One ledger row. ``usd_standard`` is the synchronous list price; batch rows carry the ``batch:`` tag;
+        ``usd_billed`` is the provider's own cost when it reports one (OpenRouter), else empty."""
         if not self.ledger:
             return
+        meta = meta or {}
+        billed = meta.get("usd_billed")
         row = {"ts": datetime.now().isoformat(timespec="seconds"), "model": self.name, "served": served,
                "tag": tag, "attempt": attempt, "finish": finish, "input": u.input, "cached_input": u.cached_input,
                "output": u.output, "reasoning": u.reasoning, "usd_standard": round(u.cost(self.price), 6),
-               "latency_s": round(dt, 1)}
+               "latency_s": round(dt, 1), "route": self.route, "provider_served": meta.get("provider") or "",
+               "usd_billed": "" if billed is None else round(float(billed), 6)}
         with _ledger_lock:
-            new = not Path(self.ledger).exists()
-            with open(self.ledger, "a", newline="") as f:
-                w = csv.DictWriter(f, fieldnames=list(row))
+            path = Path(self.ledger)
+            if path.exists():
+                with open(path, newline="") as f:
+                    old = csv.DictReader(f)
+                    header, rows = old.fieldnames or [], list(old)
+                if header != LEDGER_FIELDS:     # a ledger from before the route columns: add them (lossless)
+                    with open(path, "w", newline="") as f:
+                        w = csv.DictWriter(f, fieldnames=LEDGER_FIELDS, restval="")
+                        w.writeheader()
+                        w.writerows(rows)
+            new = not path.exists()
+            with open(path, "a", newline="") as f:
+                w = csv.DictWriter(f, fieldnames=LEDGER_FIELDS)
                 if new:
                     w.writeheader()
                 w.writerow(row)

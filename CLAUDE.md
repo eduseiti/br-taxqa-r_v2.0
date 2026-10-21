@@ -26,7 +26,10 @@ working on segmentation, embedding or retrieval code. The corpus was last rebuil
 the phase 1 gate is closed (`create_v4`, one call, thresholds in
 `docs/20261013_103834_nuggetization_open_decisions.md`, which also tracks the open decisions); **phase 2 is next**. Start from `scripts/nuggets/README.md`
 (status, commands, current prompts `create_v4` / `assign_v2`, budget cap, what is still missing); the
-decisions and costs are in the `docs/20261012_*nuggetization*` notes. **Costs are tracked for the paper:** pass
+decisions and costs are in the `docs/20261012_*nuggetization*` notes. All LLM calls go through **OpenRouter** by default
+(`--route openrouter`, one key `OPENROUTER_API_KEY`, flex endpoints for GPT/Gemini;
+`docs/20261020_130829_openrouter_support_plan.md`); the preview and pilot runs used `--route direct`.
+**Costs are tracked for the paper:** pass
 `--budget` on every LLM run, and stop and report to the user before continuing if anything costs more
 than expected.
 

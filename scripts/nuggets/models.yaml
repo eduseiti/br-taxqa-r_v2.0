@@ -1,6 +1,12 @@
 # LLM registry for the nugget pipeline. Prices per 1M tokens, checked 2026-10-11 (plan v2 §6.4).
 # Reasoning effort is medium for every call (plan v2, D12). Parameters checked against each API
 # with probe calls on 2026-10-12 (preview run).
+#
+# `openrouter:` blocks: the same model through OpenRouter (`nuggets.py --route openrouter`; plan
+# docs/20261020_130829_openrouter_support_plan.md). One upstream provider is pinned (`only`, no fallbacks,
+# every parameter honoured); `served_provider` is checked on every reply. GPT and Gemini use the `flex`
+# endpoints (synchronous, half price). The block's `price` overrides the list price; the billed cost comes
+# from OpenRouter (`usage.cost`, ledger column `usd_billed`). Catalog checked 2026-10-20.
 models:
   gpt-6.1-sol:
     provider: openai
@@ -9,6 +15,11 @@ models:
     params: {reasoning_effort: medium, max_output_tokens: 32000}   # no temperature (W7)
     price: {usd_per_million_input: 2.00, usd_per_million_cached_input: 0.10,
             usd_per_million_output: 10.00, batch_discount: 0.5, checked: 2026-10-11}
+    openrouter:
+      model_id: openai/gpt-6.1-sol
+      params: {reasoning: {effort: medium}, max_tokens: 32000, response_format: json_schema}
+      routing: {only: [openai/flex], allow_fallbacks: false, require_parameters: true, data_collection: deny}
+      served_provider: OpenAI
   gemini-3.1-pro:
     provider: gemini
     model_id: gemini-3.1-pro-preview
@@ -16,6 +27,12 @@ models:
     params: {thinking_level: medium, max_output_tokens: 32768}
     price: {usd_per_million_input: 2.00, usd_per_million_cached_input: 0.20,
             usd_per_million_output: 12.00, batch_discount: 0.5, checked: 2026-10-11}
+    openrouter:
+      model_id: google/gemini-3.1-pro-preview
+      params: {reasoning: {effort: medium}, max_tokens: 32768, response_format: json_schema}
+      routing: {only: [google-ai-studio/flex], allow_fallbacks: false, require_parameters: true,
+                data_collection: deny}
+      served_provider: Google AI Studio
   gemini-3.8-flash:
     provider: gemini
     model_id: gemini-3.8-flash
@@ -24,6 +41,12 @@ models:
     price: {usd_per_million_input: 0.75, usd_per_million_cached_input: 0.075,
             usd_per_million_output: 3.75, batch_discount: 0.5, checked: 2026-10-11,
             note: "doubles on 2027-01-01"}
+    openrouter:
+      model_id: google/gemini-3.8-flash
+      params: {reasoning: {effort: medium}, max_tokens: 32768, response_format: json_schema}
+      routing: {only: [google-ai-studio/flex], allow_fallbacks: false, require_parameters: true,
+                data_collection: deny}
+      served_provider: Google AI Studio
   qwen3.8-max:
     provider: openai_compat
     base_url: https://dashscope-intl.aliyuncs.com/compatible-mode/v1
@@ -34,3 +57,10 @@ models:
     price: {usd_per_million_input: 2.00, usd_per_million_cached_input: 0.20,
             usd_per_million_output: 6.00, batch_discount: 0.0, checked: 2026-10-11,
             note: "no batch in Singapore; cached rate assumed 10 % of input"}
+    openrouter:
+      model_id: qwen/qwen3.8-max-0902
+      # default effort on OpenRouter is xhigh: the pilot's 2,048-token thinking budget is set explicitly
+      params: {reasoning: {max_tokens: 2048}, max_tokens: 16000, response_format: json_object}
+      routing: {only: [alibaba], allow_fallbacks: false, require_parameters: true, data_collection: deny}
+      served_provider: Alibaba
+      price: {usd_per_million_cached_input: 0.25, batch_discount: 0.0, checked: 2026-10-20}

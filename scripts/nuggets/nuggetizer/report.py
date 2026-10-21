@@ -187,9 +187,11 @@ def build(out: Path, sample: list[dict], registry: dict, all_qs: list[dict]) -> 
     if ledger.exists():
         import csv
         rows = list(csv.DictReader(ledger.open()))
+        from llm_client.client import row_billed
         led = sum(float(r["usd_standard"]) for r in rows)
         w(f"\nTotal of the accepted calls above: **{_usd(spent)}**. Ledger `costs.csv` (every API call, retries "
-          f"and probes included): **{_usd(led)}** in {len(rows)} calls.\n")
+          f"and probes included): **{_usd(led)}** standard, **{_usd(sum(map(row_billed, rows)))}** billed, "
+          f"in {len(rows)} calls.\n")
 
     # extrapolation
     w("## 5. Extrapolation to all 715 questions\n")

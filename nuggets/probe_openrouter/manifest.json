@@ -1,0 +1,26 @@
+{
+ "purpose": "OpenRouter route probe (plan \u00a75 step 1)",
+ "route": "openrouter",
+ "sample": "preview_10",
+ "questions": [
+  "503",
+  "023",
+  "039"
+ ],
+ "variants": {
+  "gpt-6.1-sol": {},
+  "gemini-3.1-pro": {},
+  "gemini-3.8-flash": {},
+  "qwen3.8-max": {},
+  "qwen3.8-max~effort_medium": {
+   "reasoning": {
+    "effort": "medium"
+   }
+  },
+  "qwen3.8-max~json_schema": {
+   "response_format": "json_schema"
+  }
+ },
+ "prompt": "create_v4",
+ "prompt_sha256": "534b27cf0b5f06ea3c0f8566e723902a72ca3cf6c67afba575e45eabc2a9a656"
+}

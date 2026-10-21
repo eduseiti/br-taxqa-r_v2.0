@@ -1,8 +1,8 @@
 # OpenRouter as the single access point for the nuggetization LLMs — plan
 
 **Generated:** 2026-10-20 13:08:29 (local time, from `date +%Y%m%d_%H%M%S`).
-**Status:** plan only. No code, registry or `.env` changes have been made. **Decisions registered on
-2026-10-20: §7** (all models, flex, no parity check now, $150 prepaid).
+**Status:** **implemented and probed on 2026-10-21 (§8)**; `--route openrouter` is the default.
+Decisions registered on 2026-10-20: §7 (all models, flex, no parity check now, $150 prepaid).
 **Context:** phase 2 of the nuggetization is next (`docs/20261013_103834_nuggetization_open_decisions.md` §4).
 The user now has an OpenRouter account and can create an API key. This note looks at the current client and
 plans how to send all LLM calls through OpenRouter.
@@ -217,3 +217,58 @@ Stop and report to the user if step 1 shows a mismatch in prices or reasoning to
   and step 2 (code and tests) are done.
 - §3's 5.5 % fee row: already paid on the prepaid credits; it is a cost of the work, but not an extra charge
   in phase 2.
+
+## 8. Implementation and probe results (2026-10-21)
+
+### 8.1 What was implemented
+
+| Plan item | Where | Note |
+|---|---|---|
+| §4.1 registry routes | `scripts/nuggets/models.yaml` (`openrouter:` per model), `client.route_config()` | as planned; `served_provider` added (display name checked on every reply) |
+| `--route` | `nuggets.py` (global option, default **`openrouter`**) | manifests record the route and the resolved registry entry; `batch status/collect/wait` always use the direct route; `--batch` with `--route openrouter` is refused |
+| §4.2 provider | `client.py`: `openrouter_body()`, `parse_openrouter()`, `_call_openrouter()` | `httpx`, not the `openai` SDK (the raw reply keeps `provider` and `usage.cost`); `routing` enters the cache key **only** on this route, so direct-route keys are unchanged |
+| §4.2 errors | `CreditsExhausted` (402, never retried), error in a 200 reply → retried as 502, `RouteMismatch` (logged, not cached, fatal) | |
+| §4.3 ledger | `LEDGER_FIELDS` + `route`, `provider_served`, `usd_billed`; `row_billed()` used by `ledger_total()`, `report.py`, `pilot_report.py` | an older `costs.csv` is rewritten with the new (empty) columns on its first new row |
+| key check | `nuggets.py openrouter-key` | limit, usage, expiry |
+| tests | `scripts/llm_client/tests/test_openrouter.py` (13 tests, mocked HTTP) | the fake provider of the phase 0 gate is still not done |
+| §5 step 1 probe | `scripts/nuggets/probe_openrouter.py`, output `nuggets/probe_openrouter/` | |
+| docs | `scripts/nuggets/README.md` ("OpenRouter route"), `CLAUDE.md` | |
+
+This machine's `.venv` had no nugget requirements; they were installed with `uv pip install --python
+.venv/bin/python -r scripts/nuggets/requirements.txt` (pinned versions).
+
+**Key:** limit $80, **expires 2026-11-20** (renew before phase 2 ends).
+
+### 8.2 Probe: `create_v4`, first 3 questions of `preview_10` (503, 023, 039), 18 calls, **$0.125 billed**
+
+The key's usage on OpenRouter ($0.12503) matched the ledger, after a short lag.
+
+| Variant | Valid replies | Served by | Reasoning tokens (pilot, same questions) | Billed / list |
+|---|---|---|---|---|
+| `gpt-6.1-sol` (flex) | 3/3, 2 nuggets each (pilot 2) | OpenAI | 91, 0, 0 (0, 0, 0) | 0.50 on calls 2–3; 0.60 on the first, see below |
+| `gemini-3.1-pro` (flex) | 3/3, 2 each (pilot 2) | Google AI Studio | 933, 1067, 582 (872, 664, 527) | 0.50 |
+| `gemini-3.8-flash` (flex) | 3/3, 2 each | Google AI Studio | 798, 581, 535 (no pilot creation) | 0.50 |
+| `qwen3.8-max` (`reasoning.max_tokens: 2048`) | 3/3, 2 each (pilot 2) | Alibaba | 751, 461, 454 (791, 940, 541) | 1.00 (list, cached at $0.25 ✓) |
+| `qwen3.8-max`, `effort: medium` | 3/3 | Alibaba | 930, 877, 505 | 1.00 |
+| `qwen3.8-max`, strict `json_schema` | 3/3 (one with 3 nuggets) | Alibaba | 489, 889, 608 | 1.00 |
+
+Findings:
+- **Pinning works:** `only` with the tagged slugs `openai/flex` and `google-ai-studio/flex` is accepted, with
+  `data_collection: deny` and `require_parameters: true`; every reply came from the pinned provider.
+- **Flex is half price**, as listed. Latency: GPT ≈ 10 s, Gemini 7–10 s, Qwen 15–30 s, about the pilot's.
+  No capacity errors at this size; watch for them at phase 2 concurrency.
+- **The first GPT call costs 1.25× input on the cached prefix**: OpenRouter reports `cache_write_tokens: 3525`,
+  billed at 1.25 × the flex input price. The next calls read the cached prefix at $0.05/M. It is
+  a one-time cost per prefix (≈ $0.001), and it is included in `usd_billed`. `usd_standard` (list price)
+  does not model cache writes.
+- **Gemini 3.1 Pro had no cached input** (as on the direct route).
+- **Reasoning effort matches the pilot's (D12):** the Gemini and GPT tokens are within the pilot's per-call
+  spread. Qwen with `reasoning.max_tokens: 2048` stays below 2,048 and in the pilot's range, so the pilot setting
+  (`thinking_budget: 2048`) is kept. `effort: medium` gives similar counts. Whether OpenRouter passes
+  `max_tokens` as `thinking_budget` cannot be seen in the reply; both settings stay well under the budget.
+- **Qwen strict `json_schema` worked 3/3** here (it returned malformed JSON on the direct API in the preview).
+  `json_object` + pydantic + retry is kept, so phase 2 runs Qwen as the pilot did.
+- No 429 and no quota error on Gemini 3.1 Pro.
+
+**Next:** phase 2 with `--route openrouter` (the default), `--budget` on every run. The pilot comparison on the
+30 `stratified_30` questions goes in the phase 2 note (§7, decision 3).

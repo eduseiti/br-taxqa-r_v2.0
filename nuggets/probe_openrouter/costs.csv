@@ -1,0 +1,19 @@
+ts,model,served,tag,attempt,finish,input,cached_input,output,reasoning,usd_standard,latency_s,route,provider_served,usd_billed
+2026-10-21T10:47:42,gpt-6.1-sol,openai/gpt-6.1-sol,probe:503,1,stop,3528,0,249,91,0.009546,11.0,openrouter,OpenAI,0.005654
+2026-10-21T10:47:53,gpt-6.1-sol,openai/gpt-6.1-sol,probe:023,1,stop,3551,3448,205,0,0.002601,10.7,openrouter,OpenAI,0.001325
+2026-10-21T10:48:03,gpt-6.1-sol,openai/gpt-6.1-sol,probe:039,1,stop,3578,3448,222,0,0.002825,10.3,openrouter,OpenAI,0.001444
+2026-10-21T10:48:13,gemini-3.1-pro,google/gemini-3.1-pro-preview,probe:503,1,stop,3639,0,1134,933,0.020886,9.6,openrouter,Google AI Studio,0.010443
+2026-10-21T10:48:23,gemini-3.1-pro,google/gemini-3.1-pro-preview,probe:023,1,stop,3664,0,1319,1067,0.023156,10.3,openrouter,Google AI Studio,0.011578
+2026-10-21T10:48:30,gemini-3.1-pro,google/gemini-3.1-pro-preview,probe:039,1,stop,3694,0,860,582,0.017708,7.0,openrouter,Google AI Studio,0.008854
+2026-10-21T10:48:39,gemini-3.8-flash,google/gemini-3.8-flash,probe:503,1,stop,3639,0,971,798,0.006371,8.4,openrouter,Google AI Studio,0.003185
+2026-10-21T10:48:46,gemini-3.8-flash,google/gemini-3.8-flash,probe:023,1,stop,3664,0,770,581,0.005635,7.5,openrouter,Google AI Studio,0.002818
+2026-10-21T10:48:53,gemini-3.8-flash,google/gemini-3.8-flash,probe:039,1,stop,3694,0,789,535,0.005729,7.1,openrouter,Google AI Studio,0.002865
+2026-10-21T10:49:18,qwen3.8-max,qwen/qwen3.8-max-0902,probe:503,1,stop,3677,0,914,751,0.012838,24.3,openrouter,Alibaba,0.012838
+2026-10-21T10:49:33,qwen3.8-max,qwen/qwen3.8-max-0902,probe:023,1,stop,3697,3072,676,461,0.006074,15.0,openrouter,Alibaba,0.006074
+2026-10-21T10:49:47,qwen3.8-max,qwen/qwen3.8-max-0902,probe:039,1,stop,3729,3072,692,454,0.006234,14.6,openrouter,Alibaba,0.006234
+2026-10-21T10:50:13,qwen3.8-max~effort_medium,qwen/qwen3.8-max-0902,probe:503,1,stop,3651,0,1151,930,0.014208,25.6,openrouter,Alibaba,0.014208
+2026-10-21T10:50:38,qwen3.8-max~effort_medium,qwen/qwen3.8-max-0902,probe:023,1,stop,3671,3072,1132,877,0.008758,24.9,openrouter,Alibaba,0.008758
+2026-10-21T10:50:55,qwen3.8-max~effort_medium,qwen/qwen3.8-max-0902,probe:039,1,stop,3703,3072,776,505,0.006686,16.6,openrouter,Alibaba,0.006686
+2026-10-21T10:51:10,qwen3.8-max~json_schema,qwen/qwen3.8-max-0902,probe:503,1,stop,3677,3072,652,489,0.00589,15.3,openrouter,Alibaba,0.00589
+2026-10-21T10:51:40,qwen3.8-max~json_schema,qwen/qwen3.8-max-0902,probe:023,1,stop,3697,3072,1165,889,0.009008,29.7,openrouter,Alibaba,0.009008
+2026-10-21T10:52:00,qwen3.8-max~json_schema,qwen/qwen3.8-max-0902,probe:039,1,stop,3729,3072,848,608,0.00717,20.2,openrouter,Alibaba,0.00717

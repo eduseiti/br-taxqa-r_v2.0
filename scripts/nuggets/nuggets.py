@@ -29,7 +29,7 @@ sys.path[:0] = [str(HERE), str(HERE.parent)]
 
 from dotenv import load_dotenv  # noqa: E402
 
-from llm_client import LLM, BatchDeferred, QuotaExhausted, load_registry  # noqa: E402
+from llm_client import LLM, BatchDeferred, QuotaExhausted, load_registry, route_config  # noqa: E402
 from llm_client import batch as llm_batch  # noqa: E402
 from nuggetizer import data, pilot_report, report, schema  # noqa: E402
 from nuggetizer.validate import validate  # noqa: E402
@@ -56,6 +56,7 @@ def questions(out: Path, sample: str) -> list[dict]:
 
 
 BATCH: llm_batch.BatchRecorder | None = None     # set by --batch
+ROUTE = "openrouter"                              # set by --route
 
 
 class BatchPending(Exception):
@@ -66,9 +67,13 @@ class QuotaBlocked(Exception):
     """Some calls hit a provider's daily quota; completed calls are cached, a rerun resumes."""
 
 
-def llm(name: str, out: Path, budget: float | None) -> LLM:
-    reg = load_registry(HERE / "models.yaml")
-    m = LLM(name, reg[name], out / "cache", out / "costs.csv", budget_usd=budget)
+def model_cfg(name: str, route: str | None = None) -> dict:
+    """Registry entry of ``name`` for the route (``--route`` by default); manifests record this."""
+    return route_config(load_registry(HERE / "models.yaml")[name], route or ROUTE)
+
+
+def llm(name: str, out: Path, budget: float | None, route: str | None = None) -> LLM:
+    m = LLM(name, model_cfg(name, route), out / "cache", out / "costs.csv", budget_usd=budget)
     m.batch = BATCH
     return m
 
@@ -124,6 +129,7 @@ def run_all(items, fn, workers):
 
 def write_manifest(d: Path, **kw):
     d.mkdir(parents=True, exist_ok=True)
+    kw.setdefault("route", ROUTE)
     for k in [k for k in kw if k.endswith("_prompt")]:
         kw[k + "_sha256"] = sha(prompt(kw[k]))
     (d / "manifest.json").write_text(json.dumps(kw, indent=1, ensure_ascii=False, default=str))
@@ -196,7 +202,7 @@ def cmd_create(a):
         jl_write(d / "nuggets.jsonl", [n for nugs, _ in res for n in nugs])
         jl_write(d / "calls.jsonl", [c for _, c in res])
         (d / "manifest.json").write_text(json.dumps(
-            {"model": name, "replicate": a.replicate, "registry": load_registry(HERE / "models.yaml")[name],
+            {"model": name, "replicate": a.replicate, "route": ROUTE, "registry": model_cfg(name),
              "sample": a.sample,
              "prompt": str(prompt(a.prompt).relative_to(REPO)), "prompt_sha256": sha(prompt(a.prompt)),
              "schema_sha256": hashlib.sha256(json.dumps(sch, sort_keys=True).encode()).hexdigest()},
@@ -257,7 +263,7 @@ def cmd_selfscore(a):
         jl_write(d / "assignments.jsonl", [x for rows, _ in res for x in rows])
         jl_write(d / "calls.jsonl", [c for _, c in res])
         (d / "manifest.json").write_text(json.dumps(
-            {"judge": a.judge, "registry": load_registry(HERE / "models.yaml")[a.judge], "nugget_set": set_name,
+            {"judge": a.judge, "route": ROUTE, "registry": model_cfg(a.judge), "nugget_set": set_name,
              "sample": a.sample, "prompt": str(prompt(a.prompt).relative_to(REPO)),
              "prompt_sha256": sha(prompt(a.prompt))}, indent=1, ensure_ascii=False, default=str))
 
@@ -604,7 +610,7 @@ def cmd_batch(a):
     """Poll the batch jobs of --out and write finished results into its cache and ledger."""
     out = Path(a.out)
     names = {json.loads(p.read_text())["model"] for p in (out / "batches").glob("*.json")}
-    llms = {n: llm(n, out, None) for n in names}
+    llms = {n: llm(n, out, None, route="direct") for n in names}     # batch jobs are direct-route only
     for m in llms.values():
         m.batch = None
     if a.action == "wait":
@@ -617,6 +623,20 @@ def cmd_batch(a):
                                      "estimated_usd_billed", "last_poll")} for x in s]
     for x in s:
         print(json.dumps(x, ensure_ascii=False))
+
+
+def cmd_openrouter_key(a):
+    """Credit limit and usage of the OpenRouter key (no cost)."""
+    import os
+
+    import httpx
+    from llm_client.client import OPENROUTER
+    r = httpx.get(f"{OPENROUTER}/key", headers={"Authorization": f"Bearer {os.environ['OPENROUTER_API_KEY']}"},
+                  timeout=60)
+    r.raise_for_status()
+    d = r.json().get("data", {})
+    print(json.dumps({k: d.get(k) for k in ("label", "limit", "limit_remaining", "usage", "usage_daily",
+                                            "expires_at")}, indent=1))
 
 
 def cmd_pilotreport(a):
@@ -636,7 +656,10 @@ def main():
                     help="stop before any call once the --out ledger (costs.csv) reaches this many USD")
     ap.add_argument("--batch", action="store_true",
                     help="queue every uncached OpenAI/Gemini request in Batch API jobs instead of calling it; "
-                         "then `batch wait` and rerun the same command without --batch")
+                         "then `batch wait` and rerun the same command without --batch (direct route only)")
+    ap.add_argument("--route", choices=["direct", "openrouter"], default="openrouter",
+                    help="OpenRouter (default; registry `openrouter:` blocks, flex for GPT/Gemini) or the direct "
+                         "provider APIs (the route of the preview and pilot runs and of their caches)")
     sp = ap.add_subparsers(dest="cmd", required=True)
     sp.add_parser("sample").set_defaults(fn=cmd_sample)
     p = sp.add_parser("create")
@@ -702,8 +725,13 @@ def main():
     p.add_argument("action", choices=["status", "collect", "wait"])
     p.add_argument("--every", type=int, default=120, help="wait: seconds between polls")
     p.set_defaults(fn=cmd_batch)
+    sp.add_parser("openrouter-key", help="credit limit and usage of OPENROUTER_API_KEY").set_defaults(
+        fn=cmd_openrouter_key)
     a = ap.parse_args()
-    global BATCH
+    global BATCH, ROUTE
+    ROUTE = a.route
+    if a.batch and ROUTE != "direct":
+        sys.exit("--batch is for the direct route; through OpenRouter, GPT and Gemini use the flex endpoints")
     if a.batch:
         BATCH = llm_batch.BatchRecorder(Path(a.out))
     try:

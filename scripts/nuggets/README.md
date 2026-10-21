@@ -16,18 +16,26 @@ auditor test, known-answer tests and the pilot report. **Phase 2 waits for the u
    granularity and git;
 3. `docs/20261012_160349_nuggetization_preview_v2_execution.md` — v2/v3 runs, pointer rule (§13);
 4. `docs/20261012_192640_nuggetization_phase1_pilot.md` — **the pilot**: results, `answer_cleaned`
-   content loss (§8), Gemini 3.1 Pro daily quota (§9), **cost estimate (§10)**, decisions (§12).
+   content loss (§8), Gemini 3.1 Pro daily quota (§9), **cost estimate (§10)**, decisions (§12);
+5. `docs/20261020_130829_openrouter_support_plan.md` — **OpenRouter route** (default from 2026-10-21):
+   design, decisions (§7), implementation and probe results (§8).
 
 ## Layout
 
 ```
 scripts/llm_client/           provider-neutral client (shared with RAG Phase 3 later)
-  client.py                   LLM.complete_json(): openai (Responses API), gemini (REST), openai_compat (Qwen);
-                              disk cache keyed by the request; ledger rows; --budget cap (BudgetExceeded)
+  client.py                   LLM.complete_json(): openai (Responses API), gemini (REST), openai_compat (Qwen),
+                              openrouter (Chat Completions, pinned upstream); route_config(); disk cache keyed
+                              by the request; ledger rows; --budget cap (BudgetExceeded)
+  batch.py                    Batch API jobs (direct route only)
+  tests/                      pytest, OpenRouter provider against mocked replies (no network)
 scripts/nuggets/
   nuggets.py                  CLI: sample, create [--replicate], importance, validate, selfscore, align,
-                              roundtrip, audit, repair, plant, known build|judge, report, pilotreport
-  models.yaml                 registry: model ids, medium-effort params (D12), prices (checked 2026-10-11)
+                              roundtrip, audit, repair, plant, known build|judge, report, pilotreport,
+                              batch, openrouter-key
+  probe_openrouter.py         one create_v4 call per model through OpenRouter (route checks, plan §5 step 1)
+  models.yaml                 registry: model ids, medium-effort params (D12), prices (checked 2026-10-11);
+                              `openrouter:` block per model (id, params, pinned provider, served_provider)
   prompts/                    create_v1..v4.pt.md, assign_v1..v2.pt.md (pt-BR; see "Prompts" below)
   nuggetizer/
     data.py                   questions, o200k lengths, stratified samples, user prompt
@@ -48,10 +56,16 @@ python3.12 -m venv .venv                       # already exists in the repo chec
 .venv/bin/pip install -r scripts/nuggets/requirements.txt
 ```
 
-`nuggets.py` loads `.env` (repo root, gitignored) with `python-dotenv`. It needs `OPENAI_API_KEY`,
-`GEMINI_API_KEY` and `DASHSCOPE_API_KEY` (Alibaba Model Studio, **Singapore** region). Setup:
-plan v2 §8. The `GEMINI_API_KEY` line was fixed on 2026-10-12 so that `python-dotenv` reads it; no
-shell sourcing is needed.
+If `.venv/bin/pip` is missing (the venv of the other machine's layout), use
+`uv pip install --python .venv/bin/python -r scripts/nuggets/requirements.txt`.
+
+`nuggets.py` loads `.env` (repo root, gitignored) with `python-dotenv`; no shell sourcing is needed.
+
+- **Default route, `--route openrouter`:** only `OPENROUTER_API_KEY=sk-or-v1-...` is needed. The key has a
+  credit limit of **$80** (a second cap behind `--budget`) and **expires on 2026-11-20**: renew it before
+  then, on both machines. `nuggets.py openrouter-key` prints its limit, usage and expiry (free).
+- **`--route direct`** (the preview and pilot runs, and their caches): `OPENAI_API_KEY`, `GEMINI_API_KEY`
+  and `DASHSCOPE_API_KEY` (Alibaba Model Studio, **Singapore** region). Setup: plan v2 §8.
 
 ## Commands
 
@@ -95,12 +109,40 @@ $P $N $O pilotreport                                                    # nugget
   first pick per decile is `preview_10`. Questions 001 and 003 are the prompt's worked examples and
   are never sampled.
 - `--workers` (default 5) is the concurrency **per model**. `create` runs the models in parallel.
+- `--route` (global, default `openrouter`) picks the route. **Rerunning a command on `nuggets/pilot/` or a
+  preview folder needs `--route direct`**: the route enters the cache key, so the OpenRouter route would call
+  the API again instead of reading those caches.
 - Several `selfscore` processes may run in parallel on the same `--out`. The ledger is shared, and
   the budget cap reads it before every call.
 
-## Batch mode (OpenAI and Gemini Batch APIs, 50 % off)
+## OpenRouter route (default)
 
-Any command can run in batch mode. With the global `--batch`, cache hits are served as usual, and every
+Every model has an `openrouter:` block in `models.yaml` (plan `docs/20261020_130829_openrouter_support_plan.md`):
+
+| Model | OpenRouter id | Pinned endpoint | Params |
+|---|---|---|---|
+| `gpt-6.1-sol` | `openai/gpt-6.1-sol` | `openai/flex` (half price) | `reasoning.effort: medium`, strict `json_schema` |
+| `gemini-3.1-pro` | `google/gemini-3.1-pro-preview` | `google-ai-studio/flex` (half price) | same |
+| `gemini-3.8-flash` | `google/gemini-3.8-flash` | `google-ai-studio/flex` (half price) | same |
+| `qwen3.8-max` | `qwen/qwen3.8-max-0902` | `alibaba` (list price; no flex or batch) | `reasoning.max_tokens: 2048`, `json_object` |
+
+- **Pinned:** `only` one endpoint, `allow_fallbacks: false`, `require_parameters: true`,
+  `data_collection: deny`. Every reply's upstream provider is checked against `served_provider`; another one
+  raises `RouteMismatch` (the call is in the ledger, not in the cache).
+- **Ledger:** columns `route`, `provider_served`, `usd_billed` (OpenRouter's `usage.cost`). The budget cap and the
+  reports use `usd_billed` when present, else `usd_standard` (batch rows at half). `usd_standard` stays the
+  list price of the direct API, for comparison. An older `costs.csv` gets the new columns (empty) on its first
+  new row.
+- **Errors:** HTTP 402 (key limit or balance used up) raises `CreditsExhausted`, not retried. An upstream error
+  in an HTTP 200 reply is retried like a 502. `finish_reason: length` is a truncated reply, retried.
+- **No 250/day quota** on Gemini 3.1 Pro: OpenRouter calls Google on its own accounts (do not add our Gemini key
+  to OpenRouter as BYOK). **`--batch` is refused on this route**: flex already gives the 50 % discount on
+  synchronous calls.
+- Probe (2026-10-21, `nuggets/probe_openrouter/`, $0.125): plan §8.
+
+## Batch mode (direct route only; OpenAI and Gemini Batch APIs, 50 % off)
+
+Any command can run in batch mode with `--route direct`. With the global `--batch`, cache hits are served as usual, and every
 uncached OpenAI or Gemini request is **queued** instead of called. At the end, one job per model is
 submitted (`<out>/batches/`), and the command stops **without writing its outputs**. Qwen
 (`openai_compat`, no batch in Singapore) is still called synchronously.
@@ -163,7 +205,8 @@ nuggets/<run>/
 
 Existing runs: `nuggets/preview/` (v1 prompts), `nuggets/preview_v2/` (rejected `create_v2`,
 creation only), `nuggets/preview_v3/` (`create_v3` + `assign_v2`), `nuggets/pilot/` (phase 1; extra folders
-`align/`, `roundtrip/`, `audit/`, `known/`, and `report_pilot.md`). A full copy, caches included,
+`align/`, `roundtrip/`, `audit/`, `known/`, and `report_pilot.md`), `nuggets/probe_openrouter/` (OpenRouter
+route probe, `probe.jsonl`). A full copy, caches included,
 is in `../nuggets_backup_20261012_132700/` (outside the repo). From the pilot on, the caches go to
 a private HF dataset repo at the end of each phase (resolution note §3.2).
 
@@ -174,8 +217,8 @@ v3 cache cannot serve `create_v4` (different prompt text).
 
 ## Costs and the budget cap
 
-- Every call is logged at **standard** (synchronous) prices to `<out>/costs.csv`. Batch discounts
-  only appear in the report's extrapolation.
+- Every call is logged to `<out>/costs.csv` at the **standard** (synchronous list) price, and, on the
+  OpenRouter route, with the **billed** cost (`usd_billed`, flex discount and OpenAI cache writes included).
 - `--budget USD` makes the client refuse any call once the ledger of that `--out` reaches the cap.
   It is checked before every call; concurrent workers can overshoot by at most one call each. The
   cap is **cumulative per `--out`**: for a second step in the same folder, set it to the amount
@@ -216,7 +259,7 @@ Coverage rule: a sentence counts as covered when spans cover ≥ 50 % of it; an 
 (spans may leave out a long parenthetical); every exact occurrence of a span counts (answers repeat items
 verbatim). Pilot note §2.1.
 
-## Provider notes (checked 2026-10-12)
+## Provider notes (direct route, checked 2026-10-12; OpenRouter: plan §8)
 
 - `gpt-6.1-sol`: `reasoning.effort: medium`, strict JSON schema, no `temperature`. It reasons very
   little on this task (≈ 140 tokens per creation call). The 3.1k-token prompt prefix is cached
@@ -234,7 +277,8 @@ verbatim). Pilot note §2.1.
 2. Known-answer builders (phase 4, pilot note §7): W without near-duplicate neighbours; D/C tests whose fact
    is restated elsewhere; V with another period's value from the corpus; the Flash rewrite for conditions
    that are not delimited by punctuation.
-3. `--dry-run`, a `fake` provider and tests (plan v2 phase 0 gate).
+3. `--dry-run`, a `fake` provider and tests (plan v2 phase 0 gate). Done in part: the OpenRouter provider has
+   tests against mocked replies (`.venv/bin/python -m pytest scripts/llm_client/tests`).
 4. The corpus half of the `temporal` flag.
 
 Decisions: `docs/20261013_103834_nuggetization_open_decisions.md`. Closed: `create_v4`, one call, gate

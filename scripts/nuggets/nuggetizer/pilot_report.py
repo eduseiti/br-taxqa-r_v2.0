@@ -10,7 +10,7 @@ from pathlib import Path
 from statistics import mean
 
 from . import report as rep
-from llm_client.client import BATCH_DISCOUNT, BATCH_TAG
+from llm_client.client import BATCH_TAG, row_billed
 
 from .validate import locate, norm
 
@@ -58,7 +58,8 @@ def build(out: Path, sample: list[dict], registry: dict, all_qs: list[dict], pri
     # ------------------------------------------------------------ 1. costs
     rows = list(csv.DictReader((out / "costs.csv").open()))
     w("## 1. Cost ledger by role and model (every API call incl. retries)\n")
-    w("Standard = synchronous price; billed = what the provider charges (Batch API rows at half price).\n")
+    w("Standard = synchronous list price; billed = what the provider charges (Batch API rows at half price; "
+      "OpenRouter rows at the cost it reports).\n")
     w("| Role | Model | Calls | Retries | Input (mean) | Output incl. reasoning (mean) | $/call (standard) | Standard | Billed |")
     w("|---|---|---:|---:|---:|---:|---:|---:|---:|")
     g = defaultdict(list)
@@ -72,8 +73,7 @@ def build(out: Path, sample: list[dict], registry: dict, all_qs: list[dict], pri
         g[(role, r["model"])].append(r)
 
     def billed(rs):
-        return sum(float(r["usd_standard"]) * ((1 - BATCH_DISCOUNT) if r["tag"].startswith(BATCH_TAG) else 1)
-                   for r in rs)
+        return sum(row_billed(r) for r in rs)
 
     for (role, m), rs in sorted(g.items()):
         usd = sum(float(r["usd_standard"]) for r in rs)

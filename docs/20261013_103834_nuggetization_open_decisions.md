@@ -15,7 +15,7 @@ is decided.
 | 3 | Acceptance thresholds | **Plan v2 §3.5.6 thresholds, plus (a) and (b) below** | 2026-10-13 | Pilot note §6, §7, §12 |
 | 4 | `answer_cleaned` content loss | Fixed in the v2.0 build (`scripts/dataset/answer_overrides.json`; 47 answers changed) | 2026-10-12 | Pilot note §8, §13.1 |
 | 5 | Gemini 3.1 Pro daily quota | Batch API mode (`--batch`, `batch wait`) | 2026-10-12 | Pilot note §9.1, §13.2–§13.3; used to finish the pilot (§11) |
-| 6 | LLM access for phase 2 | **OpenRouter for all four models**, `flex` tier for GPT and Gemini (half price, synchronous; no 250/day quota); direct route kept as fallback; no parity check before phase 2 (compared on the 30 pilot questions afterwards); $150 prepaid. Not implemented yet | 2026-10-20 | `docs/20261020_130829_openrouter_support_plan.md` §7 |
+| 6 | LLM access for phase 2 | **OpenRouter for all four models**, `flex` tier for GPT and Gemini (half price, synchronous; no 250/day quota); direct route kept as fallback; no parity check before phase 2 (compared on the 30 pilot questions afterwards); $150 prepaid. **Implemented and probed 2026-10-21; default route** | 2026-10-20 | `docs/20261020_130829_openrouter_support_plan.md` §7, §8 |
 
 ### 1.1 Thresholds adopted (decision 3)
 
