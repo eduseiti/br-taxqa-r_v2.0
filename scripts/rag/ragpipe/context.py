@@ -155,19 +155,35 @@ def authority_of(urn: str) -> str | None:
     return parts[3].split(",")[0].split(";")[-1]
 
 
-def source_label(title: str, urn: str, annex: bool, citacao: str, parte: int, n_partes: int) -> str:
-    """The ``{fonte}`` of a context block: title [— body] [— Anexo] [— citation] [(parte p de n)]."""
+def source_label(title: str, urn: str, annex: bool, citacao: str, parte: int, n_partes: int,
+                 annex_label: str | None = None) -> str:
+    """The ``{fonte}`` of a context block: title [— body] [— Anexo | annex label] [— citation]
+    [(parte p de n)]."""
     out = [title]
     auth = AUTHORITY.get(authority_of(urn) or "")
     if auth and not any(a.lower() in title.lower() for a in auth[1]):
         out.append(auth[0])
     if annex:
-        out.append("Anexo")
+        out.append(annex_label or "Anexo")
     if citacao.strip().lower() not in NO_CITATION:
         # the segmentation writes "Art. 71., § 1º" / "Parágrafo único., II": drop a period before a comma
         out.append(re.sub(r"\.(?=\s*,)", "", citacao.strip()).rstrip("."))
     label = " — ".join(out)
     return f"{label} (parte {parte} de {n_partes})" if n_partes > 1 else label
+
+
+#: The ``[ Epígrafe | Ementa | Anexo ]`` prefix of a chunk text (metadata never contains brackets).
+PREFIX_RE = re.compile(r"^\[\s*([^\]]*?)\s*\]\s*")
+
+
+def split_prefix(texto: str) -> tuple[list[str], str]:
+    """The non-empty fields of a chunk text's prefix and the text after it. The segmentation writes
+    ``[ epígrafe | ementa ]`` (or ``[ epígrafe ]``) in a main file and ``[ epígrafe | ementa | annex
+    label ]`` in an annex, one prefix per file (checked on the 2026-10-09 chunk file)."""
+    m = PREFIX_RE.match(texto or "")
+    if not m:
+        return [], texto or ""
+    return [f.strip() for f in m.group(1).split("|") if f.strip()], texto[m.end():]
 
 
 @dataclass(frozen=True)
@@ -178,6 +194,11 @@ class Template:
     name: str
     block: str
     sha256: str
+
+    @property
+    def per_document_ementa(self) -> bool:
+        """A template with ``{ementa}`` gets the chunk text without its prefix (``context_v2``)."""
+        return "{ementa}" in self.block
 
     @classmethod
     def load(cls, prompts_dir: Path, name: str) -> "Template":
@@ -191,7 +212,12 @@ class Template:
                 raise ValueError(f"{path}: placeholder {ph} missing")
         return cls(name, block, hashlib.sha256(raw.encode("utf-8")).hexdigest())
 
-    def render(self, blocks: Sequence[tuple[str, str]]) -> str:
-        """``blocks``: ``(fonte, texto)`` in context order → the context text (empty for no blocks)."""
-        return "\n\n".join(self.block.replace("{n}", str(i)).replace("{fonte}", f).replace("{texto}", t)
-                           for i, (f, t) in enumerate(blocks, 1))
+    def render(self, blocks: Sequence[tuple]) -> str:
+        """``blocks``: ``(fonte, texto)`` or ``(fonte, ementa, texto)`` in context order → the context
+        text (empty for no blocks). ``{texto}`` is filled last, so its content is never re-processed."""
+        out = []
+        for i, b in enumerate(blocks, 1):
+            fonte, ementa, texto = (b[0], "", b[1]) if len(b) == 2 else b
+            out.append(self.block.replace("{n}", str(i)).replace("{fonte}", fonte).replace("{ementa}", ementa)
+                       .replace("{texto}", texto))
+        return "\n\n".join(out)

@@ -1,0 +1,16 @@
+strategy,level,questions,gold_items,reachable,reachable_by_split_parts_only,reachable_partial_only,unreachable,questions_with_reachable_gold,only_ambiguous_matches,main_and_annex_both_have_it,annex_A_items,unreachable:article_not_in_lexml,unreachable:no_lexml_id
+S1,document,596,1724,1724,0,0,0,596,0,0,272,0,0
+S1,article,553,1958,1945,0,0,13,549,0,3,541,13,0
+S1,provision,558,2230,2182,174,0,48,548,0,4,581,0,48
+S2,document,596,1724,1724,0,0,0,596,0,0,272,0,0
+S2,article,553,1958,1945,0,0,13,549,0,3,541,13,0
+S2,provision,558,2230,2182,164,0,48,548,0,4,581,0,48
+S3,document,596,1724,1724,0,0,0,596,0,0,272,0,0
+S3,article,553,1958,1945,0,0,13,549,0,3,541,13,0
+S3,provision,558,2230,2182,64,0,48,548,0,4,581,0,48
+S2c,document,596,1724,1724,0,0,0,596,0,0,272,0,0
+S2c,article,553,1958,1945,0,0,13,549,0,3,541,13,0
+S2c,provision,558,2230,2182,164,0,48,548,0,4,581,0,48
+S4,document,596,1724,1724,0,0,0,596,0,0,272,0,0
+S4,article,553,1958,1945,0,0,13,549,0,3,541,13,0
+S4,provision,558,2230,2182,64,0,48,548,0,4,581,0,48

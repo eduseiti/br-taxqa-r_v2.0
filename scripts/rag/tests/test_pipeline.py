@@ -125,11 +125,11 @@ def test_cli(repo, capsys):
     common = ["--chunks", str(repo.chunks), "--dataset", str(repo.dataset), "--embeddings-dir", str(repo.embeddings),
               "--runs-dir", str(repo.runs), "--strategies-file", str(repo.strategies)]
     assert rag.main(["check", "--embedding", "fake", *common]) == 0
-    assert rag.main(["retrieve", "--embedding", "fake", "--strategies", "S1,S2", *common]) == 0
+    assert rag.main(["retrieve", "--embedding", "fake", "--strategies", "S1,S2", "--exclusions", "none", *common]) == 0
     rdir = repo.runs / "retrieval" / "fake" / "irpf"
     assert rag.main(["evaluate", "--retrieval", str(rdir), "--budgets", "500,1000", "--resamples", "100",
                      *common]) == 0
     assert rag.main(["compare", "--retrieval", str(rdir), "--a", "S1", "--b", "S2", "--resamples", "100"]) == 0
     assert "S2 − S1" in capsys.readouterr().out
-    assert rag.main(["retrieve", "--embedding", "nope", *common]) == 2       # helpful error, no traceback
+    assert rag.main(["retrieve", "--embedding", "nope", "--exclusions", "none", *common]) == 2       # helpful error, no traceback
     assert "embed.py queries --model nope" in capsys.readouterr().err

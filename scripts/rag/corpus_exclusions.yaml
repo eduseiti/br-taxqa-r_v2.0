@@ -1,0 +1,19 @@
+# Documents of the dataset excluded from the retrieval corpus (the candidate chunks of every strategy).
+# They stay in dataset/ (the P&R does cite them) and in segmented/ and embeddings/ (the vectors are kept);
+# retrieval skips their chunks, and the evaluation reports their gold items as unreachable
+# ("excluded_from_corpus"). Read by `rag.py retrieve` (default; `--exclusions none` for a run without
+# exclusions) and recorded in the retrieval manifest, from which `evaluate` and `context` take it.
+#
+# Rule (user, 2026-10-22): **revoked documents** are not part of this experiment, which is about
+# segmentation, not about telling revoked from current law. A document is excluded when it was revoked
+# as a whole before the P&R date (2024-05-03). Analysis and audit:
+# docs/20261022_203625_corpus_exclusion_revoked_rir1999.md.
+
+documents:
+  decreto_3000_19990326:
+    title: "Decreto nº 3.000, de 26 de março de 1999 (RIR/1999)"
+    rule: revoked
+    revoked_by: "Decreto nº 9.580, de 22 de novembro de 2018 (RIR/2018), art. 4º"
+    superseded_by: decreto_9580_20181122
+    cited_by: ["282-12 (embedded; quoted inside a PGFN thesis in the answer of Q282)"]
+    decided: "2026-10-22 (user)"

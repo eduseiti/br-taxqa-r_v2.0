@@ -77,7 +77,10 @@ def cmd_retrieve(args: argparse.Namespace) -> int:
     instruction = args.instruction or default_instruction(paths.embeddings, args.embedding)
     cfg = RetrievalConfig(embedding=args.embedding, instruction=instruction,
                           strategies=str_list(args.strategies) if args.strategies else None, top_n=args.top_n,
-                          block_size=args.block_size, hash_vectors=not args.no_hash, force=args.force)
+                          block_size=args.block_size, hash_vectors=not args.no_hash, force=args.force,
+                          run_name=args.run_name,
+                          exclusions=None if args.exclusions == "none" else (Path(args.exclusions) if args.exclusions
+                                                                             else "default"))
     out = run_retrieval(cfg, paths)
     print(f"rankings written to {rel(out)}")
     return 0
@@ -187,6 +190,9 @@ def build_parser() -> argparse.ArgumentParser:
     sp.add_argument("--strategies", help="comma list (default: all in strategies.yaml)")
     sp.add_argument("--top-n", type=int, default=1000, help="texts kept per question and strategy (default 1000)")
     sp.add_argument("--block-size", type=int, default=128, help="queries per scoring block (default 128)")
+    sp.add_argument("--run-name", help="output runs/retrieval/<embedding>/<run name> (default: the instruction)")
+    sp.add_argument("--exclusions", help="corpus exclusion list (default scripts/rag/corpus_exclusions.yaml; "
+                                         "'none' for no exclusion)")
     sp.add_argument("--no-hash", action="store_true", help="skip hashing the vector files")
     sp.add_argument("--force", action="store_true", help="replace a run made with another configuration")
     common(sp)
@@ -240,7 +246,7 @@ def build_parser() -> argparse.ArgumentParser:
     sp.add_argument("--overflow", choices=("skip", "stop"), default="skip")
     sp.add_argument("--order", choices=("score", "document"), default="score",
                     help="order of the selected texts in the context (default: retrieval score)")
-    sp.add_argument("--template", default="context_v1", help="prompts/<name>.pt.md (default context_v1)")
+    sp.add_argument("--template", default="context_v2", help="prompts/<name>.pt.md (default context_v2)")
     sp.add_argument("--annex-rule", choices=ANNEX_RULES, default="either", help="G3 rule for gold coverage and oracle")
     sp.add_argument("--oracle-strategy", default="S1", help="units of the oracle context (default S1: articles)")
     sp.add_argument("--seed", type=int, default=13, help="seed of the wrong-context donors")

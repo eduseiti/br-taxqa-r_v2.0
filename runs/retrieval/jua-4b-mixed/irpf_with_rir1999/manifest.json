@@ -1,0 +1,350 @@
+{
+  "schema_version": 1,
+  "kind": "retrieval",
+  "created_at": "2026-10-22T20:26:19+00:00",
+  "script": {
+    "package": "ragpipe",
+    "version": "0.1.0",
+    "git": {
+      "commit": "7b760f446a508c23d024d7332824d8fdb3073e8a",
+      "dirty": true,
+      "dirty_files": [
+        "ocs/20261021_210251_rag_phase2_contexts_execution.md",
+        "runs/contexts/jua-4b-mixed/irpf/S1_budget2000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S1_budget4000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S1_budget8000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S2_budget2000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S2_budget4000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S2_budget8000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S2c_budget4000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S3_budget4000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S4_budget4000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/closed_book/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/oracle_budget16000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/oracle_budget4000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/summary.csv",
+        "runs/contexts/jua-4b-mixed/irpf/wrong-S2_budget4000/manifest.json",
+        "scripts/rag/README.md",
+        "scripts/rag/rag.py",
+        "scripts/rag/ragpipe/context.py",
+        "scripts/rag/ragpipe/contexts.py",
+        "scripts/rag/ragpipe/data.py",
+        "scripts/rag/ragpipe/evaluation.py",
+        "scripts/rag/ragpipe/retrieval.py",
+        "scripts/rag/ragpipe/strategies.py",
+        "scripts/rag/tests/conftest.py",
+        "scripts/rag/tests/test_contexts.py",
+        "scripts/rag/tests/test_pipeline.py",
+        "runs/contexts/jua-4b-mixed/irpf/S2_budget4000_context_v1/",
+        "scripts/rag/corpus_exclusions.yaml",
+        "scripts/rag/prompts/context_v2.pt.md",
+        "scripts/rag/ragpipe/exclusions.py",
+        "scripts/rag/tests/test_exclusions.py"
+      ]
+    },
+    "argv": [
+      "scripts/rag/rag.py",
+      "retrieve",
+      "--embedding",
+      "jua-4b-mixed",
+      "--exclusions",
+      "none",
+      "--run-name",
+      "irpf_with_rir1999"
+    ]
+  },
+  "config_hash": "734a67d9c45866c2c10e0e02ce90edff2ee60b2bee5f0ef063f07b971149494a",
+  "params": {
+    "embedding": "jua-4b-mixed",
+    "instruction": "irpf",
+    "retriever": "dense",
+    "top_n": 1000,
+    "strategies": [
+      "S1",
+      "S2",
+      "S3",
+      "S2c",
+      "S4"
+    ],
+    "run_name": "irpf_with_rir1999",
+    "excluded_documents": []
+  },
+  "embedding": {
+    "slug": "jua-4b-mixed",
+    "model_id": "ufca-llms/jua-4B-mixed",
+    "revision": "57f491c1718171c0ad71d723c4f6b2030684c4eb",
+    "dim": 2560,
+    "instruction_name": "irpf",
+    "instruction": "Given a question about Brazilian personal income tax (IRPF), retrieve the legal provisions that answer it",
+    "query_template": "Instruct: {instruction}\nQuery: {text}",
+    "document_template": "{text}"
+  },
+  "retriever": {
+    "name": "dense",
+    "similarity": "cosine (dot product of L2-normalized float32 vectors)",
+    "search": "exact brute force",
+    "tie_break": "text_id ascending",
+    "block_size": 128
+  },
+  "strategies": {
+    "path": "scripts/rag/strategies.yaml",
+    "sha256": "7ec326aa4e177a49db71f9897d77c7e7c60a2bb57cbbc7ecedc25d83c70d805e",
+    "strategies": {
+      "S1": {
+        "tipos": [
+          "ART",
+          "DSP",
+          "TAB",
+          "TXT"
+        ],
+        "variantes": [
+          "base"
+        ],
+        "description": "Article (or top-level dispositivo) + non-statutory units"
+      },
+      "S2": {
+        "tipos": [
+          "ALI",
+          "ART",
+          "CPT",
+          "DSP",
+          "INC",
+          "ITE",
+          "PAR",
+          "TAB",
+          "TXT"
+        ],
+        "variantes": [
+          "base"
+        ],
+        "description": "S1 + sub-article units with ancestor path (paragraphs without the caput)"
+      },
+      "S3": {
+        "tipos": [
+          "ALI",
+          "ART",
+          "CAP",
+          "CPT",
+          "DSP",
+          "INC",
+          "ITE",
+          "LIV",
+          "PAR",
+          "PRT",
+          "SBT",
+          "SEC",
+          "SSC",
+          "TAB",
+          "TIT",
+          "TXT"
+        ],
+        "variantes": [
+          "base"
+        ],
+        "description": "S2 + grouping chunks"
+      },
+      "S2c": {
+        "tipos": [
+          "ALI",
+          "ART",
+          "CPT",
+          "DSP",
+          "INC",
+          "ITE",
+          "PAR",
+          "TAB",
+          "TXT"
+        ],
+        "variantes": [
+          "caput",
+          "base"
+        ],
+        "description": "S2 with the caput sentence in paragraph-family chunks"
+      },
+      "S4": {
+        "tipos": [
+          "ALI",
+          "ART",
+          "CAP",
+          "CPT",
+          "DSP",
+          "INC",
+          "ITE",
+          "LIV",
+          "PAR",
+          "PRT",
+          "SBT",
+          "SEC",
+          "SSC",
+          "TAB",
+          "TIT",
+          "TXT"
+        ],
+        "variantes": [
+          "caput",
+          "base"
+        ],
+        "description": "S3 with the caput sentence in paragraph-family chunks"
+      }
+    },
+    "grouping_tipos": [
+      "CAP",
+      "LIV",
+      "PRT",
+      "SBT",
+      "SEC",
+      "SSC",
+      "TIT"
+    ],
+    "unit_precedence": [
+      "PRT",
+      "LIV",
+      "TIT",
+      "SBT",
+      "CAP",
+      "SEC",
+      "SSC",
+      "ART",
+      "DSP",
+      "TXT",
+      "TAB",
+      "CPT",
+      "PAR",
+      "INC",
+      "ALI",
+      "ITE"
+    ]
+  },
+  "inputs": {
+    "chunks": {
+      "path": "segmented/chunks_all.csv.gz",
+      "sha256": "a6087b7f19ff5b02cc0863523b6dd423f6feddf291fe9f11e7f08d45146c326a"
+    },
+    "questions": {
+      "path": "dataset/questions.jsonl",
+      "sha256": "5612b1eb2adc096107f61e366a09088332db0cc47a5a97ae0f1abb7c09a05baa"
+    },
+    "references": {
+      "path": "dataset/references.jsonl",
+      "sha256": "ffc7e6b748f68b428b124dc5a3baa7e0d57aaaef419f7d50ff2596bd62aec9f7"
+    },
+    "documents": {
+      "path": "dataset/documents.jsonl",
+      "sha256": "5b7c5b42020046c420eb89fff56c945481a14aceb4cb28970f85eb5b21ee73aa"
+    },
+    "strategies_yaml": {
+      "path": "scripts/rag/strategies.yaml",
+      "sha256": "7ec326aa4e177a49db71f9897d77c7e7c60a2bb57cbbc7ecedc25d83c70d805e"
+    },
+    "corpus_vectors": {
+      "path": "embeddings/jua-4b-mixed/corpus/vectors.npy",
+      "sha256": "e26e2876c4cd7e9e3bd1ade61f7ce64d2117ef12bfc17ed81fa8804c05d29b4d"
+    },
+    "corpus_texts": {
+      "path": "embeddings/jua-4b-mixed/corpus/texts.csv",
+      "sha256": "4fe543fb03535482800327902f228ed2a804fa0bbaae4d01a321eccf489d6ece"
+    },
+    "chunk_map": {
+      "path": "embeddings/jua-4b-mixed/corpus/chunk_map.csv.gz",
+      "sha256": "5569b3c5e1aa2e34631d68a15d9ec3b5f7b185e983ea759f41c9e7819c67c286"
+    },
+    "query_vectors": {
+      "path": "embeddings/jua-4b-mixed/queries/irpf/vectors.npy",
+      "sha256": "bcf30223a164f5f601f2638b251599a0916a663bdd99aef799eec5cf9c135ec3"
+    },
+    "queries": {
+      "path": "embeddings/jua-4b-mixed/queries/irpf/queries.csv",
+      "sha256": "c495d1b2c1bd03f747cbebbd75ed2fb7aa3d512e38593018b4566819cb456fc2"
+    }
+  },
+  "checks": {
+    "ok": true,
+    "errors": [],
+    "warnings": [],
+    "info": {
+      "chunks": 104574,
+      "unique_texts": 101943,
+      "corpus_vectors": [
+        101943,
+        2560
+      ],
+      "query_vectors": [
+        715,
+        2560
+      ],
+      "questions": 715,
+      "references": 1916,
+      "references_not_in_corpus": 0,
+      "documents": 453,
+      "documents_without_chunks": 0,
+      "cited_documents_without_chunks": []
+    }
+  },
+  "counts": {
+    "S1": {
+      "chunk_rows": 21497,
+      "candidate_texts": 21458,
+      "ranking_rows": 715000,
+      "texts_with_aliases": 34
+    },
+    "S2": {
+      "chunk_rows": 73118,
+      "candidate_texts": 72960,
+      "ranking_rows": 715000,
+      "texts_with_aliases": 153
+    },
+    "S3": {
+      "chunk_rows": 77080,
+      "candidate_texts": 76922,
+      "ranking_rows": 715000,
+      "texts_with_aliases": 153
+    },
+    "S2c": {
+      "chunk_rows": 73118,
+      "candidate_texts": 70500,
+      "ranking_rows": 715000,
+      "texts_with_aliases": 2612
+    },
+    "S4": {
+      "chunk_rows": 77080,
+      "candidate_texts": 74462,
+      "ranking_rows": 715000,
+      "texts_with_aliases": 2612
+    }
+  },
+  "corpus_exclusions": {
+    "path": null,
+    "sha256": null,
+    "documents": [],
+    "chunk_rows_excluded": 0
+  },
+  "outputs": {
+    "S1": {
+      "path": "S1/rankings.csv.gz",
+      "sha256": "1b9147ed3972316d935206a7d3290228a6909bae02ecee84e95b8c05796e7bcc"
+    },
+    "S2": {
+      "path": "S2/rankings.csv.gz",
+      "sha256": "67f33eee11043c0dab1bc0dd21f4bdbe0fe07838e5cd1e69aa1c6eeab73be240"
+    },
+    "S3": {
+      "path": "S3/rankings.csv.gz",
+      "sha256": "56eead2a6c9e37a6478ae3a0773d517f3c98ee07ee8194f3e7d73ebb76ffaa9c"
+    },
+    "S2c": {
+      "path": "S2c/rankings.csv.gz",
+      "sha256": "0181ec6a71ea599be69e6e754ab9ec46105292337ef09be4874fc27ec92fdc77"
+    },
+    "S4": {
+      "path": "S4/rankings.csv.gz",
+      "sha256": "dd8eefafd4eeb13413172b8a616aa611c7e0f6e79182d4218a32ce9f9eaee99b"
+    }
+  },
+  "timings_s": {
+    "load_and_check": 8.67,
+    "index": 5.0,
+    "search": 7.12,
+    "write": 13.15,
+    "total": 33.94
+  }
+}

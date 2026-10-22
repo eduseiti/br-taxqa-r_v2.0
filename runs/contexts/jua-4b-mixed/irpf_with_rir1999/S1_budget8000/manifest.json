@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "kind": "contexts",
+  "created_at": "2026-10-22T20:30:00+00:00",
+  "script": {
+    "package": "ragpipe",
+    "version": "0.1.0",
+    "git": {
+      "commit": "7b760f446a508c23d024d7332824d8fdb3073e8a",
+      "dirty": true,
+      "dirty_files": [
+        "ocs/20261021_210251_rag_phase2_contexts_execution.md",
+        "runs/contexts/jua-4b-mixed/irpf/S1_budget2000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S1_budget4000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S1_budget8000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S2_budget2000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S2_budget4000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S2_budget8000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S2c_budget4000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S3_budget4000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S4_budget4000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/closed_book/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/oracle_budget16000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/oracle_budget4000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/summary.csv",
+        "runs/contexts/jua-4b-mixed/irpf/wrong-S2_budget4000/manifest.json",
+        "scripts/rag/README.md",
+        "scripts/rag/rag.py",
+        "scripts/rag/ragpipe/context.py",
+        "scripts/rag/ragpipe/contexts.py",
+        "scripts/rag/ragpipe/data.py",
+        "scripts/rag/ragpipe/evaluation.py",
+        "scripts/rag/ragpipe/retrieval.py",
+        "scripts/rag/ragpipe/strategies.py",
+        "scripts/rag/tests/conftest.py",
+        "scripts/rag/tests/test_contexts.py",
+        "scripts/rag/tests/test_pipeline.py",
+        "runs/contexts/jua-4b-mixed/irpf/S2_budget4000_context_v1/",
+        "runs/retrieval/jua-4b-mixed/irpf_with_rir1999/",
+        "scripts/rag/corpus_exclusions.yaml",
+        "scripts/rag/prompts/context_v2.pt.md",
+        "scripts/rag/ragpipe/exclusions.py",
+        "scripts/rag/tests/test_exclusions.py"
+      ]
+    },
+    "argv": [
+      "scripts/rag/rag.py",
+      "context",
+      "--retrieval",
+      "runs/retrieval/jua-4b-mixed/irpf_with_rir1999",
+      "--sets",
+      "S1@budget=4000,S2@budget=4000,S3@budget=4000,S2c@budget=4000,S4@budget=4000,S1@budget=2000,S2@budget=2000,S1@budget=8000,S2@budget=8000,closed_book,oracle@budget=4000,wrong:S2@budget=4000,oracle@budget=16000"
+    ]
+  },
+  "config_hash": "1eb71607d45725c3b02eb77712ffe6f8d7b150e74a515577799ec99d38916332",
+  "context_id": "S1_budget8000",
+  "params": {
+    "dedup": "containment_merge",
+    "overflow": "skip",
+    "order": "score",
+    "template": "context_v2",
+    "annex_rule": "either",
+    "oracle_strategy": "S1",
+    "seed": 13,
+    "token_counter": "qwen3",
+    "set": "retrieval",
+    "strategy": "S1",
+    "cutoff": "budget=8000"
+  },
+  "inputs": {
+    "retrieval_manifest": {
+      "path": "runs/retrieval/jua-4b-mixed/irpf_with_rir1999/manifest.json",
+      "config_hash": "734a67d9c45866c2c10e0e02ce90edff2ee60b2bee5f0ef063f07b971149494a"
+    },
+    "chunks": {
+      "path": "segmented/chunks_all.csv.gz",
+      "sha256": "a6087b7f19ff5b02cc0863523b6dd423f6feddf291fe9f11e7f08d45146c326a"
+    },
+    "questions": {
+      "path": "dataset/questions.jsonl",
+      "sha256": "5612b1eb2adc096107f61e366a09088332db0cc47a5a97ae0f1abb7c09a05baa"
+    },
+    "references": {
+      "path": "dataset/references.jsonl",
+      "sha256": "ffc7e6b748f68b428b124dc5a3baa7e0d57aaaef419f7d50ff2596bd62aec9f7"
+    },
+    "documents": {
+      "path": "dataset/documents.jsonl",
+      "sha256": "5b7c5b42020046c420eb89fff56c945481a14aceb4cb28970f85eb5b21ee73aa"
+    },
+    "chapters": {
+      "path": "scripts/rag/data/pr_irpf_2024_chapters.csv",
+      "sha256": "d11588869d03c90793e6c1ba6d154935b1184e4444c15817f0affa666208c5e4"
+    },
+    "template": {
+      "path": "scripts/rag/prompts/context_v2.pt.md",
+      "sha256": "0b3508dc028449ef7b760fa82ef2afc9d5384836ad5a8e04ebab40ec06839716"
+    }
+  },
+  "counts": {
+    "questions": 715,
+    "empty_contexts": 0,
+    "mean_texts": 20.951,
+    "mean_context_tokens_qwen3": 7984.7,
+    "mean_rendered_tokens_qwen3": 7503.8,
+    "mean_rendered_chars": 22914.7,
+    "document_questions": 596,
+    "document_recall": 0.71763,
+    "document_hit": 0.927852,
+    "article_questions": 553,
+    "article_recall": 0.480307,
+    "article_hit": 0.707052,
+    "provision_questions": 558,
+    "provision_recall": 0.456279,
+    "provision_hit": 0.682796
+  },
+  "consistency_with_evaluation": {
+    "eval": "runs/retrieval/jua-4b-mixed/irpf_with_rir1999/eval/either_containment_merge_skip",
+    "items": 5912,
+    "full_hits": 2500,
+    "mismatches": 0,
+    "examples": []
+  },
+  "outputs": {
+    "contexts.jsonl.gz": {
+      "sha256": "7e237d8c89ddb9580d0283fe31a8d8feeaae013c02b8ad106b086995844a3501"
+    }
+  },
+  "timings_s": {
+    "total": 9.69
+  }
+}

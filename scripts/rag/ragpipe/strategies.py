@@ -139,16 +139,22 @@ class StrategyIndex:
         return self.member_rows[self.member_ptr[:-1]]
 
 
-def build_index(chunks: pd.DataFrame, strategy: Strategy, precedence: tuple[str, ...]) -> StrategyIndex:
+def build_index(chunks: pd.DataFrame, strategy: Strategy, precedence: tuple[str, ...],
+                exclude: np.ndarray | None = None) -> StrategyIndex:
     """Group the strategy's chunks by text; order members coarse-to-fine, then by file order.
 
-    ``chunks`` must carry ``text_row`` (see :func:`attach_text_rows`).
+    ``chunks`` must carry ``text_row`` (see :func:`attach_text_rows`). ``exclude``: chunk rows that are
+    not candidates (excluded documents, :mod:`ragpipe.exclusions`); applied after the expected-rows
+    check, which describes the chunk file.
     """
     rank = {t: i for i, t in enumerate(precedence)}
-    sub = chunks.loc[member_mask(chunks, strategy.tipos, strategy.variantes), ["text_row", "Tipo"]]
-    if strategy.expected_rows is not None and len(sub) != strategy.expected_rows:
+    mask = member_mask(chunks, strategy.tipos, strategy.variantes)
+    if strategy.expected_rows is not None and int(mask.sum()) != strategy.expected_rows:
         log.warning("strategy %s: %d chunk rows, strategies.yaml expects %d (other chunk file?)",
-                    strategy.name, len(sub), strategy.expected_rows)
+                    strategy.name, int(mask.sum()), strategy.expected_rows)
+    if exclude is not None:
+        mask = mask & ~exclude
+    sub = chunks.loc[mask, ["text_row", "Tipo"]]
     order = np.lexsort((sub.index.to_numpy(), sub["Tipo"].map(rank).to_numpy(), sub["text_row"].to_numpy()))
     rows = sub.index.to_numpy()[order]
     trows = sub["text_row"].to_numpy()[order]

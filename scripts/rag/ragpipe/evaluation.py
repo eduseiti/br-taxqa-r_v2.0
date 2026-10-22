@@ -38,6 +38,7 @@ import pandas as pd
 from . import metrics as M
 from .context import Cutoff, select
 from .data import InputError, Paths, load_chapters, load_chunks, load_dataset
+from .exclusions import Exclusions
 from .relevance import LEVELS, GoldItem, Matcher, gold_items
 from .retrieval import load_rankings
 from .strategies import member_mask
@@ -145,9 +146,9 @@ def unit_positions(rt: RankedTexts, ranked: np.ndarray, level: str, matcher: Mat
 
 def evaluate_strategy(name: str, in_strategy: np.ndarray, rt: RankedTexts, gold: dict[str, dict[str, list[GoldItem]]],
                       matcher: Matcher, statutory: dict[str, bool],
-                      cfg: EvalConfig) -> tuple[list[dict], list[dict]]:
+                      cfg: EvalConfig, excluded: Exclusions = Exclusions()) -> tuple[list[dict], list[dict]]:
     """Rows of the per-item table and of the context table for one strategy (``in_strategy``: the
-    chunk-table rows it indexes, :func:`.strategies.member_mask`)."""
+    chunk-table rows it indexes, :func:`.strategies.member_mask` without the excluded documents)."""
     cutoffs = [Cutoff("budget", b) for b in cfg.budgets]
     item_rows, ctx_rows = [], []
     empty = np.empty(0, dtype=np.int64)
@@ -189,7 +190,7 @@ def evaluate_strategy(name: str, in_strategy: np.ndarray, rt: RankedTexts, gold:
                     "reachable_partial": len(full_rows) + len(part_rows) > 0,
                     "reachable_by_parts_only": not len(full_rows) and bool(cover_sets),
                     "only_ambiguous": matcher.only_ambiguous(full_rows),
-                    "unreachable_reason": "" if len(full_rows) or cover_sets else unreachable_reason(it, m, matcher),
+                    "unreachable_reason": "" if len(full_rows) or cover_sets else unreachable_reason(it, m, matcher, excluded),
                     "rank_full": min(_first(hit_full), rank_cover), "rank_any": _first(hit_any),
                     "unit_pos": min((upos.get(u, INF) for u in m.units), default=INF) if level != "provision" else INF,
                 }
@@ -214,7 +215,9 @@ def _first(mask: np.ndarray) -> float:
     return float(idx[0] + 1) if len(idx) else INF
 
 
-def unreachable_reason(it: GoldItem, m, matcher: Matcher) -> str:
+def unreachable_reason(it: GoldItem, m, matcher: Matcher, excluded: Exclusions = Exclusions()) -> str:
+    if it.document_id in excluded:
+        return "excluded_from_corpus"
     if it.level == "provision" and not (it.fragment_id and it.lexml_file):
         return "no_lexml_id"
     if it.document_id not in matcher.rows_by_doc:
@@ -407,6 +410,7 @@ def run_evaluation(retrieval_dir: Path, cfg: EvalConfig, paths: Paths = Paths())
     if unknown:
         raise InputError(f"no rankings for {unknown} in {rel(retrieval_dir)} (have {', '.join(rman['outputs'])})")
     grouping = frozenset(rman["strategies"]["grouping_tipos"])
+    excluded = Exclusions.from_manifest(rman)
 
     chunks = load_chunks(paths.chunks)
     ds = load_dataset(paths.dataset)
@@ -417,6 +421,7 @@ def run_evaluation(retrieval_dir: Path, cfg: EvalConfig, paths: Paths = Paths())
     matcher = Matcher(chunks, file_to_doc, main_file, grouping, cfg.annex_rule)
     gold = gold_items(ds)
     file_index = {f: i for i, f in enumerate(sorted(set(chunks["arquivo"])))}
+    excluded_rows = excluded.row_mask(chunks, file_to_doc)
     t_load = time.time()
 
     params = {**cfg.params(), "strategies": names}
@@ -433,7 +438,8 @@ def run_evaluation(retrieval_dir: Path, cfg: EvalConfig, paths: Paths = Paths())
         ts = time.time()
         rt = ranked_texts(load_rankings(retrieval_dir, name), chunks, file_index)
         in_strategy = member_mask(chunks, frozenset(sdefs[name]["tipos"]), sdefs[name].get("variantes", ["base"]))
-        i_rows, c_rows = evaluate_strategy(name, in_strategy, rt, gold, matcher, statutory, cfg)
+        in_strategy = in_strategy & ~excluded_rows
+        i_rows, c_rows = evaluate_strategy(name, in_strategy, rt, gold, matcher, statutory, cfg, excluded)
         item_rows += i_rows
         ctx_rows += c_rows
         log.info("%s: %d gold items scored in %.1fs", name, len(i_rows), time.time() - ts)
@@ -463,7 +469,8 @@ def run_evaluation(retrieval_dir: Path, cfg: EvalConfig, paths: Paths = Paths())
     manifest = base_manifest("retrieval_evaluation")
     manifest.update({
         "config_hash": config_hash, "eval_id": cfg.resolved_eval_id, "params": params, "inputs": inputs,
-        "retrieval": {"embedding": rman["embedding"], "retriever": rman["retriever"], "top_n": rman["params"]["top_n"]},
+        "retrieval": {"embedding": rman["embedding"], "retriever": rman["retriever"], "top_n": rman["params"]["top_n"],
+                      "excluded_documents": sorted(excluded.documents)},
         "gold": {"questions_with_gold": {lv: sum(1 for q in gold if gold[q][lv]) for lv in LEVELS},
                  "gold_items": {lv: sum(len(gold[q][lv]) for q in gold) for lv in LEVELS},
                  "references": len(ds.references),

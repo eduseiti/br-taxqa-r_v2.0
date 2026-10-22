@@ -18,6 +18,7 @@ import numpy as np
 import pandas as pd
 
 from .data import Paths, check_inputs, load_chunks, load_dataset, load_embedding
+from .exclusions import Exclusions
 from .retrievers import DenseRetriever
 from .runs import base_manifest, prepare_run_dir, rel, sha256_file, sha256_json, write_csv, write_json
 from .strategies import StrategyIndex, attach_text_rows, build_index, load_strategies
@@ -37,6 +38,8 @@ class RetrievalConfig:
     block_size: int = 128
     hash_vectors: bool = True
     force: bool = False
+    run_name: str | None = None          # output directory name (default: the instruction)
+    exclusions: Path | None | str = "default"   # "default": Paths.exclusions; None: no exclusion
 
 
 def rankings_frame(index: StrategyIndex, chunks: pd.DataFrame, text_ids: np.ndarray,
@@ -73,20 +76,27 @@ def run_retrieval(cfg: RetrievalConfig, paths: Paths = Paths()) -> Path:
     report.raise_if_failed()
     t_load = time.time()
 
+    excl = Exclusions.load(paths.exclusions if cfg.exclusions == "default" else cfg.exclusions)
+    excluded = excl.row_mask(chunks, ds.file_to_document())
+    run_name = cfg.run_name or cfg.instruction
     params = {"embedding": cfg.embedding, "instruction": cfg.instruction, "retriever": cfg.retriever,
-              "top_n": cfg.top_n, "strategies": [s.name for s in strategies]}
+              "top_n": cfg.top_n, "strategies": [s.name for s in strategies], "run_name": run_name,
+              "excluded_documents": sorted(excl.documents)}
     inputs = {"chunks": {"path": rel(paths.chunks), "sha256": chunks_sha},
               **{Path(p).stem: {"path": p, "sha256": h} for p, h in ds.sha256.items()},
               "strategies_yaml": {"path": rel(paths.strategies), "sha256": strat_cfg.sha256},
               **{k: {"path": rel(p), "sha256": sha256_file(p) if cfg.hash_vectors else None}
-                 for k, p in emb.input_files().items()}}
+                 for k, p in emb.input_files().items()},
+              **({"corpus_exclusions": {"path": excl.path, "sha256": excl.sha256}} if excl.path else {})}
     config_hash = sha256_json({"params": params, "inputs": {k: v["sha256"] for k, v in inputs.items()},
                                "strategies": strat_cfg.to_dict()["strategies"]})
-    out_dir = paths.retrieval_dir(cfg.embedding, cfg.instruction)
+    out_dir = paths.retrieval_dir(cfg.embedding, run_name)
     prepare_run_dir(out_dir, config_hash, cfg.force)
 
     chunks = attach_text_rows(chunks, emb)
-    indexes = {s.name: build_index(chunks, s, strat_cfg.unit_precedence) for s in strategies}
+    indexes = {s.name: build_index(chunks, s, strat_cfg.unit_precedence, excluded) for s in strategies}
+    if excl.documents:
+        log.info("excluded from the corpus: %s (%d chunk rows)", ", ".join(sorted(excl.documents)), int(excluded.sum()))
     if cfg.retriever != "dense":
         raise ValueError(f"unknown retriever {cfg.retriever!r} (available: dense)")
     query_ids = ds.question_ids
@@ -111,6 +121,7 @@ def run_retrieval(cfg: RetrievalConfig, paths: Paths = Paths()) -> Path:
     manifest.update({
         "config_hash": config_hash, "params": params, "embedding": emb.info(), "retriever": retriever.info(),
         "strategies": strat_cfg.to_dict(), "inputs": inputs, "checks": report.to_dict(), "counts": counts,
+        "corpus_exclusions": excl.to_manifest(int(excluded.sum())),
         "outputs": {n: {"path": f"{n}/rankings.csv.gz",
                         "sha256": sha256_file(out_dir / n / "rankings.csv.gz")} for n in indexes},
         "timings_s": {"load_and_check": round(t_load - t0, 2), "index": round(t_index - t_load, 2),

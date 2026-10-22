@@ -6,7 +6,7 @@ from __future__ import annotations
 import pytest
 
 import rag
-from ragpipe.context import Template, source_label
+from ragpipe.context import Template, source_label, split_prefix
 from ragpipe.contexts import PROMPTS, ContextConfig, SetSpec, load_contexts, run_contexts
 from ragpipe.evaluation import EvalConfig, run_evaluation
 from ragpipe.retrieval import RetrievalConfig, load_rankings, run_retrieval
@@ -92,6 +92,18 @@ def test_source_label():
     assert source_label("LEI", "", False, "Art. 1º, Parágrafo único., II", 1, 1) == "LEI — Art. 1º, Parágrafo único, II"
 
 
+def test_context_v2():
+    assert split_prefix("[ LEI Nº 1 | Dispõe sobre X. | Anexo 2 – TABELA ] Texto do anexo") == \
+        (["LEI Nº 1", "Dispõe sobre X.", "Anexo 2 – TABELA"], "Texto do anexo")
+    assert split_prefix("[ ] Art. 1º x") == ([], "Art. 1º x")
+    assert split_prefix("sem prefixo") == ([], "sem prefixo")
+    t = Template.load(PROMPTS, "context_v2")
+    assert t.per_document_ementa and not Template.load(PROMPTS, "context_v1").per_document_ementa
+    assert t.render([("LEI Nº 1 — Art. 1º", "Ementa: Dispõe sobre X.\n", "Art. 1º a"), ("LEI Nº 1 — Art. 2º", "", "Art. 2º b")]) \
+        == "[Documento 1] LEI Nº 1 — Art. 1º\nEmenta: Dispõe sobre X.\nArt. 1º a\n\n[Documento 2] LEI Nº 1 — Art. 2º\nArt. 2º b"
+    assert source_label("LEI Nº 1", "", True, "Tabela 1", 1, 1, "Anexo 2 – TABELA") == "LEI Nº 1 — Anexo 2 – TABELA — Tabela 1"
+
+
 def test_epigrafe():
     from ragpipe.contexts import epigrafe
     assert epigrafe("[ LEI Nº 9.250 | Dispõe sobre … ] Art. 1º") == "LEI Nº 9.250"
@@ -121,7 +133,7 @@ def test_determinism_and_variants(repo):
 def test_cli(repo, capsys):
     common = ["--chunks", str(repo.chunks), "--dataset", str(repo.dataset), "--embeddings-dir", str(repo.embeddings),
               "--runs-dir", str(repo.runs), "--strategies-file", str(repo.strategies)]
-    assert rag.main(["retrieve", "--embedding", "fake", *common]) == 0
+    assert rag.main(["retrieve", "--embedding", "fake", "--exclusions", "none", *common]) == 0
     rdir = repo.runs / "retrieval" / "fake" / "irpf"
     assert rag.main(["context", "--retrieval", str(rdir), "--sets", "S2@budget=500,closed_book", "--no-token-count",
                      *common]) == 0

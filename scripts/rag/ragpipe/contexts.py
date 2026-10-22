@@ -38,8 +38,9 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from .context import Cutoff, Template, select, source_label
+from .context import Cutoff, Template, select, source_label, split_prefix
 from .data import InputError, Paths, load_chapters, load_chunks, load_dataset
+from .exclusions import Exclusions
 from .evaluation import RankedTexts, ranked_texts
 from .relevance import LEVELS, Matcher, gold_items
 from .retrieval import load_rankings
@@ -99,7 +100,7 @@ class ContextConfig:
     dedup: str = "containment_merge"
     overflow: str = "skip"
     order: str = "score"
-    template: str = "context_v1"
+    template: str = "context_v2"
     annex_rule: str = "either"
     oracle_strategy: str = "S1"
     seed: int = 13
@@ -138,6 +139,7 @@ class Inputs:
     file_index: dict[str, int]
     strategies: dict
     retrieval_dir: Path
+    excluded_rows: np.ndarray
     ranked: dict[str, tuple[RankedTexts, dict[str, np.ndarray]]] = field(default_factory=dict)
 
     def ranking(self, name: str) -> tuple[RankedTexts, dict[str, np.ndarray]]:
@@ -155,7 +157,7 @@ class Inputs:
 
     def member_mask(self, name: str) -> np.ndarray:
         s = self.strategies[name]
-        return member_mask(self.chunks, frozenset(s["tipos"]), s.get("variantes", ["base"]))
+        return member_mask(self.chunks, frozenset(s["tipos"]), s.get("variantes", ["base"])) & ~self.excluded_rows
 
 
 @dataclass
@@ -288,33 +290,40 @@ def order_items(inp: Inputs, items: list[Item], order: str) -> list[Item]:
                                          int(ch.at[int(it.rows[0]), "Num_Inicio"])))
 
 
-PREFIX_RE = re.compile(r"^\[\s*([^\]]*?)\s*\]")
-
-
 def epigrafe(texto: str) -> str | None:
     """First field of the ``[ Epígrafe | Ementa ]`` prefix of a chunk text (title fallback); the
     second when the first is a URN (a document parsed without a title, e.g. the DIAT service page)."""
-    m = PREFIX_RE.match(texto or "")
-    if not m:
-        return None
-    fields = [f.strip() for f in m.group(1).split("|") if f.strip()]
+    fields, _ = split_prefix(texto)
     if fields and fields[0].startswith("urn:") and len(fields) > 1:
         return fields[1]
     return fields[0] if fields else None
 
 
-def describe(inp: Inputs, n: int, it: Item) -> dict:
+def describe(inp: Inputs, n: int, it: Item, tmpl: Template, seen: set[str]) -> tuple[dict, tuple]:
+    """Item fields of a context line and the ``(fonte, [ementa,] texto)`` block of the template.
+    ``seen``: documents already shown in this context (``context_v2`` shows the ementa once each)."""
     r = int(it.rows[0])
     c = inp.chunks
     doc = inp.matcher.doc_of_row[r]
-    title = inp.title.get(doc) or epigrafe(c.at[r, "Texto"]) or c.at[r, "Rotulo"].split(",")[0]
-    fonte = source_label(title, c.at[r, "doc_urn"], bool(c.at[r, "anexo_urn"]), c.at[r, "citacao"],
-                         int(c.at[r, "parte"]), int(c.at[r, "n_partes"]))
-    return {"n": n, "text_id": it.text_id, "chunk_id": c.at[r, "chunk_id"],
+    texto = c.at[r, "Texto"]
+    title = inp.title.get(doc) or epigrafe(texto) or c.at[r, "Rotulo"].split(",")[0]
+    annex = bool(c.at[r, "anexo_urn"])
+    fields, body = split_prefix(texto)
+    annex_label = fields[2] if tmpl.per_document_ementa and annex and len(fields) > 2 else None
+    fonte = source_label(title, c.at[r, "doc_urn"], annex, c.at[r, "citacao"], int(c.at[r, "parte"]),
+                         int(c.at[r, "n_partes"]), annex_label)
+    if tmpl.per_document_ementa:
+        ementa = fields[1] if len(fields) > 1 and not fields[1].casefold() == title.casefold() else ""
+        block = (fonte, f"Ementa: {ementa}\n" if ementa and doc not in seen else "", body)
+        seen.add(doc)
+    else:
+        block = (fonte, texto)
+    item = {"n": n, "text_id": it.text_id, "chunk_id": c.at[r, "chunk_id"],
             "alias_chunk_ids": [c.at[int(x), "chunk_id"] for x in it.rows[1:]], "rank": it.rank,
             "score": None if it.score is None else round(it.score, 6), "document_id": doc,
             "arquivo": c.at[r, "arquivo"], "tipo": c.at[r, "Tipo"], "citacao": c.at[r, "citacao"],
             "tokens_qwen3": int(c.at[r, "n_tokens_qwen3"]), "fonte": fonte}
+    return item, block
 
 
 class TokenCounter:
@@ -362,12 +371,13 @@ def build_set(inp: Inputs, spec: SetSpec, cfg: ContextConfig, tmpl: Template, co
     lines = []
     for q in inp.question_ids:
         items = order_items(inp, sel[q], cfg.order)
-        desc = [describe(inp, n, it) for n, it in enumerate(items, 1)]
-        text = tmpl.render([(d["fonte"], inp.chunks.at[int(it.rows[0]), "Texto"]) for d, it in zip(desc, items)])
+        seen: set[str] = set()
+        desc, blocks = zip(*[describe(inp, n, it, tmpl, seen) for n, it in enumerate(items, 1)]) if items else ((), ())
+        text = tmpl.render(blocks)
         line = {"context_id": None, "question_number": q, "kind": spec.kind,
                 **({"donor_question": donor[q]} if donor else {}),
                 "n_texts": len(items), "context_tokens_qwen3": int(sum(d["tokens_qwen3"] for d in desc)),
-                "rendered_tokens_qwen3": None, "rendered_chars": len(text), "items": desc,
+                "rendered_tokens_qwen3": None, "rendered_chars": len(text), "items": list(desc),
                 "gold": coverage(inp, q, sel[q]), "context": text}
         lines.append(line)
     for line, n in zip(lines, counter.count([ln["context"] for ln in lines])):
@@ -469,7 +479,8 @@ def run_contexts(retrieval_dir: Path, cfg: ContextConfig, paths: Paths = Paths()
                  gold=gold_items(ds), title=titles,
                  file_index={f: i for i, f in enumerate(sorted(set(chunks["arquivo"])))},
                  strategies={n: rman["strategies"]["strategies"][n] for n in rman["outputs"]},
-                 retrieval_dir=retrieval_dir)
+                 retrieval_dir=retrieval_dir,
+                 excluded_rows=Exclusions.from_manifest(rman).row_mask(chunks, ds.file_to_document()))
     unknown = [s.strategy for s in specs if s.strategy and s.strategy not in inp.strategies]
     if cfg.oracle_strategy not in inp.strategies:
         unknown.append(cfg.oracle_strategy)
@@ -480,7 +491,8 @@ def run_contexts(retrieval_dir: Path, cfg: ContextConfig, paths: Paths = Paths()
     if eval_dir is None:
         log.warning("no matching evaluation in %s: the consistency check is skipped", rel(retrieval_dir / "eval"))
     counter = TokenCounter(cfg.count_tokens)
-    root = paths.runs / "contexts" / rman["params"]["embedding"] / rman["params"]["instruction"]
+    # contexts of runs/retrieval/<embedding>/<run name> go to runs/contexts/<embedding>/<run name>
+    root = paths.runs / "contexts" / rman["params"]["embedding"] / retrieval_dir.name
     inputs = {"retrieval_manifest": {"path": rel(retrieval_dir / "manifest.json"), "config_hash": rman["config_hash"]},
               "chunks": {"path": rel(paths.chunks), "sha256": chunks_sha},
               **{Path(p).stem: {"path": p, "sha256": h} for p, h in ds.sha256.items()},

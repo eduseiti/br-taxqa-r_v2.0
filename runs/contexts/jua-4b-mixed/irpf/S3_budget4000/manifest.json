@@ -1,29 +1,58 @@
 {
   "schema_version": 1,
   "kind": "contexts",
-  "created_at": "2026-10-21T21:20:27+00:00",
+  "created_at": "2026-10-22T20:34:40+00:00",
   "script": {
     "package": "ragpipe",
     "version": "0.1.0",
     "git": {
-      "commit": "50a2f6467e3c30f2ed403ac7030021bf462157e0",
+      "commit": "7b760f446a508c23d024d7332824d8fdb3073e8a",
       "dirty": true,
       "dirty_files": [
-        "gitignore",
-        "CLAUDE.md",
+        "ocs/20261021_210251_rag_phase2_contexts_execution.md",
+        "runs/contexts/jua-4b-mixed/irpf/S1_budget2000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S1_budget4000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S1_budget8000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S2_budget2000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S2_budget4000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S2_budget8000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S2c_budget4000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S3_budget4000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S4_budget4000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/closed_book/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/oracle_budget16000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/oracle_budget4000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/summary.csv",
+        "runs/contexts/jua-4b-mixed/irpf/wrong-S2_budget4000/manifest.json",
+        "runs/retrieval/jua-4b-mixed/irpf/eval/either_containment_merge_skip/comparisons.csv",
+        "runs/retrieval/jua-4b-mixed/irpf/eval/either_containment_merge_skip/manifest.json",
+        "runs/retrieval/jua-4b-mixed/irpf/eval/either_containment_merge_skip/metrics.csv",
+        "runs/retrieval/jua-4b-mixed/irpf/eval/either_containment_merge_skip/reachability.csv",
+        "runs/retrieval/jua-4b-mixed/irpf/eval/either_containment_merge_skip/report.md",
+        "runs/retrieval/jua-4b-mixed/irpf/eval/v2d_either_containment_skip/comparisons.csv",
+        "runs/retrieval/jua-4b-mixed/irpf/eval/v2d_either_containment_skip/manifest.json",
+        "runs/retrieval/jua-4b-mixed/irpf/eval/v2d_either_containment_skip/metrics.csv",
+        "runs/retrieval/jua-4b-mixed/irpf/eval/v2d_either_containment_skip/reachability.csv",
+        "runs/retrieval/jua-4b-mixed/irpf/eval/v2d_either_containment_skip/report.md",
+        "runs/retrieval/jua-4b-mixed/irpf/manifest.json",
         "scripts/rag/README.md",
         "scripts/rag/rag.py",
         "scripts/rag/ragpipe/context.py",
+        "scripts/rag/ragpipe/contexts.py",
         "scripts/rag/ragpipe/data.py",
         "scripts/rag/ragpipe/evaluation.py",
-        "scripts/rag/ragpipe/runs.py",
+        "scripts/rag/ragpipe/retrieval.py",
+        "scripts/rag/ragpipe/strategies.py",
+        "scripts/rag/tests/conftest.py",
+        "scripts/rag/tests/test_contexts.py",
         "scripts/rag/tests/test_pipeline.py",
-        "scripts/rag/tests/test_units.py",
-        "docs/20261021_210251_rag_phase2_contexts_execution.md",
-        "runs/retrieval/jua-4b-mixed/irpf/eval/either_containment_merge_skip/",
-        "scripts/rag/prompts/",
-        "scripts/rag/ragpipe/contexts.py",
-        "scripts/rag/tests/test_contexts.py"
+        "runs/contexts/jua-4b-mixed/irpf/S2_budget4000_context_v1/",
+        "runs/contexts/jua-4b-mixed/irpf_with_rir1999/",
+        "runs/retrieval/jua-4b-mixed/irpf_with_rir1999/",
+        "scripts/rag/corpus_exclusions.yaml",
+        "scripts/rag/prompts/context_v2.pt.md",
+        "scripts/rag/ragpipe/exclusions.py",
+        "scripts/rag/tests/test_exclusions.py"
       ]
     },
     "argv": [
@@ -32,16 +61,17 @@
       "--retrieval",
       "runs/retrieval/jua-4b-mixed/irpf",
       "--sets",
-      "S1@budget=4000,S2@budget=4000,S3@budget=4000,S2c@budget=4000,S4@budget=4000,S1@budget=2000,S2@budget=2000,S1@budget=8000,S2@budget=8000,closed_book,oracle@budget=4000,wrong:S2@budget=4000,oracle@budget=16000"
+      "S1@budget=4000,S2@budget=4000,S3@budget=4000,S2c@budget=4000,S4@budget=4000,S1@budget=2000,S2@budget=2000,S1@budget=8000,S2@budget=8000,closed_book,oracle@budget=4000,wrong:S2@budget=4000,oracle@budget=16000",
+      "--force"
     ]
   },
-  "config_hash": "f6e29f2c4cecd412e21125b34cf781a046853a0a19c07e85f00587d9ae9538ab",
+  "config_hash": "cfb1870ed74957f418a4c6f24a811cb68adfd2d2fcd65d70c44b4caae86d8028",
   "context_id": "S3_budget4000",
   "params": {
     "dedup": "containment_merge",
     "overflow": "skip",
     "order": "score",
-    "template": "context_v1",
+    "template": "context_v2",
     "annex_rule": "either",
     "oracle_strategy": "S1",
     "seed": 13,
@@ -53,7 +83,7 @@
   "inputs": {
     "retrieval_manifest": {
       "path": "runs/retrieval/jua-4b-mixed/irpf/manifest.json",
-      "config_hash": "6d12aed5ce72c0a65481b40960015057ab1828ee978cb6b2673232a7bac0aa13"
+      "config_hash": "648a74caba8c298d05a67402071f4a787bd63a7d0ee1ceeeb082b3c5f5418053"
     },
     "chunks": {
       "path": "segmented/chunks_all.csv.gz",
@@ -76,40 +106,40 @@
       "sha256": "d11588869d03c90793e6c1ba6d154935b1184e4444c15817f0affa666208c5e4"
     },
     "template": {
-      "path": "scripts/rag/prompts/context_v1.pt.md",
-      "sha256": "97fc9205d4ec23c8b2ec9cccf57b539e0c215fb1e0705b770cafa8434f51c629"
+      "path": "scripts/rag/prompts/context_v2.pt.md",
+      "sha256": "0b3508dc028449ef7b760fa82ef2afc9d5384836ad5a8e04ebab40ec06839716"
     }
   },
   "counts": {
     "questions": 715,
     "empty_contexts": 0,
-    "mean_texts": 11.561,
-    "mean_context_tokens_qwen3": 3983.5,
-    "mean_rendered_tokens_qwen3": 4500.3,
-    "mean_rendered_chars": 13368.6,
+    "mean_texts": 11.646,
+    "mean_context_tokens_qwen3": 3984.1,
+    "mean_rendered_tokens_qwen3": 3828.3,
+    "mean_rendered_chars": 11631.7,
     "document_questions": 596,
-    "document_recall": 0.674341,
-    "document_hit": 0.916107,
+    "document_recall": 0.691446,
+    "document_hit": 0.926174,
     "article_questions": 553,
-    "article_recall": 0.493948,
-    "article_hit": 0.707052,
+    "article_recall": 0.50739,
+    "article_hit": 0.725136,
     "provision_questions": 558,
-    "provision_recall": 0.409265,
-    "provision_hit": 0.620072
+    "provision_recall": 0.428673,
+    "provision_hit": 0.645161
   },
   "consistency_with_evaluation": {
     "eval": "runs/retrieval/jua-4b-mixed/irpf/eval/either_containment_merge_skip",
     "items": 5912,
-    "full_hits": 2280,
+    "full_hits": 2376,
     "mismatches": 0,
     "examples": []
   },
   "outputs": {
     "contexts.jsonl.gz": {
-      "sha256": "6e44cd84c4506e5862d846812e7e9eae3c9df13a975d83e0e0a086e267f94306"
+      "sha256": "b2e57c5fff5a23324650b15e1c398f77824d2f65d9494d582af6b3b21253a3f3"
     }
   },
   "timings_s": {
-    "total": 6.25
+    "total": 6.21
   }
 }

@@ -61,15 +61,25 @@ Options (every subcommand has `--help` with an example):
 | Subcommand | Main options |
 |---|---|
 | `check` | `--embedding` (required), `--instruction` (default `irpf`, or the only one), `--no-hash` |
-| `retrieve` | `--strategies S1,S2,S3,S2c,S4`, `--top-n 1000`, `--force` (replace a run made with other settings) |
+| `retrieve` | `--strategies S1,S2,S3,S2c,S4`, `--top-n 1000`, `--exclusions <yaml> \| none` (default `corpus_exclusions.yaml`), `--run-name` (default: the instruction), `--force` (replace a run made with other settings) |
 | `evaluate` | `--annex-rule {either,main_first}`, `--budgets 1000,…,16000`, `--unit-ks`, `--raw-ks`, `--dedup {containment,containment_merge,none}`, `--overflow {skip,stop}`, `--comparisons S1:S2,S2:S3`, `--eval-id` |
 | `compare` | `--a`, `--b`, `--views budget,unit,raw`, `--eval-id` |
 | `report` | `--eval <eval dir>` (regenerate `report.md`) |
-| `context` | `--sets` (specs below), `--dedup`, `--overflow`, `--order {score,document}`, `--template`, `--annex-rule`, `--oracle-strategy S1`, `--seed`, `--eval-id`, `--no-token-count`, `--force` |
+| `context` | `--sets` (specs below), `--dedup`, `--overflow`, `--order {score,document}`, `--template context_v2`, `--annex-rule`, `--oracle-strategy S1`, `--seed`, `--eval-id`, `--no-token-count`, `--force` |
 | `show-context` | `--context <set dir>`, `--questions`, `--no-text`, `--max-chars` |
 
 Input locations default to the repository layout and can be changed with `--chunks`, `--dataset`,
 `--embeddings-dir`, `--runs-dir` and `--strategies-file`.
+
+## Corpus exclusions
+
+`corpus_exclusions.yaml` lists documents of the dataset that are **not retrieval candidates** (rule: documents
+revoked as a whole before the P&R date, 2024-05-03). They stay in `dataset/`, `segmented/` and `embeddings/`;
+`retrieve` drops their chunks from every strategy and records the list in its manifest, from which `evaluate`
+(their gold items: `unreachable_reason = excluded_from_corpus`) and `context` (oracle) take it. Now excluded:
+`decreto_3000_19990326` (RIR/1999). The run without exclusions is kept as an ablation:
+`retrieve --exclusions none --run-name irpf_with_rir1999`. Analysis and audit:
+`docs/20261022_203625_corpus_exclusion_revoked_rir1999.md`.
 
 ## What is measured
 
@@ -138,17 +148,26 @@ A **context set** is one way of building the context of every question (`--sets`
 The default `--sets` is the pilot grid: S1, S2, S3, S2c, S4 at 4k; S1, S2 at 2k and 8k; closed-book;
 oracle at 4k; wrong S2 at 4k. Non-default options add a suffix to the id (`S2_budget4000_order-document`).
 
-**Rendering** (`prompts/context_v1.pt.md`): one block per text, joined by a blank line:
+**Rendering** (`--template`, default **`context_v2`**, `prompts/context_v2.pt.md`): one block per text,
+joined by a blank line:
 
 ```
-[Documento 1] INSTRUÇÃO NORMATIVA Nº 1.500, DE 29 DE OUTUBRO DE 2014 — Receita Federal do Brasil — Art. 3º, § 1º
-[ INSTRUÇÃO NORMATIVA Nº 1.500, … | Dispõe sobre … ] Art. 3º … § 1º …
+[Documento 1] INSTRUÇÃO NORMATIVA Nº 1.500, DE 29 DE OUTUBRO DE 2014 — Receita Federal do Brasil — Art. 90 (parte 1 de 2)
+Ementa: Dispõe sobre normas gerais de tributação relativas ao Imposto sobre a Renda das Pessoas Físicas.
+Art. 90. Podem ser considerados dependentes: I – o cônjuge; …
+
+[Documento 5] INSTRUÇÃO NORMATIVA Nº 1.500, DE 29 DE OUTUBRO DE 2014 — Receita Federal do Brasil — Art. 90 (parte 2 de 2)
+Art. 90. Podem ser considerados dependentes: § 7º …
 ```
 
-The header is the document title, the issuing body when the title lacks it (RFB/SRF acts), `Anexo`
-for annex chunks, the chunk's citation path (`citacao`) and `(parte p de n)` for a split article.
-The budget counts only the chunk texts (`n_tokens_qwen3`); the headers add ≈ 10–17 % (S1 ≈ 11 %, S2 ≈ 15 %
-at 4k: more, shorter texts); the rendered Qwen3 count is in each line (`rendered_tokens_qwen3`).
+The header is the document title, the issuing body when the title lacks it (RFB/SRF acts), the annex
+label for annex chunks (e.g. `Anexo 17 – ANEXO IX LIMITES ANUAIS …`), the chunk's citation path
+(`citacao`) and `(parte p de n)` for a split article. The chunk's `[ Epígrafe | Ementa | Anexo ]` prefix
+is removed from the text; the ementa is shown once per document, on its first block. `context_v1` keeps
+the full chunk text (prefix included) under the header, with `Anexo` alone for annexes.
+The budget counts the full chunk texts (`n_tokens_qwen3`), so the selection does not depend on the
+template; the rendered Qwen3 count is in each line (`rendered_tokens_qwen3`). At 4k a context renders to
+≈ 3.8k tokens with `context_v2` and ≈ 4.45–4.6k with `context_v1`.
 
 **De-duplication** (`--dedup`, also an `evaluate` option): **`containment_merge` (default since 2026-10-21)**
 drops a text inside an already selected chunk, and lets a parent ranked *after* its selected children
@@ -229,8 +248,9 @@ ragpipe/retrievers/    Retriever protocol, dense retriever
 ragpipe/retrieval.py   stage R driver
 ragpipe/relevance.py   gold items and the gold ↔ chunk matcher (shared with answer evaluation)
 ragpipe/context.py     containment de-duplication, k / budget selection, header and template rendering
+ragpipe/exclusions.py  corpus exclusion list (corpus_exclusions.yaml) → excluded chunk rows
 ragpipe/contexts.py    stage C driver: context sets, oracle, wrong-context donors, gold coverage
-prompts/               context_v1.pt.md (context template)
+prompts/               context_v1.pt.md, context_v2.pt.md (context templates; v2 the default)
 ragpipe/metrics.py     IR metrics, paired bootstrap / permutation
 ragpipe/evaluation.py  stage RE driver and aggregation
 ragpipe/report.py      metrics → markdown

@@ -47,9 +47,11 @@ class Paths:
     runs: Path = REPO / "runs"
     strategies: Path = Path(__file__).resolve().parents[1] / "strategies.yaml"
     chapters: Path = Path(__file__).resolve().parents[1] / "data" / "pr_irpf_2024_chapters.csv"
+    exclusions: Path | None = Path(__file__).resolve().parents[1] / "corpus_exclusions.yaml"
 
-    def retrieval_dir(self, embedding: str, instruction: str) -> Path:
-        return self.runs / "retrieval" / embedding / instruction
+    def retrieval_dir(self, embedding: str, run_name: str) -> Path:
+        """``runs/retrieval/<embedding>/<run name>`` (the run name defaults to the instruction)."""
+        return self.runs / "retrieval" / embedding / run_name
 
 
 # ------------------------------------------------------------------------------------------------

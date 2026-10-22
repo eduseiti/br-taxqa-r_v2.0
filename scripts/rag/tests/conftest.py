@@ -166,4 +166,5 @@ def repo(tmp_path: Path) -> Paths:
     shutil.copy(rag / "strategies.yaml", tmp_path / "strategies.yaml")
     (tmp_path / "chapters.csv").write_text("first_question,last_question,chapter\n001,002,A\n003,004,B\n")
     return Paths(repo=tmp_path, chunks=chunks_path, dataset=ds, embeddings=tmp_path / "embeddings",
-                 runs=tmp_path / "runs", strategies=tmp_path / "strategies.yaml", chapters=tmp_path / "chapters.csv")
+                 runs=tmp_path / "runs", strategies=tmp_path / "strategies.yaml", chapters=tmp_path / "chapters.csv",
+                 exclusions=None)

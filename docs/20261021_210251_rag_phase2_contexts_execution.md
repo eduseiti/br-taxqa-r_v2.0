@@ -10,7 +10,9 @@ retrieval ↔ answer linkage.
 **Outputs:** `runs/contexts/jua-4b-mixed/irpf/` (20 context sets × 715 questions, 46 MB; `summary.csv` and the
 manifests are in git, `contexts.jsonl.gz` are not), and a new retrieval evaluation
 `runs/retrieval/jua-4b-mixed/irpf/eval/either_containment_merge_skip/` (§4).
-**Status:** done; **gate** (RAG plan §9: "contexts of a pilot sample reviewed by hand") needs the user's
+**Status:** done (decisions of §7: items 1 and 3 settled in §9–§10). **The numbers of §3–§10 are those of the corpus
+with the RIR/1999; since 2026-10-22 the main run excludes it** (`docs/20261022_203625_corpus_exclusion_revoked_rir1999.md`;
+the corpus of this note is the ablation run `irpf_with_rir1999`); **gate** (RAG plan §9: "contexts of a pilot sample reviewed by hand") needs the user's
 review of §5, and **three decisions** (§7), the first of which changes the headline retrieval numbers.
 
 ## 1. What was built
@@ -246,3 +248,41 @@ The budget counts only chunk texts (`n_tokens_qwen3`); the rendered context with
 (§3.2). The deep-rank fillers are small texts (often < 100 tokens) that close the last gap; `overflow=stop`
 would avoid them at the cost of less filled contexts, probably more so for S1, whose texts are longer
 (not measured).
+
+## 10. Addendum (2026-10-22): `context_v2` adopted
+
+**Why** (user question on §7 item 3): `context_v1` repeats the document identification twice per block: in the
+header (9.5–11 % of the rendered tokens at 4k) and in the chunk's `[ Epígrafe | Ementa ]` prefix (17.8–23.4 %);
+together **≈ 30 %** of the prompt (S1 30.9 %, S2 34.5 %, S4 29.7 %, oracle 26.0 %; Qwen3 tokens). The template
+enters every generation request, so it had to be fixed before the pilot. **Decision (user): `context_v2`**, the
+default of `rag.py context`.
+
+**Rule.** The segmentation writes one prefix per file: `[ epígrafe | ementa ]` or `[ epígrafe ]` in a main file
+(453 files; the first field equals the `documents.jsonl` title wherever there is one), `[ epígrafe | ementa |
+annex label ]` in an annex (172 files); the only irregular one is the DIAT page (`[ urn | name ]`, §6). `context_v2`
+removes the prefix from `{texto}`; the epígrafe is in the header already, the **annex label replaces "Anexo"** in
+the header, and the **ementa is shown once per document** (`Ementa: …` line on its first block in the context;
+skipped when it equals the title, as for DIAT). The selection is unchanged: the budget counts the full chunk text,
+so the contexts hold the same texts as the evaluation (0 mismatches on the 9 retrieval sets after the rebuild).
+
+| Set | Text tokens (budget) | Rendered, `context_v1` | Rendered, `context_v2` |
+|---|---:|---:|---:|
+| S1 4k | 3,984 | 4,447 | **3,812** |
+| S2 4k | 3,984 | 4,532 | **3,814** (−16 %) |
+| S4 4k | 3,983 | 4,456 | 3,867 |
+| S2 8k | 7,984 | 9,035 | 7,505 |
+| oracle 4k | 2,062 | 2,265 | 1,965 |
+| oracle 16k | 4,979 | 5,443 | 4,621 |
+
+(v1 figures are those of the merge sets of §9.)
+
+**Pilot ablation:** `S2_budget4000_context_v1` (S2 4k rendered with `context_v1`) is kept next to the 13 default
+sets, so the pilot can compare the two templates on the same texts (≈ 30 calls per generator).
+
+**Code:** `prompts/context_v2.pt.md` (new; placeholder `{ementa}`); `context.split_prefix`, `Template.per_document_ementa`,
+`source_label(…, annex_label)`; `contexts.describe` renders per template and tracks the documents already shown;
+`ContextConfig.template` / `--template` default `context_v2`. Tests: 35 passed.
+
+**Seen in the review sample:** the ementa parsed for Solução de Consulta Cosit 15/2016 is "(Republicação - publicação
+anterior em 11 de abril de 2016)" (a parsing quirk of that document, harmless); RIR/2018 annex blocks read "Anexo 1 –
+ANEXO" (the annex has no title of its own).
