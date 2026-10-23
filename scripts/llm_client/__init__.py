@@ -6,4 +6,4 @@ request, so a rerun reads the cache instead of calling the API (reasoning models
 deterministic; the cache is what makes reruns exact).
 """
 from .client import (LLM, BatchDeferred, BudgetExceeded, CreditsExhausted, LLMError, QuotaExhausted, Result,  # noqa: F401
-                     RouteMismatch, Usage, load_registry, route_config, row_billed)
+                     RouteMismatch, ToolUseDetected, Usage, load_registry, route_config, row_billed)

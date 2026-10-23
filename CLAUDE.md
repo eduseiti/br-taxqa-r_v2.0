@@ -73,7 +73,13 @@ than expected.
   holds the generator contexts (RAG Phase 2, `rag.py context`, ≈ 70 s; `summary.csv` and manifests in git):
   `docs/20261021_210251_rag_phase2_contexts_execution.md`. The main run `irpf` excludes the revoked documents listed
   in `scripts/rag/corpus_exclusions.yaml` (now the RIR/1999); `irpf_with_rir1999` is the run without exclusions
-  (`docs/20261022_203625_corpus_exclusion_revoked_rir1999.md`).
+  (`docs/20261022_203625_corpus_exclusion_revoked_rir1999.md`). `answers/<embedding>/<instruction>/<prompt>/<llm>/<context_id>/`
+  holds the generated answers (RAG Phase 3, `rag.py run --experiment scripts/rag/experiments/pilot.yaml`; generators in
+  `scripts/rag/llms.yaml`: Sabiá-4 / Sabiazinho-4 on Maritaca, GPT-5.6 Terra / Luna on OpenRouter; `answers.jsonl`,
+  `run.json`, `summary.csv` in git, raw responses in `answers/cache/` not); `runs/costs.csv` is the RAG cost ledger.
+  Pilot (`stratified_30`, 14 sets × 4 generators, $5.59) and full-run costs: `docs/20261023_110952_rag_phase3_generation_pilot.md`;
+  the budget ($150 OpenRouter for the whole experiment), the **trimmed grid** of the first full evaluation and its
+  stages: `docs/20261023_120734_first_full_evaluation_budget_trimmed_plan_and_s2_s3_hypotheses.md`.
 - **`nuggets/`** — nugget pipeline outputs (`scripts/nuggets/nuggets.py`), one folder per run
   (`preview/`, `preview_v2/`, `preview_v3/`; `pilot/` next): nuggets, validation, self-score
   labels, the cost ledger `costs.csv` and `report.md`. Raw API responses (`cache/`) and the input

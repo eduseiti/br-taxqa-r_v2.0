@@ -1,0 +1,24 @@
+# RAG Phase 3 pilot (gate: answers read by hand, cost per full run estimated; RAG plan §9).
+# Grid: docs/20261021_194457_first_rag_evaluation_readiness_costs_and_grounding.md §2.3, with the user's
+# decisions of 2026-10-23 (generators: Sabiá-4, Sabiazinho-4, GPT-5.6 Terra and Luna; oracle 4k and 16k) and the
+# controls of the Phase 2 note (wrong context; context_v1 template ablation).
+name: pilot
+contexts: runs/contexts/jua-4b-mixed/irpf      # main corpus (RIR/1999 excluded)
+sample: stratified_30
+sets:
+  - S1_budget4000
+  - S2_budget4000
+  - S3_budget4000
+  - S2c_budget4000
+  - S4_budget4000
+  - S1_budget2000
+  - S2_budget2000
+  - S1_budget8000
+  - S2_budget8000
+  - closed_book
+  - oracle_budget4000
+  - oracle_budget16000
+  - wrong-S2_budget4000
+  - S2_budget4000_context_v1
+llms: [sabia-4, sabiazinho-4, gpt-5.6-terra, gpt-5.6-luna]
+prompts: {default: answer_v1, closed_book: answer_closed_v1}

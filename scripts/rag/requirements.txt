@@ -1,7 +1,9 @@
 # Runtime for scripts/rag (Python 3.12), versions installed on 2026-09-27.
-# Phase 3 (generation) will add: openai, python-dotenv.
+# Phase 3 (generation) uses scripts/llm_client (httpx, openai) and scripts/nuggets/nuggetizer/values.py.
 numpy==2.4.3
 pandas==3.0.3
 pyyaml==6.0.3
 tqdm==4.69.0
 pytest==9.1.1
+httpx==0.28.1
+openai==3.29.0

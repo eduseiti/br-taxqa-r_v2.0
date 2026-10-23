@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "kind": "answers",
+  "created_at": "2026-10-23T11:08:16+00:00",
+  "script": {
+    "package": "ragpipe",
+    "version": "0.1.0",
+    "git": {
+      "commit": "79b101cf9b1f73371698e765c2430cee5e7b06cf",
+      "dirty": true,
+      "dirty_files": [
+        "gitignore",
+        "scripts/llm_client/__init__.py",
+        "scripts/llm_client/client.py",
+        "scripts/rag/README.md",
+        "scripts/rag/rag.py",
+        "scripts/rag/requirements.txt",
+        "runs/answers/",
+        "runs/costs.csv",
+        "scripts/rag/experiments/",
+        "scripts/rag/llms.yaml",
+        "scripts/rag/prompts/answer_closed_v1.pt.md",
+        "scripts/rag/prompts/answer_v1.pt.md",
+        "scripts/rag/ragpipe/generation.py",
+        "scripts/rag/tests/test_generation.py"
+      ]
+    },
+    "argv": [
+      "scripts/rag/rag.py",
+      "run",
+      "--experiment",
+      "scripts/rag/experiments/pilot.yaml",
+      "--budget",
+      "18"
+    ]
+  },
+  "config_hash": "6ee14601d0168c0d8058ee3cb4ce99f49c46e344170149ec361136996e5aab8c",
+  "run_id": "jua-4b-mixed/irpf/answer_v1/sabia-4/oracle_budget16000",
+  "complete": true,
+  "experiment": "pilot (scripts/rag/experiments/pilot.yaml)",
+  "sample_requested": "stratified_30",
+  "llm": {
+    "name": "sabia-4",
+    "provider": "openai_compat",
+    "route": "direct",
+    "model_id": "sabia-4-2026-01-06",
+    "base_url": "https://chat.maritaca.ai/api",
+    "params": {
+      "temperature": 0,
+      "max_tokens": 4000,
+      "response_format": "json_schema"
+    },
+    "price": {
+      "currency": "BRL",
+      "checked": "2026-10-21",
+      "source": "docs.maritaca.ai/pt/precos (list; flex/batch -50 %, night 22-06 BRT -30 %)",
+      "brl_per_million_input": 5.0,
+      "brl_per_million_cached_input": 1.25,
+      "brl_per_million_output": 20.0,
+      "usd_per_million_input": 0.984251968503937,
+      "usd_per_million_cached_input": 0.24606299212598426,
+      "usd_per_million_output": 3.937007874015748,
+      "fx_brl_per_usd": 5.08
+    },
+    "context_window": 128000,
+    "knowledge_cutoff": null,
+    "api_key_env": "MARITACA_API_KEY"
+  },
+  "prompt": {
+    "name": "answer_v1",
+    "path": "scripts/rag/prompts/answer_v1.pt.md",
+    "sha256": "e436a1c79cd57a9b988abb921c79429176f1b35a6b568ab1376302fc80485885"
+  },
+  "schema": {
+    "name": "resposta",
+    "sha256": "338964594d08afb9a001b9f94a0adacb5c50180f123f57ffd14b518b8a4f866a"
+  },
+  "checks_version": 2,
+  "context": {
+    "path": "runs/contexts/jua-4b-mixed/irpf/oracle_budget16000/manifest.json",
+    "config_hash": "59c3b12fe1e712681a9f3ec22ac2176ce7f95ee5d4b33cb269c8e9c077106c1e",
+    "contexts_sha256": "8701feb5bba620f89b3b9a16675acc83b5f191ce4cc3c36d62169030b27a1385",
+    "set": "oracle",
+    "template": "context_v2"
+  },
+  "counts": {
+    "questions": 30,
+    "ok": 25,
+    "errors": 0,
+    "skipped": 5,
+    "abstention_rate": 0.12,
+    "mean_claims": 4.0,
+    "mean_answer_chars": 748.0455,
+    "mean_input_tokens": 4810.92,
+    "mean_output_tokens": 591.6,
+    "max_output_tokens": 1401,
+    "quote_ok_rate": 0.8667,
+    "quote_bad_document": 2,
+    "claim_grounded_rate": 0.8864,
+    "answers_with_value_not_in_context": 0.0,
+    "abstention_inconsistent": 0,
+    "retried": 0,
+    "usd_list": 0.150961,
+    "usd_billed_new_calls": 0.100534,
+    "new_calls": 7
+  },
+  "outputs": {
+    "answers.jsonl": {
+      "sha256": "18ace38eb8c2619fa4d8625a9b2c3c2b4476995bc4dedd34fe373db1e8a579d0"
+    }
+  }
+}

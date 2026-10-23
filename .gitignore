@@ -27,6 +27,9 @@ runs/**
 !runs/**/reachability.csv
 !runs/**/report.md
 !runs/contexts/**/summary.csv
+!runs/answers/**/summary.csv
+!runs/answers/**/run.json
+!runs/answers/**/answers.jsonl
 !runs/costs.csv
 .~lock.*
 

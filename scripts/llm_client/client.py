@@ -1,6 +1,9 @@
 """Providers ``openai`` (Responses API), ``gemini`` (REST generateContent), ``openai_compat``
-(Chat Completions, e.g. Alibaba Model Studio for Qwen) and ``openrouter`` (Chat Completions through
-OpenRouter, pinned upstream provider), a disk cache and a cost ledger."""
+(Chat Completions, e.g. Alibaba Model Studio for Qwen, Maritaca for Sabiá), ``openrouter`` (Chat
+Completions through OpenRouter, pinned upstream provider) and ``fake`` (tests), a disk cache and a
+cost ledger. No request carries tools, and a reply that shows tool use or web search is rejected
+(``ToolUseDetected``): the RAG generators must answer from the given context only
+(``docs/20261021_194457_first_rag_evaluation_readiness_costs_and_grounding.md`` §4.1)."""
 from __future__ import annotations
 
 import csv
@@ -41,6 +44,11 @@ class RouteMismatch(LLMError):
     """OpenRouter served the request from another upstream provider than the registry pins."""
 
 
+class ToolUseDetected(LLMError):
+    """A request that would enable tools or web search, or a reply that shows tool calls, URL citations,
+    web search sources, built-in tool executions, or a billed cost above its token cost. Not retried."""
+
+
 class QuotaExhausted(LLMError):
     """A per-day provider quota (e.g. Gemini 3.1 Pro: 250 requests per model per day on our tier).
     Not retried: waiting minutes does not help."""
@@ -51,7 +59,12 @@ BATCH_DISCOUNT = 0.5     # OpenAI and Gemini Batch APIs (registry batch_discount
 
 
 LEDGER_FIELDS = ["ts", "model", "served", "tag", "attempt", "finish", "input", "cached_input", "output",
-                 "reasoning", "usd_standard", "latency_s", "route", "provider_served", "usd_billed"]
+                 "reasoning", "usd_standard", "latency_s", "route", "provider_served", "usd_billed", "fx_brl_per_usd"]
+#: request parameters that enable tools or web search on some provider; refused in every registry entry
+FORBIDDEN_PARAMS = ("tools", "tool_choice", "plugins", "web_search_options", "web_search", "functions")
+#: a billed cost (OpenRouter ``usage.cost``) above the list token cost by more than this is rejected (the web
+#: plugin adds $0.01 per request); flex endpoints bill below the list price
+BILLED_TOLERANCE_USD = 0.002
 
 
 def row_billed(r: dict) -> float:
@@ -134,9 +147,28 @@ def openrouter_body(model_id: str, params: dict, routing: dict, system: str, use
     fmt = params.get("response_format", "json_schema")
     rf = ({"type": "json_schema", "json_schema": {"name": schema_name, "schema": schema, "strict": True}}
           if fmt == "json_schema" else {"type": fmt})
-    return {"model": model_id, "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}],
+    body = {"model": model_id, "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}],
             "response_format": rf, "reasoning": params["reasoning"], "max_tokens": params.get("max_tokens", 32000),
             "provider": routing}
+    if "temperature" in params:
+        body["temperature"] = params["temperature"]
+    return body
+
+
+def tool_use(d: dict) -> str | None:
+    """Why a Chat Completions reply (OpenRouter, Maritaca) shows tool use or web search, or ``None``."""
+    msg = ((d.get("choices") or [{}])[0].get("message") or {})
+    if msg.get("tool_calls"):
+        return "tool_calls"
+    if any((a or {}).get("type") == "url_citation" for a in msg.get("annotations") or []):
+        return "url_citation"
+    if d.get("web_search_sources"):
+        return "web_search_sources"
+    if (d.get("usage") or {}).get("tool_execution_details"):
+        return "tool_execution_details"
+    if (d.get("usage") or {}).get("server_tool_use"):
+        return "server_tool_use"
+    return None
 
 
 def parse_openrouter(d: dict):
@@ -187,9 +219,12 @@ def load_registry(path: Path) -> dict:
 
 class LLM:
     def __init__(self, name: str, cfg: dict, cache_dir: Path, ledger: Path | None = None,
-                 budget_usd: float | None = None):
+                 budget_usd: float | None = None, check_billed: bool = False, offline: bool = False):
         """``budget_usd``: refuse any API call once the ledger total reaches it. Checked before each
-        call, so concurrent workers can overshoot by at most one call each."""
+        call, so concurrent workers can overshoot by at most one call each. ``check_billed``: reject a
+        reply whose billed cost is above its list token cost (a paid tool ran; RAG generation). ``offline``:
+        no key and no API client (cache lookups and cost estimates only)."""
+        self.check_billed = check_billed
         self.name, self.cfg = name, cfg
         self.budget_usd = budget_usd
         self.batch = None        # a batch.BatchRecorder: cache misses are queued instead of called
@@ -200,30 +235,40 @@ class LLM:
         self.routing = cfg.get("routing")
         self.served_provider = cfg.get("served_provider")
         self.price = cfg["price"]
+        bad = [k for k in FORBIDDEN_PARAMS if k in self.params or k in cfg]
+        if bad or str(self.model_id).endswith(":online"):
+            raise ToolUseDetected(f"{name}: tools / web search are not allowed ({bad or self.model_id})")
         self.cache_dir = Path(cache_dir)
         self.cache_dir.mkdir(parents=True, exist_ok=True)
         self.ledger = ledger
-        key = os.environ.get(cfg["api_key_env"])
+        key = os.environ.get(cfg["api_key_env"]) if self.provider != "fake" and not offline else "offline"
         if not key:
             raise LLMError(f"{cfg['api_key_env']} is not set")
         self._key = key
-        if self.provider in ("openai", "openai_compat"):
+        if self.provider in ("openai", "openai_compat") and not offline:
             from openai import OpenAI
             self._oa = OpenAI(api_key=key, base_url=cfg.get("base_url"), timeout=600, max_retries=0)
 
     # ------------------------------------------------------------------ public
-    def complete_json(self, system: str, user: str, schema: dict, schema_name: str,
-                      validate=None, tag: str = "", max_attempts: int = 3, replicate: int = 0) -> Result:
-        """Return the parsed JSON. ``validate(data)`` may raise to reject a reply; rejected or
-        truncated replies are retried (not cached) up to ``max_attempts`` times. ``replicate`` > 0
-        enters only the cache key, so an identical request gets a fresh sample (same-model noise)."""
+    def request_key(self, system: str, user: str, schema: dict, replicate: int = 0) -> tuple[dict, str]:
+        """The cached request and its cache key (SHA-256 of the request's canonical JSON)."""
         req = {"provider": self.provider, "model": self.model_id, "params": self.params,
                "system": system, "user": user, "schema": schema}
         if self.routing is not None:     # openrouter only, so direct-route keys are unchanged
             req["routing"] = self.routing
         if replicate:
             req["replicate"] = replicate
-        ck = hashlib.sha256(json.dumps(req, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
+        return req, hashlib.sha256(json.dumps(req, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
+
+    def is_cached(self, system: str, user: str, schema: dict) -> bool:
+        return (self.cache_dir / f"{self.request_key(system, user, schema)[1]}.json").exists()
+
+    def complete_json(self, system: str, user: str, schema: dict, schema_name: str,
+                      validate=None, tag: str = "", max_attempts: int = 3, replicate: int = 0) -> Result:
+        """Return the parsed JSON. ``validate(data)`` may raise to reject a reply; rejected or
+        truncated replies are retried (not cached) up to ``max_attempts`` times. ``replicate`` > 0
+        enters only the cache key, so an identical request gets a fresh sample (same-model noise)."""
+        req, ck = self.request_key(system, user, schema, replicate)
         cpath = self.cache_dir / f"{ck}.json"
         if cpath.exists():
             rec = json.loads(cpath.read_text())
@@ -255,7 +300,13 @@ class LLM:
             dt = time.time() - t0
             for f in ("input", "cached_input", "output", "reasoning"):
                 setattr(spent, f, getattr(spent, f) + getattr(u, f))
-            self._log(tag, attempt, u, served, dt, meta.get("finish"), meta)
+            why = tool_use(raw) if self.provider in ("openrouter", "openai_compat") else None
+            billed = meta.get("usd_billed")
+            if not why and self.check_billed and billed is not None and float(billed) > u.cost(self.price) + BILLED_TOLERANCE_USD:
+                why = f"billed ${float(billed):.4f} > token cost ${u.cost(self.price):.4f}"
+            self._log(tag, attempt, u, served, dt, f"rejected:{why}" if why else meta.get("finish"), meta)
+            if why:
+                raise ToolUseDetected(f"{self.name} {tag}: {why}")
             if self.served_provider and meta.get("provider") != self.served_provider:
                 raise RouteMismatch(f"{self.name} {tag}: served by {meta.get('provider')!r}, "
                                     f"expected {self.served_provider!r} (allow_fallbacks should prevent this)")
@@ -341,10 +392,13 @@ class LLM:
         extra = {}
         if p.get("enable_thinking"):
             extra = {"enable_thinking": True, "thinking_budget": p.get("thinking_budget", 2048)}
+        fmt = p.get("response_format", "json_object")
+        rf = ({"type": "json_schema", "json_schema": {"name": schema_name, "schema": schema, "strict": True}}
+              if fmt == "json_schema" else {"type": fmt})
+        kw = {"temperature": p["temperature"]} if "temperature" in p else {}
         r = self._oa.chat.completions.create(
             model=self.model_id, messages=[{"role": "system", "content": system}, {"role": "user", "content": user}],
-            response_format={"type": p.get("response_format", "json_object")},
-            max_tokens=p.get("max_tokens", 16000), extra_body=extra)
+            response_format=rf, max_tokens=p.get("max_tokens", 16000), extra_body=extra, **kw)
         u = r.usage
         det = u.completion_tokens_details
         cached = (u.prompt_tokens_details.cached_tokens or 0) if u.prompt_tokens_details else 0
@@ -352,6 +406,12 @@ class LLM:
         fin = r.choices[0].finish_reason
         return r.model_dump(), r.choices[0].message.content or "", usage, r.model, \
             {"finish": fin, "truncated": fin != "stop"}
+
+    def _call_fake(self, system, user, schema, schema_name):
+        """Tests: the reply is ``params.reply`` (a JSON string); tokens ≈ characters / 4."""
+        text = self.params.get("reply", "{}")
+        usage = Usage(len(system + user) // 4, 0, len(text) // 4, 0)
+        return {"fake": True, "text": text}, text, usage, self.model_id, {"finish": "stop", "truncated": False}
 
     # ------------------------------------------------------------------ ledger
     def _log(self, tag, attempt, u: Usage, served, dt, finish, meta: dict | None = None):
@@ -365,7 +425,8 @@ class LLM:
                "tag": tag, "attempt": attempt, "finish": finish, "input": u.input, "cached_input": u.cached_input,
                "output": u.output, "reasoning": u.reasoning, "usd_standard": round(u.cost(self.price), 6),
                "latency_s": round(dt, 1), "route": self.route, "provider_served": meta.get("provider") or "",
-               "usd_billed": "" if billed is None else round(float(billed), 6)}
+               "usd_billed": "" if billed is None else round(float(billed), 6),
+               "fx_brl_per_usd": self.price.get("fx_brl_per_usd", "")}
         with _ledger_lock:
             path = Path(self.ledger)
             if path.exists():

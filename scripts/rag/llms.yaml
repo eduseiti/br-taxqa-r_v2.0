@@ -1,0 +1,96 @@
+# Generator registry of RAG Phase 3 (RAG plan §7.2; generators chosen in
+# docs/20261021_194457_first_rag_evaluation_readiness_costs_and_grounding.md §5, user decision of 2026-10-23:
+# Sabiá-4, Sabiazinho-4, GPT-5.6 Terra and Luna; non-reasoning settings; answer format = claims with quotes).
+#
+# Same entry format as scripts/nuggets/models.yaml (scripts/llm_client): `route: openrouter` entries are called
+# through their `openrouter:` block (one upstream provider pinned, no fallbacks, every parameter honoured,
+# `served_provider` checked on every reply). No entry may carry tools or web search: the client refuses them and
+# rejects any reply that shows tool use (llm_client.ToolUseDetected).
+#
+# Prices per 1M tokens. `currency: BRL` entries are converted with `fx_brl_per_usd` below for the ledger and the
+# budget cap (USD); the BRL list price is kept in run.json.
+fx_brl_per_usd: 5.08        # PTAX 2026-10-16 (Banco Central, via web search on 2026-10-23); replace by the billing-date rate
+models:
+  sabia-4:
+    provider: openai_compat
+    base_url: https://chat.maritaca.ai/api
+    model_id: sabia-4-2026-01-06            # dated pin accepted by the API (probe 2026-10-23); /models lists only `sabia-4`
+    api_key_env: MARITACA_API_KEY
+    route: direct
+    params: {temperature: 0, max_tokens: 4000, response_format: json_schema}   # non-thinking model
+    price: {currency: BRL, per_million_input: 5.00, per_million_cached_input: 1.25, per_million_output: 20.00,
+            checked: 2026-10-21, source: "docs.maritaca.ai/pt/precos (list; flex/batch -50 %, night 22-06 BRT -30 %)"}
+    context_window: 128000
+    knowledge_cutoff: null                  # not published by Maritaca
+  sabiazinho-4:
+    provider: openai_compat
+    base_url: https://chat.maritaca.ai/api
+    model_id: sabiazinho-4-2026-01-06
+    api_key_env: MARITACA_API_KEY
+    route: direct
+    params: {temperature: 0, max_tokens: 4000, response_format: json_schema}
+    price: {currency: BRL, per_million_input: 1.00, per_million_cached_input: 0.25, per_million_output: 4.00,
+            checked: 2026-10-21, source: "docs.maritaca.ai/pt/precos (list)"}
+    context_window: 128000
+    knowledge_cutoff: null
+  gpt-5.6-terra:
+    provider: openai
+    model_id: gpt-5.6-terra
+    api_key_env: OPENAI_API_KEY
+    route: openrouter
+    params: {reasoning_effort: none, max_output_tokens: 4000}
+    price: {usd_per_million_input: 2.00, usd_per_million_cached_input: 0.20, usd_per_million_output: 12.00,
+            checked: 2026-10-23}
+    context_window: 1050000
+    knowledge_cutoff: 2026-02-16            # OpenRouter catalog; snapshot openai/gpt-5.6-terra-20260709
+    openrouter:
+      model_id: openai/gpt-5.6-terra
+      # supported efforts: none, low, medium (default), high, xhigh, max; no temperature parameter
+      params: {reasoning: {effort: none}, max_tokens: 4000, response_format: json_schema}
+      routing: {only: [openai/flex], allow_fallbacks: false, require_parameters: true, data_collection: deny}
+      served_provider: OpenAI
+  gpt-5.6-luna:
+    provider: openai
+    model_id: gpt-5.6-luna
+    api_key_env: OPENAI_API_KEY
+    route: openrouter
+    params: {reasoning_effort: none, max_output_tokens: 4000}
+    price: {usd_per_million_input: 0.20, usd_per_million_cached_input: 0.02, usd_per_million_output: 1.20,
+            checked: 2026-10-23}
+    context_window: 1050000
+    knowledge_cutoff: 2026-02-16            # snapshot openai/gpt-5.6-luna-20260709
+    openrouter:
+      model_id: openai/gpt-5.6-luna
+      params: {reasoning: {effort: none}, max_tokens: 4000, response_format: json_schema}
+      routing: {only: [openai/flex], allow_fallbacks: false, require_parameters: true, data_collection: deny}
+      served_provider: OpenAI
+  # DeepSeek (U4 of the first-evaluation note): unreachable from this machine; run from the other one.
+  # Routing, effort and response format are to be probed there before enabling.
+  deepseek-v4-pro:
+    enabled: false
+    provider: openai_compat
+    model_id: deepseek-v4-pro
+    api_key_env: DEEPSEEK_API_KEY
+    route: openrouter
+    params: {temperature: 0, max_tokens: 4000, response_format: json_object}
+    price: {usd_per_million_input: 0.95526, usd_per_million_cached_input: 0.079605, usd_per_million_output: 1.91052,
+            checked: 2026-10-23}
+    knowledge_cutoff: null                  # snapshot deepseek/deepseek-v4-pro-20260423
+    openrouter:
+      model_id: deepseek/deepseek-v4-pro
+      params: {reasoning: {enabled: false}, temperature: 0, max_tokens: 4000, response_format: json_schema}
+      routing: {allow_fallbacks: false, require_parameters: true, data_collection: deny}
+  deepseek-v4-flash:
+    enabled: false
+    provider: openai_compat
+    model_id: deepseek-v4-flash
+    api_key_env: DEEPSEEK_API_KEY
+    route: openrouter
+    params: {temperature: 0, max_tokens: 4000, response_format: json_object}
+    price: {usd_per_million_input: 0.091, usd_per_million_cached_input: 0.0182, usd_per_million_output: 0.182,
+            checked: 2026-10-23}
+    knowledge_cutoff: null                  # snapshot deepseek/deepseek-v4-flash-20260423
+    openrouter:
+      model_id: deepseek/deepseek-v4-flash
+      params: {reasoning: {enabled: false}, temperature: 0, max_tokens: 4000, response_format: json_schema}
+      routing: {allow_fallbacks: false, require_parameters: true, data_collection: deny}

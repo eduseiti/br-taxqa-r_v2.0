@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "kind": "answers",
+  "created_at": "2026-10-23T11:08:17+00:00",
+  "script": {
+    "package": "ragpipe",
+    "version": "0.1.0",
+    "git": {
+      "commit": "79b101cf9b1f73371698e765c2430cee5e7b06cf",
+      "dirty": true,
+      "dirty_files": [
+        "gitignore",
+        "scripts/llm_client/__init__.py",
+        "scripts/llm_client/client.py",
+        "scripts/rag/README.md",
+        "scripts/rag/rag.py",
+        "scripts/rag/requirements.txt",
+        "runs/answers/",
+        "runs/costs.csv",
+        "scripts/rag/experiments/",
+        "scripts/rag/llms.yaml",
+        "scripts/rag/prompts/answer_closed_v1.pt.md",
+        "scripts/rag/prompts/answer_v1.pt.md",
+        "scripts/rag/ragpipe/generation.py",
+        "scripts/rag/tests/test_generation.py"
+      ]
+    },
+    "argv": [
+      "scripts/rag/rag.py",
+      "run",
+      "--experiment",
+      "scripts/rag/experiments/pilot.yaml",
+      "--budget",
+      "18"
+    ]
+  },
+  "config_hash": "d1c7e69b51ab94297dd6777a3ca47c67c4961d364ee5ebe52320904038b94b18",
+  "run_id": "jua-4b-mixed/irpf/answer_v1/sabiazinho-4/wrong-S2_budget4000",
+  "complete": true,
+  "experiment": "pilot (scripts/rag/experiments/pilot.yaml)",
+  "sample_requested": "stratified_30",
+  "llm": {
+    "name": "sabiazinho-4",
+    "provider": "openai_compat",
+    "route": "direct",
+    "model_id": "sabiazinho-4-2026-01-06",
+    "base_url": "https://chat.maritaca.ai/api",
+    "params": {
+      "temperature": 0,
+      "max_tokens": 4000,
+      "response_format": "json_schema"
+    },
+    "price": {
+      "currency": "BRL",
+      "checked": "2026-10-21",
+      "source": "docs.maritaca.ai/pt/precos (list)",
+      "brl_per_million_input": 1.0,
+      "brl_per_million_cached_input": 0.25,
+      "brl_per_million_output": 4.0,
+      "usd_per_million_input": 0.19685039370078738,
+      "usd_per_million_cached_input": 0.049212598425196846,
+      "usd_per_million_output": 0.7874015748031495,
+      "fx_brl_per_usd": 5.08
+    },
+    "context_window": 128000,
+    "knowledge_cutoff": null,
+    "api_key_env": "MARITACA_API_KEY"
+  },
+  "prompt": {
+    "name": "answer_v1",
+    "path": "scripts/rag/prompts/answer_v1.pt.md",
+    "sha256": "e436a1c79cd57a9b988abb921c79429176f1b35a6b568ab1376302fc80485885"
+  },
+  "schema": {
+    "name": "resposta",
+    "sha256": "338964594d08afb9a001b9f94a0adacb5c50180f123f57ffd14b518b8a4f866a"
+  },
+  "checks_version": 2,
+  "context": {
+    "path": "runs/contexts/jua-4b-mixed/irpf/wrong-S2_budget4000/manifest.json",
+    "config_hash": "344fe49ff4180161356a085bc71edf0ff3cb911a6f2ec2637dcfec4cbd3689cc",
+    "contexts_sha256": "0b8e187b9ca3db9bff3bbfa72229b1785e4811b69856283b94b89b0022202253",
+    "set": "wrong",
+    "template": "context_v2"
+  },
+  "counts": {
+    "questions": 30,
+    "ok": 30,
+    "errors": 0,
+    "skipped": 0,
+    "abstention_rate": 0.8667,
+    "mean_claims": 7.25,
+    "mean_answer_chars": 1367.25,
+    "mean_input_tokens": 4483.6333,
+    "mean_output_tokens": 168.4,
+    "max_output_tokens": 1783,
+    "quote_ok_rate": 0.9167,
+    "quote_bad_document": 0,
+    "claim_grounded_rate": 0.931,
+    "answers_with_value_not_in_context": 0.0,
+    "abstention_inconsistent": 1,
+    "retried": 0,
+    "usd_list": 0.027503,
+    "usd_billed_new_calls": 0.027503,
+    "new_calls": 30
+  },
+  "outputs": {
+    "answers.jsonl": {
+      "sha256": "44e63eab301bd1da10985d35f266c1e1dc37da3223769e01a7ed01dd844a77ad"
+    }
+  }
+}

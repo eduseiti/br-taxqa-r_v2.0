@@ -4,8 +4,9 @@ Tests whether **hierarchical segmentation** of the legal documents cited by the 
 Respostas IRPF 2024* gives better chunks for answering its questions. This directory holds the
 pipeline code. Design: `docs/20260927_204356_rag_pipeline_implementation_plan.md`.
 
-**Status: Phase 1 (retrieval and its evaluation, "the legal-provision test") and Phase 2 (generator
-contexts, `context`).** Answer generation (Phase 3) is not implemented yet. Phase 2 run and decisions:
+**Status: Phase 1 (retrieval and its evaluation, "the legal-provision test"), Phase 2 (generator
+contexts, `context`) and Phase 3 (answer generation, `generate` / `run`; pilot on `stratified_30`).**
+Phase 3 run and decisions: `docs/20261023_110952_rag_phase3_generation_pilot.md`. Phase 2 run and decisions:
 `docs/20261021_210251_rag_phase2_contexts_execution.md`; the first evaluation's plan, costs and grounding
 safeguards: `docs/20261021_194457_first_rag_evaluation_readiness_costs_and_grounding.md`.
 
@@ -24,7 +25,8 @@ Stages talk only through files, so each one can be rerun, replaced or released o
 |---|---|---|
 | R — retrieve | `segmented/chunks_all.csv.gz`, `embeddings/<model>/…`, `dataset/questions.jsonl` | `runs/retrieval/<model>/<instruction>/<strategy>/rankings.csv.gz` |
 | RE — evaluate | rankings, chunks, `dataset/references.jsonl` + `documents.jsonl` | `runs/retrieval/<model>/<instruction>/eval/<eval_id>/…` |
-| C — context | rankings, chunks (with text), dataset, `prompts/context_v1.pt.md` | `runs/contexts/<model>/<instruction>/<context_id>/contexts.jsonl.gz` |
+| C — context | rankings, chunks (with text), dataset, `prompts/context_v2.pt.md` | `runs/contexts/<model>/<instruction>/<context_id>/contexts.jsonl.gz` |
+| G — generate | contexts, `dataset/questions.jsonl`, `llms.yaml`, `prompts/answer_v1.pt.md` | `runs/answers/<model>/<instruction>/<prompt>/<llm>/<context_id>/answers.jsonl` |
 
 ## Install
 
@@ -56,6 +58,17 @@ Phase 2, the generator contexts (≈ 70 s for the 12 pilot sets × 715 questions
 .venv/bin/python $R show-context --context runs/contexts/jua-4b-mixed/irpf/S2_budget4000 --questions 012,345
 ```
 
+Phase 3, the answers (keys in the repository-root `.env`: `MARITACA_API_KEY`, `OPENROUTER_API_KEY`). Size
+every grid with `--dry-run` first; `--budget` (USD) caps the total of the ledger `runs/costs.csv`:
+
+```bash
+.venv/bin/python $R run --experiment scripts/rag/experiments/pilot.yaml --dry-run      # calls, cached, est. cost
+.venv/bin/python $R run --experiment scripts/rag/experiments/pilot.yaml --budget 18
+.venv/bin/python $R generate --contexts runs/contexts/jua-4b-mixed/irpf --sets S2_budget4000 --llms sabia-4 \
+    --sample all --budget 30                                                           # one run, all questions
+.venv/bin/python $R show-answers --run runs/answers/jua-4b-mixed/irpf/answer_v1/sabia-4/S2_budget4000 --questions 350
+```
+
 Options (every subcommand has `--help` with an example):
 
 | Subcommand | Main options |
@@ -67,6 +80,9 @@ Options (every subcommand has `--help` with an example):
 | `report` | `--eval <eval dir>` (regenerate `report.md`) |
 | `context` | `--sets` (specs below), `--dedup`, `--overflow`, `--order {score,document}`, `--template context_v2`, `--annex-rule`, `--oracle-strategy S1`, `--seed`, `--eval-id`, `--no-token-count`, `--force` |
 | `show-context` | `--context <set dir>`, `--questions`, `--no-text`, `--max-chars` |
+| `generate` | `--contexts <folder>`, `--sets <context ids>`, `--llms <llms.yaml names>`, `--sample stratified_30 \| all \| 001,002`, `--prompt answer_v1`, `--closed-prompt answer_closed_v1`, `--budget`, `--dry-run`, `--workers 8`, `--registry`, `--force` |
+| `run` | `--experiment <yaml>` (the same settings as a versioned file), `--sample`, `--budget`, `--dry-run` |
+| `show-answers` | `--run <answer run dir>`, `--questions` |
 
 Input locations default to the repository layout and can be changed with `--chunks`, `--dataset`,
 `--embeddings-dir`, `--runs-dir` and `--strategies-file`.
@@ -188,6 +204,30 @@ that fill the gap can come from deep ranks (S2 4k: median deepest rank 36, p90 3
 evaluation's `budget_full_<B>` (`consistency_with_evaluation` in the manifest: 0 mismatches expected).
 It is the per-question link between retrieval and answer scores (phase 5).
 
+## Answers (Phase 3)
+
+One **answer run** = one context set × one generator (`llms.yaml`) × one prompt. Every question of the sample
+gets one call; questions whose context is empty (the oracle of a question without resolved gold) are
+`skipped`. The closed-book set uses `answer_closed_v1`, every other set `answer_v1`.
+
+- **Reply format** (strict JSON schema): `afirmacoes` — claims, each with `fundamentos`
+  `[{documento, trecho}]` (context document number and a verbatim quote) — then `abstencao`. The scored
+  answer is the claim texts joined in order; no claim means abstention, written as a fixed sentence.
+- **Grounding checks (no LLM):** each quote is looked up in the cited `[Documento n]` block (words in
+  order, punctuation and case ignored, an ellipsis may skip text): `ok`, `not_found`, `too_short`
+  (< 3 words) or `bad_document`; a claim is *grounded* when one of its quotes is `ok`. Values (R$, %, dates)
+  of the answer that are in neither the context nor the question are listed (`values_not_in_context`).
+- **No tools, no web search:** `llm_client` refuses a registry entry with tools / plugins / `:online`, and
+  rejects (without retry, logged in the ledger as `rejected:<reason>`) a reply with tool calls, URL
+  citations, web search sources, built-in tool executions (Maritaca) or a billed cost above its token cost.
+- **Generators** (`llms.yaml`): Sabiá-4 and Sabiazinho-4 (Maritaca, direct route, temperature 0, BRL prices
+  converted with the recorded `fx_brl_per_usd`), GPT-5.6 Terra and Luna (OpenRouter, `openai/flex`,
+  reasoning effort `none`; no temperature parameter). DeepSeek entries are disabled here.
+- **Cache:** raw responses in `runs/answers/cache/` (keyed by the request): a rerun is free and gives the
+  same file; a run folder refuses another configuration (prompt, generator settings, context set) unless
+  `--force`. Lines of other questions already in a run's `answers.jsonl` are kept, so a run can grow from the
+  pilot sample to all questions.
+
 ## Output formats
 
 `runs/retrieval/<embedding>/<instruction>/`:
@@ -212,6 +252,18 @@ It is the per-question link between retrieval and answer scores (phase 5).
 | `summary.csv` | one row per context set: options, counts, mean texts / tokens, gold recall and hit per level, consistency mismatches | yes |
 | `<context_id>/manifest.json` | parameters, input hashes (retrieval manifest, chunks, dataset, template), counts, donor rule, consistency check | yes |
 | `<context_id>/contexts.jsonl.gz` | one line per question: `context_id, question_number, kind, [donor_question], n_texts, context_tokens_qwen3, rendered_tokens_qwen3, rendered_chars, items[{n, text_id, chunk_id, alias_chunk_ids, rank, score, document_id, arquivo, tipo, citacao, tokens_qwen3, fonte}], gold{level: {n, full, any}}, context` | no (Hub) |
+
+`runs/answers/<embedding>/<instruction>/`:
+
+| File | Content | In git |
+|---|---|---|
+| `summary.csv` | one row per answer run: counts, abstention rate, claims, answer length, tokens, quote and claim grounding rates, values not in context, cost | yes |
+| `<prompt>/<llm>/<context_id>/run.json` | generator config (no key), prompt and schema SHA-256, context manifest pointer and SHA-256, counts, `config_hash` | yes |
+| `<prompt>/<llm>/<context_id>/answers.jsonl` | one line per question: `run_id, question_number, answer` (the nugget-scoring contract) + `status, abstained, claims[{texto, fundamentos[{documento, trecho, status}]}], checks, cited_chunk_ids, usage, usd_list, usd_billed, from_cache, model_served, provider_served, cache_key` | yes |
+| `cache/<key>.json` | raw request and response | no (backup / Hub) |
+
+`runs/costs.csv`: one row per API call (all stages), the `llm_client` ledger with `fx_brl_per_usd` for BRL-priced
+models.
 
 Example lines:
 
@@ -250,7 +302,11 @@ ragpipe/relevance.py   gold items and the gold ↔ chunk matcher (shared with an
 ragpipe/context.py     containment de-duplication, k / budget selection, header and template rendering
 ragpipe/exclusions.py  corpus exclusion list (corpus_exclusions.yaml) → excluded chunk rows
 ragpipe/contexts.py    stage C driver: context sets, oracle, wrong-context donors, gold coverage
-prompts/               context_v1.pt.md, context_v2.pt.md (context templates; v2 the default)
+ragpipe/generation.py  stage G driver: registry, prompts, run loop on llm_client, grounding checks, outputs
+llms.yaml              generator registry (providers, pinned models, parameters, prices, FX rate)
+experiments/           versioned experiment files (pilot.yaml)
+prompts/               context_v1/v2.pt.md (context templates; v2 the default); answer_v1.pt.md,
+                       answer_closed_v1.pt.md (system part, a '<<<USER>>>' line, user part)
 ragpipe/metrics.py     IR metrics, paired bootstrap / permutation
 ragpipe/evaluation.py  stage RE driver and aggregation
 ragpipe/report.py      metrics → markdown

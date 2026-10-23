@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "kind": "answers",
+  "created_at": "2026-10-23T11:08:16+00:00",
+  "script": {
+    "package": "ragpipe",
+    "version": "0.1.0",
+    "git": {
+      "commit": "79b101cf9b1f73371698e765c2430cee5e7b06cf",
+      "dirty": true,
+      "dirty_files": [
+        "gitignore",
+        "scripts/llm_client/__init__.py",
+        "scripts/llm_client/client.py",
+        "scripts/rag/README.md",
+        "scripts/rag/rag.py",
+        "scripts/rag/requirements.txt",
+        "runs/answers/",
+        "runs/costs.csv",
+        "scripts/rag/experiments/",
+        "scripts/rag/llms.yaml",
+        "scripts/rag/prompts/answer_closed_v1.pt.md",
+        "scripts/rag/prompts/answer_v1.pt.md",
+        "scripts/rag/ragpipe/generation.py",
+        "scripts/rag/tests/test_generation.py"
+      ]
+    },
+    "argv": [
+      "scripts/rag/rag.py",
+      "run",
+      "--experiment",
+      "scripts/rag/experiments/pilot.yaml",
+      "--budget",
+      "18"
+    ]
+  },
+  "config_hash": "e35842b17e810185684662b64617a70d4c3624d566520d9e75dedd9e6104bf41",
+  "run_id": "jua-4b-mixed/irpf/answer_v1/gpt-5.6-terra/S2_budget8000",
+  "complete": true,
+  "experiment": "pilot (scripts/rag/experiments/pilot.yaml)",
+  "sample_requested": "stratified_30",
+  "llm": {
+    "name": "gpt-5.6-terra",
+    "provider": "openrouter",
+    "route": "openrouter",
+    "model_id": "openai/gpt-5.6-terra",
+    "params": {
+      "reasoning": {
+        "effort": "none"
+      },
+      "max_tokens": 4000,
+      "response_format": "json_schema"
+    },
+    "routing": {
+      "only": [
+        "openai/flex"
+      ],
+      "allow_fallbacks": false,
+      "require_parameters": true,
+      "data_collection": "deny"
+    },
+    "served_provider": "OpenAI",
+    "price": {
+      "usd_per_million_input": 2.0,
+      "usd_per_million_cached_input": 0.2,
+      "usd_per_million_output": 12.0,
+      "checked": "2026-10-23"
+    },
+    "context_window": 1050000,
+    "knowledge_cutoff": "2026-02-16",
+    "api_key_env": "OPENROUTER_API_KEY"
+  },
+  "prompt": {
+    "name": "answer_v1",
+    "path": "scripts/rag/prompts/answer_v1.pt.md",
+    "sha256": "e436a1c79cd57a9b988abb921c79429176f1b35a6b568ab1376302fc80485885"
+  },
+  "schema": {
+    "name": "resposta",
+    "sha256": "338964594d08afb9a001b9f94a0adacb5c50180f123f57ffd14b518b8a4f866a"
+  },
+  "checks_version": 2,
+  "context": {
+    "path": "runs/contexts/jua-4b-mixed/irpf/S2_budget8000/manifest.json",
+    "config_hash": "d8e1d0d26170cd5225ba2b63be2942e35ed791c65c3150aa5ef53e2974ac31e4",
+    "contexts_sha256": "7fa253bc8bcab86204ce1af7cc47ea25664a4fdc2bc06f751bd87270e8b8a6ee",
+    "set": "retrieval",
+    "template": "context_v2"
+  },
+  "counts": {
+    "questions": 30,
+    "ok": 30,
+    "errors": 0,
+    "skipped": 0,
+    "abstention_rate": 0.0333,
+    "mean_claims": 3.5517,
+    "mean_answer_chars": 862.4483,
+    "mean_input_tokens": 6682.3333,
+    "mean_output_tokens": 458.2,
+    "max_output_tokens": 1101,
+    "quote_ok_rate": 0.9888,
+    "quote_bad_document": 0,
+    "claim_grounded_rate": 0.9903,
+    "answers_with_value_not_in_context": 0.0,
+    "abstention_inconsistent": 0,
+    "retried": 0,
+    "usd_list": 0.565892,
+    "usd_billed_new_calls": 0.333041,
+    "new_calls": 30
+  },
+  "outputs": {
+    "answers.jsonl": {
+      "sha256": "d7c49a70ab09f2339eab991e54df7a2bf0990764772e4b460aa91be185ee57a3"
+    }
+  }
+}

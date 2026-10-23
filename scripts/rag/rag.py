@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """RAG pipeline of the BR-TaxQA-R v2.0 segmentation experiment — Phase 1: retrieval and its
-evaluation (the legal-provision test); Phase 2: generator contexts.
+evaluation (the legal-provision test); Phase 2: generator contexts; Phase 3: answer generation.
 
 Plan: docs/20260927_204356_rag_pipeline_implementation_plan.md. Usage (from the repository root):
 
@@ -11,6 +11,10 @@ Plan: docs/20260927_204356_rag_pipeline_implementation_plan.md. Usage (from the 
   python scripts/rag/rag.py report   --eval runs/retrieval/jua-4b-mixed/irpf/eval/either_containment_skip
   python scripts/rag/rag.py context  --retrieval runs/retrieval/jua-4b-mixed/irpf [--sets S2@budget=4000,closed_book]
   python scripts/rag/rag.py show-context --context runs/contexts/jua-4b-mixed/irpf/S2_budget4000 --questions 012
+  python scripts/rag/rag.py generate --contexts runs/contexts/jua-4b-mixed/irpf --sets S2_budget4000 --llms sabia-4 \
+      --sample stratified_30 --budget 5 [--dry-run]
+  python scripts/rag/rag.py run      --experiment scripts/rag/experiments/pilot.yaml --budget 30 [--dry-run]
+  python scripts/rag/rag.py show-answers --run runs/answers/jua-4b-mixed/irpf/answer_v1/sabia-4/S2_budget4000 --questions 350
 """
 
 from __future__ import annotations
@@ -31,6 +35,7 @@ from ragpipe.contexts import DEFAULT_SETS, ContextConfig, load_contexts, run_con
 from ragpipe.data import (InputError, Paths, check_inputs, default_instruction, load_chunks,  # noqa: E402
                           load_dataset, load_embedding)
 from ragpipe.evaluation import EvalConfig, compare, run_evaluation  # noqa: E402
+from ragpipe.generation import GenConfig, load_answers, load_experiment, run_generation  # noqa: E402
 from ragpipe.relevance import ANNEX_RULES  # noqa: E402
 from ragpipe.report import comparison_table, write_report  # noqa: E402
 from ragpipe.retrieval import RetrievalConfig, run_retrieval  # noqa: E402
@@ -154,6 +159,76 @@ def cmd_show_context(args: argparse.Namespace) -> int:
     return 0
 
 
+def print_generation(root: Path, df: pd.DataFrame, dry_run: bool) -> None:
+    pd.set_option("display.width", 200)
+    pd.set_option("display.max_columns", 30)
+    if dry_run:
+        print(df.drop(columns=["run_id"]).to_string(index=False))
+        print(f"\n{len(df)} runs, {int(df['calls'].sum())} calls ({int(df['cached'].sum())} cached), "
+              f"estimated list cost ${df['est_usd_list'].sum():.2f} "
+              f"(output assumed {int(df['est_output_tokens'].sum() / max(int(df['new_calls'].sum()), 1))} "
+              "tokens per call; flex endpoints bill about half). Nothing was sent.")
+        return
+    cols = ["llm", "context_id", "ok", "errors", "skipped", "abstention_rate", "mean_claims", "quote_ok_rate",
+            "claim_grounded_rate", "mean_output_tokens", "usd_list"]
+    print(df[cols].to_string(index=False))
+    print(f"\nanswers written under {rel(root)} (see summary.csv); list cost of these runs ${df['usd_list'].sum():.2f}")
+
+
+def generation_config(args: argparse.Namespace, **over) -> GenConfig:
+    kw = dict(workers=args.workers, budget_usd=args.budget, dry_run=args.dry_run, force=args.force)
+    if args.registry:
+        kw["registry"] = Path(args.registry)
+    kw.update(over)
+    return GenConfig(**kw)
+
+
+def cmd_generate(args: argparse.Namespace) -> int:
+    cfg = generation_config(args, contexts=Path(args.contexts), sets=tuple(str_list(args.sets)),
+                            llms=tuple(str_list(args.llms)), sample=args.sample, prompt=args.prompt,
+                            closed_prompt=args.closed_prompt)
+    root, df = run_generation(cfg, paths_from(args))
+    print_generation(root, df, args.dry_run)
+    return 0
+
+
+def cmd_run(args: argparse.Namespace) -> int:
+    e = load_experiment(Path(args.experiment))
+    prompts = e.get("prompts", {})
+    cfg = generation_config(args, contexts=Path(e["contexts"]), sets=tuple(e["sets"]), llms=tuple(e["llms"]),
+                            sample=args.sample or str(e.get("sample", "stratified_30")),
+                            prompt=prompts.get("default", "answer_v1"),
+                            closed_prompt=prompts.get("closed_book", "answer_closed_v1"),
+                            experiment=f"{e['name']} ({rel(Path(args.experiment))})")
+    root, df = run_generation(cfg, paths_from(args))
+    print_generation(root, df, args.dry_run)
+    return 0
+
+
+def cmd_show_answers(args: argparse.Namespace) -> int:
+    lines = {ln["question_number"]: ln for ln in load_answers(Path(args.run))}
+    for q in str_list(args.questions):
+        ln = lines.get(q)
+        if ln is None:
+            raise InputError(f"question {q} not in {args.run}")
+        print(f"## {ln['run_id']} — question {q} ({ln['status']})")
+        if ln["status"] != "ok":
+            print(ln.get("error") or ln.get("reason"), "\n")
+            continue
+        c = ln["checks"]
+        print(f"{c['n_claims']} claims, {c['claims_grounded']} grounded; quotes {c['quotes_ok']}/{c['n_quotes']} ok; "
+              f"values not in context: {c['values_not_in_context'] or '-'}; tokens {ln['usage']['input']} in / "
+              f"{ln['usage']['output']} out\n")
+        if ln["abstained"]:
+            print(f"[abstention] {ln['answer']}\n")
+        for i, cl in enumerate(ln["claims"], 1):
+            print(f"{i}. {cl['texto']}")
+            for f in cl["fundamentos"]:
+                print(f"     [Documento {f['documento']}] {f['status']}: \"{f['trecho']}\"")
+        print()
+    return 0
+
+
 # ------------------------------------------------------------------------------------------------
 # Parser
 # ------------------------------------------------------------------------------------------------
@@ -264,6 +339,43 @@ def build_parser() -> argparse.ArgumentParser:
     sp.add_argument("--no-text", action="store_true", help="list the items only")
     sp.add_argument("--max-chars", type=int, default=0, help="truncate the rendered context (0: full)")
     sp.set_defaults(func=cmd_show_context)
+
+    def gen_common(sp: argparse.ArgumentParser) -> None:
+        sp.add_argument("--budget", type=float, help="USD cap on the total of runs/costs.csv (required unless --dry-run)")
+        sp.add_argument("--dry-run", action="store_true", help="print the grid, calls and estimated cost; send nothing")
+        sp.add_argument("--workers", type=int, default=8, help="concurrent calls per generator (default 8)")
+        sp.add_argument("--force", action="store_true", help="replace answer runs made with another configuration")
+        sp.add_argument("--registry", help="generator registry (default scripts/rag/llms.yaml)")
+        common(sp)
+
+    sp = sub.add_parser("generate", help="stage G: answer the questions from context sets (plan §7)",
+                        formatter_class=fmt,
+                        epilog=epilog("python scripts/rag/rag.py generate --contexts runs/contexts/jua-4b-mixed/irpf "
+                                      "--sets S1_budget4000,S2_budget4000 --llms sabiazinho-4 --budget 2 --dry-run"))
+    sp.add_argument("--contexts", required=True, help="context folder runs/contexts/<embedding>/<retrieval run>")
+    sp.add_argument("--sets", required=True, help="comma list of context ids (folders under --contexts)")
+    sp.add_argument("--llms", required=True, help="comma list of generators of scripts/rag/llms.yaml")
+    sp.add_argument("--sample", default="stratified_30",
+                    help="questions: all | a sample of nuggets/full/sample.json | comma list (default stratified_30)")
+    sp.add_argument("--prompt", default="answer_v1", help="prompt of the context sets (default answer_v1)")
+    sp.add_argument("--closed-prompt", default="answer_closed_v1", help="prompt of closed_book (default answer_closed_v1)")
+    gen_common(sp)
+    sp.set_defaults(func=cmd_generate)
+
+    sp = sub.add_parser("run", help="stage G from a versioned experiment file", formatter_class=fmt,
+                        epilog=epilog("python scripts/rag/rag.py run --experiment scripts/rag/experiments/pilot.yaml "
+                                      "--dry-run"))
+    sp.add_argument("--experiment", required=True, help="scripts/rag/experiments/<name>.yaml")
+    sp.add_argument("--sample", help="override the experiment's sample")
+    gen_common(sp)
+    sp.set_defaults(func=cmd_run)
+
+    sp = sub.add_parser("show-answers", help="print the answers of some questions", formatter_class=fmt,
+                        epilog=epilog("python scripts/rag/rag.py show-answers --run "
+                                      "runs/answers/jua-4b-mixed/irpf/answer_v1/sabia-4/S2_budget4000 --questions 350"))
+    sp.add_argument("--run", required=True, help="answer run directory")
+    sp.add_argument("--questions", required=True, help="comma list of question numbers")
+    sp.set_defaults(func=cmd_show_answers)
     return p
 
 
