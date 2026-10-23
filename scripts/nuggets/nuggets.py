@@ -860,6 +860,152 @@ def cmd_scoretable(a):
     print("tables:", d)
 
 
+def cmd_analyze(a):
+    """The phase 5 analyses without LLM calls (``nuggetizer/analysis.py``): value checks, citation score,
+    linkage, utilisation, slices, perturbation, cross-set comparisons, judge agreement."""
+    import pandas as pd
+    from nuggetizer import analysis as an
+    out = Path(a.out)
+    set_name, nugs = scoring_set(a.set)
+    qs = scoring_questions(a.sample)
+    d = out / "analysis" / set_name / a.judge / a.sample
+    d.mkdir(parents=True, exist_ok=True)
+    nt = an.nugget_table(nugs)
+    lab = an.nugget_labels(out / "score" / set_name / a.judge)
+    lab = lab[lab.question_number.isin(qs)]
+    pq = an.per_question_long(lab, nt, ["run_id", "llm", "context_id"])
+    cl = an.nugget_labels(out / "ctxsupport" / set_name / a.judge)
+    cl = cl[cl.question_number.isin(qs) & cl.contexts.str.startswith("runs/contexts/jua-4b-mixed/irpf/")]
+    cq = an.per_question_long(cl, nt, ["context_id"])
+    runs = sorted({(r, REPO / p) for r, p in zip(lab.run_id, lab.run)})
+    show = lambda df: print(df.to_string(index=False, float_format="%.3f"), "\n")  # noqa: E731
+    pd.set_option("display.width", 250)
+
+    # value checks
+    from ragpipe.data import Paths, load_chunks
+    ch = load_chunks(Paths().chunks, with_text=True)
+    near = an.CorpusNear(ch.Texto[(ch.Tipo == "ART") & (ch.variante == "base")].drop_duplicates().tolist())
+    answers = {}
+    for run_id, rd in runs:
+        answers[run_id] = {x["question_number"]: (x.get("answer") or "") for x in jl_read(rd / "answers.jsonl")
+                           if x["status"] == "ok" and not x.get("abstained")}
+    vc = an.value_checks(lab, nugs, qs, answers, near)
+    vc.to_csv(d / "values_per_nugget.csv.gz", index=False)
+    vs = an.value_summary(vc)
+    vs.to_csv(d / "values_runs.csv", index=False, float_format="%.4f")
+    print("== value checks (nuggets with values)")
+    show(vs)
+    ctx_root = REPO / "runs" / "contexts" / "jua-4b-mixed" / "irpf"
+    nic, ctx_lines = [], {}
+    for run_id, rd in runs:
+        cid = run_id.split("/")[-1]
+        if cid == "closed_book" or not (ctx_root / cid / "contexts.jsonl.gz").exists():
+            continue
+        if cid not in ctx_lines:
+            ctx_lines[cid] = {x["question_number"]: x for x in scoring.jl(ctx_root / cid / "contexts.jsonl.gz")
+                              if x["question_number"] in qs}
+        run = json.loads((rd / "run.json").read_text())
+        nic.append({"llm": run["llm"]["name"], "context_id": cid, **an.values_not_in_context(rd, ctx_lines[cid], qs)})
+    nic = pd.DataFrame(nic)
+    nic.to_csv(d / "values_not_in_context.csv", index=False, float_format="%.4f")
+    print("== answers with a value in neither the context nor the question (spelled-out numbers fixed)")
+    show(nic)
+
+    # legal-provision score of the citations
+    cit = an.citation_scores(runs, ctx_root, set(qs))
+    cit.to_csv(d / "citations_per_answer.csv.gz", index=False)
+    cr = cit.groupby(["llm", "context_id", "level"])[
+        ["n_cited", "n_texts", "cited_recall", "context_recall", "cited_of_context_gold", "cited_precision",
+         "context_precision"]].mean().reset_index()
+    cr.to_csv(d / "citations_runs.csv", index=False, float_format="%.4f")
+    print("== citations: gold provisions in the cited texts vs in the whole context")
+    show(cr[cr.level == "article"])
+
+    # linkage and utilisation
+    ut = an.utilisation(lab, cl, nt)
+    ut.to_csv(d / "utilisation_runs.csv", index=False, float_format="%.4f")
+    print("== utilisation / leakage per nugget (contexts with context support)")
+    show(ut[ut.nuggets == "vital"])
+    lk, ld = an.linkage(pq, cq, cit)
+    lk.to_csv(d / "linkage_runs.csv", index=False, float_format="%.4f")
+    ld.to_csv(d / "linkage_s1_s2.csv", index=False, float_format="%.4f")
+    print("== answer V_strict by what the context holds")
+    show(lk)
+    print("== S2 − S1: answer difference against context-support difference")
+    show(ld)
+
+    # robustness
+    pairs = [p for p in scoring.PAIRS if {p[0], p[1]} <= set(pq.context_id)]
+    sl = an.slice_comparisons(lab, nt, pairs, a.resamples)
+    sl.to_csv(d / "slices_comparisons.csv", index=False, float_format="%.4f")
+    print("== S2 − S1 at 4k on nugget subsets (V_strict)")
+    show(sl[(sl.a == "S1_budget4000") & (sl.b == "S2_budget4000") & (sl.metric == "V_strict")]
+         [["subset", "llm", "n", "mean_a", "mean_b", "diff", "ci_lo", "ci_hi", "p_perm"]])
+    rs = an.run_means_by_subset(lab, nt)
+    rs.to_csv(d / "runs_by_pgd.csv", index=False, float_format="%.4f")
+    an.chapter_diffs(pq, scoring.load_chapters(scoring.CHAPTERS, sorted(qs))).to_csv(
+        d / "chapters_s1_s2.csv", index=False, float_format="%.4f")
+    pt = pd.concat([an.perturbation(lab, nt, "S1_budget4000", "S2_budget4000", a.reps, metric=m)
+                    for m in ("V_strict", "A_strict")], ignore_index=True)
+    pt.to_csv(d / "perturbation_s1_s2.csv", index=False, float_format="%.4f")
+    print("== perturbed nugget sets, S2 − S1 at 4k (V_strict)")
+    show(pt[pt.metric == "V_strict"].drop(columns=["a", "b", "metric"]))
+
+    # cross-set comparisons
+    cross = []
+    for sd in sorted((out / "score").iterdir()):
+        if sd.name == set_name or not (sd / a.judge).exists():
+            continue
+        _, onugs = scoring_set(sd.name)
+        ont = an.nugget_table(onugs)
+        olab = an.nugget_labels(sd / a.judge)
+        olab = olab[olab.question_number.isin(qs)]
+        opq = an.per_question_long(olab, ont, ["run_id", "llm", "context_id"])
+        ids = set(opq.run_id)
+        for name, p in [(sd.name, opq), (set_name, pq[pq.run_id.isin(ids)])]:
+            c = scoring.compare(p, "S1_budget4000", "S2_budget4000", ["llm"], a.resamples)
+            m = p.groupby("run_id").V_strict.mean()
+            cross.append(c.assign(nugget_set=name, compared_with=sd.name, runs_mean=json.dumps(m.round(4).to_dict())))
+    if cross:
+        cs = pd.concat(cross, ignore_index=True)
+        cs.to_csv(d / "crossset_comparisons.csv", index=False, float_format="%.4f")
+        print("== S2 − S1 at 4k under each nugget set")
+        show(cs[cs.metric.isin(["V_strict", "A_strict"])][
+            ["compared_with", "nugget_set", "llm", "metric", "mean_a", "mean_b", "diff", "ci_lo", "ci_hi", "p_perm",
+             "cluster_ci_lo", "cluster_ci_hi"]])
+        rk = []
+        for other in cs.compared_with.unique():
+            x = cs[(cs.compared_with == other)]
+            mo = json.loads(x[x.nugget_set == other].runs_mean.iloc[0])
+            mp = json.loads(x[x.nugget_set == set_name].runs_mean.iloc[0])
+            keys = sorted(mo)
+            rk.append({"nugget_set": other, "runs": len(keys), "kendall_tau_vs_primary":
+                       an.kendall_tau([mo[k] for k in keys], [mp[k] for k in keys]),
+                       **{f"{k.split('/')[-2]}/{k.split('/')[-1]}": f"{mp[k]:.3f} → {mo[k]:.3f}" for k in keys}})
+        rk = pd.DataFrame(rk)
+        rk.to_csv(d / "crossset_rankings.csv", index=False)
+        show(rk)
+
+    # agreement of a second judge on real answers
+    if a.second_judge and (out / "score" / set_name / a.second_judge).exists():
+        lab2 = an.nugget_labels(out / "score" / set_name / a.second_judge)
+        lab2 = lab2[lab2.question_number.isin(qs)]
+        ag, conf = an.judge_agreement(lab[lab.run_id.isin(set(lab2.run_id)) & lab.question_number.isin(
+            set(lab2.question_number))], lab2)
+        ag.to_csv(d / f"judge_agreement_{a.second_judge}.csv", index=False, float_format="%.4f")
+        conf.to_csv(d / f"judge_confusion_{a.second_judge}.csv")
+        print(f"== judge agreement: {a.judge} (rows) vs {a.second_judge} (columns)")
+        show(ag)
+        print(conf, "\n")
+        pq2 = an.per_question_long(lab2, nt, ["run_id", "llm", "context_id"])
+        jq = pq[pq.run_id.isin(set(pq2.run_id)) & pq.question_number.isin(set(pq2.question_number))]
+        jc = pd.concat([scoring.compare(p, "S1_budget4000", "S2_budget4000", ["llm"], a.resamples).assign(judge=j)
+                        for j, p in [(a.judge, jq), (a.second_judge, pq2)]], ignore_index=True)
+        jc.to_csv(d / f"judge_comparisons_{a.second_judge}.csv", index=False, float_format="%.4f")
+        show(jc[jc.metric == "V_strict"][["judge", "llm", "n", "mean_a", "mean_b", "diff", "ci_lo", "ci_hi", "p_perm"]])
+    print("analysis:", d)
+
+
 def cmd_report(a):
     out = Path(a.out)
     path = report.build(out, questions(out, a.sample), load_registry(HERE / "models.yaml"),
@@ -1016,6 +1162,13 @@ def main():
     p.add_argument("--judge", default="gemini-3.8-flash")
     p.add_argument("--resamples", type=int, default=10_000)
     p.set_defaults(fn=cmd_scoretable)
+    p = sp.add_parser("analyze", help="phase 5: value checks, citations, linkage, robustness (no LLM)")
+    p.add_argument("--set", default="gold")
+    p.add_argument("--judge", default="gemini-3.8-flash")
+    p.add_argument("--second-judge", default="gemini-3.1-pro", help="judge-agreement tables when it has scores")
+    p.add_argument("--resamples", type=int, default=10_000)
+    p.add_argument("--reps", type=int, default=1000, help="perturbation replicates per setting")
+    p.set_defaults(fn=cmd_analyze)
     sp.add_parser("report").set_defaults(fn=cmd_report)
     p = sp.add_parser("pilotreport", help="report_pilot.md (stratified_30) or report_full.md (other samples)")
     p.add_argument("--primary", default="gpt-6.1-sol", help="primary set of the alignments")

@@ -1,0 +1,17 @@
+llm,group,n,answer_diff,ctx_diff,art_recall_diff,slope_answer_on_ctx,spearman_answer_ctx,answer_diff_ctx_same
+gpt-5.6-luna,ctx_better,47,0.1103,0.3972,0.2760,,,
+gpt-5.6-luna,ctx_same,479,0.0242,0.0000,0.0943,,,
+gpt-5.6-luna,ctx_worse,26,-0.1090,-0.3966,0.0006,,,
+gpt-5.6-luna,all,552,0.0252,0.0151,0.1053,0.2940,0.1953,0.0242
+gpt-5.6-terra,ctx_better,47,0.0561,0.3972,0.2760,,,
+gpt-5.6-terra,ctx_same,479,0.0129,0.0000,0.0943,,,
+gpt-5.6-terra,ctx_worse,26,-0.0587,-0.3966,0.0006,,,
+gpt-5.6-terra,all,552,0.0132,0.0151,0.1053,0.1426,0.1362,0.0129
+sabia-4,ctx_better,47,0.1278,0.3972,0.2760,,,
+sabia-4,ctx_same,479,0.0086,0.0000,0.0943,,,
+sabia-4,ctx_worse,26,-0.0481,-0.3966,0.0006,,,
+sabia-4,all,552,0.0161,0.0151,0.1053,0.2439,0.1886,0.0086
+sabiazinho-4,ctx_better,47,0.0434,0.3972,0.2760,,,
+sabiazinho-4,ctx_same,479,-0.0052,0.0000,0.0943,,,
+sabiazinho-4,ctx_worse,26,-0.1110,-0.3966,0.0006,,,
+sabiazinho-4,all,552,-0.0060,0.0151,0.1053,0.1944,0.1430,-0.0052

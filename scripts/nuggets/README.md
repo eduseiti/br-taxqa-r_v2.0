@@ -4,7 +4,12 @@ Turns the 715 gold answers into **legal nuggets** (short, self-contained, atomic
 answers of the RAG generators can be scored against them. Design:
 `docs/20261011_224049_gold_answer_nuggetization_plan_v2.md` (**plan v2**).
 
-**Status (2026-10-21): phases 2–4 done** on the 715 questions (`nuggets/full/`, $65.34 billed, 4 h 15 min; the
+**Status (2026-10-23): phase 5 (scoring) done** on the 25 runs of the trimmed RAG grid (`nuggets/scoring/`,
+$55.96 billed: primary scoring, context support, cross-sets, a second judge, and the analyses without LLM):
+`docs/20261023_210727_rag_phase5_scoring_and_analysis.md` (results, conclusions, open items §9). Commands:
+"Phase 5" under "Commands".
+
+**Earlier status (2026-10-21): phases 2–4 done** on the 715 questions (`nuggets/full/`, $65.34 billed, 4 h 15 min; the
 frozen set is `nuggets/gold/v0-auto/`): `docs/20261021_155704_nuggetization_phases_2_to_4_execution.md`. Next:
 phase 5 (scoring), after the RAG answer runs. Open items: that note's §6.
 
@@ -36,7 +41,7 @@ scripts/llm_client/           provider-neutral client (shared with RAG Phase 3 l
 scripts/nuggets/
   nuggets.py                  CLI: sample, create [--replicate], importance, validate, selfscore, align,
                               roundtrip, audit, repair, plant, known build|judge, report, pilotreport,
-                              batch, openrouter-key
+                              batch, openrouter-key; phase 5: score, ctxsupport, scoretable, analyze
   probe_openrouter.py         one create_v4 call per model through OpenRouter (route checks, plan §5 step 1)
   models.yaml                 registry: model ids, medium-effort params (D12), prices (checked 2026-10-11);
                               `openrouter:` block per model (id, params, pinned provider, served_provider)
@@ -44,7 +49,11 @@ scripts/nuggets/
   nuggetizer/
     data.py                   questions, o200k lengths, stratified samples, user prompt
     schema.py                 pydantic models → strict JSON schemas sent to the APIs
-    values.py                 pt-BR value extraction (R$, %, dates, years)
+    values.py                 pt-BR value extraction (R$, %, dates, years); digits_for_words (spelled-out %)
+    scoring.py                phase 5: per-question scores (V_strict, V, A_strict, A, W, contradictions), paired
+                              bootstrap / permutation / chapter-cluster comparisons, default pairs
+    analysis.py               phase 5 without LLM: value checks, citation score, linkage, utilisation, slices,
+                              perturbation, cross-sets, judge agreement
     validate.py               mechanical checks (plan v2 §3.3, §3.5.1), flags
     known_answer.py           known-answer test builders G V Y N D C W E and metrics (plan v2 §5.7)
     planted.py                one planted error per question, to measure auditor sensitivity
@@ -119,6 +128,28 @@ $P $N $O pilotreport                                                    # nugget
 - Several `selfscore` processes may run in parallel on the same `--out`. The ledger is shared, and
   the budget cap reads it before every call.
 
+### Phase 5: scoring RAG answers (`nuggets/scoring/`)
+
+```bash
+A=runs/answers/jua-4b-mixed/irpf; C=runs/contexts/jua-4b-mixed/irpf
+S="--out nuggets/scoring --sample all --workers 24 --budget <ledger total + allowance>"
+$P $N $S score --runs "$A/*/*/*" --dry-run          # uncached calls and cost (ledger mean per call); then without
+$P $N $S score --runs "$A/answer_v1/sabia-4/S[12]_budget4000" --set qwen3.8-max.rep0   # a cross-set
+$P $N $S score --runs "$A/answer_v1/sabia-4/S[12]_budget4000" --judge gemini-3.1-pro  # a second judge
+$P $N $S ctxsupport --contexts $C/S1_budget4000 $C/S2_budget4000                      # nuggets vs the context
+$P $N --out nuggets/scoring --sample all scoretable [--set <set>]   # free: tables/<set>/<judge>/<sample>/
+$P $N --out nuggets/scoring --sample all analyze                    # free, ≈ 8 min: analysis/<set>/<judge>/<sample>/
+```
+
+- `--runs` and `--contexts` take run / context folders or globs relative to the repository root. `--set gold` (the
+  default) is `nuggets/gold/v0-auto`; any other name is a set of `nuggets/full/create/`.
+- Abstentions and errors get `not_support` for every nugget, without a judge call. A rerun only adds the questions
+  that are missing: labels already in an output folder are kept.
+- Output folders: `score/<set>/<judge>/<run_id>/` and `ctxsupport/<set>/<judge>/<context path>/`, each with
+  `labels.jsonl`, `calls.jsonl` and `manifest.json`.
+- Prompts: `assign_v2` for answers, `assign_ctx_v1` for contexts.
+- Measured cost (Flash flex): $0.0023 per answer, $0.0044–0.0047 per 4k context; Gemini 3.1 Pro $0.0091 per answer.
+
 ## OpenRouter route (default)
 
 Every model has an `openrouter:` block in `models.yaml` (plan `docs/20261020_130829_openrouter_support_plan.md`):
@@ -182,6 +213,7 @@ calls are cached, so rerunning the same command after the reset resumes where it
 | `create_v3` | superseded | R2 "follow the answer's structure"; passed both acceptance checks (execution note §8–§9) |
 | **`create_v4`** | **current; pilot passed** | `create_v3` + pointer rule: a sentence that only delegates to another question gives no nugget (execution note §13; pilot note §2) |
 | `assign_v1` | superseded | penalized the implicit P&R period (R8) |
+| **`assign_ctx_v1`** | **current** | phase 5 context support: nuggets against the retrieved legal texts; PGD instructions not in the texts and another period's value are `not_support` |
 | **`assign_v2`** | **current** | implicit period: a missing exercício 2024 / ano-calendário 2023 is not a defect; another year is `contradicts` |
 | `importance_v1` | tested, not adopted | 2-call mode: importance in a second call (pilot note §4) |
 | `align_v1` | current | cross-set alignment, relation per nugget (`gemini-3.8-flash`) |

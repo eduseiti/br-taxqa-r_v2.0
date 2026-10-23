@@ -35,6 +35,39 @@ def extract(text: str) -> list[dict]:
     return out
 
 
+_WORDS = {w: i for i, w in enumerate(
+    "zero um dois três quatro cinco seis sete oito nove dez onze doze treze quatorze quinze dezesseis dezessete "
+    "dezoito dezenove".split())}
+_WORDS.update({"uma": 1, "duas": 2, "tres": 3, "catorze": 14, "cem": 100, "cento": 100,
+               **{w: 10 * i for i, w in enumerate("vinte trinta quarenta cinquenta sessenta setenta oitenta "
+                                                  "noventa".split(), 2)},
+               **{w: 100 * i for i, w in enumerate("duzentos trezentos quatrocentos quinhentos seiscentos "
+                                                   "setecentos oitocentos novecentos".split(), 2)}})
+_W = "(?:" + "|".join(sorted(_WORDS, key=len, reverse=True)) + ")"
+_WNUM = rf"{_W}(?:\s+e\s+{_W})*"
+_SPELLED_PCT = re.compile(rf"\b({_WNUM})(?:\s+inteiros?(?:\s+e\s+({_WNUM})\s+(décimos?|centésimos?))?)?\s+por\s+cento\b",
+                          re.I)
+
+
+def _words_to_int(s: str) -> int:
+    return sum(_WORDS[w] for w in re.split(r"\s+e\s+", s.lower().strip()))
+
+
+def _pct_digits(m: re.Match) -> str:
+    n = str(_words_to_int(m.group(1)))
+    if m.group(2):
+        frac = _words_to_int(m.group(2))
+        n += "," + (f"{frac:01d}" if m.group(3).lower().startswith("d") else f"{frac:02d}")
+    return f"{n}%"
+
+
+def digits_for_words(text: str) -> str:
+    """Percentages written in words ("quinze por cento", "vinte e sete inteiros e cinco décimos por cento") as
+    digits, and the degree sign of ordinals ("1° de janeiro") as ``º``, so :func:`extract` finds them (phase 5
+    value checks; the provisions write many values this way)."""
+    return _SPELLED_PCT.sub(_pct_digits, text.replace("°", "º"))
+
+
 def number_tokens(text: str) -> set[str]:
     """Digit sequences, normalized so ``30.639,90`` ≡ ``30639,90`` and a trailing separator is dropped."""
     return {t.replace(".", "") for t in _NUM.findall(text)}

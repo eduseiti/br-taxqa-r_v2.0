@@ -26,7 +26,7 @@ working on segmentation, embedding or retrieval code. The corpus was last rebuil
 the phase 1 gate is closed (`create_v4`, one call, thresholds in
 `docs/20261013_103834_nuggetization_open_decisions.md`, which also tracks the open decisions). **Phases 2–4 are
 done** (`docs/20261021_155704_nuggetization_phases_2_to_4_execution.md`; frozen set `nuggets/gold/v0-auto/`);
-phase 5 (scoring) is next. Start from `scripts/nuggets/README.md`
+phase 5 (scoring) is done (`docs/20261023_210727_rag_phase5_scoring_and_analysis.md`). Start from `scripts/nuggets/README.md`
 (status, commands, current prompts `create_v4` / `assign_v2`, budget cap, what is still missing); the
 decisions and costs are in the `docs/20261012_*nuggetization*` notes. All LLM calls go through **OpenRouter** by default
 (`--route openrouter`, one key `OPENROUTER_API_KEY`, flex endpoints for GPT/Gemini;
@@ -81,7 +81,10 @@ than expected.
   the budget ($150 OpenRouter for the whole experiment), the **trimmed grid** of the first full evaluation and its
   stages: `docs/20261023_120734_first_full_evaluation_budget_trimmed_plan_and_s2_s3_hypotheses.md`. Generation of the
   trimmed grid on all 715 questions is done (`experiments/full_stage1.yaml`, `full_stage2.yaml`, 25 runs, $41.95):
-  `docs/20261023_151928_rag_phase3_trimmed_full_generation.md`; scoring (nugget phase 5) is next. `rag.py` does not
+  `docs/20261023_151928_rag_phase3_trimmed_full_generation.md`. Scoring (nugget phase 5: `nuggets.py score`,
+  `ctxsupport`, `scoretable`, `analyze`; outputs in `nuggets/scoring/`, $55.96) and the first full analysis are done:
+  `docs/20261023_210727_rag_phase5_scoring_and_analysis.md` (S2 > S1 by +0.02–0.03 V_strict, robust; S3/S2c/S4 ≈ S2;
+  next: stages 3–4, §9 there). `rag.py` does not
   read `.env`: run `set -a; . ./.env; set +a` first.
 - **`nuggets/`** — nugget pipeline outputs (`scripts/nuggets/nuggets.py`), one folder per run
   (`preview/`, `preview_v2/`, `preview_v3/`; `pilot/` next): nuggets, validation, self-score
