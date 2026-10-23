@@ -1,0 +1,11 @@
+# First full evaluation, stage 2: S3, S2c, S4 at 4k, all 715 questions, without Terra (trimmed grid adopted by the
+# user on 2026-10-23, docs/20261023_120734_first_full_evaluation_budget_trimmed_plan_and_s2_s3_hypotheses.md §2–§3).
+name: full_stage2
+contexts: runs/contexts/jua-4b-mixed/irpf      # main corpus (RIR/1999 excluded)
+sample: all
+sets:
+  - S3_budget4000
+  - S2c_budget4000
+  - S4_budget4000
+llms: [sabia-4, sabiazinho-4, gpt-5.6-luna]
+prompts: {default: answer_v1, closed_book: answer_closed_v1}

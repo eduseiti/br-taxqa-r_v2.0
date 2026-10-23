@@ -1,44 +1,35 @@
 {
   "schema_version": 1,
   "kind": "answers",
-  "created_at": "2026-10-23T11:08:16+00:00",
+  "created_at": "2026-10-23T14:37:55+00:00",
   "script": {
     "package": "ragpipe",
     "version": "0.1.0",
     "git": {
-      "commit": "79b101cf9b1f73371698e765c2430cee5e7b06cf",
+      "commit": "dec323e5f20c47439c0d4b85cecd8811be23bf12",
       "dirty": true,
       "dirty_files": [
-        "gitignore",
-        "scripts/llm_client/__init__.py",
-        "scripts/llm_client/client.py",
-        "scripts/rag/README.md",
-        "scripts/rag/rag.py",
-        "scripts/rag/requirements.txt",
-        "runs/answers/",
+        "uns/answers/jua-4b-mixed/irpf/answer_v1/sabia-4/S1_budget4000/answers.jsonl",
         "runs/costs.csv",
-        "scripts/rag/experiments/",
-        "scripts/rag/llms.yaml",
-        "scripts/rag/prompts/answer_closed_v1.pt.md",
-        "scripts/rag/prompts/answer_v1.pt.md",
-        "scripts/rag/ragpipe/generation.py",
-        "scripts/rag/tests/test_generation.py"
+        "0",
+        "scripts/rag/experiments/full_stage1.yaml",
+        "scripts/rag/experiments/full_stage2.yaml"
       ]
     },
     "argv": [
       "scripts/rag/rag.py",
       "run",
       "--experiment",
-      "scripts/rag/experiments/pilot.yaml",
+      "scripts/rag/experiments/full_stage1.yaml",
       "--budget",
-      "18"
+      "43"
     ]
   },
   "config_hash": "48672e1284fbdca3bda19db0adc38f793eebaa439a15ccc393e6b28db51cd8c9",
   "run_id": "jua-4b-mixed/irpf/answer_v1/gpt-5.6-terra/oracle_budget4000",
   "complete": true,
-  "experiment": "pilot (scripts/rag/experiments/pilot.yaml)",
-  "sample_requested": "stratified_30",
+  "experiment": "full_stage1 (scripts/rag/experiments/full_stage1.yaml)",
+  "sample_requested": "all",
   "llm": {
     "name": "gpt-5.6-terra",
     "provider": "openrouter",
@@ -88,29 +79,29 @@
     "template": "context_v2"
   },
   "counts": {
-    "questions": 30,
-    "ok": 25,
+    "questions": 715,
+    "ok": 596,
     "errors": 0,
-    "skipped": 5,
-    "abstention_rate": 0.04,
-    "mean_claims": 3.3333,
-    "mean_answer_chars": 799.9583,
-    "mean_input_tokens": 2156.92,
-    "mean_output_tokens": 417.44,
-    "max_output_tokens": 1257,
-    "quote_ok_rate": 0.9924,
+    "skipped": 119,
+    "abstention_rate": 0.047,
+    "mean_claims": 3.2447,
+    "mean_answer_chars": 767.9718,
+    "mean_input_tokens": 2537.6628,
+    "mean_output_tokens": 403.3557,
+    "max_output_tokens": 2111,
+    "quote_ok_rate": 0.9929,
     "quote_bad_document": 0,
-    "claim_grounded_rate": 0.9875,
-    "answers_with_value_not_in_context": 0.0,
+    "claim_grounded_rate": 0.9962,
+    "answers_with_value_not_in_context": 0.007,
     "abstention_inconsistent": 0,
     "retried": 0,
-    "usd_list": 0.233078,
-    "usd_billed_new_calls": 0.129768,
-    "new_calls": 25
+    "usd_list": 5.90159,
+    "usd_billed_new_calls": 3.132742,
+    "new_calls": 563
   },
   "outputs": {
     "answers.jsonl": {
-      "sha256": "a33ccd14229b700ce02f39769789089c67e17bb1b3dee89809517e5e891011ab"
+      "sha256": "d0998c76675ea58f9516f741324cfc733fe5ae6b004d15553fbe15a680f9279b"
     }
   }
 }

@@ -79,7 +79,10 @@ than expected.
   `run.json`, `summary.csv` in git, raw responses in `answers/cache/` not); `runs/costs.csv` is the RAG cost ledger.
   Pilot (`stratified_30`, 14 sets × 4 generators, $5.59) and full-run costs: `docs/20261023_110952_rag_phase3_generation_pilot.md`;
   the budget ($150 OpenRouter for the whole experiment), the **trimmed grid** of the first full evaluation and its
-  stages: `docs/20261023_120734_first_full_evaluation_budget_trimmed_plan_and_s2_s3_hypotheses.md`.
+  stages: `docs/20261023_120734_first_full_evaluation_budget_trimmed_plan_and_s2_s3_hypotheses.md`. Generation of the
+  trimmed grid on all 715 questions is done (`experiments/full_stage1.yaml`, `full_stage2.yaml`, 25 runs, $41.95):
+  `docs/20261023_151928_rag_phase3_trimmed_full_generation.md`; scoring (nugget phase 5) is next. `rag.py` does not
+  read `.env`: run `set -a; . ./.env; set +a` first.
 - **`nuggets/`** — nugget pipeline outputs (`scripts/nuggets/nuggets.py`), one folder per run
   (`preview/`, `preview_v2/`, `preview_v3/`; `pilot/` next): nuggets, validation, self-score
   labels, the cost ledger `costs.csv` and `report.md`. Raw API responses (`cache/`) and the input
