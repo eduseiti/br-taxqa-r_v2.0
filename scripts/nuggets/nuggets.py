@@ -32,7 +32,7 @@ from dotenv import load_dotenv  # noqa: E402
 from llm_client import LLM, BatchDeferred, QuotaExhausted, load_registry, route_config  # noqa: E402
 from llm_client.client import LLMError  # noqa: E402
 from llm_client import batch as llm_batch  # noqa: E402
-from nuggetizer import data, pilot_report, report, schema  # noqa: E402
+from nuggetizer import data, pilot_report, report, schema, scoring  # noqa: E402
 from nuggetizer.validate import validate  # noqa: E402
 
 PROMPTS = HERE / "prompts"
@@ -687,6 +687,179 @@ def cmd_known(a):
     print(json.dumps(met["_pooled"], indent=1))
 
 
+# ------------------------------------------------------------------ phase 5: scoring of RAG answers
+FULL = REPO / "nuggets" / "full"           # questions and samples of the 715-question runs
+EST_USD = {"score": 0.0018, "ctxsupport": 0.0035}   # Flash flex per call, before the ledger has rows of the role
+
+
+def scoring_set(name: str) -> tuple[str, dict[str, list[dict]]]:
+    """``gold`` → the frozen primary set (``nuggets/gold/v0-auto``); else a set of ``nuggets/full/create``."""
+    path = REPO / "nuggets" / "gold" / "v0-auto" / "nuggets.jsonl" if name == "gold" else \
+        FULL / "create" / name / "nuggets.jsonl"
+    return ("gold-v0-auto" if name == "gold" else name), by_question(jl_read(path))
+
+
+def scoring_questions(sample: str) -> dict[str, dict]:
+    qs = {q["question_number"]: q for q in jl_read(FULL / "input" / "questions.jsonl")}
+    if sample == "all":
+        return qs
+    return {n: qs[n] for n in json.loads((FULL / "sample.json").read_text())[sample]}
+
+
+def expand_dirs(patterns: list[str], marker: str) -> list[Path]:
+    """Directories given directly or by glob (relative to the repo root) that contain ``marker``."""
+    ds = []
+    for p in patterns:
+        hits = sorted(REPO.glob(p)) if any(c in p for c in "*?[") else [REPO / p]
+        ds += [h for h in hits if (h / marker).exists()]
+    if not ds:
+        sys.exit(f"no directory with {marker} matches {patterns}")
+    return list(dict.fromkeys(ds))
+
+
+def judge_items(a, role: str, jobs: list[tuple[Path, list[dict]]], nugs: dict, qs: dict, prompt_name: str):
+    """One judge call per item (``source == judge``); the others get ``not_support`` for every nugget without a
+    call. ``jobs``: (output dir, items). Labels of other questions already in an output dir are kept."""
+    out = Path(a.out)
+    system = prompt(prompt_name).read_text()
+    sch = schema.strict_schema(schema.AssignmentList)
+    m = llm(a.judge, out, a.budget)
+    flat = [(d, it) for d, items in jobs for it in items if it["question_number"] in nugs]
+    calls = [(d, it) for d, it in flat if it["source"] == "judge"]
+    if a.dry_run:
+        new = sum(not m.is_cached(system, assign_user(qs[it["question_number"]], it["text"],
+                                                       nugs[it["question_number"]]), sch) for _, it in calls)
+        led = [r for r in jl_ledger(out / "costs.csv") if r["tag"].startswith(role + ":")]
+        per = (sum(float(r["usd_billed"] or r["usd_standard"]) for r in led) / len(led)) if led else EST_USD[role]
+        print(f"{len(jobs)} outputs, {len(flat)} items, {len(calls)} need the judge, {new} not cached; "
+              f"≈ ${new * per:.2f} at ${per:.4f} per call ({'ledger mean' if led else 'estimate'}). Nothing was sent.")
+        return
+
+    def one(x):
+        d, it = x
+        q, qn = qs[it["question_number"]], nugs[it["question_number"]]
+        if it["source"] != "judge":
+            return d, {"question_number": q["question_number"], "source": it["source"],
+                       "labels": [{"nugget_id": n["nugget_id"], "label": "not_support", "justification": ""}
+                                  for n in qn]}, None
+        try:
+            r = m.complete_json(system, assign_user(q, it["text"], qn), sch, "assignments",
+                                validate=check_cover("nugget", len(qn)),
+                                tag=f"{role}:{d.relative_to(out)}:{q['question_number']}")
+        except (LLMError, ValueError) as e:
+            if type(e).__name__ in ("BudgetExceeded", "CreditsExhausted"):
+                raise
+            print(f"  FAILED {d.relative_to(out)} Q{q['question_number']}: {str(e)[:200]}", flush=True)
+            return d, None, None
+        by = {x["nugget"]: x for x in r.data["assignments"]}
+        row = {"question_number": q["question_number"], "source": "judge",
+               "labels": [{"nugget_id": n["nugget_id"], "label": by[i]["label"],
+                           "justification": by[i]["justification"]} for i, n in enumerate(qn, 1)]}
+        return d, row, call_row(q, role, a.judge, r, n_nuggets=len(qn))
+
+    res = run_all(flat, one, a.workers)
+    failed = sum(row is None for _, row, _ in res)
+    for d, _ in jobs:
+        rows = {x["question_number"]: x for x in (jl_read(d / "labels.jsonl") if (d / "labels.jsonl").exists() else [])}
+        cl = {x["question_number"]: x for x in (jl_read(d / "calls.jsonl") if (d / "calls.jsonl").exists() else [])}
+        for dd, row, c in res:
+            if dd == d and row:
+                rows[row["question_number"]] = row
+                if c:
+                    cl[c["question_number"]] = c
+        jl_write(d / "labels.jsonl", [rows[k] for k in sorted(rows)])
+        jl_write(d / "calls.jsonl", [cl[k] for k in sorted(cl)])
+    n_new = sum(1 for _, _, c in res if c and not c["from_cache"])
+    usd = sum(c["usd_standard"] for _, _, c in res if c and not c["from_cache"])
+    print(f"{len(flat)} items in {len(jobs)} outputs: {n_new} new judge calls (${usd:.2f} list), {failed} failed")
+    return failed
+
+
+def jl_ledger(path: Path) -> list[dict]:
+    import csv
+    if not path.exists():
+        return []
+    with open(path, newline="") as f:
+        return list(csv.DictReader(f))
+
+
+def cmd_score(a):
+    """Judge each answer of the runs against a nugget set (plan v2 §5.2; ``assign_v2``)."""
+    set_name, nugs = scoring_set(a.set)
+    qs = scoring_questions(a.sample)
+    jobs = []
+    for rd in expand_dirs(a.runs, "answers.jsonl"):
+        run_id = json.loads((rd / "run.json").read_text())["run_id"]
+        d = Path(a.out) / "score" / set_name / a.judge / run_id
+        jobs.append((d, scoring.answer_items(rd, set(qs))))
+        if not a.dry_run:
+            write_manifest(d, kind="score", run=str(rd.relative_to(REPO)), run_id=run_id, nugget_set=set_name,
+                           judge=a.judge, registry=model_cfg(a.judge), sample=a.sample, assign_prompt=a.prompt)
+    judge_items(a, "score", jobs, nugs, qs, a.prompt)
+
+
+def cmd_ctxsupport(a):
+    """Judge the gold nuggets against each context (first-evaluation note §4.3; ``assign_ctx_v1``)."""
+    set_name, nugs = scoring_set(a.set)
+    qs = scoring_questions(a.sample)
+    jobs = []
+    for cd in expand_dirs(a.contexts, "contexts.jsonl.gz"):
+        rel_ctx = cd.relative_to(REPO / "runs" / "contexts")
+        d = Path(a.out) / "ctxsupport" / set_name / a.judge / rel_ctx
+        jobs.append((d, scoring.context_items(cd, set(qs))))
+        if not a.dry_run:
+            write_manifest(d, kind="ctxsupport", contexts=str(cd.relative_to(REPO)), nugget_set=set_name,
+                           judge=a.judge, registry=model_cfg(a.judge), sample=a.sample, assign_prompt=a.prompt)
+    judge_items(a, "ctxsupport", jobs, nugs, qs, a.prompt)
+
+
+def cmd_scoretable(a):
+    """Per-question scores, run means and paired comparisons of every scored run (no LLM)."""
+    import pandas as pd
+    out = Path(a.out)
+    set_name, nugs = scoring_set(a.set)
+    base = out / "score" / set_name / a.judge
+    frames = []
+    for lp in sorted(base.glob("**/labels.jsonl")):
+        man = json.loads((lp.parent / "manifest.json").read_text())
+        run = json.loads((REPO / man["run"] / "run.json").read_text())
+        ans = {x["question_number"]: x for x in jl_read(REPO / man["run"] / "answers.jsonl")}
+        pq = scoring.per_question(lp, nugs, {"run_id": man["run_id"], "llm": run["llm"]["name"],
+                                              "prompt": run["prompt"]["name"], "context_id": man["run_id"].split("/")[-1]})
+        pq["answer_chars"] = [len(ans[q].get("answer") or "") for q in pq.question_number]
+        frames.append(pq)
+    pq = pd.concat(frames, ignore_index=True)
+    sample = set(scoring_questions(a.sample)) if a.sample != "all" else None
+    if sample:
+        pq = pq[pq.question_number.isin(sample)]
+    d = out / "tables" / set_name / a.judge / a.sample
+    d.mkdir(parents=True, exist_ok=True)
+    pq.to_csv(d / "per_question.csv.gz", index=False)
+    runs = pq.groupby(["llm", "context_id"]).agg(
+        n=("question_number", "size"), **{m: (m, "mean") for m in scoring.METRICS},
+        abstained=("source", lambda s: (s == "abstained").mean()), errors=("source", lambda s: (s == "error").sum()),
+        answer_chars=("answer_chars", "mean")).reset_index()
+    runs.to_csv(d / "runs.csv", index=False, float_format="%.4f")
+    pairs = [p for p in scoring.PAIRS if {p[0], p[1]} <= set(pq.context_id)]
+    cmp = pd.concat([scoring.compare(pq, x, y, ["llm"], a.resamples) for x, y in pairs], ignore_index=True)
+    cmp.to_csv(d / "comparisons.csv", index=False, float_format="%.4f")
+    ctx = out / "ctxsupport" / set_name / a.judge
+    cframes = [scoring.per_question(lp, nugs, {"contexts": str(lp.parent.relative_to(ctx)),
+                                              "context_id": lp.parent.name})
+               for lp in sorted(ctx.glob("**/labels.jsonl"))]
+    if cframes:
+        cq = pd.concat(cframes, ignore_index=True)
+        if sample:
+            cq = cq[cq.question_number.isin(sample)]
+        cq.to_csv(d / "ctxsupport_per_question.csv.gz", index=False)
+        cq.groupby("context_id").agg(n=("question_number", "size"), **{m: (m, "mean") for m in scoring.METRICS}) \
+            .reset_index().to_csv(d / "ctxsupport_runs.csv", index=False, float_format="%.4f")
+    pd.set_option("display.width", 200)
+    print(runs.to_string(index=False, float_format="%.3f"))
+    print(cmp[cmp.metric == "V_strict"].drop(columns="metric").to_string(index=False, float_format="%.3f"))
+    print("tables:", d)
+
+
 def cmd_report(a):
     out = Path(a.out)
     path = report.build(out, questions(out, a.sample), load_registry(HERE / "models.yaml"),
@@ -823,6 +996,26 @@ def main():
     p.add_argument("--name", default=None, help="judge: output folder <judge>.<name> (e.g. a subset run)")
     p.add_argument("--prompt", default="assign_v2")
     p.set_defaults(fn=cmd_known)
+    p = sp.add_parser("score", help="phase 5: judge RAG answers against a nugget set (plan v2 §5.2)")
+    p.add_argument("--runs", nargs="+", required=True,
+                   help="answer run dirs or globs relative to the repo (runs/answers/<run_id>)")
+    p.add_argument("--set", default="gold", help="'gold' (nuggets/gold/v0-auto) or a set of nuggets/full/create")
+    p.add_argument("--judge", default="gemini-3.8-flash")
+    p.add_argument("--prompt", default="assign_v2")
+    p.add_argument("--dry-run", action="store_true", help="count the uncached judge calls and estimate the cost")
+    p.set_defaults(fn=cmd_score)
+    p = sp.add_parser("ctxsupport", help="phase 5: judge the nuggets against the contexts themselves")
+    p.add_argument("--contexts", nargs="+", required=True, help="context set dirs or globs (runs/contexts/…)")
+    p.add_argument("--set", default="gold")
+    p.add_argument("--judge", default="gemini-3.8-flash")
+    p.add_argument("--prompt", default="assign_ctx_v1")
+    p.add_argument("--dry-run", action="store_true")
+    p.set_defaults(fn=cmd_ctxsupport)
+    p = sp.add_parser("scoretable", help="phase 5: per-question scores, run means, paired comparisons (no LLM)")
+    p.add_argument("--set", default="gold")
+    p.add_argument("--judge", default="gemini-3.8-flash")
+    p.add_argument("--resamples", type=int, default=10_000)
+    p.set_defaults(fn=cmd_scoretable)
     sp.add_parser("report").set_defaults(fn=cmd_report)
     p = sp.add_parser("pilotreport", help="report_pilot.md (stratified_30) or report_full.md (other samples)")
     p.add_argument("--primary", default="gpt-6.1-sol", help="primary set of the alignments")
