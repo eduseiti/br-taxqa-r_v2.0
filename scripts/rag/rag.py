@@ -39,7 +39,7 @@ from ragpipe.generation import GenConfig, load_answers, load_experiment, run_gen
 from ragpipe.relevance import ANNEX_RULES  # noqa: E402
 from ragpipe.report import comparison_table, write_report  # noqa: E402
 from ragpipe.retrieval import RetrievalConfig, run_retrieval  # noqa: E402
-from ragpipe.runs import RunError, rel, sha256_file, write_csv  # noqa: E402
+from ragpipe.runs import REPO, RunError, read_json, rel, sha256_file, write_csv  # noqa: E402
 
 log = logging.getLogger("ragpipe")
 
@@ -206,12 +206,24 @@ def cmd_run(args: argparse.Namespace) -> int:
 
 
 def cmd_show_answers(args: argparse.Namespace) -> int:
-    lines = {ln["question_number"]: ln for ln in load_answers(Path(args.run))}
+    run = Path(args.run)
+    lines = {ln["question_number"]: ln for ln in load_answers(run)}
+    ctx_dir = (REPO / read_json(run / "run.json")["context"]["path"]).parent
+    contexts = {c["question_number"]: c for c in load_contexts(ctx_dir)}
     for q in str_list(args.questions):
         ln = lines.get(q)
         if ln is None:
             raise InputError(f"question {q} not in {args.run}")
         print(f"## {ln['run_id']} — question {q} ({ln['status']})")
+        c = contexts[q]
+        cov = "; ".join(f"{lv} {len(g['full'])}/{g['n']}" for lv, g in c["gold"].items() if g["n"]) or "no gold"
+        print(f"context {c['context_id']}: {c['n_texts']} texts, {c['rendered_tokens_qwen3']} rendered tokens; "
+              f"gold in context: {cov}" + (f"; donor question {c['donor_question']}" if "donor_question" in c else ""))
+        for it in c["items"]:
+            print(f"  [Documento {it['n']}] {it['fonte']}")
+        if args.context and c["context"]:
+            print("\n" + c["context"])
+        print()
         if ln["status"] != "ok":
             print(ln.get("error") or ln.get("reason"), "\n")
             continue
@@ -375,6 +387,7 @@ def build_parser() -> argparse.ArgumentParser:
                                       "runs/answers/jua-4b-mixed/irpf/answer_v1/sabia-4/S2_budget4000 --questions 350"))
     sp.add_argument("--run", required=True, help="answer run directory")
     sp.add_argument("--questions", required=True, help="comma list of question numbers")
+    sp.add_argument("--context", action="store_true", help="also print the full context text given to the generator")
     sp.set_defaults(func=cmd_show_answers)
     return p
 

@@ -192,6 +192,17 @@ $22 for 7 runs), mostly from the longer output (quotes) and the flex discount be
 7. **`context_v1` vs `context_v2`** (S2 4k, same texts): abstention and grounding are similar (Luna abstains more
    with v1: 0.23 vs 0.17); the input is 14 % shorter with v2. The answer-score comparison needs phase 5.
 8. **Answer length grows with the budget** (§4.3); report it with every score.
+9. **Negative-inference questions in the oracle (user review, 2026-10-23).** Q350 (sogro/sogra as dependents; oracle
+   = Lei 9.250 art. 35 only) and Q705 (compensation of tax withheld on financial investments; oracle = IN RFB 1.585
+   art. 70, whose inciso II makes it "definitivo, no caso de pessoa física") have their gold fully in the oracle 4k
+   context (1 and 2 texts, 736 and 1,342 tokens). The answers that read as "no context" were **abstentions**, not a
+   pipeline error (`show-answers` did not print the context; it now does, with `--context` for the full text).
+   Terra and Sabiazinho-4 answer both correctly ("Não"); Luna abstains on both; Sabiá-4 abstains on Q350 (it answered
+   on S2 4k, whose context also holds the IN 1.500 and RIR/2018 lists) and answers Q705 with a **self-contradicting
+   verdict** ("Sim, … é definitivo … não havendo previsão de compensação") — the verdict-flip case the Flash judge
+   detects (96 % in the known-answer tests). Rule 6 of `answer_v1` reduced but did not remove abstention on answers
+   that must be inferred from an exhaustive list or a definitive regime. Q440's oracle is empty because the question
+   has no reference at all (its answer points to questions 229 and 439): correctly skipped.
 
 ## 7. Next
 
