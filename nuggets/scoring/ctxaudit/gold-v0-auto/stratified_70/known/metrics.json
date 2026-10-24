@@ -1,0 +1,97 @@
+{
+ "G": {
+  "tests": 70,
+  "targets": 0,
+  "sensitivity": null,
+  "contradicts_rate": null,
+  "nontargets": 348,
+  "specificity": 0.9798850574712644,
+  "v_strict": 0.9428571428571428
+ },
+ "N": {
+  "tests": 14,
+  "targets": 9,
+  "sensitivity": 0.8888888888888888,
+  "contradicts_rate": 0.8888888888888888,
+  "nontargets": 16,
+  "specificity": 1.0,
+  "v_strict": 0.6547619047619048
+ },
+ "W": {
+  "tests": 70,
+  "targets": 348,
+  "sensitivity": 0.9942528735632183,
+  "contradicts_rate": 0.02586206896551724,
+  "nontargets": 0,
+  "specificity": null,
+  "v_strict": 0.008333333333333333
+ },
+ "E": {
+  "tests": 70,
+  "targets": 348,
+  "sensitivity": 1.0,
+  "contradicts_rate": 0.0,
+  "nontargets": 0,
+  "specificity": null,
+  "v_strict": 0.0
+ },
+ "Y": {
+  "tests": 14,
+  "targets": 15,
+  "sensitivity": 1.0,
+  "contradicts_rate": 0.5333333333333333,
+  "nontargets": 164,
+  "specificity": 0.9817073170731707,
+  "v_strict": 0.7421245421245422
+ },
+ "D": {
+  "tests": 44,
+  "targets": 50,
+  "sensitivity": 0.94,
+  "contradicts_rate": 0.0,
+  "nontargets": 242,
+  "specificity": 0.9752066115702479,
+  "v_strict": 0.5840201465201466
+ },
+ "C": {
+  "tests": 25,
+  "targets": 25,
+  "sensitivity": 0.8,
+  "contradicts_rate": 0.0,
+  "nontargets": 173,
+  "specificity": 0.9884393063583815,
+  "v_strict": 0.6816190476190476
+ },
+ "V": {
+  "tests": 14,
+  "targets": 27,
+  "sensitivity": 1.0,
+  "contradicts_rate": 1.0,
+  "nontargets": 145,
+  "specificity": 1.0,
+  "v_strict": 0.5262820512820513
+ },
+ "VP": {
+  "tests": 3,
+  "targets": 4,
+  "sensitivity": 1.0,
+  "contradicts_rate": 1.0,
+  "nontargets": 48,
+  "specificity": 1.0,
+  "v_strict": 0.8632478632478633
+ },
+ "_pooled": {
+  "sensitivity": 0.986682808716707,
+  "specificity": 0.9841549295774648,
+  "balanced_accuracy": 0.9854188691470859,
+  "contradicts_precision": 0.8245614035087719,
+  "contradicts_labels": 57
+ },
+ "L": {
+  "tests": 60,
+  "support": 0.65,
+  "partial_support": 0.2833333333333333,
+  "not_support": 0.06666666666666667,
+  "contradicts": 0.0
+ }
+}

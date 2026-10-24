@@ -119,3 +119,13 @@ def strict_schema(model: type[BaseModel]) -> dict:
         return node
 
     return walk(raw)
+
+
+Cause = Literal["judge_error", "other_provision", "corpus_gap", "pgd_practical", "interpretation",
+                "not_in_legislation", "nugget_problem"]
+
+
+class CauseLabel(_Strict):
+    evidence: str
+    cause: Cause
+    confidence: Literal["high", "medium", "low"]

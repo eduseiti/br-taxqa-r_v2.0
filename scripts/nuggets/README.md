@@ -139,6 +139,7 @@ $P $N $S score --runs "$A/answer_v1/sabia-4/S[12]_budget4000" --judge gemini-3.1
 $P $N $S ctxsupport --contexts $C/S1_budget4000 $C/S2_budget4000                      # nuggets vs the context
 $P $N --out nuggets/scoring --sample all scoretable [--set <set>]   # free: tables/<set>/<judge>/<sample>/
 $P $N --out nuggets/scoring --sample all analyze                    # free, ≈ 8 min: analysis/<set>/<judge>/<sample>/
+$P $N --out nuggets/scoring --sample stratified_70 --budget <cap> ctxaudit known|corpus|classify  # note §10
 ```
 
 - `--runs` and `--contexts` take run / context folders or globs relative to the repository root. `--set gold` (the
@@ -213,6 +214,7 @@ calls are cached, so rerunning the same command after the reset resumes where it
 | `create_v3` | superseded | R2 "follow the answer's structure"; passed both acceptance checks (execution note §8–§9) |
 | **`create_v4`** | **current; pilot passed** | `create_v3` + pointer rule: a sentence that only delegates to another question gives no nugget (execution note §13; pilot note §2) |
 | `assign_v1` | superseded | penalized the implicit P&R period (R8) |
+| `ctxaudit_classify_v1` | current | cause of an unsupported nugget (phase 5 note §10) |
 | **`assign_ctx_v1`** | **current** | phase 5 context support: nuggets against the retrieved legal texts; PGD instructions not in the texts and another period's value are `not_support` |
 | **`assign_v2`** | **current** | implicit period: a missing exercício 2024 / ano-calendário 2023 is not a defect; another year is `contradicts` |
 | `importance_v1` | tested, not adopted | 2-call mode: importance in a second call (pilot note §4) |

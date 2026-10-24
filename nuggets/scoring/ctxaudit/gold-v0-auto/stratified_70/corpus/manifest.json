@@ -1,0 +1,10 @@
+{
+ "nugget_set": "gold-v0-auto",
+ "judge": "gemini-3.8-flash",
+ "sample": "stratified_70",
+ "oracle": "oracle_budget16000",
+ "search": "TF-IDF (1-2 grams, sklearn) on the nugget text over S1 texts, revoked documents excluded, cited articles skipped, 4 texts per nugget, 6,000 tokens; plus the question's S2_budget4000 retrieval outside the cited articles, 3,000 tokens",
+ "assign_prompt": "assign_ctx_v1",
+ "route": "openrouter",
+ "assign_prompt_sha256": "d8643c61913f310860689e0681a038551492ec5098d570b9dc34dce9b2fd8b16"
+}

@@ -1,0 +1,9 @@
+{
+ "nugget_set": "gold-v0-auto",
+ "judge": "gemini-3.8-flash",
+ "sample": "stratified_70",
+ "oracle": "oracle_budget16000",
+ "assign_prompt": "assign_ctx_v1",
+ "route": "openrouter",
+ "assign_prompt_sha256": "d8643c61913f310860689e0681a038551492ec5098d570b9dc34dce9b2fd8b16"
+}

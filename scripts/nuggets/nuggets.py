@@ -1006,6 +1006,135 @@ def cmd_analyze(a):
     print("analysis:", d)
 
 
+def cmd_ctxaudit(a):
+    """Audit of the context-support result (phase 5 note §10): known-answer and needle tests of the context judge,
+    corpus search for the nuggets the oracle does not support, and their classification by cause."""
+    from nuggetizer import ctx_audit as ca
+    from nuggetizer import known_answer as ka
+    out = Path(a.out)
+    set_name, nugs = scoring_set(a.set)
+    qs = scoring_questions(a.sample)
+    d = out / "ctxaudit" / set_name / a.sample
+    ctx_dir = REPO / "runs" / "contexts" / "jua-4b-mixed" / "irpf" / a.oracle
+    ctx = {x["question_number"]: x for x in scoring.jl(ctx_dir / "contexts.jsonl.gz") if x["question_number"] in qs}
+    olab = [x for x in jl_read(out / "ctxsupport" / set_name / a.judge / "jua-4b-mixed" / "irpf" / a.oracle /
+                               "labels.jsonl") if x["question_number"] in qs]
+    by_id = {n["nugget_id"]: n for ns in nugs.values() for n in ns}
+    sch = schema.strict_schema(schema.AssignmentList)
+
+    if a.action == "known":
+        tests = [t for t in jl_read(FULL / "known" / "gpt-6.1-sol.rep2" / "tests.jsonl") if t["question_number"] in qs]
+        tests += ca.needle_tests(ctx, olab, nugs)
+        system = prompt("assign_ctx_v1").read_text()
+        m = llm(a.judge, out, a.budget)
+
+        def one(t):
+            q, qn = qs[t["question_number"]], nugs[t["question_number"]]
+            r = m.complete_json(system, assign_user(q, t["answer"], qn), sch, "assignments",
+                                validate=check_cover("nugget", len(qn)), tag=f"ctxknown:{t['test_id']}")
+            by = {x["nugget"]: x for x in r.data["assignments"]}
+            return [{"test_id": t["test_id"], "nugget_id": n["nugget_id"], "label": by[i]["label"],
+                     "justification": by[i]["justification"]} for i, n in enumerate(qn, 1)]
+
+        res = run_all(tests, one, a.workers)
+        jl_write(d / "known" / "tests.jsonl", tests)
+        jl_write(d / "known" / "labels.jsonl", [x for rows in res for x in rows])
+        write_manifest(d / "known", nugget_set=set_name, judge=a.judge, sample=a.sample, oracle=a.oracle,
+                       assign_prompt="assign_ctx_v1")
+        labels = {}
+        for x in jl_read(d / "known" / "labels.jsonl"):
+            labels.setdefault(x["test_id"], {})[x["nugget_id"]] = x["label"]
+        met = ka.metrics([t for t in tests if t["type"] != "L"], labels, by_id)
+        lt = [labels[t["test_id"]][t["targets"][0]] for t in tests if t["type"] == "L"]
+        met["L"] = {"tests": len(lt), **{k: lt.count(k) / len(lt) for k in scoring.LABELS}} if lt else {}
+        (d / "known" / "metrics.json").write_text(json.dumps(met, indent=1))
+        print(json.dumps(met, indent=1))
+        return
+
+    if a.action == "corpus":
+        cs = ca.CorpusSearch()
+        dense = {x["question_number"]: x for x in scoring.jl(ctx_dir.parent / "S2_budget4000" / "contexts.jsonl.gz")}
+        system = prompt("assign_ctx_v1").read_text()
+        m = llm(a.judge, out, a.budget)
+        jobs = []
+        for x in olab:
+            miss = [by_id[y["nugget_id"]] for y in x["labels"]
+                    if y["label"] == "not_support" and by_id[y["nugget_id"]]["importance"] == "vital"]
+            if not miss:
+                continue
+            q = x["question_number"]
+            skip = {cs.article_of_chunk(c) for it in ctx[q]["items"] for c in [it["chunk_id"], *it["alias_chunk_ids"]]}
+            rows = cs.search([n["text"] for n in miss], skip)
+            # plus the dense S2 retrieval of the question (corpus-wide), outside the cited articles: ≤ 3,000 tokens
+            tok = 0
+            for it in dense[q]["items"]:
+                r = cs.row_of(it["chunk_id"])
+                t = int(cs.ch.at[r, "n_tokens_qwen3"])
+                if cs.article_of_chunk(it["chunk_id"]) in skip or r in rows or tok + t > 3000:
+                    continue
+                rows.append(r)
+                tok += t
+            text, desc = cs.render(rows)
+            jobs.append((q, miss, text, desc))
+
+        def one(job):
+            q, miss, text, desc = job
+            r = m.complete_json(system, assign_user(qs[q], text, miss), sch, "assignments",
+                                validate=check_cover("nugget", len(miss)), tag=f"ctxcorpus:{q}")
+            by = {x["nugget"]: x for x in r.data["assignments"]}
+            return [{"question_number": q, "nugget_id": n["nugget_id"], "label": by[i]["label"],
+                     "justification": by[i]["justification"],
+                     "cited": [desc[k - 1]["fonte"] for k in ca.cited_docs(by[i]["justification"]) if 0 < k <= len(desc)],
+                     "context_texts": [dd["fonte"] for dd in desc]} for i, n in enumerate(miss, 1)]
+
+        res = run_all(jobs, one, a.workers)
+        jl_write(d / "corpus" / "contexts.jsonl", [{"question_number": q, "nuggets": [n["nugget_id"] for n in miss],
+                                                    "context": text} for q, miss, text, _ in jobs])
+        jl_write(d / "corpus" / "labels.jsonl", [x for rows in res for x in rows])
+        write_manifest(d / "corpus", nugget_set=set_name, judge=a.judge, sample=a.sample, oracle=a.oracle,
+                       search="TF-IDF (1-2 grams, sklearn) on the nugget text over S1 texts, revoked documents "
+                              "excluded, cited articles skipped, 4 texts per nugget, 6,000 tokens; plus the "
+                              "question's S2_budget4000 retrieval outside the cited articles, 3,000 tokens",
+                       assign_prompt="assign_ctx_v1")
+        lab = [x["label"] for rows in res for x in rows]
+        print(f"{len(jobs)} questions, {len(lab)} nuggets:", dict(Counter(lab)))
+        return
+
+    if a.action == "classify":
+        second = {}
+        p2 = out / "ctxsupport" / set_name / a.second_judge / "jua-4b-mixed" / "irpf" / a.oracle / "labels.jsonl"
+        for x in (jl_read(p2) if p2.exists() else []):
+            for y in x["labels"]:
+                second[y["nugget_id"]] = y
+        corpus = {x["nugget_id"]: x for x in jl_read(d / "corpus" / "labels.jsonl")}
+        cctx = {x["question_number"]: x["context"] for x in jl_read(d / "corpus" / "contexts.jsonl")}
+        system = prompt("ctxaudit_classify_v1").read_text()
+        csch = schema.strict_schema(schema.CauseLabel)
+        m = llm(a.classifier, out, a.budget)
+        items = [(x["question_number"], y) for x in olab for y in x["labels"] if y["nugget_id"] in corpus]
+
+        def one(it):
+            q, y = it
+            n, c, s = by_id[y["nugget_id"]], corpus[y["nugget_id"]], second.get(y["nugget_id"])
+            refs = "\n".join(f"- {r}" for r in ca.references(q)) or "- (nenhuma)"
+            user = (f"Pergunta: {qs[q]['question_text']}\n\nResposta oficial:\n<<<\n{qs[q]['answer_cleaned'].strip()}\n>>>"
+                    f"\n\nReferências citadas pela resposta oficial:\n{refs}\n\nNugget: {n['text']}"
+                    f"\n\nContexto A (dispositivos citados):\n<<<\n{ctx[q]['context'].strip()}\n>>>"
+                    f"\n\nAvaliador 1 sobre o Contexto A: {y['label']} — {y['justification']}"
+                    + (f"\nAvaliador 2 sobre o Contexto A: {s['label']} — {s['justification']}" if s else "")
+                    + f"\n\nContexto B (busca no corpus):\n<<<\n{cctx[q].strip()}\n>>>"
+                    f"\n\nAvaliador 1 sobre o Contexto B: {c['label']} — {c['justification']}")
+            r = m.complete_json(system, user, csch, "cause", tag=f"ctxclassify:{y['nugget_id']}")
+            return {"question_number": q, "nugget_id": y["nugget_id"], **r.data}
+
+        res = run_all(items, one, a.workers)
+        jl_write(d / "classify" / "labels.jsonl", res)
+        write_manifest(d / "classify", nugget_set=set_name, classifier=a.classifier, sample=a.sample, oracle=a.oracle,
+                       classify_prompt="ctxaudit_classify_v1")
+        print(dict(Counter(x["cause"] for x in res)))
+        return
+
+
 def cmd_report(a):
     out = Path(a.out)
     path = report.build(out, questions(out, a.sample), load_registry(HERE / "models.yaml"),
@@ -1169,6 +1298,14 @@ def main():
     p.add_argument("--resamples", type=int, default=10_000)
     p.add_argument("--reps", type=int, default=1000, help="perturbation replicates per setting")
     p.set_defaults(fn=cmd_analyze)
+    p = sp.add_parser("ctxaudit", help="phase 5: audit of the oracle context-support result (note §10)")
+    p.add_argument("action", choices=["known", "corpus", "classify"])
+    p.add_argument("--set", default="gold")
+    p.add_argument("--judge", default="gemini-3.8-flash")
+    p.add_argument("--second-judge", default="gemini-3.1-pro")
+    p.add_argument("--classifier", default="gemini-3.1-pro")
+    p.add_argument("--oracle", default="oracle_budget16000", help="context set of runs/contexts/jua-4b-mixed/irpf")
+    p.set_defaults(fn=cmd_ctxaudit)
     sp.add_parser("report").set_defaults(fn=cmd_report)
     p = sp.add_parser("pilotreport", help="report_pilot.md (stratified_30) or report_full.md (other samples)")
     p.add_argument("--primary", default="gpt-6.1-sol", help="primary set of the alignments")

@@ -1,0 +1,9 @@
+{
+ "nugget_set": "gold-v0-auto",
+ "classifier": "gemini-3.1-pro",
+ "sample": "stratified_70",
+ "oracle": "oracle_budget16000",
+ "classify_prompt": "ctxaudit_classify_v1",
+ "route": "openrouter",
+ "classify_prompt_sha256": "04451aa05f38e3e8ade9d8c6c2bb38fc07508775bdae4a5e082ad8b7bbb5cd3e"
+}
