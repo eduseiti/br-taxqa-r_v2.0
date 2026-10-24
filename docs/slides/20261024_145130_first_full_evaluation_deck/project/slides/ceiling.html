@@ -1,0 +1,28 @@
+<section id="ceiling" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Result 5 · why the gain is small</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">Two limits that segmentation does not touch</h2>
+</div>
+<p style="font-size:24px;line-height:1.45;color:#4A5363">Method: the same judge labels the gold nuggets against the <b style="color:#1C2433">context</b> instead of the answer. This splits answer recall into what the context holds and what the generator uses.</p>
+<div style="display:flex;gap:40px">
+<div style="flex:1;display:flex;flex-direction:column;gap:14px;background:#FFFDF8;padding:32px;border:1px solid #DDD8CC;border-radius:12px">
+<p style="font-size:24px;font-weight:600;color:#2E62A8">Limit 1 · what the context holds</p>
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.05">0.48</p>
+<p style="font-size:24px;line-height:1.4;color:#4A5363">of vital nuggets fully supported by the <b style="color:#1C2433">oracle</b> context (S1 0.40, S2 0.41). S2 adds only +0.014 of content.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:14px;background:#FFFDF8;padding:32px;border:1px solid #DDD8CC;border-radius:12px">
+<p style="font-size:24px;font-weight:600;color:#2E62A8">Limit 2 · what the generator uses</p>
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.05">48–65 %</p>
+<p style="font-size:24px;line-height:1.4;color:#4A5363">of the context-supported vital nuggets appear in the answer. Higher on S2 than S1 for three of four generators.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:14px;background:#FFFDF8;padding:32px;border:1px solid #DDD8CC;border-radius:12px">
+<p style="font-size:24px;font-weight:600;color:#2E62A8">Check · leakage</p>
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.05">2–6 %</p>
+<p style="font-size:24px;line-height:1.4;color:#4A5363">of answer support is for nuggets the context does not support: RAG answers come from the context.</p>
+</div>
+</div>
+<p style="font-size:24px;line-height:1.45;color:#4A5363"><b style="color:#1C2433">Answer follows context.</b> Answer V_strict is 0.07–0.13 when the context supports no vital nugget, 0.26–0.34 when it supports some, 0.54–0.72 when it supports all (Spearman 0.53–0.67 per question).</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Results · context support with prompt assign_ctx_v1; oracle = cited articles cut to 4k tokens (80 % of gold articles fit)</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">18</p>
+<aside>To understand the small effect we scored the contexts themselves: the judge checks each gold nugget against the context. Two limits appear. First, even the oracle context, the cited articles, fully supports fewer than half the vital nuggets at 4k; S2’s retrieval gain translates into very little extra content. Second, generators state only about half to two thirds of what their context supports. Leakage is low, so the RAG answers really do come from the context. And answer quality tracks context quality closely. The first limit raised an obvious question from a reviewer’s point of view: is that 48 percent an artefact of our oracle, our corpus or the context judge? The robustness section tests exactly that.</aside>
+</section>

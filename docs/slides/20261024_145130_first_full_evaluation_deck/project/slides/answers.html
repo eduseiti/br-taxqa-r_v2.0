@@ -1,0 +1,21 @@
+<section id="answers" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Result 2 · answer quality</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">S2 scores above S1 for every generator, and close to the oracle</h2>
+</div>
+<table style="font-size:28px;width:1664px;color:#1C2433;font-variant-numeric:tabular-nums">
+<tr style="background:#ECE8DF"><th style="width:22%">V_strict, 715 questions</th><th style="width:13%;text-align:right">Closed book</th><th style="width:12%;text-align:right">S1 4k</th><th style="width:12%;text-align:right">S2 4k</th><th style="width:27%;text-align:right">S3 / S2c / S4 4k</th><th style="width:14%;text-align:right">Oracle 4k</th></tr>
+<tr><td>GPT-5.6 Terra</td><td style="text-align:right"><b>0.351</b></td><td style="text-align:right">0.325</td><td style="text-align:right">0.341</td><td style="text-align:right">not run</td><td style="text-align:right">0.368</td></tr>
+<tr><td>Sabiá-4</td><td style="text-align:right">0.239</td><td style="text-align:right">0.290</td><td style="text-align:right"><b>0.317</b></td><td style="text-align:right">0.315 / 0.305 / 0.307</td><td style="text-align:right">0.319</td></tr>
+<tr><td>GPT-5.6 Luna</td><td style="text-align:right">0.259</td><td style="text-align:right">0.271</td><td style="text-align:right"><b>0.299</b></td><td style="text-align:right">0.300 / 0.314 / 0.304</td><td style="text-align:right">0.338</td></tr>
+<tr><td>Sabiazinho-4</td><td style="text-align:right">0.177</td><td style="text-align:right">0.267</td><td style="text-align:right">0.272</td><td style="text-align:right">0.277 / 0.286 / 0.287</td><td style="text-align:right">0.293</td></tr>
+</table>
+<div style="display:flex;gap:40px">
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;border-top:2px solid #1C2433;padding:16px 0 0 0"><h3 style="font-size:28px;font-weight:600">Low absolute recall</h3><p style="font-size:24px;line-height:1.4;color:#4A5363">Even the oracle reaches only 0.29–0.37. The ceiling is examined later.</p></div>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;border-top:2px solid #1C2433;padding:16px 0 0 0"><h3 style="font-size:28px;font-weight:600">S2 closes most of the gap</h3><p style="font-size:24px;line-height:1.4;color:#4A5363">For Sabiá-4, S2 is within 0.002 of the oracle.</p></div>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;border-top:2px solid #1C2433;padding:16px 0 0 0"><h3 style="font-size:28px;font-weight:600">Wrong context = 0</h3><p style="font-size:24px;line-height:1.4;color:#4A5363">All four generators; answers come from the context, as instructed.</p></div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Results · oracle on the 596 questions with a gold provision · judge Gemini 3.8 Flash, primary nugget set</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">14</p>
+<aside>The full table of the headline metric. Read across a row: closed book, then the two main strategies, the variants, and the oracle. S2 is above S1 for all four generators. Absolute values are low, around a third of vital nuggets fully stated, and even the oracle context does not lift them much; we come back to why. The wrong-context control scores zero for every generator, so the generators follow the instruction to answer from the given provisions. Terra is the exception in one respect: its closed-book score is as high as its RAG scores, which we discuss on the controls slide.</aside>
+</section>

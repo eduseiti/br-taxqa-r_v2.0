@@ -1,0 +1,27 @@
+<section id="decomposition" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Result 5 · mechanism</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">S2 helps the generator use the facts it already has</h2>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;color:#4A5363">552 questions, by how context support changes from S1 to S2</p>
+<div style="display:flex;gap:4px">
+<div style="width:1434px;height:72px;background:#2E62A8;border-radius:6px 0 0 6px"></div>
+<div style="width:140px;height:72px;background:#7FA6D8"></div>
+<div style="width:82px;height:72px;background:#B85F22;border-radius:0 6px 6px 0"></div>
+</div>
+<div style="display:flex;gap:40px">
+<p style="flex:1;font-size:24px;line-height:1.4"><b>479 unchanged</b> · <span style="color:#4A5363">carry most of the answer gain</span></p>
+<p style="width:330px;font-size:24px;line-height:1.4"><b>47 improved</b> · <span style="color:#4A5363">answers +0.04 to +0.13</span></p>
+<p style="width:330px;font-size:24px;line-height:1.4"><b>26 worsened</b> · <span style="color:#4A5363">−0.05 to −0.11</span></p>
+</div>
+</div>
+<div style="display:flex;gap:40px">
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;border-top:2px solid #1C2433;padding:16px 0 0 0"><h3 style="font-size:28px;font-weight:600">Same facts, better answers</h3><p style="font-size:24px;line-height:1.4;color:#4A5363">In the unchanged group: Luna +0.024 of its +0.025; Sabiá-4 +0.009 of +0.016.</p></div>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;border-top:2px solid #1C2433;padding:16px 0 0 0"><h3 style="font-size:28px;font-weight:600">More gold, more focused</h3><p style="font-size:24px;line-height:1.4;color:#4A5363">There S2 still brings +0.094 article recall: the right provisions, in smaller chunks.</p></div>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;border-top:2px solid #1C2433;padding:16px 0 0 0"><h3 style="font-size:28px;font-weight:600">Carried into citations</h3><p style="font-size:24px;line-height:1.4;color:#4A5363">S2 raises the recall of cited gold articles by 0.05–0.09 for every generator.</p></div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Results · questions with gold and both context-support scores · cited texts scored with the retrieval matcher</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">19</p>
+<aside>This decomposition is the mechanism result. Of 552 questions, the set of nuggets the context supports changes from S1 to S2 in only 73. Where it improves, answers improve; where it worsens, they get worse, as expected. But most of the overall S2 gain comes from the 479 questions where the context supports the same nuggets under both strategies. So S2 does not mainly bring new facts; it presents them in a form the generator uses better: smaller, focused units, and more of the cited provisions. The citation analysis agrees: answers cite more of the gold articles under S2. This also explains why the effect is bounded: segmentation changes form, not the content ceiling.</aside>
+</section>

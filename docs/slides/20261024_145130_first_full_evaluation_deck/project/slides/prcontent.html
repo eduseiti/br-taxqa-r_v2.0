@@ -1,0 +1,29 @@
+<section id="prcontent" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:36px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Robustness 4 · what the official answers rest on</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">About one vital fact in six is not stated in any legal text of the corpus</h2>
+</div>
+<div style="display:flex;gap:56px">
+<div style="width:1100px;display:flex;flex-direction:column;gap:14px">
+<p style="font-size:24px;color:#4A5363">212 vital nuggets, oracle 16k · cause of non-support: corpus search, then classifier, then review</p>
+<div style="display:flex;gap:20px;align-items:center"><p style="width:380px;font-size:24px;text-align:right">Supported by the cited law</p><div style="width:600px;height:30px;background:#2E62A8;border-radius:0 4px 4px 0"></div><p style="font-size:24px">50.5 %</p></div>
+<div style="display:flex;gap:20px;align-items:center"><p style="width:380px;font-size:24px;text-align:right">Partly supported</p><div style="width:247px;height:30px;background:#7FA6D8;border-radius:0 4px 4px 0"></div><p style="font-size:24px">20.8 %</p></div>
+<div style="display:flex;gap:20px;align-items:center"><p style="width:380px;font-size:24px;text-align:right">Cited, cut from our oracle</p><div style="width:68px;height:30px;background:#9AA3B2;border-radius:0 4px 4px 0"></div><p style="font-size:24px">5.7 %</p></div>
+<div style="display:flex;gap:20px;align-items:center"><p style="width:380px;font-size:24px;text-align:right">In another, uncited text</p><div style="width:84px;height:30px;background:#B85F22;border-radius:0 4px 4px 0"></div><p style="font-size:24px">7.1 %</p></div>
+<div style="display:flex;gap:20px;align-items:center"><p style="width:380px;font-size:24px;text-align:right;font-weight:600">Receita’s interpretation</p><div style="width:112px;height:30px;background:#8A4516;border-radius:0 4px 4px 0"></div><p style="font-size:24px">9.4 %</p></div>
+<div style="display:flex;gap:20px;align-items:center"><p style="width:380px;font-size:24px;text-align:right;font-weight:600">Tax-software instructions</p><div style="width:45px;height:30px;background:#8A4516;border-radius:0 4px 4px 0"></div><p style="font-size:24px">3.8 %</p></div>
+<div style="display:flex;gap:20px;align-items:center"><p style="width:380px;font-size:24px;text-align:right;font-weight:600">No basis in the corpus</p><div style="width:29px;height:30px;background:#8A4516;border-radius:0 4px 4px 0"></div><p style="font-size:24px">2.4 %</p></div>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:24px">
+<div style="display:flex;flex-direction:column;gap:4px;border-left:4px solid #8A4516;padding:0 0 0 20px">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.05">15.6 %</p>
+<p style="font-size:24px;line-height:1.4;color:#4A5363">beyond any legal text (CI 8.2–25.7 %, 20 of 57 questions)</p>
+</div>
+<p style="font-size:24px;line-height:1.45;color:#4A5363">E.g. Q350: a parent-in-law is a dependant only in a joint return; the law lists only “parents”.</p>
+<p style="font-size:24px;line-height:1.45;color:#4A5363">The low ceiling is mostly the Q&amp;A going beyond its citations, not the judge.</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Robustness · 57 questions, CI = question-cluster bootstrap · classifier Gemini 3.1 Pro, 17 of 60 causes changed on review</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">25</p>
+<aside>For the 60 unsupported vital nuggets we searched the whole corpus, lexically and densely, outside the cited articles, and had a strong model classify the cause with all the evidence; every classification was then re-checked against that evidence and 17 were changed. About half of the vital facts are fully stated by the cited law and a fifth in part. A small share was our own oracle construction. About one in fourteen is stated in legislation the answer does not cite. And about one in six is not in any legal text: it is the tax authority’s application of the law to the case, software instructions, or an administrative position. Q350 is a good example: the law says parents; the authority infers parents-in-law via joint filing. This is a finding about the dataset itself and bounds every RAG system on it. Caveats: small sample, one question carries 12 of the 60, and the legal calls need a tax-law reader.</aside>
+</section>

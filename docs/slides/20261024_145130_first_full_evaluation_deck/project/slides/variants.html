@@ -1,0 +1,20 @@
+<section id="variants" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Result 3 · variants (H3, H4, H6)</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">Groupings and the caput sentence add nothing measurable over S2</h2>
+</div>
+<table style="font-size:28px;width:1664px;color:#1C2433;font-variant-numeric:tabular-nums">
+<tr style="background:#ECE8DF"><th style="width:34%">Paired Δ V_strict (p)</th><th style="width:22%;text-align:right">Luna</th><th style="width:22%;text-align:right">Sabiá-4</th><th style="width:22%;text-align:right">Sabiazinho-4</th></tr>
+<tr><td>S2 → S3 (groupings)</td><td style="text-align:right">+0.000 (.98)</td><td style="text-align:right">−0.002 (.74)</td><td style="text-align:right">+0.005 (.56)</td></tr>
+<tr><td>S2 → S2c (caput sentence)</td><td style="text-align:right">+0.014 (.15)</td><td style="text-align:right">−0.012 (.22)</td><td style="text-align:right">+0.013 (.16)</td></tr>
+<tr><td>S3 → S4 (caput sentence)</td><td style="text-align:right">+0.005 (.66)</td><td style="text-align:right">−0.007 (.44)</td><td style="text-align:right">+0.010 (.30)</td></tr>
+</table>
+<div style="display:flex;gap:40px">
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;border-top:2px solid #1C2433;padding:16px 0 0 0"><h3 style="font-size:28px;font-weight:600">No effect, no consistent sign</h3><p style="font-size:24px;line-height:1.4;color:#4A5363">All |Δ| ≤ 0.014; signs differ between generators. Pilot hints of S3 / S2c gains (30 questions) were noise.</p></div>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;border-top:2px solid #1C2433;padding:16px 0 0 0"><h3 style="font-size:28px;font-weight:600">A clean test of form</h3><p style="font-size:24px;line-height:1.4;color:#4A5363">At 4k, S3 retrieves the gold as often as S2 but spends 19 % of its tokens on groupings: Δ isolates the context’s form.</p></div>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;border-top:2px solid #1C2433;padding:16px 0 0 0"><h3 style="font-size:28px;font-weight:600">H6 not supported</h3><p style="font-size:24px;line-height:1.4;color:#4A5363">The small Maritaca model is not hurt more by S3 (+0.005 vs −0.002). The interaction is underpowered.</p></div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Results · 299 of 715 S3 contexts are identical to S2’s at 4k (same answers by construction)</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">16</p>
+<aside>The secondary strategies give null results. S3 adds grouping chunks, S2c and S4 add the caput’s first sentence to paragraph chunks. None of the differences is significant and the signs flip between generators. At 4k, S3 and S2 hold the gold equally often, so this is a fair test of whether explanatory grouping text helps the generator; it does not. One caveat for reviewers: 299 of the S3 contexts are identical to S2’s at 4k, which dilutes any S3 effect; the 16k point, where S3 also retrieves more, is planned. H6, the size interaction, shows no sign in the predicted direction, but an interaction needs far more data than we have, so we report it as not supported rather than as evidence of no effect.</aside>
+</section>

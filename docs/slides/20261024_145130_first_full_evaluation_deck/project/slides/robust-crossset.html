@@ -1,0 +1,29 @@
+<section id="robust-crossset" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Robustness 3 · nugget creator and judge</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">The conclusion holds whoever writes the nuggets and whoever judges</h2>
+</div>
+<div style="display:flex;gap:56px">
+<div style="width:1000px;display:flex;flex-direction:column;gap:20px">
+<h3 style="font-size:28px;font-weight:600">S1 → S2 under three nugget sets (715 questions)</h3>
+<table style="font-size:24px;width:1000px;color:#1C2433;font-variant-numeric:tabular-nums">
+<tr style="background:#ECE8DF"><th style="width:30%">Nugget creator</th><th style="width:35%;text-align:right">Terra</th><th style="width:35%;text-align:right">Sabiá-4</th></tr>
+<tr><td>GPT-6.1 Sol (primary)</td><td style="text-align:right">+0.016 (−0.004, 0.037) p .11</td><td style="text-align:right"><b>+0.027</b> (0.007, 0.047) p .009</td></tr>
+<tr><td>Gemini 3.1 Pro</td><td style="text-align:right"><b>+0.024</b> (0.004, 0.045) p .020</td><td style="text-align:right"><b>+0.023</b> (0.003, 0.043) p .022</td></tr>
+<tr><td>Qwen3.8-Max</td><td style="text-align:right"><b>+0.026</b> (0.006, 0.047) p .010</td><td style="text-align:right"><b>+0.028</b> (0.008, 0.048) p .007</td></tr>
+</table>
+<p style="font-size:24px;line-height:1.45;color:#4A5363">Same sign everywhere; chapter-cluster CIs above 0 under both other sets. Ranking of the 4 runs identical under all three sets (Kendall τ = 1). The primary set is the most conservative.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:20px">
+<h3 style="font-size:28px;font-weight:600">Second judge on real answers</h3>
+<div style="display:flex;flex-direction:column;gap:4px;border-left:4px solid #2E62A8;padding:0 0 0 20px">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.05">κ = 0.90</p>
+<p style="font-size:24px;line-height:1.4;color:#4A5363">94.7 % agreement, 1,364 labels on 280 answers</p>
+</div>
+<p style="font-size:24px;line-height:1.45;color:#4A5363">Disagreements are adjacent labels (partial ↔ not support). Both judges give the same S1 → S2 Δ on this 70-question sample (n.s. for both).</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Robustness · 95 % paired bootstrap CI · second judge Gemini 3.1 Pro on stratified_70 × {Terra, Sabiá-4} × {S1, S2}</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">23</p>
+<aside>Two threats specific to LLM-made evaluation. First, the nugget creator: a judge could favour answers phrased like the nuggets, or the nuggets could carry one model’s view of the answer. We rescored S1 and S2 for two generators with nugget sets written independently by Gemini 3.1 Pro and by Qwen3.8-Max. The difference keeps its sign and is significant under both; Terra becomes significant; the ranking of runs is identical. Second, the judge: Gemini 3.1 Pro relabelled 280 real answers; agreement with Flash is kappa 0.90. To be transparent: on this small 70-question sample both judges show a slightly negative, non-significant S1 to S2 difference; the point of the check is that they agree with each other, not the sign on 70 questions.</aside>
+</section>

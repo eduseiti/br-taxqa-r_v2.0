@@ -1,0 +1,20 @@
+{
+  "v": 4,
+  "createdOnFiles": {"v": 1, "at": "2026-10-24T12:00:00Z"},
+  "lists": "css",
+  "title": "Hierarchical Segmentation for Legal RAG",
+  "order": ["cover", "roadmap", "problem", "questions", "data", "hierarchy", "strategies", "pipeline", "controls", "nuggets", "nuggetqa", "metrics", "retrieval", "answers", "s1s2", "variants", "closedbook", "ceiling", "decomposition", "robust-overview", "robust-subsets", "robust-perturb", "robust-crossset", "ctxaudit", "prcontent", "scorecard", "limitations", "reproducibility", "next"],
+  "sections": {
+    "s1": {"description": "Motivation, research questions and hypotheses", "start": "cover"},
+    "s2": {"description": "Dataset, corpus, segmentation strategies and the RAG pipeline", "start": "data"},
+    "s3": {"description": "Answer evaluation with nuggets: creation, quality assurance, judge and metrics", "start": "nuggets"},
+    "s4": {"description": "Results: retrieval, answer quality, controls and where the gain comes from", "start": "retrieval"},
+    "s5": {"description": "Robustness checks: nugget damage, nugget creator, judge, context judge", "start": "robust-overview"},
+    "s6": {"description": "Synthesis: hypotheses, limitations, cost and next steps", "start": "scorecard"}
+  },
+  "faces": {
+    "source-serif-4": {"family": "Source Serif 4", "href": "https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400..700&display=swap"},
+    "ibm-plex-sans": {"family": "IBM Plex Sans", "href": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"}
+  },
+  "designSystems": []
+}

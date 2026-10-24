@@ -1,0 +1,33 @@
+<section id="closedbook" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Result 4 · what retrieval buys</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">Retrieval mainly removes contradictions; recall gains depend on the model</h2>
+</div>
+<div style="display:flex;gap:56px">
+<div style="width:1040px;display:flex;flex-direction:column;gap:22px">
+<div style="display:flex;gap:32px;align-items:center">
+<p style="font-size:24px;color:#4A5363">Answers contradicting ≥ 1 gold nugget</p>
+<div style="display:flex;gap:10px;align-items:center"><div style="width:24px;height:24px;background:#7D8696;border-radius:4px"></div><p style="font-size:24px">Closed book</p></div>
+<div style="display:flex;gap:10px;align-items:center"><div style="width:24px;height:24px;background:#2E62A8;border-radius:4px"></div><p style="font-size:24px">S2 4k</p></div>
+</div>
+<div style="display:flex;gap:24px;align-items:center"><p style="width:200px;font-size:26px;text-align:right">Sabiá-4</p><div style="flex:1;display:flex;flex-direction:column;gap:4px"><div style="display:flex;gap:12px;align-items:center"><div style="width:669px;height:26px;background:#7D8696;border-radius:0 4px 4px 0"></div><p style="font-size:24px">38 %</p></div><div style="display:flex;gap:12px;align-items:center"><div style="width:196px;height:26px;background:#2E62A8;border-radius:0 4px 4px 0"></div><p style="font-size:24px">11 %</p></div></div></div>
+<div style="display:flex;gap:24px;align-items:center"><p style="width:200px;font-size:26px;text-align:right">Sabiazinho-4</p><div style="flex:1;display:flex;flex-direction:column;gap:4px"><div style="display:flex;gap:12px;align-items:center"><div style="width:665px;height:26px;background:#7D8696;border-radius:0 4px 4px 0"></div><p style="font-size:24px">38 %</p></div><div style="display:flex;gap:12px;align-items:center"><div style="width:208px;height:26px;background:#2E62A8;border-radius:0 4px 4px 0"></div><p style="font-size:24px">12 %</p></div></div></div>
+<div style="display:flex;gap:24px;align-items:center"><p style="width:200px;font-size:26px;text-align:right">Terra</p><div style="flex:1;display:flex;flex-direction:column;gap:4px"><div style="display:flex;gap:12px;align-items:center"><div style="width:516px;height:26px;background:#7D8696;border-radius:0 4px 4px 0"></div><p style="font-size:24px">30 %</p></div><div style="display:flex;gap:12px;align-items:center"><div style="width:140px;height:26px;background:#2E62A8;border-radius:0 4px 4px 0"></div><p style="font-size:24px">8 %</p></div></div></div>
+<div style="display:flex;gap:24px;align-items:center"><p style="width:200px;font-size:26px;text-align:right">Luna</p><div style="flex:1;display:flex;flex-direction:column;gap:4px"><div style="display:flex;gap:12px;align-items:center"><div style="width:466px;height:26px;background:#7D8696;border-radius:0 4px 4px 0"></div><p style="font-size:24px">27 %</p></div><div style="display:flex;gap:12px;align-items:center"><div style="width:149px;height:26px;background:#2E62A8;border-radius:0 4px 4px 0"></div><p style="font-size:24px">9 %</p></div></div></div>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:24px">
+<h3 style="font-size:28px;font-weight:600">Recall, closed book → S2</h3>
+<table style="font-size:24px;width:568px;color:#1C2433;font-variant-numeric:tabular-nums">
+<tr style="background:#ECE8DF"><th style="width:52%">Generator</th><th style="width:48%;text-align:right">Δ V_strict (p)</th></tr>
+<tr><td>Sabiazinho-4</td><td style="text-align:right">+0.095 (&lt; .001)</td></tr>
+<tr><td>Sabiá-4</td><td style="text-align:right">+0.078 (&lt; .001)</td></tr>
+<tr><td>Luna</td><td style="text-align:right">+0.041 (.011)</td></tr>
+<tr><td>Terra</td><td style="text-align:right">−0.010 (.56)</td></tr>
+</table>
+<p style="font-size:24px;line-height:1.45;color:#4A5363">Terra answers about as well from memory: its cutoff (Feb 2026) postdates the public Q&amp;A, so contamination is plausible.</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Results · 715 questions · S1 contexts give the same picture (8–14 % contradictions)</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">17</p>
+<aside>The controls tell us what retrieval does here. Closed-book answers contradict at least one gold fact in 27 to 38 percent of questions; with retrieval it drops to 8 to 14 percent, for every generator. Recall improves a lot for the Maritaca models and moderately for Luna, but not for Terra, whose closed-book score is as high as with retrieval. Terra’s knowledge cutoff is after the Q&amp;A was published, so it may have seen it; this is a contamination caveat for closed-book numbers only, since the RAG answers are paired against each other with the same model. For an applied tax assistant the contradiction drop is arguably the most important effect.</aside>
+</section>

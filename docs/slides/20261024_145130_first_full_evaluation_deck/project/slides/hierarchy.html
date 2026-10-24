@@ -1,0 +1,37 @@
+<section id="hierarchy" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">The chunk unit, by example</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">The same provision as an article chunk and as a sub-unit chunk</h2>
+</div>
+<div style="display:flex;gap:40px">
+<div style="width:520px;display:flex;flex-direction:column;gap:14px">
+<p style="font-size:24px;color:#4A5363">Lei nº 9.250/1995 (who counts as a dependant)</p>
+<p style="font-size:28px;font-weight:600">Art. 35</p>
+<div style="display:flex;flex-direction:column;gap:10px;border-left:3px solid #9AA3B2;padding:0 0 0 24px">
+<p style="font-size:26px">caput: “may be dependants:”</p>
+<div style="display:flex;flex-direction:column;gap:8px;border-left:3px solid #9AA3B2;padding:0 0 0 24px">
+<p style="font-size:24px;color:#4A5363">I – the spouse</p>
+<p style="font-size:24px;color:#4A5363">II … V</p>
+<p style="font-size:24px;font-weight:600;color:#2E62A8;background:#E3ECF7;padding:4px 10px;border-radius:6px">VI – parents, grandparents …</p>
+<p style="font-size:24px;color:#4A5363">VII</p>
+</div>
+<p style="font-size:26px">§ 1º … § 5º</p>
+</div>
+<p style="font-size:24px;color:#4A5363;line-height:1.4">Above the article: part, book, title, chapter, section. Below: caput, §, inciso, alínea, item.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:24px">
+<div style="display:flex;flex-direction:column;gap:10px;background:#FBF1E8;border-left:6px solid #B85F22;padding:24px 28px;border-radius:8px">
+<p style="font-size:24px;font-weight:600;color:#8A4516">S1 · article chunk · ≈ 720 tokens</p>
+<p style="font-size:24px;line-height:1.4;color:#1C2433">[ LEI Nº 9.250, DE 26 DE DEZEMBRO DE 1995 | Altera a Legislação do IRPF… ] Art. 35. … poderão ser considerados como dependentes: I – o cônjuge; II – o companheiro… ; … VII – …; § 1º … § 5º …</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px;background:#E8EFF8;border-left:6px solid #2E62A8;padding:24px 28px;border-radius:8px">
+<p style="font-size:24px;font-weight:600;color:#24508C">S2 · inciso chunk with its ancestor path · ≈ 140 tokens</p>
+<p style="font-size:24px;line-height:1.4;color:#1C2433">[ LEI Nº 9.250, DE 26 DE DEZEMBRO DE 1995 | Altera a Legislação do IRPF… ] Art. 35. … poderão ser considerados como dependentes: <b>VI – os pais, os avós ou os bisavós, desde que não aufiram rendimentos … superiores ao limite de isenção mensal;</b></p>
+</div>
+<p style="font-size:24px;color:#4A5363;line-height:1.4">Q350: “Can a parent-in-law be a dependant?” The answer rests on inciso VI plus the spouse’s joint filing.</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Data and pipeline · chunk texts abbreviated (…); prefixes are the document title and ementa</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">6</p>
+<aside>A concrete example of the unit choice. In S1 the whole article 35 is one chunk of about 720 tokens: all seven incisos and five paragraphs. In S2 the article chunk is kept and, in addition, every caput, paragraph, inciso, alínea and item becomes its own chunk, carrying the text of its ancestors (here the caput’s opening) but not its siblings. Every chunk is prefixed with the document title and its ementa, the official summary, which is the “core chunks plus metadata” setting Fernandes et al. recommend. The S2 chunk is about one fifth of the size and states exactly the rule the question needs.</aside>
+</section>

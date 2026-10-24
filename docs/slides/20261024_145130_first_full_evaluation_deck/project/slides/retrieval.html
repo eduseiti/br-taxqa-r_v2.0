@@ -1,0 +1,53 @@
+<section id="retrieval" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:36px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Result 1 · retrieval (H1)</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">S2 retrieves about 0.10 more of the cited articles, at every budget</h2>
+</div>
+<div style="display:flex;gap:48px">
+<div style="display:flex;flex-direction:column;gap:8px">
+<div style="position:relative;width:1000px;height:560px">
+<svg aria-label="Line chart of article recall against context budget. S1: 0.193, 0.296, 0.398, 0.492, 0.574 at 1k, 2k, 4k, 8k, 16k tokens. S2: 0.328, 0.425, 0.503, 0.600, 0.674." width="1000" height="560" viewBox="0 0 1000 560" style="position:absolute;left:0;top:0;width:1000px;height:560px">
+<line x1="80" y1="434" x2="980" y2="434" stroke="#DDD8CC" stroke-width="1"/>
+<line x1="80" y1="303" x2="980" y2="303" stroke="#DDD8CC" stroke-width="1"/>
+<line x1="80" y1="171" x2="980" y2="171" stroke="#DDD8CC" stroke-width="1"/>
+<line x1="80" y1="40" x2="980" y2="40" stroke="#DDD8CC" stroke-width="1"/>
+<line x1="80" y1="500" x2="980" y2="500" stroke="#9AA3B2" stroke-width="2"/>
+<line x1="520" y1="40" x2="520" y2="500" stroke="#9AA3B2" stroke-width="1" stroke-dasharray="6 6"/>
+<polyline points="80,439 300,371 520,304 740,242 960,189" fill="none" stroke="#B85F22" stroke-width="3"/>
+<polyline points="80,350 300,286 520,235 740,171 960,123" fill="none" stroke="#2E62A8" stroke-width="3"/>
+<g fill="#B85F22" stroke="#F6F4EF" stroke-width="2"><circle cx="80" cy="439" r="7"/><circle cx="300" cy="371" r="7"/><circle cx="520" cy="304" r="7"/><circle cx="740" cy="242" r="7"/><circle cx="960" cy="189" r="7"/></g>
+<g fill="#2E62A8" stroke="#F6F4EF" stroke-width="2"><circle cx="80" cy="350" r="7"/><circle cx="300" cy="286" r="7"/><circle cx="520" cy="235" r="7"/><circle cx="740" cy="171" r="7"/><circle cx="960" cy="123" r="7"/></g>
+</svg>
+<p style="position:absolute;left:0px;top:417px;width:64px;font-size:24px;color:#5F6673;text-align:right">0.2</p>
+<p style="position:absolute;left:0px;top:286px;width:64px;font-size:24px;color:#5F6673;text-align:right">0.4</p>
+<p style="position:absolute;left:0px;top:154px;width:64px;font-size:24px;color:#5F6673;text-align:right">0.6</p>
+<p style="position:absolute;left:0px;top:23px;width:64px;font-size:24px;color:#5F6673;text-align:right">0.8</p>
+<p style="position:absolute;left:40px;top:512px;width:80px;font-size:24px;color:#5F6673;text-align:center">1k</p>
+<p style="position:absolute;left:260px;top:512px;width:80px;font-size:24px;color:#5F6673;text-align:center">2k</p>
+<p style="position:absolute;left:470px;top:512px;width:100px;font-size:24px;font-weight:600;color:#1C2433;text-align:center">4k</p>
+<p style="position:absolute;left:700px;top:512px;width:80px;font-size:24px;color:#5F6673;text-align:center">8k</p>
+<p style="position:absolute;left:900px;top:512px;width:100px;font-size:24px;color:#5F6673;text-align:center">16k</p>
+<p style="position:absolute;left:250px;top:232px;width:100px;font-size:24px;font-weight:600;color:#24508C;text-align:center">S2</p>
+<p style="position:absolute;left:250px;top:388px;width:100px;font-size:24px;font-weight:600;color:#8A4516;text-align:center">S1</p>
+<p style="position:absolute;left:540px;top:196px;width:100px;font-size:24px;color:#1C2433">0.503</p>
+<p style="position:absolute;left:540px;top:310px;width:100px;font-size:24px;color:#1C2433">0.398</p>
+</div>
+<p style="font-size:24px;color:#4A5363">Article recall (553 questions) vs context budget in tokens, log scale; dashed = the 4k point used for answers</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:28px">
+<div style="display:flex;flex-direction:column;gap:6px;border-left:4px solid #2E62A8;padding:0 0 0 20px">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.05">+0.10–0.14</p>
+<p style="font-size:24px;line-height:1.4;color:#4A5363">article recall, S1 → S2, every budget 1k–16k, p &lt; 0.001</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:6px;border-left:4px solid #9AA3B2;padding:0 0 0 20px">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.05">+0.04–0.06</p>
+<p style="font-size:24px;line-height:1.4;color:#4A5363">provision recall, same comparison</p>
+</div>
+<p style="font-size:24px;line-height:1.45;color:#4A5363"><b style="color:#1C2433">S3</b> equals S2 up to 8k; +0.02 at 16k, where its large grouping chunks fit. <b style="color:#1C2433">S2c / S4</b> retrieve slightly worse (−0.01 to −0.03).</p>
+<p style="font-size:24px;line-height:1.45;color:#4A5363">The gap does not close as the budget grows.</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Results · dense retrieval, containment de-duplication; paired differences from the retrieval evaluation</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">13</p>
+<aside>H1 holds clearly. At equal token budget, the S2 context contains about ten points more of the cited articles at every budget from 1k to 16k; at provision level the gain is four to six points. We had assumed strategies would converge at large budgets; they do not. S3 only differs from S2 at 16k, which is expected because its grouping chunks are large. The caput variants retrieve slightly worse at article level, but they were designed for the generator, so only answer scores can judge them. So the precondition for H2 is met: S2 gives the generator more of the right provisions.</aside>
+</section>

@@ -1,0 +1,31 @@
+<section id="metrics" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Evaluation design · metrics and statistics</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">One headline metric, paired tests, and clustering by chapter</h2>
+</div>
+<div style="display:flex;gap:56px">
+<div style="flex:1;display:flex;flex-direction:column;gap:20px">
+<div style="display:flex;flex-direction:column;gap:8px;background:#1C2433;padding:28px 32px;border-radius:12px">
+<p style="font-size:24px;font-weight:600;color:#8DB3E8">Headline · V_strict</p>
+<p style="font-size:28px;line-height:1.4;color:#F1EEE6">Share of a question’s <b>vital</b> nuggets the answer fully supports; mean over questions</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:0">
+<div style="display:flex;gap:24px;border-top:1px solid #C9C3B6;padding:14px 0"><p style="width:200px;font-size:24px;font-weight:600">V</p><p style="flex:1;font-size:24px;color:#4A5363">vital, partial support = 0.5</p></div>
+<div style="display:flex;gap:24px;border-top:1px solid #C9C3B6;padding:14px 0"><p style="width:200px;font-size:24px;font-weight:600">A_strict, A</p><p style="flex:1;font-size:24px;color:#4A5363">all nuggets: ignores the vital label</p></div>
+<div style="display:flex;gap:24px;border-top:1px solid #C9C3B6;padding:14px 0"><p style="width:200px;font-size:24px;font-weight:600">W</p><p style="flex:1;font-size:24px;color:#4A5363">okay nuggets weighted 0.5</p></div>
+<div style="display:flex;gap:24px;border-top:1px solid #C9C3B6;border-bottom:1px solid #C9C3B6;padding:14px 0"><p style="width:200px;font-size:24px;font-weight:600">Contradiction</p><p style="flex:1;font-size:24px;color:#4A5363">answers contradicting ≥ 1 nugget</p></div>
+</div>
+<p style="font-size:24px;color:#4A5363;line-height:1.4">Abstentions and failed calls score 0 on every nugget.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:24px">
+<h3 style="font-size:28px;font-weight:600">Inference</h3>
+<div style="display:flex;flex-direction:column;gap:6px"><p style="font-size:24px;font-weight:600">Paired by question (714 pairs)</p><p style="font-size:24px;line-height:1.4;color:#4A5363">Every strategy answers the same questions with the same generator.</p></div>
+<div style="display:flex;flex-direction:column;gap:6px"><p style="font-size:24px;font-weight:600">95 % paired bootstrap CI + paired permutation test</p><p style="font-size:24px;line-height:1.4;color:#4A5363">Distribution-free; scores are bounded and lumpy.</p></div>
+<div style="display:flex;flex-direction:column;gap:6px"><p style="font-size:24px;font-weight:600">Chapter-cluster bootstrap (48 chapters)</p><p style="font-size:24px;line-height:1.4;color:#4A5363">Questions in one chapter share documents, so they are not independent.</p></div>
+<div style="display:flex;flex-direction:column;gap:6px"><p style="font-size:24px;font-weight:600">p-values unadjusted</p><p style="font-size:24px;line-height:1.4;color:#4A5363">S1 → S2 is the one pre-specified main contrast.</p></div>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Evaluation design · V_strict is the main metric of TREC RAG 2024 nugget evaluation</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">12</p>
+<aside>V_strict is the headline: only full support counts, only vital nuggets count. The other variants matter for robustness: A and A_strict ignore the vital/okay label, so a conclusion that holds under them does not depend on that label, which is the least reliable part of the nuggets. Contradiction rate captures wrong answers, which recall alone hides. All comparisons are paired by question. We report both a bootstrap interval and a permutation p-value, and a cluster bootstrap over the 48 chapters of the Q&amp;A because questions in one chapter cite the same acts. We did not adjust p-values; the S1 to S2 comparison is the single pre-specified main test, and the variant comparisons are reported as secondary.</aside>
+</section>

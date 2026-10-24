@@ -1,0 +1,30 @@
+<section id="controls" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Experimental grid</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">Four generators in two size pairs, framed by three control contexts</h2>
+</div>
+<div style="display:flex;gap:48px">
+<div style="width:700px;display:flex;flex-direction:column;gap:20px">
+<h3 style="font-size:28px;font-weight:600">Generators (same release, two sizes)</h3>
+<table style="font-size:24px;width:700px;color:#1C2433">
+<tr style="background:#ECE8DF"><th style="width:30%">Vendor</th><th style="width:35%">Large</th><th style="width:35%">Small</th></tr>
+<tr><td>Maritaca (pt-BR)</td><td>Sabiá-4</td><td>Sabiazinho-4</td></tr>
+<tr><td>OpenAI</td><td>GPT-5.6 Terra</td><td>GPT-5.6 Luna</td></tr>
+</table>
+<p style="font-size:24px;line-height:1.45;color:#4A5363">Temperature 0 or reasoning off; strict JSON schema. Pairs allow a within-vendor size contrast (H6).</p>
+<p style="font-size:24px;line-height:1.45;color:#4A5363"><b style="color:#1C2433">Trimmed grid:</b> Terra, the costly model, runs S1, S2 and the controls only. 25 runs × 715 questions = 16,669 answers.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:20px">
+<h3 style="font-size:28px;font-weight:600">Context sets, all at 4k tokens</h3>
+<div style="display:flex;flex-direction:column;gap:0">
+<div style="display:flex;gap:24px;border-top:1px solid #C9C3B6;padding:16px 0"><p style="width:230px;font-size:24px;font-weight:600">S1 … S4</p><p style="flex:1;font-size:24px;line-height:1.4;color:#4A5363">The strategies under test</p></div>
+<div style="display:flex;gap:24px;border-top:1px solid #C9C3B6;padding:16px 0"><p style="width:230px;font-size:24px;font-weight:600">Closed book</p><p style="flex:1;font-size:24px;line-height:1.4;color:#4A5363">No context: what the model already knows</p></div>
+<div style="display:flex;gap:24px;border-top:1px solid #C9C3B6;padding:16px 0"><p style="width:230px;font-size:24px;font-weight:600">Oracle</p><p style="flex:1;font-size:24px;line-height:1.4;color:#4A5363">The cited articles themselves (596 questions): a retrieval ceiling</p></div>
+<div style="display:flex;gap:24px;border-top:1px solid #C9C3B6;border-bottom:1px solid #C9C3B6;padding:16px 0"><p style="width:230px;font-size:24px;font-weight:600">Wrong context</p><p style="flex:1;font-size:24px;line-height:1.4;color:#4A5363">Another chapter’s S2 context, no shared document: must score 0</p></div>
+</div>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Data and pipeline · GPT-5.6 knowledge cutoff Feb 2026, after the Q&amp;A (May 2024)</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">9</p>
+<aside>Generators come in same-release size pairs from two vendors: Maritaca’s Brazilian-Portuguese models and OpenAI’s GPT-5.6 pair. The pairing exists to test H6, the size by strategy interaction. The three controls frame the strategies: closed book shows how much the model knows without retrieval (and the GPT models have a cutoff after the Q&A was published, so contamination is plausible); the oracle uses the cited articles as context and is the best a retriever could do with this corpus at 4k; the wrong-context control uses real legal text of an unrelated question and should score zero if answers come from the context. The grid was trimmed to fit a fixed budget: Terra only runs the main comparison.</aside>
+</section>

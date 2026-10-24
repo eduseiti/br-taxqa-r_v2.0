@@ -1,0 +1,27 @@
+<section id="problem" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Motivation</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">Statutes are trees, but RAG pipelines usually index flat pieces of them</h2>
+</div>
+<div style="display:flex;gap:32px">
+<div style="flex:1;display:flex;flex-direction:column;gap:16px;background:#FFFDF8;padding:36px;border:1px solid #DDD8CC;border-radius:12px">
+<h3 style="font-size:36px;font-weight:600;line-height:1.2">Answers hinge on sub-article units</h3>
+<p style="font-size:28px;line-height:1.4;color:#4A5363">Official answers cite provisions like “art. 8º, II, b”. In our gold data, 2,230 cited provisions vs 1,958 cited articles.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:16px;background:#FFFDF8;padding:36px;border:1px solid #DDD8CC;border-radius:12px">
+<h3 style="font-size:36px;font-weight:600;line-height:1.2">Article chunks mix many rules</h3>
+<p style="font-size:28px;line-height:1.4;color:#4A5363">One article holds lists of cases, conditions, exceptions, tables for several years. Long chunks dilute ranking and eat the context budget.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:16px;background:#FFFDF8;padding:36px;border:1px solid #DDD8CC;border-radius:12px">
+<h3 style="font-size:36px;font-weight:600;line-height:1.2">Prior evidence stops at retrieval</h3>
+<p style="font-size:28px;line-height:1.4;color:#4A5363">Structural segmentation of Brazilian law was tested on retrieval metrics [Fernandes et al.] or qualitatively on 8 questions [Lima, 2024].</p>
+</div>
+</div>
+<div style="display:flex;gap:24px;align-items:center;background:#1C2433;padding:32px 40px;border-radius:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#8DB3E8;white-space:nowrap">Gap</p>
+<p style="font-size:32px;line-height:1.35;color:#F1EEE6">Does a finer, hierarchy-aware chunk give <b>better answers</b>, measured end to end against official gold answers?</p>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">[Fernandes et al.] Structural Segmentation for Brazilian Legal Document Retrieval · [Lima 2024] arXiv:2411.07739</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">3</p>
+<aside>Brazilian statutes have a fixed hierarchy: article, then caput and paragraphs, then incisos, alíneas and items, with groupings (parts, books, titles, chapters, sections) above the article. The official answers point at the lower levels. Fernandes et al. compared multi-layered segmentation for retrieval only and recommended article chunks with title and summary metadata; Lima proposed multi-layered chunks and showed a qualitative RAG case on the Constitution. Neither measured whether answers improve. That is the gap we address.</aside>
+</section>

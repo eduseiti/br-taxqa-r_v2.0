@@ -1,0 +1,32 @@
+<section id="ctxaudit" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Robustness 4 · is the ceiling an artefact?</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">The context judge is reliable; the 4k cut hid 12 points of support</h2>
+</div>
+<div style="display:flex;gap:56px">
+<div style="flex:1;display:flex;flex-direction:column;gap:20px">
+<h3 style="font-size:28px;font-weight:600">a · Context judge on known answers</h3>
+<table style="font-size:24px;width:800px;color:#1C2433;font-variant-numeric:tabular-nums">
+<tr style="background:#ECE8DF"><th style="width:64%">Test</th><th style="width:36%;text-align:right">Result</th></tr>
+<tr><td>Corrupted gold answers as context (324)</td><td style="text-align:right">BA 98.5 %</td></tr>
+<tr><td>Unrelated legal text as context (70)</td><td style="text-align:right">99.1 % not support</td></tr>
+<tr><td>Source sentence hidden in 16k of law (60)</td><td style="text-align:right">93 % found*</td></tr>
+</table>
+<p style="font-size:24px;line-height:1.45;color:#4A5363">* 65 % support + 28 % partial; the partials are list fragments without their subject.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:20px">
+<h3 style="font-size:28px;font-weight:600">b, c · Oracle without the cut, two judges</h3>
+<table style="font-size:24px;width:800px;color:#1C2433;font-variant-numeric:tabular-nums">
+<tr style="background:#ECE8DF"><th style="width:46%">Vital nuggets (212)</th><th style="width:18%;text-align:right">support</th><th style="width:18%;text-align:right">partial</th><th style="width:18%;text-align:right">not</th></tr>
+<tr><td>Oracle 4k, Flash</td><td style="text-align:right">38.2 %</td><td style="text-align:right">17.5 %</td><td style="text-align:right">44.3 %</td></tr>
+<tr style="background:#E3ECF7"><td><b>Oracle 16k, Flash</b></td><td style="text-align:right"><b>50.5 %</b></td><td style="text-align:right">20.8 %</td><td style="text-align:right">28.3 %</td></tr>
+<tr><td>Oracle 16k, 3.1 Pro</td><td style="text-align:right">49.5 %</td><td style="text-align:right">19.8 %</td><td style="text-align:right">30.2 %</td></tr>
+</table>
+<p style="font-size:24px;line-height:1.45;color:#4A5363">16k holds 94.5 % of the gold articles (4k: 80 %). Judges agree on 86.6 % of labels (κ 0.79).</p>
+</div>
+</div>
+<p style="font-size:24px;line-height:1.45;color:#1C2433;background:#ECE8DF;padding:20px 28px;border-radius:10px">Even with all cited articles and a validated judge, <b>28–30 % of vital nuggets are not stated by the cited provisions</b>. Why?</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Robustness · exploratory, after slide 18 · 57 questions of stratified_70 with resolvable references · $3.86</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">24</p>
+<aside>The ceiling result invited a sceptical question: maybe the context judge is bad at finding facts in long legal text, or our oracle is too short. We tested both on a 57-question sample. The context judge passes the same kind of known-answer tests as the answer judge, at 98.5 percent balanced accuracy; it does not invent support from unrelated law; and when we hide the Q&amp;A’s own source sentence in a 16k legal context it finds it 93 percent of the time. The 4k cut did matter: with a 16k oracle, support rises from 38 to about 50 percent, and a second judge agrees. So the ceiling was partly our oracle construction, but about 30 percent of vital nuggets remain unsupported by the cited law. The next slide classifies why.</aside>
+</section>

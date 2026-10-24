@@ -1,0 +1,957 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hierarchical Segmentation for Legal RAG</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400..700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #D9D5CC; font-family: 'IBM Plex Sans', Arial, sans-serif; padding: 24px 16px; }
+.frame { width: min(100%, 1280px); aspect-ratio: 16 / 9; margin: 0 auto; overflow: hidden;
+          position: relative; container-type: inline-size; box-shadow: 0 2px 8px #0003; }
+.slide { width: 1920px; height: 1080px; transform-origin: 0 0; transform: scale(calc(100cqw / 1920px));
+          position: absolute; top: 0; left: 0; }
+.slide > section { width: 1920px; height: 1080px; position: relative; overflow: hidden; }
+table { border-collapse: collapse; } th, td { text-align: left; padding: 10px 16px; }
+th { font-weight: 600; } tr { border-bottom: 1px solid #C9C3B6; }
+.notes { width: min(100%, 1280px); margin: 12px auto 40px; font-size: 15px; line-height: 1.5; color: #333; }
+@media print { body { background: #fff; padding: 0; } .frame { box-shadow: none; break-inside: avoid; }
+               .notes { break-after: page; } }
+</style></head><body>
+<div class="frame"><div class="slide"><section id="cover" style="background:#1C2433;color:#F1EEE6;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;justify-content:space-between">
+<div style="display:flex;flex-direction:column;gap:40px">
+<p style="font-size:24px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:#8DB3E8">Progress report · RAG evaluation on Brazilian tax law</p>
+<h1 style="font-family:'Source Serif 4', Georgia, serif;font-size:96px;font-weight:600;line-height:1.08;width:1500px">Does hierarchical segmentation of legislation give better RAG answers?</h1>
+<p style="font-size:36px;line-height:1.35;color:#C9CED8;width:1400px">Rationale, method and first full results on BR-TaxQA-R v2.0: 715 official income-tax questions answered over a LexML corpus of the legislation they cite</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:8px;border-top:2px solid #3A4458;padding:32px 0 0 0">
+<p style="font-size:28px;color:#F1EEE6">Eduardo Seiti de Oliveira · [co-authors] · Unicamp</p>
+<p style="font-size:24px;color:#A9B0BD">Status of 24 October 2026 · trimmed evaluation grid, all 715 questions scored</p>
+</div>
+
+</section>
+</div></div>
+<p class="notes"><b>1 · cover</b> — Opening. The question is narrow and practical: when a RAG system answers questions about statutes, what unit of the law should be a chunk? The whole article, or the article plus its sub-units (paragraphs, incisos, alíneas)? This is a progress report: the first full evaluation is done; a budget sweep and a second embedding model are still to come. Co-authors to be filled in.</p>
+<div class="frame"><div class="slide"><section id="roadmap" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:56px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Outline</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">Six parts, from the question to what still has to be shown</h2>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:28px 64px">
+<div style="display:flex;gap:28px;align-items:start;border-top:2px solid #1C2433;padding:20px 0 0 0">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:36px;font-weight:600;color:#2E62A8">1</p>
+<div style="display:flex;flex-direction:column;gap:6px"><h3 style="font-size:36px;font-weight:600">Motivation and hypotheses</h3><p style="font-size:24px;color:#4A5363">Why the chunk unit matters for legal RAG; six hypotheses</p></div>
+</div>
+<div style="display:flex;gap:28px;align-items:start;border-top:2px solid #1C2433;padding:20px 0 0 0">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:36px;font-weight:600;color:#2E62A8">4</p>
+<div style="display:flex;flex-direction:column;gap:6px"><h3 style="font-size:36px;font-weight:600">Results</h3><p style="font-size:24px;color:#4A5363">Retrieval, answer quality, controls, mechanism</p></div>
+</div>
+<div style="display:flex;gap:28px;align-items:start;border-top:2px solid #1C2433;padding:20px 0 0 0">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:36px;font-weight:600;color:#2E62A8">2</p>
+<div style="display:flex;flex-direction:column;gap:6px"><h3 style="font-size:36px;font-weight:600">Data and pipeline</h3><p style="font-size:24px;color:#4A5363">BR-TaxQA-R v2.0, LexML corpus, strategies S1–S4, generators</p></div>
+</div>
+<div style="display:flex;gap:28px;align-items:start;border-top:2px solid #1C2433;padding:20px 0 0 0">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:36px;font-weight:600;color:#2E62A8">5</p>
+<div style="display:flex;flex-direction:column;gap:6px"><h3 style="font-size:36px;font-weight:600">Robustness</h3><p style="font-size:24px;color:#4A5363">Each threat to the conclusion and the check that addresses it</p></div>
+</div>
+<div style="display:flex;gap:28px;align-items:start;border-top:2px solid #1C2433;padding:20px 0 0 0">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:36px;font-weight:600;color:#2E62A8">3</p>
+<div style="display:flex;flex-direction:column;gap:6px"><h3 style="font-size:36px;font-weight:600">Evaluation design</h3><p style="font-size:24px;color:#4A5363">Nuggets from the official answers, an LLM judge selected by test</p></div>
+</div>
+<div style="display:flex;gap:28px;align-items:start;border-top:2px solid #1C2433;padding:20px 0 0 0">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:36px;font-weight:600;color:#2E62A8">6</p>
+<div style="display:flex;flex-direction:column;gap:6px"><h3 style="font-size:36px;font-weight:600">Synthesis</h3><p style="font-size:24px;color:#4A5363">Hypothesis scorecard, limitations, cost, next steps</p></div>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Hierarchical segmentation for legal RAG · BR-TaxQA-R v2.0</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">2</p>
+
+</section>
+</div></div>
+<p class="notes"><b>2 · roadmap</b> — The deck follows the order of a paper: question, data, method, evaluation design, results, robustness, then a scorecard of the hypotheses and the limitations. The robustness part is deliberately long because the dependent variable is produced by LLMs (nugget creator and judge), which is the first thing a reviewer will question.</p>
+<div class="frame"><div class="slide"><section id="problem" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Motivation</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">Statutes are trees, but RAG pipelines usually index flat pieces of them</h2>
+</div>
+<div style="display:flex;gap:32px">
+<div style="flex:1;display:flex;flex-direction:column;gap:16px;background:#FFFDF8;padding:36px;border:1px solid #DDD8CC;border-radius:12px">
+<h3 style="font-size:36px;font-weight:600;line-height:1.2">Answers hinge on sub-article units</h3>
+<p style="font-size:28px;line-height:1.4;color:#4A5363">Official answers cite provisions like “art. 8º, II, b”. In our gold data, 2,230 cited provisions vs 1,958 cited articles.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:16px;background:#FFFDF8;padding:36px;border:1px solid #DDD8CC;border-radius:12px">
+<h3 style="font-size:36px;font-weight:600;line-height:1.2">Article chunks mix many rules</h3>
+<p style="font-size:28px;line-height:1.4;color:#4A5363">One article holds lists of cases, conditions, exceptions, tables for several years. Long chunks dilute ranking and eat the context budget.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:16px;background:#FFFDF8;padding:36px;border:1px solid #DDD8CC;border-radius:12px">
+<h3 style="font-size:36px;font-weight:600;line-height:1.2">Prior evidence stops at retrieval</h3>
+<p style="font-size:28px;line-height:1.4;color:#4A5363">Structural segmentation of Brazilian law was tested on retrieval metrics [Fernandes et al.] or qualitatively on 8 questions [Lima, 2024].</p>
+</div>
+</div>
+<div style="display:flex;gap:24px;align-items:center;background:#1C2433;padding:32px 40px;border-radius:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#8DB3E8;white-space:nowrap">Gap</p>
+<p style="font-size:32px;line-height:1.35;color:#F1EEE6">Does a finer, hierarchy-aware chunk give <b>better answers</b>, measured end to end against official gold answers?</p>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">[Fernandes et al.] Structural Segmentation for Brazilian Legal Document Retrieval · [Lima 2024] arXiv:2411.07739</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">3</p>
+
+</section>
+</div></div>
+<p class="notes"><b>3 · problem</b> — Brazilian statutes have a fixed hierarchy: article, then caput and paragraphs, then incisos, alíneas and items, with groupings (parts, books, titles, chapters, sections) above the article. The official answers point at the lower levels. Fernandes et al. compared multi-layered segmentation for retrieval only and recommended article chunks with title and summary metadata; Lima proposed multi-layered chunks and showed a qualitative RAG case on the Constitution. Neither measured whether answers improve. That is the gap we address.</p>
+<div class="frame"><div class="slide"><section id="questions" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Hypotheses</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">One main hypothesis, five secondary ones, all stated before scoring</h2>
+</div>
+<table style="font-size:26px;width:1664px;color:#1C2433">
+<tr style="background:#ECE8DF"><th style="width:7%">ID</th><th style="width:58%">Hypothesis</th><th style="width:35%">Comparison</th></tr>
+<tr><td><b>H1</b></td><td>Sub-article chunks retrieve the cited provisions better</td><td>S2 vs S1, retrieval recall</td></tr>
+<tr style="background:#E3ECF7"><td><b>H2</b></td><td><b>Sub-article chunks give better answers (main)</b></td><td><b>S2 vs S1, nugget recall</b></td></tr>
+<tr><td><b>H3</b></td><td>Grouping chunks (chapter, section) “explain” the subject</td><td>S3 vs S2, answers</td></tr>
+<tr><td><b>H4</b></td><td>Adding the caput sentence makes paragraph chunks readable</td><td>S2c vs S2, S4 vs S3</td></tr>
+<tr><td><b>H5</b></td><td>Small units isolate one period’s values and one rule’s conditions</td><td>S2 vs S1 on temporal and condition nuggets</td></tr>
+<tr><td><b>H6</b></td><td>Smaller generators are hurt more by S3’s extra text</td><td>(S3 − S2) small vs large, same vendor</td></tr>
+</table>
+<p style="font-size:24px;color:#4A5363;line-height:1.4">H1–H2 from the design note of Sept 2026; H3–H6 recorded on 23 Oct 2026, after retrieval results but before any answer was scored.</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Motivation and hypotheses</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">4</p>
+
+</section>
+</div></div>
+<p class="notes"><b>4 · questions</b> — H2 is the main hypothesis and the one the design is powered for. H1 is a precondition: if S2 does not retrieve better, an answer gain would be hard to explain. H3 to H6 are mechanism hypotheses. The timing matters for reviewers: H3 to H6 were written down in the plan note of 23 October before any answer was scored, so the null results for them are not post hoc. H6 is an interaction, which needs far more data than a main effect; we said in advance it might stay inconclusive.</p>
+<div class="frame"><div class="slide"><section id="data" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Dataset · BR-TaxQA-R v2.0</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">Official questions and answers, linked to the legislation they cite</h2>
+</div>
+<div style="display:flex">
+<div style="flex:1;display:flex;flex-direction:column;gap:4px;border-left:4px solid #2E62A8;padding:0 24px">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:96px;font-weight:600;line-height:1.05">715</p>
+<p style="font-size:24px;color:#4A5363">questions with prose gold answers, 48 chapters</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:4px;border-left:4px solid #2E62A8;padding:0 24px">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:96px;font-weight:600;line-height:1.05">1,916</p>
+<p style="font-size:24px;color:#4A5363">legal references, all resolved to corpus documents</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:4px;border-left:4px solid #2E62A8;padding:0 24px">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:96px;font-weight:600;line-height:1.05">453</p>
+<p style="font-size:24px;color:#4A5363">documents, parsed to LexML XML</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:4px;border-left:4px solid #2E62A8;padding:0 24px">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:96px;font-weight:600;line-height:1.05">596</p>
+<p style="font-size:24px;color:#4A5363">questions with a gold provision (oracle set)</p>
+</div>
+</div>
+<div style="display:flex;gap:48px">
+<div style="flex:1;display:flex;flex-direction:column;gap:12px">
+<h3 style="font-size:28px;font-weight:600">Source</h3>
+<p style="font-size:24px;line-height:1.45;color:#4A5363">Receita Federal’s <i>Perguntas e Respostas IRPF 2024</i>: the tax authority’s own Q&amp;A for the 2024 personal income-tax return. Answers are authoritative, in Portuguese, and cite their legal basis.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px">
+<h3 style="font-size:28px;font-weight:600">Corpus</h3>
+<p style="font-size:24px;line-height:1.45;color:#4A5363">Every cited act, fetched and parsed: statutes (laws, decrees, normative instructions, with annexes) and non-statutory texts (rulings, opinions). Revoked acts are excluded (the RIR/1999).</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px">
+<h3 style="font-size:28px;font-weight:600">Gold levels</h3>
+<p style="font-size:24px;line-height:1.45;color:#4A5363">Document (596 questions), article (553), provision down to alínea (558). 119 questions cite nothing resolvable; they stay in the answer evaluation.</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Data and pipeline · v2.0 extends BR-TaxQA-R (HF: unicamp-dl/BR-TaxQA-R) with a parsed legal corpus</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">5</p>
+
+</section>
+</div></div>
+<p class="notes"><b>5 · data</b> — BR-TaxQA-R v1 already had the questions and the references as text. Version 2.0 fetches every referenced act and parses it to LexML, the Brazilian XML standard for legislation, so each reference can be resolved down to the article or provision. The gold answers come from the tax authority, not from annotators, which makes them authoritative but also means they sometimes go beyond what the cited texts state; we return to that in the robustness part. The RIR/1999 was excluded after hand review of contexts: it is revoked, was cited once historically, and crowded out its replacement, the RIR/2018. The run with it is kept as an ablation.</p>
+<div class="frame"><div class="slide"><section id="hierarchy" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">The chunk unit, by example</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">The same provision as an article chunk and as a sub-unit chunk</h2>
+</div>
+<div style="display:flex;gap:40px">
+<div style="width:520px;display:flex;flex-direction:column;gap:14px">
+<p style="font-size:24px;color:#4A5363">Lei nº 9.250/1995 (who counts as a dependant)</p>
+<p style="font-size:28px;font-weight:600">Art. 35</p>
+<div style="display:flex;flex-direction:column;gap:10px;border-left:3px solid #9AA3B2;padding:0 0 0 24px">
+<p style="font-size:26px">caput: “may be dependants:”</p>
+<div style="display:flex;flex-direction:column;gap:8px;border-left:3px solid #9AA3B2;padding:0 0 0 24px">
+<p style="font-size:24px;color:#4A5363">I – the spouse</p>
+<p style="font-size:24px;color:#4A5363">II … V</p>
+<p style="font-size:24px;font-weight:600;color:#2E62A8;background:#E3ECF7;padding:4px 10px;border-radius:6px">VI – parents, grandparents …</p>
+<p style="font-size:24px;color:#4A5363">VII</p>
+</div>
+<p style="font-size:26px">§ 1º … § 5º</p>
+</div>
+<p style="font-size:24px;color:#4A5363;line-height:1.4">Above the article: part, book, title, chapter, section. Below: caput, §, inciso, alínea, item.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:24px">
+<div style="display:flex;flex-direction:column;gap:10px;background:#FBF1E8;border-left:6px solid #B85F22;padding:24px 28px;border-radius:8px">
+<p style="font-size:24px;font-weight:600;color:#8A4516">S1 · article chunk · ≈ 720 tokens</p>
+<p style="font-size:24px;line-height:1.4;color:#1C2433">[ LEI Nº 9.250, DE 26 DE DEZEMBRO DE 1995 | Altera a Legislação do IRPF… ] Art. 35. … poderão ser considerados como dependentes: I – o cônjuge; II – o companheiro… ; … VII – …; § 1º … § 5º …</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px;background:#E8EFF8;border-left:6px solid #2E62A8;padding:24px 28px;border-radius:8px">
+<p style="font-size:24px;font-weight:600;color:#24508C">S2 · inciso chunk with its ancestor path · ≈ 140 tokens</p>
+<p style="font-size:24px;line-height:1.4;color:#1C2433">[ LEI Nº 9.250, DE 26 DE DEZEMBRO DE 1995 | Altera a Legislação do IRPF… ] Art. 35. … poderão ser considerados como dependentes: <b>VI – os pais, os avós ou os bisavós, desde que não aufiram rendimentos … superiores ao limite de isenção mensal;</b></p>
+</div>
+<p style="font-size:24px;color:#4A5363;line-height:1.4">Q350: “Can a parent-in-law be a dependant?” The answer rests on inciso VI plus the spouse’s joint filing.</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Data and pipeline · chunk texts abbreviated (…); prefixes are the document title and ementa</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">6</p>
+
+</section>
+</div></div>
+<p class="notes"><b>6 · hierarchy</b> — A concrete example of the unit choice. In S1 the whole article 35 is one chunk of about 720 tokens: all seven incisos and five paragraphs. In S2 the article chunk is kept and, in addition, every caput, paragraph, inciso, alínea and item becomes its own chunk, carrying the text of its ancestors (here the caput’s opening) but not its siblings. Every chunk is prefixed with the document title and its ementa, the official summary, which is the “core chunks plus metadata” setting Fernandes et al. recommend. The S2 chunk is about one fifth of the size and states exactly the rule the question needs.</p>
+<div class="frame"><div class="slide"><section id="strategies" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Segmentation strategies</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">Five strategies from one segmentation and one embedding run</h2>
+</div>
+<table style="font-size:26px;width:1664px;color:#1C2433">
+<tr style="background:#ECE8DF"><th style="width:10%">Set</th><th style="width:50%">Chunks indexed</th><th style="width:14%;text-align:right">Chunks</th><th style="width:26%">Role</th></tr>
+<tr><td><b>S1</b></td><td>Articles (plus non-statutory text blocks and tables)</td><td style="text-align:right">21.5k</td><td>Baseline</td></tr>
+<tr style="background:#E3ECF7"><td><b>S2</b></td><td>S1 + caput, §, inciso, alínea, item, each with its ancestor path; § without the caput</td><td style="text-align:right">73.1k</td><td><b>Main hypothesis</b></td></tr>
+<tr><td><b>S3</b></td><td>S2 + grouping chunks (part … subsection)</td><td style="text-align:right">77.1k</td><td>Explanatory context</td></tr>
+<tr><td><b>S2c</b></td><td>S2 with the caput’s first sentence added to § chunks</td><td style="text-align:right">73.1k</td><td>Readability</td></tr>
+<tr><td><b>S4</b></td><td>S3 with the same caput sentence</td><td style="text-align:right">77.1k</td><td>Readability</td></tr>
+</table>
+<div style="display:flex;gap:40px">
+<p style="flex:1;font-size:24px;line-height:1.45;color:#4A5363"><b style="color:#1C2433">Controlled by construction.</b> All sets are filters over one chunk table, embedded once; S2c / S4 swap in a second text variant. Only the unit changes.</p>
+<p style="flex:1;font-size:24px;line-height:1.45;color:#4A5363"><b style="color:#1C2433">Same prefix everywhere.</b> Document title + ementa; chunks capped at 1,024 tokens (longer articles split in parts), groupings at 8,192.</p>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1400px;font-size:24px;color:#5F6673">Data and pipeline · counts before removing the revoked RIR/1999 (−1.0k S1 and −6.4k S2 units)</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">7</p>
+
+</section>
+</div></div>
+<p class="notes"><b>7 · strategies</b> — All five strategies are filters over the same chunk table, so the embedding model, the prefix and the index are identical; the only manipulated variable is which units are indexed. S2 keeps the article chunks, so it is a superset of S1. Paragraph chunks in S2 carry the article label but not the caput; that was a deliberate decision, and S2c and S4 test the alternative of adding the caput’s opening sentence. A full-caput variant, S5, is deferred. Non-statutory documents (rulings, opinions) are segmented by their own blocks and paragraphs in all strategies.</p>
+<div class="frame"><div class="slide"><section id="pipeline" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">RAG pipeline</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">A plain dense pipeline, so that only the chunk unit varies</h2>
+</div>
+<div style="display:flex;gap:16px;align-items:stretch">
+<div style="flex:1;display:flex;flex-direction:column;gap:10px;background:#FFFDF8;padding:24px;border:1px solid #DDD8CC;border-radius:12px">
+<p style="font-size:24px;font-weight:600;color:#2E62A8">1 · Embed</p>
+<p style="font-size:24px;line-height:1.35">jua-4B-mixed, a legal fine-tune of Qwen3-Embedding-4B; queries with a task instruction</p>
+</div>
+<x-shape kind="arrow-right" style="width:40px;height:24px;background:#9AA3B2;align-self:center"></x-shape>
+<div style="flex:1;display:flex;flex-direction:column;gap:10px;background:#FFFDF8;padding:24px;border:1px solid #DDD8CC;border-radius:12px">
+<p style="font-size:24px;font-weight:600;color:#2E62A8">2 · Retrieve</p>
+<p style="font-size:24px;line-height:1.35">Dense top-1000 per strategy; no reranker, no hybrid</p>
+</div>
+<x-shape kind="arrow-right" style="width:40px;height:24px;background:#9AA3B2;align-self:center"></x-shape>
+<div style="flex:1;display:flex;flex-direction:column;gap:10px;background:#FFFDF8;padding:24px;border:1px solid #DDD8CC;border-radius:12px">
+<p style="font-size:24px;font-weight:600;color:#2E62A8">3 · Select</p>
+<p style="font-size:24px;line-height:1.35">Rank order into a 4,000-token budget; drop or merge a chunk contained in a higher one</p>
+</div>
+<x-shape kind="arrow-right" style="width:40px;height:24px;background:#9AA3B2;align-self:center"></x-shape>
+<div style="flex:1;display:flex;flex-direction:column;gap:10px;background:#FFFDF8;padding:24px;border:1px solid #DDD8CC;border-radius:12px">
+<p style="font-size:24px;font-weight:600;color:#2E62A8">4 · Generate</p>
+<p style="font-size:24px;line-height:1.35">Claims, each with a verbatim quote of ≤ 30 words; abstention allowed</p>
+</div>
+<x-shape kind="arrow-right" style="width:40px;height:24px;background:#9AA3B2;align-self:center"></x-shape>
+<div style="flex:1;display:flex;flex-direction:column;gap:10px;background:#1C2433;padding:24px;border-radius:12px">
+<p style="font-size:24px;font-weight:600;color:#8DB3E8">5 · Score</p>
+<p style="font-size:24px;line-height:1.35;color:#F1EEE6">LLM judge labels each gold nugget against the answer</p>
+</div>
+</div>
+<div style="display:flex;gap:40px">
+<div style="flex:1;display:flex;flex-direction:column;gap:10px">
+<h3 style="font-size:28px;font-weight:600">Equal budget, not equal k</h3>
+<p style="font-size:24px;line-height:1.45;color:#4A5363">Strategies are compared at the same context size in tokens. Smaller chunks buy more distinct provisions, not more text.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:10px">
+<h3 style="font-size:28px;font-weight:600">A grounded prompt</h3>
+<p style="font-size:24px;line-height:1.45;color:#4A5363">Answer only from the numbered provisions; reference date tax year 2023; no value, law or year absent from them.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:10px">
+<h3 style="font-size:28px;font-weight:600">Pinned and logged</h3>
+<p style="font-size:24px;line-height:1.45;color:#4A5363">Model snapshots and providers pinned; tool use and web search refused; every call in a cost ledger.</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Data and pipeline · embedding served on TEI, parity with the reference implementation: cosine ≥ 0.9992</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">8</p>
+
+</section>
+</div></div>
+<p class="notes"><b>8 · pipeline</b> — We deliberately kept the pipeline simple: one dense retriever, no reranker, no query rewriting, so that differences come from the chunk unit. Context selection fills a token budget in rank order; if a chunk is contained in one already selected (an inciso inside its article), it is skipped or merged, so S2 does not waste budget on duplicates. Comparing at equal token budget rather than equal number of chunks is important: at equal k, S1 would simply get more text. The 4k budget is the middle of the retrieval range we measured (1k to 16k) and matches the oracle setting. The generator prompt asks for claims with verbatim quotes, which gives us grounding checks and citations to score. The embedding endpoint was checked against a local reference implementation before the corpus run.</p>
+<div class="frame"><div class="slide"><section id="controls" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Experimental grid</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">Four generators in two size pairs, framed by three control contexts</h2>
+</div>
+<div style="display:flex;gap:48px">
+<div style="width:700px;display:flex;flex-direction:column;gap:20px">
+<h3 style="font-size:28px;font-weight:600">Generators (same release, two sizes)</h3>
+<table style="font-size:24px;width:700px;color:#1C2433">
+<tr style="background:#ECE8DF"><th style="width:30%">Vendor</th><th style="width:35%">Large</th><th style="width:35%">Small</th></tr>
+<tr><td>Maritaca (pt-BR)</td><td>Sabiá-4</td><td>Sabiazinho-4</td></tr>
+<tr><td>OpenAI</td><td>GPT-5.6 Terra</td><td>GPT-5.6 Luna</td></tr>
+</table>
+<p style="font-size:24px;line-height:1.45;color:#4A5363">Temperature 0 or reasoning off; strict JSON schema. Pairs allow a within-vendor size contrast (H6).</p>
+<p style="font-size:24px;line-height:1.45;color:#4A5363"><b style="color:#1C2433">Trimmed grid:</b> Terra, the costly model, runs S1, S2 and the controls only. 25 runs × 715 questions = 16,669 answers.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:20px">
+<h3 style="font-size:28px;font-weight:600">Context sets, all at 4k tokens</h3>
+<div style="display:flex;flex-direction:column;gap:0">
+<div style="display:flex;gap:24px;border-top:1px solid #C9C3B6;padding:16px 0"><p style="width:230px;font-size:24px;font-weight:600">S1 … S4</p><p style="flex:1;font-size:24px;line-height:1.4;color:#4A5363">The strategies under test</p></div>
+<div style="display:flex;gap:24px;border-top:1px solid #C9C3B6;padding:16px 0"><p style="width:230px;font-size:24px;font-weight:600">Closed book</p><p style="flex:1;font-size:24px;line-height:1.4;color:#4A5363">No context: what the model already knows</p></div>
+<div style="display:flex;gap:24px;border-top:1px solid #C9C3B6;padding:16px 0"><p style="width:230px;font-size:24px;font-weight:600">Oracle</p><p style="flex:1;font-size:24px;line-height:1.4;color:#4A5363">The cited articles themselves (596 questions): a retrieval ceiling</p></div>
+<div style="display:flex;gap:24px;border-top:1px solid #C9C3B6;border-bottom:1px solid #C9C3B6;padding:16px 0"><p style="width:230px;font-size:24px;font-weight:600">Wrong context</p><p style="flex:1;font-size:24px;line-height:1.4;color:#4A5363">Another chapter’s S2 context, no shared document: must score 0</p></div>
+</div>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Data and pipeline · GPT-5.6 knowledge cutoff Feb 2026, after the Q&amp;A (May 2024)</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">9</p>
+
+</section>
+</div></div>
+<p class="notes"><b>9 · controls</b> — Generators come in same-release size pairs from two vendors: Maritaca’s Brazilian-Portuguese models and OpenAI’s GPT-5.6 pair. The pairing exists to test H6, the size by strategy interaction. The three controls frame the strategies: closed book shows how much the model knows without retrieval (and the GPT models have a cutoff after the Q&A was published, so contamination is plausible); the oracle uses the cited articles as context and is the best a retriever could do with this corpus at 4k; the wrong-context control uses real legal text of an unrelated question and should score zero if answers come from the context. The grid was trimmed to fit a fixed budget: Terra only runs the main comparison.</p>
+<div class="frame"><div class="slide"><section id="nuggets" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Evaluation design · nuggets</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">Gold answers are split into atomic facts; answers are scored by the facts they state</h2>
+</div>
+<div style="display:flex;gap:16px;align-items:center">
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;background:#FFFDF8;padding:24px;border:1px solid #DDD8CC;border-radius:12px">
+<p style="font-size:24px;font-weight:600;color:#2E62A8">Create</p>
+<p style="font-size:24px;line-height:1.35">GPT-6.1 Sol writes nuggets from each gold answer; vital or okay</p>
+</div>
+<x-shape kind="arrow-right" style="width:40px;height:24px;background:#9AA3B2"></x-shape>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;background:#FFFDF8;padding:24px;border:1px solid #DDD8CC;border-radius:12px">
+<p style="font-size:24px;font-weight:600;color:#2E62A8">Validate</p>
+<p style="font-size:24px;line-height:1.35">Rule checks: values grounded in the answer, every line covered</p>
+</div>
+<x-shape kind="arrow-right" style="width:40px;height:24px;background:#9AA3B2"></x-shape>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;background:#FFFDF8;padding:24px;border:1px solid #DDD8CC;border-radius:12px">
+<p style="font-size:24px;font-weight:600;color:#2E62A8">Audit</p>
+<p style="font-size:24px;line-height:1.35">Two other-family auditors; two repair rounds; freeze</p>
+</div>
+<x-shape kind="arrow-right" style="width:40px;height:24px;background:#9AA3B2"></x-shape>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;background:#1C2433;padding:24px;border-radius:12px">
+<p style="font-size:24px;font-weight:600;color:#8DB3E8">Judge</p>
+<p style="font-size:24px;line-height:1.35;color:#F1EEE6">Gemini 3.8 Flash labels every nugget against an answer</p>
+</div>
+</div>
+<div style="display:flex;gap:48px">
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#ECE8DF;padding:28px 32px;border-radius:12px">
+<p style="font-size:24px;font-weight:600;color:#4A5363">Example · Q350 (parent-in-law as dependant)</p>
+<p style="font-size:24px;line-height:1.4">N02 <b>vital</b>: “A parent-in-law cannot be a dependant in the 2024 return, unless their child files jointly with the spouse, and their 2023 income is ≤ R$ 24,511.92.”</p>
+<p style="font-size:24px;line-height:1.4">N01 <b>okay</b>: parents may be dependants under the same income limit · N03 <b>okay</b>: how the R$ 24,511.92 limit is computed</p>
+</div>
+<div style="width:620px;display:flex;flex-direction:column;gap:14px">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.05">3,175 <span style="color:#5F6673">nuggets</span></p>
+<p style="font-size:24px;line-height:1.4;color:#4A5363">2,262 vital (71 %), 4.4 per question. Labels: support, partial support, not support, contradicts.</p>
+<p style="font-size:24px;line-height:1.4;color:#4A5363">Frozen before any RAG answer was generated.</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Evaluation design · nugget protocol after TREC RAG 2024 (vital / okay, support-based recall) · example paraphrased in English</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">10</p>
+
+</section>
+</div></div>
+<p class="notes"><b>10 · nuggets</b> — We follow the nugget evaluation of TREC RAG 2024, adapted to the domain. A strong model splits each official answer into self-contained facts, each labelled vital or okay; the prompt forces exact values, a temporal anchor (the tax year) and forbids updating values to later law. A rule-based validator checks that every value in a nugget appears in the gold answer and that every answer line is covered. Two auditors from other model families then flag errors, and flagged nuggets go back for at most two repair rounds before the set is frozen. The judge comes from a third family to avoid self-preference. The example nuggets are paraphrased in English; the real ones are in Portuguese. The nugget set was frozen on 21 October, before the full RAG generation.</p>
+<div class="frame"><div class="slide"><section id="nuggetqa" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:36px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Evaluation design · quality gates</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">Nuggets and judge passed pre-set gates before any answer was scored</h2>
+</div>
+<table style="font-size:24px;width:1664px;color:#1C2433">
+<tr style="background:#ECE8DF"><th style="width:52%">Check</th><th style="width:32%">Result</th><th style="width:16%">Gate</th></tr>
+<tr><td>Primary nuggets matched by both other families (Gemini 3.1 Pro, Qwen3.8-Max sets)</td><td>95 % (vital 97 %)</td><td>reported</td></tr>
+<tr><td>Nuggets flagged by both independent auditors</td><td>1.3 % before repair → 0.03 % after</td><td>≤ 2 %</td></tr>
+<tr><td>Planted errors caught by each auditor (70 damaged nuggets)</td><td>96 % / 93 %</td><td>≥ 80 %</td></tr>
+<tr><td>Gold answer judged against its own nuggets</td><td>99.9 % support</td><td>≥ 98 %</td></tr>
+<tr style="background:#E3ECF7"><td><b>Judge on 3,354 known-answer tests</b> (corrupted gold answers)</td><td><b>balanced accuracy 99.0 %</b></td><td>reported</td></tr>
+<tr><td>Judge detects a changed value / year / flipped verdict</td><td>97 % / 99 % / 96 %</td><td>≥ 90 %</td></tr>
+<tr><td>Residual rule-validator errors</td><td>3 items in 3 questions, listed</td><td>0 · not met</td></tr>
+</table>
+<p style="font-size:24px;line-height:1.45;color:#4A5363"><b style="color:#1C2433">Judge choice.</b> Gemini 3.8 Flash and 3.1 Pro tie on balanced accuracy, but Pro missed 6 of 9 flipped “Sim/Não” verdicts. Flash is kept: cheaper, and from another family than the nugget creator.</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Evaluation design · tests: value ± step, a real value of another year, year shift, verdict flip, deleted span, removed condition, wrong answer, empty</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">11</p>
+
+</section>
+</div></div>
+<p class="notes"><b>11 · nuggetqa</b> — Because the outcome variable is produced by LLMs, we validated both the nuggets and the judge before using them, against thresholds fixed in advance. Nugget agreement across three creator families is high. The model-based error estimate, nuggets flagged by two independent auditors, is 1.3 percent before repair. The auditors themselves were tested with planted errors. The judge was selected with known-answer tests: gold answers corrupted in controlled ways, including the most dangerous error in tax answers, a value from another year’s table. One gate was not met: three enumerated items in three questions remain uncovered after repair; they are listed, two are headings. Reviewers should note that synthetic corruptions are cleaner than real generator errors; the real-answer check comes in the robustness part.</p>
+<div class="frame"><div class="slide"><section id="metrics" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Evaluation design · metrics and statistics</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">One headline metric, paired tests, and clustering by chapter</h2>
+</div>
+<div style="display:flex;gap:56px">
+<div style="flex:1;display:flex;flex-direction:column;gap:20px">
+<div style="display:flex;flex-direction:column;gap:8px;background:#1C2433;padding:28px 32px;border-radius:12px">
+<p style="font-size:24px;font-weight:600;color:#8DB3E8">Headline · V_strict</p>
+<p style="font-size:28px;line-height:1.4;color:#F1EEE6">Share of a question’s <b>vital</b> nuggets the answer fully supports; mean over questions</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:0">
+<div style="display:flex;gap:24px;border-top:1px solid #C9C3B6;padding:14px 0"><p style="width:200px;font-size:24px;font-weight:600">V</p><p style="flex:1;font-size:24px;color:#4A5363">vital, partial support = 0.5</p></div>
+<div style="display:flex;gap:24px;border-top:1px solid #C9C3B6;padding:14px 0"><p style="width:200px;font-size:24px;font-weight:600">A_strict, A</p><p style="flex:1;font-size:24px;color:#4A5363">all nuggets: ignores the vital label</p></div>
+<div style="display:flex;gap:24px;border-top:1px solid #C9C3B6;padding:14px 0"><p style="width:200px;font-size:24px;font-weight:600">W</p><p style="flex:1;font-size:24px;color:#4A5363">okay nuggets weighted 0.5</p></div>
+<div style="display:flex;gap:24px;border-top:1px solid #C9C3B6;border-bottom:1px solid #C9C3B6;padding:14px 0"><p style="width:200px;font-size:24px;font-weight:600">Contradiction</p><p style="flex:1;font-size:24px;color:#4A5363">answers contradicting ≥ 1 nugget</p></div>
+</div>
+<p style="font-size:24px;color:#4A5363;line-height:1.4">Abstentions and failed calls score 0 on every nugget.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:24px">
+<h3 style="font-size:28px;font-weight:600">Inference</h3>
+<div style="display:flex;flex-direction:column;gap:6px"><p style="font-size:24px;font-weight:600">Paired by question (714 pairs)</p><p style="font-size:24px;line-height:1.4;color:#4A5363">Every strategy answers the same questions with the same generator.</p></div>
+<div style="display:flex;flex-direction:column;gap:6px"><p style="font-size:24px;font-weight:600">95 % paired bootstrap CI + paired permutation test</p><p style="font-size:24px;line-height:1.4;color:#4A5363">Distribution-free; scores are bounded and lumpy.</p></div>
+<div style="display:flex;flex-direction:column;gap:6px"><p style="font-size:24px;font-weight:600">Chapter-cluster bootstrap (48 chapters)</p><p style="font-size:24px;line-height:1.4;color:#4A5363">Questions in one chapter share documents, so they are not independent.</p></div>
+<div style="display:flex;flex-direction:column;gap:6px"><p style="font-size:24px;font-weight:600">p-values unadjusted</p><p style="font-size:24px;line-height:1.4;color:#4A5363">S1 → S2 is the one pre-specified main contrast.</p></div>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Evaluation design · V_strict is the main metric of TREC RAG 2024 nugget evaluation</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">12</p>
+
+</section>
+</div></div>
+<p class="notes"><b>12 · metrics</b> — V_strict is the headline: only full support counts, only vital nuggets count. The other variants matter for robustness: A and A_strict ignore the vital/okay label, so a conclusion that holds under them does not depend on that label, which is the least reliable part of the nuggets. Contradiction rate captures wrong answers, which recall alone hides. All comparisons are paired by question. We report both a bootstrap interval and a permutation p-value, and a cluster bootstrap over the 48 chapters of the Q&amp;A because questions in one chapter cite the same acts. We did not adjust p-values; the S1 to S2 comparison is the single pre-specified main test, and the variant comparisons are reported as secondary.</p>
+<div class="frame"><div class="slide"><section id="retrieval" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:36px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Result 1 · retrieval (H1)</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">S2 retrieves about 0.10 more of the cited articles, at every budget</h2>
+</div>
+<div style="display:flex;gap:48px">
+<div style="display:flex;flex-direction:column;gap:8px">
+<div style="position:relative;width:1000px;height:560px">
+<svg aria-label="Line chart of article recall against context budget. S1: 0.193, 0.296, 0.398, 0.492, 0.574 at 1k, 2k, 4k, 8k, 16k tokens. S2: 0.328, 0.425, 0.503, 0.600, 0.674." width="1000" height="560" viewBox="0 0 1000 560" style="position:absolute;left:0;top:0;width:1000px;height:560px">
+<line x1="80" y1="434" x2="980" y2="434" stroke="#DDD8CC" stroke-width="1"/>
+<line x1="80" y1="303" x2="980" y2="303" stroke="#DDD8CC" stroke-width="1"/>
+<line x1="80" y1="171" x2="980" y2="171" stroke="#DDD8CC" stroke-width="1"/>
+<line x1="80" y1="40" x2="980" y2="40" stroke="#DDD8CC" stroke-width="1"/>
+<line x1="80" y1="500" x2="980" y2="500" stroke="#9AA3B2" stroke-width="2"/>
+<line x1="520" y1="40" x2="520" y2="500" stroke="#9AA3B2" stroke-width="1" stroke-dasharray="6 6"/>
+<polyline points="80,439 300,371 520,304 740,242 960,189" fill="none" stroke="#B85F22" stroke-width="3"/>
+<polyline points="80,350 300,286 520,235 740,171 960,123" fill="none" stroke="#2E62A8" stroke-width="3"/>
+<g fill="#B85F22" stroke="#F6F4EF" stroke-width="2"><circle cx="80" cy="439" r="7"/><circle cx="300" cy="371" r="7"/><circle cx="520" cy="304" r="7"/><circle cx="740" cy="242" r="7"/><circle cx="960" cy="189" r="7"/></g>
+<g fill="#2E62A8" stroke="#F6F4EF" stroke-width="2"><circle cx="80" cy="350" r="7"/><circle cx="300" cy="286" r="7"/><circle cx="520" cy="235" r="7"/><circle cx="740" cy="171" r="7"/><circle cx="960" cy="123" r="7"/></g>
+</svg>
+<p style="position:absolute;left:0px;top:417px;width:64px;font-size:24px;color:#5F6673;text-align:right">0.2</p>
+<p style="position:absolute;left:0px;top:286px;width:64px;font-size:24px;color:#5F6673;text-align:right">0.4</p>
+<p style="position:absolute;left:0px;top:154px;width:64px;font-size:24px;color:#5F6673;text-align:right">0.6</p>
+<p style="position:absolute;left:0px;top:23px;width:64px;font-size:24px;color:#5F6673;text-align:right">0.8</p>
+<p style="position:absolute;left:40px;top:512px;width:80px;font-size:24px;color:#5F6673;text-align:center">1k</p>
+<p style="position:absolute;left:260px;top:512px;width:80px;font-size:24px;color:#5F6673;text-align:center">2k</p>
+<p style="position:absolute;left:470px;top:512px;width:100px;font-size:24px;font-weight:600;color:#1C2433;text-align:center">4k</p>
+<p style="position:absolute;left:700px;top:512px;width:80px;font-size:24px;color:#5F6673;text-align:center">8k</p>
+<p style="position:absolute;left:900px;top:512px;width:100px;font-size:24px;color:#5F6673;text-align:center">16k</p>
+<p style="position:absolute;left:250px;top:232px;width:100px;font-size:24px;font-weight:600;color:#24508C;text-align:center">S2</p>
+<p style="position:absolute;left:250px;top:388px;width:100px;font-size:24px;font-weight:600;color:#8A4516;text-align:center">S1</p>
+<p style="position:absolute;left:540px;top:196px;width:100px;font-size:24px;color:#1C2433">0.503</p>
+<p style="position:absolute;left:540px;top:310px;width:100px;font-size:24px;color:#1C2433">0.398</p>
+</div>
+<p style="font-size:24px;color:#4A5363">Article recall (553 questions) vs context budget in tokens, log scale; dashed = the 4k point used for answers</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:28px">
+<div style="display:flex;flex-direction:column;gap:6px;border-left:4px solid #2E62A8;padding:0 0 0 20px">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.05">+0.10–0.14</p>
+<p style="font-size:24px;line-height:1.4;color:#4A5363">article recall, S1 → S2, every budget 1k–16k, p &lt; 0.001</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:6px;border-left:4px solid #9AA3B2;padding:0 0 0 20px">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.05">+0.04–0.06</p>
+<p style="font-size:24px;line-height:1.4;color:#4A5363">provision recall, same comparison</p>
+</div>
+<p style="font-size:24px;line-height:1.45;color:#4A5363"><b style="color:#1C2433">S3</b> equals S2 up to 8k; +0.02 at 16k, where its large grouping chunks fit. <b style="color:#1C2433">S2c / S4</b> retrieve slightly worse (−0.01 to −0.03).</p>
+<p style="font-size:24px;line-height:1.45;color:#4A5363">The gap does not close as the budget grows.</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Results · dense retrieval, containment de-duplication; paired differences from the retrieval evaluation</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">13</p>
+
+</section>
+</div></div>
+<p class="notes"><b>13 · retrieval</b> — H1 holds clearly. At equal token budget, the S2 context contains about ten points more of the cited articles at every budget from 1k to 16k; at provision level the gain is four to six points. We had assumed strategies would converge at large budgets; they do not. S3 only differs from S2 at 16k, which is expected because its grouping chunks are large. The caput variants retrieve slightly worse at article level, but they were designed for the generator, so only answer scores can judge them. So the precondition for H2 is met: S2 gives the generator more of the right provisions.</p>
+<div class="frame"><div class="slide"><section id="answers" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Result 2 · answer quality</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">S2 scores above S1 for every generator, and close to the oracle</h2>
+</div>
+<table style="font-size:28px;width:1664px;color:#1C2433;font-variant-numeric:tabular-nums">
+<tr style="background:#ECE8DF"><th style="width:22%">V_strict, 715 questions</th><th style="width:13%;text-align:right">Closed book</th><th style="width:12%;text-align:right">S1 4k</th><th style="width:12%;text-align:right">S2 4k</th><th style="width:27%;text-align:right">S3 / S2c / S4 4k</th><th style="width:14%;text-align:right">Oracle 4k</th></tr>
+<tr><td>GPT-5.6 Terra</td><td style="text-align:right"><b>0.351</b></td><td style="text-align:right">0.325</td><td style="text-align:right">0.341</td><td style="text-align:right">not run</td><td style="text-align:right">0.368</td></tr>
+<tr><td>Sabiá-4</td><td style="text-align:right">0.239</td><td style="text-align:right">0.290</td><td style="text-align:right"><b>0.317</b></td><td style="text-align:right">0.315 / 0.305 / 0.307</td><td style="text-align:right">0.319</td></tr>
+<tr><td>GPT-5.6 Luna</td><td style="text-align:right">0.259</td><td style="text-align:right">0.271</td><td style="text-align:right"><b>0.299</b></td><td style="text-align:right">0.300 / 0.314 / 0.304</td><td style="text-align:right">0.338</td></tr>
+<tr><td>Sabiazinho-4</td><td style="text-align:right">0.177</td><td style="text-align:right">0.267</td><td style="text-align:right">0.272</td><td style="text-align:right">0.277 / 0.286 / 0.287</td><td style="text-align:right">0.293</td></tr>
+</table>
+<div style="display:flex;gap:40px">
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;border-top:2px solid #1C2433;padding:16px 0 0 0"><h3 style="font-size:28px;font-weight:600">Low absolute recall</h3><p style="font-size:24px;line-height:1.4;color:#4A5363">Even the oracle reaches only 0.29–0.37. The ceiling is examined later.</p></div>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;border-top:2px solid #1C2433;padding:16px 0 0 0"><h3 style="font-size:28px;font-weight:600">S2 closes most of the gap</h3><p style="font-size:24px;line-height:1.4;color:#4A5363">For Sabiá-4, S2 is within 0.002 of the oracle.</p></div>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;border-top:2px solid #1C2433;padding:16px 0 0 0"><h3 style="font-size:28px;font-weight:600">Wrong context = 0</h3><p style="font-size:24px;line-height:1.4;color:#4A5363">All four generators; answers come from the context, as instructed.</p></div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Results · oracle on the 596 questions with a gold provision · judge Gemini 3.8 Flash, primary nugget set</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">14</p>
+
+</section>
+</div></div>
+<p class="notes"><b>14 · answers</b> — The full table of the headline metric. Read across a row: closed book, then the two main strategies, the variants, and the oracle. S2 is above S1 for all four generators. Absolute values are low, around a third of vital nuggets fully stated, and even the oracle context does not lift them much; we come back to why. The wrong-context control scores zero for every generator, so the generators follow the instruction to answer from the given provisions. Terra is the exception in one respect: its closed-book score is as high as its RAG scores, which we discuss on the controls slide.</p>
+<div class="frame"><div class="slide"><section id="s1s2" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Result 2 · main contrast (H2)</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">S1 → S2 gains +0.02 to +0.03 V_strict; significant for two of four</h2>
+</div>
+<div style="display:flex;gap:48px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<div style="position:relative;width:1100px;height:470px">
+<svg aria-label="Forest plot of the paired S2 minus S1 difference in V_strict with 95 percent bootstrap intervals. Luna +0.028 (0.008 to 0.049). Sabiá-4 +0.027 (0.007 to 0.047). Terra +0.016 (minus 0.004 to 0.037). Sabiazinho-4 +0.005 (minus 0.015 to 0.025)." width="1100" height="470" viewBox="0 0 1100 470" style="position:absolute;left:0;top:0;width:1100px;height:470px">
+<line x1="260" y1="410" x2="1060" y2="410" stroke="#9AA3B2" stroke-width="2"/>
+<line x1="660" y1="10" x2="660" y2="410" stroke="#DDD8CC" stroke-width="1"/>
+<line x1="860" y1="10" x2="860" y2="410" stroke="#DDD8CC" stroke-width="1"/>
+<line x1="460" y1="10" x2="460" y2="410" stroke="#1C2433" stroke-width="2"/>
+<line x1="540" y1="60" x2="950" y2="60" stroke="#2E62A8" stroke-width="4" stroke-linecap="round"/>
+<circle cx="740" cy="60" r="12" fill="#2E62A8" stroke="#F6F4EF" stroke-width="2"/>
+<line x1="530" y1="160" x2="930" y2="160" stroke="#2E62A8" stroke-width="4" stroke-linecap="round"/>
+<circle cx="730" cy="160" r="12" fill="#2E62A8" stroke="#F6F4EF" stroke-width="2"/>
+<line x1="420" y1="260" x2="830" y2="260" stroke="#7D8696" stroke-width="4" stroke-linecap="round"/>
+<circle cx="620" cy="260" r="11" fill="#F6F4EF" stroke="#7D8696" stroke-width="4"/>
+<line x1="310" y1="360" x2="710" y2="360" stroke="#7D8696" stroke-width="4" stroke-linecap="round"/>
+<circle cx="510" cy="360" r="11" fill="#F6F4EF" stroke="#7D8696" stroke-width="4"/>
+</svg>
+<p style="position:absolute;left:0px;top:43px;width:240px;font-size:28px;font-weight:600;text-align:right">Luna</p>
+<p style="position:absolute;left:0px;top:143px;width:240px;font-size:28px;font-weight:600;text-align:right">Sabiá-4</p>
+<p style="position:absolute;left:0px;top:243px;width:240px;font-size:28px;text-align:right">Terra</p>
+<p style="position:absolute;left:0px;top:343px;width:240px;font-size:28px;text-align:right">Sabiazinho-4</p>
+<p style="position:absolute;left:400px;top:422px;width:120px;font-size:24px;color:#1C2433;text-align:center">0</p>
+<p style="position:absolute;left:600px;top:422px;width:120px;font-size:24px;color:#5F6673;text-align:center">+0.02</p>
+<p style="position:absolute;left:800px;top:422px;width:120px;font-size:24px;color:#5F6673;text-align:center">+0.04</p>
+<p style="position:absolute;left:200px;top:422px;width:120px;font-size:24px;color:#5F6673;text-align:center">−0.02</p>
+<p style="position:absolute;left:964px;top:43px;width:136px;font-size:24px;color:#1C2433">p .007</p>
+<p style="position:absolute;left:944px;top:143px;width:136px;font-size:24px;color:#1C2433">p .009</p>
+<p style="position:absolute;left:844px;top:243px;width:136px;font-size:24px;color:#5F6673">p .11</p>
+<p style="position:absolute;left:724px;top:343px;width:136px;font-size:24px;color:#5F6673">p .63</p>
+</div>
+<p style="font-size:24px;color:#4A5363">Paired S2 − S1 in V_strict, 95 % bootstrap CI · filled = CI excludes 0</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:28px">
+<div style="display:flex;flex-direction:column;gap:6px;border-left:4px solid #2E62A8;padding:0 0 0 20px">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.05">≈ +10 %</p>
+<p style="font-size:24px;line-height:1.4;color:#4A5363">relative gain for Luna and Sabiá-4</p>
+</div>
+<p style="font-size:24px;line-height:1.45;color:#4A5363">The chapter-cluster bootstrap agrees: Luna (0.006, 0.052), Sabiá-4 (0.004, 0.047).</p>
+<p style="font-size:24px;line-height:1.45;color:#4A5363">Terra turns significant under both alternative nugget sets (slide 23).</p>
+<p style="font-size:24px;line-height:1.45;color:#4A5363">Sabiazinho-4 shows no gain.</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Results · 714 paired questions · p from a paired permutation test</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">15</p>
+
+</section>
+</div></div>
+<p class="notes"><b>15 · s1s2</b> — This is the main result. The paired difference S2 minus S1 is positive for all four generators. For Luna and Sabiá-4 the interval excludes zero, with permutation p below 0.01, and the cluster bootstrap over chapters gives the same conclusion. For Terra the point estimate is positive but the interval touches zero under the primary nugget set; it becomes significant under both alternative nugget sets. Sabiazinho-4, the smallest model, shows essentially no gain. In relative terms, about ten percent for the two significant generators. So H2 is supported, with a small effect. The rest of the talk asks why it is small and whether it is real.</p>
+<div class="frame"><div class="slide"><section id="variants" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Result 3 · variants (H3, H4, H6)</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">Groupings and the caput sentence add nothing measurable over S2</h2>
+</div>
+<table style="font-size:28px;width:1664px;color:#1C2433;font-variant-numeric:tabular-nums">
+<tr style="background:#ECE8DF"><th style="width:34%">Paired Δ V_strict (p)</th><th style="width:22%;text-align:right">Luna</th><th style="width:22%;text-align:right">Sabiá-4</th><th style="width:22%;text-align:right">Sabiazinho-4</th></tr>
+<tr><td>S2 → S3 (groupings)</td><td style="text-align:right">+0.000 (.98)</td><td style="text-align:right">−0.002 (.74)</td><td style="text-align:right">+0.005 (.56)</td></tr>
+<tr><td>S2 → S2c (caput sentence)</td><td style="text-align:right">+0.014 (.15)</td><td style="text-align:right">−0.012 (.22)</td><td style="text-align:right">+0.013 (.16)</td></tr>
+<tr><td>S3 → S4 (caput sentence)</td><td style="text-align:right">+0.005 (.66)</td><td style="text-align:right">−0.007 (.44)</td><td style="text-align:right">+0.010 (.30)</td></tr>
+</table>
+<div style="display:flex;gap:40px">
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;border-top:2px solid #1C2433;padding:16px 0 0 0"><h3 style="font-size:28px;font-weight:600">No effect, no consistent sign</h3><p style="font-size:24px;line-height:1.4;color:#4A5363">All |Δ| ≤ 0.014; signs differ between generators. Pilot hints of S3 / S2c gains (30 questions) were noise.</p></div>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;border-top:2px solid #1C2433;padding:16px 0 0 0"><h3 style="font-size:28px;font-weight:600">A clean test of form</h3><p style="font-size:24px;line-height:1.4;color:#4A5363">At 4k, S3 retrieves the gold as often as S2 but spends 19 % of its tokens on groupings: Δ isolates the context’s form.</p></div>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;border-top:2px solid #1C2433;padding:16px 0 0 0"><h3 style="font-size:28px;font-weight:600">H6 not supported</h3><p style="font-size:24px;line-height:1.4;color:#4A5363">The small Maritaca model is not hurt more by S3 (+0.005 vs −0.002). The interaction is underpowered.</p></div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Results · 299 of 715 S3 contexts are identical to S2’s at 4k (same answers by construction)</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">16</p>
+
+</section>
+</div></div>
+<p class="notes"><b>16 · variants</b> — The secondary strategies give null results. S3 adds grouping chunks, S2c and S4 add the caput’s first sentence to paragraph chunks. None of the differences is significant and the signs flip between generators. At 4k, S3 and S2 hold the gold equally often, so this is a fair test of whether explanatory grouping text helps the generator; it does not. One caveat for reviewers: 299 of the S3 contexts are identical to S2’s at 4k, which dilutes any S3 effect; the 16k point, where S3 also retrieves more, is planned. H6, the size interaction, shows no sign in the predicted direction, but an interaction needs far more data than we have, so we report it as not supported rather than as evidence of no effect.</p>
+<div class="frame"><div class="slide"><section id="closedbook" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Result 4 · what retrieval buys</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">Retrieval mainly removes contradictions; recall gains depend on the model</h2>
+</div>
+<div style="display:flex;gap:56px">
+<div style="width:1040px;display:flex;flex-direction:column;gap:22px">
+<div style="display:flex;gap:32px;align-items:center">
+<p style="font-size:24px;color:#4A5363">Answers contradicting ≥ 1 gold nugget</p>
+<div style="display:flex;gap:10px;align-items:center"><div style="width:24px;height:24px;background:#7D8696;border-radius:4px"></div><p style="font-size:24px">Closed book</p></div>
+<div style="display:flex;gap:10px;align-items:center"><div style="width:24px;height:24px;background:#2E62A8;border-radius:4px"></div><p style="font-size:24px">S2 4k</p></div>
+</div>
+<div style="display:flex;gap:24px;align-items:center"><p style="width:200px;font-size:26px;text-align:right">Sabiá-4</p><div style="flex:1;display:flex;flex-direction:column;gap:4px"><div style="display:flex;gap:12px;align-items:center"><div style="width:669px;height:26px;background:#7D8696;border-radius:0 4px 4px 0"></div><p style="font-size:24px">38 %</p></div><div style="display:flex;gap:12px;align-items:center"><div style="width:196px;height:26px;background:#2E62A8;border-radius:0 4px 4px 0"></div><p style="font-size:24px">11 %</p></div></div></div>
+<div style="display:flex;gap:24px;align-items:center"><p style="width:200px;font-size:26px;text-align:right">Sabiazinho-4</p><div style="flex:1;display:flex;flex-direction:column;gap:4px"><div style="display:flex;gap:12px;align-items:center"><div style="width:665px;height:26px;background:#7D8696;border-radius:0 4px 4px 0"></div><p style="font-size:24px">38 %</p></div><div style="display:flex;gap:12px;align-items:center"><div style="width:208px;height:26px;background:#2E62A8;border-radius:0 4px 4px 0"></div><p style="font-size:24px">12 %</p></div></div></div>
+<div style="display:flex;gap:24px;align-items:center"><p style="width:200px;font-size:26px;text-align:right">Terra</p><div style="flex:1;display:flex;flex-direction:column;gap:4px"><div style="display:flex;gap:12px;align-items:center"><div style="width:516px;height:26px;background:#7D8696;border-radius:0 4px 4px 0"></div><p style="font-size:24px">30 %</p></div><div style="display:flex;gap:12px;align-items:center"><div style="width:140px;height:26px;background:#2E62A8;border-radius:0 4px 4px 0"></div><p style="font-size:24px">8 %</p></div></div></div>
+<div style="display:flex;gap:24px;align-items:center"><p style="width:200px;font-size:26px;text-align:right">Luna</p><div style="flex:1;display:flex;flex-direction:column;gap:4px"><div style="display:flex;gap:12px;align-items:center"><div style="width:466px;height:26px;background:#7D8696;border-radius:0 4px 4px 0"></div><p style="font-size:24px">27 %</p></div><div style="display:flex;gap:12px;align-items:center"><div style="width:149px;height:26px;background:#2E62A8;border-radius:0 4px 4px 0"></div><p style="font-size:24px">9 %</p></div></div></div>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:24px">
+<h3 style="font-size:28px;font-weight:600">Recall, closed book → S2</h3>
+<table style="font-size:24px;width:568px;color:#1C2433;font-variant-numeric:tabular-nums">
+<tr style="background:#ECE8DF"><th style="width:52%">Generator</th><th style="width:48%;text-align:right">Δ V_strict (p)</th></tr>
+<tr><td>Sabiazinho-4</td><td style="text-align:right">+0.095 (&lt; .001)</td></tr>
+<tr><td>Sabiá-4</td><td style="text-align:right">+0.078 (&lt; .001)</td></tr>
+<tr><td>Luna</td><td style="text-align:right">+0.041 (.011)</td></tr>
+<tr><td>Terra</td><td style="text-align:right">−0.010 (.56)</td></tr>
+</table>
+<p style="font-size:24px;line-height:1.45;color:#4A5363">Terra answers about as well from memory: its cutoff (Feb 2026) postdates the public Q&amp;A, so contamination is plausible.</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Results · 715 questions · S1 contexts give the same picture (8–14 % contradictions)</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">17</p>
+
+</section>
+</div></div>
+<p class="notes"><b>17 · closedbook</b> — The controls tell us what retrieval does here. Closed-book answers contradict at least one gold fact in 27 to 38 percent of questions; with retrieval it drops to 8 to 14 percent, for every generator. Recall improves a lot for the Maritaca models and moderately for Luna, but not for Terra, whose closed-book score is as high as with retrieval. Terra’s knowledge cutoff is after the Q&amp;A was published, so it may have seen it; this is a contamination caveat for closed-book numbers only, since the RAG answers are paired against each other with the same model. For an applied tax assistant the contradiction drop is arguably the most important effect.</p>
+<div class="frame"><div class="slide"><section id="ceiling" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Result 5 · why the gain is small</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">Two limits that segmentation does not touch</h2>
+</div>
+<p style="font-size:24px;line-height:1.45;color:#4A5363">Method: the same judge labels the gold nuggets against the <b style="color:#1C2433">context</b> instead of the answer. This splits answer recall into what the context holds and what the generator uses.</p>
+<div style="display:flex;gap:40px">
+<div style="flex:1;display:flex;flex-direction:column;gap:14px;background:#FFFDF8;padding:32px;border:1px solid #DDD8CC;border-radius:12px">
+<p style="font-size:24px;font-weight:600;color:#2E62A8">Limit 1 · what the context holds</p>
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.05">0.48</p>
+<p style="font-size:24px;line-height:1.4;color:#4A5363">of vital nuggets fully supported by the <b style="color:#1C2433">oracle</b> context (S1 0.40, S2 0.41). S2 adds only +0.014 of content.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:14px;background:#FFFDF8;padding:32px;border:1px solid #DDD8CC;border-radius:12px">
+<p style="font-size:24px;font-weight:600;color:#2E62A8">Limit 2 · what the generator uses</p>
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.05">48–65 %</p>
+<p style="font-size:24px;line-height:1.4;color:#4A5363">of the context-supported vital nuggets appear in the answer. Higher on S2 than S1 for three of four generators.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:14px;background:#FFFDF8;padding:32px;border:1px solid #DDD8CC;border-radius:12px">
+<p style="font-size:24px;font-weight:600;color:#2E62A8">Check · leakage</p>
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.05">2–6 %</p>
+<p style="font-size:24px;line-height:1.4;color:#4A5363">of answer support is for nuggets the context does not support: RAG answers come from the context.</p>
+</div>
+</div>
+<p style="font-size:24px;line-height:1.45;color:#4A5363"><b style="color:#1C2433">Answer follows context.</b> Answer V_strict is 0.07–0.13 when the context supports no vital nugget, 0.26–0.34 when it supports some, 0.54–0.72 when it supports all (Spearman 0.53–0.67 per question).</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Results · context support with prompt assign_ctx_v1; oracle = cited articles cut to 4k tokens (80 % of gold articles fit)</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">18</p>
+
+</section>
+</div></div>
+<p class="notes"><b>18 · ceiling</b> — To understand the small effect we scored the contexts themselves: the judge checks each gold nugget against the context. Two limits appear. First, even the oracle context, the cited articles, fully supports fewer than half the vital nuggets at 4k; S2’s retrieval gain translates into very little extra content. Second, generators state only about half to two thirds of what their context supports. Leakage is low, so the RAG answers really do come from the context. And answer quality tracks context quality closely. The first limit raised an obvious question from a reviewer’s point of view: is that 48 percent an artefact of our oracle, our corpus or the context judge? The robustness section tests exactly that.</p>
+<div class="frame"><div class="slide"><section id="decomposition" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Result 5 · mechanism</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">S2 helps the generator use the facts it already has</h2>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;color:#4A5363">552 questions, by how context support changes from S1 to S2</p>
+<div style="display:flex;gap:4px">
+<div style="width:1434px;height:72px;background:#2E62A8;border-radius:6px 0 0 6px"></div>
+<div style="width:140px;height:72px;background:#7FA6D8"></div>
+<div style="width:82px;height:72px;background:#B85F22;border-radius:0 6px 6px 0"></div>
+</div>
+<div style="display:flex;gap:40px">
+<p style="flex:1;font-size:24px;line-height:1.4"><b>479 unchanged</b> · <span style="color:#4A5363">carry most of the answer gain</span></p>
+<p style="width:330px;font-size:24px;line-height:1.4"><b>47 improved</b> · <span style="color:#4A5363">answers +0.04 to +0.13</span></p>
+<p style="width:330px;font-size:24px;line-height:1.4"><b>26 worsened</b> · <span style="color:#4A5363">−0.05 to −0.11</span></p>
+</div>
+</div>
+<div style="display:flex;gap:40px">
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;border-top:2px solid #1C2433;padding:16px 0 0 0"><h3 style="font-size:28px;font-weight:600">Same facts, better answers</h3><p style="font-size:24px;line-height:1.4;color:#4A5363">In the unchanged group: Luna +0.024 of its +0.025; Sabiá-4 +0.009 of +0.016.</p></div>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;border-top:2px solid #1C2433;padding:16px 0 0 0"><h3 style="font-size:28px;font-weight:600">More gold, more focused</h3><p style="font-size:24px;line-height:1.4;color:#4A5363">There S2 still brings +0.094 article recall: the right provisions, in smaller chunks.</p></div>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;border-top:2px solid #1C2433;padding:16px 0 0 0"><h3 style="font-size:28px;font-weight:600">Carried into citations</h3><p style="font-size:24px;line-height:1.4;color:#4A5363">S2 raises the recall of cited gold articles by 0.05–0.09 for every generator.</p></div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Results · questions with gold and both context-support scores · cited texts scored with the retrieval matcher</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">19</p>
+
+</section>
+</div></div>
+<p class="notes"><b>19 · decomposition</b> — This decomposition is the mechanism result. Of 552 questions, the set of nuggets the context supports changes from S1 to S2 in only 73. Where it improves, answers improve; where it worsens, they get worse, as expected. But most of the overall S2 gain comes from the 479 questions where the context supports the same nuggets under both strategies. So S2 does not mainly bring new facts; it presents them in a form the generator uses better: smaller, focused units, and more of the cited provisions. The citation analysis agrees: answers cite more of the gold articles under S2. This also explains why the effect is bounded: segmentation changes form, not the content ceiling.</p>
+<div class="frame"><div class="slide"><section id="robust-overview" data-transition="fade" style="background:#1C2433;color:#F1EEE6;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#8DB3E8">Robustness · overview</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15;color:#F1EEE6">Every link of the LLM-made measurement was attacked separately</h2>
+</div>
+<div style="display:flex;flex-direction:column">
+<div style="display:flex;gap:32px;border-bottom:1px solid #4A5468;padding:0 0 12px 0"><p style="width:430px;font-size:24px;font-weight:600;color:#8DB3E8">Threat</p><p style="width:640px;font-size:24px;font-weight:600;color:#8DB3E8">Check</p><p style="flex:1;font-size:24px;font-weight:600;color:#8DB3E8">Outcome for S1 → S2</p></div>
+<div style="display:flex;gap:32px;border-bottom:1px solid #4A5468;padding:14px 0"><p style="width:430px;font-size:26px">Clustered questions</p><p style="width:640px;font-size:24px;color:#C9CED8">Chapter-cluster bootstrap; per-chapter breakdown</p><p style="flex:1;font-size:24px">Holds; no chapter carries it</p></div>
+<div style="display:flex;gap:32px;border-bottom:1px solid #4A5468;padding:14px 0"><p style="width:430px;font-size:26px">One nugget type drives it</p><p style="width:640px;font-size:24px;color:#C9CED8">Subsets: no form-filling nuggets, stable-only, unflagged</p><p style="flex:1;font-size:24px">Holds, same size</p></div>
+<div style="display:flex;gap:32px;border-bottom:1px solid #4A5468;padding:14px 0"><p style="width:430px;font-size:26px">Noisy nuggets</p><p style="width:640px;font-size:24px;color:#C9CED8">Random deletion, vital ↔ okay flips, 1,000 replicates</p><p style="flex:1;font-size:24px">Survives 15–20 % damage</p></div>
+<div style="display:flex;gap:32px;border-bottom:1px solid #4A5468;padding:14px 0"><p style="width:430px;font-size:26px">Nugget-creator bias</p><p style="width:640px;font-size:24px;color:#C9CED8">Rescore with Gemini- and Qwen-made nugget sets</p><p style="flex:1;font-size:24px">Holds; Terra turns significant</p></div>
+<div style="display:flex;gap:32px;border-bottom:1px solid #4A5468;padding:14px 0"><p style="width:430px;font-size:26px">Judge bias</p><p style="width:640px;font-size:24px;color:#C9CED8">Second judge (Gemini 3.1 Pro) on 280 real answers</p><p style="flex:1;font-size:24px">κ = 0.90; both give the same Δ</p></div>
+<div style="display:flex;gap:32px;padding:14px 0"><p style="width:430px;font-size:26px">Ceiling is an artefact</p><p style="width:640px;font-size:24px;color:#C9CED8">Context-judge tests, 16k oracle, corpus search, cause audit</p><p style="flex:1;font-size:24px">It is the Q&amp;A’s own content</p></div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#A9B0BD">Robustness · checks fixed in the evaluation plan before scoring, except the ceiling audit (added after slide 18)</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#A9B0BD;text-align:right">20</p>
+
+</section>
+</div></div>
+<p class="notes"><b>20 · robust-overview</b> — This slide is the map of the robustness section. The measurement chain has three LLM-made parts, the nuggets, the vital labels and the judge, plus the statistical unit. We attacked each one separately: cluster-aware statistics, nugget subsets, synthetic damage to the nugget set, two alternative nugget creators from other model families, and a second judge on real answers. The last row is different: it is not about S1 versus S2 but about the low ceiling, and it was added after we saw the context-support result, so it is exploratory. The next slides give the numbers for each row.</p>
+<div class="frame"><div class="slide"><section id="robust-subsets" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Robustness 1 · subsets and clusters</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">The gain does not hinge on one nugget type, and the mechanism slices are flat</h2>
+</div>
+<table style="font-size:26px;width:1664px;color:#1C2433;font-variant-numeric:tabular-nums">
+<tr style="background:#ECE8DF"><th style="width:40%">S1 → S2, Δ V_strict</th><th style="width:15%;text-align:right">Luna</th><th style="width:15%;text-align:right">Sabiá-4</th><th style="width:15%;text-align:right">Terra</th><th style="width:15%;text-align:right">Sabiazinho-4</th></tr>
+<tr><td>All nuggets (714 questions)</td><td style="text-align:right"><b>+0.028</b></td><td style="text-align:right"><b>+0.027</b></td><td style="text-align:right">+0.016</td><td style="text-align:right">+0.005</td></tr>
+<tr><td>Without form-filling (PGD) nuggets (613)</td><td style="text-align:right"><b>+0.035</b></td><td style="text-align:right"><b>+0.026</b></td><td style="text-align:right">+0.019</td><td style="text-align:right">+0.004</td></tr>
+<tr><td>Stable-only nuggets (made by all 3 families)</td><td style="text-align:right"><b>+0.028</b></td><td style="text-align:right"><b>+0.028</b></td><td style="text-align:right">–</td><td style="text-align:right">–</td></tr>
+<tr><td>Nuggets no auditor flagged</td><td style="text-align:right"><b>+0.033</b></td><td style="text-align:right"><b>+0.025</b></td><td style="text-align:right">–</td><td style="text-align:right">–</td></tr>
+</table>
+<div style="display:flex;gap:32px">
+<div style="flex:1;display:flex;gap:20px;align-items:baseline;background:#ECE8DF;padding:20px 28px;border-radius:10px"><p style="font-size:24px;font-weight:600">H5 · temporal nuggets (302 q.)</p><p style="font-size:24px;color:#4A5363">−0.01 to +0.02, none significant</p></div>
+<div style="flex:1;display:flex;gap:20px;align-items:baseline;background:#ECE8DF;padding:20px 28px;border-radius:10px"><p style="font-size:24px;font-weight:600">H5 · condition nuggets (235 q.)</p><p style="font-size:24px;color:#4A5363">+0.004 to +0.015, none significant</p></div>
+</div>
+<div style="display:flex;gap:40px">
+<p style="flex:1;font-size:24px;line-height:1.45;color:#4A5363"><b style="color:#1C2433">Bold = p &lt; .05.</b> Terra is significant under A_strict (+0.019, p .036), which ignores the vital label.</p>
+<p style="flex:1;font-size:24px;line-height:1.45;color:#4A5363"><b style="color:#1C2433">By chapter:</b> S2 &gt; S1 in 19–24 of 48 chapters per generator; no single chapter carries the gain.</p>
+<p style="flex:1;font-size:24px;line-height:1.45;color:#4A5363"><b style="color:#1C2433">H5:</b> no extra gain where sub-units should matter most; wrong-year values are too rare to test (0–4 per run).</p>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Robustness · PGD = instructions for the tax-return software, not in any legal text</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">21</p>
+
+</section>
+</div></div>
+<p class="notes"><b>21 · robust-subsets</b> — First group of checks. Removing nuggets about the tax-return software, which no legal text can support, makes the gain slightly larger. Restricting to nuggets that all three creator families produced, or to nuggets no auditor flagged, gives the same result. Under A_strict, which ignores the vital label, Terra becomes significant too. The gain is spread across chapters rather than concentrated in one. The two grey rows test H5, the mechanism we expected: sub-article chunks should help most on period-specific values and on conditions and exceptions. They do not: the differences there are small and not significant, and the wrong-year substitutions we wanted to count are too rare to test. So H5 is not supported.</p>
+<div class="frame"><div class="slide"><section id="robust-perturb" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:36px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Robustness 2 · damaged nugget sets</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">The result survives 15–20 % nugget damage, the bar set in the plan</h2>
+</div>
+<div style="display:flex;gap:48px">
+<div style="display:flex;flex-direction:column;gap:10px">
+<div style="position:relative;width:980px;height:520px">
+<svg aria-label="Line chart: share of 1,000 replicates in which S2 minus S1 stays significant, against the share of nuggets randomly deleted. Luna: 1.00, 0.95, 0.89, 0.78, 0.60, 0.48, 0.32 at 0, 10, 15, 20, 30, 40, 50 percent. Sabiá-4: 1.00, 0.97, 0.93, 0.86, 0.79, 0.68, 0.60." width="980" height="520" viewBox="0 0 980 520" style="position:absolute;left:0;top:0;width:980px;height:520px">
+<rect x="332" y="40" width="84" height="400" fill="#E3ECF7"/>
+<line x1="80" y1="340" x2="940" y2="340" stroke="#DDD8CC" stroke-width="1"/>
+<line x1="80" y1="140" x2="940" y2="140" stroke="#DDD8CC" stroke-width="1"/>
+<line x1="80" y1="40" x2="940" y2="40" stroke="#DDD8CC" stroke-width="1"/>
+<line x1="80" y1="240" x2="940" y2="240" stroke="#9AA3B2" stroke-width="2" stroke-dasharray="8 6"/>
+<line x1="80" y1="440" x2="940" y2="440" stroke="#9AA3B2" stroke-width="2"/>
+<polyline points="80,40 248,52 332,68 416,96 584,124 752,168 920,200" fill="none" stroke="#1C2433" stroke-width="3"/>
+<polyline points="80,40 248,60 332,84 416,128 584,200 752,248 920,312" fill="none" stroke="#1F7A6F" stroke-width="3"/>
+<g fill="#1C2433" stroke="#F6F4EF" stroke-width="2"><circle cx="248" cy="52" r="7"/><circle cx="332" cy="68" r="7"/><circle cx="416" cy="96" r="7"/><circle cx="584" cy="124" r="7"/><circle cx="752" cy="168" r="7"/><circle cx="920" cy="200" r="7"/></g>
+<g fill="#1F7A6F" stroke="#F6F4EF" stroke-width="2"><circle cx="80" cy="40" r="7"/><circle cx="248" cy="60" r="7"/><circle cx="332" cy="84" r="7"/><circle cx="416" cy="128" r="7"/><circle cx="584" cy="200" r="7"/><circle cx="752" cy="248" r="7"/><circle cx="920" cy="312" r="7"/></g>
+</svg>
+<p style="position:absolute;left:0px;top:323px;width:64px;font-size:24px;color:#5F6673;text-align:right">.25</p>
+<p style="position:absolute;left:0px;top:223px;width:64px;font-size:24px;color:#5F6673;text-align:right">.50</p>
+<p style="position:absolute;left:0px;top:123px;width:64px;font-size:24px;color:#5F6673;text-align:right">.75</p>
+<p style="position:absolute;left:0px;top:23px;width:64px;font-size:24px;color:#5F6673;text-align:right">1.0</p>
+<p style="position:absolute;left:40px;top:452px;width:80px;font-size:24px;color:#5F6673;text-align:center">0 %</p>
+<p style="position:absolute;left:208px;top:452px;width:80px;font-size:24px;color:#5F6673;text-align:center">10 %</p>
+<p style="position:absolute;left:376px;top:452px;width:80px;font-size:24px;color:#5F6673;text-align:center">20 %</p>
+<p style="position:absolute;left:544px;top:452px;width:80px;font-size:24px;color:#5F6673;text-align:center">30 %</p>
+<p style="position:absolute;left:712px;top:452px;width:80px;font-size:24px;color:#5F6673;text-align:center">40 %</p>
+<p style="position:absolute;left:880px;top:452px;width:80px;font-size:24px;color:#5F6673;text-align:center">50 %</p>
+<p style="position:absolute;left:760px;top:120px;width:160px;font-size:24px;font-weight:600;color:#1C2433">Sabiá-4</p>
+<p style="position:absolute;left:620px;top:262px;width:140px;font-size:24px;font-weight:600;color:#1F7A6F">Luna</p>
+<p style="position:absolute;left:90px;top:248px;width:150px;font-size:24px;color:#5F6673">break-even</p>
+<p style="position:absolute;left:300px;top:390px;width:150px;font-size:24px;color:#24508C;text-align:center">plan bar</p>
+</div>
+<p style="font-size:24px;color:#4A5363">Share of 1,000 replicates still significant (p &lt; .05) vs nuggets randomly deleted</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:22px">
+<h3 style="font-size:28px;font-weight:600">Other damage</h3>
+<table style="font-size:24px;width:636px;color:#1C2433;font-variant-numeric:tabular-nums">
+<tr style="background:#ECE8DF"><th style="width:50%">Replicates sig.</th><th style="width:25%;text-align:right">Luna</th><th style="width:25%;text-align:right">Sabiá-4</th></tr>
+<tr><td>vital ↔ okay 10 %</td><td style="text-align:right">0.95</td><td style="text-align:right">0.97</td></tr>
+<tr><td>vital ↔ okay 20 %</td><td style="text-align:right">0.79</td><td style="text-align:right">0.90</td></tr>
+<tr><td>vital ↔ okay 30 %</td><td style="text-align:right">0.65</td><td style="text-align:right">0.81</td></tr>
+<tr><td>all conditions deleted</td><td style="text-align:right">1.00</td><td style="text-align:right">1.00</td></tr>
+</table>
+<p style="font-size:24px;line-height:1.45;color:#4A5363">The <b style="color:#1C2433">sign</b> is kept in every replicate. Terra is fragile (0.34–0.64).</p>
+<p style="font-size:24px;line-height:1.45;color:#4A5363">Measured nugget error before repair was 1.3 %: far below the damage tolerated.</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Robustness · paired t-test per replicate, V_strict</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">22</p>
+
+</section>
+</div></div>
+<p class="notes"><b>22 · robust-perturb</b> — Here we damage the nugget set on purpose: delete a random share of nuggets, or flip vital and okay labels, a thousand times each, and count how often the S1 to S2 difference stays significant. The evaluation plan set the bar at 15 to 20 percent damage before any scoring. Both significant generators clear it; the point where fewer than half the replicates stay significant is around 40 percent deletion for Luna and beyond 50 percent for Sabiá-4. The direction of the effect never flips. For scale, the auditors estimated the real nugget error rate at about 1.3 percent before repair. Terra’s result is fragile under this test, consistent with its borderline p-value.</p>
+<div class="frame"><div class="slide"><section id="robust-crossset" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Robustness 3 · nugget creator and judge</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">The conclusion holds whoever writes the nuggets and whoever judges</h2>
+</div>
+<div style="display:flex;gap:56px">
+<div style="width:1000px;display:flex;flex-direction:column;gap:20px">
+<h3 style="font-size:28px;font-weight:600">S1 → S2 under three nugget sets (715 questions)</h3>
+<table style="font-size:24px;width:1000px;color:#1C2433;font-variant-numeric:tabular-nums">
+<tr style="background:#ECE8DF"><th style="width:30%">Nugget creator</th><th style="width:35%;text-align:right">Terra</th><th style="width:35%;text-align:right">Sabiá-4</th></tr>
+<tr><td>GPT-6.1 Sol (primary)</td><td style="text-align:right">+0.016 (−0.004, 0.037) p .11</td><td style="text-align:right"><b>+0.027</b> (0.007, 0.047) p .009</td></tr>
+<tr><td>Gemini 3.1 Pro</td><td style="text-align:right"><b>+0.024</b> (0.004, 0.045) p .020</td><td style="text-align:right"><b>+0.023</b> (0.003, 0.043) p .022</td></tr>
+<tr><td>Qwen3.8-Max</td><td style="text-align:right"><b>+0.026</b> (0.006, 0.047) p .010</td><td style="text-align:right"><b>+0.028</b> (0.008, 0.048) p .007</td></tr>
+</table>
+<p style="font-size:24px;line-height:1.45;color:#4A5363">Same sign everywhere; chapter-cluster CIs above 0 under both other sets. Ranking of the 4 runs identical under all three sets (Kendall τ = 1). The primary set is the most conservative.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:20px">
+<h3 style="font-size:28px;font-weight:600">Second judge on real answers</h3>
+<div style="display:flex;flex-direction:column;gap:4px;border-left:4px solid #2E62A8;padding:0 0 0 20px">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.05">κ = 0.90</p>
+<p style="font-size:24px;line-height:1.4;color:#4A5363">94.7 % agreement, 1,364 labels on 280 answers</p>
+</div>
+<p style="font-size:24px;line-height:1.45;color:#4A5363">Disagreements are adjacent labels (partial ↔ not support). Both judges give the same S1 → S2 Δ on this 70-question sample (n.s. for both).</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Robustness · 95 % paired bootstrap CI · second judge Gemini 3.1 Pro on stratified_70 × {Terra, Sabiá-4} × {S1, S2}</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">23</p>
+
+</section>
+</div></div>
+<p class="notes"><b>23 · robust-crossset</b> — Two threats specific to LLM-made evaluation. First, the nugget creator: a judge could favour answers phrased like the nuggets, or the nuggets could carry one model’s view of the answer. We rescored S1 and S2 for two generators with nugget sets written independently by Gemini 3.1 Pro and by Qwen3.8-Max. The difference keeps its sign and is significant under both; Terra becomes significant; the ranking of runs is identical. Second, the judge: Gemini 3.1 Pro relabelled 280 real answers; agreement with Flash is kappa 0.90. To be transparent: on this small 70-question sample both judges show a slightly negative, non-significant S1 to S2 difference; the point of the check is that they agree with each other, not the sign on 70 questions.</p>
+<div class="frame"><div class="slide"><section id="ctxaudit" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Robustness 4 · is the ceiling an artefact?</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">The context judge is reliable; the 4k cut hid 12 points of support</h2>
+</div>
+<div style="display:flex;gap:56px">
+<div style="flex:1;display:flex;flex-direction:column;gap:20px">
+<h3 style="font-size:28px;font-weight:600">a · Context judge on known answers</h3>
+<table style="font-size:24px;width:800px;color:#1C2433;font-variant-numeric:tabular-nums">
+<tr style="background:#ECE8DF"><th style="width:64%">Test</th><th style="width:36%;text-align:right">Result</th></tr>
+<tr><td>Corrupted gold answers as context (324)</td><td style="text-align:right">BA 98.5 %</td></tr>
+<tr><td>Unrelated legal text as context (70)</td><td style="text-align:right">99.1 % not support</td></tr>
+<tr><td>Source sentence hidden in 16k of law (60)</td><td style="text-align:right">93 % found*</td></tr>
+</table>
+<p style="font-size:24px;line-height:1.45;color:#4A5363">* 65 % support + 28 % partial; the partials are list fragments without their subject.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:20px">
+<h3 style="font-size:28px;font-weight:600">b, c · Oracle without the cut, two judges</h3>
+<table style="font-size:24px;width:800px;color:#1C2433;font-variant-numeric:tabular-nums">
+<tr style="background:#ECE8DF"><th style="width:46%">Vital nuggets (212)</th><th style="width:18%;text-align:right">support</th><th style="width:18%;text-align:right">partial</th><th style="width:18%;text-align:right">not</th></tr>
+<tr><td>Oracle 4k, Flash</td><td style="text-align:right">38.2 %</td><td style="text-align:right">17.5 %</td><td style="text-align:right">44.3 %</td></tr>
+<tr style="background:#E3ECF7"><td><b>Oracle 16k, Flash</b></td><td style="text-align:right"><b>50.5 %</b></td><td style="text-align:right">20.8 %</td><td style="text-align:right">28.3 %</td></tr>
+<tr><td>Oracle 16k, 3.1 Pro</td><td style="text-align:right">49.5 %</td><td style="text-align:right">19.8 %</td><td style="text-align:right">30.2 %</td></tr>
+</table>
+<p style="font-size:24px;line-height:1.45;color:#4A5363">16k holds 94.5 % of the gold articles (4k: 80 %). Judges agree on 86.6 % of labels (κ 0.79).</p>
+</div>
+</div>
+<p style="font-size:24px;line-height:1.45;color:#1C2433;background:#ECE8DF;padding:20px 28px;border-radius:10px">Even with all cited articles and a validated judge, <b>28–30 % of vital nuggets are not stated by the cited provisions</b>. Why?</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Robustness · exploratory, after slide 18 · 57 questions of stratified_70 with resolvable references · $3.86</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">24</p>
+
+</section>
+</div></div>
+<p class="notes"><b>24 · ctxaudit</b> — The ceiling result invited a sceptical question: maybe the context judge is bad at finding facts in long legal text, or our oracle is too short. We tested both on a 57-question sample. The context judge passes the same kind of known-answer tests as the answer judge, at 98.5 percent balanced accuracy; it does not invent support from unrelated law; and when we hide the Q&amp;A’s own source sentence in a 16k legal context it finds it 93 percent of the time. The 4k cut did matter: with a 16k oracle, support rises from 38 to about 50 percent, and a second judge agrees. So the ceiling was partly our oracle construction, but about 30 percent of vital nuggets remain unsupported by the cited law. The next slide classifies why.</p>
+<div class="frame"><div class="slide"><section id="prcontent" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:36px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Robustness 4 · what the official answers rest on</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">About one vital fact in six is not stated in any legal text of the corpus</h2>
+</div>
+<div style="display:flex;gap:56px">
+<div style="width:1100px;display:flex;flex-direction:column;gap:14px">
+<p style="font-size:24px;color:#4A5363">212 vital nuggets, oracle 16k · cause of non-support: corpus search, then classifier, then review</p>
+<div style="display:flex;gap:20px;align-items:center"><p style="width:380px;font-size:24px;text-align:right">Supported by the cited law</p><div style="width:600px;height:30px;background:#2E62A8;border-radius:0 4px 4px 0"></div><p style="font-size:24px">50.5 %</p></div>
+<div style="display:flex;gap:20px;align-items:center"><p style="width:380px;font-size:24px;text-align:right">Partly supported</p><div style="width:247px;height:30px;background:#7FA6D8;border-radius:0 4px 4px 0"></div><p style="font-size:24px">20.8 %</p></div>
+<div style="display:flex;gap:20px;align-items:center"><p style="width:380px;font-size:24px;text-align:right">Cited, cut from our oracle</p><div style="width:68px;height:30px;background:#9AA3B2;border-radius:0 4px 4px 0"></div><p style="font-size:24px">5.7 %</p></div>
+<div style="display:flex;gap:20px;align-items:center"><p style="width:380px;font-size:24px;text-align:right">In another, uncited text</p><div style="width:84px;height:30px;background:#B85F22;border-radius:0 4px 4px 0"></div><p style="font-size:24px">7.1 %</p></div>
+<div style="display:flex;gap:20px;align-items:center"><p style="width:380px;font-size:24px;text-align:right;font-weight:600">Receita’s interpretation</p><div style="width:112px;height:30px;background:#8A4516;border-radius:0 4px 4px 0"></div><p style="font-size:24px">9.4 %</p></div>
+<div style="display:flex;gap:20px;align-items:center"><p style="width:380px;font-size:24px;text-align:right;font-weight:600">Tax-software instructions</p><div style="width:45px;height:30px;background:#8A4516;border-radius:0 4px 4px 0"></div><p style="font-size:24px">3.8 %</p></div>
+<div style="display:flex;gap:20px;align-items:center"><p style="width:380px;font-size:24px;text-align:right;font-weight:600">No basis in the corpus</p><div style="width:29px;height:30px;background:#8A4516;border-radius:0 4px 4px 0"></div><p style="font-size:24px">2.4 %</p></div>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:24px">
+<div style="display:flex;flex-direction:column;gap:4px;border-left:4px solid #8A4516;padding:0 0 0 20px">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.05">15.6 %</p>
+<p style="font-size:24px;line-height:1.4;color:#4A5363">beyond any legal text (CI 8.2–25.7 %, 20 of 57 questions)</p>
+</div>
+<p style="font-size:24px;line-height:1.45;color:#4A5363">E.g. Q350: a parent-in-law is a dependant only in a joint return; the law lists only “parents”.</p>
+<p style="font-size:24px;line-height:1.45;color:#4A5363">The low ceiling is mostly the Q&amp;A going beyond its citations, not the judge.</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Robustness · 57 questions, CI = question-cluster bootstrap · classifier Gemini 3.1 Pro, 17 of 60 causes changed on review</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">25</p>
+
+</section>
+</div></div>
+<p class="notes"><b>25 · prcontent</b> — For the 60 unsupported vital nuggets we searched the whole corpus, lexically and densely, outside the cited articles, and had a strong model classify the cause with all the evidence; every classification was then re-checked against that evidence and 17 were changed. About half of the vital facts are fully stated by the cited law and a fifth in part. A small share was our own oracle construction. About one in fourteen is stated in legislation the answer does not cite. And about one in six is not in any legal text: it is the tax authority’s application of the law to the case, software instructions, or an administrative position. Q350 is a good example: the law says parents; the authority infers parents-in-law via joint filing. This is a finding about the dataset itself and bounds every RAG system on it. Caveats: small sample, one question carries 12 of the 60, and the legal calls need a tax-law reader.</p>
+<div class="frame"><div class="slide"><section id="scorecard" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:36px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Synthesis · hypothesis scorecard</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">The main hypothesis holds, with a small effect; the mechanisms we expected do not</h2>
+</div>
+<table style="font-size:24px;width:1664px;color:#1C2433">
+<tr style="background:#ECE8DF"><th style="width:6%">ID</th><th style="width:30%">Hypothesis</th><th style="width:20%">Verdict</th><th style="width:44%">Evidence</th></tr>
+<tr><td><b>H1</b></td><td>S2 retrieves better</td><td style="color:#24508C"><b>Supported</b></td><td>+0.10–0.14 article recall at every budget, p &lt; .001</td></tr>
+<tr style="background:#E3ECF7"><td><b>H2</b></td><td><b>S2 answers better</b></td><td style="color:#24508C"><b>Supported, small</b></td><td>+0.02–0.03 V_strict; holds under damage, other creators, 2nd judge</td></tr>
+<tr><td><b>H3</b></td><td>Groupings explain</td><td style="color:#8A4516"><b>Not supported</b></td><td>S3 − S2 ≈ 0 at 4k; 16k not yet run</td></tr>
+<tr><td><b>H4</b></td><td>Caput sentence helps</td><td style="color:#8A4516"><b>Not supported</b></td><td>|Δ| ≤ 0.014, n.s., signs differ</td></tr>
+<tr><td><b>H5</b></td><td>Periods and conditions</td><td style="color:#8A4516"><b>Not supported</b></td><td>No extra gain on those nuggets; wrong-year errors too rare</td></tr>
+<tr><td><b>H6</b></td><td>Small models hurt by S3</td><td style="color:#8A4516"><b>Not supported</b></td><td>No sign in the predicted direction; underpowered</td></tr>
+</table>
+<div style="display:flex;gap:24px;align-items:center;background:#1C2433;padding:28px 36px;border-radius:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#8DB3E8;white-space:nowrap">Takeaway</p>
+<p style="font-size:28px;line-height:1.4;color:#F1EEE6">Sub-article chunks help the generator <b>use</b> the right provisions; they add few new facts. The ceiling is set by how far the official answers go beyond the law they cite.</p>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Synthesis · H3–H6 recorded before answer scoring</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">26</p>
+
+</section>
+</div></div>
+<p class="notes"><b>26 · scorecard</b> — Summary in one table. The precondition and the main hypothesis are supported: S2 retrieves better and answers better, robustly but modestly. None of the mechanism hypotheses we recorded in advance is supported: grouping chunks, the caput sentence, period and condition effects, and the size interaction all come out null at 4k. The mechanism we did find is different from the one we expected: S2 helps mainly by giving the generator smaller, focused units of the same facts. And the reason the gain is small is mostly in the data: the official answers state things that their cited provisions do not, which no segmentation can retrieve.</p>
+<div class="frame"><div class="slide"><section id="limitations" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Synthesis · threats to validity</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">What the evidence does not yet cover</h2>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:28px 56px">
+<div style="display:flex;flex-direction:column;gap:8px;border-top:2px solid #1C2433;padding:16px 0 0 0"><h3 style="font-size:28px;font-weight:600">Construct · LLM-made measurement</h3><p style="font-size:24px;line-height:1.45;color:#4A5363">No human calibration yet of nuggets or judge; synthetic corruptions are cleaner than real errors.</p></div>
+<div style="display:flex;flex-direction:column;gap:8px;border-top:2px solid #1C2433;padding:16px 0 0 0"><h3 style="font-size:28px;font-weight:600">Internal · one retrieval setting</h3><p style="font-size:24px;line-height:1.45;color:#4A5363">One embedding model, dense only, answers at 4k only; Terra on S1 / S2 only (trimmed grid).</p></div>
+<div style="display:flex;flex-direction:column;gap:8px;border-top:2px solid #1C2433;padding:16px 0 0 0"><h3 style="font-size:28px;font-weight:600">External · one domain, one year</h3><p style="font-size:24px;line-height:1.45;color:#4A5363">Income tax 2024, one authority’s Q&amp;A, Portuguese. Corpus = the cited law, not all IRPF law.</p></div>
+<div style="display:flex;flex-direction:column;gap:8px;border-top:2px solid #1C2433;padding:16px 0 0 0"><h3 style="font-size:28px;font-weight:600">Contamination</h3><p style="font-size:24px;line-height:1.45;color:#4A5363">GPT-5.6 may have seen the public Q&amp;A. It inflates closed book, not the paired S1 / S2 contrast.</p></div>
+<div style="display:flex;flex-direction:column;gap:8px;border-top:2px solid #1C2433;padding:16px 0 0 0"><h3 style="font-size:28px;font-weight:600">Ceiling audit is exploratory</h3><p style="font-size:24px;line-height:1.45;color:#4A5363">57 questions, wide CIs; one question holds 12 of 60 cases; legal calls need a tax-law expert.</p></div>
+<div style="display:flex;flex-direction:column;gap:8px;border-top:2px solid #1C2433;padding:16px 0 0 0"><h3 style="font-size:28px;font-weight:600">Small effect, few significant</h3><p style="font-size:24px;line-height:1.45;color:#4A5363">Two of four generators on the primary set; no multiplicity correction for secondary contrasts.</p></div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Synthesis · 6 truncated answers counted as empty (changes no mean by more than 0.003)</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">27</p>
+
+</section>
+</div></div>
+<p class="notes"><b>27 · limitations</b> — The limitations a reviewer will raise, grouped by validity type. The biggest is that the whole measurement is model-made: we have strong automatic evidence, but no human calibration sample yet; the 72 disagreements between the two judges are the natural starting point. Second, a single dense retriever and a single answer budget; a different embedding model or a reranker could change the size of the S2 effect. Third, generalisation: one domain and one year. Fourth, contamination: it matters for the closed-book interpretation, not for the paired comparison between strategies, which uses the same model and questions. Fifth, the ceiling audit is exploratory and small. Finally, the effect is small and only two of four generators are significant on the primary set; we present it as a modest, robust effect, not a large one.</p>
+<div class="frame"><div class="slide"><section id="reproducibility" style="background:#ECE8DF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:44px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Synthesis · cost and reproducibility</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">The full evaluation cost under $200 in LLM calls, all of it logged</h2>
+</div>
+<div style="display:flex">
+<div style="flex:1;display:flex;flex-direction:column;gap:4px;border-left:4px solid #2E62A8;padding:0 24px">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.05">$76.6</p>
+<p style="font-size:24px;color:#4A5363">nuggets: creation, audits, judge tests</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:4px;border-left:4px solid #2E62A8;padding:0 24px">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.05">$47.5</p>
+<p style="font-size:24px;color:#4A5363">answer generation, 25 runs + pilot</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:4px;border-left:4px solid #2E62A8;padding:0 24px">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.05">$59.8</p>
+<p style="font-size:24px;color:#4A5363">scoring and robustness, incl. ceiling audit</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:4px;border-left:4px solid #1C2433;padding:0 24px">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.05">≈ $184</p>
+<p style="font-size:24px;color:#4A5363">total, billed prices</p>
+</div>
+</div>
+<div style="display:flex;gap:48px">
+<div style="flex:1;display:flex;flex-direction:column;gap:8px"><h3 style="font-size:28px;font-weight:600">Pinned</h3><p style="font-size:24px;line-height:1.45;color:#4A5363">Model snapshots, single upstream provider, no fallbacks; temperature 0 or reasoning off.</p></div>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px"><h3 style="font-size:28px;font-weight:600">Cached</h3><p style="font-size:24px;line-height:1.45;color:#4A5363">Every call cached by request; reruns are byte-identical and cost nothing.</p></div>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px"><h3 style="font-size:28px;font-weight:600">Traced</h3><p style="font-size:24px;line-height:1.45;color:#4A5363">Each run has a manifest: git commit, config hash, input checksums; a cost ledger per stage.</p></div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Synthesis · OpenRouter flex endpoints for GPT / Gemini; Maritaca at BRL list price (≈ R$ 144); embedding endpoint not included</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">28</p>
+
+</section>
+</div></div>
+<p class="notes"><b>28 · reproducibility</b> — For reviewers interested in replicating or extending this: the full pipeline, from nuggetization to scoring, cost about 184 dollars in LLM calls, tracked call by call in ledgers. The largest item is not generation but evaluation, which is typical of nugget-based RAG evaluation with an LLM judge. Every call is cached, so all tables can be regenerated for free, and every run carries a manifest with the code commit and configuration. Retrieval and its evaluation regenerate in about half a minute. The embedding endpoint cost is not included in this figure.</p>
+<div class="frame"><div class="slide"><section id="next" style="background:#1C2433;color:#F1EEE6;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:44px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#8DB3E8">Next steps</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15;color:#F1EEE6">From a first full evaluation to paper claims</h2>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:32px 64px">
+<div style="display:flex;gap:24px;align-items:start;border-top:1px solid #4A5468;padding:18px 0 0 0"><p style="font-family:'Source Serif 4', Georgia, serif;font-size:36px;font-weight:600;color:#8DB3E8">1</p><div style="display:flex;flex-direction:column;gap:6px"><h3 style="font-size:28px;font-weight:600">Ceiling on all 596 questions</h3><p style="font-size:24px;line-height:1.4;color:#C9CED8">16k oracle context support; classify the partial nuggets (≈ $4)</p></div></div>
+<div style="display:flex;gap:24px;align-items:start;border-top:1px solid #4A5468;padding:18px 0 0 0"><p style="font-family:'Source Serif 4', Georgia, serif;font-size:36px;font-weight:600;color:#8DB3E8">2</p><div style="display:flex;flex-direction:column;gap:6px"><h3 style="font-size:28px;font-weight:600">The 16k point</h3><p style="font-size:24px;line-height:1.4;color:#C9CED8">S2 vs S3 where S3 also retrieves more; both Maritaca sizes + Luna (H3, H6)</p></div></div>
+<div style="display:flex;gap:24px;align-items:start;border-top:1px solid #4A5468;padding:18px 0 0 0"><p style="font-family:'Source Serif 4', Georgia, serif;font-size:36px;font-weight:600;color:#8DB3E8">3</p><div style="display:flex;flex-direction:column;gap:6px"><h3 style="font-size:28px;font-weight:600">Human calibration</h3><p style="font-size:24px;line-height:1.4;color:#C9CED8">The 72 judge disagreements; tax-law review of the cause classes</p></div></div>
+<div style="display:flex;gap:24px;align-items:start;border-top:1px solid #4A5468;padding:18px 0 0 0"><p style="font-family:'Source Serif 4', Georgia, serif;font-size:36px;font-weight:600;color:#8DB3E8">4</p><div style="display:flex;flex-direction:column;gap:6px"><h3 style="font-size:28px;font-weight:600">More models</h3><p style="font-size:24px;line-height:1.4;color:#C9CED8">A second embedding model; DeepSeek V4 generators</p></div></div>
+<div style="display:flex;gap:24px;align-items:start;border-top:1px solid #4A5468;padding:18px 0 0 0"><p style="font-family:'Source Serif 4', Georgia, serif;font-size:36px;font-weight:600;color:#8DB3E8">5</p><div style="display:flex;flex-direction:column;gap:6px"><h3 style="font-size:28px;font-weight:600">A fairer oracle</h3><p style="font-size:24px;line-height:1.4;color:#C9CED8">All cited articles before whole uncited documents</p></div></div>
+<div style="display:flex;gap:24px;align-items:start;border-top:1px solid #4A5468;padding:18px 0 0 0"><p style="font-family:'Source Serif 4', Georgia, serif;font-size:36px;font-weight:600;color:#8DB3E8">6</p><div style="display:flex;flex-direction:column;gap:6px"><h3 style="font-size:28px;font-weight:600">Release</h3><p style="font-size:24px;line-height:1.4;color:#C9CED8">BR-TaxQA-R v2.0 with corpus, chunks, nuggets and scores</p></div></div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#A9B0BD">Questions and comments welcome · [contact]</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#A9B0BD;text-align:right">29</p>
+
+</section>
+</div></div>
+<p class="notes"><b>29 · next</b> — What remains before this becomes a paper. First, extend the ceiling audit to all questions with the 16k oracle, which is cheap. Second, run the 16k point, where S3 also retrieves more, to give H3 and H6 a fair second chance. Third, a human calibration sample, starting with the judge disagreements, and a tax-law expert’s review of the cause classes. Fourth, a second embedding model and another generator family for generality. Fifth, fix the oracle construction so it never drops cited articles. And finally release the v2.0 dataset with corpus, chunks, nuggets and scores so others can reuse the evaluation.</p>
+<script>
+// cqw in transform is not supported everywhere: scale with JS as a fallback.
+function fit() { document.querySelectorAll('.frame').forEach(f => {
+  f.querySelector('.slide').style.transform = 'scale(' + f.clientWidth / 1920 + ')'; }); }
+addEventListener('resize', fit); fit();
+</script>
+</body></html>

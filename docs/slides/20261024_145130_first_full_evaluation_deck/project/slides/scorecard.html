@@ -1,0 +1,22 @@
+<section id="scorecard" style="background:#F6F4EF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:36px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Synthesis · hypothesis scorecard</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">The main hypothesis holds, with a small effect; the mechanisms we expected do not</h2>
+</div>
+<table style="font-size:24px;width:1664px;color:#1C2433">
+<tr style="background:#ECE8DF"><th style="width:6%">ID</th><th style="width:30%">Hypothesis</th><th style="width:20%">Verdict</th><th style="width:44%">Evidence</th></tr>
+<tr><td><b>H1</b></td><td>S2 retrieves better</td><td style="color:#24508C"><b>Supported</b></td><td>+0.10–0.14 article recall at every budget, p &lt; .001</td></tr>
+<tr style="background:#E3ECF7"><td><b>H2</b></td><td><b>S2 answers better</b></td><td style="color:#24508C"><b>Supported, small</b></td><td>+0.02–0.03 V_strict; holds under damage, other creators, 2nd judge</td></tr>
+<tr><td><b>H3</b></td><td>Groupings explain</td><td style="color:#8A4516"><b>Not supported</b></td><td>S3 − S2 ≈ 0 at 4k; 16k not yet run</td></tr>
+<tr><td><b>H4</b></td><td>Caput sentence helps</td><td style="color:#8A4516"><b>Not supported</b></td><td>|Δ| ≤ 0.014, n.s., signs differ</td></tr>
+<tr><td><b>H5</b></td><td>Periods and conditions</td><td style="color:#8A4516"><b>Not supported</b></td><td>No extra gain on those nuggets; wrong-year errors too rare</td></tr>
+<tr><td><b>H6</b></td><td>Small models hurt by S3</td><td style="color:#8A4516"><b>Not supported</b></td><td>No sign in the predicted direction; underpowered</td></tr>
+</table>
+<div style="display:flex;gap:24px;align-items:center;background:#1C2433;padding:28px 36px;border-radius:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#8DB3E8;white-space:nowrap">Takeaway</p>
+<p style="font-size:28px;line-height:1.4;color:#F1EEE6">Sub-article chunks help the generator <b>use</b> the right provisions; they add few new facts. The ceiling is set by how far the official answers go beyond the law they cite.</p>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Synthesis · H3–H6 recorded before answer scoring</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">26</p>
+<aside>Summary in one table. The precondition and the main hypothesis are supported: S2 retrieves better and answers better, robustly but modestly. None of the mechanism hypotheses we recorded in advance is supported: grouping chunks, the caput sentence, period and condition effects, and the size interaction all come out null at 4k. The mechanism we did find is different from the one we expected: S2 helps mainly by giving the generator smaller, focused units of the same facts. And the reason the gain is small is mostly in the data: the official answers state things that their cited provisions do not, which no segmentation can retrieve.</aside>
+</section>

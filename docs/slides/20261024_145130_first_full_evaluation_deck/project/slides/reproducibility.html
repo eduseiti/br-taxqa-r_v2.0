@@ -1,0 +1,32 @@
+<section id="reproducibility" style="background:#ECE8DF;color:#1C2433;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:44px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:#2E62A8">Synthesis · cost and reproducibility</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.15">The full evaluation cost under $200 in LLM calls, all of it logged</h2>
+</div>
+<div style="display:flex">
+<div style="flex:1;display:flex;flex-direction:column;gap:4px;border-left:4px solid #2E62A8;padding:0 24px">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.05">$76.6</p>
+<p style="font-size:24px;color:#4A5363">nuggets: creation, audits, judge tests</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:4px;border-left:4px solid #2E62A8;padding:0 24px">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.05">$47.5</p>
+<p style="font-size:24px;color:#4A5363">answer generation, 25 runs + pilot</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:4px;border-left:4px solid #2E62A8;padding:0 24px">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.05">$59.8</p>
+<p style="font-size:24px;color:#4A5363">scoring and robustness, incl. ceiling audit</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:4px;border-left:4px solid #1C2433;padding:0 24px">
+<p style="font-family:'Source Serif 4', Georgia, serif;font-size:60px;font-weight:600;line-height:1.05">≈ $184</p>
+<p style="font-size:24px;color:#4A5363">total, billed prices</p>
+</div>
+</div>
+<div style="display:flex;gap:48px">
+<div style="flex:1;display:flex;flex-direction:column;gap:8px"><h3 style="font-size:28px;font-weight:600">Pinned</h3><p style="font-size:24px;line-height:1.45;color:#4A5363">Model snapshots, single upstream provider, no fallbacks; temperature 0 or reasoning off.</p></div>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px"><h3 style="font-size:28px;font-weight:600">Cached</h3><p style="font-size:24px;line-height:1.45;color:#4A5363">Every call cached by request; reruns are byte-identical and cost nothing.</p></div>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px"><h3 style="font-size:28px;font-weight:600">Traced</h3><p style="font-size:24px;line-height:1.45;color:#4A5363">Each run has a manifest: git commit, config hash, input checksums; a cost ledger per stage.</p></div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-size:24px;color:#5F6673">Synthesis · OpenRouter flex endpoints for GPT / Gemini; Maritaca at BRL list price (≈ R$ 144); embedding endpoint not included</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;color:#5F6673;text-align:right">28</p>
+<aside>For reviewers interested in replicating or extending this: the full pipeline, from nuggetization to scoring, cost about 184 dollars in LLM calls, tracked call by call in ledgers. The largest item is not generation but evaluation, which is typical of nugget-based RAG evaluation with an LLM judge. Every call is cached, so all tables can be regenerated for free, and every run carries a manifest with the code commit and configuration. Retrieval and its evaluation regenerate in about half a minute. The embedding endpoint cost is not included in this figure.</aside>
+</section>
