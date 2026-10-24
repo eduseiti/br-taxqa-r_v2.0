@@ -1,6 +1,6 @@
 # Hugging Face release plan: BR-TaxQA-R v2.0 dataset and the RAG evaluation data
 
-Date: 2026-10-24. Status: **plan, nothing uploaded yet.** Every upload, visibility change, tag
+Date: 2026-10-24. Status: **phase 1 done (2026-10-24): both repos staged as private under `eduseiti`, see §9.** Every upload, visibility change, tag
 or repo move below is an outward-facing step. Each one waits for the user's go-ahead.
 
 This plan covers what goes to the Hugging Face Hub, how it is described (dataset cards, configs,
@@ -411,3 +411,57 @@ README.
 
 HF storage and transfer cost nothing for public datasets of this size. No LLM calls are needed
 (only the cached $0 smoke test in §6.3).
+
+---
+
+## 9. Execution: phase 1, private staging (2026-10-24)
+
+Uploaded with the user's go-ahead. The user agreed to the proposals for C8–C10: pilot and preview runs
+included, the name `BR-TaxQA-R-RAG-eval`, no float16 copy of the vectors. The token is `HF_RELEASE_TOKEN` in
+`.env`. It is fine-grained, with write access to repos of `eduseiti` and `unicamp-dl`. `HF_TOKEN` stays the
+inference-only embedding token. The repos, commit SHAs and build commits are recorded in
+`release/hf_release.json`.
+
+| Repo | Private | HF commit | Files | Size |
+|---|---|---|---:|---:|
+| <https://huggingface.co/datasets/eduseiti/BR-TaxQA-R> | yes | `2b10e0f` | 1,119 | 122 MB |
+| <https://huggingface.co/datasets/eduseiti/BR-TaxQA-R-RAG-eval> | yes | `af37fda` | 894 | 1.73 GB |
+
+**Validation (§6.3):**
+- **Steps 1 and 3 done.** Every config loads from the Hub in a clean venv (`datasets` 5.1.0) with the expected
+  rows. Repo A: 715 / 1,916 / 453 / 3,175 / 104,574. Repo B: `answers` 18,805, `nugget_labels` 82,186,
+  `run_metrics` 56, `per_question_scores` 18,309, `comparisons` 336, `retrieval_metrics` 11,255. A full
+  download of each repo passes `sha256sum -c SHA256SUMS` (1,117 and 892 files).
+- **The archives are exact.** Every `raw/*.tar.gz` member is byte-identical to its source cache file, and the
+  member counts equal the cache folders: 15,874 / 12,519 / 22,688 / 931 / 90 / 30 / 90 / 89.
+- **Not done:**
+  - **Step 2, the dataset viewer.** It does not run on private repos of non-PRO accounts. Check it after
+    publication.
+  - **Step 4, the replay smoke test.** Rerunning one run from the restored caches has not been tried yet.
+
+**Changes from the plan:**
+- **One reader per repo.** `datasets` reads every config of a repo with one reader, so formats cannot be
+  mixed. A CSV config also failed on its own, because the JSON reader cannot type columns that are empty in
+  the first rows. So:
+  - Repo A's configs are all JSON Lines. `chunks` reads `segmented/chunks_all.jsonl.gz`, a copy of the CSV in
+    which missing strings are written as `""`, as the CSV holds them.
+  - Repo B's configs are all Parquet copies in `tables/` (`answers`, `nugget_labels`, `run_metrics`,
+    `per_question_scores`, `comparisons`, `retrieval_metrics`). The CSV and JSONL originals stay at their repo
+    paths.
+- **`all` is a reserved split name**, so repo B's splits are `results` (`irpf` for the retrieval metrics).
+- **The Q&A PDF is at `source/`** in repo A, not under `docs/`.
+- **Secret scan false positives.** Nine cache files matched the key patterns. Every match was inside a
+  provider's encrypted reasoning blob (`reasoning_details[].data`, `encrypted_content`), which is random base64.
+  The pattern now ignores matches that start inside a longer token. With it, the caches packed with no hit.
+- **Rewritten paths (in the copies only):**
+  - in the embedding manifests, the repo path and `../br-taxqa-document-fetcher/`;
+  - in `segmentation_report.{md,json}` and one doc note, the repo path and Claude Code scratchpad paths, which
+    become `<scratchpad>/`.
+- **`pyarrow` was added to the project venv.** It is listed in `scripts/release/requirements.txt`.
+- **Plan check C4 is done.** `dataset/README.md` now says 1,916 references and 453 documents.
+
+**Next (phase 3, §5.3).** Each step waits for the user's go-ahead:
+1. Close the remaining checks: C5 (provider terms), C6 (personal data) and C7 (double-blind review).
+2. Tag `v1.1` on `unicamp-dl/BR-TaxQA-R`, and open the v2.0 PR there from the same tree.
+3. Move repo B to `unicamp-dl` and make it public.
+4. Check the viewer, tag `v2.0`, and update `release/hf_release.json`.

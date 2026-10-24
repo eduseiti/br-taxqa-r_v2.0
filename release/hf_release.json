@@ -1,0 +1,35 @@
+{
+ "note": "Hugging Face releases of BR-TaxQA-R v2.0 (docs/20261024_180016_hugging_face_release_plan.md). Staging = private repos under eduseiti.",
+ "releases": [
+  {
+   "stage": "staging (private)",
+   "repo_id": "eduseiti/BR-TaxQA-R",
+   "url": "https://huggingface.co/datasets/eduseiti/BR-TaxQA-R",
+   "hf_commit": "2b10e0f45a999b3c99c6d0cb3e837fc9699176ec",
+   "tag": null,
+   "uploaded": "2026-10-24",
+   "built_at": "2026-10-24T19:32:17+00:00",
+   "built_from_git": {
+    "commit": "42f97905239edcd530848344d9cf4d64563e7fc9",
+    "dirty": true
+   },
+   "n_files": 1119,
+   "bytes": 121511508
+  },
+  {
+   "stage": "staging (private)",
+   "repo_id": "eduseiti/BR-TaxQA-R-RAG-eval",
+   "url": "https://huggingface.co/datasets/eduseiti/BR-TaxQA-R-RAG-eval",
+   "hf_commit": "af37fda92b62c05755ed61d1d7185f59f2aeef64",
+   "tag": null,
+   "uploaded": "2026-10-24",
+   "built_at": "2026-10-24T19:54:47+00:00",
+   "built_from_git": {
+    "commit": "42f97905239edcd530848344d9cf4d64563e7fc9",
+    "dirty": true
+   },
+   "n_files": 894,
+   "bytes": 1730920054
+  }
+ ]
+}

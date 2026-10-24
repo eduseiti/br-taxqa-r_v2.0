@@ -84,7 +84,10 @@ than expected.
   `docs/20261023_151928_rag_phase3_trimmed_full_generation.md`. Scoring (nugget phase 5: `nuggets.py score`,
   `ctxsupport`, `scoretable`, `analyze`; outputs in `nuggets/scoring/`, $55.96) and the first full analysis are done:
   `docs/20261023_210727_rag_phase5_scoring_and_analysis.md` (S2 > S1 by +0.02–0.03 V_strict, robust; S3/S2c/S4 ≈ S2;
-  next: stages 3–4, §9 there). `rag.py` does not
+  next: stages 3–4, §9 there). **Hugging Face release:** plan and status in
+  `docs/20261024_180016_hugging_face_release_plan.md` (§9: both repos staged private under `eduseiti` on 2026-10-24),
+  tooling in `scripts/release/` (`build_release.py`, `push_release.py`, token `HF_RELEASE_TOKEN`), record in
+  `release/hf_release.json`. `rag.py` does not
   read `.env`: run `set -a; . ./.env; set +a` first.
 - **`nuggets/`** — nugget pipeline outputs (`scripts/nuggets/nuggets.py`), one folder per run
   (`preview/`, `preview_v2/`, `preview_v3/`; `pilot/` next): nuggets, validation, self-score

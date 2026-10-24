@@ -51,7 +51,7 @@ All files are JSON Lines with a fixed schema: every key is present in every row 
 | `document_ids` | list[string] | distinct corpus documents cited (resolved references only) |
 | `n_unresolved_references` | int | references whose act is not in the corpus (0 for every question since the 2026-10-08 rebuild) |
 
-### `references` — one row per cited act per question (1,917)
+### `references` — one row per cited act per question (1,916)
 
 | Field | Type | Content |
 |---|---|---|
@@ -72,7 +72,7 @@ All files are JSON Lines with a fixed schema: every key is present in every row 
 | `annexes` | list[string] | cited annexes |
 | `v1_file` | string | the v1.1 `file` value, for traceability |
 
-### `documents` — one row per corpus document (458)
+### `documents` — one row per corpus document (453)
 
 | Field | Type | Content |
 |---|---|---|

@@ -1,0 +1,26 @@
+# Repo A: the benchmark (docs/20261024_180016_hugging_face_release_plan.md §2).
+# copy: `from` (repo-relative folder) → `to` (release-relative folder); `include` / `exclude` are globs relative
+# to `from` (`**` recurses). Paths mirror the git repo, so documents.jsonl's original_file / lexml_file resolve.
+name: BR-TaxQA-R
+card: scripts/release/cards/repo_a.md
+copy:
+  - {from: dataset, to: dataset, include: [questions.jsonl, references.jsonl, documents.jsonl, build_report.json]}
+  - {from: scripts/dataset, to: dataset, include: [reference_overrides.json, answer_overrides.json]}
+  - {from: nuggets/gold/v0-auto, to: nuggets/v0-auto, include: [nuggets.jsonl, manifest.json]}
+  - {from: original, to: original, include: ["articulados/*.docx", "nao_articulados/*.docx", "nao_articulados/*.pdf"]}
+  - {from: lexml, to: lexml, include: ["articulados/*.xml", articulados/PARSER_VERSION, articulados/skipped_report.txt,
+                                       "nao_articulados/*.xml", nao_articulados/PARSER_VERSION, "nao_articulados/_text/*.txt"]}
+  - {from: segmented, to: segmented, include: [chunks_all.csv.gz, README.md, segmentation_report.md, segmentation_report.json,
+                                               annex_manifest.csv, groupings_over_limit.csv]}
+  - {from: docs, to: source, include: ["P&R IRPF 2024 - v1.0 - 2024.05.03.pdf"]}
+# viewer copy of the chunks: `datasets` reads every config of a repo with one reader (JSON here)
+flat:
+  segmented/chunks_all.jsonl.gz: {csv: segmented/chunks_all.csv.gz}
+# row counts checked after the build (the card states them)
+counts:
+  dataset/questions.jsonl: 715
+  dataset/references.jsonl: 1916
+  dataset/documents.jsonl: 453
+  nuggets/v0-auto/nuggets.jsonl: 3175
+  segmented/chunks_all.csv.gz: 104574
+  segmented/chunks_all.jsonl.gz: 104574

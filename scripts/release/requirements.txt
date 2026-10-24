@@ -1,0 +1,6 @@
+# scripts/release (build_release.py, push_release.py); transfer_caches.py needs only the standard library
+huggingface_hub>=1.33
+pandas
+pyarrow
+python-dotenv
+pyyaml

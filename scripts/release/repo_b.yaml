@@ -1,0 +1,44 @@
+# Repo B: the RAG evaluation data (docs/20261024_180016_hugging_face_release_plan.md §3). Same keys as repo_a.yaml;
+# `pack`: one deterministic tar.gz per gitignored LLM cache (raw responses), restored with
+# `tar -xzf raw/<name>.tar.gz` from the repo root.
+name: BR-TaxQA-R-RAG-eval
+card: scripts/release/cards/repo_b.md
+copy:
+  - {from: embeddings, to: embeddings, include: [costs.csv, "jua-4b-mixed/check.json", "jua-4b-mixed/parity.json",
+                                                 "jua-4b-mixed/endpoint_meter.jsonl", "jua-4b-mixed/corpus/*",
+                                                 "jua-4b-mixed/queries/irpf/*"]}
+  - {from: runs, to: runs, include: [costs.csv, "retrieval/**", "contexts/**", "answers/jua-4b-mixed/**"],
+     exclude: ["**/*.log"]}
+  - {from: nuggets, to: nuggets,
+     include: ["full/**", "pilot/**", "preview/**", "preview_v2/**", "preview_v3/**", "parity_openrouter/**", "scoring/**"],
+     exclude: ["*/cache/**", "*/input/**", "*/batches/*.jsonl", "**/*.log", "**/.~lock.*"]}
+  - {from: docs, to: docs, include: [
+      20260923_193852_segmentation_strategies_for_rag_experiments.md,
+      20261005_184116_segmentation_s3_vs_lima_ementa_and_caput_strategy_plan.md,
+      20261011_224049_gold_answer_nuggetization_plan_v2.md,
+      20261021_155704_nuggetization_phases_2_to_4_execution.md,
+      20261021_210251_rag_phase2_contexts_execution.md,
+      20261022_203625_corpus_exclusion_revoked_rir1999.md,
+      20261023_120734_first_full_evaluation_budget_trimmed_plan_and_s2_s3_hypotheses.md,
+      20261023_151928_rag_phase3_trimmed_full_generation.md,
+      20261023_210727_rag_phase5_scoring_and_analysis.md]}
+pack:
+  raw/runs_answers_cache.tar.gz: runs/answers/cache
+  raw/nuggets_full_cache.tar.gz: nuggets/full/cache
+  raw/nuggets_scoring_cache.tar.gz: nuggets/scoring/cache
+  raw/nuggets_pilot_cache.tar.gz: nuggets/pilot/cache
+  raw/nuggets_preview_cache.tar.gz: nuggets/preview/cache
+  raw/nuggets_preview_v2_cache.tar.gz: nuggets/preview_v2/cache
+  raw/nuggets_preview_v3_cache.tar.gz: nuggets/preview_v3/cache
+  raw/nuggets_parity_openrouter_cache.tar.gz: nuggets/parity_openrouter/cache
+# viewer tables (build_release.py write_flat): Parquet, because `datasets` reads every config of a repo with one
+# reader; answers / labels are flattened from the per-run files, the others are typed copies of CSV tables
+flat:
+  tables/answers.parquet: answers
+  tables/nugget_labels.parquet: labels
+  tables/run_metrics.parquet: {csv: nuggets/scoring/tables/gold-v0-auto/gemini-3.8-flash/all/runs.csv}
+  tables/per_question_scores.parquet: {csv: nuggets/scoring/tables/gold-v0-auto/gemini-3.8-flash/all/per_question.csv.gz}
+  tables/comparisons.parquet: {csv: nuggets/scoring/tables/gold-v0-auto/gemini-3.8-flash/all/comparisons.csv}
+  tables/retrieval_metrics.parquet: {csv: runs/retrieval/jua-4b-mixed/irpf/eval/either_containment_merge_skip/metrics.csv}
+counts:
+  tables/answers.parquet: 18805           # 25 full runs × 715 + 31 pilot-only sets × 30
