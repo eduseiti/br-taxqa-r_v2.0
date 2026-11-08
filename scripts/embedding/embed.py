@@ -34,7 +34,7 @@ from embedding.config import (DEFAULT_CORPUS, DEFAULT_QUERIES, EMB_DIR, PARITY_S
                               ModelConfig, get_model, load_config)
 from embedding.corpus import CorpusError, load_corpus, load_queries  # noqa: E402
 from embedding.manifest import now_iso, read_json, script_info, sha256_file, sha256_json, write_json  # noqa: E402
-from embedding.providers import ProviderError, get_provider  # noqa: E402
+from embedding.providers import TOKEN_PRICED, ProviderError, get_provider  # noqa: E402
 from embedding.runner import NORM_TOL, run  # noqa: E402
 from embedding.store import ShardStore, StoreError, write_csv, write_csv_gz  # noqa: E402
 from embedding.tokens import LengthError, guard, load_counter  # noqa: E402
@@ -101,8 +101,16 @@ class EndpointSession:
         self.ep = self.meter = None
         self.desc: dict | None = None
         self.notes = ""
+        self.api = None                      # token-priced provider whose usage goes to the ledger
+        self.t0 = time.time()
+
+    def attach(self, provider) -> None:
+        """Record this provider's reported usage in the cost ledger when the session ends."""
+        if self.cfg.provider in TOKEN_PRICED:
+            self.api = provider
 
     def __enter__(self) -> "EndpointSession":
+        self.t0 = time.time()
         if self.cfg.provider != "tei":
             return self
         self.ep = endpoint.get_endpoint(self.cfg)
@@ -120,10 +128,16 @@ class EndpointSession:
         return self.cfg.endpoint_url() or (self.ep.url if self.ep is not None else None)
 
     def __exit__(self, exc_type, exc, tb) -> None:
-        if self.ep is None:
-            return
         if exc_type is not None:
             self.notes = f"failed: {exc_type.__name__}"
+        if self.api is not None:
+            row = costs.api_row(self.cfg.out_root / "costs.csv", self.cfg, self.activity, self.run_id, self.api,
+                                self.t0, time.time(), notes=self.notes)
+            if row:
+                log.info("%s: %s tokens, billed $%.4f (ledger: embeddings/costs.csv)", self.activity,
+                         row["quantity"], float(row["usd"] or 0))
+        if self.ep is None:
+            return
         if self.pause_after:
             log.info("pausing endpoint %s", self.ep.name)
             try:
@@ -193,8 +207,11 @@ def check_norms(path: Path, block: int = 8192) -> dict:
 
 
 def aggregate_sessions(sessions: list[dict]) -> dict:
-    keys = ("n_texts", "n_tokens", "wall_s", "requests", "retries", "errors", "renormalized")
+    keys = ("n_texts", "n_tokens", "wall_s", "requests", "retries", "errors", "renormalized", "prompt_tokens",
+            "cost_usd")
     agg = {k: sum(s.get(k) or 0 for s in sessions) for k in keys}
+    if not any(s.get("requests") and "prompt_tokens" in s for s in sessions):
+        agg.pop("prompt_tokens"), agg.pop("cost_usd")
     agg["tokens_per_s"] = round(agg["n_tokens"] / agg["wall_s"], 1) if agg["wall_s"] else None
     return {"start": sessions[0]["start"] if sessions else None, "end": sessions[-1].get("end") if sessions else None,
             **agg, "n_sessions": len(sessions), "sessions": sessions}
@@ -288,8 +305,11 @@ def cmd_models(args) -> int:
     for slug, c in load_config(args.config, args.out_root).items():
         url = "set" if c.endpoint_url() else ("from endpoint API" if c.endpoint_name else "NOT SET")
         env = f"{c.endpoint_url_env}: {url}" if c.provider == "tei" else ""
+        if c.provider in TOKEN_PRICED:
+            key = c.api_key_env or "OPENROUTER_API_KEY"
+            env = f"{key}: {'set' if os.environ.get(key) else 'NOT SET'}"
         tok = "" if c.provider != "tei" else f"HF_TOKEN: {'set' if os.environ.get('HF_TOKEN') else 'NOT SET'}"
-        print(f"{slug:18} {c.provider:5} {c.model_id:32} dim={c.dim:<5} {env}  {tok}")
+        print(f"{slug:18} {c.provider:10} {c.model_id:32} dim={c.dim:<5} {env}  {tok}")
     return 0
 
 
@@ -300,6 +320,7 @@ def cmd_check(args, cfg: ModelConfig) -> int:
     report: dict = {"created_at": now_iso(), "model": cfg.slug, "checks": {}}
     with EndpointSession(cfg, "smoke", args.resume, args.pause_after) as es:
         prov = get_provider(cfg, es.url())
+        es.attach(prov)
         info = prov.info()
         report |= {"server_info": info, "endpoint": es.desc, "server_fingerprint": server_fingerprint(cfg, info, es.desc)}
         ch = report["checks"]
@@ -322,6 +343,8 @@ def cmd_check(args, cfg: ModelConfig) -> int:
         ch["dimension"] = (v.shape[1] == cfg.dim, int(v.shape[1]))
         ch["normalized"] = (bool(np.all(np.abs(norms - 1) <= NORM_TOL)), [round(float(x), 6) for x in norms])
         ch["finite"] = (bool(np.isfinite(v).all()), None)
+        if cfg.served_provider:
+            ch["served_provider"] = (set(prov.served) == {cfg.served_provider}, dict(prov.served))
     report["checks"] = {k: {"ok": bool(ok), "value": val} for k, (ok, val) in report["checks"].items()}
     report["passed"] = all(c["ok"] for c in report["checks"].values())
     write_json(cfg.out_dir / "check.json", report)
@@ -363,6 +386,8 @@ def cmd_parity(args, cfg: ModelConfig) -> int:
     n_texts = len(sample["text_ids"])
     n_tok = load_counter(cfg.tokenizer)(strings)
     guard([f"sample#{k}" for k in range(len(strings))], n_tok, cfg.max_input_tokens)
+    if cfg.provider in TOKEN_PRICED:
+        return parity_determinism(args, cfg, sample, strings, iname)
     ref_cfg = {"dtype": "bfloat16", "trust_remote_code": False} | cfg.reference
     key = sha256_json({"model": cfg.model_id, "revision": cfg.revision, "strings": strings, "ref": ref_cfg})
     cache = Path(args.out) if args.out else cfg.out_dir / "parity_reference.npz"
@@ -407,6 +432,49 @@ def cmd_parity(args, cfg: ModelConfig) -> int:
     return 0 if res["passed"] else 1
 
 
+def parity_determinism(args, cfg: ModelConfig, sample: dict, strings: list[str], iname: str) -> int:
+    """API models have no reference implementation (plan §5.4): embed the parity sample twice and check
+    that the two runs agree, that the vectors are unit-norm and have the configured dimension, and that
+    the 16 queries rank the 64 texts the same way. Writes ``parity.json`` with the server fingerprint,
+    so the gate of ``corpus`` / ``queries`` works as for the open models."""
+    n_texts = len(sample["text_ids"])
+    with EndpointSession(cfg, "parity", False, False) as es:
+        prov = get_provider(cfg, budget_usd=args.budget)
+        es.attach(prov)
+        info = prov.info()
+        runs = [np.concatenate([prov.embed(strings[s:s + 8]) for s in range(0, len(strings), 8)]) for _ in range(2)]
+        sfp = server_fingerprint(cfg, info, None)
+    raw_norms = np.concatenate([np.linalg.norm(r, axis=1) for r in runs])
+    a, b = (r / np.linalg.norm(r, axis=1, keepdims=True) for r in runs)
+    cos = np.sum(a * b, axis=1)
+    sa, sb = a[n_texts:] @ a[:n_texts].T, b[n_texts:] @ b[:n_texts].T
+    top1 = int(np.sum(sa.argmax(1) == sb.argmax(1)))
+    from scipy.stats import kendalltau
+    taus = [kendalltau(x, y).statistic for x, y in zip(sa, sb)]
+    thr = cfg.parity.get("determinism_min_cos", 0.9999)
+    checks = {"dimension": bool(a.shape[1] == cfg.dim),
+              "normalized": bool(np.all(np.abs(raw_norms - 1) <= NORM_TOL)),
+              "deterministic": bool(cos.min() >= thr),
+              "top1_all": top1 == len(sa)}
+    if cfg.served_provider:
+        checks["served_provider"] = set(prov.served) == {cfg.served_provider}
+    metrics = {"cos_min": float(cos.min()), "cos_median": float(np.median(cos)), "max_abs_diff": float(np.abs(a - b).max()),
+               "norm_min": float(raw_norms.min()), "norm_max": float(raw_norms.max()), "top1_agree": top1,
+               "n_queries": len(sa), "kendall_tau_min": float(min(taus)), "dim": int(a.shape[1])}
+    passed = all(checks.values())
+    out = {"created_at": now_iso(), "model": cfg.slug, "kind": "determinism (API model, no reference)",
+           "server_fingerprint": sfp, "server_info": info, "served": dict(prov.served), "instruction_name": iname,
+           "sample_sha256": sha256_file(Path(args.sample)), "thresholds": {"determinism_min_cos": thr, "norm_tol": NORM_TOL},
+           "checks": checks, "metrics": metrics, "passed": passed,
+           "items": [{"id": i, "kind": "text"} for i in sample["text_ids"]]
+           + [{"id": q, "kind": "query"} for q in sample["query_ids"]]}
+    write_json(cfg.out_dir / "parity.json", out)
+    print(f"run-to-run cos min {metrics['cos_min']:.7f} median {metrics['cos_median']:.7f}  max |diff| "
+          f"{metrics['max_abs_diff']:.2e}  top-1 {top1}/{len(sa)}  tau min {metrics['kendall_tau_min']:.4f}  dim {metrics['dim']}")
+    print(f"determinism check {'PASSED' if passed else 'FAILED'} {checks} -> {rel(cfg.out_dir / 'parity.json')}")
+    return 0 if passed else 1
+
+
 def previous_store(out: Path, cfg: ModelConfig, inp: dict) -> dict:
     """The finalized corpus store in ``out``, for ``--extend``: text_id -> row, plus checks that its
     vectors are interchangeable with a new run (same model, revision, template, dimension)."""
@@ -439,6 +507,23 @@ def seed_reused(store: ShardStore, prev: dict, ids: list[str], out: Path, block:
     return sum(1 for i in ids if i in prev["row"])
 
 
+def check_budget(cfg: ModelConfig, budget: float | None, n_tok: list[int]) -> float:
+    """``--budget`` is a cap on the ledger total (embeddings/costs.csv), as in the RAG and nugget
+    scripts. Refuses to start if the ledger total plus this run's estimate (tokens to send × price,
+    counted with the guard tokenizer, an upper bound) is above it; returns what this run may spend."""
+    if budget is None:
+        raise ConfigError(f"{cfg.slug} is billed per token: pass --budget <USD cap on the embeddings/costs.csv total>")
+    price = cfg.price.get("usd_per_million_tokens")
+    if not price:
+        raise ConfigError(f"no price.usd_per_million_tokens for {cfg.slug} in models.yaml")
+    spent = costs.ledger_total(cfg.out_root / "costs.csv")
+    est = sum(n_tok) * price / 1e6
+    log.info("ledger total $%.4f; this run <= $%.4f (%d tokens); budget $%.2f", spent, est, sum(n_tok), budget)
+    if spent + est > budget:
+        raise ConfigError(f"budget ${budget:.2f} too low: ledger ${spent:.4f} + estimate ${est:.4f}")
+    return budget - spent
+
+
 def cmd_embed(args, cfg: ModelConfig, kind: str) -> int:
     inp = corpus_inputs(cfg, args) if kind == "corpus" else query_inputs(cfg, args)
     out: Path = inp["out"]
@@ -463,16 +548,24 @@ def cmd_embed(args, cfg: ModelConfig, kind: str) -> int:
               f"(max {max(sent, default=0)}), {nreq} requests of <= {mi} inputs / {mt} tokens, concurrency {conc}")
         n_tok = sent
         tps, price = cfg.request_opt("expected_tokens_per_s", None), cfg.price.get("usd_per_hour")
-        if tps and price:
+        if cfg.provider in TOKEN_PRICED:
+            ptok = cfg.price.get("usd_per_million_tokens")
+            print(f"expected cost <= ${sum(n_tok) * ptok / 1e6:.2f} at ${ptok}/M tokens (counted with {cfg.tokenizer}; "
+                  "the provider's own count is lower)" if ptok else "no price in models.yaml")
+        elif tps and price:
             h = sum(n_tok) / tps / 3600
             print(f"expected ~{h:.1f} h at {tps} tok/s -> ~${h * price:.2f} (+ start-up and idle)")
         else:
             print("no cost estimate: set request.expected_tokens_per_s after measuring the first minutes")
         return 0
+    budget_left = None
+    if cfg.provider in TOKEN_PRICED:
+        budget_left = check_budget(cfg, args.budget, [n for i, n in zip(inp["ids"], n_tok) if not prev or i not in prev["row"]])
     store = ShardStore(out)
     activity = kind
     with EndpointSession(cfg, activity, args.resume, args.pause_after) as es:
-        prov = get_provider(cfg, es.url())
+        prov = get_provider(cfg, es.url(), budget_usd=budget_left)
+        es.attach(prov)
         info = prov.info()
         sfp = server_fingerprint(cfg, info, es.desc)
         gate = parity_gate(cfg, sfp, args.skip_parity)
@@ -496,7 +589,8 @@ def cmd_embed(args, cfg: ModelConfig, kind: str) -> int:
         if prev:
             st["context"]["extend"] = extra["extend"]
         write_json(store.state_path, st)
-        run(prov, store, inp["ids"], inp["texts"], n_tok, cfg.dim, mi, mt, conc, progress=not args.no_progress)
+        run(prov, store, inp["ids"], inp["texts"], n_tok, cfg.dim, mi, mt, conc, progress=not args.no_progress,
+            solo_above=cfg.request_opt("solo_above_tokens", None))
     finalize(cfg, inp, n_tok, store, extra)
     return 0
 
@@ -603,6 +697,8 @@ def build_parser() -> argparse.ArgumentParser:
     sp.add_argument("--reference", default=None, help="use reference vectors computed elsewhere (.npz)")
     sp.add_argument("--out", default=None, help="where to save the reference (.npz)")
     sp.add_argument("--device", default="cpu", help="device for the reference (cpu, cuda)")
+    sp.add_argument("--budget", type=float, default=None,
+                    help="API models: stop if this run's billed cost reaches this many USD")
     endpoint_args(sp, pause_default=False)
 
     for kind, helptext in (("corpus", "embed the unique chunk texts"), ("queries", "embed the questions")):
@@ -619,6 +715,8 @@ def build_parser() -> argparse.ArgumentParser:
                             help="embed by text hash: reuse the finalized vectors of every text still in the "
                                  "input and send only the new texts (same model, revision, template and server)")
         sp.add_argument("--skip-parity", action="store_true", help="run without a passing parity.json")
+        sp.add_argument("--budget", type=float, default=None,
+                        help="token-priced models (required): USD cap on the embeddings/costs.csv total")
         sp.add_argument("--concurrency", type=int, default=None)
         sp.add_argument("--no-progress", action="store_true")
         endpoint_args(sp, pause_default=(kind == "corpus"))

@@ -1,0 +1,60 @@
+{
+  "created_at": "2026-11-08T17:30:57+00:00",
+  "model": "gemini-emb-2",
+  "checks": {
+    "dimension": {
+      "ok": true,
+      "value": 3072
+    },
+    "normalized": {
+      "ok": true,
+      "value": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "finite": {
+      "ok": true,
+      "value": null
+    },
+    "served_provider": {
+      "ok": true,
+      "value": {
+        "Google AI Studio": 1
+      }
+    }
+  },
+  "server_info": {
+    "model_id": "google/gemini-embedding-2",
+    "model_sha": null,
+    "model_dtype": null,
+    "version": null,
+    "engine": "openrouter",
+    "url": "https://openrouter.ai/api/v1/embeddings",
+    "routing": {
+      "only": [
+        "google-ai-studio"
+      ],
+      "allow_fallbacks": false,
+      "data_collection": "deny"
+    },
+    "served_provider": "Google AI Studio",
+    "max_input_length": 8192,
+    "auto_truncate": null
+  },
+  "endpoint": null,
+  "server_fingerprint": {
+    "model_id": "google/gemini-embedding-2",
+    "revision": null,
+    "endpoint_repository": null,
+    "endpoint_revision": null,
+    "endpoint_image": null,
+    "server_model_id": "google/gemini-embedding-2",
+    "server_model_sha": null,
+    "server_dtype": null,
+    "server_version": null,
+    "pooling": null
+  },
+  "passed": true
+}

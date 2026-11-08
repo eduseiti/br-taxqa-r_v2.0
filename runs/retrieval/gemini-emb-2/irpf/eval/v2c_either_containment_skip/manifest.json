@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "kind": "retrieval_evaluation",
+  "created_at": "2026-11-08T17:49:05+00:00",
+  "script": {
+    "package": "ragpipe",
+    "version": "0.1.0",
+    "git": {
+      "commit": "99e1a8c2251e2722fe0dd6e91739b62f6f35a081",
+      "dirty": true,
+      "dirty_files": [
+        "mbeddings/costs.csv",
+        "scripts/embedding/embed.py",
+        "scripts/embedding/embedding/config.py",
+        "scripts/embedding/embedding/costs.py",
+        "scripts/embedding/embedding/providers/__init__.py",
+        "scripts/embedding/embedding/runner.py",
+        "scripts/embedding/models.yaml",
+        "embeddings/gemini-emb-2/",
+        "runs/retrieval/gemini-emb-2/",
+        "scripts/embedding/embedding/providers/openrouter.py",
+        "scripts/embedding/parity_sample_20261108.json",
+        "scripts/embedding/tests/test_openrouter.py",
+        "scripts/rag/experiments/gemini_core.yaml"
+      ]
+    },
+    "argv": [
+      "scripts/rag/rag.py",
+      "evaluate",
+      "--retrieval",
+      "runs/retrieval/gemini-emb-2/irpf",
+      "--dedup",
+      "containment",
+      "--eval-id",
+      "v2c_either_containment_skip",
+      "--comparisons",
+      "S1:S2,S2:S3,S2:S2c,S3:S4,S1:S2c"
+    ]
+  },
+  "config_hash": "409cacefe547acf533a8d8c20ad7a4e7e9c350bc2086ad1438653afa9638ab19",
+  "eval_id": "v2c_either_containment_skip",
+  "params": {
+    "annex_rule": "either",
+    "budgets": [
+      1000,
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "unit_ks": [
+      1,
+      3,
+      5,
+      10,
+      20,
+      50,
+      100
+    ],
+    "raw_ks": [
+      1,
+      5,
+      10,
+      20,
+      50,
+      100,
+      1000
+    ],
+    "dedup": "containment",
+    "overflow": "skip",
+    "token_counter": "qwen3",
+    "gain": "binary",
+    "max_unit_position": 1000,
+    "comparisons": [
+      [
+        "S1",
+        "S2"
+      ],
+      [
+        "S2",
+        "S3"
+      ],
+      [
+        "S2",
+        "S2c"
+      ],
+      [
+        "S3",
+        "S4"
+      ],
+      [
+        "S1",
+        "S2c"
+      ]
+    ],
+    "n_resamples": 10000,
+    "seed": 13,
+    "strategies": [
+      "S1",
+      "S2",
+      "S3",
+      "S2c",
+      "S4"
+    ]
+  },
+  "inputs": {
+    "retrieval_manifest": {
+      "path": "runs/retrieval/gemini-emb-2/irpf/manifest.json",
+      "config_hash": "e40415bc6f439907be4345c17f6ce2b9650b6d1a7c1965540037c83988c6db7b"
+    },
+    "chunks": {
+      "path": "segmented/chunks_all.csv.gz",
+      "sha256": "a6087b7f19ff5b02cc0863523b6dd423f6feddf291fe9f11e7f08d45146c326a"
+    },
+    "questions": {
+      "path": "dataset/questions.jsonl",
+      "sha256": "5612b1eb2adc096107f61e366a09088332db0cc47a5a97ae0f1abb7c09a05baa"
+    },
+    "references": {
+      "path": "dataset/references.jsonl",
+      "sha256": "ffc7e6b748f68b428b124dc5a3baa7e0d57aaaef419f7d50ff2596bd62aec9f7"
+    },
+    "documents": {
+      "path": "dataset/documents.jsonl",
+      "sha256": "5b7c5b42020046c420eb89fff56c945481a14aceb4cb28970f85eb5b21ee73aa"
+    },
+    "chapters": {
+      "path": "scripts/rag/data/pr_irpf_2024_chapters.csv",
+      "sha256": "d11588869d03c90793e6c1ba6d154935b1184e4444c15817f0affa666208c5e4"
+    }
+  },
+  "retrieval": {
+    "embedding": {
+      "slug": "gemini-emb-2",
+      "model_id": "google/gemini-embedding-2",
+      "revision": null,
+      "dim": 3072,
+      "instruction_name": "irpf",
+      "instruction": null,
+      "query_template": "task: search result | query: {text}",
+      "document_template": "title: none | text: {text}"
+    },
+    "retriever": {
+      "name": "dense",
+      "similarity": "cosine (dot product of L2-normalized float32 vectors)",
+      "search": "exact brute force",
+      "tie_break": "text_id ascending",
+      "block_size": 128
+    },
+    "top_n": 1000,
+    "excluded_documents": [
+      "decreto_3000_19990326"
+    ]
+  },
+  "gold": {
+    "questions_with_gold": {
+      "document": 596,
+      "article": 553,
+      "provision": 558
+    },
+    "gold_items": {
+      "document": 1724,
+      "article": 1958,
+      "provision": 2230
+    },
+    "references": 1916,
+    "references_not_in_corpus": 0
+  },
+  "outputs": {
+    "metrics.csv": {
+      "sha256": "edbd9c0de4a031213a3de5bd29ce46893349ac3d1746e4462c264fb9a480cb23"
+    },
+    "metrics_by_chapter.csv.gz": {
+      "sha256": "a571037836bc6a416411560c58bcbe2dcc9d2d9a55907a905b8f21eeba4fbabf"
+    },
+    "comparisons.csv": {
+      "sha256": "b1f06cbd71fc3dde9a22d990e4ce81a706b18c9e4e0e0c4c66f1666be5926ab5"
+    },
+    "reachability.csv": {
+      "sha256": "568a78f551859bb8018543b4da2ec38d6434ff801d7366edfc90e9d4f2a108f5"
+    },
+    "per_question.csv.gz": {
+      "sha256": "c0f0acdd9587ca2d8a2aed28d0c23070e08b16dd5f6f6e276a191b2ade9472e8"
+    },
+    "per_item.csv.gz": {
+      "sha256": "162a628924eadb939cadea498d0d622ad3393d88a8e21f822227223f192a85f6"
+    }
+  },
+  "timings_s": {
+    "load": 1.24,
+    "score": 11.25,
+    "aggregate": 10.84,
+    "total": 28.37
+  }
+}

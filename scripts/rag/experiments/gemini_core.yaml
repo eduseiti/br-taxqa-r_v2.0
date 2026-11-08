@@ -1,0 +1,12 @@
+# gemini-embedding-2 core grid (docs/20261108_153258_gemini_embedding_2_comparison_plan.md §1.2, §4.2; user
+# decisions of 2026-11-08): S1 vs S2 at 4k with the Gemini retrieval, Luna and Sabiá-4, all 715 questions.
+# Closed book and the oracle do not depend on the embedding: the jua-4b-mixed runs are the reference for both.
+# Same prompt, budget and context template as full_stage1.yaml; only the retrieval changes.
+name: gemini_core
+contexts: runs/contexts/gemini-emb-2/irpf      # main corpus (RIR/1999 excluded)
+sample: all
+sets:
+  - S1_budget4000
+  - S2_budget4000
+llms: [sabia-4, gpt-5.6-luna]
+prompts: {default: answer_v1}

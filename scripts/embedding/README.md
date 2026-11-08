@@ -7,7 +7,8 @@ model at a time, and writes vectors plus full provenance. Design and decisions:
 **Status (2026-09-25):** implemented for the `tei` provider (HF Inference Endpoints running Text
 Embeddings Inference) and a `fake` provider for tests. Configured and set up: `jua-4b-mixed`.
 The `qwen3-emb-4b` and `inf-retriever-v1` entries are in `models.yaml` but have no endpoint yet;
-the OpenAI and Gemini providers are not implemented yet.
+the OpenAI and Gemini providers are not implemented yet. **Update 2026-11-08:** the
+`openrouter` provider is implemented, and `gemini-emb-2` (gemini-embedding-2) is embedded through it.
 
 ## Output format
 
@@ -88,6 +89,32 @@ E="scripts/embedding/embed.py"
   (plan §9.3). Use outside the script is not metered: add it with `embed.py costs add`.
 - **Instruction ablation:** `queries --instruction-name web_search` writes to
   `queries/web_search/` without touching the corpus vectors.
+
+## Running an API model through OpenRouter (gemini-emb-2)
+
+Provider `openrouter` (`embedding/providers/openrouter.py`; plan
+`docs/20261108_153258_gemini_embedding_2_comparison_plan.md`, results `docs/20261108_175117_*`). Needs
+`OPENROUTER_API_KEY`. The upstream provider is pinned in `models.yaml` (`routing`, `served_provider`).
+
+```bash
+E="scripts/embedding/embed.py"
+.venv/bin/python $E check  --model gemini-emb-2
+.venv/bin/python $E parity --model gemini-emb-2 --sample scripts/embedding/parity_sample_20261108.json --budget 0.2
+.venv/bin/python $E corpus --model gemini-emb-2 --dry-run                 # tokens and the cost upper bound
+.venv/bin/python $E corpus --model gemini-emb-2 --budget <USD cap on embeddings/costs.csv>
+.venv/bin/python $E queries --model gemini-emb-2 --budget <cap>
+```
+
+- **`--budget` is required** for token-priced models: a cap on the ledger total. The run refuses to start if
+  ledger + estimate is over it, and stops if the billed cost reaches it.
+- **Costs** are the tokens and USD each reply reports (`source=provider_reported`).
+- **`parity`** for an API model is a determinism check: the sample is embedded twice and compared. There is
+  no reference implementation.
+- **Gemini truncates over-long inputs silently.** The guard counts with the Qwen3 tokenizer, an upper bound
+  for Gemini (0.83–0.91 × on the longest texts). Texts above `request.solo_above_tokens` are sent alone, and
+  their reported token count is checked.
+- The 2026-09-25 `parity_sample.json` no longer matches the corpus (re-segmentation of 2026-10-09).
+  `parity_sample_20261108.json` is the current one.
 
 ## Adding a model
 

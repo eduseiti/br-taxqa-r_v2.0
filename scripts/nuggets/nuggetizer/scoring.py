@@ -128,9 +128,29 @@ def compare(pq: pd.DataFrame, a: str, b: str, by: list[str], n_resamples: int = 
 
 
 # Default pairs (plan v2 §5.3): the main S2 − S1, the S3 / caput variants, and the bounds.
+PRIMARY_EMBEDDING = "jua-4b-mixed"
+
+
+def context_key(path_id: str) -> str:
+    """Context id of a scored run or context set, from its path id (``<embedding>/<run>/…/<context>``,
+    optionally under ``runs/answers/`` or ``runs/contexts/``). Runs of the primary embedding keep the bare id
+    (``S2_budget4000``), so every table made before the second embedding is unchanged; other embeddings get
+    ``S2_budget4000@gemini-emb-2`` (docs/20261108_153258_gemini_embedding_2_comparison_plan.md §3 item 8)."""
+    parts = [p for p in path_id.split("/") if p]
+    if parts[:1] == ["runs"]:
+        parts = parts[2:]
+    if len(parts) < 2 or parts[0] == PRIMARY_EMBEDDING:
+        return parts[-1]
+    return f"{parts[-1]}@{parts[0]}"
+
+
+GEMINI = "@gemini-emb-2"
 PAIRS = [("S1_budget4000", "S2_budget4000"), ("S2_budget4000", "S3_budget4000"),
          ("S2_budget4000", "S2c_budget4000"), ("S3_budget4000", "S4_budget4000"),
          ("closed_book", "S1_budget4000"), ("closed_book", "S2_budget4000"),
          ("S1_budget4000", "oracle_budget4000"), ("S2_budget4000", "oracle_budget4000"),
          ("S1_budget2000", "S2_budget2000"), ("S1_budget8000", "S2_budget8000"),
-         ("S2_budget4000", "S2_budget4000_context_v1"), ("S2_budget4000", "wrong-S2_budget4000")]
+         ("S2_budget4000", "S2_budget4000_context_v1"), ("S2_budget4000", "wrong-S2_budget4000"),
+         # second embedding (gemini-embedding-2): same set across embeddings, and S1 -> S2 within it
+         ("S1_budget4000", "S1_budget4000" + GEMINI), ("S2_budget4000", "S2_budget4000" + GEMINI),
+         ("S1_budget4000" + GEMINI, "S2_budget4000" + GEMINI)]

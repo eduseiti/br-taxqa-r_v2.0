@@ -36,9 +36,9 @@ def nugget_labels(base: Path) -> pd.DataFrame:
         if man["kind"] == "score":
             run = json.loads((REPO / man["run"] / "run.json").read_text())
             meta = {"run_id": man["run_id"], "run": man["run"], "llm": run["llm"]["name"],
-                    "context_id": man["run_id"].split("/")[-1]}
+                    "context_id": scoring.context_key(man["run_id"])}
         else:
-            meta = {"contexts": man["contexts"], "context_id": lp.parent.name}
+            meta = {"contexts": man["contexts"], "context_id": scoring.context_key(man["contexts"])}
         for x in jl(lp):
             for y in x["labels"]:
                 rows.append({**meta, "question_number": x["question_number"], "source": x["source"],

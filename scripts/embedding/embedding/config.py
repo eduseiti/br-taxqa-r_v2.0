@@ -43,6 +43,9 @@ class ModelConfig:
     endpoint_name: str | None = None
     endpoint_namespace: str | None = None
     expected_pooling: str | None = None
+    api_key_env: str | None = None                  # API providers (openrouter)
+    routing: dict[str, Any] = field(default_factory=dict)      # OpenRouter `provider` block
+    served_provider: str | None = None              # expected `provider` of every OpenRouter reply
     request: dict[str, Any] = field(default_factory=dict)
     price: dict[str, Any] = field(default_factory=dict)
     parity: dict[str, Any] = field(default_factory=dict)

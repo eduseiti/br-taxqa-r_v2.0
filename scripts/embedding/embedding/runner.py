@@ -21,11 +21,18 @@ log = logging.getLogger("embedding")
 NORM_TOL = 1e-3
 
 
-def pack(n_tokens: list[int], max_inputs: int, max_tokens: int) -> list[list[int]]:
+def pack(n_tokens: list[int], max_inputs: int, max_tokens: int, solo_above: int | None = None) -> list[list[int]]:
     """Greedy batches of consecutive indices under both limits (a single text over
-    ``max_tokens`` still gets its own batch; the length guard has already bounded it)."""
+    ``max_tokens`` still gets its own batch; the length guard has already bounded it). Texts over
+    ``solo_above`` tokens are sent alone, so a provider can check each one's reported token count."""
     batches, cur, cur_tok = [], [], 0
     for i, n in enumerate(n_tokens):
+        if solo_above is not None and n > solo_above:
+            if cur:
+                batches.append(cur)
+                cur, cur_tok = [], 0
+            batches.append([i])
+            continue
         if cur and (len(cur) >= max_inputs or cur_tok + n > max_tokens):
             batches.append(cur)
             cur, cur_tok = [], 0
@@ -52,14 +59,15 @@ def validate(vecs: np.ndarray, n: int, dim: int, counters: dict) -> np.ndarray:
 
 
 def run(provider: Provider, store: ShardStore, ids: list[str], texts: list[str], n_tokens: list[int],
-        dim: int, max_inputs: int, max_tokens: int, concurrency: int, progress: bool = True) -> dict:
+        dim: int, max_inputs: int, max_tokens: int, concurrency: int, progress: bool = True,
+        solo_above: int | None = None) -> dict:
     """Embed every id not yet in the store. Returns the session record (also saved in the store)."""
     done = store.done_ids()
     todo = [k for k, i in enumerate(ids) if i not in done]
     session = {"start": now_iso(), "n_skipped": len(ids) - len(todo), "n_texts": 0, "n_tokens": 0,
                "renormalized": 0, "status": "running"}
     log.info("%d of %d texts already embedded; %d to go", len(ids) - len(todo), len(ids), len(todo))
-    batches = [[todo[j] for j in b] for b in pack([n_tokens[k] for k in todo], max_inputs, max_tokens)]
+    batches = [[todo[j] for j in b] for b in pack([n_tokens[k] for k in todo], max_inputs, max_tokens, solo_above)]
     total_tok = sum(n_tokens[k] for k in todo)
     stats0 = dict(provider.stats)
     t0 = time.monotonic()

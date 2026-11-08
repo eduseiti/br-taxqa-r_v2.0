@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "kind": "contexts",
+  "created_at": "2026-11-08T17:51:00+00:00",
+  "script": {
+    "package": "ragpipe",
+    "version": "0.1.0",
+    "git": {
+      "commit": "99e1a8c2251e2722fe0dd6e91739b62f6f35a081",
+      "dirty": true,
+      "dirty_files": [
+        "mbeddings/costs.csv",
+        "scripts/embedding/embed.py",
+        "scripts/embedding/embedding/config.py",
+        "scripts/embedding/embedding/costs.py",
+        "scripts/embedding/embedding/providers/__init__.py",
+        "scripts/embedding/embedding/runner.py",
+        "scripts/embedding/models.yaml",
+        "embeddings/gemini-emb-2/",
+        "runs/retrieval/gemini-emb-2/",
+        "scripts/embedding/embedding/providers/openrouter.py",
+        "scripts/embedding/parity_sample_20261108.json",
+        "scripts/embedding/tests/test_openrouter.py",
+        "scripts/rag/experiments/gemini_core.yaml"
+      ]
+    },
+    "argv": [
+      "scripts/rag/rag.py",
+      "context",
+      "--retrieval",
+      "runs/retrieval/gemini-emb-2/irpf",
+      "--sets",
+      "S1@budget=4000,S2@budget=4000"
+    ]
+  },
+  "config_hash": "0430e19d758ea559570e753bd72746995862c1e8d50517126098fc7850ade7e3",
+  "context_id": "S1_budget4000",
+  "params": {
+    "dedup": "containment_merge",
+    "overflow": "skip",
+    "order": "score",
+    "template": "context_v2",
+    "annex_rule": "either",
+    "oracle_strategy": "S1",
+    "seed": 13,
+    "token_counter": "qwen3",
+    "set": "retrieval",
+    "strategy": "S1",
+    "cutoff": "budget=4000"
+  },
+  "inputs": {
+    "retrieval_manifest": {
+      "path": "runs/retrieval/gemini-emb-2/irpf/manifest.json",
+      "config_hash": "e40415bc6f439907be4345c17f6ce2b9650b6d1a7c1965540037c83988c6db7b"
+    },
+    "chunks": {
+      "path": "segmented/chunks_all.csv.gz",
+      "sha256": "a6087b7f19ff5b02cc0863523b6dd423f6feddf291fe9f11e7f08d45146c326a"
+    },
+    "questions": {
+      "path": "dataset/questions.jsonl",
+      "sha256": "5612b1eb2adc096107f61e366a09088332db0cc47a5a97ae0f1abb7c09a05baa"
+    },
+    "references": {
+      "path": "dataset/references.jsonl",
+      "sha256": "ffc7e6b748f68b428b124dc5a3baa7e0d57aaaef419f7d50ff2596bd62aec9f7"
+    },
+    "documents": {
+      "path": "dataset/documents.jsonl",
+      "sha256": "5b7c5b42020046c420eb89fff56c945481a14aceb4cb28970f85eb5b21ee73aa"
+    },
+    "chapters": {
+      "path": "scripts/rag/data/pr_irpf_2024_chapters.csv",
+      "sha256": "d11588869d03c90793e6c1ba6d154935b1184e4444c15817f0affa666208c5e4"
+    },
+    "template": {
+      "path": "scripts/rag/prompts/context_v2.pt.md",
+      "sha256": "0b3508dc028449ef7b760fa82ef2afc9d5384836ad5a8e04ebab40ec06839716"
+    }
+  },
+  "counts": {
+    "questions": 715,
+    "empty_contexts": 0,
+    "mean_texts": 9.429,
+    "mean_context_tokens_qwen3": 3982.7,
+    "mean_rendered_tokens_qwen3": null,
+    "mean_rendered_chars": 11879.4,
+    "document_questions": 596,
+    "document_recall": 0.5976,
+    "document_hit": 0.860738,
+    "article_questions": 553,
+    "article_recall": 0.413062,
+    "article_hit": 0.62387,
+    "provision_questions": 558,
+    "provision_recall": 0.379565,
+    "provision_hit": 0.584229
+  },
+  "consistency_with_evaluation": {
+    "eval": "runs/retrieval/gemini-emb-2/irpf/eval/either_containment_merge_skip",
+    "items": 5912,
+    "full_hits": 2045,
+    "mismatches": 0,
+    "examples": []
+  },
+  "outputs": {
+    "contexts.jsonl.gz": {
+      "sha256": "a7216cdab672c38120eb3921d16350790c76b33e90b0b74cbf878ee1df04ac5d"
+    }
+  },
+  "timings_s": {
+    "total": 4.02
+  }
+}

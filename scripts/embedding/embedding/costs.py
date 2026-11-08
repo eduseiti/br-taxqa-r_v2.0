@@ -1,8 +1,8 @@
 """Cost ledger ``embeddings/costs.csv`` (plan §9): one row per billable activity, append-only.
 
-Implemented for HF endpoints (replica-minutes × hourly price, from the ``endpoint.Meter``) and
-manual rows (``costs add``). Token-priced providers and billing reconciliation (§9.2, §9.4) come
-with the OpenAI / Gemini providers.
+Implemented for HF endpoints (replica-minutes × hourly price, from the ``endpoint.Meter``), for
+token-priced API providers (``openrouter``: tokens and billed USD as the replies report them) and
+manual rows (``costs add``). Billing reconciliation (§9.4) is not implemented.
 """
 
 from __future__ import annotations
@@ -59,6 +59,32 @@ def endpoint_rows(ledger: Path, cfg: ModelConfig, activity: str, run_id: str, me
                            usd=round(idle_minutes * price / 60, 4) if price else "", source="auto_estimate",
                            notes="endpoint left running: scale-to-zero timeout expected before billing stops"))
     return rows
+
+
+def api_row(ledger: Path, cfg: ModelConfig, activity: str, run_id: str, provider, start: float, end: float,
+            notes: str = "") -> dict | None:
+    """Ledger row for one command of a token-priced provider (plan §9.2): the tokens and the billed
+    USD the replies reported (``provider_reported``). None if nothing was sent."""
+    st = provider.stats
+    if not st.get("requests"):
+        return None
+    served = getattr(provider, "served", None)
+    note = "; ".join(x for x in (notes, f"served: {dict(served)}" if served else "") if x)
+    return append(ledger, timestamp_start=_iso(start), timestamp_end=_iso(end), model_slug=cfg.slug,
+                  activity=activity, run_id=run_id, provider=provider.name, billing_unit="tokens",
+                  quantity=st.get("prompt_tokens", 0), unit_price_usd=cfg.price.get("usd_per_million_tokens", ""),
+                  price_checked=cfg.price.get("checked", ""), usd=round(st.get("cost_usd", 0.0), 6),
+                  source="provider_reported", notes=note)
+
+
+def ledger_total(ledger: Path, provider: str | None = None) -> float:
+    """USD in the ledger (all rows, or one provider's)."""
+    if not ledger.exists():
+        return 0.0
+    df = pd.read_csv(ledger, dtype=str, keep_default_na=False)
+    if provider:
+        df = df[df["provider"] == provider]
+    return float(pd.to_numeric(df["usd"], errors="coerce").fillna(0).sum())
 
 
 def summary(ledger: Path, by: str = "model", markdown: bool = False) -> str:

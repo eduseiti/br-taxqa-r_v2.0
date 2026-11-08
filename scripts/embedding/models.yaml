@@ -63,4 +63,29 @@ models:
     price: {usd_per_hour: 1.80, instance: nvidia-l40s, checked: "2026-09-25"}
     reference: {dtype: bfloat16, trust_remote_code: true}
 
-  # openai-te3-large, openai-te3-small, gemini-emb-2: plan §5.2; providers not implemented yet.
+  # gemini-embedding-2 through OpenRouter (docs/20261108_153258_gemini_embedding_2_comparison_plan.md;
+  # user decisions of 2026-11-08: OpenRouter route, `title: none`, all texts embedded).
+  # - Templates from Google's embeddings page (checked 2026-11-08): gemini-embedding-2 takes no task_type; queries
+  #   `task: search result | query: {content}`, documents `title: {title} | text: {content}` with `title: none`
+  #   when there is none (D3 of the embedding plan: every model gets the same chunk string).
+  # - Native 3072 dimensions, normalized by the API (no `dimensions` parameter is sent).
+  # - The API truncates over-long inputs SILENTLY (probe 2026-11-08: 17,386 tokens accepted and billed). The guard
+  #   counts with the Qwen3 tokenizer, which is an upper bound here: on the 40 longest texts Gemini's own count
+  #   (countTokens, with the prefix) is 0.83-0.91 x Qwen3's (max 7,259). Texts over `solo_above_tokens` go alone
+  #   in a request and their reported token count is checked against max_input_tokens.
+  gemini-emb-2:
+    provider: openrouter
+    model_id: google/gemini-embedding-2
+    api_key_env: OPENROUTER_API_KEY
+    routing: {only: [google-ai-studio], allow_fallbacks: false, data_collection: deny}
+    served_provider: Google AI Studio
+    dim: 3072
+    tokenizer: hf:ufca-llms/jua-4B-mixed@57f491c1718171c0ad71d723c4f6b2030684c4eb   # Qwen3: length guard only
+    query_template: "task: search result | query: {text}"
+    document_template: "title: none | text: {text}"
+    request: {max_inputs: 50, max_request_tokens: 20000, solo_above_tokens: 6000, concurrency: 8}
+    price: {usd_per_million_tokens: 0.20, checked: "2026-11-08",
+            source: "OpenRouter catalogue (google-ai-studio) and Google AI Studio pricing page, text input"}
+    parity: {determinism_min_cos: 0.9999}
+
+  # openai-te3-large, openai-te3-small: plan §5.2; they could use the openrouter provider too.

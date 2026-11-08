@@ -1,0 +1,385 @@
+{
+  "created_at": "2026-11-08T17:31:39+00:00",
+  "model": "gemini-emb-2",
+  "kind": "determinism (API model, no reference)",
+  "server_fingerprint": {
+    "model_id": "google/gemini-embedding-2",
+    "revision": null,
+    "endpoint_repository": null,
+    "endpoint_revision": null,
+    "endpoint_image": null,
+    "server_model_id": "google/gemini-embedding-2",
+    "server_model_sha": null,
+    "server_dtype": null,
+    "server_version": null,
+    "pooling": null
+  },
+  "server_info": {
+    "model_id": "google/gemini-embedding-2",
+    "model_sha": null,
+    "model_dtype": null,
+    "version": null,
+    "engine": "openrouter",
+    "url": "https://openrouter.ai/api/v1/embeddings",
+    "routing": {
+      "only": [
+        "google-ai-studio"
+      ],
+      "allow_fallbacks": false,
+      "data_collection": "deny"
+    },
+    "served_provider": "Google AI Studio",
+    "max_input_length": 8192,
+    "auto_truncate": null
+  },
+  "served": {
+    "Google AI Studio": 20
+  },
+  "instruction_name": "irpf",
+  "sample_sha256": "3c60bd7432d20f21c1dd659b931438c5fb8aab6530d2aac8c40185d2dc2ed442",
+  "thresholds": {
+    "determinism_min_cos": 0.9999,
+    "norm_tol": 0.001
+  },
+  "checks": {
+    "dimension": true,
+    "normalized": true,
+    "deterministic": true,
+    "top1_all": true,
+    "served_provider": true
+  },
+  "metrics": {
+    "cos_min": 0.9999999403953552,
+    "cos_median": 1.0,
+    "max_abs_diff": 0.0,
+    "norm_min": 0.9999998807907104,
+    "norm_max": 1.0000001192092896,
+    "top1_agree": 16,
+    "n_queries": 16,
+    "kendall_tau_min": 1.0,
+    "dim": 3072
+  },
+  "passed": true,
+  "items": [
+    {
+      "id": "4d415d8efbaac288",
+      "kind": "text"
+    },
+    {
+      "id": "be45a84194816150",
+      "kind": "text"
+    },
+    {
+      "id": "ada0911a5dca724f",
+      "kind": "text"
+    },
+    {
+      "id": "df724a3cd21dd49d",
+      "kind": "text"
+    },
+    {
+      "id": "ce5a9446263f2743",
+      "kind": "text"
+    },
+    {
+      "id": "05039b1cb0bf1994",
+      "kind": "text"
+    },
+    {
+      "id": "41804dc623e8561c",
+      "kind": "text"
+    },
+    {
+      "id": "3f946570866fc89c",
+      "kind": "text"
+    },
+    {
+      "id": "24d3a9fc576ef1b8",
+      "kind": "text"
+    },
+    {
+      "id": "253ebba3dc7e0e3e",
+      "kind": "text"
+    },
+    {
+      "id": "2e927bbf97131b71",
+      "kind": "text"
+    },
+    {
+      "id": "f24a0804d4f31f5f",
+      "kind": "text"
+    },
+    {
+      "id": "e7ac7797f5492e5d",
+      "kind": "text"
+    },
+    {
+      "id": "e2efc6e17717ec61",
+      "kind": "text"
+    },
+    {
+      "id": "b7df73de8e92d3b2",
+      "kind": "text"
+    },
+    {
+      "id": "60fc4aed6bbdf42d",
+      "kind": "text"
+    },
+    {
+      "id": "54e7f2e16d3737f9",
+      "kind": "text"
+    },
+    {
+      "id": "ecfaee680f664759",
+      "kind": "text"
+    },
+    {
+      "id": "53f1e92cd6826422",
+      "kind": "text"
+    },
+    {
+      "id": "be91327fdbca8d13",
+      "kind": "text"
+    },
+    {
+      "id": "4c46ae0bfcea41f0",
+      "kind": "text"
+    },
+    {
+      "id": "82ad4a2d13a674d7",
+      "kind": "text"
+    },
+    {
+      "id": "ca6309b4824a34a2",
+      "kind": "text"
+    },
+    {
+      "id": "531ff44e8f5df274",
+      "kind": "text"
+    },
+    {
+      "id": "794b35e39718bcf0",
+      "kind": "text"
+    },
+    {
+      "id": "34329e10923bd8b9",
+      "kind": "text"
+    },
+    {
+      "id": "297c6fd369f6bbee",
+      "kind": "text"
+    },
+    {
+      "id": "cc0d28dfd201f2ff",
+      "kind": "text"
+    },
+    {
+      "id": "075b46bb6313773b",
+      "kind": "text"
+    },
+    {
+      "id": "3aa54fe4a7722f7d",
+      "kind": "text"
+    },
+    {
+      "id": "988bb07e55bdc7c6",
+      "kind": "text"
+    },
+    {
+      "id": "40b2000f57b4c615",
+      "kind": "text"
+    },
+    {
+      "id": "67e008167fa5a6d0",
+      "kind": "text"
+    },
+    {
+      "id": "afe9ecb96b479fa4",
+      "kind": "text"
+    },
+    {
+      "id": "e011f17e18c95b8c",
+      "kind": "text"
+    },
+    {
+      "id": "3c52536e492cc6fe",
+      "kind": "text"
+    },
+    {
+      "id": "a7d813f661ef29f7",
+      "kind": "text"
+    },
+    {
+      "id": "a49996531a28c223",
+      "kind": "text"
+    },
+    {
+      "id": "b4cac46731264440",
+      "kind": "text"
+    },
+    {
+      "id": "f0cd648820830cb2",
+      "kind": "text"
+    },
+    {
+      "id": "6b5e07837e3c9795",
+      "kind": "text"
+    },
+    {
+      "id": "112cb1c063eccd5f",
+      "kind": "text"
+    },
+    {
+      "id": "618478d959773f9e",
+      "kind": "text"
+    },
+    {
+      "id": "707f07e447d42565",
+      "kind": "text"
+    },
+    {
+      "id": "464c206696331573",
+      "kind": "text"
+    },
+    {
+      "id": "1d18380e7ce70878",
+      "kind": "text"
+    },
+    {
+      "id": "e0a5680e199ea709",
+      "kind": "text"
+    },
+    {
+      "id": "02434c4730237385",
+      "kind": "text"
+    },
+    {
+      "id": "92ad7ba12641f67e",
+      "kind": "text"
+    },
+    {
+      "id": "3e170dc5205ca928",
+      "kind": "text"
+    },
+    {
+      "id": "699858cdf3f6137f",
+      "kind": "text"
+    },
+    {
+      "id": "3ae09c7437497e0c",
+      "kind": "text"
+    },
+    {
+      "id": "c960becbc9e43bf9",
+      "kind": "text"
+    },
+    {
+      "id": "9cc6490ddf14dcaa",
+      "kind": "text"
+    },
+    {
+      "id": "0053527b4ff2306f",
+      "kind": "text"
+    },
+    {
+      "id": "49de311f0cd1c8f5",
+      "kind": "text"
+    },
+    {
+      "id": "39257c6153971835",
+      "kind": "text"
+    },
+    {
+      "id": "c65a6b1b6086deea",
+      "kind": "text"
+    },
+    {
+      "id": "a93c58facb6d954f",
+      "kind": "text"
+    },
+    {
+      "id": "4dcfaeddb09cbae2",
+      "kind": "text"
+    },
+    {
+      "id": "dd8a4328cb0390fd",
+      "kind": "text"
+    },
+    {
+      "id": "082f0e491a025dce",
+      "kind": "text"
+    },
+    {
+      "id": "1636d8ee50b938f1",
+      "kind": "text"
+    },
+    {
+      "id": "f1955bd3ada86321",
+      "kind": "text"
+    },
+    {
+      "id": "001",
+      "kind": "query"
+    },
+    {
+      "id": "045",
+      "kind": "query"
+    },
+    {
+      "id": "090",
+      "kind": "query"
+    },
+    {
+      "id": "135",
+      "kind": "query"
+    },
+    {
+      "id": "179",
+      "kind": "query"
+    },
+    {
+      "id": "224",
+      "kind": "query"
+    },
+    {
+      "id": "269",
+      "kind": "query"
+    },
+    {
+      "id": "313",
+      "kind": "query"
+    },
+    {
+      "id": "358",
+      "kind": "query"
+    },
+    {
+      "id": "403",
+      "kind": "query"
+    },
+    {
+      "id": "447",
+      "kind": "query"
+    },
+    {
+      "id": "492",
+      "kind": "query"
+    },
+    {
+      "id": "537",
+      "kind": "query"
+    },
+    {
+      "id": "581",
+      "kind": "query"
+    },
+    {
+      "id": "626",
+      "kind": "query"
+    },
+    {
+      "id": "671",
+      "kind": "query"
+    }
+  ]
+}

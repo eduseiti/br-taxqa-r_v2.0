@@ -825,7 +825,7 @@ def cmd_scoretable(a):
         run = json.loads((REPO / man["run"] / "run.json").read_text())
         ans = {x["question_number"]: x for x in jl_read(REPO / man["run"] / "answers.jsonl")}
         pq = scoring.per_question(lp, nugs, {"run_id": man["run_id"], "llm": run["llm"]["name"],
-                                              "prompt": run["prompt"]["name"], "context_id": man["run_id"].split("/")[-1]})
+                                              "prompt": run["prompt"]["name"], "context_id": scoring.context_key(man["run_id"])})
         pq["answer_chars"] = [len(ans[q].get("answer") or "") for q in pq.question_number]
         frames.append(pq)
     pq = pd.concat(frames, ignore_index=True)
@@ -845,7 +845,7 @@ def cmd_scoretable(a):
     cmp.to_csv(d / "comparisons.csv", index=False, float_format="%.4f")
     ctx = out / "ctxsupport" / set_name / a.judge
     cframes = [scoring.per_question(lp, nugs, {"contexts": str(lp.parent.relative_to(ctx)),
-                                              "context_id": lp.parent.name})
+                                              "context_id": scoring.context_key(str(lp.parent.relative_to(ctx)))})
                for lp in sorted(ctx.glob("**/labels.jsonl"))]
     if cframes:
         cq = pd.concat(cframes, ignore_index=True)

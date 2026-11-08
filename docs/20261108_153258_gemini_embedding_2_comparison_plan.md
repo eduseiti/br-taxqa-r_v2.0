@@ -1,7 +1,8 @@
 # Plan: reproduce the best jua-4b-mixed results with gemini-embedding-2
 
 **Generated:** 2026-11-08 15:32:58 (local time, from `date +%Y%m%d_%H%M%S`).
-**Status:** plan only. Nothing has been run, downloaded or implemented. **The open points were decided by the
+**Status:** **executed on 2026-11-08: steps 1–8, B then A.** Results, costs and what is not done are in
+`20261108_175117_gemini_embedding_2_setup_embedding_and_retrieval_gate.md`. The rest of this note is the plan as written. **The open points were decided by the
 user on 2026-11-08 (§6):**
 - the embedding goes through OpenRouter;
 - the document template is `title: none`;

@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "kind": "retrieval_evaluation",
+  "created_at": "2026-11-08T17:48:36+00:00",
+  "script": {
+    "package": "ragpipe",
+    "version": "0.1.0",
+    "git": {
+      "commit": "99e1a8c2251e2722fe0dd6e91739b62f6f35a081",
+      "dirty": true,
+      "dirty_files": [
+        "mbeddings/costs.csv",
+        "scripts/embedding/embed.py",
+        "scripts/embedding/embedding/config.py",
+        "scripts/embedding/embedding/costs.py",
+        "scripts/embedding/embedding/providers/__init__.py",
+        "scripts/embedding/embedding/runner.py",
+        "scripts/embedding/models.yaml",
+        "embeddings/gemini-emb-2/",
+        "runs/retrieval/gemini-emb-2/",
+        "scripts/embedding/embedding/providers/openrouter.py",
+        "scripts/embedding/parity_sample_20261108.json",
+        "scripts/embedding/tests/test_openrouter.py",
+        "scripts/rag/experiments/gemini_core.yaml"
+      ]
+    },
+    "argv": [
+      "scripts/rag/rag.py",
+      "evaluate",
+      "--retrieval",
+      "runs/retrieval/gemini-emb-2/irpf",
+      "--dedup",
+      "containment",
+      "--strategies",
+      "S1,S2,S3",
+      "--comparisons",
+      "S1:S2,S2:S3",
+      "--eval-id",
+      "either_containment_skip"
+    ]
+  },
+  "config_hash": "9b6f0f5101e97812adecda8014e90e56eb9cd665cf14ab9586bce5c325f0dd76",
+  "eval_id": "either_containment_skip",
+  "params": {
+    "annex_rule": "either",
+    "budgets": [
+      1000,
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "unit_ks": [
+      1,
+      3,
+      5,
+      10,
+      20,
+      50,
+      100
+    ],
+    "raw_ks": [
+      1,
+      5,
+      10,
+      20,
+      50,
+      100,
+      1000
+    ],
+    "dedup": "containment",
+    "overflow": "skip",
+    "token_counter": "qwen3",
+    "gain": "binary",
+    "max_unit_position": 1000,
+    "comparisons": [
+      [
+        "S1",
+        "S2"
+      ],
+      [
+        "S2",
+        "S3"
+      ]
+    ],
+    "n_resamples": 10000,
+    "seed": 13,
+    "strategies": [
+      "S1",
+      "S2",
+      "S3"
+    ]
+  },
+  "inputs": {
+    "retrieval_manifest": {
+      "path": "runs/retrieval/gemini-emb-2/irpf/manifest.json",
+      "config_hash": "e40415bc6f439907be4345c17f6ce2b9650b6d1a7c1965540037c83988c6db7b"
+    },
+    "chunks": {
+      "path": "segmented/chunks_all.csv.gz",
+      "sha256": "a6087b7f19ff5b02cc0863523b6dd423f6feddf291fe9f11e7f08d45146c326a"
+    },
+    "questions": {
+      "path": "dataset/questions.jsonl",
+      "sha256": "5612b1eb2adc096107f61e366a09088332db0cc47a5a97ae0f1abb7c09a05baa"
+    },
+    "references": {
+      "path": "dataset/references.jsonl",
+      "sha256": "ffc7e6b748f68b428b124dc5a3baa7e0d57aaaef419f7d50ff2596bd62aec9f7"
+    },
+    "documents": {
+      "path": "dataset/documents.jsonl",
+      "sha256": "5b7c5b42020046c420eb89fff56c945481a14aceb4cb28970f85eb5b21ee73aa"
+    },
+    "chapters": {
+      "path": "scripts/rag/data/pr_irpf_2024_chapters.csv",
+      "sha256": "d11588869d03c90793e6c1ba6d154935b1184e4444c15817f0affa666208c5e4"
+    }
+  },
+  "retrieval": {
+    "embedding": {
+      "slug": "gemini-emb-2",
+      "model_id": "google/gemini-embedding-2",
+      "revision": null,
+      "dim": 3072,
+      "instruction_name": "irpf",
+      "instruction": null,
+      "query_template": "task: search result | query: {text}",
+      "document_template": "title: none | text: {text}"
+    },
+    "retriever": {
+      "name": "dense",
+      "similarity": "cosine (dot product of L2-normalized float32 vectors)",
+      "search": "exact brute force",
+      "tie_break": "text_id ascending",
+      "block_size": 128
+    },
+    "top_n": 1000,
+    "excluded_documents": [
+      "decreto_3000_19990326"
+    ]
+  },
+  "gold": {
+    "questions_with_gold": {
+      "document": 596,
+      "article": 553,
+      "provision": 558
+    },
+    "gold_items": {
+      "document": 1724,
+      "article": 1958,
+      "provision": 2230
+    },
+    "references": 1916,
+    "references_not_in_corpus": 0
+  },
+  "outputs": {
+    "metrics.csv": {
+      "sha256": "550bc92ad5ef63e6818659d4e2b3ee776ce1e9395ec084b908953bcd88f54a85"
+    },
+    "metrics_by_chapter.csv.gz": {
+      "sha256": "f7aa661e77afe89a128ab86baedb9b46f8fe42821d46edbab47618f056c35b2e"
+    },
+    "comparisons.csv": {
+      "sha256": "0588f4f8c3149baa98363609129464b7d29cfbdd456639e74e0b9d8078a701d9"
+    },
+    "reachability.csv": {
+      "sha256": "aade57de91d3a52436f391d3a48755681efe78accf355fc32aa189287b90eee4"
+    },
+    "per_question.csv.gz": {
+      "sha256": "f2fe1bc2ae4d3e23648195ffd89d6e60a1534ceb05dcabf6de55732f0e5fee4e"
+    },
+    "per_item.csv.gz": {
+      "sha256": "c0040f5bcf785b61ba10ca5356f8a7f7f8f551b406120d95f51445e99b211413"
+    }
+  },
+  "timings_s": {
+    "load": 1.23,
+    "score": 6.51,
+    "aggregate": 5.2,
+    "total": 15.95
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-08T17:44:25+00:00",
+  "kind": "corpus",
+  "script": {
+    "version": "0.1.0",
+    "git": {
+      "commit": "99e1a8c2251e2722fe0dd6e91739b62f6f35a081",
+      "dirty": true,
+      "dirty_files": [
+        "M scripts/embedding/embed.py",
+        " M scripts/embedding/embedding/config.py",
+        " M scripts/embedding/embedding/costs.py",
+        " M scripts/embedding/embedding/providers/__init__.py",
+        " M scripts/embedding/embedding/runner.py",
+        " M scripts/embedding/models.yaml",
+        "?? scripts/embedding/embedding/providers/openrouter.py",
+        "?? scripts/embedding/parity_sample_20261108.json",
+        "?? scripts/embedding/tests/test_openrouter.py"
+      ]
+    },
+    "argv": [
+      "scripts/embedding/embed.py",
+      "corpus",
+      "--model",
+      "gemini-emb-2",
+      "--budget",
+      "9.77",
+      "--no-progress"
+    ]
+  },
+  "model": {
+    "slug": "gemini-emb-2",
+    "provider": "openrouter",
+    "model_id": "google/gemini-embedding-2",
+    "revision": null,
+    "dim": 3072,
+    "template": "title: none | text: {text}",
+    "instruction_name": null,
+    "instruction": null,
+    "tokenizer": "hf:ufca-llms/jua-4B-mixed@57f491c1718171c0ad71d723c4f6b2030684c4eb",
+    "max_input_tokens": 8192
+  },
+  "server": {
+    "info": {
+      "model_id": "google/gemini-embedding-2",
+      "model_sha": null,
+      "model_dtype": null,
+      "version": null,
+      "engine": "openrouter",
+      "url": "https://openrouter.ai/api/v1/embeddings",
+      "routing": {
+        "only": [
+          "google-ai-studio"
+        ],
+        "allow_fallbacks": false,
+        "data_collection": "deny"
+      },
+      "served_provider": "Google AI Studio",
+      "max_input_length": 8192,
+      "auto_truncate": null
+    },
+    "endpoint": null,
+    "fingerprint": {
+      "model_id": "google/gemini-embedding-2",
+      "revision": null,
+      "endpoint_repository": null,
+      "endpoint_revision": null,
+      "endpoint_image": null,
+      "server_model_id": "google/gemini-embedding-2",
+      "server_model_sha": null,
+      "server_dtype": null,
+      "server_version": null,
+      "pooling": null
+    }
+  },
+  "input": {
+    "path": "/work/doutorado/artigos/RAG_evaluation/br-taxqa-r_v2.0/segmented/chunks_all.csv.gz",
+    "sha256": "a6087b7f19ff5b02cc0863523b6dd423f6feddf291fe9f11e7f08d45146c326a",
+    "id_col": "chunk_id",
+    "text_col": "Texto",
+    "rows": 104574,
+    "unique_texts": 101943,
+    "tokens": {
+      "total": 28593322,
+      "max": 8110,
+      "p50": 200,
+      "p90": 456,
+      "p99": 1530
+    }
+  },
+  "output": {
+    "shape": [
+      101943,
+      3072
+    ],
+    "dtype": "float32",
+    "norm_min": 0.9999998807907104,
+    "norm_max": 1.0000001192092896,
+    "norms_ok": true,
+    "sha256": {
+      "vectors.npy": "8b35215c1d9c541e4e6a34170465a5f99b7fa015d48dbe82c766a84ea8eb1993",
+      "texts.csv": "13b985029c506c11972daef958b57db7de97903dd59f7e6761bc17593ce55cb5",
+      "chunk_map.csv.gz": "5569b3c5e1aa2e34631d68a15d9ec3b5f7b185e983ea759f41c9e7819c67c286"
+    }
+  },
+  "run": {
+    "start": "2026-11-08T17:31:55+00:00",
+    "end": "2026-11-08T17:43:37+00:00",
+    "n_texts": 101943,
+    "n_tokens": 28593322,
+    "wall_s": 702.0,
+    "requests": 2186,
+    "retries": 0,
+    "errors": 0,
+    "renormalized": 0,
+    "prompt_tokens": 25179092,
+    "cost_usd": 5.035818399999989,
+    "tokens_per_s": 40731.2,
+    "n_sessions": 1,
+    "sessions": [
+      {
+        "start": "2026-11-08T17:31:55+00:00",
+        "n_skipped": 0,
+        "n_texts": 101943,
+        "n_tokens": 28593322,
+        "renormalized": 0,
+        "status": "complete",
+        "end": "2026-11-08T17:43:37+00:00",
+        "wall_s": 702.0,
+        "tokens_per_s": 40730.0,
+        "requests": 2186,
+        "retries": 0,
+        "errors": 0,
+        "prompt_tokens": 25179092,
+        "cost_usd": 5.035818399999989
+      }
+    ]
+  },
+  "parity": {
+    "status": "passed",
+    "path": "embeddings/gemini-emb-2/parity.json",
+    "created_at": "2026-11-08T17:31:39+00:00",
+    "metrics": {
+      "cos_min": 0.9999999403953552,
+      "cos_median": 1.0,
+      "max_abs_diff": 0.0,
+      "norm_min": 0.9999998807907104,
+      "norm_max": 1.0000001192092896,
+      "top1_agree": 16,
+      "n_queries": 16,
+      "kendall_tau_min": 1.0,
+      "dim": 3072
+    }
+  },
+  "cost_ledger": "embeddings/costs.csv"
+}

@@ -1,0 +1,335 @@
+{
+  "schema_version": 1,
+  "kind": "retrieval",
+  "created_at": "2026-11-08T17:44:57+00:00",
+  "script": {
+    "package": "ragpipe",
+    "version": "0.1.0",
+    "git": {
+      "commit": "99e1a8c2251e2722fe0dd6e91739b62f6f35a081",
+      "dirty": true,
+      "dirty_files": [
+        "mbeddings/costs.csv",
+        "scripts/embedding/embed.py",
+        "scripts/embedding/embedding/config.py",
+        "scripts/embedding/embedding/costs.py",
+        "scripts/embedding/embedding/providers/__init__.py",
+        "scripts/embedding/embedding/runner.py",
+        "scripts/embedding/models.yaml",
+        "embeddings/gemini-emb-2/",
+        "scripts/embedding/embedding/providers/openrouter.py",
+        "scripts/embedding/parity_sample_20261108.json",
+        "scripts/embedding/tests/test_openrouter.py",
+        "scripts/rag/experiments/gemini_core.yaml"
+      ]
+    },
+    "argv": [
+      "scripts/rag/rag.py",
+      "retrieve",
+      "--embedding",
+      "gemini-emb-2"
+    ]
+  },
+  "config_hash": "e40415bc6f439907be4345c17f6ce2b9650b6d1a7c1965540037c83988c6db7b",
+  "params": {
+    "embedding": "gemini-emb-2",
+    "instruction": "irpf",
+    "retriever": "dense",
+    "top_n": 1000,
+    "strategies": [
+      "S1",
+      "S2",
+      "S3",
+      "S2c",
+      "S4"
+    ],
+    "run_name": "irpf",
+    "excluded_documents": [
+      "decreto_3000_19990326"
+    ]
+  },
+  "embedding": {
+    "slug": "gemini-emb-2",
+    "model_id": "google/gemini-embedding-2",
+    "revision": null,
+    "dim": 3072,
+    "instruction_name": "irpf",
+    "instruction": null,
+    "query_template": "task: search result | query: {text}",
+    "document_template": "title: none | text: {text}"
+  },
+  "retriever": {
+    "name": "dense",
+    "similarity": "cosine (dot product of L2-normalized float32 vectors)",
+    "search": "exact brute force",
+    "tie_break": "text_id ascending",
+    "block_size": 128
+  },
+  "strategies": {
+    "path": "scripts/rag/strategies.yaml",
+    "sha256": "7ec326aa4e177a49db71f9897d77c7e7c60a2bb57cbbc7ecedc25d83c70d805e",
+    "strategies": {
+      "S1": {
+        "tipos": [
+          "ART",
+          "DSP",
+          "TAB",
+          "TXT"
+        ],
+        "variantes": [
+          "base"
+        ],
+        "description": "Article (or top-level dispositivo) + non-statutory units"
+      },
+      "S2": {
+        "tipos": [
+          "ALI",
+          "ART",
+          "CPT",
+          "DSP",
+          "INC",
+          "ITE",
+          "PAR",
+          "TAB",
+          "TXT"
+        ],
+        "variantes": [
+          "base"
+        ],
+        "description": "S1 + sub-article units with ancestor path (paragraphs without the caput)"
+      },
+      "S3": {
+        "tipos": [
+          "ALI",
+          "ART",
+          "CAP",
+          "CPT",
+          "DSP",
+          "INC",
+          "ITE",
+          "LIV",
+          "PAR",
+          "PRT",
+          "SBT",
+          "SEC",
+          "SSC",
+          "TAB",
+          "TIT",
+          "TXT"
+        ],
+        "variantes": [
+          "base"
+        ],
+        "description": "S2 + grouping chunks"
+      },
+      "S2c": {
+        "tipos": [
+          "ALI",
+          "ART",
+          "CPT",
+          "DSP",
+          "INC",
+          "ITE",
+          "PAR",
+          "TAB",
+          "TXT"
+        ],
+        "variantes": [
+          "caput",
+          "base"
+        ],
+        "description": "S2 with the caput sentence in paragraph-family chunks"
+      },
+      "S4": {
+        "tipos": [
+          "ALI",
+          "ART",
+          "CAP",
+          "CPT",
+          "DSP",
+          "INC",
+          "ITE",
+          "LIV",
+          "PAR",
+          "PRT",
+          "SBT",
+          "SEC",
+          "SSC",
+          "TAB",
+          "TIT",
+          "TXT"
+        ],
+        "variantes": [
+          "caput",
+          "base"
+        ],
+        "description": "S3 with the caput sentence in paragraph-family chunks"
+      }
+    },
+    "grouping_tipos": [
+      "CAP",
+      "LIV",
+      "PRT",
+      "SBT",
+      "SEC",
+      "SSC",
+      "TIT"
+    ],
+    "unit_precedence": [
+      "PRT",
+      "LIV",
+      "TIT",
+      "SBT",
+      "CAP",
+      "SEC",
+      "SSC",
+      "ART",
+      "DSP",
+      "TXT",
+      "TAB",
+      "CPT",
+      "PAR",
+      "INC",
+      "ALI",
+      "ITE"
+    ]
+  },
+  "inputs": {
+    "chunks": {
+      "path": "segmented/chunks_all.csv.gz",
+      "sha256": "a6087b7f19ff5b02cc0863523b6dd423f6feddf291fe9f11e7f08d45146c326a"
+    },
+    "questions": {
+      "path": "dataset/questions.jsonl",
+      "sha256": "5612b1eb2adc096107f61e366a09088332db0cc47a5a97ae0f1abb7c09a05baa"
+    },
+    "references": {
+      "path": "dataset/references.jsonl",
+      "sha256": "ffc7e6b748f68b428b124dc5a3baa7e0d57aaaef419f7d50ff2596bd62aec9f7"
+    },
+    "documents": {
+      "path": "dataset/documents.jsonl",
+      "sha256": "5b7c5b42020046c420eb89fff56c945481a14aceb4cb28970f85eb5b21ee73aa"
+    },
+    "strategies_yaml": {
+      "path": "scripts/rag/strategies.yaml",
+      "sha256": "7ec326aa4e177a49db71f9897d77c7e7c60a2bb57cbbc7ecedc25d83c70d805e"
+    },
+    "corpus_vectors": {
+      "path": "embeddings/gemini-emb-2/corpus/vectors.npy",
+      "sha256": "8b35215c1d9c541e4e6a34170465a5f99b7fa015d48dbe82c766a84ea8eb1993"
+    },
+    "corpus_texts": {
+      "path": "embeddings/gemini-emb-2/corpus/texts.csv",
+      "sha256": "13b985029c506c11972daef958b57db7de97903dd59f7e6761bc17593ce55cb5"
+    },
+    "chunk_map": {
+      "path": "embeddings/gemini-emb-2/corpus/chunk_map.csv.gz",
+      "sha256": "5569b3c5e1aa2e34631d68a15d9ec3b5f7b185e983ea759f41c9e7819c67c286"
+    },
+    "query_vectors": {
+      "path": "embeddings/gemini-emb-2/queries/irpf/vectors.npy",
+      "sha256": "d0ff21cb133637d096b3bdb87bda33cdf6fcc23744d4b4acf4c29c94e77dbc21"
+    },
+    "queries": {
+      "path": "embeddings/gemini-emb-2/queries/irpf/queries.csv",
+      "sha256": "8b69fdbab5a4eee1f17f5706a50569bc86a030650919ed12c5d5b33fa14395b3"
+    },
+    "corpus_exclusions": {
+      "path": "scripts/rag/corpus_exclusions.yaml",
+      "sha256": "5f484dece5ceb2ff96131d873dc4c83741b2b393bc1fd2fcf981d5ea13fb8676"
+    }
+  },
+  "checks": {
+    "ok": true,
+    "errors": [],
+    "warnings": [],
+    "info": {
+      "chunks": 104574,
+      "unique_texts": 101943,
+      "corpus_vectors": [
+        101943,
+        3072
+      ],
+      "query_vectors": [
+        715,
+        3072
+      ],
+      "questions": 715,
+      "references": 1916,
+      "references_not_in_corpus": 0,
+      "documents": 453,
+      "documents_without_chunks": 0,
+      "cited_documents_without_chunks": []
+    }
+  },
+  "counts": {
+    "S1": {
+      "chunk_rows": 20461,
+      "candidate_texts": 20422,
+      "ranking_rows": 715000,
+      "texts_with_aliases": 34
+    },
+    "S2": {
+      "chunk_rows": 68656,
+      "candidate_texts": 68501,
+      "ranking_rows": 715000,
+      "texts_with_aliases": 150
+    },
+    "S3": {
+      "chunk_rows": 72061,
+      "candidate_texts": 71906,
+      "ranking_rows": 715000,
+      "texts_with_aliases": 150
+    },
+    "S2c": {
+      "chunk_rows": 68656,
+      "candidate_texts": 66222,
+      "ranking_rows": 715000,
+      "texts_with_aliases": 2428
+    },
+    "S4": {
+      "chunk_rows": 72061,
+      "candidate_texts": 69627,
+      "ranking_rows": 715000,
+      "texts_with_aliases": 2428
+    }
+  },
+  "corpus_exclusions": {
+    "path": "scripts/rag/corpus_exclusions.yaml",
+    "sha256": "5f484dece5ceb2ff96131d873dc4c83741b2b393bc1fd2fcf981d5ea13fb8676",
+    "documents": [
+      "decreto_3000_19990326"
+    ],
+    "chunk_rows_excluded": 6960
+  },
+  "outputs": {
+    "S1": {
+      "path": "S1/rankings.csv.gz",
+      "sha256": "2e8fab7a9dfb26b27acbba05ebd0c90e4787d0103365760d0c09e0b782a18056"
+    },
+    "S2": {
+      "path": "S2/rankings.csv.gz",
+      "sha256": "2864497280cadb92fb04e8f1638f5150031edc5be9f0fd48630d4623551727a0"
+    },
+    "S3": {
+      "path": "S3/rankings.csv.gz",
+      "sha256": "6b5b804ee9e86e08d3de1442d0f772853e21f6b9173ccdf01310052b10467ef4"
+    },
+    "S2c": {
+      "path": "S2c/rankings.csv.gz",
+      "sha256": "31d97e9cd6aa145e937af660aaf69f397f451138dd58b4a597267b96ba8d64ca"
+    },
+    "S4": {
+      "path": "S4/rankings.csv.gz",
+      "sha256": "0baed5d480c1aa87cc6f2fa3bcc5610f53fe014abdbccdebe4905f530749e9c3"
+    }
+  },
+  "timings_s": {
+    "load_and_check": 1.99,
+    "index": 1.18,
+    "search": 4.27,
+    "write": 12.08,
+    "total": 19.52
+  }
+}
