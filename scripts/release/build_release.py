@@ -37,6 +37,9 @@ SECRET = re.compile(rb"(?<![A-Za-z0-9+/_-])(sk-or-v1-[A-Za-z0-9]{20,}|sk-proj-[A
                     rb"|AIza[0-9A-Za-z_-]{30,}|Bearer [A-Za-z0-9._-]{20,})")
 LOCAL_PATH = re.compile(rb"(/work/|/home/|/root/|/tmp/|/mnt/[a-z]/|[A-Z]:\\\\Users)")
 SCRATCH = re.compile(rb"/tmp/[^\"\s`']*?/scratchpad/")     # Claude Code session folders
+# checkouts of this repo on the other computers that wrote tracked files (their absolute paths are rewritten the
+# same way as this checkout's, so a build gives the same copies wherever it runs)
+OTHER_REPO_ROOTS = ["/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0"]
 TEXT_SUFFIXES = {".json", ".jsonl", ".csv", ".tsv", ".md", ".txt", ".yaml", ".yml", ".log", ".xml", ""}
 LICENSE_TEXT = """Creative Commons Attribution 4.0 International (CC BY 4.0)
 https://creativecommons.org/licenses/by/4.0/legalcode
@@ -92,13 +95,13 @@ def copy_entries(spec: dict, tree: Path) -> int:
 def pack_caches(spec: dict, tree: Path) -> None:
     for out, src in spec.get("pack", {}).items():
         d = REPO / src
+        dst = tree / out
+        if dst.exists():                        # kept from the previous build (--keep-raw), or downloaded from the
+            print(f"keep   {out}")              # published revision when the cache is not on this computer
+            continue
         files = sorted(f for f in d.rglob("*") if f.is_file()) if d.is_dir() else []
         if not files:
             die(f"cache {src} missing or empty")
-        dst = tree / out
-        if dst.exists():                        # kept from the previous build (--keep-raw)
-            print(f"keep   {out}")
-            continue
         dst.parent.mkdir(parents=True, exist_ok=True)
         with open(dst, "wb") as raw:           # deterministic: sorted names, fixed mtime/owner, no gzip timestamp
             with gzip.GzipFile(fileobj=raw, mode="wb", mtime=0) as gz, tarfile.open(fileobj=gz, mode="w") as tar:
@@ -119,6 +122,14 @@ def jl(path: Path):
                 yield json.loads(line)
 
 
+PRIMARY_EMBEDDING = "jua-4b-mixed"       # listed first in the flat tables; other embeddings follow by name
+
+
+def embedding_dirs(base: Path) -> list[Path]:
+    dirs = sorted(d for d in base.iterdir() if d.is_dir() and d.name != "cache")
+    return sorted(dirs, key=lambda d: d.name != PRIMARY_EMBEDDING)
+
+
 def run_parts(run_id: str) -> dict:
     # jua-4b-mixed/irpf/<prompt>/<llm>/<context_id>
     emb, instr, prompt, llm, ctx = run_id.split("/")
@@ -127,7 +138,7 @@ def run_parts(run_id: str) -> dict:
 
 def flat_answers(tree: Path) -> list[dict]:
     rows = []
-    for f in sorted((REPO / "runs/answers/jua-4b-mixed").rglob("answers.jsonl")):
+    for f in [f for e in embedding_dirs(REPO / "runs/answers") for f in sorted(e.rglob("answers.jsonl"))]:
         run = list(jl(f))
         sample = "all" if len(run) == 715 else "stratified_30"
         for r in run:
@@ -146,7 +157,7 @@ def flat_answers(tree: Path) -> list[dict]:
 def flat_labels(tree: Path) -> list[dict]:
     rows = []
     base = REPO / "nuggets/scoring/score/gold-v0-auto/gemini-3.8-flash"
-    for f in sorted(base.rglob("labels.jsonl")):
+    for f in [f for e in embedding_dirs(base) for f in sorted(e.rglob("labels.jsonl"))]:
         man = json.loads((f.parent / "manifest.json").read_text(encoding="utf-8"))
         parts = run_parts(man["run_id"])
         for r in jl(f):
@@ -182,7 +193,19 @@ def write_flat(spec: dict, tree: Path) -> None:
     import pandas as pd
     makers = {"answers": flat_answers, "labels": flat_labels}
     for out, kind in spec.get("flat", {}).items():
-        df = typed_csv(REPO / kind["csv"]) if isinstance(kind, dict) else pd.DataFrame(makers[kind](tree))
+        if isinstance(kind, dict) and "csvs" in kind:     # one table per value of a key column, stacked
+            parts = [typed_csv(REPO / path).assign(**{kind["key"]: value}) for value, path in kind["csvs"].items()]
+            df = pd.concat(parts, ignore_index=True)
+            df = df[[kind["key"], *[c for c in df.columns if c != kind["key"]]]]
+            df[kind["key"]] = df[kind["key"]].astype("string")
+        elif isinstance(kind, dict):
+            df = typed_csv(REPO / kind["csv"])
+        else:
+            df = pd.DataFrame(makers[kind](tree))
+            # keep the published schema: rendered_tokens_qwen3 was int64 (no nulls) until the gemini-emb-2 runs,
+            # whose contexts were built without the Qwen3 tokenizer (null); nullable Int64 keeps it int64
+            if "rendered_tokens_qwen3" in df.columns:
+                df["rendered_tokens_qwen3"] = df["rendered_tokens_qwen3"].astype("Int64")
         dst = tree / out
         dst.parent.mkdir(parents=True, exist_ok=True)
         if out.endswith(".parquet"):
@@ -198,7 +221,7 @@ def write_flat(spec: dict, tree: Path) -> None:
 
 def rewrite_and_check(tree: Path) -> None:
     """Rewrite local absolute paths in the copies, then fail on any secret or local path left."""
-    repo_abs, parent_abs = str(REPO).encode() + b"/", str(REPO.parent).encode() + b"/"
+    roots = [str(REPO), *(r for r in OTHER_REPO_ROOTS if r != str(REPO))]
     problems = []
     for f in sorted(tree.rglob("*")):
         if not f.is_file() or f.suffix in {".npy", ".docx", ".pdf"} or f.name.endswith(".tar.gz"):
@@ -207,8 +230,11 @@ def rewrite_and_check(tree: Path) -> None:
         data = gzip.decompress(f.read_bytes()) if gz else f.read_bytes()
         if Path(f.stem if gz else f.name).suffix not in TEXT_SUFFIXES:
             continue
-        new = SCRATCH.sub(b"<scratchpad>/", data.replace(repo_abs, b"").replace(str(REPO).encode(), b".")
-                          .replace(parent_abs, b"../"))
+        new = data
+        for root in roots:
+            r = root.encode()
+            new = new.replace(r + b"/", b"").replace(r, b".").replace(r.rsplit(b"/", 1)[0] + b"/", b"../")
+        new = SCRATCH.sub(b"<scratchpad>/", new)
         if new != data:
             f.write_bytes(gzip.compress(new, mtime=0) if gz else new)
             print(f"path   rewrote {f.relative_to(tree)}")

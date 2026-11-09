@@ -87,7 +87,8 @@ than expected.
   next: stages 3–4, §9 there). **Hugging Face release:** plan and status in
   `docs/20261024_180016_hugging_face_release_plan.md` (§9: both repos staged private under `eduseiti` on 2026-10-24),
   tooling in `scripts/release/` (`build_release.py`, `push_release.py`, token `HF_RELEASE_TOKEN`), record in
-  `release/hf_release.json`. **Second embedding (gemini-embedding-2 via OpenRouter, `embed.py` provider `openrouter`):**
+  `release/hf_release.json`; the Gemini outputs were added to repo B on 2026-11-08
+(`docs/20261108_231904_hugging_face_update_gemini_embedding_2.md`). **Second embedding (gemini-embedding-2 via OpenRouter, `embed.py` provider `openrouter`):**
   plan `docs/20261108_153258_gemini_embedding_2_comparison_plan.md`, results
   `docs/20261108_175117_gemini_embedding_2_setup_embedding_and_retrieval_gate.md`. Outputs sit under
   `<…>/gemini-emb-2/`; in the nugget tables its runs are `<context_id>@gemini-emb-2` (`scoring.context_key`). `rag.py` does not
