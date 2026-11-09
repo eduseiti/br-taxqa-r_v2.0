@@ -1,0 +1,1667 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BR-TaxQA-R Results Explorer</title>
+<style>
+:root {
+  color-scheme: light;
+  --page: #f9f9f7; --surface: #fcfcfb; --surface-2: #f3f2ee;
+  --ink: #0b0b0b; --ink-2: #52514e; --muted: #77756f;
+  --grid: #e1e0d9; --axis: #c3c2b7; --ring: rgba(11,11,11,0.10);
+  --accent: #2a78d6; --accent-wash: rgba(42,120,214,0.10);
+  --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100; --s5: #e87ba4; --s6: #008300; --s7: #6250d6; --s8: #e34948;
+  --good: #0ca30c; --good-ink: #006300; --warn: #fab219; --crit: #d03b3b;
+  --lab-S: #1c7a3e; --lab-P: #c9a227; --lab-N: #d9d7cf; --lab-C: #d03b3b; --lab-X: #f3f2ee;
+  --div-neg: #d03b3b; --div-pos: #2a78d6; --div-mid: #f0efec;
+  --code: #f0efec;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --page: #0d0d0d; --surface: #1a1a19; --surface-2: #232321;
+    --ink: #f0efec; --ink-2: #c3c2b7; --muted: #95938c;
+    --grid: #2c2c2a; --axis: #4a4a46; --ring: rgba(255,255,255,0.10);
+    --accent: #3987e5; --accent-wash: rgba(57,135,229,0.16);
+    --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --s6: #008300; --s7: #9085e9; --s8: #e66767;
+    --good-ink: #0ca30c;
+    --lab-S: #2f9d55; --lab-P: #c9a227; --lab-N: #3a3a37; --lab-C: #e05252; --lab-X: #232321;
+    --div-mid: #383835; --code: #262624;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0d0d0d; --surface: #1a1a19; --surface-2: #232321;
+  --ink: #f0efec; --ink-2: #c3c2b7; --muted: #95938c;
+  --grid: #2c2c2a; --axis: #4a4a46; --ring: rgba(255,255,255,0.10);
+  --accent: #3987e5; --accent-wash: rgba(57,135,229,0.16);
+  --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --s6: #008300; --s7: #9085e9; --s8: #e66767;
+  --good-ink: #0ca30c;
+  --lab-S: #2f9d55; --lab-P: #c9a227; --lab-N: #3a3a37; --lab-C: #e05252; --lab-X: #232321;
+  --div-mid: #383835; --code: #262624;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--page); color: var(--ink); font: 14px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+a { color: var(--accent); }
+code, .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12.5px; }
+code { background: var(--code); padding: 1px 4px; border-radius: 4px; }
+header.top { position: sticky; top: 0; z-index: 20; background: var(--page); border-bottom: 1px solid var(--grid); }
+.top-inner { max-width: 1280px; margin: 0 auto; padding: 10px 16px 0; }
+.title-row { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.title-row h1 { font-size: 17px; margin: 0; font-weight: 650; }
+.title-row .sub { color: var(--muted); font-size: 12.5px; }
+.title-row .spacer { flex: 1; }
+nav.tabs { display: flex; gap: 2px; overflow-x: auto; margin-top: 8px; scrollbar-width: thin; }
+nav.tabs button { border: 0; background: none; color: var(--ink-2); padding: 8px 12px; font: inherit; cursor: pointer;
+  border-bottom: 2px solid transparent; white-space: nowrap; }
+nav.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); font-weight: 600; }
+nav.tabs button:hover { color: var(--ink); }
+main { max-width: 1280px; margin: 0 auto; padding: 16px; }
+section.tab { display: none; }
+section.tab.active { display: block; }
+h2 { font-size: 20px; margin: 4px 0 6px; font-weight: 650; }
+h3 { font-size: 15.5px; margin: 22px 0 6px; font-weight: 650; }
+h4 { font-size: 13.5px; margin: 14px 0 4px; font-weight: 650; }
+p { margin: 6px 0; max-width: 88ch; }
+.lede { color: var(--ink-2); max-width: 92ch; }
+.card { background: var(--surface); border: 1px solid var(--ring); border-radius: 10px; padding: 14px 16px; margin: 12px 0; }
+.card > h3:first-child, .card > h4:first-child { margin-top: 0; }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 12px; }
+.grid3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; }
+@media (max-width: 520px) { .grid2, .grid3 { grid-template-columns: 1fr; } }
+.what { border-left: 3px solid var(--accent); background: var(--accent-wash); padding: 8px 12px; border-radius: 0 8px 8px 0; margin: 8px 0; font-size: 13px; }
+.what b { font-weight: 650; }
+.warnbox { border-left: 3px solid var(--warn); background: color-mix(in srgb, var(--warn) 12%, transparent); padding: 8px 12px; border-radius: 0 8px 8px 0; margin: 8px 0; font-size: 13px; }
+.controls { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: flex-end; margin: 6px 0 10px; }
+.ctl { display: flex; flex-direction: column; gap: 3px; font-size: 12px; color: var(--ink-2); }
+.ctl .opts { display: flex; flex-wrap: wrap; gap: 4px; }
+select, input[type=text], input[type=search] { font: inherit; font-size: 13px; padding: 4px 8px; border-radius: 6px; border: 1px solid var(--axis); background: var(--surface); color: var(--ink); }
+.chip { border: 1px solid var(--axis); background: var(--surface); color: var(--ink-2); border-radius: 999px; padding: 2px 10px; font: inherit; font-size: 12.5px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+.chip .sw { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+button.btn { font: inherit; font-size: 12.5px; border: 1px solid var(--axis); background: var(--surface); color: var(--ink); border-radius: 6px; padding: 3px 10px; cursor: pointer; }
+button.btn:hover { background: var(--surface-2); }
+table.t { border-collapse: collapse; font-size: 12.5px; width: 100%; }
+table.t th, table.t td { padding: 4px 8px; border-bottom: 1px solid var(--grid); text-align: left; vertical-align: top; }
+table.t th { color: var(--ink-2); font-weight: 600; position: sticky; top: 0; background: var(--surface); }
+table.t td.n, table.t th.n { text-align: right; font-variant-numeric: tabular-nums; }
+.tablewrap { overflow: auto; max-height: 520px; }
+#xgrid .tablewrap { max-height: none; }
+.legend { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 12px; color: var(--ink-2); margin: 4px 0; }
+.legend span.k { display: inline-flex; align-items: center; gap: 6px; }
+.legend .sw { width: 14px; height: 3px; border-radius: 2px; display: inline-block; }
+.legend .sw.box { height: 10px; width: 10px; border-radius: 3px; }
+.legend .sw.dash { background: none !important; border-top: 2px dashed currentColor; height: 0; }
+svg text { fill: var(--ink-2); font: 11px system-ui, -apple-system, "Segoe UI", sans-serif; }
+svg .axis line, svg .axis path { stroke: var(--axis); }
+svg .gridl { stroke: var(--grid); }
+.tip { position: fixed; z-index: 50; pointer-events: none; background: var(--surface); color: var(--ink); border: 1px solid var(--ring);
+  box-shadow: 0 4px 16px rgba(0,0,0,.12); border-radius: 8px; padding: 6px 10px; font-size: 12px; max-width: 360px; display: none; }
+.tip .v { font-weight: 650; font-variant-numeric: tabular-nums; }
+.tip .row { display: flex; gap: 8px; align-items: center; }
+.tip .sw { width: 10px; height: 3px; border-radius: 2px; }
+.pill { display: inline-block; font-size: 11px; padding: 0 7px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); border: 1px solid var(--ring); white-space: nowrap; }
+.pill.full { background: color-mix(in srgb, var(--s1) 16%, transparent); }
+.pill.pilot { background: color-mix(in srgb, var(--warn) 22%, transparent); }
+.pill.oracle { background: color-mix(in srgb, var(--s7) 18%, transparent); }
+.sig { color: var(--good-ink); font-weight: 650; }
+.ns { color: var(--muted); }
+a.doc { text-decoration: none; border-bottom: 1px dotted var(--accent); cursor: pointer; }
+a.doc::before { content: "¶ "; font-size: 11px; opacity: .7; }
+.doclist { font-size: 12.5px; margin: 6px 0 0; padding-left: 18px; }
+.doclist li { margin: 2px 0; }
+/* drawer */
+.drawer { position: fixed; top: 0; right: 0; bottom: 0; width: min(760px, 100vw); background: var(--surface); border-left: 1px solid var(--ring);
+  box-shadow: -8px 0 32px rgba(0,0,0,.18); z-index: 40; transform: translateX(105%); transition: transform .18s ease; display: flex; flex-direction: column; }
+.drawer.open { transform: none; }
+.drawer .dh { display: flex; align-items: center; gap: 10px; padding: 10px 16px; border-bottom: 1px solid var(--grid); }
+.drawer .dh .name { font-weight: 600; font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; flex: 1; }
+.drawer .db { overflow: auto; padding: 8px 22px 40px; }
+.md h1 { font-size: 20px; } .md h2 { font-size: 17px; margin-top: 22px; } .md h3 { font-size: 15px; }
+.md table { border-collapse: collapse; font-size: 12.5px; display: block; overflow-x: auto; }
+.md th, .md td { border: 1px solid var(--grid); padding: 3px 7px; vertical-align: top; }
+.md pre { background: var(--code); padding: 8px 10px; border-radius: 6px; overflow-x: auto; font-size: 12px; }
+.md pre code { background: none; padding: 0; }
+.md img { max-width: 100%; background: #fff; border-radius: 6px; }
+.md .hl { background: color-mix(in srgb, var(--warn) 30%, transparent); border-radius: 4px; }
+/* pipeline */
+.pipe-node { cursor: pointer; }
+.pipe-node rect { fill: var(--surface); stroke: var(--axis); stroke-width: 1.2; }
+.pipe-node:hover rect, .pipe-node.sel rect { stroke: var(--accent); stroke-width: 2; fill: var(--accent-wash); }
+.pipe-node text.t1 { fill: var(--ink); font-weight: 650; font-size: 12.5px; }
+.pipe-node text.t2 { fill: var(--ink-2); font-size: 11px; }
+.pipe-arrow { stroke: var(--axis); stroke-width: 1.5; fill: none; marker-end: url(#arrow); }
+/* experiment grid */
+table.xg td.cell { text-align: center; cursor: pointer; font-variant-numeric: tabular-nums; }
+table.xg td.cell:hover { outline: 2px solid var(--accent); outline-offset: -2px; }
+table.xg td.cell.empty { cursor: default; color: var(--muted); }
+table.xg td.cell.empty:hover { outline: 0; }
+/* toy */
+.toy-art { font-size: 12.5px; }
+.toy-chunk { border: 1px solid var(--axis); border-radius: 6px; padding: 4px 8px; margin: 3px 0; background: var(--surface); }
+.toy-chunk.hit { border-color: var(--s3); box-shadow: inset 3px 0 0 var(--s3); }
+.toy-chunk.partial { border-color: var(--s4); box-shadow: inset 3px 0 0 var(--s4); }
+.toy-chunk.skip { opacity: .55; }
+.toy-chunk .meta { color: var(--muted); font-size: 11.5px; }
+.rank-table td.hitA { box-shadow: inset 3px 0 0 var(--s3); }
+.rank-table td.hitP { box-shadow: inset 3px 0 0 var(--s4); }
+.tag { display: inline-block; font-size: 10.5px; font-weight: 650; border-radius: 4px; padding: 0 5px; color: #fff; }
+.tag.A { background: var(--lab-S); } .tag.D { background: var(--s7); } .tag.P { background: var(--lab-P); color: #0b0b0b; }
+.tag.in { background: var(--s1); } .tag.out { background: var(--axis); color: var(--ink); }
+/* nugget grid */
+.ng { border-collapse: separate; border-spacing: 2px; font-size: 12px; }
+.ng td.lab { width: 26px; height: 22px; text-align: center; border-radius: 4px; cursor: pointer; font-weight: 650; font-size: 11px; }
+.ng td.lab.S { background: var(--lab-S); color: #fff; } .ng td.lab.P { background: var(--lab-P); color: #0b0b0b; }
+.ng td.lab.N { background: var(--lab-N); color: var(--ink-2); } .ng td.lab.C { background: var(--lab-C); color: #fff; }
+.ng td.lab.X { background: var(--lab-X); color: var(--muted); cursor: default; }
+.ng th.rot { height: 120px; white-space: nowrap; vertical-align: bottom; padding: 0; }
+.ng th.rot > div { transform: rotate(-60deg); transform-origin: 6px 100%; width: 26px; font-weight: 500; color: var(--ink-2); font-size: 11px; }
+.ng td.ntext { min-width: 340px; max-width: 560px; padding-right: 8px; }
+.ng td.ntext .imp { font-size: 10.5px; color: var(--muted); }
+.ctxbox { border: 1px solid var(--ring); border-radius: 8px; padding: 8px; background: var(--surface); }
+.ctxrow { display: grid; grid-template-columns: 30px 46px 40px 1fr 54px; gap: 6px; font-size: 12px; padding: 3px 2px; border-bottom: 1px solid var(--grid); align-items: center; }
+.ctxrow .bar { height: 6px; border-radius: 3px; background: var(--axis); }
+.ctxrow.A { background: color-mix(in srgb, var(--lab-S) 10%, transparent); }
+.answer { white-space: pre-wrap; background: var(--surface-2); border-radius: 8px; padding: 10px 12px; font-size: 13px; max-height: 380px; overflow: auto; }
+.qlist { max-height: 260px; overflow: auto; border: 1px solid var(--ring); border-radius: 8px; }
+.qlist div { padding: 3px 8px; cursor: pointer; font-size: 12.5px; border-bottom: 1px solid var(--grid); }
+.qlist div:hover, .qlist div.sel { background: var(--accent-wash); }
+.small { font-size: 12px; color: var(--ink-2); }
+.kpi { display: flex; flex-wrap: wrap; gap: 12px; }
+.kpi .k { background: var(--surface); border: 1px solid var(--ring); border-radius: 10px; padding: 10px 14px; min-width: 180px; flex: 1; }
+.kpi .k .v { font-size: 22px; font-weight: 650; }
+.kpi .k .l { font-size: 12px; color: var(--ink-2); }
+details > summary { cursor: pointer; color: var(--ink-2); font-size: 13px; }
+.formula { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12.5px; background: var(--code); padding: 6px 10px; border-radius: 6px; display: block; margin: 4px 0; white-space: pre-wrap; }
+@media (forced-colors: active) { .ng td.lab { border: 1px solid CanvasText; } }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="top-inner">
+    <div class="title-row">
+      <h1>BR-TaxQA-R v2.0 · Results explorer</h1>
+      <span class="sub" id="genInfo"></span>
+      <span class="spacer"></span>
+      <button class="btn" id="themeBtn" title="Toggle light/dark">◐ Theme</button>
+    </div>
+    <nav class="tabs" role="tablist" id="tabs"></nav>
+  </div>
+</header>
+<main id="main">
+
+<!-- ================================================================== MAP -->
+<section class="tab" id="tab-map" data-title="1 · Map">
+  <h2>What was run, and what each result compares</h2>
+  <p class="lede">The system answers the 715 prose questions of the Receita Federal's <i>P&amp;R IRPF 2024</i> in four steps:
+  segment the cited legislation, retrieve passages, put up to a token budget of them in front of a generator, and score the
+  answer against the official one with nuggets. Click a stage to see what was varied, what was held fixed, and where it was decided.
+  The summary report is <span data-doc="20261108_224913_results_overview_segmentation_and_embedding.md"></span>.</p>
+  <div class="card">
+    <svg id="pipeSvg" viewBox="0 0 1180 190" width="100%" role="img" aria-label="Pipeline diagram"></svg>
+    <div id="pipeDetail"></div>
+  </div>
+  <h3>Experiment grid: every scored answer run</h3>
+  <p class="lede">Rows are context sets (embedding × strategy × budget, plus controls); columns are generators. The number is the
+  count of questions scored. <span class="pill full">715 full</span> runs are comparable with each other;
+  <span class="pill oracle">596 oracle</span> runs cover only questions that cite a provision of the corpus;
+  <span class="pill pilot">30 pilot</span> runs use the <code>stratified_30</code> sample only and must not be compared with full runs.
+  Click a cell to open the run in the <b>Answers</b> tab.</p>
+  <div class="card"><div class="tablewrap" id="xgrid"></div></div>
+  <h3>Headline comparisons</h3>
+  <div class="kpi" id="kpis"></div>
+</section>
+
+<!-- ================================================================== SEGMENTATION -->
+<section class="tab" id="tab-seg" data-title="2 · Segmentation">
+  <h2>Segmentation strategies: what each index contains</h2>
+  <p class="lede">All strategies are filters over <b>one</b> chunk table (<code>segmented/chunks_all.csv.gz</code>), embedded once per
+  model. A strategy is the set of chunk types (<code>Tipo</code>) it indexes and, for S2c/S4, which text variant of paragraph-family
+  chunks it uses (<code>scripts/rag/strategies.yaml</code>). Design: <span data-doc="20260923_193852_segmentation_strategies_for_rag_experiments.md"></span>;
+  caput variants: <span data-doc="20261005_184116_segmentation_s3_vs_lima_ementa_and_caput_strategy_plan.md"></span>; length cap:
+  <span data-doc="20261013_105850_segmentation_token_cap_summary.md"></span>.</p>
+  <div class="grid2">
+    <div class="card">
+      <h4>Interactive example: one article under each strategy</h4>
+      <div class="controls"><div class="ctl">Strategy<div class="opts" id="segStratChips"></div></div></div>
+      <div id="segToy"></div>
+    </div>
+    <div class="card">
+      <h4>Chunks indexed per strategy (RIR/1999 excluded)</h4>
+      <div id="segBars"></div>
+      <div class="legend" id="segBarsLegend"></div>
+      <div class="what" id="segWhat"></div>
+    </div>
+  </div>
+  <div class="card">
+    <h4>Strategy table</h4>
+    <div id="segTable"></div>
+  </div>
+</section>
+
+<!-- ================================================================== RETRIEVAL HOW -->
+<section class="tab" id="tab-rhow" data-title="3 · Retrieval: how scored">
+  <h2>How retrieval is scored across strategies that cut the text differently</h2>
+  <p class="lede">S1 indexes whole articles; S2 also indexes caput, paragraphs, incisos, alíneas and items. A raw chunk rank is
+  therefore <b>not</b> comparable between them. The evaluation (<code>scripts/rag/ragpipe/evaluation.py</code>,
+  <code>relevance.py</code>) scores one ranked list of chunks per question three ways, and always matches the gold
+  <b>at the level of the gold</b>, not at the level of the chunk. Reference note:
+  <span data-doc="20261013_111626_retrieval_metrics_views_and_position_metrics.md"></span>; plan:
+  <span data-doc="20260927_204356_rag_pipeline_implementation_plan.md" data-sec="4"></span>.</p>
+
+  <div class="card">
+    <h3>Answer to the key question: "if the gold is an article, how are S2 retrievals evaluated?"</h3>
+    <div class="grid3">
+      <div><h4>Matching (rule G2)</h4><p>An article-level gold item <code>(document, art N)</code> is hit by <b>any</b> chunk of
+      article N: the whole article, one of its split parts, its caput, any §, inciso, alínea or item. In S3/S4 a grouping chunk
+      (chapter, section…) hits every article whose interval it contains. So an S2 inciso of art. 8 counts as "art. 8 retrieved".</p></div>
+      <div><h4>MRR and nDCG@10 (unit view)</h4><p>The chunk ranking is first <b>projected to distinct articles</b>: walk the
+      ranking, and each article gets the position at which <i>any</i> of its chunks first appears; later chunks of an already-seen
+      article are ignored. MRR = 1 / position of the first gold article in that list; nDCG@10 uses binary gain over the first 10
+      distinct articles. The position is therefore "the n-th distinct article", whatever the chunk size, and it is the
+      <b>position of any part of the article</b>, not of the whole-article chunk.</p></div>
+      <div><h4>Recall within the 4k budget (headline)</h4><p>The context the generator sees is built from the ranking (score order,
+      containment de-duplication with merge, overflow skip) until 4,000 Qwen3 tokens. A gold article counts as recalled when
+      <b>any</b> of its chunks is in that context. Position inside the context does not matter. This is the only view that
+      accounts for chunk length: short S2 chunks let more distinct articles fit.</p></div>
+    </div>
+    <div class="warnbox"><b>Consequences to keep in mind.</b> (1) At article level, S2 gets credit for an article when only
+    one inciso of it is in the context; the generator then sees that inciso, not the whole article. The provision level is the
+    stricter test. (2) At provision level there is no MRR/nDCG: S1 can only return the whole article containing a gold inciso,
+    so there is no clean first position. (3) Article-level metrics are averaged over the <b>553</b> questions with at least one
+    article gold; document level over <b>596</b>; provision level over <b>558</b>. The 119 questions without citations are
+    absent from all retrieval metrics (but present in the answer scores).</div>
+  </div>
+
+  <div class="card">
+    <h3>Worked example (interactive)</h3>
+    <p class="small">A made-up question citing <b>Lei 9.250 art. 8, § 2º</b> and <b>Lei 9.250 art. 35, inciso VI</b>.
+    Gold items: document <code>lei_9250</code>; articles <code>art8</code>, <code>art35</code>; provisions
+    <code>art8_par2</code>, <code>art35_cpt_inc6</code>. The two rankings are illustrative, not from a run; the selection and
+    metric code below re-implements the pipeline's rules in the browser. Change the level, the budget or the dedup mode.</p>
+    <div class="controls">
+      <div class="ctl">Gold level<div class="opts" id="toyLevel"></div></div>
+      <div class="ctl">Token budget <span id="toyBudgetV" class="mono"></span><input type="range" id="toyBudget" min="300" max="3000" step="100" value="1200"></div>
+      <div class="ctl">Dedup<div class="opts" id="toyDedup"></div></div>
+    </div>
+    <div class="grid2" id="toyOut"></div>
+    <div class="what" id="toyWhat"></div>
+  </div>
+
+  <div class="card">
+    <h3>All rules in one table</h3>
+    <div class="tablewrap"><table class="t" id="rulesTable"></table></div>
+  </div>
+</section>
+
+<!-- ================================================================== RETRIEVAL RESULTS -->
+<section class="tab" id="tab-rres" data-title="4 · Retrieval: results">
+  <h2>Retrieval results (legal-provision test)</h2>
+  <p class="lede">Evaluation <code id="evalId"></code> of each embedding's rankings
+  (<code>runs/retrieval/&lt;embedding&gt;/irpf/eval/…</code>). The same code builds the generator contexts, so budget-view numbers
+  describe exactly what the generator saw. Gemini comparison: <span data-doc="20261108_175117_gemini_embedding_2_setup_embedding_and_retrieval_gate.md" data-sec="4"></span>.</p>
+  <div class="card">
+    <div class="controls" id="rControls"></div>
+    <div class="what" id="rWhat"></div>
+  </div>
+  <div class="grid2">
+    <div class="card"><h4 id="rBudgetTitle">Budget view</h4><div id="rBudget"></div><div class="legend" id="rBudgetLeg"></div><div class="small" id="rBudgetNote"></div></div>
+    <div class="card"><h4>Unit view: recall@k over distinct units</h4><div id="rUnit"></div><div class="legend" id="rUnitLeg"></div><div class="small" id="rUnitNote"></div></div>
+  </div>
+  <div class="grid2">
+    <div class="card"><h4>Unit view: MRR and nDCG@10</h4><div id="rRank"></div><div class="small" id="rRankNote"></div></div>
+    <div class="card"><h4>Raw view: recall@k over chunks (diagnostic only)</h4><div id="rRaw"></div><div class="legend" id="rRawLeg"></div><div class="small">Raw ranks count chunks, so S2/S3 lists are made of smaller pieces than S1. Do not compare strategies on this view.</div></div>
+  </div>
+  <div class="card">
+    <h3>Paired comparisons</h3>
+    <p class="small">Per-question differences b − a over the same questions; 95 % paired-bootstrap CI (10,000 resamples) and a sign-flip
+    permutation p. Within an embedding the rows come from <code>comparisons.csv</code> (written by <code>rag.py evaluate</code>);
+    Gemini − jua rows are computed by <code>scripts/report/build_dashboard_data.py</code> from the two <code>per_question.csv.gz</code>
+    with the same functions (<code>ragpipe.metrics</code>). The note's ad hoc table used 5,000 resamples, so its CIs differ in the third decimal.</p>
+    <div class="controls" id="rcControls"></div>
+    <div id="rcForest"></div>
+    <div class="what" id="rcWhat"></div>
+  </div>
+  <div class="card">
+    <h4>Reachability (oracle): which gold items any chunk of the strategy can hit</h4>
+    <div class="tablewrap" id="reachTable"></div>
+  </div>
+</section>
+
+<!-- ================================================================== NUGGET HOW -->
+<section class="tab" id="tab-nhow" data-title="5 · Nuggets: how scored">
+  <h2>How answers are scored with nuggets</h2>
+  <p class="lede">Each official answer was broken into <b>nuggets</b>, short facts a correct answer must state, labelled
+  <b>vital</b> or <b>okay</b> (frozen set <code>nuggets/gold/v0-auto/</code>). A judge (Gemini 3.8 Flash, prompt <code>assign_v2</code>)
+  reads a system answer and labels every nugget <i>support</i>, <i>partial_support</i>, <i>not_support</i> or <i>contradicts</i>.
+  Plan: <span data-doc="20261011_224049_gold_answer_nuggetization_plan_v2.md"></span>; execution:
+  <span data-doc="20261021_155704_nuggetization_phases_2_to_4_execution.md"></span>; scoring:
+  <span data-doc="20261023_210727_rag_phase5_scoring_and_analysis.md"></span>; code: <code>scripts/nuggets/nuggetizer/scoring.py</code>.</p>
+  <div class="grid2">
+    <div class="card">
+      <h4>Calculator: click a label to cycle it, click vital/okay to toggle</h4>
+      <div id="calc"></div>
+      <div style="margin-top:8px"><button class="btn" id="calcAdd">+ nugget</button> <button class="btn" id="calcDel">− nugget</button> <button class="btn" id="calcAbst">simulate abstention</button></div>
+    </div>
+    <div class="card">
+      <h4>Metrics for this one question</h4>
+      <div id="calcOut"></div>
+    </div>
+  </div>
+  <div class="card">
+    <h3>From one question to a run score</h3>
+    <ul>
+      <li><b>Per question first, then the mean.</b> Every metric is computed per question and the run value is the plain mean over
+      questions (macro average). A question with 115 nuggets weighs as much as one with 2.</li>
+      <li><b>Questions without vital nuggets</b> have no V_strict / V (NaN) and drop out of those means. That is why paired
+      comparisons say <b>n = 714</b> for V_strict and 715 for A_strict.</li>
+      <li><b>Abstentions and errors</b> are not sent to the judge: every nugget is <i>not_support</i>
+      (<code>source = abstained / error</code>). An abstaining generator is therefore penalised on recall but not on contradictions.</li>
+      <li><b>Oracle runs</b> cover only the 596 questions with a gold provision in the corpus; compare them with S1/S2 only through
+      the paired comparisons (which use the common questions, n = 595).</li>
+      <li><b>Context support</b> uses the same nuggets and the same labels, but the judge reads the <i>context</i> instead of the
+      answer (prompt <code>assign_ctx_v1</code>). It measures what the context makes available, including passages the P&amp;R did not cite.</li>
+      <li><b>Paired tests:</b> per-question differences, 95 % paired bootstrap CI, sign-flip permutation p, and a chapter-cluster bootstrap
+      (the 48 P&amp;R chapters resampled as clusters).</li>
+    </ul>
+    <div class="what">Retrieval metrics score <b>citations</b> (did the context hold the provisions the P&amp;R cites?). Nugget metrics score
+    <b>content</b> (does the answer, or the context, state the facts of the official answer?). They can disagree: Gemini's contexts hold almost
+    the same cited articles as jua's (+0.01 recall) but more of the answer's facts (+0.04–0.05 context V_strict).</div>
+  </div>
+  <div class="card">
+    <h3>Gold nugget set at a glance</h3>
+    <div class="kpi" id="nugKpis"></div>
+  </div>
+</section>
+
+<!-- ================================================================== ANSWERS -->
+<section class="tab" id="tab-ans" data-title="6 · Answers: results">
+  <h2>Answer and context scores</h2>
+  <p class="lede">Tables in <code>nuggets/scoring/tables/gold-v0-auto/gemini-3.8-flash/all/</code>. Run ids with
+  <code>@gemini-emb-2</code> use the Gemini retrieval; the others use jua-4b-mixed. Trimmed grid:
+  <span data-doc="20261023_120734_first_full_evaluation_budget_trimmed_plan_and_s2_s3_hypotheses.md"></span>.</p>
+  <div class="card">
+    <div class="controls" id="aControls"></div>
+    <div id="aHeat"></div>
+    <div class="what" id="aWhat"></div>
+  </div>
+  <div class="card">
+    <h3>Paired comparisons of answer runs</h3>
+    <div class="controls" id="acControls"></div>
+    <div id="acForest"></div>
+    <div class="what" id="acWhat"></div>
+  </div>
+  <div class="grid2">
+    <div class="card">
+      <h4>Context support vs answer score (full runs)</h4>
+      <div id="aScatter"></div>
+      <div class="legend" id="aScatterLeg"></div>
+      <div class="small">x: V_strict of the <b>context</b> (judge reads the context); y: V_strict of the <b>answer</b>. The gap below the
+      diagonal is what the generator does not use. Closed book has no context.</div>
+    </div>
+    <div class="card">
+      <h4>How much of the context the generator uses</h4>
+      <div class="controls" id="uControls"></div>
+      <div id="aUtil"></div>
+      <div class="small">From <code>utilisation_runs.csv</code>: <b>utilisation</b> = share of nuggets the context fully supports that the
+      answer also supports; <b>leakage</b> = answer supports a nugget the context does not hold at all.</div>
+    </div>
+  </div>
+  <h3>Robustness of S1 → S2</h3>
+  <div class="grid2">
+    <div class="card">
+      <h4>Three nugget sets (primary GPT-6.1 Sol, Gemini 3.1 Pro, Qwen3.8-Max)</h4>
+      <div id="rbCross"></div>
+      <div class="small">Same answers, same judge; only the nugget set changes (<code>crossset_comparisons.csv</code>, jua only).</div>
+    </div>
+    <div class="card">
+      <h4>Randomly damaged nugget sets</h4>
+      <div class="controls" id="pControls"></div>
+      <div id="rbPert"></div>
+      <div class="legend" id="rbPertLeg"></div>
+      <div id="rbPertTargets"></div>
+      <div class="small">Chart: share of 1,000 random replicates in which S2 − S1 keeps its sign and stays significant (<code>perturbation_s1_s2.csv</code>); pre-registered bar: still significant in most replicates at 15–20 % damage. Table: targeted edits (drop condition nuggets, drop audit-flagged nuggets, keep only nuggets all three makers agree on), where "rate" is the share of the targeted nuggets removed.</div>
+    </div>
+  </div>
+  <div class="grid2">
+    <div class="card">
+      <h4>Nugget subsets</h4>
+      <div class="controls" id="slControls"></div>
+      <div id="rbSlices"></div>
+    </div>
+    <div class="card">
+      <h4>Per P&amp;R chapter (S2 − S1 V_strict)</h4>
+      <div class="controls" id="chControls"></div>
+      <div id="rbChapters"></div>
+    </div>
+  </div>
+  <div class="card">
+    <h4>Second judge (Gemini 3.1 Pro on 70 questions)</h4>
+    <div id="rbJudge"></div>
+  </div>
+</section>
+
+<!-- ================================================================== QUESTION -->
+<section class="tab" id="tab-q" data-title="7 · Question explorer">
+  <h2>One question, end to end</h2>
+  <p class="lede">Validate the pipeline on single cases: the gold references, where each gold item ranked under every strategy and
+  embedding, what the 4k contexts actually contained, and how the judge labelled every nugget in every run. Click a label cell to read
+  that answer.</p>
+  <div class="grid2">
+    <div class="card">
+      <div class="controls">
+        <div class="ctl">Search<input type="search" id="qSearch" placeholder="number or words…" style="width:220px"></div>
+        <div class="ctl">Filter<select id="qFilter">
+          <option value="all">all questions</option>
+          <option value="s2win">S2 4k recall > S1 (jua, article)</option>
+          <option value="s1win">S1 4k recall > S2 (jua, article)</option>
+          <option value="nogold">no citation (119)</option>
+          <option value="gemwin">Gemini S2 4k recall > jua S2</option>
+        </select></div>
+      </div>
+      <div class="qlist" id="qList"></div>
+    </div>
+    <div class="card" id="qHead"></div>
+  </div>
+  <div class="card">
+    <h3>Gold items and where they ranked</h3>
+    <div class="controls"><div class="ctl">Level<div class="opts" id="qLevel"></div></div></div>
+    <div class="tablewrap" id="qItems"></div>
+    <div class="small">Each cell: <span class="tag in">4k</span> = the item is in the 4k context (budget view); <b>u</b> = unit-view position
+    (distinct article/document); <b>r</b> = raw rank of the first chunk that fully hits it; <b>r~</b> = first chunk that hits it at least
+    partially (provision level). "—" = not in the top 1,000 / never hit.</div>
+  </div>
+  <div class="card">
+    <h3>Contexts side by side</h3>
+    <div class="controls"><div class="ctl">Left<select id="qCtxA"></select></div><div class="ctl">Right<select id="qCtxB"></select></div></div>
+    <div class="grid2" id="qCtx"></div>
+    <div class="small"><span class="tag A">A</span> chunk of a gold article · <span class="tag D">D</span> other part of a gold document ·
+    rank = position in the chunk ranking · bar = Qwen3 tokens. A chunk listed with a higher rank number than the one above it was
+    either a parent that replaced its already-selected children (merge) or a short text that fitted after a longer one was skipped.</div>
+  </div>
+  <div class="card">
+    <h3>Nuggets × runs</h3>
+    <div class="controls"><div class="ctl">Runs<select id="qRunSet">
+      <option value="core">4k: S1/S2 (jua, Gemini) + closed book + oracle</option>
+      <option value="full">all full runs</option>
+      <option value="all">all runs (incl. pilot)</option>
+    </select></div></div>
+    <div class="tablewrap" id="qNug" style="max-height:none"></div>
+    <div class="legend"><span class="k"><span class="sw box" style="background:var(--lab-S)"></span>support</span>
+      <span class="k"><span class="sw box" style="background:var(--lab-P)"></span>partial_support</span>
+      <span class="k"><span class="sw box" style="background:var(--lab-N)"></span>not_support</span>
+      <span class="k"><span class="sw box" style="background:var(--lab-C)"></span>contradicts</span>
+      <span class="k">· "ctx:" columns = judge applied to the context · a = abstained (all not_support)</span></div>
+    <div id="qAnswer"></div>
+  </div>
+</section>
+
+<!-- ================================================================== DOCS -->
+<section class="tab" id="tab-docs" data-title="8 · Notes">
+  <h2>Design and execution notes</h2>
+  <p class="lede">Every note in <code>docs/</code>, newest last. Opens in the side reader; the ¶ links across the dashboard jump to the
+  relevant section.</p>
+  <div class="card"><input type="search" id="docSearch" placeholder="filter…" style="width:260px"><ul class="doclist" id="docAll"></ul></div>
+</section>
+</main>
+
+<div class="drawer" id="drawer" aria-hidden="true">
+  <div class="dh"><span class="name" id="drawerName"></span><a id="drawerRaw" class="small" target="_blank">raw file</a><button class="btn" id="drawerClose">✕</button></div>
+  <div class="db md" id="drawerBody"></div>
+</div>
+<div class="tip" id="tip"></div>
+
+<script src="data/core.js"></script>
+<script src="data/docs.js"></script>
+<script src="data/questions.js" onerror="window.DATA_Q_MISSING=true"></script>
+<script src="data/contexts.js" onerror="window.DATA_CTX_MISSING=true"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+<script>
+"use strict";
+// =====================================================================================================
+// Utilities
+// =====================================================================================================
+const C = window.DATA_CORE;
+const $ = (s, el = document) => el.querySelector(s);
+const $$ = (s, el = document) => [...el.querySelectorAll(s)];
+const h = (tag, attrs = {}, ...kids) => {
+  const e = document.createElementNS(tag === "svg" || attrs.__svg ? "http://www.w3.org/2000/svg" : "http://www.w3.org/1999/xhtml", tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k === "__svg" || v == null || v === false) continue;
+    if (k === "text") e.textContent = v;
+    else if (k === "html") e.innerHTML = v;
+    else if (k.startsWith("on")) e.addEventListener(k.slice(2), v);
+    else e.setAttribute(k, v);
+  }
+  for (const c of kids.flat()) if (c != null) e.append(c.nodeType ? c : document.createTextNode(c));
+  return e;
+};
+const S = (tag, attrs = {}, ...kids) => h(tag, { ...attrs, __svg: true }, ...kids);
+const fmt = (v, d = 3) => v == null || Number.isNaN(v) ? "—" : (+v).toFixed(d);
+const fmtS = (v, d = 3) => v == null ? "—" : (v > 0 ? "+" : v < 0 ? "−" : "") + Math.abs(v).toFixed(d);
+const fmtP = p => p == null ? "—" : p < 0.001 ? "< .001" : p.toFixed(3).replace(/^0/, "");
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const table = t => t.rows.map(r => Object.fromEntries(t.cols.map((c, i) => [c, r[i]])));
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const uniq = a => [...new Set(a)];
+
+const tip = $("#tip");
+function showTip(ev, html) { tip.innerHTML = html; tip.style.display = "block"; moveTip(ev); }
+function moveTip(ev) {
+  const w = tip.offsetWidth, hh = tip.offsetHeight;
+  let x = ev.clientX + 14, y = ev.clientY + 14;
+  if (x + w > innerWidth - 8) x = ev.clientX - w - 14;
+  if (y + hh > innerHeight - 8) y = ev.clientY - hh - 14;
+  tip.style.left = x + "px"; tip.style.top = y + "px";
+}
+function hideTip() { tip.style.display = "none"; }
+
+function chips(container, options, state, key, { multi = false, onchange, colors } = {}) {
+  container.innerHTML = "";
+  for (const o of options) {
+    const val = typeof o === "object" ? o.value : o, lab = typeof o === "object" ? o.label : o;
+    const on = multi ? state[key].includes(val) : state[key] === val;
+    const b = h("button", { class: "chip", "aria-pressed": String(on), type: "button" });
+    if (colors && colors[val]) b.append(h("span", { class: "sw", style: `background:${colors[val]}` }));
+    b.append(lab);
+    b.onclick = () => {
+      if (multi) {
+        const s = new Set(state[key]);
+        s.has(val) ? s.delete(val) : s.add(val);
+        if (!s.size) return;
+        state[key] = options.map(x => typeof x === "object" ? x.value : x).filter(x => s.has(x));
+      } else state[key] = val;
+      chips(container, options, state, key, { multi, onchange, colors });
+      onchange && onchange();
+    };
+    container.append(b);
+  }
+}
+function selectEl(options, value, onchange) {
+  const s = h("select");
+  for (const o of options) {
+    const val = typeof o === "object" ? o.value : o, lab = typeof o === "object" ? o.label : o;
+    s.append(h("option", { value: val, selected: val === value ? "selected" : null, text: lab }));
+  }
+  s.onchange = () => onchange(s.value);
+  return s;
+}
+function ctl(label, el) { return h("div", { class: "ctl" }, label, el); }
+
+// ----- doc links -----
+const DOC_TITLES = {};
+for (const [name, md] of Object.entries(window.DATA_DOCS || {})) {
+  const m = md.match(/^#\s+(.+)$/m);
+  DOC_TITLES[name] = m ? m[1].trim() : name;
+}
+function docLink(name, sec, label) {
+  const a = h("a", { class: "doc", href: "../" + name, "data-name": name });
+  a.textContent = label || (name.replace(/^\d{8}_\d{6}_/, "").replace(/\.md$/, "").replace(/_/g, " ") + (sec ? ` §${sec}` : ""));
+  a.title = (DOC_TITLES[name] || name) + (sec ? ` — §${sec}` : "");
+  a.onclick = ev => { if (window.DATA_DOCS && DATA_DOCS[name]) { ev.preventDefault(); openDoc(name, sec); } };
+  return a;
+}
+function hydrateDocLinks(root = document) {
+  for (const el of $$("span[data-doc]", root)) {
+    el.replaceWith(docLink(el.dataset.doc, el.dataset.sec, el.dataset.label));
+  }
+}
+function openDoc(name, sec) {
+  const md = DATA_DOCS[name] || "";
+  $("#drawerName").textContent = name;
+  $("#drawerRaw").href = name.startsWith("scripts/") ? "../../" + name : "../" + name;
+  const body = $("#drawerBody");
+  if (window.marked) {
+    body.innerHTML = marked.parse(md);
+    for (const img of $$("img", body)) {
+      const src = img.getAttribute("src");
+      if (src && !/^(https?:|data:|\/)/.test(src)) img.src = "../" + src;
+    }
+    for (const a of $$("a", body)) {
+      const href = a.getAttribute("href") || "";
+      const base = href.split("#")[0].replace(/^\.\//, "");
+      if (DATA_DOCS[base]) { a.onclick = ev => { ev.preventDefault(); openDoc(base); }; }
+    }
+  } else {
+    body.innerHTML = "";
+    body.append(h("pre", { text: md }));
+  }
+  $("#drawer").classList.add("open");
+  $("#drawer").setAttribute("aria-hidden", "false");
+  body.scrollTop = 0;
+  if (sec) {
+    const heads = $$("h1,h2,h3,h4", body);
+    const want = String(sec).trim();
+    const hd = heads.find(x => x.textContent.trim().startsWith(want + ".") || x.textContent.trim().startsWith(want + " ")
+      || x.textContent.trim() === want) || heads.find(x => x.textContent.includes(want));
+    if (hd) { hd.classList.add("hl"); setTimeout(() => hd.scrollIntoView({ block: "start" }), 30); }
+  }
+}
+$("#drawerClose").onclick = () => { $("#drawer").classList.remove("open"); $("#drawer").setAttribute("aria-hidden", "true"); };
+document.addEventListener("keydown", e => { if (e.key === "Escape") $("#drawerClose").click(); });
+
+// ----- theme -----
+$("#themeBtn").onclick = () => {
+  const cur = document.documentElement.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  document.documentElement.dataset.theme = cur === "dark" ? "light" : "dark";
+  try { localStorage.setItem("dash-theme", document.documentElement.dataset.theme); } catch (e) {}
+  rerenderAll();
+};
+try { const t = localStorage.getItem("dash-theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+
+// =====================================================================================================
+// Charts (plain SVG)
+// =====================================================================================================
+function niceTicks(lo, hi, n = 5) {
+  const span = hi - lo || 1, step0 = span / n, mag = Math.pow(10, Math.floor(Math.log10(step0)));
+  const step = [1, 2, 2.5, 5, 10].map(m => m * mag).find(s => span / s <= n) || 10 * mag;
+  const out = [];
+  for (let v = Math.ceil(lo / step) * step; v <= hi + 1e-9; v += step) out.push(+v.toFixed(10));
+  return out;
+}
+/** Line chart over categorical x. series: [{name, color, dash, points: [{x, y, extra}]}] */
+function lineChart(el, { series, xs, xLabel = "", yLabel = "", yDomain, height = 280, fmtY = v => fmt(v, 2), fmtX = x => x }) {
+  el.innerHTML = "";
+  const W = Math.max(320, el.clientWidth || 560), H = height, m = { l: 46, r: 14, t: 10, b: 38 };
+  const all = series.flatMap(s => s.points.map(p => p.y)).filter(v => v != null);
+  let [lo, hi] = yDomain || [Math.min(...all), Math.max(...all)];
+  if (!yDomain) { const pad = (hi - lo) * 0.1 || 0.05; lo = Math.max(0, lo - pad); hi = Math.min(1, hi + pad); if (hi <= lo) hi = lo + 0.1; }
+  const xPos = i => m.l + (xs.length === 1 ? (W - m.l - m.r) / 2 : i * (W - m.l - m.r) / (xs.length - 1));
+  const yPos = v => m.t + (1 - (v - lo) / (hi - lo)) * (H - m.t - m.b);
+  const svg = S("svg", { viewBox: `0 0 ${W} ${H}`, width: "100%", height: H });
+  for (const t of niceTicks(lo, hi)) {
+    svg.append(S("line", { class: "gridl", x1: m.l, x2: W - m.r, y1: yPos(t), y2: yPos(t) }));
+    svg.append(S("text", { x: m.l - 6, y: yPos(t) + 4, "text-anchor": "end", text: fmtY(t) }));
+  }
+  xs.forEach((x, i) => svg.append(S("text", { x: xPos(i), y: H - m.b + 16, "text-anchor": "middle", text: fmtX(x) })));
+  svg.append(S("text", { x: (m.l + W - m.r) / 2, y: H - 4, "text-anchor": "middle", text: xLabel }));
+  svg.append(S("text", { x: 12, y: m.t + (H - m.t - m.b) / 2, transform: `rotate(-90 12 ${m.t + (H - m.t - m.b) / 2})`, "text-anchor": "middle", text: yLabel }));
+  svg.append(S("line", { x1: m.l, x2: W - m.r, y1: H - m.b, y2: H - m.b, stroke: css("--axis") }));
+  for (const s of series) {
+    const pts = s.points.map(p => ({ ...p, i: xs.indexOf(p.x) })).filter(p => p.y != null && p.i >= 0);
+    if (!pts.length) continue;
+    svg.append(S("path", { d: pts.map((p, j) => (j ? "L" : "M") + xPos(p.i) + "," + yPos(p.y)).join(""), fill: "none", stroke: s.color,
+      "stroke-width": 2, "stroke-dasharray": s.dash ? "6 4" : null, "stroke-linejoin": "round" }));
+    for (const p of pts) svg.append(S("circle", { cx: xPos(p.i), cy: yPos(p.y), r: 4, fill: s.dash ? css("--surface") : s.color, stroke: s.color, "stroke-width": 2 }));
+  }
+  const cross = S("line", { y1: m.t, y2: H - m.b, stroke: css("--axis"), "stroke-width": 1, visibility: "hidden" });
+  svg.append(cross);
+  const hit = S("rect", { x: m.l, y: m.t, width: W - m.l - m.r, height: H - m.t - m.b, fill: "transparent" });
+  hit.addEventListener("pointermove", ev => {
+    const r = svg.getBoundingClientRect(), px = (ev.clientX - r.left) * W / r.width;
+    let bi = 0, bd = 1e9;
+    xs.forEach((x, i) => { const d = Math.abs(xPos(i) - px); if (d < bd) { bd = d; bi = i; } });
+    cross.setAttribute("x1", xPos(bi)); cross.setAttribute("x2", xPos(bi)); cross.setAttribute("visibility", "visible");
+    const rows = series.map(s => ({ s, p: s.points.find(p => p.x === xs[bi]) })).filter(r => r.p && r.p.y != null).sort((a, b) => b.p.y - a.p.y);
+    showTip(ev, `<div><b>${esc(xLabel)} ${esc(fmtX(xs[bi]))}</b></div>` + rows.map(r =>
+      `<div class="row"><span class="sw" style="background:${r.s.color}${r.s.dash ? ";opacity:.6" : ""}"></span><span class="v">${fmtY(r.p.y)}</span> ${esc(r.s.name)}${r.p.extra ? ` <span class="small">${esc(r.p.extra)}</span>` : ""}</div>`).join(""));
+  });
+  hit.addEventListener("pointerleave", () => { cross.setAttribute("visibility", "hidden"); hideTip(); });
+  svg.append(hit);
+  el.append(svg);
+}
+function legend(el, items) {
+  el.innerHTML = "";
+  for (const it of items) {
+    el.append(h("span", { class: "k" }, h("span", { class: "sw" + (it.box ? " box" : "") + (it.dash ? " dash" : ""), style: it.dash ? `color:${it.color}` : `background:${it.color}` }), it.name));
+  }
+}
+/** Forest plot. rows: [{label, sub, diff, lo, hi, clo, chi, p, n}] */
+function forest(el, rows, { xLabel = "difference (b − a)", fmtV = v => fmtS(v, 3) } = {}) {
+  el.innerHTML = "";
+  if (!rows.length) { el.append(h("p", { class: "small", text: "No comparison matches these filters." })); return; }
+  const W = Math.max(360, el.clientWidth || 700), rowH = 26, m = { l: Math.min(330, W * 0.42), r: 150, t: 8, b: 34 };
+  const H = m.t + m.b + rows.length * rowH;
+  const vals = rows.flatMap(r => [r.lo, r.hi, r.clo, r.chi, r.diff]).filter(v => v != null);
+  let lo = Math.min(0, ...vals), hi = Math.max(0, ...vals); const pad = (hi - lo) * 0.08 || 0.01; lo -= pad; hi += pad;
+  const x = v => m.l + (v - lo) / (hi - lo) * (W - m.l - m.r);
+  const svg = S("svg", { viewBox: `0 0 ${W} ${H}`, width: "100%", height: H });
+  for (const t of niceTicks(lo, hi, 6)) {
+    svg.append(S("line", { class: "gridl", x1: x(t), x2: x(t), y1: m.t, y2: H - m.b }));
+    svg.append(S("text", { x: x(t), y: H - m.b + 14, "text-anchor": "middle", text: fmtS(t, 2) }));
+  }
+  svg.append(S("line", { x1: x(0), x2: x(0), y1: m.t, y2: H - m.b, stroke: css("--ink-2"), "stroke-width": 1 }));
+  svg.append(S("text", { x: (m.l + W - m.r) / 2, y: H - 4, "text-anchor": "middle", text: xLabel }));
+  svg.append(S("text", { x: W - m.r + 8, y: m.t + 9, text: "diff · p · n", "font-weight": 600 }));
+  rows.forEach((r, i) => {
+    const y = m.t + i * rowH + rowH / 2 + 4;
+    const sig = r.lo != null && (r.lo > 0 || r.hi < 0);
+    const col = sig ? (r.diff > 0 ? css("--div-pos") : css("--div-neg")) : css("--muted");
+    if (i % 2 === 0) svg.append(S("rect", { x: 0, y: y - rowH / 2 - 4 + 2, width: W, height: rowH, fill: css("--surface-2"), opacity: 0.5 }));
+    svg.append(S("text", { x: 4, y: y + 4, text: r.label, fill: css("--ink"), style: "fill:var(--ink)" }));
+    if (r.sub) svg.append(S("text", { x: m.l - 8, y: y + 4, "text-anchor": "end", text: r.sub }));
+    if (r.clo != null) svg.append(S("line", { x1: x(r.clo), x2: x(r.chi), y1: y + 6, y2: y + 6, stroke: col, "stroke-width": 1, "stroke-dasharray": "3 2" }));
+    if (r.lo != null) svg.append(S("line", { x1: x(r.lo), x2: x(r.hi), y1: y, y2: y, stroke: col, "stroke-width": 2, "stroke-linecap": "round" }));
+    svg.append(S("circle", { cx: x(r.diff), cy: y, r: 5, fill: sig ? col : css("--surface"), stroke: col, "stroke-width": 2 }));
+    svg.append(S("text", { x: W - m.r + 8, y: y + 4, text: `${fmtV(r.diff)} · ${fmtP(r.p)} · ${r.n ?? ""}`, style: sig ? "font-weight:650;fill:var(--ink)" : "" }));
+    const hit = S("rect", { x: 0, y: y - rowH / 2, width: W, height: rowH, fill: "transparent" });
+    hit.addEventListener("pointermove", ev => showTip(ev, `<b>${esc(r.label)}</b> ${esc(r.sub || "")}<br>` +
+      (r.ma != null ? `a = ${fmt(r.ma)} → b = ${fmt(r.mb)}<br>` : "") +
+      `<span class="v">${fmtV(r.diff)}</span> (95 % CI ${fmtS(r.lo)}, ${fmtS(r.hi)})` +
+      (r.clo != null ? `<br>chapter-cluster CI ${fmtS(r.clo)}, ${fmtS(r.chi)}` : "") +
+      `<br>p = ${fmtP(r.p)} · n = ${r.n}` + (r.extra ? `<br>${esc(r.extra)}` : "")));
+    hit.addEventListener("pointerleave", hideTip);
+    svg.append(hit);
+  });
+  el.append(svg);
+  el.append(h("div", { class: "legend" },
+    h("span", { class: "k" }, h("span", { class: "sw", style: `background:${css("--div-pos")}` }), "95 % CI above 0"),
+    h("span", { class: "k" }, h("span", { class: "sw", style: `background:${css("--div-neg")}` }), "below 0"),
+    h("span", { class: "k" }, h("span", { class: "sw", style: `background:${css("--muted")}` }), "includes 0"),
+    h("span", { class: "k" }, h("span", { class: "sw dash", style: `color:${css("--muted")}` }), "chapter-cluster CI (answers)")));
+}
+/** Grouped horizontal dot plot. groups: [{label, items: [{name, color, v, dash}]}] */
+function dotRows(el, groups, { lo, hi, fmtV = v => fmt(v, 3), xLabel = "", ml = 150 } = {}) {
+  el.innerHTML = "";
+  const all = groups.flatMap(g => g.items.map(i => i.v)).filter(v => v != null);
+  if (!all.length) { el.append(h("p", { class: "small", text: "No data for these filters." })); return; }
+  lo = lo ?? Math.max(0, Math.min(...all) - 0.05); hi = hi ?? Math.min(1, Math.max(...all) + 0.05);
+  const W = Math.max(320, el.clientWidth || 560), rowH = 26, m = { l: ml, r: 20, t: 8, b: 30 };
+  const nRows = groups.length, H = m.t + m.b + nRows * rowH;
+  const x = v => m.l + (v - lo) / (hi - lo) * (W - m.l - m.r);
+  const svg = S("svg", { viewBox: `0 0 ${W} ${H}`, width: "100%", height: H });
+  for (const t of niceTicks(lo, hi, 6)) {
+    svg.append(S("line", { class: "gridl", x1: x(t), x2: x(t), y1: m.t, y2: H - m.b }));
+    svg.append(S("text", { x: x(t), y: H - m.b + 14, "text-anchor": "middle", text: fmtV(t).replace(/0+$/, "").replace(/\.$/, "") }));
+  }
+  svg.append(S("text", { x: (m.l + W - m.r) / 2, y: H - 3, "text-anchor": "middle", text: xLabel }));
+  groups.forEach((g, i) => {
+    const y = m.t + i * rowH + rowH / 2;
+    svg.append(S("text", { x: m.l - 8, y: y + 4, "text-anchor": "end", text: g.label, style: "fill:var(--ink)" }));
+    svg.append(S("line", { x1: m.l, x2: W - m.r, y1: y, y2: y, stroke: css("--grid") }));
+    const vs = g.items.filter(it => it.v != null);
+    if (vs.length > 1) svg.append(S("line", { x1: x(Math.min(...vs.map(v => v.v))), x2: x(Math.max(...vs.map(v => v.v))), y1: y, y2: y, stroke: css("--axis"), "stroke-width": 2 }));
+    for (const it of vs) {
+      const c = S("circle", { cx: x(it.v), cy: y, r: 6, fill: it.dash ? css("--surface") : it.color, stroke: it.dash ? it.color : css("--surface"), "stroke-width": 2 });
+      c.addEventListener("pointermove", ev => showTip(ev, `<b>${esc(g.label)}</b><br><span class="v">${fmtV(it.v)}</span> ${esc(it.name)}${it.extra ? "<br>" + esc(it.extra) : ""}`));
+      c.addEventListener("pointerleave", hideTip);
+      svg.append(c);
+    }
+  });
+  el.append(svg);
+}
+function heatmap(el, rows, cols, cell, { fmtV = v => fmt(v, 3), lo, hi, onclick, colLabel = c => c, rowLabel = r => r, badge } = {}) {
+  el.innerHTML = "";
+  const vals = rows.flatMap(r => cols.map(c => cell(r, c)?.v)).filter(v => v != null);
+  lo = lo ?? Math.min(...vals); hi = hi ?? Math.max(...vals);
+  const t = h("table", { class: "t xg" });
+  t.append(h("tr", {}, h("th", { text: "" }), ...cols.map(c => h("th", { class: "n", text: colLabel(c) }))));
+  const base = css("--accent");
+  for (const r of rows) {
+    const tr = h("tr", {}, h("th", { text: rowLabel(r), style: "font-weight:500;white-space:nowrap" }));
+    for (const c of cols) {
+      const d = cell(r, c);
+      if (!d || d.v == null) { tr.append(h("td", { class: "cell empty", text: "·" })); continue; }
+      const a = hi > lo ? (d.v - lo) / (hi - lo) : 0.5;
+      const td = h("td", { class: "cell", style: `background:color-mix(in srgb, ${base} ${Math.round(8 + a * 52)}%, transparent)` });
+      td.append(h("div", { text: fmtV(d.v), style: "font-weight:600" }));
+      if (badge) td.append(badge(d));
+      td.addEventListener("pointermove", ev => showTip(ev, d.tip || `<span class="v">${fmtV(d.v)}</span>`));
+      td.addEventListener("pointerleave", hideTip);
+      if (onclick) td.onclick = () => onclick(r, c, d);
+      tr.append(td);
+    }
+    t.append(tr);
+  }
+  el.append(h("div", { class: "tablewrap" }, t));
+}
+function scatter(el, pts, { xLabel, yLabel, lo = 0, hi = 0.6, diag = true }) {
+  el.innerHTML = "";
+  const W = Math.max(320, el.clientWidth || 520), H = 320, m = { l: 46, r: 14, t: 10, b: 38 };
+  const x = v => m.l + (v - lo) / (hi - lo) * (W - m.l - m.r), y = v => m.t + (1 - (v - lo) / (hi - lo)) * (H - m.t - m.b);
+  const svg = S("svg", { viewBox: `0 0 ${W} ${H}`, width: "100%", height: H });
+  for (const t of niceTicks(lo, hi)) {
+    svg.append(S("line", { class: "gridl", x1: m.l, x2: W - m.r, y1: y(t), y2: y(t) }));
+    svg.append(S("text", { x: m.l - 6, y: y(t) + 4, "text-anchor": "end", text: fmt(t, 1) }));
+    svg.append(S("text", { x: x(t), y: H - m.b + 14, "text-anchor": "middle", text: fmt(t, 1) }));
+  }
+  if (diag) svg.append(S("line", { x1: x(lo), y1: y(lo), x2: x(hi), y2: y(hi), stroke: css("--axis"), "stroke-dasharray": "4 4" }));
+  svg.append(S("text", { x: (m.l + W - m.r) / 2, y: H - 4, "text-anchor": "middle", text: xLabel }));
+  svg.append(S("text", { x: 12, y: H / 2, transform: `rotate(-90 12 ${H / 2})`, "text-anchor": "middle", text: yLabel }));
+  for (const p of pts) {
+    const shape = p.shape === "sq" ? S("rect", { x: x(p.x) - 5, y: y(p.y) - 5, width: 10, height: 10, rx: 2 }) : S("circle", { cx: x(p.x), cy: y(p.y), r: 6 });
+    shape.setAttribute("fill", p.hollow ? css("--surface") : p.color); shape.setAttribute("stroke", p.hollow ? p.color : css("--surface")); shape.setAttribute("stroke-width", 2);
+    shape.addEventListener("pointermove", ev => showTip(ev, p.tip)); shape.addEventListener("pointerleave", hideTip);
+    svg.append(shape);
+  }
+  el.append(svg);
+}
+
+// =====================================================================================================
+// Shared vocab
+// =====================================================================================================
+const STRATS = ["S1", "S2", "S3", "S2c", "S4"];
+const SCOL = { S1: "--s1", S2: "--s2", S3: "--s3", S2c: "--s4", S4: "--s5" };
+const scol = s => css(SCOL[s] || "--muted");
+const EMBS = ["jua-4b-mixed", "gemini-emb-2"];
+const EMB_SHORT = { "jua-4b-mixed": "jua", "gemini-emb-2": "Gemini" };
+const LLMS = ["gpt-5.6-terra", "gpt-5.6-luna", "sabia-4", "sabiazinho-4"];
+const LLM_SHORT = { "gpt-5.6-terra": "Terra", "gpt-5.6-luna": "Luna", "sabia-4": "Sabiá-4", "sabiazinho-4": "Sabiazinho-4" };
+const LCOL = { "gpt-5.6-terra": "--s7", "gpt-5.6-luna": "--s1", "sabia-4": "--s2", "sabiazinho-4": "--s3" };
+const lcol = l => css(LCOL[l] || "--muted");
+const ctxLabel = cid => {
+  if (!cid) return "";
+  const [c, emb] = cid.split("@");
+  let s = c.replace("_budget", " ").replace(/000$/, "k").replace("16k", "16k").replace("closed_book", "closed book").replace("wrong-S2", "wrong ctx S2").replace("_context_v1", " (template v1)");
+  s = s.replace(/(\d+)000( |$)/, "$1k$2");
+  return s + (emb ? " · Gemini" : (c.match(/^S\d|^S2c/) ? " · jua" : ""));
+};
+const METRIC_HELP = {
+  recall: "share of the question's gold items that are hit",
+  hit: "1 when at least one gold item is hit",
+  full_recall: "1 when every gold item of the question is hit",
+  partial_recall: "provision level: share of gold provisions hit at least partially (a sub-unit of the gold, or a split-article part)",
+  context_precision: "share of the context's tokens that belong to texts hitting some gold item (at least partially)",
+  mrr: "1 / position of the first gold unit among distinct units (0 if not in the top 1,000)",
+  "ndcg@10": "binary-gain nDCG over the first 10 distinct units; ideal = all gold units first",
+  context_tokens: "Qwen3 tokens in the selected context", context_texts: "number of texts in the selected context",
+};
+const NUG_HELP = {
+  V_strict: "mean over questions of the share of vital nuggets labelled support (headline)",
+  V: "vital nuggets with partial credit: support = 1, partial_support = 0.5",
+  A_strict: "all nuggets (vital + okay), strict",
+  A: "all nuggets, partial credit",
+  W: "weighted: vital weight 1, okay 0.5, partial credit",
+  contradicts: "mean share of nuggets labelled contradicts",
+  any_contradicts: "share of answers that contradict at least one nugget",
+  abstained: "share of answers in which the generator declined to answer",
+  answer_chars: "mean answer length in characters",
+};
+
+// =====================================================================================================
+// Tabs
+// =====================================================================================================
+const TAB_RENDER = {};
+let currentTab = null;
+function buildTabs() {
+  const nav = $("#tabs");
+  for (const sec of $$("section.tab")) {
+    const b = h("button", { role: "tab", "aria-selected": "false", text: sec.dataset.title, onclick: () => showTab(sec.id) });
+    b.dataset.tab = sec.id;
+    nav.append(b);
+  }
+}
+function showTab(id, push = true) {
+  currentTab = id;
+  for (const sec of $$("section.tab")) sec.classList.toggle("active", sec.id === id);
+  for (const b of $$("#tabs button")) b.setAttribute("aria-selected", String(b.dataset.tab === id));
+  if (push) history.replaceState(null, "", "#" + id.replace("tab-", ""));
+  TAB_RENDER[id] && TAB_RENDER[id]();
+}
+function rerenderAll() { currentTab && TAB_RENDER[currentTab] && TAB_RENDER[currentTab](); }
+let rT; addEventListener("resize", () => { clearTimeout(rT); rT = setTimeout(rerenderAll, 150); });
+
+// =====================================================================================================
+// 1 · MAP
+// =====================================================================================================
+const PIPE = [
+  { id: "corpus", t1: "Corpus", t2: ["453 docs → LexML", "1,916 refs · 715 Qs"], detail: {
+    what: "The legal documents cited by the P&R answers, fetched and parsed to LexML XML (statutory and non-statutory). 596 questions cite at least one provision; 119 cite none. The revoked RIR/1999 is excluded from the search corpus (main run <code>irpf</code>).",
+    varied: "Nothing in the reported results (one corpus build, 2026-10-08/09; <code>irpf_with_rir1999</code> is a side run without the exclusion).",
+    fixed: "Chunk table <code>segmented/chunks_all.csv.gz</code> (SHA a6087b7f…).",
+    docs: [["20261007_180833_corpus_fixes_and_full_rebuild_plan.md"], ["20261008_010441_corpus_rebuild_results.md"], ["20261022_203625_corpus_exclusion_revoked_rir1999.md"], ["20260927_180401_dataset_v2_format_and_reference_fixes.md"]] } },
+  { id: "seg", t1: "Segmentation", t2: ["S1 · S2 · S3 · S2c · S4", "cap 1,024 tokens"], tab: "tab-seg", detail: {
+    what: "One chunk table; each strategy is a filter over it. S1 = articles (+ non-statutory units); S2 = S1 + every caput/§/inciso/alínea/item with its ancestor path; S3 = S2 + groupings; S2c/S4 = S2/S3 with the caput sentence in paragraph-family chunks. Every chunk carries a [title | ementa] prefix.",
+    varied: "The strategy (main factor).", fixed: "Prefix, 1,024-token cap on basic chunks, splitting rules for long articles/texts/tables.",
+    docs: [["20260923_193852_segmentation_strategies_for_rag_experiments.md"], ["20261005_184116_segmentation_s3_vs_lima_ementa_and_caput_strategy_plan.md"], ["20261013_105850_segmentation_token_cap_summary.md"]] } },
+  { id: "emb", t1: "Embedding", t2: ["jua-4b-mixed (reference)", "gemini-embedding-2"], detail: {
+    what: "Each unique chunk text is embedded once per model; queries are the question texts with an instruction. Dense cosine retrieval of the top 1,000 texts per question and strategy.",
+    varied: "The embedding model (second factor): jua-4b-mixed (open, own endpoint) vs Google gemini-embedding-2 (via OpenRouter).", fixed: "Instruction <code>irpf</code>, top-n, corpus exclusions.",
+    docs: [["20260925_122058_embedding_implementation_plan.md"], ["20261108_153258_gemini_embedding_2_comparison_plan.md"], ["20261108_175117_gemini_embedding_2_setup_embedding_and_retrieval_gate.md"]] } },
+  { id: "ret", t1: "Retrieval test", t2: ["budget · unit · raw", "doc · article · provision"], tab: "tab-rhow", detail: {
+    what: "Rankings scored against the provisions the P&R answer cites (dataset references). Headline: article recall within the 4k-token context. Ranking quality: MRR / nDCG@10 over distinct articles.",
+    varied: "Strategy × embedding.", fixed: "Gold (<code>references.jsonl</code>), annex rule <code>either</code>, dedup <code>containment_merge</code>, overflow <code>skip</code>, Qwen3 token counts.",
+    docs: [["20260927_204356_rag_pipeline_implementation_plan.md", "4"], ["20261013_111626_retrieval_metrics_views_and_position_metrics.md"], ["20260927_213420_reference_provisions_from_citation_text.md"]] } },
+  { id: "ctx", t1: "Context (4k)", t2: ["best-ranked first", "no repeated text"], detail: {
+    what: "The generator's context: texts in score order, a text contained in an already-selected one is dropped, a parent that comes after its children replaces them, a text that does not fit is skipped. Controls: closed book (no context), oracle (only the cited articles, 4k/16k), wrong context (another question's S2 context).",
+    varied: "Budget (2k/8k on the 30-question pilot only).", fixed: "4,000 Qwen3 tokens, template <code>context_v2</code> (v1 = ablation on the pilot).",
+    docs: [["20261021_210251_rag_phase2_contexts_execution.md"]] } },
+  { id: "gen", t1: "Generation", t2: ["Terra · Luna (GPT-5.6)", "Sabiá-4 · Sabiazinho-4"], tab: "tab-ans", detail: {
+    what: "Four generators, non-reasoning settings, temperature 0 where available, the same prompt (<code>answer_v1</code>; <code>answer_closed_v1</code> for closed book). Answers are claims with quotes.",
+    varied: "Generator. Trimmed grid: Terra only S1/S2/closed/oracle; S3/S2c/S4 without Terra; Gemini contexts only with Luna and Sabiá-4.", fixed: "Prompt, context, max tokens.",
+    docs: [["20261023_110952_rag_phase3_generation_pilot.md"], ["20261023_120734_first_full_evaluation_budget_trimmed_plan_and_s2_s3_hypotheses.md"], ["20261023_151928_rag_phase3_trimmed_full_generation.md"]] } },
+  { id: "nug", t1: "Nugget scoring", t2: ["judge: Gemini 3.8 Flash", "V_strict headline"], tab: "tab-nhow", detail: {
+    what: "Gold answers → 3,175 nuggets (2,262 vital), frozen before any RAG answer was scored. A judge labels each nugget for each answer (and for each context). Paired comparisons with bootstrap, permutation and chapter-cluster CIs.",
+    varied: "For robustness only: nugget set (3 makers), judge (Flash vs 3.1 Pro on 70 questions), perturbed nugget sets, nugget subsets.", fixed: "Primary set <code>gold-v0-auto</code>, judge prompt <code>assign_v2</code>.",
+    docs: [["20261011_224049_gold_answer_nuggetization_plan_v2.md"], ["20261013_103834_nuggetization_open_decisions.md"], ["20261021_155704_nuggetization_phases_2_to_4_execution.md"], ["20261023_210727_rag_phase5_scoring_and_analysis.md"]] } },
+];
+let pipeSel = "ret";
+function renderPipe() {
+  const svg = $("#pipeSvg"); svg.innerHTML = "";
+  const defs = S("defs"); const mk = S("marker", { id: "arrow", viewBox: "0 0 10 10", refX: 9, refY: 5, markerWidth: 7, markerHeight: 7, orient: "auto-start-reverse" });
+  mk.append(S("path", { d: "M0,0 L10,5 L0,10 z", fill: css("--axis") })); defs.append(mk); svg.append(defs);
+  const w = 148, gap = 18, y = 46, hh = 74;
+  svg.append(S("text", { x: 4 + 3 * (w + gap), y: 22, text: "retrieval stage ─ are the cited provisions found?", style: "font-size:11.5px" }));
+  svg.append(S("text", { x: 4 + 5 * (w + gap), y: 180, text: "answer stage ─ does the answer state the official facts?", style: "font-size:11.5px" }));
+  PIPE.forEach((n, i) => {
+    const x = 4 + i * (w + gap);
+    const g = S("g", { class: "pipe-node" + (n.id === pipeSel ? " sel" : ""), tabindex: 0, role: "button" });
+    g.append(S("rect", { x, y, width: w, height: hh, rx: 10 }));
+    g.append(S("text", { class: "t1", x: x + 10, y: y + 22, text: n.t1 }));
+    n.t2.forEach((t, j) => g.append(S("text", { class: "t2", x: x + 10, y: y + 42 + j * 15, text: t })));
+    g.onclick = () => { pipeSel = n.id; renderPipe(); };
+    g.onkeydown = e => { if (e.key === "Enter") g.onclick(); };
+    svg.append(g);
+    if (i < PIPE.length - 1) svg.append(S("path", { class: "pipe-arrow", d: `M${x + w + 2},${y + hh / 2} L${x + w + gap - 2},${y + hh / 2}` }));
+  });
+  // bracket for stages
+  const bx1 = 4 + 3 * (w + gap), bx2 = 4 + 4 * (w + gap) + w;
+  svg.append(S("path", { d: `M${4 + 2 * (w + gap)},36 L${4 + 2 * (w + gap)},30 L${bx2},30 L${bx2},36`, fill: "none", stroke: css("--axis") }));
+  svg.append(S("path", { d: `M${4 + 4 * (w + gap)},${y + hh + 10} L${4 + 4 * (w + gap)},${y + hh + 16} L${4 + 6 * (w + gap) + w},${y + hh + 16} L${4 + 6 * (w + gap) + w},${y + hh + 10}`, fill: "none", stroke: css("--axis") }));
+  const n = PIPE.find(p => p.id === pipeSel), d = n.detail, box = $("#pipeDetail");
+  box.innerHTML = "";
+  box.append(h("h4", { text: n.t1 }), h("p", { html: d.what }),
+    h("p", { html: `<b>Varied:</b> ${d.varied}` }), h("p", { html: `<b>Held fixed:</b> ${d.fixed}` }));
+  const ul = h("ul", { class: "doclist" });
+  for (const [f, s] of d.docs) ul.append(h("li", {}, docLink(f, s)));
+  box.append(h("div", { class: "small", text: "Where it was decided:" }), ul);
+  if (n.tab) box.append(h("p", {}, h("button", { class: "btn", text: "Go to the details →", onclick: () => showTab(n.tab) })));
+}
+function contextRows() {
+  const runs = table(C.nuggets.runs);
+  const ids = uniq(runs.map(r => r.context_id));
+  const order = cid => {
+    const [c, e] = cid.split("@");
+    const ks = ["closed_book", "S1_budget4000", "S2_budget4000", "S3_budget4000", "S2c_budget4000", "S4_budget4000", "oracle_budget4000",
+      "S1_budget2000", "S2_budget2000", "S1_budget8000", "S2_budget8000", "oracle_budget16000", "S2_budget4000_context_v1", "wrong-S2_budget4000"];
+    return (e ? 0.5 : 0) + (ks.indexOf(c) >= 0 ? ks.indexOf(c) : 99) + (e && c.startsWith("S") ? -ks.indexOf(c) + 2.2 + ks.indexOf(c) * 0.01 : 0);
+  };
+  return ids.sort((a, b) => order(a) - order(b));
+}
+function renderMap() {
+  renderPipe();
+  const runs = table(C.nuggets.runs);
+  const rows = contextRows();
+  heatmap($("#xgrid"), rows, LLMS, (r, c) => {
+    const x = runs.find(z => z.context_id === r && z.llm === c);
+    return x ? { v: x.V_strict, n: x.n, tip: `<b>${esc(LLM_SHORT[c])} · ${esc(ctxLabel(r))}</b><br>V_strict <span class="v">${fmt(x.V_strict)}</span> on ${x.n} questions<br><span class="small">${x.n === 715 ? "full" : x.n === 30 ? "pilot (stratified_30): not comparable with full runs" : "oracle subset"}</span>` } : null;
+  }, {
+    colLabel: c => LLM_SHORT[c], rowLabel: r => ctxLabel(r),
+    badge: d => h("span", { class: "pill " + (d.n === 715 ? "full" : d.n === 30 ? "pilot" : d.n === 25 || d.n === 596 ? "oracle" : ""), text: "n " + d.n }),
+    onclick: (r, c) => { ansState.focus = { llm: c, cid: r }; showTab("tab-ans"); },
+  });
+  $("#xgrid").prepend(h("p", { class: "small", text: "Cell value = V_strict (shade = higher). Oracle 16k: 25 questions of the pilot sample with a gold provision." }));
+  // KPIs
+  const rc = table(C.retrieval.comparisons);
+  const nc = table(C.nuggets.comparisons);
+  const k = $("#kpis"); k.innerHTML = "";
+  const findR = (emb, a, b, lv, view, cut, met) => rc.find(r => r.embedding === emb && r.a === a && r.b === b && r.level === lv && r.view === view && String(r.cutoff) === cut && r.metric === met);
+  const s12 = findR("jua-4b-mixed", "S1", "S2", "article", "budget", "4000", "recall");
+  const g12 = findR("gemini-emb-2 − jua-4b-mixed", "S2@jua-4b-mixed", "S2@gemini-emb-2", "article", "unit", "-", "mrr");
+  const nl = nc.find(r => r.llm === "gpt-5.6-luna" && r.a === "S1_budget4000" && r.b === "S2_budget4000" && r.metric === "V_strict");
+  const gl = nc.find(r => r.llm === "gpt-5.6-luna" && r.a === "S2_budget4000" && r.b === "S2_budget4000@gemini-emb-2" && r.metric === "V_strict");
+  const kp = (v, l, sub) => h("div", { class: "k" }, h("div", { class: "v", text: v }), h("div", { class: "l", text: l }), h("div", { class: "small", text: sub }));
+  if (s12) k.append(kp(fmtS(s12.diff), "S1 → S2 · article recall in the 4k context (jua)", `${fmt(s12.mean_a)} → ${fmt(s12.mean_b)}, p ${fmtP(s12.p_permutation)}, n ${s12.n_questions}`));
+  if (g12) k.append(kp(fmtS(g12.diff), "jua → Gemini · article MRR, S2 (unit view)", `${fmt(g12.mean_a)} → ${fmt(g12.mean_b)}, p ${fmtP(g12.p_permutation)}`));
+  if (nl) k.append(kp(fmtS(nl.diff), "S1 → S2 · answer V_strict, Luna (jua, 4k)", `${fmt(nl.mean_a)} → ${fmt(nl.mean_b)}, p ${fmtP(nl.p_perm)}, n ${nl.n}`));
+  if (gl) k.append(kp(fmtS(gl.diff), "jua → Gemini · answer V_strict, Luna, S2 4k", `${fmt(gl.mean_a)} → ${fmt(gl.mean_b)}, p ${fmtP(gl.p_perm)}, n ${gl.n}`));
+}
+TAB_RENDER["tab-map"] = renderMap;
+
+// =====================================================================================================
+// 2 · SEGMENTATION
+// =====================================================================================================
+const TOY_ART = {
+  doc: "Lei nº 9.250/1995", label: "Art. 35", prefix: "[Lei nº 9.250, de 26 de dezembro de 1995 | Altera a legislação do imposto de renda das pessoas físicas…]",
+  caput: "Para efeito do disposto nos arts. 4º, inciso III, e 8º, inciso II, alínea c, poderão ser considerados como dependentes:",
+  incisos: [["I", "o cônjuge;"], ["II", "o companheiro ou a companheira, desde que haja vida em comum por mais de cinco anos, ou por período menor se da união resultou filho;"],
+    ["III", "a filha, o filho, a enteada ou o enteado, até 21 anos, ou de qualquer idade quando incapacitado física ou mentalmente para o trabalho;"],
+    ["VI", "os pais, os avós ou os bisavós, desde que não aufiram rendimentos, tributáveis ou não, superiores ao limite de isenção mensal;"]],
+  pars: [["§ 1º", "Os dependentes a que se referem os incisos III e V deste artigo poderão ser assim considerados quando maiores até 24 anos de idade, se ainda estiverem cursando estabelecimento de ensino superior ou escola técnica de segundo grau."],
+    ["§ 2º", "Os dependentes comuns poderão, opcionalmente, ser considerados por qualquer um dos cônjuges."]],
+  chapter: "Capítulo III — Da declaração de rendimentos",
+};
+const segState = { s: "S2" };
+function renderSeg() {
+  chips($("#segStratChips"), STRATS, segState, "s", { onchange: renderSeg, colors: Object.fromEntries(STRATS.map(s => [s, scol(s)])) });
+  const s = segState.s, A = TOY_ART, out = $("#segToy"); out.innerHTML = "";
+  const capSent = A.caput;
+  const chunk = (tipo, label, text, note) => h("div", { class: "toy-chunk" }, h("div", { class: "meta" }, h("b", { text: tipo }), " · ", label, note ? " · " + note : ""), h("div", { text: text }));
+  const list = [];
+  if (s === "S3" || s === "S4") list.push(chunk("CAP", A.chapter, `${A.prefix} ${A.chapter} — Art. 33 … Art. 35 … (all articles of the chapter, ≤ 8,192 tokens)`, "grouping chunk"));
+  list.push(chunk("ART", `${A.label} (whole article, 723 tokens)`, `${A.prefix} ${A.label} ${A.caput} ${A.incisos.map(i => i.join(" - ")).join(" ")} ${A.pars.map(p => p.join(" ")).join(" ")}`, "in every strategy"));
+  if (s !== "S1") {
+    list.push(chunk("CPT", `${A.label}, caput`, `${A.prefix} ${A.label} ${A.caput}`));
+    for (const [n, t] of A.incisos) list.push(chunk("INC", `${A.label}, caput, inciso ${n}`, `${A.prefix} ${A.label} ${A.caput} ${n} - ${t}`, "ancestor path: the caput is the inciso's parent"));
+    for (const [n, t] of A.pars) list.push(chunk("PAR", `${A.label}, ${n}`, (s === "S2c" || s === "S4") ? `${A.prefix} ${A.label} ${capSent} ${n} ${t}` : `${A.prefix} ${A.label} ${n} ${t}`,
+      (s === "S2c" || s === "S4") ? "variant caput: article label + caput sentence + paragraph" : "variant base: article label + paragraph, no caput"));
+  }
+  out.append(h("p", { class: "small", html: `<b>${s}</b> indexes ${list.length} chunk${list.length > 1 ? "s" : ""} for this article. ${s === "S1" ? "A question about parents as dependants can only retrieve the whole 723-token article." : "A question about parents can retrieve only inciso VI (≈ 140 tokens), leaving the rest of the budget for other provisions. Siblings are not included."}` }));
+  out.append(...list);
+  // bars
+  const st = C.strategies;
+  const tipos = ["ART", "DSP", "TXT", "TAB", "CPT", "PAR", "INC", "ALI", "ITE", "GRP"];
+  const tcol = { ART: "--s1", DSP: "--s7", TXT: "--s6", TAB: "--s8", CPT: "--s2", PAR: "--s4", INC: "--s3", ALI: "--s5", ITE: "--axis", GRP: "--ink-2" };
+  const W = Math.max(320, $("#segBars").clientWidth || 520), rowH = 30, m = { l: 44, r: 70, t: 6, b: 26 }, H = m.t + m.b + st.length * rowH;
+  const mx = Math.max(...st.map(r => r.chunks));
+  const x = v => m.l + v / mx * (W - m.l - m.r);
+  const svg = S("svg", { viewBox: `0 0 ${W} ${H}`, width: "100%", height: H });
+  for (const t of niceTicks(0, mx, 4)) { svg.append(S("line", { class: "gridl", x1: x(t), x2: x(t), y1: m.t, y2: H - m.b })); svg.append(S("text", { x: x(t), y: H - m.b + 14, "text-anchor": "middle", text: (t / 1000) + "k" })); }
+  st.forEach((r, i) => {
+    const y = m.t + i * rowH + 5;
+    svg.append(S("text", { x: m.l - 8, y: y + 14, "text-anchor": "end", text: r.strategy, style: "fill:var(--ink);font-weight:600" }));
+    let acc = 0;
+    const by = { ...r.by_tipo }; let grp = 0;
+    for (const k of Object.keys(by)) if (!tipos.includes(k)) { grp += by[k]; delete by[k]; }
+    by.GRP = grp;
+    for (const t of tipos) {
+      const v = by[t] || 0; if (!v) continue;
+      const rect = S("rect", { x: x(acc) + 1, y, width: Math.max(1, x(acc + v) - x(acc) - 2), height: 20, fill: css(tcol[t]), rx: 2 });
+      rect.addEventListener("pointermove", ev => showTip(ev, `<b>${r.strategy}</b> · ${t === "GRP" ? "groupings (PRT/LIV/TIT/CAP/SEC…)" : t}<br><span class="v">${v.toLocaleString()}</span> chunks`));
+      rect.addEventListener("pointerleave", hideTip);
+      svg.append(rect); acc += v;
+    }
+    svg.append(S("text", { x: x(acc) + 6, y: y + 14, text: r.chunks.toLocaleString() }));
+  });
+  $("#segBars").innerHTML = ""; $("#segBars").append(svg);
+  legend($("#segBarsLegend"), tipos.map(t => ({ name: t === "GRP" ? "groupings" : t, color: css(tcol[t]), box: true })));
+  $("#segWhat").innerHTML = `<b>What is shown:</b> number of chunks each strategy indexes, by chunk type, after the RIR/1999 exclusion, counted from the chunk table with the same filter the retrieval uses (<code>member_mask</code>). S2c/S4 have as many chunks as S2/S3: they swap the text of paragraph-family chunks, not their number. ART counts include the parts of split articles (1,626 parts from 597 long articles).`;
+  const t = h("table", { class: "t" });
+  t.append(h("tr", {}, ...["Strategy", "Chunk types", "Variant", "Chunks", "Median tokens", "Mean tokens", "Description"].map((c, i) => h("th", { class: i >= 3 && i <= 5 ? "n" : "", text: c }))));
+  for (const r of st) t.append(h("tr", {}, h("td", { text: r.strategy }), h("td", { class: "mono", text: r.tipos.join(" ") }), h("td", { text: r.variantes.join(" → ") }),
+    h("td", { class: "n", text: r.chunks.toLocaleString() }), h("td", { class: "n", text: Math.round(r.tokens_median) }), h("td", { class: "n", text: Math.round(r.tokens_mean) }), h("td", { text: r.description })));
+  $("#segTable").innerHTML = ""; $("#segTable").append(t);
+}
+TAB_RENDER["tab-seg"] = renderSeg;
+
+// =====================================================================================================
+// 3 · RETRIEVAL: HOW
+// =====================================================================================================
+// Toy chunks: interval positions mimic Num_Inicio/Num_Final (one file, nested)
+const TOYC = {
+  a4: { lab: "Lei 9.250 art. 4 (whole)", tipo: "ART", tok: 310, s: 100, e: 199, art: "art4", cov: ["art4"] },
+  a4i3: { lab: "Lei 9.250 art. 4, inciso III", tipo: "INC", tok: 90, s: 130, e: 139, art: "art4", cov: ["art4_cpt_inc3"] },
+  a8: { lab: "Lei 9.250 art. 8 (whole)", tipo: "ART", tok: 950, s: 200, e: 299, art: "art8", cov: ["art8"] },
+  a8c: { lab: "Lei 9.250 art. 8, caput", tipo: "CPT", tok: 120, s: 200, e: 209, art: "art8", cov: ["art8_cpt"] },
+  a8p2: { lab: "Lei 9.250 art. 8, § 2º", tipo: "PAR", tok: 180, s: 260, e: 279, art: "art8", cov: ["art8_par2"] },
+  a35: { lab: "Lei 9.250 art. 35 (whole)", tipo: "ART", tok: 723, s: 300, e: 399, art: "art35", cov: ["art35"] },
+  a35i6: { lab: "Lei 9.250 art. 35, caput, inciso VI", tipo: "INC", tok: 140, s: 340, e: 349, art: "art35", cov: ["art35_cpt_inc6"] },
+  in90: { lab: "IN SRF 1.500 art. 90 (whole)", tipo: "ART", tok: 420, s: 1000, e: 1099, art: "in:art90", doc: "in1500", cov: ["in:art90"] },
+  in90p1: { lab: "IN SRF 1.500 art. 90, § 1º", tipo: "PAR", tok: 150, s: 1010, e: 1019, art: "in:art90", doc: "in1500", cov: ["in:art90_par1"] },
+  d71: { lab: "Decreto 9.580 art. 71 (whole)", tipo: "ART", tok: 520, s: 2000, e: 2099, art: "d:art71", doc: "d9580", cov: ["d:art71"] },
+};
+const TOY_RANK = { S1: ["a4", "a8", "in90", "d71", "a35"], S2: ["a35i6", "a8p2", "a4i3", "a8c", "a35", "in90p1", "a8", "d71"] };
+const TOY_GOLD = {
+  document: [{ key: "lei_9250", hit: c => !TOYC[c].doc }],
+  article: [{ key: "art8", hit: c => TOYC[c].art === "art8" }, { key: "art35", hit: c => TOYC[c].art === "art35" }],
+  provision: [{ key: "art8_par2", frag: "art8_par2" }, { key: "art35_cpt_inc6", frag: "art35_cpt_inc6" }],
+};
+const isPrefix = (anc, d) => d === anc || d.startsWith(anc + "_");
+function toyProvHit(c, frag) {
+  const cv = TOYC[c].cov;
+  if (cv.some(x => isPrefix(x, frag))) return "full";
+  if (cv.some(x => isPrefix(frag, x))) return "partial";
+  return "";
+}
+function toySelect(ranked, budget, dedup) {
+  const out = []; let used = 0; const log = {};
+  const contained = (c, sel) => sel.some(j => TOYC[j].s <= TOYC[c].s && TOYC[c].e <= TOYC[j].e && (TOYC[j].doc || "") === (TOYC[c].doc || ""));
+  for (const c of ranked) {
+    if (contained(c, out)) { log[c] = "dropped: inside a selected chunk"; continue; }
+    let children = [], need = TOYC[c].tok;
+    if (dedup === "merge") { children = out.filter(j => contained(j, [c])); need -= children.reduce((a, j) => a + TOYC[j].tok, 0); }
+    if (need > budget - used) { log[c] = `skipped: needs ${need}, ${budget - used} left`; continue; }
+    if (children.length) {
+      const pos = out.indexOf(children[0]);
+      const keep = out.filter(j => !children.includes(j));
+      keep.splice(keep.filter((j) => out.indexOf(j) < pos).length, 0, c);
+      out.length = 0; out.push(...keep);
+      log[c] = `selected: replaces ${children.map(j => TOYC[j].lab.replace("Lei 9.250 ", "")).join(", ")} (needs ${need})`;
+      for (const j of children) log[j] = "replaced by its parent";
+    } else { out.push(c); log[c] = `selected (${TOYC[c].tok} tokens)`; }
+    used += need;
+  }
+  return { out, used, log };
+}
+const toyState = { level: "article", budget: 1200, dedup: "merge" };
+function renderRHow() {
+  chips($("#toyLevel"), ["document", "article", "provision"], toyState, "level", { onchange: renderRHow });
+  chips($("#toyDedup"), [{ value: "merge", label: "containment_merge (used)" }, { value: "containment", label: "containment" }], toyState, "dedup", { onchange: renderRHow });
+  const bud = $("#toyBudget"); bud.value = toyState.budget; $("#toyBudgetV").textContent = toyState.budget + " tokens";
+  bud.oninput = () => { toyState.budget = +bud.value; renderRHow(); };
+  const out = $("#toyOut"); out.innerHTML = "";
+  const results = {};
+  for (const s of ["S1", "S2"]) {
+    const ranked = TOY_RANK[s];
+    const gold = TOY_GOLD[toyState.level];
+    const sel = toySelect(ranked, toyState.budget, toyState.dedup === "merge" ? "merge" : "containment");
+    // unit projection
+    const unitPos = {}; let up = 0;
+    for (const c of ranked) { const u = toyState.level === "document" ? (TOYC[c].doc || "lei_9250") : TOYC[c].art; if (!(u in unitPos)) unitPos[u] = ++up; }
+    const t = h("table", { class: "t rank-table" });
+    t.append(h("tr", {}, ...["raw rank", "chunk", "tok", toyState.level === "provision" ? "hits" : "unit pos.", "4k context?"].map(x => h("th", { text: x }))));
+    ranked.forEach((c, i) => {
+      let hitTxt = "", cls = "";
+      if (toyState.level === "provision") {
+        const hs = gold.map(g => [g.key, toyProvHit(c, g.frag)]).filter(x => x[1]);
+        hitTxt = hs.map(([k, v]) => `${k}: ${v}`).join("; ");
+        cls = hs.some(x => x[1] === "full") ? "hitA" : hs.length ? "hitP" : "";
+      } else {
+        const g = gold.filter(g => g.hit(c));
+        const u = toyState.level === "document" ? (TOYC[c].doc || "lei_9250") : TOYC[c].art;
+        const first = ranked.findIndex(x => (toyState.level === "document" ? (TOYC[x].doc || "lei_9250") : TOYC[x].art) === u) === i;
+        hitTxt = first ? `#${unitPos[u]} (${u.replace(/^.*:/, "")})` : `(${u.replace(/^.*:/, "")} already counted)`;
+        cls = g.length ? "hitA" : "";
+      }
+      const inCtx = sel.out.includes(c);
+      t.append(h("tr", {}, h("td", { class: "n", text: i + 1 }), h("td", { class: cls, text: TOYC[c].lab }), h("td", { class: "n", text: TOYC[c].tok }),
+        h("td", { text: hitTxt }), h("td", { class: "small" }, h("span", { class: "tag " + (inCtx ? "in" : "out"), text: inCtx ? "in" : "out" }), " " + (sel.log[c] || "not reached"))));
+    });
+    // metrics
+    let rec, rr = null, ndcg = null, partial = null;
+    if (toyState.level === "provision") {
+      const full = gold.filter(g => sel.out.some(c => toyProvHit(c, g.frag) === "full")).length;
+      const any = gold.filter(g => sel.out.some(c => toyProvHit(c, g.frag))).length;
+      rec = full / gold.length; partial = any / gold.length;
+    } else {
+      rec = gold.filter(g => sel.out.some(c => g.hit(c))).length / gold.length;
+      const pos = gold.map(g => unitPos[g.key] ?? Infinity);
+      rr = Math.min(...pos) === Infinity ? 0 : 1 / Math.min(...pos);
+      const dcg = pos.filter(p => p <= 10).reduce((a, p) => a + 1 / Math.log2(p + 1), 0);
+      const idcg = Array.from({ length: Math.min(gold.length, 10) }, (_, i) => 1 / Math.log2(i + 2)).reduce((a, b) => a + b, 0);
+      ndcg = dcg / idcg;
+    }
+    results[s] = { rec, rr, ndcg, partial, used: sel.used };
+    const card = h("div", {}, h("h4", { text: `${s} ranking`, style: `color:${scol(s)}` }), h("div", { class: "tablewrap" }, t));
+    const mm = h("p", { class: "small" });
+    mm.innerHTML = `<b>Budget recall</b> = ${fmt(rec, 2)}` + (partial != null ? ` · <b>partial recall</b> = ${fmt(partial, 2)}` : "") +
+      (rr != null ? ` · <b>RR</b> = ${fmt(rr, 3)} · <b>nDCG@10</b> = ${fmt(ndcg, 3)}` : " · no MRR/nDCG at provision level") + ` · context ${sel.used} tokens`;
+    card.append(mm);
+    out.append(card);
+  }
+  const L = toyState.level;
+  $("#toyWhat").innerHTML = L === "article" ?
+    `<b>Article level.</b> In S2, inciso VI of art. 35 (raw rank 1) already makes art. 35 the first distinct article, so RR = 1 even though the whole-article chunk is at raw rank 5. § 2º of art. 8 makes art. 8 the second distinct article. In S1 the first gold article (art. 8) is the 2nd distinct article, RR = 0.5. At ${toyState.budget} tokens S2 recalls ${fmt(results.S2.rec, 2)} of the gold articles and S1 ${fmt(results.S1.rec, 2)}: S1's art. 8 alone costs 950 tokens and art. 35 723. Move the budget to see where S1 catches up; the RR values do not change with the budget.` :
+    L === "document" ? `<b>Document level.</b> Every chunk of the file counts: both rankings start with a Lei 9.250 chunk, so RR = 1 for both. Document recall rarely separates the strategies; it is reported but is not the headline.` :
+    `<b>Provision level.</b> A chunk <i>fully</i> hits a gold provision when it covers the provision or an ancestor (the whole article fully covers art. 8 § 2º); it hits it <i>partially</i> when it covers only a descendant. Here the gold units are a § and an inciso, so S1 can hit them only through the whole (expensive) articles, while S2 hits them exactly. Had the gold been "art. 35" as a whole, the S2 inciso would count only as a partial hit. Unit-view MRR/nDCG are not computed at this level.`;
+  // rules table
+  const rules = [
+    ["G1 document", "A chunk hits a document through its file (main LexML file or an annex file), not its URN.", "relevance.py `_match_document`"],
+    ["G2 article", "A chunk hits article N when its `(arquivo, artigo_id)` matches: any chunk of the article (ART, split part, CPT, PAR, INC, ALI, ITE). A grouping chunk hits every article whose interval it contains.", "relevance.py `_match_article`"],
+    ["G3 annex", "Rule `either`: article N of the main file or of any annex of the cited document counts.", "relevance.py `article_files`"],
+    ["G4 ambiguous ids", "Matches only through chunks with `id_ambiguo = 1` are flagged (counted in reachability).", "relevance.py `only_ambiguous`"],
+    ["G5 provision", "Full hit: a `cobre_ids` id equals the fragment or is its ancestor, or a grouping contains it, or every part of a split article is retrieved. Partial: the chunk covers only a descendant (or lists it in `parcial_ids`).", "relevance.py `_match_provision`"],
+    ["Budget view", "Texts in score order; containment de-duplication with merge (a parent after its children replaces them, a child after its parent is dropped); a text that does not fit is skipped; Qwen3 tokens; budgets 1k–16k. A gold item is recalled if any selected text hits it (full or, for `partial_recall`, any).", "context.py `select`, evaluation.py"],
+    ["Unit view", "Ranking projected to distinct documents or articles (first appearance of any chunk); positions beyond 1,000 count as not retrieved. R@k, MRR, nDCG@10 (binary gain). Document and article levels only.", "evaluation.py `unit_positions`, `per_question_table`"],
+    ["Raw view", "One rank per retrieved text; diagnostic only (not comparable across strategies).", "evaluation.py"],
+    ["Oracle / reachability", "Whether any chunk of the strategy can hit the item. Unreachable items stay in the denominator under gold = all (13 treaty articles, 48 provisions without a LexML id, the excluded RIR/1999 reference).", "evaluation.py `reachability`"],
+    ["Gold sets", "`all`: every resolved reference (headline). `reachable`: only items some chunk can hit.", "evaluation.py `GOLD_SETS`"],
+    ["Averaging", "Per question first (share of that question's gold items), then the mean over questions that have gold at that level (596 / 553 / 558).", "evaluation.py `aggregate`"],
+    ["Paired tests", "Per-question b − a; percentile bootstrap (10,000, seed 13) and sign-flip permutation test.", "metrics.py"],
+  ];
+  const rt = $("#rulesTable"); rt.innerHTML = "";
+  rt.append(h("tr", {}, h("th", { text: "Rule" }), h("th", { text: "Definition" }), h("th", { text: "Code" })));
+  for (const [a, b, c] of rules) rt.append(h("tr", {}, h("td", { text: a, style: "white-space:nowrap;font-weight:600" }), h("td", { html: esc(b).replace(/`([^`]+)`/g, "<code>$1</code>") }), h("td", { class: "mono small", text: c.replace(/`/g, "") })));
+}
+TAB_RENDER["tab-rhow"] = renderRHow;
+
+// =====================================================================================================
+// 4 · RETRIEVAL RESULTS
+// =====================================================================================================
+const RM = {};
+for (const r of table(C.retrieval.metrics)) RM[[r.embedding, r.strategy, r.level, r.view, String(r.cutoff), r.gold, r.slice, r.metric].join("|")] = r;
+const rget = (emb, s, lv, view, cut, gold, slice, met) => RM[[emb, s, lv, view, String(cut), gold, slice, met].join("|")];
+const rState = { embs: ["jua-4b-mixed", "gemini-emb-2"], strats: ["S1", "S2"], level: "article", gold: "all", slice: "all", bmetric: "recall" };
+const SLICES = { all: "all items", explicit: "explicit refs", embedded: "embedded refs", statutory: "statutory docs", non_statutory: "non-statutory docs", annex_A: "annex items", whole_article: "provision = whole article", sub_article: "provision = sub-article unit" };
+function renderRRes() {
+  $("#evalId").textContent = "either_containment_merge_skip";
+  const c = $("#rControls");
+  if (!c.dataset.built) {
+    c.dataset.built = 1;
+    const mk = (label, opts, key, multi, colors) => { const o = h("div", { class: "opts" }); c.append(ctl(label, o)); return () => chips(o, opts, rState, key, { multi, onchange: renderRRes, colors }); };
+    c._r = [
+      mk("Embedding", EMBS.map(e => ({ value: e, label: e + (e === "gemini-emb-2" ? " (dashed)" : " (solid)") })), "embs", true),
+      mk("Strategies", STRATS, "strats", true, Object.fromEntries(STRATS.map(s => [s, scol(s)]))),
+      mk("Level", ["document", "article", "provision"], "level"),
+      mk("Gold", [{ value: "all", label: "all resolved" }, { value: "reachable", label: "reachable only" }], "gold"),
+      mk("Budget metric", ["recall", "hit", "full_recall", "partial_recall", "context_precision"], "bmetric"),
+    ];
+    const sl = selectEl(Object.entries(SLICES).map(([v, l]) => ({ value: v, label: l })), rState.slice, v => { rState.slice = v; renderRRes(); });
+    c.append(ctl("Item slice", sl));
+  }
+  c._r.forEach(f => f());
+  const { embs, strats, level, gold, slice, bmetric } = rState;
+  let bm = bmetric;
+  if (bm === "partial_recall" && level !== "provision") bm = "recall";
+  const series = [];
+  for (const e of embs) for (const s of strats) series.push({ name: `${s} · ${EMB_SHORT[e]}`, color: scol(s), dash: e === "gemini-emb-2", e, s });
+  const nOf = (e, s, view, cut, met) => rget(e, s, level, view, cut, gold, slice, met)?.n_questions;
+  // budget
+  const bx = ["1000", "2000", "4000", "8000", "16000"];
+  lineChart($("#rBudget"), { xs: bx, xLabel: "token budget", yLabel: bm, fmtX: x => (+x / 1000) + "k",
+    series: series.map(sr => ({ ...sr, points: bx.map(b => ({ x: b, y: rget(sr.e, sr.s, level, "budget", b, gold, slice, bm)?.value, extra: "n " + (nOf(sr.e, sr.s, "budget", b, bm) ?? "") })) })) });
+  $("#rBudgetTitle").textContent = `Budget view: ${bm} of ${level}-level gold within the context`;
+  legend($("#rBudgetLeg"), series.map(s => ({ name: s.name, color: s.color, dash: s.dash })));
+  const oracleNote = embs.map(e => strats.map(s => { const o = rget(e, s, level, "oracle", "-", gold, slice, "recall"); return o ? `${s}·${EMB_SHORT[e]} ${fmt(o.value)}` : null; }).filter(Boolean).join(", ")).join("; ");
+  $("#rBudgetNote").innerHTML = `Oracle ceiling (any chunk of the strategy can hit the item): ${oracleNote || "—"}.`;
+  // unit
+  const ux = ["1", "3", "5", "10", "20", "50", "100"];
+  if (level === "provision") {
+    $("#rUnit").innerHTML = `<p class="small">No unit view at provision level: a provision can be covered only partly (S1 never returns an inciso alone), so there is no clean first position (see the "how scored" tab).</p>`;
+    $("#rUnitLeg").innerHTML = ""; $("#rRank").innerHTML = $("#rUnit").innerHTML; $("#rUnitNote").innerHTML = ""; $("#rRankNote").innerHTML = "";
+  } else {
+    lineChart($("#rUnit"), { xs: ux, xLabel: `k (distinct ${level}s)`, yLabel: "recall@k",
+      series: series.map(sr => ({ ...sr, points: ux.map(k => ({ x: k, y: rget(sr.e, sr.s, level, "unit", k, gold, slice, "recall")?.value })) })) });
+    legend($("#rUnitLeg"), series.map(s => ({ name: s.name, color: s.color, dash: s.dash })));
+    $("#rUnitNote").innerHTML = `Position k = the k-th distinct ${level} in the ranking (any chunk of it counts). Not limited by tokens: the first 10 distinct articles of S2 can span many more than 10 chunks.`;
+    dotRows($("#rRank"), ["mrr", "ndcg@10"].flatMap(met => strats.map(s => ({ label: `${met.toUpperCase()} · ${s}`,
+      items: embs.map(e => { const r = rget(e, s, level, "unit", "-", gold, slice, met); return { name: EMB_SHORT[e], color: scol(s), dash: e === "gemini-emb-2", v: r?.value, extra: r ? `n ${r.n_questions} questions` : "" }; }) }))),
+      { xLabel: "value (filled = jua, hollow = Gemini)" });
+    $("#rRankNote").innerHTML = `MRR = mean over questions of 1 / (distinct-${level} position of the first gold ${level}). nDCG@10 = binary gain over the first 10 distinct ${level}s. Hover a dot for n.`;
+  }
+  const rx = ["1", "5", "10", "20", "50", "100", "1000"];
+  lineChart($("#rRaw"), { xs: rx, xLabel: "k (raw chunks)", yLabel: "recall@k", height: 240,
+    series: series.map(sr => ({ ...sr, points: rx.map(k => ({ x: k, y: rget(sr.e, sr.s, level, "raw", k, gold, slice, "recall")?.value })) })) });
+  legend($("#rRawLeg"), series.map(s => ({ name: s.name, color: s.color, dash: s.dash })));
+  const n4 = rget(embs[0], strats[0], level, "budget", "4000", gold, slice, bm)?.n_questions;
+  $("#rWhat").innerHTML = `<b>What is shown:</b> gold = <b>${level}</b>-level items from <code>dataset/references.jsonl</code> (${gold === "all" ? "all resolved items, unreachable ones count as misses" : "only items some chunk of the strategy can hit"}), slice <b>${SLICES[slice]}</b>; averaged per question over <b>${n4 ?? "?"}</b> questions. ` +
+    `A ${level} is hit by ${level === "document" ? "any chunk of its file(s)" : level === "article" ? "any chunk of that article (whole, split part, caput, §, inciso, alínea, item; or a grouping containing it)" : "a chunk covering it or an ancestor (full), or only a descendant (partial)"}. ` +
+    `<b>${bm}</b>: ${METRIC_HELP[bm]}.` + (bmetric === "partial_recall" && level !== "provision" ? " (partial recall exists only at provision level; showing recall.)" : "");
+  renderRComp();
+  // reachability
+  const rr = table(C.retrieval.reachability).filter(r => r.embedding === "jua-4b-mixed");
+  const cols = ["strategy", "level", "questions", "gold_items", "reachable", "reachable_by_split_parts_only", "unreachable", "unreachable:article_not_in_lexml", "unreachable:no_lexml_id", "unreachable:excluded_from_corpus", "only_ambiguous_matches", "annex_A_items"];
+  const t = h("table", { class: "t" });
+  t.append(h("tr", {}, ...cols.map(c => h("th", { class: c === "strategy" || c === "level" ? "" : "n", text: c.replace("unreachable:", "unreach.: ").replace(/_/g, " ") }))));
+  for (const r of rr) t.append(h("tr", {}, ...cols.map(c => h("td", { class: c === "strategy" || c === "level" ? "" : "n", text: r[c] ?? 0 }))));
+  $("#reachTable").innerHTML = ""; $("#reachTable").append(t, h("p", { class: "small", text: "jua-4b-mixed shown; identical for Gemini (reachability depends on the chunk table and strategy, not on the embedding). Split-parts-only: a whole article that is fully hit only when all its parts are retrieved." }));
+}
+const rcState = { comp: "jua-4b-mixed|S1|S2", metric: "recall", level: "article" };
+function renderRComp() {
+  const rc = table(C.retrieval.comparisons);
+  const comps = uniq(rc.map(r => `${r.embedding}|${r.a}|${r.b}`));
+  const label = k => { const [e, a, b] = k.split("|"); return e.includes("−") ? `jua → Gemini, ${a.split("@")[0]}` : `${a} → ${b} (${EMB_SHORT[e]})`; };
+  const c = $("#rcControls"); c.innerHTML = "";
+  c.append(ctl("Comparison", selectEl(comps.map(k => ({ value: k, label: label(k) })), rcState.comp, v => { rcState.comp = v; renderRComp(); })));
+  c.append(ctl("Level", selectEl(["document", "article", "provision"], rcState.level, v => { rcState.level = v; renderRComp(); })));
+  c.append(ctl("Metric", selectEl(["recall", "hit", "full_recall", "partial_recall", "mrr", "ndcg@10", "context_precision"], rcState.metric, v => { rcState.metric = v; renderRComp(); })));
+  const [e, a, b] = rcState.comp.split("|");
+  const rows = rc.filter(r => r.embedding === e && r.a === a && r.b === b && r.level === rcState.level && r.metric === rcState.metric)
+    .sort((x, y) => ["budget", "unit", "raw"].indexOf(x.view) - ["budget", "unit", "raw"].indexOf(y.view) || (+x.cutoff || 0) - (+y.cutoff || 0));
+  forest($("#rcForest"), rows.map(r => ({ label: `${r.view} ${r.cutoff === "-" ? "" : r.view === "budget" ? (+r.cutoff / 1000) + "k tokens" : "@" + r.cutoff}`, sub: `${fmt(r.mean_a)} → ${fmt(r.mean_b)}`,
+    diff: r.diff, lo: r.ci_low, hi: r.ci_high, p: r.p_permutation, n: r.n_questions, ma: r.mean_a, mb: r.mean_b,
+    extra: r.n_better != null ? `questions better / worse: ${r.n_better} / ${r.n_worse}` : "" })));
+  $("#rcWhat").innerHTML = `<b>What is compared:</b> ${e.includes("−") ? `the same strategy (${a.split("@")[0]}) retrieved with jua-4b-mixed (a) and gemini-embedding-2 (b)` : `strategy ${a} (a) vs ${b} (b), both with ${e}`}; ${rcState.level}-level gold; metric <b>${rcState.metric}</b> (${METRIC_HELP[rcState.metric]}). ` +
+    `Each row is one view/cutoff. Budget rows are what the generator sees; unit rows are ranking quality over distinct units; raw rows are diagnostic.`;
+}
+TAB_RENDER["tab-rres"] = renderRRes;
+
+// =====================================================================================================
+// 5 · NUGGETS: HOW
+// =====================================================================================================
+const calcState = { nug: [
+  { t: "A parent-in-law can be a dependant only when the spouse files a joint return.", imp: "vital", lab: "support" },
+  { t: "The dependant's income cannot exceed R$ 24.511,92 in 2023.", imp: "vital", lab: "partial_support" },
+  { t: "The parent-in-law must be listed in the spouse's joint return.", imp: "vital", lab: "not_support" },
+  { t: "The deduction per dependant is R$ 2.275,08.", imp: "okay", lab: "contradicts" },
+  { t: "Medical expenses of the dependant may be deducted.", imp: "okay", lab: "support" },
+], abst: false };
+const LABS = ["support", "partial_support", "not_support", "contradicts"];
+const LABC = { support: "S", partial_support: "P", not_support: "N", contradicts: "C" };
+function calcScores(nug) {
+  const cr = { support: 1, partial_support: 0.5, not_support: 0, contradicts: 0 };
+  const v = nug.filter(n => n.imp === "vital");
+  const mean = a => a.length ? a.reduce((x, y) => x + y, 0) / a.length : null;
+  const w = nug.map(n => n.imp === "vital" ? 1 : 0.5);
+  return {
+    V_strict: mean(v.map(n => +(n.lab === "support"))), V: mean(v.map(n => cr[n.lab])),
+    A_strict: mean(nug.map(n => +(n.lab === "support"))), A: mean(nug.map(n => cr[n.lab])),
+    W: nug.reduce((a, n, i) => a + w[i] * cr[n.lab], 0) / w.reduce((a, b) => a + b, 0),
+    contradicts: mean(nug.map(n => +(n.lab === "contradicts"))), any_contradicts: +nug.some(n => n.lab === "contradicts"),
+  };
+}
+function renderNHow() {
+  const el = $("#calc"); el.innerHTML = "";
+  const t = h("table", { class: "ng" });
+  calcState.nug.forEach((n, i) => {
+    const lab = calcState.abst ? "not_support" : n.lab;
+    const tr = h("tr", {},
+      h("td", { class: "lab " + LABC[lab], text: LABC[lab], title: lab, onclick: () => { if (calcState.abst) return; n.lab = LABS[(LABS.indexOf(n.lab) + 1) % 4]; renderNHow(); } }),
+      h("td", {}, h("button", { class: "chip", "aria-pressed": String(n.imp === "vital"), text: n.imp, onclick: () => { n.imp = n.imp === "vital" ? "okay" : "vital"; renderNHow(); } })),
+      h("td", { class: "ntext", text: n.t }));
+    t.append(tr);
+  });
+  el.append(t);
+  if (calcState.abst) el.append(h("p", { class: "warnbox", text: "Abstention: the answer is not sent to the judge; every nugget counts as not_support." }));
+  const nug = calcState.nug.map(n => ({ ...n, lab: calcState.abst ? "not_support" : n.lab }));
+  const sc = calcScores(nug);
+  const nv = nug.filter(n => n.imp === "vital").length;
+  const cnt = k => nug.filter(n => n.lab === k).length, cntv = k => nug.filter(n => n.imp === "vital" && n.lab === k).length;
+  const o = $("#calcOut"); o.innerHTML = "";
+  const rows = [
+    ["V_strict", sc.V_strict, `support among vital = ${cntv("support")} / ${nv}`],
+    ["V", sc.V, `(${cntv("support")} + 0.5 × ${cntv("partial_support")}) / ${nv}`],
+    ["A_strict", sc.A_strict, `${cnt("support")} / ${nug.length}`],
+    ["A", sc.A, `(${cnt("support")} + 0.5 × ${cnt("partial_support")}) / ${nug.length}`],
+    ["W", sc.W, "Σ weight × credit / Σ weight, weight vital 1, okay 0.5"],
+    ["contradicts", sc.contradicts, `${cnt("contradicts")} / ${nug.length}`],
+    ["any_contradicts", sc.any_contradicts, "1 if any nugget is contradicted"],
+  ];
+  const tt = h("table", { class: "t" });
+  tt.append(h("tr", {}, h("th", { text: "Metric" }), h("th", { class: "n", text: "Value" }), h("th", { text: "Computation" }), h("th", { text: "Meaning" })));
+  for (const [m, v, f] of rows) tt.append(h("tr", {}, h("td", { text: m, style: m === "V_strict" ? "font-weight:700" : "" }), h("td", { class: "n", text: v == null ? "NaN" : fmt(v, 3) }), h("td", { class: "mono small", text: f }), h("td", { class: "small", text: NUG_HELP[m] })));
+  o.append(tt);
+  if (!nv) o.append(h("p", { class: "warnbox", text: "No vital nugget: V_strict and V are NaN and this question drops out of their run means." }));
+  o.append(h("p", { class: "small", html: "Credit (plan v1 §4.3): support = 1, partial_support = 0.5, not_support = contradicts = 0. Code: <code>scoring.py question_scores</code>." }));
+  const ns = C.nugget_set; const k = $("#nugKpis"); k.innerHTML = "";
+  const kp = (v, l) => h("div", { class: "k" }, h("div", { class: "v", text: v }), h("div", { class: "l", text: l }));
+  k.append(kp(ns.n_nuggets.toLocaleString(), "nuggets"), kp(ns.n_vital.toLocaleString(), "vital"), kp(ns.n_questions, "questions"),
+    kp(`${ns.per_question_median} (${ns.per_question_min}–${ns.per_question_max})`, "nuggets per question, median (range)"));
+  const cats = Object.entries(ns.categories).sort((a, b) => b[1] - a[1]).map(([c, n]) => `${c}: ${n}`).join(" · ");
+  k.append(h("div", { class: "k", style: "flex-basis:100%" }, h("div", { class: "l", text: "categories (nuggets.jsonl `category`): " + cats })));
+}
+$("#calcAdd").onclick = () => { calcState.nug.push({ t: "New nugget", imp: "okay", lab: "not_support" }); renderNHow(); };
+$("#calcDel").onclick = () => { if (calcState.nug.length > 1) calcState.nug.pop(); renderNHow(); };
+$("#calcAbst").onclick = () => { calcState.abst = !calcState.abst; $("#calcAbst").textContent = calcState.abst ? "undo abstention" : "simulate abstention"; renderNHow(); };
+TAB_RENDER["tab-nhow"] = renderNHow;
+
+// =====================================================================================================
+// 6 · ANSWERS
+// =====================================================================================================
+const ansState = { metric: "V_strict", sample: "full", acMetric: "V_strict", acType: "core", focus: null, util: "vital", pllm: "gpt-5.6-luna", slMetric: "V_strict", chllm: "gpt-5.6-luna" };
+function compType(a, b) {
+  const g = x => x.includes("@gemini"), base = x => x.split("@")[0];
+  if (g(a) !== g(b) && base(a) === base(b)) return "embedding";
+  if (a.startsWith("closed") || b.startsWith("oracle") || b.startsWith("wrong") || b.includes("context_v1")) return "controls";
+  if (a === "S1_budget2000" || a === "S1_budget8000") return "pilot";
+  if (["S1_budget4000|S2_budget4000", "S1_budget4000@gemini-emb-2|S2_budget4000@gemini-emb-2"].includes(a + "|" + b)) return "core";
+  return "variants";
+}
+function renderAns() {
+  const runs = table(C.nuggets.runs);
+  const c = $("#aControls"); c.innerHTML = "";
+  c.append(ctl("Metric", selectEl(Object.keys(NUG_HELP).map(m => ({ value: m, label: m })), ansState.metric, v => { ansState.metric = v; renderAns(); })));
+  c.append(ctl("Runs", selectEl([{ value: "full", label: "full (715) + oracle (596)" }, { value: "all", label: "all, incl. 30-question pilot" }], ansState.sample, v => { ansState.sample = v; renderAns(); })));
+  const rows = contextRows().filter(cid => ansState.sample === "all" || runs.some(r => r.context_id === cid && r.n >= 596));
+  const met = ansState.metric;
+  const lowerBetter = ["contradicts", "any_contradicts", "abstained"].includes(met);
+  heatmap($("#aHeat"), rows, LLMS, (r, cc) => {
+    const x = runs.find(z => z.context_id === r && z.llm === cc && (ansState.sample === "all" || z.n >= 596));
+    return x ? { v: x[met], n: x.n, tip: `<b>${esc(LLM_SHORT[cc])} · ${esc(ctxLabel(r))}</b><br>${met} <span class="v">${fmt(x[met], met === "answer_chars" ? 0 : 3)}</span><br>n = ${x.n} questions · abstained ${fmt(x.abstained, 3)} · errors ${x.errors}` } : null;
+  }, { colLabel: cc => LLM_SHORT[cc], rowLabel: r => ctxLabel(r), fmtV: v => fmt(v, met === "answer_chars" ? 0 : 3),
+    badge: d => h("span", { class: "pill " + (d.n === 715 ? "full" : d.n === 30 ? "pilot" : "oracle"), text: "n " + d.n }),
+    onclick: (r, cc) => { qState.focusRun = `${cc}|${r}`; showTab("tab-q"); } });
+  $("#aWhat").innerHTML = `<b>What is shown:</b> <b>${met}</b> = ${NUG_HELP[met]}${lowerBetter ? " (lower is better)" : ""}. Mean over the questions each run scored (n badge). Shade = higher value. ` +
+    `Rows without a generator mean the run was not part of the trimmed grid. Click a cell to inspect its answers in the question explorer.` +
+    (ansState.focus ? ` <br>Selected from the map: <b>${esc(LLM_SHORT[ansState.focus.llm])} · ${esc(ctxLabel(ansState.focus.cid))}</b>.` : "");
+  renderAComp();
+  // scatter
+  const cs = table(C.nuggets.ctxsupport_runs);
+  const pts = [];
+  for (const r of runs.filter(r => r.n >= 596)) {
+    const cx = cs.find(x => x.context_id === r.context_id && x.n >= 596);
+    if (!cx) continue;
+    pts.push({ x: cx.V_strict, y: r.V_strict, color: lcol(r.llm), hollow: r.context_id.includes("@gemini"), shape: r.context_id.startsWith("oracle") ? "sq" : "c",
+      tip: `<b>${esc(LLM_SHORT[r.llm])} · ${esc(ctxLabel(r.context_id))}</b><br>context V_strict ${fmt(cx.V_strict)} (n ${cx.n})<br>answer V_strict ${fmt(r.V_strict)} (n ${r.n})<br>answer / context = ${fmt(r.V_strict / cx.V_strict, 2)}` });
+  }
+  scatter($("#aScatter"), pts, { xLabel: "context V_strict", yLabel: "answer V_strict", lo: 0.2, hi: 0.5 });
+  legend($("#aScatterLeg"), [...LLMS.map(l => ({ name: LLM_SHORT[l], color: lcol(l), box: true })), { name: "hollow = Gemini retrieval", color: css("--muted"), dash: true }, { name: "square = oracle", color: css("--muted"), box: true }]);
+  // utilisation
+  const u = table(C.nuggets.utilisation_runs);
+  const uc = $("#uControls"); uc.innerHTML = "";
+  uc.append(ctl("Nuggets", selectEl(["vital", "all"], ansState.util, v => { ansState.util = v; renderAns(); })));
+  const ug = contextRows().filter(cid => u.some(r => r.context_id === cid && r.n >= 300 && r.nuggets === ansState.util));
+  dotRows($("#aUtil"), ug.map(cid => ({ label: ctxLabel(cid), items: LLMS.map(l => { const r = u.find(x => x.llm === l && x.context_id === cid && x.nuggets === ansState.util); return { name: LLM_SHORT[l], color: lcol(l), v: r?.utilisation, extra: r ? `context supports ${fmt(r.ctx_support)} · answer supports ${fmt(r.answer_support)} · leakage ${fmt(r.leakage)} · n nuggets ${r.n}` : "" }; }) })),
+    { xLabel: "utilisation: answer supports | context supports", lo: 0.3, hi: 0.9 });
+  renderRobust();
+}
+function renderAComp() {
+  const nc = table(C.nuggets.comparisons);
+  const c = $("#acControls"); c.innerHTML = "";
+  const types = [["core", "S1 → S2 (4k)"], ["embedding", "jua → Gemini"], ["variants", "S2 → S3 / S2c, S3 → S4"], ["controls", "closed book, oracle, wrong ctx, template"], ["pilot", "S1 → S2 at 2k / 8k (pilot, n 30)"]];
+  c.append(ctl("Comparison family", selectEl(types.map(([v, l]) => ({ value: v, label: l })), ansState.acType, v => { ansState.acType = v; renderAComp(); })));
+  c.append(ctl("Metric", selectEl(["V_strict", "V", "A_strict", "A", "W", "contradicts", "any_contradicts"], ansState.acMetric, v => { ansState.acMetric = v; renderAComp(); })));
+  const rows = nc.filter(r => r.metric === ansState.acMetric && compType(r.a, r.b) === ansState.acType)
+    .sort((x, y) => (x.a + x.b).localeCompare(y.a + y.b) || LLMS.indexOf(x.llm) - LLMS.indexOf(y.llm));
+  forest($("#acForest"), rows.map(r => ({ label: `${LLM_SHORT[r.llm]}`, sub: `${ctxLabel(r.a)} → ${ctxLabel(r.b)}`, diff: r.diff, lo: r.ci_lo, hi: r.ci_hi, clo: r.cluster_ci_lo, chi: r.cluster_ci_hi, p: r.p_perm, n: r.n, ma: r.mean_a, mb: r.mean_b })));
+  $("#acWhat").innerHTML = `<b>What is compared:</b> answer runs of the same generator on the same questions; only the context changes (a → b). Metric <b>${ansState.acMetric}</b>: ${NUG_HELP[ansState.acMetric]}. ` +
+    `n = questions both runs scored (714 for vital-based metrics, 595 against the oracle). Solid bar: paired bootstrap 95 % CI; dashed: chapter-cluster CI. Filled dot: CI excludes 0.` +
+    (ansState.acType === "embedding" ? " Gemini was run only with Luna and Sabiá-4 (cost choice; the two generators where S2 > S1 was significant with jua)." : "") +
+    (ansState.acType === "pilot" ? " <b>Pilot only (30 questions):</b> indicative, not powered." : "");
+}
+function renderRobust() {
+  // cross-set
+  const cr = table(C.nuggets.crossset_comparisons).filter(r => r.metric === "V_strict");
+  const nc = table(C.nuggets.comparisons).filter(r => r.metric === "V_strict" && r.a === "S1_budget4000" && r.b === "S2_budget4000");
+  const sets = ["gold-v0-auto (primary)", "gemini-3.1-pro.rep0", "qwen3.8-max.rep0"];
+  const rows = [];
+  for (const l of LLMS) {
+    const p = nc.find(r => r.llm === l);
+    if (p) rows.push({ label: LLM_SHORT[l], sub: "primary (GPT-6.1 Sol)", diff: p.diff, lo: p.ci_lo, hi: p.ci_hi, clo: p.cluster_ci_lo, chi: p.cluster_ci_hi, p: p.p_perm, n: p.n });
+    for (const s of sets.slice(1)) {
+      const r = cr.find(x => x.llm === l && x.nugget_set === s && x.a === "S1_budget4000" && x.b === "S2_budget4000");
+      if (r) rows.push({ label: LLM_SHORT[l], sub: s.replace(".rep0", ""), diff: r.diff, lo: r.ci_lo, hi: r.ci_hi, clo: r.cluster_ci_lo, chi: r.cluster_ci_hi, p: r.p_perm, n: r.n });
+    }
+  }
+  forest($("#rbCross"), rows, { xLabel: "S2 − S1 V_strict (jua, 4k)" });
+  // perturbation
+  const pt = table(C.nuggets.perturbation_s1_s2).filter(r => r.metric === "V_strict");
+  const pc = $("#pControls"); pc.innerHTML = "";
+  const pl = uniq(pt.map(r => r.llm));
+  pc.append(ctl("Generator", selectEl(pl.map(l => ({ value: l, label: LLM_SHORT[l] || l })), ansState.pllm, v => { ansState.pllm = v; renderRobust(); })));
+  const RANDOM = ["delete", "flip_vital_okay"];
+  const settings = RANDOM.filter(s => pt.some(r => r.setting === s));
+  const rates = uniq(pt.filter(r => RANDOM.includes(r.setting)).map(r => r.rate)).sort((a, b) => a - b).map(String);
+  const pcols = ["--s1", "--s2", "--s3", "--s4", "--s5", "--s7"];
+  const ser = settings.map((s, i) => ({ name: s, color: css(pcols[i % pcols.length]), points: rates.map(rt => { const r = pt.find(x => x.llm === ansState.pllm && x.setting === s && String(x.rate) === rt); return { x: rt, y: r?.significant_same_sign, extra: r ? `mean diff ${fmtS(r.mean_diff)}, sign kept ${fmt(r.sign_kept, 2)}` : "" }; }) }));
+  lineChart($("#rbPert"), { series: ser, xs: rates, xLabel: "share of nuggets damaged", yLabel: "share significant, same sign", yDomain: [0, 1], fmtX: x => Math.round(+x * 100) + "%", height: 240 });
+  legend($("#rbPertLeg"), ser.map(s => ({ name: s.name === "delete" ? "delete random nuggets" : "flip vital ↔ okay at random", color: s.color })));
+  const tg = pt.filter(r => r.llm === ansState.pllm && !RANDOM.includes(r.setting));
+  const tt = h("table", { class: "t", style: "margin-top:6px" });
+  tt.append(h("tr", {}, ...["Targeted setting", "rate", "reps", "mean S2 − S1", "sign kept", "significant, same sign"].map((x, i) => h("th", { class: i ? "n" : "", text: x }))));
+  for (const r of tg) tt.append(h("tr", {}, h("td", { text: r.setting }), h("td", { class: "n", text: r.rate }), h("td", { class: "n", text: r.reps }), h("td", { class: "n", text: fmtS(r.mean_diff) }), h("td", { class: "n", text: fmt(r.sign_kept, 3) }), h("td", { class: "n", text: fmt(r.significant_same_sign, 3) })));
+  $("#rbPertTargets").innerHTML = ""; $("#rbPertTargets").append(tt);
+  // slices
+  const sl = table(C.nuggets.slices_comparisons);
+  const sc = $("#slControls"); sc.innerHTML = "";
+  sc.append(ctl("Metric", selectEl(["V_strict", "A_strict"], ansState.slMetric, v => { ansState.slMetric = v; renderRobust(); })));
+  const srows = sl.filter(r => r.metric === ansState.slMetric && r.a === "S1_budget4000" && r.b === "S2_budget4000").sort((a, b) => a.subset.localeCompare(b.subset) || LLMS.indexOf(a.llm) - LLMS.indexOf(b.llm));
+  forest($("#rbSlices"), srows.map(r => ({ label: LLM_SHORT[r.llm], sub: r.subset, diff: r.diff, lo: r.ci_lo, hi: r.ci_hi, clo: r.cluster_ci_lo, chi: r.cluster_ci_hi, p: r.p_perm, n: r.n })), { xLabel: "S2 − S1 (jua, 4k)" });
+  // chapters
+  const ch = table(C.nuggets.chapters_s1_s2);
+  const cc = $("#chControls"); cc.innerHTML = "";
+  cc.append(ctl("Generator", selectEl(uniq(ch.map(r => r.llm)).map(l => ({ value: l, label: LLM_SHORT[l] || l })), ansState.chllm, v => { ansState.chllm = v; renderRobust(); })));
+  const crow = ch.filter(r => r.llm === ansState.chllm).sort((a, b) => b.diff - a.diff);
+  const wins = crow.filter(r => r.diff > 0).length, losses = crow.filter(r => r.diff < 0).length;
+  dotRows($("#rbChapters"), crow.map(r => ({ label: (r.chapter.length > 30 ? r.chapter.slice(0, 29) + "…" : r.chapter) + ` (${r.n})`, items: [{ name: r.chapter, color: r.diff > 0 ? css("--div-pos") : r.diff < 0 ? css("--div-neg") : css("--muted"), v: r.diff, extra: `${r.n} questions` }] })),
+    { lo: Math.min(-0.3, ...crow.map(r => r.diff)), hi: Math.max(0.3, ...crow.map(r => r.diff)), fmtV: v => fmtS(v, 3), ml: 250, xLabel: `S2 − S1 V_strict per chapter · S2 better in ${wins}, worse in ${losses} of ${crow.length}` });
+  // judge
+  const ja = table(C.nuggets["judge_agreement_gemini-3.1-pro"]);
+  const jc = table(C.nuggets["judge_comparisons_gemini-3.1-pro"]).filter(r => r.metric === "V_strict");
+  const t = h("table", { class: "t" });
+  t.append(h("tr", {}, ...["Generator", "Context", "Labels", "Agreement (4 labels)", "κ (4 labels)", "κ (support vs rest)"].map((x, i) => h("th", { class: i >= 2 ? "n" : "", text: x }))));
+  for (const r of ja) t.append(h("tr", {}, h("td", { text: LLM_SHORT[r.llm] || r.llm }), h("td", { text: r.context_id === "all" ? "all" : ctxLabel(r.context_id) }), h("td", { class: "n", text: r.n }), h("td", { class: "n", text: fmt(r.agree_4) }), h("td", { class: "n", text: fmt(r.kappa_4) }), h("td", { class: "n", text: fmt(r.kappa_support) })));
+  const el = $("#rbJudge"); el.innerHTML = ""; el.append(t);
+  const fr = h("div"); el.append(h("p", { class: "small", text: "S1 → S2 V_strict on the 70-question judge sample, per judge:" }), fr);
+  forest(fr, jc.map(r => ({ label: LLM_SHORT[r.llm] || r.llm, sub: r.judge, diff: r.diff, lo: r.ci_lo, hi: r.ci_hi, clo: r.cluster_ci_lo, chi: r.cluster_ci_hi, p: r.p_perm, n: r.n })), { xLabel: "S2 − S1 V_strict (70 questions)" });
+}
+TAB_RENDER["tab-ans"] = renderAns;
+
+// =====================================================================================================
+// 7 · QUESTION EXPLORER
+// =====================================================================================================
+const Q = window.DATA_Q || {}, CTX = window.DATA_CTX || { meta: {}, data: {} };
+const qState = { q: "350", level: "article", ctxA: "S1_budget4000", ctxB: "S2_budget4000", runSet: "core", focusRun: null, ans: null };
+const BUD = [1000, 2000, 4000, 8000, 16000];
+function qRecall(q, key, level = "article", budIdx = 2) {
+  const it = Q[q]?.items?.[level]; if (!it) return null;
+  const st = it.stats[key]; if (!st) return null;
+  return st.filter(x => x && (x[3] >> budIdx) & 1).length / it.items.length;
+}
+function renderQList() {
+  const s = ($("#qSearch").value || "").toLowerCase().trim(), f = $("#qFilter").value;
+  const list = $("#qList"); list.innerHTML = "";
+  const ids = Object.keys(Q).sort();
+  let n = 0;
+  for (const q of ids) {
+    const d = Q[q];
+    if (s && !(q.includes(s) || d.text.toLowerCase().includes(s) || d.summary.toLowerCase().includes(s))) continue;
+    if (f !== "all") {
+      const a1 = qRecall(q, "jua-4b-mixed|S1"), a2 = qRecall(q, "jua-4b-mixed|S2"), g2 = qRecall(q, "gemini-emb-2|S2");
+      if (f === "s2win" && !(a2 > a1)) continue;
+      if (f === "s1win" && !(a1 > a2)) continue;
+      if (f === "nogold" && d.refs.length) continue;
+      if (f === "gemwin" && !(g2 > a2)) continue;
+    }
+    n++;
+    const row = h("div", { class: q === qState.q ? "sel" : "", onclick: () => { qState.q = q; renderQ(); } }, h("b", { text: q }), " · ", d.summary, " — ", h("span", { class: "small", text: d.text.slice(0, 90) }));
+    list.append(row);
+  }
+  list.prepend(h("div", { class: "small", style: "cursor:default", text: `${n} questions` }));
+}
+function renderQ() {
+  if (window.DATA_Q_MISSING || !Object.keys(Q).length) {
+    $("#qHead").innerHTML = `<p class="warnbox">Per-question data not found (<code>data/questions.js</code>). Run <code>.venv/bin/python scripts/report/build_dashboard_data.py</code> from the repo root.</p>`;
+    return;
+  }
+  renderQList();
+  const q = qState.q, d = Q[q];
+  const head = $("#qHead"); head.innerHTML = "";
+  head.append(h("h3", { text: `Q${q} · ${d.summary}`, style: "margin-top:0" }), h("div", { class: "small", text: d.chapter }), h("p", { text: d.text }));
+  head.append(h("details", {}, h("summary", { text: "Official answer" }), h("div", { class: "answer", text: d.answer })));
+  const refs = h("ul", { class: "doclist" });
+  for (const r of d.refs) refs.append(h("li", {}, h("b", { text: r.id }), ` ${r.origin} · `, h("span", { text: r.citation.join("; ") }), r.doc ? h("span", { class: "small mono", text: ` → ${r.doc} ${r.articles.join(",")}` }) : h("span", { class: "small", text: " (not resolved)" })));
+  head.append(h("h4", { text: `References (${d.refs.length})` }), d.refs.length ? refs : h("p", { class: "small", text: "This question cites no legal provision: it is absent from every retrieval metric, present in the answer scores." }));
+  // items
+  chips($("#qLevel"), ["document", "article", "provision"], qState, "level", { onchange: renderQ });
+  const it = d.items[qState.level];
+  const box = $("#qItems"); box.innerHTML = "";
+  if (!it) box.append(h("p", { class: "small", text: "No gold item at this level." }));
+  else {
+    const keys = EMBS.flatMap(e => STRATS.map(s => `${e}|${s}`)).filter(k => it.stats[k]);
+    const t = h("table", { class: "t" });
+    t.append(h("tr", {}, h("th", { text: "Gold item" }), ...keys.map(k => h("th", { text: `${k.split("|")[1]} · ${EMB_SHORT[k.split("|")[0]]}` }))));
+    it.items.forEach((g, i) => {
+      const tr = h("tr", {}, h("td", {}, h("div", { text: g.label }), h("div", { class: "small mono", text: g.key + (g.sub_article ? " · sub-article" : "") + (g.statutory ? "" : " · non-statutory") })));
+      for (const k of keys) {
+        const st = it.stats[k][i];
+        if (!st) { tr.append(h("td", { text: "" })); continue; }
+        const [rf, ra, up, mf, ma, reach, why] = st;
+        const in4 = (mf >> 2) & 1, in4a = (ma >> 2) & 1;
+        const td = h("td", { class: "small" });
+        if (!reach) td.append(h("span", { class: "tag out", text: "unreachable" }), h("div", { text: why }));
+        td.append(h("span", { class: "tag " + (in4 ? "in" : in4a ? "P" : "out"), text: in4 ? "4k" : in4a ? "4k partial" : "not in 4k" }));
+        td.append(h("div", { class: "mono", text: `${qState.level !== "provision" ? "u " + (up ?? "—") + " · " : ""}r ${rf ?? "—"}${qState.level === "provision" ? " · r~ " + (ra ?? "—") : ""}` }));
+        td.title = "budgets 1k/2k/4k/8k/16k (full hit): " + BUD.map((b, j) => ((mf >> j) & 1) ? "✓" : "·").join(" ");
+        tr.append(td);
+      }
+      t.append(tr);
+    });
+    const rec = keys.map(k => { const st = it.stats[k]; return `${k.split("|")[1]}·${EMB_SHORT[k.split("|")[0]]} ${st.filter(x => x && (x[3] >> 2) & 1).length}/${it.items.length}`; }).join(" · ");
+    box.append(t, h("p", { class: "small", text: `4k recall at this level: ${rec}. This question's MRR = 1 / min(u) over its gold items.` }));
+  }
+  // contexts
+  const keys = Object.keys(CTX.meta);
+  const fill = (sel, val) => { sel.innerHTML = ""; for (const k of keys) sel.append(h("option", { value: k, selected: k === val ? "selected" : null, text: ctxLabel(k) })); };
+  fill($("#qCtxA"), qState.ctxA); fill($("#qCtxB"), qState.ctxB);
+  $("#qCtxA").onchange = e => { qState.ctxA = e.target.value; renderQ(); };
+  $("#qCtxB").onchange = e => { qState.ctxB = e.target.value; renderQ(); };
+  const cbox = $("#qCtx"); cbox.innerHTML = "";
+  for (const k of [qState.ctxA, qState.ctxB]) {
+    const cd = CTX.data[k]?.[q];
+    const b = h("div", { class: "ctxbox" }, h("h4", { text: ctxLabel(k), style: "margin-top:0" }));
+    if (!cd) { b.append(h("p", { class: "small", text: "No context for this question (e.g. the oracle has none when nothing is cited)." })); cbox.append(b); continue; }
+    const nA = cd.i.filter(x => x[6] === "A").length;
+    b.append(h("div", { class: "small", text: `${cd.i.length} texts · ${cd.t} tokens · ${nA} from gold articles` }));
+    b.append(h("div", { class: "ctxrow small", style: "font-weight:600" }, h("span", { text: "#" }), h("span", { text: "rank" }), h("span", { text: "type" }), h("span", { text: "source" }), h("span", { text: "tokens" })));
+    for (const [n, rank, tipo, doc, cit, tok, hit] of cd.i) {
+      const title = (CTX.titles?.[doc] || doc).replace(/ — Receita Federal( do Brasil)?/, "");
+      b.append(h("div", { class: "ctxrow " + hit, title: `${title} — ${cit}` }, h("span", { text: n }), h("span", { class: "mono", text: rank ?? "" }), h("span", { class: "mono", text: tipo }),
+        h("span", {}, hit ? h("span", { class: "tag " + hit, text: hit }) : "", " ", h("span", { text: `${title.length > 60 ? title.slice(0, 58) + "…" : title} — ${cit}` })),
+        h("span", {}, h("div", { class: "bar", style: `width:${Math.min(100, tok / 10)}%` }), h("span", { class: "mono", text: tok }))));
+    }
+    cbox.append(b);
+  }
+  renderQNug();
+}
+function renderQNug() {
+  const q = qState.q, d = Q[q];
+  const rs = $("#qRunSet"); rs.value = qState.runSet; rs.onchange = () => { qState.runSet = rs.value; renderQNug(); };
+  const runsT = table(C.nuggets.runs);
+  const nOf = (llm, cid) => runsT.find(r => r.llm === llm && r.context_id === cid)?.n;
+  let keys = Object.keys(d.labels);
+  const core = ["S1_budget4000", "S2_budget4000", "S1_budget4000@gemini-emb-2", "S2_budget4000@gemini-emb-2", "closed_book", "oracle_budget4000"];
+  if (qState.runSet === "core") keys = keys.filter(k => core.includes(k.split("|")[1]));
+  else if (qState.runSet === "full") keys = keys.filter(k => { const [l, c] = k.split("|"); return (nOf(l, c) || 0) >= 596; });
+  const ord = contextRows();
+  keys.sort((a, b) => LLMS.indexOf(a.split("|")[0]) - LLMS.indexOf(b.split("|")[0]) || ord.indexOf(a.split("|")[1]) - ord.indexOf(b.split("|")[1]));
+  let ckeys = Object.keys(d.ctx_labels);
+  if (qState.runSet === "core") ckeys = ckeys.filter(k => core.includes(k));
+  ckeys.sort((a, b) => ord.indexOf(a) - ord.indexOf(b));
+  const t = h("table", { class: "ng" });
+  t.append(h("tr", {}, h("th", { text: "" }), ...ckeys.map(k => h("th", { class: "rot" }, h("div", { text: "ctx: " + ctxLabel(k) }))),
+    ...keys.map(k => h("th", { class: "rot" }, h("div", { text: `${LLM_SHORT[k.split("|")[0]]} · ${ctxLabel(k.split("|")[1])}` })))));
+  d.nuggets.forEach(([id, text, imp, cat], i) => {
+    const tr = h("tr", {}, h("td", { class: "ntext" }, h("div", { text }), h("div", { class: "imp", text: `${id} · ${imp} · ${cat}` })));
+    for (const k of ckeys) { const L = d.ctx_labels[k][i] || "X"; tr.append(h("td", { class: "lab " + (L === "-" ? "X" : L), text: L, title: `context ${ctxLabel(k)}` })); }
+    for (const k of keys) {
+      const L = d.labels[k][i] || "X", src = d.sources[k];
+      const td = h("td", { class: "lab " + (L === "-" ? "X" : L), text: src === "abstained" ? "a" : L, title: `${k}${src ? " (" + src + ")" : ""}` });
+      td.onclick = () => showAnswer(k);
+      tr.append(td);
+    }
+    t.append(tr);
+  });
+  // score row
+  const sc = h("tr", {}, h("td", { class: "small", text: "V_strict of this question" }));
+  const vs = (codes) => { const v = d.nuggets.map((n, i) => [n[2], codes[i]]).filter(x => x[0] === "vital"); return v.length ? v.filter(x => x[1] === "S").length / v.length : null; };
+  for (const k of ckeys) sc.append(h("td", { class: "small mono", text: fmt(vs(d.ctx_labels[k]), 2) }));
+  for (const k of keys) sc.append(h("td", { class: "small mono", text: fmt(vs(d.labels[k]), 2) }));
+  t.append(sc);
+  const box = $("#qNug"); box.innerHTML = ""; box.append(t);
+  if (qState.focusRun && d.labels[qState.focusRun]) { const k = qState.focusRun; qState.focusRun = null; showAnswer(k); }
+}
+function showAnswer(key) {
+  const box = $("#qAnswer");
+  const [llm, cid] = key.split("|");
+  const fname = key.replace("|", "__").replace("@", "_at_") + ".js";
+  const render = () => {
+    const a = window.DATA_ANS?.[key]?.[qState.q];
+    box.innerHTML = "";
+    box.append(h("h4", { text: `Answer · ${LLM_SHORT[llm]} · ${ctxLabel(cid)} · Q${qState.q}` }));
+    if (!a) { box.append(h("p", { class: "small", text: "No answer stored for this question in this run." })); return; }
+    const [status, abst, text] = a;
+    if (abst) box.append(h("p", { class: "warnbox", text: "The generator abstained: every nugget counts as not_support." }));
+    if (status !== "ok") box.append(h("p", { class: "warnbox", text: "status: " + status }));
+    box.append(h("div", { class: "answer", text: text || "(empty)" }));
+    box.scrollIntoView({ block: "nearest" });
+  };
+  if (window.DATA_ANS?.[key]) return render();
+  box.innerHTML = `<p class="small">Loading ${esc(fname)}…</p>`;
+  const s = document.createElement("script");
+  s.src = "data/answers/" + fname;
+  s.onload = render;
+  s.onerror = () => { box.innerHTML = `<p class="warnbox">Answers file <code>data/answers/${esc(fname)}</code> not found: run the build script.</p>`; };
+  document.body.append(s);
+}
+$("#qSearch").oninput = renderQList; $("#qFilter").onchange = renderQList;
+TAB_RENDER["tab-q"] = renderQ;
+
+// =====================================================================================================
+// 8 · DOCS
+// =====================================================================================================
+function renderDocs() {
+  const ul = $("#docAll"), f = ($("#docSearch").value || "").toLowerCase();
+  ul.innerHTML = "";
+  for (const name of Object.keys(window.DATA_DOCS || {}).sort()) {
+    const title = DOC_TITLES[name];
+    if (f && !(name.toLowerCase().includes(f) || title.toLowerCase().includes(f))) continue;
+    ul.append(h("li", {}, docLink(name, null, name), h("span", { class: "small", text: " — " + title })));
+  }
+}
+$("#docSearch").oninput = renderDocs;
+TAB_RENDER["tab-docs"] = renderDocs;
+
+// =====================================================================================================
+// boot
+// =====================================================================================================
+$("#genInfo").textContent = `data built ${C.generated} · scripts/report/build_dashboard_data.py`;
+buildTabs();
+hydrateDocLinks();
+const start = "tab-" + (location.hash.slice(1) || "map");
+showTab(document.getElementById(start) ? start : "tab-map", false);
+</script>
+</body>
+</html>

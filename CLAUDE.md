@@ -93,6 +93,8 @@ than expected.
   `docs/20261108_175117_gemini_embedding_2_setup_embedding_and_retrieval_gate.md`. Outputs sit under
   `<…>/gemini-emb-2/`; in the nugget tables its runs are `<context_id>@gemini-emb-2` (`scoring.context_key`). `rag.py` does not
   read `.env`: run `set -a; . ./.env; set +a` first.
+  **Results dashboard:** `docs/dashboard/index.html` (static, opens from file://), data rebuilt by
+  `scripts/report/build_dashboard_data.py` (no API calls); see `docs/20261109_123355_results_dashboard.md`.
 - **`nuggets/`** — nugget pipeline outputs (`scripts/nuggets/nuggets.py`), one folder per run
   (`preview/`, `preview_v2/`, `preview_v3/`; `pilot/` next): nuggets, validation, self-score
   labels, the cost ledger `costs.csv` and `report.md`. Raw API responses (`cache/`) and the input
