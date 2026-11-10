@@ -15,6 +15,9 @@ processing stages:
   answer compared with the gold set.
 
 The user expected all of this to be in the Hugging Face repo `eduseiti/BR-TaxQA-R-RAG-eval`.
+**Decisions (user, 2026-11-10, §7):** D1 top 100 + every gold hit, and show the prompt with its parts marked;
+D2 no pilot runs; D3 and D4 not done (no extra cost); D5 build from the local files. Sections 3–6 below already
+apply these decisions. §8 adds how the trace view shows the vital/okay importance of the nuggets.
 
 ## 1. Summary
 
@@ -31,8 +34,10 @@ The user expected all of this to be in the Hugging Face repo `eduseiti/BR-TaxQA-
 3. **No nuggets are extracted from the generated answers.** Phase 5 scores in the opposite direction
    (`assign_v2`). The judge reads the answer and labels **each gold nugget** as `support`, `partial_support`,
    `not_support` or `contradicts`, and justifies each label. So the comparison with the gold set exists nugget by
-   nugget. Claims the answer makes beyond the gold nuggets (extra or invented content) are not recorded, except
-   for the value and citation checks (§3.5).
+   nugget. The generators did, however, write their answers as a list of **claims** (`afirmacoes`), each with
+   the documents it cites and a quoted excerpt, checked at generation time (`answers.jsonl`: `claims`, `checks`,
+   `cited_chunk_ids`). These claims can be shown and linked to the context ($0), but no data matches them to the
+   gold nuggets (§3.5).
 
 Everything else is in the data: segmentation by strategy, the full rankings (1,000 per question), the gold
 match per ranked chunk, the in-budget text list with its rendered prompt, the answers, and the labels.
@@ -123,10 +128,34 @@ embeddings and the `raw/` caches).
   `chunk_id`, `alias_chunk_ids` for merged children, `tokens_qwen3`, `fonte`), the `gold` hits at each level, and
   the exact rendered `context` text the generator saw.
 - **View:** a token bar of the budget filled item by item; each item linked back to its ranking row and to the
-  document view; gold items marked; a toggle to show the rendered prompt text.
+  document view; gold items marked; a toggle to show the full prompt (below).
 - **Contexts available:** 13 jua contexts (S1 / S2 at 2k–8k, S2c, S3, S4 at 4k, oracle 4k / 16k, the
-  `wrong-S2` control, `S2_budget4000_context_v1`), 2 Gemini contexts, and `irpf_with_rir1999` (side run, decision
-  D2). Closed-book has no context.
+  `wrong-S2` control, `S2_budget4000_context_v1`) and 2 Gemini contexts. The `irpf_with_rir1999` side run is a
+  pilot-scale run and is left out (D2). Closed-book has no context.
+
+**The prompt, with its parts marked (D1).** The prompt is not stored as one text per answer, but it can be
+rebuilt exactly from three stored parts:
+
+| Part | Source | Shown as |
+|---|---|---|
+| Instructions (system message) | the prompt template, `scripts/rag/prompts/<prompt>.pt.md` before `<<<USER>>>` (`answer_v1`, `answer_closed_v1`; the run's `run.json` names it) | grey block, labelled "instructions — template `answer_v1`" |
+| User frame | the template after `<<<USER>>>` (`Disposições:` … `Pergunta:`) | plain text |
+| Inserted context | the `context` field of `contexts.jsonl.gz` (the `{context}` slot) | each `[Documento n]` block coloured as a context item, gold items marked, linked to panel D |
+| Inserted question | `question_text` (the `{question}` slot) | highlighted |
+
+- **Verified at build time.** The LLM cache keeps the request that was sent (`runs/answers/cache/<cache_key>.json`,
+  fields `request.system` and `request.user`). The builder rebuilds each prompt and compares it with the cache,
+  byte for byte. Tried on Q001, Luna, S2 4k: both messages are identical.
+- **Only the parts are stored.** The template is stored once per prompt version, and the context once per
+  question and context, so the page assembles the prompt in the browser and adds nothing to the file size. Each
+  answer carries a flag: *verified against the request sent*, *not verifiable (no local cache)* or *differs*
+  (the build fails if any answer differs).
+- **Local cache coverage** (2026-11-10): 17,393 of the 20,735 answers of the 29 full runs. Missing: the four
+  Gemini runs (2,860; generated on the other computer, see `two_machine_state`), the 4 × 119 oracle rows of
+  questions without references (no call was made, so nothing to verify) and 6 single answers. The Gemini requests
+  are in repo B's `raw/runs_answers_cache.tar.gz` (59 MB) if that archive was packed after the Gemini runs.
+  Downloading it for this check only costs nothing, and the build stays local (D5). Otherwise, those answers
+  show "not verifiable".
 
 ### 3.5 Answer stage: answer nuggets vs. gold set
 
@@ -138,8 +167,14 @@ embeddings and the `raw/` caches).
 - **Extra signals:** numeric value hits per nugget (`values_per_nugget`: `value_hit`, `conflict`,
   `temporal_substitution`), the documents the answer cites vs. the gold and the context (`citations_per_answer`),
   and the second judges' labels where they ran.
-- **Not available:** the answer's own claims as nuggets. Showing what the answer said that is not in the gold set
-  would need a new extraction step (decision D3).
+- **The answer's own claims ($0).** Each answer is stored as claims (`claims[].texto`), each with its grounds
+  (`fundamentos`: document number in the context + quoted excerpt + a `status` from the generation-time quote
+  check), plus `checks` (`quotes_ok`, `quotes_bad_document`, `claims_without_quote`, `values_not_in_context`)
+  and `cited_chunk_ids`. The view lists the claims, links each ground to its context item (and so to its rank and
+  its document), and marks quotes that failed the check.
+- **Not available (D3: not done):** a match between the claims and the gold nuggets. The view shows the two lists
+  side by side: the gold nuggets with the judge's labels, and the claims with their grounds. It does not claim
+  which claim covers which nugget.
 
 ## 4. Design
 
@@ -158,7 +193,7 @@ Layout: five stage panels in pipeline order, each collapsible, with a shared sel
 | B · Gold documents | per referred document, the article tree with the strategy toggle (S1 … S4) and chunk texts; gold articles marked; for a selected nugget, the three signals of §3.1 | chunk → C (its rank in each run) |
 | C · Retrieval | run picker (embedding × strategy); ranked list (rank, score, document, label, gold mark, in-context mark); a "first gold hit" summary per gold item, compared across the 10 runs | row → B (chunk in its document), → D |
 | D · Context | budget picker; token bar; items with merge / alias info and gold marks; rendered prompt toggle | item → C, B |
-| E · Answer and nuggets | generator picker; answer text; nugget table: oracle support → context support → answer label → values / contradiction, with justifications on hover; cited vs. gold documents | nugget → A, B |
+| E · Answer and nuggets | generator picker; answer claims with their grounds; nugget table (with the vital/okay badge, §8): oracle support → context support → answer label → values / contradiction, with justifications on hover; cited vs. gold documents | nugget → A, B; ground → D |
 
 ### 4.2 Data files
 
@@ -174,16 +209,18 @@ demand by injecting a script tag. All are gitignored (per-question data, `runs/*
 Shared chunk lookups (chunk → document / article / label) go in the question file for the chunks it uses, so the
 ranking view does not need the document files. Document files load only when a document is opened.
 
-If 150 MB is too large (decision D1), drop the rendered context text (rebuildable from the chunks) and load
-answers from the existing per-run `answers/*.js` instead.
+The prompt adds only the templates (a few kB in `index.js`); the context text is already in the question
+files (§3.4).
 
 ### 4.3 Builder
 
 New script `scripts/report/build_trace_data.py`, separate from `build_dashboard_data.py` so the main build stays
 at ≈ 70 s.
 
-- `--source local` (default) reads the git paths; `--source hf --cache <dir>` first downloads the needed paths of
-  both repos with `HF_RELEASE_TOKEN` (§2). Both feed the same readers, since the paths match.
+- Reads the local files (D5): everything the view needs is on this computer. A `--source hf` option is left for
+  later; it is not built now. The only Hub download is the optional answer-cache archive for the prompt check
+  (§3.4).
+- Runs: the 29 full runs (25 jua, 4 Gemini), the oracle and closed-book runs; pilot-only runs are skipped (D2).
 - Reuses `ragpipe.strategies.member_mask`, `ragpipe.relevance` (gold matching) and the context-reading code, so
   nothing is reimplemented in a way that could drift from the evaluation.
 - Nugget → document resolution (§3.1 signals 1 and 3) in a small module, with a report of how many `legal_basis`
@@ -194,11 +231,11 @@ at ≈ 70 s.
 
 | # | Step | Output | Check |
 |---|---|---|---|
-| 1 | Builder skeleton: readers for repos A + B paths, `--source local/hf`, question index | `index.js` | 715 questions; counts of references, nuggets as in the dataset card |
+| 1 | Builder skeleton: local readers, question index, prompt templates | `index.js` | 715 questions; counts of references, nuggets as in the dataset card |
 | 2 | Nugget → document signals | in `q/*.js` | share of `legal_basis` resolved, reported; oracle ctxsupport present for the 596 questions with references |
 | 3 | Document files with strategy membership | `doc/*.js` | per-strategy chunk totals equal the counts in §3.2 |
 | 4 | Rankings with gold and in-context marks | in `q/*.js` | first gold hit per item = `rank_any` / `rank_full` / `unit_pos` of `per_item.csv.gz`, for all items; in-context marks = `budget_any_4000` |
-| 5 | Contexts, answers, labels, values, citations | in `q/*.js` | label counts per run equal `tables/nugget_labels.parquet`; context gold hits equal the context `gold` field |
+| 5 | Contexts, answers with claims, labels, values, citations; prompt check | in `q/*.js` | label counts per run equal `tables/nugget_labels.parquet`; context gold hits equal the context `gold` field; every rebuilt prompt equal to the cached request (count of verified / not verifiable reported) |
 | 6 | Page: tab 9, panels A–E, hash links, button in tab 7 | `index.html` | rendered with headless Chrome at 1,300 px and phone width; light and dark |
 | 7 | Walk-through of chosen cases (e.g. a question where S2 finds the gold article and S1 does not; a nugget supported by the context but missed by the answer; a contradiction) | screenshots in the results note | the trace agrees with tab 7 and the tables |
 | 8 | Results note in `docs/`, `CLAUDE.md` pointer, update of `20261109_123355_…` §6 | | |
@@ -216,17 +253,65 @@ Steps 1–5 are data work (≈ 1 day); step 6 is the bulk of the work (≈ 1–2
 - **Data drift.** If the corpus or the runs are rebuilt, the trace must be rebuilt too. The builder writes the git
   commit and the input file hashes into `index.js`, and the page shows them.
 
-## 7. Decisions for the user
+## 7. Decisions
 
-- **D1 · Ranking depth and file size.** Top *K* = 100 plus all gold rows (proposed), or 50 / 200; keep the
-  rendered context text in the question files (≈ +60 MB) or rebuild it from chunks in the browser.
-- **D2 · Which runs.** Proposed: the full and oracle runs of both embeddings and the closed-book runs. Pilot-only
-  runs (30 questions) and `irpf_with_rir1999`: include, or leave out?
-- **D3 · Answer-side nuggets.** Keep the gold-nugget view of §3.5 (proposed, $0), or add a new step that extracts
-  nuggets from the generated answers to show unmatched claims. The latter is an LLM run over up to 29 runs ×
-  715 answers, with its own prompt and validation, and should be planned and costed separately against the
-  OpenRouter budget.
-- **D4 · Precise nugget → document link.** The three signals of §3.1 (proposed, $0), or an LLM attribution of
-  each nugget to a gold article (≈ 2,900 nuggets with references; also needs its own plan and cost).
-- **D5 · Data source.** Build from the local working copy (proposed, on the computer that has `runs/`), or always
-  from the Hub download so the trace matches the published release.
+Asked in the first version of this note; answered by the user on 2026-11-10.
+
+| | Question | Decision |
+|---|---|---|
+| D1 | Ranking depth; rendered context in the files | Top 100 + every gold hit. Keep the prompt, with its parts marked (§3.4) |
+| D2 | Pilot-only runs and `irpf_with_rir1999` | Not now |
+| D3 | Extract nuggets from the generated answers (LLM) | Not done: no extra cost. The generators' own claims are shown instead (§3.5) |
+| D4 | LLM link from each nugget to a gold article | Not done: no extra cost. The three $0 signals of §3.1 only |
+| D5 | Local files or Hub download | Local files. The local data are complete for the view; only the prompt check of the Gemini answers may need the Hub cache archive (§3.4) |
+
+## 8. Nugget importance (vital / okay) in the view
+
+Asked by the user on 2026-11-10: what the vital / okay distinction is, where it comes from, and whether the
+dashboard shows it.
+
+- **What it is.** "Gold nuggets" are all the nuggets of the official (gold) answers: 3,175 in
+  `nuggets/gold/v0-auto/`. Each one has an importance: **vital** (2,262) or **okay** (913). The test, check C4 of
+  plan v1 §3.1 (`20260926_112714_gold_answer_nuggetization_plan.md`): *would an answer to this question without
+  this fact be wrong or misleading?* Yes = vital, no = okay. The `create_v4` prompt says: `vital` if a correct
+  answer to this question must contain the fact; `okay` if it is useful but not essential. Project rules on top:
+  every question has at least one vital nugget, except pointer answers such as Q316; "Atenção" notes are
+  usually okay.
+- **Where it comes from.** The vital / okay split is from the literature; the C4 test, the categories and the
+  rules above are this project's own. References (links and contents checked 2026-11-10):
+  - **[AN]** R. Pradeep, N. Thakur, S. Upadhyay, D. Campos, N. Craswell, J. Lin. *Initial Nugget Evaluation
+    Results for the TREC 2024 RAG Track with the AutoNuggetizer Framework*. arXiv:2411.09607, 2024.
+    <https://arxiv.org/abs/2411.09607>. Labels nuggets `vital` / `okay` and defines the scores used here: A,
+    A_strict, V, V_strict (the primary metric), and W, with vital weighted 1 and okay 0.5. Its definition of
+    vital is a quotation of Voorhees (2003).
+  - **[V03a]** E. M. Voorhees. *Evaluating Answers to Definition Questions*. HLT-NAACL 2003, short papers.
+    <https://aclanthology.org/N03-2037/> (PDF: <https://aclanthology.org/N03-2037.pdf>). The origin: the assessor
+    marks the nuggets that must appear in a good answer as vital; the others are a "don't care" condition, and
+    recall counts vital nuggets only.
+  - **[V03b]** E. M. Voorhees. *Overview of the TREC 2003 Question Answering Track*. TREC 2003 (NIST SP 500-255).
+    <https://trec.nist.gov/pubs/trec12/papers/QA.OVERVIEW.pdf>. The same method as used in the track.
+  - **[LD06]** J. Lin, D. Demner-Fushman. *Will Pyramids Built of Nuggets Topple Over?* HLT-NAACL 2006.
+    <https://aclanthology.org/N06-1049/> (PDF: <https://aclanthology.org/N06-1049.pdf>). The critique: the binary
+    vital / okay split is a source of evaluation instability, since systems get credit only for vital nuggets.
+    It proposes nugget pyramids, which weight nuggets by how many assessors marked them vital. This is relevant
+    to our single-model labels and the flip test below.
+- **How the labels were made.** The creator model (GPT-6.1 Sol, `create_v4`, one call per question; frozen from
+  `gpt-6.1-sol.rep2`) labelled them. No person labelled them. Checks
+  (`20261021_155704_nuggetization_phases_2_to_4_execution.md` §2.4 and later):
+  - Gemini 3.1 Pro and Qwen 3.8 Max created nuggets independently. Where all three families produced the same
+    nugget, they gave it the same importance 81 % of the time.
+  - The audit found most planted importance errors but missed three vital → okay relabels.
+  - In the phase 5 robustness test (`20261023_210727_…`), S2 − S1 stayed significant in 95 / 79 / 65 % of
+    replicates (Luna) with 10 / 20 / 30 % of the labels flipped at random.
+- **What the current dashboard shows.** Tab 5 says that nuggets are vital or okay, has a calculator for the
+  metrics, and has a robustness chart with random vital ↔ okay flips (tab 6). Tab 7 shows each nugget's
+  importance only as small grey text (`id · vital · category`). The dashboard does not show the C4 test, who
+  assigned the labels, or the agreement across model families.
+- **Added in the trace view:**
+  - a vital / okay badge on every nugget, with the C4 test and the label's source (creator model, prompt) on
+    hover;
+  - the per-nugget `stability` (how many of the three families produced the nugget);
+  - where the cross-family alignment links the frozen nugget to a nugget of another family, the importance that
+    family gave it. The frozen set comes from `rep2` and the alignment from `rep0`, so this link is checked in
+    step 2 before it is shown.
+  - The same short explanation, with the references, is added to tab 5's text.
