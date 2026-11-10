@@ -180,7 +180,7 @@ rebuilt exactly from three stored parts:
 
 ### 4.1 Where it goes in the page
 
-A new tab **"9 · Question trace"**, reachable from tab 7 (question explorer: a "trace" button per question) and
+A new tab **"9 · Question trace"** (implemented as tab 8, before the notes, which became tab 9: `20261110_194056_question_trace_dashboard_implementation.md`), reachable from tab 7 (question explorer: a "trace" button per question) and
 by URL hash (`#trace/<question>/<emb>/<strategy>/<budget>/<llm>`), so a case can be linked from notes. Tab 7
 stays as the overview across runs; the trace tab follows one question through one run at a time, with a run
 picker.

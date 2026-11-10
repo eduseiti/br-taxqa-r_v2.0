@@ -149,7 +149,7 @@ table.xg td.cell.empty:hover { outline: 0; }
 .rank-table td.hitP { box-shadow: inset 3px 0 0 var(--s4); }
 .tag { display: inline-block; font-size: 10.5px; font-weight: 650; border-radius: 4px; padding: 0 5px; color: #fff; }
 .tag.A { background: var(--lab-S); } .tag.D { background: var(--s7); } .tag.P { background: var(--lab-P); color: #0b0b0b; }
-.tag.in { background: var(--s1); } .tag.out { background: var(--axis); color: var(--ink); }
+.tag.in { background: var(--s1); } .tag.inside { background: transparent; color: var(--s1); box-shadow: inset 0 0 0 1px var(--s1); } .tag.out { background: var(--axis); color: var(--ink); }
 /* nugget grid */
 .ng { border-collapse: separate; border-spacing: 2px; font-size: 12px; }
 .ng td.lab { width: 26px; height: 22px; text-align: center; border-radius: 4px; cursor: pointer; font-weight: 650; font-size: 11px; }
@@ -176,6 +176,53 @@ table.xg td.cell.empty:hover { outline: 0; }
 details > summary { cursor: pointer; color: var(--ink-2); font-size: 13px; }
 .formula { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12.5px; background: var(--code); padding: 6px 10px; border-radius: 6px; display: block; margin: 4px 0; white-space: pre-wrap; }
 @media (forced-colors: active) { .ng td.lab { border: 1px solid CanvasText; } }
+/* question trace */
+.tr-stage { border-left: 3px solid var(--accent); }
+.tr-stage div.small, .tr-stage p, .tr-stage .what, .chunk .meta, .claim, .prompt .part { overflow-wrap: anywhere; }
+.tr-stage > h3:first-child { margin-top: 0; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.tr-stage > h3 .step { font-size: 11px; font-weight: 650; color: var(--surface); background: var(--accent); border-radius: 4px; padding: 1px 6px; }
+.tr-bar { position: sticky; top: 74px; z-index: 10; background: var(--page); border-bottom: 1px solid var(--grid); padding: 6px 0; }
+.imp-badge { display: inline-block; font-size: 10.5px; font-weight: 650; border-radius: 4px; padding: 0 6px; cursor: help; }
+.imp-badge.vital { background: var(--ink); color: var(--surface); }
+.imp-badge.okay { background: var(--surface-2); color: var(--ink-2); border: 1px solid var(--axis); }
+.nspan { background: color-mix(in srgb, var(--s4) 22%, transparent); border-radius: 3px; cursor: pointer; }
+.nspan.sel { background: color-mix(in srgb, var(--s4) 55%, transparent); outline: 1px solid var(--s4); }
+.nspan sup { font-size: 9.5px; color: var(--ink-2); margin-left: 1px; }
+table.t tr.sel td { background: var(--accent-wash); }
+table.t tr.clk { cursor: pointer; }
+table.t tr.clk:hover td { background: var(--surface-2); }
+table.t tr.sep td { background: var(--surface-2); color: var(--muted); font-style: italic; text-align: center; }
+.lnk { color: var(--accent); cursor: pointer; text-decoration: none; border-bottom: 1px dotted var(--accent); background: none; border-top: 0; border-left: 0; border-right: 0; padding: 0; font: inherit; }
+.chunk { border: 1px solid var(--ring); border-radius: 8px; padding: 6px 10px; margin: 5px 0; background: var(--surface); }
+.chunk.gold { box-shadow: inset 3px 0 0 var(--lab-S); }
+.chunk.focus { outline: 2px solid var(--accent); }
+.chunk .meta { font-size: 11.5px; color: var(--ink-2); display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: center; }
+.chunk .txt { font-size: 12.5px; white-space: pre-wrap; margin-top: 4px; }
+.chunk .txt.cut { max-height: 4.6em; overflow: hidden; -webkit-mask-image: linear-gradient(#000 60%, transparent); mask-image: linear-gradient(#000 60%, transparent); }
+.sbit { font-size: 10px; border-radius: 3px; padding: 0 4px; border: 1px solid var(--axis); color: var(--muted); }
+.sbit.on { color: #fff; border-color: transparent; }
+.tokbar { display: flex; height: 16px; border-radius: 4px; overflow: hidden; background: var(--surface-2); border: 1px solid var(--ring); margin: 6px 0; }
+.tokbar > div { height: 100%; border-right: 1px solid var(--surface); }
+.prompt { border: 1px solid var(--ring); border-radius: 8px; overflow: hidden; font-size: 12.5px; }
+.prompt .part { padding: 8px 12px; white-space: pre-wrap; border-top: 1px solid var(--ring); }
+.prompt .part:first-child { border-top: 0; }
+.prompt .plabel { display: block; font-size: 10.5px; font-weight: 650; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin-bottom: 4px; white-space: normal; }
+.prompt .sys { background: var(--surface-2); color: var(--ink-2); }
+.prompt .frame { background: var(--surface); }
+.prompt .slotq { background: color-mix(in srgb, var(--s4) 22%, transparent); border-radius: 3px; padding: 0 2px; }
+.prompt .slotc { border-left: 3px solid var(--s1); margin: 4px 0; padding: 2px 8px; background: color-mix(in srgb, var(--s1) 6%, transparent); }
+.prompt .slotc.gold { border-left-color: var(--lab-S); background: color-mix(in srgb, var(--lab-S) 8%, transparent); }
+.prompt .slotc .dh { font-weight: 650; }
+.claim { border-bottom: 1px solid var(--grid); padding: 5px 0; font-size: 13px; }
+.claim .gr { font-size: 12px; color: var(--ink-2); margin: 2px 0 0 14px; }
+.claim .gr q { font-style: italic; }
+.labcell { display: inline-block; min-width: 22px; text-align: center; border-radius: 4px; font-weight: 650; font-size: 11px; padding: 1px 4px; }
+.labcell.S { background: var(--lab-S); color: #fff; } .labcell.P { background: var(--lab-P); color: #0b0b0b; }
+.labcell.N { background: var(--lab-N); color: var(--ink-2); } .labcell.C { background: var(--lab-C); color: #fff; }
+.labcell.X { background: var(--lab-X); color: var(--muted); }
+.just { font-size: 12px; color: var(--ink-2); }
+.badge-ok { color: var(--good-ink); font-weight: 650; } .badge-warn { color: var(--crit); font-weight: 650; }
+@media (max-width: 720px) { .tr-bar { position: static; } }
 </style>
 </head>
 <body>
@@ -339,6 +386,25 @@ details > summary { cursor: pointer; color: var(--ink-2); font-size: 13px; }
   Plan: <span data-doc="20261011_224049_gold_answer_nuggetization_plan_v2.md"></span>; execution:
   <span data-doc="20261021_155704_nuggetization_phases_2_to_4_execution.md"></span>; scoring:
   <span data-doc="20261023_210727_rag_phase5_scoring_and_analysis.md"></span>; code: <code>scripts/nuggets/nuggetizer/scoring.py</code>.</p>
+  <details class="card">
+    <summary><b>Vital or okay: what it means, who assigned it, where it comes from</b></summary>
+    <ul class="small">
+      <li><b>Test (check C4 of the nuggetization plan):</b> would an answer to <i>this</i> question without this fact be wrong or misleading?
+        Yes = vital, no = okay. Project rules: every question has at least one vital nugget (except pointer answers such as Q316);
+        "Atenção" notes are usually okay. 2,262 of the 3,175 gold nuggets are vital.
+        <span data-doc="20260926_112714_gold_answer_nuggetization_plan.md" data-sec="3.1"></span></li>
+      <li><b>Who assigned it:</b> the nugget creator, GPT-6.1 Sol (prompt <code>create_v4</code>), in the same call that wrote the nugget. No person labelled them.
+        Checks: where Gemini 3.1 Pro and Qwen 3.8 Max produced the same nugget independently, all three families gave it the same importance
+        81 % of the time; random vital ↔ okay flips (10 / 20 / 30 %) keep S2 − S1 significant in 95 / 79 / 65 % of replicates (Luna; tab 6, robustness).</li>
+      <li><b>Where it comes from:</b> the labels and the scores V_strict, V, A_strict, A and W (okay weighted 0.5) follow the TREC 2024 RAG Track:
+        Pradeep et al., <a href="https://arxiv.org/abs/2411.09607" target="_blank" rel="noopener">Initial Nugget Evaluation Results for the TREC 2024 RAG Track with the AutoNuggetizer Framework</a> (arXiv:2411.09607).
+        The split itself is from the TREC 2003 QA track: Voorhees, <a href="https://aclanthology.org/N03-2037/" target="_blank" rel="noopener">Evaluating Answers to Definition Questions</a> (HLT-NAACL 2003) and
+        <a href="https://trec.nist.gov/pubs/trec12/papers/QA.OVERVIEW.pdf" target="_blank" rel="noopener">Overview of the TREC 2003 QA Track</a>.
+        A critique of the binary split, with weighted "nugget pyramids": Lin and Demner-Fushman, <a href="https://aclanthology.org/N06-1049/" target="_blank" rel="noopener">Will Pyramids Built of Nuggets Topple Over?</a> (HLT-NAACL 2006).
+        The C4 wording, the categories and the project rules are this project's own.</li>
+      <li>Tab 8 (question trace) shows the label on every nugget, with the other families' labels where the alignment links them.</li>
+    </ul>
+  </details>
   <div class="grid2">
     <div class="card">
       <h4>Calculator: click a label to cycle it, click vital/okay to toggle</h4>
@@ -498,8 +564,27 @@ details > summary { cursor: pointer; color: var(--ink-2); font-size: 13px; }
   </div>
 </section>
 
+<!-- ================================================================== TRACE -->
+<section class="tab" id="tab-trace" data-title="8 · Question trace">
+  <h2>Question trace: one question through every stage</h2>
+  <p class="lede">Follow one question from its official answer to the generated answer: gold nuggets and where they may come from
+  (A), the gold documents under every segmentation strategy (B), the ranking of one strategy × embedding run with gold marks (C), the
+  texts that fit in the token budget and the prompt sent to the generator (D), and the answer with the judge's label for every gold
+  nugget (E). Links between panels: click a nugget, a chunk, a ranked row or a context item. Plan:
+  <span data-doc="20261110_155548_question_trace_dashboard_feasibility_and_plan.md"></span>; data:
+  <code>scripts/report/build_trace_data.py</code>.</p>
+  <div id="trMissing"></div>
+  <div class="tr-bar" id="trBar"></div>
+  <div class="card tr-stage" id="trA"></div>
+  <div class="card tr-stage" id="trB"></div>
+  <div class="card tr-stage" id="trC"></div>
+  <div class="card tr-stage" id="trD"></div>
+  <div class="card tr-stage" id="trE"></div>
+  <div class="card small" id="trChecks"></div>
+</section>
+
 <!-- ================================================================== DOCS -->
-<section class="tab" id="tab-docs" data-title="8 · Notes">
+<section class="tab" id="tab-docs" data-title="9 · Notes">
   <h2>Design and execution notes</h2>
   <p class="lede">Every note in <code>docs/</code>, newest last. Opens in the side reader; the ¶ links across the dashboard jump to the
   relevant section.</p>
@@ -517,6 +602,7 @@ details > summary { cursor: pointer; color: var(--ink-2); font-size: 13px; }
 <script src="data/docs.js"></script>
 <script src="data/questions.js" onerror="window.DATA_Q_MISSING=true"></script>
 <script src="data/contexts.js" onerror="window.DATA_CTX_MISSING=true"></script>
+<script src="data/trace/index.js" onerror="window.TRACE_MISSING=true"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
 <script>
 "use strict";
@@ -1519,7 +1605,8 @@ function renderQ() {
   renderQList();
   const q = qState.q, d = Q[q];
   const head = $("#qHead"); head.innerHTML = "";
-  head.append(h("h3", { text: `Q${q} · ${d.summary}`, style: "margin-top:0" }), h("div", { class: "small", text: d.chapter }), h("p", { text: d.text }));
+  head.append(h("h3", { text: `Q${q} · ${d.summary}`, style: "margin-top:0" }), h("div", { class: "small", text: d.chapter }), h("p", { text: d.text }),
+    h("button", { class: "btn", text: "Trace this question through every stage →", onclick: () => traceQuestion(q) }));
   head.append(h("details", {}, h("summary", { text: "Official answer" }), h("div", { class: "answer", text: d.answer })));
   const refs = h("ul", { class: "doclist" });
   for (const r of d.refs) refs.append(h("li", {}, h("b", { text: r.id }), ` ${r.origin} · `, h("span", { text: r.citation.join("; ") }), r.doc ? h("span", { class: "small mono", text: ` → ${r.doc} ${r.articles.join(",")}` }) : h("span", { class: "small", text: " (not resolved)" })));
@@ -1640,7 +1727,444 @@ $("#qSearch").oninput = renderQList; $("#qFilter").onchange = renderQList;
 TAB_RENDER["tab-q"] = renderQ;
 
 // =====================================================================================================
-// 8 · DOCS
+// 8 · QUESTION TRACE (data: data/trace/, scripts/report/build_trace_data.py)
+// =====================================================================================================
+const TI = window.TRACE_INDEX || null;
+window.TRACE_Q = window.TRACE_Q || {}; window.TRACE_DOC = window.TRACE_DOC || {};
+const tState = { q: "350", emb: "jua-4b-mixed", strat: "S2", budget: 4000, ctx: "auto", llm: "gpt-5.6-luna", level: "article",
+  nug: null, doc: null, docStrat: "S2", docAll: false, focus: null, rows: 30, prompt: false, openJust: false };
+const IMP_HELP = "vital: a correct answer to this question must contain this fact (test C4: without it the answer would be wrong or misleading). " +
+  "okay: useful but not essential. Assigned by the nugget creator (GPT-6.1 Sol, prompt create_v4) in one call; no person labelled them. " +
+  "Scores: V and V_strict count vital nuggets only; W weights vital 1, okay 0.5. Labels and scores from the TREC 2024 RAG AutoNuggetizer " +
+  "(Pradeep et al., arXiv:2411.09607), after Voorhees (2003).";
+const LAB_NAME = { S: "support", P: "partial_support", N: "not_support", C: "contradicts", "-": "not labelled" };
+const loaded = {};
+function loadScript(src, ok, fail) {
+  if (loaded[src] === true) return ok();
+  const s = document.createElement("script"); s.src = src;
+  s.onload = () => { loaded[src] = true; ok(); }; s.onerror = fail;
+  document.body.append(s);
+}
+const tq = () => window.TRACE_Q[tState.q];
+const runKey = () => `${tState.emb}|${tState.strat}`;
+const autoCtx = () => `${tState.strat}_budget${tState.budget}` + (tState.emb === "gemini-emb-2" ? "@gemini-emb-2" : "");
+const ctxKeyNow = () => tState.ctx === "auto" ? autoCtx() : tState.ctx;
+const budIdx = () => TI.budgets.indexOf(tState.budget);
+const docTitle = d => (TI.documents[d]?.[0] || d || "").replace(/ — Receita Federal( do Brasil)?/, "");
+const short = (s, n = 70) => s && s.length > n ? s.slice(0, n - 1) + "…" : (s || "");
+const labCell = (L, title) => h("span", { class: "labcell " + (L && L !== "-" ? L : "X"), text: L || "–", title: title || LAB_NAME[L] || "" });
+function impBadge(n) {
+  let t = IMP_HELP;
+  const fams = Object.entries(n.other || {});
+  if (fams.length) t += "\n\nOther model families for the matching nugget: " + fams.map(([f, [rel, imps]]) => `${f.split(".rep")[0]}: ${imps.join("/") || "—"} (${rel})`).join("; ");
+  return h("span", { class: "imp-badge " + n.imp, text: n.imp, title: t });
+}
+function trHash() {
+  if (currentTab === "tab-trace") history.replaceState(null, "", `#trace/${tState.q}/${tState.emb}/${tState.strat}/${tState.budget}/${tState.llm}`);
+}
+function parseTraceHash() {
+  const p = location.hash.slice(1).split("/");
+  if (p[0] !== "trace") return false;
+  if (p[1]) tState.q = p[1]; if (p[2]) tState.emb = p[2]; if (p[3]) tState.strat = p[3];
+  if (p[4]) tState.budget = +p[4]; if (p[5]) tState.llm = p[5];
+  tState.docStrat = tState.strat;
+  return true;
+}
+function traceQuestion(q) { tState.q = q; tState.nug = null; tState.doc = null; tState.focus = null; showTab("tab-trace"); }
+function goTo(id) { const el = document.getElementById(id); el && el.scrollIntoView({ behavior: "smooth", block: "start" }); }
+function openChunk(cid, doc) {
+  const d = tq(); const c = d.chunks[cid];
+  tState.doc = doc || (c && c[0]); tState.focus = cid;
+  if (c && TI.strategies.includes(tState.strat)) tState.docStrat = tState.strat;
+  renderTrB(); goTo("trB");
+}
+
+function renderTrace() {
+  if (!TI || window.TRACE_MISSING) {
+    $("#trMissing").innerHTML = `<p class="warnbox">Trace data not found (<code>data/trace/index.js</code>). Run <code>.venv/bin/python scripts/report/build_trace_data.py</code> from the repo root (≈ 10 min, no API calls).</p>`;
+    return;
+  }
+  $(".tr-bar").style.top = $("header.top").offsetHeight + "px";
+  if (!TI.built_questions.includes(tState.q)) tState.q = TI.built_questions[0];
+  if (window.TRACE_Q[tState.q]) return renderTraceAll();
+  $("#trA").innerHTML = `<p class="small">Loading Q${esc(tState.q)}…</p>`;
+  loadScript(`data/trace/q/${tState.q}.js`, renderTraceAll,
+    () => { $("#trA").innerHTML = `<p class="warnbox">File <code>data/trace/q/${esc(tState.q)}.js</code> not found: rerun the build script.</p>`; });
+}
+function renderTraceAll() { renderTrBar(); renderTrA(); renderTrB(); renderTrC(); renderTrD(); renderTrE(); renderTrChecks(); trHash(); }
+
+// ---------------------------------------------------------------- control bar
+function renderTrBar() {
+  const bar = $("#trBar"); bar.innerHTML = "";
+  const qs = TI.built_questions;
+  const dl = h("datalist", { id: "trQList" }, ...qs.map(q => h("option", { value: q, label: `${TI.questions[q][0]} — ${short(TI.questions[q][1], 80)}` })));
+  const inp = h("input", { type: "search", list: "trQList", value: tState.q, style: "width:90px", title: "question number" });
+  const go = v => { v = String(v).trim().padStart(3, "0"); if (qs.includes(v)) traceQuestion(v); };
+  inp.onchange = () => go(inp.value);
+  const i = qs.indexOf(tState.q);
+  const nav = h("div", { class: "opts" }, inp, dl,
+    h("button", { class: "btn", text: "◀", title: "previous", onclick: () => i > 0 && traceQuestion(qs[i - 1]) }),
+    h("button", { class: "btn", text: "▶", title: "next", onclick: () => i < qs.length - 1 && traceQuestion(qs[i + 1]) }));
+  const embBox = h("div", { class: "opts" }), sBox = h("div", { class: "opts" }), bBox = h("div", { class: "opts" });
+  chips(embBox, EMBS.map(e => ({ value: e, label: EMB_SHORT[e] })), tState, "emb", { onchange: renderTraceAll });
+  chips(sBox, TI.strategies, tState, "strat", { onchange: () => { tState.docStrat = tState.strat; renderTraceAll(); }, colors: Object.fromEntries(TI.strategies.map(s => [s, scol(s)])) });
+  chips(bBox, TI.budgets.map(b => ({ value: b, label: (b / 1000) + "k" })), tState, "budget", { onchange: renderTraceAll });
+  const d = tq();
+  const copts = [{ value: "auto", label: `follows C (${ctxLabel(autoCtx())}${d.ctx[autoCtx()] ? "" : " — not generated"})` },
+    ...Object.keys(d.ctx).map(k => ({ value: k, label: ctxLabel(k) })), { value: "closed_book", label: "closed book (no context)" }];
+  const ck = ctxKeyNow();
+  const llms = TI.runs.filter(r => r.context_id === ck).map(r => r.llm);
+  if (llms.length && !llms.includes(tState.llm)) tState.llm = llms.includes("gpt-5.6-luna") ? "gpt-5.6-luna" : llms[0];
+  bar.append(h("div", { class: "controls", style: "margin:0" },
+    ctl("Question", nav), ctl("Embedding (C)", embBox), ctl("Strategy (B, C)", sBox), ctl("Budget (C, D)", bBox),
+    ctl("Context (D, E)", selectEl(copts, tState.ctx, v => { tState.ctx = v; renderTraceAll(); })),
+    ctl("Generator (E)", llms.length ? selectEl(llms.map(l => ({ value: l, label: LLM_SHORT[l] || l })), tState.llm, v => { tState.llm = v; renderTraceAll(); })
+      : h("span", { class: "small", text: "no answers for this context" }))));
+}
+
+// ---------------------------------------------------------------- A · question and nuggets
+function spanRanges(answer, nuggets) {
+  const out = [];
+  nuggets.forEach((n, i) => {
+    if (!n.span) return;
+    const words = n.span.trim().split(/\s+/).map(w => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+    if (!words.length) return;
+    const m = new RegExp(words.join("\\s+")).exec(answer);
+    if (m) out.push([m.index, m.index + m[0].length, i]);
+  });
+  out.sort((a, b) => a[0] - b[0]);
+  const keep = []; let end = -1;
+  for (const r of out) if (r[0] >= end) { keep.push(r); end = r[1]; }
+  return keep;
+}
+function renderTrA() {
+  const d = tq(), box = $("#trA"); box.innerHTML = "";
+  box.append(h("h3", {}, h("span", { class: "step", text: "A" }), `Question ${d.q.n} · ${d.q.summary}`, h("span", { class: "small", text: d.q.chapter })));
+  box.append(h("p", { text: d.q.text }));
+  // gold answer with nugget spans
+  const ans = h("div", { class: "answer", style: "max-height:300px" });
+  let pos = 0;
+  for (const [s, e, i] of spanRanges(d.q.answer, d.nuggets)) {
+    ans.append(d.q.answer.slice(pos, s));
+    ans.append(h("span", { class: "nspan" + (tState.nug === i ? " sel" : ""), title: `${d.nuggets[i].id} (${d.nuggets[i].imp})`, onclick: () => { tState.nug = i; renderTrA(); renderTrE(); } },
+      d.q.answer.slice(s, e), h("sup", { text: i + 1 })));
+    pos = e;
+  }
+  ans.append(d.q.answer.slice(pos));
+  box.append(h("h4", { text: "Official answer, with the source span of each nugget highlighted" }), ans);
+  // references
+  const refs = h("ul", { class: "doclist" });
+  for (const r of d.refs) refs.append(h("li", {}, h("b", { text: r.id }), ` ${r.origin} · ${r.citation.join("; ")} `,
+    r.doc ? h("button", { class: "lnk", text: `→ ${r.doc}${r.articles.length ? " " + r.articles.join(", ") : ""}`, onclick: () => { tState.doc = r.doc; tState.focus = null; renderTrB(); goTo("trB"); } })
+      : h("span", { class: "small", text: "(not in the corpus)" })));
+  box.append(h("h4", { text: `References (${d.refs.length})` }), d.refs.length ? refs : h("p", { class: "small", text: "No legal citation: this question has no gold documents, so B and the gold marks in C are empty." }));
+  // nuggets
+  const t = h("table", { class: "t" });
+  t.append(h("tr", {}, ...["#", "importance", "nugget", "gold articles support it? (oracle ctx)", "legal basis in the nugget", "closest gold text (BM25, heuristic)", "families"].map(x => h("th", { text: x }))));
+  const or4 = d.ctxsup["oracle_budget4000"], or16 = d.ctxsup["oracle_budget16000"];
+  d.nuggets.forEach((n, i) => {
+    const lb = h("td", { class: "small" });
+    for (const x of n.lb) {
+      const line = h("div", {}, h("span", { text: short(x.s, 60) + " " }));
+      if (x.doc) {
+        const arts = x.arts_found?.length ? x.arts_found : [];
+        line.append(h("button", { class: "lnk", text: `→ ${x.doc}${arts.length ? " " + arts.join(",") : ""}`, onclick: ev => { ev.stopPropagation(); openDocArticle(x.doc, arts[0]); } }));
+        line.append(h("span", { class: "small", text: x.in_refs ? " (cited by the question)" : " (not among the question's references)" }));
+      } else line.append(h("span", { class: "small", text: `(${x.status})` }));
+      lb.append(line);
+    }
+    const bm = h("td", { class: "small" });
+    if (n.bm25[0]) {
+      const [cid, doc, art, sc, isG] = n.bm25[0];
+      bm.append(h("button", { class: "lnk", text: `${doc}${art ? " " + art : ""}`, onclick: ev => { ev.stopPropagation(); openChunk(cid, doc); } }),
+        h("span", { text: ` · ${sc}${isG ? " · gold article" : ""}` }));
+      if (n.bm25.length > 1) bm.append(h("div", { class: "small", text: "next: " + n.bm25.slice(1).map(b => `${b[2] || b[1]} (${b[3]})`).join(", ") }));
+    } else bm.append("—");
+    const sup = h("td", {});
+    if (or4) sup.append(labCell(or4[i][0], "oracle 4k: " + or4[i][1]), " ");
+    if (or16) sup.append(labCell(or16[i][0], "oracle 16k: " + or16[i][1]));
+    if (!or4 && !or16) sup.append(h("span", { class: "small", text: "no oracle context" }));
+    const fam = h("td", { class: "small", text: n.stab == null ? "—" : `${n.stab}/3` + (Object.keys(n.other).length ? " · " + Object.entries(n.other).map(([f, [rel, imps]]) => `${f.split(".")[0].split("-")[0]}: ${imps.join("/") || "—"}`).join(", ") : ""),
+      title: "How many model families (GPT, Gemini, Qwen) produced a matching nugget, and the importance the others gave it" + (Object.keys(n.audit).length ? "\nAudit flags: " + JSON.stringify(n.audit) : "") });
+    const tr = h("tr", { class: "clk" + (tState.nug === i ? " sel" : ""), onclick: () => { tState.nug = tState.nug === i ? null : i; renderTrA(); renderTrE(); } },
+      h("td", { class: "mono", text: i + 1 }), h("td", {}, impBadge(n)), h("td", {}, h("div", { text: n.text }), h("div", { class: "small mono", text: `${n.id} · ${n.cat}${n.values.length ? " · values " + n.values.join(", ") : ""}` })),
+      sup, lb, bm, fam);
+    t.append(tr);
+  });
+  box.append(h("h4", { text: `Gold nuggets (${d.nuggets.length}; ${d.nuggets.filter(n => n.imp === "vital").length} vital)` }),
+    h("div", { class: "what", html: "No data links a nugget to one document: the citations belong to the question. Three signals stand in for it. " +
+      "<b>Oracle support</b>: the judge's label for the nugget against the gold articles packed in 4k (and 16k for 57 questions); hover for the justification. " +
+      "<b>Legal basis</b>: citations copied from the answer into the nugget (15 % of nuggets), resolved to a document and article. " +
+      "<b>BM25</b>: the gold text whose words overlap most with the nugget, a pointer only. Hover the importance badge for what vital/okay means and who assigned it." }),
+    h("div", { class: "tablewrap", style: "max-height:none" }, t));
+  if (tState.nug != null) { const n = d.nuggets[tState.nug]; if (or4) box.append(h("p", { class: "just", text: `Oracle 4k justification for ${n.id}: ${or4[tState.nug][1]}` })); }
+}
+
+// ---------------------------------------------------------------- B · documents and segmentation
+function openDocArticle(doc, art) { tState.doc = doc; tState.focus = art ? "art:" + art : null; renderTrB(); goTo("trB"); }
+function renderTrB() {
+  const d = tq(), box = $("#trB"); box.innerHTML = "";
+  box.append(h("h3", {}, h("span", { class: "step", text: "B" }), "Gold documents and their segmentation"));
+  const refDocs = [...new Set(d.refs.map(r => r.doc).filter(Boolean))];
+  if (tState.doc == null) tState.doc = refDocs[0] || null;
+  const docs = [...refDocs]; if (tState.doc && !docs.includes(tState.doc)) docs.push(tState.doc);
+  if (!docs.length) { box.append(h("p", { class: "small", text: "No gold document. Click a ranked chunk in C to open its document here." })); return; }
+  const dBox = h("div", { class: "opts" });
+  for (const doc of docs) dBox.append(h("button", { class: "chip", "aria-pressed": String(doc === tState.doc), text: short(doc, 40) + (refDocs.includes(doc) ? "" : " (not cited)"), title: docTitle(doc), onclick: () => { tState.doc = doc; tState.focus = null; renderTrB(); } }));
+  const sBox = h("div", { class: "opts" });
+  chips(sBox, TI.strategies, tState, "docStrat", { onchange: renderTrB, colors: Object.fromEntries(TI.strategies.map(s => [s, scol(s)])) });
+  const allBox = h("label", { class: "small" }, h("input", { type: "checkbox", checked: tState.docAll ? "checked" : null, onchange: e => { tState.docAll = e.target.checked; renderTrB(); } }), " whole document");
+  box.append(h("div", { class: "controls" }, ctl("Document", dBox), ctl("Strategy", sBox), ctl("Show", allBox)));
+  const body = h("div", {}); box.append(body);
+  const meta = TI.documents[tState.doc];
+  if (!meta) { body.append(h("p", { class: "warnbox", text: `${tState.doc} is not in dataset/documents.jsonl.` })); return; }
+  const render = () => renderDocBody(body);
+  if (window.TRACE_DOC[tState.doc]) return render();
+  body.innerHTML = `<p class="small">Loading ${esc(meta[2])}.js…</p>`;
+  loadScript(`data/trace/doc/${meta[2]}.js`, render, () => { body.innerHTML = `<p class="warnbox">Document file <code>data/trace/doc/${esc(meta[2])}.js</code> not found: rerun the build script.</p>`; });
+}
+function renderDocBody(body) {
+  body.innerHTML = "";
+  const d = tq(), D = window.TRACE_DOC[tState.doc];
+  const bit = TI.strategy_bit[tState.docStrat];
+  const goldArts = new Set(d.gold.article.filter(g => g.doc === tState.doc).map(g => g.art));
+  body.append(h("div", { class: "small" }, h("b", { text: D.title || D.id }), ` · ${D.statutory ? "statutory" : "non-statutory"} · ${D.files.length} file(s)` +
+    (D.files.some(f => f.annex) ? ` (${D.files.filter(f => f.annex).length} annex)` : "") + ` · URN ${D.urn || "—"} · LexML ${D.lexml || "—"}`));
+  if (D.excluded) body.append(h("p", { class: "warnbox", text: "Excluded from the main run (irpf): revoked document (scripts/rag/corpus_exclusions.yaml). Its chunks are in no index of these runs." }));
+  // rows of the selected strategy
+  const C_ = D.chunks; // [id, arquivo, tipo, cit, art, nivel, start, end, tok, variante, parte, n_partes, bits, agrup, text]
+  let focusArt = null, focusId = null;
+  if (tState.focus?.startsWith("art:")) focusArt = tState.focus.slice(4);
+  else if (tState.focus) { focusId = tState.focus; const r = C_.find(c => c[0] === focusId); focusArt = r?.[4] || null; }
+  const showArts = new Set(goldArts); if (focusArt) showArts.add(focusArt);
+  const iv = {}; for (const c of C_) if (c[4] && showArts.has(c[4])) { const k = c[1] + "|" + c[4]; const v = iv[k] || [1e12, -1]; iv[k] = [Math.min(v[0], c[6]), Math.max(v[1], c[7])]; }
+  const contains = c => Object.entries(iv).some(([k, [s, e]]) => k.startsWith(c[1] + "|") && c[6] <= s && c[7] >= e);
+  let rows = C_.filter(c => c[12] & bit);
+  const nAll = rows.length;
+  const filtered = !tState.docAll && showArts.size;
+  if (filtered) rows = rows.filter(c => showArts.has(c[4]) || c[0] === focusId || (!c[4] && contains(c)));
+  const rankOf = {}; const R = d.ret[`${tState.emb}|${tState.docStrat}`];
+  if (R) for (const r of R.rows) rankOf[r[1]] = r[0];
+  const cap = 300;
+  body.append(h("p", { class: "small", text: `${tState.docStrat}: ${nAll} chunks in this document` + (filtered ? `; showing the ${rows.length} of article(s) ${[...showArts].map(a => a + (goldArts.has(a) ? " (gold)" : "")).join(", ")} and the groupings that contain them` : "") +
+    (rows.length > cap ? ` (first ${cap})` : "") + `. Ranks: ${EMB_SHORT[tState.emb]} ${tState.docStrat} run (top ${TI.top_k} and gold rows only).` }));
+  if (!showArts.size && !tState.docAll) body.append(h("p", { class: "small", text: "The question cites this document without articles: showing the whole document." }));
+  let focusEl = null;
+  for (const c of rows.slice(0, cap)) {
+    const gold = goldArts.has(c[4]);
+    const bits = h("span", {}, ...TI.strategies.map(s => h("span", { class: "sbit" + (c[12] & TI.strategy_bit[s] ? " on" : ""), style: c[12] & TI.strategy_bit[s] ? `background:${scol(s)}` : "", text: s, title: (c[12] & TI.strategy_bit[s] ? "in " : "not in ") + s })));
+    const txt = h("div", { class: "txt cut", text: c[14], title: "click to expand", onclick: e => e.currentTarget.classList.toggle("cut") });
+    const el = h("div", { class: "chunk" + (gold ? " gold" : "") + (c[0] === focusId ? " focus" : "") },
+      h("div", { class: "meta" }, h("span", { class: "mono", text: c[2] }), h("b", { text: c[3] }), h("span", { text: `${c[8]} tok` }),
+        c[9] !== "base" ? h("span", { class: "pill", text: "variant: " + c[9] }) : "", c[11] > 1 ? h("span", { class: "pill", text: `part ${c[10]}/${c[11]}` }) : "",
+        gold ? h("span", { class: "tag A", text: "gold article" }) : "", rankOf[c[0]] ? h("span", { class: "tag in", text: `rank ${rankOf[c[0]]}` }) : "",
+        D.files.find(f => f.arquivo === c[1])?.annex ? h("span", { class: "pill", text: "annex " + c[1] }) : "", bits, h("span", { class: "mono small", text: c[0] })),
+      c[13] ? h("div", { class: "small", text: c[13] }) : "", txt);
+    if (c[0] === focusId) focusEl = el;
+    body.append(el);
+  }
+  if (focusEl) setTimeout(() => focusEl.scrollIntoView({ block: "center" }), 50);
+  body.append(h("p", { class: "small", text: "Strategy badges: the indexes that contain the chunk. S2/S2c/S3/S4 add sub-units (paragraphs, incisos…) with their ancestor path; S3/S4 add grouping chunks (chapters, sections); S2c/S4 use the caput variant of paragraph chunks. Green edge: chunk of a gold article of this question." }));
+}
+
+// ---------------------------------------------------------------- C · retrieval
+function rowGold(r, level) {
+  if (level === "document") return r[5].length ? ["D", "gold document"] : null;
+  if (level === "article") return r[6].length ? ["A", "gold article"] : r[5].length ? ["D", "other part of a gold document"] : null;
+  return r[7].length ? ["A", "gold provision, full hit"] : r[8].length ? ["P", "gold provision, partial hit"] : r[5].length ? ["D", "other part of a gold document"] : null;
+}
+function ctxMark(r, bi) {
+  const m = r[9][bi];
+  if (m > 0) return h("span", { class: "tag in", text: `#${m}`, title: `in the ${TI.budgets[bi] / 1000}k context, as text ${m}` });
+  if (m < 0) return h("span", { class: "tag inside", text: `in #${-m}`, title: `inside text ${-m} of the context (a parent chunk that contains it was selected)` });
+  return "";
+}
+function renderTrC() {
+  const d = tq(), box = $("#trC"); box.innerHTML = "";
+  const R = d.ret[runKey()], bi = budIdx();
+  box.append(h("h3", {}, h("span", { class: "step", text: "C" }), `Retrieval · ${EMB_SHORT[tState.emb]} · ${tState.strat}`, h("span", { class: "small", text: R ? `${R.n} ranked texts; ${tState.budget / 1000}k context = ${R.ctx_n[tState.budget]} texts, ${R.ctx_tokens[tState.budget]} tokens` : "" })));
+  const lv = h("div", { class: "opts" });
+  chips(lv, ["document", "article", "provision"], tState, "level", { onchange: renderTrC });
+  box.append(h("div", { class: "controls" }, ctl("Gold level", lv)));
+  // first hits of every gold item across the 10 runs
+  const items = d.gold[tState.level];
+  if (items.length) {
+    const keys = TI.retrieval_runs.filter(k => d.ret[k]);
+    const t = h("table", { class: "t" });
+    t.append(h("tr", {}, h("th", { text: "Gold item" }), ...keys.map(k => h("th", { class: "n", text: `${k.split("|")[1]}·${EMB_SHORT[k.split("|")[0]]}`, style: k === runKey() ? "color:var(--accent)" : "" }))));
+    items.forEach((g, i) => {
+      const tr = h("tr", {}, h("td", {}, h("button", { class: "lnk", text: short(g.label, 60), onclick: () => openDocArticle(g.doc, g.art) })));
+      for (const k of keys) {
+        const [rf, ra] = d.ret[k].firsts[tState.level][i] || [];
+        tr.append(h("td", { class: "n mono", text: tState.level === "provision" ? `${rf ?? "—"} / ${ra ?? "—"}` : `${ra ?? "—"}`, title: tState.level === "provision" ? "first full hit / first hit at least partial" : "first chunk that hits the item" }));
+      }
+      t.append(tr);
+    });
+    box.append(h("h4", { text: "First rank at which each gold item is hit, in all 10 runs" }), h("div", { class: "tablewrap", style: "max-height:260px" }, t));
+  } else box.append(h("p", { class: "small", text: "No gold item at this level." }));
+  if (!R) { box.append(h("p", { class: "small", text: "No ranking for this run." })); return; }
+  // ranking
+  const gold = r => rowGold(r, tState.level);
+  const shown = R.rows.filter(r => r[0] <= tState.rows || (gold(r) && gold(r)[0] !== "D"));
+  const t = h("table", { class: "t rank-table" });
+  t.append(h("tr", {}, ...["rank", "score", "gold", `in ${tState.budget / 1000}k`, "document", "unit", "type", "tokens"].map(x => h("th", { text: x }))));
+  let prev = 0;
+  for (const r of shown) {
+    if (r[0] > prev + 1 && prev) t.append(h("tr", { class: "sep" }, h("td", { colspan: 8, text: `… ${r[0] - prev - 1} rows not shown${r[0] > TI.top_k ? ` (beyond the top ${TI.top_k}, only rows that hit a gold article or provision are kept)` : ""}` })));
+    prev = r[0];
+    const c = d.chunks[r[1]] || [];
+    const g = gold(r);
+    t.append(h("tr", { class: "clk" + (tState.focus === r[1] ? " sel" : ""), id: "trrow-" + r[0], onclick: () => openChunk(r[1], c[0]), title: r[1] + (r[3] ? ` (+${r[3]} chunks with the same text)` : "") },
+      h("td", { class: "n mono", text: r[0] }), h("td", { class: "n mono", text: fmt(r[2], 3) }),
+      h("td", {}, g ? h("span", { class: "tag " + g[0], text: g[0], title: g[1] }) : ""), h("td", {}, ctxMark(r, bi)),
+      h("td", { text: short(docTitle(c[0]), 48), title: c[0] }), h("td", { text: c[3] || "" }), h("td", { class: "mono", text: c[2] || "" }), h("td", { class: "n mono", text: r[4] })));
+  }
+  box.append(h("h4", { text: "Ranking" }), h("div", { class: "tablewrap", style: "max-height:560px" }, t));
+  box.append(h("div", { class: "controls" },
+    h("button", { class: "btn", text: tState.rows < TI.top_k ? `show top ${TI.top_k}` : "show top 30", onclick: () => { tState.rows = tState.rows < TI.top_k ? TI.top_k : 30; renderTrC(); } }),
+    h("span", { class: "small", html: `<span class="tag A">A</span> chunk of a gold article (or full provision hit) · <span class="tag P">P</span> partial provision hit · <span class="tag D">D</span> other part of a gold document · ` +
+      `<span class="tag in">#n</span> text n of the ${tState.budget / 1000}k context · <span class="tag inside">in #n</span> inside a selected parent. Gold matching as in the evaluation (rule G2: any chunk of a gold article counts; a grouping chunk counts for every article it contains). Click a row to see the chunk in B.` })));
+}
+
+// ---------------------------------------------------------------- D · context and prompt
+function itemGold(d, it) {
+  const R = d.ret[runKey()];
+  const row = R && it[1] != null ? R.rows.find(r => r[0] === it[1]) : null;
+  if (row && ctxKeyNow() === autoCtx()) { const g = rowGold(row, "article"); if (g) return g[0]; }
+  const c = d.chunks[it[2]] || [];
+  if (d.gold.article.some(g => g.doc === c[0] && g.art === c[4])) return "A";
+  if (d.gold.document.some(g => g.doc === c[0])) return "D";
+  return "";
+}
+function renderTrD() {
+  const d = tq(), box = $("#trD"); box.innerHTML = "";
+  const ck = ctxKeyNow(), cx = d.ctx[ck];
+  box.append(h("h3", {}, h("span", { class: "step", text: "D" }), `Context · ${ctxLabel(ck) || ck}`));
+  const run = TI.runs.find(r => r.context_id === ck && r.llm === tState.llm);
+  const a = run && d.ans[run.key];
+  if (ck === "closed_book") box.append(h("p", { class: "small", text: "Closed book: the generator saw only the question." }));
+  else if (!cx) { box.append(h("p", { class: "small", text: `No generator context ${ck} for this question (contexts exist for S1/S2 at 2k–8k, S2c/S3/S4 at 4k, oracle 4k/16k, the wrong-context control; Gemini: S1/S2 4k).` })); }
+  else {
+    const gold = cx.items.map(it => itemGold(d, it));
+    const total = cx.items.reduce((s, it) => s + (it[4] || 0), 0);
+    const budget = +((ck.match(/budget(\d+)/) || [])[1] || total);
+    const bar = h("div", { class: "tokbar", title: `${total} of ${budget} tokens` });
+    cx.items.forEach((it, j) => bar.append(h("div", { style: `width:${100 * it[4] / Math.max(budget, total)}%;background:${gold[j] === "A" ? css("--lab-S") : gold[j] === "D" ? css("--s7") : css("--axis")}`, title: `#${it[0]} ${it[7]} — ${it[4]} tokens` })));
+    box.append(h("div", { class: "small", text: `${cx.items.length} texts · ${cx.tokens} tokens of ${budget} (Qwen3) · rendered prompt context ${cx.rendered_tokens} tokens · selection: ${TI.eval_params.dedup}, overflow ${TI.eval_params.overflow}` }), bar);
+    const t = h("table", { class: "t" });
+    t.append(h("tr", {}, ...["#", "rank", "gold", "source", "type", "tokens", "same-text chunks"].map(x => h("th", { text: x }))));
+    cx.items.forEach((it, j) => {
+      t.append(h("tr", { class: "clk", onclick: () => openChunk(it[2], it[6]) },
+        h("td", { class: "mono", text: it[0] }),
+        h("td", { class: "mono" }, it[1] != null && ck === autoCtx() ? h("button", { class: "lnk", text: it[1], onclick: ev => { ev.stopPropagation(); const el = document.getElementById("trrow-" + it[1]); if (el) { el.scrollIntoView({ block: "center" }); el.classList.add("sel"); } } }) : (it[1] ?? "—")),
+        h("td", {}, gold[j] ? h("span", { class: "tag " + gold[j], text: gold[j] }) : ""), h("td", { text: it[7] }), h("td", { class: "mono", text: it[5] }),
+        h("td", { class: "n mono", text: it[4] }), h("td", { class: "small mono", text: (it[3] || []).length ? it[3].length : "" })));
+    });
+    box.append(h("div", { class: "tablewrap", style: "max-height:420px" }, t));
+    box.append(h("p", { class: "small", text: "A text listed after a higher-ranked one is either a parent that replaced its already-selected children (merge) or a shorter text that fitted after a longer one was skipped. Click a row for the chunk in B; click its rank for the row in C." }));
+  }
+  // prompt
+  const tmplName = run?.template || (ck === "closed_book" ? "answer_closed_v1" : "answer_v1");
+  const tm = TI.templates[tmplName];
+  const pv = a ? a.pv : null;
+  const badge = pv === 1 ? h("span", { class: "badge-ok", text: "✓ identical to the request sent (LLM cache " + a.ck_key + "…)" }) :
+    pv === -1 ? h("span", { class: "badge-warn", text: "✗ differs from the request in the LLM cache" }) :
+    h("span", { class: "small", text: a ? "not verifiable: no cache file on this computer for this answer" : "no answer for this generator" });
+  box.append(h("div", { class: "controls" }, h("button", { class: "btn", text: tState.prompt ? "Hide the prompt" : "Show the prompt sent to the generator", onclick: () => { tState.prompt = !tState.prompt; renderTrD(); } }),
+    h("span", { class: "small" }, `${LLM_SHORT[tState.llm] || tState.llm} · `, badge)));
+  if (tState.prompt && tm && (cx || ck === "closed_book")) box.append(renderPrompt(tm, tmplName, cx, d));
+}
+function renderPrompt(tm, name, cx, d) {
+  const p = h("div", { class: "prompt" });
+  p.append(h("div", { class: "part sys" }, h("span", { class: "plabel", text: `System message — fixed instructions, template ${name} (${tm.path}, sha256 ${tm.sha256.slice(0, 12)}…)` }), tm.system));
+  const frame = h("div", { class: "part frame" }, h("span", { class: "plabel", text: "User message — template frame, with the inserted context (blue/green blocks) and question (highlighted)" }));
+  const parts = tm.user.split(/(\{context\}|\{question\})/);
+  for (const s of parts) {
+    if (s === "{question}") frame.append(h("span", { class: "slotq", title: "inserted question", text: d.q.text }));
+    else if (s === "{context}") {
+      const text = cx ? cx.text : "";
+      const blocks = text.split(/(?=^\[Documento \d+\])/m);
+      for (const b of blocks) {
+        const m = b.match(/^\[Documento (\d+)\]/);
+        if (!m) { frame.append(b); continue; }
+        const it = cx.items.find(x => x[0] === +m[1]);
+        const g = it ? itemGold(d, it) : "";
+        const nl = b.indexOf("\n");
+        frame.append(h("div", { class: "slotc" + (g === "A" ? " gold" : ""), title: `inserted context text ${m[1]}${g === "A" ? " (gold article)" : ""}` },
+          h("span", { class: "dh", text: nl > 0 ? b.slice(0, nl) : b }), nl > 0 ? b.slice(nl) : ""));
+      }
+    } else frame.append(s);
+  }
+  p.append(frame);
+  return p;
+}
+
+// ---------------------------------------------------------------- E · answer and nuggets
+function renderTrE() {
+  const d = tq(), box = $("#trE"); box.innerHTML = "";
+  const ck = ctxKeyNow();
+  const run = TI.runs.find(r => r.context_id === ck && r.llm === tState.llm);
+  box.append(h("h3", {}, h("span", { class: "step", text: "E" }), `Answer · ${LLM_SHORT[tState.llm] || tState.llm} · ${ctxLabel(ck) || ck}`));
+  if (!run || !d.ans[run.key]) { box.append(h("p", { class: "small", text: "No scored answer for this generator and context (Gemini contexts were answered by Luna and Sabiá-4 only; pilot runs are not included)." })); return; }
+  const a = d.ans[run.key];
+  const cx = d.ctx[ck];
+  if (a.st !== "ok") box.append(h("p", { class: "warnbox", text: `status: ${a.st}` + (a.st === "skipped" ? " (no context for this question: nothing was sent)" : "") }));
+  if (a.ab) box.append(h("p", { class: "warnbox", text: "The generator abstained: every nugget counts as not_support." }));
+  // claims
+  const cl = h("div", {});
+  a.cl.forEach(([texto, grounds], i) => {
+    const c = h("div", { class: "claim" }, h("b", { text: `${i + 1}. ` }), texto);
+    for (const [n, trecho, st] of grounds) {
+      const it = cx?.items.find(x => x[0] === n);
+      c.append(h("div", { class: "gr" }, it ? h("button", { class: "lnk", text: `[Documento ${n}]`, title: it[7], onclick: () => openChunk(it[2], it[6]) }) : h("span", { text: `[Documento ${n}]` }),
+        " ", h("q", { text: trecho }), " ", st === "ok" ? h("span", { class: "badge-ok", text: "✓", title: "quote found in that document" }) : h("span", { class: "badge-warn", text: st || "?", title: "quote check at generation time" })));
+    }
+    cl.append(c);
+  });
+  if (!a.cl.length) cl.append(h("div", { class: "answer", text: a.tx || "(empty)" }));
+  const ck_ = a.ck || {};
+  box.append(h("h4", { text: "The generator's claims, each with the context text it cites and a quoted excerpt" }), cl,
+    h("p", { class: "small", text: Object.keys(ck_).length ? `Generation-time checks: ${ck_.n_claims} claims, ${ck_.quotes_ok}/${ck_.n_quotes} quotes found in the cited text, ${ck_.claims_without_quote} claims without quote, values not in the context: ${(ck_.values_not_in_context || []).join(", ") || "none"}.` : "" }));
+  if (a.cit.length) box.append(h("p", { class: "small", text: "Citations (from the claims' grounds) vs. gold: " + a.cit.map(([lv, ng, nc, cr, cp, xr]) => `${lv}: cited ${nc}, gold ${ng}, cited recall ${fmt(cr, 2)}, precision ${fmt(cp, 2)}, in-context recall ${fmt(xr, 2)}`).join(" · ") }));
+  // nugget comparison
+  const or4 = d.ctxsup["oracle_budget4000"], cs = d.ctxsup[ck];
+  const t = h("table", { class: "t" });
+  t.append(h("tr", {}, ...["#", "", "gold nugget", "gold articles (oracle 4k)", "this context", "answer", "values", ""].map(x => h("th", { text: x }))));
+  let nv = 0, sv = 0, cv = 0;
+  d.nuggets.forEach((n, i) => {
+    const [L, J] = a.lab[i] || ["-", ""];
+    const [cL, cJ] = cs ? cs[i] : ["-", ""];
+    if (n.imp === "vital") { nv++; if (L === "S") sv++; if (cL === "S") cv++; }
+    const v = a.val[i] || [];
+    const vtxt = v.length && v[0] ? `${v[1] === true || v[1] === "True" ? "value found" : "value missing"}${v[2] === true || v[2] === "True" ? " · conflict" : ""}${v[3] === true || v[3] === "True" ? " · other year" : ""}` : "";
+    const tr = h("tr", { class: "clk" + (tState.nug === i ? " sel" : ""), onclick: () => { tState.nug = tState.nug === i ? null : i; renderTrA(); renderTrE(); } },
+      h("td", { class: "mono", text: i + 1 }), h("td", {}, impBadge(n)), h("td", { text: n.text }),
+      h("td", {}, or4 ? labCell(or4[i][0], or4[i][1]) : h("span", { class: "small", text: "—" })),
+      h("td", {}, cs ? labCell(cL, cJ) : h("span", { class: "small", text: ck === "closed_book" ? "—" : "not judged" })),
+      h("td", {}, labCell(a.src === "abstained" ? "N" : L, J)), h("td", { class: "small", text: vtxt }),
+      h("td", { class: "small" }, h("button", { class: "lnk", text: "why", onclick: ev => { ev.stopPropagation(); tState.nug = i; tState.openJust = true; renderTrE(); } })));
+    t.append(tr);
+    if (tState.nug === i && tState.openJust) t.append(h("tr", {}, h("td", {}), h("td", { colspan: 7, class: "just" },
+      h("div", {}, h("b", { text: "Answer: " }), J || "—"), cs ? h("div", {}, h("b", { text: "Context: " }), cJ || "—") : "", or4 ? h("div", {}, h("b", { text: "Oracle 4k: " }), or4[i][1] || "—") : "")));
+  });
+  box.append(h("h4", { text: "Gold nuggets: in the gold articles? → in this context? → in the answer?" }),
+    h("div", { class: "what", text: "No nuggets were extracted from the generated answer. The judge (Gemini 3.8 Flash, prompt assign_v2) read the answer and labelled each gold nugget; the same judge labelled each nugget against the context (assign_ctx) and against the oracle context. A nugget supported by the context but not by the answer is a generation miss; one missing from the context is a retrieval miss. Hover a label for the judge's justification, or click why." }),
+    h("div", { class: "tablewrap", style: "max-height:none" }, t),
+    h("p", { class: "small", text: `This question: answer V_strict = ${nv ? fmt(sv / nv, 2) : "—"} (${sv}/${nv} vital nuggets supported)` + (cs ? `; context V_strict = ${fmt(cv / nv, 2)}` : "") + "." }));
+}
+function renderTrChecks() {
+  const c = TI.checks, box = $("#trChecks");
+  const f = o => Object.entries(o || {}).map(([k, v]) => `${k} ${typeof v === "object" ? JSON.stringify(v) : v}`).join(", ");
+  box.innerHTML = "";
+  box.append(h("b", { text: "Build checks " }), `(data built ${TI.generated}, commit ${(TI.commit || "").slice(0, 8)}): `,
+    `gold first hits vs per_item.csv.gz: ${f(c.per_item)}; recomputed vs stored context selections: ${f(c.context_selection)}; `,
+    `prompts vs the LLM cache: ${f(c.prompt)}; label counts vs runs.csv: ${f(c.label_counts)}; strategy chunks: ${f(c.strategy_chunks)}; `,
+    `prompt templates unchanged since the runs: ${f(c.templates_unchanged)}; nugget legal-basis strings: ${f(c.legal_basis)}.`);
+}
+TAB_RENDER["tab-trace"] = renderTrace;
+
+// =====================================================================================================
+// 9 · DOCS
 // =====================================================================================================
 function renderDocs() {
   const ul = $("#docAll"), f = ($("#docSearch").value || "").toLowerCase();
@@ -1660,7 +2184,11 @@ TAB_RENDER["tab-docs"] = renderDocs;
 $("#genInfo").textContent = `data built ${C.generated} · scripts/report/build_dashboard_data.py`;
 buildTabs();
 hydrateDocLinks();
-const start = "tab-" + (location.hash.slice(1) || "map");
+addEventListener("hashchange", () => {
+  const before = `#trace/${tState.q}/${tState.emb}/${tState.strat}/${tState.budget}/${tState.llm}`;
+  if (location.hash !== before && parseTraceHash()) showTab("tab-trace", false);
+});
+const start = parseTraceHash() ? "tab-trace" : "tab-" + (location.hash.slice(1) || "map");
 showTab(document.getElementById(start) ? start : "tab-map", false);
 </script>
 </body>

@@ -129,6 +129,8 @@ and `evaluation.py`, and already written down in `20261013_111626_retrieval_metr
 - **No test suite for the page.** It was checked visually and against the tables, not by automated tests.
 - **Answer text is not compared with the context text.** The question explorer shows chunk labels, not chunk
   text, to keep the files small. The full context text is in `runs/contexts/…/contexts.jsonl.gz`.
+  *Update 2026-11-10:* the question-trace tab (now tab 8; the notes are tab 9) shows the chunk texts, the full
+  prompt and the answer's claims with their quotes (`20261110_194056_question_trace_dashboard_implementation.md`).
 - **Missing runs are shown as empty cells.** The 30-question pilot runs, the Terra/Sabiazinho-4 Gemini runs (not
   run) and the `irpf_with_rir1999` side run are visible only through these gaps or the run badges.
 - **Rebuild after new runs.** New runs (e.g. Gemini with the other two nugget sets) appear after

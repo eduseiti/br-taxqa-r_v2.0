@@ -47,3 +47,5 @@ nuggets/**/batches/*.jsonl
 docs/dashboard/data/questions.js
 docs/dashboard/data/contexts.js
 docs/dashboard/data/answers/
+# question-trace tab (tab 9): per-question and per-document files, scripts/report/build_trace_data.py
+docs/dashboard/data/trace/
