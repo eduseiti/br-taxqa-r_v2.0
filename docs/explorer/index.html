@@ -1,0 +1,1058 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BR-TaxQA-R Explorer</title>
+<style>
+:root {
+  color-scheme: light;
+  --page: #f9f9f7; --surface: #fcfcfb; --surface-2: #f3f2ee;
+  --ink: #0b0b0b; --ink-2: #52514e; --muted: #77756f;
+  --grid: #e1e0d9; --axis: #c3c2b7; --ring: rgba(11,11,11,0.10);
+  --accent: #2a78d6; --accent-wash: rgba(42,120,214,0.10);
+  --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100; --s5: #e87ba4; --s6: #008300; --s7: #6250d6; --s8: #e34948;
+  --good: #0ca30c; --good-ink: #006300; --warn: #fab219; --crit: #d03b3b;
+  --lab-S: #1c7a3e; --lab-P: #c9a227; --lab-N: #d9d7cf; --lab-C: #d03b3b; --lab-X: #f3f2ee;
+  --heat: 28, 122, 62;
+  --code: #f0efec;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --page: #0d0d0d; --surface: #1a1a19; --surface-2: #232321;
+    --ink: #f0efec; --ink-2: #c3c2b7; --muted: #95938c;
+    --grid: #2c2c2a; --axis: #4a4a46; --ring: rgba(255,255,255,0.10);
+    --accent: #3987e5; --accent-wash: rgba(57,135,229,0.16);
+    --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --s6: #008300; --s7: #9085e9; --s8: #e66767;
+    --good-ink: #0ca30c;
+    --lab-S: #2f9d55; --lab-P: #c9a227; --lab-N: #3a3a37; --lab-C: #e05252; --lab-X: #232321;
+    --heat: 47, 157, 85;
+    --code: #262624;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0d0d0d; --surface: #1a1a19; --surface-2: #232321;
+  --ink: #f0efec; --ink-2: #c3c2b7; --muted: #95938c;
+  --grid: #2c2c2a; --axis: #4a4a46; --ring: rgba(255,255,255,0.10);
+  --accent: #3987e5; --accent-wash: rgba(57,135,229,0.16);
+  --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --s6: #008300; --s7: #9085e9; --s8: #e66767;
+  --good-ink: #0ca30c;
+  --lab-S: #2f9d55; --lab-P: #c9a227; --lab-N: #3a3a37; --lab-C: #e05252; --lab-X: #232321;
+  --heat: 47, 157, 85;
+  --code: #262624;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--page); color: var(--ink); font: 14px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+a { color: var(--accent); }
+code, .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12.5px; }
+code { background: var(--code); padding: 1px 4px; border-radius: 4px; }
+header.top { position: sticky; top: 0; z-index: 20; background: var(--page); border-bottom: 1px solid var(--grid); }
+.top-inner { max-width: 1280px; margin: 0 auto; padding: 8px 16px; display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; }
+.top-inner h1 { font-size: 16px; margin: 0; font-weight: 650; white-space: nowrap; }
+nav.main { display: flex; gap: 2px; }
+nav.main a { text-decoration: none; color: var(--ink-2); padding: 4px 10px; border-radius: 6px; }
+nav.main a.on { background: var(--accent-wash); color: var(--ink); font-weight: 600; }
+.trail { flex: 1 1 300px; display: flex; gap: 4px; align-items: center; overflow-x: auto; font-size: 12px; color: var(--muted); white-space: nowrap; scrollbar-width: thin; }
+.trail a { color: var(--ink-2); text-decoration: none; padding: 1px 6px; border-radius: 4px; border: 1px solid var(--ring); }
+.trail a:hover { background: var(--surface-2); }
+.trail a.cur { color: var(--ink); font-weight: 600; }
+main { max-width: 1280px; margin: 0 auto; padding: 14px 16px 60px; }
+h2 { font-size: 19px; margin: 2px 0 4px; font-weight: 650; overflow-wrap: anywhere; }
+h4 { font-size: 13.5px; margin: 12px 0 4px; font-weight: 650; }
+p { margin: 6px 0; max-width: 92ch; }
+.small { font-size: 12px; color: var(--ink-2); }
+.muted { color: var(--muted); }
+.card { background: var(--surface); border: 1px solid var(--ring); border-radius: 10px; padding: 12px 16px; margin: 10px 0; }
+.what { border-left: 3px solid var(--accent); background: var(--accent-wash); padding: 6px 12px; border-radius: 0 8px 8px 0; margin: 6px 0; font-size: 12.5px; max-width: 110ch; }
+.warnbox { border-left: 3px solid var(--warn); background: color-mix(in srgb, var(--warn) 12%, transparent); padding: 8px 12px; border-radius: 0 8px 8px 0; margin: 8px 0; font-size: 13px; overflow-wrap: anywhere; }
+.controls { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: flex-end; margin: 6px 0 8px; }
+.ctl { display: flex; flex-direction: column; gap: 3px; font-size: 12px; color: var(--ink-2); min-width: 0; max-width: 100%; }
+.opts { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
+select, input[type=text], input[type=search] { font: inherit; font-size: 13px; padding: 4px 8px; border-radius: 6px; border: 1px solid var(--axis); background: var(--surface); color: var(--ink); max-width: 100%; }
+.chip { border: 1px solid var(--axis); background: var(--surface); color: var(--ink-2); border-radius: 999px; padding: 2px 10px; font: inherit; font-size: 12.5px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+.chip .sw { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+button.btn { font: inherit; font-size: 12.5px; border: 1px solid var(--axis); background: var(--surface); color: var(--ink); border-radius: 6px; padding: 3px 10px; cursor: pointer; }
+button.btn:hover:not(:disabled) { background: var(--surface-2); }
+button.btn:disabled { opacity: .45; cursor: default; }
+.lnk { color: var(--accent); cursor: pointer; text-decoration: none; border-bottom: 1px dotted var(--accent); background: none; border-top: 0; border-left: 0; border-right: 0; padding: 0; font: inherit; text-align: left; }
+table.t { border-collapse: collapse; font-size: 12.5px; width: 100%; }
+table.t th, table.t td { padding: 4px 8px; border-bottom: 1px solid var(--grid); text-align: left; vertical-align: top; }
+table.t th { color: var(--ink-2); font-weight: 600; position: sticky; top: 0; background: var(--surface); z-index: 1; }
+table.t th.sort { cursor: pointer; } table.t th.sort:hover { color: var(--ink); }
+table.t td.n, table.t th.n { text-align: right; font-variant-numeric: tabular-nums; }
+table.t td.c, table.t th.c { text-align: center; }
+table.t tr.clk { cursor: pointer; }
+table.t tr.clk:hover td { background: var(--surface-2); }
+table.t tr.sel td { background: var(--accent-wash); }
+table.t tr.sep td { background: var(--surface-2); color: var(--muted); font-style: italic; text-align: center; }
+.tablewrap { overflow: auto; max-height: 560px; border: 1px solid var(--ring); border-radius: 8px; }
+.tablewrap.free { max-height: none; }
+.pill { display: inline-block; font-size: 11px; padding: 0 7px; border-radius: 999px; background: var(--surface-2); color: var(--ink-2); border: 1px solid var(--ring); white-space: nowrap; }
+.pill.explicit { background: color-mix(in srgb, var(--s1) 16%, transparent); }
+.pill.embedded { background: color-mix(in srgb, var(--s7) 18%, transparent); }
+.pill.warn { background: color-mix(in srgb, var(--warn) 25%, transparent); }
+.tag { display: inline-block; font-size: 10.5px; font-weight: 650; border-radius: 4px; padding: 0 5px; color: #fff; }
+.tag.A { background: var(--lab-S); } .tag.D { background: var(--s7); } .tag.P { background: var(--lab-P); color: #0b0b0b; }
+.tag.in { background: var(--s1); } .tag.inside { background: transparent; color: var(--s1); box-shadow: inset 0 0 0 1px var(--s1); }
+.sbit { font-size: 10px; border-radius: 3px; padding: 0 4px; border: 1px solid var(--axis); color: var(--muted); }
+.sbit.on { color: #fff; border-color: transparent; }
+.scount { display: inline-flex; gap: 3px; flex-wrap: wrap; }
+.scount span { font-size: 10.5px; border-radius: 3px; padding: 0 4px; font-variant-numeric: tabular-nums; border: 1px solid var(--ring); color: var(--ink-2); }
+.scount span.zero { opacity: .45; }
+.imp-badge { display: inline-block; font-size: 10.5px; font-weight: 650; border-radius: 4px; padding: 0 6px; cursor: help; }
+.imp-badge.vital { background: var(--ink); color: var(--surface); }
+.imp-badge.okay { background: var(--surface-2); color: var(--ink-2); border: 1px solid var(--axis); }
+.labcell { display: inline-block; min-width: 22px; text-align: center; border-radius: 4px; font-weight: 650; font-size: 11px; padding: 1px 4px; }
+.labcell.S { background: var(--lab-S); color: #fff; } .labcell.P { background: var(--lab-P); color: #0b0b0b; }
+.labcell.N { background: var(--lab-N); color: var(--ink-2); } .labcell.C { background: var(--lab-C); color: #fff; }
+.labcell.X { background: var(--lab-X); color: var(--muted); }
+.ng { border-collapse: separate; border-spacing: 2px; font-size: 12px; }
+.ng td.lab { width: 24px; height: 20px; text-align: center; border-radius: 4px; font-weight: 650; font-size: 10.5px; cursor: help; }
+.ng td.lab.S { background: var(--lab-S); color: #fff; } .ng td.lab.P { background: var(--lab-P); color: #0b0b0b; }
+.ng td.lab.N { background: var(--lab-N); color: var(--ink-2); } .ng td.lab.C { background: var(--lab-C); color: #fff; }
+.ng td.lab.X { background: var(--lab-X); color: var(--muted); }
+.ng th { font-weight: 500; font-size: 11px; color: var(--ink-2); padding: 0 4px; white-space: nowrap; text-align: left; }
+.ng th.v { text-align: center; }
+.badge-ok { color: var(--good-ink); font-weight: 650; } .badge-warn { color: var(--crit); font-weight: 650; }
+.answer { white-space: pre-wrap; background: var(--surface-2); border-radius: 8px; padding: 10px 12px; font-size: 13px; max-height: 420px; overflow: auto; }
+.nspan { background: color-mix(in srgb, var(--s4) 22%, transparent); border-radius: 3px; cursor: pointer; }
+.nspan:hover { background: color-mix(in srgb, var(--s4) 50%, transparent); }
+.nspan sup { font-size: 9.5px; color: var(--ink-2); margin-left: 1px; }
+.just { font-size: 12px; color: var(--ink-2); }
+.claim { border-bottom: 1px solid var(--grid); padding: 5px 0; font-size: 13px; overflow-wrap: anywhere; }
+.claim .gr { font-size: 12px; color: var(--ink-2); margin: 2px 0 0 14px; }
+.claim .gr q { font-style: italic; }
+.chunk { border: 1px solid var(--ring); border-radius: 8px; padding: 6px 10px; margin: 5px 0; background: var(--surface); }
+.chunk.gold { box-shadow: inset 3px 0 0 var(--lab-S); }
+.chunk.part { box-shadow: inset 3px 0 0 var(--lab-P); }
+.chunk.focus { outline: 2px solid var(--accent); }
+.chunk .meta { font-size: 11.5px; color: var(--ink-2); display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: center; overflow-wrap: anywhere; }
+.chunk .path { font-size: 11.5px; color: var(--muted); overflow-wrap: anywhere; }
+.chunk .txt { font-size: 12.5px; white-space: pre-wrap; margin-top: 4px; overflow-wrap: anywhere; cursor: pointer; }
+.chunk .txt.cut { max-height: 4.6em; overflow: hidden; -webkit-mask-image: linear-gradient(#000 60%, transparent); mask-image: linear-gradient(#000 60%, transparent); }
+.tokbar { display: flex; height: 14px; border-radius: 4px; overflow: hidden; background: var(--surface-2); border: 1px solid var(--ring); margin: 6px 0; }
+.tokbar > div { height: 100%; border-right: 1px solid var(--surface); }
+.prompt { border: 1px solid var(--ring); border-radius: 8px; overflow: hidden; font-size: 12.5px; }
+.prompt .part { padding: 8px 12px; white-space: pre-wrap; border-top: 1px solid var(--ring); overflow-wrap: anywhere; }
+.prompt .part:first-child { border-top: 0; }
+.prompt .plabel { display: block; font-size: 10.5px; font-weight: 650; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin-bottom: 4px; white-space: normal; }
+.prompt .sys { background: var(--surface-2); color: var(--ink-2); }
+.prompt .slotq { background: color-mix(in srgb, var(--s4) 22%, transparent); border-radius: 3px; padding: 0 2px; }
+.prompt .slotc { border-left: 3px solid var(--s1); margin: 4px 0; padding: 2px 8px; background: color-mix(in srgb, var(--s1) 6%, transparent); }
+.prompt .slotc.gold { border-left-color: var(--lab-S); background: color-mix(in srgb, var(--lab-S) 8%, transparent); }
+.prompt .slotc .dh { font-weight: 650; }
+.heat { font-variant-numeric: tabular-nums; text-align: right; }
+/* collapsible sections */
+details.sec { border: 1px solid var(--ring); border-radius: 10px; background: var(--surface); margin: 8px 0; }
+details.sec > summary { list-style: none; cursor: pointer; padding: 8px 12px; display: flex; gap: 8px; align-items: baseline; border-radius: 10px; }
+details.sec > summary .sh { flex: 1; min-width: 0; display: flex; flex-wrap: wrap; gap: 2px 10px; align-items: baseline; }
+details.sec > summary::-webkit-details-marker { display: none; }
+details.sec > summary:hover { background: var(--surface-2); }
+details.sec > summary .chev { display: inline-block; width: 12px; color: var(--muted); transition: transform .12s; flex: none; }
+details.sec > summary .chev::before { content: "▸"; }
+details.sec[open] > summary .chev { transform: rotate(90deg); }
+details.sec > summary .st { font-weight: 650; overflow-wrap: anywhere; }
+details.sec > summary .st .plain { font-weight: 400; }
+details.sec > summary .ss { color: var(--ink-2); font-size: 12px; display: inline-flex; flex-wrap: wrap; gap: 4px 8px; align-items: center; }
+details.sec > .sb { padding: 2px 14px 12px 32px; }
+details.sec.l1 > summary .st { font-size: 15px; }
+details.sec.l2 { background: var(--page); border-radius: 8px; margin: 6px 0; }
+details.sec.l2 > summary { padding: 5px 10px; }
+details.sec.l2 > summary .st { font-weight: 600; font-size: 13px; }
+details.sec.l2 > .sb { padding: 2px 10px 10px 26px; }
+details.sec.l3 { background: var(--surface); border-radius: 6px; margin: 4px 0; }
+details.sec.l3 > summary { padding: 3px 8px; }
+details.sec.l3 > summary .st { font-weight: 600; font-size: 12.5px; }
+details.sec.l3 > .sb { padding: 0 8px 8px 22px; }
+details.sec, .chunk { scroll-margin-top: 64px; }
+details.sec.flash { animation: flash 1.4s ease; }
+@keyframes flash { 0%, 40% { box-shadow: 0 0 0 3px var(--accent); } 100% { box-shadow: none; } }
+.pagehead { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; }
+.pagehead .grow { flex: 1; }
+.stats { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0; }
+.stat { background: var(--surface-2); border-radius: 8px; padding: 3px 10px; font-size: 12px; color: var(--ink-2); }
+.stat b { color: var(--ink); font-variant-numeric: tabular-nums; }
+.legend { font-size: 12px; color: var(--ink-2); margin: 4px 0; }
+@media (max-width: 640px) {
+  details.sec > .sb { padding-left: 12px; padding-right: 8px; }
+  details.sec.l2 > .sb, details.sec.l3 > .sb { padding-left: 8px; }
+  .top-inner h1 { font-size: 14px; }
+}
+</style>
+</head>
+<body>
+<header class="top"><div class="top-inner">
+  <h1>BR-TaxQA-R Explorer</h1>
+  <nav class="main"><a href="#/q" id="navQ">Questions</a><a href="#/d" id="navD">Corpus</a></nav>
+  <button class="btn" id="backBtn" title="Back (browser history)">◀ Back</button>
+  <div class="trail" id="trail"></div>
+  <a class="small" href="../dashboard/index.html" title="the previous results dashboard (kept for reference)">results dashboard ↗</a>
+</div></header>
+<main id="main"></main>
+
+<script src="../dashboard/data/trace/index.js" onerror="window.TRACE_MISSING=true"></script>
+<script src="data/index.js" onerror="window.EXP_MISSING=true"></script>
+<script>
+"use strict";
+// =====================================================================================================
+// helpers (copied from docs/dashboard/index.html, which stays unchanged)
+// =====================================================================================================
+const $ = (s, el = document) => el.querySelector(s);
+const $$ = (s, el = document) => [...el.querySelectorAll(s)];
+const h = (tag, attrs = {}, ...kids) => {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (v == null || v === false) continue;
+    if (k === "text") e.textContent = v;
+    else if (k === "html") e.innerHTML = v;
+    else if (k.startsWith("on")) e.addEventListener(k.slice(2), v);
+    else e.setAttribute(k, v);
+  }
+  for (const c of kids.flat()) if (c != null && c !== "") e.append(c.nodeType ? c : document.createTextNode(c));
+  return e;
+};
+const fmt = (v, d = 3) => v == null || Number.isNaN(v) ? "—" : (+v).toFixed(d);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const short = (s, n = 70) => s && s.length > n ? s.slice(0, n - 1) + "…" : (s || "");
+function chips(container, options, state, key, { onchange, colors } = {}) {
+  container.innerHTML = "";
+  for (const o of options) {
+    const val = typeof o === "object" ? o.value : o, lab = typeof o === "object" ? o.label : o;
+    const b = h("button", { class: "chip", "aria-pressed": String(state[key] === val), type: "button" });
+    if (colors && colors[val]) b.append(h("span", { class: "sw", style: `background:${colors[val]}` }));
+    b.append(lab);
+    b.onclick = () => { state[key] = val; chips(container, options, state, key, { onchange, colors }); onchange && onchange(); };
+    container.append(b);
+  }
+  return container;
+}
+const ctl = (label, el) => h("div", { class: "ctl" }, label, el);
+const SCOL = { S1: "--s1", S2: "--s2", S3: "--s3", S2c: "--s4", S4: "--s5" };
+const scol = s => css(SCOL[s] || "--muted");
+const EMBS = ["jua-4b-mixed", "gemini-emb-2"];
+const EMB_SHORT = { "jua-4b-mixed": "jua", "gemini-emb-2": "Gemini" };
+const LLMS = ["gpt-5.6-terra", "gpt-5.6-luna", "sabia-4", "sabiazinho-4"];
+const LLM_SHORT = { "gpt-5.6-terra": "Terra", "gpt-5.6-luna": "Luna", "sabia-4": "Sabiá-4", "sabiazinho-4": "Sabiazinho-4" };
+const ctxLabel = cid => {
+  if (!cid) return "";
+  const [c, emb] = cid.split("@");
+  let s = c.replace("_budget", " ").replace("closed_book", "closed book").replace("wrong-S2", "wrong ctx S2").replace("_context_v1", " (template v1)");
+  s = s.replace(/(\d+)000( |$)/, "$1k$2");
+  return s + (emb ? " · Gemini" : (c.match(/^S\d|^S2c/) ? " · jua" : ""));
+};
+const IMP_HELP = "vital: a correct answer to this question must contain this fact (test C4: without it the answer would be wrong or misleading). " +
+  "okay: useful but not essential. Assigned by the nugget creator (GPT-6.1 Sol, prompt create_v4); no person labelled them. " +
+  "V and V_strict count vital nuggets only; W weights vital 1, okay 0.5.";
+const LAB_NAME = { S: "support", P: "partial_support", N: "not_support", C: "contradicts", "-": "not labelled" };
+const labCell = (L, title) => h("span", { class: "labcell " + (L && L !== "-" ? L : "X"), text: L || "–", title: (LAB_NAME[L] || "") + (title ? ": " + title : "") });
+const impBadge = n => h("span", { class: "imp-badge " + n.imp, text: n.imp, title: IMP_HELP });
+let HEAT = null;
+const heatBg = (v, max = 1) => v == null ? "" : `background: rgba(${HEAT || (HEAT = css("--heat"))}, ${(0.08 + 0.55 * Math.max(0, Math.min(1, v / max))).toFixed(3)})`;
+const heatTd = (v, d = 2, title) => h("td", { class: "heat", style: heatBg(v), text: fmt(v, d), title });
+
+// =====================================================================================================
+// data
+// =====================================================================================================
+const TI = window.TRACE_INDEX || null;
+const EI = window.EXP_INDEX || null;
+window.TRACE_Q = window.TRACE_Q || {}; window.TRACE_DOC = window.TRACE_DOC || {}; window.EXP_Q = window.EXP_Q || {};
+const STRATS = TI ? TI.strategies : ["S1", "S2", "S3", "S2c", "S4"];
+const SCOLORS = () => Object.fromEntries(STRATS.map(s => [s, scol(s)]));
+const BUDGETS = TI ? TI.budgets : [1000, 2000, 4000, 8000, 16000];
+const LEVELS = ["document", "article", "provision"];
+const scripts = {};
+function need(src) {
+  if (!scripts[src]) scripts[src] = new Promise((ok, fail) => {
+    const s = document.createElement("script"); s.src = src;
+    s.onload = ok; s.onerror = () => { delete scripts[src]; fail(new Error(src)); };
+    document.body.append(s);
+  });
+  return scripts[src];
+}
+const TRACE = "../dashboard/data/trace/";
+const loadQ = q => Promise.all([need(`${TRACE}q/${q}.js`), need(`data/q/${q}.js`)]).then(() => [window.TRACE_Q[q], window.EXP_Q[q]]);
+const docFile = d => TI.documents[d]?.[2];
+const DOCIDX = {};
+function loadDoc(d) {
+  if (!docFile(d)) return Promise.reject(new Error(`${d} is not in the corpus`));
+  return need(`${TRACE}doc/${docFile(d)}.js`).then(() => {
+    const D = window.TRACE_DOC[d];
+    if (!DOCIDX[d]) DOCIDX[d] = new Map(D.chunks.map(c => [c[0], c]));
+    return D;
+  });
+}
+const docTitle = d => (EI?.documents[d]?.title || TI?.documents[d]?.[0] || d || "").replace(/ — Receita Federal( do Brasil)?/, "");
+const qSummary = q => EI?.questions[q]?.[0] || TI?.questions[q]?.[0] || "";
+
+// =====================================================================================================
+// collapsible sections (open state remembered per key, in this browser)
+// =====================================================================================================
+let OPEN = {};
+try { OPEN = JSON.parse(localStorage.getItem("explorer.open") || "{}"); } catch (e) { OPEN = {}; }
+let saveT;
+const saveOpen = () => { clearTimeout(saveT); saveT = setTimeout(() => { try { localStorage.setItem("explorer.open", JSON.stringify(OPEN)); } catch (e) {} }, 200); };
+/** A <details> whose body is built the first time it opens. key = remembered open state (null: not remembered). */
+function sec(key, title, body, { open = false, level = 1, sub = null, id = null, force = null } = {}) {
+  const isOpen = force != null ? force : (key && key in OPEN ? OPEN[key] : open);
+  const d = h("details", { class: `sec l${level}`, id });
+  const s = h("summary", {}, h("span", { class: "chev" }), h("span", { class: "sh" }, h("span", { class: "st" }, title), sub ? h("span", { class: "ss" }, sub) : null));
+  const b = h("div", { class: "sb" });
+  d.append(s, b);
+  let done = false;
+  d.fill = () => {
+    if (done) return; done = true;
+    try { const r = body(b); if (r && r.nodeType) b.append(r); if (r && r.then) r.catch(err => b.append(h("p", { class: "warnbox", text: String(err.message || err) }))); }
+    catch (err) { console.error(err); b.append(h("p", { class: "warnbox", text: "Error: " + err.message })); }
+  };
+  d.addEventListener("toggle", () => { if (d.open) d.fill(); if (key) { OPEN[key] = d.open; saveOpen(); } });
+  if (isOpen) { d.open = true; d.fill(); }
+  return d;
+}
+function openPath(el) { for (let e = el; e; e = e.parentElement) if (e.tagName === "DETAILS" && !e.open) { e.open = true; e.fill && e.fill(); } }
+function reveal(el) { if (!el) return; openPath(el); setTimeout(() => { el.scrollIntoView({ block: "start", behavior: "smooth" }); el.classList.add("flash"); setTimeout(() => el.classList.remove("flash"), 1500); }, 60); }
+function expandBar(root) {
+  const top = () => $$(":scope > details.sec", root);
+  return h("div", { class: "opts" },
+    h("button", { class: "btn", text: "Expand all", title: "open every top-level section", onclick: () => top().forEach(d => { d.open = true; d.fill(); }) }),
+    h("button", { class: "btn", text: "Collapse all", onclick: () => $$("details.sec", root).forEach(d => d.open = false) }));
+}
+
+// =====================================================================================================
+// routing and history: #/q, #/q/<n>[/<anchor>], #/d, #/d/<doc>[/<article id> | /c:<chunk id>]
+// =====================================================================================================
+const TRAIL = []; const SCROLL = {};
+let curRoute = null;
+const go = r => { location.hash = r; };
+function routeLabel(p) {
+  if (p[0] === "q") return p[1] ? `Q${p[1]}` : "Questions";
+  if (p[0] === "d") return p[1] ? short(p[1], 34) + (p[2] ? " · " + p[2].replace(/^c:.*#/, "chunk ") : "") : "Corpus";
+  return "?";
+}
+function renderTrail() {
+  const t = $("#trail"); t.innerHTML = "";
+  if (TRAIL.length) t.append(h("span", { text: "Recent:" }));
+  TRAIL.slice(-10).forEach(r => t.append(h("a", { href: r, class: r === curRoute ? "cur" : "", text: routeLabel(r.slice(2).split("/").map(decodeURIComponent)) })));
+  t.scrollLeft = t.scrollWidth;
+  $("#backBtn").disabled = history.length < 2;
+}
+function route() {
+  HEAT = null;
+  if (curRoute) SCROLL[curRoute] = scrollY;
+  let r = location.hash || "#/q";
+  if (!r.startsWith("#/")) r = "#/q";
+  const p = r.slice(2).split("/").map(decodeURIComponent);
+  curRoute = r;
+  const i = TRAIL.indexOf(r); if (i >= 0) TRAIL.splice(i, 1); TRAIL.push(r); if (TRAIL.length > 30) TRAIL.shift();
+  $("#navQ").classList.toggle("on", p[0] === "q"); $("#navD").classList.toggle("on", p[0] === "d");
+  renderTrail();
+  const m = $("#main"); m.innerHTML = "";
+  if (!TI || window.TRACE_MISSING || !EI || window.EXP_MISSING) return missing(m);
+  const restore = SCROLL[r];
+  const done = focusEl => {
+    if (focusEl) reveal(focusEl);
+    else if (restore != null) setTimeout(() => scrollTo(0, restore), 30);
+    else scrollTo(0, 0);
+  };
+  if (p[0] === "d" && p[1]) return pageDoc(m, p[1], p[2] || null).then(done);
+  if (p[0] === "d") { pageDocs(m); return done(); }
+  if (p[0] === "q" && p[1]) return pageQ(m, p[1], p[2] || null).then(done);
+  pageQs(m); done();
+}
+function missing(m) {
+  const lines = [];
+  if (!TI || window.TRACE_MISSING) lines.push(`<p class="warnbox">Question-trace data not found (<code>docs/dashboard/data/trace/index.js</code>). From the repo root, either download it from the evaluation repo on Hugging Face (gated: request access on its page, then <code>hf auth login</code>): <code>hf download eduseiti/BR-TaxQA-R-RAG-eval raw/dashboard_trace.tar.gz --repo-type dataset --local-dir .</code> and <code>tar -xzf raw/dashboard_trace.tar.gz</code>, or rebuild it: <code>.venv/bin/python scripts/report/build_trace_data.py</code> (≈ 4–7 min, no API calls).</p>`);
+  if (!EI || window.EXP_MISSING) lines.push(`<p class="warnbox">Explorer data not found (<code>docs/explorer/data/index.js</code>). From the repo root, download it from the same Hugging Face repo: <code>hf download eduseiti/BR-TaxQA-R-RAG-eval raw/dashboard_explorer.tar.gz --repo-type dataset --local-dir .</code> and <code>tar -xzf raw/dashboard_explorer.tar.gz</code>, or build it after the trace data: <code>.venv/bin/python scripts/report/build_explorer_data.py</code> (≈ 20 s, no API calls).</p>`);
+  m.innerHTML = lines.join("");
+}
+$("#backBtn").onclick = () => history.back();
+addEventListener("hashchange", route);
+
+// =====================================================================================================
+// shared views
+// =====================================================================================================
+const isGrouping = c => !c[4] && ["CAP", "SEC", "SSC", "TIT", "LIV", "PRT", "SBT"].includes(c[2]);
+function strategyBits(bits) {
+  return h("span", { class: "scount" }, ...STRATS.map(s => {
+    const on = bits & TI.strategy_bit[s];
+    return h("span", { class: "sbit" + (on ? " on" : ""), style: on ? `background:${scol(s)}` : "", text: s, title: (on ? "in " : "not in ") + s });
+  }));
+}
+function stratCounts(counts, { title = "chunks" } = {}) {
+  return h("span", { class: "scount" }, ...STRATS.map(s => h("span", { class: counts[s] ? "" : "zero", style: counts[s] ? `border-color:${scol(s)}` : "", title: `${s}: ${counts[s] || 0} ${title}`, text: `${s} ${counts[s] || 0}` })));
+}
+/** A chunk card from a trace doc row [id, arquivo, tipo, cit, art, nivel, start, end, tok, variante, parte, n_partes, bits, agrup, text]. */
+function chunkCard(c, D, { cls = "", link = true, extra = [], open = false } = {}) {
+  const annex = D.files.find(f => f.arquivo === c[1])?.annex;
+  const txt = h("div", { class: "txt" + (open ? "" : " cut"), text: c[14], title: "click to expand / collapse", onclick: e => e.currentTarget.classList.toggle("cut") });
+  return h("div", { class: "chunk " + cls, id: "ch-" + c[0] },
+    h("div", { class: "meta" }, h("span", { class: "mono", text: c[2] }), h("b", { text: c[3] }), h("span", { text: `${c[8]} tok` }),
+      c[9] !== "base" ? h("span", { class: "pill", text: "caput variant", title: "S2c/S4: the paragraph chunk carries the caput sentence" }) : null,
+      c[11] > 1 ? h("span", { class: "pill", text: `part ${c[10]}/${c[11]}`, title: "long article split into parts" }) : null,
+      annex ? h("span", { class: "pill", text: "annex file " + c[1] }) : null, ...extra, strategyBits(c[12]),
+      link ? h("button", { class: "lnk small", text: "→ in corpus", title: "open this chunk in the corpus explorer", onclick: () => go(`#/d/${encodeURIComponent(D.id)}/c:${encodeURIComponent(c[0])}`) }) : null,
+      h("span", { class: "mono small muted", text: c[0] })),
+    c[13] ? h("div", { class: "path", text: c[13] }) : null, txt);
+}
+/** Cards for chunk ids of one document, loaded on demand. */
+function chunkList(box, doc, cids, opts = {}) {
+  if (!cids.length) { box.append(h("p", { class: "small", text: "none" })); return; }
+  const wait = h("p", { class: "small", text: `Loading ${doc}…` }); box.append(wait);
+  return loadDoc(doc).then(D => {
+    wait.remove();
+    const idx = DOCIDX[doc];
+    for (const cid of cids) { const c = idx.get(cid); box.append(c ? chunkCard(c, D, typeof opts === "function" ? opts(c) : opts) : h("p", { class: "small mono", text: cid + " (not found)" })); }
+  });
+}
+
+// =====================================================================================================
+// QUESTIONS LIST
+// =====================================================================================================
+const qlState = { f: "", chapter: "", sort: "n", dir: 1 };
+function pageQs(m) {
+  const qs = Object.keys(EI.questions).sort();
+  const chaps = [...new Set(qs.map(q => EI.questions[q][1]).filter(Boolean))];
+  m.append(h("h2", { text: `Questions (${qs.length})` }),
+    h("p", { class: "small", text: "Click a question to follow it: gold nuggets → referred documents → gold segments per strategy → retrieval → generated answers. Mean V_strict: share of vital nuggets supported, averaged over the scored generation runs of the question. Article recall: jua S2, 4k context." }));
+  const inp = h("input", { type: "search", placeholder: "number or words…", value: qlState.f, style: "width:260px" });
+  const sel = h("select", {}, h("option", { value: "", text: "all chapters" }), ...chaps.map(c => h("option", { value: c, text: short(c, 60), selected: c === qlState.chapter ? "selected" : null })));
+  const box = h("div", { class: "tablewrap", style: "max-height:calc(100vh - 220px)" });
+  m.append(h("div", { class: "controls" }, ctl("Search", inp), ctl("Chapter", sel)), box);
+  const cols = [["n", "#"], ["s", "summary"], ["t", "question"], ["c", "chapter"], ["ex", "explicit refs"], ["em", "embedded refs"], ["docs", "documents"], ["nug", "nuggets (vital)"], ["v", "mean V_strict"], ["r", "article recall"]];
+  const val = (q, k) => { const e = EI.questions[q], t = TI.questions[q] || []; return { n: q, s: e[0], t: t[1] || "", c: e[1], ex: e[2], em: e[3], docs: e[4], nug: t[4] ?? 0, v: e[5] ?? -1, r: e[6] ?? -1 }[k]; };
+  const draw = () => {
+    const f = qlState.f.toLowerCase().trim();
+    let rows = qs.filter(q => (!qlState.chapter || EI.questions[q][1] === qlState.chapter) &&
+      (!f || q.includes(f.padStart(f.match(/^\d+$/) ? 3 : 0, "0")) || (EI.questions[q][0] + " " + (TI.questions[q]?.[1] || "")).toLowerCase().includes(f)));
+    rows.sort((a, b) => { const x = val(a, qlState.sort), y = val(b, qlState.sort); return (x < y ? -1 : x > y ? 1 : 0) * qlState.dir; });
+    const t = h("table", { class: "t" });
+    t.append(h("tr", {}, ...cols.map(([k, l]) => h("th", { class: "sort" + (["ex", "em", "docs", "nug", "v", "r"].includes(k) ? " n" : ""), text: l + (qlState.sort === k ? (qlState.dir > 0 ? " ▲" : " ▼") : ""),
+      onclick: () => { qlState.dir = qlState.sort === k ? -qlState.dir : (["v", "r", "nug", "ex", "em", "docs"].includes(k) ? -1 : 1); qlState.sort = k; draw(); } }))));
+    for (const q of rows) {
+      const e = EI.questions[q], tq = TI.questions[q] || [];
+      t.append(h("tr", { class: "clk", onclick: () => go("#/q/" + q) },
+        h("td", { class: "mono", text: q }), h("td", { text: e[0] }), h("td", { class: "small", text: short(tq[1], 110) }), h("td", { class: "small", text: short(e[1], 40) }),
+        h("td", { class: "n", text: e[2] }), h("td", { class: "n", text: e[3] }), h("td", { class: "n", text: e[4] }),
+        h("td", { class: "n", text: `${tq[4] ?? "—"} (${tq[5] ?? "—"})` }), heatTd(e[5], 2), heatTd(e[6], 2)));
+    }
+    box.innerHTML = ""; box.append(t);
+  };
+  inp.oninput = () => { qlState.f = inp.value; draw(); };
+  sel.onchange = () => { qlState.chapter = sel.value; draw(); };
+  draw();
+}
+
+// =====================================================================================================
+// QUESTION PAGE
+// =====================================================================================================
+const qState = { segLevel: "provision", retLevel: "article", budget: 4000, rows: 30, genSort: "ctx" };
+function pageQ(m, q, anchor) {
+  q = String(q).padStart(3, "0");
+  if (!EI.questions[q]) { m.append(h("p", { class: "warnbox", text: `Question ${q} not found.` })); return Promise.resolve(); }
+  m.append(h("p", { class: "small", text: `Loading Q${q}…` }));
+  return loadQ(q).then(([d, x]) => {
+    m.innerHTML = "";
+    const qs = Object.keys(EI.questions).sort(), i = qs.indexOf(q);
+    const e = EI.questions[q];
+    m.append(h("div", { class: "pagehead" },
+      h("button", { class: "btn", text: "◀ prev", disabled: i ? null : "disabled", onclick: () => go("#/q/" + qs[i - 1]) }),
+      h("button", { class: "btn", text: "next ▶", disabled: i < qs.length - 1 ? null : "disabled", onclick: () => go("#/q/" + qs[i + 1]) }),
+      h("h2", { class: "grow", text: `Q${q} · ${d.q.summary}` }), expandBar(m)));
+    m.append(h("p", { class: "small", text: d.q.chapter }), h("p", { style: "font-size:15px", text: d.q.text }));
+    const nv = d.nuggets.filter(n => n.imp === "vital").length;
+    m.append(h("div", { class: "stats" },
+      h("span", { class: "stat" }, h("b", { text: e[2] }), " explicit references"), h("span", { class: "stat" }, h("b", { text: e[3] }), " embedded references"),
+      h("span", { class: "stat" }, h("b", { text: e[4] }), " documents"), h("span", { class: "stat" }, h("b", { text: d.nuggets.length }), ` gold nuggets (${nv} vital)`),
+      h("span", { class: "stat" }, "mean V_strict ", h("b", { text: fmt(e[5], 2) })), h("span", { class: "stat" }, "article recall jua S2 4k ", h("b", { text: fmt(e[6], 2) }))));
+    const secs = {
+      answer: sec("q:answer", "Official answer", b => qAnswer(b, d), { open: true, id: "q-answer" }),
+      nuggets: sec("q:nuggets", `Gold nuggets`, b => qNuggets(b, d), { open: true, id: "q-nuggets", sub: `${d.nuggets.length} nuggets, ${nv} vital` }),
+      refs: sec("q:refs", "Referred documents", b => qRefs(b, d), { open: true, id: "q-refs", sub: refsSub(d) }),
+      segs: sec("q:segs", "Gold segments by strategy", b => qSegs(b, d, x), { id: "q-segs", sub: "the chunks of each strategy that hold each gold article or provision" }),
+      ret: sec("q:ret", "Retrieval", b => qRet(b, d, x), { id: "q-ret", sub: "10 runs: 5 strategies × 2 embeddings" }),
+      gen: sec("q:gen", "Answer generation", b => qGen(b, d, x), { id: "q-gen", sub: `${Object.keys(x.gen).length} scored runs` }),
+    };
+    m.append(...Object.values(secs));
+    return anchor && secs[anchor.replace(/^q-/, "")] ? secs[anchor.replace(/^q-/, "")] : null;
+  }).catch(err => { m.innerHTML = ""; m.append(h("p", { class: "warnbox", text: `Could not load the data of Q${q}: ${err.message}. Rebuild the trace and explorer data.` })); });
+}
+function refsSub(d) {
+  const ex = d.refs.filter(r => r.origin === "explicit").length, em = d.refs.length - ex;
+  const docs = new Set(d.refs.map(r => r.doc).filter(Boolean)).size;
+  return [h("span", { class: "pill explicit", text: `${ex} explicit` }), h("span", { class: "pill embedded", text: `${em} embedded` }), `${docs} documents`];
+}
+
+// ---------------------------------------------------------------- answer
+function spanRanges(answer, nuggets) {
+  const out = [];
+  nuggets.forEach((n, i) => {
+    if (!n.span) return;
+    const words = n.span.trim().split(/\s+/).map(w => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+    if (!words.length) return;
+    const mm = new RegExp(words.join("\\s+")).exec(answer);
+    if (mm) out.push([mm.index, mm.index + mm[0].length, i]);
+  });
+  out.sort((a, b) => a[0] - b[0]);
+  const keep = []; let end = -1;
+  for (const r of out) if (r[0] >= end) { keep.push(r); end = r[1]; }
+  return keep;
+}
+function qAnswer(b, d) {
+  const ans = h("div", { class: "answer" });
+  let pos = 0;
+  for (const [s, e, i] of spanRanges(d.q.answer, d.nuggets)) {
+    ans.append(d.q.answer.slice(pos, s));
+    ans.append(h("span", { class: "nspan", title: `nugget ${i + 1}: ${d.nuggets[i].id} (${d.nuggets[i].imp}) — click to open it`, onclick: () => reveal($("#nug-" + i)) }, d.q.answer.slice(s, e), h("sup", { text: i + 1 })));
+    pos = e;
+  }
+  ans.append(d.q.answer.slice(pos));
+  b.append(ans, h("p", { class: "small", text: "Highlighted: the source span of each gold nugget (number = nugget). Click one to open the nugget." }));
+}
+
+// ---------------------------------------------------------------- nuggets
+function runsOf(d) {
+  const order = k => { const r = TI.runs.find(x => x.key === k); const c = r.context_id; const m = c.match(/^(S2c|S\d)_budget(\d+)/);
+    return [r.embedding === "gemini-emb-2" ? 1 : 0, m ? 0 : 1, m ? STRATS.indexOf(m[1]) : 0, m ? +m[2] : 0, c, LLMS.indexOf(r.llm)]; };
+  return TI.runs.filter(r => d.ans[r.key]).map(r => r.key).sort((a, b) => { const x = order(a), y = order(b); for (let i = 0; i < x.length; i++) if (x[i] !== y[i]) return x[i] < y[i] ? -1 : 1; return 0; });
+}
+function qNuggets(b, d) {
+  if (!d.nuggets.length) { b.append(h("p", { class: "small", text: "No nuggets." })); return; }
+  b.append(h("div", { class: "what", text: "One gold nugget per row; open one for its details. The strip after each nugget is its label in every scored answer (S support, P partial, N not support, C contradicts), in the order of the Answer generation section." }));
+  const or4 = d.ctxsup["oracle_budget4000"], or16 = d.ctxsup["oracle_budget16000"];
+  const runs = runsOf(d);
+  d.nuggets.forEach((n, i) => {
+    const labs = runs.map(k => (d.ans[k].src === "abstained" ? "N" : (d.ans[k].lab[i] || ["-"])[0]));
+    const nS = labs.filter(L => L === "S").length;
+    const strip = h("span", { class: "scount", title: `supported in ${nS} of ${runs.length} answers` }, ...labs.map((L, j) => h("span", { class: "labcell " + (L !== "-" ? L : "X"), style: "min-width:8px;padding:0;height:12px;font-size:0", title: `${runLabel(runs[j])}: ${LAB_NAME[L]}` })));
+    b.append(sec(null, h("span", {}, `${i + 1}. `, impBadge(n), " ", h("span", { class: "plain", text: n.text })), body => {
+      body.append(h("p", { class: "small mono", text: `${n.id} · ${n.cat}${n.values.length ? " · values " + n.values.join(", ") : ""}${n.stab != null ? ` · found by ${n.stab}/3 model families` : ""}` }));
+      if (n.span) body.append(h("p", { class: "small" }, h("b", { text: "Source span: " }), h("q", { text: n.span })));
+      const t = h("table", { class: "t" });
+      if (or4 || or16) {
+        if (or4) t.append(h("tr", {}, h("td", { text: "Gold articles (oracle 4k) support it?" }), h("td", {}, labCell(or4[i][0])), h("td", { class: "just", text: or4[i][1] })));
+        if (or16) t.append(h("tr", {}, h("td", { text: "Oracle 16k" }), h("td", {}, labCell(or16[i][0])), h("td", { class: "just", text: or16[i][1] })));
+      }
+      t.append(h("tr", {}, h("td", { text: "Supported in the answers" }), h("td", { class: "n", text: `${nS}/${runs.length}` }), h("td", { class: "small", text: `partial ${labs.filter(L => L === "P").length}, contradicts ${labs.filter(L => L === "C").length}` })));
+      const lb = h("td", { class: "small" });
+      for (const xb of n.lb) {
+        const line = h("div", {}, short(xb.s, 80) + " ");
+        if (xb.doc) {
+          const arts = xb.arts_found?.length ? xb.arts_found : [];
+          line.append(h("button", { class: "lnk", text: `→ ${xb.doc}${arts.length ? " " + arts.join(",") : ""}`, onclick: () => go(`#/d/${encodeURIComponent(xb.doc)}` + (arts[0] ? "/" + arts[0] : "")) }),
+            h("span", { text: xb.in_refs ? " (cited by the question)" : " (not among the question's references)" }));
+        } else line.append(h("span", { text: `(${xb.status})` }));
+        lb.append(line);
+      }
+      t.append(h("tr", {}, h("td", { text: "Legal basis written in the nugget" }), n.lb.length ? lb : h("td", { class: "small", text: "none" }), h("td")));
+      const bm = h("td", { class: "small" });
+      for (const [cid, doc, art, sc, isG] of n.bm25) bm.append(h("div", {}, h("button", { class: "lnk", text: `${doc}${art ? " " + art : ""}`, onclick: () => go(`#/d/${encodeURIComponent(doc)}/c:${encodeURIComponent(cid)}`) }), ` · BM25 ${sc}${isG ? " · gold article" : ""}`));
+      t.append(h("tr", {}, h("td", { text: "Closest gold text (BM25, a pointer only)" }), n.bm25.length ? bm : h("td", { class: "small", text: "—" }), h("td")));
+      if (Object.keys(n.other || {}).length) t.append(h("tr", {}, h("td", { text: "Other model families" }), h("td", { class: "small", colspan: 2, text: Object.entries(n.other).map(([f, [rel, imps]]) => `${f.split(".rep")[0]}: ${imps.join("/") || "—"} (${rel})`).join("; ") })));
+      body.append(h("div", { class: "tablewrap free" }, t));
+    }, { level: 2, id: "nug-" + i, sub: strip }));
+  });
+}
+
+// ---------------------------------------------------------------- referred documents
+function qRefs(b, d) {
+  if (!d.refs.length) { b.append(h("p", { class: "small", text: "This question cites no legal document: it has no gold documents, articles or provisions." })); return; }
+  b.append(h("div", { class: "what", text: "References grouped by document. Explicit: the citation is in the answer's legal-basis note; embedded: cited inside the answer text. Open a document in the corpus explorer to see its segmentation and every question that cites it." }));
+  const byDoc = new Map();
+  for (const r of d.refs) { const k = r.doc || "__none__" + r.id; if (!byDoc.has(k)) byDoc.set(k, []); byDoc.get(k).push(r); }
+  for (const [doc, rs] of byDoc) {
+    const inCorpus = !doc.startsWith("__none__");
+    const ex = rs.filter(r => r.origin === "explicit").length, em = rs.length - ex;
+    const arts = [...new Set(rs.flatMap(r => r.articles))];
+    const sub = [ex ? h("span", { class: "pill explicit", text: `explicit ×${ex}` }) : null, em ? h("span", { class: "pill embedded", text: `embedded ×${em}` }) : null,
+      arts.length ? h("span", { class: "small", text: arts.join(", ") }) : h("span", { class: "small", text: "whole document" }),
+      inCorpus ? h("button", { class: "lnk small", text: "→ corpus", onclick: ev => { ev.preventDefault(); go("#/d/" + encodeURIComponent(doc)); } }) : h("span", { class: "pill warn", text: "not in the corpus" })];
+    b.append(sec(null, inCorpus ? `${docTitle(doc)}` : rs[0].title || "unresolved citation", body => {
+      if (inCorpus) body.append(h("p", { class: "small mono", text: doc + (TI.documents[doc]?.[3] ? " · excluded from the main run (revoked)" : "") }));
+      const t = h("table", { class: "t" });
+      t.append(h("tr", {}, ...["reference", "origin", "citation", "articles", "provisions", ""].map(x => h("th", { text: x }))));
+      for (const r of rs) t.append(h("tr", {}, h("td", { class: "mono", text: r.id }), h("td", {}, h("span", { class: "pill " + r.origin, text: r.origin })),
+        h("td", { class: "small", text: r.citation.join("; ") }), h("td", { class: "small", text: r.articles.join(", ") || "—" }), h("td", { class: "small", text: r.provisions.join("; ") || "—" }),
+        h("td", {}, inCorpus ? h("div", { class: "opts" }, ...(r.articles.length ? r.articles : [null]).map(a => h("button", { class: "lnk small", text: a ? "→ " + a : "→ document", onclick: () => go(`#/d/${encodeURIComponent(doc)}` + (a ? "/" + a : "")) }))) : "")));
+      body.append(h("div", { class: "tablewrap free" }, t));
+    }, { level: 2, sub }));
+  }
+}
+
+// ---------------------------------------------------------------- gold segments
+function qSegs(b, d, x) {
+  const lvBox = h("div", { class: "opts" }), body = h("div");
+  b.append(h("div", { class: "what", html: "For each gold item, the chunks of each strategy that the evaluation counts as a hit (its own matcher, rule G2/G5). <b>Article</b>: every chunk of the article (caput, paragraphs, incisos, parts) and, in S3/S4, the groupings that contain it. <b>Provision</b>: <b>full</b> hit = a chunk that covers the provision or an ancestor of it; <b>partial</b> = a chunk with only a sub-unit of it. Excluded (revoked) documents are in no index." }),
+    h("div", { class: "controls" }, ctl("Gold level", lvBox)), body);
+  const draw = () => {
+    body.innerHTML = "";
+    const items = x.segs[qState.segLevel] || [];
+    if (!items.length) { body.append(h("p", { class: "small", text: "No gold item at this level." })); return; }
+    // overview matrix
+    const t = h("table", { class: "t" });
+    t.append(h("tr", {}, h("th", { text: "gold item" }), h("th", { text: "origin" }), ...STRATS.map(s => h("th", { class: "c", style: `color:${scol(s)}`, text: s }))));
+    items.forEach((it, i) => t.append(h("tr", { class: "clk", onclick: () => reveal($(`#seg-${qState.segLevel}-${i}`)) },
+      h("td", { text: short(it.label, 70), title: it.key }), h("td", {}, h("span", { class: "pill " + it.origin, text: it.origin })),
+      ...STRATS.map(s => { const [nf, np] = it.seg[s] || [0, 0]; return h("td", { class: "c mono", style: nf ? "" : "color:var(--crit)", text: qState.segLevel === "provision" ? `${nf}${np ? " + " + np + "p" : ""}` : nf, title: `${s}: ${nf} chunks` + (qState.segLevel === "provision" ? ` with a full hit, ${np} partial` : "") }); }))));
+    body.append(h("p", { class: "small", text: qState.segLevel === "provision" ? "Number of chunks per strategy: full hits + partial (p). Red: no chunk of that strategy holds the item in full." : "Number of chunks per strategy that hit the article." }),
+      h("div", { class: "tablewrap" }, t));
+    items.forEach((it, i) => {
+      const sub = [h("span", { class: "pill " + it.origin, text: it.origin }), stratCounts(Object.fromEntries(STRATS.map(s => [s, (it.seg[s] || [0])[0]])), { title: "chunks with a full hit" }),
+        h("button", { class: "lnk small", text: "→ corpus", onclick: ev => { ev.preventDefault(); go(`#/d/${encodeURIComponent(it.doc)}` + (it.art ? "/" + it.art : "")); } })];
+      body.append(sec(null, it.label, bb => {
+        bb.append(h("p", { class: "small mono", text: `${it.doc}${it.art ? " · " + it.art : ""}${it.frag ? " · " + it.frag : ""}` + (it.split_parts ? " · inside a split article: retrieving all of its parts also counts as a full hit" : "") }));
+        for (const s of STRATS) {
+          const [nf, np, full, part] = it.seg[s] || [0, 0, [], []];
+          bb.append(sec(null, h("span", { style: `color:${scol(s)}`, text: s }), sb => {
+            if (!nf && !np) { sb.append(h("p", { class: "small", text: TI.documents[it.doc]?.[3] ? "Document excluded from the index." : "No chunk of this strategy holds the item." })); return; }
+            const fs = new Set(full);
+            return chunkList(sb, it.doc, [...full, ...part], c => ({ cls: fs.has(c[0]) ? "gold" : "part", extra: [fs.has(c[0]) ? h("span", { class: "tag A", text: "full" }) : h("span", { class: "tag P", text: "partial" })] }));
+          }, { level: 3, sub: `${nf} full` + (np ? `, ${np} partial` : "") }));
+        }
+      }, { level: 2, id: `seg-${qState.segLevel}-${i}`, sub }));
+    });
+  };
+  chips(lvBox, [{ value: "article", label: "article" }, { value: "provision", label: "provision" }], qState, "segLevel", { onchange: draw });
+  draw();
+}
+
+// ---------------------------------------------------------------- retrieval
+function rowGold(r, level) {
+  if (level === "document") return r[5].length ? ["D", "gold document"] : null;
+  if (level === "article") return r[6].length ? ["A", "gold article"] : r[5].length ? ["D", "other part of a gold document"] : null;
+  return r[7].length ? ["A", "gold provision, full hit"] : r[8].length ? ["P", "gold provision, partial hit"] : r[5].length ? ["D", "other part of a gold document"] : null;
+}
+function ctxMark(r, bi) {
+  const mk = r[9][bi];
+  if (mk > 0) return h("span", { class: "tag in", text: `#${mk}`, title: `in the ${BUDGETS[bi] / 1000}k context, as text ${mk}` });
+  if (mk < 0) return h("span", { class: "tag inside", text: `in #${-mk}`, title: `inside text ${-mk} of the context (a parent chunk that contains it was selected)` });
+  return "";
+}
+const runName = k => { const [e, s] = k.split("|"); return `${s} · ${EMB_SHORT[e]}`; };
+function qRet(b, d, x) {
+  const lvBox = h("div", { class: "opts" }), bBox = h("div", { class: "opts" }), body = h("div");
+  b.append(h("div", { class: "controls" }, ctl("Gold level", lvBox), ctl("Context budget (marks in the rankings)", bBox)), body);
+  const keys = TI.retrieval_runs.filter(k => d.ret[k]);
+  const draw = () => {
+    body.innerHTML = "";
+    const lv = qState.retLevel, bi = BUDGETS.indexOf(qState.budget);
+    // metrics table
+    const t = h("table", { class: "t" });
+    t.append(h("tr", {}, h("th", { text: "run" }), ...BUDGETS.map(bb => h("th", { class: "n", text: `recall ${bb / 1000}k`, title: "share of gold items hit by the context of this budget" })),
+      ...(lv === "provision" ? [h("th", { class: "n", text: `full ${qState.budget / 1000}k`, title: "share hit in full (not only a sub-unit)" })] : []),
+      ...EI.unit_k.filter(k => [1, 5, 10, 100].includes(k)).map(k => h("th", { class: "n", text: `R@${k}`, title: `recall in the first ${k} distinct units` })),
+      h("th", { class: "n", text: "MRR" }), h("th", { class: "n", text: "nDCG@10" }), h("th", { class: "n", text: `ctx prec. ${qState.budget / 1000}k`, title: "share of the context's tokens in texts that hit a gold item" })));
+    let anyRow = false;
+    for (const k of keys) {
+      const mm = x.ret[k]?.[lv];
+      if (!mm) continue; anyRow = true;
+      t.append(h("tr", { class: "clk", onclick: () => reveal($("#run-" + k.replace(/\W/g, "_"))) }, h("td", {}, h("span", { class: "sw", style: `display:inline-block;width:9px;height:9px;border-radius:2px;background:${scol(k.split("|")[1])};margin-right:6px` }), runName(k)),
+        ...mm.b.map(v => heatTd(v)), ...(lv === "provision" ? [heatTd(mm.bf[bi])] : []),
+        ...EI.unit_k.map((kk, j) => [kk, mm.u[j]]).filter(([kk]) => [1, 5, 10, 100].includes(kk)).map(([, v]) => heatTd(v)),
+        heatTd(mm.mrr), heatTd(mm.ndcg), heatTd(mm.cp[bi])));
+    }
+    const n = x.ret[keys[0]]?.[lv]?.n;
+    body.append(h("h4", { text: `Per-question metrics (${n ?? 0} gold ${lv === "document" ? "documents" : lv + "s"})` }),
+      anyRow ? h("div", { class: "tablewrap free" }, t) : h("p", { class: "small", text: "No gold item at this level: no retrieval metric." }));
+    // first ranks
+    const items = d.gold[lv];
+    if (items.length) {
+      const ft = h("table", { class: "t" });
+      ft.append(h("tr", {}, h("th", { text: "gold item" }), ...keys.map(k => h("th", { class: "n", text: runName(k) }))));
+      items.forEach((g, i) => ft.append(h("tr", {}, h("td", {}, h("button", { class: "lnk", text: short(g.label, 60), onclick: () => go(`#/d/${encodeURIComponent(g.doc)}` + (g.art ? "/" + g.art : "")) })),
+        ...keys.map(k => { const [rf, ra] = d.ret[k].firsts[lv][i] || []; return h("td", { class: "n mono", text: lv === "provision" ? `${rf ?? "—"} / ${ra ?? "—"}` : `${ra ?? "—"}`, title: lv === "provision" ? "first full hit / first hit at least partial" : "rank of the first chunk that hits the item" }); }))));
+      body.append(sec("q:ret:firsts", "First rank at which each gold item is hit", bb => bb.append(h("div", { class: "tablewrap" }, ft)), { level: 2, open: true, sub: lv === "provision" ? "full / any" : "" }));
+    }
+    // rankings per run
+    for (const k of keys) {
+      const R = d.ret[k], mm = x.ret[k]?.[lv];
+      body.append(sec("q:ret:run:" + k, runName(k), bb => rankTable(bb, d, R), { level: 2, id: "run-" + k.replace(/\W/g, "_"),
+        sub: [`${R.n} ranked texts`, `${qState.budget / 1000}k context: ${R.ctx_n[qState.budget]} texts`, mm ? `${lv} recall ${fmt(mm.b[bi], 2)}` : ""] }));
+    }
+  };
+  chips(lvBox, LEVELS, qState, "retLevel", { onchange: draw });
+  chips(bBox, BUDGETS.map(bb => ({ value: bb, label: bb / 1000 + "k" })), qState, "budget", { onchange: draw });
+  draw();
+}
+function rankTable(bb, d, R) {
+  const lv = qState.retLevel, bi = BUDGETS.indexOf(qState.budget);
+  const box = h("div"); bb.append(box);
+  const draw = () => {
+    box.innerHTML = "";
+    const gold = r => rowGold(r, lv);
+    const shown = R.rows.filter(r => r[0] <= qState.rows || (gold(r) && gold(r)[0] !== "D"));
+    const t = h("table", { class: "t" });
+    t.append(h("tr", {}, ...["rank", "score", "gold", `in ${qState.budget / 1000}k`, "document", "unit", "type", "tokens"].map(c => h("th", { text: c }))));
+    let prev = 0;
+    for (const r of shown) {
+      if (r[0] > prev + 1 && prev) t.append(h("tr", { class: "sep" }, h("td", { colspan: 8, text: `… ${r[0] - prev - 1} rows not shown${r[0] > TI.top_k ? ` (beyond the top ${TI.top_k}, only rows that hit a gold article or provision are kept)` : ""}` })));
+      prev = r[0];
+      const c = d.chunks[r[1]] || [];
+      const g = gold(r);
+      t.append(h("tr", { class: "clk", title: r[1] + (r[3] ? ` (+${r[3]} chunks with the same text)` : "") + " — click to open in the corpus", onclick: () => go(`#/d/${encodeURIComponent(c[0])}/c:${encodeURIComponent(r[1])}`) },
+        h("td", { class: "n mono", text: r[0] }), h("td", { class: "n mono", text: fmt(r[2], 3) }),
+        h("td", {}, g ? h("span", { class: "tag " + g[0], text: g[0], title: g[1] }) : ""), h("td", {}, ctxMark(r, bi)),
+        h("td", { text: short(docTitle(c[0]), 48), title: c[0] }), h("td", { text: c[3] || "" }), h("td", { class: "mono", text: c[2] || "" }), h("td", { class: "n mono", text: r[4] })));
+    }
+    box.append(h("div", { class: "tablewrap" }, t), h("div", { class: "controls" },
+      h("button", { class: "btn", text: qState.rows < TI.top_k ? `show top ${TI.top_k}` : "show top 30", onclick: () => { qState.rows = qState.rows < TI.top_k ? TI.top_k : 30; draw(); } }),
+      h("span", { class: "small", html: `<span class="tag A">A</span> gold article (or full provision hit) · <span class="tag P">P</span> partial provision hit · <span class="tag D">D</span> other part of a gold document · <span class="tag in">#n</span> text n of the ${qState.budget / 1000}k context · <span class="tag inside">in #n</span> inside a selected parent. Click a row to open the chunk in the corpus.` })));
+  };
+  draw();
+}
+
+// ---------------------------------------------------------------- generation
+const runLabel = k => { const r = TI.runs.find(x => x.key === k); return r ? `${LLM_SHORT[r.llm] || r.llm} · ${ctxLabel(r.context_id)}` : k; };
+function itemGold(d, ck, it) {
+  const m = ck.match(/^(S1|S2|S3|S2c|S4)_budget\d+(?:@(.+))?$/);
+  if (m) {
+    const R = d.ret[`${m[2] || "jua-4b-mixed"}|${m[1]}`];
+    const row = R && it[1] != null ? R.rows.find(r => r[0] === it[1]) : null;
+    if (row) { const g = rowGold(row, "article"); if (g) return g[0]; }
+  }
+  const c = d.chunks[it[2]] || [];
+  if (d.gold.article.some(g => g.doc === c[0] && g.art === c[4])) return "A";
+  if (d.gold.document.some(g => g.doc === c[0])) return "D";
+  return "";
+}
+function qGen(b, d, x) {
+  const runs = runsOf(d);
+  if (!runs.length) { b.append(h("p", { class: "small", text: "No scored answer." })); return; }
+  b.append(h("div", { class: "what", text: "Each generator answered from one context (retrieved with a strategy and budget, the oracle gold articles, a wrong context, or none). The judge (Gemini 3.8 Flash, prompt assign_v2) labelled every gold nugget against the answer. V_strict: share of vital nuggets supported; V: with partial credit; W: all nuggets, vital weight 1, okay 0.5. Open a run for its context, prompt, answer and labels." }));
+  const t = h("table", { class: "t" });
+  t.append(h("tr", {}, ...["generator", "context", "", "V_strict", "V", "W", "A_strict", "S", "P", "N", "C"].map((c, i) => h("th", { class: i > 2 ? "n" : "", text: c }))));
+  for (const k of runs) {
+    const r = TI.runs.find(y => y.key === k), g = x.gen[k];
+    t.append(h("tr", { class: "clk", onclick: () => reveal($("#gen-" + k.replace(/\W/g, "_"))) },
+      h("td", { text: LLM_SHORT[r.llm] || r.llm }), h("td", { text: ctxLabel(r.context_id) }),
+      h("td", {}, g && g[0] !== "judge" ? h("span", { class: "pill warn", text: g[0] }) : ""),
+      ...(g ? [heatTd(g[1]), heatTd(g[2]), heatTd(g[3]), heatTd(g[4]), ...g.slice(6, 10).map(v => h("td", { class: "n mono", text: v ?? "—" }))] : [h("td", { colspan: 8, class: "small", text: "no score" })])));
+  }
+  b.append(h("div", { class: "tablewrap free" }, t));
+  // nugget × run grid
+  b.append(sec("q:gen:grid", "Nugget labels across runs", bb => {
+    const g = h("table", { class: "ng" });
+    g.append(h("tr", {}, h("th", { text: "run" }), ...d.nuggets.map((n, i) => h("th", { class: "v", style: n.imp === "vital" ? "font-weight:700;color:var(--ink)" : "", text: i + 1, title: `${n.imp}: ${n.text}` }))));
+    const or4 = d.ctxsup["oracle_budget4000"];
+    if (or4) g.append(h("tr", {}, h("th", { text: "gold articles (oracle 4k ctx)", title: "label of the nugget against the oracle context, not an answer" }), ...d.nuggets.map((n, i) => h("td", { class: "lab " + (or4[i][0] !== "-" ? or4[i][0] : "X"), text: or4[i][0], title: or4[i][1] }))));
+    for (const k of runs) {
+      const a = d.ans[k];
+      g.append(h("tr", {}, h("th", {}, h("button", { class: "lnk", text: runLabel(k), onclick: () => reveal($("#gen-" + k.replace(/\W/g, "_"))) })),
+        ...d.nuggets.map((n, i) => { const [L, J] = a.src === "abstained" ? ["N", "abstained"] : (a.lab[i] || ["-", ""]); return h("td", { class: "lab " + (L !== "-" ? L : "X"), text: L, title: `nugget ${i + 1} (${n.imp}): ${LAB_NAME[L]}\n${J}` }); })));
+    }
+    bb.append(h("div", { style: "overflow:auto" }, g), h("p", { class: "small", text: "Columns: the gold nuggets, numbered as in the nugget list; bold numbers are vital nuggets. Hover a cell for the judge's justification." }));
+  }, { level: 2, open: true }));
+  for (const k of runs) {
+    const g = x.gen[k];
+    b.append(sec("q:gen:run:" + k, runLabel(k), bb => genRun(bb, d, k), { level: 2, id: "gen-" + k.replace(/\W/g, "_"), sub: g ? `V_strict ${fmt(g[1], 2)} · V ${fmt(g[2], 2)}` : "" }));
+  }
+}
+function genRun(bb, d, k) {
+  const r = TI.runs.find(y => y.key === k), a = d.ans[k], ck = r.context_id, cx = d.ctx[ck];
+  if (a.st !== "ok") bb.append(h("p", { class: "warnbox", text: `status: ${a.st}` + (a.st === "skipped" ? " (no context for this question: nothing was sent)" : "") }));
+  if (a.ab) bb.append(h("p", { class: "warnbox", text: "The generator abstained: every nugget counts as not_support." }));
+  // context
+  if (ck === "closed_book") bb.append(h("p", { class: "small", text: "Closed book: the generator saw only the question." }));
+  else if (cx) bb.append(sec("q:gen:ctx", "Context", cb => {
+    const gold = cx.items.map(it => itemGold(d, ck, it));
+    const total = cx.items.reduce((s, it) => s + (it[4] || 0), 0);
+    const budget = +((ck.match(/budget(\d+)/) || [])[1] || total);
+    const bar = h("div", { class: "tokbar", title: `${total} of ${budget} tokens` });
+    cx.items.forEach((it, j) => bar.append(h("div", { style: `width:${100 * it[4] / Math.max(budget, total)}%;background:${gold[j] === "A" ? css("--lab-S") : gold[j] === "D" ? css("--s7") : css("--axis")}`, title: `#${it[0]} ${it[7]} — ${it[4]} tokens` })));
+    cb.append(h("div", { class: "small", text: `${cx.items.length} texts · ${cx.tokens} tokens of ${budget} · green: gold article, purple: other part of a gold document` }), bar);
+    const t = h("table", { class: "t" });
+    t.append(h("tr", {}, ...["#", "rank", "gold", "source", "type", "tokens"].map(c => h("th", { text: c }))));
+    cx.items.forEach((it, j) => t.append(h("tr", { class: "clk", title: "open the chunk in the corpus", onclick: () => go(`#/d/${encodeURIComponent(it[6])}/c:${encodeURIComponent(it[2])}`) },
+      h("td", { class: "mono", text: it[0] }), h("td", { class: "mono", text: it[1] ?? "—" }), h("td", {}, gold[j] ? h("span", { class: "tag " + gold[j], text: gold[j] }) : ""),
+      h("td", { text: it[7] }), h("td", { class: "mono", text: it[5] }), h("td", { class: "n mono", text: it[4] }))));
+    cb.append(h("div", { class: "tablewrap" }, t));
+  }, { level: 3, sub: `${cx.items.length} texts, ${cx.tokens} tokens` }));
+  // prompt
+  const tmplName = r.template || (ck === "closed_book" ? "answer_closed_v1" : "answer_v1");
+  const tm = TI.templates[tmplName];
+  if (tm) bb.append(sec("q:gen:prompt", "Prompt sent to the generator", pb => pb.append(renderPrompt(tm, tmplName, cx, d, ck)), { level: 3,
+    sub: a.pv === 1 ? h("span", { class: "badge-ok", text: "✓ identical to the request in the LLM cache" }) : a.pv === -1 ? h("span", { class: "badge-warn", text: "✗ differs from the LLM cache" }) : "not verifiable on this computer" }));
+  // answer
+  bb.append(sec("q:gen:answer", "Answer", ab => {
+    a.cl.forEach(([texto, grounds], i) => {
+      const c = h("div", { class: "claim" }, h("b", { text: `${i + 1}. ` }), texto);
+      for (const [n, trecho, st] of grounds) {
+        const it = cx?.items.find(y => y[0] === n);
+        c.append(h("div", { class: "gr" }, it ? h("button", { class: "lnk", text: `[Documento ${n}]`, title: it[7], onclick: () => go(`#/d/${encodeURIComponent(it[6])}/c:${encodeURIComponent(it[2])}`) }) : h("span", { text: `[Documento ${n}]` }),
+          " ", h("q", { text: trecho }), " ", st === "ok" ? h("span", { class: "badge-ok", text: "✓", title: "quote found in that document" }) : h("span", { class: "badge-warn", text: st || "?", title: "quote check at generation time" })));
+      }
+      ab.append(c);
+    });
+    if (!a.cl.length) ab.append(h("div", { class: "answer", text: a.tx || "(empty)" }));
+    const k_ = a.ck || {};
+    if (Object.keys(k_).length) ab.append(h("p", { class: "small", text: `Generation-time checks: ${k_.n_claims} claims, ${k_.quotes_ok}/${k_.n_quotes} quotes found in the cited text, ${k_.claims_without_quote} claims without quote, values not in the context: ${(k_.values_not_in_context || []).join(", ") || "none"}.` }));
+    if (a.cit.length) ab.append(h("p", { class: "small", text: "Citations vs. gold: " + a.cit.map(([lv, ng, nc, cr, cp, xr]) => `${lv}: cited ${nc}, gold ${ng}, cited recall ${fmt(cr, 2)}, precision ${fmt(cp, 2)}, in-context recall ${fmt(xr, 2)}`).join(" · ") }));
+  }, { level: 3, open: true, sub: a.cl.length ? `${a.cl.length} claims` : "" }));
+  // labels
+  bb.append(sec("q:gen:labels", "Gold nuggets: in the gold articles? → in this context? → in the answer?", lb => {
+    const or4 = d.ctxsup["oracle_budget4000"], cs = d.ctxsup[ck];
+    const t = h("table", { class: "t" });
+    t.append(h("tr", {}, ...["#", "", "gold nugget", "oracle 4k", "this context", "answer", "answer justification"].map(c => h("th", { text: c }))));
+    d.nuggets.forEach((n, i) => {
+      const [L, J] = a.src === "abstained" ? ["N", "abstained"] : (a.lab[i] || ["-", ""]);
+      const [cL, cJ] = cs ? cs[i] : ["-", ""];
+      t.append(h("tr", {}, h("td", { class: "mono", text: i + 1 }), h("td", {}, impBadge(n)), h("td", { text: n.text }),
+        h("td", {}, or4 ? labCell(or4[i][0], or4[i][1]) : "—"), h("td", {}, cs ? labCell(cL, cJ) : h("span", { class: "small", text: ck === "closed_book" ? "—" : "not judged" })),
+        h("td", {}, labCell(L, J)), h("td", { class: "just", text: J })));
+    });
+    lb.append(h("p", { class: "small", text: "A nugget supported by the context but not by the answer is a generation miss; one missing from the context is a retrieval miss. Hover a label for the justification." }), h("div", { class: "tablewrap" }, t));
+  }, { level: 3, open: true }));
+}
+function renderPrompt(tm, name, cx, d, ck) {
+  const p = h("div", { class: "prompt" });
+  p.append(h("div", { class: "part sys" }, h("span", { class: "plabel", text: `System message — template ${name} (${tm.path})` }), tm.system));
+  const frame = h("div", { class: "part frame" }, h("span", { class: "plabel", text: "User message — template frame with the inserted context (blocks) and question (highlighted)" }));
+  for (const s of tm.user.split(/(\{context\}|\{question\})/)) {
+    if (s === "{question}") frame.append(h("span", { class: "slotq", text: d.q.text }));
+    else if (s === "{context}") {
+      for (const blk of (cx ? cx.text : "").split(/(?=^\[Documento \d+\])/m)) {
+        const mm = blk.match(/^\[Documento (\d+)\]/);
+        if (!mm) { frame.append(blk); continue; }
+        const it = cx.items.find(y => y[0] === +mm[1]);
+        const g = it ? itemGold(d, ck, it) : "";
+        const nl = blk.indexOf("\n");
+        frame.append(h("div", { class: "slotc" + (g === "A" ? " gold" : "") }, h("span", { class: "dh", text: nl > 0 ? blk.slice(0, nl) : blk }), nl > 0 ? blk.slice(nl) : ""));
+      }
+    } else frame.append(s);
+  }
+  p.append(frame);
+  return p;
+}
+
+// =====================================================================================================
+// CORPUS LIST
+// =====================================================================================================
+const dlState = { f: "", kind: "all", cited: "all", sort: "q", dir: -1 };
+function pageDocs(m) {
+  const docs = Object.keys(EI.documents);
+  const nq = d => new Set(EI.documents[d].refs.map(r => r[0])).size;
+  m.append(h("h2", { text: `Corpus (${docs.length} documents)` }),
+    h("p", { class: "small", text: "Click a document for its segmentation by strategy and the questions that cite it. Chunk counts per strategy; questions: distinct questions citing the document, then references by origin." }));
+  const inp = h("input", { type: "search", placeholder: "id or title…", value: dlState.f, style: "width:260px" });
+  const kBox = h("div", { class: "opts" }), cBox = h("div", { class: "opts" });
+  const box = h("div", { class: "tablewrap", style: "max-height:calc(100vh - 230px)" });
+  m.append(h("div", { class: "controls" }, ctl("Search", inp), ctl("Kind", kBox), ctl("Cited", cBox)), box);
+  const cols = [["id", "document"], ["date", "date"], ["kind", "kind"], ["files", "files"], ["arts", "articles"], ...STRATS.map(s => [s, s]), ["q", "questions"], ["ex", "explicit"], ["em", "embedded"]];
+  const num = ["files", "arts", ...STRATS, "q", "ex", "em"];
+  const val = (d, k) => { const e = EI.documents[d]; return k === "id" ? d : k === "date" ? e.date || "" : k === "kind" ? (e.statutory ? "s" : "n") : k === "files" ? e.n_files : k === "arts" ? e.n_articles :
+    STRATS.includes(k) ? e.chunks[k] : k === "q" ? nq(d) : k === "ex" ? e.refs.filter(r => r[2] === "explicit").length : e.refs.filter(r => r[2] === "embedded").length; };
+  const draw = () => {
+    const f = dlState.f.toLowerCase().trim();
+    let rows = docs.filter(d => { const e = EI.documents[d];
+      return (!f || d.toLowerCase().includes(f) || (e.title || "").toLowerCase().includes(f)) && (dlState.kind === "all" || (dlState.kind === "statutory") === e.statutory) &&
+        (dlState.cited === "all" || (dlState.cited === "cited") === (e.refs.length > 0)); });
+    rows.sort((a, b) => { const x = val(a, dlState.sort), y = val(b, dlState.sort); return (x < y ? -1 : x > y ? 1 : 0) * dlState.dir || (a < b ? -1 : 1); });
+    const t = h("table", { class: "t" });
+    t.append(h("tr", {}, ...cols.map(([k, l]) => h("th", { class: "sort" + (num.includes(k) ? " n" : ""), style: STRATS.includes(k) ? `color:${scol(k)}` : "", text: l + (dlState.sort === k ? (dlState.dir > 0 ? " ▲" : " ▼") : ""),
+      onclick: () => { dlState.dir = dlState.sort === k ? -dlState.dir : (num.includes(k) ? -1 : 1); dlState.sort = k; draw(); } }))));
+    for (const d of rows) {
+      const e = EI.documents[d];
+      t.append(h("tr", { class: "clk", onclick: () => go("#/d/" + encodeURIComponent(d)) },
+        h("td", {}, h("div", { text: docTitle(d) }), h("div", { class: "small mono", text: d + (e.excluded ? " · excluded (revoked)" : "") })),
+        h("td", { class: "mono small", text: e.date || "" }), h("td", { class: "small", text: e.statutory ? "statutory" : "non-statutory" }),
+        h("td", { class: "n", text: e.n_files }), h("td", { class: "n", text: e.n_articles || "—" }), ...STRATS.map(s => h("td", { class: "n mono", text: e.chunks[s] })),
+        h("td", { class: "n", text: nq(d) || "—" }), h("td", { class: "n", text: val(d, "ex") || "" }), h("td", { class: "n", text: val(d, "em") || "" })));
+    }
+    box.innerHTML = ""; box.append(t);
+  };
+  inp.oninput = () => { dlState.f = inp.value; draw(); };
+  chips(kBox, ["all", "statutory", "non-statutory"], dlState, "kind", { onchange: draw });
+  chips(cBox, [{ value: "all", label: "all" }, { value: "cited", label: "cited by a question" }, { value: "uncited", label: "not cited" }], dlState, "cited", { onchange: draw });
+  draw();
+}
+
+// =====================================================================================================
+// DOCUMENT PAGE
+// =====================================================================================================
+const dState = { origin: "all", strat: "S2", artFilter: "", citedOnly: false, rows: 300 };
+function pageDoc(m, doc, focus) {
+  const e = EI.documents[doc];
+  if (!e) { m.append(h("p", { class: "warnbox", text: `Document ${doc} is not in the corpus.` })); return Promise.resolve(); }
+  m.append(h("p", { class: "small", text: `Loading ${doc}…` }));
+  return loadDoc(doc).then(D => {
+    m.innerHTML = "";
+    m.append(h("div", { class: "pagehead" }, h("h2", { class: "grow", text: docTitle(doc) }), expandBar(m)));
+    m.append(h("p", { class: "small mono", text: `${doc} · ${e.statutory ? "statutory" : "non-statutory"} · ${D.files.length} file(s)` + (D.files.some(f => f.annex) ? ` (${D.files.filter(f => f.annex).length} annex)` : "") + ` · URN ${e.urn || "—"}` }));
+    m.append(h("p", { class: "small" }, "Source: ", h("span", { class: "mono", text: D.original || "—" }), " · LexML: ", h("span", { class: "mono", text: D.lexml || "—" })));
+    if (e.excluded) m.append(h("p", { class: "warnbox", text: "Excluded from the main run (irpf): revoked document (scripts/rag/corpus_exclusions.yaml). Its chunks are in no index of these runs." }));
+    const nq = new Set(e.refs.map(r => r[0])).size;
+    m.append(h("div", { class: "stats" }, h("span", { class: "stat" }, h("b", { text: nq }), " questions cite it"),
+      h("span", { class: "stat" }, h("b", { text: e.refs.filter(r => r[2] === "explicit").length }), " explicit references"),
+      h("span", { class: "stat" }, h("b", { text: e.refs.filter(r => r[2] === "embedded").length }), " embedded references"),
+      e.n_articles ? h("span", { class: "stat" }, h("b", { text: e.n_articles }), " articles") : null,
+      ...STRATS.map(s => h("span", { class: "stat" }, h("span", { style: `color:${scol(s)};font-weight:650`, text: s }), " ", h("b", { text: e.chunks[s] }), " chunks"))));
+    const model = docModel(D, e);
+    let focusArt = null, focusChunk = null;
+    if (focus?.startsWith("c:")) { focusChunk = focus.slice(2); const c = DOCIDX[doc].get(focusChunk); focusArt = c ? (c[4] ? c[1] + "|" + c[4] : null) : null; }
+    else if (focus) focusArt = model.units.find(u => u.art === focus)?.key || null;
+    const qsec = sec("d:questions", "Questions that cite this document", b => docQuestions(b, e), { open: true, sub: `${nq} questions, ${e.refs.length} references` });
+    const ssec = sec("d:seg", "Segmentation overview", b => docOverview(b, D, model), { open: true, sub: "chunks per strategy and type" });
+    const usec = sec("d:units", model.units.length ? "Structure: articles compared across strategies" : "Structure", b => docUnits(b, D, model, focusArt, focusChunk), { open: true, id: "d-units",
+      force: focus ? true : null, sub: model.units.length ? `${model.units.length} articles${model.loose.length ? `, ${model.loose.length} other chunks` : ""}` : `${D.chunks.length} chunks` });
+    const fsec = sec("d:flat", "Chunks of one strategy, in file order", b => docFlat(b, D, model), { sub: "as the index sees them" });
+    m.append(qsec, ssec, usec, fsec);
+    if (focusChunk) { const el = document.getElementById("ch-" + focusChunk); if (el) { el.classList.add("focus"); return el; } }
+    if (focusArt) return document.getElementById("unit-" + focusArt.replace(/\W/g, "_"));
+    return null;
+  }).catch(err => { m.innerHTML = ""; m.append(h("p", { class: "warnbox", text: `Could not load ${doc}: ${err.message}. Rebuild or download the trace data.` })); });
+}
+/** Articles (main file first, then annexes, in file order) and the chunks without an article (groupings, text blocks). */
+function docModel(D, e) {
+  const units = [], byKey = new Map(), loose = [];
+  for (const c of D.chunks) {
+    if (c[4]) {
+      const k = c[1] + "|" + c[4];
+      let u = byKey.get(k);
+      if (!u) { u = { key: k, file: c[1], art: c[4], label: null, start: c[6], end: c[7], chunks: [] }; byKey.set(k, u); units.push(u); }
+      u.chunks.push(c); u.start = Math.min(u.start, c[6]); u.end = Math.max(u.end, c[7]);
+      if (!u.label || c[2] === "ART") u.label = c[2] === "ART" ? c[3] : (u.label || c[3].split(",")[0]);
+    } else loose.push(c);
+  }
+  const cites = new Map();      // article id → [[q, origin, provisions]]
+  const whole = [];
+  for (const [q, , origin, arts, provs] of e.refs) {
+    if (!arts.length) whole.push([q, origin]);
+    for (const a of arts) { if (!cites.has(a)) cites.set(a, []); cites.get(a).push([q, origin, provs]); }
+  }
+  for (const u of units) u.groups = loose.filter(c => isGrouping(c) && c[1] === u.file && c[6] <= u.start && c[7] >= u.end);
+  return { units, loose, cites, whole };
+}
+function docQuestions(b, e) {
+  if (!e.refs.length) { b.append(h("p", { class: "small", text: "No question cites this document (it is cited by another document or kept for completeness)." })); return; }
+  const oBox = h("div", { class: "opts" }), box = h("div");
+  b.append(h("div", { class: "controls" }, ctl("Origin", oBox)), box);
+  const draw = () => {
+    box.innerHTML = "";
+    const rows = e.refs.filter(r => dState.origin === "all" || r[2] === dState.origin);
+    const t = h("table", { class: "t" });
+    t.append(h("tr", {}, ...["question", "summary", "origin", "articles", "provisions", "reference"].map(c => h("th", { text: c }))));
+    for (const [q, rid, origin, arts, provs] of rows) t.append(h("tr", { class: "clk", title: "open the question", onclick: () => go("#/q/" + q) },
+      h("td", { class: "mono", text: "Q" + q }), h("td", { text: qSummary(q) }), h("td", {}, h("span", { class: "pill " + origin, text: origin })),
+      h("td", { class: "small", text: arts.join(", ") || "whole document" }), h("td", { class: "small", text: short(provs.join("; "), 120) || "—" }), h("td", { class: "mono small", text: rid })));
+    box.append(h("div", { class: "tablewrap" }, t), h("p", { class: "small", text: "Explicit: cited in the answer's legal-basis note; embedded: cited inside the answer text." }));
+  };
+  const ex = e.refs.filter(r => r[2] === "explicit").length;
+  chips(oBox, [{ value: "all", label: `all (${e.refs.length})` }, { value: "explicit", label: `explicit (${ex})` }, { value: "embedded", label: `embedded (${e.refs.length - ex})` }], dState, "origin", { onchange: draw });
+  draw();
+}
+function docOverview(b, D, model) {
+  const tipos = [...new Set(D.chunks.map(c => c[2]))];
+  const t = h("table", { class: "t" });
+  t.append(h("tr", {}, h("th", { text: "strategy" }), h("th", { class: "n", text: "chunks" }), h("th", { class: "n", text: "tokens" }), h("th", { class: "n", text: "median tok" }), h("th", { class: "n", text: "max tok" }),
+    ...tipos.map(tp => h("th", { class: "n mono", text: tp }))));
+  for (const s of STRATS) {
+    const rows = D.chunks.filter(c => c[12] & TI.strategy_bit[s]);
+    const toks = rows.map(c => c[8]).sort((a, b) => a - b);
+    t.append(h("tr", {}, h("td", { style: `color:${scol(s)};font-weight:650`, text: s, title: TI.strategy_desc?.[s] || "" }), h("td", { class: "n", text: rows.length }),
+      h("td", { class: "n", text: toks.reduce((a, x) => a + x, 0) }), h("td", { class: "n", text: toks.length ? toks[toks.length >> 1] : "—" }), h("td", { class: "n", text: toks.length ? toks[toks.length - 1] : "—" }),
+      ...tipos.map(tp => { const n = rows.filter(c => c[2] === tp).length; return h("td", { class: "n mono" + (n ? "" : " muted"), text: n || "·" }); })));
+  }
+  b.append(h("div", { class: "tablewrap free" }, t),
+    h("p", { class: "small", text: "Types: ART article, CPT caput, PAR paragraph, INC inciso, ALI alínea, ITE item; CAP/SEC/SSC/TIT/LIV/PRT/SBT groupings (chapter, section, title…); TXT/TAB/DSP text blocks, tables and loose provisions (annexes, non-statutory documents). S1: one chunk per article; S2: + sub-units with their ancestor path; S3: S2 + groupings; S2c/S4: S2/S3 with the caput sentence in paragraph chunks." }));
+  for (const s of STRATS) if (TI.strategy_desc?.[s]) b.append(h("div", { class: "small" }, h("b", { style: `color:${scol(s)}`, text: s + " " }), TI.strategy_desc[s]));
+}
+function docUnits(b, D, model, focusArt, focusChunk) {
+  if (!model.units.length) { b.append(h("p", { class: "small", text: "This document has no articles (non-statutory, or an annex of text and tables). Use the chunk list below, by strategy." })); return docLooseOnly(b, D, model, focusChunk); }
+  const inp = h("input", { type: "search", placeholder: "filter, e.g. art. 8", value: dState.artFilter, style: "width:200px" });
+  const cited = h("label", { class: "small" }, h("input", { type: "checkbox", checked: dState.citedOnly ? "checked" : null }), " only articles cited by a question");
+  const box = h("div");
+  b.append(h("div", { class: "what", text: "One row per article; the counts are the chunks each strategy makes of it. Open an article for its chunks per strategy and the questions that cite it. Groupings (S3/S4) that contain it are listed with it." }));
+  if (model.whole.length) b.append(h("p", { class: "small" }, `Cited as a whole (no article) by ${new Set(model.whole.map(w => w[0])).size} question(s): `,
+    ...model.whole.slice(0, 40).map(([q, o]) => h("button", { class: "lnk", style: "margin-right:6px", text: "Q" + q, title: `${o}: ${qSummary(q)}`, onclick: () => go("#/q/" + q) }))));
+  b.append(h("div", { class: "controls" }, ctl("Find article", inp), cited), box);
+  const draw = () => {
+    box.innerHTML = "";
+    const f = dState.artFilter.toLowerCase().replace(/\s+/g, " ").trim();
+    let files = [...new Set(model.units.map(u => u.file))];
+    let shown = 0;
+    for (const file of files) {
+      const fmeta = D.files.find(x => x.arquivo === file);
+      const us = model.units.filter(u => u.file === file && (!f || (u.label || "").toLowerCase().includes(f) || u.art.includes(f.replace(/[^\w-]/g, ""))) && (!dState.citedOnly || model.cites.has(u.art) && !fmeta?.annex) || (u.key === focusArt && u.file === file));
+      if (!us.length) continue;
+      if (files.length > 1) box.append(h("h4", { text: fmeta?.annex ? `Annex (${fmeta.categoria}) · ${file}` : `Main text · ${file}` }));
+      for (const u of us) { box.append(unitSec(D, model, u, u.key === focusArt, focusChunk)); shown++; }
+    }
+    if (!shown) box.append(h("p", { class: "small", text: "No article matches." }));
+    const other = model.loose.filter(c => !isGrouping(c));
+    if (other.length) box.append(sec(null, "Chunks outside articles", ob => {
+      for (const s of STRATS) { const rows = other.filter(c => c[12] & TI.strategy_bit[s]); if (rows.length) ob.append(sec(null, h("span", { style: `color:${scol(s)}`, text: s }), sb => rows.slice(0, 300).forEach(c => sb.append(chunkCard(c, D, { link: false, cls: c[0] === focusChunk ? "focus" : "" }))), { level: 3, sub: `${rows.length} chunks` })); }
+    }, { level: 2, sub: `${other.length} chunks (text blocks, tables, loose provisions)`, force: focusChunk && other.some(c => c[0] === focusChunk) ? true : null }));
+    const groups = model.loose.filter(isGrouping);
+    if (groups.length) box.append(sec(null, "Groupings (S3/S4)", gb => groups.forEach(c => gb.append(chunkCard(c, D, { link: false, cls: c[0] === focusChunk ? "focus" : "" }))),
+      { level: 2, sub: `${groups.length} chapter/section/title chunks`, force: focusChunk && groups.some(c => c[0] === focusChunk) ? true : null }));
+  };
+  let t_; inp.oninput = () => { clearTimeout(t_); t_ = setTimeout(() => { dState.artFilter = inp.value; draw(); }, 200); };
+  cited.querySelector("input").onchange = ev => { dState.citedOnly = ev.target.checked; draw(); };
+  draw();
+}
+function unitSec(D, model, u, isFocus, focusChunk) {
+  const counts = Object.fromEntries(STRATS.map(s => [s, u.chunks.filter(c => c[12] & TI.strategy_bit[s]).length]));
+  const fmeta = D.files.find(x => x.arquivo === u.file);
+  const cites = fmeta?.annex ? [] : (model.cites.get(u.art) || []);
+  const qn = [...new Set(cites.map(c => c[0]))];
+  const sub = [stratCounts(counts), qn.length ? h("span", { class: "pill explicit", style: cites.every(c => c[1] === "embedded") ? "" : "", text: `cited by ${qn.length} question${qn.length > 1 ? "s" : ""}`, title: qn.map(q => "Q" + q).join(" ") }) : null,
+    u.chunks.some(c => c[11] > 1) ? h("span", { class: "pill", text: "split article" }) : null];
+  return sec(null, u.label || u.art, b => {
+    b.append(h("p", { class: "small mono", text: `${u.art} · ${u.file}` }));
+    if (cites.length) {
+      const t = h("table", { class: "t" });
+      t.append(h("tr", {}, ...["question", "summary", "origin", "provisions cited"].map(c => h("th", { text: c }))));
+      for (const [q, o, provs] of cites) t.append(h("tr", { class: "clk", onclick: () => go("#/q/" + q) }, h("td", { class: "mono", text: "Q" + q }), h("td", { text: qSummary(q) }),
+        h("td", {}, h("span", { class: "pill " + o, text: o })), h("td", { class: "small", text: short(provs.filter(p => p.toLowerCase().includes((u.label || "").toLowerCase().replace(/\.$/, ""))).join("; ") || provs.join("; "), 140) })));
+      b.append(sec(null, "Questions that cite this article", qb => qb.append(h("div", { class: "tablewrap" }, t)), { level: 3, open: true, sub: `${qn.length}` }));
+    }
+    const fc = focusChunk && [...u.chunks, ...u.groups].find(c => c[0] === focusChunk);
+    const focusS = fc ? STRATS.find(s => fc[12] & TI.strategy_bit[s]) : null;
+    for (const s of STRATS) {
+      const rows = u.chunks.filter(c => c[12] & TI.strategy_bit[s]);
+      const gs = u.groups.filter(c => c[12] & TI.strategy_bit[s]);
+      const hasFocus = s === focusS;
+      b.append(sec(null, h("span", { style: `color:${scol(s)}`, text: s }), sb => {
+        rows.forEach(c => sb.append(chunkCard(c, D, { link: false, cls: c[0] === focusChunk ? "focus" : "", open: rows.length === 1 })));
+        if (gs.length) { sb.append(h("div", { class: "small", style: "margin-top:6px", text: "Groupings that contain this article:" })); gs.forEach(c => sb.append(chunkCard(c, D, { link: false, cls: c[0] === focusChunk ? "focus" : "" }))); }
+      }, { level: 3, sub: `${rows.length} chunk${rows.length === 1 ? "" : "s"}${gs.length ? ` + ${gs.length} grouping${gs.length > 1 ? "s" : ""}` : ""}`, force: hasFocus ? true : null }));
+    }
+  }, { level: 2, id: "unit-" + u.key.replace(/\W/g, "_"), sub, force: isFocus ? true : null });
+}
+function docLooseOnly(b, D, model, focusChunk) {
+  const fc = focusChunk && DOCIDX[D.id].get(focusChunk);
+  const focusS = fc ? STRATS.find(s => fc[12] & TI.strategy_bit[s]) : null;
+  for (const s of STRATS) {
+    const rows = D.chunks.filter(c => c[12] & TI.strategy_bit[s]);
+    let lim = Math.max(400, fc && s === focusS ? rows.indexOf(fc) + 20 : 0);
+    b.append(sec(null, h("span", { style: `color:${scol(s)}`, text: s }), sb => {
+      const draw = () => { sb.innerHTML = ""; rows.slice(0, lim).forEach(c => sb.append(chunkCard(c, D, { link: false, cls: c[0] === focusChunk ? "focus" : "" })));
+        if (rows.length > lim) sb.append(h("button", { class: "btn", text: `show ${Math.min(400, rows.length - lim)} more`, onclick: () => { lim += 400; draw(); } })); };
+      draw();
+    }, { level: 2, sub: `${rows.length} chunks`, force: s === focusS ? true : null }));
+  }
+}
+function docFlat(b, D, model) {
+  const sBox = h("div", { class: "opts" }), box = h("div");
+  b.append(h("div", { class: "controls" }, ctl("Strategy", sBox)), box);
+  const draw = () => {
+    box.innerHTML = "";
+    const rows = D.chunks.filter(c => c[12] & TI.strategy_bit[dState.strat]);
+    box.append(h("p", { class: "small", text: `${dState.strat}: ${rows.length} chunks${rows.length > dState.rows ? ` (first ${dState.rows})` : ""}. Green edge: chunk of an article cited by a question.` }));
+    for (const c of rows.slice(0, dState.rows)) box.append(chunkCard(c, D, { link: false, cls: c[4] && model.cites.has(c[4]) && !D.files.find(f => f.arquivo === c[1])?.annex ? "gold" : "" }));
+    if (rows.length > dState.rows) box.append(h("button", { class: "btn", text: `show ${Math.min(rows.length - dState.rows, 300)} more`, onclick: () => { dState.rows += 300; draw(); } }));
+  };
+  chips(sBox, STRATS, dState, "strat", { onchange: () => { dState.rows = 300; draw(); }, colors: SCOLORS() });
+  draw();
+}
+
+// =====================================================================================================
+// boot
+// =====================================================================================================
+route();
+</script>
+</body>
+</html>

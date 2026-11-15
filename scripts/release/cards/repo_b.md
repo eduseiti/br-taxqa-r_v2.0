@@ -199,6 +199,8 @@ parameters, system and user prompts), `response`, `text`, `usage`, `model_served
 of the results dashboard `docs/dashboard/index.html`, which is in the git repo. That tab follows one question
 through nuggets → documents → ranking → context and prompt → answer. The archive saves the ≈ 7-minute rebuild with
 `scripts/report/build_trace_data.py`. After extraction, the dashboard opens from `file://`, with no server.
+`raw/dashboard_explorer.tar.gz` restores `docs/explorer/data/` (≈ 17 MB) for the corpus & question explorer
+`docs/explorer/index.html`, which also needs the trace data above.
 
 ## Reproducing
 
