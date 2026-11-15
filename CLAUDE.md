@@ -109,6 +109,15 @@ than expected.
 - **`segmented/`** — segmentation outputs (chunk CSVs with the
   `Tipo, Rotulo, Num_Inicio, Num_Final, Texto, urn` schema) that feed the embedding step.
 
+## Pending corpus revision (do not lose)
+
+The parser turned some citation lines and headings into fake `Art. N` chunks (e.g. RIR/2018 annex
+`decreto_9580_20181122.anexo1#2754`, "Art. 1º, art. 2º e art. 4º ao art. 71 da Lei nº 12.973…"; 6 documents found
+on 2026-11-15), and 21 article ids are duplicated within a file. The matcher fix and chunk-level exclusions
+(fix A, done 2026-11-15: `docs/20261115_181838_fix_a_gold_matcher_results.md`) work around it in the experiments; the **corpus itself still needs the repair, re-segmentation and a new
+repo A release (fix B)**. Plan, document list and steps: `docs/20261115_172140_gold_matcher_annex_rule_and_misparsed_articles.md`
+§5. Do it at the next corpus revision or before the public HF release, whichever comes first.
+
 ## Related repositories (siblings under `../`)
 
 - `br-taxqa-document-fetcher/` — builds LexML URNs for the documents referred to in the dataset and

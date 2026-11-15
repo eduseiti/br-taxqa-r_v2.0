@@ -1,27 +1,76 @@
 {
   "schema_version": 1,
   "kind": "contexts",
-  "created_at": "2026-11-08T17:51:04+00:00",
+  "created_at": "2026-11-15T17:53:29+00:00",
   "script": {
     "package": "ragpipe",
     "version": "0.1.0",
     "git": {
-      "commit": "99e1a8c2251e2722fe0dd6e91739b62f6f35a081",
+      "commit": "907b7fcc35e5b5c68dccc1a78c35435b5f12b3f4",
       "dirty": true,
       "dirty_files": [
-        "mbeddings/costs.csv",
-        "scripts/embedding/embed.py",
-        "scripts/embedding/embedding/config.py",
-        "scripts/embedding/embedding/costs.py",
-        "scripts/embedding/embedding/providers/__init__.py",
-        "scripts/embedding/embedding/runner.py",
-        "scripts/embedding/models.yaml",
-        "embeddings/gemini-emb-2/",
-        "runs/retrieval/gemini-emb-2/",
-        "scripts/embedding/embedding/providers/openrouter.py",
-        "scripts/embedding/parity_sample_20261108.json",
-        "scripts/embedding/tests/test_openrouter.py",
-        "scripts/rag/experiments/gemini_core.yaml"
+        "LAUDE.md",
+        "runs/contexts/jua-4b-mixed/irpf/S1_budget2000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S1_budget4000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S1_budget8000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S2_budget2000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S2_budget4000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S2_budget4000_context_v1/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S2_budget8000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S2c_budget4000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S3_budget4000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S4_budget4000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/closed_book/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/oracle_budget16000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/oracle_budget4000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/summary.csv",
+        "runs/contexts/jua-4b-mixed/irpf/wrong-S2_budget4000/manifest.json",
+        "runs/retrieval/gemini-emb-2/irpf/eval/either_containment_merge_skip/comparisons.csv",
+        "runs/retrieval/gemini-emb-2/irpf/eval/either_containment_merge_skip/manifest.json",
+        "runs/retrieval/gemini-emb-2/irpf/eval/either_containment_merge_skip/metrics.csv",
+        "runs/retrieval/gemini-emb-2/irpf/eval/either_containment_merge_skip/reachability.csv",
+        "runs/retrieval/gemini-emb-2/irpf/eval/either_containment_merge_skip/report.md",
+        "runs/retrieval/gemini-emb-2/irpf/eval/either_containment_skip/comparisons.csv",
+        "runs/retrieval/gemini-emb-2/irpf/eval/either_containment_skip/manifest.json",
+        "runs/retrieval/gemini-emb-2/irpf/eval/either_containment_skip/metrics.csv",
+        "runs/retrieval/gemini-emb-2/irpf/eval/either_containment_skip/reachability.csv",
+        "runs/retrieval/gemini-emb-2/irpf/eval/either_containment_skip/report.md",
+        "runs/retrieval/gemini-emb-2/irpf/eval/v2c_either_containment_skip/comparisons.csv",
+        "runs/retrieval/gemini-emb-2/irpf/eval/v2c_either_containment_skip/manifest.json",
+        "runs/retrieval/gemini-emb-2/irpf/eval/v2c_either_containment_skip/metrics.csv",
+        "runs/retrieval/gemini-emb-2/irpf/eval/v2c_either_containment_skip/reachability.csv",
+        "runs/retrieval/gemini-emb-2/irpf/eval/v2c_either_containment_skip/report.md",
+        "runs/retrieval/gemini-emb-2/irpf/eval/v2d_either_containment_skip/comparisons.csv",
+        "runs/retrieval/gemini-emb-2/irpf/eval/v2d_either_containment_skip/manifest.json",
+        "runs/retrieval/gemini-emb-2/irpf/eval/v2d_either_containment_skip/metrics.csv",
+        "runs/retrieval/gemini-emb-2/irpf/eval/v2d_either_containment_skip/reachability.csv",
+        "runs/retrieval/gemini-emb-2/irpf/eval/v2d_either_containment_skip/report.md",
+        "runs/retrieval/gemini-emb-2/irpf/manifest.json",
+        "runs/retrieval/jua-4b-mixed/irpf/eval/either_containment_merge_skip/comparisons.csv",
+        "runs/retrieval/jua-4b-mixed/irpf/eval/either_containment_merge_skip/manifest.json",
+        "runs/retrieval/jua-4b-mixed/irpf/eval/either_containment_merge_skip/metrics.csv",
+        "runs/retrieval/jua-4b-mixed/irpf/eval/either_containment_merge_skip/reachability.csv",
+        "runs/retrieval/jua-4b-mixed/irpf/eval/either_containment_merge_skip/report.md",
+        "runs/retrieval/jua-4b-mixed/irpf/eval/v2d_either_containment_skip/comparisons.csv",
+        "runs/retrieval/jua-4b-mixed/irpf/eval/v2d_either_containment_skip/manifest.json",
+        "runs/retrieval/jua-4b-mixed/irpf/eval/v2d_either_containment_skip/metrics.csv",
+        "runs/retrieval/jua-4b-mixed/irpf/eval/v2d_either_containment_skip/reachability.csv",
+        "runs/retrieval/jua-4b-mixed/irpf/eval/v2d_either_containment_skip/report.md",
+        "runs/retrieval/jua-4b-mixed/irpf/manifest.json",
+        "scripts/nuggets/nuggetizer/analysis.py",
+        "scripts/nuggets/nuggetizer/ctx_audit.py",
+        "scripts/rag/corpus_exclusions.yaml",
+        "scripts/rag/ragpipe/contexts.py",
+        "scripts/rag/ragpipe/evaluation.py",
+        "scripts/rag/ragpipe/exclusions.py",
+        "scripts/rag/ragpipe/relevance.py",
+        "scripts/rag/ragpipe/retrieval.py",
+        "scripts/rag/tests/test_contexts.py",
+        "scripts/rag/tests/test_pipeline.py",
+        "scripts/rag/tests/test_units.py",
+        "scripts/report/build_explorer_data.py",
+        "scripts/report/build_trace_data.py",
+        "docs/20261115_172140_gold_matcher_annex_rule_and_misparsed_articles.md"
       ]
     },
     "argv": [
@@ -30,10 +79,11 @@
       "--retrieval",
       "runs/retrieval/gemini-emb-2/irpf",
       "--sets",
-      "S1@budget=4000,S2@budget=4000"
+      "S1@budget=4000,S2@budget=4000",
+      "--force"
     ]
   },
-  "config_hash": "2e067ed7db37c47205bba21d87ae95e5dc73a4509d5c7759b24112c344fed985",
+  "config_hash": "c8dab257ec2d935d383e2873b9a6842ed9106cdbe334024dd29c935614ad4eef",
   "context_id": "S2_budget4000",
   "params": {
     "dedup": "containment_merge",
@@ -51,7 +101,7 @@
   "inputs": {
     "retrieval_manifest": {
       "path": "runs/retrieval/gemini-emb-2/irpf/manifest.json",
-      "config_hash": "e40415bc6f439907be4345c17f6ce2b9650b6d1a7c1965540037c83988c6db7b"
+      "config_hash": "b71cd88e45b2f28f17eb88f0d9ffa2464dc175efea436f31ca9739ac386152fd"
     },
     "chunks": {
       "path": "segmented/chunks_all.csv.gz",
@@ -108,6 +158,6 @@
     }
   },
   "timings_s": {
-    "total": 4.06
+    "total": 4.28
   }
 }

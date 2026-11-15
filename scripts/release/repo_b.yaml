@@ -31,7 +31,9 @@ copy:
       20261108_175117_gemini_embedding_2_setup_embedding_and_retrieval_gate.md,
       20261109_123355_results_dashboard.md,
       20261110_194056_question_trace_dashboard_implementation.md,
-      20261115_145149_corpus_and_question_explorer.md]}
+      20261115_145149_corpus_and_question_explorer.md,
+      20261115_172140_gold_matcher_annex_rule_and_misparsed_articles.md,
+      20261115_181838_fix_a_gold_matcher_results.md]}
 pack:
   raw/runs_answers_cache.tar.gz: runs/answers/cache
   raw/nuggets_full_cache.tar.gz: nuggets/full/cache

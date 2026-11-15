@@ -268,7 +268,7 @@ def main() -> None:
     masks = {s: member_mask(chunks, frozenset(sdefs[s]["tipos"]), sdefs[s].get("variantes", ["base"])) for s in strat_names}
     checks["strategy_chunks"] = {s: int((m & ~excl_rows).sum()) for s, m in masks.items()}
     print("  strategy chunks:", checks["strategy_chunks"], flush=True)
-    matcher = Matcher(chunks, file_to_doc, main_file, grouping, P["annex_rule"])
+    matcher = Matcher(chunks, file_to_doc, main_file, grouping, P["annex_rule"], excluded.chunk_row_mask(chunks))
     file_index = {f: i for i, f in enumerate(sorted(set(chunks.arquivo)))}
     budgets = P["budgets"]
 

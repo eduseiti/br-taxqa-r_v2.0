@@ -45,9 +45,9 @@ def test_oracle(repo):
     ids = {q: {it["chunk_id"] for it in ln["items"]} for q, ln in o.items()}
     assert ids["001"] == {"lei_1_20000101#1"}                                 # art1, the whole article
     assert ids["002"] == {"lei_1_20000101#5", "lei_1_20000101#6"}             # both parts of split art2
-    # Q003: decreto art1 (main and annex, annex rule "either"), annex art5, and urn_x (document-only gold)
-    assert ids["003"] == {"decreto_9_20000101#1", "decreto_9_20000101.anexo1#1", "decreto_9_20000101.anexo1#2",
-                          "urn_x#1", "urn_x#2"}
+    # Q003: decreto art1 (the reference names the main file, so not the annex art1: G3 applies only to citations
+    # that name no file), annex art5, and urn_x (document-only gold)
+    assert ids["003"] == {"decreto_9_20000101#1", "decreto_9_20000101.anexo1#2", "urn_x#1", "urn_x#2"}
     assert o["004"]["n_texts"] == 0                                            # no gold
     for q in ("001", "002", "003"):
         g = o[q]["gold"]

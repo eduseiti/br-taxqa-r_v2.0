@@ -62,7 +62,11 @@ def test_evaluation_items(repo):
     assert sorted(docs["origin"]) == ["embedded", "explicit"] and "004" not in set(it.question_number)
     # annex article art5 is rank 1 (the question vector is its text) and is category-A annex gold
     a5 = get("S1", "article", "003")
+    a5 = a5[a5["item"] == "decreto_9_20000101|art5"]
     assert a5["annex_A"].all() and a5["unit_pos"].min() == 1
+    # art1 is cited in the main file: the annex art1 does not count (G3 only for citations that name no file)
+    a1 = get("S1", "article", "003")
+    assert not a1[a1["item"] == "decreto_9_20000101|art1"]["annex_A"].any()
 
 
 def test_evaluation_metrics(repo):

@@ -190,6 +190,7 @@ def evaluate_strategy(name: str, in_strategy: np.ndarray, rt: RankedTexts, gold:
                     "reachable_partial": len(full_rows) + len(part_rows) > 0,
                     "reachable_by_parts_only": not len(full_rows) and bool(cover_sets),
                     "only_ambiguous": matcher.only_ambiguous(full_rows),
+                    "multi_instance": m.instances > 1,
                     "unreachable_reason": "" if len(full_rows) or cover_sets else unreachable_reason(it, m, matcher, excluded),
                     "rank_full": min(_first(hit_full), rank_cover), "rank_any": _first(hit_any),
                     "unit_pos": min((upos.get(u, INF) for u in m.units), default=INF) if level != "provision" else INF,
@@ -373,6 +374,7 @@ def reachability(items: pd.DataFrame, strategies: list[str]) -> pd.DataFrame:
                "unreachable": int((~g["reachable"]).sum()),
                "questions_with_reachable_gold": g.loc[g["reachable"], "question_number"].nunique(),
                "only_ambiguous_matches": int(g["only_ambiguous"].sum()),
+               "multi_instance_matches": int(g["multi_instance"].sum()),
                "main_and_annex_both_have_it": int(g["main_and_annex"].sum()),
                "annex_A_items": int(g["annex_A"].sum())}
         for reason, n in g.loc[~g["reachable"], "unreachable_reason"].value_counts().sort_index().items():
@@ -418,7 +420,7 @@ def run_evaluation(retrieval_dir: Path, cfg: EvalConfig, paths: Paths = Paths())
     file_to_doc = ds.file_to_document()
     main_file = {d: Path(f).name for d, f in zip(ds.documents["document_id"], ds.documents["lexml_file"]) if f}
     statutory = dict(zip(ds.documents["document_id"], ds.documents["statutory"].astype(bool)))
-    matcher = Matcher(chunks, file_to_doc, main_file, grouping, cfg.annex_rule)
+    matcher = Matcher(chunks, file_to_doc, main_file, grouping, cfg.annex_rule, excluded.chunk_row_mask(chunks))
     gold = gold_items(ds)
     file_index = {f: i for i, f in enumerate(sorted(set(chunks["arquivo"])))}
     excluded_rows = excluded.row_mask(chunks, file_to_doc)

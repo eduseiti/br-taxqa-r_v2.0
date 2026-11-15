@@ -241,8 +241,10 @@ class ProvisionScorer:
         chunks = load_chunks(paths.chunks)
         ds = load_dataset(paths.dataset)
         main_file = {d: Path(f).name for d, f in zip(ds.documents["document_id"], ds.documents["lexml_file"]) if f}
+        from ragpipe.exclusions import Exclusions
         self.inp = SimpleNamespace(gold=gold_items(ds), matcher=Matcher(
-            chunks, ds.file_to_document(), main_file, frozenset(rman["strategies"]["grouping_tipos"]), annex_rule))
+            chunks, ds.file_to_document(), main_file, frozenset(rman["strategies"]["grouping_tipos"]), annex_rule,
+            Exclusions.from_manifest(rman).chunk_row_mask(chunks)))
         self.row = dict(zip(chunks["chunk_id"], range(len(chunks))))
         self.Item, self.coverage, self._memo = Item, coverage, {}
 
@@ -282,8 +284,11 @@ def citation_scores(runs: list[tuple[str, Path]], contexts_root: Path, qids: set
     rows, ctx_cache = [], {}
     for run_id, rd in runs:
         run = json.loads((rd / "run.json").read_text())
-        cid = run_id.split("/")[-1]
-        cdir = contexts_root / cid
+        # the run's own context set (each embedding has its own; fixed 2026-11-15: every run used to be read
+        # against the primary embedding's contexts and keyed by the bare set name)
+        cpath = (run.get("context") or {}).get("path")
+        cdir = (REPO / cpath).parent if cpath else contexts_root / run_id.split("/")[-1]
+        cid = scoring.context_key(run_id)
         if not (cdir / "contexts.jsonl.gz").exists():
             continue
         if cid not in ctx_cache:

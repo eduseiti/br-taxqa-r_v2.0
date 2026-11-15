@@ -1,0 +1,11 @@
+# Fix A of docs/20261115_172140_gold_matcher_annex_rule_and_misparsed_articles.md (2026-11-15): the oracle 4k
+# contexts of Q006, Q220, Q264 and Q438 changed (annex rule G3 for citations that name a file; misparsed chunks
+# ignored by the matcher). Only this set is regenerated: every other answer is unchanged and comes from the cache,
+# and the other experiments would also retry six old max_tokens errors, out of the scope of the fix.
+name: fixA_oracle
+contexts: runs/contexts/jua-4b-mixed/irpf
+sample: all
+sets:
+  - oracle_budget4000
+llms: [sabia-4, sabiazinho-4, gpt-5.6-terra, gpt-5.6-luna]
+prompts: {default: answer_v1, closed_book: answer_closed_v1}

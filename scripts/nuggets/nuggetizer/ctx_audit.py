@@ -69,7 +69,8 @@ class CorpusSearch:
         self.ch = ch
         titles = {d: t for d, t in zip(ds.documents["document_id"], ds.documents["title"]) if isinstance(t, str) and t.strip()}
         self.inp = SimpleNamespace(chunks=ch, title=titles, matcher=Matcher(
-            ch, ds.file_to_document(), main_file, frozenset(rman["strategies"]["grouping_tipos"]), "either"))
+            ch, ds.file_to_document(), main_file, frozenset(rman["strategies"]["grouping_tipos"]), "either",
+            Exclusions.from_manifest(rman).chunk_row_mask(ch)))
         self.tmpl, self.describe = Template.load(PROMPTS, template), describe
         self.vec = TfidfVectorizer(strip_accents="unicode", lowercase=True, ngram_range=(1, 2), min_df=2,
                                    sublinear_tf=True, max_df=0.5)

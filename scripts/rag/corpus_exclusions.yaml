@@ -17,3 +17,23 @@ documents:
     superseded_by: decreto_9580_20181122
     cited_by: ["282-12 (embedded; quoted inside a PGFN thesis in the answer of Q282)"]
     decided: "2026-10-22 (user)"
+
+# Chunks excluded from the retrieval corpus AND ignored by the gold matcher: parser misparses that carry an
+# article id but no legal text of their own (a citation line, a heading or a note parsed as "Art. N").
+# Rule (user, 2026-11-15): fix A of docs/20261115_172140_gold_matcher_annex_rule_and_misparsed_articles.md.
+# Only pure junk is listed: misnumbered chunks that hold real legal text stay in the corpus (fix B, corpus
+# revision, repairs both). Chunk ids are those of segmented/chunks_all.csv.gz (2026-10-08 rebuild); each one is
+# the only chunk of its misparsed instance (no sub-unit or caput-variant chunks).
+chunks:
+  "decreto_9580_20181122.anexo1#2754":
+    text: "Art. 1º , art. 2º e art. 4º ao art. 71 da Lei n º 12.973, de 13 de maio de 2014"
+    why: "citation line before art. 211 of the RIR/2018 annex, parsed as a second art. 1º"
+  "lei_12350_20101220#179":
+    text: "Art. 19. DA LEI Nº 10.973, DE 2 DE DEZEMBRO DE 2004, E O ART. 21 DA LEI Nº 11.196, DE 21 DE NOVEMBRO DE 2005"
+    why: "chapter-title fragment parsed as a second art. 19"
+  "port_conj_tse_srf_74_20060110#23":
+    text: "Art. 81. da Lei nº 9.504/1997 revogado pelo art. 15 da Lei nº 13.165/2015."
+    why: "editorial note between art. 4º and art. 5º of the portaria, parsed as an art. 81"
+  "circ_bc_3432_20090203#30":
+    text: "Art. 16. da Lei nº 11.795, de 2008, pressupõe a:"
+    why: "citation fragment parsed as an art. 16, before the real art. 16"

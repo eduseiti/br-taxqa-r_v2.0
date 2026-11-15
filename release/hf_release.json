@@ -78,6 +78,20 @@
    "bytes": 3210968767,
    "parent_hf_commit": "4ddc246f0ee7915ad0106c9660d6d90425126c92",
    "note": "adds raw/dashboard_explorer.tar.gz (restores docs/explorer/data/, the corpus & question explorer data) and docs/20261115_145149_corpus_and_question_explorer.md; repo A unchanged"
+  },
+  {
+   "stage": "staging",
+   "repo_id": "eduseiti/BR-TaxQA-R-RAG-eval",
+   "url": "https://huggingface.co/datasets/eduseiti/BR-TaxQA-R-RAG-eval",
+   "hf_commit": "ea67478af8296b61ffe9725ffb0d681f2c5e4b18",
+   "tag": null,
+   "uploaded": "2026-11-15",
+   "built_at": "2026-11-15T18:29:06+00:00",
+   "built_from_git": null,
+   "n_files": 980,
+   "bytes": 3211336827,
+   "parent_hf_commit": "ccba6d5cf9e1578e4272cf474bf26f034c18f716",
+   "note": "fix A of the gold matcher (docs/20261115_181838_fix_a_gold_matcher_results.md): retrieval, evaluations, contexts, oracle 4k answers and labels, scoring tables and analysis (first analysis regeneration since 2026-10-24, with the citation-score fix), dashboard trace/explorer archives, answer and scoring caches repacked; repo A unchanged"
   }
  ]
 }

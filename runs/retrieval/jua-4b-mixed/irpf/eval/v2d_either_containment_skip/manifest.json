@@ -1,29 +1,15 @@
 {
   "schema_version": 1,
   "kind": "retrieval_evaluation",
-  "created_at": "2026-10-22T20:33:46+00:00",
+  "created_at": "2026-11-15T17:49:28+00:00",
   "script": {
     "package": "ragpipe",
     "version": "0.1.0",
     "git": {
-      "commit": "7b760f446a508c23d024d7332824d8fdb3073e8a",
+      "commit": "907b7fcc35e5b5c68dccc1a78c35435b5f12b3f4",
       "dirty": true,
       "dirty_files": [
-        "ocs/20261021_210251_rag_phase2_contexts_execution.md",
-        "runs/contexts/jua-4b-mixed/irpf/S1_budget2000/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/S1_budget4000/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/S1_budget8000/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/S2_budget2000/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/S2_budget4000/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/S2_budget8000/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/S2c_budget4000/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/S3_budget4000/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/S4_budget4000/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/closed_book/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/oracle_budget16000/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/oracle_budget4000/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/summary.csv",
-        "runs/contexts/jua-4b-mixed/irpf/wrong-S2_budget4000/manifest.json",
+        "LAUDE.md",
         "runs/retrieval/jua-4b-mixed/irpf/eval/either_containment_merge_skip/comparisons.csv",
         "runs/retrieval/jua-4b-mixed/irpf/eval/either_containment_merge_skip/manifest.json",
         "runs/retrieval/jua-4b-mixed/irpf/eval/either_containment_merge_skip/metrics.csv",
@@ -33,24 +19,20 @@
         "runs/retrieval/jua-4b-mixed/irpf/eval/v2d_either_containment_skip/metrics.csv",
         "runs/retrieval/jua-4b-mixed/irpf/eval/v2d_either_containment_skip/reachability.csv",
         "runs/retrieval/jua-4b-mixed/irpf/manifest.json",
-        "scripts/rag/README.md",
-        "scripts/rag/rag.py",
-        "scripts/rag/ragpipe/context.py",
+        "scripts/nuggets/nuggetizer/analysis.py",
+        "scripts/nuggets/nuggetizer/ctx_audit.py",
+        "scripts/rag/corpus_exclusions.yaml",
         "scripts/rag/ragpipe/contexts.py",
-        "scripts/rag/ragpipe/data.py",
         "scripts/rag/ragpipe/evaluation.py",
+        "scripts/rag/ragpipe/exclusions.py",
+        "scripts/rag/ragpipe/relevance.py",
         "scripts/rag/ragpipe/retrieval.py",
-        "scripts/rag/ragpipe/strategies.py",
-        "scripts/rag/tests/conftest.py",
         "scripts/rag/tests/test_contexts.py",
         "scripts/rag/tests/test_pipeline.py",
-        "runs/contexts/jua-4b-mixed/irpf/S2_budget4000_context_v1/",
-        "runs/contexts/jua-4b-mixed/irpf_with_rir1999/",
-        "runs/retrieval/jua-4b-mixed/irpf_with_rir1999/",
-        "scripts/rag/corpus_exclusions.yaml",
-        "scripts/rag/prompts/context_v2.pt.md",
-        "scripts/rag/ragpipe/exclusions.py",
-        "scripts/rag/tests/test_exclusions.py"
+        "scripts/rag/tests/test_units.py",
+        "scripts/report/build_explorer_data.py",
+        "scripts/report/build_trace_data.py",
+        "docs/20261115_172140_gold_matcher_annex_rule_and_misparsed_articles.md"
       ]
     },
     "argv": [
@@ -65,7 +47,7 @@
       "--force"
     ]
   },
-  "config_hash": "7c086941d9befa0426e1d2779ed7ee919c0faa5a2e44298d50e4e16492605044",
+  "config_hash": "1ae63b097a3dfde2e02dfcd36d858e991a51dc10ebf8d2985aeaa46cf115c78a",
   "eval_id": "v2d_either_containment_skip",
   "params": {
     "annex_rule": "either",
@@ -134,7 +116,7 @@
   "inputs": {
     "retrieval_manifest": {
       "path": "runs/retrieval/jua-4b-mixed/irpf/manifest.json",
-      "config_hash": "648a74caba8c298d05a67402071f4a787bd63a7d0ee1ceeeb082b3c5f5418053"
+      "config_hash": "2387e27c885e4c3506fcd5b3fe6e90d06dcf71519743747d676bbec07795644f"
     },
     "chunks": {
       "path": "segmented/chunks_all.csv.gz",
@@ -196,28 +178,28 @@
   },
   "outputs": {
     "metrics.csv": {
-      "sha256": "1345f63081191f565322b8253ebfca933f4b95492685932557335bc4b8f5d3c9"
+      "sha256": "47a5aa07354ca7a9b58185bbc71975e00b126e4910d7552c157bba56815cc5b4"
     },
     "metrics_by_chapter.csv.gz": {
-      "sha256": "43d49ffdf005e02cad3832967fbc7fc43927baf06c0b96b6e16c3f58fb07a9c2"
+      "sha256": "403ea53a34de8bc4a4f77c1dee9af701d7cdec5fbeeca12a171f15fc1ee1e5a6"
     },
     "comparisons.csv": {
-      "sha256": "f70855c91e9976ddb35e0acf04707c986598a7a2b5e360e6d831294a27cb700e"
+      "sha256": "647fe0b2fcd29983fa3b7da76b12928a02ebc63042bee185823ad89251033e1c"
     },
     "reachability.csv": {
-      "sha256": "568a78f551859bb8018543b4da2ec38d6434ff801d7366edfc90e9d4f2a108f5"
+      "sha256": "3989ff924c97f755f40750aad03ca6772eb5c9f4ef654473a6dbf0462c19bc1c"
     },
     "per_question.csv.gz": {
-      "sha256": "2bdfd63c4cb7df02fb87decdacc5886f9fd0c4475b42cbd77572a91ae60d1b6b"
+      "sha256": "948fff86209130786340477825d6f19183bd9c2d2300730ede57e5c3c836539e"
     },
     "per_item.csv.gz": {
-      "sha256": "2c204a4a7044d065a81ea4d8eee920a5a9d753eee530f21b6f74cc4767d423f2"
+      "sha256": "35cd48e0c43b93bac83874b9d1b93405f4f3cddf87ead2115791c5950b20af52"
     }
   },
   "timings_s": {
-    "load": 1.92,
-    "score": 14.78,
-    "aggregate": 13.19,
-    "total": 38.17
+    "load": 1.42,
+    "score": 12.48,
+    "aggregate": 7.26,
+    "total": 25.89
   }
 }

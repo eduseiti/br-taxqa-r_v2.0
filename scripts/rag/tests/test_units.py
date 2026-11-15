@@ -111,6 +111,43 @@ def test_annex_rule(loaded):
     assert either.is_annex_a([u[0] for u in either.match(a5).units])
 
 
+def test_annex_rule_only_for_citations_without_a_file(loaded):
+    _, chunks, ds, _ = loaded
+    m = make_matcher(chunks, ds, "either")
+    a1 = item("article", "decreto_9_20000101", "art1")
+    a1.files = {A}                                              # the reference's provisions name the annex
+    assert m.match(a1).full.tolist() == [11]
+    a1.files = {D}
+    assert m.match(item("article", "decreto_9_20000101", "art1")).full.tolist() == [10, 11]   # no file named
+    m2 = make_matcher(chunks, ds, "either")
+    assert m2.match(a1).full.tolist() == [10]
+    assert m2.match(item("provision", "decreto_9_20000101", "art1", "art1", A)).full.tolist() == [11]
+    assert m2.match(item("provision", "decreto_9_20000101", "art1", "art1", D)).full.tolist() == [10]
+    # gold_items carries the named files to the article item
+    g = gold_items(ds)["003"]["article"]
+    assert {it.article_id: it.files for it in g} == {"art1": {D}, "art5": {A}}
+
+
+def test_ignored_rows_and_instances(loaded):
+    _, chunks, ds, _ = loaded
+    # a misparse: a second "art1" in the annex, after art5
+    dup = chunks.iloc[[11]].copy()
+    dup["chunk_id"], dup["Num_Inicio"], dup["Num_Final"] = "decreto_9_20000101.anexo1#99", 8, 9
+    ch = pd.concat([chunks, dup], ignore_index=True)
+    a1 = item("article", "decreto_9_20000101", "art1")
+    a1.files = {A}
+    m = make_matcher(ch, ds)
+    r = m.match(a1)
+    assert r.full.tolist() == [11, len(chunks)] and r.instances == 2
+    main = {d: f.split("/")[-1] for d, f in zip(ds.documents["document_id"], ds.documents["lexml_file"])}
+    ignore = (ch["chunk_id"] == "decreto_9_20000101.anexo1#99").to_numpy()
+    m = Matcher(ch, ds.file_to_document(), main, load_strategies(Paths().strategies).grouping_tipos, "either", ignore)
+    r = m.match(a1)
+    assert r.full.tolist() == [11] and r.instances == 1
+    p = m.match(item("provision", "decreto_9_20000101", "art1", "art1", A))
+    assert p.full.tolist() == [11] and p.instances == 1
+
+
 def test_provision_full_partial_and_split_parts(loaded):
     _, chunks, ds, _ = loaded
     m = make_matcher(chunks, ds)

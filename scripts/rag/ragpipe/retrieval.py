@@ -81,7 +81,8 @@ def run_retrieval(cfg: RetrievalConfig, paths: Paths = Paths()) -> Path:
     run_name = cfg.run_name or cfg.instruction
     params = {"embedding": cfg.embedding, "instruction": cfg.instruction, "retriever": cfg.retriever,
               "top_n": cfg.top_n, "strategies": [s.name for s in strategies], "run_name": run_name,
-              "excluded_documents": sorted(excl.documents)}
+              "excluded_documents": sorted(excl.documents),
+              **({"excluded_chunks": sorted(excl.chunks)} if excl.chunks else {})}
     inputs = {"chunks": {"path": rel(paths.chunks), "sha256": chunks_sha},
               **{Path(p).stem: {"path": p, "sha256": h} for p, h in ds.sha256.items()},
               "strategies_yaml": {"path": rel(paths.strategies), "sha256": strat_cfg.sha256},
@@ -95,8 +96,9 @@ def run_retrieval(cfg: RetrievalConfig, paths: Paths = Paths()) -> Path:
 
     chunks = attach_text_rows(chunks, emb)
     indexes = {s.name: build_index(chunks, s, strat_cfg.unit_precedence, excluded) for s in strategies}
-    if excl.documents:
-        log.info("excluded from the corpus: %s (%d chunk rows)", ", ".join(sorted(excl.documents)), int(excluded.sum()))
+    if excl.documents or excl.chunks:
+        log.info("excluded from the corpus: %s; %d misparsed chunk(s) (%d chunk rows)", ", ".join(sorted(excl.documents)),
+                 len(excl.chunks), int(excluded.sum()))
     if cfg.retriever != "dense":
         raise ValueError(f"unknown retriever {cfg.retriever!r} (available: dense)")
     query_ids = ds.question_ids

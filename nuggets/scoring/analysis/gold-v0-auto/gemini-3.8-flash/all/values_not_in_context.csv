@@ -1,4 +1,8 @@
 llm,context_id,n_answers,with_value_not_in_context,as_in_phase3
+gpt-5.6-luna,S1_budget4000,574,0.0436,0.0017
+gpt-5.6-luna,S2_budget4000,620,0.0484,0.0048
+sabia-4,S1_budget4000,679,0.0442,0.0015
+sabia-4,S2_budget4000,685,0.0482,0.0029
 gpt-5.6-luna,S1_budget2000,23,0.0000,0.0000
 gpt-5.6-luna,S1_budget4000,543,0.0000,0.0000
 gpt-5.6-luna,S1_budget8000,24,0.0000,0.0417
@@ -49,5 +53,5 @@ sabiazinho-4,S2c_budget4000,698,0.0000,0.0043
 sabiazinho-4,S3_budget4000,699,0.0000,0.0100
 sabiazinho-4,S4_budget4000,698,0.0000,0.0086
 sabiazinho-4,oracle_budget16000,23,0.0000,0.0000
-sabiazinho-4,oracle_budget4000,562,0.0018,0.0089
+sabiazinho-4,oracle_budget4000,561,0.0018,0.0089
 sabiazinho-4,wrong-S2_budget4000,4,0.0000,0.0000

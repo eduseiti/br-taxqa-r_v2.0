@@ -1,27 +1,64 @@
 {
   "schema_version": 1,
   "kind": "retrieval_evaluation",
-  "created_at": "2026-11-08T17:48:36+00:00",
+  "created_at": "2026-11-15T17:52:26+00:00",
   "script": {
     "package": "ragpipe",
     "version": "0.1.0",
     "git": {
-      "commit": "99e1a8c2251e2722fe0dd6e91739b62f6f35a081",
+      "commit": "907b7fcc35e5b5c68dccc1a78c35435b5f12b3f4",
       "dirty": true,
       "dirty_files": [
-        "mbeddings/costs.csv",
-        "scripts/embedding/embed.py",
-        "scripts/embedding/embedding/config.py",
-        "scripts/embedding/embedding/costs.py",
-        "scripts/embedding/embedding/providers/__init__.py",
-        "scripts/embedding/embedding/runner.py",
-        "scripts/embedding/models.yaml",
-        "embeddings/gemini-emb-2/",
-        "runs/retrieval/gemini-emb-2/",
-        "scripts/embedding/embedding/providers/openrouter.py",
-        "scripts/embedding/parity_sample_20261108.json",
-        "scripts/embedding/tests/test_openrouter.py",
-        "scripts/rag/experiments/gemini_core.yaml"
+        "LAUDE.md",
+        "runs/contexts/jua-4b-mixed/irpf/S1_budget2000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S1_budget4000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S1_budget8000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S2_budget2000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S2_budget4000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S2_budget4000_context_v1/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S2_budget8000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S2c_budget4000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S3_budget4000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/S4_budget4000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/closed_book/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/oracle_budget16000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/oracle_budget4000/manifest.json",
+        "runs/contexts/jua-4b-mixed/irpf/summary.csv",
+        "runs/contexts/jua-4b-mixed/irpf/wrong-S2_budget4000/manifest.json",
+        "runs/retrieval/gemini-emb-2/irpf/eval/either_containment_merge_skip/comparisons.csv",
+        "runs/retrieval/gemini-emb-2/irpf/eval/either_containment_merge_skip/manifest.json",
+        "runs/retrieval/gemini-emb-2/irpf/eval/either_containment_merge_skip/metrics.csv",
+        "runs/retrieval/gemini-emb-2/irpf/eval/either_containment_merge_skip/reachability.csv",
+        "runs/retrieval/gemini-emb-2/irpf/eval/either_containment_merge_skip/report.md",
+        "runs/retrieval/gemini-emb-2/irpf/eval/either_containment_skip/comparisons.csv",
+        "runs/retrieval/gemini-emb-2/irpf/eval/either_containment_skip/metrics.csv",
+        "runs/retrieval/gemini-emb-2/irpf/eval/either_containment_skip/reachability.csv",
+        "runs/retrieval/gemini-emb-2/irpf/manifest.json",
+        "runs/retrieval/jua-4b-mixed/irpf/eval/either_containment_merge_skip/comparisons.csv",
+        "runs/retrieval/jua-4b-mixed/irpf/eval/either_containment_merge_skip/manifest.json",
+        "runs/retrieval/jua-4b-mixed/irpf/eval/either_containment_merge_skip/metrics.csv",
+        "runs/retrieval/jua-4b-mixed/irpf/eval/either_containment_merge_skip/reachability.csv",
+        "runs/retrieval/jua-4b-mixed/irpf/eval/either_containment_merge_skip/report.md",
+        "runs/retrieval/jua-4b-mixed/irpf/eval/v2d_either_containment_skip/comparisons.csv",
+        "runs/retrieval/jua-4b-mixed/irpf/eval/v2d_either_containment_skip/manifest.json",
+        "runs/retrieval/jua-4b-mixed/irpf/eval/v2d_either_containment_skip/metrics.csv",
+        "runs/retrieval/jua-4b-mixed/irpf/eval/v2d_either_containment_skip/reachability.csv",
+        "runs/retrieval/jua-4b-mixed/irpf/eval/v2d_either_containment_skip/report.md",
+        "runs/retrieval/jua-4b-mixed/irpf/manifest.json",
+        "scripts/nuggets/nuggetizer/analysis.py",
+        "scripts/nuggets/nuggetizer/ctx_audit.py",
+        "scripts/rag/corpus_exclusions.yaml",
+        "scripts/rag/ragpipe/contexts.py",
+        "scripts/rag/ragpipe/evaluation.py",
+        "scripts/rag/ragpipe/exclusions.py",
+        "scripts/rag/ragpipe/relevance.py",
+        "scripts/rag/ragpipe/retrieval.py",
+        "scripts/rag/tests/test_contexts.py",
+        "scripts/rag/tests/test_pipeline.py",
+        "scripts/rag/tests/test_units.py",
+        "scripts/report/build_explorer_data.py",
+        "scripts/report/build_trace_data.py",
+        "docs/20261115_172140_gold_matcher_annex_rule_and_misparsed_articles.md"
       ]
     },
     "argv": [
@@ -36,10 +73,11 @@
       "--comparisons",
       "S1:S2,S2:S3",
       "--eval-id",
-      "either_containment_skip"
+      "either_containment_skip",
+      "--force"
     ]
   },
-  "config_hash": "9b6f0f5101e97812adecda8014e90e56eb9cd665cf14ab9586bce5c325f0dd76",
+  "config_hash": "376064ce545a31415e320298f4b2928990730fdc6ac648dd2b466bad27c9754d",
   "eval_id": "either_containment_skip",
   "params": {
     "annex_rule": "either",
@@ -94,7 +132,7 @@
   "inputs": {
     "retrieval_manifest": {
       "path": "runs/retrieval/gemini-emb-2/irpf/manifest.json",
-      "config_hash": "e40415bc6f439907be4345c17f6ce2b9650b6d1a7c1965540037c83988c6db7b"
+      "config_hash": "b71cd88e45b2f28f17eb88f0d9ffa2464dc175efea436f31ca9739ac386152fd"
     },
     "chunks": {
       "path": "segmented/chunks_all.csv.gz",
@@ -156,28 +194,28 @@
   },
   "outputs": {
     "metrics.csv": {
-      "sha256": "550bc92ad5ef63e6818659d4e2b3ee776ce1e9395ec084b908953bcd88f54a85"
+      "sha256": "ed7738018a5de3fe82e34f5e91a53b524955a087c294e7a81710ca354a75467b"
     },
     "metrics_by_chapter.csv.gz": {
-      "sha256": "f7aa661e77afe89a128ab86baedb9b46f8fe42821d46edbab47618f056c35b2e"
+      "sha256": "2a2af4916f72a62a2854fa7b49f506ad99684983ebd471b9d13d6fd12ee35144"
     },
     "comparisons.csv": {
-      "sha256": "0588f4f8c3149baa98363609129464b7d29cfbdd456639e74e0b9d8078a701d9"
+      "sha256": "2e7ca9936c1845e274fad56f523117226730d9fe90595acc3a15b619fede6461"
     },
     "reachability.csv": {
-      "sha256": "aade57de91d3a52436f391d3a48755681efe78accf355fc32aa189287b90eee4"
+      "sha256": "5c585287e5fc270ecd30ad665757356c822760147c8b0715f209cee452276397"
     },
     "per_question.csv.gz": {
-      "sha256": "f2fe1bc2ae4d3e23648195ffd89d6e60a1534ceb05dcabf6de55732f0e5fee4e"
+      "sha256": "e4c7c0390344f40be7ce4ceb41a569867ffcccebaeab71b980e9fdc1501e21d4"
     },
     "per_item.csv.gz": {
-      "sha256": "c0040f5bcf785b61ba10ca5356f8a7f7f8f551b406120d95f51445e99b211413"
+      "sha256": "b7e2b520db75aa30f50ef2a28c7379dd30a55d65c5f3a637c6bf77d543202c2a"
     }
   },
   "timings_s": {
-    "load": 1.23,
-    "score": 6.51,
-    "aggregate": 5.2,
-    "total": 15.95
+    "load": 1.4,
+    "score": 6.46,
+    "aggregate": 3.33,
+    "total": 14.06
   }
 }

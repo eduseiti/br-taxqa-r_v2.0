@@ -76,7 +76,7 @@ def main() -> None:
     excluded = Exclusions.from_manifest(rman)
     excl_rows = excluded.row_mask(chunks, file_to_doc)
     masks = {s: member_mask(chunks, frozenset(sdefs[s]["tipos"]), sdefs[s].get("variantes", ["base"])) for s in strat_names}
-    matcher = Matcher(chunks, file_to_doc, main_file, grouping, P["annex_rule"])
+    matcher = Matcher(chunks, file_to_doc, main_file, grouping, P["annex_rule"], excluded.chunk_row_mask(chunks))
     checks: dict = {"strategy_chunks": {s: int((m & ~excl_rows).sum()) for s, m in masks.items()}}
     if checks["strategy_chunks"] != tix["checks"]["strategy_chunks"]:
         sys.exit(f"strategy chunk counts differ from the trace data: {checks['strategy_chunks']} vs "
