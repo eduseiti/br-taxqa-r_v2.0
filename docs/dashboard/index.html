@@ -1781,7 +1781,7 @@ function openChunk(cid, doc) {
 
 function renderTrace() {
   if (!TI || window.TRACE_MISSING) {
-    $("#trMissing").innerHTML = `<p class="warnbox">Trace data not found (<code>data/trace/index.js</code>). Run <code>.venv/bin/python scripts/report/build_trace_data.py</code> from the repo root (≈ 10 min, no API calls).</p>`;
+    $("#trMissing").innerHTML = `<p class="warnbox">Trace data not found (<code>data/trace/index.js</code>). From the repo root, either download it from the evaluation repo on Hugging Face (a gated repo: request access on its page, then <code>hf auth login</code>): <code>hf download eduseiti/BR-TaxQA-R-RAG-eval raw/dashboard_trace.tar.gz --repo-type dataset --local-dir .</code> then <code>tar -xzf raw/dashboard_trace.tar.gz</code>, or rebuild it: <code>.venv/bin/python scripts/report/build_trace_data.py</code> (≈ 10 min, no API calls).</p>`;
     return;
   }
   $(".tr-bar").style.top = $("header.top").offsetHeight + "px";

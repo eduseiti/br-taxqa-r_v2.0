@@ -28,7 +28,9 @@ copy:
       20261023_151928_rag_phase3_trimmed_full_generation.md,
       20261023_210727_rag_phase5_scoring_and_analysis.md,
       20261108_153258_gemini_embedding_2_comparison_plan.md,
-      20261108_175117_gemini_embedding_2_setup_embedding_and_retrieval_gate.md]}
+      20261108_175117_gemini_embedding_2_setup_embedding_and_retrieval_gate.md,
+      20261109_123355_results_dashboard.md,
+      20261110_194056_question_trace_dashboard_implementation.md]}
 pack:
   raw/runs_answers_cache.tar.gz: runs/answers/cache
   raw/nuggets_full_cache.tar.gz: nuggets/full/cache
@@ -38,6 +40,9 @@ pack:
   raw/nuggets_preview_v2_cache.tar.gz: nuggets/preview_v2/cache
   raw/nuggets_preview_v3_cache.tar.gz: nuggets/preview_v3/cache
   raw/nuggets_parity_openrouter_cache.tar.gz: nuggets/parity_openrouter/cache
+  # not a cache: the data of the dashboard's question-trace tab (gitignored, ≈ 440 MB, built by
+  # scripts/report/build_trace_data.py), so the tab works on any clone without the 7-minute rebuild (added 2026-11-15)
+  raw/dashboard_trace.tar.gz: docs/dashboard/data/trace
 # viewer tables (build_release.py write_flat): Parquet, because `datasets` reads every config of a repo with one
 # reader; answers / labels are flattened from the per-run files, the others are typed copies of CSV tables
 flat:

@@ -11,6 +11,8 @@ It decides nothing about the experiments, and it made no LLM calls ($0).
 
 ```bash
 .venv/bin/python scripts/report/build_trace_data.py      # ≈ 7 min, reads local files only, no API calls
+# or, on another computer: download raw/dashboard_trace.tar.gz from the HF eval repo and `tar -xzf` it from the repo
+# root (docs/20261115_141728_hugging_face_update_dashboard_trace.md)
 xdg-open "docs/dashboard/index.html#trace/350/jua-4b-mixed/S2/4000/gpt-5.6-luna"
 ```
 

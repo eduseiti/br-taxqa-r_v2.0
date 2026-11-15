@@ -47,6 +47,23 @@
    "bytes": 3164706122,
    "parent_hf_commit": "af37fda92b62c05755ed61d1d7185f59f2aeef64",
    "note": "adds the gemini-embedding-2 comparison (docs/20261108_231904_hugging_face_update_gemini_embedding_2.md); repo A unchanged at 2b10e0f"
+  },
+  {
+   "stage": "staging",
+   "repo_id": "eduseiti/BR-TaxQA-R-RAG-eval",
+   "url": "https://huggingface.co/datasets/eduseiti/BR-TaxQA-R-RAG-eval",
+   "hf_commit": "4ddc246f0ee7915ad0106c9660d6d90425126c92",
+   "tag": null,
+   "uploaded": "2026-11-15",
+   "built_at": "2026-11-15T14:15:58+00:00",
+   "built_from_git": {
+    "commit": "7c7d9d1a91abef403abb712318e1cbeabd866310",
+    "dirty": true
+   },
+   "n_files": 976,
+   "bytes": 3209709785,
+   "parent_hf_commit": "0a69ef96537c06149a2e8ccb76d7588d1ce90ca7",
+   "note": "adds raw/dashboard_trace.tar.gz (question-trace tab data, restores docs/dashboard/data/trace/) and the two dashboard notes (docs/20261115_141728_hugging_face_update_dashboard_trace.md); repo A unchanged. The repo is public and gated on the Hub."
   }
  ]
 }

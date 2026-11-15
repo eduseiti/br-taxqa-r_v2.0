@@ -194,13 +194,19 @@ parameters, system and user prompts), `response`, `text`, `usage`, `model_served
 | `nuggets_scoring_cache.tar.gz` | `nuggets/scoring/cache/` | 26,420 |
 | `nuggets_pilot_cache.tar.gz`, `nuggets_preview*_cache.tar.gz`, `nuggets_parity_openrouter_cache.tar.gz` | the pilot, preview and parity caches | 1,230 |
 
+**Results dashboard: question-trace data.** `raw/dashboard_trace.tar.gz` is not a cache. It restores
+`docs/dashboard/data/trace/` (≈ 440 MB, 715 question files and 453 document files) for tab 8 ("Question trace")
+of the results dashboard `docs/dashboard/index.html`, which is in the git repo. That tab follows one question
+through nuggets → documents → ranking → context and prompt → answer. The archive saves the ≈ 7-minute rebuild with
+`scripts/report/build_trace_data.py`. After extraction, the dashboard opens from `file://`, with no server.
+
 ## Reproducing
 
 ```bash
 git clone https://github.com/eduseiti/br-taxqa-r_v2.0 && cd br-taxqa-r_v2.0
 hf download unicamp-dl/BR-TaxQA-R --repo-type dataset --local-dir .
 hf download unicamp-dl/BR-TaxQA-R-RAG-eval --repo-type dataset --local-dir .
-for f in raw/*.tar.gz; do tar -xzf "$f"; done        # restores the caches under their repo paths
+for f in raw/*.tar.gz; do tar -xzf "$f"; done        # restores the caches (and the dashboard trace data) under their repo paths
 ```
 
 With the caches in place, `scripts/rag/rag.py` and `scripts/nuggets/nuggets.py` replay every LLM call from the

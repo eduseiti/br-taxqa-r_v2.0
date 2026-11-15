@@ -97,7 +97,8 @@ than expected.
   `scripts/report/build_dashboard_data.py` (no API calls); see `docs/20261109_123355_results_dashboard.md`. Its
   **question trace** tab (8; one question through nuggets → documents → ranking → context/prompt → answer) has its
   own data, `scripts/report/build_trace_data.py` (≈ 7 min, gitignored `docs/dashboard/data/trace/`):
-  `docs/20261110_194056_question_trace_dashboard_implementation.md`.
+  `docs/20261110_194056_question_trace_dashboard_implementation.md`. On other computers, restore it from the HF eval repo
+  (`raw/dashboard_trace.tar.gz`, `docs/20261115_141728_hugging_face_update_dashboard_trace.md`).
 - **`nuggets/`** — nugget pipeline outputs (`scripts/nuggets/nuggets.py`), one folder per run
   (`preview/`, `preview_v2/`, `preview_v3/`; `pilot/` next): nuggets, validation, self-score
   labels, the cost ledger `costs.csv` and `report.md`. Raw API responses (`cache/`) and the input
