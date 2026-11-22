@@ -126,6 +126,23 @@
    "bytes": 3215943240,
    "parent_hf_commit": "ea67478af8296b61ffe9725ffb0d681f2c5e4b18",
    "note": "corpus fix B: both embedding stores extended (377 texts), retrieval, evaluations, contexts, 121 regenerated answers, rescored labels, scoring tables and analysis, dashboard trace/explorer and LLM caches repacked; nuggets_full and parity_openrouter cache archives reused from the Hub (not on this machine)"
+  },
+  {
+   "stage": "staging",
+   "repo_id": "eduseiti/BR-TaxQA-R-RAG-eval",
+   "url": "https://huggingface.co/datasets/eduseiti/BR-TaxQA-R-RAG-eval",
+   "hf_commit": "74fc95f9953b8c8c91b7fb9a0b8fa2d6b91a63eb",
+   "tag": null,
+   "uploaded": "2026-11-22",
+   "built_at": "2026-11-22T21:44:05+00:00",
+   "built_from_git": {
+    "commit": "a83b3b5b322800560127d9ae333966e209ac694e",
+    "dirty": true
+   },
+   "n_files": 1042,
+   "bytes": 3274071143,
+   "parent_hf_commit": "4ea3a09d88204c0a30a7fd434cb0c517a12cb904",
+   "note": "A1-A3 (docs/20261122_192653_*, 194659_*, 205115_*): GPT-6.2 Sol answers (4 runs x 715) and labels, in-text citation tables, token-metric and Sol analyses, refreshed scoring tables/analyses (stratified_30 analysis was stale), card (Sol, headline values after fix B, archive counts), answer/scoring caches and dashboard trace/explorer repacked; other archives reused"
   }
  ]
 }

@@ -1,4 +1,4 @@
-"""Batch API jobs (OpenAI Responses, Gemini generateContent) that fill the same disk cache.
+"""Batch API jobs (OpenAI Responses, Gemini generateContent, OpenRouter /batches) that fill the same disk cache.
 
 Flow (plan v2 §7: "the rest of the pipeline reads only the cache"):
 
@@ -14,6 +14,12 @@ Flow (plan v2 §7: "the rest of the pipeline reads only the cache"):
    command's own validation rejects is called again synchronously (``complete_json``).
 
 Both APIs bill 50 % of the synchronous price; a job finishes within 24 h (Gemini: expires after 48 h).
+
+OpenRouter (added 2026-11-22 for GPT-6.2 Sol, which has no flex endpoint): ``POST /api/v1/batches`` with the
+requests inline (no file upload), one model per batch; ``only`` and ``allow_fallbacks`` at the batch level (it
+rejects the other routing keys, which stay in each body); results inline in ``GET /batches/{id}``; usage per
+request but cost only per batch (``usage.cost``, recorded in the job record next to the ledger total). There is
+no cancel endpoint. Each result is checked like a synchronous reply: tool use, served provider.
 """
 from __future__ import annotations
 
@@ -26,22 +32,38 @@ from pathlib import Path
 
 import httpx
 
-from .client import BATCH_DISCOUNT, BATCH_TAG, BudgetExceeded, LLMError, ledger_total, parse_gemini, parse_openai
+from .client import (BATCH_DISCOUNT, BATCH_TAG, OPENROUTER, BudgetExceeded, LLMError, ledger_total, parse_gemini,
+                     parse_openai, parse_openrouter, tool_use)
 
 GEMINI = "https://generativelanguage.googleapis.com"
-OPENAI_DONE = {"completed", "failed", "expired", "cancelled"}
+OPENAI_DONE = {"completed", "failed", "expired", "cancelled"}     # also OpenRouter
 GEMINI_DONE = {"JOB_STATE_SUCCEEDED", "JOB_STATE_FAILED", "JOB_STATE_CANCELLED", "JOB_STATE_EXPIRED",
                "BATCH_STATE_SUCCEEDED", "BATCH_STATE_FAILED", "BATCH_STATE_CANCELLED", "BATCH_STATE_EXPIRED"}
 
 
 class BatchRecorder:
-    def __init__(self, out: Path):
+    """``max_requests``: split each model's queue into jobs of at most this many requests (OpenRouter refuses a
+    batch whose worst-case cost, every request at ``max_tokens``, exceeds the account balance). Keys already in a
+    job that is not collected yet are not queued again (a rerun while jobs are open)."""
+
+    def __init__(self, out: Path, max_requests: int | None = None):
         self.dir = Path(out) / "batches"
         self.pending: dict[str, dict] = {}         # model name -> {"llm", "items": {key: (req, body, tag)}}
         self._lock = threading.Lock()
+        self.max_requests = max_requests
+        self.in_open_jobs: set[str] = set()
+        for path in self.dir.glob("*.json") if self.dir.exists() else []:
+            rec = json.loads(path.read_text())
+            if rec.get("state") == "submitted" and rec.get("requests_file"):
+                for line in open(self.dir / rec["requests_file"]):
+                    self.in_open_jobs.add(json.loads(line)["key"])
+        self.skipped_open = 0
 
     def add(self, llm, key, req, body, tag):
         with self._lock:
+            if key in self.in_open_jobs:
+                self.skipped_open += 1
+                return
             g = self.pending.setdefault(llm.name, {"llm": llm, "items": {}})
             g["items"][key] = (req, body, tag)
 
@@ -59,18 +81,38 @@ class BatchRecorder:
                                  f"(+ ledger ${total:.2f}) > budget ${budget_usd:.2f}; nothing submitted")
         self.dir.mkdir(parents=True, exist_ok=True)
         jobs = []
+        groups = []
         for m, g in self.pending.items():
+            keys = list(g["items"])
+            n = self.max_requests or len(keys) or 1
+            for i in range(0, len(keys), n):
+                groups.append((m, {"llm": g["llm"], "items": {k: g["items"][k] for k in keys[i:i + n]}}))
+        for part, (m, g) in enumerate(groups):
             llm = g["llm"]
+            est[m] = _estimate(llm, g["items"], ledger)
             if abs(llm.price.get("batch_discount", 0) - BATCH_DISCOUNT) > 1e-9:
                 raise LLMError(f"{m}: registry batch_discount {llm.price.get('batch_discount')} != {BATCH_DISCOUNT}")
-            stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            stamp = datetime.now().strftime("%Y%m%d_%H%M%S") + f"_{part}"
             local = self.dir / f"{m}_{stamp}.input.jsonl"
             with open(local, "w") as f:
                 for key, (_, body, _) in g["items"].items():
                     line = ({"custom_id": key, "method": "POST", "url": "/v1/responses", "body": body}
                             if llm.provider == "openai" else {"key": key, "request": body})
                     f.write(json.dumps(line, ensure_ascii=False) + "\n")
-            job_id = _submit_openai(llm, local) if llm.provider == "openai" else _submit_gemini(llm, local, m)
+            if llm.provider == "openai":
+                job_id = _submit_openai(llm, local)
+            elif llm.provider == "openrouter":
+                try:
+                    job_id = _submit_openrouter(llm, g["items"])
+                except LLMError as e:
+                    if not jobs:
+                        raise
+                    left = sum(len(x["items"]) for _, x in groups[part:])
+                    jobs.append({"job": None, "model": m, "n_requests": left, "estimated_usd_billed": 0.0,
+                                 "record": f"NOT SUBMITTED ({str(e)[:200]}); rerun after the open jobs finish"})
+                    break
+            else:
+                job_id = _submit_gemini(llm, local, m)
             reqs = self.dir / f"{_safe(job_id)}.requests.jsonl"     # the cache records need the request
             with open(reqs, "w") as f:
                 for k, (req, _, t) in g["items"].items():
@@ -112,6 +154,22 @@ def _estimate(llm, items, ledger) -> float:
 
 
 # ------------------------------------------------------------------ providers: submit
+def _or_headers(llm):
+    return {"Authorization": f"Bearer {llm._key}", "X-Title": "BR-TaxQA-R"}
+
+
+def _submit_openrouter(llm, items) -> str:
+    routing = llm.routing or {}
+    payload = {"endpoint": "/v1/chat/completions", "model": llm.model_id,     # keys before "requests" (streamed)
+               "provider": {k: routing[k] for k in ("only", "allow_fallbacks") if k in routing},
+               "completion_window": "24h",
+               "requests": [{"custom_id": key, "body": body} for key, (_, body, _) in items.items()]}
+    r = httpx.post(f"{OPENROUTER}/batches", json=payload, headers=_or_headers(llm), timeout=600)
+    if r.status_code not in (200, 202):
+        raise LLMError(f"openrouter batch create HTTP {r.status_code}: {r.text[:500]}")
+    return r.json()["id"]
+
+
 def _submit_openai(llm, local: Path) -> str:
     f = llm._oa.files.create(file=open(local, "rb"), purpose="batch")
     b = llm._oa.batches.create(input_file_id=f.id, endpoint="/v1/responses", completion_window="24h")
@@ -161,6 +219,11 @@ def poll(llm, rec) -> tuple[str, bool, dict]:
     if rec["provider"] == "openai":
         b = llm._oa.batches.retrieve(rec["job"]).model_dump()
         return b["status"], b["status"] in OPENAI_DONE, b
+    if rec["provider"] == "openrouter":
+        r = httpx.get(f"{OPENROUTER}/batches/{rec['job']}", headers=_or_headers(llm), timeout=600)
+        r.raise_for_status()
+        b = r.json()
+        return b.get("status") or "?", b.get("status") in OPENAI_DONE, b
     r = httpx.get(f"{GEMINI}/v1beta/{rec['job']}", headers=_gemini_headers(llm), timeout=120)
     r.raise_for_status()
     d = r.json()
@@ -171,6 +234,13 @@ def poll(llm, rec) -> tuple[str, bool, dict]:
 def _results(llm, rec, status) -> list[tuple[str, dict | None, str | None]]:
     """[(key, response body or None, error)]"""
     out = []
+    if rec["provider"] == "openrouter":
+        for x in status.get("results") or []:
+            resp = x.get("response") or {}
+            ok = resp.get("status_code") == 200 and resp.get("body")
+            out.append((x["custom_id"], resp["body"] if ok else None,
+                        None if ok else json.dumps(x.get("error") or resp)[:300]))
+        return out
     if rec["provider"] == "openai":
         for fid, is_err in ((status.get("output_file_id"), False), (status.get("error_file_id"), True)):
             if not fid:
@@ -243,10 +313,21 @@ def collect(out: Path, llms: dict, log_fn=print) -> list[dict]:
                     bad += 1
                     errors[key] = err
                     continue
-                parse = parse_openai if rec["provider"] == "openai" else parse_gemini
+                parse = {"openai": parse_openai, "openrouter": parse_openrouter}.get(rec["provider"], parse_gemini)
                 text, u, served, meta = parse(body)
-                llm._log(BATCH_TAG + meta_req["tag"], 1, u, served, 0.0, meta.get("finish"))
+                why = None
+                if rec["provider"] == "openrouter":
+                    why = tool_use(body)
+                    if not why and llm.served_provider and meta.get("provider") != llm.served_provider:
+                        why = f"served by {meta.get('provider')!r}, expected {llm.served_provider!r}"
+                    rec.setdefault("usd_rows", 0.0)
+                    rec["usd_rows"] = round(rec["usd_rows"] + u.cost(llm.price, batch=True), 6)
+                llm._log(BATCH_TAG + meta_req["tag"], 1, u, served, 0.0,
+                         f"rejected:{why}" if why else meta.get("finish"),
+                         {"provider": meta.get("provider")} if rec["provider"] == "openrouter" else None)
                 try:
+                    if why:
+                        raise LLMError(why)
                     if meta.get("truncated"):
                         raise LLMError(f"truncated ({meta.get('finish')})")
                     json.loads(text)
@@ -261,6 +342,11 @@ def collect(out: Path, llms: dict, log_fn=print) -> list[dict]:
                 (llm.cache_dir / f"{key}.json").write_text(json.dumps(crec, ensure_ascii=False, indent=1))
                 ok += 1
             missing = len(requests) - ok - bad
+            if rec["provider"] == "openrouter":       # the provider's own total, to reconcile with the ledger rows
+                rec["usage_reported"] = status.get("usage")
+                rec["batch_provider"] = status.get("provider")
+                if status.get("error"):
+                    errors["_batch"] = json.dumps(status["error"])[:500]
             rec.update(state=_final(state),
                        provider_state=state, n_cached=ok, n_failed=bad + missing, errors=errors,
                        collected=datetime.now().isoformat(timespec="seconds"))

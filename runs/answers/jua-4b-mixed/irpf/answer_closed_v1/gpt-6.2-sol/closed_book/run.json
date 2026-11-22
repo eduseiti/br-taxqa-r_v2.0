@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "kind": "answers",
+  "created_at": "2026-11-22T20:32:22+00:00",
+  "script": {
+    "package": "ragpipe",
+    "version": "0.1.0",
+    "git": {
+      "commit": "a83b3b5b322800560127d9ae333966e209ac694e",
+      "dirty": true,
+      "dirty_files": [
+        "uns/answers/jua-4b-mixed/irpf/summary.csv",
+        "runs/costs.csv",
+        "scripts/llm_client/batch.py",
+        "scripts/llm_client/client.py",
+        "scripts/llm_client/tests/test_openrouter.py",
+        "scripts/rag/llms.yaml",
+        "scripts/rag/rag.py",
+        "scripts/rag/ragpipe/generation.py",
+        "runs/answers/jua-4b-mixed/irpf/answer_closed_v1/gpt-6.2-sol/",
+        "runs/answers/jua-4b-mixed/irpf/answer_v1/gpt-6.2-sol/",
+        "scripts/rag/experiments/sol.yaml"
+      ]
+    },
+    "argv": [
+      "scripts/rag/rag.py",
+      "run",
+      "--experiment",
+      "scripts/rag/experiments/sol.yaml",
+      "--budget",
+      "71.22"
+    ]
+  },
+  "config_hash": "4a5691a1219896f47c6753d32ffc42fdac675a2542a93d19d1ba5acbf57f72e0",
+  "run_id": "jua-4b-mixed/irpf/answer_closed_v1/gpt-6.2-sol/closed_book",
+  "complete": true,
+  "experiment": "sol (scripts/rag/experiments/sol.yaml)",
+  "sample_requested": "all",
+  "llm": {
+    "name": "gpt-6.2-sol",
+    "provider": "openrouter",
+    "route": "openrouter",
+    "model_id": "openai/gpt-6.2-sol",
+    "params": {
+      "reasoning": {
+        "effort": "minimal"
+      },
+      "max_tokens": 4000,
+      "response_format": "json_schema"
+    },
+    "routing": {
+      "only": [
+        "openai"
+      ],
+      "allow_fallbacks": false,
+      "require_parameters": true,
+      "data_collection": "deny"
+    },
+    "served_provider": "OpenAI",
+    "price": {
+      "usd_per_million_input": 2.0,
+      "usd_per_million_cached_input": 0.1,
+      "usd_per_million_output": 10.0,
+      "batch_discount": 0.5,
+      "checked": "2026-11-22"
+    },
+    "context_window": 1050000,
+    "knowledge_cutoff": null,
+    "api_key_env": "OPENROUTER_API_KEY"
+  },
+  "prompt": {
+    "name": "answer_closed_v1",
+    "path": "scripts/rag/prompts/answer_closed_v1.pt.md",
+    "sha256": "c4abacace04668aaa3fcd6afbc40aa96a17de91dcdc8a45c4ffc0690ede81d97"
+  },
+  "schema": {
+    "name": "resposta",
+    "sha256": "338964594d08afb9a001b9f94a0adacb5c50180f123f57ffd14b518b8a4f866a"
+  },
+  "checks_version": 2,
+  "context": {
+    "path": "runs/contexts/jua-4b-mixed/irpf/closed_book/manifest.json",
+    "config_hash": "b9f5e350c8de6475dcbcb98a0b4232defdc527812cae39f6e0c063b064d3c717",
+    "contexts_sha256": "d300feba35fbed1778b284f300c705d2fd40e3b2f2ba856d5ee4e2e9a2a96b21",
+    "set": "closed_book",
+    "template": "context_v2"
+  },
+  "counts": {
+    "questions": 715,
+    "ok": 715,
+    "errors": 0,
+    "skipped": 0,
+    "abstention_rate": 0.0014,
+    "mean_claims": 2.7339,
+    "mean_answer_chars": 610.8193,
+    "mean_input_tokens": 465.3538,
+    "mean_output_tokens": 259.6867,
+    "max_output_tokens": 1085,
+    "quote_ok_rate": null,
+    "quote_bad_document": 0,
+    "claim_grounded_rate": 0.0,
+    "answers_with_value_not_in_context": 0.2843,
+    "abstention_inconsistent": 0,
+    "retried": 0,
+    "usd_list": 2.522216,
+    "usd_billed_new_calls": 0,
+    "new_calls": 0
+  },
+  "outputs": {
+    "answers.jsonl": {
+      "sha256": "ef413e3725a48d3a760f7cc11bf139f62be26b3b50f707179c4039822ad33352"
+    }
+  }
+}

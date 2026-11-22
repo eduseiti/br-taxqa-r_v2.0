@@ -236,8 +236,8 @@ const SCOL = { S1: "--s1", S2: "--s2", S3: "--s3", S2c: "--s4", S4: "--s5" };
 const scol = s => css(SCOL[s] || "--muted");
 const EMBS = ["jua-4b-mixed", "gemini-emb-2"];
 const EMB_SHORT = { "jua-4b-mixed": "jua", "gemini-emb-2": "Gemini" };
-const LLMS = ["gpt-5.6-terra", "gpt-5.6-luna", "sabia-4", "sabiazinho-4"];
-const LLM_SHORT = { "gpt-5.6-terra": "Terra", "gpt-5.6-luna": "Luna", "sabia-4": "Sabiá-4", "sabiazinho-4": "Sabiazinho-4" };
+const LLMS = ["gpt-6.2-sol", "gpt-5.6-terra", "gpt-5.6-luna", "sabia-4", "sabiazinho-4"];
+const LLM_SHORT = { "gpt-6.2-sol": "Sol (6.2)", "gpt-5.6-terra": "Terra", "gpt-5.6-luna": "Luna", "sabia-4": "Sabiá-4", "sabiazinho-4": "Sabiazinho-4" };
 const ctxLabel = cid => {
   if (!cid) return "";
   const [c, emb] = cid.split("@");

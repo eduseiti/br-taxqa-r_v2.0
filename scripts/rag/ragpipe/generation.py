@@ -45,7 +45,7 @@ from .runs import (REPO, RunError, base_manifest, prepare_run_dir, read_json, re
 
 sys.path.insert(0, str(REPO / "scripts"))
 sys.path.insert(0, str(REPO / "scripts" / "nuggets"))
-from llm_client import (LLM, BudgetExceeded, CreditsExhausted, LLMError, QuotaExhausted,  # noqa: E402
+from llm_client import (LLM, BatchDeferred, BudgetExceeded, CreditsExhausted, LLMError, QuotaExhausted,  # noqa: E402
                         route_config)
 from nuggetizer import values as nvalues  # noqa: E402
 
@@ -267,6 +267,8 @@ class GenConfig:
     force: bool = False
     registry: Path = REGISTRY
     experiment: str | None = None            # name of the experiment file, recorded in run.json
+    batch: bool = False                      # queue cache misses as Batch API jobs (llm_client/batch.py) instead of calling
+    batch_max: int | None = None             # requests per batch job (split; OpenRouter checks the worst case vs balance)
 
     def prompt_for(self, kind: str) -> str:
         return self.closed_prompt if kind == "closed_book" else self.prompt
@@ -441,6 +443,12 @@ def run_generation(cfg: GenConfig, paths: Paths = Paths()) -> tuple[Path, pd.Dat
     ledger = paths.runs / "costs.csv"
     clients = {n: LLM(n, runs[[r.llm_name for r in runs].index(n)].cfg, cache_dir, ledger,
                       budget_usd=cfg.budget_usd, check_billed=True) for n in dict.fromkeys(r.llm_name for r in runs)}
+    recorder = None
+    if cfg.batch:
+        from llm_client.batch import BatchRecorder
+        recorder = BatchRecorder(paths.runs / "answers", cfg.batch_max)       # job records: runs/answers/batches/
+        for c in clients.values():
+            c.batch = recorder
     sems = {n: threading.Semaphore(cfg.workers) for n in clients}
     stop = threading.Event()
     fatal: list[str] = []
@@ -458,6 +466,8 @@ def run_generation(cfg: GenConfig, paths: Paths = Paths()) -> tuple[Path, pd.Dat
             try:
                 res = clients[r.llm_name].complete_json(r.prompt.system, user, SCHEMA, SCHEMA_NAME,
                                                         validate=validate_shape, tag=f"answer:{r.context_id}:{q}")
+            except BatchDeferred:
+                return None                  # queued for a batch job; written by the rerun after `rag.py batch wait`
             except (BudgetExceeded, CreditsExhausted, QuotaExhausted) as e:
                 stop.set()
                 fatal.append(f"{type(e).__name__}: {e}")
@@ -485,6 +495,22 @@ def run_generation(cfg: GenConfig, paths: Paths = Paths()) -> tuple[Path, pd.Dat
             done += 1
             if done % 100 == 0:
                 log.info("%d / %d answered (%.0fs)", done, len(jobs), time.time() - t0)
+    if recorder is not None and recorder.skipped_open:
+        log.info("%d requests are in batch jobs still open: not queued again", recorder.skipped_open)
+    if recorder is not None and (len(recorder) or recorder.skipped_open):
+        if not len(recorder):
+            log.info("nothing to submit: `rag.py batch wait`, then rerun without --batch")
+            return root, pd.DataFrame()
+        jobs = recorder.submit(cfg.budget_usd, ledger, note=f"rag generate {cfg.experiment or ''} {cfg.sample}".strip())
+        for j in jobs:
+            if j["job"] is None:
+                log.warning("%s: %d requests %s", j["model"], j["n_requests"], j["record"])
+                continue
+            log.info("submitted batch %s (%s): %d requests, ≈ $%.2f billed", j["job"], j["model"], j["n_requests"],
+                     j["estimated_usd_billed"])
+        log.info("nothing written yet: `rag.py batch wait`, then rerun this command without --batch")
+        return root, pd.DataFrame([{"batch_job": j["job"], "llm": j["model"], "n_requests": j["n_requests"],
+                                    "est_usd_billed": j["estimated_usd_billed"]} for j in jobs])
     rows = []
     for r in runs:
         prepare_run_dir(r.out, r.config_hash, True)    # mismatches were refused above (or --force)

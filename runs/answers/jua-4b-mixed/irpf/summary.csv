@@ -1,6 +1,7 @@
 run_id,prompt,llm,context_id,questions,ok,errors,skipped,abstention_rate,mean_claims,mean_answer_chars,mean_input_tokens,mean_output_tokens,max_output_tokens,quote_ok_rate,quote_bad_document,claim_grounded_rate,answers_with_value_not_in_context,abstention_inconsistent,retried,usd_list,usd_billed_new_calls,new_calls
 jua-4b-mixed/irpf/answer_closed_v1/gpt-5.6-luna/closed_book,answer_closed_v1,gpt-5.6-luna,closed_book,715,715,0,0,0.0028,2.6704,673.5386,421.354,191.683,692,,0,0.0,0.1795,0,0,0.224705,0,0
 jua-4b-mixed/irpf/answer_closed_v1/gpt-5.6-terra/closed_book,answer_closed_v1,gpt-5.6-terra,closed_book,715,715,0,0,0,4.4587,1048.5231,421.354,296.351,976,,0,0.0,0.3343,0,0,3.14523,0,0
+jua-4b-mixed/irpf/answer_closed_v1/gpt-6.2-sol/closed_book,answer_closed_v1,gpt-6.2-sol,closed_book,715,715,0,0,0.0014,2.7339,610.8193,465.354,259.687,1085,,0,0.0,0.2843,0,0,2.52222,0,0
 jua-4b-mixed/irpf/answer_closed_v1/sabia-4/closed_book,answer_closed_v1,sabia-4,closed_book,715,715,0,0,0.0126,4.6629,1028.4717,385.169,391.298,1072,0.0,1,0.0,0.2493,0,0,1.19806,0,0
 jua-4b-mixed/irpf/answer_closed_v1/sabiazinho-4/closed_book,answer_closed_v1,sabiazinho-4,closed_book,715,714,1,0,0,4.6261,1032.5938,385.19,407.993,870,0.0,336,0.0,0.1863,72,0,0.248901,0.000449,1
 jua-4b-mixed/irpf/answer_v1/gpt-5.6-luna/S1_budget2000,answer_v1,gpt-5.6-luna,S1_budget2000,30,30,0,0,0.2333,3.087,727.2174,2202.97,297.633,707,1.0,0,0.9859,0.0,0,0,0.023934,0,0
@@ -29,6 +30,9 @@ jua-4b-mixed/irpf/answer_v1/gpt-5.6-terra/S4_budget4000,answer_v1,gpt-5.6-terra,
 jua-4b-mixed/irpf/answer_v1/gpt-5.6-terra/oracle_budget16000,answer_v1,gpt-5.6-terra,oracle_budget16000,30,25,0,5,0.04,3.2083,779.75,4012.16,410.84,1311,0.9851,0,0.987,0.0,0,0,0.315756,0,0
 jua-4b-mixed/irpf/answer_v1/gpt-5.6-terra/oracle_budget4000,answer_v1,gpt-5.6-terra,oracle_budget4000,715,596,0,119,0.047,3.2377,767.8134,2536.82,403.206,2111,0.9932,0,0.9967,0.007,0,0,5.89952,0,0
 jua-4b-mixed/irpf/answer_v1/gpt-5.6-terra/wrong-S2_budget4000,answer_v1,gpt-5.6-terra,wrong-S2_budget4000,30,30,0,0,0.9667,3.0,521.0,3773.8,28.9667,260,1.0,0,1.0,0.0,0,0,0.236856,0,0
+jua-4b-mixed/irpf/answer_v1/gpt-6.2-sol/S1_budget4000,answer_v1,gpt-6.2-sol,S1_budget4000,715,715,0,0,0.0364,2.6633,682.1176,3758.4,466.003,2129,0.9994,0,1.0,0.0232,0,0,8.70643,0,0
+jua-4b-mixed/irpf/answer_v1/gpt-6.2-sol/S2_budget4000,answer_v1,gpt-6.2-sol,S2_budget4000,715,715,0,0,0.021,2.6086,674.3429,3769.2,470.175,1993,0.9992,0,1.0,0.0243,0,0,8.75171,0,0
+jua-4b-mixed/irpf/answer_v1/gpt-6.2-sol/oracle_budget4000,answer_v1,gpt-6.2-sol,oracle_budget4000,715,596,0,119,0.0403,2.743,703.5804,2580.82,482.505,2255,0.9987,0,1.0,0.042,0,0,5.95207,0,0
 jua-4b-mixed/irpf/answer_v1/sabia-4/S1_budget2000,answer_v1,sabia-4,S1_budget2000,30,30,0,0,0.0333,3.4828,677.4828,2568.4,571.667,2307,0.9048,0,0.9307,0.0345,0,0,0.108777,0,0
 jua-4b-mixed/irpf/answer_v1/sabia-4/S1_budget4000,answer_v1,sabia-4,S1_budget4000,715,715,0,0,0.0545,4.0237,828.679,4430.04,670.512,3325,0.9292,9,0.9518,0.0,5,0,4.60858,0.044461,7
 jua-4b-mixed/irpf/answer_v1/sabia-4/S1_budget8000,answer_v1,sabia-4,S1_budget8000,30,30,0,0,0,4.2,816.5667,8104.3,795.2,1547,0.8852,0,0.9286,0.0,0,0,0.272267,0,0

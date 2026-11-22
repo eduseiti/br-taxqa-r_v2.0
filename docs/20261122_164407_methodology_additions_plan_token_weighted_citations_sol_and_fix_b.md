@@ -2,7 +2,9 @@
 
 Date: 2026-11-22. Plan note. **Status (2026-11-22):** B done (`docs/20261122_181611_*`); A1 done
 (`docs/20261122_192653_a1_token_weighted_provision_metric_results.md`); A2 done
-(`docs/20261122_194659_a2_in_text_legal_citations_results.md`; manual check 98.3%, stage 3 gate met); A3 not started. It covers four
+(`docs/20261122_194659_a2_in_text_legal_citations_results.md`; manual check 98.3%, stage 3 gate met); A3 done
+(`docs/20261122_205115_a3_gpt_6_2_sol_results.md`; batch route, effort `minimal` since `none` is refused; $18.41);
+dashboards and HF repo B (`74fc95f`) updated. It covers four
 pieces of work:
 
 - **A1:** a token-weighted provision metric, to measure how much of each strategy's context is noise;

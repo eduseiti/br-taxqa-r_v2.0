@@ -64,6 +64,29 @@ models:
       params: {reasoning: {effort: none}, max_tokens: 4000, response_format: json_schema}
       routing: {only: [openai/flex], allow_fallbacks: false, require_parameters: true, data_collection: deny}
       served_provider: OpenAI
+  # A3 of docs/20261122_164407_*: GPT-6.2 Sol in Terra's 4 conditions (user decisions of 2026-11-22: batch route,
+  # 4 conditions). Run through OpenRouter's Batch API (`rag.py run --batch`, then `rag.py batch wait`; llm_client/
+  # batch.py): $1 / $5, half the $2 / $10 list price of the `openai` endpoint (Sol has no flex endpoint; the `:batch`
+  # model id is refused on chat/completions). Reasoning cannot be disabled ("Reasoning is mandatory for this
+  # endpoint", probe 2026-11-22, sync and batch): `minimal` is the lowest effort, a confound vs Terra (effort none);
+  # the reasoning tokens are in the ledger (0 in the probe).
+  gpt-6.2-sol:
+    provider: openai
+    model_id: gpt-6.2-sol
+    api_key_env: OPENAI_API_KEY
+    route: openrouter
+    params: {reasoning_effort: minimal, max_output_tokens: 4000}
+    price: {usd_per_million_input: 2.00, usd_per_million_cached_input: 0.10, usd_per_million_output: 10.00,
+            batch_discount: 0.5, checked: 2026-11-22}
+    context_window: 1050000
+    knowledge_cutoff: null                  # not in the OpenRouter catalogue (snapshot openai/gpt-6.2-sol-20261117)
+    openrouter:
+      model_id: openai/gpt-6.2-sol
+      # supported_parameters: reasoning, reasoning_effort, max_tokens, response_format, structured_outputs, seed…
+      params: {reasoning: {effort: minimal}, max_tokens: 4000, response_format: json_schema}
+      # batch: only + allow_fallbacks at the batch level; require_parameters + data_collection in each body
+      routing: {only: [openai], allow_fallbacks: false, require_parameters: true, data_collection: deny}
+      served_provider: OpenAI
   # DeepSeek (U4 of the first-evaluation note): unreachable from this machine; run from the other one.
   # Routing, effort and response format are to be probed there before enabling.
   deepseek-v4-pro:

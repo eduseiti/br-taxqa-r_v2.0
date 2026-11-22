@@ -34,7 +34,12 @@ copy:
       20261115_145149_corpus_and_question_explorer.md,
       20261115_172140_gold_matcher_annex_rule_and_misparsed_articles.md,
       20261115_181838_fix_a_gold_matcher_results.md,
-      20261122_181611_fix_b_corpus_revision_results.md]}
+      20261122_181611_fix_b_corpus_revision_results.md,
+      20261122_164407_methodology_additions_plan_token_weighted_citations_sol_and_fix_b.md,
+      20261122_134404_in_text_legal_citation_scoring_plan.md,
+      20261122_192653_a1_token_weighted_provision_metric_results.md,
+      20261122_194659_a2_in_text_legal_citations_results.md,
+      20261122_205115_a3_gpt_6_2_sol_results.md]}
 pack:
   raw/runs_answers_cache.tar.gz: runs/answers/cache
   raw/nuggets_full_cache.tar.gz: nuggets/full/cache
@@ -65,5 +70,5 @@ flat:
       jua-4b-mixed: runs/retrieval/jua-4b-mixed/irpf/eval/either_containment_merge_skip/metrics.csv
       gemini-emb-2: runs/retrieval/gemini-emb-2/irpf/eval/either_containment_merge_skip/metrics.csv
 counts:
-  tables/answers.parquet: 21665           # jua: 25 full runs × 715 + 31 pilot-only sets × 30; gemini-emb-2: 4 × 715
+  tables/answers.parquet: 24525           # jua: 25 full runs × 715 + 31 pilot-only sets × 30 + gpt-6.2-sol 4 × 715 (2026-11-22); gemini-emb-2: 4 × 715
   tables/retrieval_metrics.parquet: 22510 # 11,255 per embedding

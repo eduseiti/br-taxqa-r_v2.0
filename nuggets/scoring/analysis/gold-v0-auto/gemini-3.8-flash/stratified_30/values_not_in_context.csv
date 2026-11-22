@@ -1,4 +1,8 @@
 llm,context_id,n_answers,with_value_not_in_context,as_in_phase3
+gpt-5.6-luna,S1_budget4000,24,0.0833,0.0000
+gpt-5.6-luna,S2_budget4000,21,0.0952,0.0000
+sabia-4,S1_budget4000,29,0.1379,0.0000
+sabia-4,S2_budget4000,29,0.0690,0.0000
 gpt-5.6-luna,S1_budget2000,23,0.0000,0.0000
 gpt-5.6-luna,S1_budget4000,27,0.0000,0.0000
 gpt-5.6-luna,S1_budget8000,24,0.0000,0.0417
@@ -25,6 +29,9 @@ gpt-5.6-terra,S4_budget4000,29,0.0000,0.0000
 gpt-5.6-terra,oracle_budget16000,24,0.0000,0.0000
 gpt-5.6-terra,oracle_budget4000,24,0.0000,0.0000
 gpt-5.6-terra,wrong-S2_budget4000,1,0.0000,0.0000
+gpt-6.2-sol,S1_budget4000,29,0.0000,0.0000
+gpt-6.2-sol,S2_budget4000,29,0.0000,0.0000
+gpt-6.2-sol,oracle_budget4000,25,0.0000,0.0000
 sabia-4,S1_budget2000,29,0.0000,0.0345
 sabia-4,S1_budget4000,29,0.0000,0.0000
 sabia-4,S1_budget8000,30,0.0000,0.0000
@@ -43,7 +50,7 @@ sabiazinho-4,S1_budget4000,30,0.0000,0.0333
 sabiazinho-4,S1_budget8000,30,0.0000,0.0333
 sabiazinho-4,S2_budget2000,30,0.0000,0.0333
 sabiazinho-4,S2_budget4000,30,0.0000,0.0000
-sabiazinho-4,S2_budget4000_context_v1,29,0.0000,0.0000
+sabiazinho-4,S2_budget4000_context_v1,30,0.0000,0.0000
 sabiazinho-4,S2_budget8000,30,0.0000,0.0667
 sabiazinho-4,S2c_budget4000,30,0.0000,0.0000
 sabiazinho-4,S3_budget4000,30,0.0000,0.0000

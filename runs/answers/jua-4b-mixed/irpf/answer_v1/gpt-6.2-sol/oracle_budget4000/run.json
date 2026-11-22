@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "kind": "answers",
+  "created_at": "2026-11-22T20:32:22+00:00",
+  "script": {
+    "package": "ragpipe",
+    "version": "0.1.0",
+    "git": {
+      "commit": "a83b3b5b322800560127d9ae333966e209ac694e",
+      "dirty": true,
+      "dirty_files": [
+        "uns/answers/jua-4b-mixed/irpf/summary.csv",
+        "runs/costs.csv",
+        "scripts/llm_client/batch.py",
+        "scripts/llm_client/client.py",
+        "scripts/llm_client/tests/test_openrouter.py",
+        "scripts/rag/llms.yaml",
+        "scripts/rag/rag.py",
+        "scripts/rag/ragpipe/generation.py",
+        "runs/answers/jua-4b-mixed/irpf/answer_closed_v1/gpt-6.2-sol/",
+        "runs/answers/jua-4b-mixed/irpf/answer_v1/gpt-6.2-sol/",
+        "scripts/rag/experiments/sol.yaml"
+      ]
+    },
+    "argv": [
+      "scripts/rag/rag.py",
+      "run",
+      "--experiment",
+      "scripts/rag/experiments/sol.yaml",
+      "--budget",
+      "71.22"
+    ]
+  },
+  "config_hash": "6238c3be10e346123785a5a5596711b479ef047b668028d1c0721d4e59ba7e73",
+  "run_id": "jua-4b-mixed/irpf/answer_v1/gpt-6.2-sol/oracle_budget4000",
+  "complete": true,
+  "experiment": "sol (scripts/rag/experiments/sol.yaml)",
+  "sample_requested": "all",
+  "llm": {
+    "name": "gpt-6.2-sol",
+    "provider": "openrouter",
+    "route": "openrouter",
+    "model_id": "openai/gpt-6.2-sol",
+    "params": {
+      "reasoning": {
+        "effort": "minimal"
+      },
+      "max_tokens": 4000,
+      "response_format": "json_schema"
+    },
+    "routing": {
+      "only": [
+        "openai"
+      ],
+      "allow_fallbacks": false,
+      "require_parameters": true,
+      "data_collection": "deny"
+    },
+    "served_provider": "OpenAI",
+    "price": {
+      "usd_per_million_input": 2.0,
+      "usd_per_million_cached_input": 0.1,
+      "usd_per_million_output": 10.0,
+      "batch_discount": 0.5,
+      "checked": "2026-11-22"
+    },
+    "context_window": 1050000,
+    "knowledge_cutoff": null,
+    "api_key_env": "OPENROUTER_API_KEY"
+  },
+  "prompt": {
+    "name": "answer_v1",
+    "path": "scripts/rag/prompts/answer_v1.pt.md",
+    "sha256": "e436a1c79cd57a9b988abb921c79429176f1b35a6b568ab1376302fc80485885"
+  },
+  "schema": {
+    "name": "resposta",
+    "sha256": "338964594d08afb9a001b9f94a0adacb5c50180f123f57ffd14b518b8a4f866a"
+  },
+  "checks_version": 2,
+  "context": {
+    "path": "runs/contexts/jua-4b-mixed/irpf/oracle_budget4000/manifest.json",
+    "config_hash": "50784985fe525c27d8ff5681722a4362b615a8362cd67833ea16113680026870",
+    "contexts_sha256": "fc2ba9f8fd552d86a3c516d1a79d453a2a801157cf7d18e7867221075248d0ec",
+    "set": "oracle",
+    "template": "context_v2"
+  },
+  "counts": {
+    "questions": 715,
+    "ok": 596,
+    "errors": 0,
+    "skipped": 119,
+    "abstention_rate": 0.0403,
+    "mean_claims": 2.743,
+    "mean_answer_chars": 703.5804,
+    "mean_input_tokens": 2580.8238,
+    "mean_output_tokens": 482.505,
+    "max_output_tokens": 2255,
+    "quote_ok_rate": 0.9987,
+    "quote_bad_document": 0,
+    "claim_grounded_rate": 1.0,
+    "answers_with_value_not_in_context": 0.042,
+    "abstention_inconsistent": 0,
+    "retried": 0,
+    "usd_list": 5.952072,
+    "usd_billed_new_calls": 0,
+    "new_calls": 0
+  },
+  "outputs": {
+    "answers.jsonl": {
+      "sha256": "b69b07227f5c6df9567b065f8f3c1ea452b9d7b6eef2fd8dc6f75652ee4591bd"
+    }
+  }
+}

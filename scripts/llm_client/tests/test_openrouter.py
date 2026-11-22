@@ -197,3 +197,82 @@ def test_old_ledger_gets_the_new_columns(tmp_path, replies):
     assert list(rows[0]) == client.LEDGER_FIELDS and len(rows) == 3
     assert rows[0]["usd_billed"] == "" and rows[2]["route"] == "openrouter"
     assert ledger_total(tmp_path / "costs.csv") == pytest.approx(0.5 + 0.25 + 0.01)
+
+
+# ------------------------------------------------------------------ OpenRouter Batch API (llm_client/batch.py)
+
+def test_openrouter_batch_submit_and_collect(tmp_path, monkeypatch):
+    """Queue → POST /batches (routing split between batch level and body) → GET → cache + ledger rows."""
+    from llm_client import batch as B
+    monkeypatch.setenv("OPENROUTER_API_KEY", "sk-or-test")
+    cfg = route_config({**REGISTRY["gpt-6.1-sol"], "price": {**REGISTRY["gpt-6.1-sol"]["price"], "batch_discount": 0.5}},
+                       "openrouter")
+    m = LLM("sol", cfg, tmp_path / "cache", tmp_path / "costs.csv", budget_usd=10)
+    rec = B.BatchRecorder(tmp_path)
+    m.batch = rec
+    with pytest.raises(client.BatchDeferred):
+        m.complete_json("sys", "user", SCHEMA, "x", tag="answer:S2:001")
+    sent = {}
+
+    def post(url, json=None, headers=None, timeout=None):  # noqa: A002
+        sent.update(url=url, json=json)
+        return Reply(202, {"id": "batch-1", "status": "validating"})
+
+    monkeypatch.setattr(B.httpx, "post", post)
+    jobs = rec.submit(10, tmp_path / "costs.csv")
+    assert jobs[0]["job"] == "batch-1" and sent["url"].endswith("/batches")
+    body = sent["json"]
+    assert list(body)[-1] == "requests" and body["model"] == cfg["model_id"]
+    assert body["provider"] == {"only": cfg["routing"]["only"], "allow_fallbacks": False}
+    req = body["requests"][0]["body"]
+    assert "model" not in req and "only" not in req["provider"] and req["provider"]["require_parameters"] is True
+    key = body["requests"][0]["custom_id"]
+    good = ok().json()
+    status = {"id": "batch-1", "status": "completed", "provider": "OpenAI",
+              "usage": {"prompt_tokens": 1000, "completion_tokens": 200, "cost": 0.002},
+              "results": [{"custom_id": key, "response": {"status_code": 200, "body": good}, "error": None}]}
+
+    class G:
+        def raise_for_status(self):
+            pass
+
+        def json(self):
+            return status
+
+    monkeypatch.setattr(B.httpx, "get", lambda *a, **k: G())
+    s = B.collect(tmp_path, {"sol": m})
+    assert s[0]["state"] == "collected" and s[0]["n_cached"] == 1
+    m.batch = None
+    r = m.complete_json("sys", "user", SCHEMA, "x", tag="answer:S2:001")
+    assert r.from_cache and r.data == {"x": 1}
+    rows = list(csv.DictReader(open(tmp_path / "costs.csv")))
+    assert rows[0]["tag"] == "batch:answer:S2:001" and rows[0]["provider_served"] == "OpenAI"
+    # billed at half the list price (no per-request cost in OpenRouter batch results)
+    assert ledger_total(tmp_path / "costs.csv") == pytest.approx(float(rows[0]["usd_standard"]) / 2)
+
+
+def test_openrouter_batch_rejects_other_provider(tmp_path, monkeypatch):
+    from llm_client import batch as B
+    monkeypatch.setenv("OPENROUTER_API_KEY", "sk-or-test")
+    cfg = route_config({**REGISTRY["gpt-6.1-sol"], "price": {**REGISTRY["gpt-6.1-sol"]["price"], "batch_discount": 0.5}},
+                       "openrouter")
+    m = LLM("sol", cfg, tmp_path / "cache", tmp_path / "costs.csv")
+    (tmp_path / "batches").mkdir()
+    (tmp_path / "batches" / "batch-2.requests.jsonl").write_text(json.dumps({"key": "k1", "tag": "t", "request": {}}) + "\n")
+    (tmp_path / "batches" / "batch-2.json").write_text(json.dumps(
+        {"job": "batch-2", "provider": "openrouter", "model": "sol", "state": "submitted", "n_requests": 1,
+         "requests_file": "batch-2.requests.jsonl"}))
+    status = {"status": "completed", "results": [{"custom_id": "k1", "response": {"status_code": 200,
+                                                                                   "body": ok(provider="Azure").json()}}]}
+
+    class G:
+        def raise_for_status(self):
+            pass
+
+        def json(self):
+            return status
+
+    monkeypatch.setattr(B.httpx, "get", lambda *a, **k: G())
+    s = B.collect(tmp_path, {"sol": m})
+    assert s[0]["n_cached"] == 0 and s[0]["n_failed"] == 1
+    assert not (tmp_path / "cache" / "k1.json").exists()

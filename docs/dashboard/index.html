@@ -923,9 +923,9 @@ const SCOL = { S1: "--s1", S2: "--s2", S3: "--s3", S2c: "--s4", S4: "--s5" };
 const scol = s => css(SCOL[s] || "--muted");
 const EMBS = ["jua-4b-mixed", "gemini-emb-2"];
 const EMB_SHORT = { "jua-4b-mixed": "jua", "gemini-emb-2": "Gemini" };
-const LLMS = ["gpt-5.6-terra", "gpt-5.6-luna", "sabia-4", "sabiazinho-4"];
-const LLM_SHORT = { "gpt-5.6-terra": "Terra", "gpt-5.6-luna": "Luna", "sabia-4": "Sabiá-4", "sabiazinho-4": "Sabiazinho-4" };
-const LCOL = { "gpt-5.6-terra": "--s7", "gpt-5.6-luna": "--s1", "sabia-4": "--s2", "sabiazinho-4": "--s3" };
+const LLMS = ["gpt-6.2-sol", "gpt-5.6-terra", "gpt-5.6-luna", "sabia-4", "sabiazinho-4"];
+const LLM_SHORT = { "gpt-6.2-sol": "Sol (6.2)", "gpt-5.6-terra": "Terra", "gpt-5.6-luna": "Luna", "sabia-4": "Sabiá-4", "sabiazinho-4": "Sabiazinho-4" };
+const LCOL = { "gpt-6.2-sol": "--s8", "gpt-5.6-terra": "--s7", "gpt-5.6-luna": "--s1", "sabia-4": "--s2", "sabiazinho-4": "--s3" };
 const lcol = l => css(LCOL[l] || "--muted");
 const ctxLabel = cid => {
   if (!cid) return "";
@@ -1009,10 +1009,10 @@ const PIPE = [
     what: "The generator's context: texts in score order, a text contained in an already-selected one is dropped, a parent that comes after its children replaces them, a text that does not fit is skipped. Controls: closed book (no context), oracle (only the cited articles, 4k/16k), wrong context (another question's S2 context).",
     varied: "Budget (2k/8k on the 30-question pilot only).", fixed: "4,000 Qwen3 tokens, template <code>context_v2</code> (v1 = ablation on the pilot).",
     docs: [["20261021_210251_rag_phase2_contexts_execution.md"]] } },
-  { id: "gen", t1: "Generation", t2: ["Terra · Luna (GPT-5.6)", "Sabiá-4 · Sabiazinho-4"], tab: "tab-ans", detail: {
-    what: "Four generators, non-reasoning settings, temperature 0 where available, the same prompt (<code>answer_v1</code>; <code>answer_closed_v1</code> for closed book). Answers are claims with quotes.",
-    varied: "Generator. Trimmed grid: Terra only S1/S2/closed/oracle; S3/S2c/S4 without Terra; Gemini contexts only with Luna and Sabiá-4.", fixed: "Prompt, context, max tokens.",
-    docs: [["20261023_110952_rag_phase3_generation_pilot.md"], ["20261023_120734_first_full_evaluation_budget_trimmed_plan_and_s2_s3_hypotheses.md"], ["20261023_151928_rag_phase3_trimmed_full_generation.md"]] } },
+  { id: "gen", t1: "Generation", t2: ["Sol (GPT-6.2) · Terra · Luna (GPT-5.6)", "Sabiá-4 · Sabiazinho-4"], tab: "tab-ans", detail: {
+    what: "Five generators, non-reasoning settings (Sol: reasoning effort <code>minimal</code>, the lowest it accepts), temperature 0 where available, the same prompt (<code>answer_v1</code>; <code>answer_closed_v1</code> for closed book). Answers are claims with quotes.",
+    varied: "Generator. Trimmed grid: Terra and Sol only S1/S2/closed/oracle (Sol added 2026-11-22, batch route); S3/S2c/S4 without Terra; Gemini contexts only with Luna and Sabiá-4.", fixed: "Prompt, context, max tokens.",
+    docs: [["20261023_110952_rag_phase3_generation_pilot.md"], ["20261023_120734_first_full_evaluation_budget_trimmed_plan_and_s2_s3_hypotheses.md"], ["20261023_151928_rag_phase3_trimmed_full_generation.md"], ["20261122_205115_a3_gpt_6_2_sol_results.md"]] } },
   { id: "nug", t1: "Nugget scoring", t2: ["judge: Gemini 3.8 Flash", "V_strict headline"], tab: "tab-nhow", detail: {
     what: "Gold answers → 3,175 nuggets (2,262 vital), frozen before any RAG answer was scored. A judge labels each nugget for each answer (and for each context). Paired comparisons with bootstrap, permutation and chapter-cluster CIs.",
     varied: "For robustness only: nugget set (3 makers), judge (Flash vs 3.1 Pro on 70 questions), perturbed nugget sets, nugget subsets.", fixed: "Primary set <code>gold-v0-auto</code>, judge prompt <code>assign_v2</code>.",

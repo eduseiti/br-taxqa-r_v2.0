@@ -284,7 +284,7 @@ class LLM:
                 # call again (the synchronous retry loop below). A synchronous record never fails here.
                 if not rec.get("batch"):
                     raise
-        if self.batch is not None and self.provider in ("openai", "gemini"):
+        if self.batch is not None and self.provider in ("openai", "gemini", "openrouter"):
             self.batch.add(self, ck, req, self.body(system, user, schema, schema_name), tag)
             raise BatchDeferred(tag)
         last = None
@@ -347,6 +347,13 @@ class LLM:
             return openai_body(self.model_id, self.params, system, user, schema, schema_name)
         if self.provider == "gemini":
             return gemini_body(self.params, system, user, schema)
+        if self.provider == "openrouter":
+            # OpenRouter batches (POST /batches): model, ``only`` and ``allow_fallbacks`` go at the batch level
+            # (batch.py); the batch-level ``provider`` rejects the other routing keys, so they stay in the body
+            b = openrouter_body(self.model_id, self.params, self.routing, system, user, schema, schema_name)
+            b.pop("model")
+            b["provider"] = {k: v for k, v in (self.routing or {}).items() if k not in ("only", "allow_fallbacks")}
+            return b
         raise LLMError(f"no batch body for provider {self.provider}")
 
     def _call_openai(self, system, user, schema, schema_name):

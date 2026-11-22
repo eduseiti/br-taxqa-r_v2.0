@@ -50,7 +50,8 @@ configs:
 # BR-TaxQA-R v2.0 — RAG evaluation data
 
 Every output of the first RAG evaluation on [BR-TaxQA-R v2.0](https://huggingface.co/datasets/unicamp-dl/BR-TaxQA-R),
-and of a second-embedding comparison (`gemini-embedding-2`, added on 2026-11-08):
+of a second-embedding comparison (`gemini-embedding-2`, added on 2026-11-08) and of a fifth generator (GPT-6.2 Sol,
+added on 2026-11-22):
 corpus and query embeddings, retrieval rankings, generator contexts, generated answers, nugget-based scores and
 analyses, the nugget-creation runs behind the gold nuggets, and **every raw LLM response**. The question is
 whether **hierarchical segmentation** of Brazilian legal documents (sub-article chunks) gives better RAG answers
@@ -82,7 +83,10 @@ cited below are copied under `docs/`.
 5. **Generation.** Four generators answer in Portuguese with claims and quotes: Sabiá-4 and Sabiazinho-4
    (Maritaca), and GPT-5.6 Terra and GPT-5.6 Luna (OpenAI via OpenRouter). All run at temperature 0 or with
    reasoning off. The pilot ran 14 context sets × 4 generators on 30 questions (`stratified_30`). The
-   **trimmed grid** then ran 25 runs on all 715 questions. With `gemini-emb-2`: all five strategies are retrieved
+   **trimmed grid** then ran 25 runs on all 715 questions. **GPT-6.2 Sol** (OpenAI via OpenRouter's Batch API) was
+   added later in Terra's four conditions (closed book, S1, S2 and oracle at 4k; 4 runs × 715). It runs at
+   reasoning effort `minimal`, the lowest it accepts (reasoning cannot be disabled), where the others run without
+   reasoning. With `gemini-emb-2`: all five strategies are retrieved
    and tested, and the core grid (S1 and S2 at 4k × Sabiá-4 and GPT-5.6 Luna, 4 runs × 715) is generated and
    scored; closed book and oracle do not depend on the embedding.
 6. **Scoring.** Gemini 3.8 Flash judges each answer against the gold nuggets (`gold-v0-auto`) as `support`,
@@ -94,16 +98,22 @@ cited below are copied under `docs/`.
 
 | Generator | closed book | S1 | S2 | oracle |
 |---|---:|---:|---:|---:|
-| GPT-5.6 Terra | 0.351 | 0.325 | 0.341 | 0.368 |
-| Sabiá-4 | 0.239 | 0.290 | 0.317 | 0.319 |
-| Sabiazinho-4 | 0.177 | 0.267 | 0.272 | 0.293 |
-| GPT-5.6 Luna | 0.259 | 0.271 | 0.299 | 0.338 |
+| GPT-6.2 Sol (added 2026-11-22) | 0.445 | 0.409 | 0.422 | 0.446 |
+| GPT-5.6 Terra | 0.351 | 0.325 | 0.342 | 0.366 |
+| Sabiá-4 | 0.239 | 0.290 | 0.317 | 0.320 |
+| Sabiazinho-4 | 0.178 | 0.267 | 0.274 | 0.293 |
+| GPT-5.6 Luna | 0.258 | 0.271 | 0.300 | 0.336 |
 
-- **S2 beats S1 for all four generators by +0.005 to +0.028**, significant for Luna and Sabiá-4 (paired
+(Values after the corpus revision of 2026-11-22, `docs/20261122_181611_fix_b_corpus_revision_results.md`.)
+
+- **S2 beats S1 for all five generators by +0.006 to +0.029**, significant for Luna and Sabiá-4 (paired
   bootstrap and permutation tests).
 - **S3, S2c and S4 add nothing measurable over S2.**
-- **Retrieval mostly cuts contradictions**: 27–38 % of closed-book answers contradict a nugget, against
-  8–14 % with retrieval.
+- **Retrieval mostly cuts contradictions**: 27–38 % of closed-book answers of the four first generators
+  contradict a nugget, against 8–14 % with retrieval.
+- **GPT-6.2 Sol** is +0.08 to +0.09 V_strict above Terra in every condition. It answers best without retrieval
+  (only the oracle context matches its closed book), and contradicts a nugget in only 11 % of its closed-book
+  answers: `docs/20261122_205115_a3_gpt_6_2_sol_results.md`.
 
 **Second embedding** (`gemini-emb-2`, same 4k budget, prompt and judge; paired differences with 95 % bootstrap CI and
 permutation p):
@@ -135,7 +145,7 @@ scoring tables, a context or run of the second embedding is named `<context_id>@
 | Config | Rows | Content |
 |---|---:|---|
 | `run_metrics` | 60 | V_strict, V, A_strict, A, W, contradicts, any_contradicts, abstained, errors, answer_chars, over the 715 questions (`n`); the pilot-only sets have `n` = 30 |
-| `answers` | 21,665 | every generated answer: `run_id`, `embedding`, `prompt`, `llm`, `context_id`, `sample` (`all` or `stratified_30`), `question_number`, `answer`, `abstained`, `claims_json` (claims with quotes), `cited_chunk_ids`, tokens, cost, `model_served`, `cache_key` |
+| `answers` | 24,525 | every generated answer: `run_id`, `embedding`, `prompt`, `llm`, `context_id`, `sample` (`all` or `stratified_30`), `question_number`, `answer`, `abstained`, `claims_json` (claims with quotes), `cited_chunk_ids`, tokens, cost, `model_served`, `cache_key` |
 | `nugget_labels` | 94,886 | the judge's label and justification for each nugget of each answer (primary nugget set and judge) |
 | `per_question_scores` | 21,169 | the per-question metrics behind `run_metrics` |
 | `comparisons` | 378 | paired differences, bootstrap CIs, permutation p-values, chapter-cluster CIs |
@@ -180,7 +190,7 @@ prompt hash, model, sample, cost); `runs/costs.csv` is the generation cost ledge
 | `scoring/ctxsupport/…` | per-context nugget support |
 | `scoring/ctxaudit/…` | audit of the vital nuggets that the cited provisions do not support |
 | `scoring/tables/<set>/<judge>/<sample>/` | `runs.csv`, `comparisons.csv`, per-question and context-support tables |
-| `scoring/analysis/…` | value checks, citation scores, linkage, utilisation, slices, perturbation, cross-sets, judge agreement |
+| `scoring/analysis/…` | value checks, citation scores, linkage, utilisation, slices, perturbation, cross-sets, judge agreement; `token_metrics/` (token-weighted provision metric, `docs/20261122_192653_*`), `intext/` (legal citations written in the answers, `docs/20261122_194659_*`), `sol/` (GPT-6.2 Sol vs Terra, `docs/20261122_205115_*`) |
 | `*/costs.csv` | cost ledgers |
 
 **Raw LLM responses** — `raw/*.tar.gz`. Each archive holds one cache folder of the pipeline: one JSON file per
@@ -189,9 +199,9 @@ parameters, system and user prompts), `response`, `text`, `usage`, `model_served
 
 | Archive | Restores | Requests |
 |---|---|---:|
-| `runs_answers_cache.tar.gz` | `runs/answers/cache/` | 18,600 |
+| `runs_answers_cache.tar.gz` | `runs/answers/cache/` | 21,433 |
 | `nuggets_full_cache.tar.gz` | `nuggets/full/cache/` | 12,519 |
-| `nuggets_scoring_cache.tar.gz` | `nuggets/scoring/cache/` | 26,420 |
+| `nuggets_scoring_cache.tar.gz` | `nuggets/scoring/cache/` | 29,247 |
 | `nuggets_pilot_cache.tar.gz`, `nuggets_preview*_cache.tar.gz`, `nuggets_parity_openrouter_cache.tar.gz` | the pilot, preview and parity caches | 1,230 |
 
 **Results dashboard: question-trace data.** `raw/dashboard_trace.tar.gz` is not a cache. It restores
@@ -218,14 +228,16 @@ cache at no cost. See the READMEs of `scripts/rag/` and `scripts/nuggets/`. `SHA
 
 Generation of the trimmed grid cost $41.95, scoring $55.96, and nugget creation (phases 2–4) $65.34. The
 `gemini-embedding-2` comparison cost $26.91: embedding $5.08, context support $6.42, generation $9.98, scoring
-$5.43. Per-call costs are in the `costs.csv` ledgers.
+$5.43. GPT-6.2 Sol (2026-11-22) cost $18.41: generation $12.73 (batch), scoring $5.68. Per-call costs are in the
+`costs.csv` ledgers.
 
 ## Limitations
 
 - The judge and the nuggets are LLMs (selected and checked with known-answer and planted-error tests). The
   nuggets were not verified by people.
 - Two embedding models, one query instruction (or template) each. The second embedding covers S1 and S2 at 4k
-  with two of the four generators; it has not been re-scored with the alternative nugget sets.
+  with two of the four first generators; it has not been re-scored with the alternative nugget sets. GPT-6.2 Sol
+  covers only Terra's four conditions and was scored with the primary nugget set and judge only.
 - Served models can change behind a model id. `model_served` and the raw responses record what answered.
 - The P&R answers do not always follow from the provisions they cite: only ≈ 47 % of vital nuggets are fully
   supported by the cited provisions within 4k tokens (`docs/20261023_210727_*` §4, §10).

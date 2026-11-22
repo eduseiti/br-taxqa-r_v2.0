@@ -1,0 +1,15 @@
+# A3 of docs/20261122_164407_methodology_additions_plan_token_weighted_citations_sol_and_fix_b.md: GPT-6.2 Sol in
+# GPT-5.6 Terra's four full conditions (user decisions of 2026-11-22: these 4 conditions only; batch route).
+# Through OpenRouter's Batch API: `rag.py run --experiment scripts/rag/experiments/sol.yaml --batch --budget …`,
+# then `rag.py batch wait`, then the same command without --batch (everything from the cache).
+# Pilot first with `--sample stratified_30`.
+name: sol
+contexts: runs/contexts/jua-4b-mixed/irpf      # main corpus (RIR/1999 excluded), revised corpus of fix B
+sample: all
+sets:
+  - closed_book
+  - S1_budget4000
+  - S2_budget4000
+  - oracle_budget4000
+llms: [gpt-6.2-sol]
+prompts: {default: answer_v1, closed_book: answer_closed_v1}

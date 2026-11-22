@@ -419,7 +419,13 @@ def perturbation(lab: pd.DataFrame, nt: pd.DataFrame, a: str, b: str, reps: int 
     rng = np.random.default_rng(seed)
     meta = nt.set_index("nugget_id")
     out = []
-    for g, h in lab[lab.context_id.isin([a, b])].groupby("llm"):
+    # one random stream over the generators: the four of the first evaluation first (their published replicate
+    # statistics do not move when a generator is added, e.g. gpt-6.2-sol on 2026-11-22), then any later one
+    sub = lab[lab.context_id.isin([a, b])]
+    first = ["gpt-5.6-luna", "gpt-5.6-terra", "sabia-4", "sabiazinho-4"]
+    order = [x for x in first if x in set(sub.llm)] + sorted(set(sub.llm) - set(first))
+    for g in order:
+        h = sub[sub.llm == g]
         w = h.pivot_table(index="nugget_id", columns="context_id", values="label", aggfunc="first")
         if a not in w or b not in w:
             continue

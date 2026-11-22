@@ -174,6 +174,10 @@ def print_generation(root: Path, df: pd.DataFrame, dry_run: bool) -> None:
               f"(output assumed {int(df['est_output_tokens'].sum() / max(int(df['new_calls'].sum()), 1))} "
               "tokens per call; flex endpoints bill about half). Nothing was sent.")
         return
+    if df.empty or "batch_job" in df.columns:
+        print(df.to_string(index=False))
+        print("\nbatch jobs submitted (records in runs/answers/batches/); `rag.py batch wait`, then rerun without --batch")
+        return
     cols = ["llm", "context_id", "ok", "errors", "skipped", "abstention_rate", "mean_claims", "quote_ok_rate",
             "claim_grounded_rate", "mean_output_tokens", "usd_list"]
     print(df[cols].to_string(index=False))
@@ -181,7 +185,8 @@ def print_generation(root: Path, df: pd.DataFrame, dry_run: bool) -> None:
 
 
 def generation_config(args: argparse.Namespace, **over) -> GenConfig:
-    kw = dict(workers=args.workers, budget_usd=args.budget, dry_run=args.dry_run, force=args.force)
+    kw = dict(workers=args.workers, budget_usd=args.budget, dry_run=args.dry_run, force=args.force,
+              batch=args.batch, batch_max=args.batch_max)
     if args.registry:
         kw["registry"] = Path(args.registry)
     kw.update(over)
@@ -207,6 +212,23 @@ def cmd_run(args: argparse.Namespace) -> int:
                             experiment=f"{e['name']} ({rel(Path(args.experiment))})")
     root, df = run_generation(cfg, paths_from(args))
     print_generation(root, df, args.dry_run)
+    return 0
+
+
+def cmd_batch(args: argparse.Namespace) -> int:
+    """Poll the batch jobs of runs/answers/batches/ and cache their results (``wait``: until all are done)."""
+    from llm_client import LLM
+    from llm_client import batch as llm_batch
+    from ragpipe.generation import REGISTRY, load_registry, resolve_llm
+    paths = paths_from(args)
+    out = paths.runs / "answers"
+    models, fx = load_registry(Path(args.registry) if args.registry else REGISTRY)
+    names = {json.loads(p.read_text())["model"] for p in (out / "batches").glob("*.json")}
+    llms = {n: LLM(n, resolve_llm(n, models, fx), out / "cache", paths.runs / "costs.csv") for n in names}
+    fn = llm_batch.wait if args.action == "wait" else llm_batch.collect
+    kw = {"every_s": args.every} if args.action == "wait" else {}
+    for x in fn(out, llms, log_fn=print, **kw):
+        print(x)
     return 0
 
 
@@ -369,6 +391,10 @@ def build_parser() -> argparse.ArgumentParser:
         sp.add_argument("--workers", type=int, default=8, help="concurrent calls per generator (default 8)")
         sp.add_argument("--force", action="store_true", help="replace answer runs made with another configuration")
         sp.add_argument("--registry", help="generator registry (default scripts/rag/llms.yaml)")
+        sp.add_argument("--batch", action="store_true",
+                        help="queue uncached calls as Batch API jobs (OpenAI, Gemini, OpenRouter); then `rag.py batch "
+                             "wait` and rerun without --batch")
+        sp.add_argument("--batch-max", type=int, help="requests per batch job (default: one job per model)")
         common(sp)
 
     sp = sub.add_parser("generate", help="stage G: answer the questions from context sets (plan §7)",
@@ -392,6 +418,15 @@ def build_parser() -> argparse.ArgumentParser:
     sp.add_argument("--sample", help="override the experiment's sample")
     gen_common(sp)
     sp.set_defaults(func=cmd_run)
+
+    sp = sub.add_parser("batch", help="poll / collect the generation batch jobs (runs/answers/batches/)",
+                        formatter_class=fmt)
+    sp.add_argument("action", choices=["status", "wait"], help="status: poll once (and collect finished jobs); "
+                                                                "wait: until every job is done")
+    sp.add_argument("--every", type=int, default=120, help="seconds between polls of wait (default 120)")
+    sp.add_argument("--registry", help="generator registry (default scripts/rag/llms.yaml)")
+    common(sp)
+    sp.set_defaults(func=cmd_batch)
 
     sp = sub.add_parser("show-answers", help="print the answers of some questions", formatter_class=fmt,
                         epilog=epilog("python scripts/rag/rag.py show-answers --run "
