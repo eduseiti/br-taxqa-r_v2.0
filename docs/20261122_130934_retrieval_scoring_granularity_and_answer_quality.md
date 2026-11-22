@@ -41,7 +41,9 @@ S1 vs S2 difference in answer quality (nugget phase 5 scores).
      whole cited article into the context about 7 points more often.
 
    The result is **asymmetric, not a crossover**: finer chunks help when the citation is fine-grained
-   and cost nothing when it is coarse.
+   and cost nothing when it is coarse. The grouping ignores document-level references. Dropping the
+   questions that cite a document without any article (§3 robustness check) gives the same picture,
+   with wider CIs.
 5. **Most likely explanation (reason 1, untested):** the gold answer rarely needs the whole article.
    One or two paragraphs suffice, and S2 retrieves them. Supporting this weakly: per question, the strict provision full hit has
    no relation to answer gains on whole-article questions (Spearman ≈ 0.00). Metrics that also count
@@ -199,6 +201,40 @@ Possible reasons for the whole-article result:
 2. some whole-article annotations really point at a specific paragraph;
 3. a full S1 article uses budget that S2 spends on other relevant material.
 
+**Document-level references.** The grouping uses only statutory provision-level items. Document-level
+references are ignored, and so are the 25 non-statutory provision items. Every article citation also
+yields a document item for its document, so the only signal the grouping misses is a document cited
+**without** any article (e.g. a whole IN). A question with such a document plus whole-article
+citations is still `whole_only`. `none` holds the questions with only whole documents and/or
+non-statutory references. Such documents occur in 66 whole_only, 32 sub_only and 105 mixed questions.
+
+**Robustness check: without those questions** (the "pure" grouping: whole_only 121, sub_only 98,
+mixed 130). Retrieval gaps widen. Provision full hit at 4000, S1 / S2:
+
+| Group | jua S1 | jua S2 | gemini S1 | gemini S2 |
+|---|---|---|---|---|
+| whole_only | **0.534** | 0.441 | **0.538** | 0.478 |
+| sub_only | 0.464 | **0.601** | 0.537 | **0.656** |
+| mixed | 0.382 | 0.398 | 0.383 | 0.414 |
+
+V_strict difference, S2 − S1 [95% CI]:
+
+| Generator | whole_only (n=121) | sub_only (n=98) | mixed (n=130) |
+|---|---|---|---|
+| gpt-5.6-luna, jua | −0.022 [−0.07, 0.02] | +0.058 [−0.00, 0.12] | +0.033 [−0.01, 0.08] |
+| gpt-5.6-terra, jua | +0.002 [−0.04, 0.04] | +0.003 [−0.07, 0.08] | +0.030 [−0.02, 0.08] |
+| sabia-4, jua | −0.011 [−0.06, 0.04] | +0.047 [−0.01, 0.11] | +0.022 [−0.02, 0.06] |
+| sabiazinho-4, jua | −0.021 [−0.07, 0.03] | +0.006 [−0.06, 0.07] | −0.005 [−0.05, 0.04] |
+| gpt-5.6-luna, gemini | +0.044 [−0.02, 0.11] | +0.050 [−0.01, 0.12] | +0.040 [−0.01, 0.09] |
+| sabia-4, gemini | +0.011 [−0.04, 0.06] | +0.028 [−0.04, 0.09] | −0.029 [−0.08, 0.02] |
+
+Same conclusion, with wider CIs:
+- Sub_only: S2 is ahead for all 6 pairs, none clearly above zero (luna/jua is borderline).
+- Whole_only, jua: 3 of the 4 generators lean slightly towards S1 (−0.01 to −0.02), all CIs including
+  zero. With gemini-emb-2 the difference is positive again.
+
+Reproduce with the appendix script and `--pure`.
+
 **Implication for the paper.** The effect is asymmetric, not a crossover: fine-grained chunks help on
 fine-grained citations and cost nothing on coarse ones. That is a stronger argument for S2 than the
 overall average alone. The subgroups (130–186 questions) are small, so only one cell clears zero.
@@ -248,7 +284,8 @@ Run from the repo root, with no API calls (≈ seconds). The grouping and paired
 
 ```python
 import sys, numpy as np, pandas as pd
-emb = sys.argv[1] if len(sys.argv) > 1 else "jua-4b-mixed"        # or gemini-emb-2
+args = [x for x in sys.argv[1:] if not x.startswith("--")]
+emb = args[0] if args else "jua-4b-mixed"        # or gemini-emb-2; add --pure for the §3 robustness check
 suffix = "" if emb == "jua-4b-mixed" else "@" + emb
 d = pd.read_csv(f"runs/retrieval/{emb}/irpf/eval/v2d_either_containment_skip/per_item.csv.gz")
 d["question_number"] = d.question_number.astype(str)
@@ -257,6 +294,13 @@ prov = s1[(s1.level == "provision") & s1.statutory]
 g = prov.groupby("question_number").sub_article.agg(["size", "sum"])
 cls = pd.Series("none", index=sorted(set(s1.question_number)))
 cls[g.index] = np.where(g["sum"] == 0, "whole_only", np.where(g["sum"] == g["size"], "sub_only", "mixed"))
+# "pure" grouping (§3 robustness check): drop questions citing a document without any article of it
+art = s1[s1.level == "article"]
+docs_with_art = set(zip(art.question_number, art.item.str.split("|").str[0]))
+docq = s1[s1.level == "document"]
+doc_only = set(docq.question_number[[(q, i) not in docs_with_art for q, i in zip(docq.question_number, docq.item)]])
+if "--pure" in sys.argv:
+    cls = cls[~cls.index.isin(doc_only)]
 
 pq = pd.read_csv("nuggets/scoring/tables/gold-v0-auto/gemini-3.8-flash/all/per_question.csv.gz")
 pq["question_number"] = pq.question_number.astype(str)
