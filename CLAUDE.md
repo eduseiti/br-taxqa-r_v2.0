@@ -91,6 +91,9 @@ than expected.
   `docs/20261122_130934_retrieval_scoring_granularity_and_answer_quality.md`. Plan (not implemented) for scoring the
   legal citations generators write in their answers (closed book and RAG) against the gold references, and how
   closed-book runs were kept free of web search: `docs/20261122_134404_in_text_legal_citation_scoring_plan.md`.
+  **Next additions (plan, 2026-11-22):** fix B first, then a token-weighted provision metric, in-text citations
+  and GPT-6.2 Sol (Terra's 4 conditions), with costs and budget check:
+  `docs/20261122_164407_methodology_additions_plan_token_weighted_citations_sol_and_fix_b.md`.
   **Hugging Face release:** plan and status in
   `docs/20261024_180016_hugging_face_release_plan.md` (§9: both repos staged private under `eduseiti` on 2026-10-24),
   tooling in `scripts/release/` (`build_release.py`, `push_release.py`, token `HF_RELEASE_TOKEN`), record in
