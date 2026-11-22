@@ -1,7 +1,7 @@
 {
- "timestamp": "2026-10-12T19:57:23",
+ "timestamp": "2026-11-22T17:32:46",
  "git": {
-  "commit": "674dfd89bb2af09e199a6908ddee5e3800668862",
+  "commit": "38b37f0ea48617466609aec051b8f6ad1d7fd824",
   "dirty": true,
   "fetcher_commit": "c7f4b8faf8b8df84520e6e957d7a0890513f4a52",
   "fetcher_dirty": false
@@ -202,8 +202,8 @@
  ],
  "validation": {
   "article_ids_checked": 2052,
-  "article_ids_found_in_main_xml": 1464,
-  "article_ids_found_only_in_annex_xml": 575,
+  "article_ids_found_in_main_xml": 1465,
+  "article_ids_found_only_in_annex_xml": 576,
   "article_ids_missing": [
    {
     "reference_id": "149-01",
@@ -228,18 +228,6 @@
     "document_id": "decreto_27784_19500216",
     "article_id": "art5",
     "unmatchable_reason": "treaty article of a non-statutory document (moved to nao_articulados in ce032e6); the treaty text is absent"
-   },
-   {
-    "reference_id": "152-01",
-    "document_id": "decreto_57942_19660310",
-    "article_id": "art10",
-    "unmatchable_reason": "treaty article: the treaty text has no article markers the statutory parser reads"
-   },
-   {
-    "reference_id": "153-01",
-    "document_id": "decreto_57942_19660310",
-    "article_id": "art1",
-    "unmatchable_reason": "treaty article: the treaty text has no article markers the statutory parser reads"
    },
    {
     "reference_id": "153-04",
@@ -285,12 +273,12 @@
    }
   ],
   "article_ids_missing_unexplained": [],
-  "provisions_unmatchable": 49,
+  "provisions_unmatchable": 47,
   "provisions": {
-   "found_in_main": 1654,
+   "found_in_main": 1656,
    "found_in_annex": 616,
    "without_id": 36,
-   "missing": 13
+   "missing": 11
   },
   "fragment_ids_missing": [
    {
@@ -316,18 +304,6 @@
     "document_id": "decreto_27784_19500216",
     "label": "art. V",
     "fragment_id": "art5"
-   },
-   {
-    "reference_id": "152-01",
-    "document_id": "decreto_57942_19660310",
-    "label": "art. 10, alínea “b”",
-    "fragment_id": "art10_cpt_ali2"
-   },
-   {
-    "reference_id": "153-01",
-    "document_id": "decreto_57942_19660310",
-    "label": "art. 1º",
-    "fragment_id": "art1"
    },
    {
     "reference_id": "153-04",

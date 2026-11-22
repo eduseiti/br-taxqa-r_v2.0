@@ -1,0 +1,24 @@
+# Article ids that occur more than once at the top level of one LexML file, checked against the source .docx
+# (corpus fix B, 2026-11-22; docs/20261115_172140_* §5 step 2). Read by audit_article_coverage.py, which marks
+# every other duplicate as "new". The id column is as the audit prints it ("art33 (anexo1)" for an annex file).
+# Verdict "source": the repetition is in the source text (not a parser error), so the XML is right to hold it.
+document_id	article_id	verdict
+decreto_lei_58_19371210	art1	source: the "Disposições transitórias" number their own articles 1º-4º after art. 26
+decreto_lei_58_19371210	art2	source: transitional provisions, own numbering (see art1)
+decreto_lei_58_19371210	art3	source: transitional provisions, own numbering (see art1)
+decreto_lei_58_19371210	art4	source: transitional provisions, own numbering (see art1)
+mp_497_20100727	art31	source: original wording and the wording given by a later MP, both printed unstruck; uncited
+decreto_70951_19720809	art15	source: compiled text prints the superseded wording ("Art 15.") unstruck before the current one; uncited
+decreto_70951_19720809	art21	source: superseded wording unstruck (see art15)
+decreto_70951_19720809	art23	source: superseded wording unstruck (see art15)
+decreto_70951_19720809	art32	source: superseded wording unstruck (see art15)
+decreto_70951_19720809	art35	source: superseded wording unstruck (see art15)
+decreto_70951_19720809	art40	source: superseded wording unstruck (see art15)
+decreto_70951_19720809	art48	source: superseded wording unstruck (see art15)
+decreto_70951_19720809	art79	source: superseded wording unstruck (see art15)
+decreto_71733_19730118	art2	source: compiled text prints superseded wordings unstruck; cited at document level only
+decreto_71733_19730118	art22	source: superseded wordings unstruck (see art2)
+decreto_71733_19730118	art23	source: superseded wordings unstruck (see art2)
+decreto_71733_19730118	art27	source: superseded wordings unstruck (see art2)
+decreto_71733_19730118	art28	source: superseded wording unstruck (see art2)
+decreto_71733_19730118	art37	source: superseded wording unstruck (see art2)

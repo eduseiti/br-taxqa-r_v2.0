@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "created_at": "2026-10-09T14:35:00+00:00",
+  "created_at": "2026-11-22T17:36:20+00:00",
   "kind": "corpus",
   "script": {
     "version": "0.1.0",
     "git": {
-      "commit": "a94c2bf6ef663439a98f91ca29068a8c4e976c4b",
+      "commit": "38b37f0ea48617466609aec051b8f6ad1d7fd824",
       "dirty": false,
       "dirty_files": []
     },
@@ -14,8 +14,9 @@
       "corpus",
       "--model",
       "jua-4b-mixed",
-      "--overwrite",
+      "--extend",
       "--resume",
+      "--no-pause-after",
       "--no-progress"
     ]
   },
@@ -85,7 +86,6 @@
           "mcpLb": null,
           "privileged": null,
           "skipRepoDownload": null,
-          "priorityClass": null,
           "failureStrategy": null
         },
         "notifications": {
@@ -144,23 +144,23 @@
     }
   },
   "input": {
-    "path": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/segmented/chunks_all.csv.gz",
-    "sha256": "a6087b7f19ff5b02cc0863523b6dd423f6feddf291fe9f11e7f08d45146c326a",
+    "path": "/work/doutorado/artigos/RAG_evaluation/br-taxqa-r_v2.0/segmented/chunks_all.csv.gz",
+    "sha256": "21bf98e5a1aa52b209ee009b107194d2416e036fa5076ad4d5a8a112119d910a",
     "id_col": "chunk_id",
     "text_col": "Texto",
-    "rows": 104574,
-    "unique_texts": 101943,
+    "rows": 104625,
+    "unique_texts": 102012,
     "tokens": {
-      "total": 27981664,
+      "total": 27984605,
       "max": 8104,
       "p50": 194,
-      "p90": 450,
-      "p99": 1524
+      "p90": 449,
+      "p99": 1523
     }
   },
   "output": {
     "shape": [
-      101943,
+      102012,
       2560
     ],
     "dtype": "float32",
@@ -168,36 +168,36 @@
     "norm_max": 1.0000001192092896,
     "norms_ok": true,
     "sha256": {
-      "vectors.npy": "e26e2876c4cd7e9e3bd1ade61f7ce64d2117ef12bfc17ed81fa8804c05d29b4d",
-      "texts.csv": "4fe543fb03535482800327902f228ed2a804fa0bbaae4d01a321eccf489d6ece",
-      "chunk_map.csv.gz": "5569b3c5e1aa2e34631d68a15d9ec3b5f7b185e983ea759f41c9e7819c67c286"
+      "vectors.npy": "5f8ef19b313e77f1220927649a2a99d0d4b5659b1c35fa52c26543b9a184beaa",
+      "texts.csv": "4f4675588e295429a8d8644b8f375f340fc5138a53a468bcffa5ed96ebfc4700",
+      "chunk_map.csv.gz": "6227257aa93b18ccc634e3d03db5d920079c3571e1c4b8d406cc14ccb44042bd"
     }
   },
   "run": {
-    "start": "2026-10-09T13:03:20+00:00",
-    "end": "2026-10-09T14:33:45+00:00",
-    "n_texts": 101943,
-    "n_tokens": 27981664,
-    "wall_s": 5425.3,
-    "requests": 1612,
-    "retries": 19,
+    "start": "2026-11-22T17:35:31+00:00",
+    "end": "2026-11-22T17:35:53+00:00",
+    "n_texts": 377,
+    "n_tokens": 114720,
+    "wall_s": 21.8,
+    "requests": 6,
+    "retries": 0,
     "errors": 0,
     "renormalized": 0,
-    "tokens_per_s": 5157.6,
+    "tokens_per_s": 5262.4,
     "n_sessions": 1,
     "sessions": [
       {
-        "start": "2026-10-09T13:03:20+00:00",
-        "n_skipped": 0,
-        "n_texts": 101943,
-        "n_tokens": 27981664,
+        "start": "2026-11-22T17:35:31+00:00",
+        "n_skipped": 101635,
+        "n_texts": 377,
+        "n_tokens": 114720,
         "renormalized": 0,
         "status": "complete",
-        "end": "2026-10-09T14:33:45+00:00",
-        "wall_s": 5425.3,
-        "tokens_per_s": 5157.7,
-        "requests": 1612,
-        "retries": 19,
+        "end": "2026-11-22T17:35:53+00:00",
+        "wall_s": 21.8,
+        "tokens_per_s": 5262.3,
+        "requests": 6,
+        "retries": 0,
         "errors": 0
       }
     ]
@@ -218,5 +218,31 @@
       "kendall_tau_median": 0.9900793433189392
     }
   },
-  "cost_ledger": "embeddings/costs.csv"
+  "cost_ledger": "embeddings/costs.csv",
+  "extend": {
+    "previous_manifest_sha256": "81459ee26278c3005688a60fcc750d81b9277e40c5db1626556727e683ca828b",
+    "previous_input": {
+      "path": "/work/unicamp/articles/RAG_evaluation/br-taxqa-r_v2.0/segmented/chunks_all.csv.gz",
+      "sha256": "a6087b7f19ff5b02cc0863523b6dd423f6feddf291fe9f11e7f08d45146c326a",
+      "id_col": "chunk_id",
+      "text_col": "Texto",
+      "rows": 104574,
+      "unique_texts": 101943,
+      "tokens": {
+        "total": 27981664,
+        "max": 8104,
+        "p50": 194,
+        "p90": 450,
+        "p99": 1524
+      }
+    },
+    "previous_output_sha256": {
+      "vectors.npy": "e26e2876c4cd7e9e3bd1ade61f7ce64d2117ef12bfc17ed81fa8804c05d29b4d",
+      "texts.csv": "4fe543fb03535482800327902f228ed2a804fa0bbaae4d01a321eccf489d6ece",
+      "chunk_map.csv.gz": "5569b3c5e1aa2e34631d68a15d9ec3b5f7b185e983ea759f41c9e7819c67c286"
+    },
+    "reused_texts": 101635,
+    "embedded_texts": 377,
+    "dropped_texts": 308
+  }
 }

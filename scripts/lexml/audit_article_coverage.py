@@ -19,7 +19,13 @@ For each ``original/articulados/<stem>.docx``:
   ``Artigo`` whose id ends in that label, the unclosed-quote symptom of cause 2c) and **absent**;
 - **cited missing**: article ids cited by ``dataset/references.jsonl`` and not among the XML ids,
   whatever the docx says. The gate: every cited missing id must be listed in
-  ``scripts/lexml/unmatchable_articles.tsv`` with a reason, or the audit exits 1.
+  ``scripts/lexml/unmatchable_articles.tsv`` with a reason, or the audit exits 1;
+- **out of sequence** (fix B, 2026-11-22): a top-level article whose number breaks the sequence of
+  its neighbours (they are 1–2 apart and it is not between them), the symptom of a citation line or
+  heading parsed as ``Art. N`` (``docs/20261115_172140_*`` §2);
+- **duplicate XML ids**: an article id that occurs more than once at the top level of one file.
+  Reviewed cases (superseded wordings kept by the source, renumbered transitional provisions) are
+  listed in ``scripts/lexml/reviewed_duplicate_articles.tsv``; the report marks the others **new**.
 
 Usage::
 
@@ -76,11 +82,24 @@ def docx_article_ids(path: Path) -> list[str]:
     return ids
 
 
-def xml_article_ids(lexml_dir: Path, stem: str) -> tuple[list[str], set[str], list[str]]:
-    """Top-level ids (all files), ids nested in an Alteracao, ids duplicated within one file."""
+def out_of_sequence(ids: list[str]) -> list[str]:
+    """Ids whose number breaks the sequence of their neighbours (which are 1-2 apart)."""
+    nums = [int(re.match(r"art(\d+)", a).group(1)) for a in ids]
+    out = []
+    for i in range(1, len(nums) - 1):
+        a, n, b = nums[i - 1], nums[i], nums[i + 1]
+        if a < b <= a + 2 and not a <= n <= b:
+            out.append(ids[i])
+    return out
+
+
+def xml_article_ids(lexml_dir: Path, stem: str) -> tuple[list[str], set[str], list[str], list[str]]:
+    """Top-level ids (all files), ids nested in an Alteracao, ids duplicated within one file,
+    ids out of sequence within one file."""
     top: list[str] = []
     nested: set[str] = set()
     dups: list[str] = []
+    seq: list[str] = []
     files = [lexml_dir / f"{stem}.xml"] + sorted(lexml_dir.glob(f"{stem}.anexo*.xml"))
     for f in files:
         if not f.exists():
@@ -98,7 +117,8 @@ def xml_article_ids(lexml_dir: Path, stem: str) -> tuple[list[str], set[str], li
         top += here
         suffix = "" if f.name == f"{stem}.xml" else f" ({f.name.split('.')[-2]})"
         dups += [a + suffix for a in sorted({a for a in here if here.count(a) > 1})]
-    return top, nested, dups
+        seq += [a + suffix for a in out_of_sequence(here)]
+    return top, nested, dups, seq
 
 
 def cited_articles(refs: Path) -> dict[str, set[str]]:
@@ -123,23 +143,31 @@ def load_unmatchable(path: Path) -> dict[tuple[str, str], str]:
     return out
 
 
+def load_reviewed_duplicates(path: Path) -> dict[tuple[str, str], str]:
+    """(stem, id as in the report, e.g. ``art22`` or ``art33 (anexo1)``) -> verdict."""
+    return load_unmatchable(path)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     ap.add_argument("--original", type=Path, default=ROOT / "original/articulados")
     ap.add_argument("--lexml", type=Path, default=ROOT / "lexml/articulados")
     ap.add_argument("--references", type=Path, default=ROOT / "dataset/references.jsonl")
     ap.add_argument("--unmatchable", type=Path, default=ROOT / "scripts/lexml/unmatchable_articles.tsv")
+    ap.add_argument("--reviewed-duplicates", type=Path,
+                    default=ROOT / "scripts/lexml/reviewed_duplicate_articles.tsv")
     ap.add_argument("--out", type=Path, default=None, help="write the Markdown report here")
     args = ap.parse_args()
 
     cited = cited_articles(args.references)
     unmatchable = load_unmatchable(args.unmatchable)
+    reviewed = load_reviewed_duplicates(args.reviewed_duplicates)
     rows = []
     gate: list[tuple[str, str]] = []
     for docx in sorted(args.original.glob("*.docx")):
         stem = docx.stem
         labels = docx_article_ids(docx)
-        top, nested, dup_xml = xml_article_ids(args.lexml, stem)
+        top, nested, dup_xml, seq = xml_article_ids(args.lexml, stem)
         top_set = set(top)
         missing = [a for a in dict.fromkeys(labels) if a not in top_set]
         dup_labels = sorted({a for a in labels if labels.count(a) > 1})
@@ -151,29 +179,39 @@ def main() -> int:
             "stem": stem, "cited": stem in cited, "docx": len(set(labels)), "xml": len(top_set),
             "nested": [a for a in missing if a in nested],
             "absent": [a for a in missing if a not in nested],
-            "dup_labels": dup_labels, "dup_xml": dup_xml, "cited_missing": cited_missing,
+            "dup_labels": dup_labels, "cited_missing": cited_missing, "seq": seq,
+            "dup_xml": [a if (stem, a) in reviewed else f"**{a}** (new)" for a in dup_xml],
+            "new_dup": [a for a in dup_xml if (stem, a) not in reviewed],
         })
 
     def short(xs: list[str], n: int = 12) -> str:
         return ", ".join(xs[:n]) + (f", … (+{len(xs) - n})" if len(xs) > n else "")
 
-    problems = [r for r in rows if r["nested"] or r["absent"] or r["dup_xml"] or r["cited_missing"]]
+    problems = [r for r in rows
+                if r["nested"] or r["absent"] or r["dup_xml"] or r["cited_missing"] or r["seq"]]
+    n_seq = sum(len(r["seq"]) for r in rows)
+    n_new_dup = sum(len(r["new_dup"]) for r in rows)
     problems.sort(key=lambda r: (not r["cited_missing"], not r["cited"], r["stem"]))
     md = ["# Article coverage audit", "",
           f"{len(rows)} statutory documents; {len(problems)} with a difference between the `.docx` "
           f"article labels and the top-level `Artigo` ids. Cited missing ids not in "
-          f"`unmatchable_articles.tsv`: **{len(gate)}**.", "",
-          "| Document | cited | docx | xml | cited missing | nested in Alteracao | absent from XML | duplicate XML ids |",
-          "|---|---|---|---|---|---|---|---|"]
+          f"`unmatchable_articles.tsv`: **{len(gate)}**. Articles out of sequence: **{n_seq}**. "
+          f"Duplicate XML ids not in `reviewed_duplicate_articles.tsv`: **{n_new_dup}**.", "",
+          "| Document | cited | docx | xml | cited missing | nested in Alteracao | absent from XML | "
+          "duplicate XML ids | out of sequence |",
+          "|---|---|---|---|---|---|---|---|---|"]
     for r in problems:
         cm = ", ".join(f"{a}{'' if (r['stem'], a) not in unmatchable else ' (unmatchable)'}"
                        for a in r["cited_missing"])
         md.append(f"| `{r['stem']}` | {'yes' if r['cited'] else ''} | {r['docx']} | {r['xml']} | {cm} | "
-                  f"{short(r['nested'])} | {short(r['absent'])} | {short(r['dup_xml'])} |")
+                  f"{short(r['nested'])} | {short(r['absent'])} | {short(r['dup_xml'])} | {short(r['seq'])} |")
     text = "\n".join(md) + "\n"
     if args.out:
         args.out.write_text(text, encoding="utf-8")
     print(text)
+    if n_seq or n_new_dup:
+        print(f"WARNING: {n_seq} article(s) out of sequence, {n_new_dup} unreviewed duplicate id(s); "
+              "check them against the source", file=sys.stderr)
     if gate:
         print("GATE FAILED: cited articles missing from the XML and not listed as unmatchable:",
               file=sys.stderr)

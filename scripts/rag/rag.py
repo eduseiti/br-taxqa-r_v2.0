@@ -133,7 +133,8 @@ def cmd_context(args: argparse.Namespace) -> int:
     paths = paths_from(args)
     cfg = ContextConfig(sets=tuple(str_list(args.sets)), dedup=args.dedup, overflow=args.overflow, order=args.order,
                         template=args.template, annex_rule=args.annex_rule, oracle_strategy=args.oracle_strategy,
-                        seed=args.seed, count_tokens=not args.no_token_count, eval_id=args.eval_id, force=args.force)
+                        seed=args.seed, donors_from=args.donors_from, count_tokens=not args.no_token_count,
+                        eval_id=args.eval_id, force=args.force)
     out = run_contexts(Path(args.retrieval), cfg, paths)
     print(f"contexts written under {rel(out)} (see summary.csv)")
     return 0
@@ -337,6 +338,8 @@ def build_parser() -> argparse.ArgumentParser:
     sp.add_argument("--annex-rule", choices=ANNEX_RULES, default="either", help="G3 rule for gold coverage and oracle")
     sp.add_argument("--oracle-strategy", default="S1", help="units of the oracle context (default S1: articles)")
     sp.add_argument("--seed", type=int, default=13, help="seed of the wrong-context donors")
+    sp.add_argument("--donors-from", help="wrong sets: keep the donors of this question<TAB>donor TSV (or an earlier "
+                                          "wrong set's contexts.jsonl.gz) where they are still eligible")
     sp.add_argument("--eval-id", help="evaluation for the consistency check (default: a matching one)")
     sp.add_argument("--no-token-count", action="store_true", help="skip Qwen3 counts of the rendered contexts")
     sp.add_argument("--force", action="store_true", help="replace context sets made with another configuration")

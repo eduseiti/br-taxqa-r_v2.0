@@ -1,45 +1,89 @@
 {
   "schema_version": 1,
   "kind": "retrieval",
-  "created_at": "2026-10-22T20:26:19+00:00",
+  "created_at": "2026-11-22T17:38:29+00:00",
   "script": {
     "package": "ragpipe",
     "version": "0.1.0",
     "git": {
-      "commit": "7b760f446a508c23d024d7332824d8fdb3073e8a",
+      "commit": "38b37f0ea48617466609aec051b8f6ad1d7fd824",
       "dirty": true,
       "dirty_files": [
-        "ocs/20261021_210251_rag_phase2_contexts_execution.md",
-        "runs/contexts/jua-4b-mixed/irpf/S1_budget2000/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/S1_budget4000/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/S1_budget8000/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/S2_budget2000/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/S2_budget4000/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/S2_budget8000/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/S2c_budget4000/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/S3_budget4000/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/S4_budget4000/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/closed_book/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/oracle_budget16000/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/oracle_budget4000/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/summary.csv",
-        "runs/contexts/jua-4b-mixed/irpf/wrong-S2_budget4000/manifest.json",
-        "scripts/rag/README.md",
-        "scripts/rag/rag.py",
-        "scripts/rag/ragpipe/context.py",
-        "scripts/rag/ragpipe/contexts.py",
-        "scripts/rag/ragpipe/data.py",
-        "scripts/rag/ragpipe/evaluation.py",
-        "scripts/rag/ragpipe/retrieval.py",
-        "scripts/rag/ragpipe/strategies.py",
-        "scripts/rag/tests/conftest.py",
-        "scripts/rag/tests/test_contexts.py",
-        "scripts/rag/tests/test_pipeline.py",
-        "runs/contexts/jua-4b-mixed/irpf/S2_budget4000_context_v1/",
+        "ataset/build_report.json",
+        "dataset/documents.jsonl",
+        "dataset/references.jsonl",
+        "embeddings/costs.csv",
+        "embeddings/gemini-emb-2/corpus/manifest.json",
+        "embeddings/jua-4b-mixed/corpus/manifest.json",
+        "embeddings/jua-4b-mixed/endpoint_meter.jsonl",
+        "lexml/articulados/PARSER_VERSION",
+        "lexml/articulados/circ_bc_3432_20090203.err.log",
+        "lexml/articulados/circ_bc_3432_20090203.xml",
+        "lexml/articulados/decreto_57942_19660310.err.log",
+        "lexml/articulados/decreto_57942_19660310.xml",
+        "lexml/articulados/decreto_71733_19730118.err.log",
+        "lexml/articulados/decreto_71733_19730118.xml",
+        "lexml/articulados/decreto_85306_19801030.err.log",
+        "lexml/articulados/decreto_85306_19801030.xml",
+        "lexml/articulados/decreto_87563_19820913.err.log",
+        "lexml/articulados/decreto_87563_19820913.xml",
+        "lexml/articulados/decreto_9580_20181122.anexo1.xml",
+        "lexml/articulados/decreto_9580_20181122.err.log",
+        "lexml/articulados/decreto_lei_5844_19430923.err.log",
+        "lexml/articulados/decreto_lei_5844_19430923.xml",
+        "lexml/articulados/in_rfb_1131_20110221.err.log",
+        "lexml/articulados/in_rfb_1131_20110221.xml",
+        "lexml/articulados/lei_12350_20101220.err.log",
+        "lexml/articulados/lei_12350_20101220.xml",
+        "lexml/articulados/lei_12715_20120917.err.log",
+        "lexml/articulados/lei_12715_20120917.xml",
+        "lexml/articulados/lei_4886_19651209.err.log",
+        "lexml/articulados/lei_4886_19651209.xml",
+        "lexml/articulados/mp_2228-1_20010906.anexo1.xml",
+        "lexml/articulados/mp_2228-1_20010906.err.log",
+        "lexml/articulados/port_conj_tse_srf_74_20060110.err.log",
+        "lexml/articulados/port_conj_tse_srf_74_20060110.xml",
+        "original/articulados/decreto_lei_5844_19430923.docx",
+        "original/articulados/lei_12715_20120917.docx",
+        "runs/retrieval/gemini-emb-2/irpf/manifest.json",
+        "runs/retrieval/jua-4b-mixed/irpf/manifest.json",
+        "scripts/lexml/audit_article_coverage.py",
+        "scripts/lexml/unmatchable_articles.tsv",
         "scripts/rag/corpus_exclusions.yaml",
-        "scripts/rag/prompts/context_v2.pt.md",
-        "scripts/rag/ragpipe/exclusions.py",
-        "scripts/rag/tests/test_exclusions.py"
+        "segmented/annex_manifest.csv",
+        "segmented/chunks_all.csv.gz",
+        "segmented/groupings_over_limit.csv",
+        "segmented/run_info.json",
+        "segmented/segmentation_report.json",
+        "segmented/segmentation_report.md",
+        "segmented/statutory/circ_bc_3432_20090203.csv",
+        "segmented/statutory/decreto_57942_19660310.csv",
+        "segmented/statutory/decreto_71733_19730118.csv",
+        "segmented/statutory/decreto_71733_19730118.prov.jsonl",
+        "segmented/statutory/decreto_85306_19801030.csv",
+        "segmented/statutory/decreto_85306_19801030.prov.jsonl",
+        "segmented/statutory/decreto_87563_19820913.csv",
+        "segmented/statutory/decreto_87563_19820913.prov.jsonl",
+        "segmented/statutory/decreto_9580_20181122.anexo1.csv",
+        "segmented/statutory/decreto_9580_20181122.anexo1.prov.jsonl",
+        "segmented/statutory/decreto_lei_5844_19430923.csv",
+        "segmented/statutory/in_rfb_1131_20110221.csv",
+        "segmented/statutory/lei_12350_20101220.csv",
+        "segmented/statutory/lei_12350_20101220.prov.jsonl",
+        "segmented/statutory/lei_12715_20120917.csv",
+        "segmented/statutory/lei_12715_20120917.prov.jsonl",
+        "segmented/statutory/lei_4886_19651209.csv",
+        "segmented/statutory/mp_2228-1_20010906.anexo1.csv",
+        "segmented/statutory/mp_2228-1_20010906.anexo1.prov.jsonl",
+        "segmented/statutory/port_conj_tse_srf_74_20060110.csv",
+        "lexml/articulados/decreto_85306_19801030.anexo1.xml",
+        "lexml/articulados/decreto_87563_19820913.anexo1.xml",
+        "scripts/lexml/repair_docx.py",
+        "scripts/lexml/reviewed_duplicate_articles.tsv",
+        "segmented/statutory/decreto_85306_19801030.anexo1.csv",
+        "segmented/statutory/decreto_85306_19801030.anexo1.prov.jsonl",
+        "segmented/statutory/decreto_87563_19820913.anexo1.csv",
+        "segmented/statutory/decreto_87563_19820913.anexo1.prov.jsonl"
       ]
     },
     "argv": [
@@ -47,13 +91,14 @@
       "retrieve",
       "--embedding",
       "jua-4b-mixed",
+      "--run-name",
+      "irpf_with_rir1999",
       "--exclusions",
       "none",
-      "--run-name",
-      "irpf_with_rir1999"
+      "--force"
     ]
   },
-  "config_hash": "734a67d9c45866c2c10e0e02ce90edff2ee60b2bee5f0ef063f07b971149494a",
+  "config_hash": "7c338347cd3a008a39344904f11dfd60c2173abc4ee73f253549b620a8626bc4",
   "params": {
     "embedding": "jua-4b-mixed",
     "instruction": "irpf",
@@ -218,7 +263,7 @@
   "inputs": {
     "chunks": {
       "path": "segmented/chunks_all.csv.gz",
-      "sha256": "a6087b7f19ff5b02cc0863523b6dd423f6feddf291fe9f11e7f08d45146c326a"
+      "sha256": "21bf98e5a1aa52b209ee009b107194d2416e036fa5076ad4d5a8a112119d910a"
     },
     "questions": {
       "path": "dataset/questions.jsonl",
@@ -226,11 +271,11 @@
     },
     "references": {
       "path": "dataset/references.jsonl",
-      "sha256": "ffc7e6b748f68b428b124dc5a3baa7e0d57aaaef419f7d50ff2596bd62aec9f7"
+      "sha256": "4c3807b9aa26aa46f117b36bc41916429f7902f659ea1c8611cc89f8d28615cc"
     },
     "documents": {
       "path": "dataset/documents.jsonl",
-      "sha256": "5b7c5b42020046c420eb89fff56c945481a14aceb4cb28970f85eb5b21ee73aa"
+      "sha256": "b754271f2e963fc07eacfa35aef9fbe030fbe850486d28fa298b2fca5f65c0db"
     },
     "strategies_yaml": {
       "path": "scripts/rag/strategies.yaml",
@@ -238,15 +283,15 @@
     },
     "corpus_vectors": {
       "path": "embeddings/jua-4b-mixed/corpus/vectors.npy",
-      "sha256": "e26e2876c4cd7e9e3bd1ade61f7ce64d2117ef12bfc17ed81fa8804c05d29b4d"
+      "sha256": "5f8ef19b313e77f1220927649a2a99d0d4b5659b1c35fa52c26543b9a184beaa"
     },
     "corpus_texts": {
       "path": "embeddings/jua-4b-mixed/corpus/texts.csv",
-      "sha256": "4fe543fb03535482800327902f228ed2a804fa0bbaae4d01a321eccf489d6ece"
+      "sha256": "4f4675588e295429a8d8644b8f375f340fc5138a53a468bcffa5ed96ebfc4700"
     },
     "chunk_map": {
       "path": "embeddings/jua-4b-mixed/corpus/chunk_map.csv.gz",
-      "sha256": "5569b3c5e1aa2e34631d68a15d9ec3b5f7b185e983ea759f41c9e7819c67c286"
+      "sha256": "6227257aa93b18ccc634e3d03db5d920079c3571e1c4b8d406cc14ccb44042bd"
     },
     "query_vectors": {
       "path": "embeddings/jua-4b-mixed/queries/irpf/vectors.npy",
@@ -262,10 +307,10 @@
     "errors": [],
     "warnings": [],
     "info": {
-      "chunks": 104574,
-      "unique_texts": 101943,
+      "chunks": 104625,
+      "unique_texts": 102012,
       "corpus_vectors": [
-        101943,
+        102012,
         2560
       ],
       "query_vectors": [
@@ -282,69 +327,70 @@
   },
   "counts": {
     "S1": {
-      "chunk_rows": 21497,
-      "candidate_texts": 21458,
+      "chunk_rows": 21514,
+      "candidate_texts": 21486,
       "ranking_rows": 715000,
-      "texts_with_aliases": 34
+      "texts_with_aliases": 23
     },
     "S2": {
-      "chunk_rows": 73118,
-      "candidate_texts": 72960,
+      "chunk_rows": 73173,
+      "candidate_texts": 73038,
       "ranking_rows": 715000,
-      "texts_with_aliases": 153
+      "texts_with_aliases": 130
     },
     "S3": {
-      "chunk_rows": 77080,
-      "candidate_texts": 76922,
+      "chunk_rows": 77135,
+      "candidate_texts": 77000,
       "ranking_rows": 715000,
-      "texts_with_aliases": 153
+      "texts_with_aliases": 130
     },
     "S2c": {
-      "chunk_rows": 73118,
-      "candidate_texts": 70500,
+      "chunk_rows": 73173,
+      "candidate_texts": 70569,
       "ranking_rows": 715000,
-      "texts_with_aliases": 2612
+      "texts_with_aliases": 2598
     },
     "S4": {
-      "chunk_rows": 77080,
-      "candidate_texts": 74462,
+      "chunk_rows": 77135,
+      "candidate_texts": 74531,
       "ranking_rows": 715000,
-      "texts_with_aliases": 2612
+      "texts_with_aliases": 2598
     }
   },
   "corpus_exclusions": {
     "path": null,
     "sha256": null,
     "documents": [],
+    "chunks": [],
     "chunk_rows_excluded": 0
   },
   "outputs": {
     "S1": {
       "path": "S1/rankings.csv.gz",
-      "sha256": "1b9147ed3972316d935206a7d3290228a6909bae02ecee84e95b8c05796e7bcc"
+      "sha256": "fcebebef5e8bebc0e633a20ebd9d41a887530df012e636b3d59d18e715f95e19"
     },
     "S2": {
       "path": "S2/rankings.csv.gz",
-      "sha256": "67f33eee11043c0dab1bc0dd21f4bdbe0fe07838e5cd1e69aa1c6eeab73be240"
+      "sha256": "542d7a05aa710039c401766259442b66f7376efb02541d0436a908c684eb46f2"
     },
     "S3": {
       "path": "S3/rankings.csv.gz",
-      "sha256": "56eead2a6c9e37a6478ae3a0773d517f3c98ee07ee8194f3e7d73ebb76ffaa9c"
+      "sha256": "71584d22ab404e5db7e448ad08add4a50b9d514a5c5009eab05229b873de137e"
     },
     "S2c": {
       "path": "S2c/rankings.csv.gz",
-      "sha256": "0181ec6a71ea599be69e6e754ab9ec46105292337ef09be4874fc27ec92fdc77"
+      "sha256": "ddf89acc2671bccb0450b7dd4a578e79220eddde2086b54312d1437ceca65ba6"
     },
     "S4": {
       "path": "S4/rankings.csv.gz",
-      "sha256": "dd8eefafd4eeb13413172b8a616aa611c7e0f6e79182d4218a32ce9f9eaee99b"
+      "sha256": "3cb85cf199b74184073a170ae91aacbe83ed39a8e801474fa073b7711dad21b3"
     }
   },
   "timings_s": {
-    "load_and_check": 8.67,
-    "index": 5.0,
-    "search": 7.12,
-    "write": 13.15,
-    "total": 33.94
+    "load_and_check": 2.12,
+    "index": 1.08,
+    "search": 3.49,
+    "write": 11.38,
+    "total": 18.07
   }
 }

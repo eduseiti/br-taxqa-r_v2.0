@@ -1,30 +1,50 @@
 {
   "schema_version": 1,
   "kind": "retrieval_evaluation",
-  "created_at": "2026-11-15T17:52:26+00:00",
+  "created_at": "2026-11-22T17:43:23+00:00",
   "script": {
     "package": "ragpipe",
     "version": "0.1.0",
     "git": {
-      "commit": "907b7fcc35e5b5c68dccc1a78c35435b5f12b3f4",
+      "commit": "38b37f0ea48617466609aec051b8f6ad1d7fd824",
       "dirty": true,
       "dirty_files": [
-        "LAUDE.md",
-        "runs/contexts/jua-4b-mixed/irpf/S1_budget2000/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/S1_budget4000/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/S1_budget8000/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/S2_budget2000/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/S2_budget4000/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/S2_budget4000_context_v1/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/S2_budget8000/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/S2c_budget4000/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/S3_budget4000/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/S4_budget4000/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/closed_book/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/oracle_budget16000/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/oracle_budget4000/manifest.json",
-        "runs/contexts/jua-4b-mixed/irpf/summary.csv",
-        "runs/contexts/jua-4b-mixed/irpf/wrong-S2_budget4000/manifest.json",
+        "ataset/build_report.json",
+        "dataset/documents.jsonl",
+        "dataset/references.jsonl",
+        "embeddings/costs.csv",
+        "embeddings/gemini-emb-2/corpus/manifest.json",
+        "embeddings/jua-4b-mixed/corpus/manifest.json",
+        "embeddings/jua-4b-mixed/endpoint_meter.jsonl",
+        "lexml/articulados/PARSER_VERSION",
+        "lexml/articulados/circ_bc_3432_20090203.err.log",
+        "lexml/articulados/circ_bc_3432_20090203.xml",
+        "lexml/articulados/decreto_57942_19660310.err.log",
+        "lexml/articulados/decreto_57942_19660310.xml",
+        "lexml/articulados/decreto_71733_19730118.err.log",
+        "lexml/articulados/decreto_71733_19730118.xml",
+        "lexml/articulados/decreto_85306_19801030.err.log",
+        "lexml/articulados/decreto_85306_19801030.xml",
+        "lexml/articulados/decreto_87563_19820913.err.log",
+        "lexml/articulados/decreto_87563_19820913.xml",
+        "lexml/articulados/decreto_9580_20181122.anexo1.xml",
+        "lexml/articulados/decreto_9580_20181122.err.log",
+        "lexml/articulados/decreto_lei_5844_19430923.err.log",
+        "lexml/articulados/decreto_lei_5844_19430923.xml",
+        "lexml/articulados/in_rfb_1131_20110221.err.log",
+        "lexml/articulados/in_rfb_1131_20110221.xml",
+        "lexml/articulados/lei_12350_20101220.err.log",
+        "lexml/articulados/lei_12350_20101220.xml",
+        "lexml/articulados/lei_12715_20120917.err.log",
+        "lexml/articulados/lei_12715_20120917.xml",
+        "lexml/articulados/lei_4886_19651209.err.log",
+        "lexml/articulados/lei_4886_19651209.xml",
+        "lexml/articulados/mp_2228-1_20010906.anexo1.xml",
+        "lexml/articulados/mp_2228-1_20010906.err.log",
+        "lexml/articulados/port_conj_tse_srf_74_20060110.err.log",
+        "lexml/articulados/port_conj_tse_srf_74_20060110.xml",
+        "original/articulados/decreto_lei_5844_19430923.docx",
+        "original/articulados/lei_12715_20120917.docx",
         "runs/retrieval/gemini-emb-2/irpf/eval/either_containment_merge_skip/comparisons.csv",
         "runs/retrieval/gemini-emb-2/irpf/eval/either_containment_merge_skip/manifest.json",
         "runs/retrieval/gemini-emb-2/irpf/eval/either_containment_merge_skip/metrics.csv",
@@ -33,6 +53,16 @@
         "runs/retrieval/gemini-emb-2/irpf/eval/either_containment_skip/comparisons.csv",
         "runs/retrieval/gemini-emb-2/irpf/eval/either_containment_skip/metrics.csv",
         "runs/retrieval/gemini-emb-2/irpf/eval/either_containment_skip/reachability.csv",
+        "runs/retrieval/gemini-emb-2/irpf/eval/v2c_either_containment_skip/comparisons.csv",
+        "runs/retrieval/gemini-emb-2/irpf/eval/v2c_either_containment_skip/manifest.json",
+        "runs/retrieval/gemini-emb-2/irpf/eval/v2c_either_containment_skip/metrics.csv",
+        "runs/retrieval/gemini-emb-2/irpf/eval/v2c_either_containment_skip/reachability.csv",
+        "runs/retrieval/gemini-emb-2/irpf/eval/v2c_either_containment_skip/report.md",
+        "runs/retrieval/gemini-emb-2/irpf/eval/v2d_either_containment_skip/comparisons.csv",
+        "runs/retrieval/gemini-emb-2/irpf/eval/v2d_either_containment_skip/manifest.json",
+        "runs/retrieval/gemini-emb-2/irpf/eval/v2d_either_containment_skip/metrics.csv",
+        "runs/retrieval/gemini-emb-2/irpf/eval/v2d_either_containment_skip/reachability.csv",
+        "runs/retrieval/gemini-emb-2/irpf/eval/v2d_either_containment_skip/report.md",
         "runs/retrieval/gemini-emb-2/irpf/manifest.json",
         "runs/retrieval/jua-4b-mixed/irpf/eval/either_containment_merge_skip/comparisons.csv",
         "runs/retrieval/jua-4b-mixed/irpf/eval/either_containment_merge_skip/manifest.json",
@@ -45,20 +75,45 @@
         "runs/retrieval/jua-4b-mixed/irpf/eval/v2d_either_containment_skip/reachability.csv",
         "runs/retrieval/jua-4b-mixed/irpf/eval/v2d_either_containment_skip/report.md",
         "runs/retrieval/jua-4b-mixed/irpf/manifest.json",
-        "scripts/nuggets/nuggetizer/analysis.py",
-        "scripts/nuggets/nuggetizer/ctx_audit.py",
+        "runs/retrieval/jua-4b-mixed/irpf_with_rir1999/manifest.json",
+        "scripts/lexml/audit_article_coverage.py",
+        "scripts/lexml/unmatchable_articles.tsv",
         "scripts/rag/corpus_exclusions.yaml",
-        "scripts/rag/ragpipe/contexts.py",
-        "scripts/rag/ragpipe/evaluation.py",
-        "scripts/rag/ragpipe/exclusions.py",
-        "scripts/rag/ragpipe/relevance.py",
-        "scripts/rag/ragpipe/retrieval.py",
-        "scripts/rag/tests/test_contexts.py",
-        "scripts/rag/tests/test_pipeline.py",
-        "scripts/rag/tests/test_units.py",
-        "scripts/report/build_explorer_data.py",
-        "scripts/report/build_trace_data.py",
-        "docs/20261115_172140_gold_matcher_annex_rule_and_misparsed_articles.md"
+        "scripts/rag/strategies.yaml",
+        "segmented/annex_manifest.csv",
+        "segmented/chunks_all.csv.gz",
+        "segmented/groupings_over_limit.csv",
+        "segmented/run_info.json",
+        "segmented/segmentation_report.json",
+        "segmented/segmentation_report.md",
+        "segmented/statutory/circ_bc_3432_20090203.csv",
+        "segmented/statutory/decreto_57942_19660310.csv",
+        "segmented/statutory/decreto_71733_19730118.csv",
+        "segmented/statutory/decreto_71733_19730118.prov.jsonl",
+        "segmented/statutory/decreto_85306_19801030.csv",
+        "segmented/statutory/decreto_85306_19801030.prov.jsonl",
+        "segmented/statutory/decreto_87563_19820913.csv",
+        "segmented/statutory/decreto_87563_19820913.prov.jsonl",
+        "segmented/statutory/decreto_9580_20181122.anexo1.csv",
+        "segmented/statutory/decreto_9580_20181122.anexo1.prov.jsonl",
+        "segmented/statutory/decreto_lei_5844_19430923.csv",
+        "segmented/statutory/in_rfb_1131_20110221.csv",
+        "segmented/statutory/lei_12350_20101220.csv",
+        "segmented/statutory/lei_12350_20101220.prov.jsonl",
+        "segmented/statutory/lei_12715_20120917.csv",
+        "segmented/statutory/lei_12715_20120917.prov.jsonl",
+        "segmented/statutory/lei_4886_19651209.csv",
+        "segmented/statutory/mp_2228-1_20010906.anexo1.csv",
+        "segmented/statutory/mp_2228-1_20010906.anexo1.prov.jsonl",
+        "segmented/statutory/port_conj_tse_srf_74_20060110.csv",
+        "lexml/articulados/decreto_85306_19801030.anexo1.xml",
+        "lexml/articulados/decreto_87563_19820913.anexo1.xml",
+        "scripts/lexml/repair_docx.py",
+        "scripts/lexml/reviewed_duplicate_articles.tsv",
+        "segmented/statutory/decreto_85306_19801030.anexo1.csv",
+        "segmented/statutory/decreto_85306_19801030.anexo1.prov.jsonl",
+        "segmented/statutory/decreto_87563_19820913.anexo1.csv",
+        "segmented/statutory/decreto_87563_19820913.anexo1.prov.jsonl"
       ]
     },
     "argv": [
@@ -66,18 +121,18 @@
       "evaluate",
       "--retrieval",
       "runs/retrieval/gemini-emb-2/irpf",
+      "--eval-id",
+      "either_containment_skip",
       "--dedup",
       "containment",
       "--strategies",
       "S1,S2,S3",
       "--comparisons",
       "S1:S2,S2:S3",
-      "--eval-id",
-      "either_containment_skip",
       "--force"
     ]
   },
-  "config_hash": "376064ce545a31415e320298f4b2928990730fdc6ac648dd2b466bad27c9754d",
+  "config_hash": "4a215943cb8584fb25f8b7ce2662e64cf89bf8c45c3315c5e49947c6dbe080d4",
   "eval_id": "either_containment_skip",
   "params": {
     "annex_rule": "either",
@@ -132,11 +187,11 @@
   "inputs": {
     "retrieval_manifest": {
       "path": "runs/retrieval/gemini-emb-2/irpf/manifest.json",
-      "config_hash": "b71cd88e45b2f28f17eb88f0d9ffa2464dc175efea436f31ca9739ac386152fd"
+      "config_hash": "e3ac2a9fed69030dc1412233fc015e925693ac18f5b9fe4efbf4e04b78cb0e48"
     },
     "chunks": {
       "path": "segmented/chunks_all.csv.gz",
-      "sha256": "a6087b7f19ff5b02cc0863523b6dd423f6feddf291fe9f11e7f08d45146c326a"
+      "sha256": "21bf98e5a1aa52b209ee009b107194d2416e036fa5076ad4d5a8a112119d910a"
     },
     "questions": {
       "path": "dataset/questions.jsonl",
@@ -144,11 +199,11 @@
     },
     "references": {
       "path": "dataset/references.jsonl",
-      "sha256": "ffc7e6b748f68b428b124dc5a3baa7e0d57aaaef419f7d50ff2596bd62aec9f7"
+      "sha256": "4c3807b9aa26aa46f117b36bc41916429f7902f659ea1c8611cc89f8d28615cc"
     },
     "documents": {
       "path": "dataset/documents.jsonl",
-      "sha256": "5b7c5b42020046c420eb89fff56c945481a14aceb4cb28970f85eb5b21ee73aa"
+      "sha256": "b754271f2e963fc07eacfa35aef9fbe030fbe850486d28fa298b2fca5f65c0db"
     },
     "chapters": {
       "path": "scripts/rag/data/pr_irpf_2024_chapters.csv",
@@ -194,28 +249,28 @@
   },
   "outputs": {
     "metrics.csv": {
-      "sha256": "ed7738018a5de3fe82e34f5e91a53b524955a087c294e7a81710ca354a75467b"
+      "sha256": "c112d5a424363479a3bd4ba64a0c22e3024fde9daba663c555821ac7d530f57e"
     },
     "metrics_by_chapter.csv.gz": {
-      "sha256": "2a2af4916f72a62a2854fa7b49f506ad99684983ebd471b9d13d6fd12ee35144"
+      "sha256": "8e80079e27727b65d0bb22ebf9f2322302832c8ab672daa79da3c731d345db95"
     },
     "comparisons.csv": {
-      "sha256": "2e7ca9936c1845e274fad56f523117226730d9fe90595acc3a15b619fede6461"
+      "sha256": "9bb69165c2ee0f54c48df8c0fb6f47ccda2e67793adaad9da68a047c3b8be9e8"
     },
     "reachability.csv": {
-      "sha256": "5c585287e5fc270ecd30ad665757356c822760147c8b0715f209cee452276397"
+      "sha256": "a79c3573f68ca343e737354e112f2fe05eedbdc640ab5dc57a0f3ba19b9e17c3"
     },
     "per_question.csv.gz": {
-      "sha256": "e4c7c0390344f40be7ce4ceb41a569867ffcccebaeab71b980e9fdc1501e21d4"
+      "sha256": "1c89b1aac0af0a5e23cf70df600130f97e57473272fb0b42d977c6f6c1c0f928"
     },
     "per_item.csv.gz": {
-      "sha256": "b7e2b520db75aa30f50ef2a28c7379dd30a55d65c5f3a637c6bf77d543202c2a"
+      "sha256": "3d350480279bd89382747f6fb16df30b4a0f3dafcf367437a0748e91f5d52595"
     }
   },
   "timings_s": {
-    "load": 1.4,
-    "score": 6.46,
-    "aggregate": 3.33,
-    "total": 14.06
+    "load": 1.44,
+    "score": 6.74,
+    "aggregate": 3.52,
+    "total": 14.62
   }
 }

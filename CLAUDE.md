@@ -119,14 +119,18 @@ than expected.
 - **`segmented/`** — segmentation outputs (chunk CSVs with the
   `Tipo, Rotulo, Num_Inicio, Num_Final, Texto, urn` schema) that feed the embedding step.
 
-## Pending corpus revision (do not lose)
+## Corpus revision (fix B): executed 2026-11-22, release pending
 
-The parser turned some citation lines and headings into fake `Art. N` chunks (e.g. RIR/2018 annex
-`decreto_9580_20181122.anexo1#2754`, "Art. 1º, art. 2º e art. 4º ao art. 71 da Lei nº 12.973…"; 6 documents found
-on 2026-11-15), and 21 article ids are duplicated within a file. The matcher fix and chunk-level exclusions
-(fix A, done 2026-11-15: `docs/20261115_181838_fix_a_gold_matcher_results.md`) work around it in the experiments; the **corpus itself still needs the repair, re-segmentation and a new
-repo A release (fix B)**. Plan, document list and steps: `docs/20261115_172140_gold_matcher_annex_rule_and_misparsed_articles.md`
-§5. Do it at the next corpus revision or before the public HF release, whichever comes first.
+The parser had turned some citation lines and headings into fake `Art. N` chunks (6 documents, found on
+2026-11-15), and some article ids were duplicated. Fix A (2026-11-15, `docs/20261115_181838_fix_a_gold_matcher_results.md`)
+worked around it in the matcher. **Fix B repaired the corpus on 2026-11-22**:
+- the parser rule (`../lexml-parser-projeto-lei`) and 2 `.docx` repairs (`scripts/lexml/repair_docx.py`);
+- the audit's new checks (`audit_article_coverage.py`, `reviewed_duplicate_articles.tsv`);
+- re-segmentation, re-embedding, reruns and rescoring.
+
+Results: `docs/20261122_181611_fix_b_corpus_revision_results.md`. The chunk exclusions are now empty, and chunk ids of
+the 15 changed files are renumbered. **Still open until the user's review: the commits (this repo and the parser repo)
+and the new HF release of repos A and B.**
 
 ## Related repositories (siblings under `../`)
 

@@ -104,6 +104,7 @@ class ContextConfig:
     annex_rule: str = "either"
     oracle_strategy: str = "S1"
     seed: int = 13
+    donors_from: str | None = None      # question -> donor TSV (or contexts.jsonl.gz) to keep (wrong sets only)
     count_tokens: bool = True
     eval_id: str | None = None          # evaluation for the consistency check (default: a matching one)
     force: bool = False
@@ -120,7 +121,7 @@ class ContextConfig:
     def params(self) -> dict:
         return {"dedup": self.dedup, "overflow": self.overflow, "order": self.order, "template": self.template,
                 "annex_rule": self.annex_rule, "oracle_strategy": self.oracle_strategy, "seed": self.seed,
-                "token_counter": "qwen3"}
+                "token_counter": "qwen3", **({"donors_from": self.donors_from} if self.donors_from else {})}
 
 
 # ================================================================================================
@@ -259,6 +260,44 @@ def donors(inp: Inputs, base: dict[str, list[Item]], seed: int) -> tuple[dict[st
     return out, relaxed
 
 
+def load_donor_map(path: str) -> dict[str, str]:
+    """question -> donor from a ``question_number<TAB>donor_question`` TSV or an earlier wrong set's
+    ``contexts.jsonl.gz``."""
+    import gzip
+    import json
+    if path.endswith(".jsonl.gz"):
+        with gzip.open(path, "rt", encoding="utf-8") as f:
+            return {r["question_number"]: r["donor_question"] for r in map(json.loads, f)}
+    out = {}
+    for line in open(path, encoding="utf-8"):
+        if line.strip() and not line.startswith(("#", "question_number")):
+            q, d = line.rstrip("\n").split("\t")[:2]
+            out[q] = d
+    return out
+
+
+def pinned_donors(inp: Inputs, base: dict[str, list[Item]], seed: int,
+                  pinned: dict[str, str]) -> tuple[dict[str, str], int, list[str]]:
+    """Keep an earlier donor assignment (corpus fix B, 2026-11-22: a corpus revision changes a few contexts,
+    and ``donors`` would then reshuffle the whole seeded sequence). A kept donor must still meet the strict
+    rule of ``donors``; the questions whose donor does not (or that have none) get the donor ``donors``
+    draws for them now. Returns the donors, the relaxed count of that draw and the re-drawn questions."""
+    drawn, relaxed = donors(inp, base, seed)
+    gdocs = {q: {it.document_id for it in inp.gold.get(q, {}).get("document", [])} for q in inp.question_ids}
+    cdocs = {q: {inp.matcher.doc_of_row[r] for it in base[q] for r in it.rows} for q in inp.question_ids}
+    ch = inp.chapters
+    out, redrawn = {}, []
+    for q in inp.question_ids:
+        d = pinned.get(q)
+        if (d is not None and d in base and d != q and ch.get(d) != ch.get(q)
+                and not (gdocs[d] & gdocs[q]) and not (cdocs[d] & gdocs[q])):
+            out[q] = d
+        else:
+            out[q] = drawn[q]
+            redrawn.append(q)
+    return out, relaxed, redrawn
+
+
 # ================================================================================================
 # Coverage, rendering, writing
 # ================================================================================================
@@ -360,7 +399,12 @@ def build_set(inp: Inputs, spec: SetSpec, cfg: ContextConfig, tmpl: Template, co
             cache[key] = retrieval_items(inp, SetSpec("retrieval", spec.strategy, spec.cutoff), cfg)
         base = cache[key]
         if spec.kind == "wrong":
-            donor, relaxed = donors(inp, base, cfg.seed)
+            if cfg.donors_from:
+                donor, relaxed, redrawn = pinned_donors(inp, base, cfg.seed, load_donor_map(cfg.donors_from))
+                extra["donors_from"] = cfg.donors_from
+                extra["donors_redrawn"] = redrawn
+            else:
+                donor, relaxed = donors(inp, base, cfg.seed)
             sel = {q: base[donor[q]] for q in inp.question_ids}
             extra["donor_rule"] = ("another P&R chapter, no shared gold document, no chunk of the question's gold "
                                    "documents in the donor context; seeded permutation")

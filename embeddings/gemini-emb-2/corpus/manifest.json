@@ -1,31 +1,22 @@
 {
   "schema_version": 1,
-  "created_at": "2026-11-08T17:44:25+00:00",
+  "created_at": "2026-11-22T17:34:21+00:00",
   "kind": "corpus",
   "script": {
     "version": "0.1.0",
     "git": {
-      "commit": "99e1a8c2251e2722fe0dd6e91739b62f6f35a081",
-      "dirty": true,
-      "dirty_files": [
-        "M scripts/embedding/embed.py",
-        " M scripts/embedding/embedding/config.py",
-        " M scripts/embedding/embedding/costs.py",
-        " M scripts/embedding/embedding/providers/__init__.py",
-        " M scripts/embedding/embedding/runner.py",
-        " M scripts/embedding/models.yaml",
-        "?? scripts/embedding/embedding/providers/openrouter.py",
-        "?? scripts/embedding/parity_sample_20261108.json",
-        "?? scripts/embedding/tests/test_openrouter.py"
-      ]
+      "commit": "38b37f0ea48617466609aec051b8f6ad1d7fd824",
+      "dirty": false,
+      "dirty_files": []
     },
     "argv": [
       "scripts/embedding/embed.py",
       "corpus",
       "--model",
       "gemini-emb-2",
+      "--extend",
       "--budget",
-      "9.77",
+      "8.04",
       "--no-progress"
     ]
   },
@@ -76,22 +67,22 @@
   },
   "input": {
     "path": "/work/doutorado/artigos/RAG_evaluation/br-taxqa-r_v2.0/segmented/chunks_all.csv.gz",
-    "sha256": "a6087b7f19ff5b02cc0863523b6dd423f6feddf291fe9f11e7f08d45146c326a",
+    "sha256": "21bf98e5a1aa52b209ee009b107194d2416e036fa5076ad4d5a8a112119d910a",
     "id_col": "chunk_id",
     "text_col": "Texto",
-    "rows": 104574,
-    "unique_texts": 101943,
+    "rows": 104625,
+    "unique_texts": 102012,
     "tokens": {
-      "total": 28593322,
+      "total": 28596677,
       "max": 8110,
       "p50": 200,
-      "p90": 456,
-      "p99": 1530
+      "p90": 455,
+      "p99": 1529
     }
   },
   "output": {
     "shape": [
-      101943,
+      102012,
       3072
     ],
     "dtype": "float32",
@@ -99,41 +90,41 @@
     "norm_max": 1.0000001192092896,
     "norms_ok": true,
     "sha256": {
-      "vectors.npy": "8b35215c1d9c541e4e6a34170465a5f99b7fa015d48dbe82c766a84ea8eb1993",
-      "texts.csv": "13b985029c506c11972daef958b57db7de97903dd59f7e6761bc17593ce55cb5",
-      "chunk_map.csv.gz": "5569b3c5e1aa2e34631d68a15d9ec3b5f7b185e983ea759f41c9e7819c67c286"
+      "vectors.npy": "3372a4dfeaddcc06761689a3b6fab9f4ddf39eb23261debb5452d6d8eea612eb",
+      "texts.csv": "7a9d8df42e3cb355cb3be3a34e51da561ba68c6c846a6e9811d90bb1f16c709b",
+      "chunk_map.csv.gz": "6227257aa93b18ccc634e3d03db5d920079c3571e1c4b8d406cc14ccb44042bd"
     }
   },
   "run": {
-    "start": "2026-11-08T17:31:55+00:00",
-    "end": "2026-11-08T17:43:37+00:00",
-    "n_texts": 101943,
-    "n_tokens": 28593322,
-    "wall_s": 702.0,
-    "requests": 2186,
+    "start": "2026-11-22T17:33:43+00:00",
+    "end": "2026-11-22T17:33:46+00:00",
+    "n_texts": 377,
+    "n_tokens": 116982,
+    "wall_s": 3.3,
+    "requests": 8,
     "retries": 0,
     "errors": 0,
     "renormalized": 0,
-    "prompt_tokens": 25179092,
-    "cost_usd": 5.035818399999989,
-    "tokens_per_s": 40731.2,
+    "prompt_tokens": 101963,
+    "cost_usd": 0.0203926,
+    "tokens_per_s": 35449.1,
     "n_sessions": 1,
     "sessions": [
       {
-        "start": "2026-11-08T17:31:55+00:00",
-        "n_skipped": 0,
-        "n_texts": 101943,
-        "n_tokens": 28593322,
+        "start": "2026-11-22T17:33:43+00:00",
+        "n_skipped": 101635,
+        "n_texts": 377,
+        "n_tokens": 116982,
         "renormalized": 0,
         "status": "complete",
-        "end": "2026-11-08T17:43:37+00:00",
-        "wall_s": 702.0,
-        "tokens_per_s": 40730.0,
-        "requests": 2186,
+        "end": "2026-11-22T17:33:46+00:00",
+        "wall_s": 3.3,
+        "tokens_per_s": 35738.3,
+        "requests": 8,
         "retries": 0,
         "errors": 0,
-        "prompt_tokens": 25179092,
-        "cost_usd": 5.035818399999989
+        "prompt_tokens": 101963,
+        "cost_usd": 0.0203926
       }
     ]
   },
@@ -153,5 +144,31 @@
       "dim": 3072
     }
   },
-  "cost_ledger": "embeddings/costs.csv"
+  "cost_ledger": "embeddings/costs.csv",
+  "extend": {
+    "previous_manifest_sha256": "3fc75fb41fcb5ff0230876adc7006bb0b1b6975f1c86887d93f04fd92f8869c0",
+    "previous_input": {
+      "path": "/work/doutorado/artigos/RAG_evaluation/br-taxqa-r_v2.0/segmented/chunks_all.csv.gz",
+      "sha256": "a6087b7f19ff5b02cc0863523b6dd423f6feddf291fe9f11e7f08d45146c326a",
+      "id_col": "chunk_id",
+      "text_col": "Texto",
+      "rows": 104574,
+      "unique_texts": 101943,
+      "tokens": {
+        "total": 28593322,
+        "max": 8110,
+        "p50": 200,
+        "p90": 456,
+        "p99": 1530
+      }
+    },
+    "previous_output_sha256": {
+      "vectors.npy": "8b35215c1d9c541e4e6a34170465a5f99b7fa015d48dbe82c766a84ea8eb1993",
+      "texts.csv": "13b985029c506c11972daef958b57db7de97903dd59f7e6761bc17593ce55cb5",
+      "chunk_map.csv.gz": "5569b3c5e1aa2e34631d68a15d9ec3b5f7b185e983ea759f41c9e7819c67c286"
+    },
+    "reused_texts": 101635,
+    "embedded_texts": 377,
+    "dropped_texts": 308
+  }
 }
