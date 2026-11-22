@@ -55,6 +55,7 @@ All in `segmented/`:
 | `non_statutory/<document>.csv` | Chunks of each non-statutory document and text-only annex. |
 | `groupings_over_limit.csv` | Grouping chunks above 8,192 tokens, left out of S3/S4. |
 | `segmentation_report.md` | Validation checks and statistics of the last run. |
+| `unit_tokens.csv.gz`, `prefix_tokens.csv` | Qwen3 tokens per LexML unit (own text and subtree, with its `Num_Inicio`/`Num_Final` interval) and per file prefix, for the token-weighted retrieval metric (`scripts/segmentation/unit_tokens.py`; checks in `unit_tokens_report.json`). |
 
 Main columns: `Texto` (the chunk text that is embedded), `urn` (LexML URN of the unit, e.g.
 `urn:lex:br:federal:lei:1995-12-26;9250!art8_par2`), `Rotulo` (readable label), `chunk_id`,

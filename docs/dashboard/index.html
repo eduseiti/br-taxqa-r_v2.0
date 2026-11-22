@@ -940,6 +940,11 @@ const METRIC_HELP = {
   full_recall: "1 when every gold item of the question is hit",
   partial_recall: "provision level: share of gold provisions hit at least partially (a sub-unit of the gold, or a split-article part)",
   context_precision: "share of the context's tokens that belong to texts hitting some gold item (at least partially)",
+  token_recall: "token-weighted recall (A1): share of the gold units' own text shown in the context, items weighted by size",
+  item_coverage: "token-weighted recall (A1), per gold item, averaged: a graded full hit",
+  token_precision: "A1: share of the context's tokens that are the cited text itself (distinct gold units, counted once)",
+  noise_share: "A1: share of the context's tokens that are off-gold content (other provisions, non-statutory text)",
+  scaffold_share: "A1: share of the context's tokens that are scaffold (title/ementa prefix, grouping names, ancestor path outside the gold, repeats)",
   mrr: "1 / position of the first gold unit among distinct units (0 if not in the top 1,000)",
   "ndcg@10": "binary-gain nDCG over the first 10 distinct units; ideal = all gold units first",
   context_tokens: "Qwen3 tokens in the selected context", context_texts: "number of texts in the selected context",
@@ -1292,7 +1297,7 @@ const rget = (emb, s, lv, view, cut, gold, slice, met) => RM[[emb, s, lv, view, 
 const rState = { embs: ["jua-4b-mixed", "gemini-emb-2"], strats: ["S1", "S2"], level: "article", gold: "all", slice: "all", bmetric: "recall" };
 const SLICES = { all: "all items", explicit: "explicit refs", embedded: "embedded refs", statutory: "statutory docs", non_statutory: "non-statutory docs", annex_A: "annex items", whole_article: "provision = whole article", sub_article: "provision = sub-article unit" };
 function renderRRes() {
-  $("#evalId").textContent = "either_containment_merge_skip";
+  $("#evalId").textContent = "v3_either_containment_merge_skip";
   const c = $("#rControls");
   if (!c.dataset.built) {
     c.dataset.built = 1;
@@ -1302,7 +1307,7 @@ function renderRRes() {
       mk("Strategies", STRATS, "strats", true, Object.fromEntries(STRATS.map(s => [s, scol(s)]))),
       mk("Level", ["document", "article", "provision"], "level"),
       mk("Gold", [{ value: "all", label: "all resolved" }, { value: "reachable", label: "reachable only" }], "gold"),
-      mk("Budget metric", ["recall", "hit", "full_recall", "partial_recall", "context_precision"], "bmetric"),
+      mk("Budget metric", ["recall", "hit", "full_recall", "partial_recall", "context_precision", "token_recall", "item_coverage", "token_precision", "noise_share", "scaffold_share"], "bmetric"),
     ];
     const sl = selectEl(Object.entries(SLICES).map(([v, l]) => ({ value: v, label: l })), rState.slice, v => { rState.slice = v; renderRRes(); });
     c.append(ctl("Item slice", sl));
@@ -1311,6 +1316,8 @@ function renderRRes() {
   const { embs, strats, level, gold, slice, bmetric } = rState;
   let bm = bmetric;
   if (bm === "partial_recall" && level !== "provision") bm = "recall";
+  const TOK = ["token_recall", "item_coverage", "token_precision", "noise_share", "scaffold_share"];
+  if (TOK.includes(bm) && level === "document") bm = "recall";
   const series = [];
   for (const e of embs) for (const s of strats) series.push({ name: `${s} · ${EMB_SHORT[e]}`, color: scol(s), dash: e === "gemini-emb-2", e, s });
   const nOf = (e, s, view, cut, met) => rget(e, s, level, view, cut, gold, slice, met)?.n_questions;
@@ -1344,7 +1351,9 @@ function renderRRes() {
   const n4 = rget(embs[0], strats[0], level, "budget", "4000", gold, slice, bm)?.n_questions;
   $("#rWhat").innerHTML = `<b>What is shown:</b> gold = <b>${level}</b>-level items from <code>dataset/references.jsonl</code> (${gold === "all" ? "all resolved items, unreachable ones count as misses" : "only items some chunk of the strategy can hit"}), slice <b>${SLICES[slice]}</b>; averaged per question over <b>${n4 ?? "?"}</b> questions. ` +
     `A ${level} is hit by ${level === "document" ? "any chunk of its file(s)" : level === "article" ? "any chunk of that article (whole, split part, caput, §, inciso, alínea, item; or a grouping containing it)" : "a chunk covering it or an ancestor (full), or only a descendant (partial)"}. ` +
-    `<b>${bm}</b>: ${METRIC_HELP[bm]}.` + (bmetric === "partial_recall" && level !== "provision" ? " (partial recall exists only at provision level; showing recall.)" : "");
+    `<b>${bm}</b>: ${METRIC_HELP[bm]}.` + (bmetric === "partial_recall" && level !== "provision" ? " (partial recall exists only at provision level; showing recall.)" : "")
+    + (TOK.includes(bmetric) && level === "document" ? " (token metrics exist only at the article and provision levels; showing recall.)" : "")
+    + (["token_precision", "noise_share", "scaffold_share"].includes(bm) ? " Context shares exist for all gold and no item slice only." : "");
   renderRComp();
   // reachability
   const rr = table(C.retrieval.reachability).filter(r => r.embedding === "jua-4b-mixed");
@@ -1362,7 +1371,7 @@ function renderRComp() {
   const c = $("#rcControls"); c.innerHTML = "";
   c.append(ctl("Comparison", selectEl(comps.map(k => ({ value: k, label: label(k) })), rcState.comp, v => { rcState.comp = v; renderRComp(); })));
   c.append(ctl("Level", selectEl(["document", "article", "provision"], rcState.level, v => { rcState.level = v; renderRComp(); })));
-  c.append(ctl("Metric", selectEl(["recall", "hit", "full_recall", "partial_recall", "mrr", "ndcg@10", "context_precision"], rcState.metric, v => { rcState.metric = v; renderRComp(); })));
+  c.append(ctl("Metric", selectEl(["recall", "hit", "full_recall", "partial_recall", "mrr", "ndcg@10", "context_precision", "token_recall", "item_coverage", "token_precision", "noise_share", "scaffold_share"], rcState.metric, v => { rcState.metric = v; renderRComp(); })));
   const [e, a, b] = rcState.comp.split("|");
   const rows = rc.filter(r => r.embedding === e && r.a === a && r.b === b && r.level === rcState.level && r.metric === rcState.metric)
     .sort((x, y) => ["budget", "unit", "raw"].indexOf(x.view) - ["budget", "unit", "raw"].indexOf(y.view) || (+x.cutoff || 0) - (+y.cutoff || 0));

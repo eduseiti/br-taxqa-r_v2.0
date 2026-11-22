@@ -1,6 +1,8 @@
 # Plan: methodology additions (token-weighted metric, in-text citations, GPT-6.2 Sol) and the corpus revision
 
-Date: 2026-11-22. Plan note; nothing is implemented. It covers four pieces of work:
+Date: 2026-11-22. Plan note. **Status (2026-11-22):** B done (`docs/20261122_181611_*`); A1 done
+(`docs/20261122_192653_a1_token_weighted_provision_metric_results.md`); A2 and A3 not started. It covers four
+pieces of work:
 
 - **A1:** a token-weighted provision metric, to measure how much of each strategy's context is noise;
 - **A2:** scoring the legal provisions cited in the answer text (closed book first);

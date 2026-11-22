@@ -75,7 +75,7 @@ Options (every subcommand has `--help` with an example):
 |---|---|
 | `check` | `--embedding` (required), `--instruction` (default `irpf`, or the only one), `--no-hash` |
 | `retrieve` | `--strategies S1,S2,S3,S2c,S4`, `--top-n 1000`, `--exclusions <yaml> \| none` (default `corpus_exclusions.yaml`), `--run-name` (default: the instruction), `--force` (replace a run made with other settings) |
-| `evaluate` | `--annex-rule {either,main_first}`, `--budgets 1000,…,16000`, `--unit-ks`, `--raw-ks`, `--dedup {containment,containment_merge,none}`, `--overflow {skip,stop}`, `--comparisons S1:S2,S2:S3`, `--eval-id` |
+| `evaluate` | `--annex-rule {either,main_first}`, `--budgets 1000,…,16000`, `--unit-ks`, `--raw-ks`, `--dedup {containment,containment_merge,none}`, `--overflow {skip,stop}`, `--comparisons S1:S2,S2:S3`, `--eval-id`, `--token-metrics` |
 | `compare` | `--a`, `--b`, `--views budget,unit,raw`, `--eval-id` |
 | `report` | `--eval <eval dir>` (regenerate `report.md`) |
 | `context` | `--sets` (specs below), `--dedup`, `--overflow`, `--order {score,document}`, `--template context_v2`, `--annex-rule`, `--oracle-strategy S1`, `--seed`, `--eval-id`, `--no-token-count`, `--force` |
@@ -145,6 +145,14 @@ all resolved gold (`gold=all`) and over the gold the strategy can reach (`gold=r
 slice: `all`, `explicit`/`embedded` (origin of the reference), `statutory`/`non_statutory`,
 `annex_A` (gold in a category-A annex, e.g. the RIR/2018), `whole_article`/`sub_article`
 (provision level) and the P&R chapter (`data/pr_irpf_2024_chapters.csv`).
+
+**Token-weighted metrics** (`--token-metrics`, eval id `v3_…`; `ragpipe/tokens.py`, needs
+`segmented/unit_tokens.csv.gz` from `scripts/segmentation/unit_tokens.py`). In the budget view, at the article and
+provision levels, each context's tokens are split into gold text (the distinct gold units shown, as content or
+on an ancestor path, counted once), off-gold content and scaffold (prefixes, grouping names, path text outside
+the gold, repeats). This gives `token_precision`, `noise_share` and `scaffold_share`, which add up to 1, and
+`token_recall` / `item_coverage` (shown gold tokens ÷ gold tokens, items weighted by size / averaged). Design
+and results: `docs/20261122_192653_a1_token_weighted_provision_metric_results.md`.
 
 **Paired comparisons** (S1 vs S2, S2 vs S3): mean per-question difference, with a 95 % paired
 bootstrap CI (10,000 resamples, seed 13) and a two-sided sign-flip permutation p-value.

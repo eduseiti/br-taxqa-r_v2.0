@@ -93,7 +93,11 @@ than expected.
   closed-book runs were kept free of web search: `docs/20261122_134404_in_text_legal_citation_scoring_plan.md`.
   **Next additions (plan, 2026-11-22):** fix B first, then a token-weighted provision metric, in-text citations
   and GPT-6.2 Sol (Terra's 4 conditions), with costs and budget check:
-  `docs/20261122_164407_methodology_additions_plan_token_weighted_citations_sol_and_fix_b.md`.
+  `docs/20261122_164407_methodology_additions_plan_token_weighted_citations_sol_and_fix_b.md`. **A1 (token-weighted
+  metric) is done:** `rag.py evaluate --token-metrics` → eval id `v3_either_containment_merge_skip` (now the dashboard's),
+  unit tokens `segmented/unit_tokens.csv.gz` (`scripts/segmentation/unit_tokens.py`), analyses
+  `scripts/report/a1_token_metrics.py`; results `docs/20261122_192653_a1_token_weighted_provision_metric_results.md`.
+  Next: A2 (in-text citations).
   **Hugging Face release:** plan and status in
   `docs/20261024_180016_hugging_face_release_plan.md` (§9: both repos staged private under `eduseiti` on 2026-10-24),
   tooling in `scripts/release/` (`build_release.py`, `push_release.py`, token `HF_RELEASE_TOKEN`), record in

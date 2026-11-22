@@ -25,6 +25,8 @@ The `hf:Qwen/Qwen3-Embedding-4B` tokenizer is loaded from its `tokenizer.json` w
 # with the report-only comparison against a previous chunk set (rebuild plan §4, diff_vs_frozen):
 .venv/bin/python scripts/segmentation/segment_all.py --jobs 16 --overwrite --allow-count-change \
     --frozen <old chunks_all.csv.gz> --frozen-lexml-rev <git rev of lexml/ for it>
+# after every re-segmentation: Qwen3 tokens per LexML unit, for the token-weighted retrieval metric (≈ 8 s)
+.venv/bin/python scripts/segmentation/unit_tokens.py
 ```
 
 Outputs in `segmented/`:

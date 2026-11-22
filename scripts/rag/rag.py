@@ -59,7 +59,10 @@ def paths_from(args: argparse.Namespace) -> Paths:
                  embeddings=Path(args.embeddings_dir) if args.embeddings_dir else d.embeddings,
                  runs=Path(args.runs_dir) if args.runs_dir else d.runs,
                  strategies=Path(args.strategies_file) if args.strategies_file else d.strategies,
-                 chapters=d.chapters)
+                 chapters=d.chapters,
+                 # the unit-token tables (A1) sit next to the chunk file
+                 unit_tokens=Path(args.chunks).parent / d.unit_tokens.name if args.chunks else d.unit_tokens,
+                 prefix_tokens=Path(args.chunks).parent / d.prefix_tokens.name if args.chunks else d.prefix_tokens)
 
 
 # ------------------------------------------------------------------------------------------------
@@ -96,7 +99,8 @@ def eval_config(args: argparse.Namespace) -> EvalConfig:
     return EvalConfig(annex_rule=args.annex_rule, budgets=int_list(args.budgets), unit_ks=int_list(args.unit_ks),
                       raw_ks=int_list(args.raw_ks), dedup=args.dedup, overflow=args.overflow,
                       strategies=str_list(args.strategies) if args.strategies else None, comparisons=pairs,
-                      n_resamples=args.resamples, seed=args.seed, eval_id=args.eval_id, force=args.force)
+                      n_resamples=args.resamples, seed=args.seed, eval_id=args.eval_id, force=args.force,
+                      token_metrics=args.token_metrics)
 
 
 def cmd_evaluate(args: argparse.Namespace) -> int:
@@ -299,7 +303,11 @@ def build_parser() -> argparse.ArgumentParser:
     sp.add_argument("--comparisons", help="pairs A:B, comma separated (default S1:S2,S2:S3,S2:S2c,S3:S4,S1:S2c)")
     sp.add_argument("--resamples", type=int, default=10_000)
     sp.add_argument("--seed", type=int, default=13)
-    sp.add_argument("--eval-id", help="output name under eval/ (default <annex_rule>_<dedup>_<overflow>)")
+    sp.add_argument("--eval-id", help="output name under eval/ (default <annex_rule>_<dedup>_<overflow>, "
+                    "with --token-metrics v3_<annex_rule>_<dedup>_<overflow>)")
+    sp.add_argument("--token-metrics", action="store_true",
+                    help="add the token-weighted metrics (A1; needs segmented/unit_tokens.csv.gz from "
+                         "scripts/segmentation/unit_tokens.py)")
     sp.add_argument("--force", action="store_true", help="replace an evaluation made with another configuration")
     common(sp)
     sp.set_defaults(func=cmd_evaluate)

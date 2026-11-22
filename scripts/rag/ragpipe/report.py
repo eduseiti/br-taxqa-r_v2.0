@@ -96,6 +96,20 @@ def slice_table(m: _Metrics, slices: list[str], budget: str) -> str:
                     [f"{s} oracle" for s in m.strategies], rows)
 
 
+TOKEN_ROWS = ["recall", "token_recall", "item_coverage", "context_precision", "token_precision", "noise_share",
+              "scaffold_share"]
+
+
+def token_tables(m: _Metrics, budgets: list[str]) -> str:
+    """A1 token-weighted metrics next to the binary recall and context precision (all gold, budget view)."""
+    out = []
+    for level in ("article", "provision"):
+        rows = [[s, met] + [m.get(s, level, "budget", b, met) for b in budgets] for s in m.strategies for met in TOKEN_ROWS]
+        out.append(f"**{level.capitalize()} level**\n\n" +
+                   md_table(["Strategy", "Metric"] + [f"{int(b) // 1000}k" for b in budgets], rows))
+    return "\n\n".join(out)
+
+
 def comparison_table(c: pd.DataFrame, budgets: list[str]) -> str:
     if c.empty:
         return "_No comparisons._"
@@ -190,6 +204,18 @@ Per-chapter numbers: `metrics_by_chapter.csv.gz`.
 {comparison_table(comps, budgets)}
 
 All metrics and cutoffs: `comparisons.csv`.
+"""
+    if p.get("token_metrics"):
+        text += f"""
+## 8. Token-weighted metrics (A1; `ragpipe.tokens`, `segmented/unit_tokens.csv.gz`)
+
+Per context, its tokens split into **gold** (own text of the distinct gold units shown, as content or on an
+ancestor path, counted once), **off-gold content** (other dispositivos, non-statutory text) and **scaffold**
+(prefixes, grouping names, path text outside the gold, repeats): `token_precision` + `noise_share` +
+`scaffold_share` = 1. `token_recall`: shown gold tokens ÷ gold tokens (items weighted by size);
+`item_coverage`: the same share per item, averaged. Items without a LexML unit are left out.
+
+{token_tables(m, budgets)}
 """
     out = eval_dir / "report.md"
     out.write_text(text, encoding="utf-8")

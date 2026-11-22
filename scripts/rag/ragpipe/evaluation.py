@@ -22,6 +22,13 @@ Outputs, under ``<retrieval run>/eval/<eval_id>/``::
     per_question.csv.gz      one row per question × strategy × level × view × cutoff × gold
     per_item.csv.gz          one row per gold item × strategy (positions and budget hits)
     report.md                generated tables
+
+With ``token_metrics`` (A1, ``ragpipe.tokens``; default id ``v3_<annex_rule>_<dedup>_<overflow>``), the
+budget view also gets, at the article and provision levels: ``token_recall`` (visible gold tokens ÷ gold
+tokens, items weighted by size), ``item_coverage`` (the per-item share, averaged), ``token_precision``
+(distinct gold tokens ÷ context tokens), ``noise_share`` (off-gold content) and ``scaffold_share`` (prefix,
+grouping names, path outside the gold, repeats); per item ``gold_tokens`` and ``budget_cov_<B>``; per context
+``gold_tokens``, ``offgold_tokens``, ``scaffold_tokens``.
 """
 
 from __future__ import annotations
@@ -42,6 +49,7 @@ from .exclusions import Exclusions
 from .relevance import LEVELS, GoldItem, Matcher, gold_items
 from .retrieval import load_rankings
 from .strategies import member_mask
+from .tokens import TOKEN_LEVELS, UnitTokens
 from .runs import (base_manifest, prepare_run_dir, read_json, rel, sha256_file, sha256_json, write_csv,
                    write_json)
 
@@ -70,17 +78,18 @@ class EvalConfig:
     seed: int = 13
     eval_id: str | None = None
     force: bool = False
+    token_metrics: bool = False
 
     @property
     def resolved_eval_id(self) -> str:
-        return self.eval_id or f"{self.annex_rule}_{self.dedup}_{self.overflow}"
+        return self.eval_id or f"{'v3_' if self.token_metrics else ''}{self.annex_rule}_{self.dedup}_{self.overflow}"
 
     def params(self) -> dict:
         return {"annex_rule": self.annex_rule, "budgets": list(self.budgets), "unit_ks": list(self.unit_ks),
                 "raw_ks": list(self.raw_ks), "dedup": self.dedup, "overflow": self.overflow,
                 "token_counter": "qwen3", "gain": "binary", "max_unit_position": MAX_UNIT_POSITION,
                 "comparisons": [list(c) for c in self.comparisons], "n_resamples": self.n_resamples,
-                "seed": self.seed}
+                "seed": self.seed, **({"token_metrics": "unit_tokens_v1"} if self.token_metrics else {})}
 
 
 # ================================================================================================
@@ -146,9 +155,11 @@ def unit_positions(rt: RankedTexts, ranked: np.ndarray, level: str, matcher: Mat
 
 def evaluate_strategy(name: str, in_strategy: np.ndarray, rt: RankedTexts, gold: dict[str, dict[str, list[GoldItem]]],
                       matcher: Matcher, statutory: dict[str, bool],
-                      cfg: EvalConfig, excluded: Exclusions = Exclusions()) -> tuple[list[dict], list[dict]]:
+                      cfg: EvalConfig, excluded: Exclusions = Exclusions(),
+                      ut: UnitTokens | None = None) -> tuple[list[dict], list[dict]]:
     """Rows of the per-item table and of the context table for one strategy (``in_strategy``: the
-    chunk-table rows it indexes, :func:`.strategies.member_mask` without the excluded documents)."""
+    chunk-table rows it indexes, :func:`.strategies.member_mask` without the excluded documents).
+    ``ut``: token accounting (A1) at the article and provision levels."""
     cutoffs = [Cutoff("budget", b) for b in cfg.budgets]
     item_rows, ctx_rows = [], []
     empty = np.empty(0, dtype=np.int64)
@@ -162,8 +173,13 @@ def evaluate_strategy(name: str, in_strategy: np.ndarray, rt: RankedTexts, gold:
             upos = unit_positions(rt, ranked, level, matcher) if level != "provision" else {}
             relevant_any = np.zeros(len(ranked), dtype=bool)
             rank_of: dict[int, int] | None = None
+            tok_level = ut is not None and level in TOKEN_LEVELS
+            blocks: list[list[tuple[int, int]]] = []
+            first_row = len(item_rows)
             for it in items:
                 m = matcher.match(it)
+                if tok_level:
+                    blocks.append(ut.item_blocks(it, m))
                 full_rows = m.full[in_strategy[m.full]]
                 part_rows = m.partial[in_strategy[m.partial]]
                 full_t = np.unique(rt.local_of_row[full_rows])
@@ -200,14 +216,27 @@ def evaluate_strategy(name: str, in_strategy: np.ndarray, rt: RankedTexts, gold:
                         np.isin(cs, ranked[sel]).all() for cs in cover_sets))
                     row[f"budget_full_{b}"] = covered
                     row[f"budget_any_{b}"] = bool(hit_any[sel].any()) if sel else False
+                if tok_level:
+                    sizes = [ut.size(bk) for bk in blocks[-1]]
+                    row["gold_tokens"] = max(sizes) if sizes and max(sizes) > 0 else math.nan
                 item_rows.append(row)
             for b, sel in selections.items():
                 toks = rt.tokens[ranked[sel]] if sel else empty
                 total = int(toks.sum())
                 gold_toks = int(toks[relevant_any[sel]].sum()) if sel else 0
-                ctx_rows.append({"question_number": q, "strategy": name, "level": level, "view": "budget",
-                                 "cutoff": str(b), "context_tokens": total, "context_texts": len(sel),
-                                 "context_precision": gold_toks / total if total else math.nan})
+                crow = {"question_number": q, "strategy": name, "level": level, "view": "budget",
+                        "cutoff": str(b), "context_tokens": total, "context_texts": len(sel),
+                        "context_precision": gold_toks / total if total else math.nan}
+                if tok_level:
+                    acc = ut.account([int(rt.members[t][0]) for t in ranked[sel]] if sel else [], total, blocks)
+                    for j, c in enumerate(acc.coverage):
+                        item_rows[first_row + j][f"budget_cov_{b}"] = c
+                    crow.update({"gold_tokens": acc.gold, "offgold_tokens": acc.offgold,
+                                 "scaffold_tokens": acc.scaffold,
+                                 "token_precision": acc.gold / total if total else math.nan,
+                                 "noise_share": acc.offgold / total if total else math.nan,
+                                 "scaffold_share": acc.scaffold / total if total else math.nan})
+                ctx_rows.append(crow)
     return item_rows, ctx_rows
 
 
@@ -239,14 +268,21 @@ def view_hits(items: pd.DataFrame, cfg: EvalConfig) -> pd.DataFrame:
     parts = []
     keep = ["question_number", "strategy", "level", "origin", "statutory", "annex_A", "sub_article", "reachable"]
 
-    def add(view: str, cutoff: str, full: pd.Series, anyh: pd.Series, mask: pd.Series | None = None) -> None:
+    tok = "gold_tokens" in items.columns
+
+    def add(view: str, cutoff: str, full: pd.Series, anyh: pd.Series, mask: pd.Series | None = None,
+            cov: pd.Series | None = None) -> None:
         df = items.loc[:, keep].copy()
         df["view"], df["cutoff"], df["hit_full"], df["hit_any"] = view, cutoff, full.to_numpy(), anyh.to_numpy()
+        if tok:
+            df["gold_tokens"] = items["gold_tokens"].to_numpy()
+            df["cov"] = cov.to_numpy() if cov is not None else np.nan
         parts.append(df if mask is None else df[mask.to_numpy()])
 
     add("oracle", "-", items["reachable"], items["reachable_partial"])
     for b in cfg.budgets:
-        add("budget", str(b), items[f"budget_full_{b}"], items[f"budget_any_{b}"])
+        add("budget", str(b), items[f"budget_full_{b}"], items[f"budget_any_{b}"],
+            cov=items[f"budget_cov_{b}"] if tok and f"budget_cov_{b}" in items else None)
     for k in cfg.raw_ks:
         add("raw", str(k), items["rank_full"] <= k, items["rank_any"] <= k)
     unit = items["level"] != "provision"
@@ -281,6 +317,14 @@ def per_question_table(items: pd.DataFrame, ctx: pd.DataFrame, cfg: EvalConfig,
             g["hit"] = (g["n_hit"] > 0).astype(float)
             g["full_recall"] = (g["n_hit"] == g["n_gold"]).astype(float)
             g["partial_recall"] = np.where(g["level"] == "provision", g["n_hit_any"] / g["n_gold"], np.nan)
+            if "cov" in sub.columns:
+                # token-weighted recall over the items with a unit (A1): Σ coverage·size / Σ size, and the mean
+                t = sub.assign(w=sub["gold_tokens"].where(sub["cov"].notna()),
+                               cw=sub["cov"] * sub["gold_tokens"])
+                tg = t.groupby(keys, sort=False).agg(cw=("cw", "sum"), w=("w", "sum"),
+                                                     item_coverage=("cov", "mean")).reset_index()
+                tg["token_recall"] = np.where(tg["w"] > 0, tg["cw"] / tg["w"].where(tg["w"] > 0), np.nan)
+                g = g.merge(tg[keys + ["token_recall", "item_coverage"]], on=keys, how="left")
             # MRR and nDCG@10 on the unit projection
             isub = ibase[slice_mask(ibase, s) & (ibase["level"] != "provision")]
             if len(isub):
@@ -299,16 +343,20 @@ def per_question_table(items: pd.DataFrame, ctx: pd.DataFrame, cfg: EvalConfig,
     pq = pq.merge(ctx, on=keys + ["gold", "slice"], how="left")
     cols = keys + ["gold", "slice", "n_gold", "n_hit", "recall", "hit", "full_recall", "partial_recall", "mrr",
                    "ndcg@10", "context_precision", "context_tokens", "context_texts"]
+    cols += [c for c in TOKEN_METRIC_COLS if c in pq.columns]
     return pq[cols]
 
 
 METRIC_COLS = ["recall", "hit", "full_recall", "partial_recall", "mrr", "ndcg@10", "context_precision",
                "context_tokens", "context_texts"]
+#: A1 token metrics (only with ``EvalConfig.token_metrics``).
+TOKEN_METRIC_COLS = ["token_recall", "item_coverage", "token_precision", "noise_share", "scaffold_share"]
 
 
 def aggregate(pq: pd.DataFrame, by: list[str]) -> pd.DataFrame:
     """Mean over questions → long format ``… metric, value, n_questions`` (NaN metrics dropped)."""
-    long = pq.melt(id_vars=by + ["question_number"], value_vars=METRIC_COLS, var_name="metric").dropna(
+    value_vars = METRIC_COLS + [c for c in TOKEN_METRIC_COLS if c in pq.columns]
+    long = pq.melt(id_vars=by + ["question_number"], value_vars=value_vars, var_name="metric").dropna(
         subset=["value"])
     agg = long.groupby(by + ["metric"], sort=False)["value"].agg(["mean", "size"]).reset_index()
     return agg.rename(columns={"mean": "value", "size": "n_questions"})
@@ -334,6 +382,7 @@ def compare(pq: pd.DataFrame, a: str, b: str, n_resamples: int, seed: int,
     """Paired per-question differences ``b − a`` over the questions both strategies were scored on."""
     base = pq[(pq["gold"] == "all") & (pq["slice"] == "all") & pq["view"].isin(views)]
     metrics = ["recall", "hit", "full_recall", "partial_recall", "mrr", "ndcg@10", "context_precision"]
+    metrics += [c for c in TOKEN_METRIC_COLS if c in pq.columns]
     rows = []
     for level in LEVELS:
         sub = base[base["level"] == level]
@@ -424,6 +473,7 @@ def run_evaluation(retrieval_dir: Path, cfg: EvalConfig, paths: Paths = Paths())
     gold = gold_items(ds)
     file_index = {f: i for i, f in enumerate(sorted(set(chunks["arquivo"])))}
     excluded_rows = excluded.row_mask(chunks, file_to_doc)
+    ut = UnitTokens.load(paths.unit_tokens, paths.prefix_tokens, chunks) if cfg.token_metrics else None
     t_load = time.time()
 
     params = {**cfg.params(), "strategies": names}
@@ -431,6 +481,9 @@ def run_evaluation(retrieval_dir: Path, cfg: EvalConfig, paths: Paths = Paths())
               "chunks": {"path": rel(paths.chunks), "sha256": chunks_sha},
               **{Path(p).stem: {"path": p, "sha256": h} for p, h in ds.sha256.items()},
               "chapters": {"path": rel(paths.chapters), "sha256": sha256_file(paths.chapters)}}
+    if cfg.token_metrics:
+        inputs["unit_tokens"] = {"path": rel(paths.unit_tokens), "sha256": sha256_file(paths.unit_tokens)}
+        inputs["prefix_tokens"] = {"path": rel(paths.prefix_tokens), "sha256": sha256_file(paths.prefix_tokens)}
     config_hash = sha256_json({"params": params, "inputs": inputs})
     out_dir = retrieval_dir / "eval" / cfg.resolved_eval_id
     prepare_run_dir(out_dir, config_hash, cfg.force)
@@ -441,7 +494,7 @@ def run_evaluation(retrieval_dir: Path, cfg: EvalConfig, paths: Paths = Paths())
         rt = ranked_texts(load_rankings(retrieval_dir, name), chunks, file_index)
         in_strategy = member_mask(chunks, frozenset(sdefs[name]["tipos"]), sdefs[name].get("variantes", ["base"]))
         in_strategy = in_strategy & ~excluded_rows
-        i_rows, c_rows = evaluate_strategy(name, in_strategy, rt, gold, matcher, statutory, cfg, excluded)
+        i_rows, c_rows = evaluate_strategy(name, in_strategy, rt, gold, matcher, statutory, cfg, excluded, ut)
         item_rows += i_rows
         ctx_rows += c_rows
         log.info("%s: %d gold items scored in %.1fs", name, len(i_rows), time.time() - ts)

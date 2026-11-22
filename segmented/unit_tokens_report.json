@@ -1,0 +1,135 @@
+{
+ "files": 258,
+ "units": 81179,
+ "units_by_tipo": {
+  "PAR": 19773,
+  "INC": 18285,
+  "ART": 15813,
+  "CPT": 15813,
+  "ALI": 5209,
+  "ITE": 2131,
+  "SEC": 1761,
+  "CAP": 1504,
+  "SSC": 570,
+  "TIT": 253,
+  "LIV": 31,
+  "SBT": 26,
+  "PRT": 10
+ },
+ "units_without_id": 0,
+ "files_with_more_than_one_prefix": [],
+ "unit_chunks_not_starting_at_a_unit": [],
+ "n_unit_chunks_not_starting_at_a_unit": 0,
+ "check_unsplit_articles": {
+  "chunks_checked": 16054,
+  "chunks_without_unit": 0,
+  "rel_dev_subtree_own_sum": {
+   "count": 16054.0,
+   "mean": 0.0059,
+   "std": 0.0047,
+   "min": -0.0477,
+   "50%": 0.0051,
+   "90%": 0.0119,
+   "99%": 0.0204,
+   "max": 0.0444
+  },
+  "rel_dev_subtree_tokens": {
+   "count": 16054.0,
+   "mean": 0.0057,
+   "std": 0.0038,
+   "min": -0.0028,
+   "50%": 0.005,
+   "90%": 0.0114,
+   "99%": 0.0159,
+   "max": 0.0323
+  },
+  "share_abs_dev_over_5pct_own_sum": 0.0,
+  "share_abs_dev_over_5pct_subtree": 0.0,
+  "total_rel_dev_own_sum": 0.0038,
+  "total_rel_dev_subtree": 0.00374,
+  "worst": [
+   {
+    "chunk_id": "decreto_3000_19990326#2661",
+    "n_tokens_qwen3": 818,
+    "prefix_tokens": 66,
+    "subtree_own_sum": 713,
+    "subtree_tokens": 753,
+    "dev": -0.04767726161369193
+   },
+   {
+    "chunk_id": "constituição_1988_19881005#1132",
+    "n_tokens_qwen3": 45,
+    "prefix_tokens": 11,
+    "subtree_own_sum": 36,
+    "subtree_tokens": 35,
+    "dev": 0.044444444444444446
+   },
+   {
+    "chunk_id": "constituição_1988_19881005#1294",
+    "n_tokens_qwen3": 45,
+    "prefix_tokens": 11,
+    "subtree_own_sum": 36,
+    "subtree_tokens": 35,
+    "dev": 0.044444444444444446
+   },
+   {
+    "chunk_id": "lei_10406_20020110#2040",
+    "n_tokens_qwen3": 69,
+    "prefix_tokens": 35,
+    "subtree_own_sum": 37,
+    "subtree_tokens": 35,
+    "dev": 0.043478260869565216
+   },
+   {
+    "chunk_id": "constituição_1988_19881005#1000",
+    "n_tokens_qwen3": 47,
+    "prefix_tokens": 11,
+    "subtree_own_sum": 38,
+    "subtree_tokens": 37,
+    "dev": 0.0425531914893617
+   },
+   {
+    "chunk_id": "constituição_1988_19881005#1143",
+    "n_tokens_qwen3": 49,
+    "prefix_tokens": 11,
+    "subtree_own_sum": 40,
+    "subtree_tokens": 39,
+    "dev": 0.04081632653061224
+   },
+   {
+    "chunk_id": "lei_10406_20020110#3548",
+    "n_tokens_qwen3": 77,
+    "prefix_tokens": 35,
+    "subtree_own_sum": 45,
+    "subtree_tokens": 43,
+    "dev": 0.03896103896103896
+   },
+   {
+    "chunk_id": "constituição_1988_19881005#1149",
+    "n_tokens_qwen3": 52,
+    "prefix_tokens": 11,
+    "subtree_own_sum": 43,
+    "subtree_tokens": 42,
+    "dev": 0.038461538461538464
+   },
+   {
+    "chunk_id": "lei_7739_19890316#24",
+    "n_tokens_qwen3": 281,
+    "prefix_tokens": 52,
+    "subtree_own_sum": 239,
+    "subtree_tokens": 230,
+    "dev": 0.03558718861209965
+   },
+   {
+    "chunk_id": "lei_13105_20150316#2825",
+    "n_tokens_qwen3": 85,
+    "prefix_tokens": 35,
+    "subtree_own_sum": 53,
+    "subtree_tokens": 51,
+    "dev": 0.03529411764705882
+   }
+  ]
+ },
+ "chunks_sha256_input": "21bf98e5a1aa52b209ee009b107194d2416e036fa5076ad4d5a8a112119d910a",
+ "seconds": 7.8
+}

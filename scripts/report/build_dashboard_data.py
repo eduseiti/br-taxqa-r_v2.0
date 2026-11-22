@@ -5,7 +5,7 @@ No LLM or API calls: it only reads result tables already on disk and writes Java
 static page loads with <script> tags (so the page also works from file://, where fetch() is blocked).
 
 Inputs (all relative to the repo root):
-- retrieval evaluations  runs/retrieval/<emb>/irpf/eval/either_containment_merge_skip/
+- retrieval evaluations  runs/retrieval/<emb>/irpf/eval/v3_either_containment_merge_skip/
 - generator contexts      runs/contexts/<emb>/irpf/<context_id>/contexts.jsonl.gz
 - answers                 runs/answers/<emb>/irpf/<prompt>/<llm>/<context_id>/answers.jsonl
 - nugget scoring          nuggets/scoring/{tables,analysis,score,ctxsupport}/gold-v0-auto/gemini-3.8-flash/...
@@ -46,7 +46,7 @@ from ragpipe.strategies import member_mask  # noqa: E402
 
 OUT = ROOT / "docs" / "dashboard" / "data"
 EMBS = ["jua-4b-mixed", "gemini-emb-2"]
-EVAL_ID = "either_containment_merge_skip"
+EVAL_ID = "v3_either_containment_merge_skip"   # = either_containment_merge_skip + the A1 token metrics
 STRATS = ["S1", "S2", "S3", "S2c", "S4"]
 BUDGETS = [1000, 2000, 4000, 8000, 16000]
 SET = "gold-v0-auto"
@@ -137,7 +137,8 @@ def cross_embedding_comparisons() -> pd.DataFrame:
         pq = pd.read_csv(ROOT / "runs/retrieval" / emb / "irpf/eval" / EVAL_ID / "per_question.csv.gz",
                          dtype={"question_number": str, "cutoff": str})
         pqs[emb] = pq[(pq.gold == "all") & (pq.slice == "all") & pq.view.isin(["budget", "unit", "raw"])]
-    metrics = ["recall", "hit", "full_recall", "partial_recall", "mrr", "ndcg@10", "context_precision"]
+    metrics = ["recall", "hit", "full_recall", "partial_recall", "mrr", "ndcg@10", "context_precision",
+               "token_recall", "item_coverage", "token_precision", "noise_share", "scaffold_share"]
     rows = []
     key = ["question_number", "strategy", "level", "view", "cutoff"]
     a = pqs["jua-4b-mixed"].set_index(key)[metrics]

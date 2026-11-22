@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "kind": "retrieval_evaluation",
+  "created_at": "2026-11-22T19:22:46+00:00",
+  "script": {
+    "package": "ragpipe",
+    "version": "0.1.0",
+    "git": {
+      "commit": "7d1e43911ac7816eca5ed8a7adc427e72d32ba23",
+      "dirty": true,
+      "dirty_files": [
+        "cripts/rag/rag.py",
+        "scripts/rag/ragpipe/data.py",
+        "scripts/rag/ragpipe/evaluation.py",
+        "runs/retrieval/jua-4b-mixed/irpf/eval/v3_either_containment_merge_skip/",
+        "scripts/rag/ragpipe/tokens.py",
+        "scripts/segmentation/unit_tokens.py",
+        "segmented/prefix_tokens.csv",
+        "segmented/unit_tokens.csv.gz",
+        "segmented/unit_tokens_report.json"
+      ]
+    },
+    "argv": [
+      "scripts/rag/rag.py",
+      "evaluate",
+      "--retrieval",
+      "runs/retrieval/jua-4b-mixed/irpf",
+      "--token-metrics",
+      "--force"
+    ]
+  },
+  "config_hash": "735fb0d6e4eb7bd365c1a19e0bbdbf47dd3d33f9232e2f2196fd4323a0e0244a",
+  "eval_id": "v3_either_containment_merge_skip",
+  "params": {
+    "annex_rule": "either",
+    "budgets": [
+      1000,
+      2000,
+      4000,
+      8000,
+      16000
+    ],
+    "unit_ks": [
+      1,
+      3,
+      5,
+      10,
+      20,
+      50,
+      100
+    ],
+    "raw_ks": [
+      1,
+      5,
+      10,
+      20,
+      50,
+      100,
+      1000
+    ],
+    "dedup": "containment_merge",
+    "overflow": "skip",
+    "token_counter": "qwen3",
+    "gain": "binary",
+    "max_unit_position": 1000,
+    "comparisons": [
+      [
+        "S1",
+        "S2"
+      ],
+      [
+        "S2",
+        "S3"
+      ],
+      [
+        "S2",
+        "S2c"
+      ],
+      [
+        "S3",
+        "S4"
+      ],
+      [
+        "S1",
+        "S2c"
+      ]
+    ],
+    "n_resamples": 10000,
+    "seed": 13,
+    "token_metrics": "unit_tokens_v1",
+    "strategies": [
+      "S1",
+      "S2",
+      "S3",
+      "S2c",
+      "S4"
+    ]
+  },
+  "inputs": {
+    "retrieval_manifest": {
+      "path": "runs/retrieval/jua-4b-mixed/irpf/manifest.json",
+      "config_hash": "828ebb2fdbc9873eac64439316f8dc0f837593a6f9e66e26b5a9b383adc31a58"
+    },
+    "chunks": {
+      "path": "segmented/chunks_all.csv.gz",
+      "sha256": "21bf98e5a1aa52b209ee009b107194d2416e036fa5076ad4d5a8a112119d910a"
+    },
+    "questions": {
+      "path": "dataset/questions.jsonl",
+      "sha256": "5612b1eb2adc096107f61e366a09088332db0cc47a5a97ae0f1abb7c09a05baa"
+    },
+    "references": {
+      "path": "dataset/references.jsonl",
+      "sha256": "4c3807b9aa26aa46f117b36bc41916429f7902f659ea1c8611cc89f8d28615cc"
+    },
+    "documents": {
+      "path": "dataset/documents.jsonl",
+      "sha256": "b754271f2e963fc07eacfa35aef9fbe030fbe850486d28fa298b2fca5f65c0db"
+    },
+    "chapters": {
+      "path": "scripts/rag/data/pr_irpf_2024_chapters.csv",
+      "sha256": "d11588869d03c90793e6c1ba6d154935b1184e4444c15817f0affa666208c5e4"
+    },
+    "unit_tokens": {
+      "path": "segmented/unit_tokens.csv.gz",
+      "sha256": "d1a9a56d36855c8f8a516c78a50b31a4ccb4d39780310120412a6362584591b2"
+    },
+    "prefix_tokens": {
+      "path": "segmented/prefix_tokens.csv",
+      "sha256": "701d241448350cd3ee23ea100337c93072a2b6e7ea55b5a12c01f2a33dce5bea"
+    }
+  },
+  "retrieval": {
+    "embedding": {
+      "slug": "jua-4b-mixed",
+      "model_id": "ufca-llms/jua-4B-mixed",
+      "revision": "57f491c1718171c0ad71d723c4f6b2030684c4eb",
+      "dim": 2560,
+      "instruction_name": "irpf",
+      "instruction": "Given a question about Brazilian personal income tax (IRPF), retrieve the legal provisions that answer it",
+      "query_template": "Instruct: {instruction}\nQuery: {text}",
+      "document_template": "{text}"
+    },
+    "retriever": {
+      "name": "dense",
+      "similarity": "cosine (dot product of L2-normalized float32 vectors)",
+      "search": "exact brute force",
+      "tie_break": "text_id ascending",
+      "block_size": 128
+    },
+    "top_n": 1000,
+    "excluded_documents": [
+      "decreto_3000_19990326"
+    ]
+  },
+  "gold": {
+    "questions_with_gold": {
+      "document": 596,
+      "article": 553,
+      "provision": 558
+    },
+    "gold_items": {
+      "document": 1724,
+      "article": 1958,
+      "provision": 2230
+    },
+    "references": 1916,
+    "references_not_in_corpus": 0
+  },
+  "outputs": {
+    "metrics.csv": {
+      "sha256": "350d02ab89b49e9f60ecfe4b87229a65de9d48d0a33309ed0909700151e8e62f"
+    },
+    "metrics_by_chapter.csv.gz": {
+      "sha256": "73fd67263c6a9a968f29ae79f2757351c553f33f8918419b427d6d97277f8598"
+    },
+    "comparisons.csv": {
+      "sha256": "a803250fbf3e81b9e369c6be4b520550c1626e6b425f719c5d298c82a22ac78b"
+    },
+    "reachability.csv": {
+      "sha256": "7ea61ebbce80cf23a095297b00bef625821a47e7daafbe2a40a052181a155df9"
+    },
+    "per_question.csv.gz": {
+      "sha256": "8af4b5d6fbc1debad2ff3399834195a611ecd355679838b8452e17e778dd8dad"
+    },
+    "per_item.csv.gz": {
+      "sha256": "af162931bab290e0d0be667f6267daf9f01bac8989fd77eaeb35b098dc244765"
+    }
+  },
+  "timings_s": {
+    "load": 1.65,
+    "score": 84.28,
+    "aggregate": 8.74,
+    "total": 100.67
+  }
+}

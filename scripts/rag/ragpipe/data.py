@@ -26,7 +26,7 @@ log = logging.getLogger("ragpipe")
 #: Chunk columns used by the pipeline (``Texto`` is loaded only on request).
 CHUNK_COLS = ["chunk_id", "Tipo", "arquivo", "categoria", "doc_urn", "unidade_id", "artigo_id", "citacao",
               "parte", "n_partes", "cobre_ids", "parcial_ids", "id_ambiguo", "n_tokens_qwen3",
-              "Num_Inicio", "Num_Final", "variante"]
+              "Num_Inicio", "Num_Final", "variante", "contexto_ids"]
 #: Extra columns loaded with ``with_text=True`` (context rendering, plan §6.2).
 TEXT_COLS = ["Texto", "Rotulo", "anexo_urn", "texto_sha256"]
 INT_COLS = ["parte", "n_partes", "id_ambiguo", "n_tokens_qwen3", "Num_Inicio", "Num_Final"]
@@ -47,6 +47,8 @@ class Paths:
     runs: Path = REPO / "runs"
     strategies: Path = Path(__file__).resolve().parents[1] / "strategies.yaml"
     chapters: Path = Path(__file__).resolve().parents[1] / "data" / "pr_irpf_2024_chapters.csv"
+    unit_tokens: Path = REPO / "segmented" / "unit_tokens.csv.gz"
+    prefix_tokens: Path = REPO / "segmented" / "prefix_tokens.csv"
     exclusions: Path | None = Path(__file__).resolve().parents[1] / "corpus_exclusions.yaml"
 
     def retrieval_dir(self, embedding: str, run_name: str) -> Path:
@@ -71,6 +73,8 @@ def load_chunks(path: Path, with_text: bool = False) -> pd.DataFrame:
             df[c] = ""
     if "variante" not in df.columns:  # chunk files from before the caput plan: one text per unit
         df["variante"] = "base"
+    if "contexto_ids" not in df.columns:
+        df["contexto_ids"] = ""
     df = df[cols]
     for c in INT_COLS:
         df[c] = pd.to_numeric(df[c], errors="raise").astype(np.int64)
