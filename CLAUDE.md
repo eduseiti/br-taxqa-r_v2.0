@@ -102,7 +102,10 @@ than expected.
   `docs/20261122_194659_a2_in_text_legal_citations_results.md`. **A3 (GPT-6.2 Sol, Terra's 4 conditions) is done:** OpenRouter Batch API
   (`rag.py run --experiment scripts/rag/experiments/sol.yaml --batch [--batch-max N]`, `rag.py batch wait`, rerun
   without `--batch`; `llm_client/batch.py`), analyses `scripts/report/a3_sol_analysis.py`; results and costs ($18.41)
-  `docs/20261122_205115_a3_gpt_6_2_sol_results.md`; dashboards and HF repo B (`74fc95f`) include Sol.
+  `docs/20261122_205115_a3_gpt_6_2_sol_results.md`; dashboards and HF repo B (`74fc95f`) include Sol. Report with Sol
+  on granularity + token metric, closed-book citations vs retrieval, and answer quality at 4k (closed book vs RAG):
+  `docs/20261122_231441_results_with_sol_granularity_citations_and_answer_quality.md` (`scripts/report/make_sol_report.py`,
+  `python3`, no API calls).
   **Hugging Face release:** plan and status in
   `docs/20261024_180016_hugging_face_release_plan.md` (§9: both repos staged private under `eduseiti` on 2026-10-24),
   tooling in `scripts/release/` (`build_release.py`, `push_release.py`, token `HF_RELEASE_TOKEN`), record in

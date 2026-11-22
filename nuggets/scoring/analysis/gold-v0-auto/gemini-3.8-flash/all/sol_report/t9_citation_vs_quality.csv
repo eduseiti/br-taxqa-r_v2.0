@@ -1,0 +1,11 @@
+llm,context_id,n,n_no_citation,V_strict_no_citation,n_only_wrong,V_strict_only_wrong,n_right,V_strict_right,spearman_recall_V_strict_citing
+gpt-6.2-sol,S2_budget4000,587,26,0.5201,142,0.2887,385,0.4836,0.2932
+gpt-5.6-terra,S2_budget4000,577,49,0.3762,137,0.2263,361,0.4212,0.3182
+sabia-4,S2_budget4000,577,373,0.3506,53,0.2281,144,0.3641,0.2986
+gpt-5.6-luna,S2_budget4000,508,48,0.3636,112,0.2281,324,0.4104,0.2823
+sabiazinho-4,S2_budget4000,583,493,0.3105,31,0.1334,53,0.2349,0.2771
+gpt-6.2-sol,closed_book,595,90,0.3637,198,0.3558,271,0.4816,0.2355
+gpt-5.6-terra,closed_book,596,111,0.2789,270,0.3241,177,0.4257,0.1719
+sabia-4,closed_book,588,127,0.2182,336,0.2141,90,0.2527,0.102
+gpt-5.6-luna,closed_book,594,342,0.2398,120,0.2863,112,0.256,0.0409
+sabiazinho-4,closed_book,596,233,0.161,296,0.1822,43,0.1517,0.0169

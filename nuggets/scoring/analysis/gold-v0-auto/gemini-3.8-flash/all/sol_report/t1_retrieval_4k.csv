@@ -1,0 +1,13 @@
+embedding,level,strategy,binary recall,token recall,item coverage,context precision,token precision,noise share,scaffold share
+gemini-emb-2,article,S1,0.4131,0.3708,0.3872,0.141,0.1178,0.6707,0.2115
+gemini-emb-2,article,S2,0.515,0.3879,0.3957,0.161,0.1289,0.6246,0.2464
+gemini-emb-2,article,S3,0.5169,0.4046,0.4131,0.186,0.1337,0.6361,0.2302
+gemini-emb-2,provision,S1,0.3796,0.3985,0.4002,0.1333,0.0773,0.7107,0.212
+gemini-emb-2,provision,S2,0.4355,0.4591,0.4662,0.1523,0.0862,0.6655,0.2483
+gemini-emb-2,provision,S3,0.4542,0.4741,0.4779,0.1797,0.0899,0.6781,0.232
+jua-4b-mixed,article,S1,0.398,0.3442,0.3682,0.1292,0.1079,0.6419,0.2501
+jua-4b-mixed,article,S2,0.5034,0.3522,0.3713,0.1454,0.1148,0.5863,0.299
+jua-4b-mixed,article,S3,0.5074,0.3607,0.3833,0.1691,0.1192,0.6021,0.2787
+jua-4b-mixed,provision,S1,0.3689,0.3761,0.3831,0.122,0.0694,0.6796,0.251
+jua-4b-mixed,provision,S2,0.4198,0.4362,0.4466,0.1357,0.0755,0.6232,0.3013
+jua-4b-mixed,provision,S3,0.4287,0.4421,0.4534,0.1616,0.0792,0.6405,0.2803

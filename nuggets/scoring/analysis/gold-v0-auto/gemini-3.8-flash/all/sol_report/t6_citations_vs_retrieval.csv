@@ -1,0 +1,58 @@
+source,level,recall,cited@any / hit,precision,citing
+retrieval context S1 4k (jua),document,0.620601,0.874161,,
+retrieval context S1 4k (jua),article,0.398005,0.614828,,
+retrieval context S1 4k (jua),provision,0.368925,0.586022,,
+retrieval context S2 4k (jua),document,0.699755,0.936242,,
+retrieval context S2 4k (jua),article,0.503381,0.726944,,
+retrieval context S2 4k (jua),provision,0.419781,0.646953,,
+retrieval context S1 4k (gemini),document,0.596705,0.85906,,
+retrieval context S1 4k (gemini),article,0.413062,0.62387,,
+retrieval context S1 4k (gemini),provision,0.379565,0.584229,,
+retrieval context S2 4k (gemini),document,0.681019,0.907718,,
+retrieval context S2 4k (gemini),article,0.514976,0.735986,,
+retrieval context S2 4k (gemini),provision,0.435482,0.655914,,
+"GPT-6.2 Sol: closed book, in-text",document,0.2758,0.5647,0.5319,0.8501
+"GPT-6.2 Sol: closed book, in-text",article,0.2366,0.4909,0.4452,0.8249
+"GPT-6.2 Sol: closed book, in-text",provision,0.176,0.3806,0.2854,0.8249
+"GPT-5.6 Terra: closed book, in-text",document,0.2189,0.4581,0.4437,0.821
+"GPT-5.6 Terra: closed book, in-text",article,0.1376,0.3201,0.2949,0.7958
+"GPT-5.6 Terra: closed book, in-text",provision,0.0931,0.2437,0.1946,0.7958
+"Sabiá-4: closed book, in-text",document,0.1282,0.3282,0.2901,0.8045
+"Sabiá-4: closed book, in-text",article,0.0605,0.1651,0.1459,0.7649
+"Sabiá-4: closed book, in-text",provision,0.0407,0.1255,0.0997,0.7649
+"GPT-5.6 Luna: closed book, in-text",document,0.0991,0.2609,0.485,0.4151
+"GPT-5.6 Luna: closed book, in-text",article,0.0815,0.2029,0.3843,0.3927
+"GPT-5.6 Luna: closed book, in-text",provision,0.0626,0.1724,0.2888,0.3927
+"Sabiazinho-4: closed book, in-text",document,0.1079,0.2601,0.2901,0.6373
+"Sabiazinho-4: closed book, in-text",article,0.0274,0.0778,0.0921,0.5756
+"Sabiazinho-4: closed book, in-text",provision,0.018,0.0627,0.0635,0.5756
+"GPT-6.2 Sol: S2 4k jua, in-text",document,0.5189,0.8518,0.6583,0.9986
+"GPT-6.2 Sol: S2 4k jua, in-text",article,0.4125,0.7064,0.5329,0.9443
+"GPT-6.2 Sol: S2 4k jua, in-text",provision,0.229,0.4291,0.2662,0.9443
+"GPT-5.6 Terra: S2 4k jua, in-text",document,0.4742,0.799,0.6734,0.9594
+"GPT-5.6 Terra: S2 4k jua, in-text",article,0.3747,0.6723,0.5362,0.9043
+"GPT-5.6 Terra: S2 4k jua, in-text",provision,0.2446,0.475,0.3055,0.9043
+"Sabiá-4: S2 4k jua, in-text",document,0.2072,0.3345,0.5968,0.3748
+"Sabiá-4: S2 4k jua, in-text",article,0.1512,0.2682,0.4646,0.3459
+"Sabiá-4: S2 4k jua, in-text",provision,0.092,0.1863,0.2711,0.3459
+"GPT-5.6 Luna: S2 4k jua, in-text",document,0.4899,0.8228,0.6568,0.943
+"GPT-5.6 Luna: S2 4k jua, in-text",article,0.3931,0.685,0.5009,0.8977
+"GPT-5.6 Luna: S2 4k jua, in-text",provision,0.2365,0.4675,0.28,0.8977
+"Sabiazinho-4: S2 4k jua, in-text",document,0.0837,0.1595,0.521,0.2342
+"Sabiazinho-4: S2 4k jua, in-text",article,0.0535,0.098,0.4323,0.1609
+"Sabiazinho-4: S2 4k jua, in-text",provision,0.0333,0.0678,0.3161,0.1609
+"GPT-6.2 Sol: oracle 4k, in-text",document,0.6907,0.9913,0.9632,1.0
+"GPT-6.2 Sol: oracle 4k, in-text",article,0.6222,0.9362,0.9017,0.9353
+"GPT-6.2 Sol: oracle 4k, in-text",provision,0.3611,0.6208,0.421,0.9353
+"GPT-5.6 Terra: oracle 4k, in-text",document,0.5999,0.9261,0.9652,0.9437
+"GPT-5.6 Terra: oracle 4k, in-text",article,0.574,0.8939,0.9067,0.8891
+"GPT-5.6 Terra: oracle 4k, in-text",provision,0.3846,0.666,0.5111,0.8873
+"Sabiá-4: oracle 4k, in-text",document,0.3435,0.4771,0.9336,0.4981
+"Sabiá-4: oracle 4k, in-text",article,0.3278,0.4642,0.8739,0.4752
+"Sabiá-4: oracle 4k, in-text",provision,0.2179,0.3563,0.4919,0.4752
+"GPT-5.6 Luna: oracle 4k, in-text",document,0.6142,0.9327,0.9624,0.95
+"GPT-5.6 Luna: oracle 4k, in-text",article,0.593,0.8992,0.9104,0.8981
+"GPT-5.6 Luna: oracle 4k, in-text",provision,0.3633,0.6619,0.4686,0.8981
+"Sabiazinho-4: oracle 4k, in-text",document,0.1013,0.1907,0.8341,0.2193
+"Sabiazinho-4: oracle 4k, in-text",article,0.0774,0.1401,0.806,0.1551
+"Sabiazinho-4: oracle 4k, in-text",provision,0.0581,0.1198,0.553,0.1551
