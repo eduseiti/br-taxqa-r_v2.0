@@ -67,10 +67,10 @@ cited below are copied under `docs/`.
    grouping chunks; **S2c** / **S4** S2 / S3 with the caput added to paragraph chunks.
 2. **Embeddings.**
    - **`jua-4b-mixed`** (primary): model `ufca-llms/jua-4B-mixed` (revision `57f491c`), served by TEI in float16.
-     There is one vector per distinct chunk text (101,943 × 2,560, float32) and one per question (715), with the
+     There is one vector per distinct chunk text (102,012 × 2,560, float32) and one per question (715), with the
      query instruction `irpf`.
    - **`gemini-emb-2`** (second embedding): Google `gemini-embedding-2` through OpenRouter (provider pinned to
-     Google AI Studio), the same 101,943 texts and 715 questions (× 3,072, float32, unit norm). Templates
+     Google AI Studio), the same 102,012 texts and 715 questions (× 3,072, float32, unit norm). Templates
      `task: search result | query: {text}` and `title: none | text: {text}`. The query folder is also called
      `irpf` so the paths match.
 3. **Retrieval.** Exact cosine search per strategy. `irpf` is the main run, without the revoked RIR/1999.
@@ -147,7 +147,7 @@ scoring tables, a context or run of the second embedding is named `<context_id>@
 
 | Path | Content |
 |---|---|
-| `corpus/vectors.npy` | float32 (101,943 × 2,560 for jua, × 3,072 for Gemini), one row per distinct chunk text; `np.load(p, mmap_mode="r")` |
+| `corpus/vectors.npy` | float32 (102,012 × 2,560 for jua, × 3,072 for Gemini), one row per distinct chunk text; `np.load(p, mmap_mode="r")` |
 | `corpus/texts.csv` | row → `text_id` and text hash |
 | `corpus/chunk_map.csv.gz` | `chunk_id` (all strategies) → `text_id` |
 | `queries/irpf/vectors.npy`, `queries.csv` | the 715 query vectors and their ids |

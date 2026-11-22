@@ -119,18 +119,17 @@ than expected.
 - **`segmented/`** — segmentation outputs (chunk CSVs with the
   `Tipo, Rotulo, Num_Inicio, Num_Final, Texto, urn` schema) that feed the embedding step.
 
-## Corpus revision (fix B): executed 2026-11-22, release pending
+## Corpus revision (fix B): done 2026-11-22
 
-The parser had turned some citation lines and headings into fake `Art. N` chunks (6 documents, found on
-2026-11-15), and some article ids were duplicated. Fix A (2026-11-15, `docs/20261115_181838_fix_a_gold_matcher_results.md`)
-worked around it in the matcher. **Fix B repaired the corpus on 2026-11-22**:
-- the parser rule (`../lexml-parser-projeto-lei`) and 2 `.docx` repairs (`scripts/lexml/repair_docx.py`);
-- the audit's new checks (`audit_article_coverage.py`, `reviewed_duplicate_articles.tsv`);
-- re-segmentation, re-embedding, reruns and rescoring.
+The parser had turned some citation lines and headings into fake `Art. N` chunks (found on 2026-11-15; fix A worked
+around them in the matcher). **Fix B repaired the corpus and released it on 2026-11-22**:
+- the parser fix (`d6e2549`) and `.docx` repairs (`scripts/lexml/repair_docx.py`);
+- the audit's new checks;
+- re-segmentation, re-embedding, reruns and rescoring;
+- HF repos A `5886f9a` and B `4ea3a09`.
 
-Results: `docs/20261122_181611_fix_b_corpus_revision_results.md`. The chunk exclusions are now empty, and chunk ids of
-the 15 changed files are renumbered. **Still open until the user's review: the commits (this repo and the parser repo)
-and the new HF release of repos A and B.**
+The chunk exclusions are empty, and the chunk ids of the 15 changed files were renumbered. Results:
+`docs/20261122_181611_fix_b_corpus_revision_results.md`.
 
 ## Related repositories (siblings under `../`)
 

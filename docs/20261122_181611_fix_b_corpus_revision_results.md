@@ -4,8 +4,9 @@
 **Plan:** `20261122_164407_methodology_additions_plan_token_weighted_citations_sol_and_fix_b.md` §2 (stage 1 of §6),
 scope from `20261115_172140_gold_matcher_annex_rule_and_misparsed_articles.md` §5. Executed on the user's request of
 2026-11-22, with a new OpenRouter key (limit $37.30).
-**Status:** B1–B7 done. B8: dashboard, trace and explorer data rebuilt. **Not done, waiting for the user's review
-(stage 1 gate):** commits (this repo and the parser repo) and the Hugging Face release of repos A and B.
+**Status:** **done** (B1–B8). The user reviewed this note on 2026-11-22. After the review:
+- commits pushed: parser `d6e2549` (branch `extensions`) and this repo `bdbdbad` (+ the release record);
+- HF repo A `eduseiti/BR-TaxQA-R` → `5886f9a`, repo B `eduseiti/BR-TaxQA-R-RAG-eval` → `4ea3a09` (§8).
 
 **Cost:** **$0.98 on OpenRouter** (key usage; $36.32 left), plus Maritaca (direct, BRL; $0.28 at list price) and the
 HF endpoint (≈ 4 min up, ≈ $0.05; the ledger books the conservative $0.44 idle-tail estimate). Under the plan's
@@ -279,13 +280,23 @@ The changed questions are mostly the same few: Q155/156 (Decreto 85.306), Q152/1
 All test suites pass: rag (46), segmentation (49), dataset (36), parser (42). `pinned_donors` has no unit test of
 its own yet.
 
-## 8. Still to do (stage 1 gate)
+## 8. Commits and Hugging Face release (after the review, 2026-11-22)
 
-1. The user reviews this note.
-2. Commits:
-   - parser repo (then `PARSER_VERSION` gets the commit hash);
-   - this repo.
-3. **HF release:** repo A (new corpus: LexML, chunks, dataset) and repo B (runs, scores, dashboard trace).
-   `build_release.py`, `push_release.py`; outward-facing, so only after the review.
-4. `CLAUDE.md`: the "Pending corpus revision" section is closed by this note.
-5. Then stage 2 of the plan (A1 on the revised corpus).
+- **Git:**
+  - `../lexml-parser-projeto-lei` `d6e2549` (branch `extensions`);
+  - this repo `bdbdbad` (`main`);
+  - both pushed to GitHub over HTTPS with the `gh` credential (SSH has no key on this machine).
+  - `lexml/articulados/PARSER_VERSION` names the parser commit.
+- **HF build** (`build_release.py`):
+  - Card counts updated: 104,625 chunks; 21,514 / 73,173 / 77,135 rows per strategy; 102,012 vectors.
+  - Repo A's card gets a short note on the revision, and repo B's file list gets this note.
+  - `nuggets/full/cache` and `nuggets/parity_openrouter/cache` are not on this machine and did not change, so
+    their archives were downloaded from the Hub and kept (`--keep-raw`). Every other archive was repacked.
+- **Push** (`push_release.py`, after dry runs):
+  - **repo A** `eduseiti/BR-TaxQA-R`: 2 new files (the annexes), 25 changed → **`5886f9a`**
+    (`5886f9aa4a0a2c5b14aaeb1fff7cca4ce080bab5`);
+  - **repo B** `eduseiti/BR-TaxQA-R-RAG-eval`: 1 new file (this note), 419 changed → **`4ea3a09`**
+    (`4ea3a09d88204c0a30a7fd434cb0c517a12cb904`).
+  - A dry run after the push: both repos in sync.
+  - Recorded in `release/hf_release.json`.
+- **Next:** stage 2 of the plan (A1, token-weighted metric) on the revised corpus.

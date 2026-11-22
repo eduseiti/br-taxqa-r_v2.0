@@ -79,7 +79,7 @@ questions  = load_dataset(repo, "questions",  split="test")    # 715
 references = load_dataset(repo, "references", split="test")    # 1,916
 documents  = load_dataset(repo, "documents",  split="test")    # 453
 nuggets    = load_dataset(repo, "nuggets",    split="test")    # 3,175
-chunks     = load_dataset(repo, "chunks",     split="corpus")  # 104,574 (all strategies)
+chunks     = load_dataset(repo, "chunks",     split="corpus")  # 104,625 (all strategies)
 ```
 
 ### `questions` — one row per question (715)
@@ -163,7 +163,7 @@ The nuggets are **machine-generated and not human-verified**. Answers that only 
 ("consulte a pergunta N") get no nugget for the pointer (`flags.has_pointer`). The prompts, runs, audits and
 tests are in BR-TaxQA-R-RAG-eval (`nuggets/`).
 
-### `chunks` — the segmented corpus (104,574 rows, all strategies)
+### `chunks` — the segmented corpus (104,625 rows, all strategies)
 
 `segmented/chunks_all.csv.gz` (the file the segmentation code writes; `chunks_all.jsonl.gz` is the same table for the
 viewer). Main columns: `chunk_id`, `Texto` (the text that is embedded), `urn` (LexML URN of
@@ -173,11 +173,11 @@ the unit, e.g. `urn:lex:br:federal:lei:1995-12-26;9250!art8_par2`), `doc_urn`, `
 
 | Strategy | What is indexed | Chunks |
 |---|---|---:|
-| **S1** | one chunk per article (caput, paragraphs and everything inside) | 21,497 |
-| **S2** | S1 plus one chunk per caput, paragraph, inciso, alínea and item, each carrying the opening text of its ancestors up to the article label (a paragraph chunk does not carry the caput) | 73,118 |
-| **S3** | S2 plus one chunk per grouping (chapter, section…) up to 8,192 tokens | 77,080 |
-| **S2c** | S2 with the caput added to paragraph chunks | 73,118 |
-| **S4** | S3 with the caput added to paragraph chunks | 77,080 |
+| **S1** | one chunk per article (caput, paragraphs and everything inside) | 21,514 |
+| **S2** | S1 plus one chunk per caput, paragraph, inciso, alínea and item, each carrying the opening text of its ancestors up to the article label (a paragraph chunk does not carry the caput) | 73,173 |
+| **S3** | S2 plus one chunk per grouping (chapter, section…) up to 8,192 tokens | 77,135 |
+| **S2c** | S2 with the caput added to paragraph chunks | 73,173 |
+| **S4** | S3 with the caput added to paragraph chunks | 77,135 |
 
 Every chunk starts with `[ <document title> | <ementa> ]`. Article and non-statutory chunks are capped at 1,024
 tokens (longer ones are split into parts). Non-statutory documents are cut into sections and are identical in
@@ -236,4 +236,11 @@ IRPF 2024*, v1.0 (2024-05-03).
 ## Versions
 
 - `v2.0` (this release): the dataset above.
+  - **Corpus revision of 2026-11-22.** Citation lines and headings the parser had read as articles ("Art. 1º,
+    art. 2º … da Lei nº 12.973…") were repaired in 6 documents.
+  - Articles labelled `Art . N` are now read. In Decreto 57.942 this makes the cited treaty arts. 1 and 10
+    matchable (Q152, Q153).
+  - The Protocol of Decreto 85.306 is an annex file.
+  - Two source repairs: Lei 12.715 had arts. 69–78 twice; DL 5.844's second "art. 93" is art. 98.
+  - 15 LexML/chunk files changed: chunk ids inside them are renumbered, and all other chunks are unchanged.
 - `v1.1`: the original release (tag `v1.1`).

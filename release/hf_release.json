@@ -92,6 +92,40 @@
    "bytes": 3211336827,
    "parent_hf_commit": "ccba6d5cf9e1578e4272cf474bf26f034c18f716",
    "note": "fix A of the gold matcher (docs/20261115_181838_fix_a_gold_matcher_results.md): retrieval, evaluations, contexts, oracle 4k answers and labels, scoring tables and analysis (first analysis regeneration since 2026-10-24, with the citation-score fix), dashboard trace/explorer archives, answer and scoring caches repacked; repo A unchanged"
+  },
+  {
+   "stage": "staging",
+   "repo_id": "eduseiti/BR-TaxQA-R",
+   "url": "https://huggingface.co/datasets/eduseiti/BR-TaxQA-R",
+   "hf_commit": "5886f9aa4a0a2c5b14aaeb1fff7cca4ce080bab5",
+   "tag": null,
+   "uploaded": "2026-11-22",
+   "built_at": "2026-11-22T18:50:50+00:00",
+   "built_from_git": {
+    "commit": "bdbdbad1a11f795d7920fa4e24f91a9eedf3ac4c",
+    "dirty": true
+   },
+   "n_files": 1119,
+   "bytes": 121393255,
+   "parent_hf_commit": "2b10e0f45a999b3c99c6d0cb3e837fc9699176ec",
+   "note": "corpus fix B (docs/20261122_181611_fix_b_corpus_revision_results.md): 12 LexML files repaired + 2 new annexes, 2 repaired .docx, re-segmented chunks (104,625 rows), dataset rebuilt (Q152/Q153 matchable), card counts and a revision note"
+  },
+  {
+   "stage": "staging",
+   "repo_id": "eduseiti/BR-TaxQA-R-RAG-eval",
+   "url": "https://huggingface.co/datasets/eduseiti/BR-TaxQA-R-RAG-eval",
+   "hf_commit": "4ea3a09d88204c0a30a7fd434cb0c517a12cb904",
+   "tag": null,
+   "uploaded": "2026-11-22",
+   "built_at": "2026-11-22T18:56:46+00:00",
+   "built_from_git": {
+    "commit": "bdbdbad1a11f795d7920fa4e24f91a9eedf3ac4c",
+    "dirty": true
+   },
+   "n_files": 981,
+   "bytes": 3215943240,
+   "parent_hf_commit": "ea67478af8296b61ffe9725ffb0d681f2c5e4b18",
+   "note": "corpus fix B: both embedding stores extended (377 texts), retrieval, evaluations, contexts, 121 regenerated answers, rescored labels, scoring tables and analysis, dashboard trace/explorer and LLM caches repacked; nuggets_full and parity_openrouter cache archives reused from the Hub (not on this machine)"
   }
  ]
 }
