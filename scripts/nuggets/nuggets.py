@@ -860,6 +860,49 @@ def cmd_scoretable(a):
     print("tables:", d)
 
 
+def cmd_intext(a):
+    """A2: in-text legal citations of every answer run (no LLM calls; docs/20261122_134404_*)."""
+    import pandas as pd
+    from nuggetizer import analysis as an
+    from nuggetizer import intext_citations as it
+    set_name, nugs = scoring_set(a.set)
+    qs = scoring_questions(a.sample)
+    d = Path(a.out) / "analysis" / set_name / a.judge / a.sample / "intext"
+    d.mkdir(parents=True, exist_ok=True)
+    runs = it.answer_runs(REPO / "runs" / "answers")
+    if a.runs:
+        import fnmatch
+        runs = [r for r in runs if any(fnmatch.fnmatch(r[0], p) for p in a.runs)]
+    print(f"{len(runs)} runs")
+    sc = it.InTextScorer()
+    cit, ans = it.score_runs(runs, sc, set(qs), context_key=scoring.context_key)
+    cit.to_csv(d / "intext_citations.csv.gz", index=False)
+    ans.to_csv(d / "intext_answers.csv.gz", index=False)
+    summ = it.run_summary(cit, ans)
+    summ.to_csv(d / "intext_citations_runs.csv", index=False, float_format="%.4f")
+    show = lambda df: print(df.to_string(index=False, float_format="%.3f"), "\n")  # noqa: E731
+    pd.set_option("display.width", 250)
+    print("== in-text citations, article level")
+    show(summ[summ.level == "article"][["llm", "context_id", "n_answers", "citation_rate", "recall_all",
+                                        "recall_citing", "precision_citing", "cited_any_all"]])
+    lab = an.nugget_labels(Path(a.out) / "score" / set_name / a.judge)
+    lab = lab[lab.question_number.isin(qs)]
+    pq = an.per_question_long(lab, an.nugget_table(nugs), ["run_id", "llm", "context_id"])
+    pq["run_id"] = pq.run_id.str.replace(r"^runs/answers/", "", regex=True)
+    ql = it.quality_link(ans, pq)
+    ql.to_csv(d / "intext_vs_quality.csv", index=False, float_format="%.4f")
+    print("== V_strict by in-text citation (article level)")
+    show(ql[ql.context_id.isin(["closed_book", "S1_budget4000", "S2_budget4000", "oracle_budget4000"])])
+    if not a.no_linker:
+        texts = sorted({c.get("texto") or "" for _, rd in runs if rd.name == "closed_book"
+                        for x in jl_read(rd / "answers.jsonl") for c in (x.get("claims") or [])})
+        counts, ex = it.linker_crosscheck(texts, sc.ix)
+        (d / "linker_crosscheck.json").write_text(json.dumps({"claims": len(texts), "counts": counts, "examples": ex},
+                                                             ensure_ascii=False, indent=1))
+        print("== lexml-linker cross-check (closed-book claims, federal acts):", counts)
+    print(f"wrote {d}")
+
+
 def cmd_analyze(a):
     """The phase 5 analyses without LLM calls (``nuggetizer/analysis.py``): value checks, citation score,
     linkage, utilisation, slices, perturbation, cross-set comparisons, judge agreement."""
@@ -1298,6 +1341,12 @@ def main():
     p.add_argument("--resamples", type=int, default=10_000)
     p.add_argument("--reps", type=int, default=1000, help="perturbation replicates per setting")
     p.set_defaults(fn=cmd_analyze)
+    p = sp.add_parser("intext", help="A2: in-text legal citations of the answers vs gold, validity, context (no LLM)")
+    p.add_argument("--set", default="gold")
+    p.add_argument("--judge", default="gemini-3.8-flash")
+    p.add_argument("--runs", nargs="*", help="run-id glob(s) under runs/answers/ (default: all)")
+    p.add_argument("--no-linker", action="store_true", help="skip the lexml-linker cross-check")
+    p.set_defaults(fn=cmd_intext)
     p = sp.add_parser("ctxaudit", help="phase 5: audit of the oracle context-support result (note §10)")
     p.add_argument("action", choices=["known", "corpus", "classify"])
     p.add_argument("--set", default="gold")

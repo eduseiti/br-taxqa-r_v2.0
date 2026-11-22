@@ -97,7 +97,9 @@ than expected.
   metric) is done:** `rag.py evaluate --token-metrics` → eval id `v3_either_containment_merge_skip` (now the dashboard's),
   unit tokens `segmented/unit_tokens.csv.gz` (`scripts/segmentation/unit_tokens.py`), analyses
   `scripts/report/a1_token_metrics.py`; results `docs/20261122_192653_a1_token_weighted_provision_metric_results.md`.
-  Next: A2 (in-text citations).
+  **A2 (in-text legal citations) is done:** `nuggets.py intext` (`nuggetizer/intext_citations.py`, no API calls, ≈ 40 s)
+  → `nuggets/scoring/analysis/gold-v0-auto/gemini-3.8-flash/all/intext/`; results
+  `docs/20261122_194659_a2_in_text_legal_citations_results.md`. Next: A3 (GPT-6.2 Sol; needs a new OpenRouter key, D2–D4).
   **Hugging Face release:** plan and status in
   `docs/20261024_180016_hugging_face_release_plan.md` (§9: both repos staged private under `eduseiti` on 2026-10-24),
   tooling in `scripts/release/` (`build_release.py`, `push_release.py`, token `HF_RELEASE_TOKEN`), record in

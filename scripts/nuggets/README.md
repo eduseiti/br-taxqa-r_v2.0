@@ -41,7 +41,7 @@ scripts/llm_client/           provider-neutral client (shared with RAG Phase 3 l
 scripts/nuggets/
   nuggets.py                  CLI: sample, create [--replicate], importance, validate, selfscore, align,
                               roundtrip, audit, repair, plant, known build|judge, report, pilotreport,
-                              batch, openrouter-key; phase 5: score, ctxsupport, scoretable, analyze
+                              batch, openrouter-key; phase 5: score, ctxsupport, scoretable, analyze, intext
   probe_openrouter.py         one create_v4 call per model through OpenRouter (route checks, plan §5 step 1)
   models.yaml                 registry: model ids, medium-effort params (D12), prices (checked 2026-10-11);
                               `openrouter:` block per model (id, params, pinned provider, served_provider)
@@ -54,6 +54,8 @@ scripts/nuggets/
                               bootstrap / permutation / chapter-cluster comparisons, default pairs
     analysis.py               phase 5 without LLM: value checks, citation score, linkage, utilisation, slices,
                               perturbation, cross-sets, judge agreement
+    intext_citations.py       A2: legal citations written in the answer text → acts (regex + aliases + anaphors) →
+                              corpus documents; scored against the gold references; validity; context classes
     validate.py               mechanical checks (plan v2 §3.3, §3.5.1), flags
     known_answer.py           known-answer test builders G V Y N D C W E and metrics (plan v2 §5.7)
     planted.py                one planted error per question, to measure auditor sensitivity
@@ -139,6 +141,7 @@ $P $N $S score --runs "$A/answer_v1/sabia-4/S[12]_budget4000" --judge gemini-3.1
 $P $N $S ctxsupport --contexts $C/S1_budget4000 $C/S2_budget4000                      # nuggets vs the context
 $P $N --out nuggets/scoring --sample all scoretable [--set <set>]   # free: tables/<set>/<judge>/<sample>/
 $P $N --out nuggets/scoring --sample all analyze                    # free, ≈ 8 min: analysis/<set>/<judge>/<sample>/
+$P $N --out nuggets/scoring --sample all intext                     # free, ≈ 40 s: analysis/<set>/<judge>/<sample>/intext/
 $P $N --out nuggets/scoring --sample stratified_70 --budget <cap> ctxaudit known|corpus|classify  # note §10
 ```
 
@@ -149,6 +152,11 @@ $P $N --out nuggets/scoring --sample stratified_70 --budget <cap> ctxaudit known
 - Output folders: `score/<set>/<judge>/<run_id>/` and `ctxsupport/<set>/<judge>/<context path>/`, each with
   `labels.jsonl`, `calls.jsonl` and `manifest.json`.
 - Prompts: `assign_v2` for answers, `assign_ctx_v1` for contexts.
+- `intext` (A2, no LLM calls): the in-text legal citations of every run under `runs/answers/` (`--runs <glob>` to
+  restrict), one row per cited unit (`intext_citations.csv.gz`), per answer and level (`intext_answers.csv.gz`),
+  per run (`intext_citations_runs.csv`), V_strict by citation (`intext_vs_quality.csv`) and the `lexml-linker`
+  cross-check (`linker_crosscheck.json`; needs `linkertool` on the PATH, else `--no-linker`). Tests:
+  `scripts/nuggets/tests/test_intext_citations.py`. Results: `docs/20261122_194659_a2_in_text_legal_citations_results.md`.
 - Measured cost (Flash flex): $0.0023 per answer, $0.0044–0.0047 per 4k context; Gemini 3.1 Pro $0.0091 per answer.
 
 ## OpenRouter route (default)

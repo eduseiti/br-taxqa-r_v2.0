@@ -1,0 +1,16 @@
+{
+ "claims": 11672,
+ "counts": {
+  "both": 3184,
+  "linker_only": 0,
+  "regex_only": 1,
+  "regex_only_alias": 268
+ },
+ "examples": [
+  {
+   "tag": "regex_only",
+   "act": "lei.complementar:123",
+   "text": "O MEI não está obrigado a reter e recolher o Imposto de Renda na fonte sobre os valores pagos a ele, mas deve recolher mensalmente o DAS‑MEI, que engloba tributos federais, estaduais e municipais, conforme a LC 123/2006."
+  }
+ ]
+}
