@@ -88,7 +88,10 @@ than expected.
   (S1 vs sub-article units, S2 at the article vs the provision level) and the S1/S2 answer gap by citation
   granularity (S2 helps on sub-article questions, ≈ 0 on whole-article ones), and S3's grouping chunks (no
   document-level gain; whole-article gain grows with the budget):
-  `docs/20261122_130934_retrieval_scoring_granularity_and_answer_quality.md`. **Hugging Face release:** plan and status in
+  `docs/20261122_130934_retrieval_scoring_granularity_and_answer_quality.md`. Plan (not implemented) for scoring the
+  legal citations generators write in their answers (closed book and RAG) against the gold references, and how
+  closed-book runs were kept free of web search: `docs/20261122_134404_in_text_legal_citation_scoring_plan.md`.
+  **Hugging Face release:** plan and status in
   `docs/20261024_180016_hugging_face_release_plan.md` (§9: both repos staged private under `eduseiti` on 2026-10-24),
   tooling in `scripts/release/` (`build_release.py`, `push_release.py`, token `HF_RELEASE_TOKEN`), record in
   `release/hf_release.json`; the Gemini outputs were added to repo B on 2026-11-08
