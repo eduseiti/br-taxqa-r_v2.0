@@ -1,9 +1,18 @@
 # Retrieval scoring across granularities, and its link to answer quality
 
-Date: 2026-11-22. Discussion note (no code changes, no API calls). Covers how the legal-provision
-retrieval test (`scripts/rag/ragpipe/relevance.py`, `evaluation.py`) scores chunks whose granularity
-differs from the gold reference's, and an ad hoc check of whether citation granularity explains the
-S1 vs S2 difference in answer quality (nugget phase 5 scores).
+Date: 2026-11-22. Discussion note (no code changes, no API calls). Covers:
+
+- how the legal-provision retrieval test (`scripts/rag/ragpipe/relevance.py`, `evaluation.py`) scores
+  chunks whose granularity differs from the gold reference's;
+- an ad hoc check of whether citation granularity explains the S1 vs S2 difference in answer quality
+  (nugget phase 5 scores);
+- how S3's grouping chunks fare under the same rules.
+
+All retrieval numbers come from the **main evaluation `either_containment_merge_skip`**, with
+parent/child merging, the setting the generator contexts use. A first version of this note used
+`v2d_either_containment_skip` (containment only, no merge). That overstated S1's lead on whole-article
+citations. The conclusions do not change. The answer results never depended on the evaluation, since
+they come from the merged contexts.
 
 ## Summary
 
@@ -21,14 +30,14 @@ S1 vs S2 difference in answer quality (nugget phase 5 scores).
 
    So for a **whole-article** citation at the provision level, only the S2 ART chunk (or all its parts)
    counts as full. S2's sub-unit chunks count only as "any" hits.
-3. **Retrieval numbers** (jua-4b-mixed, `irpf`, eval `v2d_either_containment_skip`, budget 4000):
+3. **Retrieval numbers** (jua-4b-mixed, `irpf`, budget 4000):
 
    | Gold items | S1 | S2 |
    |---|---|---|
-   | Provision, sub-article (820), full | 0.287 | **0.382** |
-   | Provision, whole-article (1377), full | **0.256** | 0.215 |
-   | Provision, whole-article, any | 0.265 | **0.279** |
-   | Article level (1958) | 0.279 | **0.342** |
+   | Provision, sub-article (820), full | 0.287 | **0.406** |
+   | Provision, whole-article (1377), full | **0.257** | 0.234 |
+   | Provision, whole-article, any | 0.266 | **0.295** |
+   | Article level (1958) | 0.279 | **0.357** |
 
    The S1/S2 ordering flips between the article level and the strict provision level for
    whole-article citations.
@@ -38,7 +47,7 @@ S1 vs S2 difference in answer quality (nugget phase 5 scores).
    - *Sub-article questions:* S2 > S1 for 5 of the 6 generator/embedding pairs. Significant only for
      gpt-5.6-luna with jua (+0.077 V_strict, CI [0.02, 0.14]).
    - *Whole-article questions:* S1 never wins. The answer difference is ≈ 0, although S1 gets the
-     whole cited article into the context about 7 points more often.
+     whole cited article into the context somewhat more often (+3.3 points per question with jua).
 
    The result is **asymmetric, not a crossover**: finer chunks help when the citation is fine-grained
    and cost nothing when it is coarse. The grouping ignores document-level references. Dropping the
@@ -46,15 +55,25 @@ S1 vs S2 difference in answer quality (nugget phase 5 scores).
    with wider CIs.
 5. **Most likely explanation (reason 1, untested):** the gold answer rarely needs the whole article.
    One or two paragraphs suffice, and S2 retrieves them. Supporting this weakly: per question, the strict provision full hit has
-   no relation to answer gains on whole-article questions (Spearman ≈ 0.00). Metrics that also count
-   partial retrieval (article level, provision "any") give the same weak signal (≈ 0.08). An earlier
+   almost no relation to answer gains on whole-article questions (Spearman 0.02). Metrics that also count
+   partial retrieval (article level, provision "any") give the same weak signal (≈ 0.09). An earlier
    broader claim, that the article level generally predicts answer quality better than the provision
    level, was **checked and is wrong**: across all questions the provision metrics are slightly
-   better. All per-question correlations are weak (≤ 0.2).
-6. **Open next steps:** (a) add the granularity grouping as a slice in `nuggets.py analyze`
+   better. All per-question correlations are weak (≤ 0.25).
+6. **S3 (S2 + grouping chunks).** S3 does **not** retrieve better at the document level: ≈ S2 or
+   slightly worse at every budget. It gains where a grouping chunk fully contains what was cited:
+   - whole-article provision: +0.02 over S2 at 4000, +0.06 at 16000;
+   - article level: +0.01 at 4000, +0.03 at 16000.
+
+   Grouping chunks seldom fail to fit (9% of those in the top 10 exceed 4000 tokens). The real cost is
+   crowding out: when one is in the context (58% of the questions at 4000), it takes 32% of the tokens.
+   The hit rule and context precision are both generous to S3. Answers were generated only at 4000,
+   where S3 ≈ S2.
+7. **Open next steps:** (a) add the granularity grouping as a slice in `nuggets.py analyze`
    (`slices_comparisons.csv`, with permutation p and cluster CIs); (b) test reason 1 directly. For
    whole-article questions, check whether S2's partial chunks contain the paragraphs that support the
-   gold nuggets (`ctxsupport` tables).
+   gold nuggets (`ctxsupport` tables); (c) a token-weighted hit, which would remove the generosity
+   towards S1 (§1) and S3 (§5).
 
 ## 1. How S1 chunks are scored against sub-article references
 
@@ -90,11 +109,12 @@ Sub-article slice, provision level (820 items), budget 4000:
 | Strategy | reachable | full hit | any hit |
 |---|---|---|---|
 | S1 | 0.994 | 0.287 | 0.293 |
-| S2 | 0.994 | **0.382** | 0.394 |
-| S3 | 0.994 | 0.379 | 0.389 |
-| S2c / S4 | 0.994 | 0.340 | 0.352 |
+| S2 | 0.994 | **0.406** | 0.412 |
+| S3 | 0.994 | 0.407 | 0.413 |
+| S2c | 0.994 | 0.380 | 0.387 |
+| S4 | 0.994 | 0.373 | 0.380 |
 
-S1's reachability equals S2's. It loses about 10 points in the budget view because whole articles
+S1's reachability equals S2's. It loses about 12 points in the budget view because whole articles
 crowd each other out, and possibly because a long article's embedding is diluted relative to a
 focused paragraph.
 
@@ -126,14 +146,16 @@ whose key contains "art"):
 
 | Strategy | Provision, whole-article: full | Provision, whole-article: any | Article level |
 |---|---|---|---|
-| S1 | **0.256** | 0.265 | 0.279 |
-| S2 | 0.215 | **0.279** | **0.342** |
-| S2c | 0.188 | 0.276 | 0.325 |
-| S3 | 0.224 | 0.285 | 0.344 |
+| S1 | **0.257** | 0.266 | 0.279 |
+| S2 | 0.234 | 0.295 | 0.357 |
+| S2c | 0.245 | 0.300 | 0.347 |
+| S3 | 0.253 | 0.307 | **0.365** |
+| S4 | **0.271** | **0.318** | 0.356 |
 
-At the article level S2 beats S1 by ~6 points. At the provision level, whole-article citations, S2 is
-below S1 on full hits: its sub-unit chunks often outrank the ART chunk and use up budget without
-fully covering the cited unit. On "any" hits S2 is slightly ahead again.
+At the article level S2 beats S1 by ~8 points. At the provision level, whole-article citations, S2 is
+below S1 on full hits (by 2.3 points): its sub-unit chunks often outrank the ART chunk and use up budget
+without fully covering the cited unit. On "any" hits S2 is ahead again, by 3 points. S3/S4 recover the
+full-hit gap through grouping chunks that contain the whole article (§5).
 
 The two levels ask different questions. The article level asks whether the system found the right
 article. The provision level asks whether it delivered the whole cited unit. For whole-article
@@ -150,8 +172,8 @@ only sub-article units.
 
 **Method.**
 
-- Questions are grouped by their statutory provision-level gold items (S1 rows of `per_item.csv.gz`,
-  eval `v2d_either_containment_skip`):
+- Questions are grouped by their statutory provision-level gold items (S1 rows of `per_item.csv.gz`;
+  the grouping is the same in every evaluation):
   - `whole_only`: all such items have `sub_article = False`;
   - `sub_only`: all have `sub_article = True`;
   - `mixed`: both kinds;
@@ -169,9 +191,12 @@ only sub-article units.
 
 | Group | jua S1 | jua S2 | gemini S1 | gemini S2 |
 |---|---|---|---|---|
-| whole_only | **0.444** | 0.368 | **0.437** | 0.397 |
-| sub_only | 0.410 | **0.558** | 0.450 | **0.580** |
-| mixed | 0.298 | 0.323 | 0.307 | 0.347 |
+| whole_only | **0.444** | 0.411 | **0.437** | 0.420 |
+| sub_only | 0.410 | **0.580** | 0.450 | **0.597** |
+| mixed | 0.299 | **0.353** | 0.307 | **0.371** |
+
+The premise holds in both directions, but asymmetrically. S2's lead on sub-article questions
+(+15–17 points) is much larger than S1's on whole-article ones (+2–3 points).
 
 **Answer quality: V_strict difference, S2 − S1, with 95% bootstrap CI.** gemini-emb-2 answers exist only for
 gpt-5.6-luna and sabia-4:
@@ -191,15 +216,17 @@ gpt-5.6-luna and sabia-4:
 
 - Sub-article questions: S2 ahead for 5 of the 6 generator/embedding pairs, significant for one.
   These questions carry a good share of the overall S2 > S1 gain.
-- Whole-article questions: S1 never wins, despite its ~7-point retrieval advantage on full hits.
+- Whole-article questions: S1 never wins. Its retrieval advantage on full hits there is small
+  (+3.3 points with jua), and S2 leads on "any" hits.
 - Mixed: in between, near the overall average (+0.02).
 
 Possible reasons for the whole-article result:
 
 1. the gold answer rarely needs the whole article: one or two paragraphs suffice, and S2 retrieves
-   them (its "any" hit rate there is slightly higher than S1's);
+   them (its "any" hit rate there is higher than S1's);
 2. some whole-article annotations really point at a specific paragraph;
-3. a full S1 article uses budget that S2 spends on other relevant material.
+3. a full S1 article uses budget that S2 spends on other relevant material;
+4. S1's full-hit advantage is small to begin with.
 
 **Document-level references.** The grouping uses only statutory provision-level items. Document-level
 references are ignored, and so are the 25 non-statutory provision items. Every article citation also
@@ -213,9 +240,9 @@ mixed 130). Retrieval gaps widen. Provision full hit at 4000, S1 / S2:
 
 | Group | jua S1 | jua S2 | gemini S1 | gemini S2 |
 |---|---|---|---|---|
-| whole_only | **0.534** | 0.441 | **0.538** | 0.478 |
-| sub_only | 0.464 | **0.601** | 0.537 | **0.656** |
-| mixed | 0.382 | 0.398 | 0.383 | 0.414 |
+| whole_only | **0.534** | 0.490 | **0.538** | 0.510 |
+| sub_only | 0.464 | **0.635** | 0.537 | **0.665** |
+| mixed | 0.382 | **0.433** | 0.383 | **0.438** |
 
 V_strict difference, S2 − S1 [95% CI]:
 
@@ -249,34 +276,102 @@ answer gain S2 − S1 in V_strict. Spearman correlation, jua, budget 4000, mean 
 
 | Questions | Article | Provision full | Provision any |
 |---|---|---|---|
-| all (551) | 0.080 | 0.107 | 0.113 |
-| whole_only (186) | 0.082 | **0.004** | 0.082 |
-| sub_only (130) | 0.043 | 0.110 | 0.125 |
-| mixed (235) | 0.095 | 0.144 | 0.116 |
+| all (551) | 0.077 | 0.124 | 0.114 |
+| whole_only (186) | 0.091 | **0.024** | 0.092 |
+| sub_only (130) | 0.038 | 0.126 | 0.124 |
+| mixed (235) | 0.100 | 0.158 | 0.125 |
 
-Per generator, all (article / prov. full / prov. any): luna 0.112 / 0.154 / 0.141; terra 0.049 /
-0.061 / 0.080; sabia-4 0.071 / 0.107 / 0.096; sabiazinho-4 0.086 / 0.104 / 0.133. Whole_only, provision
-full: luna 0.167, terra −0.174, sabia-4 −0.018, sabiazinho-4 0.040.
+Per generator, all (article / prov. full / prov. any): luna 0.076 / 0.150 / 0.108; terra 0.063 /
+0.095 / 0.108; sabia-4 0.073 / 0.144 / 0.110; sabiazinho-4 0.095 / 0.106 / 0.129. Whole_only, provision
+full: luna 0.235, terra −0.127, sabia-4 −0.022, sabiazinho-4 0.011.
 
-- **The general claim is wrong:** over all questions the article level tracks answer gains slightly
-  worse than the provision metrics.
-- **A narrow version holds:** on whole-article questions the strict full hit has no relation to
+- **The general claim is wrong:** over all questions the article level tracks answer gains worse
+  than the provision metrics.
+- **A narrow version holds:** on whole-article questions the strict full hit has almost no relation to
   answer gains, while counting partial retrieval restores the weak signal. This fits reason 1:
-  for these questions, part of the article is about as useful as all of it.
-- All correlations are weak (≤ 0.2) and vary by generator. Per-question answer differences are noisy:
+  for these questions, part of the article is about as useful as all of it. It is not consistent across
+  generators, though: gpt-5.6-luna shows the opposite (0.235).
+- All correlations are weak (≤ 0.25) and vary by generator. Per-question answer differences are noisy:
   many questions have identical retrieval under both strategies but different answers (generator
   variance, judge noise). So this is a hint, not evidence.
 
 Corrected statement: *for whole-article citations, the strict provision hit does not track answer
-quality, while metrics that also count partial retrieval do, weakly.*
+quality on average, while metrics that also count partial retrieval do, weakly.*
 
-## 5. Next steps
+## 5. S3: grouping chunks under the same rules
+
+S3 = S2 + chunks for each grouping (parte, livro, título, subtítulo, capítulo, seção, subseção),
+holding the whole grouping's text. Groupings above 8,192 tokens were not emitted
+(`groupings_over_limit.csv`). Grouping chunks are never split into parts.
+
+**How they are scored.** A grouping chunk is a hit at every level for everything inside it:
+
+- document level: its document;
+- article level: every article whose interval it contains (G2);
+- provision level: every unit it contains, as a **full** hit (G5).
+
+**Retrieval by level** (jua, budget view, full hit; whole-article = all provision items with
+`sub_article = False`, so these numbers differ slightly from §2's filtered ones):
+
+| Gold items | Budget | S1 | S2 | S3 | S3 − S2 |
+|---|---|---|---|---|---|
+| Document | 1000 / 4000 / 16000 | 0.298 / 0.503 / 0.708 | 0.395 / 0.575 / 0.752 | 0.392 / 0.568 / 0.744 | −0.003 / −0.007 / −0.008 |
+| Article | 1000 / 4000 / 16000 | 0.126 / 0.279 / 0.450 | 0.211 / 0.357 / 0.528 | 0.213 / 0.365 / 0.560 | +0.002 / +0.008 / +0.032 |
+| Provision, whole article | 1000 / 4000 / 16000 | 0.119 / 0.251 / 0.395 | 0.091 / 0.228 / 0.377 | 0.095 / 0.248 / 0.438 | +0.004 / +0.020 / +0.061 |
+| Provision, sub-article | 1000 / 4000 / 16000 | 0.110 / 0.287 / 0.506 | 0.222 / 0.406 / 0.640 | 0.222 / 0.407 / 0.645 | 0 / +0.001 / +0.005 |
+
+At 2000 and 8000 the pattern is the same (whole-article S3 − S2: +0.010, +0.045; article: +0.002,
++0.021; document: −0.002, −0.006).
+
+- **Document level:** no gain. Documents are already easy for S2: one of the top 10 distinct
+  documents is right for 96% of questions (unit view, hit@10 0.958 for S2 and S3). A grouping chunk
+  brings no new document and takes budget from chunks that might. An S3 context at 4000 has 11.6
+  texts from 6.1 documents, against S2's 12.6 from 6.3.
+- **Whole-article citations:** this is where the grouping chunks pay off. A chapter or section chunk
+  fully contains its articles, so it is a full hit without needing the ART chunk or all the parts of a
+  split article (`reachable_by_parts_only` drops from 11.9% to 4.6%). At 4000 S3 ≈ S1. At 16000 it is
+  clearly ahead of both S1 and S2.
+- **Article level:** same pattern, small at 4000 and +3 points at 16000. A bigger budget lets more
+  chapter-size chunks in, each counting for every article inside it.
+- **Sub-article citations:** no change. S2's paragraph and inciso chunks already deliver them.
+
+**Do grouping chunks fit in the budget?**
+
+- Size: median 692 tokens, 90th percentile 3030, 99th 7194 (other chunks: median 189). By type,
+  median CAP 910, SEC 604, SSC 521, TIT 1886.
+- Ranking (S3 rankings, jua): groupings are 6.8% of the top-10 texts. 46% of questions have one in
+  the top 10, 20% in the top 3, 7% in first place.
+- Not fitting is a minor issue: 9% of the top-10 groupings are above 4000 tokens (skipped at that
+  budget, `overflow = skip`), 16% above 2000.
+- Crowding out is the real cost. 58% of the S3 contexts at 4000 contain at least one grouping chunk
+  (S4: 60%), and when they do it takes **32% of the tokens** on average (19% over all questions). The
+  parent/child merge softens this: a grouping that ranks below some of its own articles replaces
+  them and costs only the extra tokens.
+
+**Caveats.**
+
+1. *The hit rule is generous to S3.* A chapter with 20 articles is a full hit for all of them, even
+   when the relevant paragraph is a small part of 3000 tokens: the S1-vs-sub-article issue of §1 one
+   level up.
+2. *S3's context precision is inflated.* It looks clearly better than S2's (article level: 0.169 vs
+   0.145 at 4000, 0.124 vs 0.069 at 16000; provision: 0.162 vs 0.136 at 4000). But all the tokens of a
+   grouping chunk that holds a gold article count as relevant. This measures the metric's design, not
+   cleaner contexts. A token-weighted hit would fix both caveats.
+
+**Answers.** S3 ≈ S2 overall at 4000 (phase 5 note). Generation ran only at 4000, where S3's
+retrieval gain is still small. The +4 to +6 points on whole articles at 8000–16000 are untested on
+answers.
+
+## 6. Next steps
 
 1. Add the granularity grouping (`whole_only` / `sub_only` / `mixed` / `none`) as a slice in
    `nuggets.py analyze`, so it lands in `slices_comparisons.csv` with permutation p and cluster CIs.
 2. Test reason 1 directly. For whole_only questions, check whether S2's partial chunks contain the
    paragraphs that support the gold nuggets (`ctxsupport` tables).
-3. Optionally, a token-weighted provision hit (§1 caveat).
+3. A token-weighted hit (unit tokens / chunk tokens), which removes the generosity towards S1 (§1) and
+   S3 (§5) and the inflation of S3's context precision.
+4. If S3 is to be tested on answers, use a larger budget (8000–16000), where its retrieval gain on
+   whole-article citations appears.
 
 ## Appendix: reproduction
 
@@ -287,7 +382,7 @@ import sys, numpy as np, pandas as pd
 args = [x for x in sys.argv[1:] if not x.startswith("--")]
 emb = args[0] if args else "jua-4b-mixed"        # or gemini-emb-2; add --pure for the §3 robustness check
 suffix = "" if emb == "jua-4b-mixed" else "@" + emb
-d = pd.read_csv(f"runs/retrieval/{emb}/irpf/eval/v2d_either_containment_skip/per_item.csv.gz")
+d = pd.read_csv(f"runs/retrieval/{emb}/irpf/eval/either_containment_merge_skip/per_item.csv.gz")
 d["question_number"] = d.question_number.astype(str)
 s1 = d[d.strategy == "S1"]
 prov = s1[(s1.level == "provision") & s1.statutory]
@@ -301,6 +396,11 @@ docq = s1[s1.level == "document"]
 doc_only = set(docq.question_number[[(q, i) not in docs_with_art for q, i in zip(docq.question_number, docq.item)]])
 if "--pure" in sys.argv:
     cls = cls[~cls.index.isin(doc_only)]
+
+# retrieval premise: provision full-hit recall at 4000 per class
+p = d[(d.level == "provision") & d.statutory & d.strategy.isin(["S1", "S2"])]
+r = p.groupby(["question_number", "strategy"]).budget_full_4000.mean().unstack().join(cls.rename("cls"), how="inner")
+print(r.groupby("cls")[["S1", "S2"]].mean().round(3))
 
 pq = pd.read_csv("nuggets/scoring/tables/gold-v0-auto/gemini-3.8-flash/all/per_question.csv.gz")
 pq["question_number"] = pq.question_number.astype(str)
@@ -318,4 +418,9 @@ for llm, x in pq[pq.context_id.isin([a, b])].groupby("llm"):
 
 For §4: per question, the retrieval gain is the mean over gold items of `budget_full_4000`
 (article level; provision level, statutory) or `budget_any_4000` (provision), S2 minus S1. It is
-correlated (Spearman) with the V_strict gain, per generator and per group.
+correlated (Spearman) with the V_strict gain, per generator and per group (`none` excluded).
+
+For §5: the level × budget table is `per_item.csv.gz` averaged by strategy. The unit view and context
+precision come from `metrics.csv` (`gold = all`, `slice = all`). The grouping-chunk statistics come from
+`segmented/chunks_all.csv.gz` (`Tipo` in PRT…SSC), `runs/retrieval/jua-4b-mixed/irpf/S3/rankings.csv.gz`
+and `runs/contexts/jua-4b-mixed/irpf/S3_budget4000/contexts.jsonl.gz` (`items[].tipo`, `tokens_qwen3`).

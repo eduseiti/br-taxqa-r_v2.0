@@ -86,7 +86,8 @@ than expected.
   `docs/20261023_210727_rag_phase5_scoring_and_analysis.md` (S2 > S1 by +0.02–0.03 V_strict, robust; S3/S2c/S4 ≈ S2;
   next: stages 3–4, §9 there). How the retrieval test scores chunks of a granularity other than the gold's
   (S1 vs sub-article units, S2 at the article vs the provision level) and the S1/S2 answer gap by citation
-  granularity (S2 helps on sub-article questions, ≈ 0 on whole-article ones):
+  granularity (S2 helps on sub-article questions, ≈ 0 on whole-article ones), and S3's grouping chunks (no
+  document-level gain; whole-article gain grows with the budget):
   `docs/20261122_130934_retrieval_scoring_granularity_and_answer_quality.md`. **Hugging Face release:** plan and status in
   `docs/20261024_180016_hugging_face_release_plan.md` (§9: both repos staged private under `eduseiti` on 2026-10-24),
   tooling in `scripts/release/` (`build_release.py`, `push_release.py`, token `HF_RELEASE_TOKEN`), record in
