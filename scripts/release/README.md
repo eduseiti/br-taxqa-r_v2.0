@@ -59,3 +59,18 @@ Two points about `datasets` that shaped the layout:
 
 The dataset viewer does not run on private repos of non-PRO accounts. Check it after publication.
 Published revisions are recorded in `release/hf_release.json`.
+
+## `push_space.py`: the explorer as a static Space
+
+Puts the corpus & question explorer (`docs/explorer/`) and the results dashboard (`docs/dashboard/`) online as the
+static Space `eduseiti/BR-TaxQA-R-explorer` (card: `cards/space.md`). Build the data first
+(`build_dashboard_data.py`, `build_trace_data.py`, `build_explorer_data.py`), then:
+
+```bash
+.venv/bin/python scripts/release/push_space.py --dry-run          # stage ../br-taxqa-r_hf_release/space/, compare
+.venv/bin/python scripts/release/push_space.py --delete-extra     # upload (private unless --public)
+```
+
+A static Space serves only the folder that holds `app_file`. So the explorer goes to the Space root, the dashboard
+to `dashboard/`, and the explorer's three `../dashboard/` paths are rewritten in the staged copy. A private Space is
+visible only when logged in to the Hub. Record each upload in `release/hf_release.json`.

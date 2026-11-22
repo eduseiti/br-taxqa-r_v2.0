@@ -143,6 +143,24 @@
    "bytes": 3274071143,
    "parent_hf_commit": "4ea3a09d88204c0a30a7fd434cb0c517a12cb904",
    "note": "A1-A3 (docs/20261122_192653_*, 194659_*, 205115_*): GPT-6.2 Sol answers (4 runs x 715) and labels, in-text citation tables, token-metric and Sol analyses, refreshed scoring tables/analyses (stratified_30 analysis was stale), card (Sol, headline values after fix B, archive counts), answer/scoring caches and dashboard trace/explorer repacked; other archives reused"
+  },
+  {
+   "stage": "staging (private)",
+   "repo_id": "eduseiti/BR-TaxQA-R-explorer",
+   "repo_type": "space",
+   "url": "https://huggingface.co/spaces/eduseiti/BR-TaxQA-R-explorer",
+   "direct_url": "https://eduseiti-br-taxqa-r-explorer.static.hf.space/",
+   "hf_commit": "be4bdf94bd43e1dec579069d267877b2f2c6a33e",
+   "tag": null,
+   "uploaded": "2026-11-22",
+   "built_at": "2026-11-22T23:36:20+00:00",
+   "built_from_git": {
+    "commit": "622a80341da91816ca373a732241c2f33c47f93b",
+    "dirty": true
+   },
+   "n_files": 1957,
+   "bytes": 515259432,
+   "note": "static Space with the corpus & question explorer at the root and the results dashboard in dashboard/ (scripts/release/push_space.py; docs/20261122_233723_hugging_face_space_explorer.md); same data as raw/dashboard_trace.tar.gz and raw/dashboard_explorer.tar.gz of repo B 74fc95f. Dirty = only push_space.py and its card, not yet committed"
   }
  ]
 }

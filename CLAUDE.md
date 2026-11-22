@@ -123,7 +123,9 @@ than expected.
   (`raw/dashboard_trace.tar.gz`, `docs/20261115_141728_hugging_face_update_dashboard_trace.md`).
   **Corpus & question explorer** (the newer dashboard; the results dashboard is kept as a reference):
   `docs/explorer/index.html`, built on the trace data plus `scripts/report/build_explorer_data.py` (≈ 20 s, gitignored
-  `docs/explorer/data/`): `docs/20261115_145149_corpus_and_question_explorer.md`.
+  `docs/explorer/data/`): `docs/20261115_145149_corpus_and_question_explorer.md`. Both pages are online as the private
+  static Space `eduseiti/BR-TaxQA-R-explorer` (`scripts/release/push_space.py`; the explorer sits at the Space root,
+  because a static Space serves only the `app_file` folder): `docs/20261122_233723_hugging_face_space_explorer.md`.
 - **`nuggets/`** — nugget pipeline outputs (`scripts/nuggets/nuggets.py`), one folder per run
   (`preview/`, `preview_v2/`, `preview_v3/`; `pilot/` next): nuggets, validation, self-score
   labels, the cost ledger `costs.csv` and `report.md`. Raw API responses (`cache/`) and the input
